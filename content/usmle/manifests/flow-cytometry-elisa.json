@@ -1,0 +1,340 @@
+{
+  "topicId": "flow-cytometry-elisa",
+  "title": "Flow Cytometry & ELISA",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      74
+    ],
+    "bookPages": "52"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Flow cytometry assesses size, granularity, and protein expression (immunophenotype) of individual cells in a sample",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "size, granularity, and protein expression",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cells are tagged with antibodies specific to surface or intracellular proteins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Cells are tagged with antibodies specific to surface or intracellular proteins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antibodies are then tagged with a unique fluorescent dye",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Antibodies are then tagged with a unique fluorescent dye",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sample is analyzed one cell at a time by focusing a laser on the cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "one cell at a time by focusing a laser on the cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The instrument measures light scatter and intensity of fluorescence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "light scatter and intensity of fluorescence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Data are plotted as a histogram (one measure) or scatter plot (any two measures)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "plotted either as histogram (one measure) or scatter plot (any two measures",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cells in the left lower quadrant are negative for both CD8 and CD3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "for both CD8 and CD3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The right lower quadrant is empty because all CD8-expressing cells also express CD3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "right lower quadrant is empty because all CD8-expressing cells also express CD3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flow cytometry is used in hematologic abnormalities: leukemia, PNH, fetal RBCs in pregnant person's blood",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "leukemia, paroxysmal nocturnal hemoglobinuria, fetal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flow cytometry is used in immunodeficiencies (eg, CD4+ cell count in HIV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "CD4+ cell count in HIV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels: Anti-CD3 Ab and Anti-CD8 Ab tag the cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Anti-CD3 Ab",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure annotation: laser makes label fluoresce; fluorescence is detected and labeled cells are counted",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Laser makes label fluoresce",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microarrays compare the relative transcription of genes in two RNA samples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "compare the relative transcription of genes in two RNA samples",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microarrays can detect SNPs and CNVs for genotyping, clinical genetic testing, forensic analysis, and cancer mutation/linkage analysis when DNA is used",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Can detect single nucleotide polymorphisms (SNPs) and copy number variants (CNVs)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ELISA detects a specific antigen (direct) or antibody (indirect) in a patient's blood sample",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "detect the presence of either a specific antigen (in direct ELISA) or antibody (in indirect ELISA)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ELISA detection uses an antibody linked to an enzyme; added substrate reacts with the enzyme producing a detectable signal",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Added substrate reacts with the enzyme, producing a detectable signal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ELISA can have high sensitivity and specificity but is less specific than Western blot",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Can have high sensitivity and specificity, but is less specific than Western blot",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ELISA is often used to screen for HIV infection",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Often used to screen for HIV infection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Direct ELISA figure: labeled 1° antibody binds antigen; substrate and enzyme produce the detectable signal",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Labeled 1° antibody",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Indirect ELISA figure: labeled 2° antibody detects the bound primary antibody",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "quote": "Labeled 2° antibody",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "flow-cytometry-laser-path",
+    "cd-cd-quadrant-plot",
+    "elisa-direct-indirect"
+  ],
+  "mechanismIds": [
+    "flow-cytometry-immunophenotype",
+    "elisa-detection-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (quadrant-reading patterns, ELISA-algorithm traps, per-cell-vs-bulk pivots, HIV-screen mini-case with answer autopsy) built on the cited First Aid page."
+    },
+    {
+      "id": "immunodetection-stack",
+      "origin": "outside-first-aid",
+      "summary": "The test-choice framing across the immunologic stack (flow cytometry = per-cell counting; ELISA = bulk antigen/antibody screen; Western = protein-size confirmation) and the microarray placement (population-level expression/genotype).",
+      "rationale": "First Aid describes each instrument separately; organizing them into one decision frame — what unit does the question measure? — is KYP pedagogy.",
+      "location": "blocks: table 'The immunodetection stack — who detects what'; core.keyIdea; usmle.pivots"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

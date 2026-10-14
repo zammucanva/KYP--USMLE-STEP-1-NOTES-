@@ -1,0 +1,115 @@
+{
+  "topicId": "hypersensitivity-types",
+  "title": "Hypersensitivity Types",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      131,
+      132,
+      133,
+      134
+    ],
+    "bookPages": "109–112"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Hypersensitivity is classified into four types: anaphylactic/atopic (I), antibody-mediated (II), immune complex (III), delayed (IV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          132
+        ],
+        "bookPages": "110"
+      },
+      "quote": "Hypersensitivity types Four types: Anaphylactic and atopic (type I), antibody-mediated (type II), immune complex (type",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type I mnemonic: First and Fast (anaphylaxis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          132
+        ],
+        "bookPages": "110"
+      },
+      "quote": "First (type) and Fast (anaphylaxis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transfusion reactions are classified by immunologic mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          132
+        ],
+        "bookPages": "110"
+      },
+      "quote": "Transfusion reactions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hypersensitivity-mechanisms"
+  ],
+  "mechanismIds": [
+    "type1",
+    "type2",
+    "type3",
+    "type4"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

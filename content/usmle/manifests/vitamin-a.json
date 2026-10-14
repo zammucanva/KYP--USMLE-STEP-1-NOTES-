@@ -1,0 +1,220 @@
+{
+ "topicId": "vitamin-a",
+ "title": "Vitamin A",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Fat-Soluble Vitamins",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   86
+  ],
+  "bookPages": "64"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "Vitamin A includes retinal, retinol, retinoic acid",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Includes retinal, retinol, retinoic acid.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Function: visual pigments, epithelial differentiation, prevents squamous metaplasia",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Antioxidant; constituent of visual pigments (retinal); essential for normal differentiation of epithelial cells into specialized tissue (pancreatic cells, mucus-secreting cells); prevents squamous metaplasia.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Bitot spots: keratin debris with foamy appearance on conjunctiva (photograph label A)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "conjunctival squamous metaplasia → Bitot spots (keratin debris; foamy appearance on conjunctiva A ); corneal degeneration (keratomalacia); immunosuppression.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Deficiency: nyctalopia, xerosis cutis, xerophthalmia, keratomalacia, immunosuppression",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Night blindness (nyctalopia); dry, scaly skin (xerosis cutis); dry eyes (xerophthalmia)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Retinol is vitamin A — think retin-A for wrinkles and acne",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Retinol is vitamin A, so think retin-A (used topically for wrinkles and Acne).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Sources: liver and leafy vegetables",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Found in liver and leafy vegetables.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Vitamin A supplementation in measles may improve outcomes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Supplementation in vitamin A-deficient measles patients may improve outcomes.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Isotretinoin for severe cystic acne; all-trans retinoic acid for APL",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Use oral isotretinoin to treat severe cystic acne. Use all-trans retinoic acid to treat acute promyelocytic leukemia.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Teratogenic via homeobox gene — ⊝ pregnancy test + two contraception forms required",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Teratogenic (interferes with homeobox gene; cleft palate, cardiac abnormalities), therefore a ⊝ pregnancy test and two forms of contraception are required before isotretinoin (vitamin A derivative) is prescribed.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Acute toxicity: nausea, vomiting, ↑ICP",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Acute toxicity—nausea, vomiting, ↑ ICP (eg, vertigo, blurred vision).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Chronic toxicity: alopecia, dry skin, hepatotoxicity, arthralgias, IIH",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Chronic toxicity—alopecia, dry skin (eg, scaliness), hepatic toxicity and enlargement, arthralgias, and idiopathic intracranial hypertension.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "bitot-spots-illustration"
+ ],
+ "mechanismIds": [
+  "vitamin-a-deficiency-cascade"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (dusk-blindness stem, isotretinoin protocol stem, chronic-toxicity stem, APL differentiation-therapy stem, plus the CF Bitot-spots mini-case with answer autopsy)."
+  },
+  {
+   "id": "three-forms-anchor",
+   "origin": "outside-first-aid",
+   "rationale": "Grouping the page's facts under retinal/retinol/retinoic-acid and deriving the deficiency cascade from the two mechanisms is a KYP-original scaffold.",
+   "location": "core.keyIdea + mechanism 'vitamin-a-deficiency-cascade' + text block 'The three forms and what each one does'",
+   "summary": "The form-to-function-to-deficiency-sign mapping (retinal → nyctalopia; retinoic acid → metaplasia; retinol → sources/toxicity) that turns a fact list into a causal chain."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

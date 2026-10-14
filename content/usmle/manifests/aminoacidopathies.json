@@ -1,0 +1,2071 @@
+{
+  "topicId": "aminoacidopathies",
+  "title": "Amino Acidopathies",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Amino Acidopathies",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      104,
+      105
+    ],
+    "bookPages": "82–83"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "PKU enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Caused by ↓ phenylalanine hydroxylase (PAH).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tyrosine becomes essential",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Tyrosine becomes essential. ↑ phenylalanine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phenyl ketones in urine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "↑ phenyl ketones in urine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BH4 deficiency intro",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Tetrahydrobiopterin (BH4) deficiency—BH4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BH4 essential cofactor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "essential cofactor for PAH. BH4 deficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BH4 clinical severity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Varying degrees of clinical",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Untreated BH4 course",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Untreated patients typically die in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Untreated BH4 infancy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "infancy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Embryopathy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Phenylalanine embryopathy—↑ phenylalanine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Embryopathy findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "fetal\n growth restriction, microcephaly, intellectual",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Embryopathy prevention",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Can be\nprevented with dietary measures.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU inheritance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Autosomal recessive.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Screening timing",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Screening occurs 2-3 days after birth (normal at",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Screening normal at birth",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "birth because of maternal enzyme during fetal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Screening fetal life",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "life).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU findings 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Findings: intellectual disability, microcephaly,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU findings 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "seizures, hypopigmented skin, eczema, musty",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU findings 3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "body odor. Findings are rare due to neonatal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU findings 4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "screening.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU treatment 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Treatment: ↓ phenylalanine and ↑ tyrosine in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU treatment 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "diet (eg, soy products, chicken, fish, milk),",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BH4 supplementation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "tetrahydrobiopterin supplementation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phenyl ketones named",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Phenyl ketones—phenylacetate, phenyllactate,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phenyl ketones named 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "and phenylpyruvate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aromatic amino acid metabolism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Disorder of aromatic amino acid metabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Musty body odor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "musty body odor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspartame 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Patients with PKU must avoid the artificial",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspartame 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "sweetener aspartame, which is converted to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspartame 3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "phenylalanine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dietary protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Dietary protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: aspartame",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Aspartame",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phenyl ketones",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Phenyl ketones",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: PKU",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "PKU",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phenylalanine hydroxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Phenylalanine\nhydroXylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phenylalanine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Phenylalanine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: endogenous protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Endogenous\nprotein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tyrosine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Tyrosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: thyroxine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "ThyroXine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dopamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Dopamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: melanin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Melanin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: NE/epi",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Norepinephrine/epinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tetrahydrobiopterin BH4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Tetrahydrobiopterin BH4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: BH2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "BH2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dihydropteridine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Dihydropteridine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: reductase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "reduCtase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: NAD+",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "NAD+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: NADH + H+",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "NADH + H+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD section title",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Maple syrup urine\ndisease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Blocked degradation of branched amino acids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD branched list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "(isoleucine, leucine, valine) due to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "branchedchain α-ketoacid dehydrogenase (B1). Causes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD ketoacids",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "↑ α-ketoacids in the blood, especially those of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD leucine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "leucine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD treatment 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Treatment: restriction of isoleucine, leucine,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD treatment 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "valine in diet, and thiamine supplementation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Presentation: vomiting, poor feeding, secretions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD secretions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "(urine, sweat, ear wax) smell like maple syrup/",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD burnt sugar",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "burnt sugar. Causes progressive neurologic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD decline",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "decline, including seizures and dystonia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD mnemonic 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "I love Vermont maple syrup from maple trees",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MSUD mnemonic 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "(with B1ranches).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alkaptonuria section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Alkaptonuria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alkaptonuria enzyme 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Congenital deficiency of homogentisate oxidase in the",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alkaptonuria enzyme 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "degradative pathway of tyrosine to fumarate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Homogentisic acid buildup",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "pigment-forming homogentisic acid builds up in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Homogentisic acid tissue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "tissue. Autosomal recessive. Usually benign.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ochronosis findings 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "Findings: bluish-black connective tissue, ear",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ochronosis findings 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "cartilage, and sclerae (ochronosis A ); urine turns",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Black urine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "black on prolonged exposure to air. May have",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Arthralgias 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "debilitating arthralgias (homogentisic acid toxic to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Arthralgias 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "quote": "cartilage).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Homocystinuria section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Homocystinuria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Homocystinuria causes intro",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Causes (all autosomal recessive):",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "All forms excess homocysteine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "All forms result in excess homocysteine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystathionine synthase deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystathionine synthase deficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Synthase deficiency treatment 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "(treatment: ↓ methionine, ↑ cysteine, ↑ B6,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Synthase deficiency treatment 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "B12, and folate in diet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLP affinity deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "↓ affinity of cystathionine synthase for",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLP affinity treatment 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "pyridoxal phosphate (treatment: ↑↑ B6 and",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLP affinity treatment 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "↑ cysteine in diet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methionine synthase deficiency 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methionine synthase (homocysteine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methionine synthase deficiency 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "methyltransferase) deficiency (treatment:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methionine synthase treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "↑ methionine in diet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MTHFR deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methylenetetrahydrofolate reductase (MTHFR)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MTHFR treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "deficiency (treatment: ↑ folate in diet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HOMOCYstinuria mnemonic 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "HOMOCYstinuria: ↑↑ Homocysteine in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HOMOCYstinuria mnemonic 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "urine, Osteoporosis, Marfanoid habitus,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ocular changes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Ocular changes (downward and inward",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lens subluxation phrase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "lens subluxation), Cardiovascular effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cardiovascular effects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "(thrombosis and atherosclerosis → stroke",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Stroke MI",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "and MI), kYphosis, intellectual disability,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypopigmented skin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "hypopigmented skin. In homocystinuria, lens",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Down and in",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "subluxes “down and in” (vs Marfan, “up and",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Up and fans out",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "fans out”).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methionine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methionine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methionine synthase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methionine\nsynthase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: homocysteine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Homocysteine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methyl B12",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methyl B12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cystathionine synthase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystathionine\nsynthase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: serine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Serine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cystathionine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystathionine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: B6 + cysteine + methyl folate markers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "B6\nCysteine\nB6\nMethyl folate + B12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cysteine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cysteine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methyl folate + B12",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methyl folate + B12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystinuria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria transporter 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Hereditary defect of renal PCT and intestinal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria transporter 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "amino acid transporter that prevents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "COLA list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "reabsorption of Cystine, Ornithine, Lysine,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "COLA arginine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "and Arginine (COLA).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystine disulfide 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystine is made of 2 cysteines connected by a",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystine disulfide 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "disulfide bond.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hexagonal stones 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Excess cystine in the urine can lead to recurrent",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hexagonal stones 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "precipitation of hexagonal cystine stones.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria treatment 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Treatment: urinary alkalinization (eg, potassium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria treatment 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "citrate, acetazolamide) and chelating agents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Penicillamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "(eg, penicillamine) ↑ solubility of cystine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria treatment rest",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "stones; good hydration; diet low in methionine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystinuria frequency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Autosomal recessive. Common (1:7000).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nitroprusside test 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Cystinuria detected with urinary sodiumcyanide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nitroprusside test 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "nitroprusside test and proton nuclear",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NMR spectroscopy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "magnetic resonance spectroscopy of urine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Organic acidemias section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Organic acidemias",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OA presentation 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Most commonly present in infancy with poor feeding, vomiting, hypotonia, high anion gap",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OA presentation 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "metabolic acidosis, hepatomegaly, seizures. Organic acid accumulation:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OA inhibits gluconeogenesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Inhibits gluconeogenesis → ↓ fasting blood glucose levels, ↑ ketoacidosis → high anion gap",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OA gluconeogenesis 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "metabolic acidosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OA inhibits urea cycle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Inhibits urea cycle → hyperammonemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Propionic acidemia section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Propionic acidemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Propionic acidemia enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Deficiency of propionyl-CoA carboxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Propionic acidemia labs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "→ ↑ propionyl-CoA, ↓ methylmalonic acid.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methylmalonic acidemia section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methylmalonic\nacidemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methylmalonic acidemia enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Deficiency of methylmalonyl-CoA mutase or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methylmalonic B12",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "vitamin B12.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VOMIT diet 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Treatment: low-protein diet limited in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VOMIT diet 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "substances that metabolize into propionylCoA: Valine, Odd-chain fatty acids,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VOMIT diet 3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methionine, Isoleucine, Threonine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VOMIT acronym",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "(VOMIT).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: protein metabolism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Protein metabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: valine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Valine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: odd-chain fatty acids",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Odd-chain fatty acids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methionine (VOMIT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methionine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: isoleucine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Isoleucine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: threonine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Threonine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: TCA cycle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "TCA cycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: propionate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Propionate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: propionyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Propionyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: propionyl-CoA carboxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Propionyl-CoA\ncarboxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: biotin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Biotin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methylmalonyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methylmalonyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: methylmalonyl-CoA mutase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Methylmalonyl-CoA\nmutase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: B12 (mutase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "B12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: succinyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Succinyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: intermediates of citric acid cycle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "quote": "Intermediates of citric\nacid cycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "phenylalanine-pathway-map",
+    "methionine-homocysteine-map",
+    "organic-acidemia-map",
+    "ochronosis-sclera-illustration"
+  ],
+  "mechanismIds": [
+    "pah-bottleneck",
+    "organic-acid-dual-inhibition"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (lens-direction stems, black-urine stems, newborn-screen timing stems, nitroprusside-test stems, plus the marfanoid-adolescent mini-case with the down-and-in discriminator)."
+    },
+    {
+      "id": "traffic-jam-model",
+      "origin": "outside-first-aid",
+      "rationale": "Reading every aminoacidopathy as a traffic jam — substrate piles up behind the block, product starves beyond it, treatment reroutes or widens with cofactors — is a KYP-original scaffold over the source's six disease sections and two pathway figures.",
+      "location": "core.keyIdea + mechanisms 'pah-bottleneck' and 'organic-acid-dual-inhibition' + the six-diseases-at-a-glance table",
+      "summary": "The single model that organizes PKU, MSUD, alkaptonuria, homocystinuria, cystinuria, and the organic acidemias as jams on two highways (the tyrosine road and the methionine/propionate exits)."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-10"
+}

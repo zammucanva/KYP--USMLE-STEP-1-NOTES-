@@ -1,0 +1,397 @@
+{
+  "topicId": "diabetes-mellitus",
+  "chapterId": "endocrine",
+  "inventory": [
+    {
+      "visualId": "diabetes-mellitus-sv1",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Sorbitol pathway",
+      "sourceFigureDescription": "Sorbitol pathway: glucose → sorbitol (aldose reductase) → fructose (sorbitol dehydrogenase), with tissue enzyme differences",
+      "part": 1,
+      "pdfPages": [
+        101
+      ],
+      "bookPages": "79",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "diabetes-complications-web",
+      "kypImplementation": "registry-visual",
+      "notes": "The KYP complications web carries the osmotic-damage highway including the sorbitol route",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv2",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Adjacent nutrition tables",
+      "sourceFigureDescription": "Lactase deficiency findings and amino acid classification tables on the same page",
+      "part": 1,
+      "pdfPages": [
+        101
+      ],
+      "bookPages": "79",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Adjacent GI/nutrition content on the shared source page — not diabetes scope (biochemistry chapter cross-reference)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv3",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Hyperparathyroid bone film",
+      "sourceFigureDescription": "X-ray showing subperiosteal bone resorption in hyperparathyroidism",
+      "part": 1,
+      "pdfPages": [
+        371
+      ],
+      "bookPages": "349",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Hyperparathyroidism — adjacent endocrine topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          371
+        ],
+        "bookPages": "349"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv4",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Diagnostic criteria",
+      "sourceFigureDescription": "Diabetes diagnostic criteria table (HbA1c, fasting glucose, 2-h OGTT, random glucose with cutoffs)",
+      "part": 1,
+      "pdfPages": [
+        372
+      ],
+      "bookPages": "350",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Diagnosis — the four numbers'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          372
+        ],
+        "bookPages": "350"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv5",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "DM pathophysiology flow",
+      "sourceFigureDescription": "Pathophysiology flowchart from available insulin to lipolysis, ketogenesis, and osmotic symptoms",
+      "part": 1,
+      "pdfPages": [
+        372
+      ],
+      "bookPages": "350",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "mechanisms (dka-mechanism, hhs-mechanism) + blocks: table 'Acute presentations — the 3 P's and their mechanism'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          372
+        ],
+        "bookPages": "350"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv6",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Type 1 vs type 2",
+      "sourceFigureDescription": "Type 1 vs type 2 diabetes comparison table (defect, age, genetics, presentation, histology)",
+      "part": 1,
+      "pdfPages": [
+        373
+      ],
+      "bookPages": "351",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Type 1 vs type 2 — the full discriminator table'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          373
+        ],
+        "bookPages": "351"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv7",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "DKA vs HHS",
+      "sourceFigureDescription": "Hyperglycemic emergencies comparison: DKA vs HHS (pathogenesis, signs, labs, treatment)",
+      "part": 1,
+      "pdfPages": [
+        373
+      ],
+      "bookPages": "351",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'DKA vs HHS — the emergency comparison'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          373
+        ],
+        "bookPages": "351"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv8",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Cushing syndrome photos",
+      "sourceFigureDescription": "Clinical photos of Cushing syndrome (moon facies, plethora, ecchymoses)",
+      "part": 1,
+      "pdfPages": [
+        374
+      ],
+      "bookPages": "352",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Cushing syndrome — adjacent endocrine topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          374
+        ],
+        "bookPages": "352"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv9",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "Cushing algorithm",
+      "sourceFigureDescription": "Diagnostic algorithm for Cushing syndrome (dexamethasone suppression, CRH)",
+      "part": 1,
+      "pdfPages": [
+        374
+      ],
+      "bookPages": "352",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Cushing syndrome — adjacent endocrine topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          374
+        ],
+        "bookPages": "352"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv10",
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Antidiabetic sites of action",
+      "sourceFigureDescription": "Anatomical diagram of antidiabetic drug action sites (metformin, SGLT2, GLP-1, pioglitazone...) on liver, pancreas, gut, kidney",
+      "part": 1,
+      "pdfPages": [
+        380
+      ],
+      "bookPages": "358",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "drugs: DrugCard target/uses fields + pharmacology section (drug cards carry the organ-site logic)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          380
+        ],
+        "bookPages": "358"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv11",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Insulin preparations",
+      "sourceFigureDescription": "Insulin preparations table by onset/duration (rapid, short, intermediate, long, very long acting)",
+      "part": 1,
+      "pdfPages": [
+        380
+      ],
+      "bookPages": "358",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "drugs: 'Insulin preparations' drug card",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          380
+        ],
+        "bookPages": "358"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv12",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Insulin PK curves",
+      "sourceFigureDescription": "Pharmacokinetic graph of plasma insulin over time for lispro, regular, NPH, detemir, glargine, degludec",
+      "part": 1,
+      "pdfPages": [
+        380
+      ],
+      "bookPages": "358",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Insulin PK curves — onset/duration hierarchy carried in the insulin drug card text; a KYP onset-duration ladder visual is a Phase I-C candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          380
+        ],
+        "bookPages": "358"
+      }
+    },
+    {
+      "visualId": "diabetes-mellitus-sv13",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "DM therapy landscape",
+      "sourceFigureDescription": "Diabetes mellitus therapy table: drugs, mechanisms, adverse effects, notes",
+      "part": 1,
+      "pdfPages": [
+        381
+      ],
+      "bookPages": "359",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "drugs: drug cards (metformin, sulfonylureas, GLP-1/DPP-4, SGLT2, pioglitazone, acarbose, pramlintide)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "diabetes-mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          381
+        ],
+        "bookPages": "359"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "diabetes-mellitus",
+    "textbookVisualCount": 13,
+    "accountedFor": 13,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 8,
+    "unresolved": 0,
+    "omitted": 5,
+    "omissionReasons": [
+      "diabetes-mellitus-sv2: Adjacent GI/nutrition content on the shared source page — not diabetes scope (biochemistry chapter cross-reference)",
+      "diabetes-mellitus-sv3: Hyperparathyroidism — adjacent endocrine topic sharing the page spread",
+      "diabetes-mellitus-sv8: Cushing syndrome — adjacent endocrine topic sharing the page spread",
+      "diabetes-mellitus-sv9: Cushing syndrome — adjacent endocrine topic sharing the page spread",
+      "diabetes-mellitus-sv12: Insulin PK curves — onset/duration hierarchy carried in the insulin drug card text; a KYP onset-duration ladder visual is a Phase I-C candidate"
+    ],
+    "complete": true
+  },
+  "notes": "Source page spread mixes diabetes with Cushing syndrome and biochemistry sorbitol content — cross-chapter figure retained via the manifest crossChapterSources."
+}

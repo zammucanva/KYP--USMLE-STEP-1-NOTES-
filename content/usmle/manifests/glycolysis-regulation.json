@@ -1,0 +1,156 @@
+{
+  "topicId": "glycolysis-regulation",
+  "title": "Glycolysis Regulation",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      106
+    ],
+    "bookPages": "71–75, 84"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Phosphofructokinase-1 is the rate-limiting enzyme of glycolysis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          93
+        ],
+        "bookPages": "71"
+      },
+      "quote": "Phosphofructokinase-1 (PFK-1)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PFK-1 is activated by AMP and fructose-2,6-bisphosphate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          96
+        ],
+        "bookPages": "74"
+      },
+      "quote": "AMP ⊕, fructose-2,6-bisphosphate ⊕",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucokinase (liver) phosphorylates glucose; hexokinase works at low glucose",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          95
+        ],
+        "bookPages": "73"
+      },
+      "quote": "Phosphorylation of glucose to yield glucose-6-phosphate is catalyzed by glucokinase in the liver and",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "At high glucose concentrations glucokinase stores glucose in the liver",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          95
+        ],
+        "bookPages": "73"
+      },
+      "quote": "At high glucose concentrations, glucokinase helps to store glucose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FBPase-2 and PFK-2 are the same bifunctional enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          96
+        ],
+        "bookPages": "74"
+      },
+      "quote": "Fructose bisphosphatase-2 (FBPase-2) and phosphofructokinase-2 (PFK-2) are the same",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pyruvate dehydrogenase requires five cofactors (B1, B2, B3, B5, lipoic acid)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          97
+        ],
+        "bookPages": "75"
+      },
+      "quote": "Pyruvate dehydrogenase (B1, B2, B3, B5,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "glycolysis-regulation-map",
+    "hexokinase-vs-glucokinase",
+    "pyruvate-hub"
+  ],
+  "mechanismIds": [
+    "fed-state",
+    "fasting-state"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

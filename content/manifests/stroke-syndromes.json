@@ -1,0 +1,147 @@
+{
+  "topicId": "stroke-syndromes",
+  "title": "Stroke Syndromes",
+  "chapterId": "neurology",
+  "chapterTitle": "Neurology & Special Senses",
+  "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+  "part": 2,
+  "sourcePages": {
+    "part": 2,
+    "pdfPages": [
+      105,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      306,
+      307,
+      308
+    ],
+    "bookPages": "513, 525–530, 714–716"
+  },
+  "crossChapterSources": [
+    {
+      "part": 2,
+      "pdfPages": [
+        306,
+        307,
+        308
+      ],
+      "bookPages": "714–716",
+      "chapterId": "rapid-review"
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "claim": "The middle cerebral artery supplies the lateral cortical surface",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "513"
+      },
+      "quote": "Middle cerebral artery (supplies lateral surface)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "In MCA stroke the eyes look toward the lesion, away from the hemiplegic side",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          116
+        ],
+        "bookPages": "524"
+      },
+      "quote": "Eyes look toward brain lesion (ie, away from side of hemiplegia). Seen in MCA stroke.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Broca aphasia: inferior frontal gyrus, nonfluent speech with intact comprehension",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "529"
+      },
+      "quote": "Broca area in inferior frontal gyrus of frontal lobe. Nonfluent speech with intact language",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subarachnoid hemorrhage appears in the rapid-review pathophysiology table",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          308
+        ],
+        "bookPages": "716"
+      },
+      "quote": "Subarachnoid hemorrhage",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "stroke-territory-map"
+  ],
+  "mechanismIds": [
+    "ischemic-stroke-mechanism",
+    "lateral-medullary"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [
+    "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+  ],
+  "updatedAt": "2026-10-07"
+}

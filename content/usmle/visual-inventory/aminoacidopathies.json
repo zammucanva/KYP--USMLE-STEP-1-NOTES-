@@ -1,0 +1,111 @@
+{
+  "topicId": "aminoacidopathies",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "aminoacidopathies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Phenylalanine pathway with the PKU block and BH4 loop",
+      "sourceFigureDescription": "The p. 82 PKU figure: dietary protein/aspartame/endogenous protein → phenylalanine —(phenylalanine hydroxylase, BH4; ⊟ PKU)→ tyrosine → thyroxine/dopamine/melanin/NE-epi; phenylalanine → phenyl ketones; BH4 ↔ BH2 with dihydropteridine reductase (NAD+ / NADH + H+) and the BH4-deficiency block.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acidopathies",
+      "topicId": "aminoacidopathies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "phenylalanine-pathway-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "aminoacidopathies-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Methionine–homocysteine pathway with homocystinuria's four blocks",
+      "sourceFigureDescription": "The p. 83 homocystinuria figure: methionine ↔ homocysteine (methionine synthase, methyl B12; methyl folate + B12 feeds in) → cystathionine (cystathionine synthase + serine) → cysteine (B6); the four causes with treatments and the HOMOCYstinuria mnemonic.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acidopathies",
+      "topicId": "aminoacidopathies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "methionine-homocysteine-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "aminoacidopathies-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "83"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Organic acidemias: the propionate highway",
+      "sourceFigureDescription": "The p. 83 organic-acidemia figure: protein metabolism (Valine, Odd-chain fatty acids, Methionine, Isoleucine, Threonine — VOMIT) → propionyl-CoA —(propionyl-CoA carboxylase, biotin)→ methylmalonyl-CoA —(methylmalonyl-CoA mutase, B12)→ succinyl-CoA → TCA cycle intermediates; propionic vs methylmalonic acidemia blocks.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acidopathies",
+      "topicId": "aminoacidopathies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "organic-acidemia-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "aminoacidopathies-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          104
+        ],
+        "bookPages": "82"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Ochronosis: bluish-black scleral pigmentation",
+      "sourceFigureDescription": "The p. 82 clinical photograph (label A): the eye with bluish-black scleral/ear cartilage pigmentation from homogentisic acid polymer deposition in alkaptonuria — redrawn as an original KYP diagnostic-pattern schematic (the N-batch photo pattern).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acidopathies",
+      "topicId": "aminoacidopathies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "ochronosis-sclera-illustration",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "aminoacidopathies",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "All four source figures are full redraws: sv1 the p. 82 phenylalanine pathway (PKU block + BH4 loop), sv2 the p. 83 methionine-homocysteine pathway (four homocystinuria blocks), sv3 the p. 83 propionate highway (VOMIT → succinyl-CoA → TCA), sv4 the p. 82 ochronosis clinical photograph (label A) redrawn as a diagnostic-pattern schematic. MSUD and cystinuria have no source figures on these pages; both are carried by the note's MSUD strip, the six-diseases table, and the cystinuria clinical callout."
+}

@@ -1,0 +1,42 @@
+{
+  "topicId": "modes-of-inheritance",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "modes-of-inheritance-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Inheritance Patterns",
+      "topicId": "modes-of-inheritance",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Pedigree patterns for the five inheritance modes",
+      "sourceFigureDescription": "Five 3-generation pedigree panels (AD, AR, XLR, XLD, mitochondrial) with Punnett squares (AD Aa×aa; AR Aa×Aa; XLR carrier-mother XX×XY; XLD affected-father X·Y×XX) and the salmon-filled affected-symbol legend",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "inheritance-pedigrees",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "modes-of-inheritance",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The five-panel pedigree figure is an original KYP redraw preserving the source's structure: five three-generation pedigrees with their Punnett squares, the carrier dot on the XLR mother, the affected-father pattern in XLD, mother-only transmission in the mitochondrial panel, and the four-symbol legend. INVENTORY CORRECTION (documented in G2-SOURCE-CHECKPOINT.md): this topic's sourcePages were extended from pdf [79, 82] to [79, 80, 82] to claim the otherwise-unassigned p80 'Autosomal dominant diseases' and 'Autosomal recessive diseases' lists, covered in the note's disease-lists table (no silent omission)."
+}

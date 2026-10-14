@@ -1,0 +1,42 @@
+{
+  "topicId": "dna-repair",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "dna-repair-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          59
+        ],
+        "bookPages": "37"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — DNA Repair",
+      "topicId": "dna-repair",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Five DNA repair mechanisms: NHEJ, HR, NER, BER, MMR",
+      "sourceFigureDescription": "Composite schematic: NHEJ (blunt-end ligation of double-strand break), homologous recombination (sister-chromatid template repair of DSB), nucleotide excision repair (end nuclease cut around bulky lesion), base excision repair (glycosylase removes base, AP site), mismatch repair (new-strand mismatch excision)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "dna-repair-pathways",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "dna-repair",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraws preserve the source figures' educational content (labels, relationships, sequence, directionality, diagnostic pattern) without copying First Aid artwork. Browser QA (desktop/mobile × light/dark) and VLM label-readability verification passed for both registry visuals."
+}

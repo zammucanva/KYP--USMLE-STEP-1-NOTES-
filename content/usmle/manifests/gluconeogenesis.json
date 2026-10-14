@@ -1,0 +1,403 @@
+{
+  "topicId": "gluconeogenesis",
+  "title": "Gluconeogenesis",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Gluconeogenesis",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      98
+    ],
+    "bookPages": "76"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section title: gluconeogenesis, irreversible enzymes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Gluconeogenesis, irreversible enzymes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "All enzymes subject to glucagon activation in fasting",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "All enzymes may be subject to activation by glucagon in fasting state.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pathway produces fresh glucose",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Pathway produces fresh glucose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enzyme 1 named: pyruvate carboxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Pyruvate carboxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PC compartment and reaction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "In mitochondria. Pyruvate → oxaloacetate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PC requirements and activation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Requires biotin, ATP. Activated by acetyl-CoA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enzyme 2 named: PEPCK part 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Phosphoenolpyruvate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enzyme 2 named: PEPCK part 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "carboxykinase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PEPCK compartment and substrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "In cytosol. Oxaloacetate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PEPCK reaction product",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "→ phosphoenolpyruvate (PEP).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PEPCK requires GTP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Requires GTP.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enzyme 3 named (source print spelling)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Fructose-1,6bisphosphatase 1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FBPase-1 compartment and substrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "In cytosol. Fructose-1,6-bisphosphate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FBPase-1 reaction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "→ fructose-6-phosphate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FBPase-1 regulator line verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Citrate ⊕, AMP ⊝, fructose 2,6-bisphosphate ⊝.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enzyme 4 named (source print spelling)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Glucose-6phosphatase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "G6Pase compartment and reaction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "In ER. Glucose-6-phosphate → glucose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Liver primary; euglycemia during fasting; kidney and intestinal epithelium",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Occurs primarily in liver; serves to maintain euglycemia during fasting. Enzymes also found in kidney, intestinal epithelium.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Deficiency of key enzymes causes hypoglycemia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Deficiency of the key gluconeogenic enzymes causes hypoglycemia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Muscle cannot participate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(Muscle cannot participate in gluconeogenesis because it lacks glucose-6-phosphatase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Odd-chain fatty acids yield propionyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Odd-chain fatty acids yield 1 propionyl-CoA during metabolism, which can enter the TCA cycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Propionyl-CoA as succinyl-CoA becomes a glucose source",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(as succinyl-CoA), undergo gluconeogenesis, and serve as a glucose source",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source's own odd-fact line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(It’s odd for fatty acids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Even-chain fatty acids cannot make new glucose",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "to make glucose). Even-chain fatty acids cannot produce new glucose, since they yield only acetylCoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acetyl-CoA equivalents only",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "equivalents.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "gluconeogenesis-bypass-enzymes"
+  ],
+  "mechanismIds": [
+    "fasting-gluconeogenesis-corridor",
+    "odd-carbon-glucose-rescue"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (acetyl-CoA-activation stems, regulator-direction stems, muscle-exclusion stems, odd/even-chain eligibility stems, plus the fasting-hypoglycemia mini-case with the fasting-length discriminator)."
+    },
+    {
+      "id": "four-locked-doors-model",
+      "origin": "outside-first-aid",
+      "rationale": "Framing the four irreversible enzymes as four locked doors with keys and addresses (mitochondrion → cytosol → ER) is a KYP-original scaffold over the source's enzyme table.",
+      "location": "core.keyIdea + mechanism 'fasting-gluconeogenesis-corridor' + visual block notice",
+      "summary": "The corridor model that turns four table rows into one ordered pathway with compartments, cofactor keys, an energy-mirror regulator, and the ER-only exit that excludes muscle."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-10"
+}

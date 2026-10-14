@@ -1,0 +1,111 @@
+{
+  "topicId": "atherosclerosis",
+  "title": "Atherosclerosis",
+  "chapterId": "cardiovascular",
+  "chapterTitle": "Cardiovascular",
+  "subsection": "Vascular Pathology — Atherosclerosis",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      324,
+      325,
+      326
+    ],
+    "bookPages": "302–304"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Atherogenesis progresses from lipid accumulation to foam cells, fatty streaks, and smooth muscle migration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          325
+        ],
+        "bookPages": "303"
+      },
+      "quote": "foam cell formation → fatty streaks → smooth muscle cell migration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tendinous xanthoma is a hyperlipidemia physical-exam sign",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          325
+        ],
+        "bookPages": "303"
+      },
+      "quote": "Tendinous xanthoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cholesterol emboli arise from microembolization of plaque material (post-angiography)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          326
+        ],
+        "bookPages": "304"
+      },
+      "quote": "Microembolization of cholesterol displaced from atherosclerotic plaques",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "atherogenesis-timeline"
+  ],
+  "mechanismIds": [
+    "atherogenesis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

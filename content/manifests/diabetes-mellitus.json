@@ -1,0 +1,156 @@
+{
+  "topicId": "diabetes-mellitus",
+  "title": "Diabetes Mellitus",
+  "chapterId": "endocrine",
+  "chapterTitle": "Endocrine",
+  "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      101,
+      371,
+      372,
+      373,
+      374,
+      380,
+      381
+    ],
+    "bookPages": "79, 349–352, 358–359"
+  },
+  "crossChapterSources": [
+    {
+      "part": 1,
+      "pdfPages": [
+        101
+      ],
+      "bookPages": "79",
+      "chapterId": "biochemistry"
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "claim": "The sorbitol pathway (aldose reductase) causes osmotic damage in cataracts, retinopathy, neuropathy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "intracellular sorbitol accumulation, causing osmotic damage (eg, cataracts, retinopathy, and",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type 1 vs type 2 diabetes are contrasted across defect, age, genetics, presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          373
+        ],
+        "bookPages": "351"
+      },
+      "quote": "Type 1 vs type 2 diabetes mellitus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diabetic ketoacidosis is the type 1 emergency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          373
+        ],
+        "bookPages": "351"
+      },
+      "quote": "Diabetic ketoacidosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hyperosmolar hyperglycemic state is the type 2 emergency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          373
+        ],
+        "bookPages": "351"
+      },
+      "quote": "Hyperosmolar hyperglycemic state",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Metformin is first-line oral therapy in type 2 DM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          380
+        ],
+        "bookPages": "358"
+      },
+      "quote": "Type 2 DM—oral agents (metformin is first line), non-insulin injectables, insulin replacement;",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "diabetes-complications-web"
+  ],
+  "mechanismIds": [
+    "dka-mechanism",
+    "hhs-mechanism",
+    "sorbitol-mechanism"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [
+    "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+  ],
+  "updatedAt": "2026-10-07"
+}

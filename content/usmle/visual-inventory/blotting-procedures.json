@@ -1,0 +1,42 @@
+{
+  "topicId": "blotting-procedures",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "blotting-procedures-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Blotting",
+      "topicId": "blotting-procedures",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "Southern blot genotyping with a pedigree",
+      "sourceFigureDescription": "Autosomal dominant pedigree above a Southern blot: family members' DNA cut and probed, band patterns showing mutant vs normal alleles per individual (Aa/AA/aa)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "southern-blot-pedigree",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "blotting-procedures",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraw of the pedigree-plus-blot figure, preserving the source's structure exactly: two Aa parents (unfilled symbols with the mutant-allele dot), three children (aa affected filled circle, Aa dot-marked square, AA unmarked square), arrows to five lanes labeled Aa, Aa, aa, Aa, AA, with Aa lanes showing both the red mutant (top, larger) and black normal (bottom, smaller) bands, the aa lane the mutant band alone, and the AA lane the normal band alone — the heterozygosity-determination pattern. Band pattern verified against a 300-DPI crop of the source page before drawing."
+}

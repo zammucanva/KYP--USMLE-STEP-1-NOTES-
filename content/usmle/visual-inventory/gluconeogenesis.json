@@ -1,0 +1,42 @@
+{
+  "topicId": "gluconeogenesis",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "gluconeogenesis-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Gluconeogenesis bypass enzyme steps",
+      "sourceFigureDescription": "The p. 76 gluconeogenesis section is text + enzyme entries (no printed figure): pyruvate carboxylase (In mitochondria. Pyruvate → oxaloacetate. Requires biotin, ATP. Activated by acetyl-CoA.), PEPCK (In cytosol. Oxaloacetate → PEP. Requires GTP.), fructose-1,6-bisphosphatase 1 (In cytosol. F-1,6-BP → F-6-P. Citrate ⊕, AMP ⊝, fructose 2,6-bisphosphate ⊝.), glucose-6-phosphatase (In ER. G-6-P → glucose.) plus the organ-distribution and odd/even-chain paragraphs.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Gluconeogenesis",
+      "topicId": "gluconeogenesis",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "gluconeogenesis-bypass-enzymes",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "gluconeogenesis",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The source presents the four enzymes as table entries, not a figure; the adaptation renders them as a compartment pathway (mitochondria → cytosol → ER) with verbatim reactions, requirements, and regulators, plus the organ panel and odd/even-chain panel. Dotted spans mark where the source lists no enzyme (no intermediates fabricated)."
+}

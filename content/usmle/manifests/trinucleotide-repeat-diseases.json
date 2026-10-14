@@ -1,0 +1,325 @@
+{
+  "topicId": "trinucleotide-repeat-diseases",
+  "title": "Trinucleotide Repeat Expansion Diseases",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Trinucleotide Repeat Expansion",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      82
+    ],
+    "bookPages": "60"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Repeat diseases may show genetic anticipation: severity up, onset down across generations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "May show genetic anticipation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anticipation: disease severity and age of onset change in successive generations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "in successive generations",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Huntington disease is (CAG)n, AD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Caudate has",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Huntington mnemonic: caudate has decreased ACh and GABA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "ACh and GABA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic dystrophy is (CTG)n, AD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Cataracts, Toupee (early balding in males)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic mnemonic includes gonadal atrophy in males and reduced fertility in females",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "reduced fertility in females",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fragile X syndrome is (CGG)n, XD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Chin (protruding), Giant Gonads",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Friedreich ataxia is (GAA)n, AR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Ataxic GAAit",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fragile X: trinucleotide repeats in FMR1 cause hypermethylation of cytosine residues",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "hypermethylation of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The hypermethylation decreases FMR1 expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "cytosine residues",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fragile X is the most common inherited cause of intellectual disability",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Most common inherited cause of intellectual",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The (CGG)n expansion occurs during oogenesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "during oogenesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fragile EGG mnemonic (think CGG and oogenesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Fragile EGG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Premutation (50-200 repeats) causes tremor, ataxia, and 1° ovarian insufficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "(50-200 repeats)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "1° ovarian insufficiency is a premutation finding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "1° ovarian insufficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Full mutation (>200 repeats) causes postpubertal macroorchidism (enlarged testes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "postpubertal macroorchidism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fragile X facies: long face with large jaw and large everted ears",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "large everted ears",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Full mutation also includes autism, mitral valve prolapse, hypermobile joints",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "mitral valve prolapse, hypermobile joints",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Self-mutilation in fragile X can be confused with Lesch-Nyhan syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "confused with Lesch-Nyhan syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "anticipation-expansion-panel"
+  ],
+  "mechanismIds": [
+    "anticipation-expansion-engine",
+    "fragile-x-methylation-cascade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (anticipation stems, triplet-matching, fragile X habitus, premutation grandfather, Lesch-Nyhan confusion trap, mini-case with answer autopsy)."
+    },
+    {
+      "id": "threshold-ladder-layer",
+      "origin": "outside-first-aid",
+      "rationale": "The repeat-count-as-phenotype ladder (50-200 premutation vs >200 full mutation) presented as a threshold concept, and the mnemonic-as-discriminator reading, are KYP-original frames.",
+      "location": "core.keyIdea + visual anticipation-expansion-panel",
+      "summary": "The threshold-ladder reading of FMR1 repeat counts and the anchor-first-by-triplet sort of the four-disease table."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

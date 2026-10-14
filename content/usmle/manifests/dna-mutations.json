@@ -1,0 +1,214 @@
+{
+  "topicId": "dna-mutations",
+  "title": "Mutations in DNA",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — DNA Mutations",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      60
+    ],
+    "bookPages": "38"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Degree of change: silent << missense < nonsense < frameshift",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Degree of change: silent << missense <",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Single nucleotide substitutions are repaired by DNA polymerase and DNA ligase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Single nucleotide substitutions are repaired by",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transition: purine to purine or pyrimidine to pyrimidine (eg, A to G, C to T)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Transition—purine to purine (eg, A to G) or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transversion: purine to pyrimidine or pyrimidine to purine (eg, A to T, C to G)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Transversion—purine to pyrimidine (eg, A to T)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Silent mutation codes for the same (synonymous) amino acid; often involves 3rd position of codon (tRNA wobble)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Codes for same (synonymous) amino acid; often",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Missense results in a changed amino acid (conservative if chemically similar); sickle cell = glutamic acid → valine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Results in changed amino acid (called",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nonsense mutation results in an early stop codon (UGA, UAA, UAG)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Results in early stop codon (UGA, UAA, UAG).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Frameshift: deletion or insertion of nucleotides not divisible by 3 (or divisible but split across adjacent codons) misreads all downstream nucleotides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Deletion or insertion of any number of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Frameshift examples: Duchenne muscular dystrophy, Tay-Sachs disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Examples: Duchenne muscular dystrophy, TaySachs disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Splice-site mutation: retained intron in mRNA → impaired/altered protein; examples include β-thalassemia, Gaucher, Marfan",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Retained intron in mRNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Slipped-strand mispairing → anticipation via insertion of increased repeats across generations; Huntington CAG example",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "quote": "Anticipation occurs secondary to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "mutation-types-panel"
+  ],
+  "mechanismIds": [
+    "point-mutation-consequences",
+    "frameshift-anticipation"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid page — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-07"
+}

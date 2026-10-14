@@ -1,0 +1,138 @@
+{
+  "topicId": "cranial-nerves",
+  "title": "Cranial Nerves",
+  "chapterId": "neurology",
+  "chapterTitle": "Neurology & Special Senses",
+  "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+  "part": 2,
+  "sourcePages": {
+    "part": 2,
+    "pdfPages": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      147,
+      148,
+      149,
+      150
+    ],
+    "bookPages": "516–520, 555–558"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Cranial nerve nuclei are mapped by brainstem level",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "516"
+      },
+      "quote": "Cranial nerve nuclei",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cranial nerves and vessels pass together through skull-base foramina",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "518"
+      },
+      "quote": "Cranial nerves and vessel pathways",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cavernous sinus carries CN III–V2 and the internal carotid artery",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "557"
+      },
+      "quote": "through cavernous sinus. Cavernous portion of internal carotid artery is also here.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MLF lesion causes internuclear ophthalmoplegia: ipsilateral adduction failure with contralateral nystagmus",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "558"
+      },
+      "quote": "Lesion in MLF = internuclear ophthalmoplegia INO = Ipsilateral adduction failure, Nystagmus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cranial-nerve-map"
+  ],
+  "mechanismIds": [
+    "cn3-palsy-mechanism",
+    "ino-mechanism"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "lesion-localization-ladder",
+      "summary": "The “lesion localization ladder — same muscle, four lesions” synthesis: one clinical finding traced up through nerve → nucleus → tract lesion levels.",
+      "origin": "outside-first-aid",
+      "rationale": "Source presents palsies lesion-by-lesion; the four-step ladder for the SAME muscle is a KYP reasoning scaffold.",
+      "location": "blocks: table 'Lesion localization ladder — same muscle, four lesions'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

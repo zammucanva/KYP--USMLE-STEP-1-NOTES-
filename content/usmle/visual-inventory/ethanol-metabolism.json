@@ -1,0 +1,65 @@
+{
+ "topicId": "ethanol-metabolism",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "ethanol-metabolism-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "BIOCHEMICAL_PATHWAY",
+   "visualPurpose": "Ethanol metabolism compartment map",
+   "sourceFigureDescription": "Map across cytosol (ADH), microsome (CYP2E1/MEOS, fomepizole site), peroxisome (catalase) and mitochondria (ALDH): ethanol → acetaldehyde → acetate → acetyl-CoA, NADH generated at both steps, disulfiram blocking ALDH",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Ethanol Metabolism",
+   "topicId": "ethanol-metabolism",
+   "kypVisualId": "ethanol-metabolism-map",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "ethanol-metabolism-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "BIOCHEMICAL_PATHWAY",
+   "visualPurpose": "NADH/NAD+ ratio metabolic consequences",
+   "sourceFigureDescription": "Integrated diagram: alcohol dehydrogenase-driven ↑NADH/NAD+ inhibits gluconeogenesis and TCA, diverts pyruvate→lactate and acetyl-CoA→ketones/fatty acid synthesis → hypoglycemia, lactic/ketoacidosis, fatty liver",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Ethanol Metabolism",
+   "topicId": "ethanol-metabolism",
+   "kypVisualId": "ethanol-nadh-consequences",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "ethanol-metabolism",
+  "textbookVisualCount": 2,
+  "accountedFor": 2,
+  "sourceReproductions": 0,
+  "kypRedraws": 1,
+  "kypOriginals": 1,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "Both pathway figures are original KYP redraws/adaptations: the compartment map preserves the source's four compartments (cytosol ADH, microsome CYP2E1, peroxisome catalase, mitochondria ALDH) with cofactor pairs and both drug blockades; the consequences map preserves the 4A/4B markers and the stimulated-vs-inhibited legend logic."
+}

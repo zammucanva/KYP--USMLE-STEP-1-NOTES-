@@ -1,0 +1,403 @@
+{
+  "topicId": "cystic-fibrosis",
+  "title": "Cystic Fibrosis Genetics",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Cystic Fibrosis",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      80
+    ],
+    "bookPages": "58"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "CF is autosomal recessive with a defect in the CFTR gene on chromosome 7 (ΔF508)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "defect in CFTR gene on chromosome 7",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The deletion is ΔF508",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "ΔF508",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CF is the most common lethal genetic disease in patients with European ancestry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "lethal genetic disease in patients with European ancestry",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CFTR encodes an ATP-gated Cl− channel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "CFTR encodes an ATP-gated Cl− channel",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CFTR secretes Cl− in lungs/GI tract and reabsorbs Cl− in sweat glands",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "secretes Cl− in lungs/GI tract, reabsorbs Cl− in sweat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phe508 deletion produces a misfolded protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Phe508 deletion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The misfolded protein undergoes improper protein trafficking",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "improper protein trafficking",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The protein is absent from the cell membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "protein absent from cell membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Result: decreased Cl− (and H2O and HCO3−) secretion",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "compensatory",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Compensatory increased Na+ reabsorption occurs via epithelial Na+ channels (ENaC)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "reabsorption via epithelial Na+ channels (ENaC)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The result is abnormally thick mucus secreted into lungs/GI tract",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "abnormally thick mucus secreted into lungs/GI tract",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Increased Na+ reabsorption produces a more negative transepithelial potential difference",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "more negative transepithelial potential difference",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagnosis: increased Cl− concentration in pilocarpine-induced sweat test",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "pilocarpine-induced sweat test",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CF can present with contraction alkalosis and hypokalemia analogous to loop diuretic effect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "hypokalemia (ECF effects analogous to loop diuretic effect)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Newborn screening shows increased immunoreactive trypsinogen due to clogging of the pancreatic duct",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "clogging of pancreatic duct",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ABPA is among the recurrent pulmonary complications",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "allergic bronchopulmonary aspergillosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bronchiectasis produces a reticulonodular pattern on CXR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "reticulonodular pattern on CXR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nasal polyps and nail clubbing are complications",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Nasal polyps, nail clubbing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fat-soluble vitamin deficiencies (A, D, E, K) progress to CF-related diabetes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "fat-soluble vitamin deficiencies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Meconium ileus occurs in newborns",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Meconium ileus in newborns",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Male infertility involves absence of vas deferens with spermatogenesis potentially unaffected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "absence of vas deferens",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treatment includes aerosolized dornase alfa (DNase) and inhaled hypertonic saline for mucus clearance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "aerosolized dornase alfa (DNase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azithromycin prevents acute exacerbations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Azithromycin prevents acute exacerbations",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Potentiators hold the gate of the CFTR channel open (eg, ivacaftor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "hold gate of CFTR channel open",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Correctors help CFTR form the right 3-D shape (eg, lumacaftor, tezacaftor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "help CFTR protein to form right",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cftr-enac-diagram"
+  ],
+  "mechanismIds": [
+    "cf-mucus-cascade",
+    "cftr-channel-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (sweat-test stems, meconium-ileus newborn, infection timeline, loop-diuretic-mimic electrolytes, potentiator-vs-corrector pharmacogenomics, mini-case with answer autopsy)."
+    },
+    {
+      "id": "tissue-split-frame",
+      "origin": "outside-first-aid",
+      "rationale": "The 'one channel, two directions' tissue-split frame (airway SECRETES Cl⁻ vs duct REABSORBS Cl⁻) organizes the source's physiology sentence into the discriminating mental model; First Aid states it but does not build the frame.",
+      "location": "core.keyIdea + visual cftr-enac-diagram",
+      "summary": "The airway-vs-sweat-duct direction split and the cascade reading (thick mucus and salty sweat as one absent channel read in two tissues)."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

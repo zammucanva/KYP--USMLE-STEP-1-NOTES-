@@ -1,0 +1,679 @@
+{
+  "topicId": "genetic-terms-popgen",
+  "title": "Genetic Terminology & Population Genetics",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Terminology & Population Genetics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      76,
+      77,
+      78
+    ],
+    "bookPages": "54–56"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Codominance: both alleles contribute to the phenotype of the heterozygote",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Both alleles contribute to the phenotype of the heterozygote.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Codominance source examples include the A/B/AB blood groups",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Blood groups A, B, AB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Variable expressivity: patients with the same genotype have varying phenotypes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Patients with the same genotype have varying phenotypes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NF1 patients may have varying disease severity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "may have varying disease severity",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Incomplete penetrance: not all individuals with a pathogenic gene variant show the disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Not all individuals with a pathogenic gene variant show the disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Penetrance arithmetic: % penetrance × probability of inheriting genotype = risk of expressing phenotype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "% penetrance × probability of inheriting genotype = risk of expressing phenotype",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BRCA1 mutations do not always result in breast or ovarian cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "BRCA1 gene mutations do not always result in breast or ovarian cancer.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pleiotropy: one gene contributes to multiple phenotypic effects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "One gene contributes to multiple phenotypic effects.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cystic fibrosis manifests with thick mucus in the lungs and GI tract, pancreatic insufficiency, male infertility",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "thick mucus in the lungs and GI tract, pancreatic insufficiency, male infertility",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anticipation: increased severity or earlier onset of disease in succeeding generations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Increased severity or earlier onset of disease in succeeding generations.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anticipation examples: trinucleotide repeat diseases (eg, Huntington disease)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Trinucleotide repeat diseases (eg, Huntington disease).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Loss of heterozygosity: the wild type allele must be deleted/mutated/eliminated before cancer develops",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "the wild type allele must be deleted/mutated/eliminated before cancer develops",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The loss-of-heterozygosity rule is not true of oncogenes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "This is not true of oncogenes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Epistasis: the allele of one gene affects the phenotypic expression of alleles in another gene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "The allele of one gene affects the phenotypic expression of alleles in another gene.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aneuploidy: an abnormal number of chromosomes due to chromosomal nondisjunction during mitosis or meiosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "An abnormal number of chromosomes; due to chromosomal nondisjunction during mitosis or meiosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dominant negative mutation: a heterozygote produces a nonfunctional altered protein that also prevents the normal gene product from functioning",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "produces a nonfunctional altered protein that also prevents the normal gene product from functioning",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dominant negative p53 example blocks the wild type p53 from binding to the promoter",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "block the wild type p53 from binding to the promoter.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Linkage disequilibrium alleles co-occur more or less often than expected by chance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "more or less often than expected by chance",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Linkage disequilibrium is measured in a population, not in a family",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Measured in a population, not in a family",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mosaicism: presence of genetically distinct cell lines in the same individual",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Presence of genetically distinct cell lines in the same individual.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Somatic mosaicism arises from mitotic errors after fertilization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "mitotic errors after fertilization",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Suspect gonadal (germline) mosaicism when parents and relatives do not have the disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "If parents and relatives do not have the disease, suspect gonadal (or germline) mosaicism.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McCune-Albright presents with unilateral café-au-lait spots with ragged edges",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "unilateral café-au-lait spots",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McCune-Albright also presents with polyostotic fibrous dysplasia and at least one endocrinopathy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "polyostotic fibrous dysplasia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The McCune-Albright GNAS mutation is lethal if it occurs before fertilization but survivable in mosaicism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Lethal if mutation occurs before fertilization",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Locus heterogeneity: mutations at different loci result in the same disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Mutations at different loci result in the same disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Allelic heterogeneity: different mutations in the same locus result in the same disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Different mutations in the same locus result in the same disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heteroplasmy: presence of both normal and mutated mtDNA, with variable expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Presence of both normal and mutated mtDNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mtDNA is passed from mother to all children (Leber hereditary optic neuropathy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "mtDNA passed from mother to all children.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Uniparental disomy: offspring receives 2 copies of a chromosome from 1 parent and no copies from the other",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "receives 2 copies of a chromosome from",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Consider isodisomy when a recessive disorder manifests with only one carrier parent",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Consider isodisomy in an individual manifesting a recessive disorder when only one parent is a carrier.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Uniparental disomy examples: Prader-Willi and Angelman syndromes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Examples: Prader-Willi and Angelman syndromes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bottleneck effect: a natural disaster removes certain alleles by chance, producing a new allelic frequency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "natural disaster that removes certain alleles by chance",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The founder effect is a type of bottleneck caused by calamitous population separation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "The founder effect is a type of bottleneck when cause is due to calamitous population separation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Natural selection: alleles that increase species fitness are more likely to be passed down to offspring",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "quote": "Alleles that increase species fitness are more likely to be passed down to offspring and vice versa.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "With random mating, allele and genotype frequencies will be constant",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "allele and genotype frequencies will be constant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Hardy-Weinberg sum of genotype frequencies is p2 + 2pq + q2 = 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "p2 + 2pq + q2 = 1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "X-linked recessive disease frequency: males = q and females = q2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "in males = q and in females = q2.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "In rare autosomal recessive diseases, p ≈ 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "In rare autosomal recessive diseases, p ≈ 1.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "In Hardy-Weinberg equilibrium the values of p and q remain constant from generation to generation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "the values of p and q remain constant from generation to generation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CF prevalence 1/3200 gives q ≈ 0.017 (1.7% of the population)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "q ≈ 0.017 or 1.7% of the",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CF worked example yields a heterozygous carrier frequency of 2pq = 0.035 (3.5%)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "heterozygous carrier frequency of 2pq = 0.035",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prader-Willi: maternally derived genes are silenced (except UBE3A); disease occurs when the paternal allele is deleted or mutated",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "Maternally derived genes are silenced (except UBE3A)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Angelman: paternally derived UBE3A is silenced; disease occurs when the maternal allele is deleted or mutated",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "Paternally derived UBE3A is silenced",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "25% of Prader-Willi cases are due to maternal uniparental disomy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "25% of cases are due to maternal uniparental disomy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "5% of Angelman cases are due to paternal uniparental disomy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "quote": "5% of cases are due to paternal uniparental disomy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cafe-au-lait-mosaic-pattern",
+    "hwe-punnett-square"
+  ],
+  "mechanismIds": [
+    "drift-selection-bottleneck",
+    "hwe-allele-math"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (five recurring stem shapes: McCune-Albright mosaicism, carrier-frequency math, gonadal mosaicism, one-carrier-parent isodisomy, bottleneck/founder drift) with a full answer-autopsy mini-case on the 2pq calculation."
+    },
+    {
+      "id": "term-sorting-layer",
+      "origin": "outside-first-aid",
+      "rationale": "The 'sort the terms by WHAT VARIES' frame (who expresses / how fully / how many traits / when / how many chromosomes / which cells / which parent) is a KYP-original organization of the source's alphabetical term table.",
+      "location": "core.keyIdea + the two terms tables' captions",
+      "summary": "The what-varies sort key that converts fifteen isolated terms into one navigable system, plus the 'square the sum' reading of the HWE equations."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

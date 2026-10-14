@@ -1,0 +1,134 @@
+{
+  "topicId": "connective-tissue-diseases",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "connective-tissue-diseases-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "topicId": "connective-tissue-diseases",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Blue sclerae of osteogenesis imperfecta",
+      "sourceFigureDescription": "Clinical photograph: white/blue-grey scleral hue in a child's eyes — the OI Type I sign",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "blue-sclerae-oi",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "connective-tissue-diseases-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "topicId": "connective-tissue-diseases",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Multiple healed fractures / bone fragility in osteogenesis imperfecta",
+      "sourceFigureDescription": "Radiograph of an upper extremity with healed fracture lines and deformity (red arrows) — osteopenia + recurrent fracture pattern",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "oi-bone-fragility",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "connective-tissue-diseases-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "topicId": "connective-tissue-diseases",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Hyperextensible skin and hypermobile joints in Ehlers-Danlos syndrome",
+      "sourceFigureDescription": "Two clinical photographs: skin hyperextension over the forearm and thumb-forearm hypermobility",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "eds-hyperextensible-skin",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "connective-tissue-diseases-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "topicId": "connective-tissue-diseases",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Pectus carinatum in Marfan syndrome",
+      "sourceFigureDescription": "Clinical photograph of anterior chest wall deformity (pigeon chest) used with the Marfan vs homocystinuria contrast",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "pectus-carinatum-marfan",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "connective-tissue-diseases-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "topicId": "connective-tissue-diseases",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Marfan syndrome vs homocystinuria comparison",
+      "sourceFigureDescription": "Side-by-side table: tall stature, lens subluxation (up in Marfan, down in homocystinuria), etc., with shared and discriminating features",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: compare 'Marfan syndrome vs homocystinuria — the source table verbatim' (connective-tissue-diseases note)",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "connective-tissue-diseases",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Four diagnostic-pattern-preserving KYP originals (photo/radiology classes: blue sclerae as pale-blue scleral tone vs normal white; long-bone radiograph with thin cortices and fractures at mixed healing stages; skin stretch with recoil + thumb-forearm hypermobility; pectus carinatum protruding chest profile with excavatum contrast) per the approved inventory policy. The Marfan-vs-homocystinuria visual table is implemented as a note-block compare (source's four discriminator rows verbatim) per the approved plan."
+}

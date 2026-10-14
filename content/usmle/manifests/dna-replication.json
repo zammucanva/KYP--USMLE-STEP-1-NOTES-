@@ -1,0 +1,274 @@
+{
+  "topicId": "dna-replication",
+  "title": "DNA Replication",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — DNA Replication",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      58
+    ],
+    "bookPages": "36"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Replication occurs in the 5′→3′ direction in continuous and discontinuous (Okazaki fragment) fashion; semiconservative",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Occurs in 5′ → 3′ direction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Origin of replication is a consensus sequence — single in prokaryotes, multiple in eukaryotes; AT-rich like TATA boxes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "AT-rich sequences (eg, TATA box regions) are",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Helicase unwinds the DNA template at the replication fork",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Unwinds DNA template at replication fork.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Single-stranded binding proteins prevent strands from reannealing or degradation by nucleases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Prevent strands from reannealing or degradation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Topoisomerases create a single- (TOP I) or double- (TOP II) stranded break to add or remove supercoils",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Creates a single- (topoisomerase [TOP] I) or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Primase makes the RNA primer for DNA polymerase III to initiate replication",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Makes RNA primer for DNA polymerase III to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA polymerase III elongates the leading strand by adding deoxynucleotides to the 3′ end (prokaryotes only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Elongates leading strand by adding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA polymerase III proofreads with 3′→5′ exonuclease; chain-terminating drugs have a modified 3′ OH",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "proofreads with 3′ → 5′ exonuclease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA polymerase I degrades the RNA primer and replaces it with DNA (prokaryotes only; 5′→3′ exonuclease)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Degrades RNA primer;",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA ligase catalyzes phosphodiester bond formation; joins Okazaki fragments",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Joins Okazaki fragments.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Telomerase (eukaryotes only) is a reverse transcriptase that adds DNA (TTAGGG) to the 3′ ends of chromosomes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "adds DNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Telomerase is upregulated in progenitor cells and often in cancer; downregulated in aging and progeria",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Upregulated in progenitor cells and also often in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Helicase deficiency (BLM mutation) causes Bloom syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "Deficient in Bloom syndrome (BLM gene",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fluoroquinolones inhibit prokaryotic TOP II (DNA gyrase) and TOP IV",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "fluoroquinolones inhibit TOP II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Etoposide/teniposide inhibit eukaryotic TOP II; irinotecan/topotecan inhibit eukaryotic TOP I",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "quote": "etoposide/teniposide inhibit TOP II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "replication-fork-machinery"
+  ],
+  "mechanismIds": [
+    "leading-strand-synthesis",
+    "lagging-strand-cycle",
+    "telomerase-end-replication"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid page — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "end-replication-why",
+      "summary": "The mechanistic explanation of why the lagging strand's final RNA primer cannot be replaced (no upstream 3′-OH to extend), which is why linear chromosome ends shorten — First Aid states telomerase prevents 'loss of genetic material with every duplication' but does not spell out the primer-removal cause.",
+      "origin": "outside-first-aid",
+      "rationale": "Genuinely difficult concept (why telomerase is needed at all); the standard molecular-biology explanation deepens the source's one-line rationale without contradicting it.",
+      "location": "mechanisms[telomerase-end-replication] node s1"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-07"
+}

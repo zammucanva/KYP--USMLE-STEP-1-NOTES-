@@ -1,0 +1,421 @@
+{
+  "topicId": "cytoskeleton-cilia",
+  "title": "Cytoskeleton, Microtubules & Cilia",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Cellular — Cytoskeleton & Cilia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      68,
+      69
+    ],
+    "bookPages": "46–47"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Microfilaments serve muscle contraction, cytokinesis, phagocytosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Muscle contraction, cytokinesis, phagocytosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intermediate filaments: vimentin, desmin, cytokeratin, lamins, glial fibrillary acidic protein (GFAP), neurofilaments",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Vimentin, desmin, cytokeratin, lamins, glial",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microtubules serve cilia, flagella, mitotic spindle, axonal trafficking, centrioles",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Cilia, flagella, mitotic spindle, axonal trafficking,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microtubules are a helical array of polymerized heterodimers of α- and β-tubulin; each dimer has 2 GTP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Each dimer has 2 GTP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dynein mediates retrograde transport to microtubule (+ → −)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Retrograde to microtubule",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Kinesin mediates anterograde transport to microtubule (− → +)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Anterograde to microtubule",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Clostridium tetani toxin, poliovirus, rabies virus, and herpes simplex virus (HSV) use dynein retrograde transport",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Clostridium tetani toxin, poliovirus, rabies virus,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HSV reactivation occurs via anterograde transport from cell body (kinesin mediated)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "HSV reactivation occurs via anterograde",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Slow anterograde transport is the rate-limiting step of peripheral nerve regeneration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Slow anterograde transport rate limiting step of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mebendazole (antihelminthic) inhibits microtubule function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Mebendazole (antihelminthic)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Griseofulvin (antifungal) inhibits microtubule function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Griseofulvin (antifungal)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Negative end near nucleus; positive end toward periphery (figure labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "quote": "Negative end near nucleus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Motile cilia consist of 9 doublet + 2 singlet arrangement of microtubules (axoneme)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "9 doublet + 2 singlet arrangement of microtubules (axoneme)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Basal body consists of 9 microtubule triplets with no central microtubules",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "9 microtubule triplets",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nonmotile (primary) cilia work as chemical signal sensors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "chemical signal sensors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Primary cilia dysgenesis may lead to polycystic kidney disease, mitral valve prolapse, or retinal degeneration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "polycystic kidney disease, mitral valve prolapse, or retinal degeneration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Axonemal dynein is an ATPase causing bending by differential sliding of doublets",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "differential sliding of doublets",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gap junctions enable coordinated ciliary movement",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "Gap junctions enable coordinated ciliary movement",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Primary ciliary dyskinesia is autosomal recessive with a dynein arm defect → immotile cilia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "Dynein arm defect",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Most common type is Kartagener syndrome (PCD with situs inversus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "common type is Kartagener syndrome (PCD with situs inversus)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PCD causes bronchiectasis due to impaired ciliary clearance of debris/pathogens",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "bronchiectasis due to impaired ciliary clearance of debris/pathogens",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PCD causes infertility with immotile spermatozoa and ↑ risk of ectopic pregnancy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "immotile spermatozoa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lab findings: ↓ nasal nitric oxide (used as screening test)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "nasal nitric oxide (used as screening test)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "For each ATP consumed, 2 K+ go in to the cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "each ATP consumed, 2 K+ go in to the cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "3 Na+ go out of the cell when the pump dephosphorylates",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "(pump dephosphorylated) and 3 Na+ go out of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Digoxin directly inhibits Na+/K+-ATPase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "quote": "Digoxin directly inhibits Na+/K+-ATPase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "microtubule-architecture",
+    "cilia-axoneme-basal-body",
+    "dextrocardia-cxr",
+    "na-k-atpase-pump"
+  ],
+  "mechanismIds": [
+    "kinesin-dynein-transport",
+    "pcd-kartagener",
+    "na-k-atpase-cycle"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (motor-direction patterns, pathogen-transport set, drug-panel traps, Kartagener mini-case with answer autopsy) built on the cited First Aid pages."
+    },
+    {
+      "id": "motor-polarity-layer",
+      "origin": "outside-first-aid",
+      "summary": "The polarity-axis teaching frame (minus end near the nucleus, plus end at the periphery) as the single anchor resolving every motor, pathogen, and drug question, plus the vinca-vs-taxane biochemical contrast (prevent polymerization vs stabilize against disassembly).",
+      "rationale": "First Aid lists the motors, pathogens, and drugs as separate facts; organizing them onto one polarity axis and contrasting the two drug failure modes is KYP pedagogy.",
+      "location": "core.keyIdea; mechanisms kinesin-dynein-transport and na-k-atpase-cycle; blocks: table 'Microtubule drugs — the assembly blockers'; callout 'Why vincristine numbs the feet'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

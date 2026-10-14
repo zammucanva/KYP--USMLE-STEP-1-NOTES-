@@ -1,0 +1,42 @@
+{
+  "topicId": "lac-operon",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "lac-operon-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Prokaryotic Gene Regulation",
+      "topicId": "lac-operon",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Lac operon regulation states under glucose/lactose conditions",
+      "sourceFigureDescription": "Operon diagram (promoter, operator, CAP site, lacZ/lacY/lacA) plus four states: +glucose +lactose (low), +glucose -lactose (off), -glucose +lactose (max, CAP-cAMP on, repressor off), -glucose -lactose (off)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "lac-operon-states",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "lac-operon",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraw preserves the operon anatomy strip (lacI, CAP site, promoter, operator, lacZ/Y/A), both regulatory cascades (glucose⊣adenylate cyclase; allolactose⊣repressor), and the source's four-state truth table with expression outcomes."
+}

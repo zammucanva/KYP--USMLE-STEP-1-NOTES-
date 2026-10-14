@@ -1,0 +1,42 @@
+{
+ "topicId": "vitamins-e-k",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "vitamins-e-k-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "FLOWCHART",
+   "visualPurpose": "Vitamin K-dependent γ-carboxylation cycle",
+   "sourceFigureDescription": "Cycle diagram: reduced vitamin K (hydroquinone) → γ-glutamyl carboxylase activates clotting factors II, VII, IX, X, proteins C/S → vitamin K epoxide → reductase (VKOR) recycles; warfarin blocks the reductase",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Fat-Soluble Vitamins",
+   "topicId": "vitamins-e-k",
+   "kypVisualId": "vitamin-k-carboxylation-cycle",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "vitamins-e-k",
+  "textbookVisualCount": 1,
+  "accountedFor": 1,
+  "sourceReproductions": 0,
+  "kypRedraws": 0,
+  "kypOriginals": 1,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "The vitamin K cycle is an original KYP adaptation of the source's epoxide-reductase activation → γ-carboxylation cofactor → recycling logic, with warfarin's blockade drawn on the activation step and the deficiency strip (neonatal ↑PT/↑aPTT with normal bleeding time)."
+}

@@ -1,0 +1,133 @@
+{
+  "topicId": "acid-base-physiology",
+  "title": "Acid-Base Physiology",
+  "chapterId": "renal",
+  "chapterTitle": "Renal",
+  "subsection": "Renal Physiology — Acid-Base Balance",
+  "part": 2,
+  "sourcePages": {
+    "part": 2,
+    "pdfPages": [
+      196,
+      200,
+      201,
+      202,
+      203,
+      219
+    ],
+    "bookPages": "604, 608–611, 627"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Winters formula predicts the respiratory compensation for metabolic acidosis",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "609"
+      },
+      "quote": "Winters formula. If measured Pco2 > predicted Pco2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GOLDMARK is the mnemonic for elevated anion gap metabolic acidosis causes",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "610"
+      },
+      "quote": "GOLDMARK:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The acidosis workup branches on the anion gap",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "610"
+      },
+      "quote": "Check anion gap",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Renal tubular acidoses are classified into types with distinct mechanisms",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "610"
+      },
+      "quote": "Renal tubular acidosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "acid-base-map",
+    "acid-base-algorithm"
+  ],
+  "mechanismIds": [
+    "metabolic-acidosis-mechanism",
+    "respiratory-compensation",
+    "rta-mechanism"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [
+    "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+  ],
+  "updatedAt": "2026-10-07"
+}

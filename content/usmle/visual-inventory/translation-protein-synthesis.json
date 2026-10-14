@@ -1,0 +1,91 @@
+{
+  "topicId": "translation-protein-synthesis",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "translation-protein-synthesis-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Translation & Protein Processing",
+      "topicId": "translation-protein-synthesis",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "tRNA cloverleaf structure, charging and codon pairing",
+      "sourceFigureDescription": "Three-part figure: tRNA cloverleaf (anticodon arm, acceptor stem 3' CCA), aminoacyl-tRNA synthetase charging (ATP → aminoacyl-tRNA), codon-anticodon antiparallel pairing with mRNA",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "trna-structure-charging",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "translation-protein-synthesis-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Translation & Protein Processing",
+      "topicId": "translation-protein-synthesis",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "Translation initiation, elongation and termination on the ribosome",
+      "sourceFigureDescription": "Ribosome (small+large subunit) diagram in three stages: initiation complex at AUG (Kozak), elongation cycle with aminoacyl/peptidyl sites and elongation factors, termination at stop codon with release factors",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "translation-ribosome-stages",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "translation-protein-synthesis-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Translation & Protein Processing",
+      "topicId": "translation-protein-synthesis",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Genetic code feature definitions",
+      "sourceFigureDescription": "Text-property list (unambiguous, degenerate/redundant, commaless, nonoverlapping, universal) — no drawn figure in source",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": null,
+      "kypLocation": "Text-only property list; absorbed as note text in the translation note's codon section (genetic-code properties table block)",
+      "omissionReason": "Text-only property list; absorbed as note text in the translation note's codon section (genetic-code properties table block)",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "translation-protein-synthesis",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 1,
+    "omissionReasons": [
+      "translation-protein-synthesis-sv3: Text-only property list; absorbed as note text in the translation note's codon section (genetic-code properties table block)"
+    ],
+    "complete": true
+  },
+  "notes": "sv3 is a text-only property list with no drawn figure in the source — its educational content (unambiguous, degenerate, commaless, nonoverlapping, universal, wobble) is fully absorbed into the note's genetic-code table, satisfying the absorbed-figure rule with no information loss. Two registry redraws preserve the tRNA triptych (cloverleaf arms, charging with hydrolytic editing, antiparallel pairing with wobble) and the ribosome triptych (initiation P-site exception, E-P-A elongation with rRNA peptidyl transferase, termination with release factor)."
+}

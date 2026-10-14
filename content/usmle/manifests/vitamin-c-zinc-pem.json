@@ -1,0 +1,302 @@
+{
+ "topicId": "vitamin-c-zinc-pem",
+ "title": "Vitamin C, Zinc & Protein-Energy Malnutrition",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   89,
+   91
+  ],
+  "bookPages": "67, 69"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "C: facilitates iron absorption by reducing it to Fe2+; collagen proline/lysine hydroxylation; dopamine β-hydroxylase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Antioxidant; also facilitates iron absorption by reducing it to Fe2+ state. Necessary for hydroxylation of proline and lysine in collagen synthesis. Necessary for dopamine β-hydroxylase (converts dopamine to NE).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "C: ancillary methemoglobinemia treatment reducing Fe3+ to Fe2+",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Ancillary treatment for methemoglobinemia by reducing Fe3+ to Fe2+.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Scurvy findings: swollen gums, corkscrew hair, perifollicular and subperiosteal hemorrhages",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Scurvy—swollen gums, easy bruising, petechiae, hemarthrosis, anemia, poor wound healing, perifollicular and subperiosteal hemorrhages, “corkscrew” hair.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Scurvy: weakened immune response; tea and toast diet",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Weakened immune response.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "C deficiency precipitated by tea and toast diet",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Deficiency may be precipitated by tea and toast diet.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "C excess: nausea, vomiting, diarrhea, fatigue, calcium oxalate nephrolithiasis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Nausea, vomiting, diarrhea, fatigue, calcium oxalate nephrolithiasis (excess oxalate from vitamin C metabolism).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "C excess can ↑ iron toxicity in predisposed individuals (hemochromatosis, transfusion overload)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Can ↑ iron toxicity in predisposed individuals by increasing dietary iron absorption (ie, can worsen hemochromatosis or transfusion-related iron overload).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Zinc: 100+ enzymes, zinc fingers (transcription factor motif)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Mineral essential for the activity of 100+ enzymes. Important in the formation of zinc fingers (transcription factor motif).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Zinc deficiency: delayed wound healing, suppressed immunity, hypogonadism, ↓adult hair, dysgeusia, anosmia",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Delayed wound healing, suppressed immunity, male hypogonadism, ↓ adult hair (axillary, facial, pubic), dysgeusia, anosmia.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Acrodermatitis enteropathica (photograph label A): congenital zinc absorption defect; periorificial + acral triad",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Associated with acrodermatitis enteropathica A —congenital defect in intestinal zinc absorption manifesting with triad of hair loss, diarrhea, and inflammatory skin rash around body openings (periorificial) and tips of fingers/toes (acral).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Zinc deficiency may predispose to alcoholic cirrhosis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "May predispose to alcoholic cirrhosis.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Kwashiorkor: protein malnutrition, skin lesions, edema from ↓oncotic pressure (↓albumin + ↑ADH), fatty liver (↓apolipoprotein)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Protein malnutrition resulting in skin lesions, edema due to ↓ plasma oncotic pressure (arising from ↓ serum albumin and ↑ ADH), liver malfunction (fatty change due to ↓ apolipoprotein synthesis and deposition).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Kwashiorkor: small child with swollen abdomen (photograph label A)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Clinical picture is small child with swollen abdomen A .",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "MEALS mnemonic: Malnutrition, Edema, Anemia, Liver (fatty), Skin lesions",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Kwashiorkor results from proteindeficient MEALS:",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Marasmus: malnutrition not causing edema; calorie deficiency with no nutrients entirely absent",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Malnutrition not causing edema. Diet is deficient in calories but no nutrients are entirely absent.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Marasmus: muscle wasting (photograph label B)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Marasmus results in muscle wasting B .",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Linear growth maintained in acute PEM vs chronic malnutrition",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Linear growth maintained in acute proteinenergy malnutrition (vs chronic malnutrition).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "acrodermatitis-enteropathica",
+  "kwashiorkor-illustration",
+  "marasmus-illustration"
+ ],
+ "mechanismIds": [
+  "vitamin-c-collagen-scurvy",
+  "pem-edema-vs-wasting"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (tea-and-toast scurvy stem, kwashiorkor-vs-marasmus stems, acrodermatitis stem, megadose-C stone stem, plus the kwashiorkor mini-case with answer autopsy)."
+  },
+  {
+   "id": "belly-decides-discriminator",
+   "origin": "outside-first-aid",
+   "rationale": "The albumin-axis model (oncotic failure + ADH + apolipoprotein fatty liver vs calorie-burning without third-space) is a KYP-original scaffold; the source states the facts separately.",
+   "location": "mechanism 'pem-edema-vs-wasting' + notice lines of the kwashiorkor/marasmus visuals",
+   "summary": "The edema-or-wasting decision tree and the MEALS unpacking that resolve every PEM vignette."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

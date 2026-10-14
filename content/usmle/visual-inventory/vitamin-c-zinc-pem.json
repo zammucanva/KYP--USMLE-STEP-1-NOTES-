@@ -1,0 +1,88 @@
+{
+ "topicId": "vitamin-c-zinc-pem",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "vitamin-c-zinc-pem-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Acrodermatitis enteropathica (zinc deficiency)",
+   "sourceFigureDescription": "Clinical photograph: periorificial and acral scaly dermatitis — the zinc deficiency pattern",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+   "topicId": "vitamin-c-zinc-pem",
+   "kypVisualId": "acrodermatitis-enteropathica",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "vitamin-c-zinc-pem-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Kwashiorkor photograph",
+   "sourceFigureDescription": "Clinical photograph: child with edema (swollen abdomen) with hypopigmented hair — protein deficiency with adequate calories",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+   "topicId": "vitamin-c-zinc-pem",
+   "kypVisualId": "kwashiorkor-illustration",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "vitamin-c-zinc-pem-sv3",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Marasmus photograph",
+   "sourceFigureDescription": "Clinical photograph: severe muscle and fat wasting without edema — global calorie deprivation",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+   "topicId": "vitamin-c-zinc-pem",
+   "kypVisualId": "marasmus-illustration",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "vitamin-c-zinc-pem",
+  "textbookVisualCount": 3,
+  "accountedFor": 3,
+  "sourceReproductions": 0,
+  "kypRedraws": 3,
+  "kypOriginals": 0,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "All three photographs (acrodermatitis enteropathica label A, kwashiorkor label A, marasmus label B — pdf 91 / book 69) are drawn as diagnostic-pattern-preserving KYP originals (periorificial + acral rash; swollen-abdomen child with pitting edema; wasted child without edema). No source artwork reproduced."
+}

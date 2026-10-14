@@ -1,0 +1,88 @@
+{
+ "topicId": "tca-cycle-pdh",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "tca-cycle-pdh-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "BIOCHEMICAL_PATHWAY",
+   "visualPurpose": "TCA cycle circular pathway map",
+   "sourceFigureDescription": "Citrate synthase entry (acetyl-CoA + OAA → citrate), eight-step circle with isocitrate/α-KGDH/succinate dehydrogenase/malate dehydrogenase steps, NADH/FADH2/GTP yields, regulation (ATP, NADH, ADP, Ca2+)",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+   "topicId": "tca-cycle-pdh",
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "kypVisualId": "tca-cycle-map",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "tca-cycle-pdh-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "BIOCHEMICAL_PATHWAY",
+   "visualPurpose": "Pyruvate metabolism hub",
+   "sourceFigureDescription": "Pyruvate crossroads: → acetyl-CoA (PDH), → oxaloacetate (pyruvate carboxylase), → lactate (LDH), → alanine (ALT)",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+   "topicId": "tca-cycle-pdh",
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "kypVisualId": "pyruvate-hub",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "tca-cycle-pdh-sv3",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "FLOWCHART",
+   "visualPurpose": "Pyruvate dehydrogenase complex mechanism",
+   "sourceFigureDescription": "PDH complex with five cofactors (B1-TPP, B2-FAD, B3-NAD, B5-CoA, lipoic acid) and regulatory kinase/phosphatase switch",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+   "topicId": "tca-cycle-pdh",
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "kypVisualId": "pdh-cofactor-panel",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "tca-cycle-pdh",
+  "textbookVisualCount": 3,
+  "accountedFor": 3,
+  "sourceReproductions": 0,
+  "kypRedraws": 1,
+  "kypOriginals": 2,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "The TCA circle (sv1, pdf 97) is an original KYP redraw preserving the source's eight-metabolite circle with carbon counts, the starred irreversible enzymes (citrate synthase, isocitrate DH, α-KG DH), the product markers (NADH, FADH2, GTP, CO2), and the PDH entry arm. The pyruvate metabolism hub (sv2, pdf 97) reuses the existing pilot registry visual pyruvate-hub (PDH/pyruvate carboxylase/LDH/ALT exits with cofactor handles and the cytosol/mitochondria split), now embedded in this note where the source figure lives — upgraded from the transitional SOURCE_REFERENCE holding state (documented in the worklog). The PDH complex mechanism (sv3, pdf 96) is an original KYP adaptation: the five numbered cofactor cards, reaction bar, activation panel, arsenic panel, and the X-linked deficiency strip."
+}

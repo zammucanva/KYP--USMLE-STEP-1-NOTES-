@@ -1,0 +1,65 @@
+{
+  "topicId": "organelles-cell-trafficking",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "organelles-cell-trafficking-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          67
+        ],
+        "bookPages": "45"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Organelles & Trafficking",
+      "topicId": "organelles-cell-trafficking",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Secretory pathway with vesicle traffic directions",
+      "sourceFigureDescription": "Endomembrane flow map: nucleus/RER → ERGIC → Golgi (cis→trans) → secretory vesicles/plasma membrane (exocytosis), clathrin/AP adaptin routes to endosomes/lysosomes, COPI retrograde, COPII anterograde",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "secretory-pathway-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "organelles-cell-trafficking-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          67
+        ],
+        "bookPages": "45"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Organelles & Trafficking",
+      "topicId": "organelles-cell-trafficking",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "EM patterns of RER and Golgi",
+      "sourceFigureDescription": "Two EMs: RER with studded ribosomes arrays, Golgi stacked cisternae — the diagnostic ultrastructure for each organelle",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "rer-golgi-em",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "organelles-cell-trafficking",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both visuals are original KYP redraws: the secretory-pathway map preserves every arrow and coat of the source figure (COPII anterograde, COPI retrograde Golgi→Golgi and cis→ER, clathrin routes to lysosomes and early endosomes, LDL receptor-mediated endocytosis, membrane recycling); the RER-vs-Golgi EM comparison preserves the diagnostic ultrastructure (ribosome-studded cisternae vs smooth stacked saccules with vesicles)."
+}

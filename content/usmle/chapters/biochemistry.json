@@ -1,0 +1,4072 @@
+{
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "number": 1,
+  "part": 1,
+  "section": "II",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 49,
+      "to": 114
+    }
+  ],
+  "bookPages": "27–92",
+  "extractionStatus": "extracted",
+  "extraction": {
+    "extractedOn": "2026-10-07",
+    "method": "PDF text-layer font-level heading extraction (PyMuPDF span styles: #004b6c MyriadPro-Bold 10pt = FA subsection bars; #165d7e semibold = minor headings) + full-page render VLM identification for every embedded raster/vector figure + text-layer cross-verification",
+    "frontMatter": "pdf 49–53 (book 27–31) = Section II intro / database guide / acknowledgments / chapter title page with tab index",
+    "contentPages": "pdf 54–114 (book 32–92)",
+    "faGroups": [
+      {
+        "group": "Molecular",
+        "pdfPages": [
+          54,
+          65
+        ],
+        "bookPages": "32–43",
+        "topics": 10
+      },
+      {
+        "group": "Cellular",
+        "pdfPages": [
+          66,
+          71
+        ],
+        "bookPages": "44–49",
+        "topics": 5
+      },
+      {
+        "group": "Laboratory Techniques",
+        "pdfPages": [
+          72,
+          75
+        ],
+        "bookPages": "50–53",
+        "topics": 4
+      },
+      {
+        "group": "Genetics",
+        "pdfPages": [
+          76,
+          85
+        ],
+        "bookPages": "54–63",
+        "topics": 9
+      },
+      {
+        "group": "Nutrition",
+        "pdfPages": [
+          85,
+          92
+        ],
+        "bookPages": "63–70",
+        "topics": 8
+      },
+      {
+        "group": "Metabolism",
+        "pdfPages": [
+          93,
+          114
+        ],
+        "bookPages": "71–92",
+        "topics": 18
+      }
+    ]
+  },
+  "topics": [
+    {
+      "topicId": "chromatin-organization",
+      "title": "Chromatin Organization & Epigenetic Regulation",
+      "faSubsections": [
+        "Chromatin structure"
+      ],
+      "subsection": "Molecular — Chromatin & Epigenetic Regulation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "chromatin-packing-hierarchy",
+        "heterochromatin-euchromatin-em"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Heterochromatin vs euchromatin, nucleosome anatomy, and the methylation/acetylation switch — the epigenetic base layer every later genetics topic leans on.",
+      "textbookVisuals": [
+        {
+          "visualId": "chromatin-organization-sv1",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "DNA packing hierarchy from double helix to metaphase chromosome",
+          "sourceFigureDescription": "Left-to-right condensation series: DNA double helix → nucleosome (histone octamer + H1 linker) → 30-nm fiber/supercoiled structure → heterochromatin loop → condensed metaphase chromosome",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              54
+            ],
+            "bookPages": "32"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "chromatin-organization",
+          "productionStatus": "implemented",
+          "plannedKypVisualId": "chromatin-packing-hierarchy",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "chromatin-organization-sv2",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Electron micrograph pattern: dark peripheral heterochromatin vs light central euchromatin",
+          "sourceFigureDescription": "Transmission EM of a nucleus with H-labeled dense heterochromatin rimming the nuclear envelope and E-labeled pale euchromatin centrally, nucleolus labeled Nu",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              54
+            ],
+            "bookPages": "32"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "chromatin-organization",
+          "productionStatus": "implemented",
+          "plannedKypVisualId": "heterochromatin-euchromatin-em",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "nucleotides-synthesis",
+      "title": "Nucleotide De novo Synthesis",
+      "faSubsections": [
+        "Nucleotides",
+        "De novo pyrimidine and purine synthesis"
+      ],
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          55,
+          56
+        ],
+        "bookPages": "33–34"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "nucleotide-ring-atom-sources",
+        "pyrimidine-purine-de-novo-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Atom-by-atom ring construction (glycine/aspartate/glutamine/CO2/folate) and the committed steps of both rings — a classic Step 1 figure-recall topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "nucleotides-synthesis-sv1",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Atom sources of purine and pyrimidine rings",
+          "sourceFigureDescription": "Purine (imidazole+pyrimidine fused) and pyrimidine ring diagrams with each atom labeled by precursor: glycine (N7/C4/C5), aspartate (N1), glutamine (N3/N9), CO2 (C6), N10-formyl-THF (C2/C8), carbamoyl phosphate (N3/C4/C5/C6 of pyrimidine)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              55
+            ],
+            "bookPages": "33"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "nucleotides-synthesis",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "nucleotide-ring-atom-sources",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "nucleotides-synthesis-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "De novo synthesis and salvage pathway map with drug sites",
+          "sourceFigureDescription": "Flow map of pyrimidine synthesis (CPS2 → carbamoyl aspartate → orotic acid → UMP) and purine synthesis (PRPP → IMP branch), with salvage routes and inhibitor sites (hydroxyurea, 5-FU, methotrexate, mycophenolate, cyclopentolate-like anchors)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              56
+            ],
+            "bookPages": "34"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "nucleotides-synthesis",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "pyrimidine-purine-de-novo-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "purine-salvage-disorders",
+      "title": "Purine Salvage Disorders",
+      "faSubsections": [
+        "Purine salvage deficiencies"
+      ],
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "purine-metabolism-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "ADA deficiency and Lesch-Nyhan (HGPRT) — the FA purine map with both blocks and drug targets is the single highest-yield visual in this cluster.",
+      "textbookVisuals": [
+        {
+          "visualId": "purine-salvage-disorders-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Purine metabolism: de novo, salvage, degradation with deficiency blocks",
+          "sourceFigureDescription": "Purine flow map: PRPP → de novo → IMP → AMP/GMP; salvage via APRT/HGPRT; degradation to xanthine → uric acid; ADA and HGPRT deficiency blocks marked; drug targets (allopurinol, rasburicase, pegloticase)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              57
+            ],
+            "bookPages": "35"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "purine-salvage-disorders",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "purine-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "dna-replication",
+      "title": "DNA Replication",
+      "faSubsections": [
+        "DNA replication"
+      ],
+      "subsection": "Molecular — DNA Replication",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          58
+        ],
+        "bookPages": "36"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "replication-fork-machinery"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "The replication fork figure (helicase → SSBP → primase → pol III → pol I → ligase, leading vs lagging) is a two-question-per-ex topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "dna-replication-sv1",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Replication fork machinery and directionality",
+          "sourceFigureDescription": "Two-strand fork schematic: helicase at the fork, SSBP, topoisomerase, primase laying RNA primers, DNA pol III synthesizing leading (continuous) and lagging (Okazaki fragments), pol I primer removal, ligase sealing; leading/lagging directionality inset",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              58
+            ],
+            "bookPages": "36"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "dna-replication",
+          "productionStatus": "implemented",
+          "plannedKypVisualId": "replication-fork-machinery",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "dna-repair",
+      "title": "DNA Repair Pathways",
+      "faSubsections": [
+        "DNA repair"
+      ],
+      "subsection": "Molecular — DNA Repair",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          59
+        ],
+        "bookPages": "37"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "dna-repair-pathways"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "NHEJ, HR, NER, BER, MMR — five mechanisms, five disease associations (BRCA, XP, HNPCC). Dense mechanism topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "dna-repair-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Five DNA repair mechanisms: NHEJ, HR, NER, BER, MMR",
+          "sourceFigureDescription": "Composite schematic: NHEJ (blunt-end ligation of double-strand break), homologous recombination (sister-chromatid template repair of DSB), nucleotide excision repair (end nuclease cut around bulky lesion), base excision repair (glycosylase removes base, AP site), mismatch repair (MutS/L excision of mismatch)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              59
+            ],
+            "bookPages": "37"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "dna-repair",
+          "productionStatus": "implemented",
+          "plannedKypVisualId": "dna-repair-pathways",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "dna-mutations",
+      "title": "Mutations in DNA",
+      "faSubsections": [
+        "Mutations in DNA"
+      ],
+      "subsection": "Molecular — DNA Mutations",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          60
+        ],
+        "bookPages": "38"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "mutation-types-panel"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Silent → missense → nonsense → frameshift → splice-site with the DNA/mRNA/protein consequence rows — visual-recall heavy, logic-light.",
+      "textbookVisuals": [
+        {
+          "visualId": "dna-mutations-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Mutation type consequences on DNA, mRNA codon and protein",
+          "sourceFigureDescription": "Parallel-row comparison figure: wild-type DNA/mRNA/protein vs silent, missense, nonsense, frameshift (deletion/insertion) and splice-site mutations, each row showing the changed codon and truncated/abnormal protein product",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              60
+            ],
+            "bookPages": "38"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "dna-mutations",
+          "productionStatus": "implemented",
+          "plannedKypVisualId": "mutation-types-panel",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "lac-operon",
+      "title": "Lac Operon",
+      "faSubsections": [
+        "Lac operon"
+      ],
+      "subsection": "Molecular — Prokaryotic Gene Regulation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "lac-operon-states"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "The glucose × lactose truth table with CAP-cAMP and repressor logic — classic high-difficulty regulation topic that rewards a state-diagram visual.",
+      "textbookVisuals": [
+        {
+          "visualId": "lac-operon-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Lac operon regulation states under glucose/lactose conditions",
+          "sourceFigureDescription": "Operon diagram (promoter, operator, CAP site, lacZ/lacY/lacA) plus four states: +glucose +lactose (low), +glucose -lactose (off), -glucose +lactose (max, CAP-cAMP on, repressor off), -glucose -lactose (off)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              61
+            ],
+            "bookPages": "39"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lac-operon",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "lac-operon-states",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "eukaryotic-gene-organization",
+      "title": "Eukaryotic Gene Organization & Regulation",
+      "faSubsections": [
+        "Functional organization of a eukaryotic gene",
+        "Regulation of gene expression"
+      ],
+      "subsection": "Molecular — Eukaryotic Gene Regulation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          61,
+          62
+        ],
+        "bookPages": "39–40"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "eukaryotic-gene-anatomy"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Promoter/enhancer/silencer anatomy plus the DNA→RNA→protein flow figure — foundational vocabulary for every genetics question.",
+      "textbookVisuals": [
+        {
+          "visualId": "eukaryotic-gene-organization-sv1",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Functional anatomy of a eukaryotic gene and its expression flow",
+          "sourceFigureDescription": "DNA→RNA→protein central-dogma strip above a gene schematic: enhancer/silencer upstream elements, promoter/TATA box, transcription start, exons (coding) alternating with introns, poly-A site; regulation labels for promoter/enhancer/silencer/epigenetics",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              61,
+              62
+            ],
+            "bookPages": "39–40"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "eukaryotic-gene-organization",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "eukaryotic-gene-anatomy",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "rna-processing",
+      "title": "RNA Processing & Splicing",
+      "faSubsections": [
+        "RNA processing (eukaryotes)",
+        "RNA polymerases",
+        "Introns vs exons",
+        "Splicing of pre-mRNA"
+      ],
+      "subsection": "Molecular — RNA Processing",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          62,
+          63
+        ],
+        "bookPages": "40–41"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "mrna-maturation-anatomy",
+        "alternative-splicing",
+        "spliceosome-lariat"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Cap/poly-A anatomy, alternative splicing diversity, and the spliceosome lariat mechanism — three distinct FA figures, all mechanism-tested.",
+      "textbookVisuals": [
+        {
+          "visualId": "rna-processing-sv1",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Mature mRNA anatomy: 5' cap, UTRs, coding region, poly-A tail",
+          "sourceFigureDescription": "Linear mRNA schematic with 5' 7-methylguanosine cap, 5' UTR, AUG start, coding exons, stop codon, 3' UTR, poly-A tail with polyadenylation signal",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              62
+            ],
+            "bookPages": "40"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "rna-processing",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "mrna-maturation-anatomy",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "rna-processing-sv2",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Alternative splicing producing protein isoforms",
+          "sourceFigureDescription": "Pre-mRNA with multiple exons spliced in different combinations (exon skipping) yielding distinct mature mRNAs and protein isoforms",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              63
+            ],
+            "bookPages": "41"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "rna-processing",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "alternative-splicing",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "rna-processing-sv3",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Spliceosome-mediated intron removal with lariat intermediate",
+          "sourceFigureDescription": "Step diagram: snRNP assembly at 5' donor/branch point/3' acceptor → 2'-5' lariat loop formation → exon ligation → released lariat degraded",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              63
+            ],
+            "bookPages": "41"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "rna-processing",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "spliceosome-lariat",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "translation-protein-synthesis",
+      "title": "Translation & Protein Processing",
+      "faSubsections": [
+        "Genetic code features",
+        "tRNA",
+        "Start and stop codons",
+        "Protein synthesis",
+        "Posttranslational modifications",
+        "Chaperone protein"
+      ],
+      "subsection": "Molecular — Translation & Protein Processing",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          57,
+          64,
+          65
+        ],
+        "bookPages": "35, 42–43"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "trna-structure-charging",
+        "translation-stages"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "tRNA charging, start/stop logic, initiation→elongation→termination, then PTM. The genetic-code features (pdf 57) fold into this note.",
+      "textbookVisuals": [
+        {
+          "visualId": "translation-protein-synthesis-sv1",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "tRNA cloverleaf structure, charging and codon pairing",
+          "sourceFigureDescription": "Three-part figure: tRNA cloverleaf (anticodon arm, acceptor stem 3' CCA), aminoacyl-tRNA synthetase charging (ATP → aminoacyl-tRNA), codon-anticodon antiparallel pairing with mRNA",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              64
+            ],
+            "bookPages": "42"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "translation-protein-synthesis",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "trna-structure-charging",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "translation-protein-synthesis-sv2",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Translation initiation, elongation and termination on the ribosome",
+          "sourceFigureDescription": "Ribosome (small+large subunit) diagram in three stages: initiation complex at AUG (Kozak), elongation cycle with aminoacyl/peptidyl sites and elongation factors, termination at stop codon with release factors",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              65
+            ],
+            "bookPages": "43"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "translation-protein-synthesis",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "translation-stages",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "translation-protein-synthesis-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Genetic code feature definitions",
+          "sourceFigureDescription": "Text-property list (unambiguous, degenerate/redundant, commaless, nonoverlapping, universal) — no drawn figure in source",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              57
+            ],
+            "bookPages": "35"
+          },
+          "requiredInKYP": false,
+          "implementationType": "SOURCE_REFERENCE",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "translation-protein-synthesis",
+          "productionStatus": "planned",
+          "omissionReason": "Text-only property list; absorbed as note text in the translation note's codon section"
+        }
+      ]
+    },
+    {
+      "topicId": "cell-cycle",
+      "title": "Cell Cycle & Checkpoints",
+      "faSubsections": [
+        "Cell cycle phases"
+      ],
+      "subsection": "Cellular — Cell Cycle & Checkpoints",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          66
+        ],
+        "bookPages": "44"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "cell-cycle-checkpoints"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Cyclin-CDK pairs, Rb/E2F, p53-p21 and the checkpoint map — the chapter's central signal-transduction figure and a D3 integration topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "cell-cycle-sv1",
+          "visualType": "SIGNAL_TRANSDUCTION",
+          "visualPurpose": "Cell cycle phase map with cyclin-CDK, p53 and Rb checkpoints",
+          "sourceFigureDescription": "Circular G1→S→G2→M diagram with restriction point and G2/M checkpoint, cyclin-CDK pairs (D-CDK4/6, E-CDK2, A/B-CDK1), Rb-E2F gate, p53-p21 arrest axis",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              66
+            ],
+            "bookPages": "44"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cell-cycle",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "cell-cycle-checkpoints",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "organelles-cell-trafficking",
+      "title": "Organelles & Cell Trafficking",
+      "faSubsections": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Cell trafficking",
+        "Peroxisome",
+        "Proteasome"
+      ],
+      "subsection": "Cellular — Organelles & Trafficking",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          67,
+          68
+        ],
+        "bookPages": "45–46"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "secretory-pathway-map",
+        "rer-golgi-em-schematics"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "RER/SER function split, vesicular traffic directions (COPI/COPII/clathrin), peroxisome and proteasome jobs — anchored by the secretory-pathway figure and the organelle EMs.",
+      "textbookVisuals": [
+        {
+          "visualId": "organelles-cell-trafficking-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Secretory pathway with vesicle traffic directions",
+          "sourceFigureDescription": "Endomembrane flow map: nucleus/RER → ERGIC → Golgi (cis→trans) → secretory vesicles/plasma membrane (exocytosis), clathrin/AP adaptin routes to endosomes/lysosomes, COPI retrograde, COPII anterograde",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              67
+            ],
+            "bookPages": "45"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "organelles-cell-trafficking",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "secretory-pathway-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "organelles-cell-trafficking-sv2",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "EM patterns of RER and Golgi",
+          "sourceFigureDescription": "Two EMs: RER with studded ribosomes arrays, Golgi stacked cisternae — the diagnostic ultrastructure for each organelle",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              67
+            ],
+            "bookPages": "45"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "organelles-cell-trafficking",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "rer-golgi-em-schematics",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "cytoskeleton-cilia",
+      "title": "Cytoskeleton, Microtubules & Cilia",
+      "faSubsections": [
+        "Cytoskeletal elements",
+        "Microtubule",
+        "Cilia structure"
+      ],
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          68,
+          69
+        ],
+        "bookPages": "46–47"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "microtubule-structure",
+        "cilia-axoneme-em",
+        "dextrocardia-cxr-pattern",
+        "na-k-atpase-pump"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Actin/intermediate/microtubule trio, kinesin vs dynein, 9+2 axoneme, and the Kartagener triad with dextrocardia CXR — image-rich D3 topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "cytoskeleton-cilia-sv1",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Microtubule architecture: α/β tubulin heterodimers, +/- ends",
+          "sourceFigureDescription": "Cylinder schematic: protofilaments of α-β heterodimers, GTP caps, minus end (nucleus-facing) vs plus end (periphery), with kinesin anterograde / dynein retrograde motor labels",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              68
+            ],
+            "bookPages": "46"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cytoskeleton-cilia",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "microtubule-structure",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "cytoskeleton-cilia-sv2",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Cilium 9+2 axoneme and basal body EM cross-sections",
+          "sourceFigureDescription": "Diagram-plus-EM pairs: motile cilium 9+2 microtubule doublets with dynein arms and radial spokes; basal body 9 triplets (no central pair)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              69
+            ],
+            "bookPages": "47"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cytoskeleton-cilia",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "cilia-axoneme-em",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "cytoskeleton-cilia-sv3",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "Dextrocardia chest radiograph in primary ciliary dyskinesia",
+          "sourceFigureDescription": "CXR with cardiac silhouette on the right, stomach bubble on the left (situs inversus) — the Kartagener radiographic pattern",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              69
+            ],
+            "bookPages": "47"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cytoskeleton-cilia",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "dextrocardia-cxr-pattern",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "cytoskeleton-cilia-sv4",
+          "visualType": "PHYSIOLOGY_DIAGRAM",
+          "visualPurpose": "Na+/K+ ATPase pump mechanism",
+          "sourceFigureDescription": "Membrane pump schematic: 3 Na+ out / 2 K+ in per ATP, phosphorylation state cycle — reviewed here with organelle ion handling",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              69
+            ],
+            "bookPages": "47"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cytoskeleton-cilia",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "na-k-atpase-pump",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "collagen-elastin",
+      "title": "Collagen & Elastin",
+      "faSubsections": [
+        "Collagen",
+        "Collagen synthesis and structure",
+        "Elastin"
+      ],
+      "subsection": "Cellular — Extracellular Matrix Proteins",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          70,
+          72
+        ],
+        "bookPages": "48, 50"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "collagen-synthesis-steps",
+        "elastin-crosslink-cycle"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Collagen types I–V, the synthesis pipeline (hydroxylation → glycosylation → cross-linking) and elastin's stretch-relax cycle — cofactor-trap dense (vit C, copper).",
+      "textbookVisuals": [
+        {
+          "visualId": "collagen-elastin-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Collagen synthesis pipeline from fibroblast gene to cross-linked fibril",
+          "sourceFigureDescription": "Step diagram: transcription/translation in RER → pro-α chain hydroxylation (vit C) → glycosylation → triple helix (procollagen) → exocytosis → peptidase trimming (tropocollagen) → cross-linking by lysyl oxidase (copper)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              70
+            ],
+            "bookPages": "48"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "collagen-elastin",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "collagen-synthesis-steps",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "collagen-elastin-sv2",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Elastin stretch-relax cycle with desmosine cross-links",
+          "sourceFigureDescription": "Single elastin molecule shown stretched and recoiling with lysine-derived desmosine cross-link sites; contrast with rigid collagen triple helix",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              72
+            ],
+            "bookPages": "50"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "collagen-elastin",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "elastin-crosslink-cycle",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "connective-tissue-diseases",
+      "title": "Connective Tissue Diseases (OI, EDS, Menkes, Williams)",
+      "faSubsections": [
+        "Osteogenesis imperfecta",
+        "Ehlers-Danlos syndrome",
+        "Menkes disease"
+      ],
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          71,
+          72,
+          85
+        ],
+        "bookPages": "49–50, 63"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "blue-sclera-illustration",
+        "oi-fractures-radiograph-pattern",
+        "eds-hyperextensibility-illustration",
+        "pectus-carinatum-illustration"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Clinical-photo-driven diagnosis cluster (blue sclerae, bone fragility, hyperextensibility) plus the Marfan vs homocystinuria discriminator table and Williams' elastin link from pdf 85.",
+      "textbookVisuals": [
+        {
+          "visualId": "connective-tissue-diseases-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Blue sclerae of osteogenesis imperfecta",
+          "sourceFigureDescription": "Clinical photograph: white/blue-grey scleral hue in a child's eyes — the OI Type I sign",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              71
+            ],
+            "bookPages": "49"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "connective-tissue-diseases",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "blue-sclera-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "connective-tissue-diseases-sv2",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "Multiple healed fractures / bone fragility in osteogenesis imperfecta",
+          "sourceFigureDescription": "Radiograph of an upper extremity with healed fracture lines and deformity (red arrows) — osteopenia + recurrent fracture pattern",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              71
+            ],
+            "bookPages": "49"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "connective-tissue-diseases",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "oi-fractures-radiograph-pattern",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "connective-tissue-diseases-sv3",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Hyperextensible skin and hypermobile joints in Ehlers-Danlos syndrome",
+          "sourceFigureDescription": "Two clinical photographs: skin hyperextension over the forearm and thumb-forearm hypermobility",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              71
+            ],
+            "bookPages": "49"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "connective-tissue-diseases",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "eds-hyperextensibility-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "connective-tissue-diseases-sv4",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Pectus carinatum in Marfan syndrome",
+          "sourceFigureDescription": "Clinical photograph of anterior chest wall deformity (pigeon chest) used with the Marfan vs homocystinuria contrast",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              72
+            ],
+            "bookPages": "50"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "connective-tissue-diseases",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "pectus-carinatum-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "connective-tissue-diseases-sv5",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Marfan syndrome vs homocystinuria comparison",
+          "sourceFigureDescription": "Side-by-side table: tall stature, lens subluxation (up in Marfan, down in homocystinuria), etc., with shared and discriminating features",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              72
+            ],
+            "bookPages": "50"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "connective-tissue-diseases",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "pcr-crispr",
+      "title": "PCR & CRISPR/Cas9",
+      "faSubsections": [
+        "Polymerase chain reaction",
+        "CRISPR/Cas9"
+      ],
+      "subsection": "Laboratory Techniques — Nucleic Acid Amplification & Editing",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          72,
+          73
+        ],
+        "bookPages": "50–51"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "pcr-cycle-steps",
+        "crispr-cas9-mechanism"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "PCR's three-temperature cycle and CRISPR's cut-then-NHEJ/HDR fork — both figures are step-mechanism visuals that beg for animated-style flow diagrams.",
+      "textbookVisuals": [
+        {
+          "visualId": "pcr-crispr-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "PCR thermal cycle: denaturation, annealing, extension",
+          "sourceFigureDescription": "Three-step cycle diagram at 95°C/55°C/72°C with DNA strands separating, primers binding, Taq extending; product-doubling annotation",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              72
+            ],
+            "bookPages": "50"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "pcr-crispr",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "pcr-cycle-steps",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "pcr-crispr-sv2",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "CRISPR/Cas9 editing outcomes: NHEJ knockout vs HDR knock-in",
+          "sourceFigureDescription": "Cas9 + gRNA complex bound to target DNA, DSB made, then fork: NHEJ (indel, gene knockout) or HDR with donor template (precise knock-in)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              73
+            ],
+            "bookPages": "51"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "pcr-crispr",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "crispr-cas9-mechanism",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "blotting-procedures",
+      "title": "Blotting Procedures",
+      "faSubsections": [
+        "Blotting procedures"
+      ],
+      "subsection": "Laboratory Techniques — Blotting",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "southern-blot-pedigree"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "The Southern-blot pedigree genotype figure is the canonical 'predict the band pattern' exam visual; SNoW DRoP ordering rides on it.",
+      "textbookVisuals": [
+        {
+          "visualId": "blotting-procedures-sv1",
+          "visualType": "DIAGNOSTIC_ALGORITHM",
+          "visualPurpose": "Southern blot genotyping with a pedigree",
+          "sourceFigureDescription": "Autosomal dominant pedigree above a Southern blot: family members' DNA cut and probed, band patterns showing mutant vs normal alleles per individual (Aa/AA/aa)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              73
+            ],
+            "bookPages": "51"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "blotting-procedures",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "southern-blot-pedigree",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "flow-cytometry-elisa",
+      "title": "Flow Cytometry & ELISA",
+      "faSubsections": [
+        "Flow cytometry"
+      ],
+      "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "flow-cytometry-laser-path",
+        "cd-cd-quadrant-plot",
+        "elisa-direct-indirect"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Instrument schematic, quadrant dot plots (CD3/CD8 style), and direct vs indirect ELISA — three teaching figures, pattern-recognition questions.",
+      "textbookVisuals": [
+        {
+          "visualId": "flow-cytometry-elisa-sv1",
+          "visualType": "DIAGNOSTIC_ALGORITHM",
+          "visualPurpose": "Flow cytometer: fluorescent cells through laser to detector",
+          "sourceFigureDescription": "Instrument schematic: labeled cells in droplet stream → laser excitation → detectors (FSC/SSC, fluorescence) → computer separation",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              74
+            ],
+            "bookPages": "52"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "flow-cytometry-elisa",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "flow-cytometry-laser-path",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "flow-cytometry-elisa-sv2",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Quadrant dot plot of CD3 vs CD8 expression",
+          "sourceFigureDescription": "Scatter plot quadrants: CD3+CD8+ (cytotoxic T cells), CD3+CD4+ region, double-negative, double-positive populations",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              74
+            ],
+            "bookPages": "52"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "flow-cytometry-elisa",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "cd-cd-quadrant-plot",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "flow-cytometry-elisa-sv3",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Direct vs indirect ELISA mechanism",
+          "sourceFigureDescription": "Well-plate schematics: direct ELISA (patient antigen + labeled antibody) vs indirect (patient antibody detected by labeled anti-Ig)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              74
+            ],
+            "bookPages": "52"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "flow-cytometry-elisa",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "elisa-direct-indirect",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "karyotyping",
+      "title": "Karyotyping",
+      "faSubsections": [
+        "Karyotyping",
+        "Spectral karyotyping"
+      ],
+      "subsection": "Laboratory Techniques — Cytogenetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "g-banded-karyotype-schematic",
+        "sky-karyotype-schematic"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "G-banding vs spectral karyotyping — two visuals, light content; nomenclature (46,XX,t(14;21)) is the real exercise.",
+      "textbookVisuals": [
+        {
+          "visualId": "karyotyping-sv1",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "G-banded karyogram with abnormality arrows",
+          "sourceFigureDescription": "Metaphase chromosome spread arranged in homologous pairs, Giemsa banding pattern, red arrows marking a structural abnormality",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              75
+            ],
+            "bookPages": "53"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "karyotyping",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "g-banded-karyotype-schematic",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "karyotyping-sv2",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Spectral karyotyping (SKY) chromosome paint",
+          "sourceFigureDescription": "Each chromosome painted a distinct color by chromosome-specific probes — translocations appear as two-tone chromosomes",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              75
+            ],
+            "bookPages": "53"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "karyotyping",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "sky-karyotype-schematic",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "gene-expression-modifications",
+      "title": "Gene Expression Modifications",
+      "faSubsections": [
+        "Gene expression modifications"
+      ],
+      "subsection": "Genetics — Epigenetic Modifications",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "The methylation/acetylation/histone-code modification table — compact epigenetics recall that cross-links the chromatin note; no drawn figure in source.",
+      "textbookVisuals": []
+    },
+    {
+      "topicId": "genetic-terms-popgen",
+      "title": "Genetic Terminology & Population Genetics",
+      "faSubsections": [
+        "Genetic terms",
+        "Genetic terms (continued)",
+        "Population genetics",
+        "Hardy-Weinberg principle"
+      ],
+      "subsection": "Genetics — Terminology & Population Genetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          76,
+          77,
+          78
+        ],
+        "bookPages": "54–56"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hwe-punnett-square",
+        "cafe-au-lait-mosaic-pattern"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Vocabulary spine of the genetics chapter plus Hardy-Weinberg allele math; the café-au-lait mosaicism photo and Punnett-square math visual anchor it.",
+      "textbookVisuals": [
+        {
+          "visualId": "genetic-terms-popgen-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Hardy-Weinberg allele combination square",
+          "sourceFigureDescription": "2×2 Punnett-style square combining A(p) and a(q) gametes → p², 2pq, q² genotype frequencies",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              78
+            ],
+            "bookPages": "56"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "genetic-terms-popgen",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "hwe-punnett-square",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "genetic-terms-popgen-sv2",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "McCune-Albright café-au-lait mosaicism photo",
+          "sourceFigureDescription": "Clinical photograph: large unilateral café-au-lait macules with ragged 'coast of Maine' edges illustrating the genetic term mosaicism (post-zygotic GNAS mutation)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              77
+            ],
+            "bookPages": "55"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "genetic-terms-popgen",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "cafe-au-lait-mosaic-pattern",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "genetic-terms-popgen-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Prader-Willi vs Angelman comparison table",
+          "sourceFigureDescription": "Two-column table contrasting PWS (paternal deletion; hyperphagia, hypotonia, hypogonadism) vs AS (maternal deletion/UBE3A; seizures, puppet-like laughter)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              78
+            ],
+            "bookPages": "56"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "genetic-terms-popgen",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "imprinting-disorders",
+      "title": "Disorders of Imprinting",
+      "faSubsections": [
+        "Disorders of imprinting"
+      ],
+      "subsection": "Genetics — Imprinting Disorders",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "imprinting-chromosome15"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Prader-Willi vs Angelman via the chromosome-15 paternal/maternal silencing figure — an inheritance-logic topic that collapses without the visual.",
+      "textbookVisuals": [
+        {
+          "visualId": "imprinting-disorders-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Chromosome 15 imprinting: paternal vs maternal silencing",
+          "sourceFigureDescription": "Paired chromosome-15 diagrams (paternal/maternal) showing imprinted (silenced) genes with deletion/mutation outcomes: paternal deletion → Prader-Willi, maternal UBE3A loss → Angelman",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              78
+            ],
+            "bookPages": "56"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "imprinting-disorders",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "imprinting-chromosome15",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "modes-of-inheritance",
+      "title": "Modes of Inheritance",
+      "faSubsections": [
+        "Modes of inheritance",
+        "Autosomal dominant diseases",
+        "Autosomal recessive diseases",
+        "Mitochondrial diseases",
+        "Rett syndrome"
+      ],
+      "subsection": "Genetics — Inheritance Patterns",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          79,
+          80,
+          82
+        ],
+        "bookPages": "57, 58, 60"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "inheritance-pedigrees"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Pedigree recognition for AD, AR, XLR, XLD, mitochondrial + Rett's male-lethal XLD and heteroplasmy threshold logic — the most pedigree-tested content in the book.",
+      "textbookVisuals": [
+        {
+          "visualId": "modes-of-inheritance-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Pedigree patterns for the five inheritance modes",
+          "sourceFigureDescription": "Pedigree icon panels: autosomal dominant (vertical transmission, M-M possible), autosomal recessive (skipped generations), X-linked recessive (carrier mother → sons, no M-M), X-linked dominant, mitochondrial (maternal to all children)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              79
+            ],
+            "bookPages": "57"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "modes-of-inheritance",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "inheritance-pedigrees",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "cystic-fibrosis",
+      "title": "Cystic Fibrosis Genetics",
+      "faSubsections": [
+        "Cystic fibrosis"
+      ],
+      "subsection": "Genetics — Cystic Fibrosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "cftr-enac-diagram"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "ΔF508/CFTR physiology split across lung (Cl− secrete) vs sweat duct (Cl− reabsorb) — the ENaC/CFTR schematic is the discriminating figure for the electrolyte findings.",
+      "textbookVisuals": [
+        {
+          "visualId": "cystic-fibrosis-sv1",
+          "visualType": "PHYSIOLOGY_DIAGRAM",
+          "visualPurpose": "CFTR/ENaC physiology in airway vs sweat duct",
+          "sourceFigureDescription": "Two-panel epithelium schematic: airway (CFTR secretes Cl−, ENaC reabsorbs Na+; defective CFTR → dehydrated thick mucus) vs sweat duct (CFTR reabsorbs Cl−; defect → elevated sweat Cl−)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              80
+            ],
+            "bookPages": "58"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "cystic-fibrosis",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "cftr-enac-diagram",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "muscular-dystrophies",
+      "title": "Muscular Dystrophies",
+      "faSubsections": [
+        "X-linked recessive diseases",
+        "Muscular dystrophies"
+      ],
+      "subsection": "Genetics — Muscular Dystrophies",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gowers-sequence",
+        "dmd-histology-pattern"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Dystrophin pathophysiology, DMD vs Becker frameshift/in-frame distinction, Gowers sign sequence — visual clinical-recall topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "muscular-dystrophies-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Gowers sign sequence in Duchenne muscular dystrophy",
+          "sourceFigureDescription": "Sequential illustrations of a child rising from the floor using hands-on-legs 'climbing', with lordosis, calf pseudohypertrophy and thigh atrophy labeled",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              81
+            ],
+            "bookPages": "59"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "muscular-dystrophies",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "gowers-sequence",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "muscular-dystrophies-sv2",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Dystrophic muscle histology",
+          "sourceFigureDescription": "Muscle biopsy showing fiber degeneration/regeneration with fibrofatty replacement — the DMD histologic pattern",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              81
+            ],
+            "bookPages": "59"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "muscular-dystrophies",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "dmd-histology-pattern",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "trinucleotide-repeat-diseases",
+      "title": "Trinucleotide Repeat Expansion Diseases",
+      "faSubsections": [
+        "Trinucleotide repeat expansion diseases",
+        "Fragile X syndrome"
+      ],
+      "subsection": "Genetics — Trinucleotide Repeat Expansion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "anticipation-expansion-panel"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Anticipation with parent-of-origin effects (CGG from mother, CAG from father) — small table-heavy topic with a mechanism worth teaching visually.",
+      "textbookVisuals": [
+        {
+          "visualId": "trinucleotide-repeat-diseases-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Trinucleotide repeat expansion table",
+          "sourceFigureDescription": "Table of disease/repeat/expansion-parent (Huntington CAG father-anticipated, fragile X CGG mother, myotonic dystrophy CTG) — tabular in source, taught as KYP comparison + anticipation mechanism",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              82
+            ],
+            "bookPages": "60"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "trinucleotide-repeat-diseases",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "anticipation-expansion-panel",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "autosomal-trisomies",
+      "title": "Autosomal Trisomies & Prenatal Screening",
+      "faSubsections": [
+        "Autosomal trisomies"
+      ],
+      "subsection": "Genetics — Aneuploidy & Screening",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          83
+        ],
+        "bookPages": "61"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "trisomy-clinical-signs",
+        "nondisjunction-mI-mII"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Down/Edwards/Patau clinical triad photos, nondisjunction meiosis I vs II gamete diagram, and the dual serum-marker screening tables — pattern-recall intensive.",
+      "textbookVisuals": [
+        {
+          "visualId": "autosomal-trisomies-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Trisomy clinical sign photographs",
+          "sourceFigureDescription": "Three clinical photos: single palmar (simian) crease in Down syndrome, clenched fist with overlapping fingers in Edwards, cutis aplasia scalp defect in Patau",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              83
+            ],
+            "bookPages": "61"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "autosomal-trisomies",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "trisomy-clinical-signs",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "autosomal-trisomies-sv2",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Nondisjunction in meiosis I vs meiosis II",
+          "sourceFigureDescription": "Two meiosis diagrams: MI nondisjunction (homologous pair fails) → all aneuploid gametes (n+1/n−1); MII nondisjunction (sister chromatids fail) → half normal, half aneuploid",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              83
+            ],
+            "bookPages": "61"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "autosomal-trisomies",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "nondisjunction-mI-mII",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "autosomal-trisomies-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "First-trimester and quad serum screening marker tables",
+          "sourceFigureDescription": "Two marker tables: 1st trimester (β-hCG, PAPP-A) and quad screen (hCG, inhibin A, estriol, AFP) directions for trisomies 21/18/13",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              83
+            ],
+            "bookPages": "61"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "autosomal-trisomies",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "chromosomal-disorders",
+      "title": "Structural Chromosomal Disorders",
+      "faSubsections": [
+        "Genetic disorders by chromosome",
+        "Robertsonian translocation",
+        "Cri-du-chat syndrome",
+        "Williams syndrome"
+      ],
+      "subsection": "Genetics — Structural Chromosomal Disorders",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          84,
+          85
+        ],
+        "bookPages": "62–63"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "robertsonian-translocation-outcomes"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Chromosome-by-chromosome disease map, Robertsonian rob(14;21) gamete-outcome flowchart, cri-du-chat 5p deletion, Williams 7q elastin microdeletion.",
+      "textbookVisuals": [
+        {
+          "visualId": "chromosomal-disorders-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Robertsonian translocation gamete outcomes",
+          "sourceFigureDescription": "Flowchart from rob(14;21) carrier meiosis to gamete classes: normal, balanced carrier, translocation Down, monosomy lethal — with recurrence-risk annotation",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              84
+            ],
+            "bookPages": "62"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "chromosomal-disorders",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "robertsonian-translocation-outcomes",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "chromosomal-disorders-sv2",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Genetic disorders mapped by chromosome",
+          "sourceFigureDescription": "Chromosome-by-chromosome disease listing table (1: ...; 3: ...; 4: ...; 5p: cri-du-chat; 7q: Williams; 13, 18, 21 trisomies; 15 imprinting; 22q11 DiGeorge)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              84
+            ],
+            "bookPages": "62"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "chromosomal-disorders",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "faSubsections": [
+        "Essential fatty acids",
+        "Vitamins: fat soluble",
+        "Vitamins: water soluble",
+        "Dietary supplementation"
+      ],
+      "subsection": "Nutrition — Fundamentals",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          85
+        ],
+        "bookPages": "63"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Essential fatty acid chemistry, fat- vs water-soluble vitamin partitioning, and supplementation guidance — recall baseline before the individual vitamins.",
+      "textbookVisuals": []
+    },
+    {
+      "topicId": "vitamin-a",
+      "title": "Vitamin A",
+      "faSubsections": [
+        "Vitamin A"
+      ],
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          86
+        ],
+        "bookPages": "64"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "bitot-spots-illustration"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Retinal/retinol/retinoic acid roles with the night-blindness→Bitot spots→keratomalacia deficiency ladder — one photo (Bitot spots) drives the diagnosis.",
+      "textbookVisuals": [
+        {
+          "visualId": "vitamin-a-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Bitot spots and corneal changes of vitamin A deficiency",
+          "sourceFigureDescription": "Clinical eye photograph: foamy keratin debris on the conjunctiva (Bitot spots) with xerophthalmia — the deficiency sign photo",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              86
+            ],
+            "bookPages": "64"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-a",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "bitot-spots-illustration",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "vitamin-d",
+      "title": "Vitamin D",
+      "faSubsections": [
+        "Vitamin D"
+      ],
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          90
+        ],
+        "bookPages": "68"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "rickets-radiograph-pattern",
+        "vitamin-d-activation-cascade"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "D2/D3 → 25-OH (liver) → 1,25-OH (kidney, PTH-gated) cascade plus the rickets radiograph — an endocrine-flavored metabolism topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "vitamin-d-sv1",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "Rickets radiograph with bowed legs",
+          "sourceFigureDescription": "Pediatric lower-extremity radiograph showing genu varum with frayed metaphyses — the vitamin D deficiency radiographic pattern",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              90
+            ],
+            "bookPages": "68"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-d",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "rickets-radiograph-pattern",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "vitamin-d-sv2",
+          "visualType": "ENDOCRINE_DIAGRAM",
+          "visualPurpose": "Vitamin D synthesis and activation cascade",
+          "sourceFigureDescription": "Flowchart: 7-dehydrocholesterol + UVB → cholecalciferol (D3) → 25-OH in liver → 1,25-(OH)2 in kidney (PTH ↑, phosphate ↓ regulate) → intestinal Ca/P absorption, bone mineralization",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              90
+            ],
+            "bookPages": "68"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-d",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "vitamin-d-activation-cascade",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "vitamins-e-k",
+      "title": "Vitamins E & K",
+      "faSubsections": [
+        "Vitamin E",
+        "Vitamin K"
+      ],
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          90,
+          91
+        ],
+        "bookPages": "68–69"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "vitamin-k-carboxylation-cycle"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Lipid antioxidant (E) and the γ-glutamyl carboxylation cycle (K) linking to warfarin and hemorrhagic disease of the newborn.",
+      "textbookVisuals": [
+        {
+          "visualId": "vitamins-e-k-sv1",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Vitamin K-dependent γ-carboxylation cycle",
+          "sourceFigureDescription": "Cycle diagram: reduced vitamin K (hydroquinone) → γ-glutamyl carboxylase activates clotting factors II, VII, IX, X, proteins C/S → vitamin K epoxide → reductase (VKOR) recycles; warfarin blocks the reductase",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              91
+            ],
+            "bookPages": "69"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamins-e-k",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "vitamin-k-carboxylation-cycle",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "b-vitamins-1",
+      "title": "Vitamins B1, B2, B3 & B5",
+      "faSubsections": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B5"
+      ],
+      "subsection": "Nutrition — Water-Soluble Vitamins (B1–B5)",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          86,
+          87
+        ],
+        "bookPages": "64–65"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "riboflavin-deficiency-signs",
+        "pellagra-casal-necklace"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Thiamine's three cofactor-enzyme targets (PDH, α-KGDH, transketolase), riboflavin/choline cheilosis photo, pellagra's Casal necklace — deficiency-photo cluster with deep cofactor chemistry.",
+      "textbookVisuals": [
+        {
+          "visualId": "b-vitamins-1-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Riboflavin deficiency: cheilosis and magenta tongue",
+          "sourceFigureDescription": "Clinical photograph: angular stomatitis/cheilosis with magenta-colored tongue — B2 deficiency signs",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              87
+            ],
+            "bookPages": "65"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "b-vitamins-1",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "riboflavin-deficiency-signs",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "b-vitamins-1-sv2",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Pellagra Casal necklace",
+          "sourceFigureDescription": "Clinical photograph: hyperpigmented scaling dermatitis in a necklace distribution over the neck/upper chest — niacin (B3) deficiency",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              87
+            ],
+            "bookPages": "65"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "b-vitamins-1",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "pellagra-casal-necklace",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "b-vitamins-2",
+      "title": "Vitamins B6, B7, B9 & B12",
+      "faSubsections": [
+        "Vitamin B6",
+        "Vitamin B7",
+        "Vitamin B9",
+        "Vitamin B12"
+      ],
+      "subsection": "Nutrition — Water-Soluble Vitamins (B6–B12)",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          88,
+          89
+        ],
+        "bookPages": "66–67"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "b12-folate-one-carbon-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "The B12/folate one-carbon map (methionine synthase, thymidylate synthase, methylmalonyl-CoA mutase) — the folate-trap mechanism is a top-tier Step 1 discriminator.",
+      "textbookVisuals": [
+        {
+          "visualId": "b-vitamins-2-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "B12/folate one-carbon metabolism map",
+          "sourceFigureDescription": "Pathway map: methionine ↔ homocysteine (methionine synthase, B12), methyl-THF transfer, thymidylate synthase (dUMP→dTMP), methylmalonyl-CoA → succinyl-CoA (mutase, B12) — marking the folate trap and B12-specific branches",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              89
+            ],
+            "bookPages": "67"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "b-vitamins-2",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "b12-folate-one-carbon-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "vitamin-c-zinc-pem",
+      "title": "Vitamin C, Zinc & Protein-Energy Malnutrition",
+      "faSubsections": [
+        "Vitamin C",
+        "Zinc",
+        "Protein-energy malnutrition"
+      ],
+      "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          89,
+          91
+        ],
+        "bookPages": "67, 69"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "acrodermatitis-enteropathica",
+        "kwashiorkor-illustration",
+        "marasmus-illustration"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Scurvy's hydroxylation block, acrodermatitis enteropathica, and kwashiorkor-vs-marasmus photos — clinical-sign cluster with two collagen/vit-C mechanisms.",
+      "textbookVisuals": [
+        {
+          "visualId": "vitamin-c-zinc-pem-sv1",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Acrodermatitis enteropathica (zinc deficiency)",
+          "sourceFigureDescription": "Clinical photograph: periorificial and acral scaly dermatitis — the zinc deficiency pattern",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              91
+            ],
+            "bookPages": "69"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-c-zinc-pem",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "acrodermatitis-enteropathica",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "vitamin-c-zinc-pem-sv2",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Kwashiorkor photograph",
+          "sourceFigureDescription": "Clinical photograph: child with edema (swollen abdomen) with hypopigmented hair — protein deficiency with adequate calories",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              91
+            ],
+            "bookPages": "69"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-c-zinc-pem",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "kwashiorkor-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "vitamin-c-zinc-pem-sv3",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Marasmus photograph",
+          "sourceFigureDescription": "Clinical photograph: severe muscle and fat wasting without edema — global calorie deprivation",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              91
+            ],
+            "bookPages": "69"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "vitamin-c-zinc-pem",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "marasmus-illustration",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "ethanol-metabolism",
+      "title": "Ethanol Metabolism",
+      "faSubsections": [
+        "Ethanol metabolism"
+      ],
+      "subsection": "Nutrition — Ethanol Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          92
+        ],
+        "bookPages": "70"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "ethanol-metabolism-map",
+        "ethanol-nadh-consequences"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Zero-order kinetics, ADH/ALDH/catalase/CYP2E1 compartments, disulfiram/fomepizole sites, and the NADH-shift consequence map driving fatty liver, hypoglycemia and gout.",
+      "textbookVisuals": [
+        {
+          "visualId": "ethanol-metabolism-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Ethanol metabolism compartment map",
+          "sourceFigureDescription": "Map across cytosol (ADH), microsome (CYP2E1/MEOS, fomepizole site), peroxisome (catalase) and mitochondria (ALDH): ethanol → acetaldehyde → acetate → acetyl-CoA, NADH generated at both steps, disulfiram blocking ALDH",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              92
+            ],
+            "bookPages": "70"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "ethanol-metabolism",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "ethanol-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "ethanol-metabolism-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "NADH/NAD+ ratio metabolic consequences",
+          "sourceFigureDescription": "Integrated diagram: alcohol dehydrogenase-driven ↑NADH/NAD+ inhibits gluconeogenesis and TCA, diverts pyruvate→lactate and acetyl-CoA→ketones/fatty acid synthesis → hypoglycemia, lactic/ketoacidosis, fatty liver",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              92
+            ],
+            "bookPages": "70"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "ethanol-metabolism",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "ethanol-nadh-consequences",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "enzyme-terminology",
+      "title": "Enzyme Terminology & Kinetics Concepts",
+      "faSubsections": [
+        "Enzyme terminology"
+      ],
+      "subsection": "Metabolism — Enzyme Fundamentals",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          93
+        ],
+        "bookPages": "71"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Kinase/phosphorylase/phosphatase/carboxylase/dehydrogenase suffix semantics — the decoder ring for every enzyme question; suffix table absorbed by the pilot note but restated compactly.",
+      "textbookVisuals": []
+    },
+    {
+      "topicId": "metabolism-overview",
+      "title": "Metabolism Overview & Compartmentation",
+      "faSubsections": [
+        "Metabolic compartmentation",
+        "Summary of pathways",
+        "Activated carriers",
+        "Universal electron acceptors"
+      ],
+      "subsection": "Metabolism — Overview & Compartmentation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          94,
+          95
+        ],
+        "bookPages": "72–73"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "whole-metabolism-map"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete",
+      "productionRationale": "Where every pathway lives (cytosol vs mitochondria), the integrated pathway map, and the ATP/NADH/NADPH/FADH2 carrier table — the chapter's navigation layer.",
+      "textbookVisuals": [
+        {
+          "visualId": "metabolism-overview-sv1",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Integrated whole-body metabolic pathway map",
+          "sourceFigureDescription": "Summary map linking glycolysis, gluconeogenesis, glycogen, TCA, urea cycle, HMP shunt, fructose/galactose, lipid metabolism (synthesis, β-oxidation, ketogenesis) with numbered regulated enzymes",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              94
+            ],
+            "bookPages": "72"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolism-overview",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "whole-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "metabolism-overview-sv2",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Activated carriers table",
+          "sourceFigureDescription": "Table of carriers and their carried groups: ATP (phosphate), NADH/FADH2 (electrons), NADPH (reducing equivalents), CoA (acetyl/acyl), biotin (CO2), SAM (methyl), THF (1-C units), TPP (aldehydes)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              95
+            ],
+            "bookPages": "73"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolism-overview",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "metabolism-overview-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Hexokinase vs glucokinase comparison",
+          "sourceFigureDescription": "Compare table: Km, Vmax, tissue, insulin inducibility, feedback (G-6-P vs fructose-6-phosphate)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              95
+            ],
+            "bookPages": "73"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolism-overview",
+          "productionStatus": "planned",
+          "omissionReason": "Absorbed by the approved pilot note glycolysis-regulation (compare block 'Hexokinase vs glucokinase'); cross-linked there",
+          "plannedKypVisualId": "hexokinase-vs-glucokinase",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "metabolism-overview-sv4",
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "Summary of pathways metabolic map",
+          "sourceFigureDescription": "Second rendering of the integrated metabolism map (same figure family as sv1) with enzyme numbering",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              94
+            ],
+            "bookPages": "72"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolism-overview",
+          "productionStatus": "planned",
+          "omissionReason": "Duplicate view of the whole-metabolism map; sv1 is the canonical implementation",
+          "plannedKypVisualId": "whole-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "glycolysis-regulation",
+      "title": "Glycolysis Regulation",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          93,
+          94,
+          95,
+          96,
+          97,
+          106
+        ],
+        "bookPages": "71–75, 84"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "glycolysis-regulation-map",
+        "hexokinase-vs-glucokinase",
+        "pyruvate-hub"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "faSubsections": [
+        "Glycolysis regulation, key enzymes",
+        "Regulation by fructose-2,6-bisphosphate",
+        "Pyruvate dehydrogenase complex",
+        "Pyruvate dehydrogenase complex deficiency",
+        "Pyruvate metabolism"
+      ],
+      "productionRationale": "PILOT (approved): the regulating logic of glycolysis — PFK-1 control, the F-2,6-BP switch, hexokinase vs glucokinase, PDH cofactors and the pyruvate hub.",
+      "textbookVisuals": [
+        {
+          "visualId": "glycolysis-regulation-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Enzyme-naming suffixes",
+          "sourceFigureDescription": "Enzyme terminology table defining suffixes (kinase, phosphorylase, dehydrogenase...)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              93
+            ],
+            "bookPages": "71"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycolysis-regulation",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "kypLocation": "blocks: table 'Enzyme names are functions — read the suffix'"
+        },
+        {
+          "visualId": "glycolysis-regulation-sv2",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Metabolic control panel",
+          "sourceFigureDescription": "Rate-determining enzymes of metabolic processes with activators and inhibitors",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              93
+            ],
+            "bookPages": "71"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycolysis-regulation",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "kypLocation": "blocks: table 'Rate-determining enzymes — the whole metabolic control panel'"
+        },
+        {
+          "visualId": "glycolysis-regulation-sv4",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Glycolysis pathway with regulators",
+          "sourceFigureDescription": "Glycolysis reactions with the three regulated enzymes and their activators/inhibitors",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              96
+            ],
+            "bookPages": "74"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycolysis-regulation",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "glycolysis-regulation-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "tca-cycle-pdh",
+      "title": "TCA Cycle & Pyruvate Dehydrogenase",
+      "faSubsections": [
+        "Glycolysis regulation, key enzymes",
+        "Pyruvate dehydrogenase complex",
+        "Pyruvate dehydrogenase complex deficiency",
+        "Pyruvate metabolism",
+        "TCA cycle"
+      ],
+      "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          96,
+          97
+        ],
+        "bookPages": "74–75"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "tca-cycle-map",
+        "pdh-cofactor-panel"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "PDH's five-cofactor panel and its phosphorylation switch, then the TCA circle with its four dehydrogenase control points — the aerobic hub of metabolism.",
+      "textbookVisuals": [
+        {
+          "visualId": "tca-cycle-pdh-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "TCA cycle circular pathway map",
+          "sourceFigureDescription": "Citrate synthase entry (acetyl-CoA + OAA → citrate), eight-step circle with isocitrate/α-KGDH/succinate dehydrogenase/malate dehydrogenase steps, NADH/FADH2/GTP yields, regulation (ATP, NADH, ADP, Ca2+)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              97
+            ],
+            "bookPages": "75"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "tca-cycle-pdh",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "tca-cycle-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "tca-cycle-pdh-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Pyruvate metabolism hub",
+          "sourceFigureDescription": "Pyruvate crossroads: → acetyl-CoA (PDH), → oxaloacetate (pyruvate carboxylase), → lactate (LDH), → alanine (ALT)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              97
+            ],
+            "bookPages": "75"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "tca-cycle-pdh",
+          "productionStatus": "planned",
+          "omissionReason": "Implemented in the approved pilot note glycolysis-regulation as registry visual 'pyruvate-hub'; cross-linked",
+          "plannedKypVisualId": "pyruvate-hub",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "tca-cycle-pdh-sv3",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Pyruvate dehydrogenase complex mechanism",
+          "sourceFigureDescription": "PDH complex with five cofactors (B1-TPP, B2-FAD, B3-NAD, B5-CoA, lipoic acid) and regulatory kinase/phosphatase switch",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              96
+            ],
+            "bookPages": "74"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "tca-cycle-pdh",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "pdh-cofactor-panel",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "oxidative-phosphorylation",
+      "title": "Electron Transport Chain & Oxidative Phosphorylation",
+      "faSubsections": [
+        "Electron transport chain and oxidative phosphorylation"
+      ],
+      "subsection": "Metabolism — Oxidative Phosphorylation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "etc-oxphos-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Complexes I–V with proton pumping sites, NADH vs FADH2 entry, uncoupling proteins, and the inhibitor-site map (rotenone, cyanide, oligomycin) — the most inhibitor-dense figure in the book.",
+      "textbookVisuals": [
+        {
+          "visualId": "oxidative-phosphorylation-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Electron transport chain complexes I–V",
+          "sourceFigureDescription": "Inner-membrane map: NADH entry at I, FADH2 at II, CoQ shuttle, III, IV with O2 reduction, proton gradient pumping into intermembrane space, ATP synthase (V) with rotation; uncoupling protein and inhibitor sites (rotenone/amytal at I, antimycin at III, cyanide/CO at IV, oligomycin at V)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              98
+            ],
+            "bookPages": "76"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "oxidative-phosphorylation",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "etc-oxphos-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "gluconeogenesis",
+      "title": "Gluconeogenesis",
+      "faSubsections": [
+        "Gluconeogenesis, irreversible enzymes"
+      ],
+      "subsection": "Metabolism — Gluconeogenesis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gluconeogenesis-bypass-enzymes"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "The four bypass enzymes (pyruvate carboxylase, PEPCK, FBPase-1, G6Pase), acetyl-CoA's reciprocal switch, and the organ/tissue job split.",
+      "textbookVisuals": [
+        {
+          "visualId": "gluconeogenesis-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Gluconeogenesis bypass enzyme steps",
+          "sourceFigureDescription": "Pathway with the four irreversible bypasses: pyruvate → OAA (pyruvate carboxylase, biotin, mitochondria), OAA → PEP (PEPCK), fructose-1,6-BP → F-6-P (FBPase-1), G-6-P → glucose (G6Pase, ER membrane)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              98
+            ],
+            "bookPages": "76"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "gluconeogenesis",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gluconeogenesis-bypass-enzymes",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "pentose-phosphate-pathway",
+      "title": "Pentose Phosphate Pathway",
+      "faSubsections": [
+        "Pentose phosphate pathway",
+        "Glucose-6-phosphate dehydrogenase deficiency"
+      ],
+      "subsection": "Metabolism — Pentose Phosphate Pathway",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "hmp-shunt-map",
+        "glutathione-redox-cycle"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Oxidative (G6PD, NADPH) vs nonoxidative (transketolase/transaldolase) phases and the glutathione redox cycle that explains G6PD hemolysis — the RBC's survival map.",
+      "textbookVisuals": [
+        {
+          "visualId": "pentose-phosphate-pathway-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "HMP shunt oxidative and nonoxidative phases",
+          "sourceFigureDescription": "G-6-P → 6-phosphogluconate → ribulose-5-P (oxidative, 2 NADPH, G6PD rate-limiting) then nonoxidative transketolase/transaldolase interconversion to F-6-P and G-3-P; NADPH use sites listed",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              99
+            ],
+            "bookPages": "77"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "pentose-phosphate-pathway",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "hmp-shunt-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "pentose-phosphate-pathway-sv2",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Glutathione redox cycle with G6PD",
+          "sourceFigureDescription": "Cycle: G6PD → NADPH → glutathione reductase → reduced GSH → glutathione peroxidase detoxifies H2O2 → oxidized GSSG recycled; G6PD deficiency → oxidant-sensitive RBC hemolysis",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              99
+            ],
+            "bookPages": "77"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "pentose-phosphate-pathway",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "glutathione-redox-cycle",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "fructose-galactose-disorders",
+      "title": "Fructose & Galactose Disorders",
+      "faSubsections": [
+        "Disorders of fructose metabolism",
+        "Disorders of galactose metabolism",
+        "Lactase deficiency"
+      ],
+      "subsection": "Metabolism — Fructose & Galactose Disorders",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          100,
+          101
+        ],
+        "bookPages": "78–79"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "fructose-metabolism-map",
+        "galactose-leloir-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Essential fructosuria vs hereditary fructose intolerance (aldolase B) and galactosemia's three enzyme blocks with cataract/none distinction — pathway-block reasoning.",
+      "textbookVisuals": [
+        {
+          "visualId": "fructose-galactose-disorders-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Fructose metabolism pathway",
+          "sourceFigureDescription": "Fructose → fructose-1-P (fructokinase) → glyceraldehyde + DHAP (aldolase B) entering glycolysis/gluconeogenesis; blocks: essential fructosuria (fructokinase, benign) vs hereditary fructose intolerance (aldolase B, hepatotoxic)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              100
+            ],
+            "bookPages": "78"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "fructose-galactose-disorders",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "fructose-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "fructose-galactose-disorders-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Galactose Leloir pathway",
+          "sourceFigureDescription": "Galactose → galactose-1-P (galactokinase) → glucose-1-P (GALT with UDP-glucose) → UDP-glucose recycling (GALE); blocks: galactokinase (cataracts only), classic galactosemia GALT (liver/CNS/ovarian), GALE variant; galactitol side-path",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              100
+            ],
+            "bookPages": "78"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "fructose-galactose-disorders",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "galactose-leloir-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "sorbitol-pathway",
+      "title": "Sorbitol (Polyol) Pathway",
+      "faSubsections": [
+        "Sorbitol"
+      ],
+      "subsection": "Metabolism — Polyol Pathway",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "polyol-pathway-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Aldose reductase → sorbitol → (SDH) fructose; tissue-specific SDH absence explains diabetic cataracts, retinopathy and neuropathy — small but mechanism-critical.",
+      "textbookVisuals": [
+        {
+          "visualId": "sorbitol-pathway-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Polyol pathway: glucose → sorbitol → fructose",
+          "sourceFigureDescription": "Two-step map: aldose reductase (NADPH) → sorbitol; sorbitol dehydrogenase (NAD+) → fructose; tissue SDH absence (lens, Schwann cells, retina, kidneys) → sorbitol accumulation → osmotic damage in hyperglycemia",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              101
+            ],
+            "bookPages": "79"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "sorbitol-pathway",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "polyol-pathway-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "amino-acids",
+      "title": "Amino Acid Chemistry & Derivatives",
+      "faSubsections": [
+        "Amino acids",
+        "Amino acid derivatives",
+        "Catecholamine synthesis/tyrosine catabolism"
+      ],
+      "subsection": "Metabolism — Amino Acid Chemistry",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101,
+          103
+        ],
+        "bookPages": "79, 81"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "amino-acid-derivatives-map",
+        "catecholamine-synthesis-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Essential/glucogenic/ketogenic classification, the derivatives map (Phe→Tyr→DOPA..., Trp→serotonin/NAD, His→histamine, Glu→GABA), and the BH4-gated catecholamine synthesis flow.",
+      "textbookVisuals": [
+        {
+          "visualId": "amino-acids-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Amino acid derivatives map",
+          "sourceFigureDescription": "Derivative flow map: phenylalanine→tyrosine (→thyroxine, DOPA, melanin), tryptophan→serotonin/NAD (niacin), histidine→histamine, glutamate→GABA, arginine/glycine→creatinine, glycine→porphyrins/heme",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              103
+            ],
+            "bookPages": "81"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "amino-acids",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "amino-acid-derivatives-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "amino-acids-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Catecholamine synthesis and tyrosine catabolism",
+          "sourceFigureDescription": "Phenylalanine → tyrosine → DOPA (tyrosine hydroxylase, rate-limiting, BH4-dependent) → dopamine → NE → epinephrine (PNMT, cortisol-induced), with tyrosine catabolic branch → homogentisic acid → fumarylacetoacetate → fumarate/acetoacetate; blocks marked for PKU, alkaptonuria, albinism",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              103
+            ],
+            "bookPages": "81"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "amino-acids",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "catecholamine-synthesis-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "amino-acids-sv3",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Amino acid structures and classification",
+          "sourceFigureDescription": "Structural formulas of the 20 amino acids color-coded by class; essential/ketogenic/glucogenic labels",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              101
+            ],
+            "bookPages": "79"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "amino-acids",
+          "productionStatus": "complete",
+          "omissionReason": "Mnemonic + classification text in source (structures shown for reference); KYP note absorbs the classification tables, the full structure set is reference material beyond exam scope",
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks[2] — 'The classification ledger' table block"
+        }
+      ]
+    },
+    {
+      "topicId": "urea-cycle-disorders",
+      "title": "Urea Cycle & Hyperammonemia",
+      "faSubsections": [
+        "Urea cycle",
+        "Transport of ammonia by alanine",
+        "Hyperammonemia",
+        "Ornithine transcarbamylase deficiency"
+      ],
+      "subsection": "Metabolism — Urea Cycle & Hyperammonemia",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          102,
+          103
+        ],
+        "bookPages": "80–81"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "urea-cycle-map",
+        "alanine-glucose-shuttle"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Mitochondrial CPS1/OTC entry, cytoplasmic steps, the urea reactants (NH3 + CO2 + aspartate), alanine/Cahill transport, and the OTC X-linked block with orotic acid — the ammonia-disposal master topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "urea-cycle-disorders-sv1",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Urea overall reaction reactants",
+          "sourceFigureDescription": "Small table: 2 NH3 (one from free ammonia, one from aspartate) + CO2 → urea, with energy cost note",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              102
+            ],
+            "bookPages": "80"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "urea-cycle-disorders",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks[2] — 'The overall reaction' table block"
+        },
+        {
+          "visualId": "urea-cycle-disorders-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Urea cycle map across mitochondria and cytosol",
+          "sourceFigureDescription": "Circular map: ornithine + carbamoyl phosphate (CPS1, mitochondrial, NAG-activated) → citrulline → cytosol → argininosuccinate (ASS) → arginine (ASL) → urea + ornithine (arginase); OTC block → orotic acid accumulates",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              102
+            ],
+            "bookPages": "80"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "urea-cycle-disorders",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urea-cycle-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "urea-cycle-disorders-sv3",
+          "visualType": "FLOWCHART",
+          "visualPurpose": "Alanine transport of ammonia from muscle to liver",
+          "sourceFigureDescription": "Muscle–blood–liver diagram: pyruvate + NH3 → alanine (ALT) in muscle; blood alanine → liver alanine → pyruvate + NH3 → urea cycle; glucose returns to muscle (Cahill cycle alongside Cori cycle)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              102
+            ],
+            "bookPages": "80"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "urea-cycle-disorders",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "alanine-glucose-shuttle",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "aminoacidopathies",
+      "title": "Amino Acidopathies",
+      "faSubsections": [
+        "Phenylketonuria",
+        "Maple syrup urine disease",
+        "Alkaptonuria",
+        "Homocystinuria",
+        "Cystinuria",
+        "Organic acidemias"
+      ],
+      "subsection": "Metabolism — Amino Acidopathies",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          104,
+          105
+        ],
+        "bookPages": "82–83"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "phenylalanine-pathway-map",
+        "methionine-homocysteine-map",
+        "organic-acidemia-map",
+        "ochronosis-sclera-illustration"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "PKU/MSUD/alkaptonuria/homocystinuria/cystinuria/propionic-methylmalonic acidemia — six diseases, five pathway blocks, one ochronosis photo; the highest trap-density cluster in metabolism.",
+      "textbookVisuals": [
+        {
+          "visualId": "aminoacidopathies-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Phenylalanine pathway with disease blocks",
+          "sourceFigureDescription": "Phenylalanine → tyrosine (phenylalanine hydroxylase, BH4) with PKU block; downstream tyrosine → melanin/DOPA; BH4-regeneration (dihydropteridine reductase) deficiency block; alkaptonuria block at homogentisic acid oxidase",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              104
+            ],
+            "bookPages": "82"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "aminoacidopathies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "phenylalanine-pathway-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "aminoacidopathies-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Methionine/homocysteine pathway",
+          "sourceFigureDescription": "Methionine → SAM → homocysteine → cystathionine (cystathionine β-synthase, B6) → cysteine; homocystinuria blocks (CBS deficiency, homocysteine remethylation defects) with ↓cysteine, ↑homocysteine/methionine",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              105
+            ],
+            "bookPages": "83"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "aminoacidopathies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "methionine-homocysteine-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "aminoacidopathies-sv3",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Organic acidemia pathway",
+          "sourceFigureDescription": "Valine/isoleucine/methionine/threonine → propionyl-CoA (propionyl-CoA carboxylase, biotin) → methylmalonyl-CoA (mutase, B12) → succinyl-CoA; blocks: propionic acidemia vs methylmalonic acidemia with ketotic hyperglycinemia",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              105
+            ],
+            "bookPages": "83"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "aminoacidopathies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "organic-acidemia-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "aminoacidopathies-sv4",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Ochronosis: scleral/corneal dark pigmentation",
+          "sourceFigureDescription": "Clinical photograph of the eye with bluish-black scleral/ear cartilage pigmentation from homogentisic acid polymer deposition in alkaptonuria",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              104
+            ],
+            "bookPages": "82"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "aminoacidopathies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "ochronosis-sclera-illustration",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "glycogen-metabolism",
+      "title": "Glycogen Metabolism & Storage Diseases",
+      "faSubsections": [
+        "Glycogen regulation by insulin and glucagon/epinephrine",
+        "Glycogen",
+        "Glycogen storage diseases"
+      ],
+      "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106,
+          107
+        ],
+        "bookPages": "84–85"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "glycogen-hormone-regulation",
+        "glycogen-metabolism-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Insulin/glucagon/epinephrine second-messenger regulation of synthase vs phosphorylase, liver vs muscle glycogen jobs, and the five named GSDs — the chapter's heaviest signal-transduction figure.",
+      "textbookVisuals": [
+        {
+          "visualId": "glycogen-metabolism-sv1",
+          "visualType": "SIGNAL_TRANSDUCTION",
+          "visualPurpose": "Insulin vs glucagon/epinephrine glycogen regulation",
+          "sourceFigureDescription": "Signal transduction map: insulin receptor → PI3K/Akt → phosphatase → synthase ON/phosphorylase OFF; glucagon (liver) and epinephrine (liver+muscle) → GPCR → cAMP → PKA → phosphorylase kinase ON → glycogen phosphorylase ON, synthase OFF; Ca2+-calmodulin branch in muscle",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              106
+            ],
+            "bookPages": "84"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycogen-metabolism",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "glycogen-hormone-regulation",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "glycogen-metabolism-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Glycogen synthesis and degradation map with numbered enzymes",
+          "sourceFigureDescription": "Central glycogen molecule with glycogenesis (glycogenin, glycogen synthase, branching enzyme) and glycogenolysis (phosphorylase, debranching enzyme) numbered 1–6 keyed to disease names (von Gierke, Pompe, Cori, Andersen, McArdle)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              106
+            ],
+            "bookPages": "84"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycogen-metabolism",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "glycogen-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "glycogen-metabolism-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Glycogen storage disease table",
+          "sourceFigureDescription": "GSD table: disease name, deficient enzyme, affected tissue, findings (hypoglycemia, cardiomegaly, milder exercise intolerance), inheritance",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              107
+            ],
+            "bookPages": "85"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "glycogen-metabolism",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "plannedKypVisualId": null
+        }
+      ]
+    },
+    {
+      "topicId": "lysosomal-storage-diseases",
+      "title": "Lysosomal Storage Diseases",
+      "faSubsections": [
+        "Lysosomal storage diseases"
+      ],
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "sphingolipid-pathway-map",
+        "cherry-red-spot-illustration",
+        "angiokeratoma-illustration",
+        "gaucher-cells-illustration",
+        "niemann-pick-foam-cells"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Sphingolipid pathway with numbered blocks (Tay-Sachs, Fabry, Gaucher, Niemann-Pick, metachromatic leukodystrophy, Krabbe) plus MPS cluster (Hurler/Hunter) — the visual-diagnosis topic of the chapter.",
+      "textbookVisuals": [
+        {
+          "visualId": "lysosomal-storage-diseases-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Sphingolipid metabolism pathway with numbered blocks",
+          "sourceFigureDescription": "Ceramide-centered map with numbered enzyme blocks: 1 Gaucher (glucocerebrosidase), 2 Niemann-Pick (sphingomyelinase), 3 Tay-Sachs (hexosaminidase A), 4 Fabry (α-galactosidase A), 5 Krabbe (galactocerebrosidase), 6 metachromatic leukodystrophy (arylsulfatase A)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "sphingolipid-pathway-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lysosomal-storage-diseases-sv2",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Cherry-red spot of Tay-Sachs",
+          "sourceFigureDescription": "Fundus photograph: contrasting red macula against pale retina (ganglioside accumulation) — the pattern-recognition sign",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cherry-red-spot-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lysosomal-storage-diseases-sv3",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Angiokeratomas of Fabry disease",
+          "sourceFigureDescription": "Clinical photograph: punctate red-blue vascular skin lesions (angiokeratomas) in bathing-suit distribution",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "angiokeratoma-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lysosomal-storage-diseases-sv4",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Gaucher cells: crumpled tissue paper macrophages",
+          "sourceFigureDescription": "Histology: lipid-laden macrophages with characteristic crumpled-tissue-paper cytoplasm in marrow/spleen",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gaucher-cells-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lysosomal-storage-diseases-sv5",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Niemann-Pick foam cells",
+          "sourceFigureDescription": "Histology: foamy lipid-laden macrophages with vacuolated cytoplasm (sphingomyelin)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "niemann-pick-foam-cells",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lysosomal-storage-diseases-sv6",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Mucopolysaccharidosis comparison rows",
+          "sourceFigureDescription": "Hurler/Hunter rows within the disease table (mucopolysaccharidoses: heparan/chondroitin sulfate accumulation, coarse features, X-linked Hunter vs AR Hurler, no corneal clouding in Hunter)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              108
+            ],
+            "bookPages": "86"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lysosomal-storage-diseases",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "plannedKypVisualId": null
+        }
+      ]
+    },
+    {
+      "topicId": "fatty-acid-metabolism",
+      "title": "Fatty Acid Synthesis & Oxidation",
+      "faSubsections": [
+        "Fatty acid metabolism"
+      ],
+      "subsection": "Metabolism — Fatty Acid Synthesis & Oxidation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "fa-synthesis-vs-oxidation"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "Side-by-side synthesis (citrate shuttle, ACC, malonyl-CoA) vs β-oxidation (carnitine shuttle, four-step spiral) map with carnitine deficiency and MCAD blocks — the mirror-image topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "fatty-acid-metabolism-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Fatty acid synthesis vs β-oxidation mirror map",
+          "sourceFigureDescription": "Side-by-side: synthesis (cytosol, citrate shuttle, ACC → malonyl-CoA, NADPH, palmitate) vs oxidation (carnitine shuttle CAT-I/II, malonyl-CoA inhibits CAT-I, FAD/NAD+ dehydrogenase spiral → acetyl-CoA); blocks: systemic carnitine deficiency, MCAD",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              109
+            ],
+            "bookPages": "87"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "fatty-acid-metabolism",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "fa-synthesis-vs-oxidation",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "ketone-bodies",
+      "title": "Ketone Bodies & Fed/Fasted States",
+      "faSubsections": [
+        "Ketone bodies",
+        "Fasted vs fed state"
+      ],
+      "subsection": "Metabolism — Ketogenesis & Fed/Fasted States",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "ketone-body-shuttle",
+        "adipocyte-fed-fasted"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete",
+      "productionRationale": "HMG-CoA synthase ketogenic pathway, liver-can't-use-ketones logic, ketolysis in extrahepatic tissues, and the adipocyte fed/fasted mirror — the fasting-physiology hinge topic.",
+      "textbookVisuals": [
+        {
+          "visualId": "ketone-bodies-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Ketogenesis and ketolysis shuttle",
+          "sourceFigureDescription": "Hepatocyte: acetyl-CoA → HMG-CoA → acetoacetate/β-hydroxybutyrate → blood → extrahepatic (brain, muscle, cardiac) SCOT enzyme → acetyl-CoA → TCA; liver lacks SCOT so cannot use ketones",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              110
+            ],
+            "bookPages": "88"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "ketone-bodies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "ketone-body-shuttle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "ketone-bodies-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Adipocyte fed vs fasted metabolism",
+          "sourceFigureDescription": "Mirror diagram: fed (insulin → LPL active, glucose → glycerol-3-P, esterification) vs fasted (glucagon/epinephrine → HSL, lipolysis → FFA release)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              110
+            ],
+            "bookPages": "88"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "ketone-bodies",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "adipocyte-fed-fasted",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "ketone-bodies-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Ketone/glucose states in metabolic disease comparison",
+          "sourceFigureDescription": "Table distinguishing hyperammonemia states, hypoketotic hypoglycemia (fatty acid oxidation defects) vs ketoacidosis (ketone utilization) states",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              110
+            ],
+            "bookPages": "88"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "ketone-bodies",
+          "productionStatus": "complete",
+          "plannedImplementation": "note-block",
+          "plannedKypVisualId": null
+        }
+      ]
+    },
+    {
+      "topicId": "metabolic-fuel-use",
+      "title": "Metabolic Fuel Use & Starvation",
+      "faSubsections": [
+        "Metabolic fuel use"
+      ],
+      "subsection": "Metabolism — Fuel Use & Starvation",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "89"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "starvation-fuel-timeline"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "Fuel-source timeline (2-sec phosphocreatine → days 1–3 gluconeogenesis → post-day-3 ketone-dominant brain shift) — the integration endpoint of all metabolism topics.",
+      "textbookVisuals": [
+        {
+          "visualId": "metabolic-fuel-use-sv1",
+          "visualType": "TIMELINE",
+          "visualPurpose": "Fuel-source timeline during starvation",
+          "sourceFigureDescription": "Timeline: 2 sec (phosphocreatine), minutes (glycogen), days 1–3 (gluconeogenesis dominant, protein sparing), after day 3 (ketone bodies supply ~2/3 of brain's energy, muscle protein breakdown slows), with primary fuel bars per organ",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              111
+            ],
+            "bookPages": "89"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolic-fuel-use",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "starvation-fuel-timeline",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "metabolic-fuel-use-sv2",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Metabolic fuel use by organ table",
+          "sourceFigureDescription": "Table of fuel preferences (brain glucose/ketones, RBC glucose-only, cardiac fatty acids, liver) across fed/fasted/starved states",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              111
+            ],
+            "bookPages": "89"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "metabolic-fuel-use",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "lipid-transport",
+      "title": "Lipid Transport & Apolipoproteins",
+      "faSubsections": [
+        "Lipid transport",
+        "Key enzymes in lipid transport",
+        "Major apolipoproteins",
+        "Lipoprotein functions"
+      ],
+      "subsection": "Metabolism — Lipid Transport & Apolipoproteins",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          112,
+          113,
+          114
+        ],
+        "bookPages": "90–92"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "lipid-transport-map",
+        "hdl-maturation-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The numbered exogenous/endogenous transport map (chylomicron→LPL→remnant; VLDL→IDL→LDL; HDL reverse transport with LCAT/CETP) plus the apoB48/B100/CII/E function table — the chapter's most numbered visual.",
+      "textbookVisuals": [
+        {
+          "visualId": "lipid-transport-sv1",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Exogenous and endogenous lipid transport map",
+          "sourceFigureDescription": "Full-body numbered map: intestinal micelle → chylomicron (apoB48) → lymphatics → LPL (apoCII) → FFA to adipose → remnant uptake by liver (apoE); liver VLDL (apoB100) → LPL → IDL → LDL → peripheral receptor uptake; HDL reverse transport branch",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              112
+            ],
+            "bookPages": "90"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lipid-transport",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "lipid-transport-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lipid-transport-sv2",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "HDL maturation with LCAT and CETP",
+          "sourceFigureDescription": "Diagram: nascent HDL from liver/intestine → LCAT esterifies cholesterol (cholesteryl esters into core) → CETP exchanges CE for TG → mature HDL → liver via SR-B1 — reverse cholesterol transport",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              113
+            ],
+            "bookPages": "91"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lipid-transport",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "hdl-maturation-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lipid-transport-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Major apolipoproteins table",
+          "sourceFigureDescription": "Table: apoA-I (LCAT activator, HDL), apoB-48 (chylomicron), apoB-100 (VLDL/IDL/LDL receptor ligand), apoC-II (LPL activator), apoE (remnant receptor, E3/E2 dysbeta lipoproteinemia)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              113
+            ],
+            "bookPages": "91"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lipid-transport",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "lipid-transport-sv4",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Lipoprotein functions table",
+          "sourceFigureDescription": "Table: chylomicron (dietary TG), VLDL (endogenous TG), IDL (transition), LDL (cholesterol to periphery), HDL (reverse cholesterol) with relative composition",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              114
+            ],
+            "bookPages": "92"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "lipid-transport",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    },
+    {
+      "topicId": "familial-dyslipidemias",
+      "title": "Abetalipoproteinemia & Familial Dyslipidemias",
+      "faSubsections": [
+        "Abetalipoproteinemia",
+        "Familial dyslipidemias"
+      ],
+      "subsection": "Metabolism — Dyslipidemias",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "lipid-laden-enterocytes-illustration"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "ApoB failure → acanthocytes + fat malabsorption with the lipid-laden enterocyte biopsy, then type I–V dyslipidemia patterns with pancreatitis/ASCVD discriminations.",
+      "textbookVisuals": [
+        {
+          "visualId": "familial-dyslipidemias-sv1",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Abetalipoproteinemia intestinal biopsy",
+          "sourceFigureDescription": "Light micrograph of small-intestinal biopsy: villus enterocytes cleared and distended by lipid (lipid-laden enterocytes) — the abetalipoproteinemia histology with acanthocytes",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              114
+            ],
+            "bookPages": "92"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "familial-dyslipidemias",
+          "productionStatus": "planned",
+          "plannedKypVisualId": "lipid-laden-enterocytes-illustration",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "familial-dyslipidemias-sv2",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Familial dyslipidemia type comparison",
+          "sourceFigureDescription": "Table of type I–V: elevated particle (chylomicron → TG, pancreatitis; IIa LDL → ASCVD; III IDL; IV VLDL → TG; V mixed), inheritance, pathogenesis (LPL, apoC-II, LDL receptor, apoE)",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              114
+            ],
+            "bookPages": "92"
+          },
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "biochemistry",
+          "topicId": "familial-dyslipidemias",
+          "productionStatus": "planned",
+          "plannedImplementation": "note-block"
+        }
+      ]
+    }
+  ],
+  "pendingTopicCount": 15,
+  "visualPlan": {
+    "textbookVisualsIdentified": 112,
+    "requiredInKYP": 107,
+    "kypRedrawsPlanned": 77,
+    "kypAdaptationsPlanned": 15,
+    "noteBlockImplementations": 15,
+    "sourceReferencesWithReason": 5,
+    "sourceReproductions": 0,
+    "rightsPosture": "All First Aid 2026 artwork is COPYRIGHTED_NO_REPUBLISH — no republish license exists. Every educationally meaningful visual therefore receives an ORIGINAL_KYP_REDRAW or ORIGINAL_KYP_ADAPTATION (registry SVG or note-block); SOURCE_REFERENCE is used only for visuals genuinely absorbed by another note (receiving location named) or duplicated.",
+    "diagnosticPatternPolicy": "Clinical photographs, histology, radiology and cytogenetics visuals are implemented as KYP originals that preserve the diagnostic pattern (e.g., cherry-red macula contrast, dark-peripheral heterochromatin on EM, dextrocardia silhouette position, crumpled-tissue-paper cytoplasm) — never superficial redraws."
+  },
+  "notes": "Phase I-C full extraction. 54 new topics (status pending) + 1 approved pilot note. Topic granularity follows the approved pilot pattern (teachable units spanning 1–6 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 54–114 is claimed by exactly one topic). textbookVisuals[] is the pre-production visual source inventory; at production time records transfer into content/usmle/visual-inventory/<topicId>.json with kypVisualId and qaStatus filled. Cross-topic visuals absorbed by the pilot note are SOURCE_REFERENCE with the receiving note named. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear."
+}

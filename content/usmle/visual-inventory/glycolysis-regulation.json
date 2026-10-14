@@ -1,0 +1,366 @@
+{
+  "topicId": "glycolysis-regulation",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "glycolysis-regulation-sv1",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Enzyme-naming suffixes",
+      "sourceFigureDescription": "Enzyme terminology table defining suffixes (kinase, phosphorylase, dehydrogenase...)",
+      "part": 1,
+      "pdfPages": [
+        93
+      ],
+      "bookPages": "71",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Enzyme names are functions — read the suffix'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          93
+        ],
+        "bookPages": "71"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv2",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Metabolic control panel",
+      "sourceFigureDescription": "Rate-determining enzymes of metabolic processes with their activators and inhibitors",
+      "part": 1,
+      "pdfPages": [
+        93
+      ],
+      "bookPages": "71",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Rate-determining enzymes — the whole metabolic control panel'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          93
+        ],
+        "bookPages": "71"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv3",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "Whole-metabolism integration map",
+      "sourceFigureDescription": "Summary of metabolic pathways showing glycolysis, gluconeogenesis, TCA, urea cycle, HMP shunt, lipid metabolism linked with numbered enzymes",
+      "part": 1,
+      "pdfPages": [
+        94
+      ],
+      "bookPages": "72",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Whole-body metabolic map — scope of the metabolism-integration topic (Phase I-C); the note absorbs the compartmentation aspect in its table 'Where pathways live — metabolic compartmentation'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          94
+        ],
+        "bookPages": "72"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv4",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Hexokinase vs glucokinase contrast",
+      "sourceFigureDescription": "Hexokinase vs glucokinase comparison table (location, Km, Vmax, regulation)",
+      "part": 1,
+      "pdfPages": [
+        95
+      ],
+      "bookPages": "73",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "hexokinase-vs-glucokinase",
+      "kypImplementation": "registry-visual",
+      "notes": "Also absorbed as the note's table 'Hexokinase vs glucokinase — same reaction, opposite philosophies'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          95
+        ],
+        "bookPages": "73"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv5",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Energy carrier reference",
+      "sourceFigureDescription": "Activated carriers table (ATP, NADH, FADH2, CoA...) with carried groups",
+      "part": 1,
+      "pdfPages": [
+        95
+      ],
+      "bookPages": "73",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "General biochemistry reference table — core carriers covered in the note's net-equation text; full table belongs to the energy-carriers topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          95
+        ],
+        "bookPages": "73"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv6",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Glycolysis pathway with regulation points",
+      "sourceFigureDescription": "Glycolysis regulation pathway diagram showing ATP investment/payoff phases and the three regulated enzymes with their ⊕/⊝ regulators",
+      "part": 1,
+      "pdfPages": [
+        96
+      ],
+      "bookPages": "74",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "glycolysis-regulation-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          96
+        ],
+        "bookPages": "74"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv7",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "The F-2,6-BP switch",
+      "sourceFigureDescription": "Regulation by fructose-2,6-bisphosphate diagram: PFK-2/FBPase-2 bifunctional enzyme interconverting glycolysis and gluconeogenesis directions",
+      "part": 1,
+      "pdfPages": [
+        96
+      ],
+      "bookPages": "74",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "glycolysis-regulation-map",
+      "kypImplementation": "registry-visual",
+      "notes": "The switch panel of the KYP regulation map redraws this figure",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          96
+        ],
+        "bookPages": "74"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv8",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Pyruvate metabolic hub",
+      "sourceFigureDescription": "Pyruvate metabolism diagram showing conversion to alanine, lactate, oxaloacetate, and acetyl-CoA with enzymes and cofactors",
+      "part": 1,
+      "pdfPages": [
+        97
+      ],
+      "bookPages": "75",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "pyruvate-hub",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          97
+        ],
+        "bookPages": "75"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv9",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "TCA cycle",
+      "sourceFigureDescription": "TCA (Krebs) cycle circular pathway diagram with intermediates, enzymes, and regulation",
+      "part": 1,
+      "pdfPages": [
+        97
+      ],
+      "bookPages": "75",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "TCA cycle is its own high-yield topic (Phase I-C TCA note); the PDH gateway is covered in the note's text sections",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          97
+        ],
+        "bookPages": "75"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv10",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Glycogen regulation",
+      "sourceFigureDescription": "Glycogen regulation by insulin and glucagon/epinephrine signaling (receptors, cAMP, protein kinases)",
+      "part": 1,
+      "pdfPages": [
+        106
+      ],
+      "bookPages": "84",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Glycogen metabolism — separate FA topic (Phase I-C); cross-link candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv11",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Glycogen synthesis/breakdown",
+      "sourceFigureDescription": "Glycogen synthesis and glycogenolysis diagram with enzyme steps",
+      "part": 1,
+      "pdfPages": [
+        106
+      ],
+      "bookPages": "84",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Glycogen metabolism — separate FA topic (Phase I-C); cross-link candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      }
+    },
+    {
+      "visualId": "glycolysis-regulation-sv12",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Glycogen storage diseases",
+      "sourceFigureDescription": "Glycogen storage disease table (types I–VI, McArdle)",
+      "part": 1,
+      "pdfPages": [
+        106
+      ],
+      "bookPages": "84",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "GSD table — separate FA topic (Phase I-C); cross-link candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "glycolysis-regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "glycolysis-regulation",
+    "textbookVisualCount": 12,
+    "accountedFor": 12,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 6,
+    "omissionReasons": [
+      "glycolysis-regulation-sv3: Whole-body metabolic map — scope of the metabolism-integration topic (Phase I-C); the note absorbs the compartmentation aspect in its table 'Where pathways live — metabolic compartmentation'",
+      "glycolysis-regulation-sv5: General biochemistry reference table — core carriers covered in the note's net-equation text; full table belongs to the energy-carriers topic (Phase I-C)",
+      "glycolysis-regulation-sv9: TCA cycle is its own high-yield topic (Phase I-C TCA note); the PDH gateway is covered in the note's text sections",
+      "glycolysis-regulation-sv10: Glycogen metabolism — separate FA topic (Phase I-C); cross-link candidate",
+      "glycolysis-regulation-sv11: Glycogen metabolism — separate FA topic (Phase I-C); cross-link candidate",
+      "glycolysis-regulation-sv12: GSD table — separate FA topic (Phase I-C); cross-link candidate"
+    ],
+    "complete": true
+  },
+  "notes": "Source page 84 (pdf 106) is shared with the glycogen topics — figures retained here as cross-link references, to be inventoried by their own topics."
+}

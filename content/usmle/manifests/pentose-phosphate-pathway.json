@@ -1,0 +1,794 @@
+{
+  "topicId": "pentose-phosphate-pathway",
+  "title": "Pentose Phosphate Pathway",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Pentose Phosphate Pathway",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      99
+    ],
+    "bookPages": "77"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Also called HMP shunt",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Also called HMP shunt. Provides a source of NADPH from abundantly available glucose-6-P",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NADPH for reductive reactions: glutathione in RBCs, fatty acid synthesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "(NADPH is required for reductive reactions, eg, glutathione reduction inside RBCs, fatty acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cholesterol biosynthesis + ribose for nucleotides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "and cholesterol biosynthesis). Additionally, this pathway yields ribose for nucleotide synthesis. Two",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Two phases, both cytoplasmic, no ATP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "distinct phases (oxidative and nonoxidative), both of which occur in the cytoplasm. No ATP is",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "No ATP used or produced",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "used or produced.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sites of highest activity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Sites of highest activity: lactating mammary glands, liver, adrenal cortex (sites of fatty acid or steroid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sites line part 2 + RBCs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "synthesis), RBCs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: reactions header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "REACTIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: oxidative phase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Oxidative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: irreversible marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "(irreversible)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: nonoxidative phase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Nonoxidative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: reversible marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "(reversible)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: G6PD enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Glucose-6-P dehydrogenase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: 6-phosphogluconate node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "6-Phosphogluconate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: ribulose-5-P node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Ribulose-5-Pi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: phosphopentose isomerase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Phosphopentose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: isomerase word 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "isomerase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: fructose-6-P node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Fructose-6-Pi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: transketolase B1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Transketolase, B₁",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: F-1,6-BP node part 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Fructose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: F-1,6-BP node part 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "1,6-bisphosphate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: DHAP node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "DHAP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: glyceraldehyde-3-P node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Glyceraldehyde-3-Pi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: NADP+ and NADPH markers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "NADP+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: NADPH marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "NADPH",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: CO2 marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "CO2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: nucleotide synthesis destination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Nucleotide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: nucleotide synthesis word 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "synthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NADPH keeps glutathione reduced to detoxify radicals",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "NADPH is necessary to keep glutathione",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glutathione detoxifies free radicals and peroxides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "reduced, which in turn detoxifies free radicals",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Decreased NADPH in RBCs causes hemolytic anemia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "↓ NADPH in RBCs leads to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Poor defense against oxidizing agents",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "hemolytic anemia due to poor RBC defense",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Oxidizing agents list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "against oxidizing agents (eg, fava beans,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Agent list part 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "sulfonamides, nitrofurantoin, primaquine).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Infection most common cause",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Infection (most common cause) can also",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Infection mechanism: free radicals diffuse into RBCs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "precipitate hemolysis; inflammatory response",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Free radicals cause oxidative damage",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "produces free radicals that diffuse into RBCs,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "X-linked recessive, most common enzyme deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "X-linked recessive disorder; most common",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Most common human enzyme deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "human enzyme deficiency; more prevalent",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Malaria-endemic region prevalence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "among descendants of populations in malariaendemic regions (eg, sub-Saharan Africa,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Southeast Asia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Southeast Asia).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heinz bodies definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Heinz bodies—denatured globin chains",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heinz bodies precipitate under oxidative stress",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "precipitate within RBCs due to oxidative stress.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bite cells definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Bite cells—result from the phagocytic removal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bite cells from splenic macrophages",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "of Heinz bodies by splenic macrophages.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Think, “Bite into some Heinz ketchup.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: 2 GSH reduced",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "2 GSH",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: GSSG oxidized",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "GSSG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: glutathione reductase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Glutathione",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: reductase word",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "reductase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: glutathione peroxidase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "peroxidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: H2O2 input",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "H2O2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: 2H2O output",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "2H2O",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: 6-phosphogluconolactone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "6-phosphogluconolactone",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: ribose-5-P",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "quote": "Ribose-5-Pi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hmp-shunt-map",
+    "glutathione-redox-cycle"
+  ],
+  "mechanismIds": [
+    "hmp-shunt-two-phases",
+    "glutathione-redox-defense"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (oxidant-trigger stems, smear-sequence stems, tissue-list stems, B1-cofactor stems, plus the boy-with-fava-beans mini-case with the three-anchor discriminator)."
+    },
+    {
+      "id": "factory-and-dock-model",
+      "origin": "outside-first-aid",
+      "rationale": "Framing the shunt as an irreversible NADPH assembly line feeding a reversible carbon loading dock, and G6PD as the faucet of the RBC's antioxidant budget, is a KYP-original scaffold over the source's pathway figure and deficiency text.",
+      "location": "core.keyIdea + mechanisms 'hmp-shunt-two-phases' and 'glutathione-redox-defense'",
+      "summary": "The two-rule model (oxidative pays NADPH irreversibly; nonoxidative shuffles carbons reversibly) plus the faucet metaphor that connects G6PD absence to the Heinz-body cascade."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-10"
+}

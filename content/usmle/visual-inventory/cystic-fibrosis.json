@@ -1,0 +1,42 @@
+{
+  "topicId": "cystic-fibrosis",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "cystic-fibrosis-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Cystic Fibrosis",
+      "topicId": "cystic-fibrosis",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "CFTR/ENaC physiology in airway vs sweat duct",
+      "sourceFigureDescription": "Two-panel epithelial diagram (sweat duct, airway) each showing Normal vs CF: CFTR and ENaC on the apical membrane, Cl−/Na+/H2O arrows reversing between the tissues, normal vs dehydrated mucus layers",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "cftr-enac-diagram",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cystic-fibrosis",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The CFTR/ENaC figure is an original KYP redraw preserving the source's four-state layout: sweat duct (Normal: Cl− reabsorbed via CFTR + Na+ via ENaC; CF: CFTR defective, Cl− trapped in sweat) and airway (Normal: Cl−/H2O secreted → hydrated mucus; CF: no secretion + ENaC-driven Na+/H2O reabsorption → dehydrated mucus), with lumen/interstitium labels and the transepithelial potential-difference note."
+}

@@ -1,0 +1,65 @@
+{
+  "topicId": "pentose-phosphate-pathway",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "pentose-phosphate-pathway-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "HMP shunt oxidative and nonoxidative phases",
+      "sourceFigureDescription": "The p. 77 REACTIONS figure: oxidative (irreversible) band Glucose-6-Pi → (Glucose-6-P dehydrogenase, NADP+→NADPH) → 6-Phosphogluconate → (NADP+→NADPH, CO2) → Ribulose-5-Pi; Phosphopentose isomerase → Ribose-5-Pi → Nucleotide synthesis; nonoxidative (reversible) band with Transketolase B1 back to Fructose-6-Pi, Fructose 1,6-bisphosphate, DHAP, Glyceraldehyde-3-Pi.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Pentose Phosphate Pathway",
+      "topicId": "pentose-phosphate-pathway",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hmp-shunt-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "pentose-phosphate-pathway-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          99
+        ],
+        "bookPages": "77"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Glutathione redox cycle with G6PD",
+      "sourceFigureDescription": "The p. 77 glutathione cycle figure: G6PD (Glucose-6-P + NADP+ → 6-phosphogluconolactone + NADPH) feeding glutathione reductase (GSSG + NADPH → 2 GSH reduced + NADP+) feeding glutathione peroxidase (2 GSH + H2O2 → GSSG + 2H2O); Ribose-5-Pi → Nucleotide synthesis branch.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Pentose Phosphate Pathway",
+      "topicId": "pentose-phosphate-pathway",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "glutathione-redox-cycle",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "pentose-phosphate-pathway",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both p. 77 figures redrawn with full label fidelity: the REACTIONS map (two-phase bands, all metabolite nodes, G6PD/isomerase/transketolase enzyme labels, NADP+/NADPH/CO2 markers, nucleotide-synthesis branch, glycolysis reconnection) and the glutathione cycle (three enzyme boxes, GSH/GSSG/NADPH/NADP+/H2O2/2H2O/6-phosphogluconolactone labels, plus the deficiency panel)."
+}

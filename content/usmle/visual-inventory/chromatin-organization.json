@@ -1,0 +1,65 @@
+{
+  "topicId": "chromatin-organization",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "chromatin-organization-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Chromatin & Epigenetic Regulation",
+      "topicId": "chromatin-organization",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "DNA packing hierarchy from double helix to metaphase chromosome",
+      "sourceFigureDescription": "Left-to-right condensation series: DNA double helix → nucleosome (histone octamer + H1 linker) → 30-nm fiber/supercoiled structure → heterochromatin loop → condensed metaphase chromosome",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "chromatin-packing-hierarchy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "chromatin-organization-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Chromatin & Epigenetic Regulation",
+      "topicId": "chromatin-organization",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Electron micrograph pattern: dark peripheral heterochromatin vs light central euchromatin",
+      "sourceFigureDescription": "Transmission EM of a nucleus with H-labeled dense heterochromatin rimming the nuclear envelope and E-labeled pale euchromatin centrally, nucleolus labeled Nu",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "heterochromatin-euchromatin-em",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "chromatin-organization",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraws preserve the source figures' educational content (labels, relationships, sequence, directionality, diagnostic pattern) without copying First Aid artwork. Browser QA (desktop/mobile × light/dark) and VLM label-readability verification passed for both registry visuals."
+}

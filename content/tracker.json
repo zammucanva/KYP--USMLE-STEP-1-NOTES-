@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "1",
+  "generatedAt": "2026-10-07T09:56:56Z",
+  "sourceBook": "First Aid for the USMLE Step 1 2026",
+  "book": {
+    "parts": [
+      {
+        "part": 1,
+        "file": "upload/usmle part1.pdf",
+        "pdfPages": 433,
+        "bookPageOffset": -22
+      },
+      {
+        "part": 2,
+        "file": "upload/usmle part 2.pdf",
+        "pdfPages": 436,
+        "bookPageOffset": 408
+      }
+    ],
+    "chapterMap": [
+      {
+        "chapterId": "biochemistry",
+        "chapterTitle": "Biochemistry",
+        "number": 1,
+        "slug": "01-Biochem",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 49,
+            "to": 114
+          }
+        ]
+      },
+      {
+        "chapterId": "immunology",
+        "chapterTitle": "Immunology",
+        "number": 2,
+        "slug": "02-Immunology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 115,
+            "to": 142
+          }
+        ]
+      },
+      {
+        "chapterId": "microbiology",
+        "chapterTitle": "Microbiology",
+        "number": 3,
+        "slug": "03-Microbiology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 143,
+            "to": 222
+          }
+        ]
+      },
+      {
+        "chapterId": "pathology",
+        "chapterTitle": "Pathology",
+        "number": 4,
+        "slug": "04-Pathol",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 223,
+            "to": 248
+          }
+        ]
+      },
+      {
+        "chapterId": "pharmacology",
+        "chapterTitle": "Pharmacology",
+        "number": 5,
+        "slug": "05-Pharmacology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 249,
+            "to": 276
+          }
+        ]
+      },
+      {
+        "chapterId": "public-health",
+        "chapterTitle": "Public Health",
+        "number": 6,
+        "slug": "06-PubHealth",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 277,
+            "to": 300
+          }
+        ]
+      },
+      {
+        "chapterId": "cardiovascular",
+        "chapterTitle": "Cardiovascular",
+        "number": 7,
+        "slug": "07-Cardio",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 301,
+            "to": 350
+          }
+        ]
+      },
+      {
+        "chapterId": "endocrine",
+        "chapterTitle": "Endocrine",
+        "number": 8,
+        "slug": "08-Endocrine",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 351,
+            "to": 384
+          }
+        ]
+      },
+      {
+        "chapterId": "gastrointestinal",
+        "chapterTitle": "Gastrointestinal",
+        "number": 9,
+        "slug": "09-Gastrointestinal",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 385,
+            "to": 430
+          }
+        ]
+      },
+      {
+        "chapterId": "hematology-oncology",
+        "chapterTitle": "Hematology & Oncology",
+        "number": 10,
+        "slug": "10-HemaOncol",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 431,
+            "to": 433
+          },
+          {
+            "part": 2,
+            "from": 4,
+            "to": 40
+          }
+        ]
+      },
+      {
+        "chapterId": "musculoskeletal",
+        "chapterTitle": "Musculoskeletal & Connective Tissue",
+        "number": 11,
+        "slug": "11-Musculo",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 41,
+            "to": 90
+          }
+        ]
+      },
+      {
+        "chapterId": "neurology",
+        "chapterTitle": "Neurology & Special Senses",
+        "number": 12,
+        "slug": "12-Neurol",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 91,
+            "to": 160
+          }
+        ]
+      },
+      {
+        "chapterId": "psychiatry",
+        "chapterTitle": "Psychiatry",
+        "number": 13,
+        "slug": "13-Psych",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 161,
+            "to": 186
+          }
+        ]
+      },
+      {
+        "chapterId": "renal",
+        "chapterTitle": "Renal",
+        "number": 14,
+        "slug": "14-Renal",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 187,
+            "to": 220
+          }
+        ]
+      },
+      {
+        "chapterId": "reproductive",
+        "chapterTitle": "Reproductive",
+        "number": 15,
+        "slug": "15-Repro",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 221,
+            "to": 268
+          }
+        ]
+      },
+      {
+        "chapterId": "respiratory",
+        "chapterTitle": "Respiratory",
+        "number": 16,
+        "slug": "16-Respiratory",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 269,
+            "to": 298
+          }
+        ]
+      },
+      {
+        "chapterId": "rapid-review",
+        "chapterTitle": "Rapid Review (Pathophysiology of Important Diseases)",
+        "number": 17,
+        "slug": "Rapid Review",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 299,
+            "to": 338
+          }
+        ]
+      }
+    ]
+  },
+  "estimatedTotalTopics": 3029,
+  "counts": {
+    "chaptersRegistered": 7,
+    "chaptersExtracted": 0,
+    "topicsProduced": 10,
+    "topicsByStatus": {
+      "planned": 0,
+      "inventory": 0,
+      "in-production": 0,
+      "pilot-complete": 10,
+      "chapter-complete": 0,
+      "blocked": 0,
+      "failed": 0
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "biochemistry",
+      "chapterTitle": "Biochemistry",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "immunology",
+      "chapterTitle": "Immunology",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "pharmacology",
+      "chapterTitle": "Pharmacology",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "cardiovascular",
+      "chapterTitle": "Cardiovascular",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "endocrine",
+      "chapterTitle": "Endocrine",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "neurology",
+      "chapterTitle": "Neurology & Special Senses",
+      "part": 2,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "renal",
+      "chapterTitle": "Renal",
+      "part": 2,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    }
+  ],
+  "topics": [
+    {
+      "topicId": "acid-base-physiology",
+      "title": "Acid-Base Physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 196, 200, 201, 202, 203, 219 (book 604, 608–611, 627)",
+      "visualCount": 2,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "atherosclerosis",
+      "title": "Atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 324, 325, 326 (book 302–304)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "av-conduction-blocks",
+      "title": "AV Conduction Blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 333, 334, 335, 349 (book 311–313, 327)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "cranial-nerves",
+      "title": "Cranial Nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 108, 109, 110, 111, 112, 147, 148, 149, 150 (book 516–520, 555–558)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "diabetes-mellitus",
+      "title": "Diabetes Mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 101, 371, 372, 373, 374, 380, 381 (book 79, 349–352, 358–359)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "glycolysis-regulation",
+      "title": "Glycolysis Regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 93, 94, 95, 96, 97, 106 (book 71–75, 84)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "hypersensitivity-types",
+      "title": "Hypersensitivity Types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 131, 132, 133, 134 (book 109–112)",
+      "visualCount": 1,
+      "mechanismCount": 4,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "stroke-syndromes",
+      "title": "Stroke Syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 105, 117, 118, 119, 120, 121, 122, 306, 307, 308 (book 513, 525–530, 714–716)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "sympathomimetics",
+      "title": "Sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 262, 263, 264, 265 (book 240–243)",
+      "visualCount": 2,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    },
+    {
+      "topicId": "urinary-casts",
+      "title": "Urinary Casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 204, 205, 206, 211, 212, 213 (book 612–614, 619–621)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07",
+      "pendingCorrections": [
+        "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "topicId": "nucleotides-synthesis",
+  "title": "Nucleotide Synthesis & Metabolism",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Nucleotide Metabolism",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      55,
+      56
+    ],
+    "bookPages": "33–34"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Nucleotide = base + (deoxy)ribose + phosphate, linked by 3′-5′ phosphodiester bond",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "linked by 3′-5′ phosphodiester bond",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nucleo-“tri”-des have three components (nucleotide vs nucleoside hook)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "des have three components",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Deamination set includes methylation of uracil to make thymine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "Methylation of uracil makes thymine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Uracil is found in RNA; thymine in DNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "Uracil found in RNA; thymine in DNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amino acids necessary for purine synthesis: glycine, aspartate, glutamine (cats purr until they GAG)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "Amino acids necessary for purine synthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Purines (A, G) have 2 rings; pyrimidines (C, U, T) have 1 ring",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "Pyrimidines (C,U,T)—1 ring.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C-G bonds (3 H bonds) are stronger than A-T (2 H bonds); ↑C-G content → ↑ melting temperature",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "C-G bond (3 H bonds) stronger than A-T bond",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 5′ end of the incoming nucleotide bears the triphosphate (energy source for the bond)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "quote": "end of incoming nucleotide bears the",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Various immunosuppressive, antineoplastic, and antibiotic drugs function by interfering with nucleotide synthesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "function by interfering with",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leflunomide inhibits dihydroorotate dehydrogenase (pyrimidine synthesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "Leflunomide: inhibits dihydroorotate dehydrogenase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "5-FU and capecitabine form 5-F-dUMP, which inhibits thymidylate synthase (↓dTMP)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "form 5-F-dUMP, which inhibits",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "6-MP and its prodrug azathioprine act via conversion to 6-thioguanine nucleotides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "immunosuppressive effect via conversion of 6-MP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Concurrent xanthine oxidase inhibitors ↑ 6-MP conversion → ↑ 6-TGN toxicity; reduce dose, monitor CBC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "Concurrent use of xanthine oxidase inhibitors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycophenolate and ribavirin inhibit inosine monophosphate dehydrogenase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "Mycophenolate and ribavirin: inhibit inosine monophosphate dehydrogenase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hydroxyurea inhibits ribonucleotide reductase (purine and pyrimidine synthesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "Hydroxyurea: inhibits ribonucleotide reductase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MTX, TMP, and pyrimethamine inhibit dihydrofolate reductase in humans, bacteria, and protozoa respectively",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "in humans (methotrexate), bacteria (trimethoprim), and protozoa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CPS1 = mitochondria, urea cycle, liver; CPS2 = cytosol, pyrimidine synthesis, most cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "quote": "pyrimidine synthesis, found in most cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "nucleotide-ring-atom-sources",
+    "nucleotide-de-novo-salvage-map"
+  ],
+  "mechanismIds": [
+    "pyrimidine-de-novo",
+    "purine-de-novo"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "cps-regulators",
+      "summary": "The allosteric regulators row of the CPS1 vs CPS2 compare table (CPS1 activated by N-acetylglutamate; CPS2 activated by ATP and PRPP, inhibited by UTP) — First Aid lists only the location/pathway/tissue distinction on this page.",
+      "origin": "outside-first-aid",
+      "rationale": "Deepens the highest-yield CPS distinction with the regulation facts a mechanistic stem can quote; kept visibly separate from the First Aid-sourced rows of the table.",
+      "location": "blocks: compare table 'CPS1 vs CPS2 — the one-line distinction', Regulator row"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

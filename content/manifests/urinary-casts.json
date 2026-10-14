@@ -1,0 +1,138 @@
+{
+  "topicId": "urinary-casts",
+  "title": "Urinary Casts",
+  "chapterId": "renal",
+  "chapterTitle": "Renal",
+  "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+  "part": 2,
+  "sourcePages": {
+    "part": 2,
+    "pdfPages": [
+      204,
+      205,
+      206,
+      211,
+      212,
+      213
+    ],
+    "bookPages": "612–614, 619–621"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The casts-in-urine table maps cast morphology to nephron compartment and disease",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      },
+      "quote": "Casts in urine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fatty casts (oval fat bodies) show the Maltese cross pattern",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      },
+      "quote": "Fatty casts (“oval fat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acute tubular necrosis produces muddy brown granular casts",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      },
+      "quote": "Acute tubular necrosis (ATN). Can be “muddy brown” in appearance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "WBC casts indicate tubulointerstitial inflammation: acute pyelonephritis, transplant rejection",
+      "pages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      },
+      "quote": "Tubulointerstitial inflammation, acute pyelonephritis, transplant rejection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "urinary-cast-gallery"
+  ],
+  "mechanismIds": [
+    "cast-formation",
+    "atn-mechanism"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "cast-compartment-diagnosis-framework",
+      "summary": "The “cast → compartment → diagnosis” organizational framework: each cast is taught as a compartment-localizing sign that branches the differential.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists casts and diseases side by side; the compartment-first diagnostic reasoning structure is KYP's synthesis.",
+      "location": "blocks: table 'Cast → compartment → diagnosis'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [
+    "Pilot note sourceRef cites PDF page numbers as “pp.” — the precise dual mapping (pdf + printed book page) is carried in this manifest; updating the approved notes' display strings awaits user decision."
+  ],
+  "updatedAt": "2026-10-07"
+}

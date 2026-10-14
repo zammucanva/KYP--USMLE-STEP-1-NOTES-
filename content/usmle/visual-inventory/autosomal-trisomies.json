@@ -1,0 +1,89 @@
+{
+  "topicId": "autosomal-trisomies",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "autosomal-trisomies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          83
+        ],
+        "bookPages": "61"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Aneuploidy & Screening",
+      "topicId": "autosomal-trisomies",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Trisomy clinical sign photographs",
+      "sourceFigureDescription": "Clinical photographs: single palmar crease hand (arrow), cutis aplasia scalp defect, and the Edwards clenched fist with overlapping fingers",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "trisomy-clinical-signs",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "autosomal-trisomies-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          83
+        ],
+        "bookPages": "61"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Aneuploidy & Screening",
+      "topicId": "autosomal-trisomies",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Nondisjunction in meiosis I vs meiosis II",
+      "sourceFigureDescription": "Two-column meiosis diagram: MI failure (homologues) yielding 2 trisomy + 2 monosomy gametes; MII failure (sister chromatids) yielding 2 normal + 1 trisomy + 1 monosomy gametes",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "nondisjunction-mI-mII",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "autosomal-trisomies-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          83
+        ],
+        "bookPages": "61"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Aneuploidy & Screening",
+      "topicId": "autosomal-trisomies",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "First-trimester and quad serum screening marker tables",
+      "sourceFigureDescription": "Marker-direction tables: 1st trimester (β-hCG, PAPP-A) and quadruple (hCG, inhibin A, estriol, AFP) for trisomies 21, 18, 13",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks: table 'The two screening tables — first trimester and quad'"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autosomal-trisomies",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The photographs are original KYP schematic redraws (palm with the single transverse crease + arrow, scalp vertex cutis-aplasia patch, clenched fist with overlapping finger outlines) — diagnostic patterns preserved without reproducing the clinical images. The nondisjunction figure is an original KYP redraw preserving both columns' gamete census and all the source labels (Meiosis I/II, Nondisjunction, Gametes, Trisomy, Monosomy, Normal, n+1/n/n−1). The two screening tables are implemented as the note's table block with the source's exact marker directions."
+}

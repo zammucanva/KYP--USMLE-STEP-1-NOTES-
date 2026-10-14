@@ -1,0 +1,309 @@
+{
+  "topicId": "atherosclerosis",
+  "chapterId": "cardiovascular",
+  "inventory": [
+    {
+      "visualId": "atherosclerosis-sv1",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Coarctation imaging",
+      "sourceFigureDescription": "Angiogram showing coarctation of the aorta with narrowing near the ductus",
+      "part": 1,
+      "pdfPages": [
+        324
+      ],
+      "bookPages": "302",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Coarctation of the aorta — adjacent hypertension topic sharing the page spread; not atherosclerosis teaching scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          324
+        ],
+        "bookPages": "302"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv2",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Coarctation types",
+      "sourceFigureDescription": "Diagram of preductal, juxtaductal, and postductal coarctation locations",
+      "part": 1,
+      "pdfPages": [
+        324
+      ],
+      "bookPages": "302",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Coarctation of the aorta — adjacent hypertension topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          324
+        ],
+        "bookPages": "302"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv3",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Congenital defect associations",
+      "sourceFigureDescription": "Table of congenital cardiac defect associations (fetal alcohol syndrome, Down syndrome...)",
+      "part": 1,
+      "pdfPages": [
+        324
+      ],
+      "bookPages": "302",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Congenital heart disease — adjacent topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          324
+        ],
+        "bookPages": "302"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv4",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Renal artery stenosis imaging",
+      "sourceFigureDescription": "Angiogram of renal artery stenosis with 'string of beads' appearance",
+      "part": 1,
+      "pdfPages": [
+        324
+      ],
+      "bookPages": "302",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Secondary hypertension — adjacent topic sharing the page spread",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          324
+        ],
+        "bookPages": "302"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv5",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Hyperlipidemia physical signs",
+      "sourceFigureDescription": "Four clinical photographs (A–D): xanthomas, xanthelasma, tendinous xanthoma, corneal arcus",
+      "part": 1,
+      "pdfPages": [
+        325
+      ],
+      "bookPages": "303",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Clinical-photograph recognition — signs carried diagnostically in the note's table 'Hyperlipidemia signs on physical exam'; photographic pattern-recognition cannot be republished and a distribution-site schematic is a Phase I-C candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          325
+        ],
+        "bookPages": "303"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv6",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "Atherogenesis stages",
+      "sourceFigureDescription": "Four-stage atherosclerosis progression from normal artery to fibrous plaque with histology insets",
+      "part": 1,
+      "pdfPages": [
+        325
+      ],
+      "bookPages": "303",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "atherogenesis-timeline",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          325
+        ],
+        "bookPages": "303"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv7",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Cholesterol emboli histology",
+      "sourceFigureDescription": "Histology image of cholesterol emboli syndrome showing cholesterol clefts in an arterial lumen",
+      "part": 1,
+      "pdfPages": [
+        326
+      ],
+      "bookPages": "304",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Cholesterol-cleft histology recognition — syndrome covered diagnostically in the note's table 'Cholesterol emboli syndrome — the post-angiography complication'; histology recognition deferred to the vascular-pathology pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          326
+        ],
+        "bookPages": "304"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv8",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Arteriolosclerosis comparison",
+      "sourceFigureDescription": "Histology images comparing hyaline and hyperplastic arteriolosclerosis",
+      "part": 1,
+      "pdfPages": [
+        326
+      ],
+      "bookPages": "304",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Arteriolosclerosis comparison histology — hyaline vs hyperplastic carried in the note's text section 'Distinguish it from its siblings — arteriolosclerosis'; onion-skin schematic is a Phase I-C candidate",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          326
+        ],
+        "bookPages": "304"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv9",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Aneurysm locations",
+      "sourceFigureDescription": "Diagram of thoracic and abdominal aorta highlighting common aneurysm locations",
+      "part": 1,
+      "pdfPages": [
+        326
+      ],
+      "bookPages": "304",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Downstream aneurysm disease (the complication that grows silently)'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          326
+        ],
+        "bookPages": "304"
+      }
+    },
+    {
+      "visualId": "atherosclerosis-sv10",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "AAA imaging",
+      "sourceFigureDescription": "CT scan of the abdomen showing an abdominal aortic aneurysm",
+      "part": 1,
+      "pdfPages": [
+        326
+      ],
+      "bookPages": "304",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "AAA radiology recognition — aneurysm disease carried diagnostically in the note's table; imaging recognition deferred to the cardiovascular-imaging pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          326
+        ],
+        "bookPages": "304"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "atherosclerosis",
+    "textbookVisualCount": 10,
+    "accountedFor": 10,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 8,
+    "omissionReasons": [
+      "atherosclerosis-sv1: Coarctation of the aorta — adjacent hypertension topic sharing the page spread; not atherosclerosis teaching scope",
+      "atherosclerosis-sv2: Coarctation of the aorta — adjacent hypertension topic sharing the page spread",
+      "atherosclerosis-sv3: Congenital heart disease — adjacent topic sharing the page spread",
+      "atherosclerosis-sv4: Secondary hypertension — adjacent topic sharing the page spread",
+      "atherosclerosis-sv5: Clinical-photograph recognition — signs carried diagnostically in the note's table 'Hyperlipidemia signs on physical exam'; photographic pattern-recognition cannot be republished and a distribution-site schematic is a Phase I-C candidate",
+      "atherosclerosis-sv7: Cholesterol-cleft histology recognition — syndrome covered diagnostically in the note's table 'Cholesterol emboli syndrome — the post-angiography complication'; histology recognition deferred to the vascular-pathology pass (Phase I-C)",
+      "atherosclerosis-sv8: Arteriolosclerosis comparison histology — hyaline vs hyperplastic carried in the note's text section 'Distinguish it from its siblings — arteriolosclerosis'; onion-skin schematic is a Phase I-C candidate",
+      "atherosclerosis-sv10: AAA radiology recognition — aneurysm disease carried diagnostically in the note's table; imaging recognition deferred to the cardiovascular-imaging pass (Phase I-C)"
+    ],
+    "complete": true
+  },
+  "notes": "Source page spread (pdf 324–326) is shared with hypertension/coarctation content — those figures are retained as references for their own topics."
+}

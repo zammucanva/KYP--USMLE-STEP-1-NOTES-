@@ -1,0 +1,89 @@
+{
+  "topicId": "genetic-terms-popgen",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "genetic-terms-popgen-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Terminology & Population Genetics",
+      "topicId": "genetic-terms-popgen",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Hardy-Weinberg allele combination square",
+      "sourceFigureDescription": "2×2 Punnett-style square combining A(p) and a(q) gametes → p², 2pq, q² genotype frequencies",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "hwe-punnett-square",
+      "qaStatus": "passed",
+      "kypImplementation": "registry-visual"
+    },
+    {
+      "visualId": "genetic-terms-popgen-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          77
+        ],
+        "bookPages": "55"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Terminology & Population Genetics",
+      "topicId": "genetic-terms-popgen",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "McCune-Albright café-au-lait mosaicism photo",
+      "sourceFigureDescription": "Clinical photograph: large unilateral café-au-lait macules with ragged 'coast of Maine' edges illustrating the genetic term mosaicism (post-zygotic GNAS mutation)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "cafe-au-lait-mosaic-pattern",
+      "qaStatus": "passed",
+      "kypImplementation": "registry-visual"
+    },
+    {
+      "visualId": "genetic-terms-popgen-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Terminology & Population Genetics",
+      "topicId": "genetic-terms-popgen",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Prader-Willi vs Angelman comparison table",
+      "sourceFigureDescription": "Two-column table contrasting PWS (paternal deletion; hyperphagia, hypotonia, hypogonadism) vs AS (maternal deletion/UBE3A; seizures, puppet-like laughter)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": null,
+      "qaStatus": "passed",
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: compare 'Prader-Willi vs Angelman — the imprinting pair, at a glance'"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "genetic-terms-popgen",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The Hardy-Weinberg square is a KYP adaptation preserving the source's 2×2 gamete-combination layout (A(p)/a(q) axes, AA p², Aa pq ×2, aa q²) with the equations, assumptions strip, and the CF worked example. The café-au-lait photograph is an original KYP schematic redraw (pattern-preserving: torso outline, unilateral large light-brown macules with ragged edges respecting the midline, plus the McCune-Albright vs NF1 border contrast and the somatic-vs-germline mosaicism definition panel) — the diagnostic pattern is preserved without reproducing the clinical photograph. The PWS-vs-AS table is implemented as the note's compare block (terminology-level summary; the full mechanism deep-dive lives in the imprinting-disorders note, which owns the same-page imprinting figure)."
+}

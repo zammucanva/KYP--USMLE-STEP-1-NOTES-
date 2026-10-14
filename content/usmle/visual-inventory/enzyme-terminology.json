@@ -1,0 +1,18 @@
+{
+ "topicId": "enzyme-terminology",
+ "chapterId": "biochemistry",
+ "inventory": [],
+ "coverageAudit": {
+  "topicId": "enzyme-terminology",
+  "textbookVisualCount": 0,
+  "accountedFor": 0,
+  "sourceReproductions": 0,
+  "kypRedraws": 0,
+  "kypOriginals": 0,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "Zero textbook visuals on pdf 93 / book 71 — the page is two tables (enzyme descriptors; rate-determining enzymes with regulators) plus running text. Both tables are implemented as the note's table blocks with the source's verbatim pairings; the suffix decoder text block carries the descriptor definitions."
+}

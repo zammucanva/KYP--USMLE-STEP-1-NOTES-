@@ -1,0 +1,43 @@
+{
+  "topicId": "eukaryotic-gene-organization",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "eukaryotic-gene-organization-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          61,
+          62
+        ],
+        "bookPages": "39–40"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Eukaryotic Gene Regulation",
+      "topicId": "eukaryotic-gene-organization",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "Functional anatomy of a eukaryotic gene and its expression flow",
+      "sourceFigureDescription": "DNA→RNA→protein central-dogma strip above a gene schematic: enhancer/silencer upstream elements, promoter/TATA box, transcription start, exons (coding) alternating with introns, poly-A site; regulation labels for promoter/enhancer/silencer/epigenetics",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "eukaryotic-gene-anatomy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "eukaryotic-gene-organization",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP adaptation re-lays the source's gene-anatomy + central-dogma composite as a KYP-native three-strip flow (DNA anatomy → pre-mRNA → mature mRNA → protein), preserving every labeled landmark (enhancer/silencer, CAAT, TATAAA, transcription start, GT…AG intron marks, 5′/3′ UTR, ORF, AATAAA/AAUAAA, poly-A tail)."
+}

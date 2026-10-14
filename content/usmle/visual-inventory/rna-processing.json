@@ -1,0 +1,88 @@
+{
+  "topicId": "rna-processing",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "rna-processing-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — RNA Processing",
+      "topicId": "rna-processing",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "Mature mRNA anatomy: 5' cap, UTRs, coding region, poly-A tail",
+      "sourceFigureDescription": "Linear mRNA schematic with 5' 7-methylguanosine cap, 5' UTR, AUG start, coding exons, stop codon, 3' UTR, poly-A tail with polyadenylation signal",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "mrna-maturation-anatomy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "rna-processing-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — RNA Processing",
+      "topicId": "rna-processing",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Alternative splicing producing protein isoforms",
+      "sourceFigureDescription": "Pre-mRNA with multiple exons spliced in different combinations (exon skipping) yielding distinct mature mRNAs and protein isoforms",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "alternative-splicing-paths",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "rna-processing-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — RNA Processing",
+      "topicId": "rna-processing",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Spliceosome-mediated intron removal with lariat intermediate",
+      "sourceFigureDescription": "Step diagram: snRNP assembly at 5' donor/branch point/3' acceptor → 2'-5' lariat loop formation → exon ligation → released lariat degraded",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "spliceosome-lariat",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "rna-processing",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraws/adaptation preserve the source figures' educational content: mRNA anatomy landmarks (7-mG cap, UTRs, AUG, AAUAAA, ~200-A tail), the three-exon-combination alternative splicing pattern with protein isoforms, and the three-step spliceosome cycle (U1/U2 assembly, 2′–5′ lariat, exon ligation) with the SMA/anti-U1 clinical anchors."
+}

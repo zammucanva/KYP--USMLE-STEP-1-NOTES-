@@ -1,0 +1,654 @@
+{
+  "topicId": "av-conduction-blocks",
+  "chapterId": "cardiovascular",
+  "inventory": [
+    {
+      "visualId": "av-conduction-blocks-sv1",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Wide-complex tachycardias",
+      "sourceFigureDescription": "Table of wide complex tachycardias (VT, torsades, VF) and channelopathies with ECG thumbnails",
+      "part": 1,
+      "pdfPages": [
+        333
+      ],
+      "bookPages": "311",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333
+        ],
+        "bookPages": "311"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv2",
+      "visualType": "ECG",
+      "visualPurpose": "Ventricular tachycardia strip",
+      "sourceFigureDescription": "ECG strip showing ventricular tachycardia with wide QRS complexes",
+      "part": 1,
+      "pdfPages": [
+        333
+      ],
+      "bookPages": "311",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333
+        ],
+        "bookPages": "311"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv3",
+      "visualType": "ECG",
+      "visualPurpose": "Torsades de pointes strip",
+      "sourceFigureDescription": "ECG strip showing torsades de pointes with shifting sinusoidal waveforms",
+      "part": 1,
+      "pdfPages": [
+        333
+      ],
+      "bookPages": "311",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333
+        ],
+        "bookPages": "311"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv4",
+      "visualType": "ECG",
+      "visualPurpose": "Ventricular fibrillation strip",
+      "sourceFigureDescription": "ECG strip showing ventricular fibrillation with disorganized rhythm",
+      "part": 1,
+      "pdfPages": [
+        333
+      ],
+      "bookPages": "311",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333
+        ],
+        "bookPages": "311"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv5",
+      "visualType": "ECG",
+      "visualPurpose": "Sick sinus syndrome strip",
+      "sourceFigureDescription": "ECG strip showing sick sinus syndrome with bradycardia and sinus pauses",
+      "part": 1,
+      "pdfPages": [
+        333
+      ],
+      "bookPages": "311",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333
+        ],
+        "bookPages": "311"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv6",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "AV conduction block decision table",
+      "sourceFigureDescription": "Conduction blocks table (first-degree, Mobitz I/II, third-degree, bundle branch block) with ECG findings",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The decision table — block, findings, treatment'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv7",
+      "visualType": "ECG",
+      "visualPurpose": "First-degree AV block trace",
+      "sourceFigureDescription": "ECG strip showing first-degree AV block with prolonged PR interval",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "av-block-ecg",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv8",
+      "visualType": "ECG",
+      "visualPurpose": "Mobitz I trace",
+      "sourceFigureDescription": "ECG strip showing Mobitz type I (Wenckebach) with progressive PR lengthening",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "av-block-ecg",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv9",
+      "visualType": "ECG",
+      "visualPurpose": "Mobitz II trace",
+      "sourceFigureDescription": "ECG strip showing Mobitz type II with dropped beats",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "av-block-ecg",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv10",
+      "visualType": "ECG",
+      "visualPurpose": "Third-degree AV block trace",
+      "sourceFigureDescription": "ECG strip showing third-degree (complete) AV block with atrioventricular dissociation",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "av-block-ecg",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv11",
+      "visualType": "ECG",
+      "visualPurpose": "Bundle branch block traces",
+      "sourceFigureDescription": "ECG strips comparing left and right bundle branch block morphology",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Bundle-branch morphology — adjacent; the note stays on AV-nodal conduction",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv12",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Premature beats",
+      "sourceFigureDescription": "Table of premature atrial and ventricular contractions with ECG findings",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv13",
+      "visualType": "ECG",
+      "visualPurpose": "PAC strip",
+      "sourceFigureDescription": "ECG strip showing a premature atrial contraction",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv14",
+      "visualType": "ECG",
+      "visualPurpose": "PVC strip",
+      "sourceFigureDescription": "ECG strip showing a premature ventricular contraction",
+      "part": 1,
+      "pdfPages": [
+        334
+      ],
+      "bookPages": "312",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv15",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "MI complication timeline",
+      "sourceFigureDescription": "Myocardial infarction complications table with timeframes and findings (arrhythmia, ventricular rupture...)",
+      "part": 1,
+      "pdfPages": [
+        335
+      ],
+      "bookPages": "313",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: text 'Where blocks come from — the MI and channelopathy neighborhood' + clinical blocks",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          335
+        ],
+        "bookPages": "313"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv16",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Ventricular aneurysm vs pseudoaneurysm",
+      "sourceFigureDescription": "Anatomical diagrams comparing ventricular aneurysm and pseudoaneurysm of the heart",
+      "part": 1,
+      "pdfPages": [
+        335
+      ],
+      "bookPages": "313",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Mechanical MI complications — adjacent cardiology topic; only their arrhythmic/conduction consequences are in this note's scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          335
+        ],
+        "bookPages": "313"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv17",
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Papillary muscle rupture gross",
+      "sourceFigureDescription": "Gross pathology photo of mitral valve and papillary muscle rupture",
+      "part": 1,
+      "pdfPages": [
+        335
+      ],
+      "bookPages": "313",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Mechanical MI complications — adjacent cardiology topic",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          335
+        ],
+        "bookPages": "313"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv18",
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Ventricular rupture gross",
+      "sourceFigureDescription": "Gross pathology photo of a heart cross-section with ventricular rupture",
+      "part": 1,
+      "pdfPages": [
+        335
+      ],
+      "bookPages": "313",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Mechanical MI complications — adjacent cardiology topic",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          335
+        ],
+        "bookPages": "313"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv19",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Class IC antiarrhythmics",
+      "sourceFigureDescription": "Antiarrhythmic sodium channel blocker (class IC) table: mechanism, use, adverse effects",
+      "part": 1,
+      "pdfPages": [
+        349
+      ],
+      "bookPages": "327",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Class IC agents are not AV-node drugs — adjacent antiarrhythmics topic; the note's drugs table covers AV-node agents",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          349
+        ],
+        "bookPages": "327"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv20",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Class IC action potential",
+      "sourceFigureDescription": "Cardiac action potential graph showing class IC effect on phase 0 slope",
+      "part": 1,
+      "pdfPages": [
+        349
+      ],
+      "bookPages": "327",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Class IC agents are not AV-node drugs — adjacent antiarrhythmics topic",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          349
+        ],
+        "bookPages": "327"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv21",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "β-blockers as AV-node agents",
+      "sourceFigureDescription": "Antiarrhythmic β-blocker (class II) table: mechanism, clinical use, adverse effects",
+      "part": 1,
+      "pdfPages": [
+        349
+      ],
+      "bookPages": "327",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Drugs that touch the AV node (antiarrhythmic context)'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          349
+        ],
+        "bookPages": "327"
+      }
+    },
+    {
+      "visualId": "av-conduction-blocks-sv22",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "β-blocker pacemaker potential",
+      "sourceFigureDescription": "Pacemaker action potential graph showing β-blocker effect on phase 4 depolarization at the AV node",
+      "part": 1,
+      "pdfPages": [
+        349
+      ],
+      "bookPages": "327",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Action-potential graphs — adjacent pharmacology figures; the β-blocker AV-node effect is absorbed in the note's drugs table",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "av-conduction-blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          349
+        ],
+        "bookPages": "327"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "av-conduction-blocks",
+    "textbookVisualCount": 22,
+    "accountedFor": 22,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 15,
+    "omissionReasons": [
+      "av-conduction-blocks-sv1: Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "av-conduction-blocks-sv2: Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "av-conduction-blocks-sv3: Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "av-conduction-blocks-sv4: Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "av-conduction-blocks-sv5: Tachyarrhythmias/sinus-node disease — adjacent arrhythmia scope; this note covers AV conduction",
+      "av-conduction-blocks-sv11: Bundle-branch morphology — adjacent; the note stays on AV-nodal conduction",
+      "av-conduction-blocks-sv12: Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "av-conduction-blocks-sv13: Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "av-conduction-blocks-sv14: Ectopy (PAC/PVC) — adjacent arrhythmia scope",
+      "av-conduction-blocks-sv16: Mechanical MI complications — adjacent cardiology topic; only their arrhythmic/conduction consequences are in this note's scope",
+      "av-conduction-blocks-sv17: Mechanical MI complications — adjacent cardiology topic",
+      "av-conduction-blocks-sv18: Mechanical MI complications — adjacent cardiology topic",
+      "av-conduction-blocks-sv19: Class IC agents are not AV-node drugs — adjacent antiarrhythmics topic; the note's drugs table covers AV-node agents",
+      "av-conduction-blocks-sv20: Class IC agents are not AV-node drugs — adjacent antiarrhythmics topic",
+      "av-conduction-blocks-sv22: Action-potential graphs — adjacent pharmacology figures; the β-blocker AV-node effect is absorbed in the note's drugs table"
+    ],
+    "complete": true
+  },
+  "notes": "Source page 311–313 (pdf 333–335) mixes AV blocks with the wider arrhythmia family; out-of-scope figures are retained as references for the arrhythmias topic (Phase I-C)."
+}

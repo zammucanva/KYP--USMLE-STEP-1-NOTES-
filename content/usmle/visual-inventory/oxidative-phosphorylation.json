@@ -1,0 +1,42 @@
+{
+  "topicId": "oxidative-phosphorylation",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "oxidative-phosphorylation-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Electron transport chain complexes I–V",
+      "sourceFigureDescription": "Inner-membrane map (as printed on p. 76): NADH/NAD+ and FADH2/FAD labels at complexes I and II, CoQ between II and III, cytochrome c below the band between III and IV, 1/2 O2 + 2H+ → H2O at IV, ADP + Pi → ATP at V, H+ arrows at I/III/IV (down into the intermembrane space) and up into V, Cyanide/CO inhibit tag at IV, and the Uncoupling proteins / Aspirin overdose leak channel at the left. NOTE (source verification): the approved inventory's description mentioned rotenone/amytal, antimycin, and oligomycin — those names appear nowhere in the 2026 text layer (both book parts searched) and are absent from the printed figure; the redraw follows the actual page.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Oxidative Phosphorylation",
+      "topicId": "oxidative-phosphorylation",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "etc-oxphos-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "oxidative-phosphorylation",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The p76 figure is the topic's single textbook visual; redrawn in full label fidelity (complexes, both carriers, substrate/product labels, four H+ flows, uncoupler channel, cyanide/CO tag). Source-verification correction documented in sourceFigureDescription: the classic inhibitor names (rotenone/amytal/antimycin/oligomycin) are NOT printed in FA 2026 and were not added."
+}

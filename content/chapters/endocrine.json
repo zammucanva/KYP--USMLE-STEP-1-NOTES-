@@ -1,0 +1,45 @@
+{
+  "chapterId": "endocrine",
+  "chapterTitle": "Endocrine",
+  "number": 8,
+  "part": 1,
+  "section": "III",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 351,
+      "to": 384
+    }
+  ],
+  "bookPages": "329–362",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "diabetes-mellitus",
+      "title": "Diabetes Mellitus",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101,
+          371,
+          372,
+          373,
+          374,
+          380,
+          381
+        ],
+        "bookPages": "79, 349–352, 358–359"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "diabetes-complications-web"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

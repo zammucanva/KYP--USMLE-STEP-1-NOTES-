@@ -1,0 +1,89 @@
+{
+  "topicId": "amino-acids",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "amino-acids-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Amino acid derivatives map",
+      "sourceFigureDescription": "The p. 81 derivatives figure: phenylalanine→tyrosine (BH4)→thyroxine (BH4)/dopa (BH4)→dopamine (B6)→NE (vitamin C)→epi (SAM), melanin; tryptophan→serotonin (B6, BH4)→melatonin and →niacin (B2, B6)→NAD+/NADP+; histidine→histamine (B6); glycine→porphyrin (B6)→heme; glutamate→GABA (B6) and glutathione; arginine→creatine/urea/nitric oxide (BH4).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acids",
+      "topicId": "amino-acids",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "amino-acid-derivatives-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "amino-acids-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Catecholamine synthesis and tyrosine catabolism",
+      "sourceFigureDescription": "The p. 81 catecholamine figure: phe—(BH4)→tyr—(tyrosine hydroxylase, BH4, rate-limiting)→L-DOPA—(B6)→dopamine—(vitamin C)→NE—(SAM, cortisol)→epi; tyrosinase→melanin; homogentisic acid—(homogentisate oxidase)→maleylacetoacetic acid→fumarate→TCA; PKU/alkaptonuria/albinism blocks; carbidopa; COMT/MAO → metanephrine/normetanephrine/VMA/HVA.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acids",
+      "topicId": "amino-acids",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "catecholamine-synthesis-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "amino-acids-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "Amino acid structures and classification",
+      "sourceFigureDescription": "Inventory described a 20-amino-acid structural-formula figure; source verification found NO such figure in FA 2026 (both book parts' text layers searched; p. 101 presents the classification as text lists only). The classification CONTENT (essential/glucogenic/ketogenic/acidic/basic with the source's mnemonics) is implemented as the note's classification table.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Amino Acids",
+      "topicId": "amino-acids",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[2] — 'The classification ledger' table block",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "amino-acids",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "sv3 documented correction (field sync, inventory not regenerated): the described structural-formula figure does not exist in the 2026 edition; sv3 upgraded SOURCE_REFERENCE → ORIGINAL_KYP_ADAPTATION as a note-block (the classification table implements the page's actual classification content). sv1/sv2 are full redraws of the two printed p. 81 figures."
+}

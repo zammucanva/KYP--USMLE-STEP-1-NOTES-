@@ -1,0 +1,42 @@
+{
+  "topicId": "imprinting-disorders",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "imprinting-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          78
+        ],
+        "bookPages": "56"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Imprinting Disorders",
+      "topicId": "imprinting-disorders",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Chromosome 15 imprinting: paternal vs maternal silencing",
+      "sourceFigureDescription": "Paired chromosome-15 diagrams (paternal/maternal) showing imprinted (silenced) genes with deletion/mutation outcomes: paternal deletion → Prader-Willi, maternal UBE3A loss → Angelman",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "imprinting-chromosome15",
+      "qaStatus": "passed",
+      "kypImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "imprinting-disorders",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The imprinting figure is an original KYP redraw preserving the source's structure and legend: P (paternal) and M (maternal) chromosome columns, a Normal group where each locus expresses exactly one parent's copy, disease groups where the only active copy carries the deletion/mutation symbol, and the legend P = Paternal, M = Maternal, active gene, silenced gene (imprinting), gene deletion/mutation — plus the source's own POP and MAMAS mnemonic lines. The same-page PWS-vs-AS signs table is accounted under genetic-terms-popgen sv3 (note-block compare)."
+}

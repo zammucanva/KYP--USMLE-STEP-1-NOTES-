@@ -1,0 +1,158 @@
+{
+  "topicId": "lysosomal-storage-diseases",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "lysosomal-storage-diseases-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Sphingolipid metabolism pathway with numbered blocks",
+      "sourceFigureDescription": "The p. 86 ceramide-centered map: GM2 → GM3 (① hexosaminidase A, Tay-Sachs), ceramide trihexoside (② α-galactosidase A, Fabry), GM3 → glucocerebroside, glucocerebroside → ceramide (⑤ Gaucher), sphingomyelin → ceramide (⑥ Niemann-Pick), sulfatide/cerebroside sulfate → galactocerebroside (③ MLD), galactocerebroside → ceramide (④ Krabbe).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "sphingolipid-pathway-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lysosomal-storage-diseases-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Cherry-red spot of Tay-Sachs and Niemann-Pick",
+      "sourceFigureDescription": "The p. 86 fundus photograph (label A, printed in both the Tay-Sachs and Niemann-Pick rows): red-tinted macula surrounded by retinal opacification from lipid accumulation in the ganglion cell layer.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "cherry-red-spot-illustration",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lysosomal-storage-diseases-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Angiokeratomas of Fabry disease",
+      "sourceFigureDescription": "The p. 86 clinical photograph (label B): punctate red-blue vascular skin lesions in the bathing-suit distribution.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "angiokeratoma-illustration",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lysosomal-storage-diseases-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Gaucher cells: crumpled tissue paper macrophages",
+      "sourceFigureDescription": "The p. 86 histology image (label C): lipid-laden macrophages with characteristic crumpled-tissue-paper cytoplasm in marrow/spleen.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "gaucher-cells-illustration",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lysosomal-storage-diseases-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Niemann-Pick foam cells",
+      "sourceFigureDescription": "The p. 86 histology image (label D): foamy lipid-laden macrophages with vacuolated cytoplasm (sphingomyelin).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "niemann-pick-foam-cells",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lysosomal-storage-diseases-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "86"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Lysosomal storage disease table (sphingolipidoses + mucopolysaccharidoses)",
+      "sourceFigureDescription": "The p. 86 disease table: DISEASE / FINDINGS / DEFICIENT ENZYME / ACCUMULATED SUBSTRATE / INHERITANCE across Tay-Sachs, Fabry, MLD, Krabbe, Gaucher, Niemann-Pick, Hurler, Hunter, with the Hunters-see-clearly mnemonic.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "topicId": "lysosomal-storage-diseases",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[5] — 'The lysosomal storage disease table — verbatim' table block",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "lysosomal-storage-diseases",
+    "textbookVisualCount": 6,
+    "accountedFor": 6,
+    "sourceReproductions": 0,
+    "kypRedraws": 5,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Five registry visuals (sv1 the ceramide-hub pathway map with all six numbered blocks; sv2-sv5 the four clinical-image patterns — cherry-red spot A, angiokeratomas B, Gaucher cells C, foam cells D — each redrawn as an original KYP schematic per the N-batch photo pattern, labeled as redrawn-not-reproduced) plus sv6, the full disease table, implemented as the note's verbatim-contract table block."
+}

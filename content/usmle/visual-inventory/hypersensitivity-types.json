@@ -1,0 +1,193 @@
+{
+  "topicId": "hypersensitivity-types",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "hypersensitivity-types-sv1",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Vaccine types",
+      "sourceFigureDescription": "Vaccination table comparing live attenuated, killed, subunit, toxoid, and mRNA vaccines with illustrations",
+      "part": 1,
+      "pdfPages": [
+        131
+      ],
+      "bookPages": "109",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Immunization — adjacent immunology topic sharing the page; outside hypersensitivity classification scope",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      }
+    },
+    {
+      "visualId": "hypersensitivity-types-sv2",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Type I mechanism",
+      "sourceFigureDescription": "Type I hypersensitivity diagram: allergen crosslinking IgE on a mast cell leading to degranulation",
+      "part": 1,
+      "pdfPages": [
+        132
+      ],
+      "bookPages": "110",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hypersensitivity-mechanisms",
+      "kypImplementation": "registry-visual",
+      "notes": "Frame 1 of the KYP four-frame mechanism gallery",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          132
+        ],
+        "bookPages": "110"
+      }
+    },
+    {
+      "visualId": "hypersensitivity-types-sv3",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Type II mechanism",
+      "sourceFigureDescription": "Type II hypersensitivity diagram: antibody-dependent cellular cytotoxicity via NK cells and Fc receptors",
+      "part": 1,
+      "pdfPages": [
+        132
+      ],
+      "bookPages": "110",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hypersensitivity-mechanisms",
+      "kypImplementation": "registry-visual",
+      "notes": "Frame 2 of the gallery",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          132
+        ],
+        "bookPages": "110"
+      }
+    },
+    {
+      "visualId": "hypersensitivity-types-sv4",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Type III mechanism",
+      "sourceFigureDescription": "Type III hypersensitivity diagram: immune complex deposition, neutrophil recruitment, endothelial damage",
+      "part": 1,
+      "pdfPages": [
+        133
+      ],
+      "bookPages": "111",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hypersensitivity-mechanisms",
+      "kypImplementation": "registry-visual",
+      "notes": "Frame 3 of the gallery",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          133
+        ],
+        "bookPages": "111"
+      }
+    },
+    {
+      "visualId": "hypersensitivity-types-sv5",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Type IV mechanism",
+      "sourceFigureDescription": "Type IV delayed hypersensitivity diagram: antigen presentation to sensitized Th1 cell, macrophage activation",
+      "part": 1,
+      "pdfPages": [
+        133
+      ],
+      "bookPages": "111",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hypersensitivity-mechanisms",
+      "kypImplementation": "registry-visual",
+      "notes": "Frame 4 of the gallery",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          133
+        ],
+        "bookPages": "111"
+      }
+    },
+    {
+      "visualId": "hypersensitivity-types-sv6",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Transfusion reactions",
+      "sourceFigureDescription": "Immunologic blood transfusion reactions table by mechanism and clinical findings",
+      "part": 1,
+      "pdfPages": [
+        134
+      ],
+      "bookPages": "112",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Transfusion reactions — hypersensitivity applied to the blood bank'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "hypersensitivity-types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          134
+        ],
+        "bookPages": "112"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "hypersensitivity-types",
+    "textbookVisualCount": 6,
+    "accountedFor": 6,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 1,
+    "omissionReasons": [
+      "hypersensitivity-types-sv1: Immunization — adjacent immunology topic sharing the page; outside hypersensitivity classification scope"
+    ],
+    "complete": true
+  }
+}

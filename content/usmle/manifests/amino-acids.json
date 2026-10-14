@@ -1,0 +1,1042 @@
+{
+  "topicId": "amino-acids",
+  "title": "Amino Acids & Their Derivatives",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Amino Acids",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      101,
+      103
+    ],
+    "bookPages": "79, 81"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Only L-amino acids in proteins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Only L-amino acids are found in proteins.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Essential amino acid mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "PVT TIM HaLL: Phenylalanine, Valine, Tryptophan, Threonine, Isoleucine, Methionine,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Essential list part 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Histidine, Leucine, Lysine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucogenic list + mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Glucogenic: Methionine, histidine, valine. We met his valentine, who is so sweet (glucogenic).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucogenic/ketogenic list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Glucogenic/ketogenic: Isoleucine, phenylalanine, threonine, tryptophan.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ketogenic list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Ketogenic: leucine, lysine. The only purely ketogenic amino acids.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acidic amino acids",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Aspartic acid, glutamic acid.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acidic charge",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Negatively charged at body pH.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Basic amino acids",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Histidine, lysine, arginine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Arginine most basic; histidine no charge",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Arginine is most basic. Histidine has no charge at body pH.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Growth requirement",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Arginine and histidine are required during periods of growth.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histone enrichment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "Arginine and lysine are ↑ in histones which bind negatively charged DNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Basic mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "quote": "His lys (lies) are basic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: derivatives title",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Amino acid derivatives",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: thyroxine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Thyroxine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: BH4 marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "BH4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phenylalanine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Phenylalanine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: B6 marker (derivatives map)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "B6\nDopa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dopa",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Dopa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: SAM marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "SAM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: vitamin C marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Vitamin C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dopamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Dopamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: NE (norepinephrine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "NE\nEpi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Epi",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Epi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: NAD+/NADP+ marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "NAD+/NADP+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: niacin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Niacin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: B2,B6 marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "B2, B6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tryptophan",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Tryptophan",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tyrosine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Tyrosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: melanin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Melanin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: BH4,B6 marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "BH4, B6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: serotonin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Serotonin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: histidine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Histidine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Glycine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: melatonin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Melatonin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: histamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Histamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: porphyrin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Porphyrin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: heme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Heme",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: GABA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "GABA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glutamate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Glutamate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glutathione",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Glutathione",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: creatine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Creatine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: urea",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Urea",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: arginine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Arginine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: nitric oxide",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Nitric oxide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: BH4 spelled out",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "BH4 = tetrahydrobiopterin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Catecholamine section title",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Catecholamine synthesis/tyrosine catabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: homogentisic acid",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Homogentisic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: alkaptonuria label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Alkaptonuria Homogentisate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: homogentisate oxidase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "oxidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phenylalanine hydroxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Phenylalanine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: hydroxylase word",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "hydroxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: PKU label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Phenylketonuria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tyrosine hydroxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Tyrosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: albinism label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Albinism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: L-DOPA spelled",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Maleylacetoacetic acid (Dihydroxyphenylalanine)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: fumarate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Fumarate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: DOPA decarboxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "decarboxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: tyrosinase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Tyrosinase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: melanin (catechol figure)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Melanin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: carbidopa",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Carbidopa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: dopamine beta-hydroxylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "β-hydroxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: norepinephrine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Norepinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: COMT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Catechol-Omethyltransferase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: PNMT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Phenylethanolamine-N-",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cortisol",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Cortisol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: monoamine oxidase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Monoamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: epinephrine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Epinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: metanephrine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Metanephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: normetanephrine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Normetanephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: VMA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Vanillylmandelic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: HVA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Homovanillic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PKU mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "Pure true Love does not exist.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: TCA cycle endpoint",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          103
+        ],
+        "bookPages": "81"
+      },
+      "quote": "TCA cycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "amino-acid-derivatives-map",
+    "catecholamine-synthesis-map"
+  ],
+  "mechanismIds": [
+    "catecholamine-assembly-line",
+    "precursor-product-tolls"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (classification one-liners, VMA/HVA lab stems, carbidopa pharmacology stems, conditional-essentiality stems, plus the newborn-screen PKU mini-case with the tyrosine-essentiality discriminator)."
+    },
+    {
+      "id": "cofactor-toll-model",
+      "origin": "outside-first-aid",
+      "rationale": "Reading every derivative arrow as charging a cofactor toll (BH4 for aromatic hydroxylations, B6 for decarboxylations, vitamin C once, SAM for methylations) is a KYP-original scaffold over the source's two figures.",
+      "location": "core.keyIdea + mechanisms 'catecholamine-assembly-line' and 'precursor-product-tolls' + visual notice",
+      "summary": "The toll model that ties nutrition cofactors to neurotransmitter and pigment synthesis and organizes the three disease blocks."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-10"
+}

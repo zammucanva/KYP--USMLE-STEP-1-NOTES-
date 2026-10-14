@@ -1,0 +1,42 @@
+{
+  "topicId": "sorbitol-pathway",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "sorbitol-pathway-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          101
+        ],
+        "bookPages": "79"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Polyol pathway with tissue distribution",
+      "sourceFigureDescription": "The p. 79 sorbitol figure: Glucose → (Aldose reductase, NADPH) → Sorbitol → (Sorbitol dehydrogenase, NAD+) → Fructose, with the tissue notes (liver/ovaries/seminal vesicles both enzymes; lens primarily aldose reductase; LARKS).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Sorbitol Pathway",
+      "topicId": "sorbitol-pathway",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "polyol-pathway-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "sorbitol-pathway",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The p. 79 polyol figure redrawn (both enzymes with cofactors) plus the LARKS/both-enzymes tissue panels and the galactitol note."
+}

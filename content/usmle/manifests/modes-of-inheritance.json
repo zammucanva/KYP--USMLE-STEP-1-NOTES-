@@ -1,0 +1,587 @@
+{
+  "topicId": "modes-of-inheritance",
+  "title": "Modes of Inheritance",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Inheritance Patterns",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      79,
+      80,
+      82
+    ],
+    "bookPages": "57, 58, 60"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Autosomal dominant disorders are often due to defects in structural genes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Often due to defects in structural genes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AD affects many generations with both males and females affected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Many generations, both males and females are affected",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AD disorders are often pleiotropic and variably expressive",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Often pleiotropic (multiple apparently unrelated",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "With one affected (heterozygous) parent, each child has a 50% chance of being affected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "each child has a 50% chance of being",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Autosomal recessive disorders are often due to enzyme deficiencies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Often due to enzyme deficiencies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AR disorders are usually seen in only 1 generation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Usually seen in only 1 generation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AR risk is increased in consanguineous families",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "risk in consanguineous families",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "An unaffected individual with an affected sibling has a 2/3 probability of being a carrier",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "2/3 probability of being a carrier",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "With 2 carrier parents: 25% affected, 50% carrier, 25% not affected nor carrier",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "each child has a 25% chance of being affected",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sons of heterozygous mothers have a 50% chance of being affected (XLR)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Sons of heterozygous mothers have a 50%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "X-linked recessive: no male-to-male transmission",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "No male-to-male transmission.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "XLR is commonly more severe in males",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Commonly more severe in males",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Females usually must be homozygous to be affected (XLR)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "must be homozygous to be affected",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "XLD: 100% of daughters and 0% of sons of affected fathers will be affected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "100% of daughters and 0%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "XLD is transmitted through both parents",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Transmitted through both parents.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mitochondrial inheritance is transmitted only through the mother",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Transmitted only through the mother",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "All offspring of affected females may show signs of mitochondrial disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "All offspring of affected females may show signs of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mitochondrial expression varies due to heteroplasmy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "due to heteroplasmy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mitochondrial diseases are caused by mutations in mtDNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "Caused by mutations in mtDNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypophosphatemic rickets: phosphate wasting at the proximal tubule with ricketslike presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          79
+        ],
+        "bookPages": "57"
+      },
+      "quote": "hypophosphatemia)—phosphate wasting at proximal tubule",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AD disease list opens with achondroplasia and ADPKD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Achondroplasia, autosomal dominant polycystic kidney disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AD disease list includes hereditary spherocytosis and Huntington disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "hereditary spherocytosis, Huntington disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AD disease list closes with von Hippel-Lindau disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "von Hippel-Lindau disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AR diseases mostly consist of enzyme defects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Mostly consist of enzyme defects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sphingolipidoses are AR except Fabry disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "sphingolipidoses (except Fabry disease)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mucopolysaccharidoses are AR except Hunter syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "mucopolysaccharidoses (except Hunter syndrome)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AR list includes Friedreich ataxia, Kartagener syndrome, ARPKD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          80
+        ],
+        "bookPages": "58"
+      },
+      "quote": "Kartagener syndrome, ARPKD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mitochondrial diseases arise secondarily to failure in oxidative phosphorylation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "failure in oxidative phosphorylation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "High-energy tissues (CNS, skeletal muscle) are preferentially affected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "CNS, skeletal muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MELAS: strokelike episodes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "strokelike episodes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MERRF: myoclonic epilepsy with ragged red fibers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "myoclonic epilepsy with ragged red fibers",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ragged red fibers are due to compensatory proliferation of mitochondria",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "ragged red fibers due to compensatory proliferation of mitochondria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Electron microscopy shows mitochondrial crystalline inclusions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "mitochondrial crystalline inclusions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leber: mutations in complex I of the ETC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "complex I of ETC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leber: subacute bilateral vision loss in teens/young adults (males > females)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "subacute bilateral vision loss in teens/young adults (males > females)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rett is a sporadic de novo mutation of MECP2 on the X chromosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "de novo mutation of MECP2 on X chromosome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rett is embryonically lethal in males",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "Embryonically lethal in males",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rett: normal development 6-18 months then regression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "6-18 months",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rett: stereotypic hand-wringing",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "quote": "stereotypic hand-wringing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "inheritance-pedigrees"
+  ],
+  "mechanismIds": [
+    "pedigree-decision-tree",
+    "heteroplasmy-threshold"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (pedigree-mode stems, the three-question tree, the 2/3-vs-1/2 carrier trap, Leber mini-case with answer autopsy)."
+    },
+    {
+      "id": "pedigree-three-questions-layer",
+      "origin": "outside-first-aid",
+      "rationale": "The three-question reading order (male-to-male? affected father's children? mother-only?) is a KYP-original decision tree; First Aid prints the five rules side by side but not the reading algorithm.",
+      "location": "core.keyIdea + mechanism pedigree-decision-tree",
+      "summary": "The decision-tree sort of the five modes plus the two-absolute-father-rules frame ('no affected father ever passes XLR to a son; XLD father hits every daughter and no son')."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

@@ -1,0 +1,42 @@
+{
+  "topicId": "trinucleotide-repeat-diseases",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "trinucleotide-repeat-diseases-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          82
+        ],
+        "bookPages": "60"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Trinucleotide Repeat Expansion",
+      "topicId": "trinucleotide-repeat-diseases",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Trinucleotide repeat expansion table",
+      "sourceFigureDescription": "Four-row table (Huntington (CAG)n AD; myotonic dystrophy (CTG)n AD; fragile X (CGG)n XD; Friedreich ataxia (GAA)n AR) with the source mnemonics",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "anticipation-expansion-panel",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "trinucleotide-repeat-diseases",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The repeat table is a KYP adaptation preserving the source's four rows, modes, and mnemonics verbatim, extended with the anticipation ladder (severity up / onset down), the FMR1 methylation cascade, and the fragile X premutation (50-200) vs full mutation (>200) threshold rows. VLM scan of the source page confirmed no photographs or diagrams beyond this table (text-only page)."
+}

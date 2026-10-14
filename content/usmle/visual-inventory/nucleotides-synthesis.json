@@ -1,0 +1,65 @@
+{
+  "topicId": "nucleotides-synthesis",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "nucleotides-synthesis-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          55
+        ],
+        "bookPages": "33"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "topicId": "nucleotides-synthesis",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "Atom sources of purine and pyrimidine rings",
+      "sourceFigureDescription": "Purine (imidazole+pyrimidine fused) and pyrimidine ring diagrams with each atom labeled by precursor: glycine (C4/C5/N7), aspartate (N1), glutamine (N3/N9), CO2 (C6), N10-formyl-THF (C2/C8), carbamoyl phosphate (C2/N3 of pyrimidine) and aspartate (N1/C4/C5/C6 of pyrimidine)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "nucleotide-ring-atom-sources",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "nucleotides-synthesis-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          56
+        ],
+        "bookPages": "34"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "topicId": "nucleotides-synthesis",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "De novo synthesis and salvage pathway map with drug sites",
+      "sourceFigureDescription": "Flow map of pyrimidine synthesis (CPS2 → carbamoyl aspartate → orotic acid → UMP) and purine synthesis (PRPP → IMP branch), with salvage routes and inhibitor sites (hydroxyurea, 5-FU, methotrexate, mycophenolate, leflunomide)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "nucleotide-de-novo-salvage-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "nucleotides-synthesis",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraws preserve the source figures' educational content (atom-to-precursor mapping with color coding; pathway topology with every inhibitor at its exact step) without copying First Aid artwork. Atom assignments verified against the rendered source page (VLM): purine — Gly C4/C5/N7, Asp N1, Gln N3/N9, CO2 C6, THF C2/C8; pyrimidine — carbamoyl phosphate C2/N3, Asp N1/C4/C5/C6."
+}

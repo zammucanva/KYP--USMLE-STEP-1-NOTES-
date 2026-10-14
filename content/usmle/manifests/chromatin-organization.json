@@ -1,0 +1,254 @@
+{
+  "topicId": "chromatin-organization",
+  "title": "Chromatin Organization",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Chromatin & Epigenetic Regulation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      54
+    ],
+    "bookPages": "32"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "DNA loops twice around a histone octamer to form a nucleosome ('beads on a string')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "DNA loops twice around a",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "H1 binds to the nucleosome and to linker DNA, stabilizing the chromatin fiber",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "and to “linker DNA,” thereby stabilizing the",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histones carry a positive charge from lysine and arginine; DNA is negative from phosphate groups",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Histones are large and have ⊕ charge from",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA and histone synthesis occurs during S phase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "DNA and histone synthesis occurs during S",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mitochondrial DNA is circular and does not bind histones",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Mitochondria have their own DNA, which is",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heterochromatin is condensed, appears darker on EM, sterically inaccessible, transcriptionally inactive (↑ methylation, ↓ acetylation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Condensed, appears darker on EM (labeled H",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Euchromatin is less condensed, appears lighter on EM, transcriptionally active",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Less condensed, appears lighter on EM (labeled",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Barr bodies (inactive X chromosomes) may be visible on the periphery of the nucleus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Barr bodies (inactive X chromosomes) may be",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA methylation reversibly changes expression without changing sequence; methylation within gene promoter (CpG islands) typically represses transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Methylation within gene promoter (CpG islands)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dysregulated DNA methylation is implicated in fragile X syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Dysregulated DNA methylation is implicated in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histone acetylation removes the histone's positive charge, relaxing DNA coiling and increasing transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Removal of histone’s ⊕ charge",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thyroid hormone synthesis is altered by acetylation of the thyroid hormone receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Thyroid hormone synthesis is altered by",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histone deacetylation may be responsible for altered gene expression in Huntington disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Histone deacetylation may be responsible for",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histone methylation usually causes reversible transcriptional suppression, but can activate depending on methyl-group location",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          54
+        ],
+        "bookPages": "32"
+      },
+      "quote": "Usually causes reversible transcriptional",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "chromatin-packing-hierarchy",
+    "heterochromatin-euchromatin-em"
+  ],
+  "mechanismIds": [
+    "acetylation-switch",
+    "methylation-silencing"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid page — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-07"
+}

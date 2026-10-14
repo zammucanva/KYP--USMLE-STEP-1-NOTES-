@@ -1,0 +1,222 @@
+{
+  "topicId": "lac-operon",
+  "title": "The Lac Operon",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Prokaryotic Gene Regulation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      61
+    ],
+    "bookPages": "39"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The lac operon is the classic example of a genetic response to an environmental change",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Classic example of a genetic response to an environmental change.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucose is the preferred metabolic substrate in E coli; the operon switches to lactose metabolism when glucose is absent and lactose is available",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Glucose is the preferred metabolic substrate in E coli",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Low glucose → ↑ adenylate cyclase → ↑ generation of cAMP from ATP → activation of CAP → ↑ transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "generation of cAMP from ATP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CAP-cAMP binds the CAP site and induces transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "activation of catabolite activator protein (CAP)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "High lactose → unbinds repressor protein from repressor/operator site → ↑ transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "unbinds repressor protein from repressor/operator site",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CAP site bound: 'Binds CAP site, induces transcription' (figure label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Binds CAP site, induces transcription",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Allolactose is the inducer that inactivates the repressor (figure label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Allolactose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Four-state table: low glucose + lactose available → lac genes strongly expressed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Lac genes strongly expressed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Four-state table: repressor-bound states → lac genes not expressed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Lac genes not expressed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Four-state table: high glucose + lactose available → very low (basal) expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Very low (basal) expression",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Operon anatomy strip: lacI, CAP site, promoter, operator, lacZ, lacY, lacA (figure labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Inactivated repressor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "lac-operon-states"
+  ],
+  "mechanismIds": [
+    "cap-camp-cascade",
+    "allolactose-repressor-switch",
+    "four-state-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "operon-mutation-layer",
+      "summary": "The mutation/complementation layer (lacI loss vs operator mutation both giving constitutive expression; cis-acting operator vs trans-acting lacI; promoter vs CAP-site loss consequences) and the basal-permease sampling logic.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid presents the wild-type anatomy and the four states; the exam's most common lac-operon question form is mutation prediction, which requires this extension layer built on the same figure.",
+      "location": "blocks: table 'Anatomy of the operon — every element, one line' (mutation column); usmle.miniCase; mechanism allolactose-repressor-switch node trigger"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

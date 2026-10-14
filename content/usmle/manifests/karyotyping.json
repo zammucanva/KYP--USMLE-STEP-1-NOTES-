@@ -1,0 +1,261 @@
+{
+  "topicId": "karyotyping",
+  "title": "Karyotyping",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Laboratory Techniques — Cytogenetics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      75
+    ],
+    "bookPages": "53"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Colchicine is added to cultured cells to disrupt the assembly of mitotic spindles and arrest cells at metaphase of mitosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Colchicine is added to cultured cells to disrupt the assembly of mitotic spindles and arrest cells at metaphase of mitosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chromosomes are stained with Giemsa, ordered, and numbered according to morphology, size, arm-length ratio, and banding pattern",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Chromosomes are stained with Giemsa, ordered, and numbered according to morphology, size, arm-length ratio, and banding pattern",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The arrows in the source image point to extensive abnormalities in a cancer cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "extensive abnormalities in a cancer cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Karyotyping can be performed on blood, bone marrow, amniotic fluid, or placental tissue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Can be performed on a sample of blood, bone marrow, amniotic fluid, or placental tissue",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Karyotyping is used to diagnose chromosomal imbalances (eg, autosomal trisomies, sex chromosome disorders)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Used to diagnose chromosomal imbalances (eg, autosomal trisomies, sex chromosome disorders)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Spectral karyotyping: chromosomes are painted by hybridization with fluorescent probes that distinguish each chromosome from the others",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "by hybridization with fluorescent probes that distinguish each chromosome from the others",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SKY is used to identify aneuploidies and translocations in a karyotype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Used to identify aneuploidies and translocations in a karyotype",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Translocation: one chromosome breaks and its piece(s) attach to (an)other chromosome(s)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "one chromosome breaks and its piece(s) attach to (an)other chromosome(s)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source shows the fluorescence signal of an unbalanced translocation between chromosomes 17 and 19",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "unbalanced translocation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Duplication: a second copy of a chromosome, resulting in a trisomy or tetrasomy (eg, chromosome 8 in the source)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "a second copy of a chromosome, resulting in a trisomy or tetrasomy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microdeletion: lack of fluorescence at a specific locus compared to the corresponding locus on the second copy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "lack of fluorescence at a specific locus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FISH: a fluorescent DNA or RNA probe binds to specific genes or other sites of interest on chromosomes; used for specific localization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "fluorescent DNA or RNA probe binds to specific genes or other sites of interest on chromosomes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Molecular cloning: production of a recombinant DNA molecule in a bacterial or eukaryotic cell line host",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Production of a recombinant DNA molecule in a bacterial or eukaryotic cell line host",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Molecular cloning is useful for production of human proteins by bacteria (eg, human growth hormone, insulin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "quote": "Useful for production of human proteins by bacteria (eg, human growth hormone, insulin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "g-banded-karyotype-schematic",
+    "sky-karyotype-schematic"
+  ],
+  "mechanismIds": [
+    "metaphase-arrest-to-karyogram",
+    "sky-paint-readout"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (metaphase-arrest patterns, nomenclature reading, paint-dictionary traps, amniocentesis mini-case with answer autopsy) built on the cited First Aid page."
+    },
+    {
+      "id": "zoom-levels-layer",
+      "origin": "outside-first-aid",
+      "summary": "The three-zoom-levels framing of cytogenetics (karyotype = whole genome in bands; SKY = whole genome in color; FISH = one named locus) and the paint-dictionary conditionals (two colors = translocation; extra copy = duplication; missing stretch = microdeletion).",
+      "rationale": "First Aid defines the techniques sequentially; organizing them as zoom levels with IF-THEN paint rules is KYP pedagogy.",
+      "location": "core.keyIdea; blocks: table 'The three zoom levels of cytogenetics'; usmle.pivots"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

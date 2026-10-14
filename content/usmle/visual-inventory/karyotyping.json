@@ -1,0 +1,65 @@
+{
+  "topicId": "karyotyping",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "karyotyping-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Cytogenetics",
+      "topicId": "karyotyping",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "G-banded karyogram with abnormality arrows",
+      "sourceFigureDescription": "Metaphase chromosome spread arranged in homologous pairs, Giemsa banding pattern, red arrows marking a structural abnormality",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "g-banded-karyotype-schematic",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "karyotyping-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          75
+        ],
+        "bookPages": "53"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Cytogenetics",
+      "topicId": "karyotyping",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "Spectral karyotyping (SKY) chromosome paint",
+      "sourceFigureDescription": "Each chromosome painted a distinct color by chromosome-specific probes — translocations appear as two-tone chromosomes",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "sky-karyotype-schematic",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "karyotyping",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The G-banded karyogram is an original KYP schematic redraw (stylized banded homologous pairs 1–22 + X/Y with red abnormality arrows, matching the source's cancer-cell annotation) — the diagnostic identity (banded-pair layout with abnormality arrows) is preserved without reproducing the photomicrograph. The SKY visual is a KYP adaptation preserving the source's painted-pair concept and its three named readouts (the 17;19 unbalanced translocation as a two-color chromosome, the chromosome-8 duplication as an extra same-color copy, and the microdeletion as a missing fluorescent stretch on one homolog)."
+}

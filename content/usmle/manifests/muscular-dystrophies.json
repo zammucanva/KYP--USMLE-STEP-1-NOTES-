@@ -1,0 +1,495 @@
+{
+  "topicId": "muscular-dystrophies",
+  "title": "Muscular Dystrophies",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Muscular Dystrophies",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      81
+    ],
+    "bookPages": "59"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "X-linked recessive disease list includes Bruton agammaglobulinemia and the dystrophinopathies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Bruton agammaglobulinemia, Duchenne and Becker muscular dystrophies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "X-linked recessive list includes Lesch-Nyhan syndrome and ocular albinism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Lesch-Nyhan syndrome, ocular albinism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "X-linked recessive list includes Wiskott-Aldrich syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Wiskott-Aldrich syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Turner syndrome (45,XO) females are more likely to have an X-linked recessive disorder",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Females with Turner syndrome (45,XO) are more likely to have an X-linked recessive disorder",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lyonization: one X in each XX cell is randomly deactivated and condensed into a Barr body",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "randomly deactivated and condensed into a Barr body",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Barr body is methylated heterochromatin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "methylated heterochromatin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Skewed inactivation lets XX individuals express X-linked recessive diseases (eg, G6PD)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "If skewed inactivation occurs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Duchenne is typically due to frameshift deletions or nonsense mutations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "frameshift deletions or nonsense mutations",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The result is a truncated or absent dystrophin protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "truncated or absent dystrophin protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Weakness begins in the pelvic girdle muscles and progresses superiorly",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Weakness begins in pelvic girdle muscles and",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pseudohypertrophy of calf muscles is due to fibrofatty replacement of muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "fibrofatty replacement of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Duchenne features a waddling gait",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Waddling gait",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Onset is before 5 years of age",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Onset before 5 years of age",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dilated cardiomyopathy is a common cause of death",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "cardiomyopathy is common cause of death",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gowers sign: the patient uses the upper extremities to help stand up",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "uses upper extremities to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gowers is classically Duchenne but also seen in other dystrophies and inflammatory myopathies (eg, polymyositis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "myopathies (eg, polymyositis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Duchenne = deleted dystrophin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Duchenne = deleted dystrophin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DMD is the largest protein-coding human gene, increasing the chance of spontaneous mutation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Dystrophin gene (DMD) is the largest",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dystrophin helps anchor muscle fibers to the extracellular matrix",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "anchor muscle fibers to the extracellular",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Loss of dystrophin causes myonecrosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Loss of dystrophin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CK and aldolase are elevated; genetic testing confirms the diagnosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "CK and aldolase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Becker is typically due to non-frameshift deletions producing partially functional dystrophin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "non-frameshift deletions in dystrophin gene",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Becker is less severe than Duchenne (Becker is Better)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Becker is better",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Becker onset is in adolescence or early adulthood",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Onset in adolescence or early adulthood",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "2⁄3 of cases have large deletions spanning one or more exons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "2⁄3 of cases have",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Deletions can cause both Duchenne and Becker muscular dystrophies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "large deletions spanning one or more exons",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic dystrophy: CTG repeat expansion in the DMPK gene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "trinucleotide repeat expansion in the DMPK",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic dystrophy causes abnormal expression of myotonin protein kinase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "myotonin protein kinase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Percussion myotonia: difficulty releasing hand from handshake",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "difficulty releasing hand from handshake",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic findings include cataracts, testicular atrophy, frontal balding, arrhythmia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "testicular atrophy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic mnemonic: Cataracts, Toupee, Gonadal atrophy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "Cataracts, Toupee (early balding in males)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myotonic biopsy shows ring fibers and central nuclei",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "quote": "fibers and central nuclei",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "gowers-sequence",
+    "dmd-histology-pattern"
+  ],
+  "mechanismIds": [
+    "dystrophin-frameshift-logic",
+    "gowers-proximal-ascension"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (Gowers vignette, Becker-later-onset stem, myotonic handshake stem, female-XLR lyonization stem, Duchenne mini-case with answer autopsy)."
+    },
+    {
+      "id": "reading-frame-layer",
+      "origin": "outside-first-aid",
+      "rationale": "The 'the reading frame decides, not the deletion size' frame is a KYP-original organization of the source's frameshift/non-frameshift contrast.",
+      "location": "core.keyIdea + mechanism dystrophin-frameshift-logic",
+      "summary": "The frameshift-vs-in-frame sort (truncated/absent vs partially functional dystrophin), the largest-gene mutational-surface explanation, and the bottom-up pelvic-girdle ascent reading of Gowers."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

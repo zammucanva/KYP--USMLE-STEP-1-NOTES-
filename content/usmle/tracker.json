@@ -1,0 +1,1277 @@
+{
+  "schemaVersion": "1",
+  "generatedAt": "2026-10-13T20:10:26Z",
+  "sourceBook": "First Aid for the USMLE Step 1 2026",
+  "book": {
+    "parts": [
+      {
+        "part": 1,
+        "file": "upload/usmle part1.pdf",
+        "pdfPages": 433,
+        "bookPageOffset": -22
+      },
+      {
+        "part": 2,
+        "file": "upload/usmle part 2.pdf",
+        "pdfPages": 436,
+        "bookPageOffset": 408
+      }
+    ],
+    "chapterMap": [
+      {
+        "chapterId": "biochemistry",
+        "chapterTitle": "Biochemistry",
+        "number": 1,
+        "slug": "01-Biochem",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 49,
+            "to": 114
+          }
+        ]
+      },
+      {
+        "chapterId": "immunology",
+        "chapterTitle": "Immunology",
+        "number": 2,
+        "slug": "02-Immunology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 115,
+            "to": 142
+          }
+        ]
+      },
+      {
+        "chapterId": "microbiology",
+        "chapterTitle": "Microbiology",
+        "number": 3,
+        "slug": "03-Microbiology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 143,
+            "to": 222
+          }
+        ]
+      },
+      {
+        "chapterId": "pathology",
+        "chapterTitle": "Pathology",
+        "number": 4,
+        "slug": "04-Pathol",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 223,
+            "to": 248
+          }
+        ]
+      },
+      {
+        "chapterId": "pharmacology",
+        "chapterTitle": "Pharmacology",
+        "number": 5,
+        "slug": "05-Pharmacology",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 249,
+            "to": 276
+          }
+        ]
+      },
+      {
+        "chapterId": "public-health",
+        "chapterTitle": "Public Health",
+        "number": 6,
+        "slug": "06-PubHealth",
+        "section": "II",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 277,
+            "to": 300
+          }
+        ]
+      },
+      {
+        "chapterId": "cardiovascular",
+        "chapterTitle": "Cardiovascular",
+        "number": 7,
+        "slug": "07-Cardio",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 301,
+            "to": 350
+          }
+        ]
+      },
+      {
+        "chapterId": "endocrine",
+        "chapterTitle": "Endocrine",
+        "number": 8,
+        "slug": "08-Endocrine",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 351,
+            "to": 384
+          }
+        ]
+      },
+      {
+        "chapterId": "gastrointestinal",
+        "chapterTitle": "Gastrointestinal",
+        "number": 9,
+        "slug": "09-Gastrointestinal",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 385,
+            "to": 430
+          }
+        ]
+      },
+      {
+        "chapterId": "hematology-oncology",
+        "chapterTitle": "Hematology & Oncology",
+        "number": 10,
+        "slug": "10-HemaOncol",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 1,
+            "from": 431,
+            "to": 433
+          },
+          {
+            "part": 2,
+            "from": 4,
+            "to": 40
+          }
+        ]
+      },
+      {
+        "chapterId": "musculoskeletal",
+        "chapterTitle": "Musculoskeletal & Connective Tissue",
+        "number": 11,
+        "slug": "11-Musculo",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 41,
+            "to": 90
+          }
+        ]
+      },
+      {
+        "chapterId": "neurology",
+        "chapterTitle": "Neurology & Special Senses",
+        "number": 12,
+        "slug": "12-Neurol",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 91,
+            "to": 160
+          }
+        ]
+      },
+      {
+        "chapterId": "psychiatry",
+        "chapterTitle": "Psychiatry",
+        "number": 13,
+        "slug": "13-Psych",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 161,
+            "to": 186
+          }
+        ]
+      },
+      {
+        "chapterId": "renal",
+        "chapterTitle": "Renal",
+        "number": 14,
+        "slug": "14-Renal",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 187,
+            "to": 220
+          }
+        ]
+      },
+      {
+        "chapterId": "reproductive",
+        "chapterTitle": "Reproductive",
+        "number": 15,
+        "slug": "15-Repro",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 221,
+            "to": 268
+          }
+        ]
+      },
+      {
+        "chapterId": "respiratory",
+        "chapterTitle": "Respiratory",
+        "number": 16,
+        "slug": "16-Respiratory",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 269,
+            "to": 298
+          }
+        ]
+      },
+      {
+        "chapterId": "rapid-review",
+        "chapterTitle": "Rapid Review (Pathophysiology of Important Diseases)",
+        "number": 17,
+        "slug": "Rapid Review",
+        "section": "III",
+        "pdfRanges": [
+          {
+            "part": 2,
+            "from": 299,
+            "to": 338
+          }
+        ]
+      }
+    ]
+  },
+  "estimatedTotalTopics": 3029,
+  "counts": {
+    "chaptersRegistered": 7,
+    "chaptersExtracted": 1,
+    "topicsProduced": 61,
+    "topicsByStatus": {
+      "planned": 0,
+      "inventory": 0,
+      "in-production": 0,
+      "pilot-complete": 10,
+      "chapter-complete": 51,
+      "blocked": 0,
+      "failed": 0
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "biochemistry",
+      "chapterTitle": "Biochemistry",
+      "part": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 55,
+      "topicsProduced": 52,
+      "topicsRemaining": 3,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "immunology",
+      "chapterTitle": "Immunology",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "pharmacology",
+      "chapterTitle": "Pharmacology",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "cardiovascular",
+      "chapterTitle": "Cardiovascular",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "endocrine",
+      "chapterTitle": "Endocrine",
+      "part": 1,
+      "extractionStatus": "registered",
+      "topicsRegistered": 1,
+      "topicsProduced": 1,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "neurology",
+      "chapterTitle": "Neurology & Special Senses",
+      "part": 2,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    },
+    {
+      "chapterId": "renal",
+      "chapterTitle": "Renal",
+      "part": 2,
+      "extractionStatus": "registered",
+      "topicsRegistered": 2,
+      "topicsProduced": 2,
+      "topicsRemaining": null,
+      "qaStatus": "pass",
+      "completedAt": null
+    }
+  ],
+  "topics": [
+    {
+      "topicId": "acid-base-physiology",
+      "title": "Acid-Base Physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 196, 200, 201, 202, 203, 219 (book 604, 608–611, 627)",
+      "visualCount": 2,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "amino-acids",
+      "title": "Amino Acids & Their Derivatives",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Amino Acids",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 101, 103 (book 79, 81)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "aminoacidopathies",
+      "title": "Amino Acidopathies",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Amino Acidopathies",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 104, 105 (book 82–83)",
+      "visualCount": 4,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "atherosclerosis",
+      "title": "Atherosclerosis",
+      "chapterId": "cardiovascular",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 324, 325, 326 (book 302–304)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "autosomal-trisomies",
+      "title": "Autosomal Trisomies & Prenatal Screening",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Aneuploidy & Screening",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 83 (book 61)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "av-conduction-blocks",
+      "title": "AV Conduction Blocks",
+      "chapterId": "cardiovascular",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 333, 334, 335, 349 (book 311–313, 327)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "b-vitamins-1",
+      "title": "Vitamins B1, B2, B3 & B5",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Water-Soluble Vitamins (B1–B5)",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 86, 87 (book 64–65)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "b-vitamins-2",
+      "title": "Vitamins B6, B7, B9 & B12",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Water-Soluble Vitamins (B6–B12)",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 88, 89 (book 66–67)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "blotting-procedures",
+      "title": "Blotting Procedures",
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Blotting",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 73 (book 51)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "cell-cycle",
+      "title": "Cell Cycle & Checkpoints",
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cell Cycle & Checkpoints",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 66 (book 44)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "chromatin-organization",
+      "title": "Chromatin Organization",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Chromatin & Epigenetic Regulation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 54 (book 32)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "chromosomal-disorders",
+      "title": "Structural Chromosomal Disorders",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Structural Chromosomal Disorders",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 84, 85 (book 62–63)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "collagen-elastin",
+      "title": "Collagen & Elastin",
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Extracellular Matrix Proteins",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 70, 72 (book 48, 50)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "connective-tissue-diseases",
+      "title": "Connective Tissue Diseases (OI, EDS, Menkes, Marfan, Homocystinuria, Williams)",
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Connective Tissue Diseases",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 71, 72, 85 (book 49–50, 63)",
+      "visualCount": 4,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "cranial-nerves",
+      "title": "Cranial Nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 108, 109, 110, 111, 112, 147, 148, 149, 150 (book 516–520, 555–558)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "cystic-fibrosis",
+      "title": "Cystic Fibrosis Genetics",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Cystic Fibrosis",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 80 (book 58)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "cytoskeleton-cilia",
+      "title": "Cytoskeleton, Microtubules & Cilia",
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 68, 69 (book 46–47)",
+      "visualCount": 4,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "diabetes-mellitus",
+      "title": "Diabetes Mellitus",
+      "chapterId": "endocrine",
+      "subsection": "Endocrine — Diabetes Mellitus: Pathology & Pharmacology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 101, 371, 372, 373, 374, 380, 381 (book 79, 349–352, 358–359)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "dna-mutations",
+      "title": "Mutations in DNA",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — DNA Mutations",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 60 (book 38)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "dna-repair",
+      "title": "DNA Repair Pathways",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — DNA Repair",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 59 (book 37)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "dna-replication",
+      "title": "DNA Replication",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — DNA Replication",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 58 (book 36)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "enzyme-terminology",
+      "title": "Enzyme Terminology & Kinetics Concepts",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Enzyme Fundamentals",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 93 (book 71)",
+      "visualCount": 0,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "ethanol-metabolism",
+      "title": "Ethanol Metabolism",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Ethanol Metabolism",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 92 (book 70)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "eukaryotic-gene-organization",
+      "title": "Eukaryotic Gene Organization & Regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Eukaryotic Gene Regulation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 61, 62 (book 39–40)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "fatty-acid-metabolism",
+      "title": "Fatty Acid Metabolism",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Fatty Acid Metabolism",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 109 (book 87)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "flow-cytometry-elisa",
+      "title": "Flow Cytometry & ELISA",
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 74 (book 52)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "fructose-galactose-disorders",
+      "title": "Disorders of Fructose & Galactose Metabolism",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Disorders of Fructose and Galactose Metabolism",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 100, 101 (book 78–79)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "gene-expression-modifications",
+      "title": "Gene Expression Modifications",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Epigenetic Modifications",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 76 (book 54)",
+      "visualCount": 0,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "genetic-terms-popgen",
+      "title": "Genetic Terminology & Population Genetics",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Terminology & Population Genetics",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 76, 77, 78 (book 54–56)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "gluconeogenesis",
+      "title": "Gluconeogenesis",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Gluconeogenesis",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 98 (book 76)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "glycogen-metabolism",
+      "title": "Glycogen Metabolism & Storage Diseases",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 106, 107 (book 84–85)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "glycolysis-regulation",
+      "title": "Glycolysis Regulation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Glycolysis & Pyruvate Metabolism",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 93, 94, 95, 96, 97, 106 (book 71–75, 84)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "hypersensitivity-types",
+      "title": "Hypersensitivity Types",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 131, 132, 133, 134 (book 109–112)",
+      "visualCount": 1,
+      "mechanismCount": 4,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "imprinting-disorders",
+      "title": "Disorders of Imprinting",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Imprinting Disorders",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 78 (book 56)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "karyotyping",
+      "title": "Karyotyping",
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Cytogenetics",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 75 (book 53)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "ketone-bodies",
+      "title": "Ketone Bodies & Fed/Fasted States",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Ketone Bodies & Fed/Fasted States",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 110 (book 88)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "lac-operon",
+      "title": "The Lac Operon",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Prokaryotic Gene Regulation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 61 (book 39)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "lysosomal-storage-diseases",
+      "title": "Lysosomal Storage Diseases",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Lysosomal Storage Diseases",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 108 (book 86)",
+      "visualCount": 5,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "metabolism-overview",
+      "title": "Metabolism Overview & Compartmentation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Overview & Compartmentation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 94, 95 (book 72–73)",
+      "visualCount": 2,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "modes-of-inheritance",
+      "title": "Modes of Inheritance",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Inheritance Patterns",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 79, 80, 82 (book 57, 58, 60)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "muscular-dystrophies",
+      "title": "Muscular Dystrophies",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Muscular Dystrophies",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 81 (book 59)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "nucleotides-synthesis",
+      "title": "Nucleotide Synthesis & Metabolism",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 55, 56 (book 33–34)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Fundamentals",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 85 (book 63)",
+      "visualCount": 0,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "organelles-cell-trafficking",
+      "title": "Organelles & Cell Trafficking",
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Organelles & Trafficking",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 67, 68 (book 45–46)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "oxidative-phosphorylation",
+      "title": "Electron Transport Chain & Oxidative Phosphorylation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Oxidative Phosphorylation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 98 (book 76)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "pcr-crispr",
+      "title": "PCR & CRISPR/Cas9",
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Nucleic Acid Amplification & Editing",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 72, 73 (book 50–51)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "pentose-phosphate-pathway",
+      "title": "Pentose Phosphate Pathway",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Pentose Phosphate Pathway",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 99 (book 77)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "purine-salvage-disorders",
+      "title": "Purine Salvage Disorders",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 57 (book 35)",
+      "visualCount": 1,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "rna-processing",
+      "title": "RNA Processing & Splicing",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — RNA Processing",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 62, 63 (book 40–41)",
+      "visualCount": 3,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "sorbitol-pathway",
+      "title": "Sorbitol Pathway (Polyol Route)",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Sorbitol Pathway",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 101 (book 79)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "stroke-syndromes",
+      "title": "Stroke Syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 105, 117, 118, 119, 120, 121, 122, 306, 307, 308 (book 513, 525–530, 714–716)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "sympathomimetics",
+      "title": "Sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 262, 263, 264, 265 (book 240–243)",
+      "visualCount": 2,
+      "mechanismCount": 3,
+      "kypExtensionCount": 1,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "tca-cycle-pdh",
+      "title": "TCA Cycle & Pyruvate Dehydrogenase",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 96, 97 (book 74–75)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "translation-protein-synthesis",
+      "title": "Translation & Protein Processing",
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Translation & Protein Processing",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 57, 64, 65 (book 35, 42–43)",
+      "visualCount": 2,
+      "mechanismCount": 3,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "trinucleotide-repeat-diseases",
+      "title": "Trinucleotide Repeat Expansion Diseases",
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Trinucleotide Repeat Expansion",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 82 (book 60)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "urea-cycle-disorders",
+      "title": "Urea Cycle Disorders & Hyperammonemia",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Urea Cycle",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 102, 103 (book 80–81)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "urinary-casts",
+      "title": "Urinary Casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 2 pdf 204, 205, 206, 211, 212, 213 (book 612–614, 619–621)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "vitamin-a",
+      "title": "Vitamin A",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 86 (book 64)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "vitamin-c-zinc-pem",
+      "title": "Vitamin C, Zinc & Protein-Energy Malnutrition",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Vitamin C, Zinc & Malnutrition",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 89, 91 (book 67, 69)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "vitamin-d",
+      "title": "Vitamin D",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 90 (book 68)",
+      "visualCount": 2,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "vitamins-e-k",
+      "title": "Vitamins E & K",
+      "chapterId": "biochemistry",
+      "subsection": "Nutrition — Fat-Soluble Vitamins",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 90, 91 (book 68–69)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-10"
+    }
+  ]
+}

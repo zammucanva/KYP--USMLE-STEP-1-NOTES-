@@ -1,0 +1,407 @@
+{
+  "topicId": "rna-processing",
+  "title": "RNA Processing & Splicing",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — RNA Processing",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      62,
+      63
+    ],
+    "bookPages": "40–41"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The initial transcript is heterogeneous nuclear RNA (hnRNA), modified to become mRNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Initial transcript is called heterogeneous nuclear RNA (hnRNA).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Capping of 5′ end: addition of 7-methylguanosine cap; cotranscriptional",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Capping of 5′ end (addition of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Polyadenylation of 3′ end (~200 A's → poly-A tail; posttranscriptional)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Polyadenylation of 3′ end",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Splicing out of introns is posttranscriptional; capped, tailed, spliced transcript is called mRNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Capped, tailed, and spliced transcript is called mRNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mRNA is transported out of the nucleus to be translated in the cytosol",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "mRNA is transported out of nucleus to be",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mRNA quality control occurs at cytoplasmic P-bodies (exonucleases, decapping enzymes, microRNAs; degrade or store)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "mRNA quality control occurs at cytoplasmic processing bodies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Poly-A polymerase does not require a template; AAUAAA is the polyadenylation signal",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Poly-A polymerase does not require a template.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mutation in the polyadenylation signal → early degradation prior to translation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "early degradation prior to translation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Kozak sequence is the initiation site in most eukaryotic mRNA; its mutation impairs initiation of translation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Kozak sequence—initiation site in most eukaryotic mRNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA polymerase I makes rRNA (rampant), present only in the nucleolus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "RNA polymerase I makes rRNA, the most common (rampant) type; present only in nucleolus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA polymerase II makes mRNA (massive), microRNA, and small nuclear RNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "RNA polymerase II makes mRNA (massive), microRNA (miRNA), and small nuclear RNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA polymerase III makes 5S rRNA and tRNA (tiny)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "RNA polymerase III makes 5S rRNA, tRNA (tiny).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA polymerases have no proofreading function but can initiate chains",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "No proofreading function, but can initiate chains.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "I, II, III are numbered in the order their products are used in protein synthesis: rRNA, mRNA, then tRNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "numbered in the same order that their products are used in protein synthesis: rRNA, mRNA, then tRNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "α-Amanitin (Amanita phalloides, death cap mushrooms) inhibits RNA polymerase II; causes dysentery and severe hepatotoxicity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "inhibits RNA polymerase II.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dactinomycin inhibits RNA polymerase in both prokaryotes and eukaryotes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Dactinomycin inhibits RNA polymerase in both prokaryotes and eukaryotes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prokaryotes have 1 RNA polymerase (multisubunit) making all 3 kinds of RNA; rifamycins inhibit it",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "RNA polymerase in prokaryotes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Introns are intervening sequences that stay in the nucleus; exons exit and are expressed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "Introns are intervening sequences and stay in the nucleus, whereas exons exit and are expressed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alternative splicing produces a variety of protein products from a single hnRNA sequence (Ig, tropomyosin, dopamine receptors, tumor evasion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "can produce a variety of protein products from a single hnRNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Introns typically begin with GU and end with AG",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "Introns typically begin with GU and end with AG.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Spliceosome: snRNPs are snRNA bound to proteins (eg, Smith [Sm]); cleave pre-mRNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "snRNA bound to proteins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "In SMA, snRNP assembly is affected due to ↓ SMN protein → anterior horn degeneration → floppy baby (hypotonia)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "congenital degeneration of anterior horns of spinal cord",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-U1 snRNP antibodies are associated with SLE, mixed connective tissue disease, other rheumatic diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "Anti-U1 snRNP antibodies are associated with SLE, mixed connective tissue disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cleavage at 5′ splice site generates a lariat-shaped (loop) intermediate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "lariatshaped (loop) intermediate is generated.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cleavage at 3′ splice site releases the lariat, precisely removing the intron and joining 2 exons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          63
+        ],
+        "bookPages": "41"
+      },
+      "quote": "lariat is released to precisely remove intron and join 2 exons.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "mrna-maturation-anatomy",
+    "alternative-splicing-paths",
+    "spliceosome-lariat"
+  ],
+  "mechanismIds": [
+    "hnrna-to-mrna-maturation",
+    "spliceosome-lariat-cycle",
+    "rna-polymerase-portfolio"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "amanitin-clinical-detail",
+      "summary": "Clinical adjuncts beyond the source line: the delayed 6–24-hour symptom timeline of amatoxin poisoning, the anti-U1-70k/MCTD (Sharp syndrome) antibody detail, and supportive management notes.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid states the enzyme and the two toxicities; the timeline and antibody nuance are what the clinical vignette layer needs to discriminate reliably.",
+      "location": "clinical text 'Death cap poisoning — α-amanitin'; clinical text 'Rheumatology crosses back'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

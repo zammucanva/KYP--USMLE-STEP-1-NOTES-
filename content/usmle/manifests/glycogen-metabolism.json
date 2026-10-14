@@ -1,0 +1,1133 @@
+{
+  "topicId": "glycogen-metabolism",
+  "title": "Glycogen Metabolism & Storage Diseases",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      106,
+      107
+    ],
+    "bookPages": "84–85"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen regulation by insulin and glucagon/epinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucagon tissue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucagon\n(liver)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: epinephrine liver and muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Epinephrine\n(liver and muscle)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: epinephrine liver",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Epinephrine\n(liver)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: insulin tissue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Insulin\n(liver and muscle)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: insulin receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Tyrosine\nkinase\ndimer\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucagon receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucagon\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ER node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Endoplasmic\nreticulum",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: CaM node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Calcium-calmodulin\nin muscle during\ncontraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cAMP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "cAMP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ATP substrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "ATP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: calcium",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Calcium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: PKA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Protein kinase A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: phosphorylase kinase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen\nphosphorylase kinase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycogen synthase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen\nsynthase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycogen phosphorylase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen\nphosphorylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: protein phosphatase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Protein phosphatase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucose endpoint",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycogen node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bond types",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Branches have α-(1,6) bonds; linear linkages have α-(1,4) bonds.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Skeletal muscle job",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Skeletal muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Muscle glycogenolysis chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen undergoes glycogenolysis → glucose-1-phosphate → glucose-6-phosphate, which is\nrapidly metabolized during exercise.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hepatocyte job",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Hepatocytes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Liver glycogenolysis purpose",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen is stored and undergoes glycogenolysis to maintain blood sugar at appropriate levels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phosphorylase stop rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen phosphorylase\nliberates glucose-1-phosphate residues off branched glycogen until 4\nglucose units remain on a branch.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transferase step",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Then 4-α-D-glucanotransferase (debranching enzyme ) moves\n3 of the 4 glucose units from the branch to the linear linkage.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucosidase step",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Then α-1,6-glucosidase (debranching\nenzyme ) cleaves off the last residue, liberating a free glucose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Limit dextrin definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Limit dextrin—2-4 residues remaining on a branch after glycogen phosphorylase has shortened it.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lysosomal note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Note: A small amount of glycogen is degraded in lysosomes by 8 α-1,4-glucosidase (acid maltase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: disease list header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen storage disease type",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Von Gierke list entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "I Von Gierke disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Pompe list entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "II Pompe disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Cori list entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "III Cori disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Anderson list entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "IV Anderson disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: McArdle list entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "V McArdle disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme list header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogen enzymes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucose-6-phosphatase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "UDP-glucose pyrophosphorylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Branching enzyme",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 6",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Debranching enzyme\n(4-α-D-glucanotransferase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 7",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Debranching enzyme\n(α-1,6-glucosidase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: enzyme 8",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "α-1,4-glucosidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: lysosome-only arm",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Lysosome only",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycolysis box",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: gluconeogenesis box",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Gluconeogenesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucose-6-P node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucose-6-P",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucose-1-P node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glucose-1-P",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: UDP-glucose node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "UDP-glucose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: limit dextrin node",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Limit dextrin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycogenesis label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogenesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycogenolysis label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "quote": "Glycogenolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GSD intro: 15 types",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "At least 15 types have been identified, all\nresulting in abnormal glycogen metabolism\nand an accumulation of glycogen within cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GSD intro: PAS stain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Periodic acid–Schiff stain identifies glycogen\nand is useful in identifying these diseases.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Von Gierke findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Severe fasting hypoglycemia,\n↑↑ Glycogen in liver and\nkidneys, ↑ blood lactate,\n↑ triglycerides, ↑ uric acid\n(Gout), and hepatomegaly,\nrenomegaly.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Von Gierke liver comment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Liver does not\nregulate blood glucose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Von Gierke enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Glucose-6-phosphatase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Von Gierke treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Treatment: frequent oral\nglucose/cornstarch; avoidance\nof fructose and galactose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Von Gierke mechanism comment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Impaired gluconeogenesis and\nglycogenolysis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pompe findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Cardiomyopathy, hypotonia,\nexercise intolerance, enlarged\ntongue, and systemic findings\nlead to early death.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pompe enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Lysosomal acid α-1,4glucosidase (acid maltase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pompe mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Pompe trashes the pump (1st\nand 4th letter; heart, liver,\nand muscle).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Similar to von Gierke disease,\nbut milder symptoms and\nnormal blood lactate levels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori cardiomyopathy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Can lead to cardiomyopathy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori limit dextrin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Limit dextrin–like structures\naccumulate in cytosol;",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori liver complications",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "can lead to hepatomegaly,\ncirrhosis, and hepatic\nadenomas.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori enzymes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Debranching enzymes\n(α-1,6-glucosidase and\n4-α-D-glucanotransferase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cori gluconeogenesis comment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Gluconeogenesis is intact.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Andersen findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Most commonly presents\nwith hepatosplenomegaly\nand failure to thrive in early\ninfancy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Andersen other findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Other findings include\ninfantile cirrhosis, muscular\nweakness, hypotonia,\ncardiomyopathy early\nchildhood death.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Andersen enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Branching enzyme.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Andersen neuromuscular form",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Neuromuscular form can\npresent at any age.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Andersen hypoglycemia timing",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Hypoglycemia occurs late in\nthe disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "↑ glycogen in muscle, but\nmuscle cannot break it down\n→ painful muscle cramps,\nmyoglobinuria (red urine)\nwith strenuous exercise, and\narrhythmia from electrolyte\nabnormalities.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle second wind",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Second-wind phenomenon noted during\nexercise due to ↑ muscular\nblood flow.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Skeletal muscle glycogen\nphosphorylase\n(myophosphorylase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle lactate curve",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Characterized by a flat venous\nlactate curve with normal\nrise in ammonia levels during\nexercise.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle glucose comment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Blood glucose levels typically\nunaffected.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "McArdle = muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "McArdle = muscle.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mnemonic: VP can't accept money",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Vice president can’t accept money.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Inheritance: all AR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Types I-V are autosomal recessive.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mnemonic: ABCD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "quote": "Andersen: Branching.\nCori: Debranching. (ABCD)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "glycogen-hormone-regulation",
+    "glycogen-metabolism-map"
+  ],
+  "mechanismIds": [
+    "hormonal-switch",
+    "gsd-blocks"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (lactate-and-tissue discriminators, flat-lactate forearm-test stems, second-wind stems, late-hypoglycemia stems, plus the rower mini-case with the flat lactate/normal ammonia discriminator)."
+    },
+    {
+      "id": "reciprocal-switch-model",
+      "origin": "outside-first-aid",
+      "rationale": "Reading the hormonal regulation as 'one kinase, one phosphatase, reciprocal enzymes' with muscle's calcium-calmodulin override is a KYP-organizing scaffold over the source's signal-transduction figure.",
+      "location": "core.keyIdea + mechanism 'hormonal-switch' + both visual captions",
+      "summary": "The fasted/fed reading frame: PKA phosphorylates phosphorylase kinase ON and synthase OFF; insulin's phosphatase reverses both; contraction's Ca²⁺-calmodulin is the muscle-local override (fuel on demand)."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-14"
+}

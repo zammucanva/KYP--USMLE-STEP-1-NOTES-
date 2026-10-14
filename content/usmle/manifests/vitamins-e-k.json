@@ -1,0 +1,247 @@
+{
+ "topicId": "vitamins-e-k",
+ "title": "Vitamins E & K",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Fat-Soluble Vitamins",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   90,
+   91
+  ],
+  "bookPages": "68–69"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "Vitamin E includes tocopherol, tocotrienol",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Includes tocopherol, tocotrienol.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "E: antioxidant protecting RBCs and neuronal membranes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Antioxidant (protects RBCs and neuronal membranes from free radical damage).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "E deficiency: hemolytic anemia, acanthocytosis, posterior column + spinocerebellar demyelination — mimics Friedreich ataxia",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Hemolytic anemia, acanthocytosis, muscle weakness, demyelination of posterior columns (↓ proprioception and vibration sensation) and spinocerebellar tract (ataxia). Closely mimics Friedreich ataxia.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "E vs B12: no megaloblastic anemia, hypersegmented neutrophils, or ↑MMA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Neurologic presentation may appear similar to vitamin B12 deficiency, but without megaloblastic anemia, hypersegmented neutrophils, or ↑ serum methylmalonic acid levels.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "E excess: enterocolitis risk in infants",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Risk of enterocolitis in enfants (infants) with excess of vitamin E.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "High-dose E alters vitamin K–dependent protein metabolism → enhanced warfarin effect",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "High-dose supplementation may alter metabolism of vitamin K–dependent proteins (factors II, VII, IX, X; protein C/S) → enhanced anticoagulant effects of warfarin.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Vitamin K forms: phytomenadione, phylloquinone, phytonadione, menaquinone",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Includes phytomenadione, phylloquinone, phytonadione, menaquinone.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K activated by epoxide reductase; reduced form cofactor for γ-carboxylation of glutamic acid",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Activated by epoxide reductase to the reduced form, which is a cofactor for the γ-carboxylation of glutamic acid residues on various proteins required for blood clotting.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K sources: intestinal microbiota + leafy greens",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Synthesized by intestinal microbiota; dietary sources include leafy greens.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K is for Koagulation: factors II, VII, IX, X, proteins C and S; warfarin inhibits K-dependent synthesis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "K is for Koagulation. Necessary for the maturation of clotting factors II, VII, IX, X, and proteins C and S. Warfarin inhibits vitamin K–dependent synthesis of these factors and proteins.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K deficiency: neonatal hemorrhage with ↑PT and ↑aPTT but normal bleeding time; sterile intestines",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Neonatal hemorrhage with ↑ PT and ↑ aPTT but normal bleeding time (neonates have sterile intestines and are unable to synthesize vitamin K).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K deficiency also after prolonged broad-spectrum antibiotics or hepatocellular disease",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Can also occur after prolonged use of broad-spectrum antibiotics or hepatocellular disease.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "K not in breast milk; vitamin K injection at birth prevents hemorrhagic disease",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     91
+    ],
+    "bookPages": "69"
+   },
+   "quote": "Not in breast milk; “breast-fed infants Don’t Know about vitamins D and K”. Neonates are given vitamin K injection at birth to prevent hemorrhagic disease of the newborn.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "vitamin-k-carboxylation-cycle"
+ ],
+ "mechanismIds": [
+  "vitamin-k-carboxylation-warfarin"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (Friedreich-mimic stem, newborn-bleed stem, warfarin-E-interaction stem, antibiotic stem, plus the hemorrhagic-disease mini-case with answer autopsy)."
+  },
+  {
+   "id": "two-failure-modes-model",
+   "origin": "outside-first-aid",
+   "rationale": "Reading the K cycle's failures as supply (neonatal sterility, antibiotics) vs blockade (warfarin) with the PT-first lab fingerprint is a KYP-original synthesis.",
+   "location": "core.keyIdea + mechanism 'vitamin-k-carboxylation-warfarin' + callout 'Why PT rises first in vitamin K failure'",
+   "summary": "The cycle diagram logic that lets one mechanism answer newborn, antibiotic, and warfarin questions interchangeably."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

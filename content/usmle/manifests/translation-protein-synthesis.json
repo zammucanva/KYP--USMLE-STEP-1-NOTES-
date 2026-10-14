@@ -1,0 +1,459 @@
+{
+  "topicId": "translation-protein-synthesis",
+  "title": "Translation & Protein Processing",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Translation & Protein Processing",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      57,
+      64,
+      65
+    ],
+    "bookPages": "35, 42–43"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Genetic code is unambiguous: each codon specifies only 1 amino acid",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Each codon specifies only 1 amino acid.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Genetic code is degenerate/redundant: most amino acids are coded by multiple codons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Most amino acids are coded by multiple codons.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Code is commaless and nonoverlapping: read from a fixed starting point as a continuous sequence (exceptions: some viruses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Read from a fixed starting point as a continuous sequence of bases.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Code is universal (exceptions: usually stop codon variants, eg, mitochondrial DNA)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "usually stop codon variants (eg, mitochondrial DNA).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Wobble: first 2 nucleotides of codon are essential for anticodon recognition; the 3rd can vary",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "first 2 nucleotides of codon are essential for anticodon recognition while the 3rd nucleotide can vary",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Methionine (AUG) and tryptophan (UGG) are encoded by only 1 codon",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "methionine (AUG) and tryptophan (UGG) are encoded by only 1 codon",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "tRNA: 75–90 nucleotides, 2° structure cloverleaf, anticodon end opposite the 3′ aminoacyl end",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "cloverleaf form, anticodon end is opposite 3′ aminoacyl end.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "All tRNAs have CCA at the 3′ end with a high percentage of chemically modified bases; amino acid covalently bound to 3′ end",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "have CCA at 3′ end along with a high percentage of chemically modified bases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T-arm contains the TΨC (ribothymidine, pseudouridine, cytidine) sequence — tethers tRNA to ribosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "ribothymidine, pseudouridine, cytidine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "D-arm contains dihydrouridine — detection of the tRNA by the correct aminoacyl-tRNA synthetase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "contains Dihydrouridine residues",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "3′-ACC-5′ is the amino acid ACCeptor site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "3′-ACC-5′ is the amino acid ACCeptor site.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aminoacyl-tRNA synthetase uses ATP; 1 unique enzyme per amino acid; charging + codon binding are responsible for accuracy of amino acid selection",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "1 unique enzyme per respective amino acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "If an incorrect amino acid is attached, the bond is hydrolyzed; a mischarged tRNA reads the usual codon but inserts the wrong amino acid",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "A mischarged tRNA reads the usual codon but inserts the wrong amino acid.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AUG is the start codon (AUG inAUGurates protein synthesis); eukaryotes: methionine, may be removed; prokaryotes: N-formylmethionine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "AUG inAUGurates protein synthesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "fMet stimulates neutrophil chemotaxis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "fMet stimulates neutrophil chemotaxis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Stop codons UGA, UAA, UAG are recognized by release factors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          64
+        ],
+        "bookPages": "42"
+      },
+      "quote": "UGA, UAA, UAG.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Initiation: eIFs identify the 5′ cap, assemble the 40S subunit with initiator tRNA, and are released when the 60S subunit joins (GTP)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Eukaryotic initiation factors (eIFs) identify the 5′ cap.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elongation: aminoacyl-tRNA binds the A site (except initiator methionine, which binds the P site); requires elongation factor and GTP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Aminoacyl-tRNA binds to A site (except for initiator methionine, which binds the P site)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "rRNA (ribozyme) catalyzes peptide bond formation, transferring the growing polypeptide to the amino acid in the A site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "catalyzes peptide bond formation, transfers growing polypeptide to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Translocation: ribosome advances 3 nucleotides toward the 3′ end of mRNA, moving peptidyl tRNA to the P site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "advances 3 nucleotides toward 3′",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Termination: eRFs recognize the stop codon and halt translation; requires GTP; polypeptide released",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Eukaryotic release factors (eRFs) recognize the stop codon and halt translation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subunit arithmetic: eukaryotes 40S + 60S → 80S (even); prokaryotes 30S + 50S → 70S (prime)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Synthesis occurs from N-terminus to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Energy ledger: ATP—tRNA Activation (charging); GTP—tRNA Gripping and Going places (translocation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "tRNA Activation (charging)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Going APE: A site = incoming Aminoacyl-tRNA; P site = growing Peptide; E site = Empty tRNA as it Exits",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "A site = incoming Aminoacyl-tRNA. P site = accommodates growing Peptide.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elongation factors are targets of bacterial toxins (eg, Diphtheria, Pseudomonas)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Elongation factors are targets of bacterial toxins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Shine-Dalgarno sequence is the prokaryotic ribosomal binding site, recognized by 16S RNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Shine-Dalgarno sequence—ribosomal binding site in prokaryotic mRNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Posttranslational trimming: removal of N- or C-terminal propeptides from zymogen (eg, trypsinogen to trypsin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Removal of N- or C-terminal propeptides from zymogen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Covalent alterations: phosphorylation, glycosylation, hydroxylation, methylation, acetylation, ubiquitination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "Phosphorylation, glycosylation, hydroxylation, methylation, acetylation, and ubiquitination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chaperone proteins (eg, HSP60) are constitutively expressed; expression increases with high temperatures, acidic pH, and hypoxia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          65
+        ],
+        "bookPages": "43"
+      },
+      "quote": "heat shock proteins (eg, HSP60) are constitutively expressed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "trna-structure-charging",
+    "translation-ribosome-stages"
+  ],
+  "mechanismIds": [
+    "trna-charging-fidelity",
+    "translation-ribosome-cycle",
+    "ptm-chaperone-folding"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "energy-ledger-calculation",
+      "summary": "The cost-per-amino-acid calculation (1 ATP → AMP + PPi at charging = 2 high-energy bonds, plus 2 GTP for entry and translocation = 3–4 phosphate equivalents per residue) and the antibiotics-site connections named in the callouts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid gives the ATP/GTP split mnemonic; the arithmetic framing and ribosome-target drug cross-references are KYP-added exam math.",
+      "location": "usmle.patterns[4]; blocks: compare 'ATP vs GTP — the energy ledger'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

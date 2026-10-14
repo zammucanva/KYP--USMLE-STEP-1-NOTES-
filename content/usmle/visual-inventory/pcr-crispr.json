@@ -1,0 +1,65 @@
+{
+  "topicId": "pcr-crispr",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "pcr-crispr-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Nucleic Acid Amplification & Editing",
+      "topicId": "pcr-crispr",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "PCR thermal cycle: denaturation, annealing, extension",
+      "sourceFigureDescription": "Three-step cycle diagram at 95°C/55°C/72°C with DNA strands separating, primers binding, Taq extending; product-doubling annotation",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "pcr-cycle-steps",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "pcr-crispr-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Nucleic Acid Amplification & Editing",
+      "topicId": "pcr-crispr",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "CRISPR/Cas9 editing outcomes: NHEJ knockout vs HDR knock-in",
+      "sourceFigureDescription": "Cas9 + gRNA complex bound to target DNA, DSB made, then fork: NHEJ (indel, gene knockout) or HDR with donor template (precise knock-in)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "crispr-cas9-mechanism",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "pcr-crispr",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both visuals are original KYP redraws. The PCR cycle preserves the source's step order and wording (heated → cooled → temperature increased → Repeat) — note the source figure carries NO temperature numbers, and the KYP redraw deliberately preserves that. The CRISPR visual preserves the source's component labels (Cas9, gRNA, NHEJ, HDR, Donor DNA) and both outcome captions (Frameshift/inactivation 'knock-out'; Edited sequence 'knock-in')."
+}

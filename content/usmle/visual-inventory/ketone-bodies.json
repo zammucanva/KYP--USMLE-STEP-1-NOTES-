@@ -1,0 +1,89 @@
+{
+  "topicId": "ketone-bodies",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "ketone-bodies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Ketogenesis and ketolysis shuttle",
+      "sourceFigureDescription": "The p. 88 ketone shuttle: hepatocyte (fatty acids/amino acids → 2 acetyl-CoA → acetoacetyl-CoA → HMG-CoA → ketogenesis → acetoacetate ↔ β-hydroxybutyrate; acetone expired by lungs) → blood → extrahepatic tissues (acetoacetate → acetyl-CoA → TCA cycle); liver lacks β-ketoacyl-CoA transferase.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Ketone Bodies & Fed/Fasted States",
+      "topicId": "ketone-bodies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "ketone-body-shuttle",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "ketone-bodies-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Adipocyte fed vs fasted metabolism",
+      "sourceFigureDescription": "The p. 88 adipocyte mirror: fed (insulin → glucose → DHAP → glycerol 3-P; LPL + Apo CII → FFA; esterification → TG) vs fasted (glucagon/epinephrine → cAMP → protein kinase A → HSL-P → lipolysis → FFA + glycerol to blood).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Ketone Bodies & Fed/Fasted States",
+      "topicId": "ketone-bodies",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "adipocyte-fed-fasted",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "ketone-bodies-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Ketone/glucose states in metabolic disease",
+      "sourceFigureDescription": "The p. 88 table: Hyperammonemia (ketones normal, glucose normal, OTC urea cycle) / Hypoketosis (↓ ketones, ↓ glucose, MCAD deficiency) / Ketosis (↑ ketones, ↓ glucose, methylmalonic + propionic acidemias).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Ketone Bodies & Fed/Fasted States",
+      "topicId": "ketone-bodies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[2] — 'Ketone and glucose levels in the metabolic diseases — verbatim' table block",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "ketone-bodies",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Two registry redraws (the ketone shuttle with its hepatocyte/blood/extrahepatic panels and both text strips; the fed/fasted adipocyte mirror) plus the ketone/glucose table as the note's verbatim-contract table block."
+}

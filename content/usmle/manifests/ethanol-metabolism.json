@@ -1,0 +1,300 @@
+{
+ "topicId": "ethanol-metabolism",
+ "title": "Ethanol Metabolism",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Ethanol Metabolism",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   92
+  ],
+  "bookPages": "70"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "↑NADH/NAD+ inhibits TCA → acetyl-CoA to ketogenesis (ketoacidosis) and lipogenesis (hepatosteatosis)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "↑ NADH/NAD+ ratio inhibits TCA cycle → ↑ acetyl-CoA used in ketogenesis (→ ketoacidosis), lipogenesis (→ hepatosteatosis).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Females more susceptible: ↓gastric ADH, ↓body size, ↓% body water",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Females are more susceptible than males to effects of alcohol due to ↓ activity of gastric alcohol dehydrogenase, ↓ body size, ↓ percentage of water in body weight.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NAD+ is the limiting reagent",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "NAD+ is the limiting reagent.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "ADH operates via zero-order kinetics",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Alcohol dehydrogenase operates via zero-order kinetics.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Ethanol metabolism ↑NADH/NAD+ in liver causing four consequences",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Ethanol metabolism ↑ NADH/ NAD+ ratio in liver, causing:",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Lactic acidosis: ↑pyruvate conversion to lactate",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Lactic acidosis—↑ pyruvate conversion to lactate",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fasting hypoglycemia: ↓gluconeogenesis from ↑OAA → malate conversion",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Fasting hypoglycemia— ↓ gluconeogenesis due to ↑ conversion of OAA to malate",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Ketoacidosis: acetyl-CoA diverted into ketogenesis rather than TCA cycle",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Ketoacidosis—diversion of acetyl-CoA into ketogenesis rather than TCA cycle",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hepatosteatosis: DHAP → glycerol-3-P (4A) + acetyl-CoA → fatty acid synthesis (4B) → triglycerides",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Hepatosteatosis— ↑ conversion of DHAP to glycerol-3-P 4A ; acetyl-CoA diverges into fatty acid synthesis 4B , which combines with glycerol-3-P to synthesize triglycerides",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fomepizole: competitive ADH inhibitor; preferred antidote for methanol/ethylene glycol",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Fomepizole—competitive inhibitor of alcohol dehydrogenase; preferred antidote for overdoses of methanol or ethylene glycol.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "ADH has higher affinity for ethanol → ethanol as competitive inhibitor for toxic alcohols",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Alcohol dehydrogenase has higher affinity for ethanol than for methanol or ethylene glycol → ethanol can be used as competitive inhibitor of alcohol dehydrogenase to treat methanol or ethylene glycol poisoning.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Disulfiram blocks ALDH → ↑acetaldehyde → hangover symptoms → discourages drinking",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Disulfiram—blocks acetaldehyde dehydrogenase → ↑ acetaldehyde → ↑ hangover symptoms → discouraging drinking.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure legend: pathways stimulated by ↑NADH/NAD+ ratio",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Pathways stimulated by ↑ NADH/NAD+ ratio",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure legend: pathways inhibited by ↑NADH/NAD+ ratio",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Pathways inhibited by ↑ NADH/NAD+ ratio",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: ↑Lactate — anion gap metabolic acidosis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "↑ Lactate",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: ↑Triglycerides — hepatic steatosis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "↑ Triglycerides",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: compartment enzymes CYP2E1 and catalase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     92
+    ],
+    "bookPages": "70"
+   },
+   "quote": "Catalase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "ethanol-metabolism-map",
+  "ethanol-nadh-consequences"
+ ],
+ "mechanismIds": [
+  "ethanol-four-routes",
+  "nadh-ratio-consequences"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (double-anion-gap stem, fasting-hypoglycemia stem, toxic-alcohol antidote stem, disulfiram stem, plus the four-arm alcoholic emergency mini-case with answer autopsy)."
+  },
+  {
+   "id": "follow-the-nadh-model",
+   "origin": "outside-first-aid",
+   "rationale": "Deriving all four consequences from a single NADH/NAD+ shift (and the 4A/4B triglyceride assembly) as one causal diagram is a KYP-original scaffold over the source's separate list.",
+   "location": "core.keyIdea + mechanism 'nadh-ratio-consequences' + consequences visual notice",
+   "summary": "The one-ratio-to-four-diseases model with the stimulated-vs-inhibited legend logic."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

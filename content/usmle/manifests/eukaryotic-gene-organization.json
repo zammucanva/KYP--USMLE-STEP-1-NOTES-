@@ -1,0 +1,222 @@
+{
+  "topicId": "eukaryotic-gene-organization",
+  "title": "Eukaryotic Gene Organization & Regulation",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Eukaryotic Gene Regulation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      61,
+      62
+    ],
+    "bookPages": "39–40"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Promoter: site where RNA polymerase II and multiple other transcription factors bind to DNA upstream from the gene locus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "multiple other transcription factors bind to DNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Promoters increase initiation of transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Promoters increase initiation of transcription.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Promoter mutation commonly results in dramatic ↓ in gene transcription",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Promoter mutation commonly results in dramatic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enhancer: DNA locus where regulatory proteins (“activators”) bind, increasing expression of a gene on the same chromosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "DNA locus where regulatory proteins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enhancers and silencers may be located close to, far from, or even within (in an intron) the gene they regulate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "Enhancers and silencers may be located close to, far from, or even within (in an intron) the gene",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Silencer: regulatory proteins (“repressors”) bind, decreasing expression of a gene on the same chromosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "decreasing expression of a gene on the same chromosome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Epigenetics: heritable (mitotically/meiotically) expression change without a change in underlying DNA sequence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "without a change in underlying DNA sequence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Primary mechanisms of epigenetic change: DNA methylation, histone modification, noncoding RNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          62
+        ],
+        "bookPages": "40"
+      },
+      "quote": "DNA methylation, histone modification, and noncoding RNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gene anatomy figure elements: TATA box and CAAT box in the promoter (figure labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "CAAT Box",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gene anatomy figure elements: transcription start, exons, introns with GT…AG marks, UTRs, open reading frame, polyadenylation signal AATAAA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "Polyadenylation signal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA strand annotated as the coding strand in the gene-organization figure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          61
+        ],
+        "bookPages": "39"
+      },
+      "quote": "coding strand",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "eukaryotic-gene-anatomy"
+  ],
+  "mechanismIds": [
+    "gene-expression-flow",
+    "promoter-mutation-consequence"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "enhancer-looping-why",
+      "summary": "The mechanistic explanation of enhancer distance-independence (DNA looping brings activator-bound enhancers into physical contact with the promoter complex) and the promoter-as-docking-site contrast.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid states the positional facts (close/far/within intron); the looping mechanism explains WHY and cements the promoter-vs-enhancer mutation-magnitude contrast the exam tests.",
+      "location": "blocks: callout (why) 'Why enhancers ignore distance'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

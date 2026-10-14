@@ -1,0 +1,111 @@
+{
+  "topicId": "cytoskeleton-cilia",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "cytoskeleton-cilia-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          68
+        ],
+        "bookPages": "46"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "topicId": "cytoskeleton-cilia",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "Microtubule architecture: α/β tubulin heterodimers, +/- ends",
+      "sourceFigureDescription": "Cylinder schematic: protofilaments of α-β heterodimers, GTP caps, minus end (nucleus-facing) vs plus end (periphery), with kinesin anterograde / dynein retrograde motor labels",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "microtubule-architecture",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "cytoskeleton-cilia-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "topicId": "cytoskeleton-cilia",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Cilium 9+2 axoneme and basal body EM cross-sections",
+      "sourceFigureDescription": "Diagram-plus-EM pairs: motile cilium 9+2 microtubule doublets with dynein arms and radial spokes; basal body 9 triplets (no central pair)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "cilia-axoneme-basal-body",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "cytoskeleton-cilia-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "topicId": "cytoskeleton-cilia",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Dextrocardia chest radiograph in primary ciliary dyskinesia",
+      "sourceFigureDescription": "CXR with cardiac silhouette on the right, stomach bubble on the left (situs inversus) — the Kartagener radiographic pattern",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "dextrocardia-cxr",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "cytoskeleton-cilia-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          69
+        ],
+        "bookPages": "47"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cytoskeleton & Cilia",
+      "topicId": "cytoskeleton-cilia",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Na+/K+ ATPase pump mechanism",
+      "sourceFigureDescription": "Membrane pump schematic: 3 Na+ out / 2 K+ in per ATP, phosphorylation state cycle — reviewed here with organelle ion handling",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "na-k-atpase-pump",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cytoskeleton-cilia",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "All four are original KYP works: the microtubule cylinder, the 9+2 axoneme vs 9-triplet basal body cross-sections, and the pump diagram are redraws; the Na+/K+-ATPase figure is a KYP adaptation preserving the source's 3-out/2-in stoichiometry and phosphorylation cycle. The dextrocardia CXR is a diagnostic-pattern-preserving KYP original (mirror-image cardiac silhouette on the right) per the approved inventory policy for radiology-class visuals."
+}

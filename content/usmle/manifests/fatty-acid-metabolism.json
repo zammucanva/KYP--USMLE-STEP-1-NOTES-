@@ -1,0 +1,494 @@
+{
+  "topicId": "fatty-acid-metabolism",
+  "title": "Fatty Acid Metabolism",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Fatty Acid Metabolism",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      109
+    ],
+    "bookPages": "87"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acid metabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: synthesis product",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acid synthesis\n(palmitate, a 16C FA)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: malonyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Malonyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: insulin marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Insulin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucagon marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Glucagon",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ACC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Acetyl-CoA\ncarboxylase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: CO2 biotin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "CO2 (biotin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: acetyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Acetyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cytoplasm zone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Cytoplasm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: membranes zone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Mitochondrial\nmembranes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: matrix zone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Mitochondrial\nmatrix",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ATP citrate lyase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "ATP citrate\nlyase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: citrate shuttle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Citrate\nshuttle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: citrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Citrate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: fatty acid + CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acid + CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: fatty acyl-CoA synthetase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acyl-CoA\nsynthetase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: fatty acyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: CPT-I",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Carnitine\npalmitoyl\ntransferase I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: carnitine shuttle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Carnitine\nshuttle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: beta-oxidation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "β-oxidation\n(acyl-CoA\ndehydrogenases)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ketone bodies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Ketone\nbodies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: TCA cycle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "TCA\ncycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Synthesis transport",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Fatty acid synthesis requires transport of citrate\nfrom mitochondria to cytosol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Synthesis sites",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Predominantly\noccurs in liver, lactating mammary glands, and\nadipose tissue.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LCFA degradation requirement",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Long-chain fatty acid (LCFA) degradation\nrequires carnitine-dependent transport into the\nmitochondrial matrix.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sytrate mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "“Sytrate” = synthesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Carnitine mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Carnitine = carnage of fatty acids.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Carnitine deficiency mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Systemic 1° carnitine deficiency—no cellular\nuptake of carnitine → no transport of LCFAs\ninto mitochondria → toxic accumulation\nof LCFAs in the cytosol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Carnitine deficiency findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Causes weakness,\nhypotonia, hypoketotic hypoglycemia, dilated\ncardiomyopathy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MCAD mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Medium-chain acyl-CoA dehydrogenase\ndeficiency—↓ ability to break down fatty\nacids into acetyl-CoA → accumulation of fatty\nacyl carnitines and dicarboxylic acids in the\nblood with hypoketotic hypoglycemia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MCAD findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Causes\nvomiting, lethargy, seizures, coma, liver\ndysfunction, hyperammonemia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MCAD sudden death + treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "quote": "Can lead to\nsudden death in infants or children. Treat by\navoiding fasting.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "fa-synthesis-vs-oxidation"
+  ],
+  "mechanismIds": [
+    "fed-synthesis-mirror",
+    "fasted-oxidation-blocks"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (hypoketotic-hypoglycemia stems, dicarboxylic-acid stems, interlock/malonyl-CoA stems, plus the fasting-toddler mini-case with the acylcarnitine discriminator)."
+    },
+    {
+      "id": "mirror-pathways-model",
+      "origin": "outside-first-aid",
+      "rationale": "Reading synthesis and degradation as mirror pathways (citrate out vs carnitine in) joined by the malonyl-CoA interlock is a KYP-organizing scaffold over the source figure.",
+      "location": "core.keyIdea + mechanism captions + compare block",
+      "summary": "The two columns as mirrors: fed citrate-out/ACC/palmitate versus fasted carnitine-in/spiral/acetyl-CoA, with synthesis braking oxidation at CPT-I."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-14"
+}

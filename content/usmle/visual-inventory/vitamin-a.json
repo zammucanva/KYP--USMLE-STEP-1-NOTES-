@@ -1,0 +1,42 @@
+{
+ "topicId": "vitamin-a",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "vitamin-a-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Bitot spots and corneal changes of vitamin A deficiency",
+   "sourceFigureDescription": "Clinical eye photograph: foamy keratin debris on the conjunctiva (Bitot spots) with xerophthalmia — the deficiency sign photo",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Fat-Soluble Vitamins",
+   "topicId": "vitamin-a",
+   "kypVisualId": "bitot-spots-illustration",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "vitamin-a",
+  "textbookVisualCount": 1,
+  "accountedFor": 1,
+  "sourceReproductions": 0,
+  "kypRedraws": 1,
+  "kypOriginals": 0,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "The Bitot spots photograph (label A, pdf 86 / book 64) is drawn as a diagnostic-pattern-preserving KYP original: temporal bulbar-conjunctiva foamy plaque schematic plus the xerophthalmia progression strip. No source artwork reproduced."
+}

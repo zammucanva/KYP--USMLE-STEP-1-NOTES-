@@ -1,0 +1,638 @@
+{
+ "topicId": "metabolism-overview",
+ "title": "Metabolism Overview & Compartmentation",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Metabolism — Overview & Compartmentation",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   94,
+   95
+  ],
+  "bookPages": "72–73"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "Mitochondrial compartmentation list",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Fatty acid oxidation (β-oxidation), acetyl-CoA production, TCA cycle, oxidative phosphorylation, ketogenesis.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cytoplasmic compartmentation list",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Glycolysis, HMP shunt, and synthesis of cholesterol (SER), proteins (ribosomes, RER), fatty acids, and nucleotides.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Both compartments: heme synthesis, urea cycle, gluconeogenesis — Hugs take two",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Heme synthesis, urea cycle, gluconeogenesis. Hugs take two (both).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: galactose-metabolism enzymes with galactosemia severities",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Galactokinase (mild galactosemia)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: galactose-1-phosphate uridyltransferase (severe galactosemia)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Galactose-1-phosphate uridyltransferase (severe galactosemia)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: hexokinase/glucokinase on the glucose to G-6-P step",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Hexokinase/glucokinase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: glucose-6-phosphatase (von Gierke disease)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Glucose-6-phosphatase (von Gierke disease)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: G6PD at the HMP shunt entry",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Glucose-6-phosphate dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: transketolase requires thiamine (TPP)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Transketolase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: fructokinase (essential fructosuria)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Fructokinase (essential fructosuria)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: aldolase B (fructose intolerance)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Aldolase B (fructose intolerance)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: PFK-1 in glycolysis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Phosphofructokinase-1",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: fructose-1,6-bisphosphatase 1 in gluconeogenesis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Fructose-1,6-bisphosphatase 1",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: pyruvate carboxylase requires biotin; PEPCK; citrate synthase; isocitrate DH; alpha-KG DH",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Pyruvate carboxylase PEP carboxykinase Citrate synthase Isocitrate dehydrogenase α-ketoglutarate dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: pyruvate dehydrogenase and the triose phosphate isomerase / pyruvate kinase steps",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Pyruvate dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: carbamoyl phosphate synthetase I and ornithine transcarbamylase in the urea cycle",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Carbamoyl phosphate synthetase I",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: HMG-CoA reductase to mevalonate; cholesterol synthesis arm",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "HMG-CoA reductase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: propionyl-CoA carboxylase requires biotin; B12-dependent step to succinyl-CoA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Propionyl-CoA carboxylase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map: odd-chain fatty acids, isoleucine, valine, methionine, threonine, pyrimidines feed propionyl-CoA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Odd-chain fatty acids, isoleucine, valine, methionine, threonine, pyrimidines",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map legend: B requires biotin cofactor",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "B Requires biotin cofactor",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map legend: T requires thiamine cofactor (TPP)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "T Requires thiamine cofactor (TPP)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Map legend: irreversible, important point of regulation marker",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "quote": "Irreversible, important point of regulation",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: ATP carries phosphoryl groups",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "ATP Phosphoryl groups",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: NADH, NADPH, FADH2 carry electrons",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "NADH, NADPH, FADH2 Electrons",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: CoA, lipoamide carry acyl groups",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "CoA, lipoamide Acyl groups",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: biotin carries CO2",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Biotin CO2",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: tetrahydrofolates carry 1-carbon units",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Tetrahydrofolates 1-carbon units",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: SAM carries CH3 groups",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "S-adenosylmethionine (SAM) CH3 groups",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Activated carriers: TPP carries aldehydes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "TPP Aldehydes",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Universal electron acceptors: nicotinamides (B3) and flavin nucleotides (B2); NADPH from HMP shunt",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Nicotinamides (NAD+, NADP+ from vitamin B3) NADPH is a product of the HMP shunt.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NAD+ used in catabolic processes to carry reducing equivalents away as NADH",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "NAD+ is generally used in catabolic processes to",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NAD+ carries them away as NADH (completion of the sentence)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "carry reducing equivalents away as NADH.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NADPH used in anabolic processes (steroid and fatty acid synthesis) as reducing equivalents",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "NADPH is used in anabolic processes (eg,",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NADPH used in respiratory burst (bullet list)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Respiratory burst",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NADPH used in cytochrome P-450 system (bullet list)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Cytochrome P-450 system",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NADPH used in glutathione reductase (bullet list)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Glutathione reductase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "NADPH: steroid and fatty acid synthesis as supply of reducing equivalents",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "steroid and fatty acid synthesis) as a supply of",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glucokinase in liver, hexokinase in other tissues",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Phosphorylation of glucose to yield glucose-6-phosphate is catalyzed by glucokinase in the liver and hexokinase in other tissues.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hexokinase sequesters glucose in tissues at low concentrations; glucokinase stores at high",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Hexokinase sequesters glucose in tissues, where it is used even when glucose concentrations are low. At high glucose concentrations, glucokinase helps to store glucose in liver.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glucokinase deficiency -> MODY and gestational diabetes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Glucokinase deficiency (→ ↑↑ glucose needed for activation → impaired insulin release [vs. diabetes mellitus]) is a cause of maturity onset diabetes of the young (MODY) and gestational diabetes.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hexokinase vs glucokinase location row",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Most tissues, except liver and pancreatic β cells",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hexokinase vs glucokinase Km/Vmax rows",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Lower (↑ affinity)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hexokinase vs glucokinase feedback-inhibition rows",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "quote": "Glucose-6-phosphate Fructose-6-phosphate",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "whole-metabolism-map",
+  "hexokinase-vs-glucokinase"
+ ],
+ "mechanismIds": [
+  "compartment-carrier-economy"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (compartmentation stems, carrier-cargo stems, NADPH-list stems, hexokinase/glucokinase stems, plus the MODY2 mini-case with answer autopsy)."
+  },
+  {
+   "id": "two-economies-model",
+   "origin": "outside-first-aid",
+   "rationale": "Framing the page as compartment programs plus a two-currency electron economy (NADH burns / NADPH builds-and-defends) and the cargo-service carrier framing are KYP-original scaffolds over the source's three separate lists.",
+   "location": "core.keyIdea + mechanism 'compartment-carrier-economy' + text block 'Universal electron acceptors'",
+   "summary": "The logistics model — compartment programs, the carrier freight table, and the NAD+/NADPH split — that organizes every later metabolism note."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

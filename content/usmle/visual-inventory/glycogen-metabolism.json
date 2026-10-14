@@ -1,0 +1,89 @@
+{
+  "topicId": "glycogen-metabolism",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "glycogen-metabolism-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "Insulin vs glucagon/epinephrine glycogen regulation",
+      "sourceFigureDescription": "The p. 84 signal-transduction map: glucagon (liver) and epinephrine (liver and muscle, β receptor) → GPCR → adenylate cyclase (ATP → cAMP) → protein kinase A → phosphorylase kinase ON → glycogen phosphorylase ON, synthase OFF; epinephrine (liver, α₁ receptor) → endoplasmic reticulum → calcium; calcium-calmodulin in muscle during contraction; insulin (liver and muscle) → tyrosine kinase dimer receptor → protein phosphatase → synthase ON, phosphorylase kinase OFF.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+      "topicId": "glycogen-metabolism",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "glycogen-hormone-regulation",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "glycogen-metabolism-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          106
+        ],
+        "bookPages": "84"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Glycogen synthesis and degradation map with numbered enzymes",
+      "sourceFigureDescription": "The p. 84 glycogen map: glycolysis/gluconeogenesis boxes on glucose; glucose-6-P ↔ glucose-1-P → UDP-glucose → glycogen (glycogenesis: ②③④ with the branching enzyme building α-(1,6) branches); glycogenolysis: ⑤ phosphorylase releasing glucose-1-P to the limit dextrin, ⑥⑦ the debranching enzyme's transferase and glucosidase, the lysosome-only ⑧ arm to glucose; red Roman numerals I-V marking the five storage-disease blocks with the side lists (disease type / glycogen enzymes).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+      "topicId": "glycogen-metabolism",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "glycogen-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "glycogen-metabolism-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          107
+        ],
+        "bookPages": "85"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Glycogen storage disease table",
+      "sourceFigureDescription": "The p. 85 GSD table (DISEASE / FINDINGS / DEFICIENT ENZYME / COMMENTS) covering von Gierke I, Pompe II, Cori III, Andersen IV, McArdle V with full findings, enzymes, and comments.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Glycogen Metabolism & Storage Diseases",
+      "topicId": "glycogen-metabolism",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[2] — 'Glycogen storage diseases — the verbatim table' table block",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "glycogen-metabolism",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both p. 84 figures are full redraws: sv1 the hormonal signal-transduction map (fasted glucagon/epinephrine cAMP-PKA cascade with the α₁-calcium arm and insulin's phosphatase arm, laid out as fasted/fed panels over a shared enzyme cascade), sv2 the numbered glycogenesis/glycogenolysis map with the five Roman-numeral disease blocks and both side lists. sv3, the p. 85 storage-disease table, is implemented as the note's verbatim-contract table block per the G3/E10 note-block pattern."
+}

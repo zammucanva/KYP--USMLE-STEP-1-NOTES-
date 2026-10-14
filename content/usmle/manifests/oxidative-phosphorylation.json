@@ -1,0 +1,624 @@
+{
+  "topicId": "oxidative-phosphorylation",
+  "title": "Electron Transport Chain & Oxidative Phosphorylation",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Oxidative Phosphorylation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      98
+    ],
+    "bookPages": "76"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "NADH electrons enter at complex I",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "NADH electrons are transferred to complex I.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FADH2 electrons enter at complex II",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "FADH2 electrons are transferred to complex II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FADH2 enters at a lower energy level than NADH",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(at a lower energy level than NADH).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Oxygen is the terminal electron acceptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Oxygen acts as an electron acceptor to provide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Electron passage forms the proton gradient",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "The passage of electrons results in the formation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gradient coupled to oxidative phosphorylation drives ATP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "of a proton gradient that, coupled to oxidative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ATP production named as the output",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "phosphorylation, drives ATP production. ATP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ATP hydrolysis couples unfavorable reactions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "hydrolysis can be coupled to energetically",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Uncoupling proteins located in brown fat",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Uncoupling proteins (found in brown fat, which",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Brown fat has more mitochondria than white fat",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "has more mitochondria than white fat) produce",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mechanism: increased inner membrane permeability",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "heat by ↑ inner mitochondrial membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Result: decreased proton gradient; ATP synthesis stops",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "permeability → ↓ proton gradient. ATP synthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Electron transport continues despite uncoupling",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "stops, but electron transport continues.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Yield per NADH",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "1 NADH → 2.5 ATP; 1 FADH2 → 1.5 ATP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glycolytic NADH requires a shuttle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "NADH electrons from glycolysis enter",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two shuttles named",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "mitochondria via the malate-aspartate or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glycerol-3-phosphate shuttle named",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "glycerol-3-phosphate shuttle.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aerobic glucose ATP accounting introduced",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Aerobic metabolism of one glucose molecule",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "32 net ATP via malate-aspartate shuttle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "produces 32 net ATP via malate-aspartate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tissue pairing: heart and liver vs muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "shuttle (heart and liver), 30 net ATP via",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "30 net ATP via glycerol-3-phosphate shuttle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "glycerol-3-phosphate shuttle (muscle).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anaerobic glycolysis yield",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Anaerobic glycolysis produces only 2 net ATP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anaerobic yield is per glucose molecule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "per glucose molecule.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspirin overdose causes uncoupling",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Aspirin overdose can also cause uncoupling",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspirin uncoupling targets oxidative phosphorylation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "of oxidative phosphorylation resulting in",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aspirin uncoupling results in hyperthermia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "hyperthermia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: ATP synthase substrates",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "ADP + Pi",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: oxygen reduction to water at IV",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "1/2 O2 + 2H H2O",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: CoQ carrier",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "CoQ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: cytochrome c carrier",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Cytochrome c",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: complex II is succinate dehydrogenase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Complex II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: complex II sub-label part 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(succinate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: complex II sub-label part 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "dehydrogenase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: complex V is ATP synthase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Complex V",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: ATP synthase sub-label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "(ATP synthase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: cyanide and CO at complex IV",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Cyanide, CO",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: uncoupling proteins drawn in the membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Uncoupling proteins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: aspirin overdose grouped with uncouplers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Aspirin overdose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: intermembrane space compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Intermembrane space",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: mitochondrial matrix compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Mitochondrial",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: matrix word of the matrix label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "matrix",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: inner mitochondrial membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          98
+        ],
+        "bookPages": "76"
+      },
+      "quote": "Inner mitochondrial membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "etc-oxphos-map"
+  ],
+  "mechanismIds": [
+    "etc-proton-circuit",
+    "uncoupling-heat-switch"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (shuttle-yield stems, uncoupler stems, brown-fat stems, yield-arithmetic stems, terminal-acceptor stems, plus the salicylate-overdose mini-case with the heat-vs-frozen-chain discriminator)."
+    },
+    {
+      "id": "dam-and-floodgate-model",
+      "origin": "outside-first-aid",
+      "rationale": "Framing the membrane as a dam (I/III/IV pumps, ATP-synthase turbine, uncoupler floodgates) and the two cofactor entries as full-price vs side-door docks is a KYP-original scaffold over the source's separate statements.",
+      "location": "core.keyIdea + mechanisms 'etc-proton-circuit' and 'uncoupling-heat-switch'",
+      "summary": "The dam model that unifies pumping, the gradient, the single return turbine, and the two leak paths (brown fat, aspirin) into one causal machine with the 2.5-vs-1.5 pricing rule."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-10"
+}

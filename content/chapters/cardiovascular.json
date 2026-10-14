@@ -1,0 +1,63 @@
+{
+  "chapterId": "cardiovascular",
+  "chapterTitle": "Cardiovascular",
+  "number": 7,
+  "part": 1,
+  "section": "III",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 301,
+      "to": 350
+    }
+  ],
+  "bookPages": "279–328",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "av-conduction-blocks",
+      "title": "AV Conduction Blocks",
+      "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          333,
+          334,
+          335,
+          349
+        ],
+        "bookPages": "311–313, 327"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "av-block-ecg"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    },
+    {
+      "topicId": "atherosclerosis",
+      "title": "Atherosclerosis",
+      "subsection": "Vascular Pathology — Atherosclerosis",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          324,
+          325,
+          326
+        ],
+        "bookPages": "302–304"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "atherogenesis-timeline"
+      ],
+      "mechanismHeavy": false,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

@@ -1,0 +1,473 @@
+{
+  "topicId": "connective-tissue-diseases",
+  "title": "Connective Tissue Diseases (OI, EDS, Menkes, Marfan, Homocystinuria, Williams)",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Cellular — Connective Tissue Diseases",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      71,
+      72,
+      85
+    ],
+    "bookPages": "49–50, 63"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Osteogenesis imperfecta is a genetic bone disorder (brittle bone disease) caused by a variety of gene defects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "caused by a variety of gene defects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OI is most commonly caused by COL1A1 and COL1A2 mutations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "most commonly COL1A1 and COL1A2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Most common OI form is autosomal dominant with ↓ production of otherwise normal type I collagen (altered triple helix formation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "production of otherwise normal type I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OI manifestations include multiple fractures and bone deformities after minimal trauma (eg, during birth)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Multiple fractures and bone deformities",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Blue sclerae are due to thin, translucent scleral collagen revealing choroidal veins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "scleral collagen revealing choroidal veins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Some OI forms have opalescent teeth that wear easily due to lack of dentin (dentinogenesis imperfecta)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "opalescent teeth that wear easily",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OI includes hearing loss (abnormal ossicles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Hearing loss (abnormal ossicles)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OI may be confused with child abuse",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "May be confused with child abuse",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OI is treated with bisphosphonates to ↓ fracture risk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Treat with bisphosphonates to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Patients can't BITE: Bones, I (eye), Teeth, Ear",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Patients can’t BITE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EDS is faulty collagen synthesis → hyperextensible and often thin or transparent skin, hypermobile joints, ↑ tendency to bleed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Faulty collagen synthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EDS inheritance can be autosomal dominant or recessive; associated with joint dislocation, berry and aortic aneurysms, organ rupture",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "joint dislocation, berry and aortic aneurysms, organ rupture",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EDS classical type (joint and skin symptoms) is caused by a mutation in type V collagen (eg, COL5A1, COL5A2)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "COL5A1, COL5A2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EDS vascular type: mutations in type III procollagen (eg, COL3A1)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "type III procollagen (eg, COL3A1)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EDS can be caused by procollagen peptidase deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "Can be caused by procollagen peptidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Menkes disease is X-linked recessive, caused by impaired copper absorption and transport (defective ATP7A)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "impaired copper absorption and transport",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Menkes protein is ATP7A (Absent copper) vs ATP7B in Wilson disease (copper Buildup)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "defective Menkes protein ATP7A (Absent copper), vs ATP7B in Wilson disease (copper",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Menkes leads to ↓ activity of lysyl oxidase (copper is a necessary cofactor) → defective collagen cross-linking",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "(copper is a necessary cofactor)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Menkes results in brittle, 'kinky' hair, growth and developmental delay, hypotonia, ↑ risk of cerebral aneurysms",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          71
+        ],
+        "bookPages": "49"
+      },
+      "quote": "cerebral aneurysms",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan syndrome is autosomal dominant (variable expression, pleiotropy) affecting skeleton, heart, and eyes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Marfan syndrome—autosomal dominant (with variable expression and symptoms due to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FBN1 gene mutation on chromosome 15 (fifteen) results in defective fibrillin-1, a glycoprotein forming a sheath around elastin and sequestering TGF-β",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "chromosome 15 (fifteen) results in defective fibrillin-1, a glycoprotein that forms a sheath around",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan findings include chest wall deformity (pectus carinatum [pigeon chest] or pectus excavatum)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "carinatum [pigeon chest] or pectus excavatum",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan includes cystic medial necrosis of aorta; aortic root aneurysm rupture or dissection (most common cause of death); mitral valve prolapse; ↑ risk of spontaneous pneumothorax",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "cystic medial necrosis of aorta; aortic root aneurysm rupture or dissection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Homocystinuria is most commonly due to cystathionine-β-synthase deficiency leading to homocysteine buildup",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "cystathionine‐β‐synthase deficiency leading to",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan vs homocystinuria table: inheritance AD vs AR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Autosomal dominant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan vs homocystinuria table: vascular complications — aortic root dilatation vs thrombosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Aortic root dilatation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Marfan vs homocystinuria table: lens dislocation — upward/temporal (Marfan fans out) vs downward/nasal",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Upward/temporal (Marfan fans out)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Williams syndrome is a congenital microdeletion of the long arm of chromosome 7 (deleted region includes elastin gene)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          85
+        ],
+        "bookPages": "63"
+      },
+      "quote": "Congenital microdeletion of long arm of chromosome 7",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Williams findings: distinctive 'elfin' facies, intellectual disability, hypercalcemia, well-developed verbal skills, extreme friendliness",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          85
+        ],
+        "bookPages": "63"
+      },
+      "quote": "distinctive “elfin” facies, intellectual disability, hypercalcemia, well-developed verbal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Williams cardiovascular problems include supravalvular aortic stenosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          85
+        ],
+        "bookPages": "63"
+      },
+      "quote": "supravalvular aortic stenosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "blue-sclerae-oi",
+    "oi-bone-fragility",
+    "eds-hyperextensible-skin",
+    "pectus-carinatum-marfan"
+  ],
+  "mechanismIds": [
+    "oi-collagen-type-i",
+    "marfan-fibrillin-tgf-beta"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (image-pattern vignettes, Marfan-vs-homocystinuria traps, tall-patient and child-abuse pivots, Marfan mini-case with answer autopsy) built on the cited First Aid pages."
+    },
+    {
+      "id": "type-to-gene-card",
+      "origin": "outside-first-aid",
+      "summary": "The molecule-first organization of the disease cluster (type I collagen = OI; type V/III = EDS classical/vascular; copper-lysyl oxidase = Menkes; fibrillin-1 + TGF-β = Marfan; elastin dosage = Williams) and the OI-vs-child-abuse differential framing with its stakes.",
+      "rationale": "First Aid lists the diseases sequentially; sorting them by matrix molecule so the phenotype predicts the gene (and reverse) is KYP pedagogy, as is the explicit abuse-differential guidance.",
+      "location": "core.keyIdea; blocks: callout 'OI vs child abuse — the stakes of the differential'; clinical block 'The EDS type-to-gene card'; usmle.pivots"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

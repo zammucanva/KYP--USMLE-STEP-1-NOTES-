@@ -1,0 +1,42 @@
+{
+  "topicId": "purine-salvage-disorders",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "purine-salvage-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Molecular — Nucleotide Metabolism",
+      "topicId": "purine-salvage-disorders",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Purine metabolism: de novo, salvage, degradation with deficiency blocks",
+      "sourceFigureDescription": "Purine flow map: PRPP → de novo → IMP → AMP/GMP; salvage via APRT/HGPRT; degradation to xanthine → uric acid; ADA and HGPRT deficiency blocks marked; drug targets (allopurinol, rasburicase, pegloticase)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "purine-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "purine-salvage-disorders",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraw preserves the source map's circular topology (PRPP hub, IMP branch point, HGPRT/APRT salvage arcs, XO degradation ladder to uric acid/allantoin) with both deficiency blocks (ADA→SCID, HGPRT→Lesch-Nyhan) and all four drug anchors at their exact steps."
+}

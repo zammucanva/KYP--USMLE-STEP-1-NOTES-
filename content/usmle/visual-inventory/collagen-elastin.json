@@ -1,0 +1,65 @@
+{
+  "topicId": "collagen-elastin",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "collagen-elastin-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Extracellular Matrix Proteins",
+      "topicId": "collagen-elastin",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Collagen synthesis pipeline from fibroblast gene to cross-linked fibril",
+      "sourceFigureDescription": "Step diagram: transcription/translation in RER → pro-α chain hydroxylation (vit C) → glycosylation → triple helix (procollagen) → exocytosis → peptidase trimming (tropocollagen) → cross-linking by lysyl oxidase (copper)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "collagen-synthesis-pipeline",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "collagen-elastin-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Extracellular Matrix Proteins",
+      "topicId": "collagen-elastin",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "Elastin stretch-relax cycle with desmosine cross-links",
+      "sourceFigureDescription": "Single elastin molecule shown stretched and recoiling with lysine-derived desmosine cross-link sites; contrast with rigid collagen triple helix",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "elastin-stretch-relax",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "collagen-elastin",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The collagen pipeline is an original KYP redraw preserving every source station (fibroblast nucleus, Gly-X-Y preprocollagen, RER hydroxylation with vitamin C, glycosylation, triple helix, Golgi, exocytosis, C/N-terminal cleavage, self-assembly, lysyl-oxidase cross-linking with copper) plus the source's disease annotations (scurvy, osteogenesis imperfecta, Menkes). The elastin stretch-relax figure is a KYP adaptation preserving the source's relaxed/stretched conformations, fibrillin scaffold, lysyl-oxidase cross-links, and the elastase/α1-antitrypsin axis."
+}

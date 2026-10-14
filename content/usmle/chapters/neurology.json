@@ -1,0 +1,75 @@
+{
+  "chapterId": "neurology",
+  "chapterTitle": "Neurology & Special Senses",
+  "number": 12,
+  "part": 2,
+  "section": "III",
+  "pdfRanges": [
+    {
+      "part": 2,
+      "from": 91,
+      "to": 160
+    }
+  ],
+  "bookPages": "499–568",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "stroke-syndromes",
+      "title": "Stroke Syndromes",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          105,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          306,
+          307,
+          308
+        ],
+        "bookPages": "513, 525–530, 714–716"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "stroke-territory-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    },
+    {
+      "topicId": "cranial-nerves",
+      "title": "Cranial Nerves",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          147,
+          148,
+          149,
+          150
+        ],
+        "bookPages": "516–520, 555–558"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "cranial-nerve-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

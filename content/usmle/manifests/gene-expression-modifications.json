@@ -1,0 +1,284 @@
+{
+  "topicId": "gene-expression-modifications",
+  "title": "Gene Expression Modifications",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Genetics — Epigenetic Modifications",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      76
+    ],
+    "bookPages": "54"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Transgenic strategies in mice include random insertion of a gene into the mouse genome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Random insertion of gene into mouse",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Targeted insertion or deletion of a gene proceeds through homologous recombination with the mouse gene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Targeted insertion or deletion of gene through homologous recombination with mouse gene",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Knock-out means removing a gene, taking it out",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Knock-out = removing a gene, taking it out.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Knock-in means inserting a gene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Knock-in = inserting a gene.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Random insertion gives constitutive expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Random insertion—constitutive expression.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Targeted insertion gives conditional expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Targeted insertion—conditional expression.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA interference is the process whereby small non-coding RNA molecules target mRNAs to inhibit gene expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Process whereby small non-coding RNA molecules target mRNAs to inhibit gene expression.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "miRNA is naturally produced by the cell as hairpin structures",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Naturally produced by cell as hairpin structures.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Loose nucleotide pairing allows broad targeting of related mRNAs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Loose nucleotide pairing allows broad targeting of related mRNAs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "When miRNA binds to mRNA, it blocks translation and sometimes facilitates its degradation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "When miRNA binds to mRNA, it blocks translation of mRNA and sometimes facilitates its degradation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Abnormal miRNA expression contributes to certain malignancies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Abnormal expression of miRNAs contributes to certain malignancies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The malignancy mechanism includes silencing an mRNA from a tumor suppressor gene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "by silencing an mRNA from a tumor suppressor gene",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "siRNA is usually derived from an exogenous dsRNA source (eg, virus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Usually derived from exogenous dsRNA source",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "siRNA requires complete nucleotide pairing, leading to highly specific mRNA targeting",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "siRNA requires complete nucleotide pairing, leading to highly specific mRNA targeting.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "siRNA results in mRNA cleavage prior to translation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Results in mRNA cleavage prior to translation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "siRNA can be produced by transcription or chemically synthesized for gene knockdown experiments",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          76
+        ],
+        "bookPages": "54"
+      },
+      "quote": "Can be produced by transcription or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "transgenic-strategies",
+    "gene-silencing-rna"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (strategy-matching stems, knock-out/knock-in verb checks, silencer-matching stems, siRNA knockdown mini-case with answer autopsy) built on the cited First Aid page."
+    },
+    {
+      "id": "silencer-stringency-frame",
+      "origin": "outside-first-aid",
+      "rationale": "The WHO-chooses-the-target / HOW-STRICT-is-the-pairing sort frame is a KYP-original organization of the source's two silencers; First Aid lists them but does not supply the sorting key.",
+      "location": "core.keyIdea + blocks table 'miRNA vs siRNA — the paired contrast'",
+      "summary": "The stringency fork (endogenous loose-pairing dimmer vs exogenous complete-pairing scalpel) and the route-to-expression pairing (random=constitutive, targeted=conditional)."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "na",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-09"
+}

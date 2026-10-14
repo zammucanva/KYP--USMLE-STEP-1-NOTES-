@@ -1,0 +1,568 @@
+{
+  "topicId": "cranial-nerves",
+  "chapterId": "neurology",
+  "inventory": [
+    {
+      "visualId": "cranial-nerves-sv1",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Vagal nuclei",
+      "sourceFigureDescription": "Vagal nuclei table (nucleus, function, nerve)",
+      "part": 2,
+      "pdfPages": [
+        108
+      ],
+      "bookPages": "516",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The vagal (and friends) nuclei of the medulla'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "516"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv2",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Midbrain cross-section",
+      "sourceFigureDescription": "Midbrain cross section with superior colliculus, CN III nucleus, red nucleus, cerebral peduncles",
+      "part": 2,
+      "pdfPages": [
+        108
+      ],
+      "bookPages": "516",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "cranial-nerve-map",
+      "kypImplementation": "registry-visual",
+      "notes": "KYP brainstem map renders schematic cross-sections at all three levels",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          108
+        ],
+        "bookPages": "516"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv3",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Pons cross-section",
+      "sourceFigureDescription": "Pons cross section with fourth ventricle, CN V and VI nuclei, MLF, medial lemniscus",
+      "part": 2,
+      "pdfPages": [
+        109
+      ],
+      "bookPages": "517",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "cranial-nerve-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "517"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv4",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Medulla cross-section",
+      "sourceFigureDescription": "Medulla cross section with inferior olivary nucleus, nucleus ambiguus, pyramids, CN X/XII nuclei",
+      "part": 2,
+      "pdfPages": [
+        109
+      ],
+      "bookPages": "517",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "cranial-nerve-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "517"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv5",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Skull base foramina",
+      "sourceFigureDescription": "Cranial nerves and vessel pathways through skull-base foramina (cribriform plate, optic canal, etc.)",
+      "part": 2,
+      "pdfPages": [
+        110
+      ],
+      "bookPages": "518",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Foramina — which hole carries which nerve (and vessel)'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "518"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv6",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Nerve-artery brainstem map",
+      "sourceFigureDescription": "Brainstem diagram with cranial nerves I–XII emergence and arterial supply",
+      "part": 2,
+      "pdfPages": [
+        110
+      ],
+      "bookPages": "518",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "cranial-nerve-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "518"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv7",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Cranial nerve table",
+      "sourceFigureDescription": "Cranial nerves table: nerve, number, function, type (S/M/B), mnemonic",
+      "part": 2,
+      "pdfPages": [
+        111
+      ],
+      "bookPages": "519",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The cranial nerve table — nerve, function, type'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "519"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv8",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "CN reflexes",
+      "sourceFigureDescription": "Cranial nerve reflexes table (reflex, afferent, efferent)",
+      "part": 2,
+      "pdfPages": [
+        111
+      ],
+      "bookPages": "519",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Cranial nerve reflexes — afferent drives, efferent executes'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "519"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv9",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Mastication muscles",
+      "sourceFigureDescription": "Mastication muscle illustration (temporalis, masseter, pterygoids) on the skull",
+      "part": 2,
+      "pdfPages": [
+        112
+      ],
+      "bookPages": "520",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Mastication & the muscle anchors'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "520"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv10",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Lumbar puncture anatomy",
+      "sourceFigureDescription": "Spinal cord sagittal view with vertebral levels, meninges, and LP needle path",
+      "part": 2,
+      "pdfPages": [
+        112
+      ],
+      "bookPages": "520",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Lumbar puncture anatomy — adjacent neuroprocedures topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "520"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv11",
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "Horner pathway",
+      "sourceFigureDescription": "Horner syndrome 3-neuron sympathetic pathway diagram (hypothalamus to eye)",
+      "part": 2,
+      "pdfPages": [
+        147
+      ],
+      "bookPages": "555",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Horner syndrome — its own high-yield topic (Phase I-C); the note's lesion ladder carries the anhidrosis context",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "555"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv12",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Extraocular muscle anatomy",
+      "sourceFigureDescription": "Ocular motility illustrations of extraocular muscle attachments (frontal and lateral views)",
+      "part": 2,
+      "pdfPages": [
+        147
+      ],
+      "bookPages": "555",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'CN palsies — how each eye-movement nerve fails'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "555"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv13",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Gaze mechanics (LR6SO4R3)",
+      "sourceFigureDescription": "Ocular motility gaze-direction diagrams (LR6SO4R3) and blowout fracture CT",
+      "part": 2,
+      "pdfPages": [
+        147
+      ],
+      "bookPages": "555",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'CN palsies — how each eye-movement nerve fails' (LR6SO4R3 rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "555"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv14",
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "CN III damage pathways",
+      "sourceFigureDescription": "CN III damage diagram distinguishing motor (central, pupil-sparing) from parasympathetic (peripheral, pupil-involving) components",
+      "part": 2,
+      "pdfPages": [
+        148
+      ],
+      "bookPages": "556",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Lesion localization ladder — same muscle, four lesions' + mechanisms (cn3-palsy-mechanism flow)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "556"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv15",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "CN III/IV/VI palsy appearance",
+      "sourceFigureDescription": "Clinical illustrations of oculomotor, trochlear, and abducens palsies showing eye positions",
+      "part": 2,
+      "pdfPages": [
+        148
+      ],
+      "bookPages": "556",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'CN palsies — how each eye-movement nerve fails'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "556"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv16",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Visual field defects",
+      "sourceFigureDescription": "Visual field defects diagram mapping lesions (optic nerve, chiasm, tract) to field loss patterns",
+      "part": 2,
+      "pdfPages": [
+        149
+      ],
+      "bookPages": "557",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Visual pathway — its own neuro-ophthalmology topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "557"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv17",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Cavernous sinus contents",
+      "sourceFigureDescription": "Cavernous sinus coronal cross-section with CN III, IV, V1, V2, VI, and internal carotid artery",
+      "part": 2,
+      "pdfPages": [
+        149
+      ],
+      "bookPages": "557",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: cavernous sinus content in the note's clinical/lesion blocks (sourceRef pp. 147–150 coverage)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "557"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv18",
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "INO/MLF pathway",
+      "sourceFigureDescription": "Internuclear ophthalmoplegia pathway diagram: MLF connection between CN VI and CN III nuclei",
+      "part": 2,
+      "pdfPages": [
+        150
+      ],
+      "bookPages": "558",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Lesion localization ladder — same muscle, four lesions' + mechanisms (ino-mechanism flow)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "558"
+      }
+    },
+    {
+      "visualId": "cranial-nerves-sv19",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "Right INO presentation",
+      "sourceFigureDescription": "Right INO clinical diagrams showing impaired adduction and abducting nystagmus on lateral gaze",
+      "part": 2,
+      "pdfPages": [
+        150
+      ],
+      "bookPages": "558",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Lesion localization ladder — same muscle, four lesions' (INO row)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "cranial-nerves",
+      "chapterId": "neurology",
+      "subsection": "Neuroanatomy — Cranial Nerves & Brainstem",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "558"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cranial-nerves",
+    "textbookVisualCount": 19,
+    "accountedFor": 19,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 12,
+    "unresolved": 0,
+    "omitted": 3,
+    "omissionReasons": [
+      "cranial-nerves-sv10: Lumbar puncture anatomy — adjacent neuroprocedures topic (Phase I-C)",
+      "cranial-nerves-sv11: Horner syndrome — its own high-yield topic (Phase I-C); the note's lesion ladder carries the anhidrosis context",
+      "cranial-nerves-sv16: Visual pathway — its own neuro-ophthalmology topic (Phase I-C)"
+    ],
+    "complete": true
+  },
+  "notes": "Source pages mix cranial-nerve anatomy with neuro-ophthalmology neighbors (Horner, visual fields, LP) — out-of-scope figures retained as references for their own topics."
+}

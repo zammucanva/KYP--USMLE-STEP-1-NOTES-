@@ -1,0 +1,443 @@
+{
+ "topicId": "b-vitamins-2",
+ "title": "Vitamins B6, B7, B9 & B12",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Water-Soluble Vitamins (B6–B12)",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   88,
+   89
+  ],
+  "bookPages": "66–67"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "B6 as PLP: transamination (ALT/AST), decarboxylation, glycogen phosphorylase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Converted to pyridoxal phosphate (PLP), a cofactor used in transamination (eg, ALT and AST), decarboxylation reactions, glycogen phosphorylase.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B6 synthesis list: glutathione, cystathionine, heme, niacin, histamine, neurotransmitters",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Synthesis of glutathione, cystathionine, heme, niacin, histamine, and neurotransmitters including serotonin, epinephrine, norepinephrine (NE), dopamine, and GABA.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B6 deficiency: convulsions, neuropathy (INH, OCPs), sideroblastic anemia",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Convulsions, hyperirritability, peripheral neuropathy (deficiency inducible by isoniazid and oral contraceptives), sideroblastic anemia (due to impaired hemoglobin synthesis and iron excess).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B7: cofactor for carboxylation enzymes (add a 1-carbon group)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Cofactor for carboxylation enzymes (which add a 1-carbon group):",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Pyruvate carboxylase: pyruvate 3C → oxaloacetate 4C (gluconeogenesis)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Pyruvate carboxylase (gluconeogenesis): pyruvate (3C) → oxaloacetate (4C)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Acetyl-CoA carboxylase: acetyl-CoA 2C → malonyl-CoA 3C (fatty acid synthesis)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Acetyl-CoA carboxylase (fatty acid synthesis): acetyl-CoA (2C) → malonyl-CoA (3C)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Propionyl-CoA carboxylase: propionyl-CoA 3C → methylmalonyl-CoA 4C",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Propionyl-CoA carboxylase (fatty acid oxidation and branched-chain amino acid breakdown): propionyl-CoA (3C) → methylmalonyl-CoA (4C)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B7 deficiency: rare; dermatitis, enteritis, alopecia; antibiotics or raw egg whites",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Relatively rare. Dermatitis, enteritis, alopecia. Caused by long-term antibiotic use or excessive ingestion of raw egg whites.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Avidin mnemonic",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "“Avidin in egg whites avidly binds biotin.”",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B9 as THF: 1-carbon transfer/methylation coenzyme",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Converted to tetrahydrofolic acid (THF), a coenzyme for 1-carbon transfer/methylation reactions.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate for nitrogenous base synthesis in DNA and RNA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Important for the synthesis of nitrogenous bases in DNA and RNA.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate sources and jejunum absorption — the 'jejun'gle pun",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Found in leafy green vegetables. Also produced by gut microbiota. Folate absorbed in jejunum (think foliage in the “jejun”gle).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate deficiency: macrocytic megaloblastic anemia, hypersegmented PMNs, no neurologic symptoms",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Macrocytic, megaloblastic anemia; hypersegmented polymorphonuclear cells (PMNs); glossitis; no neurologic symptoms (as opposed to vitamin B12 deficiency).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate labs: ↑homocysteine, normal methylmalonic acid; alcohol overuse and pregnancy",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Labs: ↑ homocysteine, normal methylmalonic acid levels. Seen in chronic alcohol overuse and in pregnancy.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate-deficiency drugs: phenytoin, trimethoprim, methotrexate",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Deficiency can be caused by several drugs (eg, phenytoin, trimethoprim, methotrexate).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folic acid ≥1 month pre-conception through pregnancy ↓NTD",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Supplemental folic acid at least 1 month prior to conception and during pregnancy to ↓ risk of neural tube defects.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B9 for the 9 months mnemonic",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     88
+    ],
+    "bookPages": "66"
+   },
+   "quote": "Give vitamin B9 for the 9 months of pregnancy, and 1 month prior to conception.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12: cofactor for methionine synthase (CH3 as methylcobalamin) and methylmalonyl-CoA mutase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Cofactor for methionine synthase (transfers CH3 groups as methylcobalamin) and methylmalonyl-CoA mutase.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12 deficiency: megaloblastic anemia, subacute combined degeneration of dorsal columns, lateral corticospinal, spinocerebellar tracts",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Macrocytic, megaloblastic anemia; hypersegmented PMNs; paresthesias and subacute combined degeneration (degeneration of dorsal columns, lateral corticospinal tracts, and spinocerebellar tracts) due to abnormal myelin.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12 labs: ↑homocysteine AND ↑methylmalonic acid + 2° folate deficiency",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Associated with ↑ serum homocysteine and methylmalonic acid levels, along with 2° folate deficiency.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Prolonged B12 deficiency → irreversible nerve damage",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Prolonged deficiency → irreversible nerve damage.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12 only in animal products; synthesis distal to absorption",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Found in animal products. Synthesized only by intestinal microbiota. Site of synthesis in humans is distal to site of absorption; thus B12 must be consumed via animal products.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12: very large reserve pool (several years) in liver",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Very large reserve pool (several years) stored primarily in the liver.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B12 deficiency causes: malabsorption, IF lack, terminal ileum resection, metformin, veganism",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Deficiency caused by malabsorption (eg, sprue, enteritis, Diphyllobothrium latum, achlorhydria, bacterial overgrowth, alcohol overuse), lack of intrinsic factor (eg, pernicious anemia, gastric bypass surgery), absence of terminal ileum (surgical resection, eg, for Crohn disease), certain drugs (eg, metformin), or insufficient intake (eg, veganism).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Folate masks hematologic but not neurologic symptoms of B12 deficiency",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "B9 (folate) supplementation can mask the hematologic symptoms of B12 deficiency, but not the neurologic symptoms.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: methionine synthase with B12 on the one-carbon map",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Methionine synthase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: methylmalonyl-CoA mutase (B12) feeding succinyl-CoA to TCA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Methylmalonyl-CoA mutase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: odd-chain fatty acids and branched-chain amino acids feed methylmalonyl-CoA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     89
+    ],
+    "bookPages": "67"
+   },
+   "quote": "Fatty acids with odd number of carbons, branched-chain amino acids",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "b12-folate-one-carbon-map"
+ ],
+ "mechanismIds": [
+  "b12-two-enzyme-failure",
+  "folate-one-carbon-demand"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (subacute-combined-degeneration stem, masking stem, INH-neuropathy stem, raw-egg biotin stem, plus the post-resection B12 mini-case with answer autopsy)."
+  },
+  {
+   "id": "two-enzyme-divergence",
+   "origin": "outside-first-aid",
+   "rationale": "The two-enzyme divergence model (methionine synthase → folate trap + anemia; mutase → ↑MMA + myelin) that produces the double-lab signature is a KYP-original derivation scaffold.",
+   "location": "core.keyIdea + mechanism 'b12-two-enzyme-failure' + compare block 'B12 vs folate deficiency'",
+   "summary": "The enzyme-to-lab-to-phenotype decision tree that resolves every megaloblastic-anemia stem, including the masking trap."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

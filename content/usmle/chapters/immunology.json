@@ -1,0 +1,42 @@
+{
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "number": 2,
+  "part": 1,
+  "section": "II",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 115,
+      "to": 142
+    }
+  ],
+  "bookPages": "93–120",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "hypersensitivity-types",
+      "title": "Hypersensitivity Types",
+      "subsection": "Immunology — Hypersensitivity Reactions & Transfusion",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          131,
+          132,
+          133,
+          134
+        ],
+        "bookPages": "109–112"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hypersensitivity-mechanisms"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

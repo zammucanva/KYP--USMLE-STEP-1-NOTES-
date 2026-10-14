@@ -1,0 +1,286 @@
+{
+  "topicId": "blotting-procedures",
+  "title": "Blotting Procedures",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Laboratory Techniques — Blotting",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      73
+    ],
+    "bookPages": "51"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Step 1: DNA sample is enzymatically cleaved into smaller pieces, separated by gel electrophoresis, and transferred to a membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "DNA sample is enzymatically cleaved into smaller pieces, which are separated by gel electrophoresis, and then transferred to a membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 2: the membrane is exposed to a labeled DNA probe that anneals to its complementary strand",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Membrane is exposed to labeled DNA probe that anneals to its complementary strand",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 3: the resulting double-stranded labeled DNA is visualized on film or digital imager",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Resulting double-stranded, labeled piece of DNA is visualized when membrane is exposed to film or digital imager",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Southern blot is useful to identify size of specific sequences",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Useful to identify size of specific sequences",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Applications include determination of heterozygosity (as seen in the source image)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "determination of heterozygosity",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Applications include counting CGG repeats in FMR1 to diagnose fragile X syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "CGG repeats in FMR1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SNoW DRoP mnemonic: Southern = DNA, Northern = RNA, Western = Protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "SNoW DRoP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Northern blot electrophoreses an RNA sample",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "except that an RNA sample is electrophoresed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Northern blot studies mRNA levels and size (gene expression) and detects splicing errors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "mRNA levels and size",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Northern blot detects splicing errors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Detects splicing errors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Western blot separates sample protein by gel electrophoresis and transfers it to a membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Sample protein is separated via gel electrophoresis and transferred to a membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Western blot uses a labeled antibody to bind the relevant protein — identifies specific protein and determines quantity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Labeled antibody is used to bind relevant protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Southwestern blot combines Southern and Western blots; protein is probed with labeled dsDNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Protein is probed with labeled dsDNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Southwestern blot detects DNA-binding proteins (eg, transcription factors)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "eg, transcription factors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source figure carries a pedigree (I: Parents; II: Children) above a Southern blot with genotypes Aa, Aa, aa, Aa, AA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "I: Parents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The blot legend distinguishes Mutant and Normal bands",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Mutant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "southern-blot-pedigree"
+  ],
+  "mechanismIds": [
+    "southern-blot-workflow",
+    "blot-family-selector"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (blot-matching patterns, SNoW DRoP traps, band-pattern pivots, fragile X mini-case with answer autopsy) built on the cited First Aid page."
+    },
+    {
+      "id": "blot-family-selector-layer",
+      "origin": "outside-first-aid",
+      "summary": "The sample-and-probe selector frame (WHAT is in the gel × WHAT probes it → which blot) plus the 'two bands = two alleles' band-count logic for reading genotype from lanes.",
+      "rationale": "First Aid lists the four blots as separate entries; organizing them into a 2-question selector and formalizing the heterozygote band-count rule is KYP pedagogy.",
+      "location": "core.keyIdea; mechanism blot-family-selector; blocks: table 'The blot family — SNoW DRoP plus Southwestern'; callout 'Why a heterozygote's lane shows two bands'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

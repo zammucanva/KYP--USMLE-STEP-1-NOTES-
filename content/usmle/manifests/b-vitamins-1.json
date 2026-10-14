@@ -1,0 +1,425 @@
+{
+ "topicId": "b-vitamins-1",
+ "title": "Vitamins B1, B2, B3 & B5",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Water-Soluble Vitamins (B1–B5)",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   86,
+   87
+  ],
+  "bookPages": "64–65"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "B1 as TPP: cofactor for the Be APT dehydrogenase reactions",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "In thiamine pyrophosphate (TPP), a cofactor for several dehydrogenase enzyme reactions (Be APT):",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Be APT: branched-chain ketoacid dehydrogenase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Branched-chain ketoacid dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Be APT: α-ketoglutarate dehydrogenase (TCA cycle)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "α-Ketoglutarate dehydrogenase (TCA cycle)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Be APT: pyruvate dehydrogenase links glycolysis to TCA cycle",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Pyruvate dehydrogenase (links glycolysis to TCA cycle)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Be APT: transketolase (HMP shunt)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Transketolase (HMP shunt)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Impaired glucose breakdown → ATP depletion worsened by glucose infusion; aerobic tissues first",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Impaired glucose breakdown → ATP depletion worsened by glucose infusion; highly aerobic tissues (eg, brain, heart) are affected first.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Give thiamine before dextrose in alcohol overuse/malnutrition",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "In patients with chronic alcohol overuse or malnutrition, give thiamine before dextrose to ↓ risk of precipitating Wernicke encephalopathy.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Diagnosis: ↑RBC transketolase activity after B1 administration",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Diagnosis made by ↑ in RBC transketolase activity following vitamin B1 administration.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Wernicke: acute, reversible — CorONA triad",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Acute, reversible, life-threatening neurologic condition. Symptoms: Confusion, Ophthalmoplegia/ Nystagmus, Ataxia (CorONA beer).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Korsakoff: amnestic, confabulation, permanent memory loss",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Amnestic disorder due to chronic alcohol overuse; presents with confabulation, personality changes, memory loss (permanent).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Wernicke-Korsakoff anatomy: medial dorsal thalamus, mammillary bodies",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Damage to medial dorsal nucleus of thalamus, mammillary bodies.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Dry beriberi: polyneuropathy, symmetric muscle wasting",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Polyneuropathy, symmetric muscle wasting.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Wet beriberi: high-output cardiac failure from systemic vasodilation",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "High-output cardiac failure (due to systemic vasodilation).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Ber1Ber1 = B1 mnemonic",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     86
+    ],
+    "bookPages": "64"
+   },
+   "quote": "Spell beriberi as Ber1Ber1 to remember vitamin B1.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B2: FAD/FMN cofactors; succinate dehydrogenase in TCA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Component of flavins FAD and FMN, used as cofactors in redox reactions, eg, the succinate dehydrogenase reaction in the TCA cycle.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B2 deficiency: cheilosis (photograph label A), magenta tongue, corneal vascularization — the 2 C's",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Cheilosis A (inflammation of lips, scaling and fissures at the corners of the mouth), “magenta” tongue, corneal vascularization.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B2 ≈ 2 ATP mnemonic",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "FAD and FMN are derived from riboFlavin (B2 ≈ 2 ATP).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B3: NAD+/NADP+ from tryptophan; needs B2 + B6; treats dyslipidemia ↓VLDL ↑HDL",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Derived from tryptophan. Synthesis requires vitamins B2 and B6. Used to treat dyslipidemia (↓ VLDL, ↑ HDL).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B3 deficiency: glossitis → pellagra; Hartnup, carcinoid, isoniazid causes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Glossitis. Severe deficiency of B3 leads to pellagra, which can also be caused by Hartnup disease, malignant carcinoid syndrome (↑ tryptophan metabolism → ↑ serotonin synthesis), and isoniazid (↓ vitamin B6).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Pellagra 3 D's with C3/C4 Casal necklace (photograph label A)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "diarrhea, dementia (also hallucinations), dermatitis (C3/C4 dermatome circumferential “broad collar” rash [Casal necklace], hyperpigmentation of sun-exposed limbs A ).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hartnup disease: AR neutral amino acid transporter deficiency in PCT + enterocytes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Hartnup disease—autosomal recessive. Deficiency of neutral amino acid (eg, tryptophan) transporters in proximal renal tubular cells and on enterocytes → neutral aminoaciduria and ↓ absorption from the gut → ↓ tryptophan for conversion to niacin → pellagra-like symptoms.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Pellagra = vitamin B3 levels fell",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Pellagra = vitamin B3 levels fell.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B3 excess: prostaglandin-mediated flushing (aspirin prevents), pruritus, hyperglycemia, hyperuricemia",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Facial flushing (induced by prostaglandin, not histamine; can avoid by taking aspirin before niacin), pruritus, hyperglycemia, hyperuricemia.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Podagra = B3 OD",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Podagra = vitamin B3 OD (overdose).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B5: component of CoA and fatty acid synthase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Component of coenzyme A (CoA, a cofactor for acyl transfers) and fatty acid synthase.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "B5 deficiency: dermatitis, enteritis, alopecia, adrenal insufficiency, burning feet syndrome",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "quote": "Dermatitis, enteritis, alopecia, adrenal insufficiency; may lead to burning sensation of feet (“burning feet syndrome”; distal paresthesias, dysesthesia).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "riboflavin-deficiency-signs",
+  "pellagra-casal-necklace"
+ ],
+ "mechanismIds": [
+  "thiamine-atp-depletion",
+  "niacin-tryptophan-economy"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (dextrose-before-thiamine stem, Korsakoff stem, Hartnup stem, niacin-flushing stem, plus the precipitated-Wernicke mini-case with answer autopsy)."
+  },
+  {
+   "id": "glucose-toll-mechanics",
+   "origin": "outside-first-aid",
+   "rationale": "The 'glucose pays a thiamine toll at PDH' derivation that explains WHY dextrose precipitates Wernicke is KYP-original; First Aid states the order rule without the mechanism path.",
+   "location": "mechanism 'thiamine-atp-depletion' + text block 'B1 thiamine — the dehydrogenase quartet and the order-of-operations rule'",
+   "summary": "The ATP-debt model connecting TPP absence, glucose infusion, and the aerobic-tissue failure order (brain, heart, nerve)."
+  },
+  {
+   "id": "tryptophan-economy-model",
+   "origin": "outside-first-aid",
+   "rationale": "Framing pellagra's four causes as four broken links in one tryptophan supply chain (with the B2/B6 cofactor requirement) is a KYP-original synthesis.",
+   "location": "mechanism 'niacin-tryptophan-economy' + callout 'Why the niacin-economy failures all look like pellagra'",
+   "summary": "The diet/Hartnup/carcinoid/INH doors into a single NAD+ deficit, with the dermatome-mapped rash as the visible end product."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

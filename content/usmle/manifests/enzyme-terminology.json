@@ -1,0 +1,504 @@
+{
+ "topicId": "enzyme-terminology",
+ "title": "Enzyme Terminology & Kinetics Concepts",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Metabolism — Enzyme Fundamentals",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   93
+  ],
+  "bookPages": "71"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "An enzyme's name often describes its function — glucokinase example",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "An enzyme’s name often describes its function. For example, glucokinase is an enzyme that catalyzes the phosphorylation of glucose using a molecule of ATP.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Kinase: phosphate from high-energy molecule (usually ATP) to substrate",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Catalyzes transfer of a phosphate group from a high-energy molecule (usually ATP) to a substrate (eg, phosphofructokinase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Phosphorylase: inorganic phosphate without ATP (glycogen phosphorylase)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Adds inorganic phosphate onto substrate without using ATP (eg, glycogen phosphorylase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Phosphatase: removes phosphate (fructose-1,6-bisphosphatase 1)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Removes phosphate group from substrate (eg, fructose-1,6-bisphosphatase 1).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Dehydrogenase: oxidation-reduction (pyruvate dehydrogenase)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Catalyzes oxidation-reduction reactions (eg, pyruvate dehydrogenase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Hydroxylase: adds hydroxyl group (tyrosine hydroxylase)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Adds hydroxyl group (−OH) onto substrate (eg, tyrosine hydroxylase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Carboxylase: transfers carboxyl groups with biotin (pyruvate carboxylase)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Transfers carboxyl groups (−COOH) with the help of biotin (eg, pyruvate carboxylase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Mutase: relocates a functional group within a molecule (B12-dependent methylmalonyl-CoA mutase)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Relocates a functional group within a molecule (eg, vitamin B12–dependent methylmalonyl-CoA mutase).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Synthase: synthesis without using ATP as an energy source",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Catalyzes synthesis reactions without using ATP as a source of energy.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glycolysis rate-determining enzyme PFK-1 with regulators",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Phosphofructokinase-1 (PFK-1)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Gluconeogenesis rate-determining enzyme fructose-1,6-bisphosphatase 1",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Fructose-1,6-bisphosphatase 1",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "TCA cycle rate-determining enzyme isocitrate dehydrogenase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Isocitrate dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glycogenesis rate-determining enzyme glycogen synthase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Glycogen synthase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glycogenolysis rate-determining enzyme glycogen phosphorylase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Glycogen phosphorylase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "HMP shunt rate-determining enzyme G6PD",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Glucose-6-phosphate dehydrogenase (G6PD)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "De novo pyrimidine synthesis rate-determining enzyme CPS II",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Carbamoyl phosphate synthetase II",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "De novo purine synthesis rate-determining enzyme PRPP amidotransferase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Glutamine-phosphoribosylpyrophosphate (PRPP) amidotransferase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Urea cycle rate-determining enzyme CPS I",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Carbamoyl phosphate synthetase I",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fatty acid synthesis rate-determining enzyme ACC",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Acetyl-CoA carboxylase (ACC)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fatty acid oxidation rate-determining enzyme carnitine acyltransferase I, inhibited by malonyl-CoA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Carnitine acyltransferase I",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Ketogenesis rate-determining enzyme HMG-CoA synthase (HOMG mnemonic)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "HMG-CoA synthase (HOMG! I’m starving!)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cholesterol synthesis rate-determining enzyme HMG-CoA reductase with regulators",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Insulin ⊕, thyroxine ⊕, estrogen ⊕ Glucagon ⊝, cholesterol ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PFK-1 regulators: AMP and F-2,6-BP stimulate; ATP and citrate inhibit",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "AMP ⊕, fructose-2,6-bisphosphate ⊕ ATP ⊝, citrate ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fructose-1,6-bisphosphatase 1 regulators: AMP and F-2,6-BP inhibit",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "AMP ⊝, fructose-2,6-bisphosphate ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Isocitrate dehydrogenase regulators: ADP stimulates; ATP and NADH inhibit",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "ADP ⊕ ATP ⊝, NADH ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glycogen synthase regulators",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Glucose-6-phosphate ⊕, insulin ⊕, cortisol ⊕ Epinephrine ⊝, glucagon ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Glycogen phosphorylase regulators",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Epinephrine ⊕, glucagon ⊕, AMP ⊕ Glucose-6-phosphate ⊝, insulin ⊝, ATP ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "G6PD regulators: NADP+ stimulates, NADPH inhibits",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "NADP+ ⊕ NADPH ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "CPS II regulators: ATP and PRPP stimulate, UTP inhibits",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "ATP ⊕, PRPP ⊕ UTP ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PRPP amidotransferase regulators: PRPP stimulates; AMP, IMP, GMP inhibit",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "PRPP ⊕, AMP ⊝, inosine monophosphate (IMP) ⊝, GMP ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "CPS I regulator: N-acetylglutamate activates",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "N-acetylglutamate ⊕",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "ACC regulators: insulin and citrate stimulate; glucagon and palmitoyl-CoA inhibit",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Insulin ⊕, citrate ⊕ Glucagon ⊝, palmitoyl-CoA ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Malonyl-CoA inhibits carnitine acyltransferase I",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     93
+    ],
+    "bookPages": "71"
+   },
+   "quote": "Malonyl-CoA ⊝",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [],
+ "mechanismIds": [
+  "rate-limiting-control-logic"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (suffix-decoding stems, rate-limiter stems, regulator stems, gatekeeper stems, plus the five-descriptor sequencing mini-case with answer autopsy)."
+  },
+  {
+   "id": "three-band-table-reading",
+   "origin": "outside-first-aid",
+   "rationale": "Organizing the rate-determining table into three control bands (energy-state sensors, reciprocal mirror enzymes, hormone-wired storage/mobilization) plus the gatekeeper oddballs is a KYP-original scaffold; the source prints rows, not the reading structure.",
+   "location": "core.keyIdea + mechanism 'rate-limiting-control-logic' + table caption",
+   "summary": "The control-logic model that turns a 13-row memorization table into three principles the exam samples from."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

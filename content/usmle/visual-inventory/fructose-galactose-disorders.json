@@ -1,0 +1,65 @@
+{
+  "topicId": "fructose-galactose-disorders",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "fructose-galactose-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          100
+        ],
+        "bookPages": "78"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Fructose metabolism pathway with both deficiency diseases",
+      "sourceFigureDescription": "The p. 78 fructose figure: Fructose → (Fructokinase, ATP) → Fructose-1-P → (Aldolase B) → Dihydroxyacetone-P + Glyceraldehyde; TPI and Triose kinase converge on Glyceraldehyde-3-P → Glycolysis; Glyceraldehyde → Glycerol (NADH/NAD+).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Disorders of Fructose and Galactose Metabolism",
+      "topicId": "fructose-galactose-disorders",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "fructose-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "fructose-galactose-disorders-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          100
+        ],
+        "bookPages": "78"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Galactose metabolism (Leloir pathway) with both deficiency diseases",
+      "sourceFigureDescription": "The p. 78 galactose figure: Galactose → (Galactokinase, ATP) → Galactose-1-P → (Uridylyltransferase, UDP-Glu → UDP-Gal) → Glucose-1-P → Glycolysis/glycogenesis; 4-Epimerase regenerates UDP-Glu; Aldose reductase → Galactitol.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Disorders of Fructose and Galactose Metabolism",
+      "topicId": "fructose-galactose-disorders",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "galactose-leloir-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "fructose-galactose-disorders",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both p. 78 pathway figures redrawn with full label fidelity (all metabolite nodes, enzymes, cofactor pairs, the UDP recycle, and the aldose-reductase escape) plus verbatim deficiency panels for all four diseases."
+}

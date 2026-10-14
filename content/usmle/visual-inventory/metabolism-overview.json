@@ -1,0 +1,112 @@
+{
+ "topicId": "metabolism-overview",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "metabolism-overview-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "SUMMARY_FIGURE",
+   "visualPurpose": "Integrated whole-body metabolic pathway map",
+   "sourceFigureDescription": "Summary map linking glycolysis, gluconeogenesis, glycogen, TCA, urea cycle, HMP shunt, fructose/galactose, lipid metabolism (synthesis, β-oxidation, ketogenesis) with numbered regulated enzymes",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — Overview & Compartmentation",
+   "topicId": "metabolism-overview",
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "kypVisualId": "whole-metabolism-map",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "metabolism-overview-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "VISUAL_TABLE",
+   "visualPurpose": "Activated carriers table",
+   "sourceFigureDescription": "Table of carriers and their carried groups: ATP (phosphate), NADH/FADH2 (electrons), NADPH (reducing equivalents), CoA (acetyl/acyl), biotin (CO2), SAM (methyl), THF (1-C units), TPP (aldehydes)",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — Overview & Compartmentation",
+   "topicId": "metabolism-overview",
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "kypVisualId": null,
+   "kypImplementation": "note-block",
+   "kypLocation": "blocks: table 'Activated carriers — what each one carries'",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "metabolism-overview-sv3",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     95
+    ],
+    "bookPages": "73"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "VISUAL_TABLE",
+   "visualPurpose": "Hexokinase vs glucokinase comparison",
+   "sourceFigureDescription": "Compare table: Km, Vmax, tissue, insulin inducibility, feedback (G-6-P vs fructose-6-phosphate)",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — Overview & Compartmentation",
+   "topicId": "metabolism-overview",
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "kypVisualId": "hexokinase-vs-glucokinase",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "metabolism-overview-sv4",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     94
+    ],
+    "bookPages": "72"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "SUMMARY_FIGURE",
+   "visualPurpose": "Summary of pathways metabolic map",
+   "sourceFigureDescription": "Second rendering of the integrated metabolism map (same figure family as sv1) with enzyme numbering",
+   "requiredInKYP": true,
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Metabolism — Overview & Compartmentation",
+   "topicId": "metabolism-overview",
+   "implementationType": "ORIGINAL_KYP_ADAPTATION",
+   "kypVisualId": "whole-metabolism-map",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "metabolism-overview",
+  "textbookVisualCount": 4,
+  "accountedFor": 4,
+  "sourceReproductions": 0,
+  "kypRedraws": 1,
+  "kypOriginals": 3,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "The summary-of-pathways map (sv1, pdf 94) is an original KYP redraw preserving the source's zones, node set, enzyme labels, and the B/T/# cofactor-and-regulation markers, with the named disease enzymes at their steps. The activated carriers table (sv2, pdf 95) is the note's table block with the source's verbatim pairings. sv3 (hexokinase vs glucokinase, pdf 95) reuses the existing pilot registry visual hexokinase-vs-glucokinase, now embedded in this note where the source table lives. sv4 (the second rendering of the summary-of-pathways figure family, pdf 94) is covered by the same whole-metabolism-map redraw as sv1. sv3/sv4 were upgraded from the transitional SOURCE_REFERENCE holding state to implemented adaptations (documented in the worklog) — SOURCE_REFERENCE alone does not count as an implemented visual."
+}

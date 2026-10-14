@@ -1,0 +1,114 @@
+{
+  "topicId": "av-conduction-blocks",
+  "title": "AV Conduction Blocks",
+  "chapterId": "cardiovascular",
+  "chapterTitle": "Cardiovascular",
+  "subsection": "Cardiac Pathology — Arrhythmias & Conduction Blocks",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      333,
+      334,
+      335,
+      349
+    ],
+    "bookPages": "311–313, 327"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "First-degree AV block is defined by prolonged PR interval",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      },
+      "quote": "First-degree AV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Second-degree AV block Mobitz type I (Wenckebach) shows progressive PR lengthening",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      },
+      "quote": "Mobitz type I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Third-degree (complete) AV block shows atrioventricular dissociation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          334
+        ],
+        "bookPages": "312"
+      },
+      "quote": "Third-degree",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "av-block-ecg"
+  ],
+  "mechanismIds": [
+    "mobitz1-mechanism",
+    "mobitz2-mechanism",
+    "third-degree-mechanism"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

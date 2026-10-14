@@ -1,0 +1,549 @@
+{
+ "topicId": "tca-cycle-pdh",
+ "title": "TCA Cycle & Pyruvate Dehydrogenase",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Metabolism — TCA Cycle & Pyruvate Dehydrogenase",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   96,
+   97
+  ],
+  "bookPages": "74–75"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "PDH: mitochondrial complex linking glycolysis and TCA cycle",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Mitochondrial enzyme complex linking",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH differentially regulated fed (active)/fasting (inactive)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "regulated in fed (active)/fasting (inactive) states.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH reaction equation (first line)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Reaction: pyruvate + NAD+ + CoA → acetyl",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH reaction equation (completion)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "CoA + CO2 + NADH.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH contains 3 enzymes requiring 5 cofactors",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Contains 3 enzymes requiring 5 cofactors:",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cofactor 1: thiamine pyrophosphate (B1)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Thiamine pyrophosphate (B1)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cofactor 2: lipoic acid",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Lipoic acid",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cofactor 3: CoA (B5, pantothenic acid)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "CoA (B5, pantothenic acid)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cofactor 4: FAD (B2, riboflavin)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "FAD (B2, riboflavin)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cofactor 5: NAD+ (B3, niacin)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "NAD+ (B3, niacin)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Mnemonic: the lovely coenzymes for nerds",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "The lovely coenzymes for nerds.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Arsenic inhibits lipoic acid",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Arsenic inhibits lipoic acid.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Arsenic poisoning findings: vampire image with pigmentary changes",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "clinical findings: imagine a vampire (pigmentary",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Arsenic: vomiting/diarrhea, QT prolongation, garlic breath",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "diarrhea, running away from a cutie (QT",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH activated by ↑NAD+/NADH ratio, ↑ADP, ↑Ca2+",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Activated by: ↑ NAD+/NADH ratio, ↑ ADP ↑ Ca2+.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "α-KG DH complex: same cofactors as PDH",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "The complex is similar to the α-ketoglutarate",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "α-KG DH converts α-ketoglutarate → succinyl-CoA (TCA cycle)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "α-ketoglutarate → succinyl-CoA (TCA cycle).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "FBPase-2 and PFK-2: the same bifunctional enzyme reversed by PKA phosphorylation",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Fructose bisphosphatase-2 (FBPase-2) and phosphofructokinase-2 (PFK-2) are the same bifunctional enzyme whose function is reversed by phosphorylation by protein kinase A.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fasting state chain (glucagon → cAMP → PKA)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Fasting state: ↑ glucagon → ↑ cAMP → ↑ protein",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fasting state outcome: ↑FBPase-2, ↓PFK-2, less glycolysis, more gluconeogenesis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "kinase A → ↑ FBPase-2, ↓ PFK-2, less",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Fed state: ↑insulin → ↑PFK-2 → more glycolysis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     96
+    ],
+    "bookPages": "74"
+   },
+   "quote": "Fed state: ↑ insulin → ↑ PFK-2 → more glycolysis, less gluconeogenesis.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH deficiency: pyruvate shunted to lactate (LDH) and alanine (ALT); X-linked",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Causes a buildup of pyruvate that gets shunted to lactate (via LDH) and alanine (via ALT). X-linked.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH deficiency findings: neurologic defects, lactic acidosis, ↑alanine from infancy",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Neurologic defects, lactic acidosis, ↑ serum alanine starting in infancy.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH deficiency treatment: ketogenic nutrients, B1, lipoic acid",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "↑ intake of ketogenic nutrients (eg, high fat content or ↑ lysine and leucine), B1 and lipoic acid.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "ALT (B6): alanine carries amino groups to the liver from muscle",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Alanine aminotransferase (B6): alanine carries amino groups to the liver from muscle",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Pyruvate carboxylase (B7): oxaloacetate replenishes TCA or feeds gluconeogenesis",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Pyruvate carboxylase (B7): oxaloacetate can replenish TCA cycle or be used in gluconeogenesis",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "PDH (B1, B2, B3, B5, lipoic acid): transition from glycolysis to TCA",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Pyruvate dehydrogenase (B1, B2, B3, B5, lipoic acid): transition from glycolysis to the TCA cycle",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "LDH (B3): end of anaerobic glycolysis — RBCs, WBCs, kidney medulla, lens, cornea, Sertoli cells",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Lactic acid dehydrogenase (B3): end of anaerobic glycolysis (major pathway in RBCs, WBCs, kidney medulla, lens, cornea, and Sertoli cells in testes)",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Cahill cycle and Cori cycle labels on the pyruvate hub figure",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Cahill cycle",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "TCA yield: 3 NADH, 1 FADH2, 2 CO2, 1 GTP per acetyl-CoA = 10 ATP",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "The TCA cycle produces 3 NADH, 1 FADH2, 2 CO2, 1 GTP per acetyl-CoA = 10 ATP/ acetyl-CoA (2× everything per glucose). TCA cycle reactions occur in the mitochondria.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Pyruvate → acetyl-CoA produces 1 NADH, 1 CO2",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Pyruvate → acetyl-CoA produces 1 NADH, 1 CO2.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "α-KG dehydrogenase requires the same cofactors as PDH (B1, B2, B3, B5, lipoic acid)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "α-ketoglutarate dehydrogenase complex requires the same cofactors as the pyruvate dehydrogenase complex (vitamins B1, B2, B3, B5, lipoic acid).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Citrate is Krebs' starting substrate for making oxaloacetate",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Citrate is Krebs’ starting substrate for making oxaloacetate.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "TCA figure: enzymes are irreversible (starred)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "* Enzymes are irreversible",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "TCA figure: citrate synthase entry",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "e synthase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "TCA figure: isocitrate dehydrogenase",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     97
+    ],
+    "bookPages": "75"
+   },
+   "quote": "Isocitrate dehydrogenase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "pdh-cofactor-panel",
+  "pyruvate-hub",
+  "tca-cycle-map"
+ ],
+ "mechanismIds": [
+  "pdh-five-cofactor-relay",
+  "pyruvate-hub-four-exits"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (cofactor stems, arsenic stems, deficiency stems, ATP-accounting stems, irreversible-enzyme stems, plus the infant-lactic-acidosis mini-case with the lactate:pyruvate ratio discriminator)."
+  },
+  {
+   "id": "assembly-line-model",
+   "origin": "outside-first-aid",
+   "rationale": "Framing PDH as a five-station B-vitamin assembly line (TPP decarboxylates, lipoic acid swings, CoA receives, FAD relays, NAD+ collects) and the hub as four vitamin-handled doors is a KYP-original scaffold over the source's separate lists.",
+   "location": "core.keyIdea + mechanisms 'pdh-five-cofactor-relay' and 'pyruvate-hub-four-exits'",
+   "summary": "The relay-and-doors model that turns two cofactor lists and a pathway figure into one causal machine with arsenic and thiamine failure modes."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

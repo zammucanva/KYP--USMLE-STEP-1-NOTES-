@@ -1,0 +1,88 @@
+{
+  "topicId": "flow-cytometry-elisa",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "flow-cytometry-elisa-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+      "topicId": "flow-cytometry-elisa",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "Flow cytometer: fluorescent cells through laser to detector",
+      "sourceFigureDescription": "Instrument schematic: labeled cells in droplet stream → laser excitation → detectors (FSC/SSC, fluorescence) → computer separation",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "flow-cytometry-laser-path",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "flow-cytometry-elisa-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+      "topicId": "flow-cytometry-elisa",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "Quadrant dot plot of CD3 vs CD8 expression",
+      "sourceFigureDescription": "Scatter plot quadrants: CD3+CD8+ (cytotoxic T cells), CD3+CD8− region, double-negative, double-positive populations",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "cd-cd-quadrant-plot",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "flow-cytometry-elisa-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          74
+        ],
+        "bookPages": "52"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Laboratory Techniques — Flow Cytometry & ELISA",
+      "topicId": "flow-cytometry-elisa",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Direct vs indirect ELISA mechanism",
+      "sourceFigureDescription": "Well-plate schematics: direct ELISA (patient antigen + labeled antibody) vs indirect (patient antibody detected by labeled anti-Ig)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "elisa-direct-indirect",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "flow-cytometry-elisa",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The flow-cytometry instrument schematic is a KYP adaptation preserving the source's component set (cell, Anti-CD3/anti-CD8 antibodies with fluorescent labels, laser, detector, the two annotations). The quadrant plot is an original redraw preserving the source's log axes (10⁰–10⁴), axis assignment (X = CD8, Y = CD3), all four quadrant populations, and the source's empty-right-lower-quadrant explanation. The ELISA figure is an original redraw preserving both layer stacks (direct: antigen + labeled 1° antibody + enzyme + substrate → signal; indirect: antigen + 1° antibody + labeled 2° antibody + enzyme + substrate → signal)."
+}

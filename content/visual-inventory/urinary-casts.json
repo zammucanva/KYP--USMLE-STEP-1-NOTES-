@@ -1,0 +1,337 @@
+{
+  "topicId": "urinary-casts",
+  "chapterId": "renal",
+  "inventory": [
+    {
+      "visualId": "urinary-casts-sv1",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Cast morphology atlas",
+      "sourceFigureDescription": "Microscopic images of urinary casts: RBC cast, granular cast, fatty cast (Maltese cross), hyaline cast",
+      "part": 2,
+      "pdfPages": [
+        204
+      ],
+      "bookPages": "612",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "urinary-cast-gallery",
+      "kypImplementation": "registry-visual",
+      "notes": "KYP gallery renders schematic light-microscopy views of the six cast types (schematic-renderable morphology)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv2",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Glomerular nomenclature",
+      "sourceFigureDescription": "Nomenclature of glomerular disorders (focal, diffuse, proliferative, membranous...)",
+      "part": 2,
+      "pdfPages": [
+        204
+      ],
+      "bookPages": "612",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Glomerular nomenclature decoder'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "612"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv3",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "Filtration barrier mechanisms",
+      "sourceFigureDescription": "Glomerular filtration barrier diagram showing mechanisms of nephritic, nephrotic, and mixed syndromes",
+      "part": 2,
+      "pdfPages": [
+        205
+      ],
+      "bookPages": "613",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Nephritic vs nephrotic — the two syndromes casts distinguish' (mechanism columns)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "613"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv4",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Nephritic vs nephrotic",
+      "sourceFigureDescription": "Comparison table of nephritic vs nephrotic vs mixed syndromes (etiology, presentation, examples)",
+      "part": 2,
+      "pdfPages": [
+        205
+      ],
+      "bookPages": "613",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Nephritic vs nephrotic — the two syndromes casts distinguish'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "613"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv5",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Nephritic subtypes",
+      "sourceFigureDescription": "Detailed table of nephritic syndrome subtypes (infection-related, IgA nephropathy, RPGN, diffuse proliferative) with microscopy and IF",
+      "part": 2,
+      "pdfPages": [
+        206
+      ],
+      "bookPages": "614",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Nephritic glomerular diseases — the level below the syndrome'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "614"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv6",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Acute pyelonephritis histology",
+      "sourceFigureDescription": "Histology showing neutrophilic infiltration in acute pyelonephritis",
+      "part": 2,
+      "pdfPages": [
+        211
+      ],
+      "bookPages": "619",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Pyelonephritis histology recognition — WBC-cast diagnosis is carried in the note's table 'The two renal infections — casts separate them'; tissue histology deferred to the renal-pathology pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "619"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv7",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Chronic pyelonephritis histology",
+      "sourceFigureDescription": "Histology showing thyroidization of the kidney in chronic pyelonephritis",
+      "part": 2,
+      "pdfPages": [
+        211
+      ],
+      "bookPages": "619",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Chronic pyelonephritis histology recognition — carried diagnostically in the note's infection table; tissue histology deferred (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "619"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv8",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "AKI classification",
+      "sourceFigureDescription": "Table classifying acute kidney injury into prerenal azotemia, intrinsic renal failure, postrenal obstruction",
+      "part": 2,
+      "pdfPages": [
+        212
+      ],
+      "bookPages": "620",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'AKI ladder — place the cast in the algorithm'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "620"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv9",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Muddy brown cast",
+      "sourceFigureDescription": "Image of a muddy brown granular cast characteristic of acute tubular necrosis",
+      "part": 2,
+      "pdfPages": [
+        213
+      ],
+      "bookPages": "621",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "urinary-cast-gallery",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "621"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv10",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "ATN tubular histology",
+      "sourceFigureDescription": "Histology showing necrotic tubular cells sloughing into the lumen in ATN",
+      "part": 2,
+      "pdfPages": [
+        213
+      ],
+      "bookPages": "621",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "ATN tubular histology recognition — muddy-brown cast morphology carried by the cast gallery; tissue histology deferred to the ATN topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "621"
+      }
+    },
+    {
+      "visualId": "urinary-casts-sv11",
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Papillary necrosis gross",
+      "sourceFigureDescription": "Gross pathology image of a necrotic renal papilla in renal papillary necrosis",
+      "part": 2,
+      "pdfPages": [
+        213
+      ],
+      "bookPages": "621",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Gross-pathology recognition — entity covered diagnostically in the note's table 'Adjacent high-yield: renal papillary necrosis & AIN'; photographic recognition deferred (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "urinary-casts",
+      "chapterId": "renal",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "621"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "urinary-casts",
+    "textbookVisualCount": 11,
+    "accountedFor": 11,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 5,
+    "unresolved": 0,
+    "omitted": 4,
+    "omissionReasons": [
+      "urinary-casts-sv6: Pyelonephritis histology recognition — WBC-cast diagnosis is carried in the note's table 'The two renal infections — casts separate them'; tissue histology deferred to the renal-pathology pass (Phase I-C)",
+      "urinary-casts-sv7: Chronic pyelonephritis histology recognition — carried diagnostically in the note's infection table; tissue histology deferred (Phase I-C)",
+      "urinary-casts-sv10: ATN tubular histology recognition — muddy-brown cast morphology carried by the cast gallery; tissue histology deferred to the ATN topic (Phase I-C)",
+      "urinary-casts-sv11: Gross-pathology recognition — entity covered diagnostically in the note's table 'Adjacent high-yield: renal papillary necrosis & AIN'; photographic recognition deferred (Phase I-C)"
+    ],
+    "complete": true
+  }
+}

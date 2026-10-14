@@ -1,0 +1,729 @@
+{
+  "topicId": "ketone-bodies",
+  "title": "Ketone Bodies & Fed/Fasted States",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Ketone Bodies & Fed/Fasted States",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      110
+    ],
+    "bookPages": "88"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading: ketone bodies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Ketone bodies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ketogenesis site/substrates",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "In the liver, fatty acids and amino acids\nare metabolized to acetoacetate and\nβ-hydroxybutyrate (to be used in muscle\nand brain).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OAA depletion in starvation/DKA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "In prolonged starvation and diabetic\nketoacidosis, oxaloacetate is depleted for\ngluconeogenesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alcohol NADH mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "In chronic alcohol overuse,\n↑ NADH → shunting of oxaloacetate to\nmalate → TCA cycle downregulation\n→ ↓ gluconeogenesis → fasting hypoglycemia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Three ketone bodies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Ketone bodies: acetone (ketone), acetoacetate\n(ketoacid), β-hydroxybutyrate (ketoacid).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fruity breath",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Breath smells like acetone (fruity odor).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Urine test limitation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Urine test for ketones can detect acetoacetate,\nbut not β-hydroxybutyrate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RBC fact",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "RBCs cannot utilize ketone bodies; they strictly\nuse glucose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Liver enzyme lack",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Liver cells lack β ketoacyl-CoA\ntransferase → cannot use ketone bodies as fuel.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HMG-CoA enzyme pair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "HMG-CoA lyase for ketone body production.\nHMG-CoA reductase for cholesterol synthesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: hyperammonemia column",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Hyperammonemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: hypoketosis column",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Hypoketosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: ketosis column",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Ketosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: ketone levels row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "KETONE LEVELS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: glucose levels row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "GLUCOSE LEVELS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: deficiency row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "DEFICIENCY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: OTC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "OTC (urea cycle)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: MCAD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "MCAD deficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table: organic acidemias",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Methylmalonic acidemia, propionic acidemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: hepatocyte label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Hepatocyte\n(liver)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: extrahepatic label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Extrahepatic tissues\n(eg, skeletal muscle)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: blood label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Blood",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: 2 acetyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "2 Acetyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: acetoacetyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Acetoacetyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: acetyl-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Acetyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: acetoacetate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Acetoacetate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: beta-hydroxybutyrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "β-hydroxybutyrate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: expired by lungs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Expired by lungs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: fatty acids amino acids input",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Fatty acids, amino acids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: ketogenesis label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Ketogenesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: HMG-CoA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "HMG-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: acetone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Acetone",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: TCA cycle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "TCA cycle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: adipocyte fasted",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Adipocyte (fasted)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: adipocyte fed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Adipocyte (fed)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: HSL",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "HSL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: protein kinase A",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Protein kinase A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: epinephrine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Epinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: cAMP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "cAMP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glucagon",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Glucagon",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: insulin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Insulin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: HSL-P",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "HSL-P",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: DHAP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "DHAP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycerol 3-P",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Glycerol 3-P",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: FFA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "FFA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: glycerol",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Glycerol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: LPL",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "LPL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: Apo CII",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Apo CII",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure: lipid metabolism label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Lipid metabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fasted vs fed heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          110
+        ],
+        "bookPages": "88"
+      },
+      "quote": "Fasted vs fed state",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "ketone-body-shuttle",
+    "adipocyte-fed-fasted"
+  ],
+  "mechanismIds": [
+    "ketone-shuttle",
+    "adipocyte-two-jobs"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (fruity-breath DKA stems, urine-test-discordance stems, liver-cannot-spend stems, the ketone/glucose table pivots, plus the DKA mini-case with the β-hydroxybutyrate discordance)."
+    },
+    {
+      "id": "one-way-valve-model",
+      "origin": "outside-first-aid",
+      "rationale": "Reading the ketone pathway as a shuttle with a one-way valve (liver loads, extrahepatic unloads, liver lacks the unloading enzyme) is a KYP-organizing scaffold over the source figure.",
+      "location": "core.keyIdea + mechanism 'ketone-shuttle' caption + visual captions",
+      "summary": "The maker-cannot-spender economy: hepatocyte exports acetoacetate/β-hydroxybutyrate, muscle and brain recover acetyl-CoA via β-ketoacyl-CoA transferase, and acetone is the breath-borne leak."
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-14"
+}

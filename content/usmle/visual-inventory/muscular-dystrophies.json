@@ -1,0 +1,65 @@
+{
+  "topicId": "muscular-dystrophies",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "muscular-dystrophies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Muscular Dystrophies",
+      "topicId": "muscular-dystrophies",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Gowers sign sequence in Duchenne muscular dystrophy",
+      "sourceFigureDescription": "Illustrated sequence of a boy rising from the floor: hands and knees, buttocks raised, pushing on the leg to stand, standing with lordosis; arrows label calf pseudohypertrophy, lordosis, and thigh atrophy",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "gowers-sequence",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "muscular-dystrophies-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          81
+        ],
+        "bookPages": "59"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Muscular Dystrophies",
+      "topicId": "muscular-dystrophies",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Dystrophic muscle histology",
+      "sourceFigureDescription": "H&E image (A): muscle fibers bracket, pale fibrofatty-replacement patches marked by red arrows",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "dmd-histology-pattern",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "muscular-dystrophies",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both source images are original KYP schematic redraws preserving diagnostic patterns without reproducing photographs: the Gowers illustration as a four-stage stick-figure sequence (hands-and-knees → buttocks raised → pushing on leg to stand → standing with lordosis, with calf pseudohypertrophy / lordosis / thigh atrophy labels), and the histology image A as a schematic H&E-pattern field (polygonal fibers with peripheral nuclei, three arrowed pale fibrofatty-replacement patches, the muscle-fibers bracket, and the boxed A)."
+}

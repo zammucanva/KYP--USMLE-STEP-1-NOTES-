@@ -1,0 +1,43 @@
+{
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "number": 5,
+  "part": 1,
+  "section": "II",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 249,
+      "to": 276
+    }
+  ],
+  "bookPages": "227–254",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "sympathomimetics",
+      "title": "Sympathomimetics",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262,
+          263,
+          264,
+          265
+        ],
+        "bookPages": "240–243"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "sympath-receptor-grid",
+        "epi-reversal"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

@@ -1,0 +1,65 @@
+{
+ "topicId": "b-vitamins-1",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "b-vitamins-1-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Riboflavin deficiency: cheilosis and magenta tongue",
+   "sourceFigureDescription": "Clinical photograph: angular stomatitis/cheilosis with magenta-colored tongue — B2 deficiency signs",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Water-Soluble Vitamins (B1–B5)",
+   "topicId": "b-vitamins-1",
+   "kypVisualId": "riboflavin-deficiency-signs",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "b-vitamins-1-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     87
+    ],
+    "bookPages": "65"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "DERMATOLOGY_PHOTO",
+   "visualPurpose": "Pellagra Casal necklace",
+   "sourceFigureDescription": "Clinical photograph: hyperpigmented scaling dermatitis in a necklace distribution over the neck/upper chest — niacin (B3) deficiency",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Water-Soluble Vitamins (B1–B5)",
+   "topicId": "b-vitamins-1",
+   "kypVisualId": "pellagra-casal-necklace",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "b-vitamins-1",
+  "textbookVisualCount": 2,
+  "accountedFor": 2,
+  "sourceReproductions": 0,
+  "kypRedraws": 2,
+  "kypOriginals": 0,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "Both photographs (cheilosis label A and Casal necklace label A, pdf 87 / book 65) are drawn as diagnostic-pattern-preserving KYP originals (angular-fissure mouth; C3/C4 collar + sun-exposed forearm hyperpigmentation). No source artwork reproduced."
+}

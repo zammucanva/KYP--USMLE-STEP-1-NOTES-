@@ -1,0 +1,141 @@
+{
+  "topicId": "sympathomimetics",
+  "title": "Sympathomimetics",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Autonomic Pharmacology — Sympathomimetics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      262,
+      263,
+      264,
+      265
+    ],
+    "bookPages": "240–243"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Sympathomimetics are classified as direct and indirect acting",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          263
+        ],
+        "bookPages": "241"
+      },
+      "quote": "Direct sympathomimetics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Epinephrine has β > α receptor activity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      },
+      "quote": "Epinephrine (β > α)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Norepinephrine has α > β receptor activity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      },
+      "quote": "Norepinephrine (α > β)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Isoproterenol has β1 ≈ β2 activity with little α effect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      },
+      "quote": "Isoproterenol (β1 ≈ β2)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "After α-blockade, phenylephrine response is suppressed but not reversed (vs epinephrine reversal)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      },
+      "quote": "Phenylephrine response is suppressed but not reversed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "sympath-receptor-grid",
+    "epi-reversal"
+  ],
+  "mechanismIds": [
+    "norepinephrine-hemodynamics",
+    "isoproterenol-hemodynamics",
+    "epi-reversal"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "updatedAt": "2026-10-07"
+}

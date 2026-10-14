@@ -1,0 +1,69 @@
+{
+  "chapterId": "renal",
+  "chapterTitle": "Renal",
+  "number": 14,
+  "part": 2,
+  "section": "III",
+  "pdfRanges": [
+    {
+      "part": 2,
+      "from": 187,
+      "to": 220
+    }
+  ],
+  "bookPages": "595–628",
+  "extractionStatus": "registered",
+  "topics": [
+    {
+      "topicId": "urinary-casts",
+      "title": "Urinary Casts",
+      "subsection": "Renal Pathology — Glomerular, Tubulointerstitial & AKI",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          204,
+          205,
+          206,
+          211,
+          212,
+          213
+        ],
+        "bookPages": "612–614, 619–621"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "urinary-cast-gallery"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    },
+    {
+      "topicId": "acid-base-physiology",
+      "title": "Acid-Base Physiology",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          196,
+          200,
+          201,
+          202,
+          203,
+          219
+        ],
+        "bookPages": "604, 608–611, 627"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "acid-base-map",
+        "acid-base-algorithm"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    }
+  ],
+  "pendingTopicCount": null,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+}

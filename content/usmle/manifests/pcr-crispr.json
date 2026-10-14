@@ -1,0 +1,275 @@
+{
+  "topicId": "pcr-crispr",
+  "title": "PCR & CRISPR/Cas9",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Laboratory Techniques — Nucleic Acid Amplification & Editing",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      72,
+      73
+    ],
+    "bookPages": "50–51"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "PCR is a molecular biology lab procedure used to amplify a desired fragment of DNA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Molecular biology lab procedure used to amplify a desired fragment of DNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PCR is useful as a diagnostic tool (eg, neonatal HIV, herpes encephalitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Useful as a diagnostic tool (eg, neonatal HIV, herpes encephalitis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Denaturation: DNA template, DNA primers, heat-stable DNA polymerase, and dNTPs are heated to separate the DNA strands",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "are heated to separate the DNA strands",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Annealing: the sample is cooled and DNA primers anneal to the specific sequence to be amplified on the DNA template",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "DNA primers anneal to the specific sequence to be amplified on the DNA template",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elongation: temperature is increased; DNA polymerase adds dNTPs to the strand to replicate the sequence after each primer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "DNA polymerase adds dNTPs to the strand to replicate the sequence after each primer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heating and cooling cycles continue until the amount of DNA is sufficient",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Heating and cooling cycles continue until the amount of DNA is sufficient",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source figure labels the input as double-stranded DNA with 5′/3′ ends and loops back to Repeat",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Double-stranded DNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CRISPR/Cas9 is a genome editing tool derived from bacteria",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "A genome editing tool derived from bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The system consists of a guide RNA (gRNA) complementary to a target DNA sequence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "which is complementary to a target DNA sequence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cas9 is an endonuclease making a single- or double-strand break at the target site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "makes a single- or double-strand break at the target site",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Applications include removing virulence factors from pathogens, replacing disease-causing alleles (eg, sickle cell disease), and specifically targeting tumor cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "removing virulence factors from pathogens, replacing disease-causing alleles",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: the NHEJ branch produces frameshift/inactivation ('knock-out')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Frameshift/inactivation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: the HDR branch with donor DNA produces the edited sequence ('knock-in')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Edited sequence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: donor DNA participates in the HDR branch",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "Donor DNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels name the two branches NHEJ and HDR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          73
+        ],
+        "bookPages": "51"
+      },
+      "quote": "NHEJ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pcr-cycle-steps",
+    "crispr-cas9-mechanism"
+  ],
+  "mechanismIds": [
+    "pcr-thermal-cycle",
+    "crispr-cas9-editing-fork"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (tool-matching patterns, repair-fork traps, component pivots, neonatal-HIV mini-case with answer autopsy) built on the cited First Aid pages."
+    },
+    {
+      "id": "pcr-application-layer",
+      "origin": "outside-first-aid",
+      "summary": "The antibody-logic framing of the neonatal HIV application (maternal IgG defeats serology, so the viral genome must be measured directly) and the exponential 2ⁿ-per-cycle arithmetic behind 'until the amount of DNA is sufficient'.",
+      "rationale": "First Aid names the two diagnostic uses in one line and the cycle repeat in another; the WHY of each application and the quantitative meaning of the repeat are KYP pedagogy.",
+      "location": "core.what; clinical blocks 'Neonatal HIV — the antibody-proof diagnosis'; mechanism pcr-thermal-cycle output o1"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

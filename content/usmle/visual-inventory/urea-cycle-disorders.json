@@ -1,0 +1,89 @@
+{
+  "topicId": "urea-cycle-disorders",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "urea-cycle-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          102
+        ],
+        "bookPages": "80"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Urea overall reaction reactants",
+      "sourceFigureDescription": "The page's overall-reaction summary: NH3 + CO2 + aspartate (2 nitrogen sources) + 3 ATP → urea + fumarate, with the energy cost and byproducts.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Urea Cycle",
+      "topicId": "urea-cycle-disorders",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[2] — 'The overall reaction' table block",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "urea-cycle-disorders-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          102
+        ],
+        "bookPages": "80"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Urea cycle map across mitochondria and cytosol",
+      "sourceFigureDescription": "The p. 80 wheel: ornithine + carbamoyl phosphate (CPS I, mitochondrial, NAG-activated, rate-limiting, 2 ATP) → citrulline (OTC) → cytosol → argininosuccinate (ASS, ATP→AMP+PPi) → arginine (ASL, fumarate out) → urea + ornithine (arginase); OTC block → orotic acid.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Urea Cycle",
+      "topicId": "urea-cycle-disorders",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "urea-cycle-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "urea-cycle-disorders-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          102
+        ],
+        "bookPages": "80"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Alanine transport of ammonia from muscle to liver",
+      "sourceFigureDescription": "The p. 80 muscle–blood–liver diagram: pyruvate + NH3 → alanine (ALT, B6) in muscle; blood alanine → liver → pyruvate + NH3 → urea cycle; glucose returns (Cahill cycle) beside the Cori cycle's lactate.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Urea Cycle",
+      "topicId": "urea-cycle-disorders",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "alanine-glucose-shuttle",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "urea-cycle-disorders",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "sv1 (VISUAL_TABLE) implemented as the note's overall-reaction table block (note-block pattern per G3); sv2 the full wheel redraw; sv3 the shuttle adaptation."
+}

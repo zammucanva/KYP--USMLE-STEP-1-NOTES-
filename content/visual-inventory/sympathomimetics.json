@@ -1,0 +1,192 @@
+{
+  "topicId": "sympathomimetics",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "visualId": "sympathomimetics-sv1",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Anticholinergic system reference",
+      "sourceFigureDescription": "Muscarinic antagonists table (atropine, benztropine...) by organ system",
+      "part": 1,
+      "pdfPages": [
+        262
+      ],
+      "bookPages": "240",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Anticholinergics — adjacent pharmacology topic sharing the page; atropine's AV-block use is covered by the av-conduction-blocks note",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      }
+    },
+    {
+      "visualId": "sympathomimetics-sv2",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Atropine actions",
+      "sourceFigureDescription": "Atropine organ-system actions with DUMBBELSS mnemonic layout",
+      "part": 1,
+      "pdfPages": [
+        262
+      ],
+      "bookPages": "240",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Anticholinergics — adjacent pharmacology topic sharing the page",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      }
+    },
+    {
+      "visualId": "sympathomimetics-sv3",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Sympathomimetic classification",
+      "sourceFigureDescription": "Sympathomimetics table categorizing direct and indirect drugs by receptor site, hemodynamic changes, and applications",
+      "part": 1,
+      "pdfPages": [
+        263
+      ],
+      "bookPages": "241",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: tables 'The three intravenous catecholamines side by side' + 'Indirect-acting sympathomimetics' + 'Selected direct agonists — use-cases worth overlearning'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          263
+        ],
+        "bookPages": "241"
+      }
+    },
+    {
+      "visualId": "sympathomimetics-sv4",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Catecholamine hemodynamic traces",
+      "sourceFigureDescription": "Physiologic effects graphs: blood pressure, heart rate, peripheral resistance for norepinephrine, epinephrine, isoproterenol",
+      "part": 1,
+      "pdfPages": [
+        264
+      ],
+      "bookPages": "242",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The three intravenous catecholamines side by side' (hemodynamic columns)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      }
+    },
+    {
+      "visualId": "sympathomimetics-sv5",
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Epinephrine reversal experiment",
+      "sourceFigureDescription": "Comparison graphs showing the effect of α-blockade on blood pressure and heart rate for epinephrine vs phenylephrine",
+      "part": 1,
+      "pdfPages": [
+        264
+      ],
+      "bookPages": "242",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "epi-reversal",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          264
+        ],
+        "bookPages": "242"
+      }
+    },
+    {
+      "visualId": "sympathomimetics-sv6",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "α-blocker antidote context",
+      "sourceFigureDescription": "Sympatholytics (α-agonists) and α-blockers table with applications and adverse effects",
+      "part": 1,
+      "pdfPages": [
+        265
+      ],
+      "bookPages": "243",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The antidote side of the map — α-blockers (context completes the system)'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "sympathomimetics",
+      "chapterId": "pharmacology",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "sympathomimetics",
+    "textbookVisualCount": 6,
+    "accountedFor": 6,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 2,
+    "omissionReasons": [
+      "sympathomimetics-sv1: Anticholinergics — adjacent pharmacology topic sharing the page; atropine's AV-block use is covered by the av-conduction-blocks note",
+      "sympathomimetics-sv2: Anticholinergics — adjacent pharmacology topic sharing the page"
+    ],
+    "complete": true
+  }
+}

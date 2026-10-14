@@ -1,0 +1,286 @@
+{
+ "topicId": "vitamin-d",
+ "title": "Vitamin D",
+ "chapterId": "biochemistry",
+ "chapterTitle": "Biochemistry",
+ "subsection": "Nutrition — Fat-Soluble Vitamins",
+ "part": 1,
+ "sourcePages": {
+  "part": 1,
+  "pdfPages": [
+   90
+  ],
+  "bookPages": "68"
+ },
+ "sourceEvidence": [
+  {
+   "claim": "D3 (cholecalciferol): sun on skin (stratum basale), fish, milk, plants",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "D3 (cholecalciferol) from exposure of skin (stratum basale) to sun, ingestion of fish, milk, plants.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "D2 (ergocalciferol): plants, fungi, yeasts",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "D2 (ergocalciferol) from ingestion of plants, fungi, yeasts.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Liver 25-hydroxylase → 25-OH D3 storage; kidney → 1,25-(OH)2 D3 calcitriol",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Both converted to 25-OH D3 (storage form) in liver and to the active form 1,25-(OH)2 D3 (calcitriol) in kidney.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Function: ↑intestinal absorption of Ca2+ and PO43–",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "↑ intestinal absorption of Ca2+ and",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Function: mineralization at low levels, resorption at higher levels",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "↑ bone mineralization at low levels. ↑ bone resorption at higher levels.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Deficiency: rickets with genu varum (photograph label A), osteomalacia, hypocalcemic tetany",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Rickets in children (deformity, such as genu varum “bowlegs” A ), osteomalacia in adults (bone pain and muscle weakness), hypocalcemic tetany.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Deficiency causes: malabsorption, ↓sun, poor diet, CKD, advanced liver disease",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Caused by malabsorption, ↓ sun exposure, poor diet, chronic kidney disease (CKD), advanced liver disease.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Give oral vitamin D to breastfed infants; darker skin and prematurity predispose",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Give oral vitamin D to breastfed infants. Darker skin and prematurity predispose to deficiency.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Excess: hypercalcemia, hypercalciuria, loss of appetite, stupor",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Hypercalcemia, hypercalciuria, loss of appetite, stupor.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Granulomatous disease: ↑activation by epithelioid macrophages",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Seen in granulomatous diseases (↑ activation of vitamin D by epithelioid macrophages).",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Regulation: ↑PTH, ↓Ca → ↑1,25-(OH)2 D3 production",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "↑ PTH, ↓ Ca → ↑ 1,25-(OH)2D3 production.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Regulation: 1,25-(OH)2 D3 feedback inhibits its own production",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "1,25-(OH)2D3 feedback inhibits its own production.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Regulation: ↑PTH → ↑Ca2+ reabsorption, ↓PO43– reabsorption in kidney",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "↑ PTH → ↑ Ca2+ reabsorption and ↓ PO43– reabsorption in the kidney.",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: 25-hydroxylase (liver step)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "25-hydroxylase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: 1α-hydroxylase (kidney step)",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "1α-hydroxylase",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  },
+  {
+   "claim": "Figure: target organs — bone, intestines, renal tubular cells",
+   "pages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "quote": "Renal tubular cells",
+   "verified": "pass",
+   "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+  }
+ ],
+ "visualIds": [
+  "vitamin-d-activation-cascade",
+  "rickets-radiograph-pattern"
+ ],
+ "mechanismIds": [
+  "vitamin-d-activation-regulation"
+ ],
+ "kypExtensions": [
+  {
+   "id": "usmle-attack-layer",
+   "origin": "outside-first-aid",
+   "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+   "location": "usmle section (patterns, traps, pivots, miniCase)",
+   "summary": "KYP-authored exam-strategy synthesis (genu varum stem, CKD activation-failure stem, sarcoid hypercalcemia stem, regulation stem, plus the rickets mini-case with answer autopsy)."
+  },
+  {
+   "id": "hydroxylation-ladder",
+   "origin": "outside-first-aid",
+   "rationale": "The four-form ladder with measured-vs-regulated step labels and the CKD/granuloma failure modes hung on it is a KYP-original scaffold; the source lists the facts separately.",
+   "location": "core.keyIdea + table 'D3 vs D2 vs the two hydroxylated forms'",
+   "summary": "The source → liver(25) → kidney(1α) ladder with which level to measure, which step PTH controls, and which organ's failure gives which disease."
+  }
+ ],
+ "mnemonicStatus": "authored",
+ "qa": {
+  "sourceVerified": "pass",
+  "contentComplete": "pass",
+  "miniCaseConsistent": "pass",
+  "kypExtensionsTraceable": "pass",
+  "mnemonicQuality": "pass",
+  "visualsPaint": "pass",
+  "visualCoverage": "pass",
+  "mechanismRender": "pass",
+  "lightMode": "pass",
+  "darkMode": "pass",
+  "mobile": "pass",
+  "desktop": "pass",
+  "consoleClean": "pass",
+  "captionsReadable": "pass",
+  "trackerSynced": "pass"
+ },
+ "stages": {
+  "sourceLocated": "pass",
+  "chapterMapped": "pass",
+  "subsectionMapped": "pass",
+  "topicScoped": "pass",
+  "evidencePinned": "pass",
+  "noteAuthored": "pass",
+  "visualsAuthored": "pass",
+  "mechanismAuthored": "pass",
+  "clinicalAuthored": "pass",
+  "pivotsAuthored": "pass",
+  "trapsAuthored": "pass",
+  "mnemonicAuthored": "pass",
+  "rapidReviewAuthored": "pass",
+  "relatedAuthored": "pass",
+  "qaPassed": "pass",
+  "trackerSynced": "pass"
+ },
+ "productionStatus": "chapter-complete",
+ "updatedAt": "2026-10-10"
+}

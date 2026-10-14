@@ -1,0 +1,66 @@
+{
+  "topicId": "chromosomal-disorders",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "chromosomal-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          84
+        ],
+        "bookPages": "62"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Structural Chromosomal Disorders",
+      "topicId": "chromosomal-disorders",
+      "visualType": "FLOWCHART",
+      "visualPurpose": "Robertsonian translocation gamete outcomes",
+      "sourceFigureDescription": "Flow diagram: normal gamete precursor → Robertsonian translocation (acrocentric fusion, short arms lost) → unbalanced gamete precursor → meiosis → normal gamete + abnormal gametes",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "robertsonian-translocation-outcomes",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "chromosomal-disorders-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          84
+        ],
+        "bookPages": "62"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Genetics — Structural Chromosomal Disorders",
+      "topicId": "chromosomal-disorders",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Genetic disorders mapped by chromosome",
+      "sourceFigureDescription": "The chromosome-to-selected-examples table (chromosomes 3 through X with their disease rows)",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks: table 'Genetic disorders by chromosome — the exam's map'"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "chromosomal-disorders",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The Robertsonian figure is an original KYP redraw preserving the source's stage flow and labels (Normal gamete precursor, Robertsonian translocation, Unbalanced gamete precursor, Meiosis, Normal gamete, Abnormal gametes) with the balanced-vs-unbalanced outcome chips. The chromosome map is implemented as the note's table block with the source's verbatim pairings. VLM scan of p85 confirmed the Williams section is text-only (no photographs on the Genetics portion)."
+}

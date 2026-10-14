@@ -1,0 +1,65 @@
+{
+ "topicId": "vitamin-d",
+ "chapterId": "biochemistry",
+ "inventory": [
+  {
+   "visualId": "vitamin-d-sv1",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "RADIOLOGY",
+   "visualPurpose": "Rickets radiograph with bowed legs",
+   "sourceFigureDescription": "Pediatric lower-extremity radiograph showing genu varum with frayed metaphyses — the vitamin D deficiency radiographic pattern",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Fat-Soluble Vitamins",
+   "topicId": "vitamin-d",
+   "kypVisualId": "rickets-radiograph-pattern",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  },
+  {
+   "visualId": "vitamin-d-sv2",
+   "sourceBook": "First Aid for the USMLE Step 1 2026",
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     90
+    ],
+    "bookPages": "68"
+   },
+   "chapterId": "biochemistry",
+   "visualType": "ENDOCRINE_DIAGRAM",
+   "visualPurpose": "Vitamin D synthesis and activation cascade",
+   "sourceFigureDescription": "Flowchart: 7-dehydrocholesterol + UVB → cholecalciferol (D3) → 25-OH in liver → 1,25-(OH)2 in kidney (PTH ↑, phosphate ↓ regulate) → intestinal Ca/P absorption, bone mineralization",
+   "requiredInKYP": true,
+   "implementationType": "ORIGINAL_KYP_REDRAW",
+   "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+   "subsection": "Nutrition — Fat-Soluble Vitamins",
+   "topicId": "vitamin-d",
+   "kypVisualId": "vitamin-d-activation-cascade",
+   "kypImplementation": "registry-visual",
+   "qaStatus": "passed"
+  }
+ ],
+ "coverageAudit": {
+  "topicId": "vitamin-d",
+  "textbookVisualCount": 2,
+  "accountedFor": 2,
+  "sourceReproductions": 0,
+  "kypRedraws": 2,
+  "kypOriginals": 0,
+  "unresolved": 0,
+  "omitted": 0,
+  "omissionReasons": [],
+  "complete": true
+ },
+ "notes": "The genu varum photograph (label A) is drawn as a diagnostic-pattern-preserving KYP original (standing toddler, knee-gap arrow). The synthesis/regulation figure is an original KYP redraw preserving the source's boxes (D3/D2, 25-OH D3, 1,25-(OH)2 D3), enzymes (25-hydroxylase, 1α-hydroxylase), regulation loop, and the three target-organ effects."
+}

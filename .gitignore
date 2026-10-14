@@ -66,3 +66,5 @@ sec01-recovery/
 /upload/
 /PROJECT-KYP/
 /kyp-neon/
+# USMLE pipeline cache — full-text extractions of copyrighted source PDFs, never push
+/.usmle-pipeline-cache/

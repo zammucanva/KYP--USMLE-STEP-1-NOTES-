@@ -1,0 +1,42 @@
+{
+  "topicId": "cell-cycle",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "cell-cycle-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          66
+        ],
+        "bookPages": "44"
+      },
+      "chapterId": "biochemistry",
+      "subsection": "Cellular — Cell Cycle & Checkpoints",
+      "topicId": "cell-cycle",
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "Cell cycle phase map with cyclin-CDK, p53 and Rb checkpoints",
+      "sourceFigureDescription": "Circular G1→S→G2→M diagram with restriction point and G2/M checkpoint, cyclin-CDK pairs, Rb-E2F gate, p53-p21 arrest axis",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "kypVisualId": "cell-cycle-checkpoint-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cell-cycle",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Original KYP redraw of the cell-cycle circle: interphase G1/S/G2 with G0 outside, the G1 restriction point labeled with the source's own words (Rb, p53 modulate), cyclin-CDK → Rb P → E2F release → gene transcription, the p53 → p21 → CDK inhibition arm, the BCL-2/BCL-XL → BAX/BAK → caspase apoptosis branch, and the HPV E6 and Li-Fraumeni annotations on the p53 node."
+}

@@ -1,0 +1,628 @@
+{
+  "topicId": "stroke-syndromes",
+  "chapterId": "neurology",
+  "inventory": [
+    {
+      "visualId": "stroke-syndromes-sv1",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Cortical body map",
+      "sourceFigureDescription": "Motor and sensory homunculi on the cerebral cortex, color-coded by arterial territory",
+      "part": 2,
+      "pdfPages": [
+        105
+      ],
+      "bookPages": "513",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Effects of strokes — the full artery → lesion → symptom table' (face/arm/leg distribution rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "513"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv2",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Arterial territory map",
+      "sourceFigureDescription": "Cerebral arteries cortical distribution in lateral, medial, and inferior views, color-coded by artery (ACA/MCA/PCA)",
+      "part": 2,
+      "pdfPages": [
+        105
+      ],
+      "bookPages": "513",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "stroke-territory-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "513"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv3",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Watershed zone imaging",
+      "sourceFigureDescription": "Axial brain imaging showing watershed zones between arterial territories",
+      "part": 2,
+      "pdfPages": [
+        105
+      ],
+      "bookPages": "513",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Watershed concept carried in the note's territory table and edema/ladder content; imaging recognition deferred to the neuroimaging pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          105
+        ],
+        "bookPages": "513"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv4",
+      "visualType": "TIMELINE",
+      "visualPurpose": "Ischemic neuropathology timeline",
+      "sourceFigureDescription": "Timeline table of histologic features of ischemic brain injury from 12–24 hours (red neurons) to >2 weeks (gliosis)",
+      "part": 2,
+      "pdfPages": [
+        117
+      ],
+      "bookPages": "525",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'TIA vs ischemic stroke' + red-neuron/gliosis time course in the ischemic mechanism content",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          117
+        ],
+        "bookPages": "525"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv5",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "MCA infarct CT",
+      "sourceFigureDescription": "Axial CT scan of the head showing an ischemic stroke in the right MCA territory",
+      "part": 2,
+      "pdfPages": [
+        117
+      ],
+      "bookPages": "525",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "CT recognition — imaging modality logic (CT first, MRI/DWI for early ischemia) is carried in the note's clinical content; radiographic recognition deferred to the neuroimaging pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          117
+        ],
+        "bookPages": "525"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv6",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Cerebral edema imaging",
+      "sourceFigureDescription": "Axial imaging showing vasogenic edema surrounding a lesion with arrows",
+      "part": 2,
+      "pdfPages": [
+        117
+      ],
+      "bookPages": "525",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Edema mechanism carried in the note's table 'Cerebral edema — the deadly parallel process'; imaging recognition deferred (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          117
+        ],
+        "bookPages": "525"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv7",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Stroke syndrome table",
+      "sourceFigureDescription": "Comprehensive table of stroke effects by artery (anterior/middle/posterior circulation): lesion area, symptoms",
+      "part": 2,
+      "pdfPages": [
+        118
+      ],
+      "bookPages": "526",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Effects of strokes — the full artery → lesion → symptom table'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          118
+        ],
+        "bookPages": "526"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv8",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Posterior circulation syndromes",
+      "sourceFigureDescription": "Continuation table covering PICA (lateral medullary) and anterior spinal artery territories",
+      "part": 2,
+      "pdfPages": [
+        119
+      ],
+      "bookPages": "527",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Effects of strokes' (posterior circulation rows) + 'Syndrome quick-recognition ladder'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          119
+        ],
+        "bookPages": "527"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv9",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Ischemic stroke MRI gallery",
+      "sourceFigureDescription": "Four axial MRI images (A–D) showing ischemic strokes in various locations",
+      "part": 2,
+      "pdfPages": [
+        119
+      ],
+      "bookPages": "527",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "MRI recognition — modality logic carried in the note's clinical imaging content; radiographic recognition deferred (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          119
+        ],
+        "bookPages": "527"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv10",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "Neonatal IVH diagram",
+      "sourceFigureDescription": "Coronal diagram of a neonatal brain showing intraventricular hemorrhage",
+      "part": 2,
+      "pdfPages": [
+        119
+      ],
+      "bookPages": "527",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Neonatal intraventricular hemorrhage — perinatal neurology scope, deferred to its own topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          119
+        ],
+        "bookPages": "527"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv11",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Extracranial birth hemorrhages",
+      "sourceFigureDescription": "Table of caput succedaneum, subgaleal hemorrhage, cephalohematoma",
+      "part": 2,
+      "pdfPages": [
+        119
+      ],
+      "bookPages": "527",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Perinatal extracranial hemorrhages — perinatal neurology scope (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          119
+        ],
+        "bookPages": "527"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv12",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Intracranial hemorrhage shapes",
+      "sourceFigureDescription": "Eight axial CT scans (A–H) illustrating epidural (biconvex), subdural (crescentic), subarachnoid, and other hemorrhages",
+      "part": 2,
+      "pdfPages": [
+        120
+      ],
+      "bookPages": "528",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Intracranial hemorrhage — four lesions, four shapes' (shape discrimination absorbed; CT texture recognition deferred to the neuroimaging pass)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "528"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv13",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Diffuse axonal injury MRI",
+      "sourceFigureDescription": "Axial MRI showing diffuse axonal injury with punctate hemorrhages in white matter tracts",
+      "part": 2,
+      "pdfPages": [
+        121
+      ],
+      "bookPages": "529",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "DAI entity carried in the note's injury content; MRI recognition deferred to the trauma-neuroimaging pass (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "529"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv14",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "Aphasia table",
+      "sourceFigureDescription": "Table comparing Broca, Wernicke, conduction, and global aphasias",
+      "part": 2,
+      "pdfPages": [
+        121
+      ],
+      "bookPages": "529",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Aphasia — the language localization table'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "529"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv15",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Language centers map",
+      "sourceFigureDescription": "Lateral brain view highlighting Broca area, Wernicke area, arcuate fasciculus, auditory cortex",
+      "part": 2,
+      "pdfPages": [
+        121
+      ],
+      "bookPages": "529",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Aphasia — the language localization table' (localization rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "529"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv16",
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Berry aneurysm angiogram",
+      "sourceFigureDescription": "Angiogram showing a saccular (berry) aneurysm at a Circle of Willis bifurcation",
+      "part": 2,
+      "pdfPages": [
+        122
+      ],
+      "bookPages": "530",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Aneurysm vessel-wall neighbors carried in the note's table 'Aneurysms — the vessel-wall neighbors'; angiographic recognition deferred (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "530"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv17",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Circle of Willis aneurysm sites",
+      "sourceFigureDescription": "Circle of Willis diagram with numbered common aneurysm locations (ACom, MCA, basilar tip, PCom)",
+      "part": 2,
+      "pdfPages": [
+        122
+      ],
+      "bookPages": "530",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Aneurysms — the vessel-wall neighbors' (site → neighbor rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "530"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv18",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Fever vs heat stroke",
+      "sourceFigureDescription": "Comparison table for fever vs heat stroke",
+      "part": 2,
+      "pdfPages": [
+        122
+      ],
+      "bookPages": "530",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Heat stroke — environmental medicine topic; unrelated to ischemic stroke despite the shared name",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "530"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv19",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Rapid review rows (1)",
+      "sourceFigureDescription": "Pathophysiology rapid-review table rows (Klumpke palsy onward)",
+      "part": 2,
+      "pdfPages": [
+        306
+      ],
+      "bookPages": "714",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          306
+        ],
+        "bookPages": "714"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv20",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Rapid review rows (2)",
+      "sourceFigureDescription": "Pathophysiology rapid-review table rows (pemphigus onward)",
+      "part": 2,
+      "pdfPages": [
+        307
+      ],
+      "bookPages": "715",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          307
+        ],
+        "bookPages": "715"
+      }
+    },
+    {
+      "visualId": "stroke-syndromes-sv21",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Rapid review rows (3)",
+      "sourceFigureDescription": "Pathophysiology rapid-review table rows (subarachnoid hemorrhage onward)",
+      "part": 2,
+      "pdfPages": [
+        308
+      ],
+      "bookPages": "716",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "stroke-syndromes",
+      "chapterId": "neurology",
+      "subsection": "Clinical Neurology — Ischemic Stroke, Hemorrhage & Aphasia",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          308
+        ],
+        "bookPages": "716"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "stroke-syndromes",
+    "textbookVisualCount": 21,
+    "accountedFor": 21,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 8,
+    "unresolved": 0,
+    "omitted": 12,
+    "omissionReasons": [
+      "stroke-syndromes-sv3: Watershed concept carried in the note's territory table and edema/ladder content; imaging recognition deferred to the neuroimaging pass (Phase I-C)",
+      "stroke-syndromes-sv5: CT recognition — imaging modality logic (CT first, MRI/DWI for early ischemia) is carried in the note's clinical content; radiographic recognition deferred to the neuroimaging pass (Phase I-C)",
+      "stroke-syndromes-sv6: Edema mechanism carried in the note's table 'Cerebral edema — the deadly parallel process'; imaging recognition deferred (Phase I-C)",
+      "stroke-syndromes-sv9: MRI recognition — modality logic carried in the note's clinical imaging content; radiographic recognition deferred (Phase I-C)",
+      "stroke-syndromes-sv10: Neonatal intraventricular hemorrhage — perinatal neurology scope, deferred to its own topic (Phase I-C)",
+      "stroke-syndromes-sv11: Perinatal extracranial hemorrhages — perinatal neurology scope (Phase I-C)",
+      "stroke-syndromes-sv13: DAI entity carried in the note's injury content; MRI recognition deferred to the trauma-neuroimaging pass (Phase I-C)",
+      "stroke-syndromes-sv16: Aneurysm vessel-wall neighbors carried in the note's table 'Aneurysms — the vessel-wall neighbors'; angiographic recognition deferred (Phase I-C)",
+      "stroke-syndromes-sv18: Heat stroke — environmental medicine topic; unrelated to ischemic stroke despite the shared name",
+      "stroke-syndromes-sv19: Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead",
+      "stroke-syndromes-sv20: Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead",
+      "stroke-syndromes-sv21: Book-wide rapid-review table — reference material, not stroke-topic visuals; relevant rows are pinned as source evidence instead"
+    ],
+    "complete": true
+  },
+  "notes": "Source page spread mixes stroke with perinatal neurology and the book-wide rapid review; out-of-scope figures retained as references for their own topics."
+}

@@ -16,7 +16,16 @@
     "test": "bun test tests/",
     "test:content-lock": "bun scripts/content-lock.ts",
     "gen:client-data": "bun scripts/gen-client-data.ts",
-    "osv": "bun scripts/osv-audit.ts"
+    "osv": "bun scripts/osv-audit.ts",
+    "usmle:validate": "bun scripts/usmle-pipeline/validate.ts",
+    "usmle:audit": "bun scripts/usmle-pipeline/audit.ts",
+    "usmle:evidence": "bun scripts/usmle-pipeline/verify-evidence.ts",
+    "usmle:sync": "bun scripts/usmle-pipeline/sync-tracker.ts",
+    "usmle:report": "bun scripts/usmle-pipeline/report.ts",
+    "usmle:inventory": "bun scripts/usmle-pipeline/inventory.ts",
+    "usmle:inspect": "bun scripts/usmle-pipeline/inspect-pages.ts",
+    "usmle:seed-pilot": "bun scripts/usmle-pipeline/seed-pilot-data.ts",
+    "usmle:gate": "bun scripts/usmle-pipeline/validate.ts && bun scripts/usmle-pipeline/verify-evidence.ts && bun scripts/usmle-pipeline/audit.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

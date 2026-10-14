@@ -1,0 +1,235 @@
+{
+  "topicId": "purine-salvage-disorders",
+  "title": "Purine Salvage Disorders",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Molecular — Nucleotide Metabolism",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      57
+    ],
+    "bookPages": "35"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "ADA is required for degradation of adenosine and deoxyadenosine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "ADA is required for degradation of adenosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "↓ ADA → ↑ dATP → ↓ ribonucleotide reductase activity → ↓ DNA precursors in cells → ↓ lymphocytes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "degradation of adenosine and deoxyadenosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ADA deficiency is one of the major causes of autosomal recessive SCID",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "One of the major causes of autosomal recessive SCID.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lesch-Nyhan: defective purine salvage; deficient or mutated HGPRT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Defective purine salvage. Deficient or mutated HGPRT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HGPRT loss → ↓ GMP and ↓ IMP formation → compensatory ↑ purine synthesis → excess uric acid production",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "excess uric acid production",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lesch-Nyhan syndrome is X-linked recessive",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "X-linked recessive.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lesch-Nyhan findings: intellectual disability, self-mutilation, aggression, hyperuricemia, gout, dystonia, macrocytosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Findings: intellectual disability, self-mutilation,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Red/orange “sand” (sodium urate crystals) in the diaper of Lesch-Nyhan patients",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "red/orange",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treatment of Lesch-Nyhan: allopurinol, febuxostat",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Treatment: allopurinol, febuxostat.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cladribine and pentostatin inhibit ADA (drug block on the purine map)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Cladribine, pentostatin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rasburicase (urate oxidase) converts uric acid to allantoin on the degradation ladder",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Urate oxidase (rasburicase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Allopurinol and febuxostat are the xanthine oxidase inhibitors on the map",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          57
+        ],
+        "bookPages": "35"
+      },
+      "quote": "Febuxostat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "purine-metabolism-map"
+  ],
+  "mechanismIds": [
+    "ada-deficiency-scid",
+    "hgprt-lesch-nyhan",
+    "urate-lowering-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "KYP-authored exam-strategy synthesis (vignette patterns, classic confusions, look-alike pivots, mini-case with answer autopsy) built on top of the cited First Aid pages — the facts are source-verified, the strategic framing itself is original KYP pedagogy.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)"
+    },
+    {
+      "id": "salvage-adjacent-clinical-detail",
+      "summary": "Treatment-depth adjuncts (PEG-ADA enzyme replacement, HSCT, ADA gene therapy for ADA-SCID; rasburicase contraindications in G6PD deficiency/pregnancy) and the APRT-deficiency distractor (2,8-dihydroxyadenine stones).",
+      "origin": "outside-first-aid",
+      "rationale": "High-value differential anchors for the two diseases; First Aid names the enzymes and findings, the management depth and the APRT contrast come from the wider immunology/nephrology corpus.",
+      "location": "clinical text 'SCID — the presentation behind ADA deficiency'; drugs cards (rasburicase adverse); usmle.pivots[0]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}

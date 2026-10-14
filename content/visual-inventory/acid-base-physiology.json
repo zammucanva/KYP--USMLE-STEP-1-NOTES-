@@ -1,0 +1,365 @@
+{
+  "topicId": "acid-base-physiology",
+  "chapterId": "renal",
+  "inventory": [
+    {
+      "visualId": "acid-base-physiology-sv1",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Hereditary tubulopathy map",
+      "sourceFigureDescription": "Nephron diagram showing locations of Fanconi, Bartter, Gitelman, and Liddle syndromes",
+      "part": 2,
+      "pdfPages": [
+        196
+      ],
+      "bookPages": "604",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Hereditary tubulopathies — adjacent renal-genetics topic; the note anchors the RTA-2 (Fanconi) connection in its normal-gap table",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "604"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv2",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Tubular defect comparison",
+      "sourceFigureDescription": "Comparison table of renal tubular defects (Fanconi, Bartter, Gitelman, Liddle, AME) with effects and causes",
+      "part": 2,
+      "pdfPages": [
+        196
+      ],
+      "bookPages": "604",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Normal anion gap metabolic acidosis' (RTA/tubulopathy rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "604"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv3",
+      "visualType": "ANATOMY_ILLUSTRATION",
+      "visualPurpose": "Nephron hormone map",
+      "sourceFigureDescription": "Nephron diagram of Angiotensin II, ANP, PTH, aldosterone, and ADH action sites",
+      "part": 2,
+      "pdfPages": [
+        200
+      ],
+      "bookPages": "608",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Endocrine nephron map — adjacent renal-physiology topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "608"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv4",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Potassium shifts",
+      "sourceFigureDescription": "Diagram of factors moving K+ into cells (alkalosis, insulin) and out (acidosis, digoxin)",
+      "part": 2,
+      "pdfPages": [
+        200
+      ],
+      "bookPages": "608",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: text 'The electrolyte neighborhoods — potassium shifts'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "608"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv5",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Electrolyte disturbances",
+      "sourceFigureDescription": "Table of electrolyte disturbances (Na, K, Ca, Mg, phosphate) with symptoms and ECG findings",
+      "part": 2,
+      "pdfPages": [
+        201
+      ],
+      "bookPages": "609",
+      "requiredInKYP": false,
+      "implementationType": "SOURCE_REFERENCE",
+      "kypVisualId": null,
+      "omissionReason": "Electrolyte symptom/ECG table — adjacent fluid-electrolytes topic (Phase I-C)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "609"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv6",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Four primary disorders",
+      "sourceFigureDescription": "Acid-base physiology table comparing metabolic/respiratory acidosis/alkalosis by pH, PCO2, HCO3 and compensation",
+      "part": 2,
+      "pdfPages": [
+        201
+      ],
+      "bookPages": "609",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'The four primary disorders — directions and compensations'",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "609"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv7",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "Acid-base diagnostic algorithm",
+      "sourceFigureDescription": "Flowchart for diagnosing acidosis/alkalosis from arterial pH through respiratory/metabolic branching to anion gap",
+      "part": 2,
+      "pdfPages": [
+        202
+      ],
+      "bookPages": "610",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "acid-base-algorithm",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "610"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv8",
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "Acid-base map",
+      "sourceFigureDescription": "Acid-base nomogram plotting plasma HCO3 vs pH with PCO2 isobars to distinguish mixed disorders",
+      "part": 2,
+      "pdfPages": [
+        202
+      ],
+      "bookPages": "610",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "acid-base-map",
+      "kypImplementation": "registry-visual",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "610"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv9",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "RTA types",
+      "sourceFigureDescription": "Comparison table of renal tubular acidosis types 1, 2, and 4 (defect, urine pH, serum K, causes)",
+      "part": 2,
+      "pdfPages": [
+        203
+      ],
+      "bookPages": "611",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Normal anion gap metabolic acidosis' (RTA section)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "611"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv10",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "RTA cellular mechanisms",
+      "sourceFigureDescription": "Cellular mechanism diagrams of RTA type 1 (α-intercalated cell), type 2 (PCT), type 4 (aldosterone resistance)",
+      "part": 2,
+      "pdfPages": [
+        203
+      ],
+      "bookPages": "611",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Normal anion gap metabolic acidosis' + mechanisms (rta-mechanism flow)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "611"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv11",
+      "visualType": "RENAL_DIAGRAM",
+      "visualPurpose": "Thiazide site of action",
+      "sourceFigureDescription": "Nephron diagram highlighting the early DCT site of thiazide action",
+      "part": 2,
+      "pdfPages": [
+        219
+      ],
+      "bookPages": "627",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Diuretic context — the pharmacology that creates the alkalosis' (thiazide rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "627"
+      }
+    },
+    {
+      "visualId": "acid-base-physiology-sv12",
+      "visualType": "RENAL_DIAGRAM",
+      "visualPurpose": "K-sparing site of action",
+      "sourceFigureDescription": "Nephron diagram highlighting the collecting-tubule site of potassium-sparing diuretics",
+      "part": 2,
+      "pdfPages": [
+        219
+      ],
+      "bookPages": "627",
+      "requiredInKYP": true,
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks: table 'Diuretic context — the pharmacology that creates the alkalosis' (K-sparing rows)",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "qaStatus": "passed",
+      "topicId": "acid-base-physiology",
+      "chapterId": "renal",
+      "subsection": "Renal Physiology — Acid-Base Balance",
+      "sourcePages": {
+        "part": 2,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "627"
+      }
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "acid-base-physiology",
+    "textbookVisualCount": 12,
+    "accountedFor": 12,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 7,
+    "unresolved": 0,
+    "omitted": 3,
+    "omissionReasons": [
+      "acid-base-physiology-sv1: Hereditary tubulopathies — adjacent renal-genetics topic; the note anchors the RTA-2 (Fanconi) connection in its normal-gap table",
+      "acid-base-physiology-sv3: Endocrine nephron map — adjacent renal-physiology topic (Phase I-C)",
+      "acid-base-physiology-sv5: Electrolyte symptom/ECG table — adjacent fluid-electrolytes topic (Phase I-C)"
+    ],
+    "complete": true
+  }
+}

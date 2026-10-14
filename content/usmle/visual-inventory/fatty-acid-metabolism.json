@@ -1,0 +1,42 @@
+{
+  "topicId": "fatty-acid-metabolism",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "fatty-acid-metabolism-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          109
+        ],
+        "bookPages": "87"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Fatty acid synthesis vs β-oxidation mirror map",
+      "sourceFigureDescription": "The p. 87 figure: synthesis (citrate shuttle out, ATP citrate lyase, ACC with CO2-biotin and insulin/glucagon, malonyl-CoA, palmitate 16C) vs degradation (fatty acyl-CoA synthetase, CPT-I, carnitine shuttle, β-oxidation acyl-CoA dehydrogenases, acetyl-CoA → ketone bodies/TCA) across cytoplasm/membranes/matrix zones, with the malonyl-CoA ⊟ CPT-I inhibition.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Fatty Acid Metabolism",
+      "topicId": "fatty-acid-metabolism",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "fa-synthesis-vs-oxidation",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "fatty-acid-metabolism",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The single source figure is a full redraw: the mirror map with both shuttles crossing the mitochondrial membranes band, the malonyl-CoA ⊟ CPT-I interlock arrow, the ACC hormone markers, both deficiency cards, and the source mnemonics in the footer."
+}

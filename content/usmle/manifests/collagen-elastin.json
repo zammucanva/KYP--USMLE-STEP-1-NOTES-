@@ -1,0 +1,392 @@
+{
+  "topicId": "collagen-elastin",
+  "title": "Collagen & Elastin",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Cellular — Extracellular Matrix Proteins",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      70,
+      72
+    ],
+    "bookPages": "48, 50"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Collagen is the most abundant protein in the human body",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Most abundant protein in the human body",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Collagen organizes and strengthens the extracellular matrix",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Organizes and strengthens extracellular matrix",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type I is the most common (90%) — bone (made by osteoblasts), skin, tendon, dentin, fascia, cornea, late wound repair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Most common (90%)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type I production is decreased in osteogenesis imperfecta type I",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "production in osteogenesis imperfecta type I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type II is found in cartilage (including hyaline), vitreous body, nucleus pulposus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Cartilage (including hyaline), vitreous body, nucleus pulposus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type III (reticulin) is found in skin, blood vessels, uterus, fetal tissue, early wound repair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "skin, blood vessels, uterus, fetal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type III is deficient in the vascular type of Ehlers-Danlos syndrome (threE D)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "threE D",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type IV is the basement membrane/basal lamina (glomerulus, cochlea), lens",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Basement membrane/basal lamina",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Type IV is defective in Alport syndrome; targeted by autoantibodies in Goodpasture syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Defective in Alport syndrome; targeted by",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Synthesis begins with translation of collagen α chains (preprocollagen), usually Gly-X-Y; collagen is 1/3 glycine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "1/3 glycine; glycine content of collagen is less",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hydroxylation of specific proline and lysine residues requires vitamin C; deficiency → scurvy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "and lysine residues. Requires vitamin C;",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glycosylation of pro-α-chain hydroxylysine residues and formation of procollagen (triple helix)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "glycosylation of pro-α-chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Problems forming triple helix → osteogenesis imperfecta",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "forming triple helix",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Proteolytic processing — cleavage of disulfide-rich terminal regions of procollagen → insoluble tropocollagen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Proteolytic processing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Collagen assembles in fibrils and aligns for cross-linking",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "in fibrils and aligns for cross-linking",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cross-linking by covalent lysine-hydroxylysine cross-linkage via copper-containing lysyl oxidase makes collagen fibers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "lysyl oxidase) to make collagen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cross-linking of collagen increases with age",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Cross-linking of collagen ↑ with age",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Problems with cross-linking → Menkes disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          70
+        ],
+        "bookPages": "48"
+      },
+      "quote": "Problems with cross-linking",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elastin is a stretchy protein within skin, lungs, large arteries, elastic ligaments, vocal cords, epiglottis, ligamenta flava",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Stretchy protein within skin, lungs, large arteries, elastic ligaments, vocal cords, epiglottis,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elastin is rich in nonhydroxylated proline, glycine, and lysine residues, vs the hydroxylated residues of collagen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Rich in nonhydroxylated proline, glycine, and lysine residues, vs the hydroxylated residues of",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elastin is tropoelastin with fibrillin scaffolding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Tropoelastin with fibrillin scaffolding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cross-linking occurs extracellularly via lysyl oxidase and gives elastin its elastic properties",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Cross-linking occurs extracellularly via lysyl oxidase and gives elastin its elastic properties",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Elastin is broken down by elastase, which is normally inhibited by α1-antitrypsin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "Broken down by elastase, which is normally inhibited by α1-antitrypsin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "α1-Antitrypsin deficiency results in unopposed elastase activity, which can cause COPD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          72
+        ],
+        "bookPages": "50"
+      },
+      "quote": "α1-Antitrypsin deficiency results in unopposed elastase activity, which can cause COPD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "collagen-synthesis-pipeline",
+    "elastin-stretch-relax"
+  ],
+  "mechanismIds": [
+    "collagen-synthesis-pipeline",
+    "elastin-crosslink-cycle"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the facts; the pattern/trap/pivot attack structure is a KYP design that does not exist in the source.",
+      "location": "usmle section (patterns, traps, pivots, miniCase)",
+      "summary": "KYP-authored exam-strategy synthesis (station-matching patterns, cofactor traps, type-table pivots, scurvy mini-case with answer autopsy) built on the cited First Aid pages."
+    },
+    {
+      "id": "station-cofactor-layer",
+      "origin": "outside-first-aid",
+      "summary": "The pipeline-as-stations frame: each synthesis step is a station with its cofactor and its disease (hydroxylation = vitamin C = scurvy; triple helix = osteogenesis imperfecta; cross-linking = copper/lysyl oxidase = Menkes), plus the elastin contrast (no hydroxylation station, elastase toll at the end).",
+      "rationale": "First Aid presents the steps as a numbered list; converting it into a station-to-disease mapping with cofactor pairing is KYP pedagogy.",
+      "location": "core.keyIdea; mechanism collagen-synthesis-pipeline inhibit nodes; blocks: steps 'The synthesis steps, verbatim order'; callout 'How the exam asks this page'"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "updatedAt": "2026-10-08"
+}
