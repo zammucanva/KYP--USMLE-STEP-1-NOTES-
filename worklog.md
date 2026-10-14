@@ -1367,3 +1367,16 @@ Work Log:
 
 Stage Summary:
 - E17 COMPLETE: 1 topic chapter-complete at 15/15 QA gates; 5 textbook visuals accounted (2 registry + 3 note-block), 0 unresolved; 2 mechanisms; 2 kypExtensions traceable (usmle-attack-layer + address-system-model); registry 105/105. Biochemistry 54/55 (98%). Contract GREEN, evidence 1717/1717, audit 0 failures. Remaining: E18 familial-dyslipidemias (pdf 114 / book 92) → 55/55 Biochemistry chapter gate — continuing autonomously.
+---
+Task ID: usmle-push-record-2026-10-14-E16-E17
+Agent: Super Z (main agent)
+Task: GitHub push of all made files — user directive "first upload all the files that have been made and push it to github, dont start any new topic".
+
+Work Log:
+- COMMIT b072183: E16 (metabolic-fuel-use, chapter-complete, 15/15 gates) + E17 (lipid-transport, chapter-complete, 15/15 gates) + E18 (familial-dyslipidemias, PARTIAL — note 423 lines + LipidLadenEnterocytes visual + registry entry + index registration committed as-is; manifest, visual-inventory, tracker sync, chapter flip, evidence verification, browser/VLM QA still pending). 19 files, +4491/−49.
+- Pre-push verification this session: tsc = 1 documented baseline error (next.config.ts) only, 0 non-baseline; validate gate = 3 errors, ALL from E18's registered-but-unbooked state (no manifest / no visual-inventory / missing from tracker) + 2 documented pre-existing cross-chapter warnings; evidence 1717/1717 and audit 63 topics 0 failures hold from the E17 gate run.
+- PUSH TARGET RESOLVED: the PAT (github_pat_11BJUV…) is scoped for zammucanva/KYP--USMLE-STEP-1-NOTES- (write confirmed) — NOT know-your-pill-2026 (ref-write probe 403 "Resource not accessible by personal access token"; that repo's main has also advanced to PR #93 merge 0a0e427 and must never be force-pushed). Remote USMLE repo main was at 90d223c (prior session's E15 push); local main fast-forwarded 90d223c → b072183 at 2026-10-14T15:18:31Z. Push verified via API: 19 files, all landed.
+- Local-repo infrastructure notes for next session: git fetch from origin (know-your-pill-2026, blob:none partial clone) fails with tmp_pack checksum errors (sync-daemon interference class — clean with rm .git/objects/pack/tmp_pack_*; fetch not needed for the USMLE-repo push path); stale origin/main ref must not be trusted — query the API for true remote state.
+
+Stage Summary:
+- ALL MADE FILES UPLOADED AND PUSHED: KYP--USMLE-STEP-1-NOTES- main = b072183. Biochemistry 54/55 (E1–E17 complete; E18 in-flight at note+visual stage, 1 topic pending). No new topic started per user directive. Next natural step when authorized: finish E18 (manifest + inventory + tracker + chapter flip + gates + QA) → 55/55 Biochemistry chapter gate → chapter report → checkpoint → continue full-book mission.
