@@ -2679,3 +2679,520 @@ export function AdipocyteFedFasted() {
     </svg>
   );
 }
+
+export function ExerciseFuelSystems() {
+  const w = 980;
+  const h = 600;
+  // plot geometry: x 100→690 (0 → beyond 2 hr), y 118 (100%) → 438 (0%)
+  const X0 = 100;
+  const y = (v: number) => 438 - v * 3.2; // % → px
+  const curves: { id: string; label: string; d: string; tone: string; note: string }[] = [
+    {
+      id: "stored-atp",
+      label: "Stored ATP",
+      tone: "stroke-emergency",
+      d: `M ${X0} ${y(100)} C 130 ${y(88)}, 155 ${y(45)}, 178 ${y(4)} L 190 ${y(0)}`,
+      note: "immediate — spent within seconds",
+    },
+    {
+      id: "creatine-phosphate",
+      label: "Creatine phosphate",
+      tone: "stroke-brand",
+      d: `M ${X0} ${y(0)} C 150 ${y(0)}, 205 ${y(46)}, 275 ${y(66)} C 330 ${y(70)}, 370 ${y(38)}, 415 ${y(6)} L 432 ${y(0)}`,
+      note: "bridges the first ~10 seconds",
+    },
+    {
+      id: "anaerobic",
+      label: "Anaerobic metabolism",
+      tone: "stroke-warning",
+      d: `M ${X0} ${y(0)} C 240 ${y(0)}, 380 ${y(28)}, 470 ${y(45)} C 530 ${y(46)}, 555 ${y(24)}, 585 ${y(6)} L 600 ${y(0)}`,
+      note: "glycogen → lactate; peaks near 1 min",
+    },
+    {
+      id: "aerobic",
+      label: "Aerobic metabolism",
+      tone: "stroke-neural",
+      d: `M ${X0} ${y(0)} C 260 ${y(0)}, 420 ${y(8)}, 540 ${y(20)} C 610 ${y(28)}, 655 ${y(33)}, 688 ${y(36)}`,
+      note: "rises continuously; dominates after ~1 min",
+    },
+    {
+      id: "overall",
+      label: "Overall performance",
+      tone: "stroke-foreground",
+      d: `M ${X0} ${y(100)} L 310 ${y(97)} C 420 ${y(88)}, 520 ${y(52)}, 600 ${y(32)} C 640 ${y(24)}, 665 ${y(21)}, 688 ${y(20)}`,
+      note: "100% at the start, low plateau at 2 hr",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Metabolic fuel use during exercise: percent maximal energy by source against duration of exercise from 2 seconds to 2 hours. Stored ATP starts at 100 percent and is spent within seconds; creatine phosphate peaks between 2 and 10 seconds; anaerobic metabolism (glycogen to lactate) peaks near 1 minute; aerobic metabolism rises continuously and dominates after about 1 minute; overall performance starts at 100 percent, stays flat to about 10 seconds, then declines to a low plateau by 2 hours" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Metabolic fuel use — which system powers the effort (original KYP redraw)</text>
+        <rect x="726" y="24" width="188" height="18" rx="9" className="fill-brand-soft" />
+        <text x="820" y="37" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">2 sec → 10 sec → 1 min → 2 hr</text>
+      </g>
+
+      {/* plot panel */}
+      <g>
+        <rect x="36" y="80" width="920" height="392" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        {/* gridlines */}
+        {[25, 50, 75].map((v) => (
+          <line key={v} x1={X0} y1={y(v)} x2="940" y2={y(v)} strokeWidth="0.8" className="stroke-border" strokeDasharray="3 5" />
+        ))}
+        {/* axes with arrows */}
+        <line x1={X0} y1="452" x2={X0} y2="104" strokeWidth="1.7" className="stroke-foreground" />
+        <path d={`M ${X0} 100 l -4 9 h 8 z`} className="fill-foreground" stroke="none" />
+        <line x1={X0 - 8} y1="438" x2="946" y2="438" strokeWidth="1.7" className="stroke-foreground" />
+        <path d="M 950 438 l -9 -4 v 8 z" className="fill-foreground" stroke="none" />
+        {/* y ticks: 0% and 100% (as printed) */}
+        <text x={X0 - 12} y="441" textAnchor="end" fontSize="8" fontWeight="700" className="fill-foreground">0</text>
+        <text x={X0 - 12} y={y(100) + 3} textAnchor="end" fontSize="8" fontWeight="700" className="fill-foreground">100%</text>
+        <text x="52" y="278" fontSize="8.2" fontWeight="700" className="fill-foreground" transform="rotate(-90 52 278)" textAnchor="middle">% Maximal energy by source</text>
+        {/* x ticks: 2 sec, 10 sec, 1 min, 2 hr */}
+        {[
+          { t: "2 sec", x: 180 },
+          { t: "10 sec", x: 340 },
+          { t: "1 min", x: 500 },
+          { t: "2 hr", x: 660 },
+        ].map((tk) => (
+          <g key={tk.t}>
+            <line x1={tk.x} y1="438" x2={tk.x} y2="444" strokeWidth="1.4" className="stroke-foreground" />
+            <text x={tk.x} y="456" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">{tk.t}</text>
+          </g>
+        ))}
+        <text x="470" y="474" textAnchor="middle" fontSize="8.4" fontWeight="700" className="fill-foreground">Duration of exercise</text>
+        {/* curves */}
+        {curves.map((c) => (
+          <path key={c.id} d={c.d} fill="none" strokeWidth="2.4" className={c.tone} strokeLinecap="round" />
+        ))}
+        {/* legend */}
+        <g>
+          <rect x="700" y="100" width="236" height="132" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+          {curves.map((c, i) => (
+            <g key={c.id}>
+              <line x1="714" y1={120 + i * 22} x2="742" y2={120 + i * 22} strokeWidth="2.4" className={c.tone} strokeLinecap="round" />
+              <text x="750" y={123 + i * 22} fontSize="8.2" fontWeight="700" className="fill-foreground">{c.label}</text>
+              <text x="750" y={131.5 + i * 22} fontSize="6.2" className="fill-muted-foreground">{c.note}</text>
+            </g>
+          ))}
+        </g>
+      </g>
+
+      {/* bottom strips */}
+      <g>
+        <rect x="24" y="486" width="932" height="50" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="506" fontSize="8.2" fontWeight="800" className="fill-foreground">The handoff: stored ATP (seconds) → creatine phosphate (~10 sec) → anaerobic glycolysis of glycogen (up to ~1 min) → aerobic metabolism (sustains effort).</text>
+        <text x="42" y="522" fontSize="7.8" className="fill-muted-foreground">As duration lengthens, the source shifts from immediate phosphate pools to carbohydrate and finally to the aerobic oxidation of fuel reserves.</text>
+      </g>
+      <g>
+        <rect x="24" y="544" width="932" height="38" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="560" fontSize="7.8" fontWeight="700" className="fill-foreground">Caloric density: 1g carb/protein = 4 kcal · 1g alcohol = 7 kcal · 1g fatty acid = 9 kcal (# letters = # kcal).</text>
+        <text x="42" y="574" fontSize="7.4" className="fill-muted-foreground">Overall performance tracks the total power available: high while phosphates and glycolysis can still contribute, settling low once only aerobic metabolism remains.</text>
+      </g>
+      <g>
+        <text x="24" y="596" fontSize="8.5" className="fill-muted-foreground">Original KYP redraw of the source’s % maximal energy by source vs duration of exercise figure (fig 7).</text>
+      </g>
+    </svg>
+  );
+}
+
+export function StarvationEnergyStores() {
+  const w = 980;
+  const h = 620;
+  // plot geometry: x 95→895 (weeks 0→8), y: kJ value → px (12 → 118, 0 → 402)
+  const xw = (wk: number) => 95 + wk * 100;
+  const yk = (v: number) => 402 - (v / 12) * 284;
+  const curves = [
+    {
+      id: "protein",
+      label: "Protein",
+      tone: "stroke-warning",
+      d: `M ${xw(0)} ${yk(12)} C 200 ${yk(11.2)}, 300 ${yk(10.5)}, 400 ${yk(9.9)} C 520 ${yk(9.4)}, 620 ${yk(8.8)}, 700 ${yk(8)} C 780 ${yk(7.2)}, 850 ${yk(6)}, ${xw(8)} ${yk(5)}`,
+      lx: 450, ly: 168, note: "spared while fat lasts, then accelerates",
+    },
+    {
+      id: "fat",
+      label: "Fat",
+      tone: "stroke-neural",
+      d: `M ${xw(0)} ${yk(12)} C 180 ${yk(10.4)}, 280 ${yk(8.9)}, 400 ${yk(7)} C 530 ${yk(4.9)}, 640 ${yk(3.2)}, 720 ${yk(2.4)} C 800 ${yk(1.7)}, 850 ${yk(1.3)}, ${xw(8)} ${yk(1)}`,
+      lx: 450, ly: 258, note: "the largest reserve — near-linear draw-down",
+    },
+    {
+      id: "carbohydrate",
+      label: "Carbohydrate",
+      tone: "stroke-emergency",
+      d: `M ${xw(0)} ${yk(0.5)} C 120 ${yk(0.4)}, 135 ${yk(0.1)}, 150 ${yk(0)} L ${xw(8)} ${yk(0)}`,
+      lx: 218, ly: 384, note: "glycogen gone after day 1",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Stored energy in kilojoules against weeks of starvation from 0 to 8 weeks. Protein starts at 12 and declines slowly, dropping faster after week 6 to about 5 by week 8. Fat also starts at 12 and declines nearly linearly to about 1 by week 8. Carbohydrate starts near zero and is depleted within the first week, staying at zero afterward. Glycogen reserves are depleted after day 1; after day 3 ketone bodies become the main energy source for the brain, and when adipose stores are depleted vital protein degradation accelerates" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Stored energy through weeks of starvation (original KYP redraw)</text>
+        <rect x="684" y="24" width="230" height="18" rx="9" className="fill-warning-soft" />
+        <text x="799" y="37" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-warning">glycogen ~day 1 · brain on ketones after day 3</text>
+      </g>
+
+      {/* plot panel */}
+      <g>
+        <rect x="36" y="80" width="920" height="358" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        {/* y gridlines + ticks 12,10,8,6,4,2,0 */}
+        {[12, 10, 8, 6, 4, 2, 0].map((v) => (
+          <g key={v}>
+            <line x1="90" y1={yk(v)} x2="940" y2={yk(v)} strokeWidth={v === 0 ? 1.7 : 0.8} className={v === 0 ? "stroke-foreground" : "stroke-border"} strokeDasharray={v === 0 ? undefined : "3 5"} />
+            <text x="82" y={yk(v) + 3} textAnchor="end" fontSize="8" fontWeight="700" className="fill-foreground">{v}</text>
+          </g>
+        ))}
+        {/* x ticks 0-8 */}
+        {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((wk) => (
+          <g key={wk}>
+            <line x1={xw(wk)} y1="402" x2={xw(wk)} y2="408" strokeWidth="1.4" className="stroke-foreground" />
+            <text x={xw(wk)} y="420" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">{wk}</text>
+          </g>
+        ))}
+        <text x="468" y="436" textAnchor="middle" fontSize="8.4" fontWeight="700" className="fill-foreground">Weeks of starvation</text>
+        {/* y label */}
+        <text x="54" y="260" fontSize="8.2" fontWeight="700" className="fill-foreground" transform="rotate(-90 54 260)" textAnchor="middle">Stored energy (kJ)</text>
+        {/* curves + labels */}
+        {curves.map((c) => (
+          <g key={c.id}>
+            <path d={c.d} fill="none" strokeWidth="2.4" className={c.tone} strokeLinecap="round" />
+            <text x={c.lx} y={c.ly} textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">{c.label}</text>
+            <text x={c.lx} y={c.ly + 11} textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">{c.note}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* bottom strips */}
+      <g>
+        <rect x="24" y="452" width="932" height="44" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="470" fontSize="7.8" fontWeight="700" className="fill-foreground">Days 1–3: blood glucose maintained by hepatic glycogenolysis, adipose release of FFA, muscle and liver shifting fuel use from glucose to FFA, and hepatic gluconeogenesis.</text>
+        <text x="42" y="486" fontSize="7.6" className="fill-muted-foreground">Gluconeogenesis substrates: peripheral tissue lactate and alanine, plus adipose glycerol and propionyl-CoA (from odd-chain FFA — the only triacylglycerol component that contributes to gluconeogenesis).</text>
+      </g>
+      <g>
+        <rect x="24" y="504" width="932" height="58" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="524" fontSize="7.8" fontWeight="700" className="fill-foreground">After day 3: adipose stores — ketone bodies become the main source of energy for the brain; glycogen reserves were depleted after day 1.</text>
+        <text x="42" y="540" fontSize="7.6" className="fill-muted-foreground">RBCs lack mitochondria and therefore cannot use ketone bodies. When adipose stores are depleted, vital protein degradation accelerates, leading to organ failure and death.</text>
+        <text x="42" y="556" fontSize="7.6" className="fill-muted-foreground">The amount of excess stores determines survival time — the graph's three curves are the countdown.</text>
+      </g>
+      <g>
+        <text x="24" y="586" fontSize="8.5" className="fill-muted-foreground">Original KYP redraw of the source’s stored energy (kJ) vs weeks of starvation figure (fig 8).</text>
+        <text x="24" y="602" fontSize="7.2" className="fill-muted-foreground">Source page carries invisible InDesign text-layer artifacts (a duplicated right-axis “100% / % Maximal energy by source”, stray “2 sec”, and a duplicated label cluster) — not visible in print, not reproduced.</text>
+      </g>
+    </svg>
+  );
+}
+
+export function LipidTransportMap() {
+  const w = 980;
+  const h = 800;
+  const box = (x: number, y: number, wd: number, ht: number, label: string, tone = "fill-secondary stroke-border", textTone = "fill-foreground", sub?: string) => (
+    <g key={`${label}-${x}-${y}`}>
+      <rect x={x} y={y} width={wd} height={ht} rx="9" className={tone} strokeWidth="1.4" />
+      <text x={x + wd / 2} y={sub ? y + ht / 2 - 2 : y + ht / 2 + 3.5} textAnchor="middle" fontSize="8.6" fontWeight="800" className={textTone}>{label}</text>
+      {sub && <text x={x + wd / 2} y={y + ht / 2 + 11} textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">{sub}</text>}
+    </g>
+  );
+  const arrow = (d: string, head: string) => (
+    <g key={d}>
+      <path d={d} fill="none" strokeWidth="1.6" stroke="currentColor" className="text-muted-foreground" />
+      <path d={head} className="fill-muted-foreground" stroke="none" />
+    </g>
+  );
+  const particle = (cx: number, cy: number, r: number, label: string, apolabel: string, tone = "fill-warning-soft stroke-warning") => (
+    <g key={`${label}-${cx}`}>
+      <circle cx={cx} cy={cy} r={r} className={tone} strokeWidth="1.5" />
+      <text x={cx} y={cy + 3} textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">{label}</text>
+      <text x={cx} y={cy + 13} textAnchor="middle" fontSize="6" className="fill-muted-foreground">{apolabel}</text>
+    </g>
+  );
+  const num = (cx: number, cy: number, n: number) => (
+    <g key={`n${n}-${cx}`}>
+      <circle cx={cx} cy={cy} r="8.5" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+      <text x={cx} y={cy + 3.4} textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">{n}</text>
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Lipid transport: the exogenous pathway carries dietary fat from the small intestine as micelles into the intestinal cell, which secretes chylomicrons bearing apo B48 into the lymphatics (thoracic duct to subclavian vein to systemic circulation); HDL transfers apo CII and apoE to the chylomicron; chylomicron apo CII activates lipoprotein lipase (impaired in type I familial dyslipidemia), releasing FFA to adipocytes and leaving a chylomicron remnant that the liver takes up via its apoE receptor. The endogenous pathway has the liver releasing VLDL bearing apo B100 (overproduction in type IV familial dyslipidemia); VLDL apo CII activates LPL, and IDL either delivers TGs and cholesterol to the liver via apoE or becomes LDL, whose endocytosis via the LDL receptor is impaired in type II familial dyslipidemia. HDL performs reverse cholesterol transport" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Lipid transport — the exogenous and endogenous circuits (original KYP redraw)</text>
+        <rect x="702" y="24" width="212" height="18" rx="9" className="fill-brand-soft" />
+        <text x="808" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">apo B48 = intestine · apo B100 = liver</text>
+      </g>
+
+      {/* ============ EXOGENOUS PANEL ============ */}
+      <g>
+        <rect x="36" y="76" width="444" height="498" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="98" fontSize="9.5" fontWeight="800" className="fill-brand">Exogenous (dietary) path — from the gut to the blood</text>
+        {box(52, 108, 130, 34, "Dietary fat and", "fill-secondary stroke-border", "fill-foreground", "cholesterol")}
+        {arrow("M 117 142 L 117 168", "M 117 170 l -4 -8 h 8 z")}
+        {box(72, 172, 90, 28, "Micelles")}
+        {arrow("M 117 200 L 117 226", "M 117 228 l -4 -8 h 8 z")}
+        {box(52, 230, 130, 34, "Intestinal cell", "fill-secondary stroke-border", "fill-foreground", "lipids absorbed")}
+        {/* numbered 1: chylomicron enters lymphatics */}
+        {num(196, 240, 1)}
+        {arrow("M 182 247 C 220 247, 240 240, 262 232", "M 265 231 l -8 -1 3.5 7.5 z")}
+        {box(262, 214, 100, 34, "Chylomicron", "fill-warning-soft stroke-warning", "fill-foreground", "TG · apo B48")}
+        {arrow("M 312 248 C 312 288, 300 320, 282 348", "M 280 351 l -3 -7.5 8 1 z")}
+        <text x="322" y="300" fontSize="7" fontWeight="700" className="fill-foreground">Thoracic duct</text>
+        <text x="322" y="311" fontSize="6.6" className="fill-muted-foreground">(lymphatics)</text>
+        {arrow("M 272 358 C 252 380, 228 392, 202 398", "M 199 399 l 8 2 -3.5 -7.5 z")}
+        <text x="322" y="356" fontSize="6.6" className="fill-muted-foreground">Subclavian vein</text>
+        {box(120, 388, 82, 30, "Systemic", "fill-card stroke-border", "fill-foreground", "circulation")}
+        {/* HDL transfers apo CII and apoE */}
+        {num(430, 378, 2)}
+        {arrow("M 424 388 L 350 400", "M 347 400 l 7.5 -3 -0.5 8 z")}
+        {particle(452, 372, 26, "HDL", "apo CII · apoE")}
+        {/* LPL step */}
+        {num(242, 448, 3)}
+        {arrow("M 206 418 C 224 430, 236 444, 246 458", "M 248 461 l -6.5 -5.5 -0.5 8 z")}
+        {box(216, 462, 118, 34, "Lipoprotein lipase", "fill-card stroke-border", "fill-foreground", "activated by apo CII")}
+        <text x="342" y="470" fontSize="6.4" className="fill-emergency">impaired in type I</text>
+        <text x="342" y="479" fontSize="6.4" className="fill-emergency">familial dyslipidemia</text>
+        {arrow("M 216 478 C 180 486, 150 494, 120 500", "M 117 501 l 8 -0.5 -4 7 z")}
+        {box(60, 496, 74, 30, "FFA")}
+        {arrow("M 134 511 L 168 511", "M 171 511 l -7 -3.5 v 7 z")}
+        {box(174, 496, 90, 30, "Adipocyte", "fill-brand-soft stroke-brand", "fill-brand", "stores TG")}
+        {/* remnant to liver */}
+        {arrow("M 334 496 C 348 512, 358 528, 364 544", "M 365 547 l -5 -7 -3 8 z")}
+        {particle(368, 556, 26, "Remnant", "chol E · ↓TG")}
+        {arrow("M 368 582 C 368 602, 360 616, 348 628", "M 346 631 l 4.5 -7 -8.5 0.5 z")}
+        <text x="380" y="614" fontSize="6.6" className="fill-muted-foreground">apoE receptor</text>
+        <text x="380" y="624" fontSize="6.6" className="fill-muted-foreground">on hepatocyte</text>
+      </g>
+
+      {/* ============ ENDOGENOUS PANEL ============ */}
+      <g>
+        <rect x="500" y="76" width="456" height="498" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="516" y="98" fontSize="9.5" fontWeight="800" className="fill-warning">Endogenous (hepatic) path — from the liver to the tissues</text>
+        {box(756, 108, 168, 56, "Hepatocyte", "fill-secondary stroke-border", "fill-foreground", "bile canaliculus")}
+        {/* numbered 4: liver releases VLDL */}
+        {num(738, 140, 4)}
+        {arrow("M 752 164 C 700 190, 660 218, 630 244", "M 627 247 l 6.5 -6 0.5 8 z")}
+        {particle(612, 260, 30, "VLDL", "TG · chol E · apo B100")}
+        <text x="652" y="196" fontSize="6.4" className="fill-emergency">overproduction in</text>
+        <text x="652" y="205" fontSize="6.4" className="fill-emergency">type IV familial</text>
+        <text x="652" y="214" fontSize="6.4" className="fill-emergency">dyslipidemia</text>
+        {/* HDL gives CII/E to VLDL */}
+        {arrow("M 480 388 C 500 372, 530 350, 560 322", "M 563 319 l -7.5 2.5 7 4 z")}
+        {/* numbered 5: VLDL apo CII activates LPL */}
+        {num(548, 300, 5)}
+        {box(552, 320, 118, 34, "Lipoprotein lipase", "fill-card stroke-border", "fill-foreground", "apo CII activated")}
+        {arrow("M 612 292 C 612 300, 612 308, 612 316", "M 612 318 l -4 -8 h 8 z")}
+        {arrow("M 552 337 C 516 350, 488 364, 466 378", "M 463 380 l 7.5 -3 -2.5 8 z")}
+        {box(452, 384, 0, 0, "")}
+        <text x="540" y="372" fontSize="6.6" className="fill-muted-foreground">FFA →</text>
+        {arrow("M 642 338 C 664 356, 680 374, 690 392", "M 692 395 l -6.5 -5.5 -0.5 8 z")}
+        {particle(700, 410, 28, "IDL", "chol E · TG")}
+        {/* numbered 6: IDL to liver via apoE */}
+        {num(700, 462, 6)}
+        {arrow("M 700 438 C 700 446, 700 452, 700 456", "M 700 459 l -4 -8 h 8 z")}
+        {box(640, 462, 120, 34, "Hepatic lipase", "fill-card stroke-border", "fill-foreground", "on hepatocyte")}
+        {arrow("M 700 496 C 700 508, 692 520, 678 532", "M 676 535 l 3.5 -7.5 -8 1 z")}
+        <text x="712" y="520" fontSize="6.6" className="fill-muted-foreground">IDL delivers TGs and</text>
+        <text x="712" y="530" fontSize="6.6" className="fill-muted-foreground">cholesterol to the liver</text>
+        <text x="712" y="540" fontSize="6.6" className="fill-muted-foreground">via apoE</text>
+        {/* IDL → LDL */}
+        {arrow("M 728 410 C 762 410, 792 410, 818 410", "M 821 410 l -7 -3.5 v 7 z")}
+        {particle(846, 410, 28, "LDL", "chol E · apo B100")}
+        {/* numbered 7: LDL endocytosis */}
+        {num(846, 462, 7)}
+        {arrow("M 846 438 C 846 448, 846 454, 846 458", "M 846 461 l -4 -8 h 8 z")}
+        {box(786, 462, 120, 34, "LDL receptor", "fill-card stroke-border", "fill-foreground", "endocytosis")}
+        <text x="912" y="470" fontSize="6.4" className="fill-emergency">impaired in</text>
+        <text x="912" y="479" fontSize="6.4" className="fill-emergency">type II familial</text>
+        <text x="912" y="488" fontSize="6.4" className="fill-emergency">dyslipidemia</text>
+        {arrow("M 846 496 C 846 512, 846 524, 846 536", "M 846 539 l -4 -8 h 8 z")}
+        {box(786, 540, 120, 34, "Peripheral cell", "fill-brand-soft stroke-brand", "fill-brand", "receives cholesterol")}
+        <text x="516" y="556" fontSize="7.2" className="fill-muted-foreground">The liver exports TG as VLDL (apo B100); LPL unpacks it for adipose</text>
+        <text x="516" y="570" fontSize="7.2" className="fill-muted-foreground">tissue; IDL returns to the liver via apoE or is trimmed by hepatic</text>
+        <text x="516" y="584" fontSize="7.2" className="fill-muted-foreground">lipase into LDL, the cholesterol courier to peripheral cells.</text>
+      </g>
+
+      {/* ============ CALLOUT LIST (verbatim) ============ */}
+      <g>
+        <rect x="36" y="586" width="920" height="120" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="606" fontSize="8.4" fontWeight="800" className="fill-foreground">The seven numbered steps, verbatim from the source:</text>
+        <text x="52" y="624" fontSize="7.4" className="fill-foreground">1 Chylomicron enters lymphatics · 2 HDL transfers apo CII and apoE</text>
+        <text x="52" y="640" fontSize="7.4" className="fill-foreground">3 Chylomicron apo CII activates LPL (impaired in type I familial dyslipidemia) · 4 Liver releases VLDL (overproduction in type IV familial dyslipidemia)</text>
+        <text x="52" y="656" fontSize="7.4" className="fill-foreground">5 VLDL apo CII activates LPL · 6 IDL delivers TGs and cholesterol to the liver via apoE</text>
+        <text x="52" y="672" fontSize="7.4" className="fill-foreground">7 Endocytosis of LDL (impaired in type II familial dyslipidemia)</text>
+        <text x="52" y="692" fontSize="7" className="fill-muted-foreground">Bile canaliculus: the hepatocyte also exports cholesterol + TGs into bile.</text>
+      </g>
+      <g>
+        <text x="24" y="730" fontSize="8.5" className="fill-muted-foreground">Original KYP redraw of the source's lipid transport circuit (fig, p. 90) — exogenous left, endogenous right, seven numbered steps preserved.</text>
+        <text x="24" y="746" fontSize="7.2" className="fill-muted-foreground">Apo B48 (intestine, chylomicrons) and apo B100 (liver, VLDL/IDL/LDL) are the origin tags; apo CII is the LPL key; apoE is the remnant/LDL-receptor-adjacent ligand.</text>
+      </g>
+    </svg>
+  );
+}
+
+export function HdlMaturationMap() {
+  const w = 980;
+  const h = 560;
+  const box = (x: number, y: number, wd: number, ht: number, label: string, tone = "fill-secondary stroke-border", textTone = "fill-foreground", sub?: string) => (
+    <g key={`${label}-${x}-${y}`}>
+      <rect x={x} y={y} width={wd} height={ht} rx="9" className={tone} strokeWidth="1.4" />
+      <text x={x + wd / 2} y={sub ? y + ht / 2 - 2 : y + ht / 2 + 3.5} textAnchor="middle" fontSize="8.8" fontWeight="800" className={textTone}>{label}</text>
+      {sub && <text x={x + wd / 2} y={y + ht / 2 + 11} textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">{sub}</text>}
+    </g>
+  );
+  const arrow = (d: string, head: string) => (
+    <g key={d}>
+      <path d={d} fill="none" strokeWidth="1.7" stroke="currentColor" className="text-muted-foreground" />
+      <path d={head} className="fill-muted-foreground" stroke="none" />
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="HDL maturation and reverse cholesterol transport: the liver and small intestine both secrete nascent HDL, a discoidal particle bearing apo CII and apoE; LCAT esterifies cholesterol so the particle becomes spherical mature HDL carrying cholesteryl esters; CETP then mediates the transfer of cholesteryl esters to VLDL, IDL, and LDL in exchange for triglycerides, completing reverse cholesterol transport from peripheral tissues to the liver" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">HDL maturation — reverse cholesterol transport (original KYP redraw)</text>
+        <rect x="706" y="24" width="208" height="18" rx="9" className="fill-brand-soft" />
+        <text x="810" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">nascent disc → LCAT → mature sphere</text>
+      </g>
+
+      {/* sources */}
+      {box(60, 92, 120, 40, "Liver", "fill-secondary stroke-border", "fill-foreground", "secretes nascent HDL")}
+      {box(60, 306, 120, 40, "Small intestine", "fill-secondary stroke-border", "fill-foreground", "secretes nascent HDL")}
+      {arrow("M 180 112 C 224 132, 262 158, 292 186", "M 295 189 l -7.5 -2 3.5 7.5 z")}
+      {arrow("M 180 326 C 224 306, 262 280, 292 252", "M 295 249 l -7.5 2 3.5 -7.5 z")}
+
+      {/* nascent HDL — discoidal */}
+      <g>
+        <ellipse cx="340" cy="218" rx="66" ry="40" className="fill-warning-soft stroke-warning" strokeWidth="1.6" />
+        <text x="340" y="216" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">Nascent HDL</text>
+        <text x="340" y="228" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">disc-shaped</text>
+        <text x="340" y="162" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-brand">apo CII</text>
+        <text x="340" y="278" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-neural">apoE</text>
+      </g>
+
+      {/* LCAT step */}
+      {arrow("M 410 218 L 540 218", "M 543 218 l -8 -3.5 v 7 z")}
+      <g>
+        <rect x="446" y="186" width="60" height="22" rx="8" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="476" y="201" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">LCAT</text>
+        <text x="476" y="246" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">esterifies cholesterol</text>
+        <text x="476" y="256" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">(2⁄3 of plasma cholesterol;</text>
+        <text x="476" y="266" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">required for HDL maturation)</text>
+      </g>
+
+      {/* mature HDL — spherical */}
+      <g>
+        <circle cx="616" cy="218" r="58" className="fill-warning-soft stroke-warning" strokeWidth="1.6" />
+        <circle cx="616" cy="218" r="34" className="fill-warning/40 stroke-warning/60" strokeWidth="1" />
+        <text x="616" y="214" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">Mature HDL</text>
+        <text x="616" y="226" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">Chol E core</text>
+        <text x="616" y="148" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-brand">apo AI · apo CII · apoE</text>
+      </g>
+
+      {/* CETP step */}
+      {arrow("M 678 218 L 800 218", "M 803 218 l -8 -3.5 v 7 z")}
+      <g>
+        <rect x="706" y="186" width="60" height="22" rx="8" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="736" y="201" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">CETP</text>
+        <text x="736" y="246" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">mediates transfer of</text>
+        <text x="736" y="256" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">cholesteryl esters to other</text>
+        <text x="736" y="266" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">lipoprotein particles</text>
+      </g>
+      {box(810, 192, 140, 52, "VLDL · IDL · LDL", "fill-card stroke-border", "fill-foreground", "receive Chol E (for TG)")}
+
+      {/* reverse transport strip */}
+      <g>
+        <rect x="60" y="356" width="890" height="76" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="76" y="378" fontSize="8.2" fontWeight="800" className="fill-foreground">Reverse cholesterol transport: HDL carries cholesterol from peripheral tissues back to the liver.</text>
+        <text x="76" y="396" fontSize="7.6" className="fill-muted-foreground">LCAT (activated by apo AI, found only on alphalipoproteins/HDL) catalyzes esterification of 2⁄3 of plasma cholesterol — required for HDL maturation;</text>
+        <text x="76" y="412" fontSize="7.6" className="fill-muted-foreground">CETP mediates transfer of cholesteryl esters to other lipoprotein particles (VLDL, IDL, LDL); hepatic lipase degrades the TGs remaining in IDL</text>
+        <text x="76" y="428" fontSize="7.6" className="fill-muted-foreground">and chylomicron remnants. HDL also acts as the repository for apo CII and apoE that chylomicrons and VLDL borrow to activate LPL.</text>
+      </g>
+      <g>
+        <text x="24" y="470" fontSize="8.5" className="fill-muted-foreground">Original KYP redraw of the source's HDL maturation figure (p. 91): liver and small intestine secrete the discoidal nascent HDL;</text>
+        <text x="24" y="486" fontSize="8.5" className="fill-muted-foreground">LCAT esterifies its cholesterol into the core, making the spherical mature HDL; CETP hands the cholesteryl esters to VLDL, IDL, and LDL.</text>
+      </g>
+    </svg>
+  );
+}
+
+export function LipidLadenEnterocytes() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Schematic of the abetalipoproteinemia small-intestinal biopsy and blood smear (an original KYP schematic, not a micrograph): a villus whose columnar enterocytes are distended and cleared by accumulated lipid droplets that cannot be exported without apo B48-containing chylomicrons (MTP mutation blocks lipoprotein assembly), beside a blood-smear schematic contrasting a normal biconcave red cell with an acanthocyte — a dense, irregularly spiky spur cell — the membrane consequence of the same lipid-transfer failure" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Abetalipoproteinemia — the blocked export, drawn schematically (original KYP illustration)</text>
+        <rect x="700" y="24" width="214" height="18" rx="9" className="fill-warning-soft" />
+        <text x="807" y="37" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-warning">no MTP → no apoB particles → lipid stuck</text>
+      </g>
+
+      {/* LEFT: villus with lipid-laden enterocytes */}
+      <g>
+        <rect x="36" y="80" width="452" height="360" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="102" fontSize="9.5" fontWeight="800" className="fill-foreground">Small-intestinal villus — lipid-laden enterocytes</text>
+        <text x="52" y="116" fontSize="7" className="fill-muted-foreground">Schematic (not a micrograph) of the biopsy finding.</text>
+        {/* lamina propria core */}
+        <path d="M 170 340 C 150 270, 175 190, 260 150 C 345 190, 370 270, 350 340 C 310 366, 210 366, 170 340 Z" className="fill-secondary/60 stroke-border" strokeWidth="1.3" />
+        <text x="260" y="300" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-muted-foreground">lamina propria</text>
+        <text x="260" y="312" textAnchor="middle" fontSize="7" className="fill-muted-foreground">(+ central lacteal)</text>
+        {/* enterocyte rows — each cell a circle stuffed with lipid droplets */}
+        {[
+          [196, 322], [236, 336], [278, 338], [320, 330], [352, 312],
+          [176, 284], [206, 268], [248, 258], [292, 256], [334, 262], [366, 280],
+          [196, 234], [238, 222], [282, 218], [326, 222], [358, 234],
+          [222, 190], [262, 182], [302, 184], [338, 192],
+        ].map(([cx, cy], i) => (
+          <g key={`ec-${i}`}>
+            <circle cx={cx} cy={cy} r="19" className="fill-card stroke-border" strokeWidth="1.1" />
+            <circle cx={cx - 6} cy={cy - 4} r="5" className="fill-warning-soft stroke-warning" strokeWidth="0.7" />
+            <circle cx={cx + 5} cy={cy - 6} r="4" className="fill-warning-soft stroke-warning" strokeWidth="0.7" />
+            <circle cx={cx + 6} cy={cy + 4} r="4.5" className="fill-warning-soft stroke-warning" strokeWidth="0.7" />
+            <circle cx={cx - 4} cy={cy + 6} r="3.5" className="fill-warning-soft stroke-warning" strokeWidth="0.7" />
+          </g>
+        ))}
+        <text x="260" y="392" textAnchor="middle" fontSize="7.8" fontWeight="700" className="fill-foreground">Enterocytes distended and cleared by lipid droplets</text>
+        <text x="260" y="406" textAnchor="middle" fontSize="7" className="fill-muted-foreground">— the absorbed fat has no chylomicron to leave on (apo B48 assembly fails without MTP).</text>
+        <text x="260" y="424" textAnchor="middle" fontSize="7" className="fill-muted-foreground">Intestinal biopsy shows lipid-laden enterocytes.</text>
+      </g>
+
+      {/* RIGHT: acanthocyte schematic */}
+      <g>
+        <rect x="508" y="80" width="448" height="360" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="524" y="102" fontSize="9.5" fontWeight="800" className="fill-foreground">Blood smear — the acanthocyte (spur cell)</text>
+        <text x="524" y="116" fontSize="7" className="fill-muted-foreground">Schematic (not a micrograph): membrane spiculation from lipid-transfer failure.</text>
+        {/* normal RBC */}
+        <circle cx="596" cy="216" r="42" className="fill-emergency-soft stroke-emergency/70" strokeWidth="1.6" />
+        <circle cx="596" cy="216" r="26" fill="none" stroke="currentColor" strokeWidth="1" className="text-emergency/40" />
+        <text x="596" y="292" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">Normal RBC</text>
+        <text x="596" y="306" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">smooth biconcave disc</text>
+        {/* acanthocyte — irregular spiky cell */}
+        <path d="M 800 174 C 824 160, 838 176, 852 170 L 846 190 C 866 192, 872 208, 868 224 L 850 226 C 862 240, 852 254, 838 258 L 828 242 C 826 258, 810 262, 798 254 L 806 240 C 788 240, 778 228, 782 212 L 800 210 C 786 200, 790 182, 800 174 Z" className="fill-emergency-soft stroke-emergency" strokeWidth="1.8" />
+        <path d="M 812 196 L 842 214 M 818 232 L 844 224 M 798 210 L 826 236" stroke="none" />
+        <text x="818" y="292" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">Acanthocyte</text>
+        <text x="818" y="306" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">irregularly spiked (spur) cell</text>
+        <text x="732" y="352" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">Acanthocytosis accompanies the disease — the membrane</text>
+        <text x="732" y="366" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">deformation of red cells when lipid transport fails.</text>
+        <text x="732" y="384" textAnchor="middle" fontSize="7.2" fontWeight="700" className="fill-foreground">Steatorrhea · failure to thrive (infants)</text>
+        <text x="732" y="398" textAnchor="middle" fontSize="7.2" fontWeight="700" className="fill-foreground">Retinitis pigmentosa · spinocerebellar degeneration · ataxia</text>
+        <text x="732" y="412" textAnchor="middle" fontSize="7" className="fill-muted-foreground">— the vitamin E deficiency signature.</text>
+      </g>
+
+      {/* bottom strip */}
+      <g>
+        <rect x="24" y="454" width="932" height="66" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="476" fontSize="8" fontWeight="800" className="fill-foreground">Abetalipoproteinemia: autosomal recessive mutation in microsomal transfer protein (MTP) → chylomicrons, VLDL, LDL absent — deficiency of apo B48– and apo B100–containing lipoproteins.</text>
+        <text x="42" y="494" fontSize="7.6" className="fill-muted-foreground">Affected infants: severe fat malabsorption, steatorrhea, failure to thrive. Later: retinitis pigmentosa, spinocerebellar degeneration due to vitamin E deficiency, progressive ataxia, acanthocytosis.</text>
+        <text x="42" y="510" fontSize="7.6" fontWeight="700" className="fill-foreground">Treatment: restriction of long-chain fatty acids, large doses of oral vitamin E.</text>
+      </g>
+      <g>
+        <text x="24" y="544" fontSize="8.5" className="fill-muted-foreground">Original KYP schematic of the abetalipoproteinemia findings (source p. 92: biopsy arrow-A photo → schematic villus; acanthocytosis → schematic smear). No micrograph is reproduced.</text>
+      </g>
+    </svg>
+  );
+}

@@ -1,0 +1,137 @@
+{
+  "topicId": "lipid-transport",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "lipid-transport-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Exogenous + endogenous lipid transport circuit with seven numbered steps",
+      "sourceFigureDescription": "Full-body circuit: small intestine lumen (micelles) → intestinal cell → chylomicron (apo B48) → thoracic duct → subclavian vein → systemic circulation; HDL transfers apo CII/apoE; LPL at capillary → FFA to adipocyte → chylomicron remnant → hepatocyte apoE receptor; hepatocyte (bile canaliculus) → VLDL (apo B100) → LPL → IDL → hepatic lipase → LDL → LDL-receptor endocytosis in peripheral cell; seven numbered callouts with type I/IV/II annotations.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lipid Transport",
+      "topicId": "lipid-transport",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "lipid-transport-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lipid-transport-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "HDL maturation / reverse cholesterol transport",
+      "sourceFigureDescription": "Liver (upper left) and small intestine (lower left) both secrete nascent HDL (disc-shaped, apo CII top, apoE bottom) → LCAT on the arrow → mature HDL (sphere with cholesteryl-ester core) → CETP on the arrow → text 'Transfer of cholesteryl esters to VLDL, IDL, LDL'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lipid Transport",
+      "topicId": "lipid-transport",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "hdl-maturation-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "lipid-transport-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Key enzymes in lipid transport",
+      "sourceFigureDescription": "Seven-row enzyme/function table: CETP, hepatic lipase, hormone-sensitive lipase, LCAT (esterification of 2/3 of plasma cholesterol, HDL maturation), lipoprotein lipase, pancreatic lipase, PCSK9 (degrades LDL receptor; inhibition raises recycling).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lipid Transport",
+      "topicId": "lipid-transport",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] — 'Key enzymes in lipid transport — verbatim' table block"
+    },
+    {
+      "visualId": "lipid-transport-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Major apolipoproteins with particle presence matrix",
+      "sourceFigureDescription": "Five apolipoproteins (E, AI, CII, B48, B100) with functions and the checkmark matrix across chylomicron / chylomicron remnant / VLDL / IDL / LDL / HDL (E on everything except LDL; AI only HDL; CII on chylomicron/VLDL/IDL/HDL; B48 on chylomicron+remnant; B100 on VLDL/IDL/LDL).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lipid Transport",
+      "topicId": "lipid-transport",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[3] — 'Major apolipoproteins — functions and the particle matrix, verbatim' table block"
+    },
+    {
+      "visualId": "lipid-transport-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Lipoprotein functions",
+      "sourceFigureDescription": "Prose-function section for the five lipoproteins: chylomicron (dietary TG, remnant cholesterol to liver, intestinal secretion), VLDL (hepatic TG), IDL (TGs+cholesterol to liver, from VLDL degradation), LDL (hepatic cholesterol to periphery, hepatic lipase modification of IDL, receptor-mediated endocytosis, Lethal), HDL (reverse cholesterol transport, apoC/apoE repository, liver+intestine secretion, alcohol ↑ synthesis, Healthy).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Lipid Transport",
+      "topicId": "lipid-transport",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[4] — 'Lipoprotein functions — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "lipid-transport",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Seed 4 sv → final 5 sv (p113 enzyme table added; documented in manifest.notes). Apo presence matrix read by 1.5x-crop VLM census; functions verified verbatim via text layer."
+}

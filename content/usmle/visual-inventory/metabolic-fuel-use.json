@@ -1,0 +1,89 @@
+{
+  "topicId": "metabolic-fuel-use",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "metabolic-fuel-use-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "89"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "TIMELINE",
+      "visualPurpose": "Fuel-source dominance across duration of exercise",
+      "sourceFigureDescription": "Fig 7: % maximal energy by source (y, 0 to 100%) vs duration of exercise (x: 2 sec, 10 sec, 1 min, 2 hr) — five curves with legend: stored ATP (starts 100%, spent within seconds), creatine phosphate (peaks between 2 and 10 sec), anaerobic metabolism (peaks near 1 min), aerobic metabolism (rises continuously, dominant after ~1 min), overall performance (100% at start, flat to ~10 sec, declines to low plateau by 2 hr).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Fuel Use & Starvation",
+      "topicId": "metabolic-fuel-use",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "exercise-fuel-systems",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "metabolic-fuel-use-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "89"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "TIMELINE",
+      "visualPurpose": "Stored energy decline across weeks of starvation",
+      "sourceFigureDescription": "Fig 8: stored energy (kJ) (y, ticks 12, 10, 8, 6, 4, 2, 0) vs weeks of starvation (x, 0-8) — three solid curves: protein (starts 12, slow decline accelerating after week 6 to ~5 at week 8), fat (starts 12, near-linear decline to ~1 at week 8), carbohydrate (starts ~0.5, at zero within week 1). Invisible text-layer artifacts present (duplicated right-axis '100% / % Maximal energy by source', stray '2 sec') — InDesign leftovers, not visible in print.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Fuel Use & Starvation",
+      "topicId": "metabolic-fuel-use",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "starvation-energy-stores",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "metabolic-fuel-use-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          111
+        ],
+        "bookPages": "89"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Fed/fasting/starvation states with hormonal drivers",
+      "sourceFigureDescription": "The states table: priorities banner (supply sufficient glucose to the brain and RBCs and preserve protein); fed state (glycolysis + aerobic respiration; insulin stores TG/glycogen + protein synthesis); fasting (hepatic glycogenolysis major, GNG + adipose FFA minor; glucagon/epinephrine); starvation days 1-3 (glycogenolysis, adipose FFA, glucose-to-FFA shift, GNG from lactate/alanine/glycerol/propionyl-CoA from odd-chain FFA; glycogen depleted after day 1; RBCs lack mitochondria); starvation after day 3 (adipose stores, ketones main brain source; depleted stores → vital protein degradation → organ failure and death; excess stores determine survival time).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Fuel Use & Starvation",
+      "topicId": "metabolic-fuel-use",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "kypLocation": "blocks[2] — 'Fasting and starvation states — verbatim' table block",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "metabolic-fuel-use",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Seed correction documented in manifest.notes (2 seeded sv -> 3 final sv matching the printed page: two separately numbered graphs + the states table). The kcal mnemonic text box is note content per the text-callout precedent."
+}

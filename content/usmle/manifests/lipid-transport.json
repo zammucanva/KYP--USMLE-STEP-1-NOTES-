@@ -1,0 +1,966 @@
+{
+  "topicId": "lipid-transport",
+  "title": "Lipid Transport, Apolipoproteins & HDL Maturation",
+  "chapterId": "biochemistry",
+  "chapterTitle": "Biochemistry",
+  "subsection": "Metabolism — Lipid Transport",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      112,
+      113,
+      114
+    ],
+    "bookPages": "90–92"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Lipid transport",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 1 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Chylomicron enters lymphatics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 2 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "HDL transfers apo CII and apoE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 3 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Chylomicron apo CII activates LPL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 3 dyslipidemia annotation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "(impaired in type I familial dyslipidemia)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 4 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Liver releases VLDL (overproduction in\ntype IV familial dyslipidemia)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 5 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "VLDL apo CII activates LPL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 6 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "IDL delivers TGs and cholesterol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 6 callout (cont.)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "to the liver via apoE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 7 callout",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Endocytosis of LDL (impaired in\ntype II familial dyslipidemia)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: dietary input",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Dietary fat\nand\ncholesterol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: absorption",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Micelles",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: lymphatic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Thoracic duct",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: venous",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Subclavian vein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: blood loop",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Systemic circulation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: gut lumen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Small intestine lumen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: enterocyte",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Intestinal cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: capillary enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Lipoprotein\nlipase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: remnant",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Chylomicron\nremnant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: liver cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Hepatocyte",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: bile",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Bile\ncanaliculus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: liver enzyme",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Hepatic lipase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: peripheral uptake",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "LDL receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: remnant uptake",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "ApoE\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: target cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Peripheral cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: intestinal apolipoprotein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Apo\nB48",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: hepatic apolipoprotein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Apo\nB100",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: lipid classes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Chol E",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: bile export",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          112
+        ],
+        "bookPages": "90"
+      },
+      "quote": "Cholesterol\n+\nTGs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Key enzymes in lipid transport",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CETP function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Mediates transfer of cholesteryl esters to other lipoprotein particles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hepatic lipase function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Degrades TGs remaining in IDL and chylomicron remnants.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hormone-sensitive lipase function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Degrades TGs stored in adipocytes. Promotes gluconeogenesis by releasing glycerol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LCAT function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Catalyzes esterification of 2⁄3 of plasma cholesterol (ie, required for HDL maturation).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lipoprotein lipase function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Degrades TGs in circulating chylomicrons and VLDL.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pancreatic lipase function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Degrades dietary TGs in small intestine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PCSK9 function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Degrades LDL receptor → ↑ serum LDL. Inhibition → ↑ LDL receptor recycling → ↓ serum LDL.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Nascent HDL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Mature HDL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "LCAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "CETP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Transfer of\ncholesteryl\nesters to\nVLDL, IDL,\nLDL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label: source organs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Liver",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label: source organs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Small intestine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label: apolipoproteins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Apo CII",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL figure label: apolipoproteins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "ApoE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apolipoprotein table heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Major apolipoproteins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ApoE function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Mediates remnant uptake\n(everything except LDL)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo AI function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Found only on alphalipoproteins (HDL), activates\nLCAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo CII function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Lipoprotein lipase cofactor that\ncatalyzes cleavage",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo B48 function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Mediates chylomicron\nsecretion into lymphatics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo B48 exclusivity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Only on particles originating\nfrom the intestines",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo B100 function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Binds LDL receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Apo B100 exclusivity + mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          113
+        ],
+        "bookPages": "91"
+      },
+      "quote": "Only on particles originating\nfrom the liver (I hope I live to\nBe 100)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Lipoprotein functions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Composition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Lipoproteins are composed of varying proportions of proteins, cholesterol, TGs, and phospholipids.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cholesterol carriers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "LDL and HDL carry the most cholesterol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cholesterol uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Cholesterol is needed to maintain cell membrane integrity and synthesize bile acids, steroids, and vitamin D.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chylomicron function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Delivers dietary TGs to peripheral tissues. Delivers cholesterol to liver in the form of chylomicron\nremnants, which are mostly depleted of their TGs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chylomicron origin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Secreted by intestinal epithelial cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VLDL function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Delivers hepatic TGs to peripheral tissue. Secreted by liver.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IDL function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Delivers TGs and cholesterol to liver. Formed from degradation of VLDL.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LDL function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Delivers hepatic cholesterol to peripheral tissues.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LDL formation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Formed by hepatic lipase modification of IDL in\nthe liver and peripheral tissue.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LDL uptake + tag",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Taken up by target cells via receptor-mediated endocytosis. LDL is\nLethal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Mediates reverse cholesterol transport from peripheral tissues to liver.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL repository role",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Acts as a repository for apoC\nand apoE (which are needed for chylomicron and VLDL metabolism).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HDL origin + alcohol + tag",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "quote": "Secreted from both liver\nand intestine. Alcohol ↑ synthesis. HDL is Healthy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "lipid-transport-map",
+    "hdl-maturation-map"
+  ],
+  "mechanismIds": [
+    "exogenous-chylomicron-run",
+    "endogenous-reverse-loop"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the map, enzyme table, apolipoprotein matrix, and function lists; the USMLE question attack structure (stem patterns, traps, look-alike pivots, mini-case) is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "address-system-model",
+      "summary": "Reading apolipoproteins as an address system: origin tags (B48 intestine vs B100 liver), keys (apo CII unlocks LPL; apoE unlocks remnant/IDL uptake), and license (apo AI licenses LCAT on HDL).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists the five apolipoproteins and their functions in a table; unifying them as one three-part address system (origin/key/license) that maps onto the numbered transport steps is KYP's integrative model.",
+      "location": "core.keyIdea + mechanism captions + mnemonic 3 + pivot 2"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "notes": "Seed correction (documented): seeded 4 sv; the printed pages carry 5 accounted visual elements — the p113 'Key enzymes in lipid transport' table was absent from the seed and is added as sv3 (note-block). Seed sv4's 'relative composition' phrasing replaced by the actual printed lipoprotein-functions prose (sv5). The transport figure's seven numbered callouts are reproduced verbatim (numbers 6/7 appear in the text layer; 1-5 drawn as circled labels per VLM census). Dyslipidemia type-annotation strings verified on p112; the full dyslipidemia taxonomy belongs to E18.",
+  "updatedAt": "2026-10-14"
+}

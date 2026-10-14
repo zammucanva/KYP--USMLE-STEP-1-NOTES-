@@ -101,7 +101,7 @@ import {
   EthanolMetabolismMap,
   EthanolNadhConsequences,
 } from "./nutrition";
-import { WholeMetabolismMap, TcaCycleMap, PdhCofactorPanel, EtcOxphosMap, GluconeogenesisBypasses, HmpShuntMap, GlutathioneRedoxCycle, FructoseMetabolismMap, GalactoseLeloirMap, PolyolPathwayMap, AminoAcidDerivativesMap, CatecholamineSynthesisMap, UreaCycleMap, AlanineGlucoseShuttle, PhenylalaninePathwayMap, MethionineHomocysteineMap, OrganicAcidemiaMap, OchronosisScleraIllustration, GlycogenHormoneRegulation, GlycogenMetabolismMap, SphingolipidPathwayMap, CherryRedSpotIllustration, AngiokeratomaIllustration, GaucherCellsIllustration, NiemannPickFoamCells, FaSynthesisVsOxidation, KetoneBodyShuttle, AdipocyteFedFasted } from "./metabolism";
+import { WholeMetabolismMap, TcaCycleMap, PdhCofactorPanel, EtcOxphosMap, GluconeogenesisBypasses, HmpShuntMap, GlutathioneRedoxCycle, FructoseMetabolismMap, GalactoseLeloirMap, PolyolPathwayMap, AminoAcidDerivativesMap, CatecholamineSynthesisMap, UreaCycleMap, AlanineGlucoseShuttle, PhenylalaninePathwayMap, MethionineHomocysteineMap, OrganicAcidemiaMap, OchronosisScleraIllustration, GlycogenHormoneRegulation, GlycogenMetabolismMap, SphingolipidPathwayMap, CherryRedSpotIllustration, AngiokeratomaIllustration, GaucherCellsIllustration, NiemannPickFoamCells, FaSynthesisVsOxidation, KetoneBodyShuttle, AdipocyteFedFasted, ExerciseFuelSystems, StarvationEnergyStores, LipidTransportMap, HdlMaturationMap, LipidLadenEnterocytes } from "./metabolism";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -229,4 +229,12 @@ export const VisualRegistry: Record<string, ComponentType> = {
   // Biochemistry — Metabolism (E15: ketone bodies, fed/fasted)
   "ketone-body-shuttle": KetoneBodyShuttle,
   "adipocyte-fed-fasted": AdipocyteFedFasted,
+  // Biochemistry — Metabolism (E16: metabolic fuel use)
+  "exercise-fuel-systems": ExerciseFuelSystems,
+  "starvation-energy-stores": StarvationEnergyStores,
+  // Biochemistry — Metabolism (E17: lipid transport)
+  "lipid-transport-map": LipidTransportMap,
+  "hdl-maturation-map": HdlMaturationMap,
+  // Biochemistry — Metabolism (E18: familial dyslipidemias)
+  "lipid-laden-enterocytes": LipidLadenEnterocytes,
 };

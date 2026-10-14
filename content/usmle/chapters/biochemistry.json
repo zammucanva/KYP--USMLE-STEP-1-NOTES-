@@ -3821,14 +3821,12 @@
         "starvation-fuel-timeline"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "Fuel-source timeline (2-sec phosphocreatine → days 1–3 gluconeogenesis → post-day-3 ketone-dominant brain shift) — the integration endpoint of all metabolism topics.",
       "textbookVisuals": [
         {
           "visualId": "metabolic-fuel-use-sv1",
-          "visualType": "TIMELINE",
-          "visualPurpose": "Fuel-source timeline during starvation",
-          "sourceFigureDescription": "Timeline: 2 sec (phosphocreatine), minutes (glycogen), days 1–3 (gluconeogenesis dominant, protein sparing), after day 3 (ketone bodies supply ~2/3 of brain's energy, muscle protein breakdown slows), with primary fuel bars per organ",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3836,21 +3834,25 @@
             ],
             "bookPages": "89"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_REDRAW",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "TIMELINE",
+          "visualPurpose": "Fuel-source dominance across duration of exercise",
+          "sourceFigureDescription": "Fig 7: % maximal energy by source (y, 0 to 100%) vs duration of exercise (x: 2 sec, 10 sec, 1 min, 2 hr) — five curves with legend: stored ATP (starts 100%, spent within seconds), creatine phosphate (peaks between 2 and 10 sec), anaerobic metabolism (peaks near 1 min), aerobic metabolism (rises continuously, dominant after ~1 min), overall performance (100% at start, flat to ~10 sec, declines to low plateau by 2 hr).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Fuel Use & Starvation",
           "topicId": "metabolic-fuel-use",
-          "productionStatus": "planned",
-          "plannedKypVisualId": "starvation-fuel-timeline",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "exercise-fuel-systems",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "exercise-fuel-systems",
           "plannedImplementation": "registry-visual"
         },
         {
           "visualId": "metabolic-fuel-use-sv2",
-          "visualType": "VISUAL_TABLE",
-          "visualPurpose": "Metabolic fuel use by organ table",
-          "sourceFigureDescription": "Table of fuel preferences (brain glucose/ketones, RBC glucose-only, cardiac fatty acids, liver) across fed/fasted/starved states",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3858,13 +3860,47 @@
             ],
             "bookPages": "89"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_ADAPTATION",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "TIMELINE",
+          "visualPurpose": "Stored energy decline across weeks of starvation",
+          "sourceFigureDescription": "Fig 8: stored energy (kJ) (y, ticks 12, 10, 8, 6, 4, 2, 0) vs weeks of starvation (x, 0-8) — three solid curves: protein (starts 12, slow decline accelerating after week 6 to ~5 at week 8), fat (starts 12, near-linear decline to ~1 at week 8), carbohydrate (starts ~0.5, at zero within week 1). Invisible text-layer artifacts present (duplicated right-axis '100% / % Maximal energy by source', stray '2 sec') — InDesign leftovers, not visible in print.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Fuel Use & Starvation",
           "topicId": "metabolic-fuel-use",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "starvation-energy-stores",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "starvation-energy-stores",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "metabolic-fuel-use-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              111
+            ],
+            "bookPages": "89"
+          },
+          "chapterId": "biochemistry",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Fed/fasting/starvation states with hormonal drivers",
+          "sourceFigureDescription": "The states table: priorities banner (supply sufficient glucose to the brain and RBCs and preserve protein); fed state (glycolysis + aerobic respiration; insulin stores TG/glycogen + protein synthesis); fasting (hepatic glycogenolysis major, GNG + adipose FFA minor; glucagon/epinephrine); starvation days 1-3 (glycogenolysis, adipose FFA, glucose-to-FFA shift, GNG from lactate/alanine/glycerol/propionyl-CoA from odd-chain FFA; glycogen depleted after day 1; RBCs lack mitochondria); starvation after day 3 (adipose stores, ketones main brain source; depleted stores → vital protein degradation → organ failure and death; excess stores determine survival time).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Fuel Use & Starvation",
+          "topicId": "metabolic-fuel-use",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks[2] — 'Fasting and starvation states — verbatim' table block",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
           "plannedImplementation": "note-block"
         }
       ]
@@ -3895,14 +3931,12 @@
         "hdl-maturation-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The numbered exogenous/endogenous transport map (chylomicron→LPL→remnant; VLDL→IDL→LDL; HDL reverse transport with LCAT/CETP) plus the apoB48/B100/CII/E function table — the chapter's most numbered visual.",
       "textbookVisuals": [
         {
           "visualId": "lipid-transport-sv1",
-          "visualType": "BIOCHEMICAL_PATHWAY",
-          "visualPurpose": "Exogenous and endogenous lipid transport map",
-          "sourceFigureDescription": "Full-body numbered map: intestinal micelle → chylomicron (apoB48) → lymphatics → LPL (apoCII) → FFA to adipose → remnant uptake by liver (apoE); liver VLDL (apoB100) → LPL → IDL → LDL → peripheral receptor uptake; HDL reverse transport branch",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3910,21 +3944,25 @@
             ],
             "bookPages": "90"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_REDRAW",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Exogenous + endogenous lipid transport circuit with seven numbered steps",
+          "sourceFigureDescription": "Full-body circuit: small intestine lumen (micelles) → intestinal cell → chylomicron (apo B48) → thoracic duct → subclavian vein → systemic circulation; HDL transfers apo CII/apoE; LPL at capillary → FFA to adipocyte → chylomicron remnant → hepatocyte apoE receptor; hepatocyte (bile canaliculus) → VLDL (apo B100) → LPL → IDL → hepatic lipase → LDL → LDL-receptor endocytosis in peripheral cell; seven numbered callouts with type I/IV/II annotations.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Lipid Transport",
           "topicId": "lipid-transport",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "lipid-transport-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
           "plannedKypVisualId": "lipid-transport-map",
           "plannedImplementation": "registry-visual"
         },
         {
           "visualId": "lipid-transport-sv2",
-          "visualType": "BIOCHEMICAL_PATHWAY",
-          "visualPurpose": "HDL maturation with LCAT and CETP",
-          "sourceFigureDescription": "Diagram: nascent HDL from liver/intestine → LCAT esterifies cholesterol (cholesteryl esters into core) → CETP exchanges CE for TG → mature HDL → liver via SR-B1 — reverse cholesterol transport",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3932,21 +3970,25 @@
             ],
             "bookPages": "91"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_ADAPTATION",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "HDL maturation / reverse cholesterol transport",
+          "sourceFigureDescription": "Liver (upper left) and small intestine (lower left) both secrete nascent HDL (disc-shaped, apo CII top, apoE bottom) → LCAT on the arrow → mature HDL (sphere with cholesteryl-ester core) → CETP on the arrow → text 'Transfer of cholesteryl esters to VLDL, IDL, LDL'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Lipid Transport",
           "topicId": "lipid-transport",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "hdl-maturation-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
           "plannedKypVisualId": "hdl-maturation-map",
           "plannedImplementation": "registry-visual"
         },
         {
           "visualId": "lipid-transport-sv3",
-          "visualType": "VISUAL_TABLE",
-          "visualPurpose": "Major apolipoproteins table",
-          "sourceFigureDescription": "Table: apoA-I (LCAT activator, HDL), apoB-48 (chylomicron), apoB-100 (VLDL/IDL/LDL receptor ligand), apoC-II (LPL activator), apoE (remnant receptor, E3/E2 dysbeta lipoproteinemia)",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3954,20 +3996,53 @@
             ],
             "bookPages": "91"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_ADAPTATION",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Key enzymes in lipid transport",
+          "sourceFigureDescription": "Seven-row enzyme/function table: CETP, hepatic lipase, hormone-sensitive lipase, LCAT (esterification of 2/3 of plasma cholesterol, HDL maturation), lipoprotein lipase, pancreatic lipase, PCSK9 (degrades LDL receptor; inhibition raises recycling).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Lipid Transport",
           "topicId": "lipid-transport",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] — 'Key enzymes in lipid transport — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
           "plannedImplementation": "note-block"
         },
         {
           "visualId": "lipid-transport-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              113
+            ],
+            "bookPages": "91"
+          },
+          "chapterId": "biochemistry",
           "visualType": "VISUAL_TABLE",
-          "visualPurpose": "Lipoprotein functions table",
-          "sourceFigureDescription": "Table: chylomicron (dietary TG), VLDL (endogenous TG), IDL (transition), LDL (cholesterol to periphery), HDL (reverse cholesterol) with relative composition",
+          "visualPurpose": "Major apolipoproteins with particle presence matrix",
+          "sourceFigureDescription": "Five apolipoproteins (E, AI, CII, B48, B100) with functions and the checkmark matrix across chylomicron / chylomicron remnant / VLDL / IDL / LDL / HDL (E on everything except LDL; AI only HDL; CII on chylomicron/VLDL/IDL/HDL; B48 on chylomicron+remnant; B100 on VLDL/IDL/LDL).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Lipid Transport",
+          "topicId": "lipid-transport",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[3] — 'Major apolipoproteins — functions and the particle matrix, verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "lipid-transport-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -3975,13 +4050,21 @@
             ],
             "bookPages": "92"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_ADAPTATION",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Lipoprotein functions",
+          "sourceFigureDescription": "Prose-function section for the five lipoproteins: chylomicron (dietary TG, remnant cholesterol to liver, intestinal secretion), VLDL (hepatic TG), IDL (TGs+cholesterol to liver, from VLDL degradation), LDL (hepatic cholesterol to periphery, hepatic lipase modification of IDL, receptor-mediated endocytosis, Lethal), HDL (reverse cholesterol transport, apoC/apoE repository, liver+intestine secretion, alcohol ↑ synthesis, Healthy).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Lipid Transport",
           "topicId": "lipid-transport",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[4] — 'Lipoprotein functions — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
           "plannedImplementation": "note-block"
         }
       ]

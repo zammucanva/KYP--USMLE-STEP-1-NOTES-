@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-13T20:10:26Z",
+  "generatedAt": "2026-10-14T14:19:03Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,13 +267,13 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 1,
-    "topicsProduced": 61,
+    "topicsProduced": 63,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
       "pilot-complete": 10,
-      "chapter-complete": 51,
+      "chapter-complete": 53,
       "blocked": 0,
       "failed": 0
     }
@@ -285,8 +285,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 55,
-      "topicsProduced": 52,
-      "topicsRemaining": 3,
+      "topicsProduced": 54,
+      "topicsRemaining": 1,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -914,6 +914,21 @@
       "updatedAt": "2026-10-08"
     },
     {
+      "topicId": "lipid-transport",
+      "title": "Lipid Transport, Apolipoproteins & HDL Maturation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Lipid Transport",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 112, 113, 114 (book 90–92)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
       "topicId": "lysosomal-storage-diseases",
       "title": "Lysosomal Storage Diseases",
       "chapterId": "biochemistry",
@@ -923,6 +938,21 @@
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 108 (book 86)",
       "visualCount": 5,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "metabolic-fuel-use",
+      "title": "Metabolic Fuel Use & Starvation",
+      "chapterId": "biochemistry",
+      "subsection": "Metabolism — Fuel Use & Starvation",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 111 (book 89)",
+      "visualCount": 2,
       "mechanismCount": 2,
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",

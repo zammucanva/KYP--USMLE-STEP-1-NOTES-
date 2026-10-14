@@ -62,6 +62,9 @@ import { glycogenMetabolism } from "./glycogen-metabolism";
 import { lysosomalStorageDiseases } from "./lysosomal-storage-diseases";
 import { fattyAcidMetabolism } from "./fatty-acid-metabolism";
 import { ketoneBodies } from "./ketone-bodies";
+import { metabolicFuelUse } from "./metabolic-fuel-use";
+import { lipidTransport } from "./lipid-transport";
+import { familialDyslipidemias } from "./familial-dyslipidemias";
 
 /** USMLE 2026 topics in reading order (M1+M2 Molecular first, then pilot corpus). */
 export const usmleNotes: KypUsMLENote[] = [
@@ -124,6 +127,9 @@ export const usmleNotes: KypUsMLENote[] = [
   lysosomalStorageDiseases,
   fattyAcidMetabolism,
   ketoneBodies,
+  metabolicFuelUse,
+  lipidTransport,
+  familialDyslipidemias,
   // Pilot corpus
   glycolysisRegulation,
   sympathomimetics,
