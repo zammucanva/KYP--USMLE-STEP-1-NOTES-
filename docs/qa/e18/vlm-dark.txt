@@ -1,0 +1,18 @@
+### QA Report: Abetalipoproteinemia Schematic (Dark Mode)
+
+**A) Presence of Expected Elements:**
+*   **(1) Small-intestinal villus:** Present. Shows a schematic cross-section of a villus with enterocytes containing distinct lipid droplets (vacuoles).
+*   **(2) Blood-smear comparison:** Present. Clearly depicts a normal biconcave RBC alongside an irregularly spiked acanthocyte.
+*   **(3) Disease summary strip:** Present. The bottom section and top-right tag cover AR inheritance, MTP mutation, absent particles (chylomicrons/VLDL/LDL), infant presentation (steatorrhea/failure to thrive), vitamin E deficiency manifestations (retinitis/ataxia), and treatment (diet/vitamin E).
+
+**B) Paint Defects Check:**
+*   **Overlapping labels/colliding arrows:** None observed. Layout is well-spaced.
+*   **Clipped text:** None. All text is fully visible within its container.
+*   **Illegible text:** Text is sharp and highly legible.
+*   **Poor contrast in dark mode:** **PASS.** The schematic uses light-colored text (white/light gray) and bright accent colors (orange, red) against a deep dark background (#121418). Contrast ratios are excellent for accessibility in dark mode.
+*   **Elements past canvas edge:** All elements are contained within the framed layout.
+
+**C) Verdict:**
+**CLEAN**
+
+The schematic is a high-quality, original educational illustration that effectively communicates the pathophysiology of abetalipoproteinemia without any visual or technical defects in the provided dark-mode render.

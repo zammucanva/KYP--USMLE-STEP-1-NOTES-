@@ -1395,3 +1395,21 @@ Stage Summary:
 - E18 REMAINS IN-FLIGHT exactly as the push record left it (note 423 lines + LipidLadenEnterocytes + registry + index registration). No content changed. No new topic started. Biochemistry 54/55.
 - GENUINE BLOCKER (per §16 missing-critical-source class): the source PDFs are absent from this environment. UNBLOCK ACTION: user supplies "usmle part1.pdf" (433 pp) and "usmle part 2.pdf" (436 pp) — exact pipeline contract filenames — into /home/z/kyp-usmle-notes/upload/ (chat attachments land in /home/z/my-project/upload/ and will be moved + renamed to the contract paths). On arrival: pdftotext regenerates .usmle-pipeline-cache, then E18 finishes in one batch → 55/55 chapter gate → chapter report → autonomous continuation per §17.
 - SECURITY: the user PAT was shared in plaintext this session. It is stored transiently at /tmp/.kyp_pat only (never in the repo, git config, logs, or any committed file; push used a one-shot URL). RECOMMENDATION ISSUED TO USER: rotate this PAT after use.
+
+---
+## E18 — familial-dyslipidemias COMPLETE (Biochemistry 55/55 VERIFIED) — rebuilt batch, session 2026-10-16
+
+**Context:** Seventh environment wipe destroyed the four un-pushed commits (00a53b0 E18-complete, 4c22047 immunology+E19, a7a7d3c E20, 4030b09 E21). Remote verified still at a9fc80d (E1–E17 complete, Biochemistry 54/55, E18 in-flight). This session: state verified from the filesystem per the master mission, PDFs re-staged at contract paths (433/436 pages exact), cache regenerated, 1717/1717 prior quotes re-verified, then the E18 completion batch was REBUILT from the documented spec.
+
+**Batch contents:**
+- `scripts/usmle-pipeline/gen_e18_json.py` — manifest generator: **27/27 quotes machine-verified FIRST PASS** (pdf 114 / book 92; subsection banner + full abetalipoproteinemia block + the I–IV type table cells, verbatim with unicode fidelity).
+- Manifest `content/usmle/manifests/familial-dyslipidemias.json` — visualIds `["lipid-laden-enterocytes"]`, mechanismIds `["mtp-assembly-failure","dyslipidemia-step-map"]`, 2 kypExtensions (usmle-attack-layer, transport-map-failure-model), all 16 stages + 15 gates pass, productionStatus chapter-complete.
+- Visual inventory — 2 sv: histology micrograph → ORIGINAL_KYP_REDRAW (registry visual, never a reproduction); type table → ORIGINAL_KYP_ADAPTATION (note-block verbatim). Census: pdfimages shows exactly one raster on p114 (185×164 cmyk jpeg); p114's third element (Lipoprotein functions) owned by lipid-transport sv5, not re-claimed. **Seed correction documented:** seed claimed "type I–V"; printed table has types I–IV only (no type V row) — corrected in inventory + chapter productionRationale.
+- Chapter flip: biochemistry **55/55**, extractionStatus **verified**, completedAt 2026-10-16.
+- `scripts/usmle-pipeline/verify-source.ts` REBUILT (intake validator: contract paths, page counts, text-layer readability, footer→book-page mapping, forced cache regeneration, evidence gate propagation). Full run EXIT 0.
+- Gates: tracker 63→64 (sync-tracker) · **evidence 1744/1744 EXIT 0** · **validate CONTRACT GREEN** (2 documented cross-chapter warnings only) · **audit 64 topics / 0 depth failures** · tsc exactly 1 documented baseline error.
+- QA (durable, in-repo at docs/qa/e18/): browser 24/24 — desktop 1440×900 + mobile 390×844, light+dark, 0px overflow machine-measured, 0 page errors, console clean, theme state verified before every capture; element crops from full-page captures at machine-measured doc-coords rect (stdev 28.05/26.94 = real content); VLM paint QA **CLEAN ×2** with independent content verification (villus + lipid-distended enterocytes, normal RBC vs acanthocyte, summary strip; dark contrast explicitly passed).
+
+**Mission state after this batch:** Biochemistry VERIFIED 55/55 · Immunology 1/24 (pilot only — E19/E20/E21 were lost and must be rebuilt) · 64 topics · 1744 evidence quotes · 106 registry visuals · contract GREEN · 0 depth failures.
+
+**Next:** Immunology Phase I-C inventory rebuild → E19 lymphoid-structures → E20 innate-vs-adaptive → E21 mhc-complex → E22 hla-subtypes → … → E41 → Microbiology.

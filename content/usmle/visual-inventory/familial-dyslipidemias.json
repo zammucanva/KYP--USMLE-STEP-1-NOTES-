@@ -1,0 +1,66 @@
+{
+  "topicId": "familial-dyslipidemias",
+  "chapterId": "biochemistry",
+  "inventory": [
+    {
+      "visualId": "familial-dyslipidemias-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Abetalipoproteinemia intestinal biopsy — lipid-laden enterocytes (arrow in A)",
+      "sourceFigureDescription": "Light micrograph of a small-intestinal villus: enterocytes cleared and distended by lipid they cannot export as apo B48-containing chylomicrons, with the printed arrow marking a lipid-laden enterocyte (figure A on the printed page).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Dyslipidemias",
+      "topicId": "familial-dyslipidemias",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "lipid-laden-enterocytes",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "familial-dyslipidemias-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          114
+        ],
+        "bookPages": "92"
+      },
+      "chapterId": "biochemistry",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Familial dyslipidemias type I–IV comparison table",
+      "sourceFigureDescription": "Five-column table (TYPE / INHERITANCE / PATHOGENESIS / ↑ BLOOD LEVEL / CLINICAL) with four rows: I—Hyperchylomicronemia (AR, LPL or apo CII deficiency), II—Hypercholesterolemia (AD, LDL receptor or apo B100; IIa/IIb), III—Dysbetalipoproteinemia (AR, apoE 'defective in type thrEE'), IV—Hypertriglyceridemia (AD, hepatic VLDL overproduction).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Metabolism — Dyslipidemias",
+      "topicId": "familial-dyslipidemias",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Familial dyslipidemias — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "familial-dyslipidemias",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: p114 carries 3 accounted visual elements; the third (the Lipoprotein functions prose section at the top of the page) is owned by lipid-transport's visual inventory (sv5) and is deliberately not re-claimed here — no double-claiming, no silent omission. Seed sv2 corrected: claimed 'type I–V'; the printed table has types I–IV only (no type V). Histology conveyed as an original schematic per the rights rule (COPYRIGHTED_NO_REPUBLISH — never reproduced)."
+}

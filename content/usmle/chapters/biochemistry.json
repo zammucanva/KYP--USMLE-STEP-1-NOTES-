@@ -12,7 +12,7 @@
     }
   ],
   "bookPages": "27–92",
-  "extractionStatus": "extracted",
+  "extractionStatus": "verified",
   "extraction": {
     "extractedOn": "2026-10-07",
     "method": "PDF text-layer font-level heading extraction (PyMuPDF span styles: #004b6c MyriadPro-Bold 10pt = FA subsection bars; #165d7e semibold = minor headings) + full-page render VLM identification for every embedded raster/vector figure + text-layer cross-verification",
@@ -4090,14 +4090,12 @@
         "lipid-laden-enterocytes-illustration"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "ApoB failure → acanthocytes + fat malabsorption with the lipid-laden enterocyte biopsy, then type I–V dyslipidemia patterns with pancreatitis/ASCVD discriminations.",
+      "status": "complete",
+      "productionRationale": "ApoB failure → acanthocytes + fat malabsorption with the lipid-laden enterocyte biopsy, then type I–IV dyslipidemia patterns with pancreatitis/ASCVD discriminations.",
       "textbookVisuals": [
         {
           "visualId": "familial-dyslipidemias-sv1",
-          "visualType": "HISTOLOGY",
-          "visualPurpose": "Abetalipoproteinemia intestinal biopsy",
-          "sourceFigureDescription": "Light micrograph of small-intestinal biopsy: villus enterocytes cleared and distended by lipid (lipid-laden enterocytes) — the abetalipoproteinemia histology with acanthocytes",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -4105,21 +4103,25 @@
             ],
             "bookPages": "92"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_REDRAW",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Abetalipoproteinemia intestinal biopsy — lipid-laden enterocytes (arrow in A)",
+          "sourceFigureDescription": "Light micrograph of a small-intestinal villus: enterocytes cleared and distended by lipid they cannot export as apo B48-containing chylomicrons, with the printed arrow marking a lipid-laden enterocyte (figure A on the printed page).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Dyslipidemias",
           "topicId": "familial-dyslipidemias",
-          "productionStatus": "planned",
-          "plannedKypVisualId": "lipid-laden-enterocytes-illustration",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "lipid-laden-enterocytes",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "lipid-laden-enterocytes",
           "plannedImplementation": "registry-visual"
         },
         {
           "visualId": "familial-dyslipidemias-sv2",
-          "visualType": "VISUAL_TABLE",
-          "visualPurpose": "Familial dyslipidemia type comparison",
-          "sourceFigureDescription": "Table of type I–V: elevated particle (chylomicron → TG, pancreatitis; IIa LDL → ASCVD; III IDL; IV VLDL → TG; V mixed), inheritance, pathogenesis (LPL, apoC-II, LDL receptor, apoE)",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "sourcePages": {
             "part": 1,
             "pdfPages": [
@@ -4127,13 +4129,21 @@
             ],
             "bookPages": "92"
           },
-          "requiredInKYP": true,
-          "implementationType": "ORIGINAL_KYP_ADAPTATION",
-          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-          "sourceBook": "First Aid for the USMLE Step 1 2026",
           "chapterId": "biochemistry",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Familial dyslipidemias type I–IV comparison table",
+          "sourceFigureDescription": "Five-column table (TYPE / INHERITANCE / PATHOGENESIS / ↑ BLOOD LEVEL / CLINICAL) with four rows: I—Hyperchylomicronemia (AR, LPL or apo CII deficiency), II—Hypercholesterolemia (AD, LDL receptor or apo B100; IIa/IIb), III—Dysbetalipoproteinemia (AR, apoE 'defective in type thrEE'), IV—Hypertriglyceridemia (AD, hepatic VLDL overproduction).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Metabolism — Dyslipidemias",
           "topicId": "familial-dyslipidemias",
-          "productionStatus": "planned",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Familial dyslipidemias — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
           "plannedImplementation": "note-block"
         }
       ]
@@ -4151,5 +4161,6 @@
     "rightsPosture": "All First Aid 2026 artwork is COPYRIGHTED_NO_REPUBLISH — no republish license exists. Every educationally meaningful visual therefore receives an ORIGINAL_KYP_REDRAW or ORIGINAL_KYP_ADAPTATION (registry SVG or note-block); SOURCE_REFERENCE is used only for visuals genuinely absorbed by another note (receiving location named) or duplicated.",
     "diagnosticPatternPolicy": "Clinical photographs, histology, radiology and cytogenetics visuals are implemented as KYP originals that preserve the diagnostic pattern (e.g., cherry-red macula contrast, dark-peripheral heterochromatin on EM, dextrocardia silhouette position, crumpled-tissue-paper cytoplasm) — never superficial redraws."
   },
-  "notes": "Phase I-C full extraction. 54 new topics (status pending) + 1 approved pilot note. Topic granularity follows the approved pilot pattern (teachable units spanning 1–6 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 54–114 is claimed by exactly one topic). textbookVisuals[] is the pre-production visual source inventory; at production time records transfer into content/usmle/visual-inventory/<topicId>.json with kypVisualId and qaStatus filled. Cross-topic visuals absorbed by the pilot note are SOURCE_REFERENCE with the receiving note named. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear."
+  "notes": "Phase I-C full extraction. 54 new topics (status pending) + 1 approved pilot note. Topic granularity follows the approved pilot pattern (teachable units spanning 1–6 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 54–114 is claimed by exactly one topic). textbookVisuals[] is the pre-production visual source inventory; at production time records transfer into content/usmle/visual-inventory/<topicId>.json with kypVisualId and qaStatus filled. Cross-topic visuals absorbed by the pilot note are SOURCE_REFERENCE with the receiving note named. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
+  "completedAt": "2026-10-15"
 }
