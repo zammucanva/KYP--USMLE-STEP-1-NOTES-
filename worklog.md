@@ -1413,3 +1413,8 @@ Stage Summary:
 **Mission state after this batch:** Biochemistry VERIFIED 55/55 · Immunology 1/24 (pilot only — E19/E20/E21 were lost and must be rebuilt) · 64 topics · 1744 evidence quotes · 106 registry visuals · contract GREEN · 0 depth failures.
 
 **Next:** Immunology Phase I-C inventory rebuild → E19 lymphoid-structures → E20 innate-vs-adaptive → E21 mhc-complex → E22 hla-subtypes → … → E41 → Microbiology.
+
+---
+## Immunology Phase I-C — REBUILT 24-topic inventory (session 2026-10-16)
+
+Rebuild of the inventory destroyed with un-pushed 4c22047. PyMuPDF heading extraction (pdf 115–142) + pdfimages raster census + banner-group mapping redone fresh. 24 topics = pilot (hypersensitivity-types, byte-identical preserved) + E19–E41 (23 pending): lymphoid-structures (116–118), innate-vs-adaptive-immunity (119), mhc-complex (120), hla-subtypes (121), nk-b-t-cell-functions (121), t-cell-development (122), cytotoxic-regulatory-t-cells (122), lymphocyte-activation-tolerance (123), antibody-structure (124), immunoglobulin-isotypes (125), complement-pathways (126), complement-disorders (127), cytokines (128), respiratory-burst-ifn (129), cd-markers (130), active-passive-immunity (130–131), autoantibodies (135), b-cell-immunodeficiencies (136), t-cell-phagocyte-immunodeficiencies (136–137), immunodeficiency-infection-patterns (138), transplant-rejection (139), immunosuppressants (140–141), recombinant-cytokines (141). Every FA subsection on pdf 116–141 claimed exactly once. Documented boundaries: pilot owns hypersensitivity + transfusion reactions (131–134); pdf 142 = blank NOTES page; pdf 115 = opener. Contract GREEN; tracker synced (64 topics unchanged — chapter topics are pending until produced).

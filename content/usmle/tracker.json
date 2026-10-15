@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-15T22:36:46Z",
+  "generatedAt": "2026-10-15T22:45:26Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -266,7 +266,7 @@
   "estimatedTotalTopics": 3029,
   "counts": {
     "chaptersRegistered": 7,
-    "chaptersExtracted": 1,
+    "chaptersExtracted": 2,
     "topicsProduced": 64,
     "topicsByStatus": {
       "planned": 0,
@@ -294,10 +294,10 @@
       "chapterId": "immunology",
       "chapterTitle": "Immunology",
       "part": 1,
-      "extractionStatus": "registered",
-      "topicsRegistered": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 24,
       "topicsProduced": 1,
-      "topicsRemaining": null,
+      "topicsRemaining": 23,
       "qaStatus": "pass",
       "completedAt": null
     },

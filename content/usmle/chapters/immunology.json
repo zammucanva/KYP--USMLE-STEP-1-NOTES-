@@ -12,7 +12,7 @@
     }
   ],
   "bookPages": "93–120",
-  "extractionStatus": "registered",
+  "extractionStatus": "extracted",
   "topics": [
     {
       "topicId": "hypersensitivity-types",
@@ -35,8 +35,685 @@
       ],
       "mechanismHeavy": true,
       "status": "complete"
+    },
+    {
+      "topicId": "lymphoid-structures",
+      "title": "Lymphoid Structures: Lymph Node, Spleen & Thymus",
+      "faSubsections": [
+        "Immune system organs",
+        "Lymph node (follicle, medulla, paracortex)",
+        "Lymphatic drainage associations",
+        "Spleen (PALS, follicle, marginal zone)",
+        "Thymus (thymoma, involution)"
+      ],
+      "subsection": "Immunology — Lymphoid Structures",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          116,
+          117,
+          118
+        ],
+        "bookPages": "94–96"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "lymph-node-map",
+        "lymphatic-drainage-map",
+        "spleen-thymus-map"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The architecture topic: where immune responses happen — B-cell follicle vs T-cell paracortex (and the dendritic-cell trafficking that connects them), white vs red pulp with the PALS/marginal-zone zones, and the thymus as the T-cell school with its tumor/involution pitfalls. The drainage-association map is the classic anatomy-exam crossover."
+    },
+    {
+      "topicId": "innate-vs-adaptive-immunity",
+      "title": "Innate vs Adaptive Immunity",
+      "faSubsections": [
+        "Innate vs adaptive immunity",
+        "Innate immunity",
+        "Adaptive immunity",
+        "Immune privilege"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          119
+        ],
+        "bookPages": "97"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "innate-vs-adaptive-arms"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The first principles split: fast/germline-encoded/nonspecific vs slow/rearranged/specific with memory — with immune privilege (eye, testis, placenta, CNS) as the boundary condition the exam loves to probe."
+    },
+    {
+      "topicId": "mhc-complex",
+      "title": "MHC I vs MHC II and Bare Lymphocyte Syndrome",
+      "faSubsections": [
+        "Major histocompatibility complex I and II",
+        "MHC I",
+        "MHC II",
+        "Bare lymphocyte syndrome"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "mhc-structure-comparison"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The antigen-display machinery: MHC I (all nucleated cells, platelets; endogenous peptides, CD8) vs MHC II (professional APCs; exogenous peptides, CD4), the classic comparison table, and bare lymphocyte syndrome as the transcription-failure phenotype."
+    },
+    {
+      "topicId": "hla-subtypes",
+      "title": "HLA Subtypes Associated with Diseases",
+      "faSubsections": [
+        "HLA subtypes associated with diseases"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The association map: B27 (ankylosing spondylitis, IBD, psoriatic arthritis, reactive arthritis), DQ2/DQ8 (celiac), DQB1*0602 (narcolepsy), DR3/DR4 (T1DM), DR4 (RA), DR5 (Hashimoto/pernicious anemia), DRB1*15:01 (MS), B*58:01 (allopurinol hypersensitivity), DRB1*01:03 (IBD). Pure pattern-recognition currency — a table note, no custom visual needed."
+    },
+    {
+      "topicId": "nk-b-t-cell-functions",
+      "title": "Major Functions of NK, B and T Cells",
+      "faSubsections": [
+        "Major functions of natural killer cells",
+        "Major functions of B and T cells"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "nk-kill-model",
+        "b-t-division-of-labor"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The effector roster: NK cells as the MHC-I-missing-self killers (kill tumor/virus cells with ↓ MHC I; activate via IL-2/IL-15/IFN; perforin/granzymes), B cells as antibody factories + APCs, T cells as the cytokine/effector arm — the cell-function table the whole chapter builds on."
+    },
+    {
+      "topicId": "t-cell-development",
+      "title": "T-Cell Development: Thymic Selection & Subset Lineages",
+      "faSubsections": [
+        "Differentiation of T cells",
+        "Positive selection",
+        "Negative selection"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "t-cell-selection-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The thymic school: positive selection in cortex (MHC recognition → survival), negative selection in medulla (high self-affinity → apoptosis or Treg), AIRE deficiency → autoimmune polyendocrine syndrome, then the helper lineage table (Th1/Th2/Th17/Treg cytokines and functions)."
+    },
+    {
+      "topicId": "cytotoxic-regulatory-t-cells",
+      "title": "Effector T Cells: Cytotoxic, Regulatory & the Macrophage Interface",
+      "faSubsections": [
+        "Macrophage-lymphocyte interaction",
+        "Cytotoxic T cells",
+        "Regulatory T cells"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "ctl-kill-cycle",
+        "treg-suppression-model"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The CD8 kill (perforin/granzyme B apoptosis of virus-infected/neoplastic/graft cells via MHC I), the Th1-macrophage activation loop (IFN-γ + CD40L-CD40), and the Treg brake (CD3/CD4/CD25/FOXP3; IL-10/TGF-β; IPEX when FOXP3 fails)."
+    },
+    {
+      "topicId": "lymphocyte-activation-tolerance",
+      "title": "Lymphocyte Activation, Peripheral Tolerance & Anergy",
+      "faSubsections": [
+        "T- and B-cell activation",
+        "T-cell activation",
+        "B-cell activation and class switching",
+        "Peripheral tolerance",
+        "Anergy"
+      ],
+      "subsection": "Immunology — Cellular Components",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "activation-signal-model"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "Signal 1 + signal 2 (costimulation) as the decision gate — CD28-B7 for T cells, CD40L-CD40 + cytokines for B cells — and what happens without signal 2: anergy or deletion; CTLA-4/PD-1 as the inhibitory checkpoints (and the drug targets they became)."
+    },
+    {
+      "topicId": "antibody-structure",
+      "title": "Antibody Structure & Function",
+      "faSubsections": [
+        "Antibody structure and function"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "antibody-anatomy"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The immunoglobulin anatomy: heavy/light chains, constant (isotype/complement-FcR binding) vs variable (antigen binding) regions, hinge flexibility, Fab vs Fc, and the papain vs pepsin cleavage map — the structural foundation for every isotype and engineering question."
+    },
+    {
+      "topicId": "immunoglobulin-isotypes",
+      "title": "Immunoglobulin Isotypes & Antigen Memory",
+      "faSubsections": [
+        "Immunoglobulin isotypes",
+        "IgG",
+        "IgA",
+        "IgM",
+        "IgD",
+        "IgE",
+        "Antigen type and memory",
+        "Thymus-independent antigens",
+        "Thymus-dependent antigens"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "isotype-comparison-table"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The isotype roster (IgG: placenta/complement/opsonin; IgA: secretions/dimer with J chain; IgM: pentamer/first/complement; IgD: receptor; IgE: parasites/mast-cell FcεRI) plus thymus-independent (repeated epitopes, no class switching/memory) vs thymus-dependent antigens."
+    },
+    {
+      "topicId": "complement-pathways",
+      "title": "The Complement System",
+      "faSubsections": [
+        "Complement",
+        "Opsonins",
+        "Inhibitors"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "complement-cascade-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The cascade: classical (IgG/IgM immune complexes, C1qrs), lectin (mannan-binding lectin), alternative (microbial surfaces, spontaneous C3 tickover) → C3 convertases → C3b opsonization → C5 convertase → MAC (C5b-9); the anaphylatoxins C3a/C4a/C5a; and the inhibitors (C1-INH, DAF/CD55, CD59) whose failure causes disease."
+    },
+    {
+      "topicId": "complement-disorders",
+      "title": "Complement Disorders & Pathway Testing",
+      "faSubsections": [
+        "Complement disorders",
+        "Complement protein deficiencies (C1–C4)",
+        "Terminal complement deficiencies (C5–C9)",
+        "Complement regulatory protein deficiencies",
+        "C1 inhibitor deficiency",
+        "Paroxysmal nocturnal hemoglobinuria",
+        "Complement pathway testing"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          127
+        ],
+        "bookPages": "105"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "complement-deficiency-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The deficiency patterns: early components (C1-C4) → immune-comcomplex disease + encapsulated bugs; terminal (C5-C9) → Neisseria; C1-INH → hereditary angioedema; DAF/CD59 loss → PNH. Plus the lab interpretation: classical pathway CH50 ↓ with immune-complex disease, alternative pathway AH50, and the combined testing logic."
+    },
+    {
+      "topicId": "cytokines",
+      "title": "Important Cytokines",
+      "faSubsections": [
+        "Important cytokines",
+        "Secreted by macrophages",
+        "Secreted by T cells",
+        "From Th1 cells",
+        "From Th2 cells"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "cytokine-network-map"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The signaling roster: macrophage IL-1 (fever, acute phase), IL-6 (acute phase, B-cell growth), TNF-α (cachexia, endothelial activation/sepsis), IL-8 (neutrophil chemotaxis), IL-12 (NK/Th1); T-cell IL-2 (T-cell growth — and the transplant-drug target), IL-3; Th1 IFN-γ; Th2 IL-4/5/10/13 — each tied to the drug or disease that makes it exam-currency."
+    },
+    {
+      "topicId": "respiratory-burst-ifn",
+      "title": "Respiratory Burst & Type I Interferons",
+      "faSubsections": [
+        "Respiratory burst",
+        "Type I interferons"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "respiratory-burst-enzymes"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The NADPH oxidase enzyme complex (O2 → O2⁻) with myeloperoxidase (HOCl) and catalase-positive S. aureus as the CGD signature — plus the female-carrier lupus-like discoid rash story; and type I IFN (IFN-α/β) as the innate antiviral: induces PKR/2'5'-oligoadenylate synthetase/RNase L in virus-infected cells, blocks viral spread."
+    },
+    {
+      "topicId": "cd-markers",
+      "title": "Cell Surface Proteins: The CD Marker Map",
+      "faSubsections": [
+        "Cell surface proteins",
+        "T cells",
+        "Helper T cells",
+        "Cytotoxic T cells",
+        "Regulatory T cells",
+        "B cells",
+        "NK cells",
+        "Macrophages",
+        "Hematopoietic stem cells"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "cd-marker-map"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The identification codes: CD3 (all T), CD4/CD8 (helper/cytotoxic), CD25+FOXP3 (Treg), CD19/20 (B), CD56 (NK), CD14/CD40 (macrophage), CD34 (HSC) — plus the drug targets (anti-CD3, rituximab anti-CD20) and the flow-cytometry reading skill this map enables."
+    },
+    {
+      "topicId": "active-passive-immunity",
+      "title": "Active vs Passive Immunity & Vaccination",
+      "faSubsections": [
+        "Passive vs active immunity",
+        "Passive",
+        "Active",
+        "Vaccination",
+        "Live attenuated vaccine",
+        "Killed or inactivated vaccine",
+        "Subunit, recombinant, polysaccharide, and conjugate",
+        "Toxoid",
+        "mRNA"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          130,
+          131
+        ],
+        "bookPages": "108–109"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "vaccine-type-spectrum"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "Acquired immunity routes: active (recovery, live/killed/subunit/conjugate/toxoid/mRNA vaccines — with the memory/booster logic of each) vs passive (IgG placenta, breast milk IgA, antitoxin/IVIG — immediate but waning), and the conjugate-vaccine trick that gives polysaccharides a T-cell face."
+    },
+    {
+      "topicId": "autoantibodies",
+      "title": "Autoantibodies and Their Disease Associations",
+      "faSubsections": [
+        "Autoantibodies"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The serology directory: dsDNA/Sm (lupus), SS-A/SS-B (Sjögren), Scl-70/centromere (scleroderma/CREST), Jo-1 (myositis/polymyositis), anti-CCP (RA), anti-Jo1, anti-Mi-2, ANCA patterns, anti-histone (drug-induced lupus), anti-RNP (MCTD), anti-topoisomerase — organized by disease family for the two-step matching question. Table note, no custom visual needed."
+    },
+    {
+      "topicId": "b-cell-immunodeficiencies",
+      "title": "B-Cell Immunodeficiencies",
+      "faSubsections": [
+        "Immunodeficiencies",
+        "B-cell disorders",
+        "X-linked (Bruton) agammaglobulinemia",
+        "Selective IgA deficiency",
+        "Common variable immunodeficiency"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "b-cell-deficiency-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The antibody-failure family: Bruton (X-linked, BTK, no B cells, recurrent encapsulated/Giardia after 6 months), selective IgA (most common, asymptomatic/anaphylaxis to transfusion), CVID (↓ IgG/IgA, onset 20s-30s) — each mapped to the missing developmental step."
+    },
+    {
+      "topicId": "t-cell-phagocyte-immunodeficiencies",
+      "title": "T-Cell & Phagocyte Immunodeficiencies",
+      "faSubsections": [
+        "T-cell disorders",
+        "Thymic aplasia (DiGeorge syndrome)",
+        "Velocardiofacial syndrome",
+        "IL-12 receptor deficiency",
+        "Autosomal dominant hyper-IgE (Job) syndrome",
+        "Chronic mucocutaneous candidiasis",
+        "B- and T-cell disorders",
+        "Severe combined immunodeficiency",
+        "Ataxia-telangiectasia",
+        "Hyper-IgM syndrome",
+        "Wiskott-Aldrich syndrome",
+        "Phagocyte dysfunction",
+        "Leukocyte adhesion deficiency (type 1)",
+        "Chédiak-Higashi syndrome",
+        "Chronic granulomatous disease"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136,
+          137
+        ],
+        "bookPages": "114–115"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "immunodeficiency-spectrum-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The cell-mediated failure spectrum: DiGeorge (22q11, thymic aplasia, T-cell lack), IL-12 receptor (mycobacteria), Job (STAT3, eczema/cold abscesses/candida), CMC (T-cell defect); combined — SCID (various, no T/B), ataxia-telangiectasia (ATM), hyper-IgM (CD40L, no class switching), Wiskott-Aldrich (WAS, thrombocytopenia+eczema+recurrent infections); phagocyte — LAD-1 (no rolling → no pus), Chédiak-Higashi (granule fusion), CGD (NADPH oxidase, catalase+ abscesses)."
+    },
+    {
+      "topicId": "immunodeficiency-infection-patterns",
+      "title": "Infections in Immunodeficiency",
+      "faSubsections": [
+        "Infections in immunodeficiency",
+        "Bacteria",
+        "Viruses",
+        "Fungi/parasites"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "bug-pattern-matrix"
+      ],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "The back-conversion: given the organism pattern, name the immune defect — encapsulated bacteria (B-cell/complement/splenectomy), intracellular bacteria/fungi/parasites (T-cell/phagocyte), viruses (T-cell), Giardia/Cryptosporidium/Campylobacter (IgA/B-cell), Pseudomonas/Aspergillus (neutropenia/phagocyte), Staph aureus/catalase+ (CGD), Serratia/Pseudomonas without pus (LAD)."
+    },
+    {
+      "topicId": "transplant-rejection",
+      "title": "Transplant Rejection",
+      "faSubsections": [
+        "Transplant rejection",
+        "Hyperacute",
+        "Acute",
+        "Chronic",
+        "Graft-versus-host disease"
+      ],
+      "subsection": "Immunology — Immune Responses",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          139
+        ],
+        "bookPages": "117"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "rejection-timeline-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The rejection clock: hyperacute (minutes-hours, preformed anti-HLA/ABO antibodies, complement, thrombosis), acute (weeks-months, type IV cellular + type II humoral, reversible with immunosuppression), chronic (months-years, fibrosis/vascular intimal thickening, irreversible), GVHD (donor T cells vs host, GI/skin/liver — the bone-marrow and solid-organ risk profiles)."
+    },
+    {
+      "topicId": "immunosuppressants",
+      "title": "Immunosuppressants",
+      "faSubsections": [
+        "Immununosuppressants",
+        "Cyclosporine",
+        "Tacrolimus (FK506)",
+        "Sirolimus (rapamycin)",
+        "Basiliximab",
+        "Azathioprine",
+        "Mycophenolate mofetil",
+        "Glucocorticoids"
+      ],
+      "subsection": "Immunology — Immunosuppressants",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          140,
+          141
+        ],
+        "bookPages": "118–119"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "immunosuppressant-target-map"
+      ],
+      "mechanismHeavy": true,
+      "status": "pending",
+      "productionRationale": "The transplant pharmacology: calcineururin inhibitors (cyclosporine/tacrolimus — inhibit IL-2 transcription, nephrotoxicity), mTOR (sirolimus — blocks IL-2 receptor signaling, hyperlipidemia/cytopenias), anti-IL-2R (basiliximab), antiproliferatives (azathioprine/mycophenolate), and glucocorticoids (lymphocyte apoptosis) — each mechanism tied to its signature toxicity."
+    },
+    {
+      "topicId": "recombinant-cytokines",
+      "title": "Recombinant Cytokines & Clinical Uses",
+      "faSubsections": [
+        "Recombinant cytokines and clinical uses",
+        "Bone marrow stimulation",
+        "Erythropoietin",
+        "Colony stimulating factors",
+        "Thrombopoietin",
+        "Immunotherapy",
+        "Interleukin-2",
+        "Interferons"
+      ],
+      "subsection": "Immunology — Immunosuppressants",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "status": "pending",
+      "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
   "pendingTopicCount": null,
-  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+  "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
+  "extraction": {
+    "extractedOn": "2026-10-16",
+    "method": "PDF text-layer font-level heading extraction (PyMuPDF span styles: #004b6c MyriadPro-Bold 10pt = FA subsection bars; #165d7e semibold = minor headings) + pdfimages raster census + text-layer cross-verification. REBUILD of the extraction destroyed with un-pushed commit 4c22047 (7th environment wipe).",
+    "frontMatter": "pdf 115 (book 93) = chapter title/opener page",
+    "contentPages": "pdf 116–141 (book 94–119)",
+    "backMatter": "pdf 142 (book 120) = blank NOTES page — not a learning unit (documented)",
+    "faGroups": [
+      {
+        "group": "Lymphoid Structures",
+        "pdfPages": [
+          116,
+          118
+        ],
+        "bookPages": "94–96",
+        "topics": 1
+      },
+      {
+        "group": "Cellular Components",
+        "pdfPages": [
+          119,
+          123
+        ],
+        "bookPages": "97–101",
+        "topics": 7
+      },
+      {
+        "group": "Immune Responses",
+        "pdfPages": [
+          124,
+          139
+        ],
+        "bookPages": "102–117",
+        "topics": 14
+      },
+      {
+        "group": "Immunosuppressants",
+        "pdfPages": [
+          140,
+          141
+        ],
+        "bookPages": "118–119",
+        "topics": 2
+      }
+    ]
+  },
+  "visualPlan": {
+    "textbookVisualsIdentified": null,
+    "rightsPosture": "All First Aid 2026 artwork is COPYRIGHTED_NO_REPUBLISH — no republication; every figure is either an ORIGINAL_KYP_REDRAW, ORIGINAL_KYP_ADAPTATION (note-block), or a documented omission.",
+    "method": "per-topic visual inventory authored at production time (gen_eN_json.py pattern)"
+  }
 }
