@@ -1,0 +1,421 @@
+{
+  "topicId": "hla-subtypes",
+  "title": "HLA Subtypes Associated with Diseases",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Cellular Components",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      121
+    ],
+    "bookPages": "99"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "HLA subtypes associated with diseases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Column header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "HLA SUBTYPE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Column header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DISEASE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Column header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "MNEMONIC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B27 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "B27",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B27 diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Psoriatic arthritis, Ankylosing spondylitis,\nIBD-associated arthritis, Reactive arthritis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B27 mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "PAIR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DQ2/DQ8 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DQ2/DQ8",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DQ2/DQ8 diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Celiac disease, DM type 1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DQB1*0602 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "HLA-DQB1*0602",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DQB1*0602 disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Narcolepsy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR3 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DR3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR3 diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DM type 1, SLE, Graves disease, Hashimoto\nthyroiditis, Addison disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR3 mnemonic 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DM type 1: HLA-3 and -4 (1 + 3 = 4)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR3 mnemonic 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "SL3 (SLE)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR4 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DR4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR4 diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Rheumatoid arthritis, DM type 1, Addison\ndisease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR4 mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "There are 4 walls in 1 “rheum” (room)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR5 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DR5",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DR5 diseases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Pernicious anemia, Hashimoto thyroiditis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DRB1*15:01 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DRB1*15:01",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DRB1*15:01 association",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "risk of multiple sclerosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B*58:01 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "B*58:01",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B*58:01 association",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "Allopurinol hypersensitivity → ↑ risk SJS/TEN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DRB1*01:03 subtype",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "DRB1*01:03",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DRB1*01:03 association",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "quote": "risk of severe ulcerative colitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "hla-association-mechanics"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source's association table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the three-column association table with its printed mnemonics; the question attack structure (stem patterns, traps, look-alike pivots, the overlap-hub mini-case) is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "presentation-bias-model",
+      "summary": "A framework for WHY an HLA allele raises disease risk: the groove's peptide-presentation bias shifts which peptides are displayed (deamidated gliadin for DQ2/DQ8, self-peptides for DR/B alleles, drug-altered peptides for B*58:01), tilting T-cell selection and activation.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists associations without a mechanism; the presentation-bias model that unifies celiac, autoimmune endocrinopathy, and the pharmacogenomic SJS/TEN row is KYP's integrative explanation.",
+      "location": "mechanism 'hla-association-mechanics' + core.why"
+    },
+    {
+      "id": "cluster-chunking",
+      "summary": "Reading the 9-row table as five clusters: the B27 PAIR family; the DR3/DR4 endocrine overlap (type 1 diabetes as hub); the DR5 pernicious/Hashimoto pair; the two DQ entries; and the three allele-numbered modern associations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source's table is alphabetical-ish by allele; re-clustering by disease family and overlap structure is KYP's retention model.",
+      "location": "core.keyIdea + table caption + mnemonic 3"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "REBUILT batch (E22 was first produced in this session after the 7th wipe destroyed the E19-E21 precedents; the E-queue continues). Census: the printed page's only visual element is the three-column association table (no rasters, no figures) — sv1, note-block verbatim; no registry visual is required (requiresVisual false in the chapter inventory). Fidelity: DR4's mnemonic prints curly quotes around rheum; the allele-numbered rows print ↑/→ arrows; several MNEMONIC cells are empty in print (rendered as — in the note table, not quoted).",
+  "updatedAt": "2026-10-15"
+}

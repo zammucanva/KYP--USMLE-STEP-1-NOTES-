@@ -1,0 +1,7 @@
+Verdict: **CLEAN**
+
+**QA Check:**
+*   **Node label collisions:** None. The labels ("groove motif", "peptide displayed", "T-cell response") are well-spaced vertically with no overlap.
+*   **Edge lines crossing text:** None. The short horizontal lines and downward arrows are cleanly separated from the text labels.
+*   **Clipped text:** None. All text, including the long descriptive paragraph at the bottom and the header tags, is fully visible within the frame.
+*   **Legibility:** High. Font sizes are appropriate, and the contrast between the dark text and the light background is excellent. The hierarchy (bold headers, standard body text, small tags) is clear.

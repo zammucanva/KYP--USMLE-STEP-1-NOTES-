@@ -1449,3 +1449,12 @@ Rebuild of the E21 destroyed un-pushed with 4030b09. MhcStructureComparison visu
 Gates: tracker 67 · evidence 1939/1939 EXIT 0 · validate CONTRACT GREEN · audit 67/0 · tsc 1 baseline. QA: browser 24/24; element crop real content (stdev 28.64/26.14); VLM paint CLEAN ×2 FIRST PASS (light + dark — placements built with the lost batch's documented clearance lessons). Evidence durable docs/qa/e21/.
 
 COMMIT follows. Next: E22 hla-subtypes (pdf 121/99).
+
+---
+## E22 — hla-subtypes COMPLETE (Immunology 5/24) — session 2026-10-16
+
+Table note (no registry visual by design — requiresVisual false). D2 note with 1 KYP mechanism (hla-association-mechanics — the presentation-bias model), verbatim 3-column association table (9 rows, empty mnemonic cells rendered as em-dashes), 3 patterns / 3 traps / 2 pivots / overlap-hub mini-case, 3 mnemonics (source's PAIR, 1+3=4 / SL3 / 4-walls, KYP's DQ key). Manifest 26/26 quotes machine-verified first pass (curly-quote "rheum" mnemonic; ↑/→ arrows). Visual inventory 1 sv (table → note-block). Chapter flip 5/24.
+
+Gates: tracker 68 · evidence 1965/1965 EXIT 0 · validate CONTRACT GREEN · audit 68/0 · tsc 1 baseline. QA: browser 24/24; text-anchored element captures (mechanism flow 23.40/23.11, table 27.27/27.02 = real content); VLM paint CLEAN ×2 (table + mechanism). Evidence durable docs/qa/e22/.
+
+COMMIT follows. Next: E23 nk-b-t-cell-functions (pdf 121/99).

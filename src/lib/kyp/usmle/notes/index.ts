@@ -31,6 +31,7 @@ import { hypersensitivityTypes } from "./hypersensitivity-types";
 import { lymphoidStructures } from "./lymphoid-structures";
 import { innateVsAdaptiveImmunity } from "./innate-vs-adaptive-immunity";
 import { mhcComplex } from "./mhc-complex";
+import { hlaSubtypes } from "./hla-subtypes";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -145,6 +146,7 @@ export const usmleNotes: KypUsMLENote[] = [
   lymphoidStructures,
   innateVsAdaptiveImmunity,
   mhcComplex,
+  hlaSubtypes,
   cranialNerves,
   diabetesMellitus,
 ];

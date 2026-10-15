@@ -354,8 +354,37 @@
       "requiresVisual": false,
       "visualHints": [],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The association map: B27 (ankylosing spondylitis, IBD, psoriatic arthritis, reactive arthritis), DQ2/DQ8 (celiac), DQB1*0602 (narcolepsy), DR3/DR4 (T1DM), DR4 (RA), DR5 (Hashimoto/pernicious anemia), DRB1*15:01 (MS), B*58:01 (allopurinol hypersensitivity), DRB1*01:03 (IBD). Pure pattern-recognition currency — a table note, no custom visual needed."
+      "status": "complete",
+      "productionRationale": "The association map: B27 (ankylosing spondylitis, IBD, psoriatic arthritis, reactive arthritis), DQ2/DQ8 (celiac), DQB1*0602 (narcolepsy), DR3/DR4 (T1DM), DR4 (RA), DR5 (Hashimoto/pernicious anemia), DRB1*15:01 (MS), B*58:01 (allopurinol hypersensitivity), DRB1*01:03 (IBD). Pure pattern-recognition currency — a table note, no custom visual needed.",
+      "textbookVisuals": [
+        {
+          "visualId": "hla-subtypes-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              121
+            ],
+            "bookPages": "99"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "HLA subtype / disease / mnemonic association table",
+          "sourceFigureDescription": "Three-column table (HLA SUBTYPE / DISEASE / MNEMONIC) with nine rows: B27 (PAIR), DQ2/DQ8, HLA-DQB1*0602, DR3 (1+3=4; SL3), DR4 (4 walls in 1 rheum), DR5, DRB1*15:01, B*58:01, DRB1*01:03; several mnemonic cells empty in print.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "hla-subtypes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks[0] — 'HLA subtypes associated with diseases — verbatim' table block",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "nk-b-t-cell-functions",
