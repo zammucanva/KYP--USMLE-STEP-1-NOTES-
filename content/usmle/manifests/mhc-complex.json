@@ -1,0 +1,703 @@
+{
+  "topicId": "mhc-complex",
+  "title": "MHC I vs MHC II and Bare Lymphocyte Syndrome",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Cellular Components",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      120
+    ],
+    "bookPages": "98"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Major\nhistocompatibility\ncomplex I and II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC encoding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "MHC encoded by HLA genes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Present antigen fragments to T cells and bind T-cell receptors\n(TCRs).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Column header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "MHC I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Column header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "MHC II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "LOCI",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I loci",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "HLA-A, HLA-B, HLA-C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I loci mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "MHC I loci have 1 letter",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II loci",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "HLA-DP, HLA-DQ, HLA-DR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II loci mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "MHC II loci have 2 letters",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "BINDING",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I binding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "TCR and CD8 (CD8 × MHC 1 = 8)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II binding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "TCR and CD4 (CD4 × MHC 2 = 8)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "STRUCTURE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I structure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "1 long chain, 1 short chain (3 α, 1 β)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II structure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "2 equal-length chains (2 α, 2 β)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "EXPRESSION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "All nucleated cells, APCs, platelets (except RBCs)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "APCs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "FUNCTION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Present endogenous antigens (eg, viral or\ncytosolic proteins) to CD8+ cytotoxic T cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Present exogenous antigens (eg, bacterial\nproteins) to CD4+ helper T cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "ANTIGEN LOADING",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I antigen loading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Antigen peptides loaded onto MHC I in RER\nafter delivery via TAP (transporter associated\nwith antigen processing)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II antigen loading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Antigen loaded following release of invariant\nchain in a lysosome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "ASSOCIATED PROTEINS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC I associated protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "β2-microglobulin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MHC II associated protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Invariant chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: endogenous antigen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Endogenous antigen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: MHC I groove",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Endogenous antigen-binding groove",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: α2 chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "α2 chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: α1 chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "α1 chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: long chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Long chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: short chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Short chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: α3 chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "α3 chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: β2−Microglobulin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "β2−Microglobulin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: exogenous antigen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Exogenous antigen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: MHC II groove",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Exogenous antigen\nbinding groove",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: β1 chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "β1 chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: equal-length chains",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Equal-length\nchains",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: β2 chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "β2 chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: compartments",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Extracellular space\nCell membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label: cytoplasm",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Cytoplasm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Bare lymphocyte\nsyndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLS mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Autosomal recessive. ↓ MHC expression → T-cell dysfunction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLS type I",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Type I: TAP mutation → ↓ MHC I → ↓ CD8+ T cells → chronic respiratory infections, skin\ngranulomas, vasculitis; normal Ig.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLS type II",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Type II: transcription factor mutations → ↓ MHC II → ↓ CD4+ T cells + antigen-presenting\ncell/B-cell dysfunction → SCID-like infections; ↓ Ig.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLS treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          120
+        ],
+        "bookPages": "98"
+      },
+      "quote": "Treatment: allogeneic hematopoietic stem cell transplant, IVIG.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "mhc-structure-comparison"
+  ],
+  "mechanismIds": [
+    "mhc-i-endogenous-presentation",
+    "mhc-ii-exogenous-presentation"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the comparison table, the two structure diagrams, and the bare-lymphocyte-syndrome block; the USMLE question attack structure (stem patterns, traps, look-alike pivots, the BLS mini-case) is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "one-scaffold-two-settings-model",
+      "summary": "Reading MHC I and II as one display scaffold in two settings: groove filled inside (RER via TAP) for the cytosol's story to CD8 on every nucleated cell, versus groove filled outside-in (lysosome after invariant-chain release) for the ingested story to CD4 on APCs only.",
+      "origin": "outside-first-aid",
+      "rationale": "The source presents the two classes as parallel table columns; unifying them as one scaffold with two loading routes and two audiences is KYP's integrative model.",
+      "location": "core.keyIdea + both mechanism captions + visual caption"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "REBUILT batch (the original E21 was destroyed un-pushed with 4030b09 in the 7th wipe). Census: pdfimages on pdf 120 shows only two 1x1 artifacts — no real rasters; the two molecular structure diagrams are vector line art, redrawn as the single comparative registry visual 'mhc-structure-comparison'. Transcription fidelity: the source's FUNCTION row word is 'cytosolic' (not cytoplasmic); the figure label 'β2−Microglobulin' prints U+2212 while the table row uses a hyphen; the BLS block prints ↓/→ arrows — all quoted as printed.",
+  "updatedAt": "2026-10-15"
+}

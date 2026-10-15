@@ -519,3 +519,158 @@ export function InnateVsAdaptiveArms() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E21 — MHC I vs MHC II: the two display scaffolds
+// (source: two molecular structure diagrams + 7-row table, pdf 120 / book 98)
+// ---------------------------------------------------------------------------
+
+export function MhcStructureComparison() {
+  const w = 980;
+  const h = 620;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="MHC I vs MHC II structure, an original KYP redraw of the source's two molecular diagrams. MHC I (left): one long chain with three extracellular domains (alpha 1, alpha 2, alpha 3) plus one short chain, beta-2 microglobulin; the alpha 1 and alpha 2 domains form the endogenous antigen-binding groove, which displays viral and cytosolic peptides loaded in the RER after TAP delivery; expressed on all nucleated cells, APCs, and platelets (except RBCs); binds TCR and CD8 on cytotoxic T cells. MHC II (right): two equal-length chains (alpha 1-alpha 2 and beta 1-beta 2); the alpha 1 and beta 1 domains form the exogenous antigen-binding groove, loaded after invariant-chain release in a lysosome; expressed on APCs; binds TCR and CD4 on helper T cells. The mnemonic bar: CD8 times MHC 1 equals 8, and CD4 times MHC 2 equals 8" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">MHC I vs MHC II — the two antigen-display scaffolds (original KYP redraw)</text>
+        <rect x="734" y="24" width="198" height="18" rx="9" className="fill-brand-soft" />
+        <text x="833" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD8 × MHC 1 = 8 · CD4 × MHC 2 = 8</text>
+      </g>
+
+      {/* ===== MHC I panel ===== */}
+      <g>
+        <rect x="36" y="76" width="444" height="420" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="100" fontSize="10" fontWeight="800" className="fill-foreground">MHC I — 1 long chain (3 α) + 1 short chain</text>
+
+        {/* membrane + cytoplasm bands */}
+        <rect x="76" y="404" width="360" height="12" rx="3" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="452" y="414" fontSize="6.6" className="fill-muted-foreground">cell membrane</text>
+        <rect x="76" y="416" width="360" height="18" rx="3" className="fill-secondary/60" />
+        <text x="452" y="429" fontSize="6.6" className="fill-muted-foreground">cytoplasm</text>
+
+        {/* long chain: α1 α2 (groove) + α3 + transmembrane tail */}
+        <g>
+          {/* binding groove: α1 + α2 domains with peptide */}
+          <rect x="136" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="166" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α1</text>
+          <rect x="200" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="230" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α2</text>
+          {/* endogenous peptide in groove */}
+          <rect x="146" y="146" width="140" height="14" rx="7" className="fill-emergency/80" />
+          <text x="216" y="156" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-background">endogenous antigen (viral, cytosolic)</text>
+          {/* α3 domain */}
+          <rect x="168" y="244" width="60" height="70" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+          <text x="198" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">α3</text>
+          {/* transmembrane tail */}
+          <path d="M 198 314 L 198 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="120" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">long chain (α)</text>
+          <path d="M 176 334 L 192 340" stroke="currentColor" className="text-border" strokeWidth="0.9" />
+        </g>
+
+        {/* short chain: β2-microglobulin */}
+        <g>
+          <rect x="248" y="244" width="60" height="70" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+          <text x="278" y="272" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">β2-</text>
+          <text x="278" y="282" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">micro-</text>
+          <text x="278" y="292" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">globulin</text>
+          <text x="322" y="262" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">short chain —</text>
+          <text x="322" y="272" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">associated protein</text>
+        </g>
+
+        {/* CD8 binding */}
+        <g>
+          <path d="M 136 200 C 96 200, 78 212, 72 232" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+          <circle cx="66" cy="240" r="17" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+          <text x="66" y="243" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">CD8</text>
+          <text x="40" y="272" fontSize="6.6" className="fill-muted-foreground">cytotoxic</text>
+          <text x="40" y="281" fontSize="6.6" className="fill-muted-foreground">T cell</text>
+        </g>
+
+        {/* RER/TAP annotation */}
+        <g>
+          <rect x="330" y="318" width="132" height="78" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="340" y="336" fontSize="7.2" fontWeight="800" className="fill-foreground">Antigen loading</text>
+          <text x="340" y="348" fontSize="6.6" className="fill-muted-foreground">Peptides loaded onto</text>
+          <text x="340" y="357" fontSize="6.6" className="fill-muted-foreground">MHC I in the RER after</text>
+          <text x="340" y="366" fontSize="6.6" className="fill-muted-foreground">delivery via TAP</text>
+          <text x="340" y="379" fontSize="6.4" className="fill-muted-foreground">(transporter associated</text>
+          <text x="340" y="388" fontSize="6.4" className="fill-muted-foreground">with antigen processing)</text>
+        </g>
+
+        {/* expression strip */}
+        <rect x="52" y="448" width="412" height="34" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="64" y="462" fontSize="7.2" fontWeight="800" className="fill-foreground">Expression: all nucleated cells, APCs, platelets (except RBCs)</text>
+        <text x="64" y="474" fontSize="6.8" className="fill-muted-foreground">Function: endogenous antigens (viral, cytosolic proteins) → CD8+ cytotoxic T cells</text>
+      </g>
+
+      {/* ===== MHC II panel ===== */}
+      <g>
+        <rect x="500" y="76" width="444" height="420" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="516" y="100" fontSize="10" fontWeight="800" className="fill-foreground">MHC II — 2 equal-length chains (2 α, 2 β)</text>
+
+        {/* membrane + cytoplasm bands */}
+        <rect x="540" y="404" width="360" height="12" rx="3" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="916" y="414" fontSize="6.6" className="fill-muted-foreground">cell membrane</text>
+        <rect x="540" y="416" width="360" height="18" rx="3" className="fill-secondary/60" />
+        <text x="916" y="429" fontSize="6.6" className="fill-muted-foreground">cytoplasm</text>
+
+        {/* equal-length chains: α1 α2 / β1 β2 */}
+        <g>
+          {/* α chain: α1 (groove) + α2 */}
+          <rect x="600" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="630" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α1</text>
+          <rect x="600" y="244" width="60" height="70" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+          <text x="630" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">α2</text>
+          <path d="M 630 314 L 630 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="580" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">α chain</text>
+          {/* β chain: β1 (groove) + β2 */}
+          <rect x="668" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="698" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">β1</text>
+          <rect x="668" y="244" width="60" height="70" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+          <text x="698" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">β2</text>
+          <path d="M 698 314 L 698 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="722" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">β chain</text>
+          {/* exogenous peptide in groove */}
+          <rect x="610" y="146" width="140" height="14" rx="7" className="fill-emergency/80" />
+          <text x="680" y="156" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-background">exogenous antigen (bacterial)</text>
+        </g>
+
+        {/* CD4 binding */}
+        <g>
+          <path d="M 600 200 C 560 200, 542 212, 536 232" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+          <circle cx="530" cy="240" r="17" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+          <text x="530" y="243" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">CD4</text>
+          <text x="504" y="272" fontSize="6.6" className="fill-muted-foreground">helper</text>
+          <text x="504" y="281" fontSize="6.6" className="fill-muted-foreground">T cell</text>
+        </g>
+
+        {/* lysosome/invariant chain annotation */}
+        <g>
+          <rect x="770" y="318" width="152" height="78" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="780" y="336" fontSize="7.2" fontWeight="800" className="fill-foreground">Antigen loading</text>
+          <text x="780" y="348" fontSize="6.6" className="fill-muted-foreground">Loaded following release of</text>
+          <text x="780" y="357" fontSize="6.6" className="fill-muted-foreground">the invariant chain in a</text>
+          <text x="780" y="366" fontSize="6.6" className="fill-muted-foreground">lysosome</text>
+          <text x="780" y="379" fontSize="6.4" className="fill-muted-foreground">(associated protein:</text>
+          <text x="780" y="388" fontSize="6.4" className="fill-muted-foreground">invariant chain)</text>
+        </g>
+
+        {/* expression strip */}
+        <rect x="516" y="448" width="412" height="34" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="528" y="462" fontSize="7.2" fontWeight="800" className="fill-foreground">Expression: APCs (the professional presenters)</text>
+        <text x="528" y="474" fontSize="6.8" className="fill-muted-foreground">Function: exogenous antigens (bacterial proteins) → CD4+ helper T cells</text>
+      </g>
+
+      {/* loci strip */}
+      <g>
+        <rect x="36" y="510" width="908" height="42" rx="10" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="52" y="528" fontSize="7.8" fontWeight="800" className="fill-foreground">LOCI: MHC I = HLA-A, HLA-B, HLA-C (loci have 1 letter) · MHC II = HLA-DP, HLA-DQ, HLA-DR (loci have 2 letters)</text>
+        <text x="52" y="541" fontSize="7.2" className="fill-muted-foreground">MHC molecules are encoded by HLA genes and present antigen fragments to T cells, binding T-cell receptors (TCRs).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="576" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's MHC I and MHC II structure diagrams (pdf 120 / book 98); the verbatim 7-row comparison table is the note's table block.</text>
+    </svg>
+  );
+}

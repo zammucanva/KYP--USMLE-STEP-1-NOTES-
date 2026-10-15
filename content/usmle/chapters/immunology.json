@@ -252,8 +252,89 @@
         "mhc-structure-comparison"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The antigen-display machinery: MHC I (all nucleated cells, platelets; endogenous peptides, CD8) vs MHC II (professional APCs; exogenous peptides, CD4), the classic comparison table, and bare lymphocyte syndrome as the transcription-failure phenotype."
+      "status": "complete",
+      "productionRationale": "The antigen-display machinery: MHC I (all nucleated cells, platelets; endogenous peptides, CD8) vs MHC II (professional APCs; exogenous peptides, CD4), the classic comparison table, and bare lymphocyte syndrome as the transcription-failure phenotype.",
+      "textbookVisuals": [
+        {
+          "visualId": "mhc-complex-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              120
+            ],
+            "bookPages": "98"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "MHC I vs MHC II seven-row comparison table",
+          "sourceFigureDescription": "Seven-row two-column table (LOCI / BINDING / STRUCTURE / EXPRESSION / FUNCTION / ANTIGEN LOADING / ASSOCIATED PROTEINS) with the printed mnemonics (loci letter counts; CD8 × MHC 1 = 8; CD4 × MHC 2 = 8).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "mhc-complex",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'MHC I vs MHC II — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "mhc-complex-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              120
+            ],
+            "bookPages": "98"
+          },
+          "chapterId": "immunology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "MHC I structure diagram",
+          "sourceFigureDescription": "MHC I molecule from extracellular space through the cell membrane into the cytoplasm: α1 and α2 domains forming the endogenous antigen-binding groove (endogenous antigen peptide displayed), α3 domain, long chain + short chain labels, β2−microglobulin, transmembrane tail.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "mhc-complex",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "mhc-structure-comparison",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "mhc-structure-comparison",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "mhc-complex-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              120
+            ],
+            "bookPages": "98"
+          },
+          "chapterId": "immunology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "MHC II structure diagram",
+          "sourceFigureDescription": "MHC II molecule from extracellular space through the cell membrane into the cytoplasm: α1 chain + β1 chain forming the exogenous antigen-binding groove (exogenous antigen peptide displayed), equal-length chains (α1-α2, β1-β2), transmembrane tails.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "mhc-complex",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "mhc-structure-comparison",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "mhc-structure-comparison",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "hla-subtypes",

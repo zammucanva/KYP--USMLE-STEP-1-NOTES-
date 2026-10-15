@@ -1440,3 +1440,12 @@ Rebuild of the E20 destroyed un-pushed with a7a7d3c. InnateVsAdaptiveArms visual
 Gates: tracker 66 · evidence 1891/1891 EXIT 0 · validate CONTRACT GREEN · audit 66/0 (after the documented validator catch: 2 patterns < 3 → DAMP sterile-inflammation pattern added) · tsc 1 baseline. QA: browser 24/24; element crop real content (stdev 26.01/22.22); VLM paint 1 REAL defect (primary-response label on its dashed curve) — FIXED (label relocated below the curve with mini-leader; innate label lifted) — final CLEAN ×2 (light+dark). Evidence durable docs/qa/e20/.
 
 COMMIT follows. Next: E21 mhc-complex (pdf 120/98).
+
+---
+## E21 — mhc-complex COMPLETE (Immunology 4/24) — rebuilt batch, session 2026-10-16
+
+Rebuild of the E21 destroyed un-pushed with 4030b09. MhcStructureComparison visual appended to immune.tsx (registry 110→111; comparative redraw of the source's two vector molecular diagrams) + D2 note (2 mechanisms — mhc-i-endogenous-presentation [cytosol→TAP→RER→CD8], mhc-ii-exogenous-presentation [phagosome→lysosome/invariant chain→CD4]; verbatim 7-row table + BLS callout; 4 patterns / 4 traps / 2 pivots / BLS mini-case; 3 mnemonics incl. the source's own "CD8 × MHC 1 = 8" and loci-letter rules). Manifest **48/48 machine-verified FIRST PASS** (the source's word 'cytosolic' preserved; U+2212 β2−Microglobulin figure label vs hyphenated table row; ↓/→ arrows as printed). Visual inventory 3 sv (table → note-block; 2 structure diagrams → the comparative registry visual), 0 unresolved. Chapter flip 4/24.
+
+Gates: tracker 67 · evidence 1939/1939 EXIT 0 · validate CONTRACT GREEN · audit 67/0 · tsc 1 baseline. QA: browser 24/24; element crop real content (stdev 28.64/26.14); VLM paint CLEAN ×2 FIRST PASS (light + dark — placements built with the lost batch's documented clearance lessons). Evidence durable docs/qa/e21/.
+
+COMMIT follows. Next: E22 hla-subtypes (pdf 121/99).
