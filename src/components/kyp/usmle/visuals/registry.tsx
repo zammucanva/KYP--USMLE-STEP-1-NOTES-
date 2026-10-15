@@ -102,6 +102,7 @@ import {
   EthanolNadhConsequences,
 } from "./nutrition";
 import { WholeMetabolismMap, TcaCycleMap, PdhCofactorPanel, EtcOxphosMap, GluconeogenesisBypasses, HmpShuntMap, GlutathioneRedoxCycle, FructoseMetabolismMap, GalactoseLeloirMap, PolyolPathwayMap, AminoAcidDerivativesMap, CatecholamineSynthesisMap, UreaCycleMap, AlanineGlucoseShuttle, PhenylalaninePathwayMap, MethionineHomocysteineMap, OrganicAcidemiaMap, OchronosisScleraIllustration, GlycogenHormoneRegulation, GlycogenMetabolismMap, SphingolipidPathwayMap, CherryRedSpotIllustration, AngiokeratomaIllustration, GaucherCellsIllustration, NiemannPickFoamCells, FaSynthesisVsOxidation, KetoneBodyShuttle, AdipocyteFedFasted, ExerciseFuelSystems, StarvationEnergyStores, LipidTransportMap, HdlMaturationMap, LipidLadenEnterocytes } from "./metabolism";
+import { LymphNodeMap, LymphaticDrainageMap, SpleenThymusMap } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -237,4 +238,9 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "hdl-maturation-map": HdlMaturationMap,
   // Biochemistry — Metabolism (E18: familial dyslipidemias)
   "lipid-laden-enterocytes": LipidLadenEnterocytes,
+
+  // Immunology — E19 lymphoid structures
+  "lymph-node-map": LymphNodeMap,
+  "lymphatic-drainage-map": LymphaticDrainageMap,
+  "spleen-thymus-map": SpleenThymusMap,
 };

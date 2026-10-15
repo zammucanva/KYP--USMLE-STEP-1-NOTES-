@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-15T22:45:26Z",
+  "generatedAt": "2026-10-15T22:54:39Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 64,
+    "topicsProduced": 65,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 10,
+      "pilot-complete": 11,
       "chapter-complete": 54,
       "blocked": 0,
       "failed": 0
@@ -296,8 +296,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 24,
-      "topicsProduced": 1,
-      "topicsRemaining": 23,
+      "topicsProduced": 2,
+      "topicsRemaining": 22,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -942,6 +942,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "lymphoid-structures",
+      "title": "Lymphoid Structures: Lymph Node, Spleen & Thymus",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Lymphoid Structures",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 116, 117, 118 (book 94–96)",
+      "visualCount": 3,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-15"
     },
     {
       "topicId": "lysosomal-storage-diseases",

@@ -64,8 +64,115 @@
         "spleen-thymus-map"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The architecture topic: where immune responses happen — B-cell follicle vs T-cell paracortex (and the dendritic-cell trafficking that connects them), white vs red pulp with the PALS/marginal-zone zones, and the thymus as the T-cell school with its tumor/involution pitfalls. The drainage-association map is the classic anatomy-exam crossover."
+      "status": "complete",
+      "productionRationale": "The architecture topic: where immune responses happen — B-cell follicle vs T-cell paracortex (and the dendritic-cell trafficking that connects them), white vs red pulp with the PALS/marginal-zone zones, and the thymus as the T-cell school with its tumor/involution pitfalls. The drainage-association map is the classic anatomy-exam crossover.",
+      "textbookVisuals": [
+        {
+          "visualId": "lymphoid-structures-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              116
+            ],
+            "bookPages": "94"
+          },
+          "chapterId": "immunology",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Lymph node cross-section (histology micrograph + labeled schematic)",
+          "sourceFigureDescription": "Two printed elements: an H&E micrograph of a lymph node cross-section (arrow A = trabecula) and a labeled schematic showing afferent lymphatic, follicles (1º dense quiescent, 2º active with pale germinal center and mantle zone), paracortex with postcapillary (high endothelial) venule, medullary cords and sinuses, capsule, trabecula, cortex, artery, vein, capillary supply, and efferent lymphatic.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Lymphoid Structures",
+          "topicId": "lymphoid-structures",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "lymph-node-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "lymph-node-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lymphoid-structures-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              117
+            ],
+            "bookPages": "95"
+          },
+          "chapterId": "immunology",
+          "visualType": "ANATOMY_ILLUSTRATION",
+          "visualPurpose": "Lymphatic drainage body map",
+          "sourceFigureDescription": "Anterior body map with node clusters marked (green dots = palpable; circles with green centers = nonpalpable), leader-lined to the adjacent 16-cluster table; plus the two-duct summary text (right lymphatic duct / thoracic duct territories and terminations, chylothorax on rupture).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Lymphoid Structures",
+          "topicId": "lymphoid-structures",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "lymphatic-drainage-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "lymphatic-drainage-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "lymphoid-structures-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              117
+            ],
+            "bookPages": "95"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Lymphatic drainage associations table",
+          "sourceFigureDescription": "Three-column table (Lymph node cluster / Area of body drained / Associated pathology), 16 clusters from submandibular/submental to popliteal, with two merged pathology cells in print (celiac–SM–IM: mesenteric lymphadenitis, IBD, celiac disease; external iliac–internal iliac–superficial inguinal: STIs, medial foot/leg cellulitis [superficial inguinal]).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Lymphoid Structures",
+          "topicId": "lymphoid-structures",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] — 'Lymphatic drainage associations — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "lymphoid-structures-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              118
+            ],
+            "bookPages": "96"
+          },
+          "chapterId": "immunology",
+          "visualType": "ANATOMY_ILLUSTRATION",
+          "visualPurpose": "Spleen cross-section + neonatal thymus CXR",
+          "sourceFigureDescription": "Two printed elements: a spleen cross-section diagram (capsule, trabecula, white pulp with follicle [B cells], mantle zone, germinal center, marginal zone, periarteriolar lymphoid sheath [T cells], red pulp with sinusoids and reticular fibrous framework, open and closed circulation, pulp vein, artery, vein) and a neonatal AP chest radiograph showing the sail-shaped thymus (arrows in A).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Lymphoid Structures",
+          "topicId": "lymphoid-structures",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "spleen-thymus-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "spleen-thymus-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "innate-vs-adaptive-immunity",

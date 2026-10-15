@@ -28,6 +28,7 @@ import { avConductionBlocks } from "./av-conduction-blocks";
 import { strokeSyndromes } from "./stroke-syndromes";
 import { acidBasePhysiology } from "./acid-base-physiology";
 import { hypersensitivityTypes } from "./hypersensitivity-types";
+import { lymphoidStructures } from "./lymphoid-structures";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -139,6 +140,7 @@ export const usmleNotes: KypUsMLENote[] = [
   strokeSyndromes,
   acidBasePhysiology,
   hypersensitivityTypes,
+  lymphoidStructures,
   cranialNerves,
   diabetesMellitus,
 ];
