@@ -1,0 +1,31 @@
+**Verdict: CLEAN**
+
+### QA Assessment
+
+**1. Contrast & Readability (WCAG AA compliance)**
+*   **Background/Text:** The dark navy background (`#0f172a` or similar) provides excellent contrast with the white body text and cyan headings (`#22d3ee`), exceeding the 4.5:1 ratio requirement.
+*   **Adaptive Header:** The orange/gold border and text on the dark background maintain sufficient luminance contrast (likely >3:1 for UI components, >4.5:1 for text).
+*   **Graph Elements:** 
+    *   The red "innate" line is clearly visible against the dark background.
+    *   The cyan "adaptive" (primary) and dashed "primary" lines are distinct.
+    *   Axis labels ("magnitude", "time") are legible in light gray.
+
+**2. Collision & Spacing Check**
+*   **Text Wrapping:** All text blocks within the "Innate" and "Adaptive" cards have adequate padding (approx. 16–24px). No text touches container borders.
+*   **List Items:** Bullet points are properly indented; no overlap between list items or section headers.
+*   **Graph Annotations:** 
+    *   "secondary (memory)..." label is positioned above the curve without overlapping the line.
+    *   "primary: develops over long periods" sits cleanly below the dashed line.
+    *   "innate: minutes-hours..." is placed above the red baseline with clear separation.
+*   **Inter-element Spacing:** The gap between the two main cards (Innate vs. Adaptive) is generous (~32px). The bottom graph has sufficient top margin to separate it from the cards above.
+
+**3. Visual Hierarchy & Consistency**
+*   **Typography:** Consistent use of cyan for section headers (Components, Mechanism, etc.) creates a strong scannable structure.
+*   **Color Coding:** The cyan/orange distinction effectively differentiates the two immune arms without causing eye strain on the dark theme.
+*   **Footer Text:** The small source attribution at the bottom is intentionally subdued (lower contrast) which is appropriate for metadata, though it remains readable.
+
+**4. Minor Observations (Non-blocking)**
+*   The orange background fill of the "ADAPTIVE" header is somewhat low-contrast against the black text, but the stroke and bold weight mitigate any accessibility issue. If being pedantic, one could argue for slightly lighter orange or white text, but it passes standard checks.
+*   The graph's Y-axis label "magnitude" is slightly close to the axis line but not colliding.
+
+**Conclusion:** The diagram is well-structured for dark-mode viewing with no critical visibility or layout errors.

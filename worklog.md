@@ -1431,3 +1431,12 @@ Rebuild of the E19 destroyed un-pushed with 4c22047. New `src/components/kyp/usm
 - QA: browser 24/24 (desktop/mobile × light/dark, 0px overflow, 0 errors, theme verified pre-capture); element crops real content ×6 (stdev 24.4–31.6); **VLM paint QA: 2 REAL defect rounds found and FIXED** (HEV vessel overlap + EBV-box canvas overflow + footer clip in v0; supraclavicular/shoulder collision + duct-arrow ambiguity in v1; PALS-artery + marginal-boundary + cramped thymus labels + capsule-curve straddle + follicle/dashed-curve graze + leader/text crossing in v2) — final CLEAN ×3 light + v2 dark; 2 VLM false positives disproven ("retroauricular", "CXR pdf 18/book 30" — no such strings in the SVG). Evidence durable docs/qa/e19/.
 
 COMMIT follows this entry. Immunology now 2/24 (pilot + lymphoid-structures). Next: E20 innate-vs-adaptive (pdf 119/97).
+
+---
+## E20 — innate-vs-adaptive-immunity COMPLETE (Immunology 3/24) — rebuilt batch, session 2026-10-16
+
+Rebuild of the E20 destroyed un-pushed with a7a7d3c. InnateVsAdaptiveArms visual appended to immune.tsx (registry 109→110; original KYP diagram — pdfimages clean on pdf 119, no source artwork exists) + D2-compact note (mechanism tlr-nfkb-alert; verbatim 5-row table block; immune-privilege callout; 3 patterns / 3 traps / 2 pivots / corneal-vs-skin-graft mini-case; 2 mnemonics). Manifest 25/25 quotes machine-verified first pass (U+229D gram-negative marker and U+2192 arrows as printed). Visual inventory 1 sv (table → note-block verbatim), 0 unresolved. Chapter flip 3/24.
+
+Gates: tracker 66 · evidence 1891/1891 EXIT 0 · validate CONTRACT GREEN · audit 66/0 (after the documented validator catch: 2 patterns < 3 → DAMP sterile-inflammation pattern added) · tsc 1 baseline. QA: browser 24/24; element crop real content (stdev 26.01/22.22); VLM paint 1 REAL defect (primary-response label on its dashed curve) — FIXED (label relocated below the curve with mini-leader; innate label lifted) — final CLEAN ×2 (light+dark). Evidence durable docs/qa/e20/.
+
+COMMIT follows. Next: E21 mhc-complex (pdf 120/98).

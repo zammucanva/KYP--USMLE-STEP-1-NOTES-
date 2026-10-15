@@ -29,6 +29,7 @@ import { strokeSyndromes } from "./stroke-syndromes";
 import { acidBasePhysiology } from "./acid-base-physiology";
 import { hypersensitivityTypes } from "./hypersensitivity-types";
 import { lymphoidStructures } from "./lymphoid-structures";
+import { innateVsAdaptiveImmunity } from "./innate-vs-adaptive-immunity";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -141,6 +142,7 @@ export const usmleNotes: KypUsMLENote[] = [
   acidBasePhysiology,
   hypersensitivityTypes,
   lymphoidStructures,
+  innateVsAdaptiveImmunity,
   cranialNerves,
   diabetesMellitus,
 ];

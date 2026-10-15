@@ -102,7 +102,7 @@ import {
   EthanolNadhConsequences,
 } from "./nutrition";
 import { WholeMetabolismMap, TcaCycleMap, PdhCofactorPanel, EtcOxphosMap, GluconeogenesisBypasses, HmpShuntMap, GlutathioneRedoxCycle, FructoseMetabolismMap, GalactoseLeloirMap, PolyolPathwayMap, AminoAcidDerivativesMap, CatecholamineSynthesisMap, UreaCycleMap, AlanineGlucoseShuttle, PhenylalaninePathwayMap, MethionineHomocysteineMap, OrganicAcidemiaMap, OchronosisScleraIllustration, GlycogenHormoneRegulation, GlycogenMetabolismMap, SphingolipidPathwayMap, CherryRedSpotIllustration, AngiokeratomaIllustration, GaucherCellsIllustration, NiemannPickFoamCells, FaSynthesisVsOxidation, KetoneBodyShuttle, AdipocyteFedFasted, ExerciseFuelSystems, StarvationEnergyStores, LipidTransportMap, HdlMaturationMap, LipidLadenEnterocytes } from "./metabolism";
-import { LymphNodeMap, LymphaticDrainageMap, SpleenThymusMap } from "./immune";
+import { LymphNodeMap, LymphaticDrainageMap, SpleenThymusMap, InnateVsAdaptiveArms } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -243,4 +243,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "lymph-node-map": LymphNodeMap,
   "lymphatic-drainage-map": LymphaticDrainageMap,
   "spleen-thymus-map": SpleenThymusMap,
+  "innate-vs-adaptive-arms": InnateVsAdaptiveArms,
 };

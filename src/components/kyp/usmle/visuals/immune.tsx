@@ -420,3 +420,102 @@ export function SpleenThymusMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E20 — Innate vs adaptive: the two arms (source: comparison table,
+// pdf 119 / book 97 — no printed artwork; pdfimages clean. This is an
+// original KYP teaching visual, not a figure replacement.)
+// ---------------------------------------------------------------------------
+
+export function InnateVsAdaptiveArms() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Innate vs adaptive immunity, an original KYP diagram: the innate arm (left) is germline-encoded, nonspecific, active within minutes to hours with no memory — neutrophils, macrophages, monocytes, dendritic cells, NK cells, complement, epithelial barriers, secreted enzymes (lysozyme, CRP, defensins), and Toll-like receptors recognizing PAMPs and DAMPs to activate NF-κB and release pro-inflammatory cytokines. The adaptive arm (right) is highly specific through V(D)J recombination, develops over long periods, and mounts faster, more robust memory responses — T cells, B cells, circulating antibodies, immunoglobulins, with immunosenescence late in life. A response-vs-time strip at the bottom contrasts the immediate innate curve with the lagging primary and the brisk secondary adaptive response" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Innate vs adaptive immunity — the two arms (original KYP diagram)</text>
+        <rect x="726" y="24" width="206" height="18" rx="9" className="fill-brand-soft" />
+        <text x="829" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">fast &amp; general vs slow &amp; specific</text>
+      </g>
+
+      {/* INNATE panel */}
+      <g>
+        <rect x="36" y="76" width="444" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="444" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="258" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">INNATE — first line</text>
+        {[
+          ["Components", "Neutrophils, macrophages, monocytes, dendritic cells, NK cells (lymphoid origin), complement, physical epithelial barriers, secreted enzymes"],
+          ["Mechanism", "Germline encoded — no gene rearrangement"],
+          ["Response", "Nonspecific · occurs rapidly (minutes to hours) · no memory response"],
+          ["Secreted proteins", "Lysozyme, complement, C-reactive protein (CRP), defensins, cytokines"],
+          ["Recognition", "Toll-like receptors (TLRs) read PAMPs (LPS, flagellin, viral nucleic acids) and DAMPs (mitochondrial DNA, histones, heat shock proteins) → NF-κB → pro-inflammatory cytokines"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <text x="54" y={136 + i * 54} fontSize="8" fontWeight="800" className="fill-brand">{k}</text>
+            {v.split(" · ").length > 1 && i === 2 ? (
+              v.split(" · ").map((part, j) => (
+                <text key={j} x="54" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">· {part}</text>
+              ))
+            ) : (
+              v.match(/.{1,62}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+                <text key={j} x="54" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+              ))
+            )}
+          </g>
+        ))}
+      </g>
+
+      {/* ADAPTIVE panel */}
+      <g>
+        <rect x="500" y="76" width="444" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="500" y="76" width="444" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="722" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">ADAPTIVE — the specialist</text>
+        {[
+          ["Components", "T cells, B cells, circulating antibodies"],
+          ["Mechanism", "Variation through V(D)J recombination during lymphocyte development"],
+          ["Response", "Highly specific, refined over time · develops over long periods · memory response is faster and more robust"],
+          ["Secreted proteins", "Immunoglobulins, cytokines"],
+          ["Recognition", "Memory cells (activated B and T cells): subsequent exposure to a previously encountered antigen → stronger, quicker response. Immunosenescence: adaptive responses decrease with age"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <text x="518" y={136 + i * 54} fontSize="8" fontWeight="800" className="fill-brand">{k}</text>
+            {i === 2 ? (
+              v.split(" · ").map((part, j) => (
+                <text key={j} x="518" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">· {part}</text>
+              ))
+            ) : (
+              v.match(/.{1,62}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+                <text key={j} x="518" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+              ))
+            )}
+          </g>
+        ))}
+      </g>
+
+      {/* response vs time strip */}
+      <g>
+        <rect x="36" y="422" width="908" height="94" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="444" fontSize="8.6" fontWeight="800" className="fill-foreground">Response magnitude vs time</text>
+        <line x1="54" y1="502" x2="920" y2="502" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        <line x1="54" y1="502" x2="54" y2="448" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        <text x="58" y="458" fontSize="6.4" className="fill-muted-foreground">magnitude</text>
+        <text x="900" y="512" fontSize="6.4" className="fill-muted-foreground">time →</text>
+        {/* innate: immediate, flat (no memory) */}
+        <path d="M 54 478 L 380 478 L 920 478" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2.4" />
+        <text x="80" y="466" fontSize="6.8" fontWeight="700" className="fill-emergency">innate: minutes–hours, same every time (no memory)</text>
+        {/* adaptive primary: lag then rise */}
+        <path d="M 54 502 C 200 502, 260 500, 300 496 C 380 486, 430 470, 470 462" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2.2" strokeDasharray="6 3" />
+        <path d="M 405 488 L 400 478" stroke="currentColor" className="text-border" strokeWidth="0.9" />
+        <text x="360" y="494" fontSize="6.8" fontWeight="700" className="fill-brand">primary: develops over long periods</text>
+        {/* adaptive secondary: brisk and higher */}
+        <path d="M 470 462 C 500 480, 520 498, 545 502 C 560 500, 575 492, 590 476 C 610 456, 640 448, 920 444" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2.6" />
+        <text x="640" y="440" fontSize="6.8" fontWeight="700" className="fill-brand">secondary (memory): faster and more robust</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="540" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram (the source page carries a comparison table only — pdf 119 / book 97; no textbook artwork exists to redraw). The verbatim 5-row table is the note's table block.</text>
+    </svg>
+  );
+}

@@ -197,8 +197,37 @@
         "innate-vs-adaptive-arms"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The first principles split: fast/germline-encoded/nonspecific vs slow/rearranged/specific with memory — with immune privilege (eye, testis, placenta, CNS) as the boundary condition the exam loves to probe."
+      "status": "complete",
+      "productionRationale": "The first principles split: fast/germline-encoded/nonspecific vs slow/rearranged/specific with memory — with immune privilege (eye, testis, placenta, CNS) as the boundary condition the exam loves to probe.",
+      "textbookVisuals": [
+        {
+          "visualId": "innate-vs-adaptive-immunity-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              119
+            ],
+            "bookPages": "97"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Innate vs adaptive five-axis comparison table",
+          "sourceFigureDescription": "Five-row two-column table (COMPONENTS / MECHANISM / RESPONSE TO PATHOGENS / SECRETED PROTEINS / KEY FEATURES IN PATHOGEN RECOGNITION) contrasting innate (neutrophils... TLRs, PAMPs/DAMPs, NF-κB) with adaptive (T/B cells, V(D)J, memory, immunosenescence).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "innate-vs-adaptive-immunity",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks[1] — 'Innate vs adaptive immunity — verbatim' table block",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "mhc-complex",
