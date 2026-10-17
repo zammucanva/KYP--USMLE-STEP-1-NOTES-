@@ -2561,3 +2561,69 @@ export function RespiratoryBurstEnzymes() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E33 — Cell surface proteins: the CD marker map
+// (source: "Cell surface proteins", pdf 130 / book 108 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function CdMarkerMap() {
+  const w = 980;
+  const h = 640;
+  const rows = [
+    { cell: "T CELLS (all)", markers: [["TCR", "binds antigen-MHC complex"], ["CD3", "associated with TCR for signal transduction"], ["CD28", "binds B7 on APC"]] },
+    { cell: "HELPER T", markers: [["CD4", "MHC II clamp"], ["CD40L", "engages CD40 on B cells/macrophages"], ["CXCR4/CCR5", "coreceptors for HIV"]] },
+    { cell: "CYTOTOXIC T", markers: [["CD8", "MHC I clamp"]] },
+    { cell: "REGULATORY T", markers: [["CD4", "helper chassis"], ["CD25", "IL-2 receptor α — the Treg badge"]] },
+    { cell: "B CELLS", markers: [["Ig", "binds antigen"], ["CD19, CD20", "the B-cell ID pair"], ["CD21", "receptor for Epstein-Barr virus"], ["CD40, MHC II, B7", "APC machinery"]] },
+    { cell: "NK CELLS", markers: [["CD16", "binds Fc of IgG (ADCC)"], ["CD56", "suggestive marker for NK cells"]] },
+    { cell: "MACROPHAGES", markers: [["CD14", "receptor for PAMPs (eg, LPS)"], ["CD40, CCR5, MHC II, B7", "activation + APC machinery"], ["Fc, C3b receptors", "enhanced phagocytosis"]] },
+    { cell: "HEMATOPOIETIC STEM", markers: [["CD34", "the stem-cell harvest marker"]] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cell surface proteins, an original KYP marker map. Eight cell rows with their CD markers and functions. T cells: TCR binds antigen-MHC complex; CD3 is associated with TCR for signal transduction; CD28 binds B7 on APC. Helper T cells: CD4, CD40L, CXCR4/CCR5 coreceptors for HIV. Cytotoxic T cells: CD8. Regulatory T cells: CD4, CD25. B cells: Ig binds antigen; CD19; CD20; CD21 the receptor for Epstein-Barr virus; CD40, MHC II, B7 (CD80/86). NK cells: CD16 binds Fc of IgG; CD56 a suggestive marker. Macrophages: CD14 receptor for PAMPs such as LPS; CD40; CCR5; MHC II; B7; Fc and C3b receptors for enhanced phagocytosis. Hematopoietic stem cells: CD34. Bottom strip: the drug-target bridge — anti-CD3 for transplant rejection, rituximab anti-CD20 for B-cell lymphoma, basiliximab anti-CD25 for transplant (KYP extension) — and the flow-cytometry reading skill this map enables" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cell surface proteins — the CD marker map (original KYP diagram)</text>
+        <rect x="776" y="24" width="156" height="18" rx="9" className="fill-brand-soft" />
+        <text x="854" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the identification codes</text>
+      </g>
+
+      {/* rows */}
+      {rows.map((r, i) => (
+        <g key={r.cell}>
+          <rect x="36" y={76 + i * 52} width="908" height="46" rx="9" className={i % 2 === 0 ? "fill-card" : "fill-secondary"} stroke="currentColor" strokeWidth="0.8" />
+          <rect x="42" y={82 + i * 52} width="150" height="34" rx="7" className="fill-brand-soft stroke-brand" strokeWidth="1.1" />
+          <text x="117" y={100 + i * 52} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.cell}</text>
+          {r.markers.map((m, j) => {
+            const total = r.markers.length;
+            const zoneW = 720 / total;
+            const x = 202 + j * zoneW;
+            return (
+              <g key={m[0]}>
+                <rect x={x} y={83 + i * 52} width={zoneW - 8} height="32" rx="6" className="fill-card stroke-border" strokeWidth="0.9" />
+                <text x={x + 8} y={96 + i * 52} fontSize="7" fontWeight="800" className="fill-foreground">{m[0]}</text>
+                <text x={x + 8} y={107 + i * 52} fontSize="5.9" className="fill-muted-foreground">{m[1].length > 44 ? m[1].slice(0, 44) : m[1]}</text>
+              </g>
+            );
+          })}
+        </g>
+      ))}
+
+      {/* bottom strip: drug targets + flow reading */}
+      <g>
+        <rect x="36" y="500" width="908" height="92" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="522" fontSize="8.2" fontWeight="800" className="fill-foreground">WHY THE MAP MATTERS — drug targets and flow-cytometry reading (KYP bridge)</text>
+        <text x="54" y="540" fontSize="6.5" className="fill-muted-foreground">· Anti-CD3 (muromonab) depletes ALL T cells in transplant rejection · Rituximab (anti-CD20) depletes</text>
+        <text x="54" y="551" fontSize="6.5" className="fill-muted-foreground">  B cells in CD20+ lymphoma and autoimmunity · Basiliximab (anti-CD25, the IL-2R α chain) blocks</text>
+        <text x="54" y="562" fontSize="6.5" className="fill-muted-foreground">  T-cell proliferation in transplant · Alemtuzumab (anti-CD52) depletes broad lymphocytes (MS).</text>
+        <text x="54" y="582" fontSize="6.5" className="fill-muted-foreground">· Flow reading: CD3+CD4+ = helper T · CD3+CD8+ = cytotoxic T · CD3+CD4+CD25+FOXP3+ = Treg ·</text>
+        <text x="54" y="593" fontSize="6.5" className="fill-muted-foreground">  CD19/CD20+ = B cell · CD56+/CD16+ (CD3−) = NK · CD34+ = stem cell. HIV enters via CXCR4/CCR5 on CD4+ cells.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="624" fontSize="7.2" className="fill-muted-foreground">Original KYP marker map (pdf 130 / book 108 — pure vector source table; FA's printed 'Must be 21 to drink at a Barr' mnemonic NOT reproduced). Verbatim marker text is the note's table block; drug names are labeled KYP extension.</text>
+    </svg>
+  );
+}

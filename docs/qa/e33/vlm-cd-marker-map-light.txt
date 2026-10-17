@@ -1,0 +1,15 @@
+**Paint QA Report: CD Marker Map (KYP Visual)**
+
+**(A) Overlapping labels or text-on-text collisions:**
+- PASS. All text elements within the cell rows and the bottom bridge strip are clearly separated with adequate padding.
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+- PASS. No text is cut off at the boundaries of the rounded rectangles or the main canvas. All labels are fully visible.
+
+**(C) Arrows/lines crossing through text:**
+- PASS. The diagram utilizes a grid-based layout without intersecting lines that would obscure the text content.
+
+**(D) Illegible low-contrast text:**
+- PASS. The text uses a dark charcoal/black color (#333 or similar) against light backgrounds (white and pale cyan), providing high legibility in this light mode visual.
+
+Verdict: CLEAN

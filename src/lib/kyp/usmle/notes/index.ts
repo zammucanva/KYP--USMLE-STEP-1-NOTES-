@@ -42,6 +42,7 @@ import { complementPathways } from "./complement-pathways";
 import { complementDisorders } from "./complement-disorders";
 import { cytokines } from "./cytokines";
 import { respiratoryBurstIfn } from "./respiratory-burst-ifn";
+import { cdMarkers } from "./cd-markers";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -167,6 +168,7 @@ export const usmleNotes: KypUsMLENote[] = [
   complementDisorders,
   cytokines,
   respiratoryBurstIfn,
+  cdMarkers,
   cranialNerves,
   diabetesMellitus,
 ];

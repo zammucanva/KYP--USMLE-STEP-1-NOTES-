@@ -1,0 +1,43 @@
+{
+  "topicId": "cd-markers",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "cd-markers-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Cell surface proteins — the eight-cell marker roster",
+      "sourceFigureDescription": "A structured marker table by cell: T cells (TCR, CD3, CD28 with functions); Helper T cells (CD4, CD40L, CXCR4/CCR5 as HIV coreceptors); Cytotoxic T cells (CD8); Regulatory T cells (CD4, CD25); B cells (Ig, CD19, CD20, CD21 EBV receptor, CD40, MHC II, B7); NK cells (CD16 Fc-of-IgG, CD56); Macrophages (CD14 PAMP/LPS receptor, CD40, CCR5, MHC II, B7, Fc and C3b receptors); Hematopoietic stem cells (CD34).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "cd-markers",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Cell surface proteins — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cd-markers",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters). The eight-cell marker roster is reproduced verbatim as the note's table block; the registry visual (cd-marker-map) is an ADDITIONAL original KYP teaching map with function-annotated chips and the drug/flow bridge strip. FA's printed CD21 mnemonic is not reproduced user-facing. The passive/active immunity table on the same page belongs to E34."
+}

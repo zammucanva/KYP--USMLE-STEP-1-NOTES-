@@ -1,0 +1,15 @@
+**Paint QA Report: CD Marker Map (Dark Mode)**
+
+**(A) Overlapping labels or text-on-text collisions:** PASS
+- All cell row labels, marker chips (CD3, CD4, etc.), and descriptive sub-text are well-spaced within their respective containers. No instances of text overlapping other text elements.
+
+**(B) Text clipped at box/canvas edges or truncated words:** PASS
+- All text elements are fully contained within their bounding boxes and the main canvas. No words are cut off at the edges of the "chips" or the outer frame.
+
+**(C) Arrows/lines crossing through text:** PASS
+- The diagram utilizes a grid/box layout rather than intersecting arrows or lines. There are no graphical lines crossing through any textual information.
+
+**(D) Illegible low-contrast text:** PASS
+- The color scheme provides high contrast: white/light-grey text on dark backgrounds (#0d1117, #161b22) and dark text on light-colored marker chips (#0d3d3f). All labels and fine print in the footer are clearly legible.
+
+Verdict: CLEAN
