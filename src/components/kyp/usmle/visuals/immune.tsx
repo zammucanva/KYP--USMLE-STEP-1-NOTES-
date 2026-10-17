@@ -2627,3 +2627,140 @@ export function CdMarkerMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E34 — Active vs passive immunity & the vaccine-type spectrum
+// (source: pdf 130-131 / book 108-109 — pure vector tables; 3 rasters on p131
+//  are decorative spotlights, not content)
+// ---------------------------------------------------------------------------
+
+export function VaccineTypeSpectrum() {
+  const w = 980;
+  const h = 700;
+  const cards = [
+    {
+      name: "LIVE ATTENUATED", color: "fill-emergency/10", stroke: "stroke-emergency",
+      desc: "Microorganism rendered nonpathogenic but retains capacity for transient growth within inoculated host.",
+      pros: ["Cellular AND humoral responses;", "strong, often lifelong immunity"],
+      cons: ["May revert to virulent form;", "contraindicated in pregnancy and", "immunodeficiency (HIV CD4 ≥200:", "MMR/varicella allowed, consult)"],
+      ex: ["Adenovirus (nonattenuated,", "military), typhoid (Ty21a oral),", "polio (Sabin), varicella, smallpox,", "BCG, yellow fever, influenza", "(intranasal), MMR, rotavirus"],
+    },
+    {
+      name: "KILLED / INACTIVATED", color: "fill-warning-soft", stroke: "stroke-warning",
+      desc: "Pathogen inactivated by heat or chemicals; maintaining epitope structure on surface antigens is important.",
+      pros: ["Safer than live vaccines"],
+      cons: ["Weaker cell-mediated response;", "mainly humoral; booster shots", "usually needed"],
+      ex: ["Hepatitis A, typhoid (Vi", "polysaccharide IM), rabies,", "influenza (IM), polio (SalK)"],
+    },
+    {
+      name: "SUBUNIT / CONJUGATE", color: "fill-brand-soft", stroke: "stroke-brand",
+      desc: "Specific antigens that best stimulate the immune system (recombinant, polysaccharide, conjugate).",
+      pros: ["Targets specific epitopes →", "↓ adverse reactions"],
+      cons: ["Expensive; weaker immune", "response"],
+      ex: ["HBV (HBsAg), HPV, acellular", "pertussis (aP), N meningitidis,", "S pneumoniae (PPSV23 vs", "conjugate), Hib, herpes zoster"],
+    },
+    {
+      name: "TOXOID", color: "fill-primary/15", stroke: "stroke-primary",
+      desc: "Denatured bacterial toxin with an intact receptor binding site — antibodies without disease.",
+      pros: ["Protects against the", "bacterial toxins"],
+      cons: ["Antitoxin levels decrease", "with time — booster shots", "may be needed"],
+      ex: ["Clostridium tetani", "Corynebacterium diphtheriae"],
+    },
+    {
+      name: "mRNA", color: "fill-secondary", stroke: "stroke-foreground",
+      desc: "Lipid nanoparticle delivers mRNA, causing cells to synthesize foreign protein (eg, SARS-CoV-2 spike).",
+      pros: ["High efficacy; cellular AND", "humoral immunity.", "Safe in pregnancy"],
+      cons: ["Local and transient systemic", "reactions common (fatigue,", "headache, myalgia); rare", "myocarditis/pericarditis in", "young males"],
+      ex: ["SARS-CoV-2, adult RSV LRT", "disease, CMV (congenital and", "immunocompromised),", "melanoma (therapeutic)"],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Active vs passive immunity and the vaccine-type spectrum, an original KYP diagram. Top strip: passive immunity means receiving preformed antibodies with rapid onset and short duration (antibody half-life about 3 weeks; examples IgA in breast milk, maternal IgG crossing the placenta, antitoxin, humanized monoclonal antibody; IVIG provides temporary but specific passive immunity), while active immunity means exposure to exogenous antigens with slow onset and long-lasting memory protection (natural infection, vaccines, toxoid). Five vaccine-type cards: live attenuated (nonpathogenic organism with transient growth; cellular and humoral responses, strong often lifelong immunity; may revert, contraindicated in pregnancy and immunodeficiency with the HIV CD4 200 exception; adenovirus, oral typhoid Ty21a, Sabin polio, varicella, smallpox, BCG, yellow fever, intranasal influenza, MMR, rotavirus); killed or inactivated (heat or chemical inactivation, epitope structure maintained, mainly humoral, safer, boosters needed; hepatitis A, Vi typhoid intramuscular, rabies, intramuscular influenza, Salk polio); subunit recombinant polysaccharide conjugate (specific antigens, fewer adverse reactions, expensive and weaker; HBV HBsAg, HPV, acellular pertussis, meningococcus, PPSV23 versus conjugate pneumococcal, Hib, herpes zoster); toxoid (denatured toxin with intact receptor binding site; tetanus and diphtheria; antitoxin wanes, boosters needed); mRNA (lipid nanoparticle delivers mRNA for cells to synthesize foreign protein; high efficacy, cellular and humoral, safe in pregnancy; common transient reactions, rare myocarditis in young males; SARS-CoV-2, adult RSV, CMV, melanoma therapeutic). Bottom strip: the conjugate trick — polysaccharides are T-cell-independent (PPSV23), but conjugating to a carrier protein produces a T-cell-dependent response with class switching and memory; and combined passive plus active immunization for hepatitis B or rabies exposure" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Active vs passive immunity — and the vaccine-type spectrum (original KYP diagram)</text>
+        <rect x="772" y="24" width="160" height="18" rx="9" className="fill-brand-soft" />
+        <text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">vaccines = active, trained</text>
+      </g>
+
+      {/* ===== active vs passive strip ===== */}
+      <g>
+        <rect x="36" y="76" width="442" height="120" rx="12" className="fill-card stroke-brand" strokeWidth="1.3" />
+        <rect x="36" y="76" width="442" height="28" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.3" />
+        <text x="257" y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">ACTIVE</text>
+        <text x="52" y="118" fontSize="6.5" className="fill-muted-foreground">Means: exposure to exogenous antigens</text>
+        <text x="52" y="131" fontSize="6.5" className="fill-muted-foreground">Onset: slow · Duration: long-lasting protection (memory)</text>
+        <text x="52" y="144" fontSize="6.5" className="fill-muted-foreground">Examples: natural infection, vaccines, toxoid</text>
+        <text x="52" y="162" fontSize="6.4" fontWeight="700" className="fill-brand">Vaccination induces an active immune response</text>
+        <text x="52" y="173" fontSize="6.4" fontWeight="700" className="fill-brand">(humoral and/or cellular) to specific pathogens</text>
+        <text x="52" y="188" fontSize="6.2" className="fill-muted-foreground">Memory is the payoff: boosters train the response.</text>
+      </g>
+      <g>
+        <rect x="502" y="76" width="442" height="120" rx="12" className="fill-card stroke-emergency" strokeWidth="1.3" />
+        <rect x="502" y="76" width="442" height="28" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.3" />
+        <text x="723" y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">PASSIVE</text>
+        <text x="518" y="118" fontSize="6.5" className="fill-muted-foreground">Means: receiving preformed antibodies</text>
+        <text x="518" y="131" fontSize="6.5" className="fill-muted-foreground">Onset: rapid · Duration: short (half-life = 3 weeks)</text>
+        <text x="518" y="144" fontSize="6.5" className="fill-muted-foreground">Examples: IgA in breast milk, maternal IgG crossing placenta,</text>
+        <text x="518" y="155" fontSize="6.5" className="fill-muted-foreground">antitoxin, humanized monoclonal antibody</text>
+        <text x="518" y="172" fontSize="6.4" fontWeight="700" className="fill-emergency">IVIG and immune globulin preparations give temporary</text>
+        <text x="518" y="183" fontSize="6.4" fontWeight="700" className="fill-emergency">but specific passive immunity to a target pathogen</text>
+      </g>
+
+      {/* ===== five vaccine cards ===== */}
+      {cards.map((c, i) => {
+        const x = 36 + (i % 3) * 310;
+        const y = 212 + Math.floor(i / 3) * 250;
+        return (
+          <g key={c.name}>
+            <rect x={x} y={y} width="294" height="238" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+            <rect x={x} y={y} width="294" height="26" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+            <text x={x + 147} y={y + 18} textAnchor="middle" fontSize="8.2" fontWeight="800" className="fill-foreground">{c.name}</text>
+            <text x={x + 12} y={y + 40} fontSize="5.9" fontWeight="700" className="fill-muted-foreground">WHAT</text>
+            {c.desc.match(/.{1,46}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+              <text key={j} x={x + 12} y={y + 51 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x={x + 12} y={y + 86} fontSize="5.9" fontWeight="700" className="fill-brand">PROS</text>
+            {c.pros.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 96 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 12} y={y + 122} fontSize="5.9" fontWeight="700" className="fill-emergency">CONS</text>
+            {c.cons.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 132 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 12} y={y + 178} fontSize="5.9" fontWeight="700" className="fill-foreground">EXAMPLES</text>
+            {c.ex.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 188 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* conjugate / combined strip (right of the 4th-5th cards zone) */}
+      <g>
+        <rect x="666" y="462" width="278" height="238" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="682" y="486" fontSize="8" fontWeight="800" className="fill-foreground">THE CONJUGATE TRICK</text>
+        <text x="682" y="504" fontSize="6.2" className="fill-muted-foreground">A pure polysaccharide (PPSV23) is</text>
+        <text x="682" y="514" fontSize="6.2" className="fill-muted-foreground">primarily a T-cell-INdependent</text>
+        <text x="682" y="524" fontSize="6.2" className="fill-muted-foreground">response — weak, IgM-leaning, no</text>
+        <text x="682" y="534" fontSize="6.2" className="fill-muted-foreground">class switching, no memory (E28).</text>
+        <text x="682" y="552" fontSize="6.2" className="fill-muted-foreground">Conjugate the polysaccharide to a</text>
+        <text x="682" y="562" fontSize="6.2" className="fill-muted-foreground">carrier protein and it gains a</text>
+        <text x="682" y="572" fontSize="6.2" className="fill-muted-foreground">T-cell-DEPENDENT response:</text>
+        <text x="682" y="582" fontSize="6.2" className="fill-muted-foreground">class switching + memory — the</text>
+        <text x="682" y="592" fontSize="6.2" className="fill-muted-foreground">design logic of PCV13, Hib, and</text>
+        <text x="682" y="602" fontSize="6.2" className="fill-muted-foreground">meningococcal conjugates.</text>
+        <rect x="678" y="616" width="254" height="70" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="692" y="634" fontSize="6.6" fontWeight="800" className="fill-foreground">COMBINED PROTOCOL</text>
+        <text x="692" y="650" fontSize="6.2" className="fill-muted-foreground">Combined passive AND active</text>
+        <text x="692" y="660" fontSize="6.2" className="fill-muted-foreground">immunizations for hepatitis B or</text>
+        <text x="692" y="670" fontSize="6.2" className="fill-muted-foreground">rabies exposure: antibodies now</text>
+        <text x="692" y="680" fontSize="6.2" className="fill-muted-foreground">(passive) + vaccine memory later.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="718" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram (pdf 130-131 / book 108-109 — pure vector tables in the source; the p131 rasters are decorative spotlights, not content; FA's printed mnemonics NOT reproduced). Verbatim tables are the note's table blocks.</text>
+    </svg>
+  );
+}

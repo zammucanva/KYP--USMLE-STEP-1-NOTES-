@@ -121,6 +121,7 @@ import {
   CytokineNetworkMap,
   RespiratoryBurstEnzymes,
   CdMarkerMap,
+  VaccineTypeSpectrum,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -277,4 +278,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "cytokine-network-map": CytokineNetworkMap,
   "respiratory-burst-enzymes": RespiratoryBurstEnzymes,
   "cd-marker-map": CdMarkerMap,
+  "vaccine-type-spectrum": VaccineTypeSpectrum,
 };

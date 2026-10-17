@@ -1,0 +1,69 @@
+{
+  "topicId": "active-passive-immunity",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "active-passive-immunity-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          130,
+          131
+        ],
+        "bookPages": "108–109"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Passive vs active immunity — the comparison table",
+      "sourceFigureDescription": "A two-column comparison table (MEANS OF ACQUISITION / ONSET / DURATION / EXAMPLES / NOTES) contrasting passive (receiving preformed antibodies; rapid; half-life 3 weeks; IgA in breast milk, maternal IgG, antitoxin, humanized monoclonal antibody; IVIG note; combined immunization note) with active (exogenous antigens; slow; memory; natural infection, vaccines, toxoid).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "active-passive-immunity",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Passive vs active immunity — verbatim' table block"
+    },
+    {
+      "visualId": "active-passive-immunity-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          130,
+          131
+        ],
+        "bookPages": "108–109"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Vaccination — the five-type vaccine table",
+      "sourceFigureDescription": "A four-column table (VACCINE TYPE / DESCRIPTION / PROS-CONS / EXAMPLES) with five rows: live attenuated (with the HIV CD4 200 exception), killed or inactivated, subunit/recombinant/polysaccharide/conjugate (with the PPSV23 T-independent vs conjugate T-dependent distinction), toxoid, and mRNA.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "active-passive-immunity",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] — 'The five vaccine types — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "active-passive-immunity",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: p130 pure vector; p131's 3 rasters are decorative spotlights (VLM-verified — page furniture, not content). Both source tables are reproduced verbatim as the note's two table blocks; the registry visual (vaccine-type-spectrum) is an ADDITIONAL original KYP teaching diagram with the five-type cards, conjugate-trick, and combined-protocol panels. FA's printed mnemonics are not reproduced user-facing."
+}

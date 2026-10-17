@@ -1,0 +1,404 @@
+{
+  "topicId": "active-passive-immunity",
+  "title": "Active vs Passive Immunity & Vaccination",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      130,
+      131
+    ],
+    "bookPages": "108–109"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Table heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "Passive vs active immunity",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row — means of acquisition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "MEANS OF ACQUISITION\nReceiving preformed antibodies\nExposure to exogenous antigens",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row — onset",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "ONSET\nRapid\nSlow",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row — duration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "DURATION\nShort span of antibodies (half-life = 3 weeks)\nLong-lasting protection (memory)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row — examples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "EXAMPLES\nIgA in breast milk, maternal IgG crossing\nplacenta, antitoxin, humanized monoclonal\nantibody\nNatural infection, vaccines, toxoid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row — notes (IVIG + combined)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          130
+        ],
+        "bookPages": "108"
+      },
+      "quote": "NOTES\nIVIG and other immune globulin preparations\ncan be administered to provide temporary but\nspecific passive immunity to a target pathogen\nCombined passive and active immunizations\ncan be given for hepatitis B or rabies exposure",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Vaccination heading + definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Vaccination\nInduces an active immune response (humoral and/or cellular) to specific pathogens.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers (top pair)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "VACCINE TYPE\nDESCRIPTION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers (bottom pair)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "PROS/CONS\nEXAMPLES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Live attenuated — description + pros (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Microorganism rendered\nPros: induces cellular and\nnonpathogenic but retains\nhumoral responses. Induces\ncapacity for transient growth\nstrong, often lifelong\nwithin inoculated host.\nimmunity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Live attenuated — cons + HIV CD4 exception (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Certain live vaccines (MMR,\nCons: may revert to virulent\nvaricella) may be given to\nform. Contraindicated in\npeople living with HIV who\npregnancy and patients with\nhave a CD4+ cell count ≥200\nimmunodeficiency.\ncells/mm3 in consultation with\na specialist in infectious disease\nor immunology.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Live attenuated — examples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Adenovirus (nonattenuated,\ngiven to military recruits),\ntyphoid (Ty21a, oral),\npolio (Sabin), varicella\n(chickenpox), smallpox,\nBCG, yellow fever, influenza\n(intranasal), MMR, rotavirus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — live vaccines (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "“Attention teachers! Please\nvaccinate small, Beautiful\nyoung infants with MMR\nroutinely!”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Killed — description",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Pathogen is inactivated by heat\nor chemicals. Maintaining\nepitope structure on surface\nantigens is important for\nimmune response. Mainly\ninduces a humoral response.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Killed — pros/cons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Pros: safer than live vaccines.\nCons: weaker cell-mediated\nimmune response; mainly\ninduces a humoral response.\nBooster shots usually needed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Killed — examples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Hepatitis A, Typhoid\n(Vi polysaccharide,\nintramuscular), Rabies,\nInfluenza (intramuscular),\nPolio (SalK).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — killed vaccines (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "A TRIP could Kill you.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subunit — description",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "All use specific antigens that\nbest stimulate the immune\nsystem.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subunit — pros/cons + examples (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Pros: targets specific epitopes of HBV (antigen = HBsAg),\nantigen → ↓ adverse reactions.\nHPV, acellular pertussis\nCons: expensive; weaker\n(aP), N meningitidis (various\nimmune response.\nstrains), S pneumoniae\n(PPSV23 polysaccharide\nprimarily T-cell–independent\nresponse; a polysaccharide\nconjugated to a carrier\nprotein; produces a T-cell–\ndependent response). Hib,\nherpes zoster.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxoid — description",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Denatured bacterial toxin with\nan intact receptor binding\nsite. Stimulates immune\nsystem to make antibodies\nwithout potential for causing\ndisease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxoid — pros/cons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Pros: protects against the\nbacterial toxins.\nCons: antitoxin levels decrease\nwith time, thus booster shots\nmay be needed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxoid — examples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Clostridium tetani,\nCorynebacterium diphtheriae.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mRNA — description + pros (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "A lipid nanoparticle delivers\nPros: high efficacy; induces\nmRNA, causing cells to\ncellular and humoral\nsynthesize foreign protein (eg,\nimmunity. Safe in pregnancy.\nspike protein of SARS-CoV-2).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mRNA — cons",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "Cons: local and transient\nsystemic (fatigue, headache,\nmyalgia) reactions are\ncommon. Rare myocarditis,\npericarditis particularly in\nyoung males.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "mRNA — examples",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          131
+        ],
+        "bookPages": "109"
+      },
+      "quote": "SARS-CoV-2, adult RSV\nlower respiratory tract\ndisease, CMV (congenital\nand immunocompromised),\nmelanoma (therapeutic\nvaccine).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "vaccine-type-spectrum"
+  ],
+  "mechanismIds": [
+    "vaccine-design-response-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two tables; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "replication-teacher-model",
+      "summary": "The vaccine spectrum read as one trade (replication drives dual-arm response strength; live lessons last, dead lessons need review) with one exception (mRNA achieves live-like dual-arm immunity without organisms) and one engineering fix (conjugation = the T-cell face for naked polysaccharides); plus the timing logic of combined passive + active prophylaxis for exposures whose incubation outruns active onset.",
+      "origin": "outside-first-aid",
+      "rationale": "The source tables present the five designs as parallel entries without the trade-fix-exception frame or the timing rationale; these integrations are KYP's design. The pregnancy-influenza/Tdap recommendations and PCV13-schedule details in the pattern are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p130 = ZERO images (pure vector). p131 = 3 separation-space rasters, VLM-verified as DECORATIVE spotlight/hexagon callout shapes (not content artwork) — documented, no content artwork exists to redraw. One original KYP registry visual (vaccine-type-spectrum) renders the active/passive strip, five vaccine-type cards, the conjugate-trick panel, and the combined-protocol card. MNEMONIC BOUNDARY (E22+ rule): FA's printed mnemonics ('Attention teachers!...', 'A TRIP could Kill you') are quoted in manifest evidence for VERIFICATION ONLY — never user-facing; KYP originals replace them. Boundary: the Cell surface proteins roster on p130 is owned by E33 cd-markers (its table header quote was pinned there as boundary evidence).",
+  "updatedAt": "2026-10-17"
+}
