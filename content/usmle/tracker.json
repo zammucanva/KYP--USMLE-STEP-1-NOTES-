@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T20:26:38Z",
+  "generatedAt": "2026-10-17T20:31:18Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -265,8 +265,8 @@
   },
   "estimatedTotalTopics": 3029,
   "counts": {
-    "chaptersRegistered": 7,
-    "chaptersExtracted": 2,
+    "chaptersRegistered": 8,
+    "chaptersExtracted": 3,
     "topicsProduced": 87,
     "topicsByStatus": {
       "planned": 0,
@@ -300,6 +300,17 @@
       "topicsRemaining": 0,
       "qaStatus": "pass",
       "completedAt": "2026-10-17"
+    },
+    {
+      "chapterId": "microbiology",
+      "chapterTitle": "Microbiology",
+      "part": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 39,
+      "topicsProduced": 0,
+      "topicsRemaining": 39,
+      "qaStatus": "pending",
+      "completedAt": null
     },
     {
       "chapterId": "pharmacology",

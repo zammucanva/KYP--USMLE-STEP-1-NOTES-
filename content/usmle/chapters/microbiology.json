@@ -1,0 +1,1048 @@
+{
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "number": 3,
+  "part": 1,
+  "section": "II",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 143,
+      "to": 222
+    }
+  ],
+  "extractionStatus": "extracted",
+  "pendingTopicCount": 39,
+  "topics": [
+    {
+      "topicId": "bacterial-structures",
+      "title": "Bacterial Structures: Anatomy & Function",
+      "faSubsections": [
+        "Bacterial structures"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122–122"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "bacterial-cell-anatomy"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The structure-function table (flagellum, pilus, capsule, spore, peptidoglycan, endotoxin/LPS, porin) — the anatomical vocabulary every later organism entry uses."
+    },
+    {
+      "topicId": "stains-identification",
+      "title": "Stains & Difficult-to-Stain Organisms",
+      "faSubsections": [
+        "Stains",
+        "Gram stain"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123–123"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "gram-stain-decision-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "Gram stain as first-line ID plus the poor-stainers (treponemes too thin, mycobacteria lipid-rich, mycoplasma wall-less, intracellular legionella/rickettsia/chlamydia) — why each fails."
+    },
+    {
+      "topicId": "special-culture-requirements",
+      "title": "Special Culture Requirements",
+      "faSubsections": [
+        "Special culture requirements"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124–124"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "bug-media-matching-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The bug-to-medium directory (chocolate, Thayer-Martin, Bordet-Gengou, Löwenstein-Jensen, etc.) plus lactose fermentation — the lab-identification spine."
+    },
+    {
+      "topicId": "oxygen-requirements",
+      "title": "Anaerobes, Aerobes & Oxygen Tolerance",
+      "faSubsections": [
+        "Anaerobes",
+        "Facultative anaerobes"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125–125"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The oxygen-tolerance spectrum (obligate anaerobes lack catalase/SOD; facultative, obligate aerobic, microaerophilic, facultative-intracellular) with the aminoglycoside-needs-O2 corollary."
+    },
+    {
+      "topicId": "organism-groups-quick-reference",
+      "title": "Catalase, Pigment, Spore & Encapsulation Groups",
+      "faSubsections": [
+        "Catalase-positive organisms",
+        "Pigment-producing bacteria",
+        "Spore-forming bacteria"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126–126"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The trait-group directories: catalase-positive organisms (the CGD set), pigmented bugs (Actinomyces sulfur granules, S aureus gold, Pseudomonas pyocyanin), and spore formers."
+    },
+    {
+      "topicId": "virulence-mechanisms",
+      "title": "Virulence Mechanisms & Antimicrobial Resistance Overview",
+      "faSubsections": [
+        "Capsular organisms",
+        "IgA proteases",
+        "Antimicrobial resistance mechanisms"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127–127"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "virulence-resistance-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The immune-evasion directory (capsule, protein A, IgA proteases) plus the resistance-mechanisms table (efflux, decreased uptake, enzymatic inactivation, target modification) — E38's complement and E32's CGD loops closed."
+    },
+    {
+      "topicId": "bacterial-genetics",
+      "title": "Bacterial Genetics: Transformation, Conjugation, Transduction",
+      "faSubsections": [
+        "Transformation",
+        "Conjugation",
+        "Transduction",
+        "Transposition"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          150,
+          151
+        ],
+        "bookPages": "128–129"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gene-transfer-triangle"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The three horizontal gene-transfer routes (transformation with competence, conjugation with sex pilus, transduction general/specialized) plus transposons — how resistance and virulence spread."
+    },
+    {
+      "topicId": "exotoxins-endotoxins",
+      "title": "Exotoxins vs Endotoxins",
+      "faSubsections": [
+        "Exotoxins",
+        "Endotoxins"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          151,
+          152,
+          153
+        ],
+        "bookPages": "129–131"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "toxin-comparison-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Basic Bacteriology",
+      "status": "pending",
+      "productionRationale": "The classic comparison (source, chemistry, genes, effects, vaccines, heat stability) plus the major exotoxin table (ADP-ribosylators, superantigens, clostridial toxins) and endotoxin's TNF/IL-1/IL-6 cascade to septic shock."
+    },
+    {
+      "topicId": "gram-positive-cocci",
+      "title": "Gram-Positive Cocci: Staphylococcus & Streptococcus",
+      "faSubsections": [
+        "Gram-positive cocci",
+        "Staphylococcus",
+        "Streptococcus",
+        "Enterococci"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gram-pos-cocci-tree"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The catalase/coagulase/hemolysis decision tree splitting staphylococci (aureus vs epidermidis vs saprophyticus) from streptococci (pyogenes, agalactiae, pneumoniae, viridans, enterococci) — the most-tested organism block in bacteriology."
+    },
+    {
+      "topicId": "gram-positive-bacilli",
+      "title": "Gram-Positive Bacilli: Clostridia, Corynebacterium, Listeria, Actinomyces, Nocardia",
+      "faSubsections": [
+        "Gram-positive bacilli",
+        "Clostridia",
+        "Corynebacterium",
+        "Listeria",
+        "Actinomyces",
+        "Nocardia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          158,
+          159
+        ],
+        "bookPages": "136–137"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gram-pos-bacilli-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The spore-forming clostridia (tetani, botulinum, perfringens, difficile) with their toxin mechanics, plus the aerobic diphtheroids (diphtheriae ADP-ribosylation, Listeria cold-growth motility, Actinomyces vs Nocardia)."
+    },
+    {
+      "topicId": "mycobacteria",
+      "title": "Mycobacteria: Tuberculosis & Leprosy",
+      "faSubsections": [
+        "Mycobacteria",
+        "Tuberculosis",
+        "Leprosy"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "tb-spectrum-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "TB's primary-reactivation-miliary spectrum with ghon complex and caseation, the lepromatous-tuberculoid leprosy axis, and the acid-fast staining logic — cytokine-tied (E31's IFN-γ/IL-12 axis)."
+    },
+    {
+      "topicId": "gram-negative-bacilli",
+      "title": "Gram-Negative Bacilli: Enterics & Zoonotics",
+      "faSubsections": [
+        "Gram-negative bacilli",
+        "Neisseria",
+        "Haemophilus",
+        "Brucella",
+        "Legionella",
+        "Pseudomonas"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          161,
+          162,
+          163
+        ],
+        "bookPages": "139–141"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "gram-neg-bacilli-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The enteric and zoonotic gram-negatives: Neisseria (gonococci/meningococci), Haemophilus, Brucella/Legionella/Pasteurella/Bordetella, and the lactose-fermenter split of the ENTERICS."
+    },
+    {
+      "topicId": "enteric-pathogens",
+      "title": "Enteric Pathogens: Salmonella, Shigella, E. coli Strains & Campylobacter",
+      "faSubsections": [
+        "Salmonella",
+        "Shigella",
+        "Escherichia coli strains",
+        "Campylobacter"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          164,
+          165
+        ],
+        "bookPages": "142–143"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "enteric-comparison-table"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The typhoidal-vs-nontyphoidal salmonella, shigella invasiveness, the E. coli strain roster (EPEC, EHEC, ETEC, EIEC), and Campylobacter — GI microbiology's core comparison table."
+    },
+    {
+      "topicId": "spirochetes-syphilis",
+      "title": "Spirochetes: Treponema, Borrelia, Leptospira",
+      "faSubsections": [
+        "Spirochetes",
+        "Syphilis"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          166,
+          167,
+          168
+        ],
+        "bookPages": "144–146"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "syphilis-staging-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The three spirochetes plus syphilis's primary-secondary-tertiary staging with congenital transmission and the nontreponemal-vs-treponemal testing logic (RPR/VDRL vs FTA-ABS/TP-PA)."
+    },
+    {
+      "topicId": "intracellular-bacteria",
+      "title": "Intracellular & Vector-Borne Bacteria: Chlamydia, Rickettsia, Mycoplasma",
+      "faSubsections": [
+        "Chlamydiae",
+        "Rickettsiae",
+        "Zoonotic bacteria",
+        "Vector-borne illnesses"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "vector-borne-rash-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "status": "pending",
+      "productionRationale": "The obligate-intracellular set (chlamydiae life cycle, rickettsiae), the vector-borne roster (RMSF, typhus, ehrlichiosis, anaplasmosis, plague, tularemia), and the rash-common/rash-rare split."
+    },
+    {
+      "topicId": "systemic-mycoses",
+      "title": "Systemic Mycoses: Histoplasma, Blastomyces, Coccidioides, Paracoccidioides",
+      "faSubsections": [
+        "Systemic mycoses"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149–149"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "US-fungi-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Mycology",
+      "status": "pending",
+      "productionRationale": "The endemic-mycosis quartet with geography, tissue forms, and presentations (Histoplasma Ohio valleys intracellular, Blastomyces broad-based budding, Coccidioides arthroconidia, Paracoccidioides Latin America)."
+    },
+    {
+      "topicId": "opportunistic-fungi",
+      "title": "Opportunistic Fungi: Aspergillus, Cryptococcus, Candida, Mucor",
+      "faSubsections": [
+        "Opportunistic fungal infections",
+        "Aspergillus",
+        "Cryptococcus"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150–150"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "opportunistic-fungi-panel"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Mycology",
+      "status": "pending",
+      "productionRationale": "The opportunistic mycoses: Aspergillus (angioinvasive, halo sign), Cryptococcus (India ink, capsule, meningitis), Candida (pseudohyphae), Mucor (ketoacidosis rhinocerebral) — E38's granulocyte column."
+    },
+    {
+      "topicId": "intestinal-protozoa",
+      "title": "Intestinal & Urogenital Protozoa",
+      "faSubsections": [
+        "Intestinal protozoa",
+        "Giardia",
+        "Entamoeba",
+        "Cryptosporidium",
+        "Trichomonas"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "protozoa-panel"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Parasitology",
+      "status": "pending",
+      "productionRationale": "The GI/UG protozoa: Giardia (duodenal trophozoites, IgA-deficiency), Entamoeba histolytica (erythrocyte-eating flask ulcers), Cryptosporidium (AIDS), Trichomonas (strawberry cervix)."
+    },
+    {
+      "topicId": "blood-tissue-protozoa",
+      "title": "Blood & Tissue Protozoa: Plasmodium, Babesia, Toxoplasma, Trypanosoma, Leishmania",
+      "faSubsections": [
+        "Plasmodium",
+        "Toxoplasma",
+        "Trypanosoma",
+        "Leishmania",
+        "Babesia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hemoflagellate-malaria-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Parasitology",
+      "status": "pending",
+      "productionRationale": "Malaria's species-cycle-drug triad, Babesia (maltese cross, asplenia), Toxoplasma (TORCH, cats), the trypanosomiases (Chagas vs sleeping sickness) and leishmaniasis — the vector-hosted protozoa."
+    },
+    {
+      "topicId": "helminths-nematodes",
+      "title": "Nematodes: The Roundworms",
+      "faSubsections": [
+        "Nematodes (roundworms)"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "nematode-lifecycle-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Parasitology",
+      "status": "pending",
+      "productionRationale": "The intestinal and tissue roundworms: Ascaris, Hookworm (Necator/Ancylostoma), Strongyloides (autoinfection, hyperinfection in steroid/HTLV-1), Enterobius (pinworm, Scotch tape), Trichinella, Onchocerca, Loa, Wucheraria (elephantiasis)."
+    },
+    {
+      "topicId": "cestodes-trematodes",
+      "title": "Cestodes & Trematodes: Tapeworms and Flukes",
+      "faSubsections": [
+        "Cestodes (tapeworms)",
+        "Trematodes (flukes)"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          179,
+          180
+        ],
+        "bookPages": "157–158"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "flatworm-panel"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Parasitology",
+      "status": "pending",
+      "productionRationale": "The tapeworms (Taenia solium/saginata, cysticercosis, Diphyllobothrium B12, Echinococcus hydatid) and flukes (Schistosoma species, Clonorchis, Paragonimus, Fasciola) plus ectoparasites (scabies, lice)."
+    },
+    {
+      "topicId": "viral-structure-genetics",
+      "title": "Viral Structure & Genetics",
+      "faSubsections": [
+        "Viral structure",
+        "Viral genetics"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          181,
+          182
+        ],
+        "bookPages": "159–160"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "virus-anatomy-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "Capsid symmetries, envelope vs naked (the GI/environment logic), genomes, plus recombination-reassortment-complementation and the Baltimore-ish DNA/RNA family rosters."
+    },
+    {
+      "topicId": "dna-viruses",
+      "title": "DNA Viruses: Families & Disease Map",
+      "faSubsections": [
+        "DNA viruses",
+        "Herpesviruses"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          183,
+          184,
+          185
+        ],
+        "bookPages": "161–163"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "dna-virus-family-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "The DNA-virus family table (ds/SS, envelope, medical importance) plus the herpesvirus subfamily roster (HSV, VZV, EBV, CMV, HHV-6/8) with latency sites and the virus-receptor list (CD21, CD4/CXCR4/CCR5, ACE2)."
+    },
+    {
+      "topicId": "rna-viruses",
+      "title": "RNA Viruses: Families & Disease Map",
+      "faSubsections": [
+        "RNA viruses",
+        "Picornavirus",
+        "Paramyxoviruses"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          186,
+          187,
+          188,
+          189
+        ],
+        "bookPages": "164–167"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "rna-virus-family-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "The RNA-virus family table (the PERCH picnic, arboviruses, orthomyxo vs paramyxo segmentation) plus measles-mumps-rubella, picornaviruses, rotavirus, and the genetic-shift/drift map (E34's vaccine logic)."
+    },
+    {
+      "topicId": "viral-vaccines-diagnostics",
+      "title": "Viral Vaccines, Diagnosis & Emerging Viruses",
+      "faSubsections": [
+        "Viral vaccines",
+        "SARS-CoV-2",
+        "Prions"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          190,
+          191,
+          196
+        ],
+        "bookPages": "168–174"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "vaccine-diagnostic-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "The live-vs-killed vaccine split (E34's chapter applied), viral diagnostics, the SARS-CoV-2 structure-and-drug anchor, and prions (PrPsc conformational change, spongiform encephalopathies)."
+    },
+    {
+      "topicId": "hepatitis-viruses",
+      "title": "Hepatitis Viruses: A Through E",
+      "faSubsections": [
+        "Hepatitis",
+        "Hepatitis B",
+        "Hepatitis C"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          192,
+          193
+        ],
+        "bookPages": "170–171"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hepatitis-serology-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "The five-virus comparison (transmission, incubation, course, HCC risk) and the HBV serology timeline (HBsAg/anti-HBs/HBcAg/anti-HBc/HBeAg windows) — serology's most-tested chart."
+    },
+    {
+      "topicId": "hiv-aids",
+      "title": "HIV & AIDS: Virology Through Opportunists",
+      "faSubsections": [
+        "HIV",
+        "AIDS"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          194,
+          195
+        ],
+        "bookPages": "172–173"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hiv-lifecycle-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Virology",
+      "status": "pending",
+      "productionRationale": "HIV's structure, lifecycle (E40's drug targets), diagnosis (NAT/4th-gen), the CD4-staged opportunist map (Pneumocystis, CMV CREEP, MAC, cryptococcosis, Kaposi) — virology's clinical capstone."
+    },
+    {
+      "topicId": "normal-flora",
+      "title": "Normal Flora & Colonization",
+      "faSubsections": [
+        "Normal flora"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174–174"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "visualHints": [],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Systems",
+      "status": "pending",
+      "productionRationale": "The body-site flora directory (skin Staph epidermidis, nose Staph aureus, colon anaerobes/E coli, vagina Lactobacillus) with the sterile-site list."
+    },
+    {
+      "topicId": "bugs-by-system-gi-meningitis",
+      "title": "Bugs by System: GI, Pneumonia, Meningitis & CSF",
+      "faSubsections": [
+        "Microbiology by system: GI",
+        "Pneumonia",
+        "Meningitis",
+        "CSF findings"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          197,
+          198
+        ],
+        "bookPages": "175–176"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "systems-bug-matrix"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Systems",
+      "status": "pending",
+      "productionRationale": "The age-split pathogen tables (meningitis newborns-to-elderly, pneumonia by age and setting) and the CSF formula (bacterial/fungal/viral) — systems-based organism matching."
+    },
+    {
+      "topicId": "bugs-by-system-rash-std-torch",
+      "title": "Bugs by System: Rash, STDs, TORCH & Nosocomial",
+      "faSubsections": [
+        "Rash",
+        "Sexually transmitted infections",
+        "TORCH",
+        "Nosocomial"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "bookPages": "177–182"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "systems-bug-matrix-2"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Microbiology — Systems",
+      "status": "pending",
+      "productionRationale": "The vesicular-petechial rash roster, the STD directory, TORCH maternal-neonatal manifestations, UTI/osteomyelitis/water-bite/cellulitis associations, and the classic-bug-by-presentation capstone table."
+    },
+    {
+      "topicId": "antimicrobial-overview",
+      "title": "Antimicrobial Mechanisms: The Target Map",
+      "faSubsections": [
+        "Antimicrobial overview"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183–183"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "antimicrobial-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The mechanism-of-action map (cell wall, protein synthesis, DNA/RNA, folate, membrane) with the antibacterial-class directory — E40's immunosuppressant map's infectious-disease sibling."
+    },
+    {
+      "topicId": "cell-wall-inhibitors",
+      "title": "Cell Wall Inhibitors: Penicillins, Cephalosporins, Carbapenems, Vancomycin",
+      "faSubsections": [
+        "Penicillins",
+        "Cephalosporins",
+        "Carbapenems",
+        "Glycopeptides"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          206,
+          207,
+          208
+        ],
+        "bookPages": "184–186"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "beta-lactam-family-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The beta-lactam family tree (penicillinase-sensitive/resistant, antipseudomonal, the cephalosporin generations with the 3rd-gen ceftriaxone/ceftazidime anchors) plus carbapenems, aztreonam, and vancomycin."
+    },
+    {
+      "topicId": "protein-synthesis-inhibitors",
+      "title": "Protein Synthesis Inhibitors: 30S, 50S & Beyond",
+      "faSubsections": [
+        "Aminoglycosides",
+        "Tetracyclines",
+        "Macrolides",
+        "Chloramphenicol",
+        "Clindamycin",
+        "Linezolid",
+        "Polymyxins"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          209,
+          210,
+          211
+        ],
+        "bookPages": "187–189"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "ribosome-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The 30S/50S inhibitor roster with the initiation/elongation/termination map (aminoglycosides' bactericidal initiation error vs tetracyclines' blocking), macrolides/linezolid, and polymyxins' membrane mechanism."
+    },
+    {
+      "topicId": "dna-rna-folate-inhibitors",
+      "title": "DNA/RNA & Folate Pathway Inhibitors",
+      "faSubsections": [
+        "Fluoroquinolones",
+        "Sulfonamides",
+        "Trimethoprim",
+        "Metronidazole",
+        "Daptomycin",
+        "Rifamycins"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          212,
+          213
+        ],
+        "bookPages": "190–191"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "folate-quinolone-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "Sulfonamides/trimethoprim's sequential folate blockade (the synergistic TMP-SMX logic), fluoroquinolones' DNA gyrase, daptomycin's membrane, and metronidazole's anaerobe activation."
+    },
+    {
+      "topicId": "antimycobacterials",
+      "title": "Antimycobacterial Therapy",
+      "faSubsections": [
+        "Antimycobacterials",
+        "Isoniazid",
+        "Rifampin",
+        "Pyrazinamide",
+        "Ethambutol"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          214,
+          215
+        ],
+        "bookPages": "192–193"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "tb-drug-regimen-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "RIPE regimen with mechanisms (INH mycolic acid synthesis, ethambutol arabinogalactan, PZA intracellular, rifampin RNA polymerase), toxicities (INH peripheral neuropathy/B6, ethambutol color blindness), and prophylaxis rules."
+    },
+    {
+      "topicId": "antifungals",
+      "title": "Antifungal Agents",
+      "faSubsections": [
+        "Antifungals",
+        "Amphotericin B",
+        "Azoles",
+        "Echinocandins",
+        "Flucytosine",
+        "Griseofulvin"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          216,
+          217
+        ],
+        "bookPages": "194–195"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "antifungal-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The ergosterol-pathway map (amphotericin's pore, azoles' 14α-demethylase, the nephrotoxicity sign-off) plus echinocandins' glucan synthesis, flucytosine, terbinafine, and griseofulvin's keratin logic."
+    },
+    {
+      "topicId": "antiparasitic-antiviral",
+      "title": "Antiparasitic & Non-HIV Antiviral Agents",
+      "faSubsections": [
+        "Antihelminthic",
+        "Antiprotozoal",
+        "Baloxavir",
+        "Remdesivir",
+        "Ganciclovir",
+        "Foscarnet",
+        "Cidofovir",
+        "Disinfection"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          218,
+          219
+        ],
+        "bookPages": "196–197"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "antiviral-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The antihelminthics/antiprotozoals (praziquantel, ivermectin, mebendazole, chloroquine), the non-HIV antivirals (ganciclovir CMV, baloxavir/remdesivir influenza/COVID), disinfection methods, and pregnancy-contraindicated antimicrobials."
+    },
+    {
+      "topicId": "hiv-therapy",
+      "title": "HIV Therapy: NRTIs Through Integrase Inhibitors",
+      "faSubsections": [
+        "HIV therapy",
+        "NRTIs",
+        "NNRTIs",
+        "Protease inhibitors",
+        "Integrase inhibitors",
+        "Entry inhibitors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          220,
+          221
+        ],
+        "bookPages": "198–199"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hiv-drug-lifecycle-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The HIV drug classes mapped to the lifecycle (entry: maraviroc/enfuvirtide; RT: NRTIs/NNRTIs; integrase: bictegravir/dolutegravir; protease: atazanavir/darunavir) with the toxicities (ZDV marrow, abacavir HLA-B*5701) and prophylaxis rules."
+    },
+    {
+      "topicId": "hcv-therapy",
+      "title": "Hepatitis C Therapy: DAAs",
+      "faSubsections": [
+        "Hepatitis C therapy",
+        "NS5A/NS5B inhibitors",
+        "Protease inhibitors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200–200"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "hcv-daa-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Microbiology — Antimicrobials",
+      "status": "pending",
+      "productionRationale": "The direct-acting antiviral classes on the HCV lifecycle (NS5A elbasvir/ledipasvir, NS5B sofosbuvir, NS3/4A glecaprevir/grazoprevir, ribavirin) — the therapy that demoted E41's IFN-α to 'not preferred.'"
+    }
+  ],
+  "notes": "Phase I-C inventory built from the heading census (micro-heading-census.json) + banner structure. Banner ranges (with the source's own printed banner typos, documented): BASIC BACTERIOLOGY 144-152; CLINICAL BACTERIOLOGY 154-170; MYCOLOGY 171-172; PARASITOLOGY 174-180 (source prints 'MICROCIOLOGY' on pp 178-180); VIROLOGY 181-195; SYSTEMS 196-204; ANTIMICROBIALS 205-222 (source prints 'ANTIMICROCIALS'). Continuation pages without banners (153, 159-160, 162, 166, 173, 191-192) are assigned to their owning topics. p143 is the chapter opener. The cataloged p219 disinfection block and pregnancy-contra list are folded into antiparasitic-antiviral; normal-flora p196 is split between prions (viral-vaccines-diagnostics claims 196 for prions; normal-flora claims 196 for flora — page shared, distinct subsections)."
+}
