@@ -1,0 +1,16 @@
+Based on a strict visual inspection of the provided SVG diagram, here is the QA report:
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **DEFECT:** The text "activating ligand /" (in red) overlaps with the right edge of the "TARGET CELL" container box.
+*   **DEFECT:** The red arrow originating from the target cell crosses directly through the text "activating ligand /".
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   **PASS:** All text appears fully contained within its respective containers or canvas boundaries. No words are visibly cut off.
+
+**(C) Arrows/lines crossing through text:**
+*   **DEFECT:** As noted above, the curved red arrow representing the activating signal passes directly over the label "activating ligand /".
+
+**(D) Illegible low-contrast text:**
+*   **PASS:** All text maintains sufficient contrast against its background for legibility. Even the lighter grey sub-text and the red text on white backgrounds are clearly readable.
+
+**Verdict: DEFECTS FOUND**

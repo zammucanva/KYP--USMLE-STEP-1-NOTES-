@@ -408,8 +408,37 @@
         "b-t-division-of-labor"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The effector roster: NK cells as the MHC-I-missing-self killers (kill tumor/virus cells with ↓ MHC I; activate via IL-2/IL-15/IFN; perforin/granzymes), B cells as antibody factories + APCs, T cells as the cytokine/effector arm — the cell-function table the whole chapter builds on."
+      "status": "complete",
+      "productionRationale": "The effector roster: NK cells as the MHC-I-missing-self killers (kill tumor/virus cells with ↓ MHC I; activate via IL-2/IL-15/IFN; perforin/granzymes), B cells as antibody factories + APCs, T cells as the cytokine/effector arm — the cell-function table the whole chapter builds on.",
+      "textbookVisuals": [
+        {
+          "visualId": "nk-b-t-cell-functions-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              121
+            ],
+            "bookPages": "99"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Major functions of B and T cells — two-column function roster",
+          "sourceFigureDescription": "A structured function list: 'B cells' (Humoral immunity; Recognize and present antigen—undergo somatic hypermutation to optimize antigen specificity; Produce antibody—differentiate into plasma cells to secrete specific immunoglobulins; Maintain immunologic memory—memory B cells persist and accelerate future response to antigen) beside 'T cells' (Cell-mediated immunity; CD4+ T cells help B cells make antibodies and produce cytokines to recruit phagocytes and activate other leukocytes; CD8+ T cells directly kill virus-infected and tumor cells via perforin and granzymes (similar to NK cells); Type IV hypersensitivity reaction; Acute and chronic cellular organ rejection).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "nk-b-t-cell-functions",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] — 'Major functions of B and T cells — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "t-cell-development",
@@ -910,7 +939,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": null,
+  "pendingTopicCount": 18,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

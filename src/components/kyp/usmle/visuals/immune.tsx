@@ -674,3 +674,296 @@ export function MhcStructureComparison() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E23 — NK cell kill model: activating signal + missing self + ADCC
+// (source: "Major functions of natural killer cells", pdf 121 / book 99)
+// ---------------------------------------------------------------------------
+
+export function NkKillModel() {
+  const w = 980;
+  const h = 648;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The NK cell kill decision, an original KYP diagram. A target cell (virally infected or tumor, with surface MHC I downregulated) presents a stress ligand — the nonspecific activation signal — and no MHC I inhibitory signal. The NK cell integrates its activating receptor (go) and inhibitory receptor (brake off, because MHC I is missing), then kills with perforin and granzymes, inducing apoptosis. Side rails show activity enhanced by IL-2, IL-12, IFN-alpha, and IFN-beta, and the NK cell's own IFN-gamma output activating macrophages. A bottom strip shows the ADCC route: IgG antibody coats a target cell, CD16 on the NK cell binds the Fc region of the bound IgG, activating the NK cell to kill the antibody-coated target" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The NK kill decision — two inputs, one granule payload (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">missing self → kill</text>
+      </g>
+
+      {/* ===== main scene: target cell (left) vs NK cell (right) ===== */}
+      {/* TARGET CELL panel */}
+      <g>
+        <rect x="36" y="76" width="264" height="296" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="264" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="168" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">TARGET CELL</text>
+        <text x="168" y="126" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-muted-foreground">virally infected or tumor cell</text>
+
+        {/* cell body */}
+        <rect x="64" y="140" width="208" height="150" rx="16" className="fill-secondary/50 stroke-border" strokeWidth="1.3" />
+        {/* stress ligands on surface (right edge, facing NK) */}
+        <circle cx="272" cy="168" r="6" className="fill-emergency stroke-emergency" strokeWidth="1" />
+        <circle cx="272" cy="210" r="6" className="fill-emergency stroke-emergency" strokeWidth="1" />
+        {/* MHC I: one, faded (downregulated) */}
+        <rect x="262" y="250" width="20" height="14" rx="3" className="fill-warning-soft/40 stroke-warning/40" strokeWidth="1" />
+        <line x1="256" y1="244" x2="288" y2="270" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <line x1="288" y1="244" x2="256" y2="270" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+
+        {/* labels */}
+        <text x="252" y="160" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">stress ligand —</text>
+        <text x="252" y="169" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">nonspecific</text>
+        <text x="252" y="178" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">activation signal</text>
+        <text x="252" y="244" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-warning">MHC I ↓ (escape</text>
+        <text x="252" y="253" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-warning">from CD8+ T cells)</text>
+
+        {/* inside text */}
+        <text x="168" y="182" textAnchor="middle" fontSize="7" className="fill-muted-foreground">viral replication,</text>
+        <text x="168" y="192" textAnchor="middle" fontSize="7" className="fill-muted-foreground">tumor stress —</text>
+        <text x="168" y="202" textAnchor="middle" fontSize="7" className="fill-muted-foreground">fewer MHC I on surface</text>
+
+        {/* fate */}
+        <rect x="56" y="304" width="224" height="52" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="168" y="322" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-emergency">→ apoptosis</text>
+        <text x="168" y="334" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">perforin pores + granzymes enter</text>
+        <text x="168" y="344" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">the virally infected / tumor cell</text>
+      </g>
+
+      {/* receptor arrows between cells */}
+      <g>
+        {/* activating receptor arrow: stress ligand → NK (label above, arrow below) */}
+        <text x="336" y="157" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">activating</text>
+        <text x="336" y="166" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">signal ✓</text>
+        <path d="M 280 178 C 310 180, 340 182, 378 183" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+        <path d="M 376 178 L 388 183 L 375 188 Z" className="fill-emergency" />
+        {/* inhibitory receptor: no MHC I → dashed broken */}
+        <path d="M 302 254 L 370 254" stroke="currentColor" className="text-warning" strokeWidth="1.6" strokeDasharray="4 3" />
+        <line x1="330" y1="248" x2="342" y2="260" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <line x1="342" y1="248" x2="330" y2="260" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <text x="336" y="243" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">no ligand</text>
+        <text x="336" y="270" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">brake OFF</text>
+        <text x="336" y="280" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">(missing self)</text>
+      </g>
+
+      {/* NK CELL panel */}
+      <g>
+        <rect x="372" y="76" width="264" height="296" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="372" y="76" width="264" height="34" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="504" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">NK CELL</text>
+        <text x="504" y="126" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-muted-foreground">lymphocyte member of the INNATE immune system</text>
+
+        {/* cell body */}
+        <rect x="400" y="140" width="208" height="150" rx="16" className="fill-brand-soft/30 stroke-border" strokeWidth="1.3" />
+        {/* activating receptor (left edge) */}
+        <path d="M 392 176 L 410 176 L 402 168 L 410 184 L 392 184 Z" className="fill-emergency/70 stroke-emergency" strokeWidth="1" />
+        <text x="424" y="172" fontSize="6.8" fontWeight="700" className="fill-emergency">activating receptor</text>
+        <text x="424" y="181" fontSize="6.8" fontWeight="700" className="fill-emergency">reads the stress signal</text>
+        {/* inhibitory receptor (left edge, blocked) */}
+        <path d="M 392 252 L 410 246 L 410 260 Z" className="fill-warning/60 stroke-warning" strokeWidth="1" />
+        <line x1="392" y1="240" x2="408" y2="266" stroke="currentColor" className="text-warning" strokeWidth="1.4" />
+        <text x="424" y="248" fontSize="6.8" fontWeight="700" className="fill-warning">inhibitory receptor</text>
+        <text x="424" y="257" fontSize="6.8" fontWeight="700" className="fill-warning">binds MHC I if present</text>
+        <text x="424" y="266" fontSize="6.8" fontWeight="700" className="fill-warning">— here: nothing to bind</text>
+
+        {/* granules */}
+        <circle cx="448" cy="212" r="11" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="448" y="216" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">gran.</text>
+        <circle cx="482" cy="216" r="11" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="482" y="220" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">gran.</text>
+        <text x="520" y="208" fontSize="6.6" className="fill-muted-foreground">perforin +</text>
+        <text x="520" y="217" fontSize="6.6" className="fill-muted-foreground">granzymes</text>
+        <text x="520" y="226" fontSize="6.6" className="fill-muted-foreground">(cytotoxic</text>
+        <text x="520" y="235" fontSize="6.6" className="fill-muted-foreground">granules)</text>
+
+        {/* decision strip */}
+        <rect x="392" y="304" width="224" height="52" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="504" y="322" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-foreground">KILL decision: GO + no brake</text>
+        <text x="504" y="334" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">induced by an activation signal</text>
+        <text x="504" y="344" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">and/or absent MHC I inhibitory signal</text>
+      </g>
+
+      {/* right rail: amplifiers + output */}
+      <g>
+        <rect x="660" y="76" width="284" height="140" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="676" y="100" fontSize="8.4" fontWeight="800" className="fill-foreground">Activity enhanced by</text>
+        {[
+          ["IL-2", "growth/activation signal"],
+          ["IL-12", "from APCs — arms NK response"],
+          ["IFN-α, IFN-β", "antival alarm cytokines"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <rect x="676" y={112 + i * 32} width="252" height="26" rx="8" className="fill-brand-soft" />
+            <text x="688" y={129 + i * 32} fontSize="7.4" fontWeight="800" className="fill-brand">↑ {k}</text>
+            <text x="920" y={129 + i * 32} textAnchor="end" fontSize="6.6" className="fill-muted-foreground">{v}</text>
+          </g>
+        ))}
+        <rect x="660" y="232" width="284" height="140" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="676" y="256" fontSize="8.4" fontWeight="800" className="fill-foreground">NK cells produce</text>
+        <rect x="676" y="268" width="252" height="52" rx="8" className="fill-warning-soft" />
+        <text x="688" y="288" fontSize="7.8" fontWeight="800" className="fill-foreground">IFN-γ → macrophage activation</text>
+        <text x="688" y="300" fontSize="6.6" className="fill-muted-foreground">the innate bridge: killed-cell cleanup,</text>
+        <text x="688" y="309" fontSize="6.6" className="fill-muted-foreground">intracellular microbe killing</text>
+        <text x="676" y="340" fontSize="6.8" className="fill-muted-foreground">Same payload as CD8+ T cells —</text>
+        <text x="676" y="350" fontSize="6.8" className="fill-muted-foreground">opposite MHC I logic: CD8+ requires</text>
+        <text x="676" y="360" fontSize="6.8" className="fill-muted-foreground">MHC I; NK kills when it is missing.</text>
+      </g>
+
+      {/* ===== ADCC strip ===== */}
+      <g>
+        <rect x="36" y="392" width="908" height="196" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="416" fontSize="8.6" fontWeight="800" className="fill-foreground">ADCC — the antibody-guided route (antibody-dependent cell-mediated cytotoxicity)</text>
+
+        {/* step 1: antibody-coated target */}
+        <rect x="60" y="432" width="240" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="180" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">1 · IgG coats the target</text>
+        <rect x="100" y="466" width="160" height="66" rx="10" className="fill-secondary/50 stroke-border" strokeWidth="1.1" />
+        {/* IgG Y shapes, Fc up */}
+        <g className="stroke-primary" strokeWidth="1.6" fill="none">
+          <path d="M 130 486 L 130 472 L 122 460 M 130 472 L 138 460" />
+          <path d="M 180 486 L 180 472 L 172 460 M 180 472 L 188 460" />
+          <path d="M 230 486 L 230 472 L 222 460 M 230 472 L 238 460" />
+        </g>
+        <text x="180" y="500" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">antigen-specific IgG bound to</text>
+        <text x="180" y="509" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">surface antigen — Fc regions</text>
+        <text x="180" y="518" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">protrude</text>
+        <text x="180" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">(specificity supplied by antibody)</text>
+
+        {/* arrow 1→2 */}
+        <path d="M 306 498 L 340 498" stroke="currentColor" className="text-border" strokeWidth="2" />
+        <path d="M 340 492 L 352 498 L 340 504 Z" className="fill-border" />
+
+        {/* step 2: CD16 binds Fc */}
+        <rect x="360" y="432" width="252" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="486" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">2 · CD16 binds the Fc region</text>
+        <rect x="396" y="466" width="120" height="66" rx="10" className="fill-brand-soft/30 stroke-border" strokeWidth="1.1" />
+        <text x="456" y="492" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">CD16</text>
+        <text x="456" y="503" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">(Fc receptor, on the</text>
+        <text x="456" y="512" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">NK cell surface)</text>
+        <g>
+          <path d="M 516 486 L 516 472 L 508 460 M 516 472 L 524 460" className="stroke-primary" strokeWidth="1.6" fill="none" />
+          <path d="M 528 484 C 522 490, 514 490, 510 486" stroke="currentColor" className="text-brand" strokeWidth="1.6" fill="none" />
+          <text x="530" y="502" fontSize="6.4" fontWeight="700" className="fill-brand">binds the Fc</text>
+          <text x="530" y="511" fontSize="6.4" fontWeight="700" className="fill-brand">region of the</text>
+          <text x="530" y="520" fontSize="6.4" fontWeight="700" className="fill-brand">bound IgG</text>
+        </g>
+        <text x="486" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Fc binding = an NK activating signal</text>
+
+        {/* arrow 2→3 */}
+        <path d="M 618 498 L 652 498" stroke="currentColor" className="text-border" strokeWidth="2" />
+        <path d="M 652 492 L 664 498 L 652 504 Z" className="fill-border" />
+
+        {/* step 3: kill */}
+        <rect x="672" y="432" width="252" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="798" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">3 · NK kills the coated target</text>
+        <rect x="708" y="466" width="180" height="66" rx="10" className="fill-emergency/10 stroke-emergency" strokeWidth="1.1" />
+        <text x="798" y="488" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">perforin + granzymes</text>
+        <text x="798" y="500" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">same cytotoxic granules as the</text>
+        <text x="798" y="509" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">missing-self pathway → apoptosis</text>
+        <text x="798" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">innate killer + adaptive guidance</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="618" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source sentences (pdf 121 / book 99 — the page carries prose only; no textbook artwork exists). Key: stress ligand + ↓MHC I → activating receptor GO, inhibitory receptor OFF → kill.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E23 — B vs T division of labor: humoral vs cell-mediated functions
+// (source: "Major functions of B and T cells", pdf 121 / book 99)
+// ---------------------------------------------------------------------------
+
+export function BtDivisionOfLabor() {
+  const w = 980;
+  const h = 620;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="B and T cells, the division of labor — an original KYP diagram. Left panel, B cells, humoral immunity: recognize and present antigen with somatic hypermutation optimizing antigen specificity; produce antibody by differentiating into plasma cells that secrete specific immunoglobulins; maintain immunologic memory with persistent memory B cells that accelerate future response to antigen — the RPM mnemonic: Recognize, Produce, Memory. Right panel, T cells, cell-mediated immunity: CD4+ helper T cells help B cells make antibodies and produce cytokines to recruit phagocytes and activate other leukocytes; CD8+ cytotoxic T cells directly kill virus-infected and tumor cells via perforin and granzymes, similar to NK cells; and T cells mediate type IV hypersensitivity reactions and acute and chronic cellular organ rejection. A CD4-help arrow crosses from the T panel to the B panel. Bottom strip: the exam sorter — antibodies in serum means humoral B-cell function; positive delayed-type hypersensitivity skin test and cellular organ rejection mean T-cell function" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">B and T cells — the division of labor (original KYP diagram)</text>
+        <rect x="742" y="24" width="190" height="18" rx="9" className="fill-brand-soft" />
+        <text x="837" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">humoral vs cell-mediated</text>
+      </g>
+
+      {/* ===== B CELL panel ===== */}
+      <g>
+        <rect x="36" y="76" width="444" height="336" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="444" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="258" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">B CELLS — humoral immunity</text>
+        {[
+          ["R — Recognize", "Recognize and present antigen; undergo somatic hypermutation to optimize antigen specificity.", "surface Ig receptor → APC role; mutations tune the binding site"],
+          ["P — Produce", "Produce antibody — differentiate into plasma cells to secrete specific immunoglobulins.", "the antibody factory: IgM, IgG, IgA, IgE, IgD"],
+          ["M — Maintain memory", "Maintain immunologic memory — memory B cells persist and accelerate future response to antigen.", "the reason vaccines work: faster, stronger on re-exposure"],
+        ].map(([k, v, sub], i) => (
+          <g key={k as string}>
+            <text x="54" y={138 + i * 78} fontSize="8.2" fontWeight="800" className="fill-brand">{k}</text>
+            {(v as string).match(/.{1,58}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x="54" y={150 + i * 78 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x="54" y={150 + i * 78 + 22} fontSize="6.4" className="fill-muted-foreground/80">{sub}</text>
+          </g>
+        ))}
+        <rect x="54" y="330" width="408" height="64" rx="9" className="fill-brand-soft" />
+        <text x="258" y="352" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">B cells run on RPM: Recognize → Produce → Remember</text>
+        <text x="258" y="366" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">somatic hypermutation refines the receptor; plasma cells secrete;</text>
+        <text x="258" y="376" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">memory B cells persist and accelerate the future response to antigen</text>
+      </g>
+
+      {/* ===== T CELL panel ===== */}
+      <g>
+        <rect x="500" y="76" width="444" height="336" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="500" y="76" width="444" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="722" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">T CELLS — cell-mediated immunity</text>
+        {[
+          ["CD4+ — the helper", "Help B cells make antibodies; produce cytokines to recruit phagocytes and activate other leukocytes.", "the coordinator: cytokines are its tools"],
+          ["CD8+ — the killer", "Directly kill virus-infected and tumor cells via perforin and granzymes (similar to NK cells).", "MHC I-restricted — requires antigen display"],
+          ["T-cell contexts", "Type IV hypersensitivity reaction. Acute and chronic cellular organ rejection.", "both are cell-mediated (T-cell) phenomena"],
+        ].map(([k, v, sub], i) => (
+          <g key={k as string}>
+            <text x="518" y={138 + i * 78} fontSize="8.2" fontWeight="800" className="fill-warning">{k}</text>
+            {(v as string).match(/.{1,58}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x="518" y={150 + i * 78 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x="518" y={150 + i * 78 + 22} fontSize="6.4" className="fill-muted-foreground/80">{sub}</text>
+          </g>
+        ))}
+        <rect x="518" y="330" width="408" height="64" rx="9" className="fill-warning-soft" />
+        <text x="722" y="352" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CD4+ helps (antibodies, phagocyte recruitment) · CD8+ kills (perforin/granzymes)</text>
+        <text x="722" y="366" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">the kill payload matches NK cells — but CD8+ requires MHC I presentation,</text>
+        <text x="722" y="376" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">while NK cells kill preferentially when MHC I is absent (missing self)</text>
+      </g>
+
+      {/* CD4 → B help arrow (elbow through the empty inter-row band, y 174-206) */}
+      <g>
+        <path d="M 640 177 L 640 190 L 492 190" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" strokeDasharray="6 3" />
+        <path d="M 494 185 L 482 190 L 494 195 Z" className="fill-warning" />
+        <text x="560" y="182" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">CD4+ helps B cells make antibodies</text>
+      </g>
+
+      {/* ===== exam sorter strip ===== */}
+      <g>
+        <rect x="36" y="428" width="908" height="140" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="452" fontSize="8.6" fontWeight="800" className="fill-foreground">The exam sorter — which arm answered the question?</text>
+        {[
+          [60, "Antibodies in serum · opsonization of encapsulated bacteria · vaccine antibody response", "B cells (humoral)", "fill-brand-soft", "fill-brand"],
+          [360, "Positive PPD / contact dermatitis (type IV) · acute or chronic cellular organ rejection", "T cells (cell-mediated)", "fill-warning-soft", "fill-foreground"],
+          [660, "Perforin/granzyme killing of virus-infected or tumor cells · MHC I-restricted cytotoxicity", "CD8+ T cells", "fill-emergency/10", "fill-emergency"],
+        ].map(([x, desc, tag, bg, fg]) => (
+          <g key={desc as string}>
+            <rect x={x as number} y="466" width="284" height="86" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+            <text x={(x as number) + 14} y="486" fontSize="7" fontWeight="700" className="fill-muted-foreground">{(desc as string).match(/.{1,44}(\s|$)/g)!.slice(0, 2).map((l, j) => (
+              <tspan key={j} x={(x as number) + 14} dy={j === 0 ? 0 : 10}>{l.trim()}</tspan>
+            ))}</text>
+            <rect x={(x as number) + 14} y="514" width="150" height="24" rx="8" className={bg as string} />
+            <text x={(x as number) + 89} y="530" textAnchor="middle" fontSize="7.2" fontWeight="800" className={fg as string}>{tag}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="596" fontSize="7.2" className="fill-muted-foreground">Original KYP synthesis diagram (pdf 121 / book 99 — function roster presented as a list in the source; no textbook artwork exists). The verbatim function table is the note's table block.</text>
+    </svg>
+  );
+}

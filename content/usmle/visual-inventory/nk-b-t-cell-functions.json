@@ -1,0 +1,43 @@
+{
+  "topicId": "nk-b-t-cell-functions",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "nk-b-t-cell-functions-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          121
+        ],
+        "bookPages": "99"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Major functions of B and T cells — two-column function roster",
+      "sourceFigureDescription": "A structured function list: 'B cells' (Humoral immunity; Recognize and present antigen—undergo somatic hypermutation to optimize antigen specificity; Produce antibody—differentiate into plasma cells to secrete specific immunoglobulins; Maintain immunologic memory—memory B cells persist and accelerate future response to antigen) beside 'T cells' (Cell-mediated immunity; CD4+ T cells help B cells make antibodies and produce cytokines to recruit phagocytes and activate other leukocytes; CD8+ T cells directly kill virus-infected and tumor cells via perforin and granzymes (similar to NK cells); Type IV hypersensitivity reaction; Acute and chronic cellular organ rejection).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Cellular Components",
+      "topicId": "nk-b-t-cell-functions",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] — 'Major functions of B and T cells — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "nk-b-t-cell-functions",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "pdfimages census: ZERO rasters on pdf 121 — the NK subsection is prose and is fully covered by the two original registry visuals (nk-kill-model: kill decision + amplifiers + ADCC; b-t-division-of-labor: the B/T roster synthesis); the B/T function roster is the page's only structured visual element and is reproduced verbatim as a note-block. No source artwork exists to redraw; no double-claiming of E22's HLA table on the same printed page."
+}

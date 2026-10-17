@@ -1,0 +1,15 @@
+**Paint QA Report: B and T Cells Diagram**
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **DEFECT:** The label "helps B cells make antibodies" (located above the central arrow) **overlaps/collides** with the "CD4+ — the helper" header text in the T CELLS section.
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   PASS
+
+**(C) Arrows/lines crossing through text:**
+*   **DEFECT:** The brown dashed arrow pointing from the T CELLS section to the B CELLS section **crosses directly through** the text "helps B cells make antibodies".
+
+**(D) Illegible low-contrast text:**
+*   PASS
+
+Verdict: DEFECTS FOUND

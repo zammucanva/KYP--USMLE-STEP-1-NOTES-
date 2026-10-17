@@ -1,0 +1,12 @@
+**Paint QA Report: B cells vs T cells (Dark Mode)**
+
+*   **(A) Overlapping labels / text-on-text collisions:** **PASS**
+    *   All text blocks are clearly separated. The "CD4+ helps B cells make antibodies" label is positioned in the open space between the two main columns without overlapping any other text.
+*   **(B) Text clipped:** **PASS**
+    *   No text is cut off at the edges of containers or the image boundary.
+*   **(C) Arrows/lines crossing through text:** **PASS**
+    *   The orange arrow pointing from the T-cell section to the B-cell section is placed entirely in the gutter between the two columns and does not intersect with any text elements.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   The color palette uses high-contrast combinations (bright cyan/orange/white text against dark backgrounds) that are fully legible in this dark mode theme.
+
+Verdict: CLEAN

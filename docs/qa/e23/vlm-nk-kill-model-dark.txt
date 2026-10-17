@@ -1,0 +1,15 @@
+Based on a strict visual inspection of the provided SVG diagram:
+
+**(A) Overlapping labels or text-on-text collisions:** PASS
+- All text elements are clearly separated. No labels overlap with each other or with other graphical elements.
+
+**(B) Text clipped at box/canvas edges or truncated words:** PASS
+- All text is fully contained within its respective bounding boxes and the overall canvas. No words are cut off.
+
+**(C) Arrows/lines crossing through text:** PASS
+- The "activating signal" arrow passes cleanly between text blocks without intersecting any characters. The "no ligand / brake OFF" dashed line and 'X' mark are positioned in open space.
+
+**(D) Illegible low-contrast text:** PASS
+- The color palette (white, cyan, orange, and red text on dark backgrounds) provides high contrast throughout the diagram. All text is legible.
+
+Verdict: CLEAN

@@ -1,0 +1,6 @@
+(A) Overlapping labels or text-on-text collisions: PASS
+(B) Text clipped at box/canvas edges or truncated words: PASS
+(C) Arrows/lines crossing through text: The dashed arrow for "CD4+ helps B cells make antibodies" crosses over the text of the label itself and the sub-label "CD4+ — the helper".
+(D) Illegible low-contrast text: PASS
+
+Verdict: DEFECTS FOUND
