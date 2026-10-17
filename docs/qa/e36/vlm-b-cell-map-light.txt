@@ -1,0 +1,17 @@
+**QA Report: B-cell Immunodeficiency Map**
+
+**(A) Overlapping labels or text-on-text collisions:** PASS
+- All text elements within the three disease cards and the maturation ladder are properly spaced. No instances of text overlapping other text.
+
+**(B) Text clipped at box/canvas edges or truncated words:** PASS
+- All text is fully contained within its respective container boxes.
+- No words are cut off at the left, right, top, or bottom edges of any section or the overall canvas.
+
+**(C) Arrows/lines crossing through text:** PASS
+- The horizontal connecting lines in the "Maturation Ladder" are positioned clearly below the text labels ("Stem cell", "Mature B cell", etc.) and do not intersect with any text.
+
+**(D) Illegible low-contrast text:** PASS
+- The diagram uses a light-mode palette with high contrast.
+- Headers (red/orange/teal) and body text (dark grey/black) are highly legible against the white and light-colored backgrounds. Subtle text (like footnotes) remains readable.
+
+Verdict: CLEAN

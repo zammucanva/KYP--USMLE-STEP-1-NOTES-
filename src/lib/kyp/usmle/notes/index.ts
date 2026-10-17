@@ -45,6 +45,7 @@ import { respiratoryBurstIfn } from "./respiratory-burst-ifn";
 import { cdMarkers } from "./cd-markers";
 import { activePassiveImmunity } from "./active-passive-immunity";
 import { autoantibodies } from "./autoantibodies";
+import { bCellImmunodeficiencies } from "./b-cell-immunodeficiencies";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -173,6 +174,7 @@ export const usmleNotes: KypUsMLENote[] = [
   cdMarkers,
   activePassiveImmunity,
   autoantibodies,
+  bCellImmunodeficiencies,
   cranialNerves,
   diabetesMellitus,
 ];

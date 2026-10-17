@@ -2764,3 +2764,110 @@ export function VaccineTypeSpectrum() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E36 — B-cell immunodeficiencies: Bruton, IgA deficiency, CVID
+// (source: "Immunodeficiencies / B-cell disorders", pdf 136 / book 114)
+// ---------------------------------------------------------------------------
+
+export function BCellDeficiencyMap() {
+  const w = 980;
+  const h = 640;
+  const cards = [
+    {
+      name: "X-LINKED (BRUTON) AGAMMAGLOBULINEMIA", tag: "X-linked recessive (↑ in Boys)",
+      color: "fill-emergency/10", stroke: "stroke-emergency",
+      defect: ["Defect in BTK, a tyrosine kinase gene", "→ NO B-cell maturation"],
+      pres: ["Recurrent bacterial and enteroviral", "infections after 6 months", "(↓ maternal IgG)"],
+      find: ["Absent B cells in peripheral blood;", "↓ Ig of ALL classes; absent/scanty lymph", "nodes and tonsils (1° follicles and", "germinal centers absent) → live", "vaccines contraindicated"],
+      stage: "EARLY arrest: pre-B cell cannot mature — the lineage never leaves the marrow station.",
+    },
+    {
+      name: "SELECTIVE IgA DEFICIENCY", tag: "Most common 1° immunodeficiency",
+      color: "fill-warning-soft", stroke: "stroke-warning",
+      defect: ["May be familial or sporadic; may", "arise 2° to viral infections or", "medications (a switch-specific failure)"],
+      pres: ["Majority asymptomatic; airway and", "GI infections; autoimmune disease", "(eg, celiac); atopy; anaphylaxis", "to IgA in blood products"],
+      find: ["↓ IgA with NORMAL IgG and IgM;", "↑ susceptibility to giardiasis;", "false-negative celiac test and", "false-positive serum pregnancy test"],
+      stage: "CLASS-SPECIFIC: one isotype missing — the B-cell and plasma-cell lines are intact.",
+    },
+    {
+      name: "COMMON VARIABLE IMMUNODEFICIENCY", tag: "Diagnosed usually after puberty",
+      color: "fill-brand-soft", stroke: "stroke-brand",
+      defect: ["Defect in B-CELL DIFFERENTIATION;", "cause unknown in most cases"],
+      pres: ["May present in childhood but usually", "diagnosed after puberty; ↑ risk of", "autoimmune disease, bronchiectasis,", "lymphoma, sinopulmonary infections"],
+      find: ["↓ plasma cells, ↓ immunoglobulins", "(B cells PRESENT — the terminal", "differentiation step fails)"],
+      stage: "LATE arrest: B cells exist but cannot finish becoming plasma cells.",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="B-cell immunodeficiencies, an original KYP map of the three B-cell disorders by maturation stage. X-linked Bruton agammaglobulinemia: defect in BTK, a tyrosine kinase gene, causing no B-cell maturation; X-linked recessive, increased in boys; recurrent bacterial and enteroviral infections after 6 months as maternal IgG wanes; absent B cells in peripheral blood with low immunoglobulins of all classes; absent or scanty lymph nodes and tonsils with absent primary follicles and germinal centers; live vaccines contraindicated — the EARLY arrest. Selective IgA deficiency: the most common primary immunodeficiency, familial or sporadic or secondary to viral infections or medications; majority asymptomatic, with airway and GI infections, autoimmune disease like celiac, atopy, and anaphylaxis to IgA in blood products; low IgA with normal IgG and IgM, increased susceptibility to giardiasis, false-negative celiac testing and false-positive serum pregnancy tests — the CLASS-SPECIFIC failure. Common variable immunodeficiency: defect in B-cell differentiation with unknown cause in most cases; may present in childhood but usually diagnosed after puberty; increased risk of autoimmune disease, bronchiectasis, lymphoma, and sinopulmonary infections; low plasma cells and low immunoglobulins with B cells present — the LATE arrest. Bottom strip: the maturation-stage logic" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">B-cell immunodeficiencies — three diseases, three maturation stages (original KYP diagram)</text>
+        <rect x="772" y="24" width="160" height="18" rx="9" className="fill-brand-soft" />
+        <text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">where the lineage stops</text>
+      </g>
+
+      {/* three disease cards */}
+      {cards.map((c, i) => {
+        const x = 36 + i * 308;
+        return (
+          <g key={c.name}>
+            <rect x={x} y="76" width="292" height="360" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+            <rect x={x} y="76" width="292" height="44" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+            <text x={x + 146} y="93" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-foreground">{c.name.split(" ").slice(0, 3).join(" ")}</text>
+            <text x={x + 146} y="104" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{c.name.split(" ").slice(3).join(" ")}</text>
+            <rect x={x + 10} y="128" width="272" height="16" rx="6" className="fill-secondary" />
+            <text x={x + 146} y="139" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">{c.tag}</text>
+            <text x={x + 14} y="162" fontSize="6.6" fontWeight="800" className="fill-emergency">DEFECT</text>
+            {c.defect.map((line, j) => (
+              <text key={j} x={x + 14} y={172 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 14} y={210} fontSize="6.6" fontWeight="800" className="fill-warning">PRESENTATION</text>
+            {c.pres.map((line, j) => (
+              <text key={j} x={x + 14} y={220 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 14} y={262} fontSize="6.6" fontWeight="800" className="fill-brand">FINDINGS</text>
+            {c.find.map((line, j) => (
+              <text key={j} x={x + 14} y={272 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <rect x={x + 10} y="330" width="272" height="94" rx="9" className="fill-secondary" />
+            <text x={x + 24} y="350" fontSize="6.6" fontWeight="800" className="fill-foreground">STAGE LOGIC</text>
+            {c.stage.match(/.{1,42}(\s|$)/g)!.slice(0, 5).map((line, j) => (
+              <text key={j} x={x + 24} y={363 + j * 11} fontSize="6.2" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* bottom strip: the maturation-stage ladder */}
+      <g>
+        <rect x="36" y="452" width="908" height="134" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="476" fontSize="8.2" fontWeight="800" className="fill-foreground">THE MATURATION LADDER — one lineage, three cut points</text>
+        {/* stations */}
+        {[
+          [70, "Stem cell", "→ pre-B", "(BTK needed)"],
+          [270, "Mature B cell", "surface IgM/IgD", "(Bruton: arrest HERE —", "no B cells at all)"],
+          [500, "Class switching", "IgA / IgG / IgE", "(IgA deficiency:", "the IgA switch fails)"],
+          [740, "Plasma cell", "antibody factory", "(CVID: arrest HERE —", "B cells present, ↓ plasma cells)"],
+        ].map(([x, t, l1, l2, l3], i, arr) => (
+          <g key={t as string}>
+            <rect x={x as number} y="492" width="180" height="72" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 90} y="510" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">{t}</text>
+            <text x={(x as number) + 90} y="524" textAnchor="middle" fontSize="6" className="fill-muted-foreground">{l1}</text>
+            <text x={(x as number) + 90} y="536" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">{l2}</text>
+            <text x={(x as number) + 90} y="548" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">{l3}</text>
+            {i < arr.length - 1 && (
+              <path d={`M ${(x as number) + 182} 528 L ${(x as number) + 206} 528`} stroke="currentColor" className="text-border" strokeWidth="1.8" />
+            )}
+          </g>
+        ))}
+        <text x="54" y="580" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Bruton cuts early (no B cells — absent nodes and tonsils); IgA deficiency cuts one class switch; CVID cuts the last step (B cells present, plasma cells and immunoglobulins low).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="614" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 136 / book 114 — the printed immunodeficiency table is pure vector; verbatim text in the note's table block). The T-cell, combined, and phagocyte sections of the same table belong to the effector-T-cells/phagocyte note (E37).</text>
+    </svg>
+  );
+}

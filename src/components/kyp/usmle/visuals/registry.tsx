@@ -122,6 +122,7 @@ import {
   RespiratoryBurstEnzymes,
   CdMarkerMap,
   VaccineTypeSpectrum,
+  BCellDeficiencyMap,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -279,4 +280,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "respiratory-burst-enzymes": RespiratoryBurstEnzymes,
   "cd-marker-map": CdMarkerMap,
   "vaccine-type-spectrum": VaccineTypeSpectrum,
+  "b-cell-deficiency-map": BCellDeficiencyMap,
 };

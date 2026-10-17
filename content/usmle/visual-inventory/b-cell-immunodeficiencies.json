@@ -1,0 +1,43 @@
+{
+  "topicId": "b-cell-immunodeficiencies",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "b-cell-immunodeficiencies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Immunodeficiencies — the B-cell disorders rows",
+      "sourceFigureDescription": "Rows of the printed immunodeficiency table (DISEASE / DEFECT / PRESENTATION / FINDINGS) for X-linked (Bruton) agammaglobulinemia, Selective IgA deficiency, and Common variable immunodeficiency.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "b-cell-immunodeficiencies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'B-cell disorders — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "b-cell-immunodeficiencies",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero content rasters). The three B-cell rows are reproduced verbatim as the note's table block; the registry visual (b-cell-deficiency-map) is an ADDITIONAL original KYP teaching diagram with the three-disease cards and the maturation ladder. The T-cell and phagocyte rows of the same printed table belong to E37."
+}

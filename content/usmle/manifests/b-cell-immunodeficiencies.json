@@ -1,0 +1,247 @@
+{
+  "topicId": "b-cell-immunodeficiencies",
+  "title": "B-Cell Immunodeficiencies: Bruton, IgA Deficiency & CVID",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      136
+    ],
+    "bookPages": "114"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Immunodeficiencies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "DISEASE\nDEFECT\nPRESENTATION\nFINDINGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Block heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "B-cell disorders",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bruton — row label + defect + presentation (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Defect in BTK, a tyrosine\nRecurrent bacterial and\nX-linked (Bruton)\nenteroviral infections after 6\nagammaglobulinemia kinase gene → no B-cell\nmaturation; X-linked recessive\nmonths (↓ maternal IgG)\n(↑ in Boys)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bruton — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Absent B cells in peripheral\nblood, ↓ Ig of all classes.\nAbsent/scanty lymph nodes\nand tonsils (1° follicles\nand germinal centers\nabsent) → live vaccines\ncontraindicated",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA deficiency — disease row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Selective IgA\ndeficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA deficiency — defect + most-common + presentation (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "May be familial or sporadic\nMajority Asymptomatic\nMost common 1°\nCan see Airway and GI\nimmunodeficiency\ninfections, Autoimmune\nMay also arise 2° to certain\ndisease (eg, celiac disease),\nviral infections or medications\nAtopy, Anaphylaxis to IgA in\nblood products",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA deficiency — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↓ IgA with normal IgG, IgM\nlevels\n↑ susceptibility to giardiasis\nCan cause false-negative celiac\ndisease test and false-positive\nserum pregnancy test",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CVID — disease row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Common variable\nimmunodeficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CVID — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Defect in B-cell differentiation. May present in childhood\nCause unknown in most cases\nbut usually diagnosed after\npuberty",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CVID — risks",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↑ risk of autoimmune disease,\nbronchiectasis, lymphoma,\nsinopulmonary infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CVID — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↓ plasma cells,\n↓ immunoglobulins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "E37 boundary marker (T-cell disorders heading on same page — owned by E37)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "T-cell disorders",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "b-cell-deficiency-map"
+  ],
+  "mechanismIds": [
+    "b-cell-maturation-stage-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table rows; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "maturation-stage-model",
+      "summary": "The three-diseases-as-three-stations model (BTK = early cut with absent B cells; IgA deficiency = class-specific switch cut with intact lineage; CVID = late differentiation cut with B cells present), plus the age/B-cell-count/Ig-pattern diagnostic triad and the management bridges (IVIG replacement, washed blood products, IgG-based celiac testing, CVID surveillance).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists three diseases without the assembly-line frame or the management logic; these integrations are KYP's design. Management specifics (IVIG, washed products, surveillance programs) are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages on p136 returns ZERO content images — the immunodeficiency table is pure vector. One original KYP registry visual (b-cell-deficiency-map: three disease cards + four-station maturation ladder). Quoting note (E34 lesson): the p136 table columns INTERLEAVE in the text layer — all quotes follow the physical line order. Boundary: the T-cell disorders heading and rows lower on p136, plus p137, are owned by E37 t-cell-phagocyte-immunodeficiencies (the heading quote is pinned here as boundary evidence only). No FA mnemonic phrases printed in this block (the IgA row's capitalized presentation words are the source's own emphasis, quoted verbatim).",
+  "updatedAt": "2026-10-17"
+}
