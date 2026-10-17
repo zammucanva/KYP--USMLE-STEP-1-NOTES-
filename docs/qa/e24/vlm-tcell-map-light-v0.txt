@@ -1,0 +1,6 @@
+(A) Overlapping labels or text-on-text collisions: PASS
+(B) Text clipped at box/canvas edges or truncated words: **DEFECT** (Top-left header text "THE THYMIC SCHOOL — selection builds a..." is truncated at the right edge of the "BONE MARROW" container)
+(C) Arrows/lines crossing through text: PASS
+(D) Illegible low-contrast text: PASS
+
+Verdict: DEFECTS FOUND

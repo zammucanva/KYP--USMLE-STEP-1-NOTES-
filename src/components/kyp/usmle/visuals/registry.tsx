@@ -110,6 +110,7 @@ import {
   MhcStructureComparison,
   NkKillModel,
   BtDivisionOfLabor,
+  TCellSelectionMap,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -255,4 +256,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "mhc-structure-comparison": MhcStructureComparison,
   "nk-kill-model": NkKillModel,
   "b-t-division-of-labor": BtDivisionOfLabor,
+  "t-cell-selection-map": TCellSelectionMap,
 };

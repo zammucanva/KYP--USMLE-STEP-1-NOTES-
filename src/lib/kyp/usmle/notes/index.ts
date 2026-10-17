@@ -33,6 +33,7 @@ import { innateVsAdaptiveImmunity } from "./innate-vs-adaptive-immunity";
 import { mhcComplex } from "./mhc-complex";
 import { hlaSubtypes } from "./hla-subtypes";
 import { nkBTCellFunctions } from "./nk-b-t-cell-functions";
+import { tCellDevelopment } from "./t-cell-development";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -149,6 +150,7 @@ export const usmleNotes: KypUsMLENote[] = [
   mhcComplex,
   hlaSubtypes,
   nkBTCellFunctions,
+  tCellDevelopment,
   cranialNerves,
   diabetesMellitus,
 ];

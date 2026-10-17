@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T18:20:38Z",
+  "generatedAt": "2026-10-17T18:35:55Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 69,
+    "topicsProduced": 70,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 15,
+      "pilot-complete": 16,
       "chapter-complete": 54,
       "blocked": 0,
       "failed": 0
@@ -296,8 +296,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 24,
-      "topicsProduced": 6,
-      "topicsRemaining": 18,
+      "topicsProduced": 7,
+      "topicsRemaining": 17,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1257,6 +1257,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "t-cell-development",
+      "title": "T-Cell Development: Thymic Selection & Subset Lineages",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Cellular Components",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 122 (book 100)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-17"
     },
     {
       "topicId": "tca-cycle-pdh",

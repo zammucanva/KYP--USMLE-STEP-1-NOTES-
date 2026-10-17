@@ -462,8 +462,63 @@
         "t-cell-selection-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The thymic school: positive selection in cortex (MHC recognition → survival), negative selection in medulla (high self-affinity → apoptosis or Treg), AIRE deficiency → autoimmune polyendocrine syndrome, then the helper lineage table (Th1/Th2/Th17/Treg cytokines and functions)."
+      "status": "complete",
+      "productionRationale": "The thymic school: positive selection in cortex (MHC recognition → survival), negative selection in medulla (high self-affinity → apoptosis or Treg), AIRE deficiency → autoimmune polyendocrine syndrome, then the helper lineage table (Th1/Th2/Th17/Treg cytokines and functions).",
+      "textbookVisuals": [
+        {
+          "visualId": "t-cell-development-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              122
+            ],
+            "bookPages": "100"
+          },
+          "chapterId": "immunology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "Differentiation of T cells — the four-column pathway diagram",
+          "sourceFigureDescription": "Four vertical columns (Bone marrow → Thymus → Lymph node → Peripheral blood): a T-cell precursor leaves the bone marrow, enters the thymus (an anatomical lobed illustration with Cortex and Medulla leader labels) as a double-positive CD4+ CD8+ thymocyte, passes positive selection (+ icon, cortex) and negative selection (− icon, medulla), exits as CD8+ Cytotoxic (upper path) or CD4+ Helper (lower path); the Helper cell fans into Th1 / Th2 / Th17 / Treg circles, each arrow labeled with promoting (+) and inhibiting (−) cytokines (Th1: +IFN-γ, IL-12 / −IL-4, IL-10; Th2: +IL-2, IL-4 / −IFN-γ; Th17: +TGF-β, IL-1, IL-6 / −IFN-γ, IL-4; Treg: +TGF-β, IL-2 / −IL-6), feeding the Secretes/Function table at right.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "t-cell-development",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "t-cell-selection-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "t-cell-selection-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "t-cell-development-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              122
+            ],
+            "bookPages": "100"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Secretes / Function — helper subset table",
+          "sourceFigureDescription": "Two-column table (Secretes / Function) with four rows: Th1 (IFN-γ, IL-2 / Activate macrophages and cytotoxic T cells), Th2 (IL-4, IL-5, IL-6, IL-10, IL-13 / Activate eosinophils, ↑IgE), Th17 (IL-17, IL-21, IL-22 / Induce neutrophilic infiltration), Treg (TGF-β, IL-10, IL-35 / Prevent autoimmunity (maintain tolerance)).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "t-cell-development",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Helper subsets — Secretes / Function (verbatim)' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "cytotoxic-regulatory-t-cells",
@@ -939,7 +994,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 18,
+  "pendingTopicCount": 17,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

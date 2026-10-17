@@ -1,0 +1,560 @@
+{
+  "topicId": "t-cell-development",
+  "title": "T-Cell Development: Thymic Selection & Subset Lineages",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Cellular Components",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      122
+    ],
+    "bookPages": "100"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Differentiation of T cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thymus zone label — cortex",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Cortex",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thymus zone label — medulla",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Medulla",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Origin column label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Bone marrow",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Origin cell label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "T-cell\nprecursor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transit column label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Peripheral blood",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transit column label 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Lymph node",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thymus column label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Thymus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Double-positive stage marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "CD4+\nCD8+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cytotoxic lineage marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "CD8+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cytotoxic label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Cytotoxic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Helper label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Helper",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th1 promoters (+)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IFN-γ, IL-12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th1 inhibitors (−)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IL-4, IL-10",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th2 promoters (+)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IL-2, IL-4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th2 inhibitor (−)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IFN-γ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th17 promoters (+)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "TGF-β, IL-1, IL-6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th17 inhibitors (−)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IFN-γ, IL-4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treg promoters (+)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "TGF-β, IL-2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treg inhibitor (−)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IL-6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Secretes\nFunction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th1 secretes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IFN-γ, IL-2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th1 function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Activate macrophages\nand cytotoxic T cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th2 secretes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IL-4, IL-5, IL-6,\nIL-10, IL-13",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th2 function (printed with ↑IgE — glyph dropped in text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Activate eosinophils,\nIgE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th17 secretes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "IL-17, IL-21,\nIL-22",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Th17 function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Induce neutrophilic\ninfiltration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treg secretes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "TGF-β, IL-10,\nIL-35",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treg function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Prevent autoimmunity\n(maintain tolerance)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Positive selection — heading + location",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Positive selection\nThymic cortex.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Positive selection — keep criterion",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Keeps T cells that recognize self-peptides to allow for cooperation in immune\nresponses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Positive selection — survival signal",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Double positive thymocytes expressing TCRs that recognize self-peptide MHC\ncomplexes receive a survival signal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Negative selection — heading + location",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Negative selection\nThymic medulla.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Negative selection — removal criterion",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Removes T cells that bind too strongly to self-peptides.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Negative selection — apoptosis or Treg fate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Thymocytes expressing\nTCRs with high affinity for self antigens undergo apoptosis or become regulatory T cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AIRE drives negative selection + syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "The\nautoimmune regulator (AIRE) protein drives negative selection, and deficiency leads to autoimmune\npolyendocrine syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Syndrome components",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "quote": "Chronic mucocutaneous candidiasis, Hypoparathyroidism, Adrenal\ninsufficiency, Recurrent Candida infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "t-cell-selection-map"
+  ],
+  "mechanismIds": [
+    "thymic-selection-gauntlet",
+    "helper-lineage-switchboard"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the diagram, selection prose, and subset table; the USMLE question attack structure (stem patterns, traps, look-alike pivots, mini-case with distractors) is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "two-schools-model",
+      "summary": "Organizing the page as two schools: the THYMIC SCHOOL (cortex keeps self-MHC recognizers; medulla culls self-reactive clones — central tolerance) and the LINEAGE SCHOOL (the Th0 cytokine switchboard with cross-inhibition), joined by the single-positive output. Includes the layer-map of tolerance failures (AIRE = display fails in the medulla vs FOXP3 = the peripheral Treg brake fails).",
+      "origin": "outside-first-aid",
+      "rationale": "The source presents the diagram and prose without this organizing frame or the AIRE-vs-FOXP3 layer comparison; the two-schools model and the IL-6 Th17/Treg toggle framing are KYP's integrative design.",
+      "location": "core.keyIdea + both mechanisms + pivot 1 + mnemonics 1 and 3 + visual structure"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + 200-DPI VLM, this batch): pdf 122 carries 4 raster objects — the 541x255 separation-space image is the thymus anatomical illustration (top of the Thymus column); a 303x303 indexed circle (cell icon) + smask; a 1x1 artifact. The Differentiation diagram is otherwise vector/text: four columns (Bone marrow / Thymus / Lymph node / Peripheral blood), selection labels, +/- cytokine regulators per lineage, and the Secretes/Function table. The thymus raster is COPYRIGHTED artwork — conveyed in KYP as an ORIGINAL schematic (t-cell-selection-map), never reproduced. Printed-glyph finding (documented): the Th2 function cell prints 'Activate eosinophils, ↑IgE' — the ↑ glyph (symbol-font instance) is dropped by pdftotext, so the machine-verifiable quote is the glyph-free text-layer form; the note's user-facing table and visual show the printed form with ↑ (VLM-verified at 400% zoom). Boundary: Macrophage-lymphocyte interaction / Cytotoxic T cells / Regulatory T cells on the same printed page are owned by E25 cytotoxic-regulatory-t-cells and are not re-claimed here. The source's printed acronym for the AIRE syndrome (CHAR) is NOT reproduced as a mnemonic; KYP-authored mnemonics are used instead ('The cortex keeps; the medulla culls', 'No AIRE, no self-display...', 'IL-6 is the Th17/Treg toggle').",
+  "updatedAt": "2026-10-17"
+}

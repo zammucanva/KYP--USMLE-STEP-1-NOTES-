@@ -1,0 +1,66 @@
+{
+  "topicId": "t-cell-development",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "t-cell-development-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "chapterId": "immunology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Differentiation of T cells — the four-column pathway diagram",
+      "sourceFigureDescription": "Four vertical columns (Bone marrow → Thymus → Lymph node → Peripheral blood): a T-cell precursor leaves the bone marrow, enters the thymus (an anatomical lobed illustration with Cortex and Medulla leader labels) as a double-positive CD4+ CD8+ thymocyte, passes positive selection (+ icon, cortex) and negative selection (− icon, medulla), exits as CD8+ Cytotoxic (upper path) or CD4+ Helper (lower path); the Helper cell fans into Th1 / Th2 / Th17 / Treg circles, each arrow labeled with promoting (+) and inhibiting (−) cytokines (Th1: +IFN-γ, IL-12 / −IL-4, IL-10; Th2: +IL-2, IL-4 / −IFN-γ; Th17: +TGF-β, IL-1, IL-6 / −IFN-γ, IL-4; Treg: +TGF-β, IL-2 / −IL-6), feeding the Secretes/Function table at right.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Cellular Components",
+      "topicId": "t-cell-development",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "t-cell-selection-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "t-cell-development-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Secretes / Function — helper subset table",
+      "sourceFigureDescription": "Two-column table (Secretes / Function) with four rows: Th1 (IFN-γ, IL-2 / Activate macrophages and cytotoxic T cells), Th2 (IL-4, IL-5, IL-6, IL-10, IL-13 / Activate eosinophils, ↑IgE), Th17 (IL-17, IL-21, IL-22 / Induce neutrophilic infiltration), Treg (TGF-β, IL-10, IL-35 / Prevent autoimmunity (maintain tolerance)).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Cellular Components",
+      "topicId": "t-cell-development",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Helper subsets — Secretes / Function (verbatim)' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "t-cell-development",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the Differentiation diagram's rasters (thymus illustration 541x255 sep; cell-icon circle 303x303 + smask; 1x1 artifact) are COPYRIGHTED — the diagram is conveyed as ONE original KYP schematic (t-cell-selection-map) covering all four columns, the selection gates, and the +/- regulator labels. The Secretes/Function table is reproduced verbatim as the note's table block (printed Th2 cell shows ↑IgE; text layer drops the glyph — documented). No E25 content re-claimed."
+}

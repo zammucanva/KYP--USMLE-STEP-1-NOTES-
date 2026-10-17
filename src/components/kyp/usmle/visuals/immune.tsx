@@ -967,3 +967,151 @@ export function BtDivisionOfLabor() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E24 — T-cell development: thymic selection + helper lineage switchboard
+// (source: "Differentiation of T cells" diagram + selection text, pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function TCellSelectionMap() {
+  const w = 980;
+  const h = 590;
+  const cards = [
+    { x: 196, name: "Th1", plus: "IFN-γ, IL-12", minus: "IL-4, IL-10", fn: ["activates macrophages", "+ cytotoxic T cells"] },
+    { x: 378, name: "Th2", plus: "IL-2, IL-4", minus: "IFN-γ", fn: ["activates eosinophils,", "↑IgE"] },
+    { x: 560, name: "Th17", plus: "TGF-β, IL-1, IL-6", minus: "IFN-γ, IL-4", fn: ["induce neutrophilic", "infiltration"] },
+    { x: 742, name: "Treg", plus: "TGF-β, IL-2", minus: "IL-6", fn: ["prevent autoimmunity", "(maintain tolerance)"] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="T-cell development, an original KYP redraw of the source's differentiation diagram. Top row, the thymic school: a T-cell precursor leaves the bone marrow, enters the thymus as a double-positive CD4+ CD8+ thymocyte; positive selection in the cortex keeps T cells that recognize self-peptide MHC complexes (survival signal); negative selection in the medulla removes T cells that bind self too strongly (apoptosis or become regulatory T cells), driven by the AIRE protein. Output: single-positive CD8+ cytotoxic and CD4+ helper T cells to the peripheral blood and lymph node. Bottom row, the helper lineage switchboard: a naive CD4+ (Th0) cell differentiates into Th1 (promoted by IFN-gamma and IL-12, inhibited by IL-4 and IL-10; activates macrophages and cytotoxic T cells), Th2 (promoted by IL-2 and IL-4, inhibited by IFN-gamma; activates eosinophils and raises IgE), Th17 (promoted by TGF-beta, IL-1 and IL-6, inhibited by IFN-gamma and IL-4; induces neutrophilic infiltration), and Treg (promoted by TGF-beta and IL-2, inhibited by IL-6; prevents autoimmunity and maintains tolerance). The verbatim secretes-and-function table is the note's table block" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">T-cell development — the thymic school and the helper lineages (original KYP redraw)</text>
+        <rect x="704" y="24" width="228" height="18" rx="9" className="fill-brand-soft" />
+        <text x="818" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">cortex keeps self-MHC · medulla culls self-reactive</text>
+      </g>
+
+      {/* ===== section 1: the thymic school ===== */}
+      <text x="36" y="96" fontSize="8.4" fontWeight="800" className="fill-foreground">THE THYMIC SCHOOL</text>
+
+      {/* bone marrow panel */}
+      <g>
+        <rect x="36" y="106" width="140" height="186" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="106" width="140" height="30" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="106" y="126" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">BONE MARROW</text>
+        <circle cx="106" cy="196" r="24" className="fill-secondary stroke-border" strokeWidth="1.3" />
+        <text x="106" y="190" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">T-cell</text>
+        <text x="106" y="199" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">precursor</text>
+        <text x="106" y="228" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">leaves for the thymus</text>
+        <text x="106" y="238" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">(does NOT mature here —</text>
+        <text x="106" y="248" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">contrast B cells)</text>
+      </g>
+
+      {/* arrow BM -> thymus */}
+      <path d="M 180 196 L 244 196" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 242 191 L 254 196 L 242 201 Z" className="fill-border" />
+
+      {/* thymus panel */}
+      <g>
+        <rect x="216" y="76" width="392" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="216" y="76" width="392" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="412" y="96" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">THYMUS — the selection school</text>
+
+        {/* original lobed thymus schematic: outer cortex band + inner medulla */}
+        <g>
+          <path d="M 258 122 q 22 -12 44 0 q 22 -12 44 0 q 22 -12 44 0 q 10 26 0 52 q -10 26 -20 44 l -92 0 q -14 -18 -20 -44 q -6 -26 0 -52 Z" className="fill-warning-soft/60 stroke-warning" strokeWidth="1.4" />
+          <rect x="278" y="158" width="112" height="44" rx="14" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+          <text x="334" y="150" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-warning">CORTEX (outer)</text>
+          <text x="334" y="184" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-brand">MEDULLA (inner)</text>
+
+          {/* double-positive thymocyte entering the cortex */}
+          <circle cx="248" cy="132" r="16" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="248" y="129" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">CD4+</text>
+          <text x="248" y="138" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">CD8+</text>
+          <path d="M 262 140 C 280 152, 292 160, 300 166" fill="none" stroke="currentColor" className="text-border" strokeWidth="1.2" />
+        </g>
+
+        {/* selection annotations (below the lobe, inside the panel) */}
+        <g>
+          <rect x="232" y="196" width="360" height="40" rx="8" className="fill-secondary" />
+          <text x="242" y="210" fontSize="6.8" fontWeight="800" className="fill-foreground">POSITIVE SELECTION — cortex</text>
+          <text x="242" y="220" fontSize="6.2" className="fill-muted-foreground">keeps T cells that recognize self-peptide MHC complexes —</text>
+          <text x="242" y="229" fontSize="6.2" className="fill-muted-foreground">double-positive thymocytes receive a survival signal</text>
+
+          <rect x="232" y="242" width="360" height="40" rx="8" className="fill-secondary" />
+          <text x="242" y="256" fontSize="6.8" fontWeight="800" className="fill-foreground">NEGATIVE SELECTION — medulla</text>
+          <text x="242" y="266" fontSize="6.2" className="fill-muted-foreground">removes T cells that bind too strongly to self-peptides — apoptosis</text>
+          <text x="242" y="275" fontSize="6.2" className="fill-muted-foreground">or become Tregs; the AIRE protein drives negative selection</text>
+        </g>
+
+        {/* single-positive output arrows */}
+        <path d="M 430 146 C 500 146, 560 150, 622 152" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+        <path d="M 620 147 L 632 152 L 620 157 Z" className="fill-emergency" />
+        <path d="M 430 178 C 500 178, 560 210, 622 214" fill="none" stroke="currentColor" className="text-brand" strokeWidth="1.8" />
+        <path d="M 620 209 L 632 214 L 620 219 Z" className="fill-brand" />
+      </g>
+
+      {/* outcomes panel */}
+      <g>
+        <rect x="636" y="106" width="308" height="186" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="636" y="106" width="308" height="30" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="790" y="126" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">SINGLE-POSITIVE OUTPUT</text>
+        <rect x="652" y="146" width="276" height="36" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="664" y="160" fontSize="7.2" fontWeight="800" className="fill-emergency">CD8+ → cytotoxic T cell</text>
+        <text x="664" y="172" fontSize="6.2" className="fill-muted-foreground">kills virus-infected, neoplastic, donor graft cells (MHC I–restricted)</text>
+        <rect x="652" y="196" width="276" height="36" rx="8" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="664" y="210" fontSize="7.2" fontWeight="800" className="fill-brand">CD4+ → helper T cell</text>
+        <text x="664" y="222" fontSize="6.2" className="fill-muted-foreground">the lineage switchboard below: Th1 / Th2 / Th17 / Treg</text>
+        <text x="790" y="252" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">→ peripheral blood → lymph node → antigen encounter</text>
+        <text x="790" y="264" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">(no thymus after involution — the repertoire is set for life)</text>
+      </g>
+
+      {/* ===== section 2: the helper lineage switchboard ===== */}
+      <text x="36" y="330" fontSize="8.4" fontWeight="800" className="fill-foreground">THE HELPER LINEAGE SWITCHBOARD — differentiation signals (+) and cross-inhibition (−)</text>
+
+      {/* Th0 node */}
+      <g>
+        <rect x="36" y="348" width="140" height="176" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="348" width="140" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="106" y="368" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">NAIVE CD4+ (Th0)</text>
+        <circle cx="106" cy="414" r="22" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.2" />
+        <text x="106" y="418" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">Th0</text>
+        <text x="106" y="452" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">in the lymph node:</text>
+        <text x="106" y="462" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">antigen + co-stimulation</text>
+        <text x="106" y="472" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">→ IL-2-driven</text>
+        <text x="106" y="482" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">clonal proliferation,</text>
+        <text x="106" y="492" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">then the cytokine</text>
+        <text x="106" y="502" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">milieu picks the lineage</text>
+      </g>
+
+      {/* fan arrows Th0 -> cards */}
+      {cards.map((c, i) => (
+        <g key={c.name}>
+          <path d={`M 180 ${436 - i * 4} C ${188} ${436}, ${c.x - 14} ${434 + i * 6}, ${c.x - 4} ${436 + i * 6}`} fill="none" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        </g>
+      ))}
+
+      {/* lineage cards */}
+      {cards.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="348" width="166" height="176" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+          <rect x={c.x} y="348" width="166" height="26" rx="12" className={c.name === "Treg" ? "fill-warning-soft" : "fill-secondary"} />
+          <text x={c.x + 83} y="366" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">{c.name}</text>
+          <text x={c.x + 14} y="390" fontSize="6.6" fontWeight="800" className="fill-brand">(+) differentiate</text>
+          <text x={c.x + 14} y="401" fontSize="7" fontWeight="700" className="fill-foreground">{c.plus}</text>
+          <text x={c.x + 14} y="421" fontSize="6.6" fontWeight="800" className="fill-emergency">(−) inhibited by</text>
+          <text x={c.x + 14} y="432" fontSize="7" fontWeight="700" className="fill-foreground">{c.minus}</text>
+          <line x1={c.x + 14} y1="446" x2={c.x + 152} y2="446" stroke="currentColor" className="text-border" strokeWidth="1" />
+          <text x={c.x + 14} y="460" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">function (see table):</text>
+          {c.fn.map((line, j) => (
+            <text key={j} x={c.x + 14} y={472 + j * 11} fontSize="6.8" className="fill-muted-foreground">{line}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* footer */}
+      <text x="24" y="566" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's differentiation diagram (pdf 122 / book 100 — the printed page's thymus illustration is copyrighted and is conveyed here as an original schematic). Verbatim selection text and the Secretes/Function table are the note's table and mechanism blocks.</text>
+    </svg>
+  );
+}
