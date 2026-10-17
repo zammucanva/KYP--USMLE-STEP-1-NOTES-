@@ -1,0 +1,677 @@
+{
+  "topicId": "complement-pathways",
+  "title": "The Complement System",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      126
+    ],
+    "bookPages": "104"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Complement",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "System of hepatically synthesized plasma proteins that play a role in innate immunity and\ninflammation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MAC vs gram-negatives",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Membrane attack complex (MAC) defends against gram ⊝ bacteria.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CH50",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "The CH50 test\nis used to screen for activation of the classical complement pathway.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ACT heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "ACT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Classical activation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Classic—IgG or IgM mediated.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alternative activation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Alternative—bacterial products.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lectin activation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Lectin—mannose or other sugars on microbe\nsurface.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA printed mnemonic (verification only — not reproduced user-facing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "General Motors makes classic cars.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Functions heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "FunctIonS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C3b — opsonization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3b—opsonization.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anaphylatoxins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3a, C4a, C5a—anaphylaxis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C5a — chemotaxis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C5a—neutrophil chemotaxis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MAC — cytolysis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C5b-9 (MAC)—cytolysis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C3b binds LPS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3b binds to lipopolysaccharides on bacteria.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MAC vs Neisseria + deficiency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "MAC complex is important for neutralizing\nNeisseria species. Deficiency results in\nrecurrent infection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA printed mnemonic (verification only — not reproduced user-facing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Get “Neis” (nice) Big MACs from 5-9 pm.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Two primary opsonins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Opsonins—C3b and IgG are the two 1°\nopsonins in bacterial defense; enhance\nphagocytosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Immune-complex clearance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3b also helps clear immune\ncomplexes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Etymology",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Opsonin (Greek) = to prepare for eating.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Inhibitors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Inhibitors—decay-accelerating factor (DAF,\nalso called CD55) and C1 inhibitor (formerly\ncalled C1 esterase inhibitor) help prevent\ncomplement activation on self cells (eg,\nRBCs).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — lectin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Lectin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — classic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Classic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — microbial surface",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Microbial\nsurface",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — sugar moiety",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Sugar\nmoiety",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — antigen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Antigen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — Ag-Ab complex",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Ag-Ab\ncomplex",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — mast-cell degranulation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3a and C5a\nstimulate\nmast-cell\ndegranulation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — histamine/permeability",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Histamine increases\nendothelial\npermeability",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — C3 convertase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3\nconvertase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — MBL-MASP / C1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "MBL-MASP or C1 complex",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — C5 convertase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C5\nconvertase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — cell lysis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Cell lysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — cytolysis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Cytolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — neutrophil chemotaxis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C5a-mediated\nneutrophil\nchemotaxis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — MAC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Membrane attack\ncomplex (MAC)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — polymerized C9",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Polymerized C9",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — microbe surface",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Microbe surface",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — properdin/factor D",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Properdin\nor factor D",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — alternative",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Alternative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — amplification loop",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "C3b amplification loop",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — factor B",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "FactorB (Bb)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — opsonization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Opsonization",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — complement receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Complement\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — phagocyte",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Phagocyte",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — inflammation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "quote": "Inflamation\nHistamine increases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "complement-cascade-map"
+  ],
+  "mechanismIds": [
+    "complement-cascade-three-doors",
+    "complement-self-nonself-brakes"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cascade roster; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "deficiency-map-model",
+      "summary": "Mapping fragment failures to disease: terminal C5-C9 → recurrent Neisseria (normal opsonization); C3 → pyogenic + immune-complex disease; early classical → immune-complex syndromes; properdin (X-linked) → Neisseria; C1-INH → hereditary angioedema (bradykinin, no urticaria, low C4, trauma triggers); DAF/CD55 (+CD59) loss → PNH. Plus the CH50-vs-AH50 localization logic. The printed page names only the two inhibitors and the Neisseria sentence; the disease genetics, AH50, and therapy specifics are labeled KYP extension.",
+      "origin": "outside-first-aid",
+      "rationale": "The source presents components and inhibitors without the deficiency-to-disease map or assay-differentiation logic; these integrations are KYP's design.",
+      "location": "core.why + mechanism 2 caption + callout + patterns 1-3 + pivots + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages -list on p126 returns ZERO images — the cascade diagram is pure vector; one original KYP registry visual (complement-cascade-map) redraws its topology (three doors, convertases, fragment outputs, anaphylaxis rail, opsonization panel, inhibitor strip). MNEMONIC BOUNDARY (E22/E24/E28 rule): FA's printed mnemonic phrases ('General Motors makes classic cars', \"Get 'Neis' (nice) Big MACs from 5-9 pm\") are quoted in manifest evidence for VERIFICATION ONLY — never in user-facing content; KYP originals replace them. Text-layer note: 'Inflamation' (source's spelling in a diagram label) quoted verbatim. Boundary: pdf 127 (complement disorders) = E30.",
+  "updatedAt": "2026-10-17"
+}

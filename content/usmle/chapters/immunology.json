@@ -789,8 +789,36 @@
         "complement-cascade-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The cascade: classical (IgG/IgM immune complexes, C1qrs), lectin (mannan-binding lectin), alternative (microbial surfaces, spontaneous C3 tickover) → C3 convertases → C3b opsonization → C5 convertase → MAC (C5b-9); the anaphylatoxins C3a/C4a/C5a; and the inhibitors (C1-INH, DAF/CD55, CD59) whose failure causes disease."
+      "status": "complete",
+      "productionRationale": "The cascade: classical (IgG/IgM immune complexes, C1qrs), lectin (mannan-binding lectin), alternative (microbial surfaces, spontaneous C3 tickover) → C3 convertases → C3b opsonization → C5 convertase → MAC (C5b-9); the anaphylatoxins C3a/C4a/C5a; and the inhibitors (C1-INH, DAF/CD55, CD59) whose failure causes disease.",
+      "textbookVisuals": [
+        {
+          "visualId": "complement-pathways-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              126
+            ],
+            "bookPages": "104"
+          },
+          "chapterId": "immunology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "Complement cascade — the three-pathway convergence diagram",
+          "sourceFigureDescription": "A vector pathway map: three activation columns (Classic with Ag-Ab complex/Antigen; Lectin with microbial-surface Sugar moiety; Alternative with Microbial surface + FactorB (Bb) + Properdin or factor D + C3b amplification loop) converging through C3 convertase (MBL-MASP or C1 complex feeding C4/C2) and C5 convertase (C5, C5b) to the Membrane attack complex (MAC: C5b, C6, C7, C8, polymerized C9) and Cell lysis/Cytolysis; side branches: C3a and C5a stimulate mast-cell degranulation → Histamine increases endothelial permeability (Inflamation); C5a-mediated neutrophil chemotaxis; and the Opsonization inset (C3b on Microbe engaging the Complement receptor on a Phagocyte).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "complement-pathways",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "complement-cascade-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "complement-cascade-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "complement-disorders",
@@ -1134,7 +1162,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 13,
+  "pendingTopicCount": 12,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

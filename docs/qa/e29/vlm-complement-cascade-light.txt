@@ -1,0 +1,15 @@
+Based on a strict visual inspection of the provided SVG diagram, here is the QA report for paint defects:
+
+**(A) Overlapping labels or text-on-text collisions: PASS**
+All text elements are clearly separated. No labels overlap with each other or with other graphical elements.
+
+**(B) Text clipped at box/canvas edges or truncated words: PASS**
+All text is fully contained within its respective containers and the overall canvas. No words are cut off or truncated.
+
+**(C) Arrows/lines crossing through text: PASS**
+The arrows (e.g., the arrow in the Opsonization panel and the vertical flow arrows) are positioned to avoid intersecting with any text labels.
+
+**(D) Illegible low-contrast text: PASS**
+The diagram uses high-contrast color schemes (dark text on light backgrounds, red text for emphasis). All text is legible against its background.
+
+Verdict: CLEAN

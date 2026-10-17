@@ -1,0 +1,42 @@
+{
+  "topicId": "complement-pathways",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "complement-pathways-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          126
+        ],
+        "bookPages": "104"
+      },
+      "chapterId": "immunology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Complement cascade — the three-pathway convergence diagram",
+      "sourceFigureDescription": "A vector pathway map: three activation columns (Classic with Ag-Ab complex/Antigen; Lectin with microbial-surface Sugar moiety; Alternative with Microbial surface + FactorB (Bb) + Properdin or factor D + C3b amplification loop) converging through C3 convertase (MBL-MASP or C1 complex feeding C4/C2) and C5 convertase (C5, C5b) to the Membrane attack complex (MAC: C5b, C6, C7, C8, polymerized C9) and Cell lysis/Cytolysis; side branches: C3a and C5a stimulate mast-cell degranulation → Histamine increases endothelial permeability (Inflamation); C5a-mediated neutrophil chemotaxis; and the Opsonization inset (C3b on Microbe engaging the Complement receptor on a Phagocyte).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "complement-pathways",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "complement-cascade-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "complement-pathways",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters). The cascade diagram is redrawn as ONE original KYP registry visual (complement-cascade-map) with all printed labels accounted for (25 label quotes verified). Verbatim ACT/functions/opsonin/inhibitor text is the note's table block."
+}

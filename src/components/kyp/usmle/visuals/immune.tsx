@@ -1925,3 +1925,177 @@ export function IsotypeComparisonTable() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E29 — The complement cascade: three doors → C3 → C5 → MAC
+// (source: "Complement" + Opsonins + Inhibitors, pdf 126 / book 104 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function ComplementCascadeMap() {
+  const w = 980;
+  const h = 670;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The complement cascade, an original KYP redraw of the source's pathway diagram. Three activation doors converge on C3: the CLASSICAL pathway (IgG or IgM mediated — antigen-antibody complexes engaging the C1 complex), the LECTIN pathway (mannose or other sugars on the microbe surface engaging the MBL-MASP complex), and the ALTERNATIVE pathway (bacterial products on microbial surfaces: spontaneous C3b with Factor B/Bb, stabilized by properdin or factor D, feeding a C3b amplification loop). All three build C3 convertases (classical and lectin: C4b2a; alternative: C3bBb) that cleave C3 into C3b — opsonization, binding lipopolysaccharides on bacteria, clearing immune complexes — and C3a, an anaphylatoxin. C3 convertases plus C3b form C5 convertases that cleave C5 into C5b and C5a — an anaphylatoxin and the neutrophil chemotaxis signal. C5b assembles with C6, C7, C8, and polymerized C9 into the membrane attack complex (MAC, C5b-9), which mediates cytolysis — defending against gram-negative bacteria and Neisseria species, whose deficiency causes recurrent infection. Side panels: the anaphylatoxins C3a, C4a, and C5a stimulate mast-cell degranulation, releasing histamine that increases endothelial permeability and inflammation; and C3b-mediated opsonization, where C3b on the microbe engages the complement receptor on a phagocyte — C3b and IgG being the two primary opsonins in bacterial defense. Bottom: inhibitors — decay-accelerating factor (DAF, also called CD55) and C1 inhibitor (formerly C1 esterase inhibitor) prevent complement activation on self cells such as RBCs; the CH50 test screens classical pathway activation" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The complement cascade — three doors, one engine (original KYP redraw)</text>
+        <rect x="762" y="24" width="170" height="18" rx="9" className="fill-brand-soft" />
+        <text x="847" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">hepatic proteins, innate arm</text>
+      </g>
+
+      {/* ===== main cascade (left) ===== */}
+      {/* three activation rows */}
+      <g>
+        <rect x="36" y="76" width="584" height="46" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="76" width="120" height="46" rx="9" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="96" y="97" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">CLASSICAL</text>
+        <text x="96" y="108" textAnchor="middle" fontSize="6" className="fill-muted-foreground">IgG or IgM</text>
+        <text x="170" y="95" fontSize="6.6" className="fill-muted-foreground">Antigen-antibody (Ag-Ab) complex —</text>
+        <text x="170" y="105" fontSize="6.6" className="fill-muted-foreground">IgG or IgM mediated — engages the</text>
+        <text x="170" y="115" fontSize="6.6" fontWeight="700" className="fill-foreground">C1 complex (C1qrs)</text>
+      </g>
+      <g>
+        <rect x="36" y="128" width="584" height="46" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="128" width="120" height="46" rx="9" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="96" y="149" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">LECTIN</text>
+        <text x="96" y="160" textAnchor="middle" fontSize="6" className="fill-muted-foreground">sugar-sensing</text>
+        <text x="170" y="147" fontSize="6.6" className="fill-muted-foreground">Mannose or other sugars on the microbe</text>
+        <text x="170" y="157" fontSize="6.6" className="fill-muted-foreground">surface engage the</text>
+        <text x="170" y="167" fontSize="6.6" fontWeight="700" className="fill-foreground">MBL-MASP complex</text>
+      </g>
+      <g>
+        <rect x="36" y="180" width="584" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="180" width="120" height="52" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="96" y="203" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">ALTERNATIVE</text>
+        <text x="96" y="214" textAnchor="middle" fontSize="6" className="fill-muted-foreground">tickover</text>
+        <text x="170" y="199" fontSize="6.6" className="fill-muted-foreground">Bacterial products on microbial surfaces:</text>
+        <text x="170" y="209" fontSize="6.6" className="fill-muted-foreground">spontaneous C3b + Factor B (Bb), stabilized by</text>
+        <text x="170" y="219" fontSize="6.6" fontWeight="700" className="fill-foreground">properdin or factor D → C3b amplification loop</text>
+      </g>
+
+      {/* convergence arrows */}
+      <path d="M 328 122 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 328 174 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 328 232 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 322 240 L 328 250 L 334 240 Z" className="fill-border" />
+
+      {/* C3 convertase bar */}
+      <g>
+        <rect x="36" y="252" width="584" height="34" rx="8" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="328" y="273" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">C3 CONVERTASE — classical/lectin: C4b2a · alternative: C3bBb</text>
+      </g>
+
+      {/* C3 outputs */}
+      <path d="M 150 286 L 150 300" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 506 286 L 506 300" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="304" width="276" height="64" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="50" y="324" fontSize="7.6" fontWeight="800" className="fill-brand">C3 → C3b — OPSONIZATION</text>
+        <text x="50" y="338" fontSize="6.4" className="fill-muted-foreground">Binds LPS on bacteria; enhances phagocytosis;</text>
+        <text x="50" y="348" fontSize="6.4" className="fill-muted-foreground">clears immune complexes; feeds the</text>
+        <text x="50" y="358" fontSize="6.4" className="fill-muted-foreground">amplification loop back into the convertase</text>
+      </g>
+      <g>
+        <rect x="344" y="304" width="276" height="64" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="358" y="324" fontSize="7.6" fontWeight="800" className="fill-emergency">C3 → C3a — ANAPHYLATOXIN</text>
+        <text x="358" y="338" fontSize="6.4" className="fill-muted-foreground">One of the three anaphylatoxins (C3a, C4a,</text>
+        <text x="358" y="348" fontSize="6.4" className="fill-muted-foreground">C5a) — mast-cell degranulation → histamine</text>
+        <text x="358" y="358" fontSize="6.4" className="fill-muted-foreground">(see the anaphylaxis rail, right)</text>
+      </g>
+
+      {/* C5 convertase */}
+      <path d="M 328 368 L 328 382" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="386" width="584" height="30" rx="8" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="328" y="406" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">C5 CONVERTASE (C4b2a3b / C3bBb3b) → cleaves C5</text>
+      </g>
+
+      {/* C5 outputs */}
+      <path d="M 150 416 L 150 430" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 506 416 L 506 430" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="434" width="276" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="50" y="454" fontSize="7.6" fontWeight="800" className="fill-foreground">C5 → C5b — MAC seed</text>
+        <text x="50" y="468" fontSize="6.4" className="fill-muted-foreground">C5b recruits C6 → C7 → C8 → polymerized C9</text>
+        <text x="50" y="478" fontSize="6.4" className="fill-muted-foreground">to punch the pore (below)</text>
+      </g>
+      <g>
+        <rect x="344" y="434" width="276" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="358" y="454" fontSize="7.6" fontWeight="800" className="fill-emergency">C5 → C5a — alarm + recruiter</text>
+        <text x="358" y="468" fontSize="6.4" className="fill-muted-foreground">Anaphylatoxin AND neutrophil chemotaxis —</text>
+        <text x="358" y="478" fontSize="6.4" className="fill-muted-foreground">the fetch signal that draws granulocytes in</text>
+      </g>
+
+      {/* MAC bar */}
+      <path d="M 328 486 L 328 500" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="504" width="584" height="62" rx="10" className="fill-emergency/5 stroke-emergency" strokeWidth="1.3" />
+        <text x="328" y="526" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">MEMBRANE ATTACK COMPLEX — C5b-9 (C5b + C6 + C7 + C8 + polymerized C9)</text>
+        <text x="328" y="542" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">Pore-forming cylinder → CYTOLYSIS / cell lysis of the target</text>
+        <text x="328" y="554" textAnchor="middle" fontSize="6.8" fontWeight="700" className="fill-emergency">Defends against gram ⊝ bacteria — key for Neisseria; deficiency → recurrent infection</text>
+      </g>
+
+      {/* ===== right rail ===== */}
+      {/* anaphylaxis panel */}
+      <g>
+        <rect x="640" y="76" width="304" height="156" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="98" fontSize="8.2" fontWeight="800" className="fill-foreground">ANAPHYLATOXINS — C3a, C4a, C5a</text>
+        <text x="656" y="116" fontSize="6.6" className="fill-muted-foreground">C3a and C5a stimulate mast-cell degranulation</text>
+        <text x="656" y="128" fontSize="6.6" className="fill-muted-foreground">→ histamine release → ↑ endothelial permeability</text>
+        <text x="656" y="140" fontSize="6.6" className="fill-muted-foreground">→ inflammation (the vascular alarm)</text>
+        <rect x="656" y="150" width="272" height="66" rx="8" className="fill-secondary" />
+        <text x="670" y="168" fontSize="6.8" fontWeight="800" className="fill-foreground">Function list (verbatim):</text>
+        <text x="670" y="182" fontSize="6.4" className="fill-muted-foreground">C3b — opsonization · C3a, C4a, C5a — anaphylaxis</text>
+        <text x="670" y="194" fontSize="6.4" className="fill-muted-foreground">C5a — neutrophil chemotaxis</text>
+        <text x="670" y="206" fontSize="6.4" className="fill-muted-foreground">C5b-9 (MAC) — cytolysis</text>
+      </g>
+
+      {/* opsonization panel */}
+      <g>
+        <rect x="640" y="246" width="304" height="150" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="268" fontSize="8.2" fontWeight="800" className="fill-foreground">OPSONIZATION — prepare for eating</text>
+        {/* microbe + C3b */}
+        <ellipse cx="706" cy="316" rx="30" ry="24" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.2" />
+        <circle cx="694" cy="306" r="3.5" className="fill-brand" />
+        <circle cx="712" cy="300" r="3.5" className="fill-brand" />
+        <circle cx="720" cy="314" r="3.5" className="fill-brand" />
+        <text x="706" y="352" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">microbe + C3b</text>
+        {/* phagocyte */}
+        <path d="M 776 296 q 24 -16 48 0 q 14 30 0 44 q -24 12 -48 0 q -10 -26 0 -44 Z" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.2" />
+        <text x="800" y="322" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">phagocyte</text>
+        <text x="800" y="332" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">(complement receptor)</text>
+        <path d="M 742 314 L 770 314" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+        <path d="M 768 309 L 778 314 L 768 319 Z" className="fill-brand" />
+        <text x="656" y="372" fontSize="6.4" className="fill-muted-foreground">C3b and IgG are the two 1° opsonins in bacterial</text>
+        <text x="656" y="382" fontSize="6.4" className="fill-muted-foreground">defense; C3b also helps clear immune complexes.</text>
+        <text x="656" y="392" fontSize="6.2" fontWeight="700" className="fill-muted-foreground/80">Opsonin (Greek) = to prepare for eating</text>
+      </g>
+
+      {/* clinical panel */}
+      <g>
+        <rect x="640" y="410" width="304" height="156" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="432" fontSize="8.2" fontWeight="800" className="fill-foreground">TESTING &amp; CLINICAL ANCHORS</text>
+        <text x="656" y="450" fontSize="6.6" className="fill-muted-foreground">· CH50 test — screens activation of the</text>
+        <text x="668" y="460" fontSize="6.6" className="fill-muted-foreground">CLASSICAL pathway</text>
+        <text x="656" y="476" fontSize="6.6" className="fill-muted-foreground">· MAC defends against gram ⊝ bacteria;</text>
+        <text x="668" y="486" fontSize="6.6" className="fill-muted-foreground">important for neutralizing Neisseria</text>
+        <text x="656" y="502" fontSize="6.6" className="fill-muted-foreground">· C3b binds lipopolysaccharides on bacteria</text>
+        <text x="656" y="518" fontSize="6.6" className="fill-muted-foreground">· System of hepatically synthesized plasma</text>
+        <text x="668" y="528" fontSize="6.6" className="fill-muted-foreground">proteins — innate immunity + inflammation</text>
+        <text x="656" y="544" fontSize="6.6" fontWeight="700" className="fill-emergency">Terminal (C5-C9) deficiency → recurrent Neisseria</text>
+      </g>
+
+      {/* ===== bottom strip: inhibitors ===== */}
+      <g>
+        <rect x="36" y="580" width="908" height="56" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="600" fontSize="8" fontWeight="800" className="fill-foreground">INHIBITORS — keeping complement off self cells (eg, RBCs)</text>
+        <text x="54" y="616" fontSize="6.6" className="fill-muted-foreground">Decay-accelerating factor (DAF, also called CD55) and C1 inhibitor (formerly called C1 esterase inhibitor) help prevent complement activation on self cells.</text>
+        <text x="54" y="628" fontSize="6.6" fontWeight="700" className="fill-emergency">Failure (KYP bridge): C1-INH loss → hereditary angioedema (bradykinin); DAF/CD55 loss → complement lysis of RBCs (paroxysmal nocturnal hemoglobinuria).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="656" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's complement cascade diagram (pdf 126 / book 104 — pure vector in the source; FA's printed mnemonic phrases not reproduced). Verbatim activation, functions, opsonin, and inhibitor text in the note's table and callout blocks.</text>
+    </svg>
+  );
+}
