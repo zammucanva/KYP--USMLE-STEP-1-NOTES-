@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T18:35:55Z",
+  "generatedAt": "2026-10-17T18:51:34Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 70,
+    "topicsProduced": 71,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 16,
+      "pilot-complete": 17,
       "chapter-complete": 54,
       "blocked": 0,
       "failed": 0
@@ -296,8 +296,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 24,
-      "topicsProduced": 7,
-      "topicsRemaining": 17,
+      "topicsProduced": 8,
+      "topicsRemaining": 16,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -612,6 +612,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "cytotoxic-regulatory-t-cells",
+      "title": "Effector T Cells: Cytotoxic, Regulatory & the Macrophage Interface",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Cellular Components",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 122 (book 100)",
+      "visualCount": 2,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-17"
     },
     {
       "topicId": "diabetes-mellitus",

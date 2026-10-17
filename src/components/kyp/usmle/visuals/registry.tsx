@@ -111,6 +111,8 @@ import {
   NkKillModel,
   BtDivisionOfLabor,
   TCellSelectionMap,
+  CtlKillCycle,
+  TregSuppressionModel,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -257,4 +259,6 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "nk-kill-model": NkKillModel,
   "b-t-division-of-labor": BtDivisionOfLabor,
   "t-cell-selection-map": TCellSelectionMap,
+  "ctl-kill-cycle": CtlKillCycle,
+  "treg-suppression-model": TregSuppressionModel,
 };

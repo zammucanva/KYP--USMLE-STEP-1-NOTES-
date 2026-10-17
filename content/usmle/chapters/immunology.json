@@ -543,8 +543,37 @@
         "treg-suppression-model"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The CD8 kill (perforin/granzyme B apoptosis of virus-infected/neoplastic/graft cells via MHC I), the Th1-macrophage activation loop (IFN-γ + CD40L-CD40), and the Treg brake (CD3/CD4/CD25/FOXP3; IL-10/TGF-β; IPEX when FOXP3 fails)."
+      "status": "complete",
+      "productionRationale": "The CD8 kill (perforin/granzyme B apoptosis of virus-infected/neoplastic/graft cells via MHC I), the Th1-macrophage activation loop (IFN-γ + CD40L-CD40), and the Treg brake (CD3/CD4/CD25/FOXP3; IL-10/TGF-β; IPEX when FOXP3 fails).",
+      "textbookVisuals": [
+        {
+          "visualId": "cytotoxic-regulatory-t-cells-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              122
+            ],
+            "bookPages": "100"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Cytotoxic vs regulatory T cells — the source's two prose rosters",
+          "sourceFigureDescription": "Two prose function lists: 'Cytotoxic T cells' (Kill virus-infected, neoplastic, and donor graft cells by inducing apoptosis; Release cytotoxic granules containing preformed proteins (eg, perforin, granzyme B); CD8 binds to MHC I on virus-infected cells) and 'Regulatory T cells' (Help maintain specific immune tolerance by suppressing CD4+ and CD8+ T-cell effector functions; Identified by expression of CD3, CD4, CD25, and FOXP3; Activated Tregs produce anti-inflammatory cytokines (eg, IL-10, TGF-β); IPEX syndrome — FOXP3 deficiency → autoimmunity, enteropathy, endocrinopathy, nail dystrophy, dermatitis, diabetes in male infants).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "cytotoxic-regulatory-t-cells",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Cytotoxic vs regulatory T cells — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "lymphocyte-activation-tolerance",
@@ -994,7 +1023,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 17,
+  "pendingTopicCount": 16,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

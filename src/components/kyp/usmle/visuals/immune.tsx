@@ -1115,3 +1115,245 @@ export function TCellSelectionMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E25 — CD8+ cytotoxic kill cycle (source: "Cytotoxic T cells", pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function CtlKillCycle() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The CD8+ cytotoxic T-cell kill cycle, an original KYP diagram. Left: a cytotoxic T cell carrying CD8 and a T-cell receptor faces a virus-infected target cell displaying peptide on MHC I; the TCR recognizes the peptide-MHC I complex and CD8 binds MHC I, forming the immunological synapse; the cytotoxic T cell releases preformed cytotoxic granules containing perforin and granzyme B; perforin forms pores and granzyme B induces apoptosis. Right rail, the target spectrum: virus-infected cells, neoplastic (tumor) cells, and donor graft cells — all killed by inducing apoptosis" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The CD8+ cytotoxic kill cycle (original KYP diagram)</text>
+        <rect x="716" y="24" width="216" height="18" rx="9" className="fill-brand-soft" />
+        <text x="824" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">MHC I-guided perforin / granzyme B</text>
+      </g>
+
+      {/* ===== CTL panel ===== */}
+      <g>
+        <rect x="36" y="76" width="300" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="300" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="186" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">CYTOTOXIC T CELL (CD8+)</text>
+
+        {/* cell body */}
+        <rect x="60" y="128" width="252" height="150" rx="18" className="fill-secondary/40 stroke-border" strokeWidth="1.3" />
+        {/* granules */}
+        <circle cx="112" cy="180" r="13" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="112" y="177" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">perforin</text>
+        <text x="112" y="185" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">granzyme B</text>
+        <circle cx="160" cy="212" r="13" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="160" y="209" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">perforin</text>
+        <text x="160" y="217" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">granzyme B</text>
+        <text x="230" y="180" fontSize="6.6" className="fill-muted-foreground">cytotoxic granules:</text>
+        <text x="230" y="190" fontSize="6.6" className="fill-muted-foreground">preformed proteins,</text>
+        <text x="230" y="200" fontSize="6.6" className="fill-muted-foreground">ready for release —</text>
+        <text x="230" y="210" fontSize="6.6" className="fill-muted-foreground">no new synthesis</text>
+        <text x="230" y="220" fontSize="6.6" className="fill-muted-foreground">needed at the synapse</text>
+
+        {/* CD8 + TCR on right edge */}
+        <circle cx="316" cy="160" r="14" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+        <text x="316" y="163" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">CD8</text>
+        <rect x="302" y="204" width="28" height="20" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.3" />
+        <text x="316" y="217" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">TCR</text>
+        <text x="186" y="300" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">TCR reads the foreign peptide; CD8 clamps onto MHC I —</text>
+        <text x="186" y="310" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">dual recognition makes the kill antigen-specific and MHC I-restricted</text>
+      </g>
+
+      {/* synapse zone */}
+      <g>
+        <rect x="356" y="130" width="90" height="150" rx="10" className="fill-warning-soft/40 stroke-warning" strokeWidth="1.2" />
+        <text x="401" y="150" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">immunological</text>
+        <text x="401" y="160" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">synapse</text>
+        <path d="M 332 160 L 356 160" stroke="currentColor" className="text-emergency" strokeWidth="1.6" />
+        <path d="M 334 214 L 356 214" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+        <text x="401" y="180" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">CD8 ↔ MHC I</text>
+        <text x="401" y="192" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">TCR ↔ peptide</text>
+        <path d="M 401 200 L 401 214" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <text x="401" y="226" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-warning">granule</text>
+        <text x="401" y="236" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-warning">release →</text>
+      </g>
+
+      {/* target panel */}
+      <g>
+        <rect x="466" y="76" width="290" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="466" y="76" width="290" height="34" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.4" />
+        <text x="611" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">TARGET CELL (MHC I+)</text>
+        <rect x="490" y="128" width="242" height="150" rx="18" className="fill-emergency/5 stroke-border" strokeWidth="1.3" />
+        {/* MHC I with peptide on left edge */}
+        <rect x="486" y="152" width="26" height="18" rx="4" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <rect x="488" y="146" width="22" height="8" rx="4" className="fill-emergency/80" />
+        <text x="499" y="152" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-background">peptide</text>
+        <text x="499" y="181" textAnchor="middle" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">MHC I</text>
+        <text x="611" y="196" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">viral peptides displayed on MHC I —</text>
+        <text x="611" y="206" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">every nucleated cell reports its contents</text>
+        <text x="611" y="216" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">this way; the CTL reads the report</text>
+        {/* pores + granzyme entry */}
+        <circle cx="556" cy="248" r="4" className="fill-emergency" />
+        <circle cx="574" cy="248" r="4" className="fill-emergency" />
+        <circle cx="592" cy="248" r="4" className="fill-emergency" />
+        <text x="668" y="251" fontSize="6" fontWeight="700" className="fill-emergency">perforin pores</text>
+        <text x="611" y="286" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">→ apoptosis</text>
+        <text x="611" y="300" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">granzyme B enters through the pores</text>
+        <text x="611" y="310" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">and induces programmed cell death</text>
+      </g>
+
+      {/* right rail: target spectrum */}
+      <g>
+        <rect x="776" y="76" width="168" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="860" y="100" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">TARGET SPECTRUM</text>
+        {[
+          ["Virus-infected cells", "viral peptides on MHC I"],
+          ["Neoplastic cells", "tumor antigens on MHC I"],
+          ["Donor graft cells", "allo-MHC I = foreign peptide"],
+        ].map(([t, s], i) => (
+          <g key={t}>
+            <rect x="790" y={116 + i * 78} width="140" height="66" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+            <text x="860" y={138 + i * 78} textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">{t}</text>
+            <text x="860" y={152 + i * 78} textAnchor="middle" fontSize="6">{s.split(" ").slice(0, 3).join(" ")}</text>
+            <text x="860" y={162 + i * 78} textAnchor="middle" fontSize="6">{s.split(" ").slice(3).join(" ")}</text>
+            <text x="860" y={174 + i * 78} textAnchor="middle" fontSize="6" fontWeight="700" className="fill-emergency">killed by apoptosis</text>
+          </g>
+        ))}
+      </g>
+
+      {/* bottom strip: shared ammunition note */}
+      <g>
+        <rect x="36" y="386" width="908" height="120" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="410" fontSize="8.4" fontWeight="800" className="fill-foreground">Same ammunition as NK cells — different guidance system</text>
+        <text x="54" y="428" fontSize="7" className="fill-muted-foreground">CD8+ cytotoxic T cells kill via perforin and granzymes (similar to NK cells), but the kill is TCR-guided and MHC I-RESTRICTED:</text>
+        <text x="54" y="440" fontSize="7" className="fill-muted-foreground">only cells displaying the specific foreign peptide on MHC I die. NK cells kill preferentially when MHC I is absent</text>
+        <text x="54" y="452" fontSize="7" className="fill-muted-foreground">(missing self) or via CD16-bound IgG (ADCC). A target cell cannot escape both: downregulating MHC I hides from CD8+</text>
+        <text x="54" y="464" fontSize="7" className="fill-muted-foreground">but exposes it to NK. Cytotoxic T cells have CD8, which binds to MHC I on virus-infected cells — the printed anchor sentence.</text>
+        <text x="54" y="486" fontSize="7" fontWeight="800" className="fill-brand">Exam bridge: acute and chronic cellular organ rejection = this same CD8+ machinery attacking donor graft cells.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="534" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's Cytotoxic T cells section (pdf 122 / book 100 — prose in the source; no textbook artwork exists). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E25 — Treg suppression model (source: "Regulatory T cells", pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function TregSuppressionModel() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The regulatory T-cell brake, an original KYP diagram. Center: a regulatory T cell identified by surface CD3, CD4, and CD25 with the FOXP3 transcription factor in its nucleus — FOXP3 is the master switch that makes the Treg. Left: what it suppresses — CD4+ helper and CD8+ cytotoxic T-cell effector functions — maintaining specific immune tolerance. Right: how it suppresses — activated Tregs produce the anti-inflammatory cytokines IL-10 and TGF-beta. Bottom strip: FOXP3 deficiency causes IPEX (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked) syndrome — enteropathy, endocrinopathy, nail dystrophy, dermatitis, and diabetes in male infants" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The Treg brake — tolerance's active suppressor (original KYP diagram)</text>
+        <rect x="742" y="24" width="190" height="18" rx="9" className="fill-brand-soft" />
+        <text x="837" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD3 · CD4 · CD25 · FOXP3</text>
+      </g>
+
+      {/* left: suppressed targets */}
+      <g>
+        <rect x="36" y="76" width="260" height="280" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="260" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="166" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">WHAT IT SUPPRESSES</text>
+        <rect x="52" y="126" width="228" height="86" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="166" y="148" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD4+ helper T-cell effectors</text>
+        <text x="166" y="164" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">cytokine-driven recruitment and</text>
+        <text x="166" y="174" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">B-cell help — muted when Tregs engage</text>
+        <rect x="52" y="228" width="228" height="86" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="166" y="250" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-emergency">CD8+ cytotoxic effectors</text>
+        <text x="166" y="266" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">perforin/granzyme killing —</text>
+        <text x="166" y="276" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">held in check to protect self tissue</text>
+        <text x="166" y="330" textAnchor="middle" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">= maintaining specific immune tolerance</text>
+      </g>
+
+      {/* suppression arrows */}
+      <g>
+        <path d="M 356 168 C 386 168, 396 176, 414 184" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2" strokeDasharray="6 3" />
+        <path d="M 412 178 L 424 186 L 410 191 Z" className="fill-brand" />
+        <path d="M 356 272 C 386 272, 396 264, 414 256" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2" strokeDasharray="6 3" />
+        <path d="M 412 262 L 424 254 L 410 249 Z" className="fill-brand" />
+        <text x="388" y="154" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-brand">suppress</text>
+        <text x="388" y="292" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-brand">suppress</text>
+      </g>
+
+      {/* center: the Treg */}
+      <g>
+        <rect x="424" y="76" width="270" height="280" rx="12" className="fill-card stroke-brand" strokeWidth="1.6" />
+        <rect x="424" y="76" width="270" height="34" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="559" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">REGULATORY T CELL (Treg)</text>
+
+        {/* cell body */}
+        <rect x="446" y="126" width="226" height="160" rx="20" className="fill-brand-soft/25 stroke-border" strokeWidth="1.2" />
+        {/* nucleus with FOXP3 */}
+        <circle cx="559" cy="206" r="34" className="fill-card stroke-primary" strokeWidth="1.4" />
+        <text x="559" y="203" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">FOXP3</text>
+        <text x="559" y="213" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">master transcription</text>
+        <text x="559" y="221" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">factor — the Treg switch</text>
+
+        {/* surface markers */}
+        <circle cx="474" cy="146" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="474" y="149" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD3</text>
+        <circle cx="518" cy="138" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="518" y="141" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD4</text>
+        <circle cx="562" cy="146" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="562" y="149" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD25</text>
+        <text x="559" y="172" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">identified by expression of CD3, CD4, CD25, and FOXP3</text>
+
+        {/* identity strip */}
+        <rect x="440" y="300" width="238" height="42" rx="8" className="fill-secondary" />
+        <text x="559" y="318" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-foreground">Treg identity panel</text>
+        <text x="559" y="330" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">surface: CD3 + CD4 + CD25 (IL-2 receptor α)</text>
+        <text x="559" y="340" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">nuclear: FOXP3 — deficiency = IPEX (below)</text>
+      </g>
+
+      {/* right: the how — anti-inflammatory cytokines */}
+      <g>
+        <rect x="722" y="76" width="222" height="280" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="722" y="76" width="222" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="833" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">HOW IT SUPPRESSES</text>
+        <rect x="738" y="126" width="190" height="70" rx="10" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.1" />
+        <text x="833" y="150" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">IL-10</text>
+        <text x="833" y="166" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">anti-inflammatory cytokine —</text>
+        <text x="833" y="176" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">dampens APC activation and</text>
+        <text x="833" y="186" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">effector cytokine output</text>
+        <rect x="738" y="210" width="190" height="70" rx="10" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.1" />
+        <text x="833" y="234" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">TGF-β</text>
+        <text x="833" y="250" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">anti-inflammatory cytokine —</text>
+        <text x="833" y="260" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">suppresses proliferation and</text>
+        <text x="833" y="270" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">tips the Th17/Treg toggle toward Treg</text>
+        <text x="833" y="302" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">activated Tregs produce these —</text>
+        <text x="833" y="312" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">the brake is active suppression,</text>
+        <text x="833" y="322" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">not mere absence of activation</text>
+        {/* secretion arrows */}
+        <path d="M 700 160 C 710 160, 716 162, 722 160" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+        <path d="M 700 245 C 710 245, 716 243, 722 245" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+      </g>
+
+      {/* bottom strip: IPEX */}
+      <g>
+        <rect x="36" y="376" width="908" height="130" rx="12" className="fill-emergency/5 stroke-emergency" strokeWidth="1.2" />
+        <text x="54" y="400" fontSize="8.4" fontWeight="800" className="fill-foreground">FOXP3 deficiency → IPEX — the brake removed at the transcriptional level</text>
+        <text x="54" y="418" fontSize="7" className="fill-muted-foreground">IPEX (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked) syndrome — genetic deficiency of FOXP3 → autoimmunity.</text>
+        {[
+          ["Enteropathy", "chronic diarrhea, failure to thrive"],
+          ["Endocrinopathy", "diabetes in male infants (X-linked)"],
+          ["Dermatologic", "dermatitis, nail dystrophy, other autoimmune skin conditions"],
+        ].map(([t, s], i) => (
+          <g key={t}>
+            <rect x={54 + i * 292} y="432" width="276" height="58" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={66 + i * 292} y="452" fontSize="7.2" fontWeight="800" className="fill-emergency">{t}</text>
+            <text x={66 + i * 292} y={466} fontSize="6.4">{s.match(/.{1,40}(\s|$)/g)![0].trim()}</text>
+            <text x={66 + i * 292} y={476} fontSize="6.4" className="fill-muted-foreground">{(s.match(/.{1,40}(\s|$)/g)!)[1] ? (s.match(/.{1,40}(\s|$)/g)!)[1].trim() : ""}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="534" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's Regulatory T cells section (pdf 122 / book 100 — prose in the source; no textbook artwork exists). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}

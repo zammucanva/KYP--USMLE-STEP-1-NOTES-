@@ -1,0 +1,43 @@
+{
+  "topicId": "cytotoxic-regulatory-t-cells",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "cytotoxic-regulatory-t-cells-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          122
+        ],
+        "bookPages": "100"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Cytotoxic vs regulatory T cells — the source's two prose rosters",
+      "sourceFigureDescription": "Two prose function lists: 'Cytotoxic T cells' (Kill virus-infected, neoplastic, and donor graft cells by inducing apoptosis; Release cytotoxic granules containing preformed proteins (eg, perforin, granzyme B); CD8 binds to MHC I on virus-infected cells) and 'Regulatory T cells' (Help maintain specific immune tolerance by suppressing CD4+ and CD8+ T-cell effector functions; Identified by expression of CD3, CD4, CD25, and FOXP3; Activated Tregs produce anti-inflammatory cytokines (eg, IL-10, TGF-β); IPEX syndrome — FOXP3 deficiency → autoimmunity, enteropathy, endocrinopathy, nail dystrophy, dermatitis, diabetes in male infants).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Cellular Components",
+      "topicId": "cytotoxic-regulatory-t-cells",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Cytotoxic vs regulatory T cells — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cytotoxic-regulatory-t-cells",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both registry visuals (ctl-kill-cycle: CTL/target synapse + granule payload + target-spectrum rail + NK-guidance contrast strip; treg-suppression-model: marker panel + suppression arrows + IL-10/TGF-β secretion + IPEX strip) are additional ORIGINAL KYP teaching diagrams — the source sections are prose with no artwork. The function rosters are reproduced verbatim as the note's table block. No E24 content re-claimed."
+}
