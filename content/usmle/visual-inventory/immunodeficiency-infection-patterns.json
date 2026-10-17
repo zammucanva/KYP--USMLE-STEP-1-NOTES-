@@ -1,0 +1,43 @@
+{
+  "topicId": "immunodeficiency-infection-patterns",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "immunodeficiency-infection-patterns-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Infections in immunodeficiency — the 3x4 matrix",
+      "sourceFigureDescription": "A matrix table: PATHOGEN rows (Bacteria, Viruses, Fungi/parasites) crossed with four deficiency columns (↓T CELLS, ↓B CELLS, ↓GRANULOCYTES, ↓COMPLEMENT), each cell listing its organisms (encapsulated list with the printed mnemonic under ↓B cells; the granule-negative set under ↓granulocytes; encapsulated-early/Neisseria-late under ↓complement; viral and fungal entries under ↓T cells; enteroviral encephalitis/poliovirus under ↓B cells; N/A cells for granulocyte/complement viruses and complement fungi), closed by the printed note contrasting B-cell and T-cell deficiency patterns.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "immunodeficiency-infection-patterns",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Infections in immunodeficiency — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "immunodeficiency-infection-patterns",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters); cell contents resolved by VLM census before quoting. The matrix is reproduced verbatim as the note's table block (including the source's two printed bacteria-row phrases, per the verbatim-table precedent); the registry visual (bug-pattern-matrix) is an ADDITIONAL original KYP teaching matrix that omits the FA phrases and carries the printed rule + column logic instead."
+}

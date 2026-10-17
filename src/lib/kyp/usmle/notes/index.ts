@@ -47,6 +47,7 @@ import { activePassiveImmunity } from "./active-passive-immunity";
 import { autoantibodies } from "./autoantibodies";
 import { bCellImmunodeficiencies } from "./b-cell-immunodeficiencies";
 import { tCellPhagocyteImmunodeficiencies } from "./t-cell-phagocyte-immunodeficiencies";
+import { immunodeficiencyInfectionPatterns } from "./immunodeficiency-infection-patterns";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -177,6 +178,7 @@ export const usmleNotes: KypUsMLENote[] = [
   autoantibodies,
   bCellImmunodeficiencies,
   tCellPhagocyteImmunodeficiencies,
+  immunodeficiencyInfectionPatterns,
   cranialNerves,
   diabetesMellitus,
 ];

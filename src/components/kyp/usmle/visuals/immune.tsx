@@ -2972,3 +2972,106 @@ export function ImmunodeficiencySpectrumMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E38 — Infections in immunodeficiency: the bug-pattern matrix
+// (source: "Infections in immunodeficiency", pdf 138 / book 116 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function BugPatternMatrix() {
+  const w = 980;
+  const h = 660;
+  const cols = [
+    { name: "↓ T CELLS", x: 156, w: 196, color: "fill-warning-soft", logic: "CTLs + macrophage activation are the intracellular arm" },
+    { name: "↓ B CELLS", x: 356, w: 196, color: "fill-brand-soft", logic: "Opsonizing IgG vs capsules" },
+    { name: "↓ GRANULOCYTES", x: 556, w: 196, color: "fill-emergency/10", logic: "Phagocytes eat granule-negative/catalase-positive set" },
+    { name: "↓ COMPLEMENT", x: 756, w: 196, color: "fill-primary/15", logic: "MAC + C3b opsonin" },
+  ];
+  const rows = [
+    {
+      name: "BACTERIA", y: 130, h: 230,
+      cells: [
+        ["Sepsis"],
+        ["Encapsulated organisms:", "Pseudomonas aeruginosa,", "S pneumoniae, H influenzae", "type b, N meningitidis,", "E coli, Salmonella,", "Klebsiella pneumoniae,", "group B Streptococcus"],
+        ["Staphylococcus,", "Burkholderia cepacia,", "Pseudomonas aeruginosa,", "Nocardia, Serratia —", "the catalase-positive set", "of E32's CGD logic"],
+        ["Encapsulated species with", "EARLY complement", "deficiencies;", "Neisseria with LATE", "(C5-C9) deficiencies"],
+      ],
+    },
+    {
+      name: "VIRUSES", y: 364, h: 90,
+      cells: [
+        ["CMV, EBV, JC virus, VZV,", "chronic infection with", "respiratory/GI viruses"],
+        ["Enteroviral encephalitis,", "poliovirus (live vaccine", "contraindicated)"],
+        ["N/A"],
+        ["N/A"],
+      ],
+    },
+    {
+      name: "FUNGI/", y: 458, h: 90,
+      cells2: true,
+      cells: [
+        ["Candida (local), PCP,", "Cryptococcus"],
+        ["GI giardiasis (no IgA)"],
+        ["Candida (systemic),", "Aspergillus, Mucor"],
+        ["N/A"],
+      ],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Infections in immunodeficiency, an original KYP matrix of pathogen rows (Bacteria, Viruses, Fungi and parasites) against four deficient components (low T cells, low B cells, low granulocytes, low complement). Bacteria: low T cells — sepsis; low B cells — encapsulated organisms (Pseudomonas aeruginosa, Streptococcus pneumoniae, Haemophilus influenzae type b, Neisseria meningitidis, Escherichia coli, Salmonella, Klebsiella pneumoniae, group B Streptococcus); low granulocytes — Staphylococcus, Burkholderia cepacia, Pseudomonas aeruginosa, Nocardia, Serratia; low complement — encapsulated species with early complement deficiencies, Neisseria with late C5-C9 deficiencies. Viruses: low T cells — CMV, EBV, JC virus, VZV, chronic respiratory and GI viruses; low B cells — enteroviral encephalitis and poliovirus (live vaccine contraindicated); granulocytes and complement — not applicable. Fungi and parasites: low T cells — Candida local, PCP, Cryptococcus; low B cells — GI giardiasis (no IgA); low granulocytes — Candida systemic, Aspergillus, Mucor; complement — not applicable. Bottom: B-cell deficiencies tend to produce recurrent bacterial infections whereas T-cell deficiencies produce more fungal and viral infections; and the column logic — T cells run the intracellular arm, B cells opsonize capsules, granulocytes phagocytose, complement fixes and lyses" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Infections in immunodeficiency — the bug-pattern matrix (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the layer names the bugs</text>
+      </g>
+
+      {/* column headers */}
+      <g>
+        <rect x="36" y="76" width="112" height="42" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="92" y="101" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">PATHOGEN</text>
+        {cols.map((c) => (
+          <g key={c.name}>
+            <rect x={c.x} y="76" width={c.w} height="42" rx="9" className={`${c.color} stroke-border`} strokeWidth="1.2" />
+            <text x={c.x + c.w / 2} y="101" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">{c.name}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* rows */}
+      {rows.map((r) => (
+        <g key={r.name}>
+          <rect x="36" y={r.y} width="112" height={r.h} rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="92" y={r.y + r.h / 2 - (r.cells2 ? 6 : 12)} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.name.split(" ")[0]}</text>
+          <text x="92" y={r.y + r.h / 2 + 2} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.name.split(" ").slice(1).join(" ")}</text>
+          {r.cells.map((cell, i) => (
+            <g key={i}>
+              <rect x={cols[i].x} y={r.y} width={cols[i].w} height={r.h} rx="9" className={cell[0] === "N/A" ? "fill-secondary/40" : "fill-card"} stroke="currentColor" strokeWidth="0.8" />
+              {cell[0] === "N/A" ? (
+                <text x={cols[i].x + cols[i].w / 2} y={r.y + r.h / 2 + 3} textAnchor="middle" fontSize="8" fontWeight="700" className="fill-muted-foreground/60">N/A</text>
+              ) : (
+                cell.map((line, j) => (
+                  <text key={j} x={cols[i].x + 12} y={r.y + 18 + j * 12} fontSize="6.2" className="fill-muted-foreground">{line}</text>
+                ))
+              )}
+            </g>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom strip: the printed note + column logic */}
+      <g>
+        <rect x="36" y="558" width="908" height="68" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="580" fontSize="7.8" fontWeight="800" className="fill-foreground">THE PRINTED RULE + THE COLUMN LOGIC (why each layer opens its own door)</text>
+        <text x="54" y="596" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">B-cell deficiencies → recurrent BACTERIAL infections; T-cell deficiencies → more FUNGAL and VIRAL infections (the printed note).</text>
+        {cols.map((c, i) => (
+          <text key={c.name} x={54 + i * 226} y="614" fontSize="5.8" className="fill-muted-foreground">{c.name}: {c.logic.slice(0, 34)}</text>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="648" fontSize="7.2" className="fill-muted-foreground">Original KYP matrix (pdf 138 / book 116 — the printed table is pure vector; FA's printed mnemonics 'Please SHINE my SKiS' and the granule-set phrase are NOT reproduced here — see the note's verbatim table). Verbatim cell text is the note's table block.</text>
+    </svg>
+  );
+}

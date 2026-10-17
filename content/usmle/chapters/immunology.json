@@ -1416,8 +1416,37 @@
         "bug-pattern-matrix"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The back-conversion: given the organism pattern, name the immune defect — encapsulated bacteria (B-cell/complement/splenectomy), intracellular bacteria/fungi/parasites (T-cell/phagocyte), viruses (T-cell), Giardia/Cryptosporidium/Campylobacter (IgA/B-cell), Pseudomonas/Aspergillus (neutropenia/phagocyte), Staph aureus/catalase+ (CGD), Serratia/Pseudomonas without pus (LAD)."
+      "status": "complete",
+      "productionRationale": "The back-conversion: given the organism pattern, name the immune defect — encapsulated bacteria (B-cell/complement/splenectomy), intracellular bacteria/fungi/parasites (T-cell/phagocyte), viruses (T-cell), Giardia/Cryptosporidium/Campylobacter (IgA/B-cell), Pseudomonas/Aspergillus (neutropenia/phagocyte), Staph aureus/catalase+ (CGD), Serratia/Pseudomonas without pus (LAD).",
+      "textbookVisuals": [
+        {
+          "visualId": "immunodeficiency-infection-patterns-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              138
+            ],
+            "bookPages": "116"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Infections in immunodeficiency — the 3x4 matrix",
+          "sourceFigureDescription": "A matrix table: PATHOGEN rows (Bacteria, Viruses, Fungi/parasites) crossed with four deficiency columns (↓T CELLS, ↓B CELLS, ↓GRANULOCYTES, ↓COMPLEMENT), each cell listing its organisms (encapsulated list with the printed mnemonic under ↓B cells; the granule-negative set under ↓granulocytes; encapsulated-early/Neisseria-late under ↓complement; viral and fungal entries under ↓T cells; enteroviral encephalitis/poliovirus under ↓B cells; N/A cells for granulocyte/complement viruses and complement fungi), closed by the printed note contrasting B-cell and T-cell deficiency patterns.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "immunodeficiency-infection-patterns",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Infections in immunodeficiency — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "transplant-rejection",
@@ -1506,7 +1535,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 4,
+  "pendingTopicCount": 3,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

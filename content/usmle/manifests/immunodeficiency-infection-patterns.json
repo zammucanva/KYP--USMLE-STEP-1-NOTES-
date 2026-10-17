@@ -1,0 +1,286 @@
+{
+  "topicId": "immunodeficiency-infection-patterns",
+  "title": "Infections in Immunodeficiency: The Bug-Pattern Matrix",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      138
+    ],
+    "bookPages": "116"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Infections in immunodeficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers (leading four)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "PATHOGEN\n↓ T CELLS\n↓ B CELLS\n↓ GRANULOCYTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bacteria row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bacteria — T-cell entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Sepsis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bacteria — B-cell entry: encapsulated mnemonic (FA phrase, quoted for verification; carried verbatim in the note's table block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Encapsulated (Please\nSHINE my SKiS):",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bacteria — B-cell encapsulated list",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Pseudomonas\naeruginosa,\nStreptococcus\npneumoniae,\nHaemophilus\nInfluenzae type b,\nNeisseria\nmeningitidis,\nEscherichia coli,\nSalmonella,\nKlebsiella\npneumoniae,\ngroup B\nStreptococcus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bacteria — granulocyte mnemonic + complement entries + organism list (full physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Some Bacteria\nEncapsulated\nProduce No\nspecies with early\nSerious granules:\ncomplement\nStaphylococcus,\ndeficiencies\nBurkholderia cepacia, Neisseria with late\nPseudomonas\ncomplement (C5-C9)\naeruginosa, Nocardia,\ndeficiencies\nSerratia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viruses row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viruses — T-cell entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "CMV, EBV, JC\nvirus, VZV, chronic\ninfection with\nrespiratory/GI viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viruses — B-cell entry + vaccine warning",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Enteroviral\nencephalitis,\npoliovirus\n(live vaccine\ncontraindicated)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fungi/parasites row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Fungi/parasites",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fungi — T-cell entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Candida (local), PCP,\nCryptococcus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fungi — B-cell entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "GI giardiasis (no IgA)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fungi — granulocyte entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Candida (systemic),\nAspergillus, Mucor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed summary rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "Note: B-cell deficiencies tend to produce recurrent bacterial infections, whereas T-cell deficiencies produce more fungal and\nviral infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table header (bottom column — ↓COMPLEMENT sits at the page bottom in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          138
+        ],
+        "bookPages": "116"
+      },
+      "quote": "↓ COMPLEMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "bug-pattern-matrix"
+  ],
+  "mechanismIds": [
+    "layer-logic-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the matrix; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "column-logic-model",
+      "summary": "The column-logic reading (each layer owns a pathogen niche: T cells = the intracellular arm; B cells = opsonizing IgG + IgA + neutralizing antibody; granulocytes = the catalase-positive set + systemic molds; complement split at the cascade waist into encapsulated-above and Neisseria-below) with the N/A cells as negative information, plus the prophylaxis/vaccine bridge.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the matrix without the per-column mechanism logic or the management bridge; these integrations are KYP's design. Prophylaxis specifics are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages on p138 returns ZERO images — pure vector/table page; cell contents were resolved by a 200-DPI VLM read BEFORE quoting (the pdftotext interleave scrambles the column assignments; the VLM census established them). One original KYP registry visual (bug-pattern-matrix) renders the 3x4 grid with organism lists, N/A cells, the printed rule, and the column-logic strip. MNEMONIC HANDLING (E22 table-note pattern + E22 mnemonic rule, reconciled): FA's two printed bacteria-row phrases ('Please SHINE my SKiS'; 'Some Bacteria Produce No Serious granules') are quoted in manifest evidence and carried VERBATIM in the note's verbatim table block (the table block reproduces the source's own table text, as all verbatim table blocks do — E20/E21/E22/E28 precedent), while the REGISTRY VISUAL omits them and the mnemonics field carries KYP originals. This is the established distinction: verbatim table blocks preserve source text; original visuals and the mnemonics field do not reproduce FA mnemonic phrases.",
+  "updatedAt": "2026-10-17"
+}
