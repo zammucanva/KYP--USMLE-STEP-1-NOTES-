@@ -117,6 +117,7 @@ import {
   AntibodyAnatomy,
   IsotypeComparisonTable,
   ComplementCascadeMap,
+  ComplementDeficiencyMap,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -269,4 +270,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "antibody-anatomy": AntibodyAnatomy,
   "isotype-comparison-table": IsotypeComparisonTable,
   "complement-cascade-map": ComplementCascadeMap,
+  "complement-deficiency-map": ComplementDeficiencyMap,
 };

@@ -39,6 +39,7 @@ import { lymphocyteActivationTolerance } from "./lymphocyte-activation-tolerance
 import { antibodyStructure } from "./antibody-structure";
 import { immunoglobulinIsotypes } from "./immunoglobulin-isotypes";
 import { complementPathways } from "./complement-pathways";
+import { complementDisorders } from "./complement-disorders";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -161,6 +162,7 @@ export const usmleNotes: KypUsMLENote[] = [
   antibodyStructure,
   immunoglobulinIsotypes,
   complementPathways,
+  complementDisorders,
   cranialNerves,
   diabetesMellitus,
 ];

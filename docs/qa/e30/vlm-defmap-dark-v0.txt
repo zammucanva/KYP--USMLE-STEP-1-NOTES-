@@ -1,0 +1,15 @@
+**Paint QA Report: Complement Deficiency Map (Dark Mode)**
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **PASS**
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   **PASS**
+
+**(C) Arrows/lines crossing through text:**
+*   **DEFECT:** The red arrow originating from the "Complement-mediated hemolysis" box and pointing to the "INTRAVASCULAR" card crosses directly through the text "hemolysis → RBC lysis" inside the source box. (Location: Center of the PNH mechanism chain).
+
+**(D) Illegible low-contrast text:**
+*   **PASS**
+
+**Verdict: DEFECTS FOUND**

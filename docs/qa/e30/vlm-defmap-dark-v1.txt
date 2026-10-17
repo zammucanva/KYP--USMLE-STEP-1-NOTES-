@@ -1,0 +1,14 @@
+**Paint QA Report: Complement Deficiency Map (Dark Mode, Rev 1)**
+
+*   **(A) Overlapping labels / text-on-text collisions:** PASS
+    *   All text elements within the "EARLY", "TERMINAL", and "C1 INHIBITOR" cards are well-spaced.
+    *   The "COMPLEMENT PATHWAY TESTING" section has clear separation between headers and body text.
+    *   The "PAROXYSMAL NOCTURNAL HEMOGLOBINURIA" (PNH) panel shows no overlapping text. The two destination cards ("EXTRAVASCULAR" and "INTRAVASCULAR") are positioned to avoid collision.
+*   **(B) Text clipped:** PASS
+    *   No text appears to be cut off by the boundaries of its container boxes or the edges of the SVG canvas.
+*   **(C) Arrows/lines crossing through text:** PASS
+    *   The revised branch arrows originating from the "Complement-mediated" box correctly terminate at the left edge of the hemolysis-route cards without intersecting any text labels.
+*   **(D) Illegible low-contrast text:** PASS
+    *   The color palette (white/cyan text on dark backgrounds) provides high contrast. The red text for "INTRAVASCULAR" remains clearly legible against the dark red background.
+
+Verdict: CLEAN

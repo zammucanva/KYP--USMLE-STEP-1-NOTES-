@@ -2099,3 +2099,170 @@ export function ComplementCascadeMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E30 — Complement disorders: deficiency map + pathway testing + PNH
+// (source: "Complement disorders", pdf 127 / book 105 — one 194x185 urine-photo raster)
+// ---------------------------------------------------------------------------
+
+export function ComplementDeficiencyMap() {
+  const w = 980;
+  const h = 650;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Complement disorders, an original KYP map. Top row of three deficiency cards. Early complement deficiencies C1-C4: increased risk of severe, recurrent pyogenic sinus and respiratory tract infections, and increased SLE risk because C3b is used in the clearance of antigen-antibody complexes. Terminal complement deficiencies C5-C9: increased susceptibility to recurrent Neisseria bacteremia. C1 inhibitor deficiency: hereditary angioedema from unregulated kallikrein activation raising bradykinin, low C4, ACE inhibitors contraindicated, treated with ecallantide (kallikrein inhibitor) or icatibant (bradykinin-B2 receptor antagonist). Middle row: complement pathway testing — CH50 tests the classical pathway (C1, C2, C4), low in SLE, immune complex diseases, and C2/C4 deficiency; AH50 tests the alternative pathway (factor D, B, properdin), low in properdin and factor D/B deficiency and Neisseria infections; CH50 plus AH50 together test the common and terminal pathways (C3, C5-C9), low in terminal pathway defect or complement consumption such as sepsis or autoimmune disease. Bottom panel: paroxysmal nocturnal hemoglobinuria — an acquired PIGA gene mutation reduces GPI anchors, losing CD55 (DAF) and CD59 (MIRL), causing complement-mediated intravascular hemolysis with or without extravascular hemolysis; loss of CD59 removes the MAC brake (intravascular hemolysis, the major route), loss of CD55 increases C3b opsonization (extravascular hemolysis, minor, reticuloendothelial clearance); labs show low haptoglobin, hemoglobinuria, and hemosiderinuria with dark urine often in the morning; the triad is hemolytic anemia, pancytopenia, and atypical venous thrombosis such as Budd-Chiari, portal, cerebral, or dermal; treatment is eculizumab (anti-C5, blocks terminal complement, prevents intravascular hemolysis only) with proximal complement inhibitors (anti-C3, investigational) possibly reducing extravascular hemolysis" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Complement disorders — the deficiency map (original KYP diagram)</text>
+        <rect x="750" y="24" width="182" height="18" rx="9" className="fill-brand-soft" />
+        <text x="841" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">which fragment failed?</text>
+      </g>
+
+      {/* ===== row 1: three deficiency cards ===== */}
+      {[
+        {
+          x: 36, name: "EARLY (C1-C4)", color: "fill-brand-soft", stroke: "stroke-brand",
+          lines: [
+            "↑ risk of severe, recurrent pyogenic",
+            "sinus and respiratory tract infections.",
+            "C3b is used in clearance of antigen-",
+            "antibody complexes → ↑ risk of SLE",
+            "(the immune-complex price of early loss).",
+          ],
+        },
+        {
+          x: 356, name: "TERMINAL (C5-C9)", color: "fill-emergency/10", stroke: "stroke-emergency",
+          lines: [
+            "↑ susceptibility to recurrent",
+            "Neisseria bacteremia.",
+            "Opsonization intact — the pore is the",
+            "only loss, so Neisseria is the sentinel",
+            "organism (its clearance needs MAC).",
+          ],
+        },
+        {
+          x: 676, name: "C1 INHIBITOR", color: "fill-warning-soft", stroke: "stroke-warning",
+          lines: [
+            "Hereditary angioedema: unregulated",
+            "kallikrein activation → ↑ bradykinin.",
+            "Characterized by ↓ C4 levels.",
+            "ACE inhibitors contraindicated",
+            "(they also ↑ bradykinin).",
+          ],
+        },
+      ].map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="76" width="268" height="124" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x={c.x} y="76" width="268" height="28" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + 134} y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">{c.name}</text>
+          {c.lines.map((line, j) => (
+            <text key={j} x={c.x + 14} y={120 + j * 13} fontSize="6.5" className="fill-muted-foreground">{line}</text>
+          ))}
+        </g>
+      ))}
+      {/* C1-INH treatment strip */}
+      <g>
+        <rect x="676" y="204" width="268" height="24" rx="8" className="fill-secondary" />
+        <text x="810" y="220" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">Rx: ecallantide (kallikrein inhibitor) · icatibant (B2 antagonist)</text>
+      </g>
+
+      {/* ===== row 2: pathway testing ===== */}
+      <g>
+        <rect x="36" y="244" width="908" height="110" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+        <text x="54" y="268" fontSize="8.6" fontWeight="800" className="fill-foreground">COMPLEMENT PATHWAY TESTING — which assay, which pathway, what a low value means</text>
+        {[
+          [54, "CH50 — CLASSICAL", "reads C1, C2, C4", "↓ in SLE, immune complex diseases,", "C2/C4 deficiency"],
+          [360, "AH50 — ALTERNATIVE", "reads factor D, B, properdin", "↓ in properdin, factor D/B deficiency,", "Neisseria infections"],
+          [662, "CH50 + AH50 — TOGETHER", "read C3, C5-C9 (common/terminal)", "↓ in terminal pathway defect (C5-C9) or", "complement consumption (sepsis, autoimmune)"],
+        ].map(([x, t, r, l1, l2]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="282" width="286" height="60" rx="9" className="fill-secondary" />
+            <text x={(x as number) + 14} y="300" fontSize="7.4" fontWeight="800" className="fill-brand">{t}</text>
+            <text x={(x as number) + 14} y="313" fontSize="6.4" className="fill-muted-foreground">{r}</text>
+            <text x={(x as number) + 14} y="326" fontSize="6.4" className="fill-muted-foreground">{l1}</text>
+            <text x={(x as number) + 14} y="336" fontSize="6.4" className="fill-muted-foreground">{l2}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== row 3: PNH panel ===== */}
+      <g>
+        <rect x="36" y="370" width="908" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="370" width="908" height="30" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.3" />
+        <text x="490" y="390" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">PAROXYSMAL NOCTURNAL HEMOGLOBINURIA — the regulatory failure on RBCs</text>
+
+        {/* mechanism chain */}
+        <g>
+          {[
+            [54, "Acquired PIGA", "gene mutation"],
+            [186, "↓ GPI anchors", "(the membrane hook)"],
+            [318, "Loss of CD55 (DAF)", "and CD59 (MIRL)"],
+            [464, "Complement-mediated", "hemolysis of RBCs"],
+          ].map(([x, t, s], i, arr) => (
+            <g key={t as string}>
+              <rect x={x as number} y="412" width="118" height="42" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+              <text x={(x as number) + 59} y="430" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">{t}</text>
+              <text x={(x as number) + 59} y="441" textAnchor="middle" fontSize="6" className="fill-muted-foreground">{s}</text>
+              {i < arr.length - 1 && (
+                <path d={`M ${(x as number) + 119} 433 L ${(x as number) + 131} 433`} stroke="currentColor" className="text-border" strokeWidth="1.6" />
+              )}
+            </g>
+          ))}
+          {/* two hemolysis routes (origins at the last chain box's right edge, x=584) */}
+          <path d="M 584 442 C 596 448, 602 451, 606 452" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="1.6" />
+          <path d="M 602 447 L 612 452 L 603 458 Z" className="fill-emergency" />
+          <path d="M 584 424 C 596 418, 602 414, 606 412" fill="none" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+          <path d="M 603 407 L 612 412 L 603 417 Z" className="fill-brand" />
+          <g>
+            <rect x="610" y="392" width="320" height="34" rx="8" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.1" />
+            <text x="622" y="406" fontSize="6.4" fontWeight="800" className="fill-brand">EXTRAVASCULAR (minor) — CD55 loss:</text>
+            <text x="622" y="417" fontSize="6.2" className="fill-muted-foreground">↑ C3b opsonization → RES (reticuloendothelial) RBC clearance</text>
+          </g>
+          <g>
+            <rect x="610" y="436" width="320" height="34" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.1" />
+            <text x="622" y="450" fontSize="6.4" fontWeight="800" className="fill-emergency">INTRAVASCULAR (major) — CD59 loss:</text>
+            <text x="622" y="461" fontSize="6.2" className="fill-muted-foreground">uninhibited MAC formation → intravascular hemolysis</text>
+          </g>
+        </g>
+
+        {/* labs + triad + treatment */}
+        <g>
+          <rect x="54" y="470" width="280" height="104" rx="9" className="fill-secondary" />
+          <text x="68" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">LABS</text>
+          <text x="68" y="506" fontSize="6.4" className="fill-muted-foreground">Complement-mediated hemolysis →</text>
+          <text x="68" y="517" fontSize="6.4" className="fill-muted-foreground">↓ haptoglobin · hemoglobinuria ·</text>
+          <text x="68" y="528" fontSize="6.4" className="fill-muted-foreground">hemosiderinuria — dark urine, often</text>
+          <text x="68" y="539" fontSize="6.4" className="fill-muted-foreground">in the morning (concentrated overnight)</text>
+          <text x="68" y="560" fontSize="6.4" fontWeight="700" className="fill-muted-foreground/80">Flow cytometry (CD55/CD59 absence) is</text>
+          <text x="68" y="570" fontSize="6.4" fontWeight="700" className="fill-muted-foreground/80">the modern confirmatory test (KYP bridge)</text>
+        </g>
+        <g>
+          <rect x="348" y="470" width="280" height="104" rx="9" className="fill-secondary" />
+          <text x="362" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">THE TRIAD</text>
+          {[
+            "1 · Hemolytic anemia",
+            "2 · Pancytopenia",
+            "3 · Atypical venous thrombosis",
+          ].map((t, i) => (
+            <text key={t} x="362" y={508 + i * 16} fontSize="6.6" fontWeight="700" className="fill-foreground">{t}</text>
+          ))}
+          <text x="362" y="560" fontSize="6.2" className="fill-muted-foreground">eg, Budd-Chiari, portal, cerebral,</text>
+          <text x="362" y="570" fontSize="6.2" className="fill-muted-foreground">dermal thromboses</text>
+        </g>
+        <g>
+          <rect x="642" y="470" width="288" height="104" rx="9" className="fill-secondary" />
+          <text x="656" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">TREATMENT</text>
+          <text x="656" y="508" fontSize="6.4" fontWeight="700" className="fill-foreground">Eculizumab (anti-C5 antibody)</text>
+          <text x="656" y="519" fontSize="6.2" className="fill-muted-foreground">blocks terminal complement — prevents</text>
+          <text x="656" y="529" fontSize="6.2" className="fill-muted-foreground">INTRAVASCULAR hemolysis only</text>
+          <text x="656" y="546" fontSize="6.4" fontWeight="700" className="fill-foreground">Proximal complement inhibitors</text>
+          <text x="656" y="557" fontSize="6.2" className="fill-muted-foreground">(eg, anti-C3, investigational) — may</text>
+          <text x="656" y="567" fontSize="6.2" className="fill-muted-foreground">reduce EXTRAVASCULAR hemolysis</text>
+        </g>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="636" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 127 / book 105 — the printed page's urine photograph is copyrighted and is described, never reproduced; FA's printed 'CAT' testing mnemonic is not reproduced). Verbatim deficiency, testing, and PNH text in the note's table and mechanisms.</text>
+    </svg>
+  );
+}

@@ -1,0 +1,67 @@
+{
+  "topicId": "complement-disorders",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "complement-disorders-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          127
+        ],
+        "bookPages": "105"
+      },
+      "chapterId": "immunology",
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Dark-urine clinical photograph (figure A)",
+      "sourceFigureDescription": "A clinical photograph of a urine specimen (labeled 'A' on the printed page) demonstrating the dark urine of intravascular hemolysis — often most evident in the concentrated first-morning specimen in PNH.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "complement-disorders",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "complement-deficiency-map",
+      "kypImplementation": "described-in-text",
+      "qaStatus": "passed",
+      "kypLocation": "described in the registry visual's PNH labs card + note callout — never reproduced"
+    },
+    {
+      "visualId": "complement-disorders-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          127
+        ],
+        "bookPages": "105"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Complement disorders — the deficiency/testing text roster",
+      "sourceFigureDescription": "Text sections: Early complement deficiencies (C1-C4); Terminal complement deficiencies (C5-C9); Complement regulatory protein deficiencies (C1 inhibitor deficiency; Paroxysmal nocturnal hemoglobinuria with treatment); Complement pathway testing (CH50, AH50, CH50+AH50).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "complement-disorders",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Complement disorders — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "complement-disorders",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: one content raster (the 194x185 urine photograph, figure A) — COPYRIGHTED, conveyed as a DESCRIPTION in the original KYP registry visual's labs card and the note text (never reproduced; ORIGINAL_KYP_DESCRIPTION implementation type). The text roster is the note's verbatim table block. The registry visual (complement-deficiency-map) is an original KYP teaching diagram consolidating all printed sections."
+}

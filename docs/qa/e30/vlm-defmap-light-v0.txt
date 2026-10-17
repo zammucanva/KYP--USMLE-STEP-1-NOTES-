@@ -1,0 +1,15 @@
+**Paint QA Report: Complement Deficiency Map**
+
+**(A) Overlapping labels or text-on-text collisions:**
+- **DEFECT:** The arrow connecting "Complement-mediated hemolysis (of RBCs)" to the PNH mechanism cards crosses directly through the text of the "INTRAVASCULAR (major) — CD59 loss" card. Location: Center of the diagram, within the red-bordered PNH section.
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+- **PASS**
+
+**(C) Arrows/lines crossing through text:**
+- **DEFECT:** As noted in category (A), the red arrow line intersects with the text inside the lower pink mechanism box. Location: Between the central mechanism chain and the right-hand PNH sub-cards.
+
+**(D) Illegible low-contrast text:**
+- **PASS**
+
+Verdict: DEFECTS FOUND
