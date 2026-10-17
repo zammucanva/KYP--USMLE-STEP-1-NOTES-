@@ -123,6 +123,7 @@ import {
   CdMarkerMap,
   VaccineTypeSpectrum,
   BCellDeficiencyMap,
+  ImmunodeficiencySpectrumMap,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -281,4 +282,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "cd-marker-map": CdMarkerMap,
   "vaccine-type-spectrum": VaccineTypeSpectrum,
   "b-cell-deficiency-map": BCellDeficiencyMap,
+  "immunodeficiency-spectrum-map": ImmunodeficiencySpectrumMap,
 };

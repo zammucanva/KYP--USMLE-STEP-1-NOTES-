@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T19:57:12Z",
+  "generatedAt": "2026-10-17T20:03:32Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 82,
+    "topicsProduced": 83,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 28,
+      "pilot-complete": 29,
       "chapter-complete": 54,
       "blocked": 0,
       "failed": 0
@@ -296,8 +296,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 24,
-      "topicsProduced": 19,
-      "topicsRemaining": 5,
+      "topicsProduced": 20,
+      "topicsRemaining": 4,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1447,6 +1447,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 122 (book 100)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "t-cell-phagocyte-immunodeficiencies",
+      "title": "T-Cell, Combined & Phagocyte Immunodeficiencies",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Immune Responses",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 136, 137 (book 114–115)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 2,

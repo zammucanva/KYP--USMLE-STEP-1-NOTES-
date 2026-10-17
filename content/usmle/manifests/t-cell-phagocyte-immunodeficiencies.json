@@ -1,0 +1,535 @@
+{
+  "topicId": "t-cell-phagocyte-immunodeficiencies",
+  "title": "T-Cell, Combined & Phagocyte Immunodeficiencies",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      136,
+      137
+    ],
+    "bookPages": "114–115"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Zone heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "T-cell disorders",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DiGeorge — disease label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Thymic aplasia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DiGeorge — defect (22q11, pouches)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "22q11 microdeletion; failure\nto develop 3rd and 4th\npharyngeal pouches →\nabsent thymus and parathyroids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DiGeorge — syndrome names",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "DiGeorge syndrome—thymic,\nparathyroid, cardiac defects\nVelocardiofacial syndrome—\npalate, facial, cardiac defects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DiGeorge — CATCH-22 presentation (FA mnemonic quoted for verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "CATCH-22: Cardiac defects\n(conotruncal abnormalities\n[eg, tetralogy of Fallot, truncus\narteriosus]), Abnormal facies,\nThymic hypoplasia → T-cell\ndeficiency (recurrent viral/\nfungal infections), Cleft\npalate, Hypocalcemia 2° to\nparathyroid aplasia → tetany",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DiGeorge — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↓ T cells, ↓ PTH, ↓ Ca2+\nThymic shadow absent on\nCXR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-12R deficiency — defect + presentation + findings + MSMD (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↓ Th1 response; autosomal\nrecessive\nDisseminated mycobacterial\n↓ IFN-γ\nand fungal infections; may\nMost common cause of\npresent after administration of\nMendelian susceptibility\nBCG vaccine\nto mycobacterial diseases\n(MSMD)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Job syndrome — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Deficiency of Th17 cells due to\nSTAT3 mutation → impaired\nrecruitment of neutrophils to\nsites of infection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Job syndrome — ABCDEF presentation (FA mnemonic quoted for verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Cold (noninflamed)\nstaphylococcal Abscesses,\nretained Baby teeth, Coarse\nfacies, Dermatologic problems\n(eczema), ↑ IgE, bone\nFractures from minor trauma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Job syndrome — findings + FA tag (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "↑ IgE\n↑ eosinophils\nLearn the ABCDEF’s to get a\nJob STAT!",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic mucocutaneous candidiasis — defect (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "T-cell dysfunction\nImpaired cell-mediated\nimmunity against Candida sp\nClassic form caused by defects\nin AIRE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic mucocutaneous candidiasis — presentation + findings (physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          136
+        ],
+        "bookPages": "114"
+      },
+      "quote": "Persistent noninvasive Candida Absent in vitro T-cell\nalbicans infections of skin and\nproliferation in response to\nmucous membranes\nCandida antigens\nAbsent cutaneous reaction to\nCandida antigens",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Continued heading + table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Immunodeficiencies (continued)\nDISEASE\nDEFECT\nPRESENTATION\nFINDINGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zone heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "B- and T-cell disorders",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SCID — genotypes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Several types including\ndefective IL-2R gamma\nchain (most common,\nX-linked recessive); adenosine\ndeaminase deficiency\n(autosomal recessive);\nRAG mutation → VDJ\nrecombination defect",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SCID — presentation (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Failure to thrive, chronic\ndiarrhea, thrush\nRecurrent viral, bacterial,\nfungal, and protozoal\ninfections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SCID — findings (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "↓ T-cell receptor excision\ncircles (TRECs)\nPart of newborn screening for\nSCID\nAbsence of thymic shadow\n(CXR), germinal centers\n(lymph node biopsy), and\nT cells (flow cytometry)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ataxia-telangiectasia — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Defects in ATM gene → failure\nto detect DNA damage\n→ failure to halt progression\nof cell cycle → mutations\naccumulate; autosomal\nrecessive",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ataxia-telangiectasia — triad + radiation (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Triad: cerebellar defects\n(Ataxia), spider Angiomas\n(ocular and facial\ntelangiectasias A ), IgA\ndeficiency\n↑↑ sensitivity to radiation (limit\nx-ray exposure)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ataxia-telangiectasia — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "↑ AFP, IgM\n↓ IgA, IgG, and IgE\nLymphopenia, cerebellar\natrophy\n↑ risk of lymphoma and\nleukemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hyper-IgM — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Most commonly due to\ndefective CD40L on Th cells\n→ class switching defect;\nX-linked recessive",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hyper-IgM — presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Severe pyogenic infections\nearly in life; opportunistic\ninfection with Pneumocystis,\nCryptosporidium, CMV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hyper-IgM — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Normal or ↑ IgM\n↓↓ IgG, IgA, IgE\nFailure to make germinal\ncenters",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Wiskott-Aldrich — defect (interleave with WATER mnemonic, verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "WAS mutation; leukocytes and\nWATER: Wiskott-Aldrich:\nplatelets unable to reorganize\nThrombocytopenia, Eczema,\nactin cytoskeleton → defective\nRecurrent (pyogenic) infections\nantigen presentation; X-linked\n↑ risk of autoimmune disease\nrecessive\nand malignancy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Wiskott-Aldrich — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "↓ to normal IgG, IgM\n↑ IgE, IgA\nFewer and smaller platelets",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zone heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Phagocyte dysfunction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LAD-1 — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Autosomal recessive defect\nin LFA-1 integrin (CD18)\nprotein on phagocytes leads\nto impaired migration and\nchemotaxis by C5a, IL-8, and\nleukotriene B4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LAD-1 — presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Late separation (>30 days) of\numbilical cord, absent pus,\ndysfunctional neutrophils\n→ recurrent skin and\nmucosal bacterial infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LAD-1 — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "↑ neutrophils in blood\nAbsence of neutrophils at\ninfection sites → impaired\nwound healing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chédiak-Higashi — defect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Defect in lysosomal trafficking\nregulator gene (LYST)\nMicrotubule dysfunction in\nphagosome-lysosome fusion;\nautosomal recessive",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chédiak-Higashi — PLAIN presentation (FA mnemonic quoted for verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "PLAIN: Progressive\nneurodegeneration,\nLymphohistiocytosis,\nAlbinism (partial), recurrent\npyogenic Infections,\nperipheral Neuropathy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chédiak-Higashi — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Giant granules ( B , arrows) in\ngranulocytes and platelets\nPancytopenia\nMild coagulation defects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CGD — defect (interleave with FA tag, verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Defect of NADPH oxidase\n→ ↓ reactive oxygen\nspecies (eg, superoxide)\nand ↓ respiratory burst in\nneutrophils; X-linked form\nmost common",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CGD — presentation (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "↑ susceptibility to catalase ⊕\norganisms (granny’s cats keep\nher positive)\nRecurrent infections and\ngranulomas",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CGD — findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          137
+        ],
+        "bookPages": "115"
+      },
+      "quote": "Abnormal dihydrorhodamine\n(flow cytometry) test (↓ green\nfluorescence)\nNitroblue tetrazolium dye\nreduction test (obsolete) fails\nto turn blue",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "immunodeficiency-spectrum-map"
+  ],
+  "mechanismIds": [
+    "deficiency-layer-map",
+    "molecular-thread-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table rows; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "three-zone-layer-triage-model",
+      "summary": "The layer-triage model (opportunist pattern → T-cell zone; everything-recurrent → combined zone; delivery/fusion/burst signatures → phagocyte zone) plus the molecular-thread organization (the X-linked quartet IL-2Rγ/CD40L/WAS/oxidase; the cytoskeleton thread WAS-LAD; the DNA-sentinel thread ATM-AIRE; the signaling thread naming each missing lineage) and the management bridge (HSCT, prophylaxis, IFN-γ, live-vaccine avoidance).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists eleven diseases without the zone triage, the thread organization, or the management map; these integrations are KYP's design. Management specifics are labeled extension.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p137 carries TWO content rasters (188x123 + 150x133 cmyk jpegs = the telangiectasia clinical photograph [A] and the giant-granules blood smear [B]) — COPYRIGHTED, described in the visual and note text, never reproduced. p136's remaining block is pure vector. One original KYP registry visual (immunodeficiency-spectrum-map) renders the three zones as eleven compact cards plus the signpost-signature strip. MNEMONIC BOUNDARY (E22+ rule): FA's printed mnemonics (CATCH-22, Job's ABCDEF + 'get a Job STAT!', WATER, PLAIN, 'granny's cats') are quoted in manifest evidence for VERIFICATION ONLY — never in user-facing content; KYP originals replace them. Quoting note: the p136-137 table columns interleave — quotes follow physical line order. Boundary: the B-cell rows (Bruton, IgA deficiency, CVID) on p136 are owned by E36.",
+  "updatedAt": "2026-10-17"
+}

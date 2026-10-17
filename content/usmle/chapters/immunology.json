@@ -1304,8 +1304,94 @@
         "immunodeficiency-spectrum-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The cell-mediated failure spectrum: DiGeorge (22q11, thymic aplasia, T-cell lack), IL-12 receptor (mycobacteria), Job (STAT3, eczema/cold abscesses/candida), CMC (T-cell defect); combined — SCID (various, no T/B), ataxia-telangiectasia (ATM), hyper-IgM (CD40L, no class switching), Wiskott-Aldrich (WAS, thrombocytopenia+eczema+recurrent infections); phagocyte — LAD-1 (no rolling → no pus), Chédiak-Higashi (granule fusion), CGD (NADPH oxidase, catalase+ abscesses)."
+      "status": "complete",
+      "productionRationale": "The cell-mediated failure spectrum: DiGeorge (22q11, thymic aplasia, T-cell lack), IL-12 receptor (mycobacteria), Job (STAT3, eczema/cold abscesses/candida), CMC (T-cell defect); combined — SCID (various, no T/B), ataxia-telangiectasia (ATM), hyper-IgM (CD40L, no class switching), Wiskott-Aldrich (WAS, thrombocytopenia+eczema+recurrent infections); phagocyte — LAD-1 (no rolling → no pus), Chédiak-Higashi (granule fusion), CGD (NADPH oxidase, catalase+ abscesses).",
+      "textbookVisuals": [
+        {
+          "visualId": "t-cell-phagocyte-immunodeficiencies-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              136,
+              137
+            ],
+            "bookPages": "114–115"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Immunodeficiencies (continued) — the T-cell, combined, and phagocyte rows",
+          "sourceFigureDescription": "Rows of the printed table (DISEASE / DEFECT / PRESENTATION / FINDINGS): Thymic aplasia, IL-12 receptor deficiency, Autosomal dominant hyper-IgE (Job) syndrome, Chronic mucocutaneous candidiasis [T-cell disorders]; Severe combined immunodeficiency, Ataxia-telangiectasia, Hyper-IgM syndrome, Wiskott-Aldrich syndrome [B- and T-cell disorders]; Leukocyte adhesion deficiency (type 1), Chédiak-Higashi syndrome, Chronic granulomatous disease [Phagocyte dysfunction].",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "t-cell-phagocyte-immunodeficiencies",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] and blocks[2] — the two verbatim table blocks",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "t-cell-phagocyte-immunodeficiencies-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              136,
+              137
+            ],
+            "bookPages": "114–115"
+          },
+          "chapterId": "immunology",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "Ocular/facial telangiectasias (figure A) — ataxia-telangiectasia",
+          "sourceFigureDescription": "A clinical photograph (labeled 'A' on the printed page) showing the ocular and facial spider angiomas (telangiectasias) of ataxia-telangiectasia. 188x123 cmyk jpeg.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "t-cell-phagocyte-immunodeficiencies",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "immunodeficiency-spectrum-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described in the spectrum-map card and note text — never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "immunodeficiency-spectrum-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "visualId": "t-cell-phagocyte-immunodeficiencies-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              136,
+              137
+            ],
+            "bookPages": "114–115"
+          },
+          "chapterId": "immunology",
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Giant granules in granulocytes (figure B) — Chédiak-Higashi",
+          "sourceFigureDescription": "A peripheral blood smear photograph (labeled 'B, arrows' on the printed page) showing the giant granules in granulocytes of Chédiak-Higashi syndrome. 150x133 cmyk jpeg.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "t-cell-phagocyte-immunodeficiencies",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "immunodeficiency-spectrum-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described in the spectrum-map card and note text — never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "immunodeficiency-spectrum-map",
+          "plannedImplementation": "described-in-text"
+        }
+      ]
     },
     {
       "topicId": "immunodeficiency-infection-patterns",
@@ -1420,7 +1506,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 5,
+  "pendingTopicCount": 4,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

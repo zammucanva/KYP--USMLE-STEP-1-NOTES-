@@ -2871,3 +2871,104 @@ export function BCellDeficiencyMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E37 — T-cell, combined, and phagocyte immunodeficiencies: the spectrum map
+// (source: "Immunodeficiencies (continued)", pdf 136-137 / book 114-115)
+// ---------------------------------------------------------------------------
+
+export function ImmunodeficiencySpectrumMap() {
+  const w = 980;
+  const h = 720;
+  const zones = [
+    {
+      name: "T-CELL DISORDERS — cellular immunity fails", color: "fill-warning-soft", stroke: "stroke-warning", y: 76, hgt: 140,
+      cards: [
+        { n: "Thymic aplasia (DiGeorge)", d: "22q11 deletion; 3rd/4th pouches fail → absent thymus + parathyroids", p: "Conotruncal cardiac defects, cleft palate, tetany (↓Ca²⁺); recurrent viral/fungal", f: "↓ T cells, ↓ PTH, ↓ Ca²⁺; absent thymic shadow" },
+        { n: "IL-12 receptor deficiency", d: "↓ Th1 response (AR) — the MSMD archetype", p: "Disseminated mycobacterial + fungal infections; may follow BCG", f: "↓ IFN-γ" },
+        { n: "Hyper-IgE (Job) syndrome", d: "STAT3 mutation → Th17 deficiency → poor neutrophil recruitment (AD)", p: "COLD staphylococcal abscesses, coarse facies, retained baby teeth, eczema, fractures", f: "↑ IgE, ↑ eosinophils" },
+        { n: "Chronic mucocutaneous candidiasis", d: "T-cell dysfunction vs Candida; classic form = AIRE defects", p: "Persistent NONinvasive Candida of skin + mucous membranes", f: "Absent T-cell response to Candida antigens" },
+      ],
+    },
+    {
+      name: "B- AND T-CELL DISORDERS — combined failure", color: "fill-emergency/10", stroke: "stroke-emergency", y: 232, hgt: 160,
+      cards: [
+        { n: "Severe combined immunodeficiency (SCID)", d: "IL-2R γ chain (most common, XLR) · ADA deficiency (AR) · RAG → VDJ defect", p: "Failure to thrive, chronic diarrhea, thrush; recurrent viral, bacterial, fungal, protozoal", f: "↓ TRECs (newborn screen); absent thymic shadow, germinal centers, T cells" },
+        { n: "Ataxia-telangiectasia", d: "ATM defect → DNA damage undetected → mutations accumulate (AR)", p: "Ataxia, ocular/facial telangiectasias, IgA deficiency; radiation sensitivity", f: "↑ AFP, ↑ IgM; ↓ IgA/IgG/IgE; ↑ lymphoma/leukemia" },
+        { n: "Hyper-IgM syndrome", d: "Defective CD40L on Th cells → class switching fails (XLR)", p: "Severe pyogenic infections early; Pneumocystis, Cryptosporidium, CMV", f: "Normal/↑ IgM with ↓↓ IgG, IgA, IgE; no germinal centers" },
+        { n: "Wiskott-Aldrich syndrome", d: "WAS → actin cytoskeleton fails in leukocytes + platelets (XLR)", p: "Thrombocytopenia, eczema, recurrent pyogenic infections; autoimmunity, malignancy", f: "↓-normal IgG/IgM; ↑ IgE, IgA; FEWER, SMALLER platelets" },
+      ],
+    },
+    {
+      name: "PHAGOCYTE DYSFUNCTION — delivery or killing fails", color: "fill-brand-soft", stroke: "stroke-brand", y: 408, hgt: 152,
+      cards: [
+        { n: "Leukocyte adhesion deficiency (type 1)", d: "AR defect in LFA-1 integrin (CD18) → impaired migration/chemotaxis (C5a, IL-8, LTB4)", p: "Late cord separation (>30 days), ABSENT PUS, recurrent skin/mucosal bacterial infections", f: "↑ neutrophils in blood; NONE at infection sites; impaired wound healing" },
+        { n: "Chédiak-Higashi syndrome", d: "LYST defect → phagosome-lysosome fusion fails (AR)", p: "Partial albinism, progressive neurodegeneration, peripheral neuropathy, lymphohistiocytosis, pyogenic infections", f: "GIANT GRANULES in granulocytes + platelets; pancytopenia; coagulation defects" },
+        { n: "Chronic granulomatous disease", d: "NADPH oxidase defect → ↓ ROS/respiratory burst (X-linked most common)", p: "Catalase-POSITIVE organisms (S aureus, Aspergillus — E32); recurrent infections + granulomas", f: "Abnormal dihydrorhodamine (↓ green fluorescence); NBT fails to turn blue" },
+      ],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="T-cell, combined, and phagocyte immunodeficiencies, an original KYP spectrum map in three zones. T-cell disorders: thymic aplasia DiGeorge (22q11 deletion with absent thymus and parathyroids, conotruncal defects, cleft palate, hypocalcemia tetany, low T cells and PTH and calcium, absent thymic shadow); IL-12 receptor deficiency (low Th1, disseminated mycobacterial and fungal infections including after BCG, low IFN-gamma, the most common cause of Mendelian susceptibility to mycobacterial diseases); autosomal dominant hyper-IgE Job syndrome (STAT3 mutation, Th17 deficiency, impaired neutrophil recruitment, cold noninflamed staphylococcal abscesses, retained baby teeth, coarse facies, eczema, bone fractures, high IgE and eosinophils); chronic mucocutaneous candidiasis (T-cell dysfunction against Candida, classic form from AIRE defects, persistent noninvasive Candida of skin and mucous membranes). B- and T-cell disorders: severe combined immunodeficiency (IL-2R gamma chain most common X-linked, adenosine deaminase deficiency autosomal recessive, RAG VDJ recombination defect; failure to thrive, chronic diarrhea, thrush, recurrent viral bacterial fungal protozoal infections; low TRECs on newborn screening, absent thymic shadow, germinal centers, and T cells); ataxia-telangiectasia (ATM defect failing to detect DNA damage, ataxia, telangiectasias, IgA deficiency, radiation sensitivity, high AFP and IgM with low IgA IgG IgE, lymphoma and leukemia risk); hyper-IgM syndrome (defective CD40L, class switching defect, severe pyogenic and opportunistic infections, normal or high IgM with very low IgG IgA IgE, failure to make germinal centers); Wiskott-Aldrich syndrome (WAS mutation, actin cytoskeleton failure, thrombocytopenia, eczema, recurrent pyogenic infections, autoimmunity and malignancy risk, fewer and smaller platelets). Phagocyte dysfunction: leukocyte adhesion deficiency type 1 (LFA-1 integrin CD18 defect, impaired migration by C5a IL-8 leukotriene B4, late cord separation beyond 30 days, absent pus, high blood neutrophils absent at sites); Chediak-Higashi syndrome (LYST defect, phagosome-lysosome fusion failure, partial albinism, neurodegeneration, neuropathy, lymphohistiocytosis, giant granules in granulocytes and platelets, pancytopenia); chronic granulomatous disease (NADPH oxidase defect, catalase-positive organisms, granulomas, abnormal dihydrorhodamine test, nitroblue tetrazolium fails to turn blue)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The immunodeficiency spectrum — T, combined, and phagocyte zones (original KYP map)</text>
+        <rect x="784" y="24" width="148" height="18" rx="9" className="fill-brand-soft" />
+        <text x="858" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">which layer failed?</text>
+      </g>
+
+      {/* zones */}
+      {zones.map((z) => (
+        <g key={z.name}>
+          <rect x="36" y={z.y} width="908" height={z.hgt} rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x="36" y={z.y} width="908" height="26" rx="12" className={`${z.color} ${z.stroke}`} strokeWidth="1.3" />
+          <text x="490" y={z.y + 18} textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">{z.name}</text>
+          {z.cards.map((c, i) => {
+            const cw = z.cards.length === 4 ? 218 : 292;
+            const x = 48 + i * (cw + 10);
+            return (
+              <g key={c.n}>
+                <rect x={x} y={z.y + 34} width={cw} height={z.hgt - 44} rx="9" className="fill-secondary" />
+                <text x={x + 10} y={z.y + 48} fontSize="6.6" fontWeight="800" className="fill-foreground">{c.n}</text>
+                {[
+                  ["DEFECT", c.d],
+                  ["PRES", c.p],
+                  ["FIND", c.f],
+                ].map(([k, v], j) => (
+                  <g key={k as string}>
+                    <text x={x + 10} y={z.y + 60 + j * ((z.hgt - 76) / 3)} fontSize="5.6" fontWeight="800" className="fill-muted-foreground">{k}</text>
+                    {(v as string).match(/.{1,34}(\s|$)/g)!.slice(0, z.hgt > 150 ? 3 : 2).map((line, k2) => (
+                      <text key={k2} x={x + 10} y={z.y + 69 + j * ((z.hgt - 76) / 3) + k2 * 8} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+                    ))}
+                  </g>
+                ))}
+              </g>
+            );
+          })}
+        </g>
+      ))}
+
+      {/* bottom strip: exam signpost signatures */}
+      <g>
+        <rect x="36" y="576" width="908" height="94" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="598" fontSize="8.2" fontWeight="800" className="fill-foreground">SIGNPOST SIGNATURES — the one-liner that names the zone (KYP bridge)</text>
+        {[
+          [54, "Absent pus + late cord + neutrophilia", "= LAD-1 (delivery fails)"],
+          [286, "Cold abscesses + coarse facies + baby teeth", "= Job/STAT3 (recruitment fails)"],
+          [518, "Tetany + conotruncal + absent thymic shadow", "= DiGeorge (the school is absent)"],
+        ].map(([x, t, s]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="610" width="222" height="48" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+            <text x={(x as number) + 12} y="628" fontSize="6.2" fontWeight="700" className="fill-foreground">{t}</text>
+            <text x={(x as number) + 12} y="642" fontSize="6.4" fontWeight="800" className="fill-brand">{s}</text>
+          </g>
+        ))}
+        <text x="54" y="666" fontSize="6.4" className="fill-muted-foreground">Catalase-positive infections + granulomas = CGD (killing fails) · Thrush + diarrhea + failure to thrive + ↓TREC = SCID (both adaptive arms fail) · Small platelets + eczema = WAS.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="694" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 136-137 / book 114-115 — the printed table is pure vector; its two clinical micrographs [telangiectasias, giant granules] are copyrighted and described, never reproduced; FA's printed CATCH-22/ABCDEF/WATER/PLAIN mnemonics NOT reproduced). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}

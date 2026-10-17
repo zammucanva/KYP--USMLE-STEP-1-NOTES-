@@ -1,0 +1,94 @@
+{
+  "topicId": "t-cell-phagocyte-immunodeficiencies",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "t-cell-phagocyte-immunodeficiencies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136,
+          137
+        ],
+        "bookPages": "114–115"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Immunodeficiencies (continued) — the T-cell, combined, and phagocyte rows",
+      "sourceFigureDescription": "Rows of the printed table (DISEASE / DEFECT / PRESENTATION / FINDINGS): Thymic aplasia, IL-12 receptor deficiency, Autosomal dominant hyper-IgE (Job) syndrome, Chronic mucocutaneous candidiasis [T-cell disorders]; Severe combined immunodeficiency, Ataxia-telangiectasia, Hyper-IgM syndrome, Wiskott-Aldrich syndrome [B- and T-cell disorders]; Leukocyte adhesion deficiency (type 1), Chédiak-Higashi syndrome, Chronic granulomatous disease [Phagocyte dysfunction].",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "t-cell-phagocyte-immunodeficiencies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] and blocks[2] — the two verbatim table blocks"
+    },
+    {
+      "visualId": "t-cell-phagocyte-immunodeficiencies-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136,
+          137
+        ],
+        "bookPages": "114–115"
+      },
+      "chapterId": "immunology",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Ocular/facial telangiectasias (figure A) — ataxia-telangiectasia",
+      "sourceFigureDescription": "A clinical photograph (labeled 'A' on the printed page) showing the ocular and facial spider angiomas (telangiectasias) of ataxia-telangiectasia. 188x123 cmyk jpeg.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "t-cell-phagocyte-immunodeficiencies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "immunodeficiency-spectrum-map",
+      "kypImplementation": "described-in-text",
+      "qaStatus": "passed",
+      "kypLocation": "described in the spectrum-map card and note text — never reproduced"
+    },
+    {
+      "visualId": "t-cell-phagocyte-immunodeficiencies-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          136,
+          137
+        ],
+        "bookPages": "114–115"
+      },
+      "chapterId": "immunology",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Giant granules in granulocytes (figure B) — Chédiak-Higashi",
+      "sourceFigureDescription": "A peripheral blood smear photograph (labeled 'B, arrows' on the printed page) showing the giant granules in granulocytes of Chédiak-Higashi syndrome. 150x133 cmyk jpeg.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "t-cell-phagocyte-immunodeficiencies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "immunodeficiency-spectrum-map",
+      "kypImplementation": "described-in-text",
+      "qaStatus": "passed",
+      "kypLocation": "described in the spectrum-map card and note text — never reproduced"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "t-cell-phagocyte-immunodeficiencies",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: p137's two content rasters (telangiectasia photo A; giant-granules smear B) are COPYRIGHTED — described in text within the registry visual's cards and the note, never reproduced (ORIGINAL_KYP_ADAPTATION described-in-text). The eleven-disease table text is reproduced verbatim as the note's two table blocks. The registry visual (immunodeficiency-spectrum-map) is an ADDITIONAL original KYP teaching diagram consolidating all three zones. FA's printed mnemonics are not reproduced user-facing."
+}
