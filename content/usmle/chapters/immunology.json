@@ -929,8 +929,37 @@
         "cytokine-network-map"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The signaling roster: macrophage IL-1 (fever, acute phase), IL-6 (acute phase, B-cell growth), TNF-α (cachexia, endothelial activation/sepsis), IL-8 (neutrophil chemotaxis), IL-12 (NK/Th1); T-cell IL-2 (T-cell growth — and the transplant-drug target), IL-3; Th1 IFN-γ; Th2 IL-4/5/10/13 — each tied to the drug or disease that makes it exam-currency."
+      "status": "complete",
+      "productionRationale": "The signaling roster: macrophage IL-1 (fever, acute phase), IL-6 (acute phase, B-cell growth), TNF-α (cachexia, endothelial activation/sepsis), IL-8 (neutrophil chemotaxis), IL-12 (NK/Th1); T-cell IL-2 (T-cell growth — and the transplant-drug target), IL-3; Th1 IFN-γ; Th2 IL-4/5/10/13 — each tied to the drug or disease that makes it exam-currency.",
+      "textbookVisuals": [
+        {
+          "visualId": "cytokines-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              128
+            ],
+            "bookPages": "106"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Important cytokines — the roster organized by secreting cell",
+          "sourceFigureDescription": "A structured text roster: 'Secreted by macrophages' (Interleukin-1, Interleukin-6, Tumor necrosis factor-α, Interleukin-8, Interleukin-12 with functions), 'Secreted by T cells' (Interleukin-2, Interleukin-3), 'From Th1 cells' (Interferon-gamma with six functions), 'From Th2 cells' (Interleukin-4, Interleukin-5, Interleukin-10, Interleukin-13), with the acute/recruit sequencing line and the fever-sepsis and attenuation banners.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "cytokines",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Cytokine functions — verbatim by source' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "respiratory-burst-ifn",
@@ -1218,7 +1247,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 11,
+  "pendingTopicCount": 10,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

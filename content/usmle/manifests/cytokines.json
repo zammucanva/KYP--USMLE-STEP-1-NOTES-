@@ -1,0 +1,611 @@
+{
+  "topicId": "cytokines",
+  "title": "Important Cytokines",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      128
+    ],
+    "bookPages": "106"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Important cytokines",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sequencing rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Acute (IL-1, IL-6, TNF-α), then recruit (IL-8, IL-12).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Secreted by macrophages",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-1 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-1 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Causes fever, acute inflammation. Activates\nendothelium to express adhesion molecules.\nInduces chemokine secretion to recruit\nWBCs. Also called osteoclast-activating factor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-6 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-6 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Causes fever and stimulates production of\nacute-phase proteins.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TNF-α — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Tumor necrosis\nfactor-α",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TNF-α — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Activates endothelium. Causes WBC\nrecruitment, vascular leak.\nCauses cachexia in malignancy.\nMaintains granulomas in TB.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fever/sepsis trio",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "IL-1, IL-6, TNF-α can mediate fever and sepsis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-8 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-8",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-8 — function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Major chemotactic factor for neutrophils.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-12 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-12",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-12 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Induces differentiation of T cells into Th1 cells.\nActivates NK cells.\nFacilitates granuloma formation in TB.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Secreted by T cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-2 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-2 — function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Stimulates growth of helper, cytotoxic, and\nregulatory T cells, and NK cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-3 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-3 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Supports growth and differentiation of bone\nmarrow stem cells. Functions like GM-CSF.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel heading — Th1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "From Th1 cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interferon-gamma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — source + trigger",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Secreted by NK cells and T cells in response to\nantigen or IL-12 from macrophages; stimulates\nmacrophages to kill phagocytosed pathogens.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — Th2 inhibition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Inhibits differentiation of Th2 cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — IgG switching",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Induces IgG isotype switching in B cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — MHC amplification",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Increases MHC expression and antigen\npresentation by all cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ — granulomas",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Activates macrophages to induce granuloma\nformation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel heading — Th2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "From Th2 cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-4 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-4 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Induces differentiation of T cells into Th\n(helper) 2 cells. Promotes growth of B cells.\nEnhances class switching to IgE and IgG.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-5 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-5",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-5 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Promotes growth and differentiation of B cells.\nEnhances class switching to IgA. Stimulates\ngrowth and differentiation of Eosinophils.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-10 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-10",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-10 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Attenuates inflammatory response. Decreases\nexpression of MHC class II and Th1 cytokines.\nInhibits activated macrophages and dendritic\ncells. Also secreted by regulatory T cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Attenuator pair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "TGF-β and IL-10 both attenuate the immune\nresponse.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-13 — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin-13",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IL-13 — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Promotes IgE production by B cells. Induces\nalternative macrophage activation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — IL-1..6 run (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "“Hot T-bone stEAK”:\nIL-1: fever (hot).\nIL-2: stimulates T cells.\nIL-3: stimulates bone marrow.\nIL-4: stimulates IgE production.\nIL-5: stimulates IgA production.\nIL-6: stimulates aKute-phase protein\nproduction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — IL-8 (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "“Clean up on aisle 8.” Neutrophils are recruited\nby IL-8 to clear infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — Th2 (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Ain’t too proud 2 BEG 4 help.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — IL-5 (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "I have 5 BAEs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — IL-13 (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "quote": "Interleukin thirtEEn promotes IgE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cytokine-network-map"
+  ],
+  "mechanismIds": [
+    "cytokine-command-sequence"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cytokine roster; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "command-sequence-model",
+      "summary": "Organizing the roster as a four-beat command sequence (acute alarm → recruitment → expansion → polarization/attenuation) with the Th1/Th2 cross-regulation seesaw, the IL-12 axis failure pattern (disseminated atypical mycobacteria/Salmonella → IFN-γ therapy), and the cytokine-drug bridge (IL-2R blockade, calcineurin inhibitors, anti-TNF, anti-IL-1/6/12/23/17/5).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists cytokines by cell without the timeline, the seesaw, the deficiency pattern, or the drug linkages; these integrations are KYP's design. Drug names and deficiency genetics are labeled extension (pharmacology/immunodeficiency content beyond this printed page).",
+      "location": "mechanism caption + callout + patterns 1 and 3 + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages on p128 returns ZERO images — pure vector/text page; one original KYP registry visual (cytokine-network-map) organizes the roster by secreting cell with the sequencing banner and the attenuation banner. MNEMONIC BOUNDARY (E22/E24/E28/E29/E30 rule): FA's printed mnemonic phrases ('Hot T-bone stEAK', 'Clean up on aisle 8', \"Ain't too proud 2 BEG 4 help\", 'I have 5 BAEs', 'Interleukin thirtEEn promotes IgE') are quoted in manifest evidence for VERIFICATION ONLY — never in user-facing content; KYP originals replace them. Boundary: pdf 129 (respiratory burst / IFN) = E32.",
+  "updatedAt": "2026-10-17"
+}

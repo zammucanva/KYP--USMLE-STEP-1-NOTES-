@@ -1,0 +1,43 @@
+{
+  "topicId": "cytokines",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "cytokines-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          128
+        ],
+        "bookPages": "106"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Important cytokines — the roster organized by secreting cell",
+      "sourceFigureDescription": "A structured text roster: 'Secreted by macrophages' (Interleukin-1, Interleukin-6, Tumor necrosis factor-α, Interleukin-8, Interleukin-12 with functions), 'Secreted by T cells' (Interleukin-2, Interleukin-3), 'From Th1 cells' (Interferon-gamma with six functions), 'From Th2 cells' (Interleukin-4, Interleukin-5, Interleukin-10, Interleukin-13), with the acute/recruit sequencing line and the fever-sepsis and attenuation banners.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "cytokines",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'Cytokine functions — verbatim by source' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cytokines",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters). The text roster is reproduced verbatim as the note's table block; the registry visual (cytokine-network-map) is an ADDITIONAL original KYP teaching diagram organizing the same content by secreting cell with banners. FA's printed mnemonics are not reproduced in user-facing content."
+}

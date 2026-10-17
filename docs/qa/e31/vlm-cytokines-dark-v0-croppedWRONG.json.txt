@@ -1,0 +1,15 @@
+**Paint QA Report: Cytokine Network Map (Dark Mode)**
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **PASS**
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   **DEFECT:** The bottom-most banner/panel is severely truncated. The text "TGF-β1, TGF-β2, TGF-β3" and "IL-35 (from regulatory T cells)" is cut off at the bottom edge of the canvas.
+
+**(C) Arrows/lines crossing through text:**
+*   **PASS**
+
+**(D) Illegible low-contrast text:**
+*   **PASS**
+
+**Verdict: DEFECTS FOUND**

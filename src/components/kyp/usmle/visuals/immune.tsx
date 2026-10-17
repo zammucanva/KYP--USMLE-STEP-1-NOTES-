@@ -2266,3 +2266,122 @@ export function ComplementDeficiencyMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E31 — Important cytokines: the macrophage/T-cell/Th1/Th2 signaling map
+// (source: "Important cytokines", pdf 128 / book 106 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function CytokineNetworkMap() {
+  const w = 980;
+  const h = 690;
+  const macroCytokines = [
+    { name: "IL-1", lines: ["Fever, acute inflammation. Activates", "endothelium → adhesion molecules. Induces", "chemokine secretion to recruit WBCs.", "Also called osteoclast-activating factor."] },
+    { name: "IL-6", lines: ["Causes fever and stimulates production", "of acute-phase proteins (the CRP/ESR", "engine of the lab panel)."] },
+    { name: "TNF-α", lines: ["Activates endothelium. WBC recruitment,", "vascular leak. Cachexia in malignancy.", "Maintains granulomas in TB."] },
+    { name: "IL-8", lines: ["Major chemotactic factor for neutrophils —", "the homing beacon that draws the pus."] },
+    { name: "IL-12", lines: ["Induces differentiation of T cells into", "Th1 cells. Activates NK cells. Facilitates", "granuloma formation in TB."] },
+  ];
+  const th2 = [
+    { name: "IL-4", lines: ["Induces differentiation of T cells into", "Th2 cells. Promotes growth of B cells.", "Enhances class switching to IgE and IgG."] },
+    { name: "IL-5", lines: ["Promotes growth and differentiation of B", "cells. Enhances class switching to IgA.", "Stimulates growth and differentiation", "of eosinophils."] },
+    { name: "IL-10", lines: ["Attenuates inflammatory response. Decreases", "MHC class II and Th1 cytokines. Inhibits", "activated macrophages and dendritic cells.", "Also secreted by regulatory T cells."] },
+    { name: "IL-13", lines: ["Promotes IgE production by B cells.", "Induces alternative macrophage activation."] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Important cytokines, an original KYP network map organized by secreting cell. Secreted by macrophages: IL-1 (fever, acute inflammation, endothelial adhesion-molecule activation, chemokine secretion to recruit WBCs, also called osteoclast-activating factor); IL-6 (fever and acute-phase protein production); TNF-alpha (endothelial activation, WBC recruitment, vascular leak, cachexia in malignancy, maintains granulomas in TB); IL-8 (major chemotactic factor for neutrophils); IL-12 (Th1 differentiation, NK-cell activation, granuloma formation in TB) — with the banner that IL-1, IL-6, and TNF-alpha mediate fever and sepsis and the intro rule: acute (IL-1, IL-6, TNF-alpha), then recruit (IL-8, IL-12). Secreted by T cells: IL-2 (stimulates growth of helper, cytotoxic, and regulatory T cells and NK cells); IL-3 (supports growth and differentiation of bone marrow stem cells, functioning like GM-CSF). From Th1 cells: interferon-gamma — secreted by NK cells and T cells in response to antigen or IL-12 from macrophages; stimulates macrophages to kill phagocytosed pathogens; inhibits Th2 differentiation; induces IgG isotype switching; increases MHC expression and antigen presentation by all cells; activates macrophages to induce granuloma formation. From Th2 cells: IL-4 (Th2 differentiation, B-cell growth, class switching to IgE and IgG); IL-5 (B-cell growth and differentiation, class switching to IgA, eosinophil growth and differentiation); IL-10 (attenuates inflammation, decreases MHC II and Th1 cytokines, inhibits activated macrophages and dendritic cells, also from regulatory T cells); IL-13 (IgE production, alternative macrophage activation) — with the banner that TGF-beta and IL-10 both attenuate the immune response" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Important cytokines — the signaling map by secreting cell (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">acute first, then recruit</text>
+      </g>
+
+      {/* ===== macrophage panel ===== */}
+      <g>
+        <rect x="36" y="76" width="456" height="368" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="456" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="264" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">SECRETED BY MACROPHAGES</text>
+        <text x="52" y="120" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">The acute phase (fever + sepsis trio), then the recruiters:</text>
+        {macroCytokines.map((c, i) => (
+          <g key={c.name}>
+            <rect x="52" y={130 + i * 62} width="424" height="56" rx="9" className={i < 3 ? "fill-emergency/5 stroke-emergency/60" : "fill-secondary stroke-border"} strokeWidth="1.1" />
+            <rect x="60" y={137 + i * 62} width="44" height="20" rx="6" className="fill-foreground" />
+            <text x="82" y={151 + i * 62} textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">{c.name}</text>
+            {c.lines.map((line, j) => (
+              <text key={j} x="114" y={145 + j * 10 + i * 62} fontSize="6.2" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        ))}
+        <rect x="52" y="418" width="424" height="18" rx="6" className="fill-emergency/10" />
+        <text x="264" y="431" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">IL-1, IL-6, TNF-α can mediate fever and sepsis</text>
+      </g>
+
+      {/* ===== T-cell panel ===== */}
+      <g>
+        <rect x="508" y="76" width="436" height="160" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="508" y="76" width="436" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="726" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">SECRETED BY T CELLS</text>
+        <g>
+          <rect x="524" y="118" width="404" height="50" rx="9" className="fill-secondary" />
+          <rect x="532" y="128" width="44" height="20" rx="6" className="fill-foreground" />
+          <text x="554" y="142" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">IL-2</text>
+          <text x="590" y="136" fontSize="6.2" className="fill-muted-foreground">Stimulates growth of helper, cytotoxic, and regulatory T</text>
+          <text x="590" y="146" fontSize="6.2" className="fill-muted-foreground">cells, and NK cells — the T-cell growth hormone (and the</text>
+          <text x="590" y="156" fontSize="6.2" className="fill-muted-foreground">transplant-drug target, KYP bridge).</text>
+        </g>
+        <g>
+          <rect x="524" y="174" width="404" height="50" rx="9" className="fill-secondary" />
+          <rect x="532" y="184" width="44" height="20" rx="6" className="fill-foreground" />
+          <text x="554" y="198" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">IL-3</text>
+          <text x="590" y="192" fontSize="6.2" className="fill-muted-foreground">Supports growth and differentiation of bone marrow stem</text>
+          <text x="590" y="202" fontSize="6.2" className="fill-muted-foreground">cells. Functions like GM-CSF (the multilineage</text>
+          <text x="590" y="212" fontSize="6.2" className="fill-muted-foreground">colony stimulator).</text>
+        </g>
+      </g>
+
+      {/* ===== IFN-γ (Th1) panel ===== */}
+      <g>
+        <rect x="508" y="252" width="436" height="192" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="508" y="252" width="436" height="30" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.4" />
+        <text x="726" y="272" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">FROM Th1 CELLS — INTERFERON-γ</text>
+        {[
+          "Secreted by NK cells and T cells in response to antigen or IL-12 from macrophages",
+          "Stimulates macrophages to kill phagocytosed pathogens",
+          "Inhibits differentiation of Th2 cells (the Th1 half of cross-regulation)",
+          "Induces IgG isotype switching in B cells",
+          "Increases MHC expression and antigen presentation by all cells",
+          "Activates macrophages to induce granuloma formation",
+        ].map((line, i) => (
+          <text key={i} x="524" y={300 + i * 14} fontSize="6.6" className="fill-muted-foreground">· {line}</text>
+        ))}
+        <rect x="524" y="390" width="404" height="44" rx="8" className="fill-secondary" />
+        <text x="726" y="406" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">The macrophage activator of E25's loop, the granuloma driver</text>
+        <text x="726" y="418" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">of TB, the MHC amplifier — and IL-12 (macrophage) induces it.</text>
+      </g>
+
+      {/* ===== Th2 panel ===== */}
+      <g>
+        <rect x="36" y="460" width="908" height="170" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="460" width="908" height="30" rx="12" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+        <text x="490" y="480" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">FROM Th2 CELLS (plus the Treg brake)</text>
+        {th2.map((c, i) => (
+          <g key={c.name}>
+            <rect x={52 + i * 220} y="498" width="204" height="100" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+            <rect x={60 + i * 220} y="506" width="44" height="20" rx="6" className="fill-foreground" />
+            <text x={82 + i * 220} y="520" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">{c.name}</text>
+            {c.lines.map((line, j) => (
+              <text key={j} x={60 + i * 220} y={538 + j * 10} fontSize="5.9" className="fill-muted-foreground">{line.length > 34 ? line.slice(0, 34) : line}</text>
+            ))}
+          </g>
+        ))}
+        <rect x="52" y="604" width="876" height="18" rx="6" className="fill-brand-soft" />
+        <text x="490" y="617" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-brand">TGF-β and IL-10 both attenuate the immune response (IL-10 also from regulatory T cells)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="648" fontSize="7.2" className="fill-muted-foreground">Original KYP network map (pdf 128 / book 106 — pure vector source page; FA's printed mnemonics 'Hot T-bone stEAK', 'Clean up on aisle 8', 'Ain't too proud 2 BEG 4 help', 'I have 5 BAEs' are NOT reproduced). Verbatim cytokine functions are the note's table block.</text>
+    </svg>
+  );
+}
