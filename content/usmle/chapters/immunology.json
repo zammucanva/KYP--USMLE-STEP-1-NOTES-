@@ -982,8 +982,36 @@
         "respiratory-burst-enzymes"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The NADPH oxidase enzyme complex (O2 → O2⁻) with myeloperoxidase (HOCl) and catalase-positive S. aureus as the CGD signature — plus the female-carrier lupus-like discoid rash story; and type I IFN (IFN-α/β) as the innate antiviral: induces PKR/2'5'-oligoadenylate synthetase/RNase L in virus-infected cells, blocks viral spread."
+      "status": "complete",
+      "productionRationale": "The NADPH oxidase enzyme complex (O2 → O2⁻) with myeloperoxidase (HOCl) and catalase-positive S. aureus as the CGD signature — plus the female-carrier lupus-like discoid rash story; and type I IFN (IFN-α/β) as the innate antiviral: induces PKR/2'5'-oligoadenylate synthetase/RNase L in virus-infected cells, blocks viral spread.",
+      "textbookVisuals": [
+        {
+          "visualId": "respiratory-burst-ifn-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              129
+            ],
+            "bookPages": "107"
+          },
+          "chapterId": "immunology",
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "Respiratory burst — the phagolysosome enzyme cascade diagram",
+          "sourceFigureDescription": "A vector pathway diagram inside a Phagolysosome containing Bacteria: six numbered steps — (1) NADPH oxidase on the Neutrophil cell membrane (O2 + NADPH → O2⁻; NADPH oxidase deficiency = chronic granulomatous disease), (2) Superoxide dismutase (O2⁻ → H2O2), (3) Myeloperoxidase (H2O2 + Cl⁻ → HOCl, hypochlorite bleach), (4) Catalase/glutathione peroxidase (H2O2 → H2O + O2, also via bacterial catalase), (5) Glutathione reductase (GSH/GSSG cycling), (6) G6PD (Glucose-6-P → 6-phosphogluconolactone, NADPH from HMP shunt) — with legends for superoxide, HOCl, and glutathione states.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "respiratory-burst-ifn",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "respiratory-burst-enzymes",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "respiratory-burst-enzymes",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "cd-markers",
@@ -1247,7 +1275,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 10,
+  "pendingTopicCount": 9,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

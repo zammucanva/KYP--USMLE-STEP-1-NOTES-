@@ -1,0 +1,42 @@
+{
+  "topicId": "respiratory-burst-ifn",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "respiratory-burst-ifn-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "chapterId": "immunology",
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "Respiratory burst — the phagolysosome enzyme cascade diagram",
+      "sourceFigureDescription": "A vector pathway diagram inside a Phagolysosome containing Bacteria: six numbered steps — (1) NADPH oxidase on the Neutrophil cell membrane (O2 + NADPH → O2⁻; NADPH oxidase deficiency = chronic granulomatous disease), (2) Superoxide dismutase (O2⁻ → H2O2), (3) Myeloperoxidase (H2O2 + Cl⁻ → HOCl, hypochlorite bleach), (4) Catalase/glutathione peroxidase (H2O2 → H2O + O2, also via bacterial catalase), (5) Glutathione reductase (GSH/GSSG cycling), (6) G6PD (Glucose-6-P → 6-phosphogluconolactone, NADPH from HMP shunt) — with legends for superoxide, HOCl, and glutathione states.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "respiratory-burst-ifn",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "respiratory-burst-enzymes",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "respiratory-burst-ifn",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters). The phagolysosome cascade diagram is redrawn as ONE original KYP registry visual (respiratory-burst-enzymes) with all six numbered steps and their legends accounted for (15 label quotes verified), plus the CGD-logic and type I IFN panels. Verbatim text is the note's table block."
+}

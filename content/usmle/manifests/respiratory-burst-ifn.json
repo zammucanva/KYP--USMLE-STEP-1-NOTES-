@@ -1,0 +1,417 @@
+{
+  "topicId": "respiratory-burst-ifn",
+  "title": "Respiratory Burst & Type I Interferons",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      129
+    ],
+    "bookPages": "107"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Respiratory burst",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Definition + NADPH dual role + MPO pigment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Also called oxidative burst. Involves the activation of the phagocyte NADPH oxidase complex\n(eg, in neutrophils, monocytes), which utilizes O2 as a substrate. Plays an important role in the\nimmune response  rapid release of reactive oxygen species (ROS). NADPH plays a role in both the\ncreation and neutralization of ROS. Myeloperoxidase contains a blue-green, heme-containing\npigment that gives sputum its color.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — enzyme sequence (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "NO Safe Microbe (NADPH Oxidase Superoxide\ndismutase Myeloperoxidase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — phagolysosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Phagolysosome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 1 + CGD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "NADPH oxidase\ndeficiency = chronic\ngranulomatous disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Superoxide dismutase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Myeloperoxidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Catalase/glutathione\nperoxidase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 5",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Glutathione reductase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — step 6",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Glucose-6-phosphate\ndehydrogenase G6PD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — GSH/GSSG legend",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "GSH/ Glutathione reduced/\nGSSG oxidized",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — HOCl legend",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "HOCl ∞ Hypochlorite bleach",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — superoxide legend",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "O2- ∞ Superoxide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Neutrophil\ncell membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — H2O2 via bacterial catalase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "H2O + O2\nvia bacterial\ncatalase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — bacteria",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — HMP shunt",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "NADPH\nfrom HMP shunt\n6-phosphogluconolactone",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — chloride",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Cl –",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CGD — H2O2 borrowing",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Phagocytes of patients with CGD can utilize H2O2 generated by invading organisms and convert it\nto ROS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CGD — catalase-positive risk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Patients are at risk for infection by catalase ⊕ species (eg, S aureus, Aspergillus) capable of\nneutralizing their own H2O2, leaving phagocytes without ROS for fighting infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pyocyanin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Pyocyanin of P aeruginosa generates ROS to kill competing pathogens.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lysosomal enzyme release",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Oxidative burst leads to\nrelease of lysosomal enzymes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading + identity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Type I interferons\nIFN-α, IFN-β.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN mechanism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "A part of innate host defense, interferons interfere with both RNA and DNA viruses. Cells\ninfected with a virus synthesize these glycoproteins, which act on local cells, priming them\nfor viral defense by downregulating protein synthesis to resist potential viral replication and by\nupregulating MHC expression to facilitate recognition of infected cells. Also play a major role in\nactivating antitumor immunity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN clinical uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Chronic HBV, Kaposi sarcoma, hairy cell leukemia, condyloma acuminatum, renal cell carcinoma,\nmalignant melanoma, multiple sclerosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN adverse effects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          129
+        ],
+        "bookPages": "107"
+      },
+      "quote": "Flulike symptoms, depression, neutropenia, myopathy, interferon-induced autoimmunity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "respiratory-burst-enzymes"
+  ],
+  "mechanismIds": [
+    "respiratory-burst-cascade",
+    "type-i-ifn-antiviral-state"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cascade and interferon text; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "fuel-weapons-cleanup-model",
+      "summary": "Organizing the six steps as fuel (G6PD/NADPH line feeding BOTH cannon and shield), weapons (oxidase-SOD-MPO to HOCl), and cleanup (catalase/GPx, glutathione reductase); plus the catalase-decides organism logic, the three-burst-lesion map (oxidase vs MPO vs G6PD), and the bridges (X-linked carrier discoid rash, NBT/DHR screening, CGD management) — disease specifics beyond the printed text are labeled extension.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists steps and the CGD sentence without the fuel/weapons/cleanup frame or the deficiency-comparison map; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism captions + callout + patterns 1 and 3 + pivots + mnemonics"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages on p129 returns ZERO images — the phagolysosome cascade diagram is pure vector; one original KYP registry visual (respiratory-burst-enzymes) redraws the numbered cascade with the CGD-logic panel and the type I IFN panel. MNEMONIC BOUNDARY (E22+ rule): FA's printed 'NO Safe Microbe' enzyme-sequence mnemonic is quoted in manifest evidence for VERIFICATION ONLY — never user-facing; KYP originals replace it. KYP-extension boundary: X-linked carrier rash, NBT/DHR assay, CGD management, MPO-deficiency phenotype, and the expanded catalase-positive organism panel are labeled extension (immunodeficiency content beyond this printed page). Boundary: pdf 130 (cell surface markers) = E33.",
+  "updatedAt": "2026-10-17"
+}

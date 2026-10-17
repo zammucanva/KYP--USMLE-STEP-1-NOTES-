@@ -119,6 +119,7 @@ import {
   ComplementCascadeMap,
   ComplementDeficiencyMap,
   CytokineNetworkMap,
+  RespiratoryBurstEnzymes,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -273,4 +274,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "complement-cascade-map": ComplementCascadeMap,
   "complement-deficiency-map": ComplementDeficiencyMap,
   "cytokine-network-map": CytokineNetworkMap,
+  "respiratory-burst-enzymes": RespiratoryBurstEnzymes,
 };
