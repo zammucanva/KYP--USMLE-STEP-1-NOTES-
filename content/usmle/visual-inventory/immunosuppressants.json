@@ -1,0 +1,68 @@
+{
+  "topicId": "immunosuppressants",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "immunosuppressants-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          140,
+          141
+        ],
+        "bookPages": "118–119"
+      },
+      "chapterId": "immunology",
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Immunosuppressants — the T-helper-cell signaling diagram",
+      "sourceFigureDescription": "A vector diagram of the T helper cell: surface TCR/CD3/CD4 and IL-2R (blocked by Basiliximab); the calcineurin pathway (Cyclophilin + Cyclosporine and FKBP + Tacrolimus complexes blocking Calcineurin so NFAT-P cannot drive IL-2 transcription); the mTOR pathway (Sirolimus/rapamycin via FKBP); the NF-kB pathway (Glucocorticoids blocking inflammatory cytokine genes); and the de novo purine synthesis arm (Azathioprine/6-MP, Mycophenolate, PRPP amidotransferase, IMP dehydrogenase → Purine nucleotides → DNA replication).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immunosuppressants",
+      "topicId": "immunosuppressants",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "immunosuppressant-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "immunosuppressants-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          140,
+          141
+        ],
+        "bookPages": "118–119"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Immunosuppressants — the 7-drug table",
+      "sourceFigureDescription": "The printed drug table (DRUG / MECHANISM / INDICATIONS / TOXICITY / NOTES) with rows for Cyclosporine, Tacrolimus (FK506), Sirolimus (Rapamycin), Basiliximab, Azathioprine, Mycophenolate mofetil, and Glucocorticoids.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immunosuppressants",
+      "topicId": "immunosuppressants",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'The seven immunosuppressants — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "immunosuppressants",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the T-helper-cell diagram is pure vector (p140's rasters are artifacts/furniture) — redrawn as ONE original KYP registry visual (immunosuppressant-target-map) with all printed labels accounted for (24 label quotes verified). The 7-drug table is reproduced verbatim as the note's table block. FA's printed mnemonics are not reproduced in the visual."
+}

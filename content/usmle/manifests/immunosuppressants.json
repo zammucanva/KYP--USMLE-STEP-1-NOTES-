@@ -1,0 +1,638 @@
+{
+  "topicId": "immunosuppressants",
+  "title": "Immunosuppressants: The Transplant & Autoimmune Drug Map",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immunosuppressants",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      140,
+      141
+    ],
+    "bookPages": "118–119"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Immunosuppressants",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Class definition + rules",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Agents that block lymphocyte activation and proliferation. Reduce acute transplant rejection by\nsuppressing cellular immunity (used as prophylaxis). Frequently combined to achieve greater\nefficacy with ↓ toxicity. Chronic suppression ↑ risk of infection and malignancy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — basiliximab target",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "IL-2R",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — calcineurin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Calcineurin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — cyclophilin + cyclosporine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Cyclophilin +\nCyclosporine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — FKBP + tacrolimus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "FKBP +\nTacrolimus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — mTOR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "mTOR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — NFAT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "NFAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — NF-kB",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "NF–κB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — 6-MP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "6–MP",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — mycophenolate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Mycophenolate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — sirolimus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Sirolimus\n(rapamycin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — azathioprine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Azathioprine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — basiliximab",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Basiliximab",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — T helper cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "T HELPER\nCELL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — proliferation genes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Proliferation\ngenes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — glucocorticoids",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Glucocorticoids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — inflammatory cytokine genes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Inflammatory\ncytokine genes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — purine nucleotides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Purine\nnucleotides",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — DNA replication",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "DNA replication",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — de novo purine synthesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "De novo\npurine\nsynthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — PRPP amidotransferase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "PRPP\namidotransferase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — IMP dehydrogenase",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "IMP\ndehydrogenase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CD4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "CD4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram labels — CD3/TCR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "CD3\nTCR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "DRUG\nMECHANISM\nINDICATIONS\nTOXICITY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cyclosporine — mechanism + indication (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Cyclosporine\nCalcineurin inhibitor;\nbinds cyclophilin\nBlocks T-cell activation\nby preventing IL-2\ntranscription\nPsoriasis, rheumatoid\narthritis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cyclosporine toxicity + calcineurin nephrotoxicity note + tacrolimus toxicity (full physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Nephrotoxicity,\nhypertension,\nhyperlipidemia,\nneurotoxicity, gingival Both calcineurin\ninhibitors are\nhyperplasia, hirsutism\nhighly nephrotoxic,\nSimilar to cyclosporine,\nespecially in higher\n↑ risk of diabetes\ndoses or in patients\nand neurotoxicity;\nwith ↓ renal function\nno gingival\nhyperplasia or\nhirsutism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tacrolimus — mechanism + indication (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Tacrolimus (FK506)\nCalcineurin inhibitor;\nbinds FK506 binding\nprotein (FKBP)\nBlocks T-cell activation\nby preventing IL-2\ntranscription\nImmunosuppression\nafter solid organ\ntransplant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sirolimus — mechanism + indication + FA mnemonic (full physical interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Sirolimus (Rapamycin)\nmTOR inhibitor; binds\nFKBP\nKidney transplant\nBlocks T-cell\nrejection prophylaxis\nactivation and B-cell\nspecifically\ndifferentiation by\npreventing response Sir Basil’s kidney\ntransplant\nto IL-2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sirolimus — toxicity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "“Pansirtopenia”\n(pancytopenia),\ninsulin resistance,\nhyperlipidemia;\nnot nephrotoxic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — sirolimus (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Sir Basil’s kidney\ntransplant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sirolimus — notes (physical order; text layer merges drug-eluting)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Kidney “sir-vives.”\nSynergistic with\ncyclosporine\nAlso used in drugeluting stents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Basiliximab — mechanism + toxicity (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          140
+        ],
+        "bookPages": "118"
+      },
+      "quote": "Basiliximab\nMonoclonal antibody;\nblocks IL-2R\nEdema, hypertension,\ntremor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Continued heading + headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Immunosuppressants (continued)\nDRUG\nMECHANISM\nINDICATIONS\nTOXICITY\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azathioprine — full row (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Azathioprine\nAntimetabolite\nprecursor of\n6-mercaptopurine\nInhibits lymphocyte\nproliferation by\nblocking nucleotide\nsynthesis\nRheumatoid arthritis,\nCrohn disease,\nglomerulonephritis,\nother autoimmune\nconditions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azathioprine — toxicity + notes (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Pancytopenia\n6-MP degraded by\nxanthine oxidase;\ntoxicity ↑ by\nallopurinol\nPronounce “azathiopurine”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycophenolate — mechanism + indication + toxicity (physical interleave; merged line preserved)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Mycophenolate\nmofetil\nReversibly inhibits\nIMP dehydrogenase,\npreventing purine\nsynthesis of B and T\ncells\nGlucocorticoid-sparing GI upset,\nagent in rheumatic\npancytopenia,\ndisease\nhypertension\nLess nephrotoxic and\nneurotoxic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycophenolate — CMV note (appears below the glucocorticoids row in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Associated with\ninvasive CMV\ninfection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucocorticoids — mechanism (interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Glucocorticoids\nInhibit NF-κB\nSuppress both B- and\nT-cell function by\n↓ transcription of\nmany cytokines\nInduce T cell apoptosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucocorticoids — indications",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Many autoimmune\nand inflammatory\ndisorders, adrenal\ninsufficiency, asthma,\nCLL, non-Hodgkin\nlymphoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Glucocorticoids — toxicity + notes (full physical interleave; merged lines preserved)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Cushing syndrome,\nDemargination\nof WBCs causes\nosteoporosis,\nartificial leukocytosis\nhyperglycemia,\ndiabetes, amenorrhea, Adrenal insufficiency\nmay develop if drug is\nadrenocortical\nstopped abruptly after\natrophy, peptic ulcers,\nchronic use\npsychosis, cataracts,\navascular necrosis\n(femoral head)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "E41 boundary marker (Recombinant cytokines heading on same page — owned by E41)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Recombinant cytokines and clinical uses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "immunosuppressant-target-map"
+  ],
+  "mechanismIds": [
+    "activation-cascade-blockade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the drug table; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "four-level-blockade-model",
+      "summary": "The target map read as four blockade levels (receptor [basiliximab], transcription [calcineurin inhibitors], response [sirolimus/mTOR], proliferation [antimetabolites]) plus the global glucocorticoid/NF-κB layer — with the combination logic (cross-level pairing for efficacy with less toxicity), the FKBP-synergy explanation, and the interaction/withdrawal bridges (allopurinol dosing rules, HPA-axis taper, demargination leukocytosis).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists drugs without the cascade-level organization or the combination rationale; these integrations are KYP's design. Allopurinol dose-reduction specifics and stress-dosing protocols are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p140 carries only 1x1 artifacts + one decorative index strip (page furniture) — the T-helper-cell signaling diagram is pure vector; p141's rasters belong to the cytokines section owned by E41. One original KYP registry visual (immunosuppressant-target-map) redraws the signaling diagram as the four-level blockade map with the printed rules panel and the seven-drug roster. MNEMONIC BOUNDARY (E22+ rule, table-block precedent): FA's printed mnemonics ('Sir Basil's kidney transplant', 'Kidney sir-vives', 'Pansirtopenia' [also the verbatim toxicity text], 'azathiopurine') are quoted in manifest evidence for verification and carried verbatim where they ARE the source's table text, but are NOT reproduced in the registry visual; KYP originals replace them in the mnemonics field. Quoting note: the drug tables' columns interleave — quotes follow the physical line order. Boundary: the Recombant cytokines table on p141's lower half is owned by E41 (heading pinned here as boundary evidence).",
+  "updatedAt": "2026-10-17"
+}

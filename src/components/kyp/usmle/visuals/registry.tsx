@@ -126,6 +126,7 @@ import {
   ImmunodeficiencySpectrumMap,
   BugPatternMatrix,
   RejectionTimelineMap,
+  ImmunosuppressantTargetMap,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -287,4 +288,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "immunodeficiency-spectrum-map": ImmunodeficiencySpectrumMap,
   "bug-pattern-matrix": BugPatternMatrix,
   "rejection-timeline-map": RejectionTimelineMap,
+  "immunosuppressant-target-map": ImmunosuppressantTargetMap,
 };

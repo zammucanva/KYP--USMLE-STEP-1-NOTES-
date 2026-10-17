@@ -49,6 +49,7 @@ import { bCellImmunodeficiencies } from "./b-cell-immunodeficiencies";
 import { tCellPhagocyteImmunodeficiencies } from "./t-cell-phagocyte-immunodeficiencies";
 import { immunodeficiencyInfectionPatterns } from "./immunodeficiency-infection-patterns";
 import { transplantRejection } from "./transplant-rejection";
+import { immunosuppressants } from "./immunosuppressants";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -181,6 +182,7 @@ export const usmleNotes: KypUsMLENote[] = [
   tCellPhagocyteImmunodeficiencies,
   immunodeficiencyInfectionPatterns,
   transplantRejection,
+  immunosuppressants,
   cranialNerves,
   diabetesMellitus,
 ];

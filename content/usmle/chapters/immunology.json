@@ -1613,8 +1613,65 @@
         "immunosuppressant-target-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The transplant pharmacology: calcineururin inhibitors (cyclosporine/tacrolimus — inhibit IL-2 transcription, nephrotoxicity), mTOR (sirolimus — blocks IL-2 receptor signaling, hyperlipidemia/cytopenias), anti-IL-2R (basiliximab), antiproliferatives (azathioprine/mycophenolate), and glucocorticoids (lymphocyte apoptosis) — each mechanism tied to its signature toxicity."
+      "status": "complete",
+      "productionRationale": "The transplant pharmacology: calcineururin inhibitors (cyclosporine/tacrolimus — inhibit IL-2 transcription, nephrotoxicity), mTOR (sirolimus — blocks IL-2 receptor signaling, hyperlipidemia/cytopenias), anti-IL-2R (basiliximab), antiproliferatives (azathioprine/mycophenolate), and glucocorticoids (lymphocyte apoptosis) — each mechanism tied to its signature toxicity.",
+      "textbookVisuals": [
+        {
+          "visualId": "immunosuppressants-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              140,
+              141
+            ],
+            "bookPages": "118–119"
+          },
+          "chapterId": "immunology",
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Immunosuppressants — the T-helper-cell signaling diagram",
+          "sourceFigureDescription": "A vector diagram of the T helper cell: surface TCR/CD3/CD4 and IL-2R (blocked by Basiliximab); the calcineurin pathway (Cyclophilin + Cyclosporine and FKBP + Tacrolimus complexes blocking Calcineurin so NFAT-P cannot drive IL-2 transcription); the mTOR pathway (Sirolimus/rapamycin via FKBP); the NF-kB pathway (Glucocorticoids blocking inflammatory cytokine genes); and the de novo purine synthesis arm (Azathioprine/6-MP, Mycophenolate, PRPP amidotransferase, IMP dehydrogenase → Purine nucleotides → DNA replication).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "immunosuppressants",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "immunosuppressant-target-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "immunosuppressant-target-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "immunosuppressants-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              140,
+              141
+            ],
+            "bookPages": "118–119"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Immunosuppressants — the 7-drug table",
+          "sourceFigureDescription": "The printed drug table (DRUG / MECHANISM / INDICATIONS / TOXICITY / NOTES) with rows for Cyclosporine, Tacrolimus (FK506), Sirolimus (Rapamycin), Basiliximab, Azathioprine, Mycophenolate mofetil, and Glucocorticoids.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "immunosuppressants",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'The seven immunosuppressants — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "recombinant-cytokines",
@@ -1645,7 +1702,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 2,
+  "pendingTopicCount": 1,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

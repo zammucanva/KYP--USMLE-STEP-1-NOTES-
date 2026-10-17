@@ -3194,3 +3194,170 @@ export function RejectionTimelineMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E40 — Immunosuppressants: the T-helper-cell target map
+// (source: "Immununosuppressants", pdf 140-141 / book 118-119 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function ImmunosuppressantTargetMap() {
+  const w = 980;
+  const h = 700;
+  const drugs = [
+    { n: "Cyclosporine", t: "Calcineurin inhibitor (binds cyclophilin)", tox: "Nephrotoxicity, hypertension, hyperlipidemia, neurotoxicity, gingival hyperplasia, hirsutism", ind: "Psoriasis, RA" },
+    { n: "Tacrolimus (FK506)", t: "Calcineurin inhibitor (binds FKBP)", tox: "Like cyclosporine + ↑ diabetes and neurotoxicity; NO gingival hyperplasia or hirsutism", ind: "Solid organ transplant" },
+    { n: "Sirolimus (rapamycin)", t: "mTOR inhibitor (binds FKBP)", tox: "Pancytopenia, insulin resistance, hyperlipidemia; NOT nephrotoxic", ind: "Kidney transplant prophylaxis; drug-eluting stents" },
+    { n: "Basiliximab", t: "Monoclonal antibody — blocks IL-2R", tox: "Edema, hypertension, tremor", ind: "Transplant induction (anti-CD25)" },
+    { n: "Azathioprine", t: "6-MP precursor — blocks nucleotide synthesis", tox: "Pancytopenia (↑ with allopurinol)", ind: "RA, Crohn, glomerulonephritis" },
+    { n: "Mycophenolate mofetil", t: "Inhibits IMP dehydrogenase (purine synthesis)", tox: "GI upset, pancytopenia, hypertension; less nephro/neurotoxic; CMV association", ind: "Glucocorticoid-sparing (rheumatic)" },
+    { n: "Glucocorticoids", t: "Inhibit NF-κB; ↓ cytokine transcription; induce T-cell apoptosis", tox: "Cushing, osteoporosis, hyperglycemia, psychosis, cataracts, AVN; adrenal insufficiency if stopped abruptly", ind: "Autoimmune/inflammatory, asthma, CLL/NHL" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Immunosuppressants, an original KYP target map of the T helper cell with each drug's blockade point. The T helper cell carries TCR-CD3 with CD4 and the IL-2 receptor (blocked at the surface by basiliximab). Inside: the calcineurin pathway — cyclosporine binds cyclophilin and tacrolimus binds FK506-binding protein, either complex blocking calcineurin so NFAT is not dephosphorylated and IL-2 transcription stops; the mTOR pathway — sirolimus binds FKBP and blocks mTOR, preventing the response to IL-2 (T-cell activation and B-cell differentiation); the NF-kappaB pathway — glucocorticoids inhibit NF-kappaB, suppressing both B- and T-cell function by decreasing transcription of many cytokines and inducing T-cell apoptosis; and the de novo purine synthesis arm — azathioprine (a 6-mercaptopurine precursor) and mycophenolate (an IMP dehydrogenase inhibitor) starve purine nucleotide synthesis and DNA replication. Bottom strip: the seven-drug roster with mechanism, toxicity, and indications, and the printed rules — combination for greater efficacy with less toxicity, and chronic suppression increasing the risk of infection and malignancy" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Immunosuppressants — the T-helper-cell target map (original KYP redraw)</text>
+        <rect x="762" y="24" width="170" height="18" rx="9" className="fill-brand-soft" />
+        <text x="847" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">block activation → proliferation</text>
+      </g>
+
+      {/* ===== T helper cell ===== */}
+      <g>
+        <rect x="36" y="76" width="560" height="330" rx="20" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="316" y="98" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">T HELPER CELL</text>
+
+        {/* surface: TCR/CD3 + CD4 */}
+        <g>
+          <rect x="52" y="112" width="64" height="40" rx="8" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="84" y="130" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">TCR</text>
+          <text x="84" y="141" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">CD3</text>
+          <text x="84" y="164" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">CD4</text>
+        </g>
+        {/* IL-2R */}
+        <g>
+          <rect x="52" y="216" width="64" height="36" rx="8" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="84" y="238" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">IL-2R</text>
+        </g>
+        {/* Basiliximab blocker */}
+        <g>
+          <rect x="30" y="210" width="0" height="0" />
+          <rect x="8" y="212" width="94" height="44" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+          <text x="55" y="228" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">Basiliximab</text>
+          <text x="55" y="238" textAnchor="middle" fontSize="5.6" className="fill-emergency">monoclonal antibody</text>
+          <text x="55" y="247" textAnchor="middle" fontSize="5.6" className="fill-emergency">BLOCKS IL-2R</text>
+          <path d="M 102 234 L 112 234" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+        </g>
+
+        {/* Calcineurin → NFAT → IL-2 transcription */}
+        <g>
+          <rect x="150" y="106" width="200" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="124" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">CALCINEURIN PATHWAY</text>
+          <text x="162" y="140" fontSize="6" className="fill-muted-foreground">Cyclosporine + cyclophilin ·</text>
+          <text x="162" y="150" fontSize="6" className="fill-muted-foreground">Tacrolimus + FKBP → both</text>
+          <text x="162" y="160" fontSize="6" className="fill-muted-foreground">complexes BLOCK calcineurin</text>
+          <text x="162" y="174" fontSize="6" fontWeight="700" className="fill-foreground">→ NFAT not dephosphorylated →</text>
+          <text x="162" y="184" fontSize="6" fontWeight="700" className="fill-foreground">IL-2 TRANSCRIPTION blocked</text>
+          <text x="162" y="198" fontSize="5.6" className="fill-muted-foreground">(prevents T-cell activation)</text>
+        </g>
+
+        {/* mTOR */}
+        <g>
+          <rect x="150" y="218" width="200" height="86" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="236" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">mTOR PATHWAY</text>
+          <text x="162" y="252" fontSize="6" className="fill-muted-foreground">Sirolimus + FKBP → blocks mTOR</text>
+          <text x="162" y="264" fontSize="6" fontWeight="700" className="fill-foreground">→ no response to IL-2:</text>
+          <text x="162" y="274" fontSize="6" fontWeight="700" className="fill-foreground">T-cell activation + B-cell</text>
+          <text x="162" y="284" fontSize="6" fontWeight="700" className="fill-foreground">differentiation blocked</text>
+          <text x="162" y="298" fontSize="5.6" className="fill-muted-foreground">same FKBP, different target than tacrolimus</text>
+        </g>
+
+        {/* NF-κB */}
+        <g>
+          <rect x="150" y="316" width="200" height="76" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="334" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">NF-κB PATHWAY</text>
+          <text x="162" y="350" fontSize="6" className="fill-muted-foreground">Glucocorticoids inhibit NF-κB:</text>
+          <text x="162" y="361" fontSize="6" fontWeight="700" className="fill-foreground">↓ transcription of many cytokines</text>
+          <text x="162" y="371" fontSize="6" fontWeight="700" className="fill-foreground">(suppress B- and T-cell function)</text>
+          <text x="162" y="384" fontSize="5.8" className="fill-muted-foreground">+ induce T-cell apoptosis</text>
+        </g>
+
+        {/* purine synthesis arm */}
+        <g>
+          <rect x="366" y="106" width="216" height="286" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1.2" />
+          <text x="474" y="126" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">DE NOVO PURINE SYNTHESIS</text>
+          <text x="378" y="146" fontSize="6" className="fill-muted-foreground">Azathioprine → 6-MP (antimetabolite</text>
+          <text x="378" y="156" fontSize="6" className="fill-muted-foreground">precursor) → blocks nucleotide synthesis</text>
+          <text x="378" y="176" fontSize="6" className="fill-muted-foreground">Mycophenolate → reversibly inhibits</text>
+          <text x="378" y="186" fontSize="6" className="fill-muted-foreground">IMP dehydrogenase → no purines</text>
+          <text x="378" y="196" fontSize="6" className="fill-muted-foreground">for B and T cells</text>
+          <rect x="382" y="210" width="184" height="58" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+          <text x="474" y="228" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">Purine nucleotides ↓ →</text>
+          <text x="474" y="240" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">DNA replication blocked →</text>
+          <text x="474" y="252" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">lymphocyte proliferation fails</text>
+          <text x="378" y="292" fontSize="5.8" className="fill-muted-foreground">PRPP amidotransferase and IMP</text>
+          <text x="378" y="302" fontSize="5.8" className="fill-muted-foreground">dehydrogenase: the enzymes of the</text>
+          <text x="378" y="312" fontSize="5.8" className="fill-muted-foreground">printed diagram's synthesis arm.</text>
+          <rect x="382" y="330" width="184" height="52" rx="8" className="fill-emergency/5 stroke-emergency/60" strokeWidth="1" />
+          <text x="474" y="348" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">Both arms of the adaptive response</text>
+          <text x="474" y="360" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">feed one mission: block lymphocyte</text>
+          <text x="474" y="372" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">activation and proliferation.</text>
+        </g>
+      </g>
+
+      {/* intro rules panel */}
+      <g>
+        <rect x="612" y="76" width="332" height="120" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+        <text x="628" y="98" fontSize="8" fontWeight="800" className="fill-foreground">THE PRINTED RULES</text>
+        <text x="628" y="116" fontSize="6.4" className="fill-muted-foreground">· Agents that block lymphocyte activation and proliferation</text>
+        <text x="628" y="128" fontSize="6.4" className="fill-muted-foreground">· Reduce acute transplant rejection by suppressing cellular</text>
+        <text x="640" y="138" fontSize="6.4" className="fill-muted-foreground">immunity (used as prophylaxis)</text>
+        <text x="628" y="152" fontSize="6.4" className="fill-muted-foreground">· Frequently combined: greater efficacy with ↓ toxicity</text>
+        <text x="628" y="166" fontSize="6.4" className="fill-muted-foreground">· Chronic suppression ↑ risk of infection and malignancy</text>
+        <text x="628" y="184" fontSize="6.2" fontWeight="700" className="fill-emergency">Both calcineurin inhibitors are highly nephrotoxic — especially</text>
+        <text x="628" y="192" fontSize="6.2" fontWeight="700" className="fill-emergency">in higher doses or with ↓ renal function.</text>
+      </g>
+
+      {/* drug roster chips (right, continuing) */}
+      {drugs.slice(0, 3).map((d, i) => (
+        <g key={d.n}>
+          <rect x="612" y={208 + i * 68} width="332" height="62" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="626" y={224 + i * 68} fontSize="6.8" fontWeight="800" className="fill-foreground">{d.n}</text>
+          <text x="626" y={234 + i * 68} fontSize="5.6" className="fill-brand">{d.t}</text>
+          {d.tox.match(/.{1,52}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+            <text key={j} x="626" y={244 + j * 9 + i * 68} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom drug roster */}
+      {drugs.slice(3).map((d, i) => (
+        <g key={d.n}>
+          <rect x={36 + i * 232} y="424" width="222" height="180" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x={50 + i * 232} y="444" fontSize="7" fontWeight="800" className="fill-foreground">{d.n}</text>
+          {d.t.match(/.{1,36}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={456 + j * 9} fontSize="5.6" className="fill-brand">{line.trim()}</text>
+          ))}
+          <text x={50 + i * 232} y={480} fontSize="5.6" fontWeight="800" className="fill-emergency">TOXICITY</text>
+          {d.tox.match(/.{1,36}(\s|$)/g)!.slice(0, 5).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={490 + j * 8.5} fontSize="5.3" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+          <text x={50 + i * 232} y={540} fontSize="5.6" fontWeight="800" className="fill-foreground">INDICATIONS</text>
+          {d.ind.match(/.{1,36}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={550 + j * 8.5} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom note strip */}
+      <g>
+        <rect x="36" y="616" width="908" height="44" rx="9" className="fill-secondary" />
+        <text x="490" y="634" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: azathioprine + allopurinol = pancytopenia (6-MP is degraded by xanthine oxidase) · sirolimus NOT nephrotoxic (synergistic with cyclosporine; drug-eluting stents)</text>
+        <text x="490" y="648" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Glucocorticoids: demargination causes artificial leukocytosis; abrupt withdrawal after chronic use → adrenal insufficiency · mycophenolate: invasive CMV association</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="678" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's T-helper-cell signaling diagram (pdf 140-141 / book 118-119 — pure vector; FA's printed mnemonics 'Sir Basil's kidney transplant' / 'Kidney sir-vives' NOT reproduced). Verbatim drug-table text is the note's table block.</text>
+    </svg>
+  );
+}
