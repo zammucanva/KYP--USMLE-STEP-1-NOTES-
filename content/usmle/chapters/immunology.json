@@ -1181,8 +1181,37 @@
       "requiresVisual": false,
       "visualHints": [],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The serology directory: dsDNA/Sm (lupus), SS-A/SS-B (Sjögren), Scl-70/centromere (scleroderma/CREST), Jo-1 (myositis/polymyositis), anti-CCP (RA), anti-Jo1, anti-Mi-2, ANCA patterns, anti-histone (drug-induced lupus), anti-RNP (MCTD), anti-topoisomerase — organized by disease family for the two-step matching question. Table note, no custom visual needed."
+      "status": "complete",
+      "productionRationale": "The serology directory: dsDNA/Sm (lupus), SS-A/SS-B (Sjögren), Scl-70/centromere (scleroderma/CREST), Jo-1 (myositis/polymyositis), anti-CCP (RA), anti-Jo1, anti-Mi-2, ANCA patterns, anti-histone (drug-induced lupus), anti-RNP (MCTD), anti-topoisomerase — organized by disease family for the two-step matching question. Table note, no custom visual needed.",
+      "textbookVisuals": [
+        {
+          "visualId": "autoantibodies-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              135
+            ],
+            "bookPages": "113"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Autoantibodies — the 26-pair serology directory table",
+          "sourceFigureDescription": "A two-column table (AUTOANTIBODY / ASSOCIATED DISORDER) with 26 rows spanning neurologic (ACh receptor, Ca2+ channel), rheumatologic (ANA, dsDNA/Smith, antiphospholipid set, histone, U1 RNP, RF/CCP, Ro/La, Scl-70, centromere, myositis set, ANCA pair), hepatic/GI (mitochondrial, smooth muscle/LKM1, celiac set), endocrine (thyroid set, TSHR, GAD/islet, parietal/intrinsic factor), renal (PLA2R, GBM), and dermatologic (hemidesmosome, desmoglein) antibodies.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "autoantibodies",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] — 'Autoantibodies and associated disorders — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "b-cell-immunodeficiencies",
@@ -1362,7 +1391,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 7,
+  "pendingTopicCount": 6,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

@@ -1,0 +1,8 @@
+**QA Report: 26-Row Autoantibody-Disease Table (Dark Mode)**
+
+*   **(A) Overlapping text / text-on-text collisions:** PASS
+*   **(B) Text clipped at cell edges or truncated words:** PASS
+*   **(C) Column collisions (text bleeding):** PASS
+*   **(D) Illegible low-contrast text:** PASS
+
+Verdict: CLEAN

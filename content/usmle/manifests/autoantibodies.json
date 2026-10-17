@@ -1,0 +1,440 @@
+{
+  "topicId": "autoantibodies",
+  "title": "Autoantibodies and Their Disease Associations",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      135
+    ],
+    "bookPages": "113"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Autoantibodies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "AUTOANTIBODY\nASSOCIATED DISORDER",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-AChR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-postsynaptic ACh receptor\nMyasthenia gravis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-Ca channel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-presynaptic voltage-gated Ca2+ channel\nLambert-Eaton myasthenic syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-β2 GPI",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-β2 glycoprotein I\nAntiphospholipid syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ANA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antinuclear (ANA)\nNonspecific screening antibody, often associated\nwith SLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anticardiolipin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anticardiolipin, lupus anticoagulant\nSLE, antiphospholipid syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-dsDNA/Smith",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-dsDNA, anti-Smith\nSLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antihistone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antihistone\nDrug-induced lupus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-U1 RNP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-U1 RNP (ribonucleoprotein)\nMixed connective tissue disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RF + anti-CCP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Rheumatoid factor (IgM antibody against IgG\nFc region), anti-cyclic citrullinated peptide\n(anti-CCP, more specific)\nRheumatoid arthritis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-Ro/La",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-Ro/SSA, anti-La/SSB\nSjögren syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-Scl-70",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-Scl-70 (anti-DNA topoisomerase I)\nScleroderma (diffuse)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anticentromere",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anticentromere\nLimited scleroderma (CREST syndrome)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myositis set",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antisynthetase (eg, anti-Jo-1), anti-SRP, antihelicase (anti-Mi-2)\nPolymyositis, dermatomyositis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antimitochondrial",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antimitochondrial\n1° biliary cholangitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-smooth muscle/LKM1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-smooth muscle, anti-liver/kidney\nmicrosomal-1\nAutoimmune hepatitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "p-ANCA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Myeloperoxidase-antineutrophil cytoplasmic\nantibody (MPO-ANCA)/perinuclear ANCA\n(p-ANCA)\nMicroscopic polyangiitis, eosinophilic\ngranulomatosis with polyangiitis, ulcerative\ncolitis, 1° sclerosing cholangitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "c-ANCA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "PR3-ANCA/cytoplasmic ANCA (c-ANCA)\nGranulomatosis with polyangiitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-PLA2R",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-phospholipase A2 receptor\n1° membranous nephropathy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-hemidesmosome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-hemidesmosome\nBullous pemphigoid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-desmoglein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-desmoglein (anti-desmosome)\nPemphigus vulgaris",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thyroid pair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antithyroglobulin, antithyroid peroxidase\n(antimicrosomal)\nHashimoto thyroiditis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-TSHR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-TSH receptor\nGraves disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Celiac set",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "IgA anti-endomysial, IgA anti-tissue\ntransglutaminase, IgA and IgG deamidated\ngliadin peptide\nCeliac disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T1DM set",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-glutamic acid decarboxylase, islet cell\ncytoplasmic antibodies\nType 1 diabetes mellitus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pernicious anemia set",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Antiparietal cell, anti-intrinsic factor\nPernicious anemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anti-GBM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "quote": "Anti-glomerular basement membrane\nGoodpasture syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "antibody-tissue-tropism-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directory table; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "target-anatomy-and-specificity-model",
+      "summary": "Reading the directory mechanistically (receptor antibodies are functional — stimulating/blocking; structural antibodies set the anatomic level — blister plane, basement membrane, subset) and by two-step matching with specificity tiers (ANA screens, dsDNA/Sm confirm, anti-CCP outspecifies RF, antihistone indicts the drug, ANCA patterns split by enzyme target).",
+      "origin": "outside-first-aid",
+      "rationale": "The source is a flat directory; the target-anatomy frame, the specificity-tier logic, and the contrast-pair organization are KYP's design. Clinical details in the patterns (Nikolsky sign, plasmapheresis, biopsy IF patterns, paraneoplastic SCLC) are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + traps + pivots + miniCase distractors"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages on p135 returns ZERO images — pure vector/table page. TABLE NOTE by inventory design (requiresVisual false, no visual hints): the note's 26-row verbatim table IS the visual element (E22 pattern); the MechanismFlow renders as the standard div-based flow; the page's only SVGs are 12-20px UI icons. No FA mnemonic phrases printed on this page. Boundary: pdf 132-134 (Hypersensitivity types) is owned by the pilot topic hypersensitivity-types [131-134, complete] — verified, no gap. pdf 136 begins E36 b-cell-immunodeficiencies.",
+  "updatedAt": "2026-10-17"
+}

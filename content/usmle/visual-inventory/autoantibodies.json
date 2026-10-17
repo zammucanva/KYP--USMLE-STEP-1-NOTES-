@@ -1,0 +1,43 @@
+{
+  "topicId": "autoantibodies",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "autoantibodies-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          135
+        ],
+        "bookPages": "113"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Autoantibodies — the 26-pair serology directory table",
+      "sourceFigureDescription": "A two-column table (AUTOANTIBODY / ASSOCIATED DISORDER) with 26 rows spanning neurologic (ACh receptor, Ca2+ channel), rheumatologic (ANA, dsDNA/Smith, antiphospholipid set, histone, U1 RNP, RF/CCP, Ro/La, Scl-70, centromere, myositis set, ANCA pair), hepatic/GI (mitochondrial, smooth muscle/LKM1, celiac set), endocrine (thyroid set, TSHR, GAD/islet, parietal/intrinsic factor), renal (PLA2R, GBM), and dermatologic (hemidesmosome, desmoglein) antibodies.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "autoantibodies",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'Autoantibodies and associated disorders — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autoantibodies",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (zero rasters). The 26-pair directory is reproduced verbatim as the note's table block (the page's only visual element, per the E22 table-note pattern). No registry visual by inventory design (requiresVisual false); the MechanismFlow renders as a div-based flow."
+}
