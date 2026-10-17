@@ -1,0 +1,15 @@
+**Paint QA Report: Immunoglobulin Isotypes Diagram**
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **PASS**
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   **DEFECT:** In the **IgM (Structure)** cell, the text block on the right is severely **truncated at the right edge of the cell box**. The text reads "monomer on B cell; pentamer + J chain when secreted – avio" and cuts off mid-word ("avio" instead of "avidity"). Additionally, the word "pentamer" appears to be slightly clipped by the schematic diagram to its left.
+
+**(C) Arrows/lines crossing through text:**
+*   **PASS** (The red line in IgA points to but does not cross through text; the red star in IgM is an annotation, not a line crossing text).
+
+**(D) Illegible low-contrast text:**
+*   **PASS**
+
+**Verdict: DEFECTS FOUND**

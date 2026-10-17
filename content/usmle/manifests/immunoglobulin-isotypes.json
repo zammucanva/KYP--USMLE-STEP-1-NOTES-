@@ -1,0 +1,572 @@
+{
+  "topicId": "immunoglobulin-isotypes",
+  "title": "Immunoglobulin Isotypes & Antigen Memory",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      125
+    ],
+    "bookPages": "103"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Immunoglobulin\nisotypes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "All-monomer rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "All isotypes can exist as monomers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Naïve B-cell expression",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Mature, naïve B cells prior to activation express IgM and IgD\non their surfaces.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Germinal-center switching",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "They may differentiate in germinal centers of lymph nodes by isotype switching\n(gene rearrangement; induced by cytokines and CD40L) into plasma cells that secrete IgA, IgG,\nor IgE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA printed mnemonic (verification only — not reproduced in user-facing note)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "“For B cells, IgMom and IgDad mature to plasma cells as they AGE.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Affinity definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Affinity refers to the strength of a single antibody–antigen interaction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Avidity definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Avidity (enhanced by the\nhinge region and heavy chain domains) describes the overall binding strength resulting from\nmultiple antibody–antigen interactions in a multivalent molecule.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "IgG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — 2° response + abundance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Main antibody in 2° response to an antigen. Most abundant isotype in serum.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — functions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Fixes complement,\nopsonizes bacteria, neutralizes bacterial toxins and viruses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — placenta",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Only isotype that crosses the placenta\n(provides infants with passive immunity that starts to wane after birth).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — FA mnemonic (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "“IgG Greets the Growing\nfetus.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgG — warm AIHA + FA mnemonic (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Associated with warm autoimmune\nhemolytic anemia (“warm weather is Good!”).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "IgA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — mucosal function, no complement",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Prevents attachment of bacteria and viruses to mucous membranes; does not fix complement.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — structure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Monomer (in circulation) or dimer (with J chain when secreted).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — transcytosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Crosses epithelial cells by\ntranscytosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — GI source + Giardia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Produced in GI tract (eg, by Peyer patches) and protects against gut infections (eg,\nGiardia).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — most produced, low serum",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Most produced antibody overall, but has lower serum concentrations.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — secretions + milk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Released into\nsecretions (tears, saliva, mucus) and breast milk.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA — secretory component",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Picks up secretory component from epithelial cells,\nwhich protects the Fc portion from luminal proteases.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "IgM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — first antibody",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "First antibody to be produced during an immune response.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — complement + BCR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Fixes complement. Antigen receptor\non the surface of B cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — pentamer structure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Monomer on B cell, pentamer with J chain when secreted.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — avid pentamer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Pentamer\nenables avid binding to antigen while humoral response evolves.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgM — cold AIHA",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Associated with cold autoimmune\nhemolytic anemia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgD — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "IgD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgD — naïve BCR + low serum",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Expressed on the surface of mature, naïve B cells. Normally, low levels are detectable in serum.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgE — heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "IgE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgE — mast cells, type I, histamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Binds mast cells and basophils; cross-links when exposed to allergen, mediating immediate (type I)\nhypersensitivity through release of inflammatory mediators such as histamine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgE — parasites via eosinophils",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Contributes to\nimmunity to parasites by activating Eosinophils.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antigen memory heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Antigen type and memory",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TI — heading + definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Thymus-independent\nantigens\nAntigens lacking a peptide component (eg, lipopolysaccharides from gram ⊝ bacteria); cannot\nbe presented by MHC to T cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TI — weakly immunogenic, boosters, PPSV23",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Weakly immunogenic; vaccines often require boosters and\nadjuvants (eg, capsular polysaccharide subunit of Streptococcus pneumoniae PPSV23 vaccine).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TD — heading + definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Thymus-dependent\nantigens\nAntigens containing a protein component (eg, diphtheria toxoid).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TD — switching + memory",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "Class switching and immunologic\nmemory occur as a result of direct contact of B cells with Th cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Structure icon label — J chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "quote": "J chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "isotype-comparison-table"
+  ],
+  "mechanismIds": [
+    "isotype-lifecycle"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the isotype roster and antigen-memory text; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "compartment-and-superlative-model",
+      "summary": "Reading the roster by compartments and exact superlatives (IgG most abundant IN SERUM vs IgA most PRODUCED overall; blood vs mucosa vs mast-cell-bound), the serology clock (IgM recent/acute vs IgG past/secondary), the temperature-isotype map (warm AIHA IgG vs cold AIHA IgM), and the conjugate-vaccine logic (TI polysaccharide + protein carrier = TD, per PCV13 vs PPSV23).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists isotype facts but does not build the compartment map, serology clock, or the conjugate-vaccine corollary; these integrations are KYP's design. The PCV13/conjugate details are labeled extension (the printed page names only PPSV23 and diphtheria toxoid).",
+      "location": "core.keyIdea + traps 1 + pivots 1-2 + callout + pattern 1 + miniCase distractors"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdf 125 carries only a 1x1 pixel artifact — pure vector/text page; the structure icons (monomer/dimer/pentamer with J chains) are conveyed as drawn schematics inside the ONE original KYP registry visual (isotype-comparison-table). MNEMONIC BOUNDARY (documented, E22/E24 rule): the page's FA mnemonic phrases ('IgMom and IgDad...', 'IgG Greets the Growing fetus', 'warm weather is Good!') are quoted in the manifest evidence for VERIFICATION ONLY and are NOT reproduced in any user-facing note content — KYP-authored mnemonics replace them. Boundary: pdf 124 = E27 antibody-structure; pdf 126 (complement) = E29.",
+  "updatedAt": "2026-10-17"
+}

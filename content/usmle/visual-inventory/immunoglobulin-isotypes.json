@@ -1,0 +1,42 @@
+{
+  "topicId": "immunoglobulin-isotypes",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "immunoglobulin-isotypes-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          125
+        ],
+        "bookPages": "103"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Immunoglobulin isotypes — the five-isotype roster with structure icons",
+      "sourceFigureDescription": "A vector layout of the five isotype entries, each with structure icons drawn as simple Y-unit schematics (IgG monomer; IgA monomer or dimer with J chain; IgM monomer-on-cell or pentamer with J chain, with J-chain labels repeated; IgD monomer; IgE monomer) followed by each isotype's function paragraph.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "immunoglobulin-isotypes",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "isotype-comparison-table",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "immunoglobulin-isotypes",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (1x1 artifact only). The five-isotype roster with its structure icons is conveyed in ONE original KYP comparison grid (drawn monomer/dimer/pentamer schematics + five rows of attributes); the verbatim isotype text is the note's table block. FA's printed mnemonic phrases are not reproduced in user-facing content."
+}

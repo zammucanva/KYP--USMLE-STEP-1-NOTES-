@@ -1704,3 +1704,224 @@ export function AntibodyAnatomy() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E28 — Immunoglobulin isotypes: the five-isotype comparison grid
+// (source: "Immunoglobulin isotypes" + antigen type/memory, pdf 125 / book 103)
+// ---------------------------------------------------------------------------
+
+export function IsotypeComparisonTable() {
+  const w = 980;
+  const h = 660;
+  const cols = [
+    { x: 92, name: "IgG", color: "fill-brand-soft", stroke: "stroke-brand" },
+    { x: 264, name: "IgA", color: "fill-warning-soft", stroke: "stroke-warning" },
+    { x: 436, name: "IgM", color: "fill-emergency/10", stroke: "stroke-emergency" },
+    { x: 608, name: "IgD", color: "fill-secondary", stroke: "stroke-border" },
+    { x: 780, name: "IgE", color: "fill-primary/15", stroke: "stroke-primary" },
+  ];
+  const cw = 172;
+  // mini Y-shaped monomer at (cx, cy), scale s
+  const Monomer = ({ cx, cy }: { cx: number; cy: number }) => (
+    <g stroke="currentColor" className="text-foreground" strokeWidth="2" fill="none">
+      <path d={`M ${cx} ${cy - 2} L ${cx} ${cy + 10}`} />
+      <path d={`M ${cx} ${cy - 2} L ${cx - 7} ${cy - 12}`} />
+      <path d={`M ${cx} ${cy - 2} L ${cx + 7} ${cy - 12}`} />
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Immunoglobulin isotypes, an original KYP comparison grid. Five columns for IgG, IgA, IgM, IgD, and IgE. Structure row: IgG, IgD, and IgE are monomers (single Y units); IgA is a dimer joined by a J chain when secreted; IgM is a pentamer with a J chain when secreted (monomer on the B-cell surface). IgG: main antibody in the secondary response, most abundant in serum, fixes complement, opsonizes bacteria, neutralizes toxins and viruses, the only isotype that crosses the placenta; associated with warm autoimmune hemolytic anemia. IgA: prevents attachment of bacteria and viruses to mucous membranes, does not fix complement, crosses epithelium by transcytosis, produced in the GI tract by Peyer patches, protects against gut infections like Giardia, most produced overall with low serum levels, secreted into tears, saliva, mucus and breast milk, picking up secretory component that protects its Fc from proteases. IgM: first antibody produced in an immune response, fixes complement, antigen receptor on the B-cell surface, pentamer enables avid binding while the response evolves; associated with cold autoimmune hemolytic anemia. IgD: expressed on mature naive B cells with IgM, low serum levels. IgE: binds mast cells and basophils, cross-links on allergen exposure mediating type I hypersensitivity via histamine, and contributes to parasite immunity by activating eosinophils. Bottom: affinity is the strength of a single antibody-antigen interaction while avidity is the overall binding strength of multiple interactions in a multivalent molecule; thymus-independent antigens lack peptide, cannot be presented by MHC, are weakly immunogenic and need boosters and adjuvants (eg, PPSV23), while thymus-dependent antigens contain protein and produce class switching and immunologic memory through direct B-Th cell contact" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Immunoglobulin isotypes — the five-column roster (original KYP diagram)</text>
+        <rect x="722" y="24" width="206" height="18" rx="9" className="fill-brand-soft" />
+        <text x="825" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">naïve B cell: IgM + IgD on board</text>
+      </g>
+
+      {/* column headers */}
+      {cols.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="76" width={cw - 4} height="30" rx="8" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + (cw - 4) / 2} y="96" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">{c.name}</text>
+        </g>
+      ))}
+
+      {/* row label column + rows */}
+      <text x="40" y="126" fontSize="7" fontWeight="800" className="fill-muted-foreground">STRUCTURE</text>
+      <text x="40" y="136" fontSize="6" className="fill-muted-foreground">(secreted</text>
+      <text x="40" y="146" fontSize="6" className="fill-muted-foreground">form)</text>
+
+      <text x="40" y="238" fontSize="7" fontWeight="800" className="fill-muted-foreground">TIMING &amp;</text>
+      <text x="40" y="248" fontSize="7" fontWeight="800" className="fill-muted-foreground">ABUNDANCE</text>
+
+      <text x="40" y="316" fontSize="7" fontWeight="800" className="fill-muted-foreground">COMPLEMENT</text>
+      <text x="40" y="326" fontSize="7" fontWeight="800" className="fill-muted-foreground">&amp; EFFECTS</text>
+
+      <text x="40" y="396" fontSize="7" fontWeight="800" className="fill-muted-foreground">SIGNATURE</text>
+      <text x="40" y="406" fontSize="7" fontWeight="800" className="fill-muted-foreground">ROLE</text>
+
+      <text x="40" y="476" fontSize="7" fontWeight="800" className="fill-muted-foreground">DISEASE</text>
+      <text x="40" y="486" fontSize="7" fontWeight="800" className="fill-muted-foreground">ASSOCIATION</text>
+
+      {/* structure row: drawn mini-schematics */}
+      {cols.map((c) => (
+        <g key={`${c.name}-struct`}>
+          <rect x={c.x} y="114" width={cw - 4} height="104" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+          {c.name === "IgG" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">(all isotypes</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">can exist as</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">monomers)</text>
+            </g>
+          )}
+          {c.name === "IgA" && (
+            <g>
+              <Monomer cx={c.x + 30} cy={166} />
+              <Monomer cx={c.x + 58} cy={166} />
+              <line x1={c.x + 30} y1={178} x2={c.x + 58} y2={178} stroke="currentColor" className="text-emergency" strokeWidth="2" />
+              <text x={c.x + 64} y={181} fontSize="5.4" fontWeight="800" className="fill-emergency">J</text>
+              <text x={c.x + 96} y={158} fontSize="6.2" className="fill-muted-foreground">monomer (in</text>
+              <text x={c.x + 96} y={168} fontSize="6.2" className="fill-muted-foreground">circulation) or</text>
+              <text x={c.x + 96} y={178} fontSize="6.2" className="fill-muted-foreground">dimer with J</text>
+              <text x={c.x + 96} y={188} fontSize="6.2" className="fill-muted-foreground">chain (secreted)</text>
+            </g>
+          )}
+          {c.name === "IgM" && (
+            <g>
+              {[0, 1, 2, 3, 4].map((i) => {
+                const ang = (i / 5) * Math.PI * 2 - Math.PI / 2;
+                const cx = c.x + 42 + Math.cos(ang) * 16;
+                const cy = 162 + Math.sin(ang) * 14;
+                return <Monomer key={i} cx={cx} cy={cy} />;
+              })}
+              <circle cx={c.x + 42} cy={162} r="5" className="fill-emergency/20 stroke-emergency" strokeWidth="1" />
+              <text x={c.x + 42} y={165} textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-emergency">J</text>
+              <text x={c.x + 72} y={152} fontSize="6.2" className="fill-muted-foreground">monomer on</text>
+              <text x={c.x + 72} y={162} fontSize="6.2" className="fill-muted-foreground">B cell; pentamer</text>
+              <text x={c.x + 72} y={172} fontSize="6.2" className="fill-muted-foreground">+ J chain when</text>
+              <text x={c.x + 72} y={182} fontSize="6.2" className="fill-muted-foreground">secreted — avid</text>
+              <text x={c.x + 72} y={192} fontSize="6.2" className="fill-muted-foreground">binding</text>
+            </g>
+          )}
+          {c.name === "IgD" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer;</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">low serum</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">levels are</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">normal</text>
+            </g>
+          )}
+          {c.name === "IgE" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer;</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">FcεRI binds it</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">to mast cells</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">&amp; basophils</text>
+            </g>
+          )}
+        </g>
+      ))}
+
+      {/* timing & abundance row */}
+      {[
+        { name: "IgG", lines: ["Main antibody in 2°", "response; most abundant", "isotype in serum"] },
+        { name: "IgA", lines: ["Most produced antibody", "overall, but lower serum", "concentrations"] },
+        { name: "IgM", lines: ["First antibody produced", "during an immune", "response (1° response)"] },
+        { name: "IgD", lines: ["Naïve B-cell receptor", "(with IgM) prior to", "activation"] },
+        { name: "IgE", lines: ["Produced on allergen /", "parasite encounter;", "least abundant"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-timing`}>
+            <rect x={c.x} y="226" width={cw - 4} height="72" rx="10" className="fill-secondary" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={250 + j * 12} fontSize="6.4" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* complement & effects row */}
+      {[
+        { name: "IgG", lines: ["Fixes complement ·", "opsonizes bacteria ·", "neutralizes bacterial", "toxins and viruses"] },
+        { name: "IgA", lines: ["Does NOT fix", "complement · prevents", "attachment of bacteria", "and viruses to mucosa"] },
+        { name: "IgM", lines: ["Fixes complement", "(the strongest fixer —", "pentamer presents five", "Fc regions)"] },
+        { name: "IgD", lines: ["Antigen receptor on", "the surface of B cells;", "signals with IgM"] },
+        { name: "IgE", lines: ["Cross-links on allergen", "→ type I hypersensitivity", "via histamine; activates", "eosinophils vs parasites"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-fx`}>
+            <rect x={c.x} y="306" width={cw - 4} height="80" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={326 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* signature role row */}
+      {[
+        { name: "IgG", lines: ["ONLY isotype that", "crosses the placenta —", "infant passive immunity", "that wanes after birth"] },
+        { name: "IgA", lines: ["Crosses epithelium by", "transcytosis; secretions,", "breast milk; secretory", "component protects Fc"] },
+        { name: "IgM", lines: ["Pentamer avidity holds", "the fort while the", "humoral response", "evolves; cold AIHA"] },
+        { name: "IgD", lines: ["Expressed on mature,", "naïve B cells;", "normally low serum", "levels detectable"] },
+        { name: "IgE", lines: ["Binds mast cells and", "basophils; immunity", "to parasites via", "eosinophil activation"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-role`}>
+            <rect x={c.x} y="394" width={cw - 4} height="80" rx="10" className="fill-secondary" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={414 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* disease association row */}
+      {[
+        { name: "IgG", lines: ["Warm autoimmune", "hemolytic anemia", "(warm weather)", "", "GI: Giardia protection", "is IgA's, not IgG's"] },
+        { name: "IgA", lines: ["Giardia gut infections", "when deficient;", "secretions: tears,", "saliva, mucus, milk", "(Peyer patches produce)"] },
+        { name: "IgM", lines: ["Cold autoimmune", "hemolytic anemia;", "anti-IgM detects", "recent/acute infection", "(IgG = past exposure)"] },
+        { name: "IgD", lines: ["Marker of mature", "naïve B cells —", "no classic deficiency", "syndrome of its own"] },
+        { name: "IgE", lines: ["Immediate (type I)", "hypersensitivity,", "anaphylaxis,", "allergic disease,", "helminth immunity"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-dx`}>
+            <rect x={c.x} y="482" width={cw - 4} height="78" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+            {r.lines.filter(Boolean).map((line, j) => (
+              <text key={j} x={c.x + 12} y={500 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* bottom strip: affinity vs avidity + TI/TD */}
+      <g>
+        <rect x="36" y="572" width="444" height="62" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="50" y="590" fontSize="7.4" fontWeight="800" className="fill-foreground">Affinity vs avidity</text>
+        <text x="50" y="604" fontSize="6.3" className="fill-muted-foreground">Affinity: strength of a single antibody–antigen interaction. Avidity: overall binding</text>
+        <text x="50" y="614" fontSize="6.3" className="fill-muted-foreground">strength from multiple interactions in a multivalent molecule — enhanced by the hinge</text>
+        <text x="50" y="624" fontSize="6.3" className="fill-muted-foreground">region and heavy chain domains (why the IgM pentamer grips antigen avidly).</text>
+      </g>
+      <g>
+        <rect x="492" y="572" width="452" height="62" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="506" y="590" fontSize="7.4" fontWeight="800" className="fill-foreground">Antigen type and memory</text>
+        <text x="506" y="604" fontSize="6.3" className="fill-muted-foreground">Thymus-INdependent: no peptide (LPS, capsular polysaccharides) — cannot be presented by</text>
+        <text x="506" y="614" fontSize="6.3" className="fill-muted-foreground">MHC; weakly immunogenic; vaccines need boosters and adjuvants (eg, PPSV23). No class</text>
+        <text x="506" y="624" fontSize="6.3" className="fill-muted-foreground">switching, no memory. Thymus-DEpendent: protein component (eg, diphtheria toxoid) —</text>
+        <text x="506" y="634" fontSize="6.3" className="fill-muted-foreground">B-Th cell contact → class switching AND immunologic memory.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="652" fontSize="7.2" className="fill-muted-foreground">Original KYP comparison grid (pdf 125 / book 103 — the printed page's structure icons and roster are conveyed schematically; FA's printed mnemonic phrases are NOT reproduced). Verbatim isotype text is the note's table block.</text>
+    </svg>
+  );
+}

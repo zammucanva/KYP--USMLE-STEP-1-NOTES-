@@ -736,8 +736,36 @@
         "isotype-comparison-table"
       ],
       "mechanismHeavy": false,
-      "status": "pending",
-      "productionRationale": "The isotype roster (IgG: placenta/complement/opsonin; IgA: secretions/dimer with J chain; IgM: pentamer/first/complement; IgD: receptor; IgE: parasites/mast-cell FcεRI) plus thymus-independent (repeated epitopes, no class switching/memory) vs thymus-dependent antigens."
+      "status": "complete",
+      "productionRationale": "The isotype roster (IgG: placenta/complement/opsonin; IgA: secretions/dimer with J chain; IgM: pentamer/first/complement; IgD: receptor; IgE: parasites/mast-cell FcεRI) plus thymus-independent (repeated epitopes, no class switching/memory) vs thymus-dependent antigens.",
+      "textbookVisuals": [
+        {
+          "visualId": "immunoglobulin-isotypes-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              125
+            ],
+            "bookPages": "103"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Immunoglobulin isotypes — the five-isotype roster with structure icons",
+          "sourceFigureDescription": "A vector layout of the five isotype entries, each with structure icons drawn as simple Y-unit schematics (IgG monomer; IgA monomer or dimer with J chain; IgM monomer-on-cell or pentamer with J chain, with J-chain labels repeated; IgD monomer; IgE monomer) followed by each isotype's function paragraph.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "immunoglobulin-isotypes",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "isotype-comparison-table",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "isotype-comparison-table",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "complement-pathways",
@@ -1106,7 +1134,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 14,
+  "pendingTopicCount": 13,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

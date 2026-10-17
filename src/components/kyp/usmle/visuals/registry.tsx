@@ -115,6 +115,7 @@ import {
   TregSuppressionModel,
   ActivationSignalModel,
   AntibodyAnatomy,
+  IsotypeComparisonTable,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -265,4 +266,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "treg-suppression-model": TregSuppressionModel,
   "activation-signal-model": ActivationSignalModel,
   "antibody-anatomy": AntibodyAnatomy,
+  "isotype-comparison-table": IsotypeComparisonTable,
 };
