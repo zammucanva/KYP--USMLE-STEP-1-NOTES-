@@ -1,0 +1,15 @@
+**Paint QA Report: Transplant Rejection Timeline Map**
+
+**(A) Overlapping labels or text-on-text collisions:**
+- **PASS.** All text elements are well-spaced within their respective containers (cards and panels). No overlapping text is observed.
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+- **PASS.** All text blocks, including the long lists in the "Graft-vs-Host" panel and the bottom "Biopsy Figures" section, are fully contained within their boundaries. No words are cut off.
+
+**(C) Arrows/lines crossing through text:**
+- **PASS.** The timeline bar and its associated nodes (circles) are positioned clearly above the main content cards. No lines intersect with any text labels.
+
+**(D) Illegible low-contrast text:**
+- **PASS.** The color palette provides high contrast for readability. White/cyan text on dark backgrounds and orange text on the dark background of the GVHD panel are all clearly legible.
+
+Verdict: CLEAN

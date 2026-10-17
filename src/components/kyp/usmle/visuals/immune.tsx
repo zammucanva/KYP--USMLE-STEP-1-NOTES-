@@ -3075,3 +3075,122 @@ export function BugPatternMatrix() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E39 — Transplant rejection: the four-station timeline
+// (source: "Transplant rejection", pdf 139 / book 117 — pure vector table;
+//  the A/B/C histopathology rasters are copyrighted and are described, not redrawn)
+// ---------------------------------------------------------------------------
+
+export function RejectionTimelineMap() {
+  const w = 980;
+  const h = 690;
+  const cards = [
+    {
+      name: "HYPERACUTE", time: "Within minutes", x: 36, color: "fill-emergency/10", stroke: "stroke-emergency",
+      patho: ["Pre-existing recipient antibodies", "react to donor antigen (type II", "hypersensitivity reaction),", "activate complement"],
+      feat: ["Widespread thrombosis of graft", "vessels → ischemia and", "fibrinoid necrosis.", "Graft must be removed."],
+      tx: "No salvage — the antibody was already there",
+    },
+    {
+      name: "ACUTE", time: "Weeks to months", x: 280, color: "fill-warning-soft", stroke: "stroke-warning",
+      patho: ["Cellular: CD8+ and/or CD4+ T cells", "activated against donor MHCs", "(type IV hypersensitivity).", "Humoral: like hyperacute but", "antibodies develop after", "transplant (C4d deposition)."],
+      feat: ["Vasculitis of graft vessels with", "dense interstitial lymphocytic", "infiltrate. Prevent/reverse", "with immunosuppressants."],
+      tx: "The treatable window — respond to immunosuppression",
+    },
+    {
+      name: "CHRONIC", time: "Months to years", x: 524, color: "fill-brand-soft", stroke: "stroke-brand",
+      patho: ["CD4+ T cells respond to recipient", "APCs presenting donor peptides,", "including allogeneic MHC. Both", "cellular and humoral (type II", "and IV hypersensitivity)."],
+      feat: ["Cytokines → vascular smooth muscle", "proliferation, parenchymal atrophy,", "interstitial fibrosis — dominated", "by arteriosclerosis. Examples:", "allograft nephropathy, bronchiolitis", "obliterans, accelerated", "atherosclerosis (heart), vanishing", "bile duct syndrome."],
+      tx: "Remodeling — the slow fibrotic endgame",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Transplant rejection, an original KYP timeline map of the four rejection types. The timeline runs from within minutes to weeks-to-months to months-to-years, with graft-versus-host disease off the clock (varies). Hyperacute (within minutes): pre-existing recipient antibodies react to donor antigen — a type II hypersensitivity reaction activating complement — causing widespread thrombosis of graft vessels with ischemia and fibrinoid necrosis; the graft must be removed. Acute (weeks to months): cellular rejection with CD8+ and/or CD4+ T cells activated against donor MHCs (type IV), or humoral rejection like hyperacute except antibodies develop after transplant with C4d deposition; features are vasculitis of graft vessels with a dense interstitial lymphocytic infiltrate, preventable or reversible with immunosuppressants. Chronic (months to years): CD4+ T cells respond to recipient APCs presenting donor peptides including allogeneic MHC, with both cellular and humoral components (types II and IV); recipient T cells secrete cytokines driving vascular smooth muscle proliferation, parenchymal atrophy, and interstitial fibrosis — dominated by arteriosclerosis, with organ-specific examples chronic allograft nephropathy, bronchiolitis obliterans, accelerated atherosclerosis of the heart, and vanishing bile duct syndrome. Graft-versus-host disease (varies): grafted immunocompetent T cells proliferate in the immunocompromised host and reject host cells with foreign proteins — severe organ dysfunction, risk rising with HLA mismatch, a type IV reaction; features are maculopapular rash, jaundice, diarrhea, and hepatosplenomegaly, usually in bone marrow and liver transplants (rich in lymphocytes), potentially beneficial in leukemia (graft-versus-tumor effect); immunocompromised patients receive irradiated blood products to prevent GVHD" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Transplant rejection — the four-station clock (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">minutes → months → years</text>
+      </g>
+
+      {/* timeline bar */}
+      <g>
+        <line x1="60" y1="105" x2="700" y2="105" stroke="currentColor" className="text-border" strokeWidth="3" />
+        {[
+          [80, "Within minutes"],
+          [380, "Weeks to months"],
+          [660, "Months to years"],
+        ].map(([x, t]) => (
+          <g key={t as string}>
+            <circle cx={x as number} cy="105" r="8" className="fill-brand stroke-background" strokeWidth="2" />
+            <text x={x as number} y="90" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">{t}</text>
+          </g>
+        ))}
+        {/* GVHD off-clock marker */}
+        <line x1="700" y1="105" x2="740" y2="105" stroke="currentColor" className="text-border" strokeWidth="3" strokeDasharray="5 4" />
+        <circle cx="770" cy="105" r="8" className="fill-warning-soft stroke-warning" strokeWidth="2" />
+        <text x="770" y="90" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">Varies (off the clock)</text>
+      </g>
+
+      {/* three timeline cards */}
+      {cards.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="132" width="228" height="308" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x={c.x} y="132" width="228" height="30" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + 114} y="152" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">{c.name}</text>
+          <text x={c.x + 14} y="180" fontSize="6.6" fontWeight="800" className="fill-emergency">PATHOGENESIS</text>
+          {c.patho.map((line, j) => (
+            <text key={j} x={c.x + 14} y={190 + j * 9.5} fontSize="5.9" className="fill-muted-foreground">{line}</text>
+          ))}
+          <text x={c.x + 14} y={258} fontSize="6.6" fontWeight="800" className="fill-brand">FEATURES</text>
+          {c.feat.map((line, j) => (
+            <text key={j} x={c.x + 14} y={268 + j * 9.5} fontSize="5.9" className="fill-muted-foreground">{line}</text>
+          ))}
+          <rect x={c.x + 10} y={356} width="208" height="70" rx="8" className="fill-secondary" />
+          <text x={c.x + 22} y={376} fontSize="6.2" fontWeight="800" className="fill-foreground">WHAT IT MEANS</text>
+          {c.tx.match(/.{1,32}(\s|$)/g)!.map((line, j) => (
+            <text key={j} x={c.x + 22} y={388 + j * 10} fontSize="6" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* GVHD panel (full width, right of timeline cards zone) */}
+      <g>
+        <rect x="776" y="132" width="168" height="308" rx="12" className="fill-card stroke-warning" strokeWidth="1.4" />
+        <rect x="776" y="132" width="168" height="44" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="860" y="150" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">GRAFT-VS-HOST</text>
+        <text x="860" y="164" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">DISEASE (GVHD)</text>
+        {[
+          "Grafted immunocompetent T", "cells proliferate in the", "immunocompromised host and", "reject HOST cells with", "“foreign” proteins → severe", "organ dysfunction (type IV).", "", "HLA mismatches ↑ risk.", "", "Maculopapular rash, jaundice,", "diarrhea, hepatosplenomegaly.", "Usually marrow + liver", "transplants (lymphocyte-rich).", "Graft-vs-TUMOR effect can", "benefit leukemia patients.", "Irradiate blood products in the", "immunocompromised to prevent.",
+        ].map((line, j) => (
+          <text key={j} x="788" y={188 + j * 10} fontSize="5.9" className={line === "" ? "fill-muted-foreground" : "fill-muted-foreground"}>{line}</text>
+        ))}
+      </g>
+
+      {/* bottom strip: direction + hypersensitivity mapping */}
+      <g>
+        <rect x="36" y="456" width="908" height="166" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="480" fontSize="8.2" fontWeight="800" className="fill-foreground">TWO ORGANIZING AXES — direction and hypersensitivity type</text>
+        {[
+          [54, "DIRECTION", ["Rejection: host immune system", "attacks the graft (the four", "stations at left, first three).", "GVHD: the GRAFT'S immune cells", "attack the HOST — the only", "direction-reversed entry."]],
+          [366, "HYPERSENSITIVITY MAP", ["Hyperacute = type II (preformed", "antibody + complement).", "Acute cellular = type IV (T cells", "vs donor MHC); acute humoral =", "II, after transplant, C4d+.", "Chronic = II AND IV both."]],
+          [678, "BIOPSY FIGURES (described)", ["A — hyperacute: thrombosed", "glomerular vessels (the printed", "micrograph). B — acute: dense", "interstitial lymphocytic infiltrate.", "C — chronic: graft arteriosclerosis.", "Copyrighted; conveyed as text."]],
+        ].map(([x, t, lines]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="494" width="296" height="114" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 14} y="512" fontSize="6.8" fontWeight="800" className="fill-foreground">{t}</text>
+            {(lines as string[]).map((line, j) => (
+              <text key={j} x={(x as number) + 14} y={526 + j * 11} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        ))}
+        <text x="54" y="616" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Rule of thumb: the clock position predicts the mechanism — minutes means the antibody pre-existed; weeks-months means the adaptive response is new and treatable; years means remodeling.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="646" fontSize="7.2" className="fill-muted-foreground">Original KYP timeline map (pdf 139 / book 117 — the printed table is pure vector; its three histopathology micrographs A/B/C are copyrighted and are described, never reproduced). Verbatim table text is the note's table block.</text>
+    </svg>
+  );
+}

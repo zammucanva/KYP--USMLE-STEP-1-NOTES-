@@ -1472,8 +1472,118 @@
         "rejection-timeline-map"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The rejection clock: hyperacute (minutes-hours, preformed anti-HLA/ABO antibodies, complement, thrombosis), acute (weeks-months, type IV cellular + type II humoral, reversible with immunosuppression), chronic (months-years, fibrosis/vascular intimal thickening, irreversible), GVHD (donor T cells vs host, GI/skin/liver — the bone-marrow and solid-organ risk profiles)."
+      "status": "complete",
+      "productionRationale": "The rejection clock: hyperacute (minutes-hours, preformed anti-HLA/ABO antibodies, complement, thrombosis), acute (weeks-months, type IV cellular + type II humoral, reversible with immunosuppression), chronic (months-years, fibrosis/vascular intimal thickening, irreversible), GVHD (donor T cells vs host, GI/skin/liver — the bone-marrow and solid-organ risk profiles).",
+      "textbookVisuals": [
+        {
+          "visualId": "transplant-rejection-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              139
+            ],
+            "bookPages": "117"
+          },
+          "chapterId": "immunology",
+          "visualType": "PATHOLOGY_ILLUSTRATION",
+          "visualPurpose": "Figure A — thrombosis within glomerulus (hyperacute rejection)",
+          "sourceFigureDescription": "A histopathology micrograph (labeled 'arrows within glomerulus A' on the printed page) showing widespread thrombosis of graft vessels in a glomerulus — the hyperacute-rejection picture of preformed antibody and complement lysing graft endothelium. 282x255 cmyk jpeg.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "transplant-rejection",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "rejection-timeline-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described in the visual's biopsy-figures card + note callout — never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "rejection-timeline-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "visualId": "transplant-rejection-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              139
+            ],
+            "bookPages": "117"
+          },
+          "chapterId": "immunology",
+          "visualType": "PATHOLOGY_ILLUSTRATION",
+          "visualPurpose": "Figure B — dense interstitial lymphocytic infiltrate (acute rejection)",
+          "sourceFigureDescription": "A histopathology micrograph (labeled 'B' on the printed page) showing the dense interstitial lymphocytic infiltrate with vasculitis of graft vessels — the acute-cellular-rejection picture. 283x255 cmyk jpeg.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "transplant-rejection",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "rejection-timeline-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described in the visual's biopsy-figures card + note callout — never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "rejection-timeline-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "visualId": "transplant-rejection-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              139
+            ],
+            "bookPages": "117"
+          },
+          "chapterId": "immunology",
+          "visualType": "PATHOLOGY_ILLUSTRATION",
+          "visualPurpose": "Figure C — graft arteriosclerosis (chronic rejection)",
+          "sourceFigureDescription": "A histopathology micrograph (labeled 'C' on the printed page) showing the arteriosclerosis that dominates chronic rejection — vascular smooth muscle proliferation with intimal thickening. 283x255 cmyk jpeg.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "transplant-rejection",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "rejection-timeline-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described in the visual's biopsy-figures card + note callout — never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "rejection-timeline-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "visualId": "transplant-rejection-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              139
+            ],
+            "bookPages": "117"
+          },
+          "chapterId": "immunology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Transplant rejection — the four-row table",
+          "sourceFigureDescription": "The printed table (TYPE OF REJECTION / ONSET / PATHOGENESIS / FEATURES) with rows for Hyperacute, Acute, Chronic, and Graft-versus-host disease.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immunosuppressants",
+          "topicId": "transplant-rejection",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'Transplant rejection — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "immunosuppressants",
@@ -1535,7 +1645,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 3,
+  "pendingTopicCount": 2,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",
