@@ -113,6 +113,7 @@ import {
   TCellSelectionMap,
   CtlKillCycle,
   TregSuppressionModel,
+  ActivationSignalModel,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -261,4 +262,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "t-cell-selection-map": TCellSelectionMap,
   "ctl-kill-cycle": CtlKillCycle,
   "treg-suppression-model": TregSuppressionModel,
+  "activation-signal-model": ActivationSignalModel,
 };

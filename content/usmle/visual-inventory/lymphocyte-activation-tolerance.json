@@ -1,0 +1,42 @@
+{
+  "topicId": "lymphocyte-activation-tolerance",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "lymphocyte-activation-tolerance-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "chapterId": "immunology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "T- and B-cell activation — the two two-signal diagrams",
+      "sourceFigureDescription": "Two side-by-side vector diagrams. Left (T-cell activation): an Antigen-presenting cell (Antigen on MHC II/I) faces a Naïve T cell (T cell receptor, CD4/8); signal 1 = antigen-MHC to TCR; signal 2 = CD80/86 (B7) on the APC to CD28 on the naïve T cell; output box 'Activated T cell actions'. Right (B-cell activation and class switching): an Activated CD4+ T cell (T cell receptor, CD4, CD40L) faces a B cell (B cell receptor, MHC II with Antigen, CD40); signal 1 = antigen-MHC II to TCR; signal 2 = CD40L to CD40; Cytokines arrow from the Th cell direct class switching; output box 'Activated B cell actions'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Cellular Components",
+      "topicId": "lymphocyte-activation-tolerance",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "activation-signal-model",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "lymphocyte-activation-tolerance",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the two activation diagrams are pure vector (pdf 123 rasters = two 1x1 pixel artifacts only) — both are conveyed in ONE original KYP schematic (activation-signal-model) covering both signal-pair routes plus the anergy/peripheral-tolerance strip; the verbatim activation sequences are the note's table block. No E27 content (pdf 124) claimed."
+}

@@ -599,8 +599,36 @@
         "activation-signal-model"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "Signal 1 + signal 2 (costimulation) as the decision gate — CD28-B7 for T cells, CD40L-CD40 + cytokines for B cells — and what happens without signal 2: anergy or deletion; CTLA-4/PD-1 as the inhibitory checkpoints (and the drug targets they became)."
+      "status": "complete",
+      "productionRationale": "Signal 1 + signal 2 (costimulation) as the decision gate — CD28-B7 for T cells, CD40L-CD40 + cytokines for B cells — and what happens without signal 2: anergy or deletion; CTLA-4/PD-1 as the inhibitory checkpoints (and the drug targets they became).",
+      "textbookVisuals": [
+        {
+          "visualId": "lymphocyte-activation-tolerance-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              123
+            ],
+            "bookPages": "101"
+          },
+          "chapterId": "immunology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "T- and B-cell activation — the two two-signal diagrams",
+          "sourceFigureDescription": "Two side-by-side vector diagrams. Left (T-cell activation): an Antigen-presenting cell (Antigen on MHC II/I) faces a Naïve T cell (T cell receptor, CD4/8); signal 1 = antigen-MHC to TCR; signal 2 = CD80/86 (B7) on the APC to CD28 on the naïve T cell; output box 'Activated T cell actions'. Right (B-cell activation and class switching): an Activated CD4+ T cell (T cell receptor, CD4, CD40L) faces a B cell (B cell receptor, MHC II with Antigen, CD40); signal 1 = antigen-MHC II to TCR; signal 2 = CD40L to CD40; Cytokines arrow from the Th cell direct class switching; output box 'Activated B cell actions'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Cellular Components",
+          "topicId": "lymphocyte-activation-tolerance",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "activation-signal-model",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "activation-signal-model",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "antibody-structure",
@@ -1023,7 +1051,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 16,
+  "pendingTopicCount": 15,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

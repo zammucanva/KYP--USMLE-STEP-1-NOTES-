@@ -35,6 +35,7 @@ import { hlaSubtypes } from "./hla-subtypes";
 import { nkBTCellFunctions } from "./nk-b-t-cell-functions";
 import { tCellDevelopment } from "./t-cell-development";
 import { cytotoxicRegulatoryTCells } from "./cytotoxic-regulatory-t-cells";
+import { lymphocyteActivationTolerance } from "./lymphocyte-activation-tolerance";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -153,6 +154,7 @@ export const usmleNotes: KypUsMLENote[] = [
   nkBTCellFunctions,
   tCellDevelopment,
   cytotoxicRegulatoryTCells,
+  lymphocyteActivationTolerance,
   cranialNerves,
   diabetesMellitus,
 ];

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T18:51:34Z",
+  "generatedAt": "2026-10-17T18:56:49Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 71,
+    "topicsProduced": 72,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 17,
+      "pilot-complete": 18,
       "chapter-complete": 54,
       "blocked": 0,
       "failed": 0
@@ -296,8 +296,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 24,
-      "topicsProduced": 8,
-      "topicsRemaining": 16,
+      "topicsProduced": 9,
+      "topicsRemaining": 15,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -987,6 +987,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-14"
+    },
+    {
+      "topicId": "lymphocyte-activation-tolerance",
+      "title": "Lymphocyte Activation, Peripheral Tolerance & Anergy",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Cellular Components",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 123 (book 101)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-17"
     },
     {
       "topicId": "lymphoid-structures",

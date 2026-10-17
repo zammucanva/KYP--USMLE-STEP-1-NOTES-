@@ -1,0 +1,534 @@
+{
+  "topicId": "lymphocyte-activation-tolerance",
+  "title": "Lymphocyte Activation, Peripheral Tolerance & Anergy",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Cellular Components",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      123
+    ],
+    "bookPages": "101"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "T- and B-cell activation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subsection heading — T cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "T-cell activation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Subsection heading — B cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "B-cell activation and\nclass switching",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "APC roster",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "APCs: B cells, dendritic cells, Langerhans cells, macrophages.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two-signal rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Two signals are required for T-cell activation, B-cell activation, and class switching.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "APC processing + migration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "APC ingests and processes antigen, then\nmigrates to the draining lymph node.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T signal 1 — exogenous route",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "T-cell activation (signal 1): exogenous\nantigen is presented on MHC II and\nrecognized by TCR on Th (CD4+) cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T signal 1 — endogenous/cross-presentation route",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Endogenous or cross-presented antigen is\npresented on MHC I to Tc (CD8+) cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T signal 2 — B7-CD28 costimulation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Proliferation and survival (signal 2):\ncostimulatory signal via interaction of B7\nprotein (CD80/86) on dendritic cell and\nCD28 on naïve T cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T-cell outputs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Activated Th cell produces cytokines. Tc cell\nable to recognize and kill virus-infected cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B-cell prerequisite",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Th-cell activation as above.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B signal 1 loading — BCR endocytosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "B-cell receptor–mediated endocytosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B signal 1 — MHC II presentation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Exogenous antigen is presented on MHC II\nand recognized by TCR on Th cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B signal 2 — CD40-CD40L",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD40 receptor on B cell binds CD40 ligand\n(CD40L) on Th cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cytokine directive for class switching",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Th cells secrete cytokines that determine Ig\nclass switching of B cells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B-cell outputs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "B cells are activated and produce IgM.\nThey undergo class switching and affinity\nmaturation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — APC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Antigen-presenting\ncell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — receptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "T cell\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CD4/8",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD4/8",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — B7",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD80/86\n(B7)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CD28",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD28",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — activated T actions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Activated\nT cell actions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — BCR",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "B cell\nreceptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — activated CD4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Activated\nCD4+ T cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CD40L",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD40L",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CD40",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "CD40",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — activated B actions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Activated\nB cell actions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — cytokines",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Cytokines",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — naive T cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Naïve T cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — MHC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "MHC II/I",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Peripheral tolerance — heading + definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Peripheral tolerance\nSuppression/inactivation of self-reactive T/B cells (outside thymus/bone marrow) → preserves selftolerance; loss → autoimmunity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Peripheral tolerance — three mechanisms",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Mechanisms: anergy, regulatory T-cell suppression, apoptosis (Fas–FasL pathway).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anergy — heading + definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Anergy\nState during which a cell cannot become activated by exposure to its antigen.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anergy — induction without signal 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "T and B cells\nbecome anergic when exposed to their antigen without costimulatory signal (signal 2).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anergy — tolerance classification",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          123
+        ],
+        "bookPages": "101"
+      },
+      "quote": "Another\nexample of peripheral tolerance mechanism.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "activation-signal-model"
+  ],
+  "mechanismIds": [
+    "two-signal-activation",
+    "peripheral-tolerance-anergy"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the activation sequences, tolerance, and anergy prose; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "and-gate-licensing-model",
+      "summary": "Framing the two-signal rule as a safety interlock (signal 1 = the key, signal 2 = the license; key without license = anergy, not a weak response) and pairing it with the pharmacologic handles on the gate (CTLA-4-Ig blocking B7-CD28; checkpoint inhibitors releasing it) and the disease readouts (hyper-IgM at CD40L-CD40; ALPS at Fas-FasL).",
+      "origin": "outside-first-aid",
+      "rationale": "The source states the two-signal sequences and tolerance mechanisms but not the AND-gate framing, the drug-class connection, or the layer-failure disease map. NOTE: the drug names (abatacept, ipilimumab, nivolumab) are NOT on pdf 123 (verified — no CTLA token in the text layer) and appear only as labeled extension content, never as source evidence.",
+      "location": "core.keyIdea + mechanism captions + callout + patterns 1 and 3 + mnemonics 1 and 3 + pivot 1"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages): pdf 123 carries only two 1x1 rgb pixel artifacts — the T- and B-cell activation diagrams are PURE VECTOR; no copyrighted raster artwork exists for this topic; the single registry visual (activation-signal-model) is an original KYP teaching diagram preserving the signal-pair logic. KYP-extension boundary (documented): CTLA-4/PD-1 drug content is not on this printed page (no CTLA token in the p123 text layer) and appears in the note only as clearly-labeled extension material. Boundary: pdf 124 (Antibody structure and function) begins the IMMUNE RESPONSES banner — that is E27 antibody-structure and is not claimed here. This is the final Cellular Components banner topic.",
+  "updatedAt": "2026-10-17"
+}

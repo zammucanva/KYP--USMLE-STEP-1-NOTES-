@@ -1,0 +1,15 @@
+**Paint QA Report: Lymphocyte Activation Diagram (Dark Mode)**
+
+**(A) Overlapping labels or text-on-text collisions:**
+*   **DEFECT:** The dashed teal arrow connecting the B-cell activation box to the "No signal 2 — ANERGY" section at the bottom **overlaps and crosses directly through the text label** "TCR:CD3 transmembrane/ITAM's signaling" located beneath it.
+
+**(B) Text clipped at box/canvas edges or truncated words:**
+*   **PASS**
+
+**(C) Arrows/lines crossing through text:**
+*   **DEFECT:** As noted in category (A), the curved dashed arrow intersects with the descriptive text, violating standard diagrammatic clarity.
+
+**(D) Illegible low-contrast text:**
+*   **PASS**
+
+**Verdict: DEFECTS FOUND**

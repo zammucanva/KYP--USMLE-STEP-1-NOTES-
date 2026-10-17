@@ -1357,3 +1357,174 @@ export function TregSuppressionModel() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E26 — Lymphocyte activation: the two-signal model + anergy
+// (source: "T- and B-cell activation" diagrams + Peripheral tolerance + Anergy,
+//  pdf 123 / book 101 — diagrams are pure vector, no rasters)
+// ---------------------------------------------------------------------------
+
+export function ActivationSignalModel() {
+  const w = 980;
+  const h = 644;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Lymphocyte activation and anergy, an original KYP diagram of the source's two activation diagrams. A rule strip states that APCs are B cells, dendritic cells, Langerhans cells, and macrophages, and that two signals are required for T-cell activation, B-cell activation, and class switching. Left panel, T-cell activation: an antigen-presenting cell displays antigen on MHC II (or MHC I for cross-presented endogenous antigen) which the T-cell receptor with CD4 or CD8 recognizes — signal 1; B7 protein (CD80/86) on the APC binds CD28 on the naive T cell — signal 2, the costimulatory signal; the activated Th cell produces cytokines and the Tc cell can recognize and kill virus-infected cells. Right panel, B-cell activation and class switching: the activated CD4+ T cell's TCR recognizes antigen that the B cell has endocytosed via its B-cell receptor and displayed on MHC II — signal 1; CD40L on the T cell binds CD40 on the B cell — signal 2; Th-cell cytokines determine Ig class switching; the activated B cell produces IgM and undergoes class switching and affinity maturation. Bottom strip: without signal 2, T and B cells become ANERGic — unable to activate on exposure to their antigen; peripheral tolerance suppresses or inactivates self-reactive T and B cells outside the thymus and bone marrow via anergy, regulatory T-cell suppression, and Fas-FasL apoptosis; its loss causes autoimmunity" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Lymphocyte activation — the two-signal model (original KYP redraw)</text>
+        <rect x="760" y="24" width="172" height="18" rx="9" className="fill-brand-soft" />
+        <text x="846" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">signal 1 + signal 2, or anergy</text>
+      </g>
+
+      {/* rule strip */}
+      <g>
+        <rect x="36" y="72" width="908" height="30" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="490" y="91" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-foreground">APCs: B cells, dendritic cells, Langerhans cells, macrophages · Two signals are required for T-cell activation, B-cell activation, and class switching</text>
+      </g>
+
+      {/* ===== T-cell activation panel ===== */}
+      <g>
+        <rect x="36" y="114" width="460" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="114" width="460" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="266" y="134" textAnchor="middle" fontSize="9.4" fontWeight="800" className="fill-foreground">T-CELL ACTIVATION</text>
+
+        {/* APC */}
+        <g>
+          <rect x="52" y="162" width="150" height="140" rx="14" className="fill-secondary/50 stroke-border" strokeWidth="1.2" />
+          <text x="127" y="184" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">ANTIGEN-</text>
+          <text x="127" y="194" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">PRESENTING CELL</text>
+          <text x="127" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">ingests and processes</text>
+          <text x="127" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">antigen, migrates to the</text>
+          <text x="127" y="230" textAnchor="middle" fontSize="6" className="fill-muted-foreground">draining lymph node</text>
+          <text x="127" y="250" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(dendritic cell, macrophage,</text>
+          <text x="127" y="260" textAnchor="middle" fontSize="6" className="fill-muted-foreground">B cell, Langerhans cell)</text>
+          {/* markers on right edge */}
+          <rect x="196" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="196" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* signal arrows */}
+        <g>
+          <path d="M 214 202 L 334 202" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+          <path d="M 332 197 L 344 202 L 332 207 Z" className="fill-warning" />
+          <text x="274" y="192" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-warning">SIGNAL 1 — antigen</text>
+          <path d="M 214 258 L 334 258" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+          <path d="M 332 253 L 344 258 L 332 263 Z" className="fill-emergency" />
+          <text x="274" y="248" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">SIGNAL 2 — costimulation</text>
+          <text x="274" y="270" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">B7 (CD80/86) ↔ CD28</text>
+        </g>
+
+        {/* naive T cell */}
+        <g>
+          <rect x="346" y="162" width="134" height="140" rx="14" className="fill-brand-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="413" y="184" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">NAÏVE T CELL</text>
+          <text x="413" y="200" textAnchor="middle" fontSize="6" className="fill-muted-foreground">CD4+ Th (reads MHC II)</text>
+          <text x="413" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">or CD8+ Tc (reads MHC I,</text>
+          <text x="413" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">cross-presented)</text>
+          <text x="413" y="238" textAnchor="middle" fontSize="6" className="fill-muted-foreground">no signal 2 here</text>
+          <text x="413" y="248" textAnchor="middle" fontSize="6" className="fill-muted-foreground">= anergy (below)</text>
+          {/* markers on left edge */}
+          <rect x="332" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="332" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* outcome */}
+        <rect x="52" y="318" width="428" height="112" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="66" y="338" fontSize="7.6" fontWeight="800" className="fill-foreground">ACTIVATED T-CELL ACTIONS</text>
+        <text x="66" y="354" fontSize="6.6" className="fill-muted-foreground">· Activated Th cell produces cytokines</text>
+        <text x="66" y="366" fontSize="6.6" className="fill-muted-foreground">· Tc cell becomes able to recognize and kill virus-infected cells</text>
+        <text x="66" y="384" fontSize="6.6" className="fill-muted-foreground">Signal 1 spec: exogenous antigen on MHC II → TCR on Th (CD4+);</text>
+        <text x="66" y="395" fontSize="6.6" className="fill-muted-foreground">endogenous or cross-presented antigen on MHC I → Tc (CD8+)</text>
+        <text x="66" y="407" fontSize="6.6" className="fill-muted-foreground">Signal 2 spec: B7 protein (CD80/86) on dendritic cell ↔ CD28 on naïve T cell</text>
+      </g>
+
+      {/* ===== B-cell activation panel ===== */}
+      <g>
+        <rect x="516" y="114" width="428" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="516" y="114" width="428" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="730" y="134" textAnchor="middle" fontSize="9.4" fontWeight="800" className="fill-foreground">B-CELL ACTIVATION &amp; CLASS SWITCHING</text>
+
+        {/* activated CD4+ T cell */}
+        <g>
+          <rect x="532" y="162" width="156" height="140" rx="14" className="fill-brand-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="610" y="184" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">ACTIVATED</text>
+          <text x="610" y="194" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">CD4+ T CELL</text>
+          <text x="610" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(activated as in the</text>
+          <text x="610" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">left panel — Th-cell</text>
+          <text x="610" y="230" textAnchor="middle" fontSize="6" className="fill-muted-foreground">activation comes first)</text>
+          <rect x="680" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="680" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* signal arrows */}
+        <g>
+          <path d="M 698 202 L 806 202" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+          <path d="M 804 197 L 816 202 L 804 207 Z" className="fill-warning" />
+          <text x="752" y="192" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-warning">SIGNAL 1</text>
+          <path d="M 698 258 L 806 258" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+          <path d="M 804 253 L 816 258 L 804 263 Z" className="fill-emergency" />
+          <text x="752" y="248" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">SIGNAL 2</text>
+          <text x="752" y="270" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">CD40L ↔ CD40</text>
+        </g>
+
+        {/* B cell */}
+        <g>
+          <rect x="818" y="162" width="112" height="140" rx="14" className="fill-warning-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="874" y="184" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">B CELL</text>
+          <text x="874" y="200" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">BCR-mediated</text>
+          <text x="874" y="210" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">endocytosis feeds</text>
+          <text x="874" y="220" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">signal 1: antigen</text>
+          <text x="874" y="230" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">out on MHC II</text>
+          <rect x="804" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="804" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* cytokine arrow (flat curve; label clear below it) */}
+        <g>
+          <path d="M 610 306 C 660 314, 780 314, 852 306" fill="none" stroke="currentColor" className="text-primary" strokeWidth="1.6" strokeDasharray="5 3" />
+          <path d="M 848 310 L 861 304 L 847 300 Z" className="fill-primary" />
+          <text x="730" y="330" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-primary">Th cytokines determine Ig class switching</text>
+        </g>
+
+        {/* outcome */}
+        <rect x="532" y="340" width="396" height="90" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="546" y="360" fontSize="7.6" fontWeight="800" className="fill-foreground">ACTIVATED B-CELL ACTIONS</text>
+        <text x="546" y="376" fontSize="6.6" className="fill-muted-foreground">· B cells are activated and produce IgM</text>
+        <text x="546" y="388" fontSize="6.6" className="fill-muted-foreground">· They undergo class switching and affinity maturation</text>
+        <text x="546" y="406" fontSize="6.6" className="fill-muted-foreground">Signal 1: antigen (endocytosed by BCR) on MHC II → TCR on Th cell</text>
+        <text x="546" y="417" fontSize="6.6" className="fill-muted-foreground">Signal 2: CD40 on B cell binds CD40L on Th cell</text>
+      </g>
+
+      {/* ===== anergy + peripheral tolerance strip ===== */}
+      <g>
+        <rect x="36" y="458" width="908" height="154" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="482" fontSize="8.4" fontWeight="800" className="fill-foreground">No signal 2 → ANERGY · Peripheral tolerance — the outside-the-school brake</text>
+
+        {/* anergy card */}
+        <g>
+          <rect x="54" y="496" width="430" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="68" y="516" fontSize="7.6" fontWeight="800" className="fill-emergency">ANERGY</text>
+          <text x="68" y="532" fontSize="6.6" className="fill-muted-foreground">State during which a cell cannot become activated by exposure</text>
+          <text x="68" y="543" fontSize="6.6" className="fill-muted-foreground">to its antigen. T and B cells become anergic when exposed to</text>
+          <text x="68" y="554" fontSize="6.6" className="fill-muted-foreground">their antigen without costimulatory signal (signal 2) — another</text>
+          <text x="68" y="565" fontSize="6.6" className="fill-muted-foreground">example of a peripheral tolerance mechanism.</text>
+          <text x="68" y="584" fontSize="6.6" fontWeight="700" className="fill-emergency">signal 1 alone = OFF switch (not a weak on-switch)</text>
+        </g>
+
+        {/* peripheral tolerance card */}
+        <g>
+          <rect x="500" y="496" width="426" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="514" y="516" fontSize="7.6" fontWeight="800" className="fill-brand">PERIPHERAL TOLERANCE</text>
+          <text x="514" y="532" fontSize="6.6" className="fill-muted-foreground">Suppression/inactivation of self-reactive T/B cells (outside</text>
+          <text x="514" y="543" fontSize="6.6" className="fill-muted-foreground">thymus/bone marrow) → preserves self-tolerance; loss →</text>
+          <text x="514" y="554" fontSize="6.6" className="fill-muted-foreground">autoimmunity. Three mechanisms:</text>
+          <text x="514" y="572" fontSize="6.6" fontWeight="700" className="fill-foreground">1 anergy · 2 regulatory T-cell suppression · 3 apoptosis (Fas-FasL)</text>
+        </g>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="634" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's T- and B-cell activation diagrams (pdf 123 / book 101 — pure vector in the source; no rasters). Verbatim activation, tolerance, and anergy text in the note's table and callout blocks.</text>
+    </svg>
+  );
+}
