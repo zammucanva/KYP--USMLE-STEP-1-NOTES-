@@ -114,6 +114,7 @@ import {
   CtlKillCycle,
   TregSuppressionModel,
   ActivationSignalModel,
+  AntibodyAnatomy,
 } from "./immune";
 
 export const VisualRegistry: Record<string, ComponentType> = {
@@ -263,4 +264,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "ctl-kill-cycle": CtlKillCycle,
   "treg-suppression-model": TregSuppressionModel,
   "activation-signal-model": ActivationSignalModel,
+  "antibody-anatomy": AntibodyAnatomy,
 };

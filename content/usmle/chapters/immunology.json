@@ -650,8 +650,63 @@
         "antibody-anatomy"
       ],
       "mechanismHeavy": true,
-      "status": "pending",
-      "productionRationale": "The immunoglobulin anatomy: heavy/light chains, constant (isotype/complement-FcR binding) vs variable (antigen binding) regions, hinge flexibility, Fab vs Fc, and the papain vs pepsin cleavage map — the structural foundation for every isotype and engineering question."
+      "status": "complete",
+      "productionRationale": "The immunoglobulin anatomy: heavy/light chains, constant (isotype/complement-FcR binding) vs variable (antigen binding) regions, hinge flexibility, Fab vs Fc, and the papain vs pepsin cleavage map — the structural foundation for every isotype and engineering question.",
+      "textbookVisuals": [
+        {
+          "visualId": "antibody-structure-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              124
+            ],
+            "bookPages": "102"
+          },
+          "chapterId": "immunology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "Antibody structure — the Y-shaped IgG anatomy diagram",
+          "sourceFigureDescription": "A vector-drawn Y-shaped IgG: two Fab arms each with hypervariable V domains (VH, VL) at the tips (Antigen-binding site, Epitope labels) above constant domains (CH1, CL); a Hinge region with SS (disulfide) bonds; an Fc stem of heavy-chain-only CH2 and CH3 domains with Complement binding and Macrophage binding pointers; legend C = Constant, V = Variable, L = Light, H = Heavy, SS = Disulfide bond.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "antibody-structure",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "antibody-anatomy",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "antibody-anatomy",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "antibody-structure-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              124
+            ],
+            "bookPages": "102"
+          },
+          "chapterId": "immunology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "Antibody function trio — neutralization / opsonization / complement activation",
+          "sourceFigureDescription": "Three function illustrations with captions: Neutralization (antibody prevents bacterial adherence); Opsonization (antibody promotes phagocytosis by marking pathogens for destruction, C3b); Complement activation (antibody activates complement, enhancing opsonization and lysis — membrane attack complex [MAC]). The 467x329 cmyk raster on the page belongs to this function set.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Immunology — Immune Responses",
+          "topicId": "antibody-structure",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "antibody-anatomy",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "bottom function-trio strip of the same registry visual",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "antibody-anatomy",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "immunoglobulin-isotypes",
@@ -1051,7 +1106,7 @@
       "productionRationale": "Cytokines as drugs: EPO (renal anemia), G-CSF (neutropenia, stem-cell mobilization), thrombopoietin agonists (ITP), IL-2 (renal cell melanoma), IFN-α (HBV/HCV, hairy cell), IFN-β (MS), IFN-γ (CGD) — each tied to the immunology it came from. Compact reference note, no custom visual needed."
     }
   ],
-  "pendingTopicCount": 15,
+  "pendingTopicCount": 14,
   "notes": "Phase I-C full extraction (REBUILD of the inventory lost with un-pushed 4c22047). 23 new topics (status pending) + 1 approved pilot note = 24. Topic granularity follows the approved pilot pattern (teachable units spanning 1–15 FA subsections; subsection coverage recorded per topic in faSubsections — every FA subsection on pdf 116–141 is claimed by exactly one topic). Documented boundary: the pilot note hypersensitivity-types owns BOTH 'Hypersensitivity types' AND 'Immunologic blood transfusion reactions' (pdf 131–134 / book 109–112) — no separate transfusion-reactions topic. pdf 142 is a blank NOTES page (not a learning unit). textbookVisuals[] is authored at production time per topic (visual-inventory contract §3.4); raster census: real artwork concentrates on pdf 116-118 (lymph node histology, drainage map, spleen/thymus), 120 (MHC structures), 122-125 (development/activation/antibody/isotypes), 139 (transplant), with 1x1 mask artifacts excluded. Production proceeds batch-by-batch per contract §9.2; no topic may silently disappear.",
   "extraction": {
     "extractedOn": "2026-10-16",

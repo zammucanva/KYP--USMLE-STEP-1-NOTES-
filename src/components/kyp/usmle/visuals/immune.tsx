@@ -1528,3 +1528,179 @@ export function ActivationSignalModel() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// E27 — Antibody anatomy: the IgG Y, region jobs, and the function trio
+// (source: "Antibody structure and function", pdf 124 / book 102)
+// ---------------------------------------------------------------------------
+
+export function AntibodyAnatomy() {
+  const w = 980;
+  const h = 630;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antibody structure and function, an original KYP diagram. Left: an expanded Y-shaped IgG schematic — two Fab arms, each built from a light chain half (VL and CL domains) and a heavy chain half (VH and CH1 domains), with hypervariable regions at the tips forming the two antigen-binding sites that recognize epitopes; a hinge region with disulfide bonds providing flexibility between the Fab arms for simultaneous binding to multiple epitopes; and an Fc stem of heavy-chain-only CH2 and CH3 domains, with complement binding at CH2 and macrophage binding below. A legend defines C = Constant, V = Variable, L = Light, H = Heavy, SS = Disulfide bond. Right rail: region jobs — Fab (Fragment, antigen binding; determines the idiotype antigen binding site), Hinge (flexibility between Fab arms), and Fc with the five C's (Constant, Carboxy terminal, Complement binding, Carbohydrate side chains, Confers isotype such as IgM or IgD); plus chain contributions — the heavy chain contributes to Fc and Fab regions, the light chain contributes only to Fab, the Fc region of IgM and IgG fixes complement, and the Fab fragment of light and heavy chains recognizes antigens. Bottom strip: the three antibody functions — neutralization (prevents bacterial adherence), opsonization (marks pathogens for phagocytic destruction via C3b), and complement activation (enhancing opsonization and lysis via the membrane attack complex)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antibody anatomy — the IgG Y (original KYP diagram)</text>
+        <rect x="726" y="24" width="202" height="18" rx="9" className="fill-brand-soft" />
+        <text x="827" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">Fab binds · Fc effects · hinge flexes</text>
+      </g>
+
+      {/* ===== the Y (left zone) ===== */}
+      {/* legend */}
+      <g>
+        <rect x="36" y="76" width="86" height="128" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="44" y="92" fontSize="6.6" fontWeight="800" className="fill-foreground">KEY</text>
+        {[
+          "C = Constant",
+          "V = Variable",
+          "L = Light",
+          "H = Heavy",
+          "SS = Disulfide",
+          "      bond",
+        ].map((t, i) => (
+          <text key={i} x="44" y={106 + i * 13} fontSize="6.2" className="fill-muted-foreground">{t}</text>
+        ))}
+      </g>
+
+      {/* hypervariable bracket */}
+      <text x="280" y="102" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">hypervariable regions → antigen-binding sites (idiotype)</text>
+      <path d="M 130 110 L 130 120 M 430 110 L 430 120 M 130 115 L 430 115" stroke="currentColor" className="text-emergency" strokeWidth="1" fill="none" />
+
+      {/* left arm */}
+      <g>
+        {/* light chain half (outer) */}
+        <rect x="130" y="130" width="60" height="55" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="160" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VL</text>
+        <rect x="130" y="192" width="60" height="58" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="160" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CL</text>
+        {/* heavy chain half (inner) */}
+        <rect x="192" y="130" width="60" height="55" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="222" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VH</text>
+        <rect x="192" y="192" width="60" height="58" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="222" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH1</text>
+        {/* epitope + binding site */}
+        <ellipse cx="160" cy="118" rx="14" ry="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="160" y="121" textAnchor="middle" fontSize="5" fontWeight="700" className="fill-muted-foreground">epitope</text>
+      </g>
+
+      {/* right arm */}
+      <g>
+        {/* heavy chain half (inner) */}
+        <rect x="308" y="130" width="60" height="55" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="338" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VH</text>
+        <rect x="308" y="192" width="60" height="58" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="338" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH1</text>
+        {/* light chain half (outer) */}
+        <rect x="370" y="130" width="60" height="55" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="400" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VL</text>
+        <rect x="370" y="192" width="60" height="58" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="400" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CL</text>
+        <ellipse cx="400" cy="118" rx="14" ry="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="400" y="121" textAnchor="middle" fontSize="5" fontWeight="700" className="fill-muted-foreground">epitope</text>
+      </g>
+
+      {/* Fab brackets */}
+      <g>
+        <path d="M 118 130 L 110 130 L 110 250 L 118 250" stroke="currentColor" className="text-brand" strokeWidth="1.4" fill="none" />
+        <text x="104" y="195" textAnchor="end" fontSize="8" fontWeight="800" className="fill-brand">Fab</text>
+        <path d="M 442 130 L 450 130 L 450 250 L 442 250" stroke="currentColor" className="text-brand" strokeWidth="1.4" fill="none" />
+        <text x="456" y="195" fontSize="8" fontWeight="800" className="fill-brand">Fab</text>
+      </g>
+
+      {/* hinge: SS bonds + convergence to stem */}
+      <g>
+        <path d="M 192 252 L 250 278 L 250 282 L 310 282 L 310 278 L 368 252 Z" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.2" />
+        <line x1="256" y1="262" x2="304" y2="262" stroke="currentColor" className="text-foreground" strokeWidth="1.4" />
+        <text x="280" y="259" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">SS</text>
+        <line x1="256" y1="274" x2="304" y2="274" stroke="currentColor" className="text-foreground" strokeWidth="1.4" />
+        <text x="280" y="271" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">SS</text>
+        <text x="280" y="296" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-warning">Hinge — flexibility between Fab arms</text>
+        <text x="280" y="305" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(simultaneous binding to multiple epitopes)</text>
+      </g>
+
+      {/* Fc stem */}
+      <g>
+        <rect x="250" y="312" width="80" height="70" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="290" y="351" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH2</text>
+        <rect x="250" y="386" width="80" height="70" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="290" y="425" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH3</text>
+        <path d="M 338 312 L 346 312 L 346 456 L 338 456" stroke="currentColor" className="fill-brand text-brand" strokeWidth="1.4" fill="none" />
+        <text x="352" y="388" fontSize="8" fontWeight="800" className="fill-brand">Fc</text>
+        {/* function pointers */}
+        <line x1="334" y1="347" x2="420" y2="347" stroke="currentColor" className="text-border" strokeWidth="1.1" />
+        <text x="425" y="350" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Complement</text>
+        <text x="425" y="359" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">binding (CH2)</text>
+        <line x1="334" y1="421" x2="420" y2="421" stroke="currentColor" className="text-border" strokeWidth="1.1" />
+        <text x="425" y="424" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Macrophage</text>
+        <text x="425" y="433" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">binding</text>
+      </g>
+
+      {/* chain color key under the Y */}
+      <g>
+        <rect x="130" y="466" width="338" height="24" rx="7" className="fill-secondary" />
+        <rect x="140" y="473" width="10" height="10" rx="2" className="fill-primary/15 stroke-primary" strokeWidth="1" />
+        <text x="156" y="482" fontSize="6.2" className="fill-muted-foreground">Light chain (L) → Fab ONLY</text>
+        <rect x="300" y="473" width="10" height="10" rx="2" className="fill-warning-soft stroke-warning" strokeWidth="1" />
+        <text x="316" y="482" fontSize="6.2" className="fill-muted-foreground">Heavy chain (H) → Fc + Fab</text>
+      </g>
+
+      {/* ===== right rail ===== */}
+      <g>
+        <rect x="524" y="76" width="420" height="182" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="540" y="98" fontSize="8.4" fontWeight="800" className="fill-foreground">REGION JOBS</text>
+        <text x="540" y="116" fontSize="7" fontWeight="800" className="fill-brand">Fab</text>
+        <text x="576" y="116" fontSize="6.6" className="fill-muted-foreground">Fragment, antigen binding — determines idiotype (the antigen binding site)</text>
+        <text x="540" y="134" fontSize="7" fontWeight="800" className="fill-warning">Hinge</text>
+        <text x="580" y="134" fontSize="6.6" className="fill-muted-foreground">Flexibility between Fab arms → simultaneous binding to</text>
+        <text x="580" y="144" fontSize="6.6" className="fill-muted-foreground">multiple epitopes</text>
+        <text x="540" y="164" fontSize="7" fontWeight="800" className="fill-foreground">Fc</text>
+        <text x="568" y="164" fontSize="6.6" fontWeight="700" className="fill-foreground">the 5 C&apos;s:</text>
+        {["Constant", "Carboxy terminal", "Complement binding", "Carbohydrate side chains", "Confers (determines) isotype (IgM, IgD, etc)"].map((t, i) => (
+          <text key={t} x="576" y={178 + i * 12} fontSize="6.4" className="fill-muted-foreground">· {t}</text>
+        ))}
+      </g>
+      <g>
+        <rect x="524" y="274" width="420" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="540" y="296" fontSize="8.4" fontWeight="800" className="fill-foreground">CHAIN CONTRIBUTIONS — the printed anchors</text>
+        <text x="540" y="316" fontSize="6.8" className="fill-muted-foreground">· Heavy chain contributes to Fc AND Fab regions</text>
+        <text x="540" y="330" fontSize="6.8" className="fill-muted-foreground">· Light chain contributes ONLY to the Fab region</text>
+        <text x="540" y="344" fontSize="6.8" className="fill-muted-foreground">· Fab fragment consisting of light (L) and heavy (H) chains</text>
+        <text x="552" y="354" fontSize="6.8" className="fill-muted-foreground">recognizes antigens</text>
+        <text x="540" y="368" fontSize="6.8" className="fill-muted-foreground">· Fc region of IgM and IgG fixes complement</text>
+        <rect x="540" y="382" width="388" height="92" rx="9" className="fill-secondary" />
+        <text x="554" y="402" fontSize="7" fontWeight="800" className="fill-foreground">Generation of antibody DIVERSITY (antigen independent)</text>
+        <text x="554" y="416" fontSize="6.4" className="fill-muted-foreground">1 · RAG1/RAG2 random recombination of VJ (light) / V(D)J (heavy)</text>
+        <text x="554" y="428" fontSize="6.4" className="fill-muted-foreground">2 · TdT random nucleotide addition</text>
+        <text x="554" y="440" fontSize="6.4" className="fill-muted-foreground">3 · Random combination of heavy with light chains</text>
+        <text x="554" y="458" fontSize="7" fontWeight="800" className="fill-foreground">Generation of SPECIFICITY (antigen dependent): 4 somatic</text>
+        <text x="554" y="468" fontSize="6.4" className="fill-muted-foreground">hypermutation + affinity maturation (variable region) · 5 isotype</text>
+        <text x="554" y="478" fontSize="6.4" className="fill-muted-foreground">switching (constant region)</text>
+      </g>
+
+      {/* ===== bottom strip: function trio ===== */}
+      <g>
+        <rect x="36" y="502" width="908" height="86" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="522" fontSize="8" fontWeight="800" className="fill-foreground">THE FUNCTION TRIO — what antibodies DO</text>
+        {[
+          [54, "NEUTRALIZATION", "Antibody prevents bacterial adherence", "blocks docking sites on host cells"],
+          [358, "OPSONIZATION", "Antibody promotes phagocytosis by marking pathogens for destruction", "C3b coats the pathogen for phagocytes"],
+          [662, "COMPLEMENT ACTIVATION", "Antibody activates complement, enhancing opsonization and lysis", "MAC pores lyse the target"],
+        ].map(([x, t, s, k]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="532" width="280" height="48" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 14} y="548" fontSize="7" fontWeight="800" className="fill-brand">{t}</text>
+            {(s as string).match(/.{1,44}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x={(x as number) + 14} y={560 + j * 10} fontSize="6.2" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x={(x as number) + 14} y="578" fontSize="5.8" fontWeight="700" className="fill-muted-foreground/80">{k}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="614" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's antibody structure figure and function panels (pdf 124 / book 102 — the printed artwork is conveyed schematically, never reproduced). Verbatim region jobs and diversity steps are the note's table block.</text>
+    </svg>
+  );
+}

@@ -1,0 +1,560 @@
+{
+  "topicId": "antibody-structure",
+  "title": "Antibody Structure & Function",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immune Responses",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      124
+    ],
+    "bookPages": "102"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Antibody structure\nand function",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fab recognizes antigens",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fab fragment consisting of light (L) and heavy (H) chains recognizes antigens.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fc fixes complement (IgM, IgG)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fc region of IgM and IgG fixes complement.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Heavy chain contribution",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Heavy chain contributes to Fc and Fab regions.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Light chain contribution",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Light chain contributes only to Fab region.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — binding site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Antigenbinding site",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — Fab",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fa\nb",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — hypervariable",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "ble\nria\nrva ns\npe io\nHy reg",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CH1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "C H1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CH2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "CH2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — CH3",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "C H3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — epitope",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Epitope",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — heavy chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Heavy chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — Fc region",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fc region",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — light chain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Light chain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — complement binding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Complement\nbinding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — macrophage binding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Macrophage\nbinding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — neutralization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Neutralization",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — disulfide legend",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "SS = Disulﬁde bond",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — hinge",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Hinge",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — opsonization",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Opsonization",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — complement activation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Complement\nactivation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — MAC",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Membrane\nattack complex\n(MAC)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram label — C3b",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "C3b",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Function — neutralization caption",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Antibody prevents\nbacterial adherence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Function — opsonization caption",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Antibody promotes\nphagocytosis by marking\npathogens for destruction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Function — complement caption",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Antibody activates\ncomplement, enhancing\nopsonization and lysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fab definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fab:\n▘ Fragment, antigen binding\n▘ Determines idiotype: antigen binding site.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hinge definition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Hinge region: provides flexibility between\nFab arms, allowing simultaneous binding to\nmultiple epitopes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fc 5 C's",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Fc (5 C’s):\n▘ Constant\n▘ Carboxy terminal\n▘ Complement binding\n▘ Carbohydrate side chains\n▘ Confers (determines) isotype (IgM, IgD, etc)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diversity heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Generation of antibody diversity (antigen\nindependent)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 1 — RAG recombination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "1. Random recombination of VJ (light-chain)\nor V(D)J (heavy-chain) genes by RAG1 and\nRAG2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 2 — TdT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "2. Random addition of nucleotides to\nDNA during recombination by terminal\ndeoxynucleotidyl transferase (TdT)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 3 — chain pairing",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "3. Random combination of heavy chains with\nlight chains",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Specificity heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "Generation of antibody specificity (antigen\ndependent)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 4 — hypermutation/affinity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "4. Somatic hypermutation and affinity\nmaturation (variable region)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Step 5 — isotype switching",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "quote": "5. Isotype switching (constant region)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "antibody-anatomy"
+  ],
+  "mechanismIds": [
+    "fab-fc-division-of-labor",
+    "diversity-vs-specificity-generation"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the anatomy, region definitions, steps, and function captions; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "modular-chassis-model",
+      "summary": "Reading the Y as a modular chassis (recognition module upstairs, effector module downstairs, flexible joint between) that explains isotype-switching logic (constant swap preserves binding), isotype-dependent complement fixation, assay design (anti-Fab vs anti-Fc secondaries), and therapeutic antibody engineering; plus the disease map of the five steps (RAG null = SCID, TdT = restricted diversity, AID = hyper-IgM type 2) and the booster-kinetics payoff.",
+      "origin": "outside-first-aid",
+      "rationale": "The source presents anatomy and steps as lists without the chassis framing or the step-to-disease map. NOTE: papain/pepsin cleavage products are NOT on this printed page (verified absent from the p124 text layer) and appear only as a labeled bridge in pattern 2; the disease-genetics specifics of the distractors are standard immunology knowledge, cited only as KYP extension.",
+      "location": "core.keyIdea + mechanism captions + pattern 2 + mnemonics + miniCase distractors"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list + 200-DPI VLM, this batch): p124 carries 4 raster objects (467x329 cmyk jpeg = a function illustration; two index strips = page furniture; 1x1 artifact); the antibody structure diagram is VECTOR-DRAWN. All artwork is COPYRIGHTED_NO_REPUBLISH — conveyed as ONE original KYP schematic (antibody-anatomy) covering the Y anatomy, region jobs, chain contributions, and the function trio. Scope correction (documented): the inventory rationale's 'papain vs pepsin cleavage map' is NOT printed on p124 (only GI-physiology pepsin on pdf 400-403) — E27 is scoped to the actual printed content; the cleavage concept appears only as a labeled KYP bridge in pattern 2. Boundary: E26 owns pdf 123; pdf 125 (immunoglobulin isotypes) is E28.",
+  "updatedAt": "2026-10-17"
+}

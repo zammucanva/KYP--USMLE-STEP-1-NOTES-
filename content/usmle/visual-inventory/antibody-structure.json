@@ -1,0 +1,66 @@
+{
+  "topicId": "antibody-structure",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "antibody-structure-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "chapterId": "immunology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Antibody structure — the Y-shaped IgG anatomy diagram",
+      "sourceFigureDescription": "A vector-drawn Y-shaped IgG: two Fab arms each with hypervariable V domains (VH, VL) at the tips (Antigen-binding site, Epitope labels) above constant domains (CH1, CL); a Hinge region with SS (disulfide) bonds; an Fc stem of heavy-chain-only CH2 and CH3 domains with Complement binding and Macrophage binding pointers; legend C = Constant, V = Variable, L = Light, H = Heavy, SS = Disulfide bond.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "antibody-structure",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "antibody-anatomy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "antibody-structure-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          124
+        ],
+        "bookPages": "102"
+      },
+      "chapterId": "immunology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Antibody function trio — neutralization / opsonization / complement activation",
+      "sourceFigureDescription": "Three function illustrations with captions: Neutralization (antibody prevents bacterial adherence); Opsonization (antibody promotes phagocytosis by marking pathogens for destruction, C3b); Complement activation (antibody activates complement, enhancing opsonization and lysis — membrane attack complex [MAC]). The 467x329 cmyk raster on the page belongs to this function set.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immune Responses",
+      "topicId": "antibody-structure",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "antibody-anatomy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "bottom function-trio strip of the same registry visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "antibody-structure",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the Y-anatomy diagram is vector-drawn; the function illustrations include the page's one content raster (467x329 cmyk jpeg). Both are COPYRIGHTED — conveyed within ONE original KYP registry visual (antibody-anatomy: expanded-Y schematic + function-trio strip). The two index strips (78x792, 934x136) are page furniture, not content. Verbatim region definitions and steps 1-5 are the note's table block."
+}
