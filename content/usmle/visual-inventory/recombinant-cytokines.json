@@ -1,0 +1,43 @@
+{
+  "topicId": "recombinant-cytokines",
+  "chapterId": "immunology",
+  "inventory": [
+    {
+      "visualId": "recombinant-cytokines-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "chapterId": "immunology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Recombinant cytokines — the CYTOKINE/AGENT/CLINICAL USES table",
+      "sourceFigureDescription": "A three-column table (CYTOKINE / AGENT / CLINICAL USES) with rows for Erythropoietin (epoetin alfa), Colony stimulating factors (filgrastim, sargramostim), Thrombopoietin (romiplostim, eltrombopag), Interleukin-2 (aldesleukin), and Interferons (IFN-α, IFN-β, IFN-γ), closed by the two category banners (Bone marrow stimulation; Immunotherapy).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Immunology — Immunosuppressants",
+      "topicId": "recombinant-cytokines",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'Recombinant cytokines — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "recombinant-cytokines",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: no content rasters in this topic's section (p141's two rasters are E37's micrographs). The cytokine table is reproduced verbatim as the note's table block (the section's only visual element, per the E22 table-note pattern). No registry visual by inventory design."
+}

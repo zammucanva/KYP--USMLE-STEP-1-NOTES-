@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T20:23:09Z",
+  "generatedAt": "2026-10-17T20:26:38Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,13 +267,13 @@
   "counts": {
     "chaptersRegistered": 7,
     "chaptersExtracted": 2,
-    "topicsProduced": 86,
+    "topicsProduced": 87,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
       "pilot-complete": 32,
-      "chapter-complete": 54,
+      "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
     }
@@ -294,12 +294,12 @@
       "chapterId": "immunology",
       "chapterTitle": "Immunology",
       "part": 1,
-      "extractionStatus": "extracted",
+      "extractionStatus": "verified",
       "topicsRegistered": 24,
-      "topicsProduced": 23,
-      "topicsRemaining": 1,
+      "topicsProduced": 24,
+      "topicsRemaining": 0,
       "qaStatus": "pass",
-      "completedAt": null
+      "completedAt": "2026-10-17"
     },
     {
       "chapterId": "pharmacology",
@@ -1392,6 +1392,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "recombinant-cytokines",
+      "title": "Recombinant Cytokines & Clinical Uses",
+      "chapterId": "immunology",
+      "subsection": "Immunology — Immunosuppressants",
+      "productionStatus": "chapter-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 141 (book 119)",
+      "visualCount": 0,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-17"
     },
     {
       "topicId": "respiratory-burst-ifn",

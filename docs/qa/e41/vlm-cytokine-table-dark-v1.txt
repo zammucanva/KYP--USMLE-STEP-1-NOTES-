@@ -1,0 +1,8 @@
+**QA Report: Recombinant Cytokines Verbatim Table (Dark Mode)**
+
+*   **(A) Overlapping text:** PASS
+*   **(B) Text clipped at cell edges or truncated words:** PASS (First column left edge is clear; all text fully visible)
+*   **(C) Column collisions:** PASS
+*   **(D) Illegible low-contrast text:** PASS (High contrast between text and background)
+
+Verdict: CLEAN

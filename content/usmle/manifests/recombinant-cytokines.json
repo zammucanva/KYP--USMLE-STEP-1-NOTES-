@@ -1,0 +1,219 @@
+{
+  "topicId": "recombinant-cytokines",
+  "title": "Recombinant Cytokines & Clinical Uses",
+  "chapterId": "immunology",
+  "chapterTitle": "Immunology",
+  "subsection": "Immunology — Immunosuppressants",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      141
+    ],
+    "bookPages": "119"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Recombinant cytokines and clinical uses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "CYTOKINE\nAGENT\nCLINICAL USES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Erythropoietin — agent + uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Erythropoietin\nEpoetin alfa (EPO analog)\nAnemias (especially in renal failure)\nAssociated with ↑ risk of hypertension,\nthromboembolic events",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Colony stimulating factors — agents + uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Colony stimulating\nfactors\nFilgrastim (G-CSF), sargramostim (GM-CSF)\nLeukopenia; recovery of granulocyte and\nmonocyte counts",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thrombopoietin — agents + uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Thrombopoietin\nRomiplostim (TPO analog), eltrombopag (think\n“elthrombopag.” TPO receptor agonist)\nAutoimmune thrombocytopenia\nPlatelet stimulator",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interleukin-2 — agent + uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Interleukin-2\nAldesleukin\nRenal cell carcinoma, metastatic melanoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interferons — header + IFN-α uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Interferons\nIFN-α\nChronic hepatitis C (not preferred) and B, renal\ncell carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-β use",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "IFN-β\nMultiple sclerosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IFN-γ use",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "IFN-γ\nChronic granulomatous disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Category banner 1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Bone marrow stimulation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Category banner 2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          141
+        ],
+        "bookPages": "119"
+      },
+      "quote": "Immunotherapy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "native-biology-to-drug-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cytokine table; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "native-biology-loop-closure-model",
+      "summary": "The two-banner formulary read as the chapter's biology recombinantly delivered (one lineage-grower per blood line: EPO/CSF/TPO; the amplifiers keeping their native jobs: IL-2 expanding antitumor T cells, the interferons aiming antiviral/MS/macrophage-arming therapy) — with the loop-closing observation that IFN-γ for CGD is exactly E32/E37's deficiency supported by E31's cytokine.",
+      "origin": "outside-first-aid",
+      "rationale": "The source is a flat table without the category logic or the chapter-loop framing; these integrations are KYP's design. Extension labels cover capillary-leak syndrome, eltrombopag hepatotoxicity, and the additional EPO/ITP indications.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "chapter-complete",
+  "notes": "TABLE NOTE by inventory design (requiresVisual false, no visual hints — E22/E35 pattern): the note's verbatim cytokine table IS the visual element; the MechanismFlow renders as the standard div-based flow; page SVGs are UI icons only. Census: p141's two content rasters (telangiectasia photo, giant-granules smear) belong to E37 (pinned there) — no content rasters in this topic's section. This is the FINAL Immunology topic: with E41 complete the chapter reaches 24/24 and the Immunology chapter is COMPLETE (extractionStatus verified + completedAt set). Boundary: the immunosuppressant drug table in p141's upper half is owned by E40 (pinned there).",
+  "updatedAt": "2026-10-17"
+}
