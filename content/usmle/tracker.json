@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-20T00:48:48Z",
+  "generatedAt": "2026-10-20T00:57:14Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 94,
+    "topicsProduced": 95,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 39,
+      "pilot-complete": 40,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 7,
-      "topicsRemaining": 32,
+      "topicsProduced": 8,
+      "topicsRemaining": 31,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -893,6 +893,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "exotoxins-endotoxins",
+      "title": "Exotoxins vs Endotoxins",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 151, 152, 153 (book 129–131)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "familial-dyslipidemias",

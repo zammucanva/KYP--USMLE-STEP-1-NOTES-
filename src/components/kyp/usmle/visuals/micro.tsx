@@ -741,3 +741,177 @@ export function GeneTransferTriangle() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M8 — Exotoxins vs endotoxins: the toxin axis + the endotoxin cascade +
+// the exotoxin roster by mechanism group + the superantigen cross-link
+// (source: pdf 151-153 / book 129-131 — the comparison table, the exotoxin/
+//  endotoxin mechanism diagram, the Bacteria-with-exotoxins table with its
+//  group banners and AB-toxin footnote, and the endotoxin cascade diagram)
+// ---------------------------------------------------------------------------
+
+export function ToxinComparisonMap() {
+  const w = 980;
+  const h = 880;
+  const axisRows = [
+    ["SOURCE", "Certain species of gram ⊕ and gram ⊝ bacteria", "Outer cell membrane of most gram ⊝ bacteria"],
+    ["SECRETED FROM CELL", "Yes — actively secreted", "No — released on lysis / by blebs detaching"],
+    ["CHEMISTRY", "Polypeptide", "Lipid A component of LPS"],
+    ["LOCATION OF GENES", "Plasmid or bacteriophage", "Bacterial chromosome"],
+    ["TOXICITY", "High (fatal dose ~1 µg)", "Low (fatal dose ~hundreds of µg)"],
+    ["CLINICAL EFFECTS", "Various (see the roster)", "Fever, shock (hypotension), DIC"],
+    ["MODE OF ACTION", "Various modes (see the roster)", "Induces TNF, IL-1, and IL-6"],
+    ["ANTIGENICITY", "High-titer antibodies — antitoxins", "Poorly antigenic"],
+    ["VACCINES", "Toxoids used as vaccines", "No toxoids; no vaccine available"],
+    ["HEAT STABILITY", "Destroyed rapidly at 60°C (3 exceptions)", "Stable at 100°C for 1 hr (eXtremely heat stable)"],
+    ["TYPICAL DISEASES", "Tetanus, botulism, diphtheria, cholera", "Meningococcemia; sepsis by gram ⊝ rods"],
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Exotoxins versus endotoxins, an original KYP comparison map. Top left: the eleven-row toxin axis — source (certain gram-positive and gram-negative species vs the outer cell membrane of most gram-negatives), secreted from cell (yes, actively secreted vs no, released upon lysis or by blebs), chemistry (polypeptide vs lipid A component of LPS), location of genes (plasmid or bacteriophage vs bacterial chromosome), toxicity (high, fatal dose on the order of 1 microgram vs low, hundreds of micrograms), clinical effects (various vs fever, shock, DIC), mode of action (various vs induces TNF, IL-1, IL-6), antigenicity (high-titer antitoxins vs poorly antigenic), vaccines (toxoids vs none available), heat stability (destroyed at 60 degrees with three exceptions vs stable at 100 degrees for 1 hour — eXtremely heat stable), typical diseases (tetanus, botulism, diphtheria, cholera vs meningococcemia and gram-negative-rod sepsis). Top right: the endotoxin cascade — LPS (O-antigen + core polysaccharide + lipid A, the toxic component; Neisseria have lipooligosaccharide) released on cell lysis or by blebs; three main effects: macrophage activation (TLR4/CD14) releasing TNF-alpha, IL-1, IL-6; complement activation (C3a — histamine release — hypotension and edema; C5a — neutrophil chemotaxis); and tissue factor activation (coagulation cascade — DIC); nitric oxide — hypotension; the outcome strip: fever, shock, edema, DIC/death. Bottom left: the exotoxin roster by mechanism group — inhibit protein synthesis (diphtheria toxin and Exotoxin A: EF-2 ADP-ribosylation — pseudomembranes, bull neck, myocarditis; Shiga toxin: 60S ribosome, adenine removed from rRNA — dysentery and HUS in EHEC O157:H7 which does not invade); increase fluid secretion (ETEC LT: adenylate cyclase, cAMP; ST: guanylate cyclase, cGMP; anthrax toxin mimics adenylate cyclase — black eschar's edematous borders; cholera toxin permanently activates Gs — rice-water diarrhea; pertussis toxin inactivates Gi — whooping cough); inhibit phagocytic ability (pertussis); inhibit release of neurotransmitter (tetanospasmin and botulinum toxin: SNARE proteases — spastic paralysis vs flaccid paralysis; infant botulism from spores, foodborne from preformed toxin). Bottom right: membrane lysers and superantigens — C perfringens alpha toxin (phospholipase/lecithinase: gas gangrene, double-zone hemolysis); S pyogenes streptolysin O (beta-hemolysis; ASO antibodies); S aureus TSST-1 and S pyogenes erythrogenic exotoxin A: superantigens cross-linking the beta region of the TCR to MHC class II outside the antigen binding site — overwhelming IL-1, IL-2, IFN-gamma, TNF-alpha release — toxic shock syndrome and toxic shock-like syndrome with scarlet fever. The AB-toxin footnote: B binds and triggers uptake; A acts (usually an ADP ribosyltransferase)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Exotoxins vs endotoxins — the toxin axis & the cascade to shock (original KYP redraw)</text>
+        <rect x="764" y="24" width="168" height="18" rx="9" className="fill-brand-soft" />
+        <text x="848" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">secreted vs shed on lysis</text>
+      </g>
+
+      {/* ===== Panel A: the toxin axis (11 rows) ===== */}
+      <g>
+        <rect x="36" y="76" width="500" height="308" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE TOXIN AXIS — exotoxin | endotoxin</text>
+        <text x="188" y="112" fontSize="6.4" fontWeight="800" className="fill-brand">EXOTOXINS</text>
+        <text x="424" y="112" fontSize="6.4" fontWeight="800" className="fill-emergency">ENDOTOXINS</text>
+        {axisRows.map((r, i) => (
+          <g key={r[0]}>
+            <text x="52" y={126 + i * 23} fontSize="5.6" fontWeight="800" className="fill-foreground">{r[0]}</text>
+            <text x="140" y={126 + i * 23} fontSize="5.4" className="fill-muted-foreground">{r[1].match(/.{1,46}(\s|$)/g)!.slice(0, 2).map(x => x.trim()).join(" ")}</text>
+            <text x="340" y={126 + i * 23} fontSize="5.4" className="fill-muted-foreground">{r[2].match(/.{1,46}(\s|$)/g)!.slice(0, 2).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+        <text x="52" y="378" fontSize="5.4" fontWeight="700" className="fill-emergency">The 60°C exceptions: staphylococcal enterotoxin, E coli heat-stable toxin, B cereus emetic toxin.</text>
+      </g>
+
+      {/* ===== Panel B: the endotoxin cascade ===== */}
+      <g>
+        <rect x="552" y="76" width="404" height="308" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="568" y="98" fontSize="9" fontWeight="800" className="fill-emergency">THE ENDOTOXIN CASCADE — LPS to shock</text>
+        <rect x="568" y="110" width="372" height="52" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1" />
+        <text x="580" y="128" fontSize="6.2" fontWeight="700" className="fill-foreground">LPS (O-antigen + core polysaccharide + lipid A — the toxic component).</text>
+        <text x="580" y="139" fontSize="5.8" className="fill-muted-foreground">Neisseria have lipooligosaccharide. Released upon cell lysis — or by living</text>
+        <text x="580" y="149" fontSize="5.8" className="fill-muted-foreground">cells by blebs detaching from the outer surface membrane (vs exotoxin:</text>
+        <text x="580" y="159" fontSize="5.8" className="fill-muted-foreground">actively secreted). eXtremely heat stable (100°C for 1 hr).</text>
+
+        <text x="568" y="180" fontSize="6.4" fontWeight="800" className="fill-foreground">THREE MAIN EFFECTS</text>
+        <rect x="568" y="188" width="120" height="58" rx="8" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="576" y="204" fontSize="6" fontWeight="800" className="fill-brand">Macrophage activation</text>
+        <text x="576" y="215" fontSize="5.4" className="fill-muted-foreground">(TLR4/CD14) →</text>
+        <text x="576" y="228" fontSize="5.6" fontWeight="700" className="fill-brand">TNF-α · IL-1 · IL-6</text>
+        <rect x="702" y="188" width="120" height="58" rx="8" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="710" y="204" fontSize="6" fontWeight="800" className="fill-brand">Complement</text>
+        <text x="710" y="215" fontSize="5.4" className="fill-muted-foreground">C3a → histamine:</text>
+        <text x="710" y="226" fontSize="5.4" className="fill-muted-foreground">hypotension + edema</text>
+        <text x="710" y="238" fontSize="5.4" className="fill-muted-foreground">C5a → neutrophil</text>
+        <text x="710" y="248" fontSize="5.4" className="fill-muted-foreground">chemotaxis</text>
+        <rect x="836" y="188" width="104" height="58" rx="8" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="844" y="204" fontSize="6" fontWeight="800" className="fill-brand">Tissue factor</text>
+        <text x="844" y="215" fontSize="5.4" className="fill-muted-foreground">activation →</text>
+        <text x="844" y="228" fontSize="5.6" fontWeight="700" className="fill-brand">Coagulation cascade</text>
+        <text x="844" y="240" fontSize="5.6" fontWeight="700" className="fill-emergency">→ DIC</text>
+
+        <rect x="568" y="254" width="372" height="56" rx="9" className="fill-secondary" />
+        <text x="580" y="270" fontSize="6" fontWeight="800" className="fill-foreground">THE READOUTS</text>
+        <text x="580" y="282" fontSize="5.6" className="fill-muted-foreground">TNF-α → fever and hypotension · IL-1 and IL-6 → fever · nitric oxide → hypotension</text>
+        <text x="580" y="294" fontSize="5.6" className="fill-muted-foreground">C3a → histamine release (hypotension and edema) · C5a → neutrophil chemotaxis</text>
+        <text x="580" y="306" fontSize="5.6" fontWeight="700" className="fill-emergency">Outcome strip: fever · shock · edema · DIC/death</text>
+        <text x="568" y="330" fontSize="5.6" className="fill-muted-foreground">The endotoxin mechanism diagram: the toxin (lipid A) triggers the host cell's</text>
+        <text x="568" y="340" fontSize="5.6" className="fill-muted-foreground">downstream cellular reaction — TNF, IL-1, IL-6 — the mediators of fever, shock, DIC.</text>
+        <text x="568" y="360" fontSize="5.4" fontWeight="700" className="fill-brand">Read with M1's address book: lipid A is the gram ⊝ outer-membrane face of LPS —</text>
+        <text x="568" y="370" fontSize="5.4" fontWeight="700" className="fill-brand">the same lipid A that induces TNF and IL-1 from M1's envelope map.</text>
+      </g>
+
+      {/* ===== Panel C: the exotoxin roster ===== */}
+      <g>
+        <rect x="36" y="400" width="616" height="360" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="422" fontSize="9" fontWeight="800" className="fill-foreground">THE EXOTOXIN ROSTER — by mechanism group</text>
+
+        <rect x="52" y="434" width="584" height="88" rx="9" className="fill-brand-soft/15 stroke-brand" strokeWidth="1" />
+        <text x="64" y="452" fontSize="7" fontWeight="800" className="fill-brand">① INHIBIT PROTEIN SYNTHESIS</text>
+        <text x="64" y="466" fontSize="5.8" fontWeight="700" className="fill-foreground">C diphtheriae — diphtheria toxin; P aeruginosa — Exotoxin A:</text>
+        <text x="64" y="476" fontSize="5.6" className="fill-muted-foreground">inactivate elongation factor (EF-2) through ADP-ribosylation →</text>
+        <text x="64" y="486" fontSize="5.6" className="fill-muted-foreground">pseudomembranes, bull neck, myocarditis; host cell death.</text>
+        <text x="64" y="502" fontSize="5.8" fontWeight="700" className="fill-foreground">Shigella spp + EHEC — Shiga toxin:</text>
+        <text x="64" y="512" fontSize="5.6" className="fill-muted-foreground">inactivates the 60S ribosome (removing adenine from rRNA) → dysentery; HUS in</text>
+        <text x="64" y="522" fontSize="5.6" className="fill-muted-foreground">O157:H7 (EHEC does not invade host cells — the Shiga-toxin difference).</text>
+
+        <rect x="52" y="528" width="584" height="112" rx="9" className="fill-brand-soft/15 stroke-brand" strokeWidth="1" />
+        <text x="64" y="546" fontSize="7" fontWeight="800" className="fill-brand">② INCREASE FLUID SECRETION (the cyclase set)</text>
+        <text x="64" y="560" fontSize="5.8" fontWeight="700" className="fill-foreground">ETEC — LT: overactivates adenylate cyclase (↑ cAMP → ↑ Cl− secretion, H2O efflux) ·</text>
+        <text x="64" y="570" fontSize="5.6" className="fill-muted-foreground">ST: overactivates guanylate cyclase (↑ cGMP → ↓ resorption of NaCl and H2O) — watery diarrhea.</text>
+        <text x="64" y="584" fontSize="5.8" fontWeight="700" className="fill-foreground">B anthracis — anthrax toxin: mimics adenylate cyclase (↑ cAMP) →</text>
+        <text x="64" y="594" fontSize="5.6" className="fill-muted-foreground">the edematous borders of the black eschar in cutaneous anthrax.</text>
+        <text x="64" y="608" fontSize="5.8" fontWeight="700" className="fill-foreground">V cholerae — cholera toxin: overactivates adenylate cyclase by permanently</text>
+        <text x="64" y="618" fontSize="5.6" className="fill-muted-foreground">activating Gs → voluminous "rice-water" diarrhea.</text>
+        <text x="64" y="632" fontSize="5.8" fontWeight="700" className="fill-foreground">B pertussis — pertussis toxin: activates adenylate cyclase by inactivating Gi →</text>
+        <text x="64" y="642" fontSize="5.6" className="fill-muted-foreground">whooping cough ("100-day cough"; posttussive emesis).</text>
+
+        <rect x="52" y="644" width="284" height="100" rx="9" className="fill-brand-soft/15 stroke-brand" strokeWidth="1" />
+        <text x="64" y="662" fontSize="7" fontWeight="800" className="fill-brand">③ INHIBIT PHAGOCYTOSIS</text>
+        <text x="64" y="676" fontSize="5.8" fontWeight="700" className="fill-foreground">B pertussis (the same toxin):</text>
+        <text x="64" y="686" fontSize="5.6" className="fill-muted-foreground">inhibits phagocytic ability — the whooping-</text>
+        <text x="64" y="696" fontSize="5.6" className="fill-muted-foreground">cough organism's second job.</text>
+
+        <rect x="352" y="644" width="284" height="100" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1" />
+        <text x="364" y="662" fontSize="7" fontWeight="800" className="fill-emergency">④ INHIBIT NEUROTRANSMITTER RELEASE</text>
+        <text x="364" y="676" fontSize="5.8" fontWeight="700" className="fill-foreground">C tetani + C botulinum — SNARE proteases:</text>
+        <text x="364" y="686" fontSize="5.6" className="fill-muted-foreground">tetanospasmin: no GABA/glycine from Renshaw</text>
+        <text x="364" y="696" fontSize="5.6" className="fill-muted-foreground">cells → spastic paralysis (trismus, opisthotonos);</text>
+        <text x="364" y="706" fontSize="5.6" className="fill-muted-foreground">botulinum: no ACh release → flaccid paralysis.</text>
+      </g>
+
+      {/* ===== Panel D: lysers + superantigens ===== */}
+      <g>
+        <rect x="668" y="400" width="288" height="360" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="684" y="422" fontSize="9" fontWeight="800" className="fill-foreground">LYSERS & SUPERANTIGENS</text>
+        <rect x="684" y="434" width="256" height="96" rx="9" className="fill-secondary" />
+        <text x="696" y="452" fontSize="6.4" fontWeight="800" className="fill-foreground">MEMBRANE LYSERS</text>
+        <text x="696" y="466" fontSize="5.6" fontWeight="700" className="fill-foreground">C perfringens — alpha toxin:</text>
+        <text x="696" y="476" fontSize="5.4" className="fill-muted-foreground">phospholipase (lecithinase) degrading tissue</text>
+        <text x="696" y="486" fontSize="5.4" className="fill-muted-foreground">and cell membranes → myonecrosis ("gas</text>
+        <text x="696" y="496" fontSize="5.4" className="fill-muted-foreground">gangrene") + hemolysis ("double zone" on blood agar).</text>
+        <text x="696" y="512" fontSize="5.6" fontWeight="700" className="fill-foreground">S pyogenes — streptolysin O:</text>
+        <text x="696" y="522" fontSize="5.4" className="fill-muted-foreground">lyses RBCs (β-hemolysis); ASO antibodies</text>
+        <text x="696" y="532" fontSize="5.4" className="fill-muted-foreground">diagnose rheumatic fever.</text>
+
+        <rect x="684" y="540" width="256" height="146" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1" />
+        <text x="696" y="558" fontSize="6.4" fontWeight="800" className="fill-emergency">SUPERANTIGENS → SHOCK</text>
+        <text x="696" y="572" fontSize="5.6" fontWeight="700" className="fill-foreground">S aureus TSST-1 · S pyogenes</text>
+        <text x="696" y="582" fontSize="5.6" fontWeight="700" className="fill-foreground">erythrogenic exotoxin A:</text>
+        <text x="696" y="596" fontSize="5.4" className="fill-muted-foreground">cross-links the β region of the TCR to MHC</text>
+        <text x="696" y="606" fontSize="5.4" className="fill-muted-foreground">class II on APCs OUTSIDE the antigen</text>
+        <text x="696" y="616" fontSize="5.4" className="fill-muted-foreground">binding site → overwhelming release of IL-1,</text>
+        <text x="696" y="626" fontSize="5.4" className="fill-muted-foreground">IL-2, IFN-γ, TNF-α → shock. Toxic shock</text>
+        <text x="696" y="636" fontSize="5.4" className="fill-muted-foreground">syndrome (fever, rash, shock); toxic shock–</text>
+        <text x="696" y="646" fontSize="5.4" className="fill-muted-foreground">like syndrome + scarlet fever. Also: scalded</text>
+        <text x="696" y="656" fontSize="5.4" className="fill-muted-foreground">skin syndrome (exfoliative toxin) and food</text>
+        <text x="696" y="666" fontSize="5.4" className="fill-muted-foreground">poisoning (heat-stable enterotoxin).</text>
+      </g>
+
+      {/* AB-toxin footnote strip */}
+      <g>
+        <rect x="36" y="776" width="920" height="40" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="496" y="794" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-foreground">AB TOXINS (the footnote's roster): B enables Binding and triggers uptake (endocytosis) of the Active A component — the A components are usually ADP ribosyltransferases.</text>
+        <text x="496" y="806" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Marked with the footnote letter: diphtheria toxin, Exotoxin A, Shiga toxin, LT, anthrax toxin (a three-component AB), cholera toxin, pertussis toxin, tetanospasmin, botulinum toxin.</text>
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="828" width="920" height="30" rx="8" className="fill-secondary" />
+        <text x="496" y="848" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Anchors: exotoxin = secreted, polypeptide, plasmid/phage genes, high toxicity, antitoxins, toxoid vaccines, 60°C-labile (3 exceptions) · endotoxin = shed on lysis/blebs, lipid A of LPS, chromosomal genes, TNF/IL-1/IL-6, no vaccine, 100°C-stable · eXtremely heat stable is the endotoxin cue.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="874" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's comparison table + exotoxin/endotoxin mechanism diagram + the Bacteria-with-exotoxins table + endotoxin cascade diagram (pdf 151-153 / book 129-131). FA's printed mnemonic in the ETEC manifestation cell is NOT reproduced here (verification only). The verbatim tables are the note's table blocks.</text>
+    </svg>
+  );
+}

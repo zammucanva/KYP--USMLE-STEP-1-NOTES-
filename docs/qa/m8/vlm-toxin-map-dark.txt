@@ -1,0 +1,12 @@
+**QA Report: Exotoxin vs Endotoxin Study-Visual (Dark Mode)**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   **Observation:** The layout utilizes a structured grid and clear padding. Text elements within the 11-row axis panel, the cascade panels, and the mechanism groups are well-spaced. No instances of text overlapping other text or bounding boxes were detected.
+*   **(B) Text clipped/truncated:** **PASS**
+    *   **Observation:** All textual content is fully visible within its respective containers. Long strings (such as those in the "THE ENDOTOXIN CASCADE" or "SUPERANTIGENS" panels) wrap correctly to the next line without being cut off at the edges.
+*   **(C) Lines crossing text:** **PASS**
+    *   **Observation:** The visual uses borders and background fills to define sections. There are no stray lines, connectors, or grid lines that intersect with or obscure the legibility of the text.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   **Observation:** The color palette is optimized for dark mode. Primary text is a bright off-white (#e5e7eb), while headers and key terms use high-luminance cyan (#2dd4bf) and red (#f87171). These colors provide excellent contrast against the dark background (#111827), ensuring full legibility.
+
+**Verdict: CLEAN**

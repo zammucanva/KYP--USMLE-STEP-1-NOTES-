@@ -1,0 +1,510 @@
+{
+  "topicId": "exotoxins-endotoxins",
+  "title": "Exotoxins vs Endotoxins",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      151,
+      152,
+      153
+    ],
+    "bookPages": "129–131"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (book 129)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Comparison table heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "Main features of exotoxins and endotoxins\nExotoxins\n\nEndotoxins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SOURCE row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "SOURCE\n\nCertain species of gram ⊕ and gram ⊝ bacteria\n\nOuter cell membrane of most gram ⊝ bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SECRETED FROM CELL row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "SECRETED FROM CELL\n\nYes\n\nNo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CHEMISTRY row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "CHEMISTRY\n\nPolypeptide\n\nLipid A component of LPS (structural part of\nbacteria; released when lysed)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LOCATION OF GENES row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "LOCATION OF GENES\n\nPlasmid or bacteriophage\n\nBacterial chromosome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TOXICITY row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "TOXICITY\n\nHigh (fatal dose on the order of 1 µg)\n\nLow (fatal dose on the order of hundreds of\nmicrograms)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CLINICAL EFFECTS row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "CLINICAL EFFECTS\n\nVarious effects (see following pages)\n\nFever, shock (hypotension), DIC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MODE OF ACTION row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "MODE OF ACTION\n\nVarious modes (see following pages)\n\nInduces TNF, IL-1, and IL-6",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ANTIGENICITY row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "ANTIGENICITY\n\nInduces high-titer antibodies called antitoxins\n\nPoorly antigenic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VACCINES row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "VACCINES\n\nToxoids used as vaccines\n\nNo toxoids formed and no vaccine available",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HEAT STABILITY row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "HEAT STABILITY\n\nDestroyed rapidly at 60°C (except\nstaphylococcal enterotoxin, E coli heat-stable\ntoxin, and B cereus emetic toxin)\n\nStable at 100°C for 1 hr",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TYPICAL DISEASES row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "TYPICAL DISEASES\n\nTetanus, botulism, diphtheria, cholera\n\nMeningococcemia; sepsis by gram ⊝ rods",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Exotoxin/endotoxin mechanism diagram labels (physical order; footer interleaves)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "Exotoxin\n\nDownstream\ncellular reaction\n\nFAS1_2026_03-Microbiology.indd 129\n\nEndotoxin\n\nTNF, IL-1,\nIL-6\nHost cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 129",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (book 130)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Roster table heading + column headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "Bacteria with exotoxins\nBACTERIA\n\nTOXIN\n\nMECHANISM\n\nMANIFESTATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Protein-synthesis group: banner + diphtheriae/Pseudomonas/Shigella rows + LT/ST + manifestations (full physical interleave, lines 17-71; incl. the FA mnemonic in the ETEC manifestation cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "Inhibit protein synthesis\nCorynebacterium\ndiphtheriae\n\nDiphtheria toxina\n\nPseudomonas\naeruginosa\n\nExotoxin A a\n\nShigella spp\n\nShiga toxina\n\nInactivate 60S ribosome by\nremoving adenine from\nrRNA\n\nDamages GI mucosa →  dysentery\nToxin-mediated injury and cytokine release\n→  hemolytic-uremic syndrome (HUS;\nprototypically in EHEC serotype O157:H7)\nUnlike Shigella, EHEC does not invade host\ncells\n\nHeat-labile\ntoxin (LT)a\n\nOveractivates adenylate\ncyclase (↑ cAMP) →  ↑ Cl−\nsecretion in gut and H2O\nefflux\nOveractivates guanylate\ncyclase (↑ cGMP)\n→  ↓ resorption of NaCl\nand H2O in gut\n\nWatery diarrhea: “labile in the Air (Adenylate\ncyclase), stable on the Ground (Guanylate\ncyclase)”\nBacteria that ↑ cAMP include V cholerae,\nB anthracis, B pertussis, E coli\n\nEnterohemorrhagic\nE coli\n\nInactivate elongation\nfactor (EF-2) through\nADP-ribosylation\n\nPharyngitis with pseudomembranes in throat\nand severe lymphadenopathy (bull neck),\nmyocarditis\nHost cell death",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fluid-secretion group: banner + ETEC/anthrax/cholera/pertussis rows (full physical interleave, lines 73-110)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "Increase fluid secretion\nEnterotoxigenic\nE coli\n\nHeat-stable\ntoxin (ST)\n\nBacillus anthracis\n\nAnthrax toxina\n\nMimics adenylate cyclase\n(↑ cAMP)\n\nLikely responsible for characteristic edematous\nborders of black eschar in cutaneous anthrax\n\nVibrio cholerae\n\nCholera toxina\n\nOveractivates adenylate\ncyclase (↑ cAMP) by\npermanently activating Gs\n\nVoluminous “rice-water” diarrhea\n\nPertussis toxina\n\nActivates adenylate cyclase\n(↑ cAMP) by inactivating\ninhibitory subunit (Gi).\n\nWhooping cough—child coughs on expiration\nand “whoops” on inspiration; can cause\n“100-day cough” in adults; associated with\nposttussive emesis\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phagocytosis + neurotransmitter groups: banners + pertussis/tetani/botulinum rows + SNARE mechanism + manifestations (full physical interleave, lines 111-142; the standalone footnote marker 'a' at line 120)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "Inhibit phagocytic ability\nBordetella pertussis\n\nInhibit release of neurotransmitter\nClostridium tetani\n\nClostridium\nbotulinum\n\na\n\nTetanospasmina\n\nBotulinum toxina\n\nBoth are proteases that\ncleave SNARE (soluble\nNSF attachment\nprotein receptor), a set\nof proteins required for\nneurotransmitter release\nvia vesicular fusion\n\nToxin prevents release of inhibitory (GABA\nand glycine) neurotransmitters from Renshaw\ncells in spinal cord →  spastic paralysis, risus\nsardonicus, trismus (lockjaw), opisthotonos\nInfant botulism—caused by ingestion of spores\n(eg, from soil, raw honey). Toxin produced in\nvivo\nFoodborne botulism—caused by ingestion of\npreformed toxin (eg, from canned foods)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "AB-toxin footnote",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "An AB toxin (also called two-component toxin [or three for anthrax]) with B enabling Binding and triggering uptake\n(endocytosis) of the Active A component. The A components are usually ADP ribosyltransferases; others have enzymatic\nactivities as listed in chart.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          152
+        ],
+        "bookPages": "130"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 130",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (book 131 — U+F07D private-use bullet, lowercase small-caps)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": " microbiology—Basic Bacteriology",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Continuation heading + odd-case column headers ('bacteria' 'toXiN' 'mecHaNism' 'maNiFestatioN' — small-caps text-layer artifact)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Bacteria with exotoxins (continued)\nbacteria\n\ntoXiN\n\nmecHaNism\n\nmaNiFestatioN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C perfringens + S pyogenes rows (full physical interleave; \\x8e renders the → arrows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Clostridium\nperfringens\n\nAlpha toxin\n\nPhospholipase (lecithinase)\nthat degrades tissue and\ncell membranes\n\nDegradation of phospholipids  myonecrosis\n(“gas gangrene”) and hemolysis (“double zone”\nof hemolysis on blood agar)\n\nStreptococcus\npyogenes\n\nStreptolysin O\n\nProtein that degrades cell\nmembrane\n\nLyses RBCs; contributes to β-hemolysis;\nhost antibodies against toxin (ASO) used to\ndiagnose rheumatic fever (do not confuse\nwith immune complexes of poststreptococcal\nglomerulonephritis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Superantigen mechanism cell + manifestations (physical interleave, lines 44-55)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Cross-links β region of\nTCR to MHC class II\non APCs outside of the\nantigen binding site\n overwhelming release\nof IL-1, IL-2, IFN- γ, and\nTNF-α  shock\n\nToxic shock syndrome: fever, rash, shock; other\ntoxins cause scalded skin syndrome (exfoliative\ntoxin) and food poisoning (heat-stable\nenterotoxin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Group banners 'Lyse cell membranes' + 'Superantigens causing shock' + the bacteria rows (lines 57-71)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Lyse cell membranes\n\nSuperantigens causing shock\nStaphylococcus\naureus\n\nToxic shock\nsyndrome toxin\n(TSST-1)\n\nStreptococcus\npyogenes\n\nErythrogenic\nexotoxin A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Endotoxin block — LPS text (full physical order, lines 73-85)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Endotoxin\n\nLPS found in outer membrane of gram ⊝\nbacteria (both cocci and rods). Composed\nof O-antigen + core polysaccharide + lipid\nA (the toxic component). Neisseria have\nlipooligosaccharide.\nReleased upon cell lysis or by living cells by\nblebs detaching from outer surface membrane\n(vs exotoxin, which is actively secreted).\nThree main effects: macrophage activation\n(TLR4/CD14), complement activation, and\ntissue factor activation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Endotoxin cascade diagram labels (full physical interleave, lines 87-133; incl. 'eXtremely heat stable')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "Macrophage activation\n(TLR4/CD14)\n\nEndotoxin\n(lipid A component)\n\nENDOTOXINS:\nEdema\nNitric oxide\nDIC/Death\nOuter membrane\nTNF-α\nO-antigen + core polysaccharide + lipid A\neXtremely heat stable\nIL-1 and IL-6\nNeutrophil chemotaxis\nShock\nIL-1, IL-6\n\nFever\n\nTNF-α\n\nFever and hypotension\n\nNitric oxide\n\nHypotension\n\nC3a\n\nHistamine release:\nHypotension and edema\n\nC5a\n\nNeutrophil chemotaxis\n\nCoagulation\ncascade\n\nDIC\n\nComplement activation\n\nTissue factor activation\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          153
+        ],
+        "bookPages": "131"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 131",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "toxin-comparison-map"
+  ],
+  "mechanismIds": [
+    "toxin-axis",
+    "cascade-to-shock"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the tables and diagrams; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidRelease"
+    },
+    {
+      "id": "delivery-design-model",
+      "summary": "The mailed-protein vs shed-wall model of the axis (secretion, chemistry, genes, per-dose potency, vaccine-ability, heat); the amplification model (the cascade compensates endotoxin's low nominal toxicity); the spastic-vs-flaccid SNARE address split (cord vs junction); the superantigen-vs-AB-toxin precision distinction (cross-link outside the binding site vs B-binds/A-acts); and the three heat-stable exceptions as a memorized exception set — with the Jarisch-Herxheimer-like release concept, pharmaceutical pyrogen monitoring, and therapeutic botulinum use labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the comparison and cascade without the delivery-design taxonomy or the address-split models; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pure vector pages (pdf 152-153 carry no content rasters; the book-129 mechanism diagram is pure vector). ONE original KYP registry visual (toxin-comparison-map: the 11-row axis panel + the cascade panel + the roster-by-group panel + the lysers/superantigens panel + the AB-toxin footnote strip). Quotes built programmatically from raw 0-based line ranges (M7 convention). Documented quirks: the FA mnemonic printed inside the ETEC manifestation cell (table text; carried verbatim in the note's table block, NOT in the visual); the AB-toxin 'a' footnote marker on 9 toxin names + standalone (sub-3-char drop covered inline); U+0090 before ↓; double-space '→  ↑' arrows; \\x8e (U+008E) rendering → in the alpha-toxin and superantigen rows (stripped by norm); the continuation table's odd-case column headers ('toXiN' 'mecHaNism' 'maNiFestatioN' — small-caps text-layer artifact); U+F07D chapter-banner glyph on book 131. Boundary: none needed (this is the banner's final topic; book 132+ begins the gram-positive cocci section owned by M9).",
+  "updatedAt": "2026-10-20"
+}

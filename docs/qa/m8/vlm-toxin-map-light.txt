@@ -1,0 +1,12 @@
+**QA Report: Exotoxin vs. Endotoxin Study Visual**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   *Observation:* All text elements, including the dense 11-row axis table and the multi-line mechanism descriptions, are properly spaced. No characters or words overlap with one another.
+*   **(B) Text clipped/truncated:** **PASS**
+    *   *Observation:* Every line of text is fully visible within its respective container. There are no instances of words being cut off at the edges of the boxes or the main canvas.
+*   **(C) Lines crossing text:** **PASS**
+    *   *Observation:* The borders and structural lines of the panels and tables do not intersect or strike through any of the textual content.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   *Observation:* The color palette provides high contrast (e.g., dark grey/black text on white/light backgrounds). Even the smaller "Anchors" footer and internal notes remain clearly legible.
+
+**Verdict: CLEAN**

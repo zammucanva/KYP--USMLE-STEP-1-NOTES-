@@ -1,0 +1,121 @@
+{
+  "topicId": "exotoxins-endotoxins",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "exotoxins-endotoxins-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          151,
+          152,
+          153
+        ],
+        "bookPages": "129–131"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The exotoxin/endotoxin comparison table (book 129)",
+      "sourceFigureDescription": "The printed 11-row comparison (SOURCE through TYPICAL DISEASES) with the Exotoxins and Endotoxins columns.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "exotoxins-endotoxins",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'The exotoxin/endotoxin axis — verbatim' table block (also condensed in the visual's axis panel)"
+    },
+    {
+      "visualId": "exotoxins-endotoxins-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          151,
+          152,
+          153
+        ],
+        "bookPages": "129–131"
+      },
+      "chapterId": "microbiology",
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The exotoxin/endotoxin mechanism diagram (book 129)",
+      "sourceFigureDescription": "A host-cell boundary diagram: a bacterium labeled Exotoxin releasing spherical toxin molecules toward a host-cell receptor with a looping 'downstream cellular reaction' arrow; a bacterium labeled Endotoxin releasing fragments that trigger 'TNF, IL-1, IL-6' at the host cell.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "exotoxins-endotoxins",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "toxin-comparison-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "exotoxins-endotoxins-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          151,
+          152,
+          153
+        ],
+        "bookPages": "129–131"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Bacteria-with-exotoxins roster table (books 130-131)",
+      "sourceFigureDescription": "The printed 4-column roster (BACTERIA / TOXIN / MECHANISM / MANIFESTATION) with group banners (inhibit protein synthesis / increase fluid secretion / inhibit phagocytic ability / inhibit release of neurotransmitter / lyse cell membranes / superantigens causing shock), the AB-toxin footnote, and the FA mnemonic printed in the ETEC manifestation cell.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "exotoxins-endotoxins",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] — 'The exotoxin roster — verbatim' table block"
+    },
+    {
+      "visualId": "exotoxins-endotoxins-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          151,
+          152,
+          153
+        ],
+        "bookPages": "129–131"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "The endotoxin cascade diagram (book 131)",
+      "sourceFigureDescription": "The printed cascade: the outer membrane (O-antigen + core polysaccharide + lipid A; 'eXtremely heat stable'); macrophage activation (TLR4/CD14); TNF-α, IL-1 and IL-6 → fever and hypotension; nitric oxide → hypotension; C3a → histamine release (hypotension and edema); C5a → neutrophil chemotaxis; the coagulation cascade → DIC; the ENDOTOXINS outcome strip (edema, shock, DIC/death).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "exotoxins-endotoxins",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "toxin-comparison-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "exotoxins-endotoxins",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector pages (no content rasters on pdf 152-153; the book-129 mechanism diagram is pure vector). TWO diagrams redrawn in the registry visual (the exotoxin/endotoxin mechanism diagram → the cascade panel; the endotoxin cascade diagram → the same panel's readout strip); TWO tables carried verbatim as note-blocks (the comparison table; the roster). The FA mnemonic in the ETEC manifestation cell carried in the table block only; NOT in the visual. The 9-toxin 'a' footnote markers documented."
+}
