@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 34,
+  "pendingTopicCount": 33,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -402,8 +402,89 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The immune-evasion directory (capsule, protein A, IgA proteases) plus the resistance-mechanisms table (efflux, decreased uptake, enzymatic inactivation, target modification) — E38's complement and E32's CGD loops closed."
+      "status": "complete",
+      "productionRationale": "The immune-evasion directory (capsule, protein A, IgA proteases) plus the resistance-mechanisms table (efflux, decreased uptake, enzymatic inactivation, target modification) — E38's complement and E32's CGD loops closed.",
+      "textbookVisuals": [
+        {
+          "visualId": "virulence-mechanisms-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              149
+            ],
+            "bookPages": "127–127"
+          },
+          "chapterId": "microbiology",
+          "visualType": "IMMUNOLOGY_DIAGRAM",
+          "visualPurpose": "Virulence — the immune-evasion diagram",
+          "sourceFigureDescription": "A rod-shaped bacterium with surface structures (capsular polysaccharide as wavy lines, M protein as rectangles, Protein A as surface structures); a phagocytosis cell with a blocked symbol; a complement-mediated phagocytosis cell interacting with Protein A bound to the Fc region of IgG (blocking the Fc receptor / opsonization); and IgA protease shown cleaving IgA. (The source's own typo 'Completment-mediated phagocytosis' is printed in this diagram.)",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "virulence-mechanisms",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "virulence-resistance-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "virulence-resistance-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "virulence-mechanisms-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              149
+            ],
+            "bookPages": "127–127"
+          },
+          "chapterId": "microbiology",
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Resistance — the antibiotic resistance mechanisms figure",
+          "sourceFigureDescription": "A bacterial-cell schematic with three mechanism columns: INCREASED EFFLUX/DECREASED UPTAKE (tetracyclines, sulfonamides, fluoroquinolones); ENZYMATIC INACTIVATION with drug cleavage (penicillin G, V; penicillinase-sensitive penicillins; cephalosporins; carbapenems) and drug modification (aminoglycosides, chloramphenicol); and DRUG TARGET MODIFICATION with rRNA (linezolid, macrolides), enzyme (penicillinase-resistant penicillins; cephalosporins; sulfonamides; fluoroquinolones), and cell wall (vancomycin) — the cell carrying anatomy labels (BACTERIAL CELL, cell wall, ribosome with rRNA, mRNA, DNA, enzyme).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "virulence-mechanisms",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "virulence-resistance-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "virulence-resistance-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "virulence-mechanisms-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              149
+            ],
+            "bookPages": "127–127"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Virulence — the four-factor table",
+          "sourceFigureDescription": "The printed table (factor | description): capsular polysaccharide, Protein A, IgA protease, M protein.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "virulence-mechanisms",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'The virulence factors — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "bacterial-genetics",

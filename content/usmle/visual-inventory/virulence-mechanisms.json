@@ -1,0 +1,89 @@
+{
+  "topicId": "virulence-mechanisms",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "virulence-mechanisms-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127–127"
+      },
+      "chapterId": "microbiology",
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "Virulence — the immune-evasion diagram",
+      "sourceFigureDescription": "A rod-shaped bacterium with surface structures (capsular polysaccharide as wavy lines, M protein as rectangles, Protein A as surface structures); a phagocytosis cell with a blocked symbol; a complement-mediated phagocytosis cell interacting with Protein A bound to the Fc region of IgG (blocking the Fc receptor / opsonization); and IgA protease shown cleaving IgA. (The source's own typo 'Completment-mediated phagocytosis' is printed in this diagram.)",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "virulence-mechanisms",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "virulence-resistance-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "virulence-mechanisms-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127–127"
+      },
+      "chapterId": "microbiology",
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Resistance — the antibiotic resistance mechanisms figure",
+      "sourceFigureDescription": "A bacterial-cell schematic with three mechanism columns: INCREASED EFFLUX/DECREASED UPTAKE (tetracyclines, sulfonamides, fluoroquinolones); ENZYMATIC INACTIVATION with drug cleavage (penicillin G, V; penicillinase-sensitive penicillins; cephalosporins; carbapenems) and drug modification (aminoglycosides, chloramphenicol); and DRUG TARGET MODIFICATION with rRNA (linezolid, macrolides), enzyme (penicillinase-resistant penicillins; cephalosporins; sulfonamides; fluoroquinolones), and cell wall (vancomycin) — the cell carrying anatomy labels (BACTERIAL CELL, cell wall, ribosome with rRNA, mRNA, DNA, enzyme).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "virulence-mechanisms",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "virulence-resistance-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "virulence-mechanisms-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127–127"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Virulence — the four-factor table",
+      "sourceFigureDescription": "The printed table (factor | description): capsular polysaccharide, Protein A, IgA protease, M protein.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "virulence-mechanisms",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'The virulence factors — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "virulence-mechanisms",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page (no rasters). The two printed diagrams are redrawn as ONE original KYP registry visual (virulence-resistance-map — the evasion arsenal panel and the resistance geometry panel); the four-factor table is reproduced verbatim as the note's table block. The source's own typo ('Completment-mediated') and the scrambled wall label are documented, not reproduced. No FA mnemonics printed on this page."
+}

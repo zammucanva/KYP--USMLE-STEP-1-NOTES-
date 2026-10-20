@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -294,4 +294,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "bacterial-cell-anatomy": BacterialCellAnatomy,
   "gram-stain-decision-map": GramStainDecisionMap,
   "bug-media-matching-map": BugMediaMatchingMap,
+  "virulence-resistance-map": VirulenceResistanceMap,
 };

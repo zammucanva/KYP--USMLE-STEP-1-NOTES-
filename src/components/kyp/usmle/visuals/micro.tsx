@@ -430,3 +430,125 @@ export function BugMediaMatchingMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M6 — Virulence mechanisms & antimicrobial resistance overview: the
+// immune-evasion arsenal + the resistance geometry around one cell
+// (source: the virulence-factor table, the immune-evasion diagram, and the
+//  antibiotic-resistance-mechanisms figure, pdf 149 / book 127 — pure vector
+//  page, no printed photos; FA's printed mnemonic boundary: none printed
+//  on this page; the source's own typo 'Completment-mediated' is NOT
+//  reproduced in the redraw)
+// ---------------------------------------------------------------------------
+
+export function VirulenceResistanceMap() {
+  const w = 980;
+  const h = 800;
+  const factors = [
+    { n: "Capsular polysaccharide", m: "Highly charged, hydrophilic structure", f: "Barrier to phagocytosis AND complement-mediated lysis — major determinant of virulence", org: "the encapsulated set (M4)" },
+    { n: "Protein A", m: "Binds the Fc region of IgG", f: "Prevents opsonization and phagocytosis", org: "S aureus" },
+    { n: "IgA protease", m: "Enzyme that cleaves IgA", f: "Adherence to and colonization of mucous membranes", org: "S pneumoniae, H influenzae type b, Neisseria (SHiN)" },
+    { n: "M protein", m: "Helps prevent phagocytosis", f: "Sequence homology with human cardiac myosin (molecular mimicry) — possibly underlies the autoimmune response of acute rheumatic fever", org: "group A streptococci" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Virulence mechanisms and antimicrobial resistance, an original KYP two-panel map. LEFT — the immune-evasion arsenal: four virulence factors that promote evasion of the host immune response. Capsular polysaccharide: a highly charged, hydrophilic structure acting as a barrier to phagocytosis and complement-mediated lysis — a major determinant of virulence. Protein A (S aureus): binds the Fc region of IgG, preventing opsonization and phagocytosis. IgA protease (secreted by S pneumoniae, H influenzae type b, and Neisseria — SHiN): cleaves IgA, allowing bacteria to adhere to and colonize mucous membranes. M protein (group A streptococci): helps prevent phagocytosis; its sequence homology with human cardiac myosin (molecular mimicry) possibly underlies the autoimmune response seen in acute rheumatic fever. RIGHT — the resistance geometry around one bacterial cell, three mechanisms. INCREASED EFFLUX and DECREASED UPTAKE: tetracyclines, sulfonamides, fluoroquinolones. ENZYMATIC INACTIVATION — drug cleavage (penicillin G and V, the penicillinase-sensitive penicillins, cephalosporins, carbapenems — the beta-lactamases) and drug modification (aminoglycosides, chloramphenicol). DRUG TARGET MODIFICATION — rRNA (linezolid, macrolides), enzyme (penicillinase-resistant penicillins, cephalosporins, sulfonamides, fluoroquinolones), and cell wall (vancomycin). The cell carries its anatomy labels: cell wall, ribosome with rRNA, mRNA, DNA, enzyme" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Virulence & resistance — the evasion arsenal and the drug-proofing geometry (original KYP redraw)</text>
+        <rect x="756" y="24" width="176" height="18" rx="9" className="fill-brand-soft" />
+        <text x="844" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">evade · cleave · re-arm</text>
+      </g>
+
+      {/* ===== LEFT: immune-evasion arsenal ===== */}
+      <g>
+        <rect x="36" y="76" width="440" height="592" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">IMMUNE-EVASION ARSENAL</text>
+        <text x="52" y="112" fontSize="6" className="fill-muted-foreground">virulence factors that promote evasion of the host immune response</text>
+        {factors.map((f, i) => (
+          <g key={f.n}>
+            <rect x="52" y={124 + i * 132} width="408" height="120" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+            <text x="66" y={144 + i * 132} fontSize="7.4" fontWeight="800" className="fill-brand">{f.n}</text>
+            <text x="66" y={158 + i * 132} fontSize="6.2" fontWeight="700" className="fill-foreground">{f.m}</text>
+            {f.f.match(/.{1,62}(\s|$)/g)!.slice(0, 4).map((line, j) => (
+              <text key={j} x="66" y={170 + j * 9 + i * 132} fontSize="5.8" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x="66" y={230 + i * 132} fontSize="6" fontWeight="800" className="fill-emergency">EXPRESSED BY: {f.org}</text>
+          </g>
+        ))}
+        <text x="52" y="656" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">The capsule defeats phagocytosis AND complement lysis; Protein A defeats opsonization (Fc of IgG);</text>
+        <text x="52" y="666" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">IgA protease defeats mucosal IgA; M protein defeats phagocytosis — and by cardiac-myosin homology (molecular mimicry) underlies acute rheumatic fever.</text>
+      </g>
+
+      {/* ===== RIGHT: resistance geometry ===== */}
+      <g>
+        <rect x="496" y="76" width="460" height="592" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="512" y="98" fontSize="9" fontWeight="800" className="fill-foreground">RESISTANCE GEOMETRY — one cell, three mechanisms</text>
+
+        {/* mechanism 1: efflux / uptake */}
+        <rect x="512" y="112" width="428" height="92" rx="10" className="fill-brand-soft/20 stroke-brand" strokeWidth="1.1" />
+        <text x="526" y="132" fontSize="7.2" fontWeight="800" className="fill-brand">① INCREASED EFFLUX / DECREASED UPTAKE</text>
+        <text x="526" y="146" fontSize="5.8" className="fill-muted-foreground">the drug never reaches its concentration:</text>
+        <text x="526" y="160" fontSize="6.4" fontWeight="700" className="fill-foreground">Tetracyclines · Sulfonamides · Fluoroquinolones</text>
+        <text x="526" y="176" fontSize="5.6" className="fill-muted-foreground">pumps push the drug out; entry channels stay shut —</text>
+        <text x="526" y="186" fontSize="5.6" className="fill-muted-foreground">the intracellular dose never accumulates.</text>
+
+        {/* mechanism 2: enzymatic inactivation */}
+        <rect x="512" y="212" width="428" height="120" rx="10" className="fill-emergency/10 stroke-emergency" strokeWidth="1.1" />
+        <text x="526" y="232" fontSize="7.2" fontWeight="800" className="fill-emergency">② ENZYMATIC INACTIVATION</text>
+        <text x="526" y="248" fontSize="6.2" fontWeight="700" className="fill-foreground">DRUG CLEAVAGE:</text>
+        <text x="526" y="260" fontSize="5.8" className="fill-muted-foreground">Penicillin G, V · penicillinase-sensitive penicillins ·</text>
+        <text x="526" y="270" fontSize="5.8" className="fill-muted-foreground">cephalosporins · carbapenems — the β-lactamases</text>
+        <text x="526" y="284" fontSize="6.2" fontWeight="700" className="fill-foreground">DRUG MODIFICATION:</text>
+        <text x="526" y="296" fontSize="5.8" className="fill-muted-foreground">Aminoglycosides · chloramphenicol —</text>
+        <text x="526" y="306" fontSize="5.8" className="fill-muted-foreground">modifying enzymes disarm the non-β-lactams</text>
+        <text x="526" y="322" fontSize="5.5" fontWeight="700" className="fill-emergency">the enzymes sit between the wall and the targets (M1's periplasm lobby).</text>
+
+        {/* mechanism 3: target modification */}
+        <rect x="512" y="340" width="428" height="128" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="526" y="360" fontSize="7.2" fontWeight="800" className="fill-foreground">③ DRUG TARGET MODIFICATION</text>
+        <text x="526" y="374" fontSize="6.2" fontWeight="700" className="fill-brand">rRNA:</text>
+        <text x="560" y="374" fontSize="5.8" className="fill-muted-foreground">linezolid · macrolides (methylated ribosomal RNA)</text>
+        <text x="526" y="390" fontSize="6.2" fontWeight="700" className="fill-brand">Enzyme:</text>
+        <text x="560" y="390" fontSize="5.8" className="fill-muted-foreground">penicillinase-resistant penicillins · cephalosporins ·</text>
+        <text x="560" y="400" fontSize="5.8" className="fill-muted-foreground">sulfonamides · fluoroquinolones (altered target enzymes)</text>
+        <text x="526" y="416" fontSize="6.2" fontWeight="700" className="fill-brand">Cell wall:</text>
+        <text x="560" y="416" fontSize="5.8" className="fill-muted-foreground">vancomycin (the altered wall target)</text>
+        <text x="526" y="434" fontSize="5.6" className="fill-muted-foreground">the target itself changes shape — the drug arrives</text>
+        <text x="526" y="444" fontSize="5.6" className="fill-muted-foreground">and finds a lock that no longer fits.</text>
+        <text x="526" y="460" fontSize="5.5" fontWeight="700" className="fill-foreground">Read with M1's PBP geometry: altered targets are re-armed walls and enzymes.</text>
+
+        {/* the cell schematic */}
+        <rect x="512" y="478" width="428" height="176" rx="12" className="fill-secondary/60 stroke-border" strokeWidth="1.3" />
+        <text x="526" y="498" fontSize="7" fontWeight="800" className="fill-foreground">BACTERIAL CELL — the anatomy the three mechanisms sit on</text>
+        <rect x="620" y="512" width="212" height="128" rx="16" className="fill-brand-soft/25 stroke-brand" strokeWidth="1.5" />
+        <text x="726" y="530" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">cell wall (outer band)</text>
+        <rect x="636" y="540" width="180" height="86" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="726" y="558" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">Ribosome — rRNA</text>
+        <text x="726" y="572" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">mRNA</text>
+        <text x="726" y="588" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">DNA</text>
+        <text x="726" y="604" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">enzyme</text>
+        <text x="528" y="530" fontSize="5.8" className="fill-muted-foreground">efflux pumps and</text>
+        <text x="528" y="540" fontSize="5.8" className="fill-muted-foreground">closed entry:</text>
+        <text x="528" y="556" fontSize="5.6" className="fill-brand">tetracyclines,</text>
+        <text x="528" y="566" fontSize="5.6" className="fill-brand">sulfonamides,</text>
+        <text x="528" y="576" fontSize="5.6" className="fill-brand">fluoroquinolones</text>
+        <text x="528" y="596" fontSize="5.6" className="fill-emergency">cleavage +</text>
+        <text x="528" y="606" fontSize="5.6" className="fill-emergency">modification</text>
+        <text x="528" y="616" fontSize="5.6" className="fill-emergency">enzymes (β-lactamases)</text>
+        <text x="528" y="640" fontSize="5.6" className="fill-foreground">targets re-armed:</text>
+        <text x="528" y="650" fontSize="5.6" className="fill-foreground">rRNA · enzyme · wall</text>
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="682" width="920" height="52" rx="9" className="fill-secondary" />
+        <text x="496" y="702" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: capsule = anti-phagocytosis + anti-complement (major virulence determinant) · Protein A = Fc of IgG (S aureus) · IgA protease = mucosal colonization (SHiN: S pneumoniae, H influenzae type b, Neisseria)</text>
+        <text x="496" y="716" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">M protein = anti-phagocytic + cardiac-myosin homology (molecular mimicry → acute rheumatic fever) · efflux/uptake = tetracyclines-sulfonamides-fluoroquinolones · cleavage = the β-lactamases · target modification = linezolid/macrolides (rRNA), the resistant-target set, vancomycin (wall)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="762" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's immune-evasion diagram and antibiotic-resistance-mechanisms figure (pdf 149 / book 127 — pure vector page, no printed photos; the source's own typo 'Completment-mediated' and the scrambled wall label are documented in the manifest, NOT reproduced here). The verbatim table is the note's table block.</text>
+    </svg>
+  );
+}

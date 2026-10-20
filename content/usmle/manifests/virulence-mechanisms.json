@@ -1,0 +1,300 @@
+{
+  "topicId": "virulence-mechanisms",
+  "title": "Virulence Mechanisms & Antimicrobial Resistance Overview",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      149
+    ],
+    "bookPages": "127–127"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (this page emits the bullet as private-use U+F07D and small-caps lowercase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": " microbiology—Basic Bacteriology",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Bacterial virulence\nfactors\nThese promote evasion of host immune response.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Capsular polysaccharide row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Capsular\npolysaccharide\nHighly charged, hydrophilic structure. Acts as barrier to phagocytosis and complement-mediated\nlysis. Major determinant of virulence.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Protein A row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Protein A\nBinds Fc region of IgG. Prevents opsonization and phagocytosis. Expressed by S aureus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IgA protease row (full physical order; SHiN roster)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "IgA protease\nEnzyme that cleaves IgA, allowing bacteria to adhere to and colonize mucous membranes. Secreted\nby S pneumoniae, H influenzae type b, and Neisseria (SHiN).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M protein row (full physical order; molecular mimicry)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "M protein\nHelps prevent phagocytosis. Expressed by group A streptococci. Sequence homology with human\ncardiac myosin (molecular mimicry); possibly underlies the autoimmune response seen in acute\nrheumatic fever.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Evasion diagram labels (physical order; source's own typo 'Completment-mediated' quoted as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Phagocytosis\nCapsular\npolysaccharide\nM protein\nCompletment-mediated\nphagocytosis\nProtein A\nFc region of IgG\nFc receptor (opsonization)\nIgA protease\nIgA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Resistance figure headers + efflux/uptake list (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Antibiotic resistance mechanisms\nINCREASED EFFLUX,\nDECREASED UPTAKE\nENZYMATIC\nINACTIVATION\nTetracyclines\nSulfonamides\nFluoroquinolones",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Drug cleavage + drug modification (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Drug cleavage\nPenicillin G, V\nPenicillinase-sensitive\npenicillins\nCephalosporins\nCarbapenems\nDrug modification\nAminoglycosides\nChloramphenicol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Target modification header + cell label (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "DRUG TARGET\nMODIFICATION\nBACTERIAL CELL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Target modification — rRNA row (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "rRNA\nLinezolid\nMacrolides",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cell anatomy labels (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Ribosome\nrRNA\nmRNA\nDNA\nEnzyme",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cell wall anatomy label (scrambled text-layer fragments 'Ce l lw a ll'; quoted as emitted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Ce l\nlw\na ll",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Target modification — enzyme row (physical order; the resistant-target list)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Enzyme\nPenicillinase-resistant\npenicillins\nCephalosporins\nSulfonamides\nFluoroquinolones",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Target modification — cell wall row (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "Cell wall\nVancomycin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          149
+        ],
+        "bookPages": "127"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 127",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "virulence-resistance-map"
+  ],
+  "mechanismIds": [
+    "immune-evasion-arsenal",
+    "resistance-geometry"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and figure; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "arrive-survive-fit",
+      "summary": "The drug-journey model of resistance (a drug must accumulate, stay intact, and fit its target — each mechanism class removes one leg); the immune-evasion arsenal as four pressures defeated (phagocytosis/complement, opsonization, mucosal IgA, phagocytosis+mimicry); the Protein A backwards-IgG explanation; the mimicry-to-autoimmunity chain (cardiac myosin homology → acute rheumatic fever carditis); and the cleavage-list vs target-list split at the β-lactamase line — with post-strep glomerulonephritis and altered-PBP/MRSA notes labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure without the drug-journey taxonomy or the mimicry-autoimmunity chain; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism captions + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p149 is a PURE VECTOR page (pdfimages returns nothing — no printed photos). TWO printed diagrams (the immune-evasion diagram; the antibiotic-resistance-mechanisms cell figure) both redrawn as ONE original KYP registry visual (virulence-resistance-map: evasion arsenal panel + resistance geometry panel with the cell schematic). Text-layer quirks documented: the source's OWN printed typo 'Completment-mediated phagocytosis' (quoted as printed; the redraw spells it correctly); the 'Cell wall' anatomy label emitted as scrambled fragments ('Ce l lw a ll' — quoted as emitted); this page's chapter banner emits the bullet as private-use U+F07D with small-caps lowercase; the figure's two penicillin lists (penicillinase-SENSITIVE on the cleavage list; penicillinase-RESISTANT on the target-modification list) each quoted in physical position. No FA mnemonics printed on this page (none to reproduce).",
+  "updatedAt": "2026-10-20"
+}

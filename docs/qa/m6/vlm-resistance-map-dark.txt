@@ -1,0 +1,12 @@
+**QA Report: Dark Mode Inspection**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   *Observation:* All text elements, including the dense "BACTERIAL CELL" schematic and the multi-line descriptions in both panels, are properly spaced. No characters or words overlap with each other.
+*   **(B) Text clipped/truncated:** **PASS**
+    *   *Observation:* All text is fully visible within its respective container boxes. Even the long summary paragraph at the bottom and the detailed lists inside the cards are completely rendered without any cut-off edges.
+*   **(C) Lines crossing text:** **PASS**
+    *   *Observation:* The layout uses clean, rounded rectangular containers (cards) to separate information. There are no stray lines, arrows, or border elements that intersect or strike through any of the textual content.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   *Observation:* The color palette is well-optimized for dark mode. Headings use high-luminance white/cyan, body text is a legible light grey, and accent colors (red/cyan) provide sufficient contrast against the dark background (#111 or similar). No text blends into the background.
+
+**Verdict: CLEAN**
