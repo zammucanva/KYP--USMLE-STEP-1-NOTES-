@@ -1,0 +1,22 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 165     0 image     188   188  cmyk    4   8  jpeg   no      6816  0   150   150 13.9K  10%
+ 165     1 image     188   188  cmyk    4   8  jpeg   no      6817  0   150   150 28.7K  21%
+
+=== census summary (M13, pdf 164-165 / book 142-143) ===
+p164: NO rasters — PURE VECTOR. The three-column comparison table and the
+MacConkey/EMB box are printed text (redrawn as the registry visual's
+COMPARISON panel; the McCowkey CEEKS box is FA's mnemonic — verification only).
+p165: 2 rasters (both 188x188 cmyk jpeg, COPYRIGHTED, described-in-text only):
+  - Klebsiella 'Very mucoid colonies A' — inline marker at dump line 65
+  - Campylobacter jejuni comma/S with polar flagella 'A' — inline marker at
+    line 88 + the standalone A markers at 72/75 (figure block 72-77)
+Column-resolution reads (2 independent VLM passes, 200-DPI + 2x zoom):
+  - p164 rows emit as contiguous physical-order blocks (label+col1+col2+col3);
+    column headers first at lines 12-17. VLM table read matches the text layer.
+  - p165 EHEC row: TOXIN/PRESENTATION columns interleave line-by-line (46-58);
+    'Does not ferment sorbitol (vs other E coli)' resolved to the PRESENTATION
+    column (between the dysentery sentence and the EHEC-hemorrhage-hamburgers
+    mnemonic line) — confirmed by BOTH reads.
+Text quirks: 'salmoncolored' + 'personto-person' merged hyphen-drops; \x90
+control char before ↓ (line 58); → U+2192 double-space arrows; curly quotes.

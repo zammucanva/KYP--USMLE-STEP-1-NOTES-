@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-20T14:26:03Z",
+  "generatedAt": "2026-10-20T23:37:51Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 99,
+    "topicsProduced": 100,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 44,
+      "pilot-complete": 45,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 12,
-      "topicsRemaining": 27,
+      "topicsProduced": 13,
+      "topicsRemaining": 26,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -848,6 +848,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "enteric-pathogens",
+      "title": "Enteric Pathogens: Salmonella, Shigella, E. coli Strains & Campylobacter",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 164, 165 (book 142–143)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "enzyme-terminology",

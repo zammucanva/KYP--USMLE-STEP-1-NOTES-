@@ -1580,15 +1580,157 @@ export function GramNegBacilliMap() {
 
       {/* anchors strip */}
       <g>
-        <rect x="36" y="1196" width="908" height="70" rx="8" className="fill-secondary" />
-        <text x="490" y="1211" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Tree gates: maltose splits the diplococci (gonorrhoeae ⊝, meningitidis ⊕) · oxidase ⊕ non-lactose = Pseudomonas, Burkholderia · H2S on TSI splits the oxidase-⊝ non-lactose set (Salmonella, Proteus ⊕ vs Shigella, Yersinia ⊝) · lactose speed splits the fermenters (E coli, Klebsiella, Enterobacter fast vs Citrobacter, Serratia slow)</text>
-        <text x="490" y="1223" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">H influenzae: chocolate agar factors V (NAD+) and X (hematin); satellitism around S aureus; nontypeable strains dominate post-vaccine; thumb-sign epiglottitis; NOT the flu · B pertussis: toxin disables Gi; lymphocytosis; whooping cough in 3 stages; Tdap/DTaP</text>
-        <text x="490" y="1235" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Brucella: unpasteurized milk, macrophages, undulant fever, noncaseating granulomas · Legionella: silver stain, charcoal yeast extract + iron + cysteine, urine antigen, hyponatremia + ↑ transaminases, water aerosols with NO person-to-person spread</text>
-        <text x="490" y="1247" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">P aeruginosa: water, grapelike odor, green pigment, acidic-environment virulence, ecthyma gangrenosum, swimmer's ear, CF biofilm (mucoid capsule); Exotoxin A inactivates EF-2; aminoglycoside monotherapy avoided in acidic foci · B cepacia: CF, MDR, lung-transplant contraindication</text>
+        <rect x="36" y="1196" width="908" height="74" rx="8" className="fill-secondary" />
+        <text x="490" y="1208" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Tree gates: maltose splits the diplococci (gonorrhoeae ⊝, meningitidis ⊕) · oxidase ⊕ non-lactose = Pseudomonas, Burkholderia · H2S on TSI splits the oxidase-⊝ non-lactose set (Salmonella, Proteus ⊕ vs Shigella, Yersinia ⊝)</text>
+        <text x="490" y="1220" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">lactose speed splits the fermenters (E coli, Klebsiella, Enterobacter fast vs Citrobacter, Serratia slow) · H influenzae: chocolate agar factors V (NAD+) and X (hematin); satellitism around S aureus; nontypeable strains dominate post-vaccine</text>
+        <text x="490" y="1232" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">thumb-sign epiglottitis; NOT the flu · B pertussis: toxin disables Gi; lymphocytosis; whooping cough in 3 stages; Tdap/DTaP · Brucella: unpasteurized milk, macrophages, undulant fever, noncaseating granulomas</text>
+        <text x="490" y="1244" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Legionella: silver stain, charcoal yeast extract + iron + cysteine, urine antigen, hyponatremia + ↑ transaminases, water aerosols with NO person-to-person spread</text>
+        <text x="490" y="1256" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">P aeruginosa: water, grapelike odor, green pigment, acidic-environment virulence, ecthyma gangrenosum, swimmer's ear, CF biofilm (mucoid capsule); Exotoxin A inactivates EF-2; aminoglycoside monotherapy avoided in acidic foci · B cepacia: CF, MDR, lung-transplant contraindication</text>
       </g>
 
       {/* footer */}
-      <text x="24" y="1300" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Gram-negative lab algorithm tree (pdf 161 / book 139 — pure vector) with the Neisseria comparison and the environment roster from books 140-141. The printed images (gonococci within neutrophils, meningococcemic gangrene of toes, the thumb-sign lateral neck x-ray, the unilateral lobar pneumonia imaging, the green-pigment plate, ecthyma gangrenosum) are raster, COPYRIGHTED, described-in-text only. FA's printed mnemonics (the French legionnaire campfire; PSEUDOMONAS; PEEP) are NOT reproduced here — verification only.</text>
+      <text x="24" y="1294" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Gram-negative lab algorithm tree (pdf 161 / book 139 — pure vector) with the Neisseria comparison and the environment roster from books 140-141.</text>
+      <text x="24" y="1306" fontSize="7.2" className="fill-muted-foreground">The printed images (gonococci within neutrophils, meningococcemic gangrene of toes, the thumb-sign lateral neck x-ray, the unilateral lobar pneumonia imaging, the green-pigment plate, ecthyma gangrenosum) are raster, COPYRIGHTED, described-in-text only.</text>
+      <text x="24" y="1318" fontSize="7.2" className="fill-muted-foreground">FA's printed mnemonics (the French legionnaire campfire; PSEUDOMONAS; PEEP) are NOT reproduced here — verification only.</text>
+    </svg>
+  );
+}
+
+export function EntericPathogenMap() {
+  const w = 980;
+  const h = 1300;
+  // The Salmonella-vs-Shigella comparison, pre-wrapped per cell (11 rows).
+  // FA's printed mnemonics (salmon swim; "tyVi" pronunciation gloss;
+  // shortens Shigella; 4 F's) are NOT reproduced here — the visual carries
+  // the facts; the mnemonics stay verification-only in the note's table block.
+  const cmp = [
+    { lab: ["RESERVOIRS"], c1: ["Humans only"], c2: ["Humans and animals"], c3: ["Humans only"], h: 26 },
+    { lab: ["SPREAD"], c1: ["Hematogenous spread"], c2: ["Hematogenous spread is rare"], c3: ["Cell to cell; no hematogenous spread"], h: 30 },
+    { lab: ["H2S", "PRODUCTION"], c1: ["Yes"], c2: ["Yes"], c3: ["No"], h: 26 },
+    { lab: ["FLAGELLA"], c1: ["Yes"], c2: ["Yes"], c3: ["No"], h: 26 },
+    { lab: ["VIRULENCE", "FACTORS"], c1: ["Endotoxin; Vi capsule"], c2: ["Endotoxin"], c3: ["Endotoxin; Shiga toxin (enterotoxin)"], h: 30 },
+    { lab: ["INFECTIOUS", "DOSE (ID50)"], c1: ["High — large inoculum required;", "acid-labile (inactivated by gastric acids)"], c2: ["High"], c3: ["Low — very small inoculum required;", "acid-stable (resistant to gastric acids)"], h: 40 },
+    { lab: ["EFFECT OF", "ANTIBIOTICS ON", "FECAL EXCRETION"], c1: ["Prolongs duration"], c2: ["Prolongs duration"], c3: ["Shortens duration"], h: 34 },
+    { lab: ["IMMUNE", "RESPONSE"], c1: ["Primarily monocytes"], c2: ["PMNs in disseminated disease"], c3: ["Primarily PMN infiltration"], h: 30 },
+    { lab: ["GI MANIFESTATIONS"], c1: ["Constipation, followed by diarrhea"], c2: ["Diarrhea (possibly bloody)"], c3: ["Crampy abdominal pain → tenesmus,", "bloody mucoid stools (bacillary dysentery)"], h: 40 },
+    { lab: ["VACCINE"], c1: ["Oral vaccine contains live attenuated", "S typhi; IM vaccine contains Vi", "capsular polysaccharide"], c2: ["No vaccine"], c3: ["No vaccine"], h: 40 },
+    { lab: ["UNIQUE", "PROPERTIES"], c1: ["Causes typhoid fever (salmon-colored", "truncal macular rash, abdominal pain,", "fever [pulse-temperature dissociation];", "later GI ulceration and hemorrhage);", "carrier state with gallbladder", "colonization; treat with ceftriaxone", "or fluoroquinolone"], c2: ["Poultry, eggs, pets, and turtles", "are common sources; treatment is", "supportive — antibiotics not indicated", "in immunocompetent individuals"], c3: ["Severity order (less toxin produced):", "S dysenteriae, S flexneri, S boydii,", "S sonnei; invasion of M cells is key", "to pathogenicity; infectious dose is low"], h: 96 },
+  ];
+  const roster = [
+    { n: "Yersinia enterocolitica", c: "emergency", t: ["Gram ⊝ pleomorphic rod/coccobacillus with bipolar staining · pet feces (cats, dogs), contaminated milk, or pork", "Acute bloody diarrhea; pseudoappendicitis (right lower abdominal pain from mesenteric adenitis and/or terminal ileitis); reactive arthritis in adults"] },
+    { n: "Klebsiella", c: "brand", t: ["Gram ⊝ rod; intestinal microbiota causing lobar pneumonia — heavy alcohol use or impaired host defenses; very mucoid colonies from abundant", "polysaccharide capsules (photo A, described-in-text only); dark red “currant jelly” sputum (blood/mucus); healthcare-associated UTIs; MDR evolution"] },
+    { n: "Campylobacter jejuni", c: "emergency", t: ["Gram ⊝, comma or S shaped (polar flagella; photo A, described-in-text only), oxidase ⊕, grows at 42°C; major cause of bloody diarrhea, especially in children", "Fecal-oral: person-to-person contact, undercooked poultry or meat, unpasteurized milk, animal contact (dogs, cats, pigs); antecedent to Guillain-Barré syndrome and reactive arthritis"] },
+    { n: "Proteus mirabilis", c: "brand", t: ["Gram ⊝, urease ⊕, facultative anaerobe; long flagellae with “swarming” motility; common cause of UTIs", "Urease hydrolyzes urea → CO2 + ammonia → net ↑ pH → struvite stones; renal-calyx blockage → branched staghorn calculi"] },
+  ];
+  const strains = [
+    { n: "ENTEROINVASIVE — EIEC", m: "Invades intestinal mucosa → necrosis and inflammation", p: "Dysentery, clinically similar to Shigella" },
+    { n: "ENTEROTOXIGENIC — ETEC", m: "Heat-labile + heat-stable enterotoxins; no inflammation or invasion", p: "Traveler’s diarrhea (watery)" },
+    { n: "ENTEROPATHOGENIC — EPEC", m: "No toxin; adheres to apical surface, flattens villi, prevents absorption", p: "Diarrhea, usually in children" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Enteric pathogens, an original KYP comparison map. THE SALMONELLA-VS-SHIGELLA SPLIT (a redraw of the printed three-column comparison): both are gram-negative rods, non-lactose fermenters, oxidase negative, invading the GI tract via M cells of Peyer patches. Salmonella typhi (ty-Vi): humans only, hematogenous spread, H2S positive, flagellated, endotoxin plus Vi capsule, high acid-labile infectious dose, antibiotics prolong fecal excretion, primarily monocytes on immune response, constipation then diarrhea, oral live-attenuated and IM Vi-polysaccharide vaccines, and typhoid fever with the salmon-colored truncal macular rash, pulse-temperature dissociation, later GI ulceration and hemorrhage, gallbladder-carrier state, treated with ceftriaxone or fluoroquinolone. Salmonella spp. except S typhi: humans and animals, hematogenous spread rare, H2S positive, flagellated, endotoxin, high dose, antibiotics prolong excretion, PMNs in disseminated disease, diarrhea possibly bloody, no vaccine, with poultry, eggs, pets, and turtles as common sources and supportive treatment. Shigella: humans only, cell-to-cell with no hematogenous spread, H2S negative, no flagella, endotoxin plus Shiga toxin, low acid-stable dose, antibiotics shorten excretion, primarily PMN infiltration, crampy abdominal pain with tenesmus and bloody mucoid stools (bacillary dysentery), no vaccine, severity order S dysenteriae then S flexneri then S boydii then S sonnei, M-cell invasion key to pathogenicity. THE E. COLI STRAIN SET: gram-negative indole-positive rod whose virulence factors run fimbriae (P pili) for cystitis and pyelonephritis, K capsule for pneumonia and neonatal meningitis, and LPS endotoxin for septic shock; the four diarrheagenic strains — EIEC invasive like Shigella, ETEC with heat-labile and heat-stable enterotoxins for watery traveler’s diarrhea, EPEC without toxin adhering to the apical surface and flattening villi in children, and EHEC O157:H7 from undercooked meat and raw leafy vegetables whose Shiga toxin causes hemolytic-uremic syndrome (the triad of anemia, thrombocytopenia, and acute kidney injury from microthrombi on damaged endothelium, with schistocytes, platelet consumption, and reduced renal blood flow), which does not ferment sorbitol and causes dysentery from toxin alone. THE ENTERIC ROSTER: Yersinia enterocolitica (bipolar-stained pleomorphic rod from pet feces, contaminated milk, or pork; bloody diarrhea, pseudoappendicitis from mesenteric adenitis or terminal ileitis, reactive arthritis), Klebsiella (lobar pneumonia with currant-jelly sputum in heavy alcohol use, mucoid colonies from polysaccharide capsules, healthcare-associated UTIs, multidrug resistance), Campylobacter jejuni (comma or S shaped, oxidase positive, growing at 42 degrees; bloody diarrhea in children; fecal-oral via person-to-person contact, undercooked poultry, unpasteurized milk, animal contact; antecedent to Guillain-Barre syndrome and reactive arthritis), and Proteus mirabilis (urease-positive swarmer causing UTIs; urea hydrolysis raises pH and builds struvite staghorn calculi). LACTOSE FERMENTERS grow pink on MacConkey (Citrobacter, E coli, Enterobacter, Klebsiella, Serratia) and purple-black on EMB, where E coli shows a green sheen" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Enteric pathogens — the comparison map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" rx="9" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">reservoir · spread · ID50 · toxin · HUS</text>
+      </g>
+
+      {/* ===== THE SALMONELLA-VS-SHIGELLA SPLIT ===== */}
+      <g>
+        {(() => { let yTop = 96; return null; })()}
+        <rect x="36" y="76" width="908" height="552" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE SALMONELLA-VS-SHIGELLA SPLIT — both gram ⊝ rods, non-lactose fermenters, oxidase ⊝, invading via M cells of Peyer patches</text>
+        {/* column headers */}
+        <rect x="52" y="108" width="124" height="34" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="114" y="122" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-muted-foreground">ROW</text>
+        <text x="114" y="132" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-muted-foreground">AXIS</text>
+        <rect x="184" y="108" width="236" height="34" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="302" y="122" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">S typhi (ty-Vi)</text>
+        <text x="302" y="134" textAnchor="middle" fontSize="5.2" className="fill-muted-foreground">typhoidal — hematogenous</text>
+        <rect x="428" y="108" width="236" height="34" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="546" y="122" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-brand">Salmonella spp.</text>
+        <text x="546" y="134" textAnchor="middle" fontSize="5.2" className="fill-muted-foreground">except S typhi — nontyphoidal</text>
+        <rect x="672" y="108" width="236" height="34" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="790" y="122" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">Shigella</text>
+        <text x="790" y="134" textAnchor="middle" fontSize="5.2" className="fill-muted-foreground">cell-to-cell, no hematogenous</text>
+        {/* rows */}
+        {cmp.map((r, i) => {
+          const y = 150 + cmp.slice(0, i).reduce((a, x) => a + x.h + 4, 0);
+          const rh = r.h;
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="856" height={rh} rx={5} className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+              <rect x="52" y={y} width="124" height={rh} rx={5} className="fill-card" />
+              {r.lab.map((l, j) => (
+                <text key={j} x={62} y={y + 12 + j * 10} fontSize="5.4" fontWeight="800" className="fill-foreground">{l}</text>
+              ))}
+              {r.c1.map((l, j) => (
+                <text key={j} x={192} y={y + 12 + j * 10} fontSize="5.2" className={i === 10 ? "fill-muted-foreground" : "fill-foreground"}>{l}</text>
+              ))}
+              {r.c2.map((l, j) => (
+                <text key={j} x={436} y={y + 12 + j * 10} fontSize="5.2" className="fill-muted-foreground">{l}</text>
+              ))}
+              {r.c3.map((l, j) => (
+                <text key={j} x={680} y={y + 12 + j * 10} fontSize="5.2" className={i === 10 ? "fill-muted-foreground" : "fill-foreground"}>{l}</text>
+              ))}
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== THE E. COLI STRAIN SET ===== */}
+      <g>
+        <rect x="36" y="642" width="908" height="290" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="664" fontSize="9" fontWeight="800" className="fill-foreground">THE E. COLI STRAIN SET — gram ⊝, indole ⊕ rod; fimbriae (P pili) → cystitis + pyelonephritis · K capsule → pneumonia + neonatal meningitis · LPS endotoxin → septic shock</text>
+        {strains.map((s, i) => (
+          <g key={s.n}>
+            <rect x={52 + i * 296} y={676} width="284" height="92" rx="8" className="fill-secondary" />
+            <text x={62 + i * 296} y={690} fontSize="6.4" fontWeight="800" className="fill-brand">{s.n}</text>
+            <text x={62 + i * 296} y={702} fontSize="5.2" className="fill-muted-foreground">{s.m.match(/.{1,46}(\s|$)/g)!.slice(0, 2).map(x => x.trim()).join(" ")}</text>
+            <text x={62 + i * 296} y={713} fontSize="5.2" className="fill-muted-foreground">{s.m.match(/.{1,46}(\s|$)/g)!.slice(2, 4).map(x => x.trim()).join(" ")}</text>
+            <text x={62 + i * 296} y={724} fontSize="5.2" className="fill-muted-foreground">{s.m.match(/.{1,46}(\s|$)/g)!.slice(4, 6).map(x => x.trim()).join(" ")}</text>
+            <text x={62 + i * 296} y={736} fontSize="5.2" fontWeight="700" className="fill-foreground">→ {s.p}</text>
+            <text x={62 + i * 296} y={748} fontSize="5.2" fontWeight="700" className="fill-foreground">{s.p.match(/.{1,46}(\s|$)/g)!.slice(1, 2).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+        {/* EHEC capstone */}
+        <rect x="52" y="776" width="876" height="142" rx="8" className="fill-secondary" />
+        <text x="64" y="792" fontSize="6.4" fontWeight="800" className="fill-emergency">ENTEROHEMORRHAGIC — EHEC · O157:H7 (most common US serotype) · undercooked meat, raw leafy vegetables · does not ferment sorbitol (vs other E coli)</text>
+        <text x="64" y="806" fontSize="5.2" className="fill-muted-foreground">Shiga toxin causes hemolytic-uremic syndrome — the triad of anemia, thrombocytopenia, and acute kidney injury due to microthrombi forming on damaged</text>
+        <text x="64" y="817" fontSize="5.2" className="fill-muted-foreground">endothelium → mechanical hemolysis (schistocytes on peripheral blood smear), platelet consumption → thrombocytopenia, and ↓ renal blood flow.</text>
+        <text x="64" y="830" fontSize="5.2" fontWeight="700" className="fill-foreground">→ Dysentery (toxin alone causes necrosis and inflammation) — dysentery without invasion, the signature of the Shiga-toxin class.</text>
+        <text x="64" y="844" fontSize="5.2" className="fill-muted-foreground">Read together with Shigella: Shigella’s Shiga toxin (enterotoxin) sits in its VIRULENCE FACTORS cell — EHEC is the strain that borrows the same toxin and adds the</text>
+        <text x="64" y="855" fontSize="5.2" className="fill-muted-foreground">sorbitol-negative lab identity. (EIEC borrows the invasion; ETEC borrows the enterotoxin-only watery picture; EPEC borrows neither — it adheres.)</text>
+        <text x="64" y="870" fontSize="5.0" className="fill-muted-foreground">FA’s printed cell mnemonics (EIEC is Invasive; ETEC Traveler’s; think EPEC and Pediatrics; EHEC = hemorrhage, hamburgers, hemolytic-uremic syndrome) are NOT reproduced — verification only.</text>
+      </g>
+
+      {/* ===== THE ENTERIC ROSTER ===== */}
+      <g>
+        <rect x="36" y="946" width="908" height="252" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="968" fontSize="9" fontWeight="800" className="fill-foreground">THE ENTERIC ROSTER — signature · diseases (the other gram ⊝ rods of books 142-143)</text>
+        {roster.map((r, i) => (
+          <g key={r.n}>
+            <rect x={52} y={978 + i * 54} width="876" height="48" rx={7} className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x={64} y={992 + i * 54} fontSize="6.4" fontWeight="800" className={r.c === "emergency" ? "fill-emergency" : "fill-brand"}>{r.n}</text>
+            <text x={240} y={992 + i * 54} fontSize="5.2" className="fill-muted-foreground">{r.t[0]}</text>
+            <text x={240} y={1004 + i * 54} fontSize="5.2" className="fill-muted-foreground">{r.t[1].match(/.{1,110}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+            <text x={240} y={1015 + i * 54} fontSize="5.2" className="fill-muted-foreground">{r.t[1].match(/.{1,110}(\s|$)/g)!.slice(1, 2).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1210" width="908" height="30" rx="8" className="fill-secondary" />
+        <text x="490" y="1230" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Lactose fermentation → pink colonies on MacConkey agar (Citrobacter, E coli, Enterobacter, Klebsiella, Serratia) · EMB agar: lactose fermenters grow purple/black colonies; E coli grows colonies with a green sheen</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="1246" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source’s Salmonella-vs-Shigella comparison and E. coli strain table (pdf 164-165 / book 142-143 — pure vector; photos on p165 are raster, COPYRIGHTED, described-in-text only).</text>
+      <text x="24" y="1258" fontSize="7.2" className="fill-muted-foreground">FA’s printed mnemonics (salmon swim; “tyVi”; shortens Shigella; 4 F’s; McCowkey CEEKS milk; ABCDE’s of Klebsiella; the hot campfire; the strain letter glosses) are NOT reproduced here</text>
+      <text x="24" y="1270" fontSize="7.2" className="fill-muted-foreground">— verification only, carried verbatim in the note’s table block.</text>
     </svg>
   );
 }

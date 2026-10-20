@@ -1,0 +1,27 @@
+===== element-enteric-pathogen-map-dark.png =====
+**OVERLAPS:**
+*   **Panel 1 (Salmonella vs. Shigella):** The **UNIQUE PROPERTIES** row contains multi-line text that is severely cramped. In the *S. typhi* column, the text lines (e.g., "Capsule: Vi antigen [absent in...]", "Intracellular survival...") are tightly packed, and the bottom line ("in thalassemia") appears to be dangerously close to or potentially touching the panel's bottom border. The same tight vertical spacing is visible in the *Shigella* column for this row.
+*   **Panel 2 (E. Coli Strain Set):** The **EHEC capstone card** contains six dense lines of text. The final line ("It's a juked cell-mimicker...") sits extremely close to the card's bottom padding/border, creating a visually unbalanced "cramped" look at the base of the card.
+*   **General/Minor:** In Panel 1, the long text in the *GI MANIFESTATIONS* row for Shigella ("bloody mucoid stools [dysentery]") wraps tightly within its cell.
+
+**CLIPPING:**
+*   **Footer Text:** The fine-print footer at the very bottom of the image is horizontally clipped on both the left and right edges. The opening phrase "Original KYP redraw..." and the closing phrase "...salmon swim). 'Vi" are cut off mid-word/sentence by the image viewport boundaries.
+*   **Panel 1 Bottom Border:** As noted in overlaps, the last line of text in the *S. typhi* UNIQUE PROPERTIES cell risks being vertically clipped by the container's lower boundary.
+
+**CONTRAST/READABILITY:**
+*   **Panel 1 Row Labels:** The left-most axis labels (e.g., "INFECTIOUS DOSE (ID50)", "EFFECT OF ANTIBIOTICS ON FECAL EXCRETION") are rendered in a very light grey/white against the dark background. While legible, the contrast is lower than the main body text, which could cause strain on smaller screens.
+*   **Panel 3 (Enteric Roster):** The organism names (*Yersinia enterocolitica*, *Campylobacter jejuni*) are in a bright red/coral color. This provides good contrast, but the descriptive text next to them is a muted grey, making it slightly harder to read than the primary white text in other panels.
+
+**ALIGNMENT:**
+*   **Panel 1 Columns:** The three organism columns appear well-aligned with their headers. However, because the *S. typhi* UNIQUE PROPERTIES cell has significantly more wrapped lines than the *Shigella* cell, the row height is dictated by the former, leaving the *Shigella* cell with excessive empty space at the bottom, which looks slightly misaligned vertically within the row's context.
+*   **Panel 2 Strain Cards:** The three small cards (EIEC, ETEC, EPEC) are aligned, but the text inside them (especially the sub-bullet points like "...Dysentery, clinically similar to Shigella") is left-aligned with a large indent, making it look slightly "floating" or disconnected from the header.
+
+**CONTENT CHECK:**
+1.  **The Salmonella-vs-Shigella Split:** This panel depicts a detailed comparison grid between *Salmonella typhi*, non-typhoidal *Salmonella* species, and *Shigella*. It breaks down differences across eleven axes, including reservoirs, H2S production, virulence factors (like Vi capsule and Shiga toxin), infectious dose, clinical manifestations (typhoid fever vs. dysentery), and vaccine availability.
+2.  **The E. Coli Strain Set:** This section categorizes pathogenic *E. coli* strains. It introduces the common traits (gram-negative rod, fimbriae) and then details specific strains: EIEC (dysentery-like), ETEC (traveler's diarrhea), EPEC (infant diarrhea), and a prominent EHEC card detailing its link to undercooked meat, O157:H7 serotype, and the dangerous complication of Hemolytic Uremic Syndrome (HUS).
+3.  **The Enteric Roster:** This panel lists four other gram-negative enteric organisms—*Yersinia enterocolitica* (pseudomembranous colitis/mimic), *Klebsiella* (aspiration pneumonia), *Campylobacter jejuni* ( Guillain-Barré association), and *Proteus mirabilis* (UTIs/stones)—providing key identifying features and clinical associations for each.
+
+VERDICT: DEFECTS FOUND
+*   **Clipping:** Footer text is cut off on left/right margins.
+*   **Spacing/Cramping:** The "Unique Properties" row in Panel 1 and the EHEC card in Panel 2 have insufficient bottom padding, causing text to feel crushed against borders.
+*   **Readability:** Low-contrast axis labels in Panel 1; dense text blocks in Panel 1 and 2 could benefit from increased line-height.

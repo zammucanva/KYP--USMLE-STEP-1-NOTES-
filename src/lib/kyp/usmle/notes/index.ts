@@ -63,6 +63,7 @@ import { gramPositiveCocci } from "./gram-positive-cocci";
 import { gramPositiveBacilli } from "./gram-positive-bacilli";
 import { mycobacteria } from "./mycobacteria";
 import { gramNegativeBacilli } from "./gram-negative-bacilli";
+import { entericPathogens } from "./enteric-pathogens";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -209,6 +210,7 @@ export const usmleNotes: KypUsMLENote[] = [
   gramPositiveBacilli,
   mycobacteria,
   gramNegativeBacilli,
+  entericPathogens,
   cranialNerves,
   diabetesMellitus,
 ];

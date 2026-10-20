@@ -66,3 +66,25 @@ shared with M11 — M12 owns the tree (lines 26-98); leprosy is M11's.
 
 sync (99 topics) · validate CONTRACT GREEN (2 documented warnings) ·
 audit 0 depth failures · evidence 2747/2747 EXIT 0 · tsc 1 baseline error.
+
+---
+
+## REPAIR (session 2026-10-21) — two latent defects found by geometric audit
+
+During M13's QA, a getBBox right-edge sweep (>viewBox 980) was added to the
+visual-audit toolkit; run against M12's completed visual it exposed two real
+defects that the original VLM rounds had passed as clean:
+
+1. **Footer overflow** — the single-line footer's bbox right edge was
+   **1887.3 vs viewBox 980** (the render is clipped at the viewport; the
+   original VLM "fully legible" read was a false negative). FIXED: rewritten
+   as 3 wrapped lines (right edges ≤ ~760).
+2. **Anchors strip line 1 overflow** — 331 chars = 981.1 units wide, right
+   edge **980.6**. FIXED: strip rebalanced from 4 to 5 centered lines
+   (right edges ≤ ~904), anchors rect h 70→74.
+
+Re-verification after the repair: browser 4/4 passes (0px overflow, themes
+verified), element re-captured at the unchanged 1440×900 rect (x=281 y=5737,
+1102×1496; stdev 23.30/20.98), **VLM CLEAN ×2 (light + dark)** —
+`vlm-repair-light.txt` / `vlm-repair-dark.txt`. The repair is part of the M13
+commit.

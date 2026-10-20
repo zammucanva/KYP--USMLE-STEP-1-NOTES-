@@ -1,0 +1,33 @@
+===== element-enteric-pathogen-map-light.png =====
+**QA INSPECTION REPORT: element-enteric-pathogen-map-light.png**
+
+### 1. OVERLAPS
+*   **Panel 1 (Salmonella vs. Shigella):** No overlaps detected. The narrow row-label column (e.g., "RESERVOIRS", "UNIQUE PROPERTIES") is cleanly separated from the first organism column (*S. typhi*). The multi-line text in the **UNIQUE PROPERTIES** row wraps well within its cell boundaries without touching adjacent columns or the bottom border.
+*   **Panel 2 (E. Coli Strain Set):** The three smaller strain cards (EIEC, ETEC, EPEC) have adequate internal padding; their wrapped text lines do not collide with the card borders. The full-width **EHEC capstone card** contains six distinct text lines that sit comfortably above the bottom edge with no clipping or overlap.
+*   **Panel 3 (Enteric Roster):** The two descriptive text lines for each organism (e.g., *Yersinia enterocolitica*) are properly spaced and do not overlap with the top border of the subsequent row.
+*   **General:** No text labels are colliding with any panel borders or external graphics.
+
+### 2. CLIPPING
+*   **Text Clipping:** All wrapped lines are fully visible. I checked the last characters of every line in the densest cells (especially the *S. typhi* Unique Properties and the EHEC card), and nothing is cut off.
+*   **Container Boundaries:** The anchors strip ("reservoir · spread · ID50...") and the fine-print footer at the very bottom are completely contained within their respective areas. No shapes or text are cut off by the main SVG canvas edges.
+
+### 3. CONTRAST/READABILITY
+*   **Text vs. Background:** All text is highly legible. The dark grey/black body text provides excellent contrast against the light mint-green/cyan background panels. 
+*   **Header Text:** The colored organism names (Red for *S. typhi*/Shigella/EHEC/Campylobacter/Proteus, Teal for *Salmonella spp.*/*E. coli* strains/Yersinia/Klebsiella) are vibrant and easy to read against the white/light-grey header backgrounds.
+*   **Footer:** The fine print is small but maintains sufficient contrast to be readable.
+
+### 4. ALIGNMENT
+*   **Grid Structure:** The comparison grid in Panel 1 is perfectly aligned. All 11 row-labels align vertically on the left, and all cell content is consistently padded within their respective columns.
+*   **Card Layout:** The three E. coli strain cards are evenly spaced and top-aligned. The EHEC card spans the full width correctly below them.
+*   **Roster Rows:** The four rows in Panel 3 are of uniform height and perfectly stacked.
+*   **Floating Elements:** There are no misplaced boxes or orphaned labels. Every element appears intentionally placed within its structural context.
+
+### 5. CONTENT CHECK
+Based on a careful reading of the schematic:
+1.  **The Salmonella-vs-Shigella Split:** This panel provides a detailed differential diagnosis grid comparing *Salmonella typhi*, non-typhoidal *Salmonella*, and *Shigella*. It breaks down differences across 11 axes including reservoirs, H2S production, virulence factors (Vi capsule vs. Shiga toxin), clinical manifestations (typhoid fever vs. dysentery), and unique properties like the "rose spots" of typhoid.
+2.  **The E. Coli Strain Set:** This panel categorizes pathogenic *E. coli* strains. It introduces the general traits (gram-negative rods) and then details Enteroinvasive (EIEC), Enterotoxigenic (ETEC), and Enteropathogenic (EPEC) strains in individual cards, culminating in a detailed profile of Enterohemorrhagic (EHEC/O157:H7), noting its association with undercooked meat and hemolytic uremic syndrome (HUS).
+3.  **The Enteric Roster:** This section lists four other notable enteric pathogens—*Yersinia enterocolitica*, *Klebsiella*, *Campylobacter jejuni*, and *Proteus mirabilis*—providing key identifying features for each (e.g., *Yersinia*'s "pseudoappendicitis" and *Proteus*'s swarming motility and urease production).
+
+***
+
+VERDICT: CLEAN

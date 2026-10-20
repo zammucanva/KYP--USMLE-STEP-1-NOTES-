@@ -1,0 +1,36 @@
+===== element-gram-neg-bacilli-map-dark.png (repair verification) =====
+**1. OVERLAPS:**
+*   **Algorithm Tree (Bacilli section):** The "oxidase = H2S or TSI?" label and its sub-list (MS, H2S, etc.) are positioned very close to the left edge of the "LACTOSE FERMENTING" box. While not strictly overlapping, the proximity is tight. No other text-to-text or text-to-graphic overlaps are observed.
+*   **Neisseria Split / Environment Roster:** Text is well-spaced within their respective rows.
+
+**2. CLIPPING:**
+*   **Anchors Strip (5 lines):** All five lines are fully contained within the panel. Each line ends with a complete phrase/sentence well before the right margin.
+    *   Line 1: Ends with "...Vibrio sp)."
+    *   Line 2: Ends with "...post-vaccine"
+    *   Line 3: Ends with "...non-lactose-fermenting gram-negatives"
+    *   Line 4: Ends with "...person-to-person spread."
+    *   Line 5: Ends with "...contraindication"
+*   **Footer (3 lines):** The footer is now correctly wrapped into three lines. 
+    *   Line 1: Ends with "...from books IAO–I4II."
+    *   Line 2: Ends with "...COPYRIGHTED, described in-text only."
+    *   Line 3: Ends with "...verification only."
+*   **Verdict on Clipping:** **CLEAN.** The previous issues (overlong footer, unbalanced anchors) appear to be successfully resolved.
+
+**3. CONTRAST/READABILITY:**
+*   The dark-mode theme uses high-contrast white/cyan/red text against dark backgrounds.
+*   **Potential Issue:** In the "BACILLI" section, the sub-text under "NON-LACTOSE FERMENTING" (e.g., "Pseudomonas", "Burkholderia") and the fine print in the "ENVIRONMENT ROSTER" rows are quite small and use a lighter grey. While readable on a high-quality screen, they might be difficult to read on lower-resolution displays or for users with visual impairments.
+
+**4. ALIGNMENT:**
+*   **Algorithm Tree:** The four morphology lanes (Diplococci, Cocobacilli, Curved Rods, Bacilli) are well-aligned horizontally. The "GRAM ⊕ (pink)" starting node is properly aligned with the top of the first lane.
+*   **Neisseria Split:** The two-column comparison (Gonococci vs. Meningococci) is neatly aligned. Row labels (Capsule, Motile, etc.) are consistently placed.
+*   **Environment Roster:** Organism names are left-aligned; description text blocks are consistently indented.
+*   **Anchors Strip & Footer:** Both are centered within their respective containers. The footer's three lines are justified/centered appropriately.
+
+**5. CONTENT CHECK:**
+The visual depicts a comprehensive laboratory algorithm tree for the identification and differentiation of Gram-negative bacilli and cocci, including morphological categorization, biochemical test pathways (lactose fermentation, oxidase), clinical comparisons of Neisseria species, and an environmental/clinical roster of key organisms.
+
+***
+
+**VERDICT: CLEAN**
+
+The schematic has passed re-verification. The specific clipping defects in the footer and anchors strip have been repaired. All text is now fully visible, well-aligned, and free of improper overlaps.

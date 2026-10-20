@@ -1,0 +1,119 @@
+{
+  "topicId": "enteric-pathogens",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "enteric-pathogens-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          164,
+          165
+        ],
+        "bookPages": "142–143"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Salmonella-vs-Shigella three-column comparison (book 142)",
+      "sourceFigureDescription": "The printed comparison: eleven row axes (reservoirs, spread, H2S production, flagella, virulence factors, infectious dose, effect of antibiotics on fecal excretion, immune response, GI manifestations, vaccine, unique properties) across three columns — S typhi (ty-Vi), Salmonella spp. except S typhi, Shigella — with FA's printed glosses in cells (salmon swim; pronounce tyVi; shortens Shigella; 4 F's). Pure vector.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "enteric-pathogens",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enteric-pathogen-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the COMPARISON panel — the eleven-axis grid with the three column headers"
+    },
+    {
+      "visualId": "enteric-pathogens-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          164,
+          165
+        ],
+        "bookPages": "142–143"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The E. coli four-strain table (book 143)",
+      "sourceFigureDescription": "The printed STRAIN | TOXIN AND MECHANISM | PRESENTATION table: EIEC (invasive, like Shigella), ETEC (heat-labile + heat-stable enterotoxins, watery traveler's diarrhea), EPEC (no toxin; adheres, flattens villi, prevents absorption; children), EHEC (O157:H7; undercooked meat, raw leafy vegetables; does not ferment sorbitol; Shiga toxin causes the hemolytic-uremic syndrome triad; dysentery from toxin alone). Pure vector.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "enteric-pathogens",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enteric-pathogen-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the STRAIN SET panel with the EHEC capstone; the verbatim strain text also carried in the note's table block"
+    },
+    {
+      "visualId": "enteric-pathogens-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          164,
+          165
+        ],
+        "bookPages": "142–143"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Klebsiella — the very mucoid colonies photo (book 143)",
+      "sourceFigureDescription": "A photograph of Klebsiella's very mucoid colonies on agar (abundant polysaccharide capsules), its marker A printed inline after 'Very mucoid colonies'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "enteric-pathogens",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, Klebsiella row — figure pointer carried verbatim; the photo described-in-text only"
+    },
+    {
+      "visualId": "enteric-pathogens-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          164,
+          165
+        ],
+        "bookPages": "142–143"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Campylobacter jejuni — the comma/S-shaped rod photo (book 143)",
+      "sourceFigureDescription": "A photograph of C. jejuni's comma or S shape with polar flagella, its marker A printed inline at the morphology description and again in the figure block (lines 72/75).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "enteric-pathogens",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, Campylobacter row — figure pointer carried verbatim; the photo described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "enteric-pathogens",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the comparison table and the strain table are pure vector (both redrawn in the registry visual — the COMPARISON and STRAIN SET panels). The 2 printed photos (Klebsiella mucoid colonies; Campylobacter comma/S with polar flagella) are rasters — COPYRIGHTED, described-in-text only within the note's table block rows. FA's printed mnemonics (salmon swim; tyVi; shortens Shigella; 4 F's; McCowkey CEEKS milk; ABCDE's of Klebsiella; the hot campfire; the strain letter glosses) carried in the table block only; NOT in the visual."
+}

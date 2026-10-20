@@ -5,7 +5,7 @@ from PIL import Image
 import os
 import statistics
 
-QA = "/home/z/kyp-usmle-notes/docs/qa/m12"
+QA = "/home/z/my-project/kyp-usmle-notes/docs/qa/m12"
 VISUALS = [
     ("gram-neg-bacilli-map", {"x": 281, "y": 5737, "w": 1102, "h": 1496}),
 ]

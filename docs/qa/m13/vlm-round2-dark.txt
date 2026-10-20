@@ -1,0 +1,27 @@
+===== element-enteric-pathogen-map-dark.png =====
+**1. OVERLAPS**
+*   **Panel 1 (Salmonella vs. Shigella):** The **UNIQUE PROPERTIES** row contains extensive multi-line text in the *S. typhi* and *Shigella* columns. While the text is contained within its cell, it pushes the row height significantly higher than others, creating a visual "bulge" that slightly crowds the bottom border of that panel's container.
+*   **Panel 2 (E. coli Strain Set):** The **EHEC capstone card** (bottom of this panel) is packed with six lines of fine-print text. The last line ("...are NOT reproduced — verification only") sits very close to the card’s bottom padding, though it does not appear to be clipped or overlapping the border.
+*   **Row-Label Column:** The left-most axis labels (e.g., "INFECTIOUS DOSE (ID50)", "EFFECT OF ANTIBIOTICS ON FECAL EXCRETION") are tightly wrapped. They do not overlap the first data column, but the text density makes them look cramped against their own cell borders.
+
+**2. CLIPPING**
+*   No clipping detected. All text characters are fully visible within their respective containers, including the wrapped lines in the "Unique Properties" and EHEC sections.
+*   The anchors strip and footer at the very bottom are fully rendered without any cut-off edges.
+
+**3. CONTRAST/READABILITY**
+*   **General:** High contrast white/cyan/red text on a dark background is excellent for readability.
+*   **Fine Print:** The footer and the detailed notes inside the EHEC card use a smaller font size. While legible on a high-res screen, they may be difficult to read on lower-resolution displays or if the image is scaled down.
+*   **Color Coding:** The use of red for *S. typhi*, EHEC, Yersinia, and Campylobacter provides good visual distinction, as does the cyan for other organisms.
+
+**4. ALIGNMENT**
+*   **Grid Alignment:** The three organism columns in Panel 1 are perfectly aligned with their headers. The row-label column is consistently aligned to the left.
+*   **Card Layout:** In Panel 2, the three small strain cards (EIEC, ETEC, EPEC) are evenly spaced and well-aligned horizontally. The full-width EHEC card below them is correctly centered relative to the panel width.
+*   **Roster Rows:** In Panel 3, the four organism rows are uniformly spaced. The name column and the two description lines are consistently indented across all four rows.
+
+**5. CONTENT CHECK**
+*   **Panel 1 (The Salmonella-vs-Shigella Split):** This panel provides a side-by-side comparison of *S. typhi*, non-typhoidal *Salmonella*, and *Shigella*. It details 11 clinical and microbiological axes, including reservoirs, virulence factors (like Vi capsule and Shiga toxin), H2S production, and vaccine availability.
+*   **Panel 2 (The E. coli Strain Set):** This section categorizes pathogenic *E. coli* strains. It features cards for EIEC (dysentery-like), ETEC (traveler's diarrhea), and EPEC (infantile diarrhea), followed by a detailed "capstone" card for EHEC (O157:H7), highlighting its association with undercooked meat/hemolytic uremic syndrome (HUS) and its unique lack of sorbitol fermentation.
+*   **Panel 3 (The Enteric Roster):** This panel lists four other gram-negative enteric pathogens—*Yersinia enterocolitica*, *Klebsiella*, *Campylobacter jejuni*, and *Proteus mirabilis*—providing key identifying features and signature diseases for each (e.g., "swarming motility" for Proteus, "pseudomembranes" for Klebsiella).
+
+VERDICT: CLEAN
+(The schematic is well-structured with no critical layout failures; all overlaps are minor and contained within intended boundaries.)

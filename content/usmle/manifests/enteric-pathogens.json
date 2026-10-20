@@ -1,0 +1,613 @@
+{
+  "topicId": "enteric-pathogens",
+  "title": "Enteric Pathogens: Salmonella, Shigella, E. coli Strains & Campylobacter",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Clinical Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      164,
+      165
+    ],
+    "bookPages": "142–143"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "142",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "Salmonella vs Shigella",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The genus line (both gram ⊝ rods, non-lactose fermenters, oxidase ⊝, invading via M cells of Peyer patches)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "Both Salmonella and Shigella are gram ⊝ rods, non-lactose fermenters, oxidase ⊝, and can invade\nthe GI tract via M cells of Peyer patches.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Comparison column headers (physical order, lines 12-17: Salmonella typhi (ty-Vi) / Salmonella spp. except S typhi / Shigella)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "Salmonella typhi (ty-Vi)\n\nSalmonella spp.\nexcept S typhi\n\nShigella",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RESERVOIRS row (physical order: humans only / humans and animals / humans only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "RESERVOIRS\n\nHumans only\n\nHumans and animals\n\nHumans only",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPREAD row (physical order: hematogenous spread / hematogenous spread is rare / cell to cell; no hematogenous spread)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "SPREAD\n\nHematogenous spread\n\nHematogenous spread is\nrare\n\nCell to cell; no hematogenous spread",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "H2S PRODUCTION row (yes / yes / no)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "H2S PRODUCTION\n\nYes\n\nYes\n\nNo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FLAGELLA row (yes with the printed salmon-swim gloss / yes salmon swim / no)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "FLAGELLA\n\nYes (salmon swim)\n\nYes (salmon swim)\n\nNo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VIRULENCE FACTORS row (endotoxin; Vi capsule with the printed pronounce-tyVi gloss / endotoxin / endotoxin; Shiga toxin (enterotoxin))",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "VIRULENCE FACTORS\n\nEndotoxin; Vi capsule\n(pronounce “tyVi”)\n\nEndotoxin\n\nEndotoxin; Shiga toxin (enterotoxin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "INFECTIOUS DOSE (ID50) row (high, large inoculum, acid-labile / high / low, very small inoculum, acid stable)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "INFECTIOUS DOSE (ID50)\n\nHigh—large inoculum\nrequired; acid-labile\n(inactivated by gastric acids)\n\nHigh\n\nLow—very small inoculum required;\nacid stable (resistant to gastric acids)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EFFECT OF ANTIBIOTICS ON FECAL EXCRETION row (prolongs duration / prolongs duration / shortens duration with the printed shortens-Shigella gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "EFFECT OF ANTIBIOTICS ON FECAL\nEXCRETION\n\nProlongs duration\n\nProlongs duration\n\nShortens duration (shortens Shigella)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "IMMUNE RESPONSE row (primarily monocytes / PMNs in disseminated disease / primarily PMN infiltration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "IMMUNE RESPONSE\n\nPrimarily monocytes\n\nPMNs in disseminated\ndisease\n\nPrimarily PMN infiltration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GI MANIFESTATIONS row (constipation followed by diarrhea / diarrhea possibly bloody / crampy pain with tenesmus and bloody mucoid stools — bacillary dysentery)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "GI MANIFESTATIONS\n\nConstipation, followed by\ndiarrhea\n\nDiarrhea (possibly bloody)\n\nCrampy abdominal pain →  tenesmus,\nbloody mucoid stools (bacillary\ndysentery)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VACCINE row (oral live attenuated S typhi + IM Vi capsular polysaccharide / no vaccine / no vaccine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "VACCINE\n\nOral vaccine contains live\nattenuated S typhi\nIM vaccine contains Vi\ncapsular polysaccharide\n\nNo vaccine\n\nNo vaccine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "UNIQUE PROPERTIES row (physical order: typhoid fever with the salmon-colored truncal macular rash, pulse-temperature dissociation, later GI ulceration and hemorrhage, carrier state with gallbladder colonization, ceftriaxone or fluoroquinolone / poultry-eggs-pets-turtles with supportive treatment / the printed 4-F's mnemonic with the severity order and M-cell invasion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "UNIQUE PROPERTIES\n\nCauses typhoid fever (salmoncolored truncal macular\nrash, abdominal pain,\nfever [pulse-temperature\ndissociation]; later GI\nulceration and hemorrhage);\ntreat with ceftriaxone or\nfluoroquinolone\nCarrier state with gallbladder\ncolonization\n\nPoultry, eggs, pets, and\nturtles are common\nsources\nTreatment is supportive;\nantibiotics are\nnot indicated in\nimmunocompetent\nindividuals\n\n4 F’s: fingers, flies, food, feces\nIn order of decreasing severity (less\ntoxin produced): S dysenteriae,\nS flexneri, S boydii, S sonnei\nInvasion of M cells is key to\npathogenicity; infectious dose is low",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Yersinia enterocolitica entry (gram ⊝ pleomorphic rod/coccobacillus with bipolar staining; pet feces, contaminated milk, pork; acute bloody diarrhea, pseudoappendicitis with mesenteric adenitis and/or terminal ileitis; reactive arthritis in adults)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "Yersinia enterocolitica\n\nGram ⊝ pleomorphic rod/coccobacillus with bipolar staining. Usually transmitted from pet feces\n(eg, cats, dogs), contaminated milk, or pork. Can cause acute bloody diarrhea, pseudoappendicitis\n(right lower abdominal pain due to mesenteric adenitis and/or terminal ileitis), reactive arthritis in\nadults.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lactose-fermenting enteric bacteria entry (pink colonies on MacConkey; Citrobacter, E coli, Enterobacter, Klebsiella, Serratia)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "Lactose-fermenting\nenteric bacteria\n\nFermentation of lactose →  pink colonies\non MacConkey agar. Examples include\nCitrobacter, E coli, Enterobacter, Klebsiella,\nSerratia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 142",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed MacConkey/EMB mnemonic box (McCowkey CEEKS milk; EMB purple/black colonies; E coli green sheen — verification only, NOT in the visual)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "McCowkey CEEKS milk.\nEMB agar—lactose fermenters grow as purple/\nblack colonies. E coli grows colonies with a\ngreen sheen.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          164
+        ],
+        "bookPages": "142"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Escherichia coli",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "143",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "E coli genus line (gram ⊝, indole ⊕; fimbriae (P pili) for cystitis and pyelonephritis; K capsule for pneumonia and neonatal meningitis; LPS endotoxin for septic shock)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Gram ⊝, indole ⊕ rod. E coli virulence factors: fimbriae (ie, P pili)—cystitis and pyelonephritis;\nK capsule—pneumonia, neonatal meningitis; LPS endotoxin—septic shock.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Strain-table column headers (STRAIN / TOXIN AND MECHANISM / PRESENTATION)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "STRAIN\n\nTOXIN AND MECHANISM\n\nPRESENTATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EIEC row (physical order: strain; microbe invades intestinal mucosa with necrosis and inflammation; the printed EIEC-is-Invasive gloss; clinical manifestations similar to Shigella)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Enteroinvasive E coli\n\nMicrobe invades intestinal mucosa and causes\nnecrosis and inflammation.\n\nEIEC is Invasive; dysentery. Clinical\nmanifestations similar to Shigella.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ETEC row (physical order: strain; heat-labile and heat-stable enteroToxins with no inflammation or invasion; ETEC Traveler's diarrhea watery)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Enterotoxigenic E coli\n\nProduces heat-labile and heat-stable\nenteroToxins. No inflammation or invasion.\n\nETEC; Traveler’s diarrhea (watery).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EPEC row (physical order: strain; no toxin produced, adheres to apical surface, flattens villi, prevents absorption; diarrhea usually in children with the printed Pediatrics gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Enteropathogenic\nE coli\n\nNo toxin produced. Adheres to apical surface,\nflattens villi, prevents absorption.\n\nDiarrhea, usually in children (think EPEC and\nPediatrics).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EHEC row — INTERLEAVED, VLM-resolved (physical order, lines 43-58: strain; TOXIN column = O157:H7 + undercooked meat/raw leafy vegetables + the Shiga-toxin hemolytic-uremic-syndrome cascade with the ↓ quirk; PRESENTATION column = dysentery from toxin alone + does not ferment sorbitol + the printed hemorrhage-hamburgers gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Enterohemorrhagic\nE coli\n\nO157:H7 is most common serotype in US. Often Dysentery (toxin alone causes necrosis and\ntransmitted via undercooked meat, raw leafy\ninflammation).\nvegetables.\nDoes not ferment sorbitol (vs other E coli).\nEHEC associated with hemorrhage, hamburgers,\nShiga toxin causes hemolytic-uremic\nsyndrome—triad of anemia, thrombocytopenia, hemolytic-uremic syndrome.\nand acute kidney injury due to microthrombi\nforming on damaged endothelium\n→  mechanical hemolysis (with schistocytes on\nperipheral blood smear), platelet consumption\n→  thrombocytopenia, and ↓ renal blood flow.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Klebsiella entry (lobar pneumonia in heavy alcohol use or impaired host defenses; very mucoid colonies with inline photo marker A; dark red currant-jelly sputum; healthcare-associated UTIs; MDR)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Klebsiella\n\nGram ⊝ rod; intestinal microbiota that causes\nlobar pneumonia; more common in patients\nwith heavy alcohol use or with impaired host\ndefenses. Very mucoid colonies A caused by\nabundant polysaccharide capsules. Dark red\n“currant jelly” sputum (blood/mucus).\nAlso cause of healthcare-associated UTIs.\nAssociated with evolution of multidrug\nresistance (MDR).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure block with photo markers and the following headings (physical order, lines 72-77: A / Campylobacter jejuni / A / Proteus mirabilis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "A\n\nCampylobacter jejuni\nA\n\nProteus mirabilis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 143",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed ABCDE's-of-Klebsiella mnemonic (verification only, NOT in the visual)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "ABCDE’s of Klebsiella:\nAspiration pneumonia\naBscess in lungs and liver\n“Currant jelly” sputum\nDiabetes mellitus\nEtOH overuse",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Campylobacter jejuni entry (comma or S shaped with polar flagella and inline photo marker A; oxidase ⊕; grows at 42°C with the printed hot-campfire gloss; major cause of bloody diarrhea; fecal-oral with the personto-person merged hyphen-drop; common antecedent to Guillain-Barré syndrome and reactive arthritis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Gram ⊝, comma or S shaped (with polar flagella) A , oxidase ⊕, grows at 42°C (“Campylobacter\nlikes the hot campfire”).\nMajor cause of bloody diarrhea, especially in children. Fecal-oral transmission through personto-person contact or via ingestion of undercooked contaminated poultry or meat, unpasteurized\nmilk. Contact with infected animals (dogs, cats, pigs) is also a risk factor.\nCommon antecedent to Guillain-Barré syndrome and reactive arthritis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Proteus mirabilis entry (gram ⊝, urease ⊕, facultative anaerobe; swarming motility; common cause of UTIs; urease hydrolyzes urea with the → arrows; struvite stones and staghorn calculi)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "Gram ⊝, urease ⊕, facultative anaerobe, long flagellae with “swarming” motility.\nCommon cause of UTIs. Urease (virulence factor) hydrolyzes urea to carbon dioxide and ammonia\n→  net increase in pH →  promotes formation of struvite stones. Significant blockage of renal\ncalyces results in branched stones called staghorn calculi.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          165
+        ],
+        "bookPages": "143"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "enteric-pathogen-map"
+  ],
+  "mechanismIds": [
+    "enteric-axis-logic",
+    "shiga-toxin-hus-cascade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the comparison table and the organism entries; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "invasion-toxin-axis-model",
+      "summary": "The invasion-vs-toxigenic reading of the E. coli strain set (EIEC borrows Shigella's invasion, ETEC borrows the enterotoxin-only watery mechanism, EPEC adheres without either, EHEC borrows the Shiga toxin and adds the kidney) with the HUS cascade wired to nephrology; the dose axis as the public-health column (low acid-stable ID50 = person-to-person spread); the antibiotic-effect axis read as therapy-as-epidemiology (prolongs for both Salmonellas, shortens for Shigella); the MacConkey/EMB plate rule as the lactose-fermenter boundary; and the roster's exposure-to-disease map (pseudoappendicitis, currant-jelly pneumonia, Guillain-Barré antecedent, staghorn calculi) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tables and entries without the axis synthesis or the cross-chapter wiring; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p164 is PURE VECTOR (the three-column comparison and the MacConkey/EMB box are printed text — the comparison redrawn as the registry visual's COMPARISON panel); p165 carries 2 rasters (Klebsiella very mucoid colonies 188x188 cmyk marker A inline at line 65; Campylobacter jejuni comma/S shape with polar flagella 188x188 cmyk marker A inline at line 88 with the standalone A markers at 72/75) — both COPYRIGHTED, described-in-text only; standalone A markers sub-3-char (dropped by design; covered inline and as the figure-block range 72-77). The E. coli strain table (printed) redrawn as the visual's STRAIN SET panel with its verbatim text also in the note's table block. Text-layer quirks documented: p164's rows each emit as one contiguous physical-order block (label + col1 + col2 + col3) with the column headers first at 12-17; 'salmoncolored' merged hyphen-drop; → U+2192 arrows with double spaces; curly quotes; the printed tyVi gloss split across 54-55. p165's EHEC row: the TOXIN and PRESENTATION columns INTERLEAVE line-by-line (46-58) — resolved by two independent VLM reads (200-DPI census + 2x zoom): 'Does not ferment sorbitol (vs other E coli)' belongs to the PRESENTATION column between the dysentery sentence and the printed hemorrhage-hamburgers mnemonic line; '' control char before ↓ (line 58, stripped by norm); 'personto-person' merged hyphen-drop (line 90). FA's printed mnemonics (salmon swim; pronounce tyVi; shortens Shigella; 4 F's; McCowkey CEEKS milk; ABCDE's of Klebsiella; the hot campfire; the strain letter glosses EIEC-is-Invasive/ETEC-Traveler's/EPEC-Pediatrics; EHEC-hemorrhage-hamburgers) carried verbatim in the table block only (NOT in the visual).",
+  "updatedAt": "2026-10-20"
+}
