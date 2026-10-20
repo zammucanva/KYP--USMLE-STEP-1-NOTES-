@@ -1,0 +1,15 @@
+**QA Report: Dark Mode Visual Inspection**
+
+**(A) Overlapping text collisions: PASS**
+Text elements are well-spaced within their respective containers. No labels, descriptions, or titles are overlapping with one another.
+
+**(B) Text clipped/truncated: PASS**
+All text content is fully visible within the bounds of its card or section. No words are cut off at the edges of the containers.
+
+**(C) Lines crossing text: PASS**
+While there are connecting lines (e.g., in the Conjugation and Transposition sections), they are positioned to avoid intersecting with any legible text. The red arrow in the Transposition section points toward text but does not cross over it.
+
+**(D) Illegible low-contrast text: PASS**
+The color palette uses high-contrast combinations (bright cyan/teal and white text against a deep black/dark grey background). All text, including the smaller footer and "RULES" sections, remains clearly legible.
+
+**Verdict: CLEAN**

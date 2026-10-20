@@ -1,0 +1,353 @@
+{
+  "topicId": "bacterial-genetics",
+  "title": "Bacterial Genetics: Transformation, Conjugation, Transduction",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      150,
+      151
+    ],
+    "bookPages": "128–129"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading + horizontal-transfer rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Bacterial genetics\n\nHorizontal gene transfer is the main mechanism for transfer of antibiotic resistance among bacteria.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transformation row (full physical order; DNase rule; SHiN)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Transformation\n\nCompetent bacteria can bind and import short\npieces of environmental naked bacterial\nchromosomal DNA (from bacterial cell\nlysis). The transfer and expression of newly\ntransferred genes is called transformation.\nA feature of many bacteria, especially\nS pneumoniae, H influenzae type b, and\nNeisseria (SHiN).\nAdding deoxyribonuclease degrades naked\nDNA, preventing transformation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transformation diagram labels (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Degraded\nuncombined\nDNA\n\nNaked DNA\n\nRecipient cell\n\nRecipient DNA\nDonor DNA\n\nTransformed cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Conjugation heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Conjugation\nF+ × F–",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "F+ × F– paragraph + diagram labels (FULL physical interleave, lines 41-73)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "F+ (fertility factor) plasmid contains genes\nF plasmid contains\nSingle strand of\nrequired for sex pilus and conjugation.\nNo transfer of\ngenes for sex pilus and\nSex pilus forming conjugal plasmid DNA\nbridge “mating bridge”\ntransferred\nconjugation\nchromosomal DNA\nBacteria without this plasmid are termed\nSingle strand of\nF plasmid contains\nF–. Sex pilus on F+ bacterium contacts F−\nNo transfer of\nSex pilus forming conjugal plasmid DNA\ngenes for sex pilus and\nchromosomal DNA\nconjugation\nbridge “mating bridge”\ntransferred\nbacterium. A single strand of plasmid DNA is\nF cell F cell\nF cell F cell\nF cell F cell\nF cell F cell\ntransferred across the conjugal bridge (“mating\nLeading portion of plasmid\nHigh-frequency recombination\ntransfers along with ﬂanking\n(Hfr) cell contains F plasmid\nbridge”). No transfer of chromosomal DNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "F+ × F– diagram cell markers + '+'/'–' columns (physical order, lines 74-106)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "bacterial\nincorporated into bacterial\nF cell DNA.\nF cell\nF cell chromosome\nF cell\nF cell F cell\n+\n\n+\n\n+\n\n–\n\nF+ cell\n\nF– cell\n\n+\n\n–\n\n+\n\n–\n\n+\n\n+\n\n+\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hfr × F– heading + paragraph (full physical order; 'highfrequency' hyphen-drop as printed; lines 107-115)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Hfr × F–\n\nF+ plasmid can become incorporated into\nbacterial chromosomal DNA, termed highfrequency recombination (Hfr) cell. Transfer\nof leading part of plasmid and a few flanking\nchromosomal genes. High-frequency\nrecombination may integrate some of those\nbacterial genes. Recipient cell remains F– but\nnow may have new bacterial genes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hfr × F– diagram labels (full physical interleave incl. 'ﬂanking' ligature and the merged 'DNA F–+cellbacterialHfr' string; lines 117-168)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Plasmid\n\n+\n\n–\n\nHigh-frequency recombination\n(Hfr) cell contains F+ plasmid\nincorporated into bacterial DNA.\n\nF+ cell\n\nF– cell\n\n+\n\n–\n\nF– cell\n\nHfr cell F– cell\n\nHfr cell F– cell\n\n+\n\nLeading portion of plasmid\ntransfers along with ﬂanking\nbacterial chromosome\n\nHfr cell F– cell\n\nPlasmid\nF+ cell\n\n+\n\nHfr cell Recombinant\nF– cell\n\nF– cell\nF+ cell\n+ plasmid copy\nDNA\nbacterial\nDNA F–+cellbacterialHfr\nHfr cell\ncell Recombinant\nF– cell\nF– cell\nF+ cell\nbacterial DNA + bacterial DNA + plasmid copy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transduction generalized heading + paragraph (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Transduction\nGeneralized\n\nA “packaging” error. Lytic phage infects\nbacterium, leading to cleavage of bacterial\nDNA. Parts of bacterial chromosomal DNA\nmay become packaged in phage capsid. Phage\ninfects another bacterium, transferring these\ngenes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Generalized diagram labels (physical order, lines 180-189)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Lytic\nphage\n\nCleavage of\nBacteria bacterial DNA\n\nRelease of new phage\nfrom lysed cell\n\nSpecialized",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Specialized paragraph + both diagrams' labels + ABCD'S toxins (full physical interleave, lines 193-215)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Infects other\nbacteria\n\nViral DNA\nAn “excision” event. Lysogenic phage infects\nViral DNA\nLysogenic\nincorporates in\nbacterium; viral DNA incorporates into\nBacteria bacterial DNA\nphage\nbacterial chromosome. When phage DNA\nis excised, flanking bacterial genes may be\nexcised with it. DNA is packaged into phage\ncapsid and can infect another bacterium.\nGenes for the following 5 bacterial toxins are\nencoded in a lysogenic phage (ABCD’S): Group\nA strep erythrogenic toxin, Botulinum toxin,\nRelease of new phage\nInfects other\nCholera toxin, Diphtheria toxin, Shiga toxin.\nfrom lysed cell\nbacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transduction shared diagram labels (physical order, lines 217-226)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "Bacterial DNA packaged\nin phage capsids\n\nGenes transferred\nto new bacteria\nPhage particles\ncarry bacterial DNA\n\nGenes different from\ndonor and recipient",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          150
+        ],
+        "bookPages": "128"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 128",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transposition paragraph + diagram labels (full physical interleave, lines 8-25)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "Bacterial genetics (continued)\nTransposition\n\nA “jumping” process involving a transposon\nPlasmid\n(specialized segment of DNA), which can copy\nand excise itself and then insert into the same\nDNA molecule or an unrelated DNA (eg,\nTransposon\nplasmid or chromosome). Critical in creating\nBacterial\nplasmids with multiple drug resistance and\nDNA\ntransfer across species lines (eg, Tn1546 with\nTarget site\nvanA from Enterococcus to S aureus).\n\nIntegration of genes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M8 boundary marker (Main features of exotoxins and endotoxins heading — owned by M8)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "Main features of exotoxins and endotoxins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          151
+        ],
+        "bookPages": "129"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 129",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "gene-transfer-triangle"
+  ],
+  "mechanismIds": [
+    "horizontal-transfer-routes",
+    "mobile-element-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the routes and diagrams; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "route-gate-cargo-model",
+      "summary": "The unified model: every route has a GATE (competence / the F plasmid's pilus / phage packaging mode / the target site) that determines its CARGO (naked fragments / one plasmid / plasmid-plus-flanking-genes / any gene / flanking-only genes / a resistance cassette); the DNase discrimination (naked vs pilus-protected vs capsid-protected); the F-status vs gene-content decoupling of the Hfr cross; the transposition-as-plasmid-assembler model (multi-drug-resistance R plasmids); and the ABCD'S toxin genes as phage-encoded (acquiring the phage acquires the toxin) — with interrupted-mating mapping and the VRSA first-isolate story labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the routes and diagrams without the gate-cargo taxonomy or the transposition-assembly model; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p150's five genetics diagrams are raster color-plate art (separation plates 114x172/226x172 at 435/445 ppi + index images); p151 top carries the transposition diagram — all COPYRIGHTED, never reproduced; all six redrawn as ONE original KYP registry visual (gene-transfer-triangle). QUOTE CONSTRUCTION: this chapter's most heavily interleaved text layer — quotes built PROGRAMMATICALLY from raw line ranges of the cached page text (character-exact by construction), with the scrambles documented: 'highfrequency' hyphen-drop (print: high-frequency); 'ﬂanking' with the ﬂ ligature (U+FB02); the merged 'DNA F–+cellbacterialHfr' string; the 'F cell F cell' marker rows and '+/–' marker columns; en-dash F– vs minus F− both present (raw joins reproduce both). Boundary: the 'Main features of exotoxins and endotoxins' table beginning on book 129 is M8's (heading pinned as boundary marker). The source's own ABCD'S acronym is a roster label carried as the printed list. No FA mnemonics printed on these pages (none to reproduce).",
+  "updatedAt": "2026-10-20"
+}

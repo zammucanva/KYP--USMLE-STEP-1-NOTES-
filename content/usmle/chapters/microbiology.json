@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 33,
+  "pendingTopicCount": 32,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -510,8 +510,172 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The three horizontal gene-transfer routes (transformation with competence, conjugation with sex pilus, transduction general/specialized) plus transposons — how resistance and virulence spread."
+      "status": "complete",
+      "productionRationale": "The three horizontal gene-transfer routes (transformation with competence, conjugation with sex pilus, transduction general/specialized) plus transposons — how resistance and virulence spread.",
+      "textbookVisuals": [
+        {
+          "visualId": "bacterial-genetics-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the transformation diagram",
+          "sourceFigureDescription": "Three stages: wavy naked DNA lines approaching a recipient cell (oval, containing the circular recipient DNA chromosome); degraded uncombined DNA fragments discarded; the transformed cell containing recipient DNA plus recombined donor DNA.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-genetics-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the conjugation F+ × F− diagram",
+          "sourceFigureDescription": "A multi-stage strip: the F+ cell (small circular F plasmid carrying sex-pilus/conjugation genes) building a sex pilus conjugal bridge ('mating bridge') to the F− cell; a single strand of plasmid DNA transferred; both cells ending F+; labeled 'no transfer of chromosomal DNA'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-genetics-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the Hfr × F− diagram",
+          "sourceFigureDescription": "The F+ plasmid incorporated into the bacterial chromosome (high-frequency recombination cell); transfer of the leading portion of the plasmid along with flanking bacterial chromosome through the bridge; the recipient as a recombinant F− cell (bacterial DNA + bacterial DNA + plasmid copy annotations).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-genetics-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the generalized transduction diagram",
+          "sourceFigureDescription": "A lytic-cycle strip: lytic phage infecting a bacterium; cleavage of bacterial DNA; bacterial DNA packaged in phage capsids; release of new phage from the lysed cell; infecting other bacteria; genes transferred to new bacteria.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-genetics-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the specialized transduction diagram",
+          "sourceFigureDescription": "A lysogenic-cycle strip: lysogenic phage infecting a bacterium with viral DNA incorporating into bacterial DNA; the excision event taking flanking bacterial genes; phage particles carrying bacterial DNA; genes different from donor and recipient; the ABCD'S toxin roster printed with it.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-genetics-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              150,
+              151
+            ],
+            "bookPages": "128–129"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "Genetics — the transposition diagram (book 129)",
+          "sourceFigureDescription": "A plasmid containing a transposon; the bacterial DNA chromosome with a marked target site; the transposon copying and excising itself and inserting at the target site; 'integration of genes' as the result.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-genetics",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gene-transfer-triangle",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gene-transfer-triangle",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "exotoxins-endotoxins",

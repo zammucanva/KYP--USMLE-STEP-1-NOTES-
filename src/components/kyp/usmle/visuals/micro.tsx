@@ -552,3 +552,192 @@ export function VirulenceResistanceMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M7 — Bacterial genetics: the three horizontal gene-transfer routes plus
+// transposition — transformation (naked DNA), conjugation (F+ × F− and
+// Hfr × F−), transduction (generalized + specialized), and the jumping
+// transposon
+// (source: pdf 150-151 / book 128-129 — six printed diagrams, all raster
+//  color-plate art, COPYRIGHTED, never reproduced; redrawn here)
+// ---------------------------------------------------------------------------
+
+export function GeneTransferTriangle() {
+  const w = 980;
+  const h = 840;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Bacterial genetics, an original KYP map of horizontal gene transfer — the main mechanism for transfer of antibiotic resistance among bacteria — plus transposition. Lane 1 TRANSFORMATION: competent bacteria bind and import short pieces of environmental naked bacterial chromosomal DNA (from cell lysis); the transfer and expression of newly transferred genes is called transformation — a feature of many bacteria, especially S pneumoniae, H influenzae type b, and Neisseria (SHiN); adding deoxyribonuclease degrades naked DNA, preventing transformation. Stages: naked DNA approaches the recipient cell (recipient DNA inside); degraded uncombined DNA is lost; the donor DNA recombines — the transformed cell. Lane 2 CONJUGATION, two variants: F+ × F− — the F+ (fertility factor) plasmid contains genes required for sex pilus and conjugation; the sex pilus on the F+ bacterium contacts the F− bacterium and a single strand of plasmid DNA is transferred across the conjugal bridge ('mating bridge'); NO transfer of chromosomal DNA; both cells end F+. And Hfr × F− — the F+ plasmid can become incorporated into bacterial chromosomal DNA (high-frequency recombination cell); transfer of the leading part of the plasmid and a few flanking chromosomal genes; high-frequency recombination may integrate some of those bacterial genes; the recipient cell REMAINS F− but now may have new bacterial genes (the recombinant F− cell). Lane 3 TRANSDUCTION, two variants: generalized — a 'packaging' error: a lytic phage infects the bacterium, leading to cleavage of bacterial DNA; parts of bacterial chromosomal DNA may become packaged in the phage capsid; the phage infects another bacterium, transferring these genes (any gene can ride). Specialized — an 'excision' event: a lysogenic phage infects the bacterium and viral DNA incorporates into the bacterial chromosome; when phage DNA is excised, flanking bacterial genes may be excised with it; DNA is packaged into the phage capsid and can infect another bacterium (only genes flanking the phage DNA ride) — the ABCD'S toxins are encoded in lysogenic phage: Group A strep erythrogenic toxin, Botulinum toxin, Cholera toxin, Diphtheria toxin, Shiga toxin. Bottom card TRANSPOSITION: a 'jumping' process involving a transposon (a specialized segment of DNA) which can copy and excise itself and then insert into the same DNA molecule or an unrelated DNA (plasmid or chromosome) — critical in creating plasmids with multiple drug resistance and transfer across species lines (Tn1546 with vanA from Enterococcus to S aureus)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Bacterial genetics — the horizontal gene-transfer map (original KYP redraw)</text>
+        <rect x="716" y="24" width="216" height="18" rx="9" className="fill-brand-soft" />
+        <text x="824" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">naked DNA · pilus · phage · jump</text>
+      </g>
+
+      {/* ===== Lane 1: TRANSFORMATION ===== */}
+      <g>
+        <rect x="36" y="76" width="296" height="300" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">① TRANSFORMATION — naked DNA</text>
+        <text x="52" y="112" fontSize="5.8" className="fill-muted-foreground">competent bacteria bind and import short pieces of</text>
+        <text x="52" y="122" fontSize="5.8" className="fill-muted-foreground">environmental naked bacterial chromosomal DNA (from cell lysis)</text>
+
+        {/* 3-stage strip */}
+        <rect x="52" y="136" width="264" height="86" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <path d="M 66 176 c 6 -12, 18 -12, 24 0 c 6 12, 18 12, 24 0 c 6 -12, 18 -12, 24 0" fill="none" className="stroke-brand" strokeWidth="1.6" />
+        <text x="66" y="192" fontSize="5.6" fontWeight="700" className="fill-brand">Naked DNA (from lysed cells)</text>
+        <ellipse cx="140" cy="200" rx="60" ry="26" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="140" y="198" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">Recipient cell</text>
+        <circle cx="128" cy="200" r="9" className="fill-brand-soft stroke-brand" strokeWidth="1" />
+        <text x="140" y="220" fontSize="5.4" className="fill-muted-foreground">Recipient DNA</text>
+        <text x="230" y="150" fontSize="5.4" className="fill-muted-foreground">Degraded uncombined</text>
+        <text x="230" y="159" fontSize="5.4" className="fill-muted-foreground">DNA is lost —</text>
+        <text x="230" y="168" fontSize="5.4" className="fill-muted-foreground">DNase clears the rest</text>
+
+        <rect x="52" y="230" width="264" height="66" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <ellipse cx="100" cy="262" rx="34" ry="26" className="fill-card stroke-border" strokeWidth="1.2" />
+        <circle cx="94" cy="262" r="8" className="fill-brand-soft stroke-brand" strokeWidth="1" />
+        <circle cx="110" cy="256" r="5.5" className="fill-emergency/20 stroke-emergency" strokeWidth="0.9" />
+        <text x="146" y="252" fontSize="5.6" fontWeight="700" className="fill-foreground">Transformed cell: Donor DNA</text>
+        <text x="146" y="262" fontSize="5.6" className="fill-muted-foreground">recombines with Recipient DNA —</text>
+        <text x="146" y="272" fontSize="5.6" className="fill-muted-foreground">the transfer and expression of newly</text>
+        <text x="146" y="282" fontSize="5.6" className="fill-muted-foreground">transferred genes = transformation</text>
+
+        <rect x="52" y="304" width="264" height="58" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="66" y="322" fontSize="6" fontWeight="800" className="fill-brand">RULES</text>
+        <text x="66" y="334" fontSize="5.6" className="fill-muted-foreground">· Competence is the gate — a feature of many bacteria,</text>
+        <text x="66" y="344" fontSize="5.6" className="fill-muted-foreground">  especially SHiN (S pneumoniae, H influenzae type b, Neisseria)</text>
+        <text x="66" y="356" fontSize="5.6" fontWeight="700" className="fill-emergency">· DNase degrades naked DNA — preventing transformation</text>
+      </g>
+
+      {/* ===== Lane 2: CONJUGATION ===== */}
+      <g>
+        <rect x="348" y="76" width="296" height="300" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="364" y="98" fontSize="9" fontWeight="800" className="fill-foreground">② CONJUGATION — the sex pilus</text>
+
+        <rect x="364" y="112" width="264" height="130" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="378" y="130" fontSize="7" fontWeight="800" className="fill-foreground">F+ × F–</text>
+        <ellipse cx="408" cy="196" rx="30" ry="24" className="fill-card stroke-brand" strokeWidth="1.3" />
+        <ellipse cx="584" cy="196" rx="30" ry="24" className="fill-card stroke-border" strokeWidth="1.3" />
+        <circle cx="404" cy="192" r="7" className="fill-brand/25 stroke-brand" strokeWidth="1" />
+        <text x="408" y="166" fontSize="5.2" fontWeight="700" className="fill-brand">F+ (fertility) plasmid —</text>
+        <text x="408" y="175" fontSize="5.2" fontWeight="700" className="fill-brand">genes for sex pilus + conjugation</text>
+        <path d="M 438 192 L 554 192" className="stroke-brand" strokeWidth="2.4" />
+        <text x="496" y="186" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-brand">sex pilus = conjugal bridge</text>
+        <text x="496" y="204" textAnchor="middle" fontSize="5.2" className="fill-muted-foreground">("mating bridge")</text>
+        <circle cx="580" cy="192" r="9" className="fill-brand-soft/30 stroke-brand" strokeWidth="0.9" />
+        <text x="588" y="232" fontSize="5.4" className="fill-muted-foreground">F+ cell</text>
+        <text x="412" y="232" fontSize="5.4" className="fill-muted-foreground">F– cell → becomes F+</text>
+        <text x="378" y="146" fontSize="5.6" className="fill-muted-foreground">A single strand of plasmid DNA is transferred across</text>
+        <text x="378" y="156" fontSize="5.6" className="fill-muted-foreground">the bridge — the recipient repairs it to double strand.</text>
+        <text x="378" y="236" fontSize="5.6" fontWeight="700" className="fill-emergency">NO transfer of chromosomal DNA — both cells end F+.</text>
+
+        <rect x="364" y="252" width="264" height="110" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="378" y="270" fontSize="7" fontWeight="800" className="fill-foreground">Hfr × F–</text>
+        <ellipse cx="410" cy="330" rx="30" ry="24" className="fill-card stroke-brand" strokeWidth="1.3" />
+        <circle cx="410" cy="330" r="26" className="fill-none stroke-emergency" strokeWidth="1.4" />
+        <text x="378" y="290" fontSize="5.4" className="fill-muted-foreground">F+ plasmid incorporated into the</text>
+        <text x="378" y="300" fontSize="5.4" className="fill-muted-foreground">chromosome = high-frequency</text>
+        <text x="378" y="310" fontSize="5.4" className="fill-muted-foreground">recombination (Hfr) cell</text>
+        <path d="M 440 330 L 552 330" stroke="currentColor" className="text-emergency" strokeWidth="1.6" strokeDasharray="4 3" />
+        <text x="496" y="322" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-emergency">leading plasmid portion +</text>
+        <text x="496" y="331" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-emergency">a few flanking chromosomal genes</text>
+        <ellipse cx="582" cy="330" rx="30" ry="24" className="fill-card stroke-border" strokeWidth="1.3" />
+        <circle cx="578" cy="326" r="8" className="fill-brand-soft/40 stroke-brand" strokeWidth="0.9" />
+        <circle cx="590" cy="334" r="5" className="fill-emergency/25 stroke-emergency" strokeWidth="0.9" />
+        <text x="378" y="352" fontSize="5.4" fontWeight="700" className="fill-foreground">Recipient REMAINS F– but now may have new bacterial</text>
+        <text x="378" y="361" fontSize="5.4" fontWeight="700" className="fill-foreground">genes — the recombinant F– cell.</text>
+      </g>
+
+      {/* ===== Lane 3: TRANSDUCTION ===== */}
+      <g>
+        <rect x="660" y="76" width="296" height="300" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="676" y="98" fontSize="9" fontWeight="800" className="fill-foreground">③ TRANSDUCTION — the phage courier</text>
+
+        <rect x="676" y="112" width="264" height="120" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="690" y="130" fontSize="7" fontWeight="800" className="fill-foreground">Generalized — a "packaging" error</text>
+        <text x="690" y="144" fontSize="5.4" className="fill-muted-foreground">Lytic phage infects the bacterium → cleavage of</text>
+        <text x="690" y="154" fontSize="5.4" className="fill-muted-foreground">bacterial DNA → parts of bacterial chromosomal DNA</text>
+        <text x="690" y="164" fontSize="5.4" className="fill-muted-foreground">may become packaged in phage capsid → phage</text>
+        <text x="690" y="174" fontSize="5.4" className="fill-muted-foreground">infects another bacterium, transferring these genes.</text>
+        <text x="690" y="192" fontSize="5.6" fontWeight="700" className="fill-brand">ANY bacterial gene can ride the capsid —</text>
+        <text x="690" y="202" fontSize="5.6" fontWeight="700" className="fill-brand">the error is random (generalized).</text>
+        <text x="690" y="220" fontSize="5.2" className="fill-muted-foreground">Lytic phage · release of new phage from lysed cell ·</text>
+        <text x="690" y="230" fontSize="5.2" className="fill-muted-foreground">bacterial DNA packaged in phage capsids ·</text>
+        <text x="690" y="240" fontSize="5.2" className="fill-muted-foreground">infects other bacteria · genes transferred to new bacteria</text>
+
+        <rect x="676" y="242" width="264" height="120" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="690" y="260" fontSize="7" fontWeight="800" className="fill-foreground">Specialized — an "excision" event</text>
+        <text x="690" y="274" fontSize="5.4" className="fill-muted-foreground">Lysogenic phage infects the bacterium; viral DNA</text>
+        <text x="690" y="284" fontSize="5.4" className="fill-muted-foreground">incorporates into the bacterial chromosome. When</text>
+        <text x="690" y="294" fontSize="5.4" className="fill-muted-foreground">phage DNA is excised, flanking bacterial genes may</text>
+        <text x="690" y="304" fontSize="5.4" className="fill-muted-foreground">be excised with it; DNA is packaged into the phage</text>
+        <text x="690" y="314" fontSize="5.4" className="fill-muted-foreground">capsid and can infect another bacterium.</text>
+        <text x="690" y="330" fontSize="5.6" fontWeight="700" className="fill-emergency">Only genes FLANKING the phage DNA ride —</text>
+        <text x="690" y="340" fontSize="5.6" fontWeight="700" className="fill-emergency">the excision picks the neighborhood.</text>
+        <text x="690" y="356" fontSize="5.2" className="fill-muted-foreground">Lysogenic phage · viral DNA incorporates in bacterial DNA ·</text>
+        <text x="690" y="366" fontSize="5.2" className="fill-muted-foreground">phage particles carry bacterial DNA · genes different from donor and recipient</text>
+      </g>
+
+      {/* ===== TRANSPOSITION card ===== */}
+      <g>
+        <rect x="36" y="396" width="440" height="180" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="418" fontSize="9" fontWeight="800" className="fill-foreground">④ TRANSPOSITION — the jumping DNA</text>
+        <circle cx="88" cy="458" r="30" className="fill-brand-soft/20 stroke-brand" strokeWidth="1.4" />
+        <rect x="76" y="452" width="24" height="12" rx="3" className="fill-emergency/25 stroke-emergency" strokeWidth="1" />
+        <text x="88" y="500" textAnchor="middle" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">Plasmid</text>
+        <text x="128" y="446" fontSize="5.8" fontWeight="700" className="fill-emergency">Transposon (specialized DNA segment):</text>
+        <text x="128" y="457" fontSize="5.6" className="fill-muted-foreground">copies and excises itself, then inserts into</text>
+        <text x="128" y="467" fontSize="5.6" className="fill-muted-foreground">the same DNA molecule — or an unrelated</text>
+        <text x="128" y="477" fontSize="5.6" className="fill-muted-foreground">DNA (eg, plasmid or chromosome).</text>
+        <path d="M 128 486 L 340 486" stroke="currentColor" className="text-emergency" strokeWidth="1.4" markerEnd="none" />
+        <path d="M 336 482 l 8 4 l -8 4 z" className="fill-emergency" />
+        <text x="132" y="502" fontSize="5.4" className="fill-muted-foreground">copy + excise</text>
+        <text x="204" y="480" fontSize="5.4" className="fill-muted-foreground">jump →</text>
+        <path d="M 292 466 c 8 -20, 28 -20, 36 -40" fill="none" className="stroke-brand" strokeWidth="1.4" />
+        <text x="336" y="428" fontSize="5.6" fontWeight="700" className="fill-brand">Bacterial DNA (chromosome)</text>
+        <rect x="332" y="440" width="130" height="14" rx="4" className="fill-secondary stroke-border" strokeWidth="1" />
+        <rect x="386" y="440" width="22" height="14" rx="3" className="fill-emergency/25 stroke-emergency" strokeWidth="1" />
+        <text x="336" y="451" fontSize="5.4" className="fill-muted-foreground">target site</text>
+        <text x="336" y="466" fontSize="5.4" fontWeight="700" className="fill-brand">Integration of genes at the target site</text>
+        <text x="52" y="530" fontSize="5.8" fontWeight="700" className="fill-foreground">CRITICAL IN:</text>
+        <text x="126" y="530" fontSize="5.6" className="fill-muted-foreground">creating plasmids with MULTIPLE DRUG RESISTANCE, and transfer across species lines —</text>
+        <text x="52" y="542" fontSize="5.6" fontWeight="700" className="fill-emergency">eg, Tn1546 with vanA from Enterococcus to S aureus.</text>
+        <text x="52" y="560" fontSize="5.4" className="fill-muted-foreground">Horizontal gene transfer is the main mechanism for transfer of antibiotic resistance among bacteria —</text>
+        <text x="52" y="570" fontSize="5.4" className="fill-muted-foreground">and transposons are how one plasmid collects an entire resistance roster.</text>
+      </g>
+
+      {/* ===== route rules card ===== */}
+      <g>
+        <rect x="496" y="396" width="460" height="180" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="512" y="418" fontSize="9" fontWeight="800" className="fill-foreground">THE ROUTE RULES — what transfers, what doesn't</text>
+        {[
+          ["Naked DNA (transformation)", "competence-gated; DNase-sensitive; any short chromosomal fragment; SHiN the classics"],
+          ["F+ × F– (plasmid conjugation)", "plasmid only — NO chromosomal DNA; both cells end F+; the F plasmid carries the pilus genes"],
+          ["Hfr × F– (integrated conjugation)", "leading plasmid portion + a few flanking chromosomal genes; recipient stays F– but may gain new bacterial genes"],
+          ["Generalized transduction", "lytic phage 'packaging' error — ANY gene can be packaged; capsid delivers it to the next cell"],
+          ["Specialized transduction", "lysogenic phage 'excision' event — only genes FLANKING the phage DNA ride; the ABCD'S toxins travel this way"],
+        ].map((r, i) => (
+          <g key={r[0]}>
+            <text x="512" y={438 + i * 27} fontSize="6.4" fontWeight="800" className="fill-brand">{r[0]}</text>
+            <text x="512" y={448 + i * 27} fontSize="5.6" className="fill-muted-foreground">{r[1]}</text>
+          </g>
+        ))}
+        <rect x="512" y="552" width="428" height="16" rx="6" className="fill-brand-soft/20" />
+        <text x="522" y="563" fontSize="5.6" fontWeight="700" className="fill-foreground">ABCD'S (lysogenic-phage toxins): Group A strep erythrogenic · Botulinum · Cholera · Diphtheria · Shiga</text>
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="592" width="920" height="76" rx="9" className="fill-secondary" />
+        <text x="496" y="612" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: DNase stops transformation (naked DNA only — the pilus and the phage capsid protect their cargo) · F+ × F– transfers plasmid, never chromosome · Hfr transfers leading plasmid + flanking genes; recipient stays F–</text>
+        <text x="496" y="626" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Generalized = any gene (random packaging error) · Specialized = flanking genes only (excision event) — the ABCD'S toxins ride the lysogenic phage</text>
+        <text x="496" y="640" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Transposons: copy + excise + insert (same or unrelated DNA) — multiple-drug-resistance plasmids; Tn1546/vanA crossed from Enterococcus to S aureus · Horizontal transfer is THE mechanism of antibiotic-resistance spread</text>
+        <text x="496" y="656" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">Each route's protection: competence gates transformation; the mating bridge gates conjugation; capsid packaging gates transduction; the target site gates transposition.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="700" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's six genetics diagrams (pdf 150-151 / book 128-129 — transformation, conjugation F+ × F−, Hfr × F−, generalized + specialized transduction, transposition; the printed art is raster color plates, COPYRIGHTED, never reproduced). The interleaved text-layer labels are documented in the manifest; no FA mnemonics are printed on these pages.</text>
+    </svg>
+  );
+}
