@@ -1,0 +1,12 @@
+**QA Report: Dark Mode Inspection**
+
+*   **(A) Overlapping labels / text-on-text collisions:** **PASS**
+    *   *Observation:* All text elements, including the dense lists in "THE THREE MEDIUM JOBS" and the directory entries, maintain clear vertical spacing. No characters or words overlap.
+*   **(B) Text clipped at edges or truncated words:** **PASS**
+    *   *Observation:* All text is fully contained within its respective container boxes. No words are cut off at the left, right, top, or bottom boundaries of any panel or card.
+*   **(C) Arrows/lines crossing through text:** **PASS**
+    *   *Observation:* The visual design relies on layout and color-coding rather than connecting lines. There are no arrows or lines present that could intersect with or obscure the text content.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   *Observation:* The dark-mode palette uses high-contrast pairings (e.g., bright white/cyan/red text against deep navy/black backgrounds). All primary and secondary text remains clearly legible.
+
+**Verdict: CLEAN**

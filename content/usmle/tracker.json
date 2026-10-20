@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-20T00:14:55Z",
+  "generatedAt": "2026-10-20T00:20:49Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 89,
+    "topicsProduced": 90,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 34,
+      "pilot-complete": 35,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 2,
-      "topicsRemaining": 37,
+      "topicsProduced": 3,
+      "topicsRemaining": 36,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1478,6 +1478,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "special-culture-requirements",
+      "title": "Special Culture Requirements",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 146 (book 124–124)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "stains-identification",

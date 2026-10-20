@@ -1,0 +1,43 @@
+{
+  "topicId": "special-culture-requirements",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "special-culture-requirements-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124–124"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Special culture requirements — the bug-to-medium directory table",
+      "sourceFigureDescription": "The printed 3-column table (BUG / MEDIA USED FOR ISOLATION / MEDIA CONTENTS-OTHER) with 10 rows: H influenzae (chocolate), N gonorrhoeae + N meningitidis (Thayer-Martin), B pertussis (Bordet-Gengou / Regan-Lowe), C diphtheriae (tellurite / Löffler), M tuberculosis (LJ / Middlebrook / rapid broth), M pneumoniae (Eaton), lactose-fermenting enterics (MacConkey), E coli (EMB), Brucella + Francisella + Legionella + Pasteurella (BCYE), Fungi (Sabouraud).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "special-culture-requirements",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bug-media-matching-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] visual + blocks[1] note-block (the visual reorganizes the table by medium job; the table block carries it verbatim)"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "special-culture-requirements",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: pure vector page, no printed figures. The single source visual is the directory table itself — redrawn as ONE original KYP registry visual (bug-media-matching-map, job-organized) and carried verbatim as the note's table block. FA's printed mnemonics not reproduced in the visual."
+}

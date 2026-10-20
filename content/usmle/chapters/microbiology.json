@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 37,
+  "pendingTopicCount": 36,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -191,8 +191,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The bug-to-medium directory (chocolate, Thayer-Martin, Bordet-Gengou, Löwenstein-Jensen, etc.) plus lactose fermentation — the lab-identification spine."
+      "status": "complete",
+      "productionRationale": "The bug-to-medium directory (chocolate, Thayer-Martin, Bordet-Gengou, Löwenstein-Jensen, etc.) plus lactose fermentation — the lab-identification spine.",
+      "textbookVisuals": [
+        {
+          "visualId": "special-culture-requirements-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              146
+            ],
+            "bookPages": "124–124"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Special culture requirements — the bug-to-medium directory table",
+          "sourceFigureDescription": "The printed 3-column table (BUG / MEDIA USED FOR ISOLATION / MEDIA CONTENTS-OTHER) with 10 rows: H influenzae (chocolate), N gonorrhoeae + N meningitidis (Thayer-Martin), B pertussis (Bordet-Gengou / Regan-Lowe), C diphtheriae (tellurite / Löffler), M tuberculosis (LJ / Middlebrook / rapid broth), M pneumoniae (Eaton), lactose-fermenting enterics (MacConkey), E coli (EMB), Brucella + Francisella + Legionella + Pasteurella (BCYE), Fungi (Sabouraud).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "special-culture-requirements",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "bug-media-matching-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] visual + blocks[1] note-block (the visual reorganizes the table by medium job; the table block carries it verbatim)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "bug-media-matching-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "oxygen-requirements",

@@ -316,3 +316,117 @@ export function GramStainDecisionMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M3 — Special culture requirements: the bug-to-medium directory organized
+// by medium job (enrich / select / indicate)
+// (source: the Special culture requirements table, pdf 146 / book 124 —
+//  pure vector page, no printed figures; FA's printed mnemonics are NOT
+//  reproduced)
+// ---------------------------------------------------------------------------
+
+export function BugMediaMatchingMap() {
+  const w = 980;
+  const h = 780;
+  const roster = [
+    { bug: "H influenzae", med: "Chocolate agar", note: "Factors V (NAD+) and X (hematin)", job: "enrich" },
+    { bug: "N gonorrhoeae, N meningitidis", med: "Thayer-Martin agar", note: "Selectively favors Neisseria — inhibits gram ⊕ (vancomycin), gram ⊝ except Neisseria (trimethoprim, colistin), fungi (nystatin); very typically cultures Neisseria", job: "select" },
+    { bug: "B pertussis", med: "Bordet-Gengou agar; Regan-Lowe medium", note: "Potato extract (BG); charcoal, blood, and antibiotic (RL)", job: "enrich" },
+    { bug: "C diphtheriae", med: "Tellurite agar, Löffler medium", note: "", job: "select" },
+    { bug: "M tuberculosis", med: "Löwenstein-Jensen medium, Middlebrook medium, rapid automated broth cultures", note: "", job: "select" },
+    { bug: "M pneumoniae", med: "Eaton agar", note: "Requires cholesterol", job: "enrich" },
+    { bug: "Lactose-fermenting enterics", med: "MacConkey agar", note: "Fermentation produces acid, causing colonies to turn pink", job: "indicate" },
+    { bug: "E coli", med: "Eosin–methylene blue (EMB) agar", note: "Colonies with green metallic sheen", job: "indicate" },
+    { bug: "Brucella, Francisella, Legionella, Pasteurella", med: "Buffered charcoal yeast extract agar (BCYE)", note: "With cysteine and iron", job: "select" },
+    { bug: "Fungi", med: "Sabouraud agar", note: "The fungal medium (low pH — inhibits bacteria)", job: "select" },
+  ];
+  const jobColor: Record<string, string> = { enrich: "fill-brand", select: "fill-emergency", indicate: "fill-foreground" };
+  const jobLabel: Record<string, string> = { enrich: "ENRICH", select: "SELECT", indicate: "INDICATE" };
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Special culture requirements, an original KYP matching map of the bug-to-medium directory, organized by what each medium is doing. ENRICH — supply what the bug cannot make: chocolate agar gives H influenzae factors V (NAD+) and X (hematin); Eaton agar gives M pneumoniae its required cholesterol; Bordet-Gengou (potato extract) and Regan-Lowe (charcoal, blood, and antibiotic) grow B pertussis. SELECT — suppress everything else: Thayer-Martin agar selectively favors Neisseria by inhibiting gram-positive organisms with vancomycin, gram-negative organisms except Neisseria with trimethoprim and colistin, and fungi with nystatin — very typically cultures Neisseria (N gonorrhoeae, N meningitidis); tellurite agar and Loeffler medium select for C diphtheriae; Lowenstein-Jensen, Middlebrook, and rapid automated broth cultures grow M tuberculosis; buffered charcoal yeast extract agar with cysteine and iron grows Brucella, Francisella, Legionella, and Pasteurella; Sabouraud agar grows the fungi. INDICATE — the color readouts: MacConkey agar, where lactose fermentation produces acid, causing colonies of the lactose-fermenting enterics to turn pink; and eosin-methylene blue agar, where E coli colonies show a green metallic sheen" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Special culture requirements — the bug-to-medium directory (original KYP redraw)</text>
+        <rect x="752" y="24" width="180" height="18" rx="9" className="fill-brand-soft" />
+        <text x="842" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">enrich · select · indicate</text>
+      </g>
+
+      {/* ===== the three medium jobs (left) ===== */}
+      <g>
+        <rect x="36" y="76" width="280" height="572" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.4" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE THREE MEDIUM JOBS</text>
+
+        <rect x="50" y="112" width="252" height="150" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="64" y="132" fontSize="8" fontWeight="800" className="fill-brand">① ENRICH</text>
+        <text x="64" y="146" fontSize="5.8" className="fill-muted-foreground">Supply what the bug cannot make:</text>
+        <text x="64" y="160" fontSize="6.2" fontWeight="700" className="fill-foreground">Chocolate agar → H influenzae</text>
+        <text x="64" y="171" fontSize="5.6" className="fill-muted-foreground">factors V (NAD+) and X (hematin)</text>
+        <text x="64" y="185" fontSize="6.2" fontWeight="700" className="fill-foreground">Eaton agar → M pneumoniae</text>
+        <text x="64" y="196" fontSize="5.6" className="fill-muted-foreground">requires cholesterol</text>
+        <text x="64" y="210" fontSize="6.2" fontWeight="700" className="fill-foreground">Bordet-Gengou → B pertussis</text>
+        <text x="64" y="221" fontSize="5.6" className="fill-muted-foreground">potato extract (BG); Regan-Lowe:</text>
+        <text x="64" y="231" fontSize="5.6" className="fill-muted-foreground">charcoal, blood, and antibiotic</text>
+        <text x="64" y="247" fontSize="5.4" fontWeight="700" className="fill-brand">heated blood = the 'chocolate' — the lysis releases V and X</text>
+
+        <rect x="50" y="272" width="252" height="214" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="64" y="292" fontSize="8" fontWeight="800" className="fill-emergency">② SELECT</text>
+        <text x="64" y="306" fontSize="5.8" className="fill-muted-foreground">Suppress everything but the target:</text>
+        <text x="64" y="320" fontSize="6" fontWeight="700" className="fill-foreground">Thayer-Martin (Neisseria):</text>
+        <text x="64" y="331" fontSize="5.5" className="fill-muted-foreground">vancomycin removes gram ⊕; trimethoprim +</text>
+        <text x="64" y="341" fontSize="5.5" className="fill-muted-foreground">colistin remove gram ⊝ EXCEPT Neisseria;</text>
+        <text x="64" y="351" fontSize="5.5" className="fill-muted-foreground">nystatin removes fungi —</text>
+        <text x="64" y="361" fontSize="5.5" fontWeight="700" className="fill-emergency">"very typically cultures Neisseria"</text>
+        <text x="64" y="377" fontSize="6" fontWeight="700" className="fill-foreground">Tellurite / Löffler → C diphtheriae</text>
+        <text x="64" y="391" fontSize="6" fontWeight="700" className="fill-foreground">Löwenstein-Jensen, Middlebrook,</text>
+        <text x="64" y="401" fontSize="6" fontWeight="700" className="fill-foreground">rapid automated broth → M tuberculosis</text>
+        <text x="64" y="415" fontSize="6" fontWeight="700" className="fill-foreground">BCYE (cysteine + iron) →</text>
+        <text x="64" y="426" fontSize="5.8" className="fill-muted-foreground">Brucella, Francisella, Legionella,</text>
+        <text x="64" y="436" fontSize="5.8" className="fill-muted-foreground">Pasteurella</text>
+        <text x="64" y="452" fontSize="6" fontWeight="700" className="fill-foreground">Sabouraud → fungi</text>
+        <text x="64" y="463" fontSize="5.5" className="fill-muted-foreground">the fungal medium — its selectivity is</text>
+        <text x="64" y="473" fontSize="5.5" className="fill-muted-foreground">the opposite direction: fungi over bacteria</text>
+
+        <rect x="50" y="494" width="252" height="140" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="64" y="514" fontSize="8" fontWeight="800" className="fill-foreground">③ INDICATE</text>
+        <text x="64" y="528" fontSize="5.8" className="fill-muted-foreground">The fermentation readouts:</text>
+        <rect x="64" y="538" width="14" height="10" rx="2" className="fill-emergency/30" />
+        <text x="82" y="547" fontSize="6.2" fontWeight="700" className="fill-foreground">MacConkey — lactose-fermenting enterics:</text>
+        <text x="82" y="558" fontSize="5.6" className="fill-muted-foreground">fermentation produces acid, causing the</text>
+        <text x="82" y="568" fontSize="5.6" className="fill-muted-foreground">COLONIES to turn pink</text>
+        <rect x="64" y="580" width="14" height="10" rx="2" className="fill-brand/30" />
+        <text x="82" y="589" fontSize="6.2" fontWeight="700" className="fill-foreground">EMB — E coli: colonies with</text>
+        <text x="82" y="600" fontSize="5.6" className="fill-muted-foreground">green metallic sheen</text>
+        <text x="64" y="622" fontSize="5.4" fontWeight="700" className="fill-foreground">Both are the gram ⊝ enteric lane's</text>
+        <text x="64" y="632" fontSize="5.4" fontWeight="700" className="fill-foreground">color readouts on selective media.</text>
+      </g>
+
+      {/* ===== the 10-row directory (right) ===== */}
+      <g>
+        <rect x="336" y="76" width="620" height="572" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="352" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE BUG-TO-MEDIUM DIRECTORY</text>
+        <text x="352" y="112" fontSize="6" className="fill-muted-foreground">bug → medium → contents/other (the printed table's rows, matched by job)</text>
+        {roster.map((r, i) => (
+          <g key={r.bug}>
+            <rect x="352" y={122 + i * 52.6} width="588" height="46" rx="8" className="fill-secondary" />
+            <text x="366" y={138 + i * 52.6} fontSize="6.6" fontWeight="800" className={jobColor[r.job]}>{r.bug}</text>
+            <text x="366" y={148 + i * 52.6} fontSize="6.2" fontWeight="700" className="fill-foreground">{r.med}</text>
+            <text x="366" y={158 + i * 52.6} fontSize="5.4" className="fill-muted-foreground">{(r.note.match(/.{1,84}(\s|$)/g) || [""])[0].trim()}</text>
+            <rect x="886" y={130 + i * 52.6} width="42" height="12" rx="6" className={r.job === "enrich" ? "fill-brand/15" : r.job === "select" ? "fill-emergency/10" : "fill-secondary"} />
+            <text x="907" y={139 + i * 52.6} textAnchor="middle" fontSize="5.2" fontWeight="800" className={jobColor[r.job]}>{jobLabel[r.job]}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="662" width="920" height="52" rx="9" className="fill-secondary" />
+        <text x="496" y="682" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: chocolate = V + X (heated-blood lysis) · Thayer-Martin = the antibiotic trio that leaves only Neisseria ('very typically cultures Neisseria') · BG potato / RL charcoal-blood-antibotic = pertussis</text>
+        <text x="496" y="696" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">LJ + Middlebrook + rapid broth = TB · Eaton cholesterol = M pneumoniae · MacConkey pink-acid colonies / EMB green metallic sheen = the enteric readouts · BCYE cysteine + iron = Brucella-Francisella-Legionella-Pasteurella · Sabouraud = fungi</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="738" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Special culture requirements table (pdf 146 / book 124 — pure vector page, no printed figures; FA's printed mnemonics ('The Ella siblings…'; 'Sab's a fun guy!') NOT reproduced — verification only). The verbatim table is the note's table block.</text>
+    </svg>
+  );
+}

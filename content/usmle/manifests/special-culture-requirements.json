@@ -1,0 +1,273 @@
+{
+  "topicId": "special-culture-requirements",
+  "title": "Special Culture Requirements",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      146
+    ],
+    "bookPages": "124–124"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading + table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "Special culture requirements\nBUG\nMEDIA USED FOR ISOLATION\nMEDIA CONTENTS/OTHER",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "H influenzae row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "H influenzae\nChocolate agar\nFactors V (NAD+) and X (hematin)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thayer-Martin row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "N gonorrhoeae,\nN meningitidis\nThayer-Martin agar\nSelectively favors growth of Neisseria by\ninhibiting growth of gram ⊕ organisms\nwith vancomycin, gram ⊝ organisms except\nNeisseria with trimethoprim and colistin, and\nfungi with nystatin\nVery typically cultures Neisseria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B pertussis row (full physical order; media cell carries both media)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "B pertussis\nBordet-Gengou agar (Bordet for Bordetella)\nRegan-Lowe medium\nPotato extract\nCharcoal, blood, and antibiotic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C diphtheriae row (contents cell blank — physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "C diphtheriae\nTellurite agar, Löffler medium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M tuberculosis row (contents cell blank — physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "M tuberculosis\nLöwenstein-Jensen medium, Middlebrook\nmedium, rapid automated broth cultures",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M pneumoniae row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "M pneumoniae\nEaton agar\nRequires cholesterol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lactose-fermenting enterics row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "Lactose-fermenting\nenterics\nMacConkey agar\nFermentation produces acid, causing colonies to\nturn pink",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "E coli row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "E coli\nEosin–methylene blue (EMB) agar\nColonies with green metallic sheen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Brucella row (full physical order; media cell = BCYE per VLM census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "Brucella, Francisella,\nLegionella,\nPasteurella\nBuffered charcoal yeast extract agar with\ncysteine and iron",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — Brucella row contents cell (verification only; IS the table text, carried in note table block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "The Ella siblings, Bruce, Francis, a\nlegionnaire, and a pasteur (pastor), built the\nSistine (cysteine) chapel out of charcoal and\niron",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fungi row (full physical order; contents cell = FA mnemonic, verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "Fungi\nSabouraud agar\n“Sab’s a fun guy!”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          146
+        ],
+        "bookPages": "124"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 124",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "bug-media-matching-map"
+  ],
+  "mechanismIds": [
+    "medium-design-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directory; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "medium-design-logic",
+      "summary": "The three-medium-jobs model (enrich = supply what the bug cannot make / select = poison everything else / indicate = report metabolism as color) applied row by row; the chocolate-agar lysis explanation ('heated blood releases V and X'); the Thayer-Martin as a Neisseria gate; the colonies-not-plate clarification for MacConkey; and the negative-culture-on-wrong-plate principle — with the Sabouraud low-pH mechanism and the heated-blood extension labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists the directory without the design taxonomy or the mechanisms behind the media; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p146 is a PURE VECTOR page (pdfimages returns nothing; VLM 200-DPI census resolved the column assignments — Brucella row media cell = BCYE with contents cell = the FA mnemonic; Fungi row contents cell = the FA mnemonic; C diphtheriae and M tuberculosis rows have blank contents cells). Text layer emits clean per-cell blocks; physical-order quotes join bug → media → contents. ONE original KYP registry visual (bug-media-matching-map: three medium-job panels + the 10-row directory with job chips). MNEMONIC BOUNDARY (E22+ rule): FA's printed mnemonics ('The Ella siblings...'; '\"Sab's a fun guy!\"') quoted for verification and carried verbatim in the note's table block (they ARE the source's table text, per the E20+ precedent); NOT reproduced in the registry visual; KYP originals authored in the mnemonics field.",
+  "updatedAt": "2026-10-20"
+}

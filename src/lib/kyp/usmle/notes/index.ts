@@ -53,6 +53,7 @@ import { immunosuppressants } from "./immunosuppressants";
 import { recombinantCytokines } from "./recombinant-cytokines";
 import { bacterialStructures } from "./bacterial-structures";
 import { stainsIdentification } from "./stains-identification";
+import { specialCultureRequirements } from "./special-culture-requirements";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -189,6 +190,7 @@ export const usmleNotes: KypUsMLENote[] = [
   recombinantCytokines,
   bacterialStructures,
   stainsIdentification,
+  specialCultureRequirements,
   cranialNerves,
   diabetesMellitus,
 ];
