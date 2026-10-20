@@ -1,0 +1,327 @@
+{
+  "topicId": "mycobacteria",
+  "title": "Mycobacteria: Tuberculosis & Leprosy",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Clinical Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      160,
+      161
+    ],
+    "bookPages": "138–139"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner (as emitted, no ▶ glyph, leading space)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": " microbiology—Clinical Bacteriology",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycobacteria genus entry (acid-fast rods with inline photo marker A; slow culture growth; the species roster: M tuberculosis [MDR], M avium–intracellulare [AIDS, MDR], M scrofulaceum [cervical lymphadenitis in children], M marinum [aquarium handlers])",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Mycobacteria\n\n microbiology—Clinical Bacteriology\n\nAcid-fast rods (pink rods, arrows in A ). Grows\nslowly in culture.\nMycobacterium tuberculosis (TB, often resistant\nto multiple drugs).\nM avium–intracellulare (causes disseminated,\nnon-TB disease in AIDS; often resistant to\nmultiple drugs).\nM scrofulaceum (cervical lymphadenitis in\nchildren).\nM marinum (skin infection in aquarium\nhandlers).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TB symptoms (fever, night sweats, weight loss, cough, hemoptysis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "TB symptoms include fever, night sweats,\nweight loss, cough (nonproductive or\nproductive), hemoptysis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Virulence block (cord factor — serpentine cord, macrophage activation, granuloma formation, TNF-α release; sulfatides inhibit phagolysosomal fusion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Cord factor creates a “serpentine cord”\nappearance in virulent M tuberculosis\nstrains; activates macrophages (promoting\ngranuloma formation) and induces release of\nTNF-α. Sulfatides (surface glycolipids) inhibit\nphagolysosomal fusion.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TB progression diagram text layer, part 1 (physical order, lines 34-53: the 'Tuberculosis / Mycobacterium tuberculosis' heading, Hilar nodes / Ghon complex / Ghon focus mid-lower lobes labels, the '+' glyph, 'Primary tuberculosis', the <10% and >90% branch labels, 'Healing by fibrosis / Calcification (PPD)' — the ⊕ emits as a bare 'PPD )' fragment at line 53)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Tuberculosis\nMycobacterium\ntuberculosis\n\nHilar nodes\nGhon\ncomplex\n\n+\nGhon focus\n(usually mid/\nlower lobes)\n\nPrimary tuberculosis\n< 10%\n\n> 90%\nHealing by fibrosis\nCalcification\n(PPD )",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TB progression diagram text layer, part 2 (physical order, lines 55-85: Progressive primary tuberculosis [AIDS, malnutrition], Reactivation, Progressive lung disease, the interleaved '2° tuberculosis' label, Bacteremia, Fibrocaseous cavitary lesion [usually upper lobes], Miliary tuberculosis, Meninges, Vertebrae [Pott disease], Localized destructive disease, Cavity, Caseation, Scar, Caseation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Progressive primary tuberculosis\n(AIDS, malnutrition)\n\nReactivation\n\nProgressive\nlung disease\n\n2° tuberculosis\n\nBacteremia\n\nFibrocaseous\ncavitary lesion\n(usually upper\nlobes)\n\nMiliary\ntuberculosis\n\nMeninges\nVertebrae\n(Pott disease)\n\nLocalized destructive disease\nCavity\nCaseation\nScar\n\nCaseation\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TB progression diagram text layer, part 3 (physical order, lines 86-92: the miliary organ list — Lymph nodes, Lungs, Liver, Spleen, Adrenal gland)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Lymph nodes\nLungs\nLiver\n\nSpleen\nAdrenal\ngland",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PPD/IGRA rules (PPD ⊕ current/past infection or BCG; PPD ⊝ no infection and immunocompromised with low CD4+; IGRA fewer BCG false positives)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "PPD ⊕ if current/past infection (or BCG\nvaccination).\nPPD ⊝ if no infection and in\nimmunocompromised patients (especially with\nlow CD4+ cell count).\nInterferon-γ release assay (IGRA) has fewer false\npositives from BCG vaccination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The histology rule (caseating granulomas with central necrosis and Langhans giant cell with inline photo marker A; do not confuse Langhans giant cell [fused macrophages] with Langerhans cell [dermal APC])",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Caseating granulomas with central necrosis and\nLanghans giant cell (single example in A )\nare characteristic of 2° tuberculosis. Do not\nconfuse Langhans giant cell (fused\nmacrophages) with Langerhans cell (dermal\nAPC).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The reactivation rule (risk highest in immunocompromised: HIV, organ transplant recipients, TNF-α inhibitor use; apices of the lung — highly aerobic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "TB reactivation risk highest in\nimmunocompromised individuals (eg, HIV,\norgan transplant recipients, TNF-α inhibitor\nuse). Reactivation has a predilection for the\napices of the lung (due to the bacteria being\nhighly aerobic).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagram text layer tail (physical order, lines 115-116: 'Joints and long bones' — emitted after the main flow)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "Joints and\nlong bones",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          160
+        ],
+        "bookPages": "138"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 138",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner (leprosy subsection)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leprosy entry part 1 (Hansen disease; M leprae acid-fast bacillus, cool temperatures, skin and superficial nerves with 'glove and stocking' loss, cannot be grown in vitro; dx skin biopsy or tissue PCR; US reservoir armadillos; the two forms with ▘ bullet glyphs — lepromatous [diffuse, leonine facies with inline photo marker A, communicable, high bacterial load, low CMI largely Th2, can be lethal] vs tuberculoid [few hypoesthetic hairless plaques with inline photo marker B, high CMI largely Th1, low bacterial load]; 'cellmediated' hyphen-drop quoted as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "Also called Hansen disease. Caused by Mycobacterium leprae, an acid-fast bacillus that likes cool\ntemperatures (infects skin and superficial nerves—“glove and stocking” loss of sensation) and\ncannot be grown in vitro. Diagnosed via skin biopsy or tissue PCR. Reservoir in United States:\narmadillos.\nLeprosy has 2 forms (many cases fall temporarily between two extremes):\n▘ Lepromatous—presents diffusely over the skin, with leonine (lionlike) facies A , and is\ncommunicable (high bacterial load); characterized by low cell-mediated immunity with a\nlargely Th2 response. Lepromatous form can be lethal.\n▘ Tuberculoid—limited to a few hypoesthetic, hairless skin plaques B ; characterized by high cellmediated immunity with a largely Th1 response and low bacterial load.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leprosy treatment rule (dapsone and rifampin for tuberculoid; clofazimine added for lepromatous)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "Treatment: dapsone and rifampin for tuberculoid form; clofazimine is added for lepromatous form.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic printed on the page (verification-only; carried verbatim in the note's table block, NOT in the visual)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "Daring rifles target cloaked leprechauns.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Standalone photo markers A and B (leonine facies; tuberculoid plaques — sub-3-char covered inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          161
+        ],
+        "bookPages": "139"
+      },
+      "quote": "A\n\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "tb-spectrum-map"
+  ],
+  "mechanismIds": [
+    "tb-spectrum",
+    "cell-mediated-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the flowchart and the leprosy entries; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "immune-gate-model",
+      "summary": "The immune-gate reading of the spectrum (every outcome is a cell-mediated verdict: the >90% road is the competent Th1 host, reactivation is the wall's guards going down [HIV, transplant, TNF-α inhibitors — the drugs that block the very cytokine cord factor induces], and the <10% road is the never-competent host); the leprosy pole as the same axis printed as a skin disease (E31's IL-12/IFN-γ circuit); the lobe-assignment rule (mid/lower primary focus vs apical reactivation — the aerobic-preference contrast); the anergy reading of a negative PPD; and the miliary organ list as Pott/adrenal exam cross-links — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the flowchart, rules, and entries without the immune-axis synthesis or the cross-chapter wiring; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p160 carries 2 rasters (the acid-fast rods micrograph 200x200 with red arrows, marker A; the Langhans giant cell histology 396x296 with blue arrows, marker A) and p161's leprosy subsection carries 2 (leonine facies 187x188 marker A; tuberculoid plaques 188x173 marker B) — all COPYRIGHTED, described-in-text only; standalone A/B markers sub-3-char (dropped by design). The TB progression flowchart is PURE VECTOR (redrawn as the registry visual's core panel); the leprosy two-form comparison is printed ▘-bulleted text (redrawn as the visual's Th1/Th2 spectrum panels). Text-layer quirks documented: the flowchart's heavily interleaved label stream quoted as physical-order ranges (the '2° tuberculosis' label between 'Progressive lung disease' and 'Bacteremia'; the miliary organ list before the PPD/Langhans block; 'Joints and long bones' after everything; the 'PPD ⊕' label emitting as a bare 'PPD )' fragment at line 53); p160's chapter banner emits WITHOUT the ▶ glyph and WITH a leading space (' microbiology—Clinical Bacteriology') vs p161's '▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY'; '“serpentine cord”' and '“glove and stocking”' curly quotes; 'M avium–intracellulare' en-dash; ▘ bullet glyphs (U+2598); 'cellmediated' hyphen-drop; Greek γ/α. FA's printed mnemonic ('Daring rifles target cloaked leprechauns.') carried verbatim in the table block only (NOT in the visual). PAGE BOUNDARY: pdf 161 is shared with M12 per the chapter inventory — M11 owns the leprosy subsection (dump lines 0-24); the Gram-negative lab algorithm tree (lines 26-98) is M12's opening content.",
+  "updatedAt": "2026-10-20"
+}

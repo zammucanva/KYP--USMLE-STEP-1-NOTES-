@@ -1,0 +1,29 @@
+**QA Report: element-tb-spectrum-map-light.png**
+
+1.  **OVERLAPS:**
+    *   **TB Spectrum Flowchart:** The arrow originating from the "GHON COMPLEX" box and pointing to the "> 90% HEALING" box overlaps the text "establishes PRIMARY TUBERCULOSIS" located at the bottom of the GHON COMPLEX box.
+    *   **Leprosy Spectrum Panel:** The header text for this section ("THE LEPROSY SPECTRUM — Hansen disease, the Th1/Th2 axis (M leprae): cool temperatures, skin + superficial nerves, glove-and-stocking loss; cannot be grown in vitro; dx: skin biopsy or tissue PCR; US reserv") is truncated on the right edge. More critically, it appears to overlap or sit extremely close to the right boundary of its container, and the final word "reserv" is clearly cut off.
+    *   **Bottom Footer/Anchors Strip:** The block of small text at the very bottom of the image (starting with "Ghon complex = Ghon focus...") is tightly packed. While not strictly overlapping, the line height is very dense, making individual lines slightly difficult to distinguish.
+
+2.  **CLIPPING:**
+    *   **Leprosy Spectrum Header:** As noted above, the main title for the Leprosy Spectrum section is clipped at the right margin ("...US reserv").
+    *   **Footer Text:** The footer text block spans the full width. While most lines fit, the extreme density makes it look like it's fighting for space, though no specific words appear fully sliced off other than the Leprosy header.
+
+3.  **CONTRAST/READABILITY:**
+    *   **General:** Contrast is generally excellent. Black text on white/light-gray backgrounds is standard and highly readable.
+    *   **Red Text:** The red text used for "REACTIVATION", "2° TUBERCULOSIS", "BACTEREMIA", "MILITARY TUBERCULOSIS", and "LEPROMATOUS" provides good visual hierarchy without sacrificing readability.
+    *   **Green/Teal Text:** The teal headers (e.g., "GHON COMPLEX", "CORD FACTOR") are dark enough to be easily read against the light backgrounds.
+
+4.  **ALIGNMENT:**
+    *   **Flowchart Arrows:** The arrows in the top TB Spectrum section are hand-drawn style (or simulated hand-drawn). They connect logically, but the arrow from "GHON COMPLEX" to "> 90% HEALING" has an awkward entry angle that causes the aforementioned text overlap.
+    *   **Grid Alignment:** The four cards in "THE VIRULENCE AND TEST RAIL" are well-aligned. The two panels in "THE LEPROSY SPECTRUM" are well-aligned. The five rows in "THE SPECIES ROSTER" are perfectly aligned.
+
+5.  **CONTENT CHECK:**
+    *   **Top Two-Panel Diagram (The TB Spectrum):** This flowchart illustrates the pathogenesis of primary tuberculosis infection. It starts with the "Ghon Complex," showing that ~90% of cases heal (latent infection), while a smaller portion leads to "Progressive Lung Disease." It then tracks the paths of "Reactivation" (leading to secondary TB or localized disease) and "Bacteremia" (leading to miliary tuberculosis).
+    *   **Five-Four Card Rail (The Virulence and Test Rail):** This section details four key pillars of Mycobacterium biology/diagnosis: "Cord Factor" (virulence), "Sulfatides" (pathogenesis), "PPD / IGRA" (diagnostic testing), and "The Giant-Cell Rule" (histopathology/Langhans cells).
+    *   **Two-Column Comparison (The Leprosy Spectrum):** This contrasts the two poles of Hansen's disease (Leprosy). The left side describes "Lepromatous" (Th2 pole, multibacillary, diffuse), and the right side describes "Tuberculoid" (Th1 pole, paucibacillary, localized).
+    *   **Bottom Roster (The Species Roster):** This lists five species of acid-fast rods (*M. tuberculosis*, *M. avium-intracellulare*, *M. scrofulaceum*, *M. marinum*, *M. leprae*) along with their key clinical characteristics and habitats.
+
+VERDICT: **DEFECTS FOUND**
+*   **Defect 1 (Overlap):** Arrow from "GHON COMPLEX" box overlaps the sub-text "establishes PRIMARY TUBERCULOSIS".
+*   **Defect 2 (Clipping):** The header text for "THE LEPROSY SPECTRUM" is cut off at the right edge (ends in "...US reserv").

@@ -1209,3 +1209,209 @@ export function GramPosBacilliMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M11 — Mycobacteria: the TB spectrum (primary/healing/reactivation/miliary
+// redraw of the printed progression flowchart) + the virulence and skin-test
+// rail + the leprosy Th1/Th2 spectrum + the species roster
+// (source: pdf 160-161 / book 138-139 — the progression diagram is pure
+//  vector; the printed micrographs [acid-fast rods, Langhans giant cell,
+//  leonine facies, tuberculoid plaques] are raster, COPYRIGHTED, described)
+// ---------------------------------------------------------------------------
+
+export function TbSpectrumMap() {
+  const w = 980;
+  const h = 1210;
+  const roster = [
+    { n: "M tuberculosis", t: "Acid-fast rod (slow growth in culture); cord factor + sulfatides; often resistant to multiple drugs", d: "TB: fever, night sweats, weight loss, cough (nonproductive or productive), hemoptysis; the primary-reactivation-miliary spectrum" },
+    { n: "M avium–intracellulare", t: "Acid-fast rod; often resistant to multiple drugs", d: "Disseminated, non-TB disease in AIDS — the low-CD4 opportunists" },
+    { n: "M scrofulaceum", t: "Acid-fast rod", d: "Cervical lymphadenitis in children (scrofula)" },
+    { n: "M marinum", t: "Acid-fast rod", d: "Skin infection in aquarium handlers (fish-tank granuloma — cool-temperature skin)" },
+    { n: "M leprae", t: "Acid-fast bacillus; likes cool temperatures (skin + superficial nerves); cannot be grown in vitro", d: "Leprosy (Hansen disease) — glove-and-stocking loss of sensation; dx skin biopsy or tissue PCR; US reservoir: armadillos" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Mycobacteria, an original KYP spectrum map. THE TB SPECTRUM (a redraw of the printed progression flowchart): Mycobacterium tuberculosis is inhaled to the lung's mid and lower lobes — the Ghon focus plus the hilar nodes form the GHON COMPLEX — establishing PRIMARY TUBERCULOSIS, which then takes one of two roads. THE GREATER THAN 90 PERCENT ROAD: healing by fibrosis and calcification with a positive PPD — latent infection — until REACTIVATION (risk highest in the immunocompromised: HIV, transplant recipients, TNF-alpha inhibitor use) drives SECONDARY TUBERCULOSIS: the fibrocaseous cavitary lesion, usually in the upper lobes (the apices — the bacteria are highly aerobic), progressing to localized destructive disease with cavity, caseation, and scar. Caseating granulomas with central necrosis and the Langhans giant cell characterize secondary TB. THE LESS THAN 10 PERCENT ROAD: progressive primary tuberculosis in AIDS and malnutrition — progressive lung disease, or BACTEREMIA seeding MILIARY TUBERCULOSIS across meninges, vertebrae (Pott disease), joints and long bones, lymph nodes, lungs, liver, spleen, and adrenal gland. THE VIRULENCE AND TEST RAIL: cord factor creates the serpentine cord appearance in virulent strains, activates macrophages (granuloma formation) and induces TNF-alpha release; sulfatides (surface glycolipids) inhibit phagolysosomal fusion; PPD positive means current or past infection or BCG vaccination, negative in no infection and in the immunocompromised (low CD4 counts); the interferon-gamma release assay has fewer false positives from BCG. Do not confuse the Langhans giant cell (fused macrophages) with the Langerhans cell (dermal APC). THE LEPROSY SPECTRUM: lepromatous — low cell-mediated immunity with a largely Th2 response and high bacterial load, diffuse skin involvement, leonine facies, communicable, can be lethal — versus tuberculoid — high cell-mediated immunity with a largely Th1 response and low bacterial load, a few hypoesthetic hairless skin plaques. Treatment: dapsone and rifampin for tuberculoid; clofazimine added for lepromatous. THE ROSTER: M tuberculosis, M avium-intracellulare (disseminated non-TB disease in AIDS), M scrofulaceum (cervical lymphadenitis in children), M marinum (aquarium handlers), M leprae" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Mycobacteria — the TB spectrum map (original KYP redraw)</text>
+        <rect x="724" y="24" width="208" height="18" rx="9" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">Ghon → primary → reactivation → miliary</text>
+      </g>
+
+      {/* ===== THE TB SPECTRUM (redraw of the printed flowchart) ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="384" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE TB SPECTRUM — primary infection, two roads, four outcomes (redraw of the printed progression diagram)</text>
+
+        {/* entry: ghon complex */}
+        <rect x="52" y="114" width="190" height="96" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="62" y="132" fontSize="7" fontWeight="800" className="fill-foreground">GHON COMPLEX</text>
+        <text x="62" y="146" fontSize="5.8" className="fill-muted-foreground">Ghon focus (usually mid/</text>
+        <text x="62" y="156" fontSize="5.8" className="fill-muted-foreground">lower lobes) + hilar nodes</text>
+        <text x="62" y="172" fontSize="5.8" fontWeight="700" className="fill-brand">M tuberculosis inhaled —</text>
+        <text x="62" y="182" fontSize="5.8" fontWeight="700" className="fill-brand">acid-fast rods, slow growth</text>
+        <text x="62" y="198" fontSize="5.4" className="fill-muted-foreground">establishes PRIMARY TUBERCULOSIS</text>
+
+        {/* the >90% road (top) */}
+        <rect x="280" y="112" width="200" height="58" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="292" y="128" fontSize="6.6" fontWeight="800" className="fill-brand">&gt; 90% — HEALING</text>
+        <text x="292" y="140" fontSize="5.6" className="fill-muted-foreground">by fibrosis + calcification</text>
+        <text x="292" y="152" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">(PPD ⊕) — latent infection</text>
+
+        <path d="M 480 141 L 516 141" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+
+        <rect x="518" y="112" width="200" height="58" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="530" y="128" fontSize="6.6" fontWeight="800" className="fill-emergency">REACTIVATION</text>
+        <text x="530" y="140" fontSize="5.6" className="fill-muted-foreground">risk highest in immunocompromised:</text>
+        <text x="530" y="152" fontSize="5.6" className="fill-muted-foreground">HIV · transplant · TNF-α inhibitor use</text>
+
+        <path d="M 718 141 L 754 141" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+
+        <rect x="756" y="112" width="174" height="58" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="768" y="128" fontSize="6.6" fontWeight="800" className="fill-emergency">2° TUBERCULOSIS</text>
+        <text x="768" y="140" fontSize="5.6" className="fill-muted-foreground">fibrocaseous cavitary lesion</text>
+        <text x="768" y="152" fontSize="5.6" className="fill-muted-foreground">(usually UPPER lobes — apices,</text>
+        <text x="768" y="162" fontSize="5.6" className="fill-muted-foreground">highly aerobic organisms)</text>
+
+        {/* reactivation → destructive */}
+        <path d="M 843 170 L 843 192" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+        <rect x="756" y="194" width="174" height="52" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="768" y="210" fontSize="6.4" fontWeight="800" className="fill-foreground">LOCALIZED DESTRUCTIVE DISEASE</text>
+        <text x="768" y="222" fontSize="5.6" className="fill-muted-foreground">cavity · caseation · scar</text>
+        <text x="768" y="234" fontSize="5.4" className="fill-muted-foreground">caseating granulomas + central necrosis</text>
+        <text x="768" y="243" fontSize="5.4" className="fill-muted-foreground">+ Langhans giant cell = 2° TB</text>
+
+        {/* latent → reactivation link label */}
+        <text x="498" y="132" fontSize="5.2" className="fill-muted-foreground" textAnchor="middle">latent →</text>
+
+        {/* the <10% road (bottom) */}
+        <rect x="280" y="262" width="200" height="58" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="292" y="278" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt; 10% — PROGRESSIVE PRIMARY TB</text>
+        <text x="292" y="290" fontSize="5.6" className="fill-muted-foreground">in AIDS, malnutrition —</text>
+        <text x="292" y="302" fontSize="5.6" className="fill-muted-foreground">the host cannot wall it off</text>
+
+        <path d="M 480 291 L 516 291" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+        <text x="498" y="282" fontSize="5.2" className="fill-muted-foreground" textAnchor="middle">two exits</text>
+
+        <rect x="518" y="262" width="200" height="58" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="530" y="278" fontSize="6.6" fontWeight="800" className="fill-foreground">PROGRESSIVE LUNG DISEASE</text>
+        <text x="530" y="290" fontSize="5.6" className="fill-muted-foreground">extension of the primary focus</text>
+        <text x="530" y="302" fontSize="5.6" className="fill-muted-foreground">without a latent interval</text>
+
+        {/* bacteremia → miliary */}
+        <rect x="518" y="330" width="200" height="44" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="530" y="346" fontSize="6.6" fontWeight="800" className="fill-emergency">BACTEREMIA</text>
+        <text x="530" y="358" fontSize="5.6" className="fill-muted-foreground">hematogenous seeding of every organ</text>
+
+        <path d="M 618 320 L 618 330" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+        <path d="M 718 352 L 754 352" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m11arrow)" />
+
+        <rect x="756" y="262" width="174" height="112" rx="10" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="768" y="278" fontSize="6.6" fontWeight="800" className="fill-emergency">MILIARY TUBERCULOSIS</text>
+        <text x="768" y="290" fontSize="5.4" className="fill-muted-foreground">the seeded organs:</text>
+        {[
+          "meninges (TB meningitis)",
+          "vertebrae — Pott disease",
+          "joints and long bones",
+          "lymph nodes · lungs",
+          "liver · spleen",
+          "adrenal gland",
+        ].map((o, i) => (
+          <text key={o} x="780" y={303 + i * 11} fontSize="5.6" className="fill-muted-foreground">• {o}</text>
+        ))}
+
+        {/* primary box → both roads (single origin, two branches) */}
+        <path d="M 242 162 L 262 141 L 280 141" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m11arrow)" />
+        <path d="M 242 162 L 262 291 L 280 291" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m11arrow)" />
+
+        {/* symptoms strip */}
+        <rect x="52" y="226" width="428" height="52" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="64" y="242" fontSize="6.4" fontWeight="800" className="fill-foreground">TB SYMPTOMS</text>
+        <text x="64" y="254" fontSize="5.6" className="fill-muted-foreground">fever · night sweats · weight loss · cough (nonproductive or productive) · hemoptysis</text>
+        <text x="64" y="268" fontSize="5.4" className="fill-muted-foreground">Reactivation has a predilection for the apices of the lung (the bacteria are highly aerobic).</text>
+        <defs>
+          <marker id="m11arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" className="fill-foreground" />
+          </marker>
+        </defs>
+      </g>
+
+      {/* ===== THE VIRULENCE AND TEST RAIL ===== */}
+      <g>
+        <rect x="36" y="476" width="908" height="158" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="498" fontSize="9" fontWeight="800" className="fill-foreground">THE VIRULENCE AND TEST RAIL — cord factor · sulfatides · PPD/IGRA · the giant-cell rule</text>
+        {[
+          { t: "CORD FACTOR", lines: ["Creates the serpentine cord", "appearance in virulent strains;", "activates macrophages", "(granuloma formation) and", "induces release of TNF-α"] },
+          { t: "SULFATIDES", lines: ["Surface glycolipids that", "inhibit phagolysosomal", "fusion — the organism", "survives inside the", "macrophage it infects"] },
+          { t: "PPD / IGRA", lines: ["PPD ⊕: current or past", "infection (or BCG vaccine).", "PPD ⊝: no infection or", "immunocompromised (low", "CD4+). IGRA: fewer BCG", "false positives"] },
+          { t: "THE GIANT-CELL RULE", lines: ["Caseating granulomas with", "central necrosis + Langhans", "giant cell = 2° TB. Do NOT", "confuse Langhans giant cell", "(fused macrophages) with", "Langerhans cell (dermal APC)"] },
+        ].map((c, i) => (
+          <g key={c.t}>
+            <rect x={52 + i * 222} y="512" width="212" height="110" rx="10" className="fill-secondary/60 stroke-border" strokeWidth="1" />
+            <text x={62 + i * 222} y="528" fontSize="6.6" fontWeight="800" className="fill-brand">{c.t}</text>
+            {c.lines.map((ln, j) => (
+              <text key={j} x={62 + i * 222} y={542 + j * 10.5} fontSize="5.4" className="fill-muted-foreground">{ln}</text>
+            ))}
+          </g>
+        ))}
+      </g>
+
+      {/* ===== THE LEPROSY SPECTRUM ===== */}
+      <g>
+        <rect x="36" y="650" width="908" height="212" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="672" fontSize="9" fontWeight="800" className="fill-foreground">THE LEPROSY SPECTRUM — Hansen disease, the Th1/Th2 axis</text>
+        <text x="52" y="682" fontSize="5.6" className="fill-muted-foreground">M leprae: cool temperatures, skin + superficial nerves, glove-and-stocking loss · cannot be grown in vitro · dx skin biopsy or tissue PCR · US reservoir: armadillos</text>
+        <rect x="52" y="686" width="438" height="112" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="66" y="704" fontSize="7.2" fontWeight="800" className="fill-emergency">LEPROMATOUS — the Th2 pole</text>
+        {[
+          "Low cell-mediated immunity (largely Th2 response)",
+          "HIGH bacterial load; communicable; can be lethal",
+          "Diffuse skin involvement; leonine (lionlike) facies",
+          "Treatment: dapsone + rifampin + CLOFAZIMINE (added)",
+        ].map((ln, i) => (
+          <text key={i} x="66" y={720 + i * 12} fontSize="5.6" className="fill-muted-foreground">• {ln}</text>
+        ))}
+        <text x="66" y="782" fontSize="5.4" className="fill-muted-foreground">Many cases fall temporarily between the two extremes.</text>
+        <rect x="506" y="686" width="424" height="112" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="520" y="704" fontSize="7.2" fontWeight="800" className="fill-brand">TUBERCULOID — the Th1 pole</text>
+        {[
+          "High cell-mediated immunity (largely Th1 response)",
+          "LOW bacterial load; limited disease",
+          "A few hypoesthetic, hairless skin plaques",
+          "Treatment: dapsone + rifampin",
+        ].map((ln, i) => (
+          <text key={i} x="520" y={720 + i * 12} fontSize="5.6" className="fill-muted-foreground">• {ln}</text>
+        ))}
+        <text x="520" y="782" fontSize="5.4" className="fill-muted-foreground">The cell-mediated axis is E31's IL-12 / IFN-γ circuit at the skin.</text>
+        <text x="496" y="846" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Treatment rule: dapsone and rifampin for tuberculoid; clofazimine is ADDED for lepromatous — the worse the cell-mediated immunity, the more drugs.</text>
+      </g>
+
+      {/* ===== THE SPECIES ROSTER ===== */}
+      <g>
+        <rect x="36" y="876" width="908" height="218" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="898" fontSize="9" fontWeight="800" className="fill-foreground">THE SPECIES ROSTER — the acid-fast rods</text>
+        {roster.map((r, i) => (
+          <g key={r.n}>
+            <rect x={52} y={908 + i * 36} width={876} height={30} rx={7} className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x={64} y={921 + i * 36} fontSize={6.4} fontWeight={800} className="fill-brand">{r.n}</text>
+            <text x={250} y={921 + i * 36} fontSize={5.4} className="fill-muted-foreground">{r.t.match(/.{1,66}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+            <text x={250} y={932 + i * 36} fontSize={5.4} className="fill-muted-foreground">{r.d.match(/.{1,66}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1108" width="908" height="58" rx="8" className="fill-secondary" />
+        <text x="490" y="1123" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Ghon complex = Ghon focus (mid/lower lobes) + hilar nodes · &gt;90% heal (fibrosis + calcification, PPD ⊕, latent) · &lt;10% progressive primary (AIDS, malnutrition) · reactivation → upper-lobe cavities (apices, highly aerobic)</text>
+        <text x="490" y="1135" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Reactivation risk highest: HIV · organ transplant · TNF-α inhibitors · Bacteremia → miliary: meninges, vertebrae (Pott), joints/long bones, nodes, lungs, liver, spleen, adrenals</text>
+        <text x="490" y="1147" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">PPD ⊝ in the immunocompromised (low CD4+) — a negative PPD does not exclude TB · IGRA beats BCG false positives · Langhans (fused macrophages) ≠ Langerhans (dermal APC) · leprosy: Th2 = lepromatous-lethal, Th1 = tuberculoid-limited</text>
+        <text x="490" y="1159" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">MDR species: M tuberculosis and M avium–intracellulare (AIDS) · M leprae cannot be grown in vitro (skin biopsy / tissue PCR; armadillos in the US)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="1190" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's tuberculosis progression flowchart (pdf 160 / book 138 — pure vector) with the virulence/test rail, the leprosy Th1/Th2 spectrum, and the species roster from books 138-139. The printed micrographs (acid-fast rods with arrows, Langhans giant cell histology, leonine facies, tuberculoid plaques) are raster, COPYRIGHTED, described-in-text only. FA's printed mnemonic (Daring rifles target cloaked leprechauns) is NOT reproduced here — verification only.</text>
+    </svg>
+  );
+}

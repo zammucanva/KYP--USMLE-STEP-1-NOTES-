@@ -1,0 +1,32 @@
+Based on a thorough inspection of the provided SVG schematic, here is the QA report:
+
+**1. OVERLAPS**
+*   **TB Spectrum Flowchart:** The text labels and boxes are well-spaced. The arrows connect cleanly without crossing over text. The "Miliary Tuberculosis" list is contained within its red-bordered box without overlapping the border.
+*   **Mechanism & Rail Cards:** The four cards in "THE VIRULENCE AND TEST RAIL" are evenly spaced with no overlap.
+*   **Leprosy Spectrum:** The two large panels are side-by-side with a clear gutter; no text overlaps.
+*   **Species Roster:** The five horizontal rows are stacked with consistent padding; no overlapping detected.
+*   **Anchors Strip (Top Right):** The tags ("Onion", "primary", etc.) have sufficient spacing.
+
+**2. CLIPPING**
+*   All text within the flowchart boxes, rail cards, leprosy panels, and roster rows is fully visible.
+*   No shapes or text are cut off by the main container boundaries or the edges of their respective cards.
+*   The bottom footer text is fully contained within its dark band.
+
+**3. CONTRAST/READABILITY**
+*   The color palette uses high-contrast white and cyan/teal text against a dark navy/black background (`#0d1117` style).
+*   Headings are bright and legible. Body text is a lighter grey but remains clearly readable.
+*   The red text for "REACTIVATION" and "MILARY TUBERCULOSIS" provides good contrast and visual hierarchy.
+*   *Minor Note:* Some of the smaller fine-print text in the footer and within the "Ghon Complex" box is small, but it remains legible at this resolution.
+
+**4. ALIGNMENT**
+*   **Flowchart:** The nodes follow a logical left-to-right/top-to-bottom progression. Arrows align correctly with the center or edges of their target boxes.
+*   **Rails & Roster:** The four rail cards and five roster rows are perfectly aligned to a common grid. Left-aligned text is consistent across all rows.
+*   **Leprosy Spectrum:** The two panels are top-aligned and of equal height, creating a balanced comparison.
+
+**5. CONTENT CHECK**
+*   **Top Two-Panel Diagram (TB Spectrum):** This section illustrates the natural history and progression of Tuberculosis. It starts with the **Ghon Complex** (primary infection) and branches into two paths: one leading to **Healing/Latent Infection** (which can later undergo **Reactivation**) and another progressing to **Active Lung Disease** (which can lead to **Bacteremia** and systemic **Miliary Tuberculosis**). It also notes **Localized Destructive Disease** as an outcome.
+*   **Five/Four-Card Rail (Virulence and Test Rail):** This row details the biological factors and diagnostic tools associated with TB. It covers **Cord Factor** (virulence), **Sulphatides** (immune evasion), **PPD/IGRA** (diagnostic testing for latent infection), and **The Giant-Cell Rule** (histopathology).
+*   **Two-Column Comparison (Leprosy Spectrum):** This compares the two polar ends of the Leprosy spectrum based on the host's immune response (Th1 vs Th2 axis). **Lepromatous** (Th2 pole) represents multibacillary, anergic disease, while **Tuberculoid** (Th1 pole) represents paucibacillary, granulomatous disease.
+*   **Bottom Roster (Species Roster):** This provides a taxonomic list of acid-fast rods (Mycobacteria), including *M. tuberculosis*, *M. avium-intracellulare*, *M. scrofulaceum*, *M. marinum*, and *M. leprae*, noting their clinical contexts (e.g., pulmonary vs. skin infections).
+
+VERDICT: CLEAN

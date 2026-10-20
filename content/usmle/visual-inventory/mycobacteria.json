@@ -1,0 +1,144 @@
+{
+  "topicId": "mycobacteria",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "mycobacteria-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "chapterId": "microbiology",
+      "visualType": "PATHOLOGY_ILLUSTRATION",
+      "visualPurpose": "The tuberculosis progression flowchart (book 138)",
+      "sourceFigureDescription": "The printed full-page flowchart: entry at the Ghon complex (Ghon focus usually mid/lower lobes + hilar nodes, with a '+' glyph) → Primary tuberculosis, splitting >90% (Healing by fibrosis, Calcification [PPD ⊕]) vs <10% (Progressive primary tuberculosis [AIDS, malnutrition]); the healing road continues to Reactivation → 2° tuberculosis (Fibrocaseous cavitary lesion, usually upper lobes) → Localized destructive disease (Cavity, Caseation, Scar); the progressive road splits to Progressive lung disease and Bacteremia → Miliary tuberculosis with a body silhouette labeling Meninges, Vertebrae (Pott disease), Joints and long bones, Lymph nodes, Lungs, Liver, Spleen, Adrenal gland. Pure vector (pdfimages empty at the diagram region).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "mycobacteria",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "tb-spectrum-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the TB SPECTRUM panel — the redraw of the printed flowchart with both roads and the miliary organ list"
+    },
+    {
+      "visualId": "mycobacteria-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The acid-fast rods micrograph (book 138)",
+      "sourceFigureDescription": "A micrograph of acid-fast rods (pink rods against a blue background) with red arrows pointing to the organisms, its marker A printed after 'Acid-fast rods (pink rods, arrows in A).'",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "mycobacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, Mycobacteria genus row — figure pointer carried verbatim; the micrograph described-in-text only"
+    },
+    {
+      "visualId": "mycobacteria-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "chapterId": "microbiology",
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "The Langhans giant cell histology (book 138)",
+      "sourceFigureDescription": "An H&E histology section showing a Langhans giant cell (a large fused-macrophage cell with peripherally arranged nuclei) with blue arrows, its marker A printed after 'Langhans giant cell (single example in A).'",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "mycobacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the histology-rule row — figure pointer carried verbatim; the histology described-in-text only"
+    },
+    {
+      "visualId": "mycobacteria-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "chapterId": "microbiology",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "The leonine facies photograph (book 139)",
+      "sourceFigureDescription": "A clinical photograph of leonine (lionlike) facies — the thickened, nodular facial skin of lepromatous leprosy — its marker A printed after 'leonine (lionlike) facies A.'",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "mycobacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, M leprae row — figure pointer carried verbatim; the photograph described-in-text only"
+    },
+    {
+      "visualId": "mycobacteria-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          160,
+          161
+        ],
+        "bookPages": "138–139"
+      },
+      "chapterId": "microbiology",
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "The tuberculoid plaques photograph (book 139)",
+      "sourceFigureDescription": "A clinical photograph of tuberculoid leprosy — a few hypoesthetic, hairless hypopigmented skin plaques — its marker B printed after 'a few hypoesthetic, hairless skin plaques B.'",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "mycobacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, M leprae row — figure pointer carried verbatim; the photograph described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "mycobacteria",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the TB progression flowchart is pure vector (redrawn as the registry visual's core panel); the 4 printed photographs/micrographs (acid-fast rods, Langhans giant cell histology, leonine facies, tuberculoid plaques) are rasters — COPYRIGHTED, described-in-text only within the note's table block rows. FA's printed mnemonic (Daring rifles target cloaked leprechauns) carried in the table block only; NOT in the visual."
+}

@@ -1,0 +1,33 @@
+Based on a detailed inspection of the provided SVG schematic, here is the QA report:
+
+**1. OVERLAPS:**
+*   **TB Spectrum Flowchart:** The arrows and text labels are well-spaced. The "MILITARY TUBERCULOSIS" box (red border) contains its bulleted list without internal overlap.
+*   **Mechanism & Rail Cards:** The four cards in the middle rail ("CORD FACTOR", "SULFATIDES", etc.) are evenly spaced with no overlapping borders or text.
+*   **Leprosy Spectrum Panels:** The two large panels are side-by-side with clear separation.
+*   **Species Roster Rows:** The five horizontal rows are stacked with consistent padding; no text from one row intrudes into another.
+*   **Verdict:** No overlaps detected.
+
+**2. CLIPPING:**
+*   **Container Boundaries:** All text within the main rounded rectangles, the individual cards, and the roster rows is fully visible. No text is cut off at the right or bottom edges of any container.
+*   **Anchors Strip:** The top-right anchor tags ("Ghon · primary · reactivation · miliary") are fully rendered within their pill-shaped background.
+*   **Footer Text:** The dense paragraph at the very bottom is fully contained within its light-blue footer box.
+*   **Verdict:** No clipping detected.
+
+**3. CONTRAST/READABILITY:**
+*   **Text/Background:** All text uses high-contrast colors (dark grey/black on white/light-grey, teal/red for headers). 
+*   **Small Text:** Even the fine print in the footer and the sub-text within the flowchart boxes is legible against the light backgrounds.
+*   **Verdict:** Readability is excellent.
+
+**4. ALIGNMENT:**
+*   **Flowchart:** Boxes are logically placed along the progression paths. Arrows connect nodes accurately.
+*   **Grid Layout:** The four mechanism cards are perfectly aligned horizontally. The five roster rows are perfectly aligned vertically.
+*   **Labels:** Section headers are consistently left-aligned with their respective content areas.
+*   **Verdict:** Alignment is professional and precise.
+
+**5. CONTENT CHECK:**
+*   **Top Two-Panel Diagram (The TB Spectrum):** This is a clinical flowchart illustrating the natural history of primary *Mycobacterium tuberculosis* infection. It branches into two main paths: ~90% of cases result in healing/latent infection (which can later reactivate), while ~10% progress to active primary disease (leading to localized or miliary TB).
+*   **Five-Four Card Rail (Virulence and Test Rail):** This section details the biological mechanisms used for diagnosis and pathogenesis, specifically covering Cord Factor, Sulfatides, PPD/IGRA testing logic, and the histological "Giant-Cell Rule" (Langhans cells).
+*   **Two-Column Comparison (The Leprosy Spectrum):** This contrasts the two polar ends of leprosy (Hansen's disease) based on immune response: Lepromatous (Th2 pole, low immunity, multibacillary) versus Tuberculoid (Th1 pole, high immunity, paucibacillary).
+*   **Bottom Roster (The Species Roster):** A taxonomic list of acid-fast rods within the *Mycobacteria* genus, distinguishing *M. tuberculosis* from atypical species like *M. avium-intracellulare*, *M. scrofulaceum*, *M. marinum*, and *M. leprae*.
+
+VERDICT: CLEAN
