@@ -200,3 +200,119 @@ export function BacterialCellAnatomy() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M2 — Stains & difficult-to-stain organisms: the gram decision + the
+// special-stain roster (the poor-stainer failure modes)
+// (source: the Stains table, pdf 145 / book 123 — the 5 printed micrographs
+//  [Trypanosomes, T. whipplei, Mycobacteria, C. neoformans, Coccidioides] are
+//  raster photos, described here; FA's printed mnemonics are NOT reproduced)
+// ---------------------------------------------------------------------------
+
+export function GramStainDecisionMap() {
+  const w = 980;
+  const h = 780;
+  const specialStains = [
+    { n: "Giemsa", t: "H pylori, Chlamydia, Borrelia, Rickettsia, Trypanosomes, Plasmodium" },
+    { n: "Periodic acid–Schiff (PAS)", t: "Stains glycogen, mucopolysaccharides — Whipple disease (Tropheryma whipplei)" },
+    { n: "Ziehl-Neelsen (carbol fuchsin)", t: "Acid-fast bacteria (Mycobacteria, Nocardia — stains mycolic acid in cell wall); protozoa (Cryptosporidium oocysts)" },
+    { n: "India ink", t: "Cryptococcus neoformans — mucicarmine can also stain the thick polysaccharide capsule red" },
+    { n: "Silver", t: "Helicobacter pylori, Legionella, Bartonella henselae, and fungi (Coccidioides, Pneumocystis jirovecii, Aspergillus fumigatus)" },
+    { n: "Fluorescent antibody", t: "Many bacteria, viruses, Pneumocystis jirovecii, Giardia, Cryptosporidium — e.g., FTA-ABS for syphilis" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Stains, an original KYP decision map. Top left: the gram stain reads the peptidoglycan layer — a thick peptidoglycan layer retains the crystal violet dye (gram positive, purple); a thin peptidoglycan layer turns red or pink with the counterstain (gram negative). It is the first-line lab test in bacterial identification. Below it, the four ways organisms fail the gram stain: Treponema and Leptospira are too thin to be visualized; Mycobacteria have a cell wall with high lipid content; Mycoplasma and Ureaplasma have no cell wall; and Legionella, Rickettsia, Chlamydia, Bartonella, Anaplasma, and Ehrlichia are primarily intracellular — Chlamydia also lack classic peptidoglycan because of deficient muramic acid. Right rail: the special-stain roster — Giemsa (H pylori, Chlamydia, Borrelia, Rickettsia, Trypanosomes, Plasmodium), periodic acid-Schiff (stains glycogen and mucopolysaccharides; Whipple disease / Tropheryma whipplei), Ziehl-Neelsen carbol fuchsin (acid-fast: Mycobacteria and Nocardia — stains mycolic acid in the cell wall; protozoa: Cryptosporidium oocysts; auramine-rhodamine more often used for screening — inexpensive, more sensitive), India ink (Cryptococcus neoformans; mucicarmine can also stain the thick polysaccharide capsule red), silver (Helicobacter pylori, Legionella, Bartonella henselae, and fungi — Coccidioides, Pneumocystis jirovecii, Aspergillus fumigatus), and fluorescent antibody (many bacteria, viruses, Pneumocystis jirovecii, Giardia, and Cryptosporidium; FTA-ABS for syphilis). Bottom strip: the five printed micrographs are conveyed as descriptions only (trypanosomes, Tropheryma whipplei, mycobacteria, Cryptococcus neoformans, Coccidioides)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Stains — the gram decision & the special-stain roster (original KYP redraw)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">read the wall → read the bug</text>
+      </g>
+
+      {/* ===== gram decision (left top) ===== */}
+      <g>
+        <rect x="36" y="76" width="440" height="180" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">GRAM STAIN — first-line lab test in bacterial identification</text>
+        <rect x="52" y="112" width="198" height="124" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="151" y="132" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-brand">THICK peptidoglycan layer</text>
+        <rect x="76" y="144" width="150" height="34" rx="6" className="fill-brand/15" />
+        <text x="151" y="158" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-brand">retains CRYSTAL VIOLET dye</text>
+        <text x="151" y="170" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">GRAM ⊕</text>
+        <text x="151" y="194" textAnchor="middle" fontSize="6" className="fill-muted-foreground">the thick wall holds the dye —</text>
+        <text x="151" y="204" textAnchor="middle" fontSize="6" className="fill-muted-foreground">the cell stays purple</text>
+        <text x="151" y="224" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">read with M1's envelope logic:</text>
+        <text x="151" y="233" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">wall thickness = stain retention</text>
+        <rect x="262" y="112" width="198" height="124" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="361" y="132" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">THIN peptidoglycan layer</text>
+        <rect x="286" y="144" width="150" height="34" rx="6" className="fill-emergency/10" />
+        <text x="361" y="158" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-emergency">turns RED/PINK with</text>
+        <text x="361" y="170" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-emergency">counterstain — GRAM ⊝</text>
+        <text x="361" y="194" textAnchor="middle" fontSize="6" className="fill-muted-foreground">the thin wall releases the primary</text>
+        <text x="361" y="204" textAnchor="middle" fontSize="6" className="fill-muted-foreground">dye; the counterstain paints it</text>
+        <text x="361" y="224" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">the counterstain: safranin-type</text>
+        <text x="361" y="233" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">red/pink readout</text>
+      </g>
+
+      {/* ===== poor stainers (left bottom) ===== */}
+      <g>
+        <rect x="36" y="272" width="440" height="376" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="294" fontSize="9" fontWeight="800" className="fill-foreground">THESE DO NOT GRAM STAIN WELL — four failure modes</text>
+        <rect x="52" y="306" width="408" height="76" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="66" y="326" fontSize="7" fontWeight="800" className="fill-foreground">① TOO THIN TO BE VISUALIZED</text>
+        <text x="66" y="340" fontSize="6.4" fontWeight="700" className="fill-brand">Treponema, Leptospira</text>
+        <text x="66" y="354" fontSize="5.8" className="fill-muted-foreground">the spirochetes: diameter below the stain's resolving readout —</text>
+        <text x="66" y="364" fontSize="5.8" className="fill-muted-foreground">visualize by other means (extension: darkfield, serology)</text>
+        <rect x="52" y="390" width="408" height="76" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="66" y="410" fontSize="7" fontWeight="800" className="fill-foreground">② CELL WALL HAS HIGH LIPID CONTENT</text>
+        <text x="66" y="424" fontSize="6.4" fontWeight="700" className="fill-brand">Mycobacteria</text>
+        <text x="66" y="438" fontSize="5.8" className="fill-muted-foreground">the mycolic-acid wall refuses the gram dyes — the acid-fast</text>
+        <text x="66" y="448" fontSize="5.8" className="fill-muted-foreground">stains (Ziehl-Neelsen; auramine-rhodamine screening) read it</text>
+        <rect x="52" y="474" width="408" height="66" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="66" y="494" fontSize="7" fontWeight="800" className="fill-foreground">③ NO CELL WALL</text>
+        <text x="66" y="508" fontSize="6.4" fontWeight="700" className="fill-brand">Mycoplasma, Ureaplasma</text>
+        <text x="66" y="522" fontSize="5.8" className="fill-muted-foreground">nothing to hold any stain — identified by other means</text>
+        <text x="66" y="532" fontSize="5.8" className="fill-muted-foreground">(extension: no peptidoglycan at all — see M1's anatomy)</text>
+        <rect x="52" y="548" width="408" height="86" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="66" y="568" fontSize="7" fontWeight="800" className="fill-foreground">④ PRIMARILY INTRACELLULAR</text>
+        <text x="66" y="582" fontSize="6.2" fontWeight="700" className="fill-brand">Legionella, Rickettsia, Chlamydia, Bartonella, Anaplasma, Ehrlichia</text>
+        <text x="66" y="596" fontSize="5.8" className="fill-muted-foreground">obligate or facultative intracellular life defeats the surface stain;</text>
+        <text x="66" y="606" fontSize="5.8" className="fill-muted-foreground">Chlamydia also lack classic peptidoglycan — deficient muramic acid</text>
+        <text x="66" y="620" fontSize="5.8" fontWeight="700" className="fill-emergency">Any of the four → the gram readout is 'no organisms seen' — switch stains.</text>
+      </g>
+
+      {/* ===== special-stain roster (right) ===== */}
+      <g>
+        <rect x="496" y="76" width="460" height="572" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="512" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE SPECIAL-STAIN ROSTER</text>
+        <text x="512" y="112" fontSize="6" className="fill-muted-foreground">each stain reads a structure the gram stain cannot</text>
+        {specialStains.map((s, i) => (
+          <g key={s.n}>
+            <rect x="512" y={124 + i * 70} width="428" height="62" rx="9" className="fill-secondary" />
+            <text x="526" y={142 + i * 70} fontSize="7" fontWeight="800" className={i === 2 ? "fill-emergency" : "fill-foreground"}>{s.n}</text>
+            {s.t.match(/.{1,56}(\s|$)/g)!.slice(0, 5).map((line, j) => (
+              <text key={j} x="526" y={154 + j * 8.5 + i * 70} fontSize="5.6" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+          </g>
+        ))}
+        <rect x="512" y="544" width="428" height="40" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1" />
+        <text x="526" y="560" fontSize="6" fontWeight="800" className="fill-brand">ACID-FAST FOOTNOTE</text>
+        <text x="526" y="572" fontSize="5.6" className="fill-muted-foreground">Auramine-rhodamine is more often used for screening</text>
+        <text x="526" y="581" fontSize="5.6" className="fill-muted-foreground">(inexpensive, more sensitive) than Ziehl-Neelsen.</text>
+        <text x="512" y="610" fontSize="6" className="fill-muted-foreground">Ziehl-Neelsen stains the mycolic acid of the cell wall —</text>
+        <text x="512" y="620" fontSize="6" className="fill-muted-foreground">the lipid that made the gram stain fail in mode ②.</text>
+        <text x="512" y="638" fontSize="6" fontWeight="700" className="fill-emergency">India ink: the capsule reads as a halo; mucicarmine paints it red.</text>
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="662" width="920" height="52" rx="9" className="fill-secondary" />
+        <text x="496" y="682" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: gram stain = first-line (thick wall purple ⊕ / thin wall pink ⊝) · poor stainers: Treponema-Leptospira thin · Mycobacteria lipid · Mycoplasma wall-less · intracellular legionella-rickettsia-chlamydia (+ Chlamydia ↓ muramic acid)</text>
+        <text x="496" y="696" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Special reads: PAS = glycogen/mucopolysaccharides (Whipple) · ZN = mycolic acid (mycobacteria, Nocardia; auramine-rhodamine screen) · India ink = Crypto capsule (mucicarmine red) · Silver = the HeLi-Legion-Barton trio + fungi · FA = antibody-labeled (FTA-ABS)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="738" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Stains table (pdf 145 / book 123 — the five printed micrographs [Trypanosomes, T. whipplei, Mycobacteria, C. neoformans, Coccidioides] are raster photos, COPYRIGHTED, never reproduced; described-in-text only). FA's printed mnemonics are NOT reproduced here; the verbatim table block is the note's own.</text>
+    </svg>
+  );
+}

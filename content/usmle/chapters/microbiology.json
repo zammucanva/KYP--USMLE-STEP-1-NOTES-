@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 38,
+  "pendingTopicCount": 37,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -113,8 +113,63 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "Gram stain as first-line ID plus the poor-stainers (treponemes too thin, mycobacteria lipid-rich, mycoplasma wall-less, intracellular legionella/rickettsia/chlamydia) — why each fails."
+      "status": "complete",
+      "productionRationale": "Gram stain as first-line ID plus the poor-stainers (treponemes too thin, mycobacteria lipid-rich, mycoplasma wall-less, intracellular legionella/rickettsia/chlamydia) — why each fails.",
+      "textbookVisuals": [
+        {
+          "visualId": "stains-identification-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              145
+            ],
+            "bookPages": "123–123"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Stains — the five printed micrographs (A-E)",
+          "sourceFigureDescription": "Five micrographs printed with figure letters: A Trypanosomes (blood smear, Giemsa), B Tropheryma whipplei (PAS-stained macrophages), C Mycobacteria (acid-fast/Nocardia-type rods), D Cryptococcus neoformans (India ink capsule halo), E Coccidioides (spherules) — one photo per stain row, each with its callout letter printed inline in the row's organism list.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "stains-identification",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "gram-stain-decision-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gram-stain-decision-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "visualId": "stains-identification-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              145
+            ],
+            "bookPages": "123–123"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Stains — the stains table",
+          "sourceFigureDescription": "The printed table (gram stain + poor-stainer block + Giemsa / PAS / Ziehl-Neelsen / India ink / Silver / Fluorescent antibody rows with the auramine-rhodamine footnote).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "stains-identification",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'The stains table — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "special-culture-requirements",

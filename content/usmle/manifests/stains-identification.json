@@ -1,0 +1,273 @@
+{
+  "topicId": "stains-identification",
+  "title": "Stains & Difficult-to-Stain Organisms",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      145
+    ],
+    "bookPages": "123–123"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Stains",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gram stain — definition (first-line; thick retains violet, thin turns red/pink)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "First-line lab test in bacterial identification. Bacteria with thick peptidoglycan layer retain crystal\nviolet dye (gram ⊕); bacteria with thin peptidoglycan layer turn red or pink (gram ⊝) with\ncounterstain.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Poor-stainer block (full physical order, incl. FA mnemonic for verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "These bugs do not Gram stain well (These Little Microbes May Unfortunately Lack Real Color\nBut Are Everywhere):\nTreponema, Leptospira\nToo thin to be visualized\nMycobacteria\nCell wall has high lipid content\nMycoplasma, Ureaplasma\nNo cell wall\nLegionella, Rickettsia, Chlamydia, Bartonella,\nAnaplasma, Ehrlichia\nPrimarily intracellular; also, Chlamydia lack\nclassic peptidoglycan because of ↓ muramic\nacid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Giemsa row (physical order; photo letter A inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Giemsa stain\nH pylori, Chlamydia, Borrelia, Rickettsia,\nTrypanosomes A , Plasmodium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — Giemsa (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Help! Certain Bugs Really Try my Patience",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PAS row (physical order; photo letter B inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Periodic acid–Schiff\nstain\nStains glycogen, mucopolysaccharides; used\nto diagnose Whipple disease (Tropheryma\nwhipplei B )",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ziehl-Neelsen row (physical order; photo letter C inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Ziehl-Neelsen stain\n(carbol fuchsin)\nAcid-fast bacteria (eg, Mycobacteria C ,\nNocardia; stains mycolic acid in cell wall);\nprotozoa (eg, Cryptosporidium oocysts)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "India ink row (physical order; photo letter D inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "India ink stain\nCryptococcus neoformans D ; mucicarmine\ncan also be used to stain thick polysaccharide\ncapsule red",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Silver row (physical order; photo letter E inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Silver stain\nHelicobacter pylori, Legionella, Bartonella\nhenselae, and fungi (eg, Coccidioides E ,\nPneumocystis jirovecii, Aspergillus fumigatus)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — silver (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "HeLiCoPters Are silver",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fluorescent antibody row (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Fluorescent antibody\nstain\nUsed to identify many bacteria, viruses,\nPneumocystis jirovecii, Giardia, and\nCryptosporidium\nExample is FTA-ABS for syphilis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Auramine-rhodamine footnote (physical position after the figure letters)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "Auramine-rhodamine stain is more often used\nfor screening (inexpensive, more sensitive)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          145
+        ],
+        "bookPages": "123"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 123",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "gram-stain-decision-map"
+  ],
+  "mechanismIds": [
+    "stain-readout-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the stains table; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "stain-readout-logic",
+      "summary": "The unified model: every stain reads one structure (wall thickness for gram; mycolic-acid wall for acid-fast; capsule for ink/mucicarmine; polysaccharides for PAS; antibody targets for FA) and the four poor-stainer modes are four anatomies that break the gram readout — with the workaround algorithm ('gram failed → pick the stain that reads the structure you suspect'), the stain-failure vs culture-failure distinction, and the extension notes (darkfield/serology for the spirochetes; cold agglutinins/Eaton agar for Mycoplasma) labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists stains and organisms without the structure→readout model or the failure-mode taxonomy; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p145 rasters = 5 content photos (218x189/190 cmyk, ids 5785-5789) = the figure letters A-E (A Trypanosomes, B Tropheryma whipplei, C Mycobacteria, D Cryptococcus neoformans, E Coccidioides) — COPYRIGHTED micrographs, conveyed as descriptions only; never reproduced. Photo callout letters quoted inline within their rows ('Trypanosomes A ,'; 'whipplei B )'; 'Mycobacteria C ,'; 'neoformans D ;'; 'Coccidioides E ,'); the standalone single-letter captions are sub-3-char (covered by the inline quotes). Text-layer quirk: 'because of \\x90↓ muramic' — a control char (U+0090) precedes the ↓ glyph; stripped by norm(), quotes given as printed minus the control char. ONE original KYP registry visual (gram-stain-decision-map: gram readout + four failure-mode cards + six-stain roster + auramine-rhodamine footnote + capsule/mucicarmine note). MNEMONIC BOUNDARY (E22+ rule): FA's printed mnemonics ('These Little Microbes May Unfortunately Lack Real Color But Are Everywhere'; 'Help! Certain Bugs Really Try my Patience'; 'HeLiCoPters Are silver') quoted for verification only — the poor-stainer block quote includes the first (it IS the source's table text, carried verbatim in the note's table block per the E20+ precedent); none reproduced in the registry visual; KYP originals authored in the mnemonics field.",
+  "updatedAt": "2026-10-20"
+}
