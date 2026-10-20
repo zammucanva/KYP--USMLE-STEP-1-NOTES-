@@ -1,0 +1,67 @@
+{
+  "topicId": "organism-groups-quick-reference",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "organism-groups-quick-reference-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126–126"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Trait directories — the catalase-test photo (photo A)",
+      "sourceFigureDescription": "One photograph of a positive catalase test (bubbles of O2 on a slide), the Catalase-positive organisms row's figure, its callout letter printed inline within the mechanism sentence ('bubbles of O2 A before').",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "organism-groups-quick-reference",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'The four trait directories — verbatim' table block, Catalase row: the printed figure pointer is carried verbatim; the photo itself (a positive catalase test with O2 bubbles) is described-in-text only, never reproduced"
+    },
+    {
+      "visualId": "organism-groups-quick-reference-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126–126"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Trait directories — the four-row directory table",
+      "sourceFigureDescription": "The printed 2-column table (category | description/organisms/notes): Catalase-positive organisms, Pigment-producing bacteria, In vivo biofilm-producing bacteria, Spore-forming bacteria.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "organism-groups-quick-reference",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'The four trait directories — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "organism-groups-quick-reference",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "TABLE NOTE by design (requiresVisual false; no registry visual). Census: the single raster is photo A (a positive catalase test with O2 bubbles) — COPYRIGHTED, described-in-text only. The directory table is reproduced verbatim as the note's table block. FA's printed mnemonics (6 on this page) carried in the table block only; KYP originals in the mnemonics field."
+}

@@ -1,0 +1,297 @@
+{
+  "topicId": "organism-groups-quick-reference",
+  "title": "Catalase, Pigment, Spore & Encapsulation Groups",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      148
+    ],
+    "bookPages": "126–126"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label — catalase (two-line left-column label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Catalase-positive\norganisms",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Catalase row (full physical order; photo letter A inline in the mechanism sentence)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Catalase degrades H2O2 into H2O and bubbles of O2 A before it can be converted to microbicidal\nproducts by the enzyme myeloperoxidase. People with chronic granulomatous disease (NADPH\noxidase deficiency) have recurrent infections with certain catalase ⊕ organisms.\nCatalase ⊕ organisms include Candida, Pseudomonas, Nocardia, Bordetella pertussis, Burkholderia\ncepacia, Helicobacter pylori, Aspergillus, Staphylococci, Serratia, Listeria, E coli. Catalase Positive:\nNotoriously Big Bubbling HASSLE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — catalase (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Notoriously Big Bubbling HASSLE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label — pigment (two-line left-column label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Pigment-producing\nbacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pigment row (full physical order; all four FA mnemonic cues inline as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Actinomyces israelii—yellow “sulfur” granules, which are composed of filaments of bacteria\nIsrael has yellow sand\nS aureus—golden yellow pigment\nAureus (Latin) = gold\nP aeruginosa—blue-green pigment (pyocyanin\nand pyoverdin)\nAerugula is green\nSerratia marcescens—red pigment\nThink red Sriracha hot sauce",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — Actinomyces (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Israel has yellow sand",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — S aureus (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Aureus (Latin) = gold",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — P aeruginosa (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Aerugula is green",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — Serratia (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Think red Sriracha hot sauce",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Biofilm row right cell (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "S epidermidis\nCatheter and prosthetic device infections\nViridans streptococci (S mutans, S sanguinis)\nDental plaques, infective endocarditis\nP aeruginosa\nRespiratory tree colonization in patients with\ncystic fibrosis, ventilator-associated pneumonia\nContact lens–associated keratitis\nNontypeable (unencapsulated) H influenzae\nOtitis media",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Spore row (full physical order; autoclave + examples + FA mnemonic inline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Some gram ⊕ bacteria can form spores when\nnutrients are limited. Spores lack metabolic\nactivity and are highly resistant to heat\nand chemicals. Core contains dipicolinic\nacid (responsible for heat resistance). Must\nautoclave to kill spores (as is done to surgical\nequipment) by steaming at 121°C for 15\nminutes at a pressure of 15 psi. Hydrogen\nperoxide and iodine-based agents are also\nsporicidal.\nExamples: B anthracis (anthrax), B cereus (food\npoisoning), Clostridium botulinum (botulism),\nClostridioides difficile (pseudomembranous\ncolitis), Clostridium perfringens (gas gangrene),\nClostridium tetani (tetanus).\nAutoclave to kill Bacillus and Clostridium\n(ABC).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — spore formers (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Autoclave to kill Bacillus and Clostridium\n(ABC).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label — biofilm (two-line left-column label emitted at page end; hyphen dropped at line join — printed 'biofilm-producing')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "In vivo biofilmproducing bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row label — spore formers (two-line left-column label emitted at page end)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "Spore-forming\nbacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          148
+        ],
+        "bookPages": "126"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 126",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "catalase-cgd-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directories; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "catalase-cgd-axis",
+      "summary": "The host-microbe enzyme axis as the organizer: the microbe's catalase vs the host's myeloperoxidase over the only H2O2 a burst-less phagocyte ever sees; the pigment row as naked-eye identification (color-to-organism pairs that never swap); the biofilm row as a device-to-organism map (catheters, dental plaques/valves, CF airway/ventilator/contact lens, middle ear); and the spore row as sterilization chemistry (dipicolinic acid → autoclave 121 °C/15 min/15 psi; H2O2 and iodine also sporicidal) — with the NBT test, myeloperoxidase deficiency, X-linked CGD inheritance, and coagulase distinctions labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists the four directories without the cross-directory mechanisms or the color/device/sterilization logics; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "TABLE NOTE by design (requiresVisual false). Census: p148 carries ONE raster (198x130 cmyk) = photo A, the Catalase-positive row's figure (a positive catalase test — bubbles of O2, the inline letter printed within the mechanism sentence 'bubbles of O2 A before') — COPYRIGHTED, described-in-text only. Layout resolved by VLM census (row order: catalase → pigment → biofilm → spore). Text-layer quirks documented: the two-line left-column labels 'In vivo biofilmproducing bacteria' (hyphen dropped at line join) and 'Spore-forming bacteria' are emitted at page end; the biofilm row's right cell emits before the spore block. MNEMONIC BOUNDARY (E22+ rule): the page's 6 FA mnemonics ('Notoriously Big Bubbling HASSLE'; 'Israel has yellow sand'; 'Aureus (Latin) = gold'; 'Aerugula is green'; 'Think red Sriracha hot sauce'; 'Autoclave to kill Bacillus and Clostridium (ABC)') quoted for verification and carried verbatim in the note's table block (they ARE the source's table text, per the E20+ precedent); no user-facing visual exists for this note; KYP originals authored in the mnemonics field.",
+  "updatedAt": "2026-10-20"
+}

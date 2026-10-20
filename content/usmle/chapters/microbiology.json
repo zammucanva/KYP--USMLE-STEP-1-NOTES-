@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 35,
+  "pendingTopicCount": 34,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -321,8 +321,64 @@
       "visualHints": [],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The trait-group directories: catalase-positive organisms (the CGD set), pigmented bugs (Actinomyces sulfur granules, S aureus gold, Pseudomonas pyocyanin), and spore formers."
+      "status": "complete",
+      "productionRationale": "The trait-group directories: catalase-positive organisms (the CGD set), pigmented bugs (Actinomyces sulfur granules, S aureus gold, Pseudomonas pyocyanin), and spore formers.",
+      "textbookVisuals": [
+        {
+          "visualId": "organism-groups-quick-reference-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              148
+            ],
+            "bookPages": "126–126"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Trait directories — the catalase-test photo (photo A)",
+          "sourceFigureDescription": "One photograph of a positive catalase test (bubbles of O2 on a slide), the Catalase-positive organisms row's figure, its callout letter printed inline within the mechanism sentence ('bubbles of O2 A before').",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "organism-groups-quick-reference",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] — 'The four trait directories — verbatim' table block, Catalase row: the printed figure pointer is carried verbatim; the photo itself (a positive catalase test with O2 bubbles) is described-in-text only, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "organism-groups-quick-reference-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              148
+            ],
+            "bookPages": "126–126"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Trait directories — the four-row directory table",
+          "sourceFigureDescription": "The printed 2-column table (category | description/organisms/notes): Catalase-positive organisms, Pigment-producing bacteria, In vivo biofilm-producing bacteria, Spore-forming bacteria.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "organism-groups-quick-reference",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] — 'The four trait directories — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "virulence-mechanisms",

@@ -1,0 +1,12 @@
+**QA Report: Microbiology Directory Table**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   All rows are clearly separated. Text in the "Directory" column does not overlap with the "Description" column. Line spacing within cells is sufficient to prevent vertical collisions.
+*   **(B) Text clipped/truncated:** **PASS**
+    *   All text content is fully visible within the cell boundaries. No words or sentences are cut off at the edges of the table or the image frame.
+*   **(C) Lines crossing text:** **PASS**
+    *   The horizontal grid lines (borders) are positioned correctly between rows and do not intersect or strike through any of the text characters.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   The dark grey/black text provides high contrast against the white and light blue backgrounds, ensuring full legibility for all entries.
+
+**Verdict: CLEAN**
