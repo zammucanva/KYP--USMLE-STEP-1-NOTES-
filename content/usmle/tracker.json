@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-20T01:04:48Z",
+  "generatedAt": "2026-10-20T13:54:13Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 96,
+    "topicsProduced": 97,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 41,
+      "pilot-complete": 42,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 9,
-      "topicsRemaining": 30,
+      "topicsProduced": 10,
+      "topicsRemaining": 29,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1043,6 +1043,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "gram-positive-bacilli",
+      "title": "Gram-Positive Bacilli: Clostridia, Corynebacterium, Listeria & the Branching Filaments",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 158, 159 (book 136–137)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "gram-positive-cocci",

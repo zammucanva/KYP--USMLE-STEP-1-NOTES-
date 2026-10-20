@@ -1,0 +1,379 @@
+{
+  "topicId": "gram-positive-bacilli",
+  "title": "Gram-Positive Bacilli: Clostridia, Corynebacterium, Listeria & the Branching Filaments",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Clinical Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      158,
+      159
+    ],
+    "bookPages": "136–137"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B cereus entry (full physical order; reheated-rice syndrome; emetic 1-5 h cereulide vs diarrheal 8-18 h; supportive care)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Bacillus cereus\n\nGram ⊕ rod. Causes food poisoning. Spores survive cooking rice (reheated rice syndrome).\nKeeping rice warm results in germination of spores and enterotoxin formation.\nEmetic type causes nausea and vomiting within 1-5 hours. Caused by cereulide, a preformed toxin.\nDiarrheal type causes watery, nonbloody diarrhea and GI pain within 8-18 hours.\nManagement: supportive care (antibiotics are ineffective against toxins).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C difficile entry part 1 (toxins A/B; pseudomembranous colitis with inline photo marker A; antibiotic and PPI risks; fulminant course)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Clostridioides difficile\n\nProduces toxins A and B, which damage\nenterocytes. Both toxins lead to watery diarrhea\n→  pseudomembranous colitis A . Often 2°\nto antibiotic use, especially clindamycin,\nampicillin, cephalosporins, fluoroquinolones;\nassociated with PPIs.\nFulminant infection: toxic megacolon, ileus,\nshock.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C difficile entry part 2 (standalone photo marker A; FA mnemonic; PCR/antigen diagnosis; oral vancomycin or fidaxomicin; fecal microbiota transplant)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "\nA\n\nDifficile causes diarrhea.\nDiagnosed by PCR or antigen detection of one\nor both toxins in stool.\nTreatment: oral vancomycin or fidaxomicin.\nFor recurrent cases, consider repeating prior\nregimen or fecal microbiota transplant.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Clostridia genus rule (gram ⊕, spore-forming, obligate anaerobic rods; tetanus and botulinum toxins are SNARE-cleaving proteases)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Clostridia\n\nGram ⊕, spore-forming, obligate anaerobic rods. Tetanus toxin and botulinum toxin are proteases\nthat cleave SNARE proteins involved in neurotransmission.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C tetani entry part 1 (noninvasive, wound-localized; tetanospasmin; retrograde axonal transport; Renshaw-cell GABA/glycine blockade; the spastic triad)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Clostridium tetani\n\nPathogen is noninvasive and remains localized\nto wound site. Produces tetanospasmin, an\nexotoxin causing tetanus. Tetanospasmin\nspreads by retrograde axonal transport to CNS\nand blocks release of GABA and glycine from\nRenshaw cells in spinal cord.\nCauses spastic paralysis, trismus (lockjaw), risus\nsardonicus (raised eyebrows and open grin),\nopisthotonos (spasms of spinal extensors).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C tetani entry part 2 (FA mnemonic; vaccine prevention; antitoxin +/− booster, antibiotics, diazepam, wound debridement)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Tetanus is tetanic paralysis.\nPrevent with tetanus vaccine. Treat with antitoxin\n+/− vaccine booster, antibiotics, diazepam (for\nmuscle spasms), and wound debridement.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C botulinum entry part 1 (heat-labile SNARE toxin; no ACh at the NMJ; floppy baby vs adult preformed toxin; the 5 D's; no sensory deficits)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Produces a heat-labile toxin that damages\nSNARE proteins, thus preventing ACh release\nat the neuromuscular junction, causing\nbotulism. In babies, ingestion of spores (eg, in\nhoney) leads to disease (floppy baby syndrome).\nIn adults, disease is caused by ingestion of\npreformed toxin (eg, in canned food).\nSymptoms of botulism (the 5 D’s): diplopia,\ndysarthria, dysphagia, dyspnea, descending\nflaccid paralysis. Does not present with\nsensory deficits.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C botulinum entry part 2 (FA mnemonic; human botulinum immunoglobulin; therapeutic Botox uses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Botulinum is from bad bottles of food, juice,\nand honey.\nTreatment: human botulinum immunoglobulin.\nLocal botulinum toxin A (Botox) injections used\nto treat focal dystonia, hyperhidrosis, muscle\nspasms, and cosmetic reduction of facial\nwrinkles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C perfringens entry part 1 (α-toxin lecithinase; myonecrosis/gas gangrene with inline photo marker A and crepitus; the <60°C standing-food rule; 10-12 h enterotoxin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Produces α-toxin (lecithinase, a phospholipase)\nthat can cause myonecrosis (gas gangrene A ;\npresents as soft tissue crepitus) and hemolysis.\nIf heavily spore-contaminated food is cooked\nbut left standing too long at <60°C, spore\ngerminate →  vegetative bacteria ingested → \nenterotoxin →  late-onset (10-12 hours) food\npoisoning symptoms, resolution in 24 hours.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C perfringens entry part 2 (FA mnemonic; spontaneous gas gangrene via hematogenous seeding; colonic malignancy; C septicum)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Perfringens perforates a gangrenous leg.\nSpontaneous gas gangrene (via hematogenous\nseeding; associated with colonic malignancy)\nis most commonly caused by Clostridium\nsepticum.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SNARE diagram text layer, part 1 — the tetanus panel (physical order, lines 93-123: 'Tetanus toxin', 'Motor neuron', 'Renshaw cell (inhibitory neuron)', 'Unopposed stimulation = spastic paralysis' labels as emitted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Tetanus toxin\n\nMotor\nneuron\n\nRenshaw cell\n(inhibitory neuron)\n\nTetanus toxin\n\nRenshaw cell\n(inhibitory neuron)\n\nUnopposed\nMotor\nstimulation\nneuron =\nspastic\nparalysis\nUnopposed\nstimulation =\nspastic\nparalysis\n\nMuscle\n\nMuscle\n\nRenshaw cell\n\n(inhibitory neuron)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SNARE diagram text layer, part 2 — the botulinum panel + the interleaved headings (physical order, lines 124-151: 'Clostridium botulinum' heading, 'No stimulation = flaccid paralysis', 'Botulism toxin', then the 'Clostridium perfringens' heading + its photo marker A emitted at stream end)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "Clostridium botulinum\nMotor\nneuron\nNo\nMotor\nstimulation\nneuron =\nflaccid\nparalysis\nNo\nstimulation =\nflaccid\nparalysis\n\nBotulism\nRenshaw cell\ntoxin\n(inhibitory neuron)\nBotulism\ntoxin\nMuscle\n\nMuscle\n\nClostridium\nperfringens\nA\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          158
+        ],
+        "bookPages": "136"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 136",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Top-of-page organism headings + photo markers (physical order: 'Corynebacterium diphtheriae A', 'Listeria monocytogenes A', 'Nocardia vs Actinomyces A B' — figure-block emission before the chapter banner)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "Corynebacterium\ndiphtheriae\nA\n\nListeria\nmonocytogenes\nA\n\nNocardia vs\nActinomyces\nA\n\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C diphtheriae entry part 1 (angular gram ⊕ rods; respiratory droplets; β-prophage; EF-2 ADP-ribosylation; pseudomembranous pharyngitis with inline photo marker A; bull's neck; myocarditis, arrhythmias, neuropathies; metachromatic granules; ⊕ Elek test; toxoid vaccine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "Gram ⊕ rods occurring in angular\narrangements; transmitted via respiratory\ndroplets. Causes diphtheria via exotoxin\nencoded by β-prophage. Potent exotoxin\ninhibits protein synthesis via ADP-ribosylation\nof EF-2, leading to possible necrosis in\npharynx, cardiac, and CNS tissue.\nSymptoms include pseudomembranous\npharyngitis (grayish-white membrane A ) with\nlymphadenopathy (“bull’s neck” appearance).\nToxin dissemination may cause myocarditis,\narrhythmias, neuropathies.\nLab diagnosis based on gram ⊕ rods with\nmetachromatic (blue and red) granules and\n⊕ Elek test for toxin.\nToxoid vaccine prevents diphtheria.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C diphtheriae entry part 2 (printed page number; FA mnemonics — Cory = club shaped, black colonies on cystine-tellurite, ABCDEFG; antitoxin +/– erythromycin or penicillin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "137\n\nSEC TION II\n\nCoryne = club shaped (metachromatic granules\non Löffler media).\nBlack colonies on cystine-tellurite agar.\nABCDEFG:\nADP-ribosylation\nβ-prophage\nCorynebacterium\nDiphtheriae\nElongation Factor 2\nGranules\nTreatment: diphtheria antitoxin +/–\nerythromycin or penicillin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "L monocytogenes entry (facultative intracellular rod; cold foods and transplacental/vaginal acquisition; cold enrichment; rocket tails with inline photo marker; listeriolysin; tumbling motility; the pregnancy/neonate/immunocompromised disease set; ampicillin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "Gram ⊕, facultative intracellular rod; acquired by ingestion of unpasteurized dairy products and\ncold deli meats, transplacental transmission, and by vaginal transmission during birth. Grows well\nat refrigeration temperatures (“cold enrichment”).\nForms “rocket tails” (red in A ) via actin polymerization that allow intracellular movement and cellto-cell spread across cell membranes, thereby avoiding antibody. Listeriolysin generates pores in\nphagosomes, allowing its escape into cytoplasm. Characteristic tumbling motility in broth.\nCan cause amnionitis, sepsis, and spontaneous abortion in pregnant patients; granulomatosis\ninfantiseptica; meningitis in immunocompromised patients, neonates, and older adults; mild, selflimited gastroenteritis in healthy individuals.\nTreatment: ampicillin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nocardia vs Actinomyces comparison table (both gram ⊕ branching filaments resembling fungi; aerobe/catalase ⊕ vs anaerobe/catalase ⊝; weakly acid fast A vs not acid fast B; soil vs microbiota; the disease columns; TMP-SMX vs penicillin; the SNAP mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "Both are gram ⊕ and form long, branching filaments resembling fungi.\nNocardia\n\nActinomyces\n\nAerobe, catalase ⊕\n\nAnaerobe, catalase ⊝\n\nAcid fast (weak) A\n\nNot acid fast B\n\nFound in soil\n\nNormal oral, reproductive, and GI microbiota\n\nCauses pulmonary infections in\nimmunocompromised (can mimic TB but\nwith ⊝ PPD); cutaneous infections after\ntrauma in immunocompetent; can spread to\nCNS →  cerebral abscess\n\nCauses oral/facial abscesses that drain through\nsinus tracts; often associated with dental caries/\nextraction and other maxillofacial trauma;\nforms yellow “sulfur granules”; can also cause\nPID with IUDs\n\nTreat with sulfonamides (TMP-SMX)\n\nTreat with penicillin\n\nTreatment is a SNAP: Sulfonamides—Nocardia; Actinomyces—Penicillin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          159
+        ],
+        "bookPages": "137"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 137",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "gram-pos-bacilli-map"
+  ],
+  "mechanismIds": [
+    "snare-axis",
+    "bacilli-injury-modes"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the organism entries and the SNARE diagram; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "address-code-model",
+      "summary": "The injury-address model as the block's organizer (same scissors, different address — the Renshaw cell vs the neuromuscular junction; then membrane, enterocyte, ribosome, cytoskeleton as the non-synaptic addresses); the incubation-clock synthesis (cereulide 1-5 h vs cereus diarrheal 8-18 h vs perfringens standing food 10-12 h vs post-antibiotic difficile); the spores-vs-preformed age split as the botulism trap; and the C-septicum-to-colonic-malignancy spontaneous-gangrene rule — with Botox therapeutics and the food-counseling contexts labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the entries and the diagram without the address taxonomy or the cross-organism timing synthesis; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p158 carries 2 rasters (C difficile pseudomembranous colitis 188x188 marker A; C perfringens gas gangrene 188x188 marker A) and p159 carries 4 (diphtheria pseudomembrane 188x188 A; Listeria rocket tails 188x168 A; Nocardia acid-fast 188x188 A; Actinomyces filaments 188x188 B) — all COPYRIGHTED, described-in-text only; standalone A/B markers sub-3-char (dropped by design). The tetanus-vs-botulism SNARE diagram is PURE VECTOR (redrawn as the registry visual's core panel); the Nocardia-vs-Actinomyces comparison table redrawn as the visual's SNAP axis with its verbatim text also carried in the note's table block. Text-layer quirks documented: the heading interleave (C botulinum at dump line 124 and C perfringens at 148-149 emitted after the SNARE label stream 93-151, separated from their body text); p159's top-of-page heading+marker block (lines 2-14); double-space arrows; '2°'; both '+/−' (U+2212) and '+/–' (en dash) forms; 'cellto-cell' hyphen-drop; the source's own 'spore germinate' (sic); '5 D's' curly apostrophe; '“bull's neck”' curly quotes. FA mnemonics (Difficile causes diarrhea; Tetanus is tetanic paralysis; bad bottles; Perfringens perforates; Cory = club; black colonies on cystine-tellurite; ABCDEFG; SNAP) carried verbatim in the table block only (NOT in the visual). Boundary: the B-anthracis bridge on book 135 was covered by M9 per page ownership — this note begins at Bacillus cereus (book 136).",
+  "updatedAt": "2026-10-20"
+}

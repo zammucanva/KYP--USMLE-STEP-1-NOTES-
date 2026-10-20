@@ -1047,3 +1047,165 @@ export function GramPosCocciTree() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M10 — Gram-positive bacilli: the toxin map (SNARE axis redraw + mechanism
+// rail + the Nocardia/Actinomyces SNAP axis) + the organism roster
+// (source: pdf 158-159 / book 136-137 — the tetanus-vs-botulism SNARE panels
+//  are pure vector; the printed photos [pseudomembranous colitis, gas
+//  gangrene, diphtheria pseudomembrane, Listeria rocket tails, Nocardia
+//  acid-fast, Actinomyces filaments] are raster, COPYRIGHTED, described here)
+// ---------------------------------------------------------------------------
+
+export function GramPosBacilliMap() {
+  const w = 980;
+  const h = 1200;
+  const roster = [
+    { n: "B cereus", c: "brand", t: "Gram ⊕ rod; spores survive cooking rice — keeping rice warm → germination + enterotoxin (reheated-rice syndrome)", d: "Emetic: nausea/vomiting in 1-5 h (cereulide, a preformed toxin). Diarrheal: watery, nonbloody diarrhea + GI pain in 8-18 h. Supportive care — antibiotics ineffective against toxins" },
+    { n: "C difficile", c: "brand", t: "Toxins A and B damage enterocytes; often 2° to antibiotic use (clindamycin, ampicillin, cephalosporins, fluoroquinolones); associated with PPIs", d: "Watery diarrhea → pseudomembranous colitis; fulminant: toxic megacolon, ileus, shock. Dx: PCR or antigen detection in stool. Rx: oral vancomycin or fidaxomicin; recurrent → repeat regimen or fecal microbiota transplant" },
+    { n: "C tetani", c: "brand", t: "Gram ⊕, spore-forming, obligate anaerobic rod; noninvasive — remains localized to wound; tetanospasmin spreads by retrograde axonal transport to CNS", d: "Blocks GABA + glycine release from Renshaw cells → spastic paralysis: trismus (lockjaw), risus sardonicus, opisthotonos. Prevent: vaccine. Treat: antitoxin +/− booster, antibiotics, diazepam, wound debridement" },
+    { n: "C botulinum", c: "brand", t: "Heat-labile toxin damages SNARE proteins → no ACh release at the neuromuscular junction; babies: ingested spores (honey); adults: preformed toxin (canned food)", d: "The 5 D's: diplopia, dysarthria, dysphagia, dyspnea, descending flaccid paralysis; NO sensory deficits. Rx: human botulinum immunoglobulin. Botox: focal dystonia, hyperhidrosis, muscle spasms, cosmetic wrinkles" },
+    { n: "C perfringens", c: "brand", t: "α-toxin (lecithinase, a phospholipase); heavily spore-contaminated food cooked but left standing <60°C → germination → vegetative bacteria → enterotoxin", d: "Myonecrosis (gas gangrene; soft-tissue crepitus) + hemolysis; late-onset food poisoning at 10-12 h, resolution in 24 h. Spontaneous gas gangrene (hematogenous; colonic malignancy) = C septicum" },
+    { n: "C diphtheriae", c: "emergency", t: "Gram ⊕ rods in angular arrangements; respiratory droplets; exotoxin encoded by β-prophage; ADP-ribosylation of EF-2 halts protein synthesis", d: "Pseudomembranous pharyngitis (grayish-white membrane), bull's neck; toxin → myocarditis, arrhythmias, neuropathies. Metachromatic granules; Löffler media; black colonies on cystine-tellurite; ⊕ Elek test. Antitoxin +/– erythromycin or penicillin; toxoid vaccine" },
+    { n: "L monocytogenes", c: "emergency", t: "Gram ⊕, facultative intracellular rod; unpasteurized dairy + cold deli meats; transplacental + vaginal transmission; grows at refrigeration temps (cold enrichment)", d: "Rocket tails (actin polymerization) → cell-to-cell spread, avoiding antibody; listeriolysin escapes the phagosome; tumbling motility. Amnionitis, sepsis, spontaneous abortion; granulomatosis infantiseptica; meningitis (immunocompromised, neonates, older adults). Rx: ampicillin" },
+    { n: "Nocardia", c: "foreground", t: "Gram ⊕ long branching filaments (resemble fungi); aerobe, catalase ⊕; weakly acid fast; found in soil", d: "Pulmonary infections in immunocompromised (mimic TB but ⊝ PPD); cutaneous after trauma; spreads to CNS → cerebral abscess. Treat with sulfonamides (TMP-SMX)" },
+    { n: "Actinomyces", c: "foreground", t: "Gram ⊕ long branching filaments (resemble fungi); anaerobe, catalase ⊝; not acid fast; normal oral, reproductive, GI microbiota", d: "Oral/facial abscesses draining through sinus tracts (dental caries/extraction, maxillofacial trauma); yellow sulfur granules; PID with IUDs. Treat with penicillin" },
+  ];
+  const snapRows = [
+    ["OXYGEN / CATALASE", "Aerobe, catalase ⊕", "Anaerobe, catalase ⊝"],
+    ["ACID FAST", "Acid fast (weak)", "Not acid fast"],
+    ["HABITAT", "Found in soil", "Normal oral, reproductive, and GI microbiota"],
+    ["DISEASES", "Pulmonary infections in immunocompromised (can mimic TB but with ⊝ PPD); cutaneous after trauma; CNS → cerebral abscess", "Oral/facial abscesses draining through sinus tracts; dental caries/extraction; yellow sulfur granules; PID with IUDs"],
+    ["TREATMENT", "Sulfonamides (TMP-SMX)", "Penicillin"],
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Gram-positive bacilli, an original KYP toxin map and roster. THE SNARE AXIS (a redraw of the printed two-panel diagram): tetanus toxin and botulinum toxin are proteases that cleave SNARE proteins. LEFT PANEL — TETANUS: the motor neuron stimulates the muscle; the Renshaw cell (an inhibitory interneuron) normally brakes it with GABA and glycine; tetanospasmin travels by retrograde axonal transport to the CNS and blocks the Renshaw cell's release of GABA and glycine — inhibition removed — unopposed stimulation equals spastic paralysis (trismus, risus sardonicus, opisthotonos). RIGHT PANEL — BOTULISM: the Renshaw cell is spared; botulinum toxin acts at the motor neuron terminal, preventing acetylcholine release at the neuromuscular junction — no stimulation equals flaccid paralysis (the 5 D's: diplopia, dysarthria, dysphagia, dyspnea, descending flaccid paralysis, without sensory deficits; babies get spores in honey — floppy baby; adults get preformed toxin in canned food). THE MECHANISM RAIL: five toxin classes — SNARE at the Renshaw cell (tetani), SNARE at the neuromuscular junction (botulinum), EF-2 ADP-ribosylation by the beta-prophage exotoxin (diphtheriae — halts protein synthesis; pharyngeal, cardiac, CNS necrosis), alpha-toxin lecithinase (perfringens — myonecrosis, gas gangrene, hemolysis, crepitus), and the enterotoxins (difficile toxins A and B — pseudomembranous colitis after clindamycin and PPIs; cereus — cereulide emetic disease at 1-5 hours from reheated rice vs diarrheal at 8-18 hours). THE SNAP AXIS: Nocardia (aerobe, catalase positive, weakly acid fast, soil, pulmonary and CNS abscess, treat with sulfonamides TMP-SMX) vs Actinomyces (anaerobe, catalase negative, not acid fast, normal microbiota, oral and facial abscesses with sinus tracts and sulfur granules, PID with IUDs, treat with penicillin). THE ROSTER: nine organism rows — Bacillus cereus, Clostridioides difficile, Clostridium tetani, Clostridium botulinum, Clostridium perfringens (with C septicum and colonic malignancy), Corynebacterium diphtheriae (metachromatic granules, Loeffler media, cystine-tellurite, Elek test), Listeria monocytogenes (cold enrichment, rocket tails, listeriolysin, ampicillin), Nocardia, Actinomyces" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Gram-positive bacilli — the toxin map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" rx="9" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">SNARE axis · EF-2 · lecithinase · actin rockets</text>
+      </g>
+
+      {/* ===== THE SNARE AXIS (redraw of the printed two-panel diagram) ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="250" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE SNARE AXIS — tetanus vs botulism (both toxins are proteases that cleave SNARE proteins)</text>
+
+        {/* left panel: tetanus */}
+        <rect x="52" y="110" width="438" height="200" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="66" y="128" fontSize="7.4" fontWeight="800" className="fill-emergency">C TETANI — tetanospasmin (retrograde axonal transport to CNS)</text>
+        <rect x="66" y="138" width="180" height="30" rx="6" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-foreground">Renshaw cell (inhibitory neuron)</text>
+        <text x="156" y="160" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">releases GABA + glycine to brake the motor neuron</text>
+        <text x="256" y="150" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝ BLOCKED</text>
+        <text x="256" y="160" fontSize="5.2" className="fill-muted-foreground">no GABA / no glycine release</text>
+        <rect x="66" y="196" width="150" height="30" rx="6" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="141" y="208" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-foreground">Motor neuron</text>
+        <text x="141" y="218" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">runs unopposed</text>
+        <path d="M 216 211 L 286 211" strokeWidth="1.6" className="stroke-foreground" markerEnd="url(#m10arrow)" />
+        <rect x="288" y="196" width="90" height="30" rx="6" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="333" y="208" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-foreground">Muscle</text>
+        <text x="333" y="218" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">contracting</text>
+        <path d="M 156 168 L 141 196" strokeWidth="1.2" strokeDasharray="3 2" className="stroke-muted-foreground" />
+        <text x="66" y="240" fontSize="5.6" className="fill-muted-foreground">Noninvasive — remains localized to the wound; toxin travels the axon to the spinal cord.</text>
+        <rect x="66" y="248" width="410" height="52" rx="8" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="271" y="266" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-emergency">Unopposed stimulation = SPASTIC paralysis</text>
+        <text x="271" y="278" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">trismus (lockjaw) · risus sardonicus (raised eyebrows, open grin) · opisthotonos (spasms of spinal extensors)</text>
+        <text x="271" y="290" textAnchor="middle" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">prevent: vaccine · treat: antitoxin +/− booster, antibiotics, diazepam, wound debridement</text>
+
+        {/* right panel: botulism */}
+        <rect x="502" y="110" width="424" height="200" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="516" y="128" fontSize="7.4" fontWeight="800" className="fill-brand">C BOTULINUM — heat-labile toxin (at the neuromuscular junction)</text>
+        <rect x="516" y="138" width="180" height="30" rx="6" className="fill-secondary/50 stroke-border" strokeWidth="1" />
+        <text x="606" y="150" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">Renshaw cell (inhibitory neuron)</text>
+        <text x="606" y="160" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">SPARED — inhibition intact</text>
+        <rect x="516" y="196" width="150" height="30" rx="6" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="591" y="208" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-foreground">Motor neuron</text>
+        <text x="591" y="218" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">terminal ⊝ ACh release</text>
+        <text x="676" y="211" fontSize="6.4" fontWeight="800" className="fill-brand">⊝ BLOCKED</text>
+        <path d="M 666 211 L 726 211" strokeWidth="1.6" strokeDasharray="3 2" className="stroke-muted-foreground" markerEnd="url(#m10arrow)" />
+        <text x="696" y="203" textAnchor="middle" fontSize="5.0" className="fill-muted-foreground">no ACh</text>
+        <rect x="728" y="196" width="90" height="30" rx="6" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="773" y="208" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-foreground">Muscle</text>
+        <text x="773" y="218" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">silent</text>
+        <text x="516" y="240" fontSize="5.6" className="fill-muted-foreground">Babies: ingested spores (honey) → floppy baby syndrome. Adults: preformed toxin (canned food).</text>
+        <rect x="516" y="248" width="396" height="52" rx="8" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="714" y="266" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-brand">No stimulation = FLACCID paralysis</text>
+        <text x="714" y="278" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">the 5 D's: diplopia · dysarthria · dysphagia · dyspnea · descending flaccid paralysis — no sensory deficits</text>
+        <text x="714" y="290" textAnchor="middle" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">treat: human botulinum immunoglobulin · Botox: focal dystonia, hyperhidrosis, spasms, wrinkles</text>
+        <defs>
+          <marker id="m10arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" className="fill-foreground" />
+          </marker>
+        </defs>
+      </g>
+
+      {/* ===== THE MECHANISM RAIL ===== */}
+      <g>
+        <rect x="36" y="342" width="908" height="180" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="364" fontSize="9" fontWeight="800" className="fill-foreground">THE MECHANISM RAIL — five ways the bacilli injure</text>
+        {[
+          { t: "SNARE @ RENSHAW", o: "C tetani", lines: ["Tetanospasmin blocks", "GABA + glycine release", "from Renshaw cells →", "unopposed stimulation", "= spastic paralysis"], tone: "emergency" },
+          { t: "SNARE @ NMJ", o: "C botulinum", lines: ["Heat-labile toxin blocks", "ACh release at the NMJ", "→ no stimulation", "= flaccid paralysis", "(floppy baby; canned food)"], tone: "brand" },
+          { t: "EF-2 BLOCK", o: "C diphtheriae", lines: ["β-prophage exotoxin", "ADP-ribosylates EF-2 →", "protein synthesis halts", "→ necrosis: pharynx,", "cardiac, CNS tissue"], tone: "brand" },
+          { t: "LECITHINASE", o: "C perfringens", lines: ["α-toxin (a phospholipase)", "→ myonecrosis (gas", "gangrene; crepitus) +", "hemolysis; food left", "<60°C → 10-12 h enterotoxin"], tone: "brand" },
+          { t: "ENTEROTOXINS", o: "C difficile · B cereus", lines: ["Toxins A/B → watery diarrhea", "→ pseudomembranous", "colitis (after antibiotics", "+ PPIs). Cereus: cereulide", "emetic 1-5 h vs diarrheal 8-18 h"], tone: "brand" },
+        ].map((c, i) => (
+          <g key={c.t}>
+            <rect x={52 + i * 178} y="378" width="168" height="130" rx="10" className="fill-secondary/60 stroke-border" strokeWidth="1" />
+            <text x={62 + i * 178} y="394" fontSize="6.6" fontWeight="800" className={c.tone === "emergency" ? "fill-emergency" : "fill-brand"}>{c.t}</text>
+            <text x={62 + i * 178} y="404" fontSize="5.6" fontWeight="700" className="fill-foreground">{c.o}</text>
+            {c.lines.map((ln, j) => (
+              <text key={j} x={62 + i * 178} y={418 + j * 10} fontSize="5.4" className="fill-muted-foreground">{ln}</text>
+            ))}
+          </g>
+        ))}
+        <text x="52" y="517" fontSize="5.6" className="fill-muted-foreground">Spontaneous gas gangrene via hematogenous seeding (associated with colonic malignancy) is most commonly C septicum — the bacilli block's malignancy marker.</text>
+      </g>
+
+      {/* ===== THE SNAP AXIS (Nocardia vs Actinomyces) ===== */}
+      <g>
+        <rect x="36" y="538" width="908" height="162" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="560" fontSize="9" fontWeight="800" className="fill-foreground">THE SNAP AXIS — Nocardia vs Actinomyces (both: gram ⊕, long branching filaments resembling fungi)</text>
+        <text x="250" y="578" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">NOCARDIA</text>
+        <text x="600" y="578" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">ACTINOMYCES</text>
+        {snapRows.map((r, i) => (
+          <g key={r[0]}>
+            <rect x="52" y={586 + i * 22} width="880" height="20" rx="4" className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x="62" y={599 + i * 22} fontSize="5.8" fontWeight="800" className="fill-foreground">{r[0]}</text>
+            <text x="250" y={599 + i * 22} fontSize="5.4" className="fill-muted-foreground">{r[1]}</text>
+            <text x="600" y={599 + i * 22} fontSize="5.4" className="fill-muted-foreground">{r[2]}</text>
+          </g>
+        ))}
+        <text x="496" y="694" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">SNAP: Sulfonamides — Nocardia; Actinomyces — Penicillin (the treatment is a SNAP)</text>
+      </g>
+
+      {/* ===== THE ROSTER ===== */}
+      <g>
+        <rect x="36" y="716" width="908" height="398" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="738" fontSize="9" fontWeight="800" className="fill-foreground">THE ORGANISM ROSTER — signature · diseases</text>
+        {roster.map((r, i) => (
+          <g key={r.n}>
+            <rect x="52" y={748 + i * 40} width="876" height="34" rx="7" className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x="64" y={762 + i * 40} fontSize="6.4" fontWeight="800" className={r.c === "brand" ? "fill-brand" : r.c === "emergency" ? "fill-emergency" : "fill-foreground"}>{r.n}</text>
+            <text x="200" y={762 + i * 40} fontSize="5.2" className="fill-muted-foreground">{r.t.match(/.{1,86}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+            <text x="200" y={773 + i * 40} fontSize="5.2" className="fill-muted-foreground">{r.d.match(/.{1,86}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1128" width="908" height="44" rx="8" className="fill-secondary" />
+        <text x="490" y="1142" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">SNARE axis: tetanus blocks the Renshaw cell (spastic; retrograde axonal transport) · botulism blocks the NMJ (flaccid) · no sensory deficits in botulism · babies = spores in honey, adults = preformed toxin in cans</text>
+        <text x="490" y="1154" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Reheated rice: emetic 1-5 h (preformed cereulide) vs diarrheal 8-18 h · C diff follows clindamycin-class antibiotics and PPIs → oral vancomycin or fidaxomicin (FMT if recurrent) · food left standing &lt;60°C → perfringens 10-12 h</text>
+        <text x="490" y="1166" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Diphtheria: β-prophage toxin, EF-2, bull's neck, Elek test, antitoxin ± erythromycin/penicillin, toxoid vaccine · Listeria: cold enrichment, rocket tails, tumbling motility, ampicillin · SNAP = Sulfonamides-Nocardia, Actinomyces-Penicillin</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="1190" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's tetanus-vs-botulism SNARE panels (pdf 158 / book 136 — pure vector) with the mechanism rail, the Nocardia-vs-Actinomyces SNAP axis, and the organism roster from books 136-137. The printed photographs (pseudomembranous colitis, gas gangrene, diphtheria pseudomembrane, Listeria rocket tails, Nocardia acid-fast, Actinomyces filaments) are raster, COPYRIGHTED, described-in-text only. FA's printed mnemonics (Difficile causes diarrhea; bad bottles; Perfringens perforates; Cory = club; ABCDEFG; SNAP) are NOT reproduced here — verification only.</text>
+    </svg>
+  );
+}

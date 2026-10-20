@@ -1,0 +1,13 @@
+**QA Report: element-gram-pos-bacilli-map-light.png**
+
+1.  **OVERLAPS:** No text labels or graphics are overlapping. The spacing between the two SNARE panels, the five mechanism cards, the SNAP table rows, and the nine roster rows is consistent and clear. Arrows and boxes are well-separated.
+2.  **CLIPPING:** No clipping detected. All text within the cards, panels, table rows, and the top/bottom anchor strips is fully visible. No shapes are cut off by container boundaries.
+3.  **CONTRAST/READABILITY:** Readability is excellent. The use of dark grey/black text against light backgrounds (white and very pale cyan/grey) provides high contrast. The colored headers (red for danger/pathogens, teal for categories) are legible and do not hinder readability.
+4.  **ALIGNMENT:** All elements appear professionally aligned. The two-column layout of the SNARE axis is balanced. The five cards in the Mechanism Rail are evenly distributed. The table rows in the SNAP Axis and Organism Roster are perfectly aligned horizontally and vertically.
+5.  **CONTENT CHECK:**
+    *   **Top Two-Panel Diagram (The SNARE Axis):** Compares the mechanisms of *Clostridium tetani* and *C. botulinum*. It illustrates how Tetanus toxin travels retrogradely to the spinal cord to block inhibitory neurons (causing spastic paralysis), whereas Botulinum toxin acts peripherally at the neuromuscular junction to block motor neuron release (causing flaccid paralysis).
+    *   **Five-Card Rail (The Mechanism Rail):** Summarizes five distinct pathogenic pathways used by Gram-positive bacilli: exotoxin production (SNARE/Renshaw), neuromuscular junction blockade (SNARE/NMJ), binary toxin action (EF-2 Block), enzymatic membrane damage (Lecithinase), and enterotoxicity (Enterotoxins).
+    *   **Two-Column Comparison (The SNAP Axis):** Provides a differential diagnosis table comparing *Nocardia* and *Actinomyces* (both Gram-positive, branching, fungus-like organisms) across categories like oxygen requirement, acid-fast staining, habitat, diseases caused, and treatment (specifically highlighting the "SNAP" mnemonic for Sulfa/Nocardia).
+    *   **Bottom Roster (The Organism Roster):** A detailed list of nine specific Gram-positive bacilli (*B. cereus*, *C. difficile*, *C. tetani*, *C. botulinum*, *C. perfringens*, *C. diphtheriae*, *L. monocytogenes*, *Nocardia*, and *Actinomyces*), providing their signature characteristics and associated clinical diseases.
+
+VERDICT: CLEAN

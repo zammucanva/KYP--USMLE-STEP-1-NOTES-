@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 30,
+  "pendingTopicCount": 29,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -1025,8 +1025,234 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Clinical Bacteriology",
-      "status": "pending",
-      "productionRationale": "The spore-forming clostridia (tetani, botulinum, perfringens, difficile) with their toxin mechanics, plus the aerobic diphtheroids (diphtheriae ADP-ribosylation, Listeria cold-growth motility, Actinomyces vs Nocardia)."
+      "status": "complete",
+      "productionRationale": "The spore-forming clostridia (tetani, botulinum, perfringens, difficile) with their toxin mechanics, plus the aerobic diphtheroids (diphtheriae ADP-ribosylation, Listeria cold-growth motility, Actinomyces vs Nocardia).",
+      "textbookVisuals": [
+        {
+          "visualId": "gram-positive-bacilli-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "PHYSIOLOGY_DIAGRAM",
+          "visualPurpose": "The tetanus-vs-botulism SNARE panels (book 136)",
+          "sourceFigureDescription": "The printed two-panel diagram: each panel carries a Motor neuron, a Renshaw cell (inhibitory neuron), and a Muscle. LEFT (tetanus): tetanus toxin blocks the Renshaw cell — unopposed stimulation = spastic paralysis. RIGHT (botulism): botulism toxin blocks the motor-neuron terminal at the neuromuscular junction — no stimulation = flaccid paralysis. Pure vector (pdfimages empty at the diagram region).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gram-pos-bacilli-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the SNARE AXIS panel — the redraw of both printed panels",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gram-pos-bacilli-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "C difficile — the pseudomembranous colitis photograph (book 136)",
+          "sourceFigureDescription": "An endoscopic photograph of pseudomembranous colitis (yellowish plaques on inflamed mucosa), its marker A printed after 'pseudomembranous colitis' in the C difficile entry.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, C difficile rows — figure pointer carried verbatim; the photograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "C perfringens — the gas gangrene photograph (book 136)",
+          "sourceFigureDescription": "A clinical photograph of gas gangrene (myonecrosis) of a limb with dark necrotic tissue, its marker A printed at the section heading 'Clostridium perfringens' (heading emitted in the text layer after the SNARE diagram labels).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, C perfringens rows — figure pointer carried verbatim; the photograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "C diphtheriae — the pseudomembrane photograph (book 137)",
+          "sourceFigureDescription": "A clinical photograph of the grayish-white pharyngeal pseudomembrane of diphtheria, its marker A printed after 'grayish-white membrane'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, C diphtheriae rows — figure pointer carried verbatim; the photograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "L monocytogenes — the rocket-tails photomicrograph (book 137)",
+          "sourceFigureDescription": "A photomicrograph of Listeria actin 'rocket tails' (red), its marker A printed after 'Forms rocket tails (red in A)'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, L monocytogenes rows — figure pointer carried verbatim; the photomicrograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Nocardia — the acid-fast micrograph (book 137)",
+          "sourceFigureDescription": "An acid-fast stain micrograph of Nocardia's branching filaments (weakly acid fast), its marker A printed in the comparison table's 'Acid fast (weak) A' row.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Nocardia-vs-Actinomyces row — figure pointer carried verbatim; the micrograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv7",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Actinomyces — the branching-filament micrograph (book 137)",
+          "sourceFigureDescription": "A micrograph of Actinomyces branching filaments (not acid fast), its marker B printed in the comparison table's 'Not acid fast B' row.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Nocardia-vs-Actinomyces row — figure pointer carried verbatim; the micrograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-positive-bacilli-sv8",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              158,
+              159
+            ],
+            "bookPages": "136–137"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Nocardia vs Actinomyces comparison table (book 137)",
+          "sourceFigureDescription": "The printed two-column comparison: Nocardia (aerobe, catalase ⊕; acid fast [weak]; found in soil; pulmonary infections in immunocompromised mimicking TB with ⊝ PPD, cutaneous after trauma, CNS → cerebral abscess; treat with sulfonamides [TMP-SMX]) vs Actinomyces (anaerobe, catalase ⊝; not acid fast; normal oral, reproductive, and GI microbiota; oral/facial abscesses draining through sinus tracts, sulfur granules, PID with IUDs; treat with penicillin), with the SNAP mnemonic printed beneath.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-positive-bacilli",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gram-pos-bacilli-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the SNAP AXIS panel of the visual; the verbatim table text also carried in the note's table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gram-pos-bacilli-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "mycobacteria",

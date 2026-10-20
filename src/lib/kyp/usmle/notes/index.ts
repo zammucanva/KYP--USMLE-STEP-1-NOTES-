@@ -60,6 +60,7 @@ import { virulenceMechanisms } from "./virulence-mechanisms";
 import { bacterialGenetics } from "./bacterial-genetics";
 import { exotoxinsEndotoxins } from "./exotoxins-endotoxins";
 import { gramPositiveCocci } from "./gram-positive-cocci";
+import { gramPositiveBacilli } from "./gram-positive-bacilli";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -203,6 +204,7 @@ export const usmleNotes: KypUsMLENote[] = [
   bacterialGenetics,
   exotoxinsEndotoxins,
   gramPositiveCocci,
+  gramPositiveBacilli,
   cranialNerves,
   diabetesMellitus,
 ];

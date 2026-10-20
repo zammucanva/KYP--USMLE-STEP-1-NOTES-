@@ -1,0 +1,13 @@
+**QA Report: element-gram-pos-bacilli-map-dark.png**
+
+1.  **OVERLAPS:** No overlaps detected. Text labels within the SNARE panels, the five mechanism cards, the SNAP table rows, and the nine organism roster rows are well-spaced. Arrows and boxes do not intersect with text inappropriately.
+2.  **CLIPPING:** No clipping observed. All text is fully contained within its respective cards, rows, and panels. The top "anchors" strip and all bottom footer text are complete and uncut.
+3.  **CONTRAST/READABILITY:** Excellent. The use of bright cyan and red/magenta headers against the dark charcoal background provides high contrast. Body text is a legible light grey. No readability issues found.
+4.  **ALIGNMENT:** All elements are properly aligned. The two-column SNARE diagram is balanced; the five-card rail is evenly distributed; table rows are flush; and the roster labels are consistently indented.
+5.  **CONTENT CHECK:**
+    *   **Top Two-Panel Diagram (SNARE Axis):** Compares Tetanus and Botulinum toxins. It illustrates how Tetanus causes spastic paralysis by blocking inhibitory neurons (retrograde transport), while Botulinum causes flaccid paralysis by blocking excitatory motor neurons at the neuromuscular junction.
+    *   **Five-Card Rail (Mechanism Rail):** Lists five distinct pathogenic mechanisms of Gram-positive bacilli: exotoxin action (Renshaw/NMJ), EF-2 block (Diphtheria), lecithinase activity (C. perfringens), and enterotoxin production (C. difficile).
+    *   **Two-Column Comparison (SNAP Axis):** A tabular comparison between *Nocardia* and *Actinomyces*, highlighting differences in oxygen requirements, acid-fast staining, habitat, clinical diseases, and treatment (specifically the role of SNAP/Sulfonamides).
+    *   **Bottom Roster (Organism Roster):** A detailed list of nine specific Gram-positive bacilli (and related organisms like Listeria and Nocardia) providing their key identifying features, morphology, and associated clinical presentations.
+
+VERDICT: CLEAN
