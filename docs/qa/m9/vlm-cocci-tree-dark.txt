@@ -1,0 +1,15 @@
+**QA Report: Dark Mode Inspection**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   *Observation:* All text elements, including the dense decision tree logic and the organism roster below, maintain clear spatial separation. No characters or lines of text overlap with one another.
+
+*   **(B) Text clipped/truncated:** **PASS**
+    *   *Observation:* All content is fully visible within its respective containers. No words are cut off at the edges of the boxes, and the bottom footer/legend is completely rendered without being hidden by the viewport boundary.
+
+*   **(C) Lines crossing text:** **PASS**
+    *   *Observation:* The layout uses container-based grouping (boxes) rather than traditional node-and-edge lines. There are no connector lines or borders that intersect or strike through the body of the text.
+
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   *Observation:* The color palette provides high contrast against the dark background. Primary headings are bright white/cyan, while secondary descriptive text is a legible light grey. Even the smaller print in the "Test Signatures" rail and the bottom anchor legend remains clearly readable.
+
+**Verdict: CLEAN**

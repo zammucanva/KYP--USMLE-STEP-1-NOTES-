@@ -915,3 +915,135 @@ export function ToxinComparisonMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M9 — Gram-positive cocci: the lab-algorithm decision tree (catalase,
+// coagulase, hemolysis, optochin/bacitracin/novobiocin/NaCl gates) + the
+// organism roster (staphylococci, streptococci, enterococci)
+// (source: pdf 154-157 / book 132-135 — the decision tree is pure vector;
+//  the printed photos [hemolysis agar, S aureus clusters, S pneumoniae
+//  diplococci, S pyogenes chains] are raster, COPYRIGHTED, described here)
+// ---------------------------------------------------------------------------
+
+export function GramPosCocciTree() {
+  const w = 980;
+  const h = 900;
+  const roster = [
+    { n: "S aureus", t: "Gram ⊕, β-hemolytic, catalase ⊕, coagulase ⊕ cocci in clusters. Protein A binds Fc-IgG (inhibits complement activation and phagocytosis). Colonizes skin, nares, ears, axilla, groin", d: "Inflammatory (skin/abscesses/pneonia after flu/IE/septic arthritis/osteomyelitis) + toxin-mediated (TSST-1, scalded skin, rapid-onset food poisoning). MRSA: altered PBVs (mecA); PVL kills leukocytes. Coagulase + toxins form fibrin clot around itself → abscess" },
+    { n: "S epidermidis", t: "Gram ⊕, catalase ⊕, coagulase ⊝, urease ⊕ cocci in clusters. Novobiocin SENSITIVE. Does not ferment mannitol (vs S aureus)", d: "Normal skin microbiota; contaminates blood cultures. Infects prosthetic devices (hip implant, heart valve) and IV catheters via adherent biofilms" },
+    { n: "S saprophyticus", t: "Gram ⊕, catalase ⊕, coagulase ⊝, urease ⊕ cocci in clusters. Novobiocin RESISTANT", d: "Normal microbiota of female genital tract and perineum. Second most common cause of uncomplicated UTI in young females (most common: E coli)" },
+    { n: "S pneumoniae", t: "Gram ⊕, α-hemolytic, lancet-shaped diplococci. Encapsulated (no virulence without capsule). IgA protease. Optochin SENSITIVE, bile SOLUBLE", d: "MOPS: Meningitis, Otitis media (children), Pneumonia (rusty sputum), Sinusitis. Hyposplenia/asplenia predispose. Vaccines: conjugate (PCV13/15/20) + polysaccharide (PPSV23)" },
+    { n: "Viridans streptococci", t: "Gram ⊕, α-hemolytic cocci. Optochin RESISTANT, bile INSOLUBLE. Normal microbiota of oropharynx", d: "S mutans + S mitis: dental caries. S sanguinis: dextrans bind fibrin-platelet aggregates on damaged heart valves → infective endocarditis" },
+    { n: "S pyogenes (group A)", t: "Gram ⊕ cocci in chains. Bacitracin SENSITIVE, β-hemolytic, PYR ⊕. Hyaluronic acid capsule + M protein inhibit phagocytosis; M protein ≈ host myosin → autoimmunity (rheumatic carditis)", d: "Pyogenic (pharyngitis, cellulitis, impetigo honey-crusted, erysipelas) + toxigenic (scarlet fever, TSLS, necrotizing fasciitis) + immunologic (rheumatic fever, glomerulonephritis). DNase, erythrogenic exotoxin, streptokinase, streptolysin O; ASO / anti-DNase B" },
+    { n: "S agalactiae (group B)", t: "Gram ⊕ cocci, bacitracin RESISTANT, β-hemolytic. Polysaccharide capsule confers virulence. CAMP factor enlarges S aureus hemolysis; hippurate ⊕; PYR ⊝", d: "Colonizes vagina; pneumonia, meningitis, sepsis mainly in BABIES. Screen at 35-37 weeks (rectal + vaginal swabs); ⊕ culture → intrapartum penicillin/ampicillin prophylaxis" },
+    { n: "S gallolyticus", t: "Formerly S bovis. Gram ⊕ cocci, colonizes the gut", d: "Bacteremia and infective endocarditis; ↑ incidence of colon cancer (bovis in the blood = cancer in the colon)" },
+    { n: "Enterococci (E faecalis, E faecium)", t: "Gram ⊕ cocci. Catalase ⊝, PYR ⊕, typically nonhemolytic. Intrinsically resistant to penicillin G; grow in 6.5% NaCl and bile", d: "Normal colonic microbiota → UTI, biliary tract infections, infective endocarditis (after GI/GU procedures). VRE: important healthcare-associated cause" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Gram-positive cocci, an original KYP decision tree and roster. THE TREE: gram-positive cocci split by CATALASE — negative (pairs or chains) = Streptococcus; positive (clusters) = Staphylococcus. The staphylococcus branch splits by COAGULASE: positive = S aureus (coagulase and toxins; fibrin clot around itself → abscess); negative splits by NOVOBIOCIN — sensitive = S epidermidis (prosthetic devices, IV catheters, biofilms; does not ferment mannitol); resistant = S saprophyticus (UTI in young females). The streptococcus branch splits by HEMOLYSIS: alpha (partial, green — optochin sensitivity and bile solubility) separates S pneumoniae (encapsulated; optochin sensitive, bile soluble — MOPS: meningitis, otitis media, pneumonia, sinusitis) from viridans streptococci (no capsule; optochin resistant, bile insoluble — S mutans and S mitis dental caries; S sanguinis endocarditis); beta (complete, clear — bacitracin sensitivity and PYR status) separates group A S pyogenes (bacitracin sensitive, PYR positive — pharyngitis, cellulitis, scarlet fever, rheumatic fever, glomerulonephritis) from group B S agalactiae (bacitracin resistant — babies: pneumonia, meningitis, sepsis; CAMP factor; hippurate positive); and gamma (no hemolysis — growth in 6.5% NaCl and PYR status) separates Enterococcus (E faecalis, E faecium — grows in bile, PYR positive, intrinsically resistant to penicillin G, VRE) from nonenterococcus (S gallolyticus — bacteremia, endocarditis, colon cancer). The roster below the tree lists all nine organisms with their test signatures and diseases" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Gram-positive cocci — the lab algorithm tree (original KYP redraw)</text>
+        <rect x="762" y="24" width="170" height="18" rx="9" className="fill-brand-soft" />
+        <text x="847" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">catalase → coagulase → hemolysis</text>
+      </g>
+
+      {/* ===== THE TREE ===== */}
+      <g>
+        <rect x="36" y="76" width="920" height="340" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">GRAM ⊕ COCCI — the decision tree</text>
+
+        {/* catalase root */}
+        <rect x="52" y="112" width="180" height="70" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="142" y="132" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">CATALASE</text>
+        <text x="62" y="148" fontSize="5.8" className="fill-emergency">⊝ (pairs or chains)</text>
+        <text x="62" y="160" fontSize="5.8" fontWeight="800" className="fill-emergency">→ Streptococcus</text>
+        <text x="62" y="174" fontSize="5.8" className="fill-brand">⊕ (clusters)</text>
+        <text x="62" y="186" fontSize="5.8" fontWeight="800" className="fill-brand">→ Staphylococcus</text>
+
+        {/* staph branch */}
+        <rect x="256" y="106" width="324" height="82" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="270" y="124" fontSize="7" fontWeight="800" className="fill-brand">STAPHYLOCOCCUS — coagulase</text>
+        <text x="270" y="138" fontSize="5.8" fontWeight="700" className="fill-foreground">⊕ → S aureus: Protein A binds Fc-IgG (inhibits</text>
+        <text x="270" y="148" fontSize="5.8" className="fill-muted-foreground">complement activation + phagocytosis); coagulase + toxins;</text>
+        <text x="270" y="158" fontSize="5.8" className="fill-muted-foreground">fibrin clot around itself → abscess; MRSA = altered PBVs (mecA);</text>
+        <text x="270" y="168" fontSize="5.8" className="fill-muted-foreground">PVL kills leukocytes + tissue necrosis. β-hemolytic.</text>
+        <text x="270" y="182" fontSize="5.8" fontWeight="800" className="fill-foreground">⊝ → novobiocin:</text>
+        <text x="360" y="182" fontSize="5.8" fontWeight="700" className="fill-emergency">SENSITIVE → S epidermidis</text>
+        <text x="500" y="182" fontSize="5.6" className="fill-muted-foreground">(no mannitol fermentation;</text>
+        <text x="270" y="192" fontSize="5.8" fontWeight="700" className="fill-brand">RESISTANT → S saprophyticus</text>
+        <text x="500" y="192" fontSize="5.6" className="fill-muted-foreground">(UTI in young females; E coli #1)</text>
+
+        {/* strep branch: hemolysis */}
+        <rect x="256" y="196" width="324" height="210" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="270" y="214" fontSize="7" fontWeight="800" className="fill-emergency">STREPTOCOCCUS — hemolysis</text>
+        <text x="270" y="228" fontSize="6.2" fontWeight="700" className="fill-foreground">α (partial, green) — optochin + bile:</text>
+        <text x="284" y="240" fontSize="5.8" className="fill-muted-foreground">SENSITIVE + SOLUBLE → S pneumoniae (encapsulated;</text>
+        <text x="284" y="250" fontSize="5.8" className="fill-muted-foreground">lancet diplococci; IgA protease; MOPS; rusty sputum;</text>
+        <text x="284" y="260" fontSize="5.8" className="fill-muted-foreground">asplenia predisposes; PCV13/15/20 + PPSV23)</text>
+        <text x="284" y="272" fontSize="5.8" className="fill-muted-foreground">RESISTANT + INSOLUBLE → viridans (no capsule:</text>
+        <text x="284" y="282" fontSize="5.8" className="fill-muted-foreground">S mutans/S mitis caries; S sanguinis IE)</text>
+        <text x="270" y="298" fontSize="6.2" fontWeight="700" className="fill-foreground">β (complete, clear) — bacitracin + PYR:</text>
+        <text x="284" y="310" fontSize="5.8" className="fill-muted-foreground">SENSITIVE + PYR ⊕ → group A S pyogenes (M protein ≈</text>
+        <text x="284" y="320" fontSize="5.8" className="fill-muted-foreground">myosin → autoimmunity; hyaluronic acid capsule;</text>
+        <text x="284" y="330" fontSize="5.8" className="fill-muted-foreground">pyogenic/toxigenic/immunologic triad; ASO + anti-DNase B)</text>
+        <text x="284" y="342" fontSize="5.8" className="fill-muted-foreground">RESISTANT → group B S agalactiae (babies; CAMP factor;</text>
+        <text x="284" y="352" fontSize="5.8" className="fill-muted-foreground">hippurate ⊕; PYR ⊝; screen 35-37 weeks → intrapartum</text>
+        <text x="284" y="362" fontSize="5.8" className="fill-muted-foreground">penicillin/ampicillin prophylaxis)</text>
+        <text x="270" y="378" fontSize="6.2" fontWeight="700" className="fill-foreground">γ (no hemolysis) — 6.5% NaCl + PYR:</text>
+        <text x="284" y="390" fontSize="5.8" className="fill-muted-foreground">GROWS in bile/NaCl + PYR ⊕ → Enterococcus (E faecalis,</text>
+        <text x="284" y="400" fontSize="5.8" className="fill-muted-foreground">E faecium; catalase ⊝; intrinsically resistant to</text>
+        <text x="284" y="400" fontSize="5.8" className="fill-muted-foreground">penicillin G; VRE)</text>
+        <text x="284" y="412" fontSize="5.8" className="fill-muted-foreground">→ nonenterococcus S gallolyticus (bacteremia/IE;</text>
+        <text x="284" y="412" fontSize="5.8" className="fill-muted-foreground">↑ colon cancer)</text>
+
+        {/* the test-signature rail */}
+        <rect x="596" y="106" width="344" height="300" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="610" y="126" fontSize="8" fontWeight="800" className="fill-foreground">THE TEST SIGNATURES (one per gate)</text>
+        {[
+          ["CATALASE", "staph ⊕ vs strep ⊝ (the first split)"],
+          ["COAGULASE", "S aureus ⊕ vs epidermidis/saprophyticus ⊝"],
+          ["NOVOBIOCIN", "epidermidis SENSITIVE vs saprophyticus RESISTANT"],
+          ["HEMOLYSIS", "α partial green · β complete clear · γ none"],
+          ["OPTOCHIN + BILE", "pneumoniae SENSITIVE + SOLUBLE vs viridans RESISTANT + INSOLUBLE"],
+          ["BACITRACIN + PYR", "pyogenes SENSITIVE + PYR ⊕ vs agalactiae RESISTANT (PYR ⊝)"],
+          ["6.5% NaCl (bile)", "Enterococcus GROWS + PYR ⊕ (catalase ⊝) vs nonenterococcus"],
+          ["MANNITOL", "S aureus ferments; S epidermidis does not"],
+          ["CAMP + HIPPURATE", "agalactiae: CAMP factor enlarges S aureus hemolysis; hippurate ⊕"],
+        ].map((r, i) => (
+          <g key={r[0]}>
+            <text x="610" y={146 + i * 29} fontSize="6.4" fontWeight="800" className="fill-brand">{r[0]}</text>
+            {r[1].match(/.{1,52}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x="610" y={156 + j * 9 + i * 29} fontSize="5.6" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+          </g>
+        ))}
+      </g>
+
+      {/* ===== THE ROSTER ===== */}
+      <g>
+        <rect x="36" y="432" width="920" height="408" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="454" fontSize="9" fontWeight="800" className="fill-foreground">THE ORGANISM ROSTER — test signature · diseases</text>
+        {roster.map((r, i) => (
+          <g key={r.n}>
+            <rect x="52" y={464 + i * 41} width="888" height="35" rx="7" className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x="64" y={478 + i * 41} fontSize="6.4" fontWeight="800" className={i < 3 ? "fill-brand" : i < 6 ? "fill-emergency" : "fill-foreground"}>{r.n}</text>
+            <text x="220" y={478 + i * 41} fontSize="5.2" className="fill-muted-foreground">{r.t.match(/.{1,60}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+            <text x="220" y={488 + i * 41} fontSize="5.2" className="fill-muted-foreground">{r.d.match(/.{1,60}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="852" width="920" height="34" rx="8" className="fill-secondary" />
+        <text x="496" y="866" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Anchors: catalase splits cocci (staph ⊕ / strep ⊝) · coagulase splits staph (aureus ⊕ — fibrin-clot abscess) · novobiocin splits coag-neg staph · optochin+bile splits α-strep (pneumoniae vs viridans) · bacitracin+PYR splits β-strep (pyogenes vs agalactiae)</text>
+        <text x="496" y="878" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">6.5% NaCl splits γ-strep (Enterococcus: catalase ⊝, PYR ⊕, penicillin-G-resistant, VRE) · MOPS = the pneumococcus set · Group B = Babies (screen 35-37 wks) · bovis in the blood = cancer in the colon · S aureus food poisoning = preformed heat-stable enterotoxin (2-6 hr incubation)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="896" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Gram-positive lab algorithm tree (pdf 154 / book 132 — pure vector) with the organism roster from books 133-135. The printed photos (α/β hemolysis agar, S aureus clusters, S pneumoniae lancet diplococci, S pyogenes chains) are raster, COPYRIGHTED, described-in-text only. FA's printed mnemonics (op-to-chin, Ph-yogenes, Group B for Babies, bovis/colon) are NOT reproduced here — verification only.</text>
+    </svg>
+  );
+}

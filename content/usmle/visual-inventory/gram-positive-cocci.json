@@ -1,0 +1,153 @@
+{
+  "topicId": "gram-positive-cocci",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "gram-positive-cocci-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "chapterId": "microbiology",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "The Gram-positive lab algorithm tree (book 132)",
+      "sourceFigureDescription": "The printed decision tree: Gram ⊕ → Bacilli (aerobic: Listeria, Bacillus, Corynebacterium; anaerobic: Clostridium, Cutibacterium; branching filaments: Nocardia [weakly acid fast] vs Actinomyces [not acid fast]) and Cocci → catalase ⊝ Streptococcus (pairs or chains) vs catalase ⊕ Staphylococcus (clusters); hemolysis α (optochin sensitiVity and bile solubility → S pneumoniae [encapsulated] vs viridans [no capsule: S mutans, S mitis]); β (bacitracin sensitiVity and PYR status → Group A S pyogenes vs Group B S agalactiae); staphylococci by coagulase (S aureus vs S epidermidis/S saprophyticus) with NoVobiocin sensitiVity; GroWth in 6.5% NaCl and PYR Status → Enterococcus (E faecium, E faecalis) vs Nonenterococcus (S gallolyticus).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "gram-positive-cocci",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "gram-pos-cocci-tree",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "gram-positive-cocci-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Hemolysis — the α/β blood-agar figure (book 133)",
+      "sourceFigureDescription": "Two blood-agar photographs (a combined figure): partial greenish discoloration without clearing (α) and complete clear lysis around colonies (β), with inline figure markers A after 'growth on blood agar' and 'colony on blood agar'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "gram-positive-cocci",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, Hemolysis definitions row — the printed figure pointers carried verbatim; the photographs are described-in-text only"
+    },
+    {
+      "visualId": "gram-positive-cocci-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Staphylococci — the S aureus clusters gram stain (book 133)",
+      "sourceFigureDescription": "A gram-stain micrograph of gram ⊕ cocci in clusters (S aureus), its inline marker after 'cocci in clusters'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "gram-positive-cocci",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, S aureus row — figure pointer carried verbatim; the micrograph described-in-text only"
+    },
+    {
+      "visualId": "gram-positive-cocci-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Streptococci — the S pneumoniae and S pyogenes gram stains (book 134)",
+      "sourceFigureDescription": "Two gram-stain micrographs: lancet-shaped gram ⊕ diplococci (S pneumoniae) and gram ⊕ cocci in chains (S pyogenes), each with its inline marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "gram-positive-cocci",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, S pneumoniae + S pyogenes rows — figure pointers carried verbatim; the micrographs described-in-text only"
+    },
+    {
+      "visualId": "gram-positive-cocci-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          154,
+          155,
+          156,
+          157
+        ],
+        "bookPages": "132–135"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The B-anthracis black-eschar photograph (book 135, the bridge section)",
+      "sourceFigureDescription": "A clinical photograph of a cutaneous anthrax ulcer with black eschar (painless, necrotic), its inline marker after 'ulcer with black eschar'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "gram-positive-cocci",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, B-anthracis bridge row — figure pointer carried verbatim; the photograph described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "gram-positive-cocci",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the tree is pure vector (redrawn as the registry visual's core); the 5 printed photos (hemolysis agar pair, S aureus clusters, S pneumoniae diplococci, S pyogenes chains, anthrax eschar) are rasters — COPYRIGHTED, described-in-text only within the note's table block rows. FA's printed mnemonics carried in the table block only; NOT in the visual."
+}
