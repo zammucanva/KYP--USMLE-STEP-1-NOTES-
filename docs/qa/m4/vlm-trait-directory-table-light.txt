@@ -1,0 +1,12 @@
+**QA Report: Microbiology Trait-Directory Table**
+
+*   **(A) Overlapping text collisions:** **PASS**
+    *   *Observation:* All text elements, including multi-line category labels and dense description blocks, maintain proper padding and margins. No characters or words overlap with each other.
+*   **(B) Text clipped/truncated:** **PASS**
+    *   *Observation:* The table cells and the overall container are sized appropriately to display the full length of all sentences and scientific names without any content being cut off at the edges.
+*   **(C) Lines crossing text:** **PASS**
+    *   *Observation:* The horizontal grid lines separating the rows are clearly positioned in the whitespace between the text blocks. No lines intersect or strike through any legible characters.
+*   **(D) Illegible low-contrast text:** **PASS**
+    *   *Observation:* The dark grey/black text provides high contrast against the light background and alternating light-blue row highlights. All font sizes are standard and easily readable.
+
+**Verdict: CLEAN**

@@ -1,0 +1,297 @@
+{
+  "topicId": "oxygen-requirements",
+  "title": "Anaerobes, Aerobes & Oxygen Tolerance",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      147
+    ],
+    "bookPages": "125–125"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anaerobes row (full physical order; shortchain hyphen-drop + AminO2glycosides as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Anaerobes\nExamples include Clostridioides, Clostridium,\nBacteroides, Fusobacterium, and Actinomyces\nisraelii. They lack catalase and/or superoxide\ndismutase and are thus susceptible to oxidative\ndamage. Generally foul smelling (shortchain fatty acids), are difficult to culture, and\nproduce gas in tissue (CO2 and H2).\nAnaerobes Can’t Breathe Fresh Air.\nAnaerobes are normal microbiota in GI tract,\ntypically pathogenic elsewhere (eg, causes\naspiration pneumonia). AminO2glycosides are\nineffective against anaerobes because these\nantibiotics require O2 to enter into bacterial\ncell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — anaerobes (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Anaerobes Can’t Breathe Fresh Air.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aminoglycoside-O2 rule (printed with the mnemonic word AminO2glycosides)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "AminO2glycosides are\nineffective against anaerobes because these\nantibiotics require O2 to enter into bacterial\ncell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Facultative anaerobes row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Facultative anaerobes\nMay use O2 as a terminal electron acceptor to\ngenerate ATP, but can also use fermentation\nand other O2-independent pathways.\nStreptococci, staphylococci, and enteric gram ⊝\nbacteria.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intracellular bacteria section header (left column, above Obligate intracellular; text layer emits it near page end)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Intracellular bacteria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Obligate intracellular row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Obligate intracellular\nRickettsia, Chlamydia, Coxiella\nRely on host ATP\nStay inside (cells) when it is Really Chilly and\nCold",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — obligate intracellular (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Stay inside (cells) when it is Really Chilly and\nCold",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Facultative intracellular row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Facultative\nintracellular\nSalmonella, Neisseria, Brucella, Mycobacterium,\nListeria, Francisella, Legionella, Yersinia pestis\nSome Nasty Bugs May Live FacultativeLY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — facultative intracellular (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Some Nasty Bugs May Live FacultativeLY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Encapsulated bacteria row (full physical order; photo letter A inline; ▘ U+2598 bullets as printed; U+0090 before ↓ stripped)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Encapsulated bacteria\nExamples are Pseudomonas aeruginosa,\nStreptococcus pneumoniae A , Haemophilus\ninfluenzae type b, Neisseria meningitidis,\nEscherichia coli, Salmonella, Klebsiella\npneumoniae, and group B Strep. Their\ncapsules serve as an antiphagocytic virulence\nfactor.\nCapsular polysaccharide +/– protein conjugate\ncan serve as an antigen in vaccines. A\npolysaccharide antigen alone cannot be\npresented to T cells; immunogenicity can be\nenhanced by conjugating capsule antigens to a\ncarrier protein.\nPlease SHiNE my SKiS.\nAre opsonized, and then cleared by spleen.\nAsplenics (No Spleen Here) have ↓ opsonizing\nability and thus ↑ risk for severe infections;\nneed vaccines to protect against:\n▘ N meningitidis\n▘ S pneumoniae\n▘ H influenzae",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — encapsulated (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Please SHiNE my SKiS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Urease-positive organisms row label (two-line left-column label, emitted at page end)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Urease-positive\norganisms",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Urease row (full physical order; double-space →  ↑ as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Proteus, Cryptococcus, H pylori, Ureaplasma,\nNocardia, Klebsiella, S epidermidis,\nS saprophyticus. Urease hydrolyzes urea\nto release ammonia and CO2 →  ↑ pH.\nPredisposes to struvite (magnesium\nammonium phosphate) stones, particularly\nProteus.\nPee CHUNKSS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA mnemonic — urease (verification only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "Pee CHUNKSS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 125",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "oxygen-tolerance-spectrum"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directory; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "missing-enzyme-corollary-chain",
+      "summary": "The model that unites the row: one missing enzyme set (catalase/SOD) generates the three clinical signatures (short-chain fatty-acid smell, gas in tissue, culture difficulty) and the pharmacology corollary (aminoglycosides require O2 to enter); the obligate-vs-facultative intracellular split by host-ATP dependence; the capsule-as-splenic-opsonization economy (asplenia risk + the conjugate-vaccine T-cell-presentation principle); and the urease chemistry-to-stone chain — with granuloma logic and alternative-therapy notes labeled as extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists the rows without the corollary chains or the T-cell-presentation rationale behind conjugation; these integrations are KYP's design.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "TABLE NOTE by design (requiresVisual false). Census: p147 carries ONE raster (188x188 cmyk) = photo A, the Encapsulated-bacteria row figure (encapsulated gram-positive diplococci, light microscopy; callout letter printed inline as 'Streptococcus pneumoniae A ,' and in a corner box on the photo) — COPYRIGHTED, described-in-text only. Text-layer quirks documented: 'shortchain' hyphen-drop; 'AminO2glycosides' (the FA mnemonic word, carried verbatim in the table block only); U+0090 control char before ↓ (stripped by norm); double-space '→  ↑ pH'; 'Intracellular bacteria' header emitted near page end (VLM resolved its true position: left column, above Obligate intracellular); the standalone photo letter 'A' is sub-3-char and covered by the inline quote. MNEMONIC BOUNDARY (E22+ rule): the page's 5 FA mnemonics quoted for verification and carried verbatim in the note's table block (they ARE the source's table text, per the E20+ precedent); no user-facing visual exists for this note; KYP originals authored in the mnemonics field.",
+  "updatedAt": "2026-10-20"
+}

@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 36,
+  "pendingTopicCount": 35,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -242,8 +242,64 @@
       "visualHints": [],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The oxygen-tolerance spectrum (obligate anaerobes lack catalase/SOD; facultative, obligate aerobic, microaerophilic, facultative-intracellular) with the aminoglycoside-needs-O2 corollary."
+      "status": "complete",
+      "productionRationale": "The oxygen-tolerance spectrum (obligate anaerobes lack catalase/SOD; facultative, obligate aerobic, microaerophilic, facultative-intracellular) with the aminoglycoside-needs-O2 corollary.",
+      "textbookVisuals": [
+        {
+          "visualId": "oxygen-requirements-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              147
+            ],
+            "bookPages": "125–125"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Trait directory — the encapsulated-bacteria micrograph (photo A)",
+          "sourceFigureDescription": "One light-microscopy micrograph of encapsulated gram-positive diplococci (the Encapsulated bacteria row's figure), with its callout letter A printed inline in the row's organism list ('Streptococcus pneumoniae A ,') and in a corner box on the photo.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "oxygen-requirements",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] — 'The trait directory — verbatim' table block, Encapsulated bacteria row: the printed figure pointer is carried verbatim ('Streptococcus pneumoniae A'); the micrograph itself (encapsulated gram-positive diplococci, light microscopy) is described-in-text only, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "oxygen-requirements-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              147
+            ],
+            "bookPages": "125–125"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Trait directory — the six-row directory table",
+          "sourceFigureDescription": "The printed 2-column table (category | description/examples/notes): Anaerobes, Facultative anaerobes, Intracellular bacteria (obligate + facultative), Encapsulated bacteria, Urease-positive organisms.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "oxygen-requirements",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] — 'The trait directory — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "organism-groups-quick-reference",

@@ -1,0 +1,67 @@
+{
+  "topicId": "oxygen-requirements",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "oxygen-requirements-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125–125"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Trait directory — the encapsulated-bacteria micrograph (photo A)",
+      "sourceFigureDescription": "One light-microscopy micrograph of encapsulated gram-positive diplococci (the Encapsulated bacteria row's figure), with its callout letter A printed inline in the row's organism list ('Streptococcus pneumoniae A ,') and in a corner box on the photo.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "oxygen-requirements",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'The trait directory — verbatim' table block, Encapsulated bacteria row: the printed figure pointer is carried verbatim ('Streptococcus pneumoniae A'); the micrograph itself (encapsulated gram-positive diplococci, light microscopy) is described-in-text only, never reproduced"
+    },
+    {
+      "visualId": "oxygen-requirements-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          147
+        ],
+        "bookPages": "125–125"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Trait directory — the six-row directory table",
+      "sourceFigureDescription": "The printed 2-column table (category | description/examples/notes): Anaerobes, Facultative anaerobes, Intracellular bacteria (obligate + facultative), Encapsulated bacteria, Urease-positive organisms.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "oxygen-requirements",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] — 'The trait directory — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "oxygen-requirements",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "TABLE NOTE by design (requiresVisual false; no registry visual). Census: the single raster is photo A (encapsulated gram-positive diplococci, light microscopy) — COPYRIGHTED, described-in-text only. The directory table is reproduced verbatim as the note's table block. FA's printed mnemonics (5 on this page) carried in the table block only; KYP originals in the mnemonics field."
+}
