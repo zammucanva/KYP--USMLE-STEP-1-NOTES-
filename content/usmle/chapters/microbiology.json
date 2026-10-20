@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 39,
+  "pendingTopicCount": 38,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -34,8 +34,63 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Basic Bacteriology",
-      "status": "pending",
-      "productionRationale": "The structure-function table (flagellum, pilus, capsule, spore, peptidoglycan, endotoxin/LPS, porin) — the anatomical vocabulary every later organism entry uses."
+      "status": "complete",
+      "productionRationale": "The structure-function table (flagellum, pilus, capsule, spore, peptidoglycan, endotoxin/LPS, porin) — the anatomical vocabulary every later organism entry uses.",
+      "textbookVisuals": [
+        {
+          "visualId": "bacterial-structures-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              144
+            ],
+            "bookPages": "122–122"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Bacterial structures — the Gram⊕/Gram⊝ cell comparison figure",
+          "sourceFigureDescription": "Two cell cross-sections side by side (Gram ⊕ left, Gram ⊝ right): left-side organizer column (STRUCTURE; rows Appendages / Specialized structures / Spore / Cell envelope) with bracket rows (Common to both / Unique to gram ⊕ / Unique to gram ⊝); callout labels — Flagellum, Lipoteichoic acid, Pilus, Capsule, Endotoxin/LPS, Porin, Outer membrane, Cell wall, Wide periplasmic space containing β-lactamase, Peptidoglycan, Cytoplasmic membrane — and the cell identifiers Gram ⊕ (left) and Gram ⊝ (right).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-structures",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "bacterial-cell-anatomy",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "bacterial-cell-anatomy",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bacterial-structures-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              144
+            ],
+            "bookPages": "122–122"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Bacterial structures — the 9-row structure table",
+          "sourceFigureDescription": "The printed table (STRUCTURE / CHEMICAL COMPOSITION / FUNCTION) with rows for Flagellum, Pilus/fimbria, Spore, Capsule, Slime (S) layer, Outer membrane, Periplasm, Cell wall, Cytoplasmic membrane.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Basic Bacteriology",
+          "topicId": "bacterial-structures",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] — 'The nine structures — verbatim' table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "stains-identification",

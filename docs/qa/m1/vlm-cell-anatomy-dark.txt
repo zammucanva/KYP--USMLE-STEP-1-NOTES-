@@ -1,0 +1,15 @@
+Based on a detailed inspection of the provided bacterial structures diagram in dark mode, here is the QA report:
+
+**(A) Overlapping labels / text-on-text collisions: PASS**
+The layout is well-structured with clear spacing between the main diagram boxes, the side roster, and the bottom information panels. No text strings are overlapping or colliding with one another.
+
+**(B) Text clipped at edges or truncated words: PASS**
+All text elements, including long chemical names and descriptive sentences within the boxes and the side list, are fully visible. There are no instances of words being cut off at the boundaries of their containers or the image edges.
+
+**(C) Arrows/lines crossing through text: PASS**
+The red arrows indicating the thick peptidoglycan wall and the white curved lines for the S-layer/capsule are positioned to point to or outline structures without intersecting or obscuring any of the textual labels.
+
+**(D) Illegible low-contrast text: PASS**
+The color palette provides high contrast against the dark background. White and light teal text is used for general labels, while red text is used for emphasis (e.g., "GRAM - ONLY"). All text remains clearly legible.
+
+**Verdict: CLEAN**

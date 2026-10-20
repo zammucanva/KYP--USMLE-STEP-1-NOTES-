@@ -1,0 +1,390 @@
+{
+  "topicId": "bacterial-structures",
+  "title": "Bacterial Structures: Anatomy & Function",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Basic Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      144
+    ],
+    "bookPages": "122–122"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "▶ MICROBIOLOGY—BASIC BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Bacterial structures",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "CHEMICAL COMPOSITION\nFUNCTION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flagellum row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Flagellum\nProteins\nMotility",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pilus/fimbria row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Pilus/fimbria\nGlycoprotein\nMediate adherence of bacteria to cell surface;\nsex pilus forms during conjugation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Spore row — composition + function (label emitted in figure region; see figure evidence)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Keratinlike coat, dipicolinic acid, peptidoglycan,\nDNA\nSurvival: resist dehydration, heat, chemicals",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Capsule row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Capsule\nDiscrete layer usually made of polysaccharides\n(and rarely proteins)\nProtects against phagocytosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Slime (S) layer row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Slime (S) layer\nLoose network of polysaccharides\nMediates adherence to surfaces, plays a role in\nbiofilm formation (eg, indwelling catheters)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Outer membrane row (full physical order; composition then function)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Outer membrane\nOuter leaflet: contains endotoxin (LPS/LOS)\nEmbedded proteins: porins and other outer\nmembrane proteins (OMPs)\nInner leaflet: phospholipids\nGram ⊝ only\nEndotoxin: lipid A induces TNF and IL-1;\nantigenic O polysaccharide component\nMost OMPs are antigenic\nPorins: transport across outer membrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Periplasm row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Periplasm\nSpace between cytoplasmic membrane\nand outer membrane in gram ⊝ bacteria\n(peptidoglycan in middle)\nAccumulates components exiting gram\n⊝ cells, including hydrolytic enzymes\n(eg, β-lactamases)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cell wall row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Cell wall\nPeptidoglycan is a sugar backbone with peptide\nside chains cross-linked by transpeptidase\nNetlike structure gives rigid support, protects\nagainst osmotic pressure damage",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cytoplasmic membrane row (full physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Cytoplasmic\nmembrane\nPhospholipid bilayer sac with embedded\nproteins (eg, penicillin-binding proteins\n[PBPs]) and other enzymes\nLipoteichoic acids (gram positive) only extend\nfrom membrane to exterior\nSite of oxidative and transport enzymes; PBPs\ninvolved in cell wall synthesis\nLipoteichoic acids induce TNF-α and IL-1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure organizer column (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "STRUCTURE\nAppendages\nSpecialized structures\nSpore\nCell envelope",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure bracket rows (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Cell envelope\nCommon to both\nUnique to\ngram ⊕\nUnique to\ngram ⊝",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels — row 1 (interleaved across cells; VLM census: both point LEFT, Gram ⊕)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Flagellum\nLipoteichoic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels — row 2 (interleaved across cells; VLM census: Pilus common, Capsule common, Endotoxin/LPS RIGHT, Porin RIGHT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Pilus\nCapsule\nEndotoxin/LPS\nPorin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure label — outer membrane (RIGHT cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Outer\nmembrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels — cell wall + periplasm (interleaved; VLM census: Cell wall common, wide periplasm RIGHT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Cell wall\nWide periplasmic space\ncontaining β-lactamase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels — peptidoglycan + cytoplasmic membrane (common to both)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Peptidoglycan\nCytoplasmic\nmembrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure cell identifiers (left and right; footer line interleaves between)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Gram ⊕",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure cell identifier (right cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "Gram ⊝",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 122",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "bacterial-cell-anatomy"
+  ],
+  "mechanismIds": [
+    "envelope-layer-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the structure table and comparison figure; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "layered-envelope-model",
+      "summary": "The nine structures read as a stack of coats (surface → appendages → wall → gram-status extras → membrane) with each layer's chemistry owning one function; the TNF/IL-1 address book (lipid A at the gram ⊝ outer membrane vs lipoteichoic acids membrane-to-exterior in gram ⊕); the capsule-vs-slime surface split; the drug geometry (PBPs at the membrane, β-lactamases in the periplasm, porins as the outer-membrane gate); and the sterilization rationale of the spore coat (with the autoclave parameter note labeled extension).",
+      "origin": "outside-first-aid",
+      "rationale": "The source lists structures, chemistry, and functions without the layered model, the cytokine address distinction, or the drug-target geometry; these integrations are KYP's design. The encapsulated-pathogen examples and autoclave parameters are labeled extension.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p144 rasters = 4x 1x1 artifacts (furniture) + the two cell comparison drawings (gray 392x189 + cmyk duplicate, soft masks 489x316/489x287) — COPYRIGHTED line art, described-in-text only, never reproduced; redrawn as ONE original KYP registry visual (bacterial-cell-anatomy: two gram-archetype panels + common/unique key + 9-structure roster + toxin-layers/sporulation/enzyme-address cards). VLM 200-DPI census read resolved the figure's true layout (Gram ⊕ LEFT / Gram ⊝ RIGHT; bracket rows; every callout label's cell assignment) — the pdftotext figure labels interleave by visual row across both cells and the VLM read is the authority for side assignment, documented here. Table interleave: the nine rows' cells are contiguous blocks; ONE quirk — the table's Spore row label is emitted in the figure region (between 'Specialized structures' and 'Cell envelope'), so the Spore row quote carries composition+function with the label quoted at its physical figure position. No FA mnemonics are printed on this page (none to reproduce); KYP originals authored in the mnemonics field.",
+  "updatedAt": "2026-10-20"
+}

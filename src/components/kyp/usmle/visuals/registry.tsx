@@ -128,6 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
+import { BacterialCellAnatomy } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -289,4 +290,6 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "bug-pattern-matrix": BugPatternMatrix,
   "rejection-timeline-map": RejectionTimelineMap,
   "immunosuppressant-target-map": ImmunosuppressantTargetMap,
+  // Microbiology (M batch)
+  "bacterial-cell-anatomy": BacterialCellAnatomy,
 };

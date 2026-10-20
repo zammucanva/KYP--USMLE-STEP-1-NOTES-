@@ -1,0 +1,66 @@
+{
+  "topicId": "bacterial-structures",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "bacterial-structures-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122–122"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "Bacterial structures — the Gram⊕/Gram⊝ cell comparison figure",
+      "sourceFigureDescription": "Two cell cross-sections side by side (Gram ⊕ left, Gram ⊝ right): left-side organizer column (STRUCTURE; rows Appendages / Specialized structures / Spore / Cell envelope) with bracket rows (Common to both / Unique to gram ⊕ / Unique to gram ⊝); callout labels — Flagellum, Lipoteichoic acid, Pilus, Capsule, Endotoxin/LPS, Porin, Outer membrane, Cell wall, Wide periplasmic space containing β-lactamase, Peptidoglycan, Cytoplasmic membrane — and the cell identifiers Gram ⊕ (left) and Gram ⊝ (right).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "bacterial-structures",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "bacterial-cell-anatomy",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed"
+    },
+    {
+      "visualId": "bacterial-structures-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          144
+        ],
+        "bookPages": "122–122"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Bacterial structures — the 9-row structure table",
+      "sourceFigureDescription": "The printed table (STRUCTURE / CHEMICAL COMPOSITION / FUNCTION) with rows for Flagellum, Pilus/fimbria, Spore, Capsule, Slime (S) layer, Outer membrane, Periplasm, Cell wall, Cytoplasmic membrane.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "topicId": "bacterial-structures",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] — 'The nine structures — verbatim' table block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "bacterial-structures",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the cell comparison art is raster line art (gray + cmyk duplicates with soft masks) — COPYRIGHTED, described-in-text only; redrawn as ONE original KYP registry visual (bacterial-cell-anatomy) with every printed label accounted for (figure-region evidence: organizer column, brackets, 13 callout labels, 2 cell identifiers — 10 evidence quotes covering the full label set). The 9-row table is reproduced verbatim as the note's table block. No FA mnemonics printed on this page."
+}

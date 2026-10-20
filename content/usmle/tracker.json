@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-17T20:31:18Z",
+  "generatedAt": "2026-10-20T00:04:38Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 87,
+    "topicsProduced": 88,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 32,
+      "pilot-complete": 33,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,9 +307,9 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 0,
-      "topicsRemaining": 39,
-      "qaStatus": "pending",
+      "topicsProduced": 1,
+      "topicsRemaining": 38,
+      "qaStatus": "pass",
       "completedAt": null
     },
     {
@@ -548,6 +548,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "bacterial-structures",
+      "title": "Bacterial Structures: Anatomy & Function",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Basic Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 144 (book 122–122)",
+      "visualCount": 1,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "blotting-procedures",
