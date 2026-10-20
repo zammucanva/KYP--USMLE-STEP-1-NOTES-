@@ -1,0 +1,89 @@
+===== PAGE 161 (tree bacilli branch) =====
+Based on the **Bacilli** branch of the Gram-negative lab algorithm on page 139, here is the exact wiring and details:
+
+**1. Test Order & Wiring (Compact Factual List)**
+*   **Lactose fermentation** $\rightarrow$ **Negative ($\ominus$)** $\rightarrow$ Proceed to **Oxidase**
+*   **Lactose fermentation** $\rightarrow$ **Positive ($\oplus$)** $\rightarrow$ Split into **Fast** and **Slow**
+    *   **Fast** $\rightarrow$ ***E coli*, *Klebsiella*, *Enterobacter***
+    *   **Slow** $\rightarrow$ ***Citrobacter*, *Serratia***
+*   **Oxidase** (from Lactose $\ominus$ path) $\rightarrow$ **Positive ($\oplus$)** $\rightarrow$ ***Pseudomonas*, *Burkholderia***
+*   **Oxidase** (from Lactose $\ominus$ path) $\rightarrow$ **Negative ($\ominus$)** $\rightarrow$ Proceed to **H$_2$S production on TSI agar**
+    *   **H$_2$S production** $\rightarrow$ **Negative ($\ominus$)** $\rightarrow$ ***Shigella*, *Yersinia*$^a$
+    *   **H$_2$S production** $\rightarrow$ **Positive ($\oplus$)** $\rightarrow$ ***Salmonella*, *Proteus***
+
+**2. Specific Organism Placements & Preceding Labels**
+*   **Shigella** and **Yersinia**: Sit at the terminal leaf for **Non-lactose fermenting**, **Oxidase negative**, **H$_2$S negative** organisms.
+*   **Pseudomonas** and **Burkholderia**: Sit at the terminal leaf for **Non-lactose fermenting**, **Oxidase positive** organisms.
+*   **E. coli, Klebsiella, Enterobacter**: Sit at the **Fast** lactose fermenter leaf.
+*   **Citrobacter** and **Serratia**: Sit at the **Slow** lactose fermenter leaf.
+*   **Salmonella** and **Proteus**: Sit at the terminal leaf for **Non-lactose fermenting**, **Oxidase negative**, **H$_2$S positive** organisms.
+
+**3. Footnote Marker & Text**
+*   Yes, there is a superscript **a** next to **Yersinia**.
+*   The footnote text reads: **"Pleomorphic rod/coccobacillus"**
+
+**4. Italic Note about Bold Text**
+*   The note states: **"Important tests are in bold. Important pathogens are in bold italics."**
+
+===== PAGE 162 =====
+Based on the visual elements present on page 140 of the provided document:
+
+**1. Photographs/Micrographs/Radiographs**
+*   **Image A (Micrograph):** Shows **gram-negative diplococci inside neutrophils**. It is located in the **Neisseria** section (top left) and is referenced by the text regarding *N gonorrhoeae*.
+*   **Image B (Photograph):** Shows **gangrene of toes** (specifically, the foot/toes with dark, necrotic discoloration). It is located in the **Neisseria** section (middle left) and is referenced in the Meningococci column under "Diseases".
+*   **Image A (Radiograph):** Shows a **lateral neck x-ray with the thumb sign of epiglottitis** (indicated by red arrows pointing to the swollen epiglottis). It is located in the **Haemophilus influenzae** section (bottom left). *Note: The letter marker resets to 'A' for this new organism section.*
+
+**2. Comparison Table Structure**
+*   **Yes**, the comparison between Gonococci and Meningococci is presented as a **two-column table**.
+*   **Row Topics:** The table compares the two organisms across the following rows:
+    1.  Capsule (Polysaccharide)
+    2.  Maltose acid detection
+    3.  Vaccine availability
+    4.  Transmission
+    5.  Diseases caused
+    6.  Diagnosis method
+    7.  Treatment/Prevention
+
+**3. Classification of Visual Elements**
+*   **Tables:** 1 (The Neisseria comparison table).
+*   **Photographs/Micrographs:** 2 (The Gram stain micrograph; the photo of gangrenous toes).
+*   **Radiographs:** 1 (The lateral neck X-ray).
+
+**4. Special Characters Noted**
+*   **Symbols:**
+    *   **$\ominus$ (Circle with horizontal line):** Used to denote "negative" or specific morphology (e.g., "Gram $\ominus$ diplococci", "No polysaccharide capsule" implied by the symbol logic in similar texts, though here explicitly text says "No", the intro uses $\ominus$ for gram status).
+    *   **$\oplus$ (Circle with plus sign):** Used to denote "positive" (e.g., "catalase $\oplus$" in Burkholderia section).
+    *   **$\downarrow$ (Down arrow):** Used to indicate reduction or decrease (e.g., "Condoms $\downarrow$ sexual transmission").
+    *   **+/- (Plus-Minus):** Used in the Haemophilus treatment line ("amoxicillin +/- clavulanate").
+*   **Punctuation/Formatting:**
+    *   **Em-dashes (—):** Used throughout text (e.g., "Fitz-Hugh–Curtis syndrome", "MICROBIOLOGY—CLINICAL BACTERIOLOGY").
+    *   **Superscripts:** Used for chemical notations (e.g., "NAD$^+$" in Haemophilus section).
+    *   **Letter Markers:** **A** and **B** inside small grey squares to label images.
+
+===== PAGE 163 =====
+Based on the visual census of page 141, here are the findings:
+
+**1. Visual Elements (Photographs/Micrographs/Radiographs/Color Plates)**
+*   **Image A (Legionella section):** A **radiograph** (CT scan of the chest) showing **unilateral lobar pneumonia** (indicated by red arrows pointing to areas of consolidation). It is positioned on the left side of the *Legionella pneumophila* section.
+*   **Image A (Pseudomonas section):** A **color plate** (photograph of a petri dish) showing the characteristic **green pigment** (pyocyanin) produced by *Pseudomonas aeruginosa*. It is positioned on the left side of the *Pseudomonas aeruginosa* section, above Image B.
+*   **Image B (Pseudomonas section):** A **photograph** showing a skin lesion consistent with **ecthyma gangrenosum** (a necrotic cutaneous lesion with a black eschar, indicated by a blue arrow). It is positioned below Image A in the *Pseudomonas aeruginosa* section.
+
+**2. Bulleted Lists**
+*   **Yes**, the three clinical stages of pertussis (**Catarrhal**, **Paroxysmal**, **Convalescent**) are presented as a **bulleted list** using standard square bullets.
+*   **Yes**, the **Treatments** list for *Pseudomonas aeruginosa* is also a **bulleted list**.
+
+**3. Classification of Visual Elements**
+*   **Radiographs:** 1 (Chest CT for Legionella)
+*   **Color Plates:** 1 (Green pigment agar plate for Pseudomonas)
+*   **Photographs:** 1 (Ecthyma gangrenosum skin lesion for Pseudomonas)
+*   **Bulleted Text Lists:** 2 (Pertussis clinical stages; Pseudomonas treatments)
+
+**4. Special Characters and Formatting Noted**
+*   **Arrows:** Up arrow (**↑**) used for "↑ cAMP".
+*   **Symbols:** Circled plus (**⊕**) used for catalase and oxidase positive; circled minus (**⊖**) used for Gram-negative.
+*   **Bullets:** Square bullet glyphs (**▘**) used for lists.
+*   **Text Formatting:**
+    *   **Hyphen-drops:** "piperacillin-tazobactam" appears as a single joined word or with a hyphen depending on line break interpretation (standardly hyphenated).
+    *   **Letter Markers:** **A** and **B** inside small squares to label images; **A** also referenced inline for "unilateral and lobar **A**" and "green Pigment **A**".
+    *   **Quotes:** Curly/smart quotes used for “whoop”.
+    *   **Bold/Red Text:** Used for key terms (e.g., **coryza**, **whoop**, **undulant fever**, **silver**, **PEEP**).

@@ -1,0 +1,28 @@
+**1. OVERLAPS:**
+*   **Tree Arrows & Labels:** The white directional arrows originating from the "GRAM ⊖ (pink)" node overlap the text "morphology split" and the container border. While this is a common schematic style, it creates a slight visual collision.
+*   **Diplococci Row:** The red text "⊖ maltose (glucose only)" and its sub-note "(if paramenia → Moraxella)" are positioned very closely to the right-hand blue box ("⊕ maltose (glucose + maltose)"), with minimal breathing room, though not strictly overlapping.
+*   **Footer Text:** The dense paragraph of fine-print notes at the very bottom is tightly packed, but line-height appears sufficient to avoid character overlap.
+
+**2. CLIPPING:**
+*   **No clipping detected.** All text within the algorithm tree cards, the Neisseria comparison rows, the environment roster rows, and the top navigation anchors is fully visible within their respective containers. No shapes or letters are cut off at the edges.
+
+**3. CONTRAST/READABILITY:**
+*   **Sub-labels:** Some of the smaller grey sub-labels (e.g., "acid-fast = H2S or TSI:", "Vibrio cholerae", "Pseudomonas") have low contrast against the dark background (`#1a1f2e` or similar). While legible on a high-quality screen, they may be difficult to read on lower-contrast monitors or in poor lighting.
+*   **Footer Text:** The bottom-most copyright/attribution line is extremely faint grey on dark background, nearing the threshold of readability.
+
+**4. ALIGNMENT:**
+*   **Tree Structure:** The "GRAM ⊖" starting node is vertically centered relative to its four output lanes (Diplococci, Coccobacilli, Curved Rods, Bacilli), which is correct.
+*   **Comparison & Roster Rows:** All rows in the Neisseria Split and Environment Roster sections are perfectly left-aligned and evenly spaced. The two-column layout for Gonococci vs. Meningococci is balanced.
+*   **Navigation Anchors:** The top-right pill-shaped links (morphology, maltose, etc.) are evenly spaced and aligned to the grid.
+
+**5. CONTENT CHECK:**
+*   **Top Two-Panel Diagram (The Gram Algorithm):** This is a flowchart-style decision tree for identifying Gram-negative bacteria. It starts with morphology (the "pink" Gram-negative stain) and branches into four structural categories: Diplococci, Coccobacilli, Curved Rods, and Bacilli. The Bacilli branch further subdivides based on lactose fermentation (non-lactose fermenters are then split by oxidase/H2S results; lactose fermenters are split by speed—fast vs. slow).
+*   **Five-Card Rail (Bacilli Sub-panel):** This represents the detailed differentiation of rod-shaped bacteria (bacilli). It contains five distinct logical groupings: Non-Lactose Fermenters (Pseudomonas/Burkholderia), Oxidase-positive non-lactose fermenters (Shigella/Vibrio/Campylobacter), Fast Lactose Fermenters (E. coli/Klebsiella/Enterobacter), and Slow Lactose Fermenters (Citrobacter/Serratia).
+*   **Two-Column Comparison (The Neisseria Split):** A side-by-side differential diagnosis table comparing *Neisseria gonorrhoeae* (left/red) and *Neisseria meningitidis* (right/cyan). It contrasts them across seven axes: Capsule presence, Maltose metabolism, Vaccine availability, Spread/epidemiology, Disease presentation, Diagnostic methods (Gram stain/NAAT), and Treatment/prevention (Rx).
+*   **Bottom Roster (The Environment Roster):** A structured list of eight key Gram-negative pathogens (including *N. gonorrhoeae*, *H. influenzae*, *B. pertussis*, *Brucella*, *L. pneumophila*, *F. tularensis*, and *B. cepacia*). For each organism, it provides a "signature" (key lab features/reservoir) and associated clinical diseases.
+
+***
+
+VERDICT: DEFECTS FOUND
+*   **Minor Overlap:** Tree arrows slightly obscure the source node's sub-text.
+*   **Low Contrast:** Several secondary labels and the footer attribution text have insufficient contrast ratios for accessibility standards.

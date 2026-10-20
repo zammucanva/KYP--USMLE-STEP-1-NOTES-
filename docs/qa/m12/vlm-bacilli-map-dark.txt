@@ -1,0 +1,30 @@
+**Paint QA Report: element-gram-neg-bacilli-map-dark.png**
+
+1.  **OVERLAPS:**
+    *   **Tree Lanes:** No overlaps detected. The "GRAM" box and its branching arrows to the four main categories (Diplococci, Coccobacilli, Curved Rods, Bacilli) are cleanly separated.
+    *   **Comparison Rows (Neisseria Split):** The seven rows (Capsule, Maltose, Vaccine, Spread, Diseases, Diagnose, Rx/Prevent) show no text overlap between the Gonococci and Meningococci columns or with the row labels.
+    *   **Roster Rows:** The eight environment roster rows are well-spaced. The small descriptive text within each row is contained within its dark background without touching adjacent rows.
+    *   **Cards/Boxes:** The five mechanism cards in the Bacilli section and all other container boxes have adequate internal padding.
+
+2.  **CLIPPING:**
+    *   **Edges:** All major panels (Algorithm Tree, Neisseria Split, Environment Roster) are fully visible within their respective rounded containers.
+    *   **Text:** No text appears cut off at the right or bottom margins of any card or row.
+    *   **Anchors Strip:** The top-right anchor tags (morphology, maltose, oxidase, lactose, H2S) are fully rendered.
+    *   **Footer:** The fine-print footnotes at the very bottom are fully legible and not clipped by the image boundary.
+
+3.  **CONTRAST/READABILITY:**
+    *   **General:** High contrast throughout. White/cyan/magenta text on dark navy/black backgrounds is excellent for readability.
+    *   **Footnotes:** The grey footer text is slightly lower contrast but remains legible against the deep black background.
+    *   **Highlights:** The use of magenta for "Non-lactose fermenting" and cyan for "Lactose fermenting" provides clear visual differentiation.
+
+4.  **ALIGNMENT:**
+    *   **Grid:** The comparison rows and roster rows are perfectly aligned into a clean two-column (or three-column including labels) grid.
+    *   **Tree Structure:** The arrows from the "GRAM" box align correctly with their target category headers.
+    *   **Floating Elements:** No elements appear misplaced or floating without context; everything is anchored within its logical section.
+
+5.  **CONTENT CHECK:**
+    *   **Top Panel (The Gram Algorithm):** A diagnostic flowchart starting with a Gram-negative (pink) stain result. It branches by morphology into Diplococci, Coccobacilli, Curved Rods, and Bacilli, then further subdivides the Bacilli based on lactose fermentation speed (None vs. Fast vs. Slow) and specific biochemical tests (Oxidase, H2S, TSI).
+    *   **Middle Panel (The Neisseria Split):** A side-by-side differential diagnosis table comparing *N. gonorrhoeae* and *N. meningitidis* across seven clinical/laboratory criteria (e.g., capsule presence, maltose fermentation, vaccine availability, and disease presentation).
+    *   **Bottom Panel (The Environment Roster):** A detailed list of eight gram-negative organisms (including *N. gonorrhoeae*, *H. influenzae*, *Bordetella*, *Legionella*, etc.), providing a "signature" of their reservoir, key diseases, and identifying laboratory features for each.
+
+VERDICT: CLEAN

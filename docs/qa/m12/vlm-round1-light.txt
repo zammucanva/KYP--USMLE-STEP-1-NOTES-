@@ -1,0 +1,28 @@
+**QA Report: element-gram-neg-bacilli-map-light.png**
+
+1.  **OVERLAPS:**
+    *   **Critical:** The footer text block (starting with "tree gates: maltose splits...") is severely overlapping the bottom of the "THE ENVIRONMENT ROSTER" panel. The text runs directly over the *B. cepacia complex* row and the bottom border of that section.
+    *   **Minor:** In the top algorithm tree, the arrows from "GRAM ⊖" to the sub-categories (Diplococci, Coccobacilli, etc.) are very close to the text labels but do not strictly overlap. However, the layout is tight.
+    *   **Minor:** In the "BACILLI" section, the sub-boxes for "NON-LACTOSE FERMENTING" and "LACTOSE FERMENTING" are placed side-by-side. The text within these boxes is contained, but the overall spacing between the "oxidase ⊕ / H2S on TSI:" label and its adjacent boxes is quite cramped.
+
+2.  **CLIPPING:**
+    *   **Major:** As noted above, the footer text appears to be positioned outside its intended container or the container is too short, causing it to clip/overlap the content above it rather than sitting cleanly below.
+    *   **No other clipping observed:** All text within the cards, comparison rows, and roster rows appears fully visible within their respective bounds.
+
+3.  **CONTRAST/READABILITY:**
+    *   The red text used for "GONOCOCCI", "N gonorrhoeae", and "N meningitidis" labels provides good contrast against the light backgrounds.
+    *   The light teal/cyan text for category headers (e.g., "DIPLOCOCCI", "CURVED RODS") is legible but has slightly lower contrast than the black body text; however, it remains readable.
+    *   The small grey text in the footer and the fine print in the roster rows is small but sharp.
+
+4.  **ALIGNMENT:**
+    *   The two-column layout for "THE NEISSERIA SPLIT" is well-aligned.
+    *   The "THE ENVIRONMENT ROSTER" rows are consistently aligned.
+    *   The top algorithm tree uses a structured indent hierarchy that is visually logical, though the connecting lines/arrows are a bit "hand-drawn" in style (which may be intentional for the schematic look).
+
+5.  **CONTENT CHECK:**
+    *   **Top Panel (The Gram ⊖ Algorithm):** This is a flowchart-style decision tree for identifying Gram-negative bacteria. It starts with morphology (Diplococci, Coccobacilli, Curved Rods, Bacilli) and then branches into biochemical tests like oxidase, fermentation (maltose/glucose/lactose), H2S production, and growth conditions to reach specific genera (Neisseria, Haemophilus, Pseudomonas, E. coli, etc.).
+    *   **Middle Panel (The Neisseria Split):** A direct comparison table between *Neisseria gonorrhoeae* and *Neisseria meningitidis*. It contrasts them across categories like Capsule, Maltose utilization, Vaccine availability, Spread (sexual vs. respiratory), associated Diseases, Diagnosis (Gram stain appearance), and Treatment/Prevention (Rx/Prevent).
+    *   **Bottom Panel (The Environment Roster):** A detailed list of specific Gram-negative pathogens (Gonorrhea, Meningitis, Haemophilus, Pertussis, Brucella, Legionella, *F. tularensis*, *B. cepacia*). For each, it provides a "signature" (key identifying features), reservoir (where it lives), and primary diseases caused.
+
+VERDICT: **DEFECTS FOUND**
+*   **Footer Text Overlap:** The paragraph of fine print at the very bottom of the image overlaps the "THE ENVIRONMENT ROSTER" container and its final row (*B. cepacia complex*). This needs to be pushed down or given more padding/margin.

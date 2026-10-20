@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-20T14:11:59Z",
+  "generatedAt": "2026-10-20T14:26:03Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 98,
+    "topicsProduced": 99,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 43,
+      "pilot-complete": 44,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 11,
-      "topicsRemaining": 28,
+      "topicsProduced": 12,
+      "topicsRemaining": 27,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1043,6 +1043,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "gram-negative-bacilli",
+      "title": "Gram-Negative Bacilli: Enterics, Zoonotics & the Water Organisms",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 161, 162, 163 (book 139–141)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-20"
     },
     {
       "topicId": "gram-positive-bacilli",

@@ -1,0 +1,27 @@
+**QA Report: element-gram-neg-bacilli-map-light.png**
+
+1.  **OVERLAPS:**
+    *   **Critical:** The bottom "tree gates" text block is severely overlapping the footer/copyright text. The dense paragraph of fine print (starting with "tree gates: maltose splits...") is crashing directly into the attribution line ("Original KYP redraw..."). This makes both sections very difficult to read.
+    *   **Minor:** In the "Bacilli" section, the label "oxidase ⊙ H2S or TSI:" is positioned extremely close to the top border of its sub-box. While not strictly overlapping, it feels cramped compared to other labels.
+
+2.  **CLIPPING:**
+    *   No major clipping of primary content (cards, rows, or headers) is observed at the container edges.
+    *   The footer text mentioned above appears to be running out of vertical space, causing the layout collision rather than hard pixel-clipping, but it effectively clips the readability of both text blocks.
+
+3.  **CONTRAST/READABILITY:**
+    *   The red text used for "GONOCOCCI" and "N gonorrhoeae" / "N meningitidis" provides good contrast against the light background.
+    *   The light teal/green text for "MENINGOCOCCI" and various positive test results (e.g., "+ maltose") is legible but has lower contrast than the black text; however, it remains readable in this specific schematic style.
+    *   The fine print at the very bottom is quite small and low contrast, exacerbated by the overlap issue.
+
+4.  **ALIGNMENT:**
+    *   The overall grid alignment is strong. The "Neisseria Split" comparison rows and the "Environment Roster" cards are well-aligned.
+    *   The arrows from the "GRAM ⊙ (pink)" box to the four main categories (Diplococci, Cocobacilli, Curved Rods, Bacilli) are neatly staggered.
+
+5.  **CONTENT CHECK:**
+    *   **Top Panel (The Gram Algorithm):** A flowchart starting with a Gram-negative (pink) result, branching by morphology (Diplococci, Cocobacilli, Curved Rods, Bacilli) and then further differentiating using biochemical tests like oxidase, maltose fermentation, and H2S production to identify specific genera (e.g., *Neisseria*, *Haemophilus*, *Pseudomonas*, *E. coli*).
+    *   **Five-Card Rail:** (Implicitly part of the top panel's branching logic) It depicts the five main morphological/test pathways.
+    *   **Two-Column Comparison (The Neisseria Split):** A side-by-side comparison of *N. gonorrhoeae* and *N. meningitidis* across categories like Capsule, Maltose, Vaccine, Spread, Diseases, Diagnosis, and Rx/Prevent.
+    *   **Bottom Roster (The Environment Roster):** A list-style reference for other Gram-negative bacilli/cocci (including *H. influenzae*, *B. pertussis*, *Brucella*, *Legionella*, etc.), providing key "signature" features, reservoir information, and associated diseases for each.
+
+VERDICT: **DEFECTS FOUND**
+*   **Footer Text Overlap:** The "tree gates" explanatory paragraph and the "Original KYP redraw..." copyright line are overlapping at the bottom of the image.

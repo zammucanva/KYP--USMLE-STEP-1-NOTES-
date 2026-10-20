@@ -1,0 +1,31 @@
+Based on a detailed inspection of the provided SVG schematic for the medical education site, here is the QA report:
+
+**1. OVERLAPS**
+*   **Tree Arrows vs. Labels:** The four black arrows originating from the "GRAM ⊕ (pink)" box on the left overlap with the text labels of the first row ("DIPLOCOCCI") and the second row ("COCCOBACILLI"). The arrowheads and lines cross directly over the bold category headers.
+*   **Tree Lanes:** Within the "BACILLI" section, the "⊕ NON-LACTOSE FERMENTING" sub-box and its contents appear to slightly crowd or sit very close to the "⊕ LACTOSE FERMENTING — by speed" header, though they do not strictly overlap text-on-text. The layout here is dense.
+*   **Footer Text:** The block of small grey text at the very bottom ("tree gates: maltose splits...") is extremely long and dense. While not overlapping other elements, it creates a "wall of text" effect that risks visual confusion with the row content above it.
+
+**2. CLIPPING**
+*   **No major clipping detected:** All text within the cards, comparison rows, and roster rows appears fully contained within their respective bounding boxes and panels. The "anchors strip" at the top is fully visible.
+
+**3. CONTRAST/READABILITY**
+*   **Footer Text:** The fine print at the bottom has low contrast (light grey on white) and a very small font size, making it difficult to read without zooming in significantly.
+*   **Roster Details:** The descriptive text inside the light-blue rows of "THE ENVIRONMENT ROSTER" is somewhat small and thin, which may pose readability issues on lower-resolution screens, though it remains legible.
+*   **Tree Notes:** Some secondary notes (e.g., "arobic — oxidase +", "anorobic — no second gate") are rendered in a lighter grey that provides lower contrast than the primary black text.
+
+**4. ALIGNMENT**
+*   **Arrow Origin:** The four arrows starting from the "GRAM ⊕" box do not originate from a single clean point; they fan out from slightly different vertical positions along the right edge of the source box, which looks slightly informal/unaligned compared to the rigid grid of the rest of the diagram.
+*   **Roster Headers:** The organism names on the left of the roster (e.g., *N gonorrhoeae*, *H influenzae*) are left-aligned, but their vertical centering within the blue bars varies slightly depending on text length/wrapping (though most appear single-line and well-centered).
+
+**5. CONTENT CHECK**
+*   **Top Two-Panel Diagram ("THE GRAM ⊕ ALGORITHM"):** This is a flowchart-style decision tree. It starts with Gram-negative (pink) bacteria and classifies them by shape into Diplococci, Coccobacilli, Curved Rods, and Bacilli. It then uses biochemical tests (maltose, oxidase, lactose, H2S, urease) to differentiate specific genera like *Neisseria*, *Haemophilus*, *Vibrio*, *Pseudomonas*, and Enterobacteriaceae (*E. coli*, *Klebsiella*, etc.).
+*   **Five-Card Rail (integrated into top panel):** This refers to the five main morphological/biochemical categories used as branching points: Diplococci, Coccobacilli, Curved Rods, Non-lactose fermenting Bacilli, and Lactose fermenting Bacilli (split by speed).
+*   **Two-Column Comparison ("THE NEISSERIA SPLIT"):** A table comparing *Gonococci* (left/red) vs. *Meningococci* (right/blue). It contrasts them across seven axes: Capsule, Maltose, Vaccine type, Spread pattern, Diseases caused, Diagnostic markers (Gram stain), and Treatment/Prevention (Rx/Vaccine).
+*   **Bottom Roster ("THE ENVIRONMENT ROSTER"):** A list of eight specific Gram-negative organisms (*N. gonorrhoeae*, *N. meningitidis*, *H. influenzae*, *B. pertussis*, *Brucella*, *L. pneumophila*, *F. tularensis*/*spp.*, *B. cepacia* complex). Each row provides a "signature" (lab traits), reservoir, and associated diseases.
+
+***
+
+VERDICT: DEFECTS FOUND
+*   **Overlap:** Tree arrows intersect category header text ("DIPLOCOCCI", "COCCOBACILLI").
+*   **Readability:** Footer fine print has insufficient contrast/size; some tree annotations are low-contrast grey.
+*   **Alignment:** Arrow origins from the root node are vertically staggered rather than aligned to a single node point.

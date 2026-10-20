@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 28,
+  "pendingTopicCount": 27,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -1449,8 +1449,242 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Clinical Bacteriology",
-      "status": "pending",
-      "productionRationale": "The enteric and zoonotic gram-negatives: Neisseria (gonococci/meningococci), Haemophilus, Brucella/Legionella/Pasteurella/Bordetella, and the lactose-fermenter split of the ENTERICS."
+      "status": "complete",
+      "productionRationale": "The enteric and zoonotic gram-negatives: Neisseria (gonococci/meningococci), Haemophilus, Brucella/Legionella/Pasteurella/Bordetella, and the lactose-fermenter split of the ENTERICS.",
+      "textbookVisuals": [
+        {
+          "visualId": "gram-negative-bacilli-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "DIAGNOSTIC_ALGORITHM",
+          "visualPurpose": "The Gram-negative lab algorithm tree (book 139, lower half)",
+          "sourceFigureDescription": "The printed decision tree: root 'Gram ⊝ (pink)' splitting by morphology into Diplococci (aerobic; oxidase and maltose fermentation → N gonorrhoeae + Moraxella vs N meningitidis), Coccobacilli (aerobic: H influenzae, B pertussis, Pasteurella, Brucella, F tularensis, A baumannii), Curved rods (oxidase ⊕: 42°C → C jejuni, alkaline → V cholerae, urease → H pylori), and Bacilli (lactose fermentation → oxidase → H2S on TSI agar, with fast/slow lactose split and the Yersinia superscript-a footnote 'Pleomorphic rod/coccobacillus'; 'Important tests are in bold. Important pathogens are in bold italics.'). Pure vector.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gram-neg-bacilli-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the TREE panel — the redraw of the printed algorithm with all four lanes and their gates",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gram-neg-bacilli-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The gonococci vs meningococci comparison (book 140)",
+          "sourceFigureDescription": "The printed two-column comparison with seven row topics: capsule, maltose acid detection, vaccine, transmission, diseases, diagnosis, treatment/prevention.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "gram-neg-bacilli-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the NEISSERIA SPLIT panel of the visual; the verbatim comparison text also carried in the note's table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "gram-neg-bacilli-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "N gonorrhoeae — the intracellular diplococci micrograph (book 140)",
+          "sourceFigureDescription": "A gram-stain micrograph of N gonorrhoeae within neutrophils (gram ⊝ diplococci inside white cells), its marker A printed after 'within neutrophils) A.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Neisseria genus row — figure pointer carried verbatim; the micrograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "N meningitidis — the meningococcemic toe-gangrene photograph (book 140)",
+          "sourceFigureDescription": "A clinical photograph of gangrene of the toes in meningococcemia, its marker B printed after 'gangrene of toes B.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the Neisseria comparison row — figure pointer carried verbatim; the photograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "H influenzae — the thumb-sign lateral neck x-ray (book 140)",
+          "sourceFigureDescription": "A lateral neck radiograph showing the swollen epiglottis (the thumb sign) of pediatric epiglottitis, with red arrows, its marker A printed after 'thumb sign on lateral neck x-ray A.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, H influenzae row — figure pointer carried verbatim; the radiograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "L pneumophila — the unilateral lobar pneumonia imaging (book 141)",
+          "sourceFigureDescription": "A chest imaging study showing unilateral lobar consolidation of Legionnaires disease, with arrows, its marker A printed after 'often unilateral and lobar A.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, L pneumophila row — figure pointer carried verbatim; the radiograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv7",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "P aeruginosa — the green-pigment plate (book 141)",
+          "sourceFigureDescription": "A photograph of a culture plate showing Pseudomonas's green pigment (pyocyanin), its marker A printed after 'green Pigment A.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, P aeruginosa row — figure pointer carried verbatim; the plate described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "gram-negative-bacilli-sv8",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              161,
+              162,
+              163
+            ],
+            "bookPages": "139–141"
+          },
+          "chapterId": "microbiology",
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "P aeruginosa — the ecthyma gangrenosum photograph (book 141)",
+          "sourceFigureDescription": "A clinical photograph of ecthyma gangrenosum — a rapidly progressive, necrotic cutaneous lesion of Pseudomonas bacteremia — its marker B printed after 'necrotic cutaneous lesion B.'",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "gram-negative-bacilli",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, P aeruginosa row — figure pointer carried verbatim; the photograph described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "enteric-pathogens",

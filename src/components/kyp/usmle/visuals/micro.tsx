@@ -1415,3 +1415,180 @@ export function TbSpectrumMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M12 — Gram-negative bacilli: the lab algorithm tree (redraw of the printed
+// decision tree: diplococci / coccobacilli / curved rods / bacilli with the
+// maltose, oxidase, temperature-pH-urease, and lactose/H2S-TSI gates) +
+// the gonococci-vs-meningococci comparison + the environment roster
+// (source: pdf 161-163 / book 139-141 — the tree is pure vector; the printed
+//  images [gonococci in neutrophils, gangrene of toes, thumb-sign x-ray,
+//  lobar pneumonia imaging, green pigment plate, ecthyma gangrenosum] are
+//  raster, COPYRIGHTED, described here)
+// ---------------------------------------------------------------------------
+
+export function GramNegBacilliMap() {
+  const w = 980;
+  const h = 1330;
+  const roster = [
+    { n: "N gonorrhoeae", t: "Gram ⊝ diplococcus, often intracellular (within neutrophils); no capsule, no maltose acid; IgA protease; LOS endotoxin; antigenic variation of pilus proteins — no vaccine", d: "Gonorrhea, septic arthritis, neonatal conjunctivitis (2-5 days after birth), PID, Fitz-Hugh–Curtis syndrome. Sexual or perinatal transmission. Dx NAAT. Rx single-dose IM ceftriaxone (+ doxycycline if chlamydia not excluded). Prevent: condoms, erythromycin eye ointment" },
+    { n: "N meningitidis", t: "Gram ⊝ diplococcus; polysaccharide capsule; maltose ⊕; IgA protease; LOS endotoxin; type B vaccine for at-risk individuals", d: "Meningococcemia with petechial hemorrhages and gangrene of toes, meningitis, Waterhouse-Friderichsen syndrome (acute hemorrhagic adrenal insufficiency). Respiratory/oral secretions — close quarters (army barracks, college dorms). Rx ceftriaxone or penicillin G; prophylaxis: rifampin, ciprofloxacin, or ceftriaxone" },
+    { n: "H influenzae", t: "Small gram ⊝ (coccobacillary) rod; respiratory droplets; nontypeable (unencapsulated) strains now dominate mucosal + invasive disease; IgA protease; chocolate agar (factors V [NAD+] and X [hematin]); satellitism around S aureus", d: "Epiglottitis (cherry red; thumb sign on lateral neck x-ray), meningitis, otitis media, pneumonia. Type b vaccine: polyribosylribitol phosphate conjugated to diphtheria toxoid (2-18 months). NOT the flu. Rx amoxicillin +/− clavulanate (mucosal); ceftriaxone (meningitis); rifampin prophylaxis" },
+    { n: "B pertussis", t: "Gram ⊝, aerobic coccobacillus; pertussis toxin (disables Gi), adenylate cyclase toxin (↑ cAMP), tracheal cytotoxin (destroys ciliated epithelium); produces lymphocytosis", d: "Catarrhal (low-grade fevers, coryza) → paroxysmal (whoop, posttussive vomiting) → convalescent. Prevent: Tdap (preTeens/adulTs), DTaP (chilDren). Rx macrolides; if allergic, TMP-SMX" },
+    { n: "Brucella", t: "Gram ⊝, aerobic coccobacillus; unpasteurized milk and animal products; survives in macrophages of the reticuloendothelial system; noncaseating granulomas", d: "Undulant fever, night sweats, arthralgia. Rx doxycycline + rifampin or streptomycin" },
+    { n: "L pneumophila", t: "Gram ⊝ rod, stains poorly — silver stain; charcoal yeast extract with iron and cysteine; urine antigen; hyponatremia + elevated transaminases; aerosols from water (AC systems, hot tubs, cruise ships, nursing homes); NO person-to-person spread", d: "Legionnaires disease: severe pneumonia (often unilateral and lobar), fever, GI and CNS symptoms (older age, smoking, chronic lung disease). Pontiac fever: mild flulike illness. Rx macrolide or quinolone" },
+    { n: "P aeruginosa", t: "Aerobic, motile, catalase ⊕ gram ⊝ rod; non-lactose fermenting, oxidase ⊕; water; ↑ virulence in acidic environments; grapelike odor; mucoid capsule → CF biofilm chronic pneumonia", d: "Pneumonia, sepsis, ecthyma gangrenosum, UTIs, otitis externa (swimmer's ear), hot tub folliculitis, burn wounds, corneal ulcers (contact lens wearers). PEEP: Phospholipase C, Endotoxin, Exotoxin A (inactivates EF-2), green Pigment. Rx antipseudomonal penicillin + β-lactamase inhibitor, ceftazidime/cefepime, monobactams, fluoroquinolones, carbapenems; aminoglycoside monotherapy avoided (acidic environments)" },
+    { n: "B cepacia complex", t: "Aerobic, catalase ⊕ gram ⊝ rod; often multidrug resistant", d: "Pneumonia in underlying lung disease (cystic fibrosis); infection is a relative contraindication to lung transplant (poor outcomes)" },
+  ];
+  const neisseria = [
+    ["CAPSULE", "No polysaccharide capsule", "Polysaccharide capsule"],
+    ["MALTOSE", "No maltose acid detection", "Maltose acid detection"],
+    ["VACCINE", "No vaccine (antigenic variation of pilus proteins)", "Vaccine (type B for at-risk individuals)"],
+    ["SPREAD", "Sexually or perinatally transmitted", "Respiratory/oral secretions — close quarters (barracks, dorms)"],
+    ["DISEASES", "Gonorrhea, septic arthritis, neonatal conjunctivitis, PID, Fitz-Hugh–Curtis", "Meningococcemia (petechiae, toe gangrene), meningitis, Waterhouse-Friderichsen"],
+    ["DIAGNOSIS", "NAAT", "Culture-based tests or PCR"],
+    ["RX / PREVENT", "IM ceftriaxone (+ doxycycline if chlamydia not excluded); condoms, erythromycin eye ointment", "Ceftriaxone or penicillin G; rifampin/ciprofloxacin/ceftriaxone prophylaxis"],
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Gram-negative bacilli, an original KYP lab-algorithm tree and roster. THE TREE (a redraw of the printed decision tree): gram-negative organisms (pink) split first by MORPHOLOGY. DIPLOCOCCI (aerobic, oxidase positive) split by MALTOSE FERMENTATION: negative (glucose only) = N gonorrhoeae with Moraxella; positive (glucose and maltose) = N meningitidis. COCCOBACILLI (aerobic): Haemophilus influenzae, Bordetella pertussis, Pasteurella, Brucella, Francisella tularensis, Acinetobacter baumannii. CURVED RODS (oxidase positive) split by growth condition: 42 degrees = Campylobacter jejuni; alkaline media = Vibrio cholerae; urease = Helicobacter pylori. BACILLI split by LACTOSE FERMENTATION then oxidase then hydrogen sulfide on TSI agar: non-lactose fermenters with oxidase positive = Pseudomonas and Burkholderia; non-lactose with oxidase negative split by H2S on TSI — negative = Shigella and Yersinia (pleomorphic rod/coccobacillus), positive = Salmonella and Proteus; lactose fermenters split by speed — fast = E coli, Klebsiella, Enterobacter; slow = Citrobacter, Serratia. THE NEISSERIA COMPARISON: gonococci (no capsule, no maltose, no vaccine by pilus antigenic variation, sexual or perinatal spread, gonorrhea and septic arthritis and neonatal conjunctivitis and PID and Fitz-Hugh-Curtis, NAAT, ceftriaxone with condoms and erythromycin eye ointment) vs meningococci (capsule, maltose positive, type B vaccine, respiratory spread in close quarters, meningococcemia with petechiae and toe gangrene, meningitis, Waterhouse-Friderichsen adrenal hemorrhage, culture or PCR, ceftriaxone or penicillin G with contact prophylaxis). THE ENVIRONMENT ROSTER: the water and animal reservoirs — Legionella from aerosolized water with no person-to-person spread; Brucella from unpasteurized milk surviving in macrophages; Pseudomonas from water with acidic-environment virulence, green pigment, ecthyma gangrenosum, and the cystic-fibrosis biofilm; Haemophilus influenzae with chocolate agar factors V and X and the thumb-sign epiglottitis; Bordetella pertussis with its three stages and lymphocytosis; Burkholderia cepacia in cystic fibrosis" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Gram-negative bacilli — the lab algorithm tree (original KYP redraw)</text>
+        <rect x="712" y="24" width="220" height="18" rx="9" className="fill-brand-soft" />
+        <text x="822" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">morphology → maltose → oxidase → lactose → H2S</text>
+      </g>
+
+      {/* ===== THE TREE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="470" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE GRAM ⊝ (PINK) ALGORITHM — morphology first, then the discriminating tests</text>
+
+        {/* root */}
+        <rect x="52" y="112" width="120" height="56" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="112" y="138" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">GRAM ⊝</text>
+        <text x="112" y="152" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">(pink)</text>
+
+        {/* lane 1: diplococci */}
+        <path d="M 172 140 L 184 152 L 188 152" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m12arrow)" />
+        <rect x="202" y="112" width="724" height="60" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="214" y="128" fontSize="7" fontWeight="800" className="fill-brand">DIPLOCOCCI</text>
+        <text x="330" y="128" fontSize="5.6" className="fill-muted-foreground">aerobic · oxidase ⊕ → MALTOSE FERMENTATION:</text>
+        <rect x="214" y="138" width="330" height="26" rx="6" className="fill-secondary" />
+        <text x="222" y="149" fontSize="5.6" fontWeight="800" className="fill-emergency">⊝ maltose (glucose only)</text>
+        <text x="222" y="159" fontSize="5.6" className="fill-muted-foreground">N gonorrhoeae · Moraxella</text>
+        <rect x="556" y="138" width="358" height="26" rx="6" className="fill-secondary" />
+        <text x="564" y="149" fontSize="5.6" fontWeight="800" className="fill-brand">⊕ maltose (glucose + maltose)</text>
+        <text x="564" y="159" fontSize="5.6" className="fill-muted-foreground">N meningitidis</text>
+
+        {/* lane 2: coccobacilli */}
+        <path d="M 172 140 L 184 190 L 188 190" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m12arrow)" />
+        <rect x="202" y="180" width="724" height="52" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="214" y="196" fontSize="7" fontWeight="800" className="fill-brand">COCCOBACILLI</text>
+        <text x="330" y="196" fontSize="5.6" className="fill-muted-foreground">aerobic — no second gate:</text>
+        <text x="214" y="216" fontSize="5.8" fontWeight="700" className="fill-foreground">H influenzae · B pertussis · Pasteurella · Brucella · F tularensis · A baumannii</text>
+
+        {/* lane 3: curved rods */}
+        <path d="M 172 140 L 184 240 L 188 240" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m12arrow)" />
+        <rect x="202" y="240" width="724" height="60" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="214" y="256" fontSize="7" fontWeight="800" className="fill-brand">CURVED RODS</text>
+        <text x="330" y="256" fontSize="5.6" className="fill-muted-foreground">oxidase ⊕ → the growth condition:</text>
+        <rect x="214" y="266" width="230" height="26" rx="6" className="fill-secondary" />
+        <text x="222" y="277" fontSize="5.6" fontWeight="800" className="fill-brand">grows at 42°C</text>
+        <text x="222" y="287" fontSize="5.6" className="fill-muted-foreground">Campylobacter jejuni</text>
+        <rect x="456" y="266" width="230" height="26" rx="6" className="fill-secondary" />
+        <text x="464" y="277" fontSize="5.6" fontWeight="800" className="fill-brand">grows in alkaline media</text>
+        <text x="464" y="287" fontSize="5.6" className="fill-muted-foreground">Vibrio cholerae</text>
+        <rect x="698" y="266" width="216" height="26" rx="6" className="fill-secondary" />
+        <text x="706" y="277" fontSize="5.6" fontWeight="800" className="fill-brand">produces urease</text>
+        <text x="706" y="287" fontSize="5.6" className="fill-muted-foreground">Helicobacter pylori</text>
+
+        {/* lane 4: bacilli */}
+        <path d="M 172 140 L 184 316 L 188 316" strokeWidth="1.4" className="stroke-foreground" fill="none" markerEnd="url(#m12arrow)" />
+        <rect x="202" y="308" width="724" height="202" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="214" y="324" fontSize="7" fontWeight="800" className="fill-brand">BACILLI</text>
+        <text x="310" y="324" fontSize="5.6" className="fill-muted-foreground">LACTOSE FERMENTATION first, then oxidase, then H2S on TSI agar:</text>
+
+        {/* non-lactose half */}
+        <rect x="214" y="334" width="350" height="164" rx="8" className="fill-secondary" />
+        <text x="224" y="348" fontSize="6.2" fontWeight="800" className="fill-emergency">⊝ NON-LACTOSE FERMENTING</text>
+        <rect x="224" y="356" width="158" height="44" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="232" y="368" fontSize="5.6" fontWeight="800" className="fill-brand">oxidase ⊕</text>
+        <text x="232" y="378" fontSize="5.4" className="fill-muted-foreground">Pseudomonas</text>
+        <text x="232" y="388" fontSize="5.4" className="fill-muted-foreground">Burkholderia</text>
+        <rect x="392" y="356" width="164" height="128" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="400" y="368" fontSize="5.6" fontWeight="800" className="fill-emergency">oxidase ⊝ → H2S on TSI:</text>
+        <text x="400" y="384" fontSize="5.5" fontWeight="700" className="fill-foreground">⊝ H2S</text>
+        <text x="410" y="394" fontSize="5.4" className="fill-muted-foreground">Shigella</text>
+        <text x="410" y="404" fontSize="5.4" className="fill-muted-foreground">Yersinia ᵃ</text>
+        <text x="400" y="424" fontSize="5.5" fontWeight="700" className="fill-foreground">⊕ H2S</text>
+        <text x="410" y="434" fontSize="5.4" className="fill-muted-foreground">Salmonella</text>
+        <text x="410" y="444" fontSize="5.4" className="fill-muted-foreground">Proteus</text>
+        <text x="400" y="466" fontSize="5.0" className="fill-muted-foreground">ᵃ pleomorphic rod/</text>
+        <text x="400" y="475" fontSize="5.0" className="fill-muted-foreground">coccobacillus</text>
+
+        {/* lactose half */}
+        <rect x="576" y="334" width="338" height="164" rx="8" className="fill-secondary" />
+        <text x="586" y="348" fontSize="6.2" fontWeight="800" className="fill-brand">⊕ LACTOSE FERMENTING — by speed</text>
+        <rect x="586" y="356" width="158" height="128" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="594" y="370" fontSize="5.6" fontWeight="800" className="fill-brand">FAST</text>
+        <text x="594" y="386" fontSize="5.6" className="fill-muted-foreground">E coli</text>
+        <text x="594" y="398" fontSize="5.6" className="fill-muted-foreground">Klebsiella</text>
+        <text x="594" y="410" fontSize="5.6" className="fill-muted-foreground">Enterobacter</text>
+        <rect x="756" y="356" width="148" height="128" rx="6" className="fill-card stroke-border" strokeWidth="1" />
+        <text x="764" y="370" fontSize="5.6" fontWeight="800" className="fill-emergency">SLOW</text>
+        <text x="764" y="386" fontSize="5.6" className="fill-muted-foreground">Citrobacter</text>
+        <text x="764" y="398" fontSize="5.6" className="fill-muted-foreground">Serratia</text>
+        <text x="586" y="492" fontSize="5.0" className="fill-muted-foreground">The source's own note: important tests in bold; important pathogens in bold italics.</text>
+
+        <defs>
+          <marker id="m12arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" className="fill-foreground" />
+          </marker>
+        </defs>
+      </g>
+
+      {/* ===== GONOCOCCI vs MENINGOCOCCI ===== */}
+      <g>
+        <rect x="36" y="562" width="908" height="200" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="584" fontSize="9" fontWeight="800" className="fill-foreground">THE NEISSERIA SPLIT — gonococci vs meningococci (gram ⊝ diplococci; both metabolize glucose, make IgA protease, and carry LOS with strong endotoxin activity)</text>
+        <text x="214" y="602" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">GONOCOCCI</text>
+        <text x="600" y="602" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">MENINGOCOCCI</text>
+        {neisseria.map((r, i) => (
+          <g key={r[0]}>
+            <rect x={52} y={610 + i * 20} width={880} height={18} rx={4} className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x={62} y={622 + i * 20} fontSize={5.4} fontWeight={800} className="fill-foreground">{r[0]}</text>
+            <text x={214} y={622 + i * 20} fontSize={5.2} className="fill-muted-foreground">{r[1]}</text>
+            <text x={600} y={622 + i * 20} fontSize={5.2} className="fill-muted-foreground">{r[2]}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== THE ENVIRONMENT ROSTER ===== */}
+      <g>
+        <rect x="36" y="778" width="908" height="404" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="800" fontSize="9" fontWeight="800" className="fill-foreground">THE ENVIRONMENT ROSTER — signature · reservoir · diseases</text>
+        {roster.map((r, i) => (
+          <g key={r.n}>
+            <rect x={52} y={810 + i * 46} width={876} height={40} rx={7} className={i % 2 === 0 ? "fill-secondary" : "fill-secondary/60"} />
+            <text x={64} y={824 + i * 46} fontSize={6.4} fontWeight={800} className={i < 2 ? "fill-emergency" : i < 4 ? "fill-brand" : "fill-foreground"}>{r.n}</text>
+            <text x={200} y={824 + i * 46} fontSize={5.2} className="fill-muted-foreground">{r.t.match(/.{1,106}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+            <text x={200} y={835 + i * 46} fontSize={5.2} className="fill-muted-foreground">{r.d.match(/.{1,106}(\s|$)/g)!.slice(0, 1).map(x => x.trim()).join(" ")}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1196" width="908" height="70" rx="8" className="fill-secondary" />
+        <text x="490" y="1211" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Tree gates: maltose splits the diplococci (gonorrhoeae ⊝, meningitidis ⊕) · oxidase ⊕ non-lactose = Pseudomonas, Burkholderia · H2S on TSI splits the oxidase-⊝ non-lactose set (Salmonella, Proteus ⊕ vs Shigella, Yersinia ⊝) · lactose speed splits the fermenters (E coli, Klebsiella, Enterobacter fast vs Citrobacter, Serratia slow)</text>
+        <text x="490" y="1223" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">H influenzae: chocolate agar factors V (NAD+) and X (hematin); satellitism around S aureus; nontypeable strains dominate post-vaccine; thumb-sign epiglottitis; NOT the flu · B pertussis: toxin disables Gi; lymphocytosis; whooping cough in 3 stages; Tdap/DTaP</text>
+        <text x="490" y="1235" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Brucella: unpasteurized milk, macrophages, undulant fever, noncaseating granulomas · Legionella: silver stain, charcoal yeast extract + iron + cysteine, urine antigen, hyponatremia + ↑ transaminases, water aerosols with NO person-to-person spread</text>
+        <text x="490" y="1247" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">P aeruginosa: water, grapelike odor, green pigment, acidic-environment virulence, ecthyma gangrenosum, swimmer's ear, CF biofilm (mucoid capsule); Exotoxin A inactivates EF-2; aminoglycoside monotherapy avoided in acidic foci · B cepacia: CF, MDR, lung-transplant contraindication</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="1300" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Gram-negative lab algorithm tree (pdf 161 / book 139 — pure vector) with the Neisseria comparison and the environment roster from books 140-141. The printed images (gonococci within neutrophils, meningococcemic gangrene of toes, the thumb-sign lateral neck x-ray, the unilateral lobar pneumonia imaging, the green-pigment plate, ecthyma gangrenosum) are raster, COPYRIGHTED, described-in-text only. FA's printed mnemonics (the French legionnaire campfire; PSEUDOMONAS; PEEP) are NOT reproduced here — verification only.</text>
+    </svg>
+  );
+}
