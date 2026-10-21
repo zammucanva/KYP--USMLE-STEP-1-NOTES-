@@ -76,6 +76,7 @@ import { viralStructureGenetics } from "./viral-structure-genetics";
 import { dnaViruses } from "./dna-viruses";
 import { rnaViruses } from "./rna-viruses";
 import { viralVaccinesDiagnostics } from "./viral-vaccines-diagnostics";
+import { hepatitisViruses } from "./hepatitis-viruses";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -235,6 +236,7 @@ export const usmleNotes: KypUsMLENote[] = [
   dnaViruses,
   rnaViruses,
   viralVaccinesDiagnostics,
+  hepatitisViruses,
   cranialNerves,
   diabetesMellitus,
 ];

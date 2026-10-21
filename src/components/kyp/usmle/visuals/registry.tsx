@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap, HepatitisSerologyMap } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -314,4 +314,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "dna-virus-family-map": DnaVirusFamilyMap,
   "rna-virus-family-map": RnaVirusFamilyMap,
   "vaccine-diagnostic-map": VaccineDiagnosticMap,
+  "hepatitis-serology-map": HepatitisSerologyMap,
 };

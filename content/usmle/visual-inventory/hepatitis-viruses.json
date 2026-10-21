@@ -1,0 +1,139 @@
+{
+  "topicId": "hepatitis-viruses",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "hepatitis-viruses-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170–170"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The five-virus hepatitis comparison table (book 170)",
+      "sourceFigureDescription": "The printed comparison table with the intro lines and the two mechanism paragraphs.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hepatitis-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hepatitis-serology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the mechanism strip + the 5-virus grid"
+    },
+    {
+      "visualId": "hepatitis-viruses-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171–171"
+      },
+      "chapterId": "microbiology",
+      "visualType": "TIMELINE",
+      "visualPurpose": "The HBV serology timeline figure (book 171)",
+      "sourceFigureDescription": "The printed graph: relative concentration of reactants (HBsAg, anti-HBc, HBeAg, anti-HBe, anti-HBs) across approximate months after exposure, with the incubation/acute/window/recovery phases.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hepatitis-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hepatitis-serology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the serology clock panel (an original redraw of the graph)"
+    },
+    {
+      "visualId": "hepatitis-viruses-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171–171"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The serology patterns table (book 171)",
+      "sourceFigureDescription": "The printed 7-scenario x 5-marker table (its marks print as 17 tiny raster images).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hepatitis-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hepatitis-serology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the 7-scenario patterns table with text marks"
+    },
+    {
+      "visualId": "hepatitis-viruses-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171–171"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The extrahepatic manifestations table (book 171)",
+      "sourceFigureDescription": "The printed hepatitis B vs C table across five systems.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hepatitis-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hepatitis-serology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the extrahepatic B-vs-C panel"
+    },
+    {
+      "visualId": "hepatitis-viruses-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170–170"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Councilman-bodies histology (book 170)",
+      "sourceFigureDescription": "The liver biopsy showing hepatocyte swelling with Councilman bodies, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hepatitis-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "hepatitis-viruses",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "4 source structures redrawn in the registry visual (the comparison table, the serology timeline graph, the patterns table with its raster marks redrawn as text, the extrahepatic table); the Councilman-bodies histology is COPYRIGHTED — described-in-text only."
+}

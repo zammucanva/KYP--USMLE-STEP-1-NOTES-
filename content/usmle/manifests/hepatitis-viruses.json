@@ -1,0 +1,535 @@
+{
+  "topicId": "hepatitis-viruses",
+  "title": "Hepatitis Viruses: A Through E",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      192,
+      193
+    ],
+    "bookPages": "170–171"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "170",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading (splits across lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "Hepatitis\nviruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The shared-signature intro + FA's vowels gloss (verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "Signs and symptoms of all hepatitis viruses: episodes of fever, jaundice, ↑ ALT and AST. NAkEd viruses (HAV\nand HEV) lack an envelope and are not destroyed by the gut: the vowels hit your bowels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The HBV polymerase mechanism (DNA- and RNA-dependent; completes partial dsDNA; reverse transcription)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "HBV DNA polymerase has DNA- and RNA-dependent activities. Upon entry into nucleus, the polymerase\ncompletes the partial dsDNA. Host RNA polymerase transcribes mRNA from viral DNA to make viral\nproteins. The DNA polymerase then reverse transcribes viral RNA to DNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The HCV escape mechanism (no 3'-5' exonuclease; no proofreading; antigenic variation; antibody lags)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "HCV lacks 3′-5′ exonuclease activity →  no proofreading ability →  antigenic variation of HCV envelope\nproteins. Host antibody production lags behind production of new mutant strains of HCV.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The five virus labels + family row, grouped (HAV/HBV/HCV/HDV/HEV then picorna/hepadna/flavi/delta/hepe)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "HAV\nHBV\nHCV\nHDV\nHEV\nRNA picornavirus\nDNA hepadnavirus RNA flavivirus\nRNA deltavirus\nRNA hepevirus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TRANSMISSION column, grouped (HAV fecal-oral shellfish; HBV Blood-Bedroom-Birthing; HCV injection/posttransfusion; HDV parenteral; HEV fecal-oral waterborne)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "TRANSMISSION\n\nFecal-oral (shellfish, Parenteral (Blood),\ntravelers, day care)\nsexual (Bedroom),\nperinatal\n(Birthing)\n\nPrimarily blood\n(injection\ndrug use,\nposttransfusion)\n\nParenteral, sexual,\nperinatal\n\nFecal-oral,\nespecially\nwaterborne",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "INCUCATION column (the source's own header typo — missing BAT), grouped (short/long/long/superinfection-short-co-infection-long/short)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "INCUCATION\n\nShort (weeks)\n\nLong (months)\n\nLong\n\nSuperinfection\n(HDV after\nHBV) = short\nCoinfection (HDV\nwith HBV) = long\n\nShort",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CLINICAL COURSE column, grouped (acute self-limiting; serum sickness; cirrhosis/carcinoma; similar to HBV; fulminant in pregnancy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "CLINICAL COURSE\n\nAcute and self\nlimiting (adults),\nAsymptomatic\n(children)\n\nInitially like serum\nsickness (fever,\narthralgias, rash);\nmay progress to\ncarcinoma\n\nMay progress to\nCirrhosis or\nCarcinoma\n\nSimilar to HBV\n\nFulminant hepatitis\nin Expectant\n(pregnant)\npatients",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROGNOSIS column, grouped (good; adults resolve-neonates worse; majority chronic; superinfection worse; high mortality in pregnancy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "PROGNOSIS\n\nGood\n\nAdults →  mostly\nfull resolution;\nneonates →  worse\nprognosis\n\nMajority develop\nstable, Chronic\nhepatitis C\n\nSuperinfection\nHigh mortality in\npregnant patients\n→  worse prognosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HCC RISK column, grouped (no/yes/yes/yes/no)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "HCC RISK\n\nNo\n\nYes\n\nYes\n\nYes\n\nNo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "LIVER CIOPSY column (the source's own header typo — missing BI): HAV Councilman bodies A; HBV ground glass + cytotoxic T cells; HCV lymphoid aggregates + steatosis; HDV similar; HEV patchy necrosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "LIVER CIOPSY\n\nHepatocyte\nswelling,\nmonocyte\ninfiltration,\nCouncilman\nbodies A\n\nGranular\neosinophilic\n“ground glass”\nappearance due\nto accumulation\nof surface antigen\nwithin infected\nhepatocytes;\ncytotoxic T cells\nmediate damage\n\nLymphoid\naggregates with\nfocal areas of\nmacrovesicular\nsteatosis\n\nSimilar to HBV\n\nPatchy necrosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NOTES + carrier states + the HDV-defective note interleaved with HEV's enteric-epidemic note at the page end",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "Carrier state\ncommon\n\nCarrier state very\ncommon\n\nDefective virus,\nDepends on\nHBV HBsAg coat\nfor entry into\nhepatocytes\n\nEnteric, Epidemic\n(eg, in parts of\nAsia, Africa,\nMiddle East), no\ncarrier state",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          192
+        ],
+        "bookPages": "170"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "171",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Extrahepatic heading + the two column headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "Extrahepatic manifestations of hepatitis B and C\nHepatitis B\n\nHepatitis C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HEMATOLOGIC row (HBV aplastic anemia; HCV cryoglobulinemia, B-cell NHL, ITP, AIHA)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "HEMATOLOGIC\n\nAplastic anemia\n\nEssential mixed cryoglobulinemia, ↑ risk B-cell\nNHL, ITP, autoimmune hemolytic anemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RENAL row (HBV membranous > MPGN; HCV MPGN > membranous)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "RENAL\n\nMembranous GN > membranoproliferative GN\n\nMembranoproliferative GN > membranous GN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VASCULAR row (HBV polyarteritis nodosa; HCV leukocytoclastic vasculitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "VASCULAR\n\nPolyarteritis nodosa\n\nLeukocytoclastic vasculitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DERMATOLOGIC + ENDOCRINE rows (HCV porphyria cutanea tarda + lichen planus; diabetes + autoimmune hypothyroidism)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "DERMATOLOGIC\n\nSporadic porphyria cutanea tarda, lichen planus\n\nENDOCRINE\n\n↑ risk of diabetes mellitus, autoimmune\nhypothyroidism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Serologic markers heading + anti-HAV pair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "Hepatitis serologic markers\nAnti-HAV (IgM)\n\nIgM antibody to HAV; best test to detect acute hepatitis A.\n\nAnti-HAV (IgG)\n\nIgG antibody indicates prior HAV infection and/or prior vaccination; protects against reinfection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HBsAg + anti-HBs markers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "HBsAg\n\nAntigen found on surface of HBV; indicates hepatitis B infection.\n\nAnti-HBs\n\nAntibody to HBsAg; indicates immunity to hepatitis B due to vaccination or recovery from infection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HBcAg + anti-HBc markers (IgM acute/recent; IgG prior/chronic; the window-period sole ⊕)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "HBcAg\n\nAntigen associated with core of HBV.\n\nAnti-HBc\n\nAntibody to HBcAg; IgM = acute/recent infection; IgG = prior exposure or chronic infection. IgM\nanti-HBc may be the sole ⊕ marker of infection during window period.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HBeAg + anti-HBe markers (secreted, not in the virion; active replication, high transmissibility)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "HBeAg\n\nSecreted by infected hepatocyte into circulation. Not part of mature HBV virion. Indicates active\nviral replication and therefore high transmissibility and poorer prognosis.\n\nAnti-HBe\n\nAntibody to HBeAg; indicates low transmissibility.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline's phase labels + curve labels, first pass (incubation/acute/window/recovery; anti-HBc; core antigen; relative concentration; HBsAg; anti-HBe; e antigen; anti-HBs; surface protein antigen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "Infection phase\n\nIncubation\n\nAcute infection\n\nWindow\n\nRecovery\n\nAnti-HBc\nCore antigen\n(HBcAg)\n\nAnti-HBc\nRelative\nconcentration\nof reactants\nHBsAg\n\nAnti-HBe\nE antigen\n(HBeAg)\n\nAnti-HBs\nSurface protein\nantigen (HBsAg)\n\nAnti-HBs\nLevel of\ndetection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline's axis numbers + months label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "0\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\nApproximate months after exposure",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline's marker labels, second pass (HBsAg; HBsAg in vaccine; anti-HBs; anti-HBc; HBeAg; anti-HBs; anti-HBe)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "HBsAg\n\nHBsAg in vaccine\n\nAnti-HBs\n\nAnti-HBc\n\nHBeAg\n\nAnti-HBs\n\nAnti-HBe\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pattern row labels with (IgM)/(IgG) qualifiers (incubation; acute; window; recovery; chronic high; chronic low; immunized)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "Incubation\nAcute infection\n\n(IgM)\n\nWindow\n\n(IgM)\n\nRecovery\n\n(IgG)\n\nChronic infection\n(high infectivity)\n\n(IgG)\n\nChronic infection\n(low infectivity)\n\n(IgG)\n\nImmunized\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          193
+        ],
+        "bookPages": "171"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hepatitis-serology-map"
+  ],
+  "mechanismIds": [
+    "enteric-parenteral-axis",
+    "serology-clock-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and markers; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "enteric-serology-synthesis",
+      "summary": "The enteric-vs-parenteral axis wired to M22's envelope and complementation logic (HDV's HBsAg coat); the pregnancy exception (HEV fulminant); the serology clock with the window-period gap and the immunized-alone pattern; the B-vs-C extrahepatic split by system; and the chronicity mechanism (HCV's missing proofreading) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table, markers, and patterns without the axis synthesis or the clock logic; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p192 1 raster (the Councilman-bodies histology A); p193 17 tiny sep rasters (the patterns table's +/- marks — redrawn as text marks in the visual; the timeline itself is vector). The source's own column-header typos print on book 170: 'INCUCATION' (line 51) and 'LIVER CIOPSY' (line 121) — both carried verbatim in the note's table with the typo marked. The 5-virus table columns emit in grouped blocks; the HDV and HEV notes interleave at the page end; p193's timeline labels emit in two passes (curve labels before the axis numbers, pattern labels after); the (IgM)/(IgG) qualifiers attach to the pattern names. FA's printed gloss ('the vowels hit your bowels') is quoted in the table block for verification only.",
+  "updatedAt": "2026-10-21"
+}

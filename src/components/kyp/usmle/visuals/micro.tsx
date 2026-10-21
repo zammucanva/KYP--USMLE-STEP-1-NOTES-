@@ -3380,3 +3380,229 @@ export function VaccineDiagnosticMap() {
     </svg>
   );
 }
+
+export function HepatitisSerologyMap() {
+  const w = 980;
+  const h = 1316.2;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Hepatitis viruses, an original KYP serology map. THE FIVE VIRUSES: HAV — RNA picornavirus, fecal-oral (shellfish, travelers, day care), short incubation, acute and self-limiting in adults and asymptomatic in children, good prognosis, no HCC risk, hepatocyte swelling with monocyte infiltration and Councilman bodies, no carrier state. HBV — DNA hepadnavirus, parenteral and sexual and perinatal, long incubation, serum-sickness-like onset with possible progression to carcinoma, adults mostly resolve while neonates do worse, HCC risk yes, ground-glass hepatocytes with cytotoxic T-cell damage, carrier state common. HCV — RNA flavivirus, primarily blood (injection drug use, posttransfusion), long incubation, may progress to cirrhosis or carcinoma, the majority develop chronic hepatitis C, HCC yes, lymphoid aggregates with macrovesicular steatosis, carrier state very common. HDV — RNA deltavirus, parenteral-sexual-perinatal, superinfection after HBV is short while coinfection with HBV is long, similar to HBV, superinfection worsens prognosis, HCC yes, defective virus depending on the HBV HBsAg coat for entry. HEV — RNA hepevirus, fecal-oral especially waterborne, short incubation, fulminant hepatitis in pregnant patients with high mortality, no HCC, patchy necrosis, enteric and epidemic with no carrier state. THE MECHANISMS: HBV DNA polymerase has DNA- and RNA-dependent activities — it completes the partial dsDNA in the nucleus, host RNA polymerase makes mRNA, and the polymerase reverse transcribes RNA back to DNA; HCV lacks 3-prime-5-prime exonuclease, so no proofreading, antigenic variation, and antibody production lags behind mutant strains. THE SEROLOGY TIMELINE: incubation, acute infection, window, recovery — HBsAg rises first, IgM anti-HBc marks acute and window (the sole positive marker in the window), anti-HBs rises last in recovery and alone in immunization. THE PATTERNS: acute = HBsAg plus HBeAg plus IgM anti-HBc; window = IgM anti-HBc alone; recovery = anti-HBs plus IgG anti-HBc plus anti-HBe; chronic high infectivity = HBsAg plus HBeAg plus IgG anti-HBc; chronic low = HBsAg plus anti-HBe plus IgG anti-HBc; immunized = anti-HBs alone. THE EXTRAHEPATIC SET: HBV — aplastic anemia, membranous GN, polyarteritis nodosa; HCV — cryoglobulinemia and B-cell NHL and ITP, membranoproliferative GN, leukocytoclastic vasculitis, porphyria cutanea tarda and lichen planus, diabetes and autoimmune hypothyroidism" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Hepatitis viruses — the five-virus grid + the serology clock (original KYP redraw)</text>
+        <rect x="716" y="24" width="240" height="18" rx="9" className="fill-brand-soft" />
+<text x="836" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">vowels · window · ⊕/⊝</text>
+      </g>
+      {/* the HBV polymerase + HCV escape */}
+      <g>
+        <rect x="36" y="76" width="908" height="46" rx="10" className="fill-secondary" />
+<text x="490" y="92" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">THE HBV POLYMERASE: HBV DNA polymerase has DNA- AND RNA-dependent activities. Upon entry into the nucleus, the polymerase completes the partial dsDNA; host RNA polymerase transcribes mRNA from viral DNA to make viral proteins; the DNA polymerase then REVERSE TRANSCRIBES viral RNA to DNA.</text>
+<text x="490" y="102" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">THE HCV ESCAPE: HCV lacks 3′-5′ exonuclease activity → no proofreading ability → antigenic variation of HCV envelope proteins; host antibody production lags behind production of new mutant strains.</text>
+      </g>
+      {/* ===== THE FIVE VIRUSES ===== */}
+      <g>
+        <rect x="36" y="138" width="908" height="323.2" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="158" fontSize="9" fontWeight="800" className="fill-foreground">THE FIVE VIRUSES — book 170 (the source's own header typos: INCUCATION, LIVER CIOPSY)</text>
+        <rect x="52" y="168" width="44" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">VIRUS</text>
+        <rect x="102" y="168" width="92" height="26" rx="4" className="fill-secondary" />
+<text x="106" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">FAMILY</text>
+        <rect x="200" y="168" width="148" height="26" rx="4" className="fill-secondary" />
+<text x="204" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">TRANSMIS</text>
+        <rect x="354" y="168" width="116" height="26" rx="4" className="fill-secondary" />
+<text x="358" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">INCUBATI</text>
+        <rect x="476" y="168" width="140" height="26" rx="4" className="fill-secondary" />
+<text x="480" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">COURSE</text>
+        <rect x="622" y="168" width="108" height="26" rx="4" className="fill-secondary" />
+<text x="626" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">PROGNOSI</text>
+        <rect x="736" y="168" width="30" height="26" rx="4" className="fill-secondary" />
+<text x="740" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">HCC</text>
+        <rect x="772" y="168" width="156" height="26" rx="4" className="fill-secondary" />
+<text x="776" y="176" fontSize="4.4" fontWeight="800" className="fill-foreground">BIOPSY</text>
+<text x="776" y="185" fontSize="4.4" fontWeight="800" className="fill-foreground">+ NOTES</text>
+        <rect x="52" y="202" width="876" height="49.8" rx="4" className="fill-secondary" />
+<text x="58" y="215" fontSize="6.4" fontWeight="800" className="fill-emergency">HAV</text>
+<text x="106" y="214.0" fontSize="4.5" className="fill-muted-foreground">RNA picornavirus</text>
+<text x="204" y="214.0" fontSize="4.5" className="fill-muted-foreground">Fecal-oral (shellfish, travelers, day care)</text>
+<text x="358" y="214.0" fontSize="4.5" className="fill-muted-foreground">Short (weeks)</text>
+<text x="480" y="214.0" fontSize="4.5" className="fill-muted-foreground">Acute and self-limiting (adults); asymptomatic (children)</text>
+<text x="626" y="214.0" fontSize="4.5" className="fill-muted-foreground">Good</text>
+<text x="740" y="214.0" fontSize="4.5" className="fill-muted-foreground">No</text>
+<text x="776" y="214.0" fontSize="4.5" className="fill-muted-foreground">Hepatocyte swelling, monocyte infiltration, Councilman bodies A</text>
+<text x="776" y="222.6" fontSize="4.5" className="fill-muted-foreground">(printed histology — described-in-text only) · Absent (no) carrier</text>
+<text x="776" y="231.2" fontSize="4.5" className="fill-muted-foreground">state</text>
+        <rect x="52" y="258.8" width="876" height="49.8" rx="4" className="fill-secondary/60" />
+<text x="58" y="271.8" fontSize="6.4" fontWeight="800" className="fill-emergency">HBV</text>
+<text x="106" y="270.8" fontSize="4.5" className="fill-muted-foreground">DNA hepadnavirus</text>
+<text x="204" y="270.8" fontSize="4.5" className="fill-muted-foreground">Parenteral (Blood), sexual (Bedroom), perinatal (Birthing)</text>
+<text x="358" y="270.8" fontSize="4.5" className="fill-muted-foreground">Long (months)</text>
+<text x="480" y="270.8" fontSize="4.5" className="fill-muted-foreground">Initially like serum sickness (fever, arthralgias, rash);</text>
+<text x="480" y="279.40000000000003" fontSize="4.5" className="fill-muted-foreground">may progress to carcinoma</text>
+<text x="626" y="270.8" fontSize="4.5" className="fill-muted-foreground">Adults → mostly full resolution; neonates →</text>
+<text x="626" y="279.40000000000003" fontSize="4.5" className="fill-muted-foreground">worse prognosis</text>
+<text x="740" y="270.8" fontSize="4.5" className="fill-muted-foreground">Yes</text>
+<text x="776" y="270.8" fontSize="4.5" className="fill-muted-foreground">Granular eosinophilic “ground glass” appearance (surface antigen</text>
+<text x="776" y="279.40000000000003" fontSize="4.5" className="fill-muted-foreground">accumulation in hepatocytes); cytotoxic T cells mediate damage ·</text>
+<text x="776" y="288.0" fontSize="4.5" className="fill-muted-foreground">Carrier state common</text>
+        <rect x="52" y="315.6" width="876" height="41.2" rx="4" className="fill-secondary" />
+<text x="58" y="328.6" fontSize="6.4" fontWeight="800" className="fill-emergency">HCV</text>
+<text x="106" y="327.6" fontSize="4.5" className="fill-muted-foreground">RNA flavivirus</text>
+<text x="204" y="327.6" fontSize="4.5" className="fill-muted-foreground">Primarily blood (injection drug use, posttransfusion)</text>
+<text x="358" y="327.6" fontSize="4.5" className="fill-muted-foreground">Long</text>
+<text x="480" y="327.6" fontSize="4.5" className="fill-muted-foreground">May progress to cirrhosis or carcinoma</text>
+<text x="626" y="327.6" fontSize="4.5" className="fill-muted-foreground">Majority develop stable, CHRONIC hepatitis C</text>
+<text x="740" y="327.6" fontSize="4.5" className="fill-muted-foreground">Yes</text>
+<text x="776" y="327.6" fontSize="4.5" className="fill-muted-foreground">Lymphoid aggregates with focal areas of macrovesicular steatosis ·</text>
+<text x="776" y="336.20000000000005" fontSize="4.5" className="fill-muted-foreground">Carrier state very common</text>
+        <rect x="52" y="363.8" width="876" height="41.2" rx="4" className="fill-secondary/60" />
+<text x="58" y="376.8" fontSize="6.4" fontWeight="800" className="fill-emergency">HDV</text>
+<text x="106" y="375.8" fontSize="4.5" className="fill-muted-foreground">RNA deltavirus</text>
+<text x="204" y="375.8" fontSize="4.5" className="fill-muted-foreground">Parenteral, sexual, perinatal</text>
+<text x="358" y="375.8" fontSize="4.5" className="fill-muted-foreground">SUPERINFECTION (HDV after HBV) = short;</text>
+<text x="358" y="384.40000000000003" fontSize="4.5" className="fill-muted-foreground">COINFECTION (HDV with HBV) = long</text>
+<text x="480" y="375.8" fontSize="4.5" className="fill-muted-foreground">Similar to HBV</text>
+<text x="626" y="375.8" fontSize="4.5" className="fill-muted-foreground">Superinfection → worse prognosis</text>
+<text x="740" y="375.8" fontSize="4.5" className="fill-muted-foreground">Yes</text>
+<text x="776" y="375.8" fontSize="4.5" className="fill-muted-foreground">Similar to HBV · Defective virus — depends on HBV HBsAg coat for</text>
+<text x="776" y="384.40000000000003" fontSize="4.5" className="fill-muted-foreground">entry into hepatocytes</text>
+        <rect x="52" y="412.0" width="876" height="41.2" rx="4" className="fill-secondary" />
+<text x="58" y="425.0" fontSize="6.4" fontWeight="800" className="fill-emergency">HEV</text>
+<text x="106" y="424.0" fontSize="4.5" className="fill-muted-foreground">RNA hepevirus</text>
+<text x="204" y="424.0" fontSize="4.5" className="fill-muted-foreground">Fecal-oral, especially waterborne</text>
+<text x="358" y="424.0" fontSize="4.5" className="fill-muted-foreground">Short</text>
+<text x="480" y="424.0" fontSize="4.5" className="fill-muted-foreground">FULMINANT hepatitis in Expectant (pregnant) patients</text>
+<text x="626" y="424.0" fontSize="4.5" className="fill-muted-foreground">HIGH MORTALITY in pregnant patients</text>
+<text x="740" y="424.0" fontSize="4.5" className="fill-muted-foreground">No</text>
+<text x="776" y="424.0" fontSize="4.5" className="fill-muted-foreground">Patchy necrosis · Enteric, epidemic (eg, parts of Asia, Africa,</text>
+<text x="776" y="432.6" fontSize="4.5" className="fill-muted-foreground">Middle East); no carrier state</text>
+      </g>
+      {/* ===== THE SEROLOGY TIMELINE (original redraw) ===== */}
+      <g>
+        <rect x="36" y="477.2" width="908" height="240" rx="14" className="fill-card stroke-border" />
+<text x="52" y="497.2" fontSize="9" fontWeight="800" className="fill-foreground">The HBV serology clock — an original redraw (book 171)</text>
+        <rect x="190" y="511.2" width="700" height="132" rx="6" className="fill-secondary/60" />
+        <path d="M 321 511.2 L 321 643.2" className="stroke-border" strokeWidth="0.8" fill="none" strokeDasharray="3 3" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 540 511.2 L 540 643.2" className="stroke-border" strokeWidth="0.8" fill="none" strokeDasharray="3 3" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 671 511.2 L 671 643.2" className="stroke-border" strokeWidth="0.8" fill="none" strokeDasharray="3 3" strokeLinejoin="round" strokeLinecap="round" />
+<text x="256" y="509.2" textAnchor="middle" fontSize="5.0" fontWeight="800" className="fill-foreground">Incubation</text>
+<text x="431" y="509.2" textAnchor="middle" fontSize="5.0" fontWeight="800" className="fill-foreground">Acute infection</text>
+<text x="606" y="509.2" textAnchor="middle" fontSize="5.0" fontWeight="800" className="fill-foreground">Window</text>
+<text x="781" y="509.2" textAnchor="middle" fontSize="5.0" fontWeight="800" className="fill-foreground">Recovery</text>
+        <path d="M 234 633.2 L 295 543.2 L 488 539.2 L 575 627.2 L 610 633.2" className="stroke-emergency" strokeWidth="1.6" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 330 633.2 L 418 555.2 L 759 559.2 L 855 633.2" className="stroke-brand" strokeWidth="1.4" fill="none" strokeDasharray="5 2" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 348 633.2 L 435 547.2 L 558 551.2 L 662 633.2" className="stroke-foreground" strokeWidth="1.2" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 592 633.2 L 750 565.2 L 872 551.2" className="stroke-foreground" strokeWidth="1.2" fill="none" strokeDasharray="2 2" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 575 633.2 L 785 545.2 L 881 535.2" className="stroke-brand" strokeWidth="1.6" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="198" y="657.2" fontSize="4.8" fontWeight="700" className="fill-emergency">HBsAg (surface antigen — infection)</text>
+<text x="416" y="657.2" fontSize="4.8" fontWeight="700" className="fill-foreground">Anti-HBc IgM (acute/recent — the WINDOW sole ⊕)</text>
+<text x="652" y="657.2" fontSize="4.8" fontWeight="700" className="fill-foreground">HBeAg (dashed — active replication)</text>
+<text x="198" y="669.2" fontSize="4.8" fontWeight="700" className="fill-foreground">Anti-HBe (low transmissibility)</text>
+<text x="416" y="669.2" fontSize="4.8" fontWeight="700" className="fill-brand">Anti-HBs (immunity — rises last; alone if immunized)</text>
+<text x="652" y="669.2" fontSize="4.8" className="fill-muted-foreground">x = approximate months after exposure</text>
+<text x="540.0" y="687.2" textAnchor="middle" fontSize="5.4" fontWeight="700" className="fill-foreground">Level of detection</text>
+      </g>
+      {/* ===== THE SEROLOGY PATTERNS ===== */}
+      <g>
+        <rect x="36" y="733.2" width="908" height="238" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="753.2" fontSize="9" fontWeight="800" className="fill-foreground">The serology patterns — 7 scenarios (book 171; the 17 tiny raster marks redrawn as text)</text>
+        <rect x="52" y="763.2" width="374" height="20" rx="4" className="fill-secondary" />
+<text x="56" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">SCENARIO</text>
+        <rect x="440" y="763.2" width="94" height="20" rx="4" className="fill-secondary" />
+<text x="444" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">HBsAg</text>
+        <rect x="542" y="763.2" width="94" height="20" rx="4" className="fill-secondary" />
+<text x="546" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">HBeAg</text>
+        <rect x="644" y="763.2" width="94" height="20" rx="4" className="fill-secondary" />
+<text x="648" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">Anti-HBs</text>
+        <rect x="746" y="763.2" width="94" height="20" rx="4" className="fill-secondary" />
+<text x="750" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">Anti-HBc</text>
+        <rect x="848" y="763.2" width="84" height="20" rx="4" className="fill-secondary" />
+<text x="852" y="777.2" fontSize="5.2" fontWeight="800" className="fill-foreground">Anti-HBe</text>
+        <rect x="52" y="791.2" width="876" height="22" rx="4" className="fill-secondary" />
+<text x="58" y="806.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Incubation</text>
+<text x="484" y="806.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="586" y="806.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="688" y="806.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="790" y="806.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="892" y="806.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+        <rect x="52" y="813.2" width="876" height="22" rx="4" className="fill-secondary/60" />
+<text x="58" y="828.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Acute infection (IgM)</text>
+<text x="484" y="828.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="586" y="828.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="688" y="828.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="790" y="828.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="892" y="828.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+        <rect x="52" y="835.2" width="876" height="22" rx="4" className="fill-secondary" />
+<text x="58" y="850.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Window (IgM)</text>
+<text x="484" y="850.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="586" y="850.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="688" y="850.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="790" y="850.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="892" y="850.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+        <rect x="52" y="857.2" width="876" height="22" rx="4" className="fill-secondary/60" />
+<text x="58" y="872.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Recovery (IgG)</text>
+<text x="484" y="872.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="586" y="872.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="688" y="872.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="790" y="872.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="892" y="872.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+        <rect x="52" y="879.2" width="876" height="22" rx="4" className="fill-secondary" />
+<text x="58" y="894.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Chronic infection — high infectivity (IgG)</text>
+<text x="484" y="894.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="586" y="894.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="688" y="894.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="790" y="894.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="892" y="894.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+        <rect x="52" y="901.2" width="876" height="22" rx="4" className="fill-secondary/60" />
+<text x="58" y="916.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Chronic infection — low infectivity (IgG)</text>
+<text x="484" y="916.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="586" y="916.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="688" y="916.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="790" y="916.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="892" y="916.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+        <rect x="52" y="923.2" width="876" height="22" rx="4" className="fill-secondary" />
+<text x="58" y="938.2" fontSize="5.2" fontWeight="700" className="fill-foreground">Immunized</text>
+<text x="484" y="938.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="586" y="938.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="688" y="938.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">⊕</text>
+<text x="790" y="938.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+<text x="892" y="938.2" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-muted-foreground">⊝</text>
+      </g>
+      {/* ===== EXTRAHEPATIC ===== */}
+      <g>
+        <rect x="36" y="987.2" width="908" height="247" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1007.2" fontSize="9" fontWeight="800" className="fill-foreground">Extrahepatic manifestations of hepatitis B and C — book 171</text>
+        <rect x="52" y="1017.2" width="150" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="1031.2" fontSize="5.4" fontWeight="800" className="fill-foreground">SYSTEM</text>
+        <rect x="208" y="1017.2" width="340" height="20" rx="4" className="fill-secondary" />
+<text x="214" y="1031.2" fontSize="5.4" fontWeight="800" className="fill-foreground">HEPATITIS B</text>
+        <rect x="554" y="1017.2" width="370" height="20" rx="4" className="fill-secondary" />
+<text x="560" y="1031.2" fontSize="5.4" fontWeight="800" className="fill-foreground">HEPATITIS C</text>
+        <rect x="52" y="1045.2" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1058.2" fontSize="5.4" fontWeight="800" className="fill-brand">HEMATOLOGIC</text>
+<text x="214" y="1058.2" fontSize="4.6" className="fill-muted-foreground">Aplastic anemia</text>
+<text x="560" y="1058.2" fontSize="4.6" className="fill-muted-foreground">Essential mixed cryoglobulinemia, ↑ risk B-cell NHL, ITP, autoimmune hemolytic anemia</text>
+        <rect x="52" y="1082.2" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="1095.2" fontSize="5.4" fontWeight="800" className="fill-brand">RENAL</text>
+<text x="214" y="1095.2" fontSize="4.6" className="fill-muted-foreground">Membranous GN &gt; membranoproliferative GN</text>
+<text x="560" y="1095.2" fontSize="4.6" className="fill-muted-foreground">Membranoproliferative GN &gt; membranous GN</text>
+        <rect x="52" y="1119.2" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1132.2" fontSize="5.4" fontWeight="800" className="fill-brand">VASCULAR</text>
+<text x="214" y="1132.2" fontSize="4.6" className="fill-muted-foreground">Polyarteritis nodosa</text>
+<text x="560" y="1132.2" fontSize="4.6" className="fill-muted-foreground">Leukocytoclastic vasculitis</text>
+        <rect x="52" y="1156.2" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="1169.2" fontSize="5.4" fontWeight="800" className="fill-brand">DERMATOLOGIC</text>
+<text x="214" y="1169.2" fontSize="4.6" className="fill-muted-foreground">—</text>
+<text x="560" y="1169.2" fontSize="4.6" className="fill-muted-foreground">Sporadic porphyria cutanea tarda, lichen planus</text>
+        <rect x="52" y="1193.2" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1206.2" fontSize="5.4" fontWeight="800" className="fill-brand">ENDOCRINE</text>
+<text x="214" y="1206.2" fontSize="4.6" className="fill-muted-foreground">—</text>
+<text x="560" y="1206.2" fontSize="4.6" className="fill-muted-foreground">↑ risk of diabetes mellitus, autoimmune hypothyroidism</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1252.2" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's hepatitis comparison table + the HBV/HCV mechanism lines (pdf 192 / book 170 — the source's own column-header typos 'INCUCATION' and 'LIVER CIOPSY' print on this page), the serology timeline figure + the serologic markers +</text>
+<text x="24" y="1264.2" fontSize="7.2" className="fill-muted-foreground">patterns (pdf 193 / book 171 — the source's pattern table uses 17 tiny raster marks, redrawn here as ⊕/⊝ text marks), and the extrahepatic-manifestations table.</text>
+<text x="24" y="1276.2" fontSize="7.2" className="fill-muted-foreground">The printed Councilman-bodies histology A is raster — COPYRIGHTED, described-in-text only. FA's printed gloss ('the vowels hit your bowels' for the naked enteric pair HAV/HEV) stays in the note's table block — verification-only, not redrawn.</text>
+<text x="24" y="1288.2" fontSize="7.2" className="fill-muted-foreground">The source's banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 170-171.</text>
+    </svg>
+  );
+}
