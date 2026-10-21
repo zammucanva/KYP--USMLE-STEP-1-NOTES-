@@ -1,0 +1,522 @@
+{
+  "topicId": "bugs-by-system-gi-meningitis",
+  "title": "Bugs by System: GI, Pneumonia, Meningitis & CSF",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Systems Microbiology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      197,
+      198
+    ],
+    "bookPages": "175–176"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own SYSTEMS typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "175",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Bugs causing diarrhea\nBloody diarrhea",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bloody column, part 1 (Campylobacter 42C; E histolytica amebic dysentery + liver abscess; EHEC O157:H7 Shiga + HUS; EIEC mucosal invasion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Campylobacter\n\nComma- or S-shaped organisms; growth at 42°C\n\nE histolytica\n\nProtozoan; amebic dysentery; liver abscess\n\nEnterohemorrhagic\nE coli\n\nO157:H7; can cause HUS; makes Shiga toxin\n\nEnteroinvasive E coli\n\nInvades colonic mucosa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bloody column, part 2 (Salmonella lactose-negative flagellar poultry/eggs; Shigella low ID50 Shiga human-only bacillary dysentery; Y enterocolitica pseudoappendicitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Salmonella (nontyphoidal)\n\nLactose ⊝; flagellar motility; has animal reservoir, especially poultry and eggs\n\nShigella\n\nLactose ⊝; very low ID50; produces Shiga toxin; human reservoir only; bacillary dysentery\n\nY enterocolitica\n\nDay care outbreaks; pseudoappendicitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Watery column, part 1 (C difficile pseudomembranous antibiotics/PPIs; C perfringens gas gangrene; ETEC LT/ST travelers')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Watery diarrhea\nC difficile\n\nPseudomembranous colitis; associated with antibiotics and PPIs; occasionally bloody diarrhea\n\nC perfringens\n\nAlso causes gas gangrene\n\nEnterotoxigenic E coli\n\nTravelers’ diarrhea; produces heat-labile (LT) and heat-stable (ST) toxins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Watery column, part 2 (Protozoa Giardia/Cryptosporidium; V cholerae rice-water infected seafood; the virus row wrapping across lines — norovirus most common developed, rotavirus down with vaccination, enteric adenovirus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Protozoa\n\nGiardia, Cryptosporidium\n\nV cholerae\n\nComma-shaped organisms; rice-water diarrhea; often from infected seafood\n\nViruses\n\nNorovirus (most common cause in developed countries), rotavirus (↓ incidence in developed\ncountries due to vaccination), enteric adenovirus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pneumonia heading + the age headers, grouped",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Common causes of pneumonia\nNEONATES (<4 WK)\n\nCHILDREN (4 WK-18 YR)\n\nADULTS (18-40 YR)\n\nADULTS (40-65 YR)\n\nADULTS (65 YR+)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pneumonia: the neonate + children columns (GBS, E coli; RSV, Mycoplasma, C trachomatis infants-3yr, C pneumoniae school-aged, S pneumoniae + FA's Runts May Cough gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Group B Streptococcus\nE coli\n\nViruses (RSV)\nMycoplasma\nC trachomatis\n(infants-3 yr)\nC pneumoniae (schoolaged children)\nS pneumoniae\nRunts May Cough",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pneumonia: the 18-40 column (Mycoplasma, C pneumoniae, S pneumoniae, viruses + FA's Chunky Sputum gloss) and the 40-65 column",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Chunky Sputum\n\nMycoplasma\nC pneumoniae\nS pneumoniae\nViruses (eg, influenza)\n\nS pneumoniae\nH influenzae\nAnaerobes\nViruses\nMycoplasma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pneumonia: the 65+ column (S pneumoniae, influenza, anaerobes, H influenzae, gram-negative rods)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "S pneumoniae\nInfluenza virus\nAnaerobes\nH influenzae",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Special groups, part 1 (alcohol overuse Klebsiella + aspiration anaerobes; injection drug use; aspiration; atypical set; cystic fibrosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Special groups\nAlcohol overuse\n\nKlebsiella, anaerobes usually due to aspiration (eg, Peptostreptococcus, Fusobacterium, Prevotella,\nBacteroides)\n\nInjection drug use\n\nS pneumoniae, S aureus\n\nAspiration\n\nAnaerobes\n\nAtypical\n\nMycoplasma, Chlamydophila, Legionella, viruses (RSV, CMV, influenza, adenovirus)\n\nCystic fibrosis\n\nPseudomonas, S aureus, S pneumoniae, Burkholderia cepacia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Special groups, part 2 (immunocompromised incl. P jirovecii with HIV; healthcare-associated; postviral; COPD)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "Immunocompromised\n\nS aureus, enteric gram ⊝ rods, fungi, viruses, P jirovecii (with HIV)\n\nHealthcare-associated\n\nS aureus, Pseudomonas, other enteric gram ⊝ rods\n\nPostviral\n\nS pneumoniae, S aureus, H influenzae\n\nCOPD\n\nS pneumoniae, H influenzae, M catarrhalis, Pseudomonas",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          197
+        ],
+        "bookPages": "175"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "176",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own SYSTEMS typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Meningitis heading + the age headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Common causes of meningitis\nNEWCORN (0-6 MO)\n\nCHILDREN (6 MO-6 YR)\n\n6-60 YR\n\n60 YR+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Meningitis: the newborn + children columns (GBS, E coli, Listeria; S pneumoniae, N meningitidis, H influenzae type b, GBS, enteroviruses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Group B Streptococcus\nE coli\nListeria\n\nS pneumoniae\nN meningitidis\nH influenzae type b\nGroup B Streptococcus\nEnteroviruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Meningitis: the 6-60 and 60+ columns (S pneumoniae, N meningitidis, enteroviruses, HSV; the newborn set returns with Listeria)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "S pneumoniae\nN meningitidis\nEnteroviruses\nHSV\n\nS pneumoniae\nN meningitidis\nH influenzae type b\nGroup B Streptococcus\nListeria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The empiric rule (ceftriaxone + vancomycin; ampicillin if Listeria; acyclovir if encephalitis) + the viral set (coxsackievirus, HSV-2, HIV, West Nile, VZV; Cryptococcus in HIV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Give ceftriaxone and vancomycin empirically (add ampicillin if Listeria is suspected; add acyclovir if viral encephalitis is\nsuspected).\nViral causes of meningitis: enteroviruses (especially coxsackievirus), HSV-2 (HSV-1 = encephalitis), HIV, West Nile virus (also\ncauses encephalitis), VZV.\nIn HIV: Cryptococcus spp.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vaccine notes (GBS down with screening + prophylaxis; H influenzae down with conjugate vaccines — cases in the unimmunized)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Note: Incidence of Group B streptococcal meningitis in neonates has ↓ greatly due to screening and antibiotic prophylaxis in\npregnancy. Incidence of H influenzae meningitis has ↓ greatly due to conjugate H influenzae vaccinations. Today, cases are\nusually seen in unimmunized children.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CSF heading + the column headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Cerebrospinal fluid findings in meningitis\nOPENING PRESSURE\n\nCELL TYPE\n\nPROTEIN\n\nGLUCOSE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CSF: bacterial + fungal/TB rows (up OP; up PMNs / up lymphocytes; up protein; down glucose)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Bacterial\n\n↑\n\n↑ PMNs\n\n↑\n\n↓\n\nFungal/TB\n\n↑\n\n↑ lymphocytes\n\n↑\n\n↓",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CSF: the viral row (normal/up OP; up lymphocytes; normal/up protein; NORMAL glucose)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Viral\n\nNormal/↑\n\n↑ lymphocytes\n\nNormal/↑\n\nNormal",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Brain abscess block (viridans + S aureus; dental adds oral anaerobes; multiple = bacteremia; single = contiguous with the lobe map; Toxoplasma in AIDS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Infections causing\nbrain abscess\n\nMost commonly viridans streptococci and Staphylococcus aureus. If dental infection or extraction\nprecedes abscess, oral anaerobes commonly involved.\nMultiple abscesses are usually from bacteremia; single lesions from contiguous sites: otitis media\nand mastoiditis →  temporal lobe and cerebellum; sinusitis or dental infection →  frontal lobe.\nToxoplasma reactivation in AIDS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Osteomyelitis heading + headers + the A footnote marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Osteomyelitis\n\nRISK FACTOR\n\nASSOCIATED INFECTION\n\nA\n\nAssume if no other information is available",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Osteomyelitis rows, part 1 (default S aureus; sexually active N gonorrhoeae; sickle cell Salmonella; prosthetic joint)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "S aureus (most common overall)\n\nSexually active\n\nNeisseria gonorrhoeae (rare), septic arthritis more\ncommon\n\nSickle cell disease\n\nSalmonella, S aureus\n\nProsthetic joint replacement\n\nS aureus, S epidermidis\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Osteomyelitis rows, part 2 (vertebral S aureus + TB Pott; cat/dog bites Pasteurella; injection drug use)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Vertebral involvement\n\nS aureus, M tuberculosis (Pott disease)\n\nCat and dog bites\n\nPasteurella multocida\n\nInjection drug use\n\nS aureus; also Pseudomonas, Candida",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The workup text (ESR/CRP sensitive not specific; radiographs insensitive early, useful chronic A; MRI best acute; biopsy identifies)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "Elevated ESR and CRP sensitive but not specific.\nRadiographs are insensitive early but can be useful in chronic osteomyelitis ( A , left). MRI is best\nfor detecting acute infection and detailing anatomic involvement ( A , right). Biopsy or aspiration\nwith culture necessary to identify organism.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          198
+        ],
+        "bookPages": "176"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "systems-bug-matrix"
+  ],
+  "mechanismIds": [
+    "diarrhea-split-logic",
+    "age-ladder-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the matrices; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "systems-matrix-synthesis",
+      "summary": "The diarrhea bloody/watery mechanism split; the age-ladder U-shape (the birth organisms returning at life's end) shared by pneumonia and meningitis with the Listeria ampicillin rule; the CSF glucose tiebreaker for the lymphocyte rows; the abscess count-routing with its lobe map; and the osteomyelitis risk-factor swaps — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the five matrices without the shared-ladder or routing synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p197 0 rasters; p198 1 gray raster (the osteomyelitis radiograph + MRI pair A — described-in-text only). The SYSTEMS banner typo MICROCIOLOGY prints on books 175-176. The diarrhea columns interleave; the virus row wraps across lines 62-63; the pneumonia age headers emit grouped before the organism blocks with FA's two glosses (Runts May Cough; Chunky Sputum) interleaved mid-column; the special groups emit as pairs of label + text; p198's meningitis columns interleave before the empiric note; the CSF table emits row-by-row in 5-cell groups; the osteomyelitis footnote A marker emits at line 100 with the workup text at 131-134. FA's printed glosses are quoted in the table block for verification only.",
+  "updatedAt": "2026-10-21"
+}

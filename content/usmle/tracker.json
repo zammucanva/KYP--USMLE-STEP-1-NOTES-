@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T03:08:27Z",
+  "generatedAt": "2026-10-21T03:16:49Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 115,
+    "topicsProduced": 116,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 60,
+      "pilot-complete": 61,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 28,
-      "topicsRemaining": 11,
+      "topicsProduced": 29,
+      "topicsRemaining": 10,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -608,6 +608,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "bugs-by-system-gi-meningitis",
+      "title": "Bugs by System: GI, Pneumonia, Meningitis & CSF",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Systems Microbiology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 197, 198 (book 175–176)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
     },
     {
       "topicId": "cd-markers",

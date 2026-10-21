@@ -3824,3 +3824,216 @@ export function HivLifecycleMap() {
     </svg>
   );
 }
+
+export function SystemsBugMatrix() {
+  const w = 980;
+  const h = 1550.2;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Bugs by system, an original KYP matrix. THE DIARRHEA SPLIT: BLOODY — Campylobacter (comma or S-shaped, 42 degrees), E histolytica (amebic dysentery, liver abscess), enterohemorrhagic E coli O157:H7 (Shiga toxin, HUS), enteroinvasive E coli (invades colonic mucosa), nontyphoidal Salmonella (lactose negative, flagellar, poultry and eggs), Shigella (lactose negative, very low ID50, Shiga toxin, human only, bacillary dysentery), Y enterocolitica (day care, pseudoappendicitis). WATERY — C difficile (pseudomembranous colitis, antibiotics and PPIs), C perfringens (also gas gangrene), enterotoxigenic E coli (travelers diarrhea, LT and ST toxins), Giardia and Cryptosporidium, V cholerae (comma-shaped, rice-water, infected seafood), the viruses (norovirus most common in developed countries, rotavirus down with vaccination, enteric adenovirus). THE PNEUMONIA LADDER: neonates — group B strep and E coli; children — RSV, Mycoplasma, C trachomatis infants, C pneumoniae school-aged, S pneumoniae; young adults — Mycoplasma, C pneumoniae, S pneumoniae, viruses; middle adults — S pneumoniae, H influenzae, anaerobes, viruses, Mycoplasma; elderly — S pneumoniae, influenza, anaerobes, H influenzae, gram-negative rods; with the special groups (alcohol with Klebsiella and aspiration anaerobes; drug use; atypicals; cystic fibrosis with Pseudomonas and Burkholderia; immunocompromised with P jirovecii; healthcare-associated; postviral; COPD). THE MENINGITIS LADDER: newborn — group B strep, E coli, Listeria; children — S pneumoniae, N meningitidis, H influenzae type b, GBS, enteroviruses; 6 to 60 — S pneumoniae, N meningitidis, enteroviruses, HSV; 60 plus — S pneumoniae, N meningitidis, H influenzae, GBS, Listeria. Empiric: ceftriaxone and vancomycin, ampicillin if Listeria, acyclovir if encephalitis. CSF: bacterial — raised pressure, PMNs, raised protein, low glucose; fungal and TB — raised pressure, lymphocytes, raised protein, low glucose; viral — lymphocytes, normal glucose. BRAIN ABSCESS: viridans and S aureus most common; multiple from bacteremia, single from contiguous sites (otitis and mastoiditis to temporal lobe and cerebellum; sinusitis and dental to frontal lobe); Toxoplasma in AIDS. OSTEOMYELITIS: S aureus most common overall; sickle cell — Salmonella; prosthetic joint — S aureus and S epidermidis; vertebral — S aureus and TB (Pott); cat and dog bites — Pasteurella; drug use — S aureus, Pseudomonas, Candida" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Bugs by system — diarrhea, pneumonia, meningitis, abscess, osteomyelitis (original KYP redraw)</text>
+        <rect x="748" y="24" width="208" height="18" rx="9" className="fill-brand-soft" />
+<text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the systems matrices</text>
+      </g>
+      {/* ===== THE DIARRHEA SPLIT ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="304.20000000000005" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="96" fontSize="9" fontWeight="800" className="fill-foreground">Bugs causing diarrhea — the bloody/watery split (book 175)</text>
+        <rect x="52" y="106" width="426" height="20" rx="4" className="fill-emergency" />
+<text x="265.0" y="120" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-card">BLOODY</text>
+        <rect x="490" y="106" width="438" height="20" rx="4" className="fill-brand" />
+<text x="709.0" y="120" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-card">WATERY</text>
+        <rect x="52" y="134" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="145" fontSize="5.2" fontWeight="800" className="fill-emergency">Campylobacter</text>
+<text x="182" y="145.0" fontSize="4.5" className="fill-muted-foreground">Comma- or S-shaped organisms; growth at 42°C</text>
+        <rect x="52" y="168.6" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="179.6" fontSize="5.2" fontWeight="800" className="fill-emergency">E histolytica</text>
+<text x="182" y="179.6" fontSize="4.5" className="fill-muted-foreground">Protozoan; amebic dysentery; liver abscess</text>
+        <rect x="52" y="203.2" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="214.2" fontSize="5.2" fontWeight="800" className="fill-emergency">Enterohemorrhagic E coli</text>
+<text x="182" y="214.2" fontSize="4.5" className="fill-muted-foreground">O157:H7; can cause HUS; makes Shiga toxin</text>
+        <rect x="52" y="237.79999999999998" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="248.79999999999998" fontSize="5.2" fontWeight="800" className="fill-emergency">Enteroinvasive E coli</text>
+<text x="182" y="248.79999999999998" fontSize="4.5" className="fill-muted-foreground">Invades colonic mucosa</text>
+        <rect x="52" y="272.4" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="283.4" fontSize="5.2" fontWeight="800" className="fill-emergency">Salmonella (nontyphoidal)</text>
+<text x="182" y="283.4" fontSize="4.5" className="fill-muted-foreground">Lactose ⊝; flagellar motility; has animal reservoir, especially poultry and eggs</text>
+        <rect x="52" y="307.0" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="318.0" fontSize="5.2" fontWeight="800" className="fill-emergency">Shigella</text>
+<text x="182" y="318.0" fontSize="4.5" className="fill-muted-foreground">Lactose ⊝; very low ID50; produces Shiga toxin; human reservoir only; bacillary dysentery</text>
+        <rect x="52" y="341.6" width="426" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="352.6" fontSize="5.2" fontWeight="800" className="fill-emergency">Y enterocolitica</text>
+<text x="182" y="352.6" fontSize="4.5" className="fill-muted-foreground">Day care outbreaks; pseudoappendicitis</text>
+        <rect x="490" y="134" width="438" height="28.6" rx="4" className="fill-secondary" />
+<text x="496" y="145" fontSize="5.2" fontWeight="800" className="fill-brand">C difficile</text>
+        <text x="626" y="145" fontSize="4.5" className="fill-muted-foreground">Pseudomembranous colitis; associated with antibiotics and PPIs; occasionally bloody diarrhea</text>
+        <rect x="490" y="168.6" width="438" height="28.6" rx="4" className="fill-secondary" />
+<text x="496" y="179.6" fontSize="5.2" fontWeight="800" className="fill-brand">C perfringens</text>
+        <text x="626" y="179.6" fontSize="4.5" className="fill-muted-foreground">Also causes gas gangrene</text>
+        <rect x="490" y="203.2" width="438" height="28.6" rx="4" className="fill-secondary" />
+<text x="496" y="214.2" fontSize="5.2" fontWeight="800" className="fill-brand">Enterotoxigenic E coli</text>
+        <text x="626" y="214.2" fontSize="4.5" className="fill-muted-foreground">Travelers’ diarrhea; produces heat-labile (LT) and heat-stable (ST) toxins</text>
+        <rect x="490" y="237.79999999999998" width="438" height="28.6" rx="4" className="fill-secondary" />
+<text x="496" y="248.79999999999998" fontSize="5.2" fontWeight="800" className="fill-brand">Protozoa</text>
+        <text x="626" y="248.79999999999998" fontSize="4.5" className="fill-muted-foreground">Giardia, Cryptosporidium</text>
+        <rect x="490" y="272.4" width="438" height="28.6" rx="4" className="fill-secondary" />
+<text x="496" y="283.4" fontSize="5.2" fontWeight="800" className="fill-brand">V cholerae</text>
+        <text x="626" y="283.4" fontSize="4.5" className="fill-muted-foreground">Comma-shaped organisms; rice-water diarrhea; often from infected seafood</text>
+        <rect x="490" y="307.0" width="438" height="37.2" rx="4" className="fill-secondary" />
+<text x="496" y="318.0" fontSize="5.2" fontWeight="800" className="fill-brand">Viruses</text>
+        <text x="626" y="318.0" fontSize="4.5" className="fill-muted-foreground">Norovirus (most common cause in developed countries), rotavirus (↓ incidence in developed countries due to vaccination), enteric</text>
+<text x="626" y="326.6" fontSize="4.5" className="fill-muted-foreground">adenovirus</text>
+      </g>
+      {/* ===== THE PNEUMONIA LADDER ===== */}
+      <g>
+        <rect x="36" y="396.20000000000005" width="908" height="410.6" rx="14" className="fill-card stroke-border" />
+<text x="52" y="416.20000000000005" fontSize="9" fontWeight="800" className="fill-foreground">Common causes of pneumonia — the age ladder + special groups (book 175)</text>
+        <rect x="52" y="428.20000000000005" width="170" height="46.6" rx="6" className="fill-secondary" />
+<text x="137" y="442.20000000000005" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">NEONATES (&lt;4 WK)</text>
+<text x="59" y="456.20000000000005" fontSize="4.5" className="fill-muted-foreground">Group B Streptococcus, E coli</text>
+        <rect x="230" y="428.20000000000005" width="170" height="55.2" rx="6" className="fill-secondary" />
+<text x="315" y="442.20000000000005" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CHILDREN (4 WK-18 YR)</text>
+<text x="237" y="456.20000000000005" fontSize="4.5" className="fill-muted-foreground">Viruses (RSV); Mycoplasma; C trachomatis (infants-3 yr);</text>
+<text x="237" y="464.80000000000007" fontSize="4.5" className="fill-muted-foreground">C pneumoniae (school-aged children); S pneumoniae</text>
+        <rect x="408" y="428.20000000000005" width="170" height="55.2" rx="6" className="fill-secondary" />
+<text x="493" y="442.20000000000005" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">ADULTS (18-40 YR)</text>
+<text x="415" y="456.20000000000005" fontSize="4.5" className="fill-muted-foreground">Mycoplasma; C pneumoniae; S pneumoniae; Viruses (eg,</text>
+<text x="415" y="464.80000000000007" fontSize="4.5" className="fill-muted-foreground">influenza)</text>
+        <rect x="586" y="428.20000000000005" width="170" height="55.2" rx="6" className="fill-secondary" />
+<text x="671" y="442.20000000000005" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">ADULTS (40-65 YR)</text>
+<text x="593" y="456.20000000000005" fontSize="4.5" className="fill-muted-foreground">S pneumoniae; H influenzae; Anaerobes; Viruses;</text>
+<text x="593" y="464.80000000000007" fontSize="4.5" className="fill-muted-foreground">Mycoplasma</text>
+        <rect x="764" y="428.20000000000005" width="170" height="55.2" rx="6" className="fill-secondary" />
+<text x="849" y="442.20000000000005" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">ADULTS (65 YR+)</text>
+<text x="771" y="456.20000000000005" fontSize="4.5" className="fill-muted-foreground">S pneumoniae; Influenza virus; Anaerobes; H influenzae;</text>
+<text x="771" y="464.80000000000007" fontSize="4.5" className="fill-muted-foreground">Gram ⊝ rods</text>
+        <rect x="52" y="495.40000000000003" width="876" height="20" rx="4" className="fill-secondary" />
+<text x="490" y="509.40000000000003" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-brand">SPECIAL GROUPS</text>
+        <rect x="52" y="521.4000000000001" width="876" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="532.4000000000001" fontSize="5.0" fontWeight="800" className="fill-emergency">Alcohol overuse</text>
+<text x="240" y="532.4000000000001" fontSize="4.5" className="fill-muted-foreground">Klebsiella, anaerobes usually due to aspiration (eg, Peptostreptococcus, Fusobacterium, Prevotella, Bacteroides)</text>
+        <rect x="52" y="552.0000000000001" width="876" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="563.0000000000001" fontSize="5.0" fontWeight="800" className="fill-emergency">Injection drug use</text>
+<text x="240" y="563.0000000000001" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, S aureus</text>
+        <rect x="52" y="582.6000000000001" width="876" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="593.6000000000001" fontSize="5.0" fontWeight="800" className="fill-emergency">Aspiration</text>
+<text x="240" y="593.6000000000001" fontSize="4.5" className="fill-muted-foreground">Anaerobes</text>
+        <rect x="52" y="613.2000000000002" width="876" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="624.2000000000002" fontSize="5.0" fontWeight="800" className="fill-emergency">Atypical</text>
+<text x="240" y="624.2000000000002" fontSize="4.5" className="fill-muted-foreground">Mycoplasma, Chlamydophila, Legionella, viruses (RSV, CMV, influenza, adenovirus)</text>
+        <rect x="52" y="643.8000000000002" width="876" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="654.8000000000002" fontSize="5.0" fontWeight="800" className="fill-emergency">Cystic fibrosis</text>
+<text x="240" y="654.8000000000002" fontSize="4.5" className="fill-muted-foreground">Pseudomonas, S aureus, S pneumoniae, Burkholderia cepacia</text>
+        <rect x="52" y="674.4000000000002" width="876" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="685.4000000000002" fontSize="5.0" fontWeight="800" className="fill-emergency">Immunocompromised</text>
+<text x="240" y="685.4000000000002" fontSize="4.5" className="fill-muted-foreground">S aureus, enteric gram ⊝ rods, fungi, viruses, P jirovecii (with HIV)</text>
+        <rect x="52" y="705.0000000000002" width="876" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="716.0000000000002" fontSize="5.0" fontWeight="800" className="fill-emergency">Healthcare-associated</text>
+<text x="240" y="716.0000000000002" fontSize="4.5" className="fill-muted-foreground">S aureus, Pseudomonas, other enteric gram ⊝ rods</text>
+        <rect x="52" y="735.6000000000003" width="876" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="746.6000000000003" fontSize="5.0" fontWeight="800" className="fill-emergency">Postviral</text>
+<text x="240" y="746.6000000000003" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, S aureus, H influenzae</text>
+        <rect x="52" y="766.2000000000003" width="876" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="777.2000000000003" fontSize="5.0" fontWeight="800" className="fill-emergency">COPD</text>
+<text x="240" y="777.2000000000003" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, H influenzae, M catarrhalis, Pseudomonas</text>
+      </g>
+      {/* ===== THE MENINGITIS LADDER + CSF ===== */}
+      <g>
+        <rect x="36" y="822.8000000000001" width="908" height="229.2" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="842.8000000000001" fontSize="9" fontWeight="800" className="fill-foreground">Common causes of meningitis + the CSF key (book 176)</text>
+        <rect x="52" y="854.8000000000001" width="210" height="46.6" rx="6" className="fill-secondary" />
+<text x="157" y="868.8000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">NEWBORN (0-6 MO)</text>
+<text x="59" y="882.8000000000001" fontSize="4.5" className="fill-muted-foreground">Group B Streptococcus, E coli, Listeria</text>
+        <rect x="270" y="854.8000000000001" width="210" height="55.2" rx="6" className="fill-secondary" />
+<text x="375" y="868.8000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CHILDREN (6 MO-6 YR)</text>
+<text x="277" y="882.8000000000001" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, N meningitidis, H influenzae type b, Group B</text>
+<text x="277" y="891.4000000000001" fontSize="4.5" className="fill-muted-foreground">Streptococcus, Enteroviruses</text>
+        <rect x="488" y="854.8000000000001" width="210" height="46.6" rx="6" className="fill-secondary" />
+<text x="593" y="868.8000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">6-60 YR</text>
+<text x="495" y="882.8000000000001" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, N meningitidis, Enteroviruses, HSV</text>
+        <rect x="706" y="854.8000000000001" width="210" height="55.2" rx="6" className="fill-secondary" />
+<text x="811" y="868.8000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">60 YR+</text>
+<text x="713" y="882.8000000000001" fontSize="4.5" className="fill-muted-foreground">S pneumoniae, N meningitidis, H influenzae type b, Group B</text>
+<text x="713" y="891.4000000000001" fontSize="4.5" className="fill-muted-foreground">Streptococcus, Listeria</text>
+        <rect x="52" y="920.0000000000001" width="180" height="20" rx="4" className="fill-secondary" />
+<text x="142.0" y="934.0000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">TYPE</text>
+        <rect x="240" y="920.0000000000001" width="140" height="20" rx="4" className="fill-secondary" />
+<text x="310.0" y="934.0000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">OPENING PRESSURE</text>
+        <rect x="388" y="920.0000000000001" width="140" height="20" rx="4" className="fill-secondary" />
+<text x="458.0" y="934.0000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CELL TYPE</text>
+        <rect x="536" y="920.0000000000001" width="120" height="20" rx="4" className="fill-secondary" />
+<text x="596.0" y="934.0000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">PROTEIN</text>
+        <rect x="664" y="920.0000000000001" width="120" height="20" rx="4" className="fill-secondary" />
+<text x="724.0" y="934.0000000000001" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">GLUCOSE</text>
+        <rect x="52" y="946.0000000000001" width="732" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="960.0000000000001" fontSize="5.2" fontWeight="800" className="fill-emergency">Bacterial</text>
+<text x="310" y="960.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑</text>
+<text x="458" y="960.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑ PMNs</text>
+<text x="596" y="960.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑</text>
+<text x="724" y="960.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↓</text>
+        <rect x="52" y="966.0000000000001" width="732" height="20" rx="4" className="fill-secondary/60" />
+<text x="58" y="980.0000000000001" fontSize="5.2" fontWeight="800" className="fill-emergency">Fungal/TB</text>
+<text x="310" y="980.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑</text>
+<text x="458" y="980.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑ lymphocytes</text>
+<text x="596" y="980.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑</text>
+<text x="724" y="980.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↓</text>
+        <rect x="52" y="986.0000000000001" width="732" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="1000.0000000000001" fontSize="5.2" fontWeight="800" className="fill-emergency">Viral</text>
+<text x="310" y="1000.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">Normal/↑</text>
+<text x="458" y="1000.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">↑ lymphocytes</text>
+<text x="596" y="1000.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">Normal/↑</text>
+<text x="724" y="1000.0000000000001" textAnchor="middle" fontSize="5.0" className="fill-foreground">Normal</text>
+      </g>
+      {/* empiric strip */}
+      <g>
+        <rect x="52" y="1014.0000000000001" width="876" height="36" rx="6" className="fill-card stroke-border" />
+<text x="58" y="1028.0" fontSize="4.7" className="fill-muted-foreground">EMPIRIC: ceftriaxone + vancomycin (add AMPICILLIN if Listeria suspected; add ACYCLOVIR if viral encephalitis suspected). Viral causes: enteroviruses (esp. coxsackievirus), HSV-2 (HSV-1 = encephalitis), HIV, West Nile (also encephalitis), VZV; in HIV — Cryptococcus. GBS meningitis ↓ with screening + prophylaxis; H influenzae ↓ with conjugate vaccines (cases</text>
+<text x="58" y="1037.0" fontSize="4.7" className="fill-muted-foreground">usually in unimmunized children).</text>
+      </g>
+      {/* ===== BRAIN ABSCESS ===== */}
+      <g>
+        <rect x="36" y="1068.0" width="908" height="56" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1088.0" fontSize="9" fontWeight="800" className="fill-foreground">Infections causing brain abscess — the routing rules (book 176)</text>
+<text x="58" y="1104.0" fontSize="4.7" className="fill-muted-foreground">Most commonly viridans streptococci and Staphylococcus aureus. If dental infection or extraction precedes abscess, oral anaerobes commonly involved.</text>
+<text x="58" y="1113.0" fontSize="4.7" className="fill-muted-foreground">Multiple abscesses are usually from bacteremia; single lesions from contiguous sites: otitis media and mastoiditis → temporal lobe and cerebellum; sinusitis or dental infection → frontal lobe. Toxoplasma reactivation in AIDS.</text>
+      </g>
+      {/* ===== OSTEOMYELITIS ===== */}
+      <g>
+        <rect x="36" y="1140.0" width="908" height="340.20000000000005" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="1160.0" fontSize="9" fontWeight="800" className="fill-foreground">Osteomyelitis — the risk-factor map (book 176)</text>
+        <rect x="52" y="1170.0" width="260" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="1184.0" fontSize="5.6" fontWeight="800" className="fill-foreground">RISK FACTOR</text>
+        <rect x="318" y="1170.0" width="462" height="20" rx="4" className="fill-secondary" />
+<text x="324" y="1184.0" fontSize="5.6" fontWeight="800" className="fill-foreground">ASSOCIATED INFECTION</text>
+        <rect x="52" y="1198.0" width="728" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1209.0" fontSize="4.5" fontWeight="700" className="fill-foreground">Assume if no other information (A)</text>
+<text x="324" y="1209.0" fontSize="4.5" className="fill-muted-foreground">S aureus (most common overall)</text>
+        <rect x="52" y="1232.6" width="728" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1243.6" fontSize="4.5" fontWeight="700" className="fill-foreground">Sexually active</text>
+<text x="324" y="1243.6" fontSize="4.5" className="fill-muted-foreground">Neisseria gonorrhoeae (rare); septic arthritis more common</text>
+        <rect x="52" y="1267.1999999999998" width="728" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1278.1999999999998" fontSize="4.5" fontWeight="700" className="fill-foreground">Sickle cell disease</text>
+<text x="324" y="1278.1999999999998" fontSize="4.5" className="fill-muted-foreground">Salmonella, S aureus</text>
+        <rect x="52" y="1301.7999999999997" width="728" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1312.7999999999997" fontSize="4.5" fontWeight="700" className="fill-foreground">Prosthetic joint replacement</text>
+<text x="324" y="1312.7999999999997" fontSize="4.5" className="fill-muted-foreground">S aureus, S epidermidis</text>
+        <rect x="52" y="1336.3999999999996" width="728" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1347.3999999999996" fontSize="4.5" fontWeight="700" className="fill-foreground">Vertebral involvement</text>
+<text x="324" y="1347.3999999999996" fontSize="4.5" className="fill-muted-foreground">S aureus, M tuberculosis (Pott disease)</text>
+        <rect x="52" y="1370.9999999999995" width="728" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1381.9999999999995" fontSize="4.5" fontWeight="700" className="fill-foreground">Cat and dog bites</text>
+<text x="324" y="1381.9999999999995" fontSize="4.5" className="fill-muted-foreground">Pasteurella multocida</text>
+        <rect x="52" y="1405.5999999999995" width="728" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1416.5999999999995" fontSize="4.5" fontWeight="700" className="fill-foreground">Injection drug use</text>
+<text x="324" y="1416.5999999999995" fontSize="4.5" className="fill-muted-foreground">S aureus; also Pseudomonas, Candida</text>
+<text x="58" y="1444.1999999999994" fontSize="4.7" className="fill-muted-foreground">ESR and CRP: sensitive, not specific. Radiographs: insensitive early, useful in chronic disease A (the printed radiograph + MRI pair — described-in-text only). MRI is best for acute infection and anatomy; biopsy or aspiration with culture identifies the organism.</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1498.2" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Bugs causing diarrhea split, Common causes of pneumonia (with the special-groups set), Common causes of meningitis + CSF findings, brain-abscess routing, and the Osteomyelitis risk-factor table (pdf 197-198 / books 175-176).</text>
+<text x="24" y="1510.2" fontSize="7.2" className="fill-muted-foreground">The printed osteomyelitis imaging A (the radiograph and MRI pair) is raster — COPYRIGHTED, described-in-text only. FA's printed glosses (Runts May Cough; Chunky Sputum) stay in the note's table block — verification-only, not redrawn.</text>
+<text x="24" y="1522.2" fontSize="7.2" className="fill-muted-foreground">The source's banner typo 'MICROCIOLOGY—SYSTEMS' prints on books 175-176.</text>
+    </svg>
+  );
+}

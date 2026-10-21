@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 11,
+  "pendingTopicCount": 10,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5487,8 +5487,145 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Systems",
-      "status": "pending",
-      "productionRationale": "The age-split pathogen tables (meningitis newborns-to-elderly, pneumonia by age and setting) and the CSF formula (bacterial/fungal/viral) — systems-based organism matching."
+      "status": "complete",
+      "productionRationale": "The age-split pathogen tables (meningitis newborns-to-elderly, pneumonia by age and setting) and the CSF formula (bacterial/fungal/viral) — systems-based organism matching.",
+      "textbookVisuals": [
+        {
+          "visualId": "bugs-by-system-gi-meningitis-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              197
+            ],
+            "bookPages": "175–175"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Bugs causing diarrhea split table (book 175)",
+          "sourceFigureDescription": "The printed bloody/watery two-column directory.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-gi-meningitis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the DIARRHEA SPLIT panel",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bugs-by-system-gi-meningitis-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              197
+            ],
+            "bookPages": "175–175"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Common causes of pneumonia table (book 175)",
+          "sourceFigureDescription": "The printed age-ladder table with the special-groups set.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-gi-meningitis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the PNEUMONIA LADDER + special groups panel",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bugs-by-system-gi-meningitis-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              198
+            ],
+            "bookPages": "176–176"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Common causes of meningitis + CSF findings tables (book 176)",
+          "sourceFigureDescription": "The printed age-ladder table, the CSF findings table, and the empiric/viral notes.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-gi-meningitis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the MENINGITIS LADDER + CSF key + empiric strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bugs-by-system-gi-meningitis-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              198
+            ],
+            "bookPages": "176–176"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The brain-abscess and osteomyelitis blocks (book 176)",
+          "sourceFigureDescription": "The printed abscess routing text and the osteomyelitis risk-factor table with the imaging workup.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-gi-meningitis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the BRAIN ABSCESS + OSTEOMYELITIS panels",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "bugs-by-system-gi-meningitis-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              198
+            ],
+            "bookPages": "176–176"
+          },
+          "chapterId": "microbiology",
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "The osteomyelitis imaging pair (book 176)",
+          "sourceFigureDescription": "The radiograph (left) and MRI (right) of osteomyelitis, marker A.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-gi-meningitis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "bugs-by-system-rash-std-torch",
