@@ -1,0 +1,432 @@
+{
+  "topicId": "viral-vaccines-diagnostics",
+  "title": "Viral Vaccines, Diagnosis & Emerging Viruses",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      190,
+      191,
+      196
+    ],
+    "bookPages": "168–174"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "168",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "Arboviruses transmitted by Aedes mosquitoes\nChikungunya virus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VIRUS TYPE column (both rows grouped)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "VIRUS TYPE\n\nAlphavirus/togavirus.\n\nFlavivirus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SYMPTOMS column — Chikungunya (polyarthritis; arthralgias > dengue; joint swelling specific; less thrombocytopenia/hemorrhage)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "SYMPTOMS\n\nHigh fever, maculopapular rash, headache,\nlymphadenopathy, and inflammatory\npolyarthritis.\nArthralgias are more commonly reported (vs\ndengue); joint swelling is highly specific for\nChikungunya.\nThrombocytopenia, leukopenia, and\nhemorrhagic manifestations are less common.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SYMPTOMS column — dengue (fever; hemorrhagic fever with plasma leakage; antibodydependent enhancement hyphen-drop; shock syndrome)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "Dengue fever: fever, rash, headache, myalgias,\narthralgias, retro-orbital pain, neutropenia.\nDengue hemorrhagic fever: dengue fever +\nbleeding and plasma leakage due to severe\nthrombocytopenia and RBC perturbations.\nMost common if infected with a different\nserotype after initial infection due to antibodydependent enhancement of disease.\nMay progress to dengue shock syndrome:\nplasma leakage →  circulatory collapse.\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGNOSIS column (NAAT, serology x2)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "DIAGNOSIS\n\nNAAT, serology\n\nNAAT, serology",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TREATMENT column (supportive; steroids/DMARDs; volume repletion/transfusion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "TREATMENT\n\nSupportive.\nSteroids or disease-modifying antirheumatic\ndrugs for chronic arthritis.\n\nSupportive. Intravascular volume repletion or\nblood transfusion if severe shock.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PREVENTION column (Chikungunya no vaccine; dengue live recombinant on the yellow-fever backbone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "PREVENTION\n\nMinimize mosquito exposure.\nNo vaccine currently available.\n\nLive, recombinant vaccine available. Derived\nfrom the yellow fever virus backbone with\ninsertion of genes for the envelope and premembrane proteins of dengue virus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Yellow fever block (flavivirus arbovirus; monkey/human reservoir; black vomitus; Councilman bodies; live attenuated vaccine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "Yellow fever virus\n\nA flavivirus (also an arbovirus) transmitted by Aedes mosquito bites. Virus has monkey or human\nreservoir. Flavi = yellow, jaundice.\nSymptoms: high fever, black vomitus, jaundice, hemorrhage, backache. May see Councilman\nbodies (eosinophilic apoptotic globules) on liver biopsy.\nLive, attenuated vaccine recommended for travelers to endemic countries.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zika block (conjunctivitis; Guillain-Barré; sexual/vertical; congenital Zika syndrome with ventriculomegaly + subcortical calcifications A; microcephaly, ocular, motor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "Zika virus\n\nA flavivirus most commonly transmitted by Aedes mosquito bites.\nCauses conjunctivitis, low-grade pyrexia, and itchy rash in 20% of cases. Outbreaks more common\nin tropical and subtropical climates. May be complicated by Guillain-Barré syndrome. Supportive\ncare, no definitive treatment.\nDiagnose with RT-PCR or serology.\nSexual and vertical transmission occurs.\nIn pregnancy, can lead to miscarriage or congenital Zika syndrome: brain imaging shows\nventriculomegaly, subcortical calcifications A . Clinical features in the affected newborn include\n▘ Microcephaly\n▘ Ocular anomalies\n▘ Motor abnormalities (spasticity, seizures)\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 168\n\n12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Image labels at the page top (Rabies A/B; Ebola A; the SARS-CoV-2 heading) — before the banner block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "MICROBIOLOGY\n\nRabies virus\nA\n\nB\n\nEbola virus\nA\n\nSevere acute\nrespiratory syndrome\ncoronavirus 2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "169",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rabies block, interleaved (US bat/raccoon/skunk > dog; aerosol bat caves; bullet-shaped A; Negri bodies B in Purkinje + hippocampus; long incubation; PEP killed vaccine + immunoglobulin = passive-active; retrograde dynein via ACh receptors; hydrophobia progression)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "Infection more commonly from bat, raccoon, and\nBullet-shaped virus A . Negri bodies\nskunk bites than from dog bites in the United\n(cytoplasmic inclusions B ) commonly\nStates; aerosol transmission (eg, bat caves) also\nfound in Purkinje cells of cerebellum and\npossible.\nin hippocampal neurons. Rabies has long\nincubation period (weeks to months) before\nsymptom onset. Postexposure prophylaxis\nis wound cleaning plus immunization with\nkilled vaccine and rabies immunoglobulin.\nExample of passive-active immunity.\nTravels to the CNS by migrating in a retrograde\nfashion (via dynein motors) up nerve axons\nafter binding to ACh receptors.\nProgression of disease: fever, malaise\n→  agitation, photophobia, hydrophobia,\nhypersalivation →  paralysis, coma →  death.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ebola block, interleaved (filovirus A; 21-day incubation; DIC/hemorrhage/shock; RT-PCR within 48 hr; contact/fomite/bat/primate transmission; supportive; isolation + barrier practices)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "A filovirus A . Following an incubation period\nof up to 21 days, presents with abrupt onset\nof flulike symptoms, diarrhea/vomiting, high\nfever, myalgia. Can progress to DIC, diffuse\nhemorrhage, shock.\nDiagnosed with RT-PCR within 48 hr of\nsymptom onset. High mortality rate.\n\nTransmission requires direct contact with bodily\nfluids, fomites (including dead bodies), infected\nbats or primates (apes/monkeys); high incidence\nof healthcare-associated infection.\nSupportive care, no definitive treatment.\nVaccination of contacts, strict isolation of infected\nindividuals, and barrier practices for healthcare\nworkers are key to preventing transmission.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SARS-CoV-2 block (⊕ ssRNA; droplets/aerosols/fomites; anosmia/dysgeusia; complications; ▘ NAAT/RAT bullets; spike → ACE2 in lungs-intestines-heart-kidneys; mRNA + viral vector vaccines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "SARS-CoV-2 is a ⊕ ssRNA virus and the cause\nof the COVID-19 pandemic. Spread is via\nrespiratory droplets, aerosols and fomites.\nVarying symptoms include: fever, myalgia,\nheadache, nasal congestion, sneezing, cough,\nsore throat, nausea, diarrhea, anosmia,\ndysgeusia.\nSevere cases may lead to complications like:\npneumonia, hypercoagulability (DVT, PE,\nstroke), myocardial injury, neurologic sequelae,\nshock, organ failure, death.\nDiagnosed by:\n▘ NAAT (RT-PCR)\n▘ Viral Antigen Test (RAT) →  rapid,\naccessible, less sensitive than NAAT\n\nHost cell entry occurs by attachment of viral\nspike protein to ACE2 receptor on cell\nmembranes (highly expressed in the lungs,\nintestines, heart, and kidneys).\nVaccines: mRNA and viral vector vaccines\ninduce immunity by presenting the spike\nprotein to the immune system leading to antispike protein antibodies.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The virion's labeled parts (Spike S; Lipid bilayer; Membrane M; Helical capsid with viral RNA; Envelope E)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "Spike (S)\nprotein\n\nLipid bilayer\nMembrane (M)\nprotein\n\nHelical\ncapsid with\nviral RNA\n\nEnvelope (E)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "174",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prions heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Prions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prion cascade (PrPc α-helical → PrPsc β-pleated; transmissible via CNS tissue iatrogenic CJD or BSE food variant CJD; protease resistance; autocatalysis; autoclave resistance; spongiform encephalopathy — dementia, ataxia, startle myoclonus, death)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Prion diseases are caused by the conversion of a normal (predominantly α-helical) protein termed\nprion protein (PrPc) to a β-pleated form (PrPsc), which is transmissible via CNS-related tissue\n(iatrogenic CJD) or food contaminated by BSE-infected animal products (variant CJD). PrPsc\nresists protease degradation and facilitates the conversion of still more PrPc to PrPsc. Resistant to\nstandard sterilizing procedures, including standard autoclaving. Accumulation of PrPsc results in\nspongiform encephalopathy and dementia, ataxia, startle myoclonus, and death.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prion disease trio (CJD sporadic/familial; BSE mad cow; kuru cannibalism)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Creutzfeldt-Jakob disease—rapidly progressive dementia, typically sporadic (some familial forms).\nBovine spongiform encephalopathy—also called “mad cow disease.”\nKuru—acquired prion disease noted in tribal populations practicing human cannibalism.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SYSTEMS banner that opens M28's blocks on the same page (page-ownership boundary)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS\nNormal microbiota:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "vaccine-diagnostic-map"
+  ],
+  "mechanismIds": [
+    "arbovirus-emergence-axis",
+    "prion-conformation-cascade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and blocks; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "aedes-prion-synthesis",
+      "summary": "The arthritis-vs-hemorrhage axis of the Aedes quartet with the damaged-organ key (joint/leak/liver/fetal brain); the ADE mechanism as the immunologic twist; the rabies PEP wired to E34's passive-active logic; the SARS-CoV-2 spike-ACE2-vaccine chain; and the prion cascade as the shape-that-copies-itself — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the comparison table and blocks without the organ-axis or the cascade synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p190 1 raster (the congenital-Zika axial brain imaging A); p191 3 rasters (rabies bullet TEM A [gray], Negri-bodies Purkinje micrograph B [gray], Ebola filamentous TEM A [cmyk]) + the SARS-CoV-2 labeled cross-section diagram (cmyk 188x94) — all identified by the VLM census; the virion cross-section in the visual is an ORIGINAL KYP REDRAW. p196 0 rasters. The banner typo prints MICROCIOLOGY—VIROLOGY on books 168-169 and MICROCIOLOGY—SYSTEMS on book 174 (a different banner, documented). p190's table columns emit grouped (VIRUS TYPE/SYMPTOMS blocks 13-39, then DIAGNOSIS/TREATMENT/PREVENTION 40-62); the dengue antibodydependent hyphen-drop; p191's image labels emit at the page top (0-12) before the running footer and banner block; the rabies text interleaves its two columns mid-sentence; the ▘ bullets on the SARS diagnostics (71-72); the virion labels emit at 82-93 after the vaccine sentence. Page ownership: book 174's prions block belongs here; the normal-microbiota and foodborne blocks belong to M28.",
+  "updatedAt": "2026-10-21"
+}

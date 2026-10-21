@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T02:38:05Z",
+  "generatedAt": "2026-10-21T02:46:56Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 111,
+    "topicsProduced": 112,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 56,
+      "pilot-complete": 57,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 24,
-      "topicsRemaining": 15,
+      "topicsProduced": 25,
+      "topicsRemaining": 14,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1953,6 +1953,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 181, 182 (book 159–160)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
+    },
+    {
+      "topicId": "viral-vaccines-diagnostics",
+      "title": "Viral Vaccines, Diagnosis & Emerging Viruses",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Virology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 190, 191, 196 (book 168–174)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 2,

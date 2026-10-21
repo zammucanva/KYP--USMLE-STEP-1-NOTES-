@@ -1,0 +1,187 @@
+{
+  "topicId": "viral-vaccines-diagnostics",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "viral-vaccines-diagnostics-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168–168"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Chikungunya-vs-dengue Aedes comparison table (book 168)",
+      "sourceFigureDescription": "The printed comparison table: VIRUS TYPE | SYMPTOMS | DIAGNOSIS | TREATMENT | PREVENTION, two rows.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vaccine-diagnostic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the AEDES TRIO comparison grid + the yellow-fever and Zika cards"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169–169"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The rabies/Ebola/SARS-CoV-2 blocks (book 169)",
+      "sourceFigureDescription": "The printed emerging-virus text blocks with their image markers.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vaccine-diagnostic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the EMERGING SET panel"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169–169"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "The SARS-CoV-2 labeled virion diagram (book 169)",
+      "sourceFigureDescription": "The printed cross-section illustration with leader labels: Spike (S) protein, Lipid bilayer, Membrane (M) protein, Envelope (E) protein, Helical capsid with viral RNA.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vaccine-diagnostic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the virion cross-section panel (an original redraw of the labeled diagram)"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174–174"
+      },
+      "chapterId": "microbiology",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The prions block (book 174)",
+      "sourceFigureDescription": "The printed prion text block (PrPc to PrPsc, the diseases).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vaccine-diagnostic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the PRION CASCADE panel"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          190
+        ],
+        "bookPages": "168–168"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The congenital-Zika brain imaging (book 168)",
+      "sourceFigureDescription": "The axial scan showing ventriculomegaly and subcortical calcifications, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169–169"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The rabies bullet-shaped TEM + Negri micrograph (book 169)",
+      "sourceFigureDescription": "The bullet-shaped virion TEM (A) and the Purkinje-cell Negri-bodies micrograph (B).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] table row — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "viral-vaccines-diagnostics-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          191
+        ],
+        "bookPages": "169–169"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Ebola filamentous TEM (book 169)",
+      "sourceFigureDescription": "The filamentous shepherd's-crook virion, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-vaccines-diagnostics",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] table row — figure pointer carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "viral-vaccines-diagnostics",
+    "textbookVisualCount": 7,
+    "accountedFor": 7,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "4 source structures redrawn in the registry visual (the Aedes table, the emerging-set blocks, the labeled virion diagram as an ORIGINAL redraw, the prions block); 3 raster sets (Zika brain imaging, rabies TEM + Negri micrograph, Ebola TEM) are COPYRIGHTED — described-in-text only."
+}

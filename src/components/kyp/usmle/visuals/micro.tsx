@@ -3232,3 +3232,151 @@ export function RnaVirusFamilyMap() {
     </svg>
   );
 }
+
+export function VaccineDiagnosticMap() {
+  const w = 980;
+  const h = 979;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Viral vaccines, diagnosis, and emerging viruses, an original KYP map. THE AEDES TRIO: Chikungunya (an alphavirus) — fever, maculopapular rash, lymphadenopathy, inflammatory polyarthritis with arthralgias more common than dengue and joint swelling highly specific; NAAT and serology; supportive with steroids or DMARDs for chronic arthritis; no vaccine. Dengue (a flavivirus) — dengue fever with retro-orbital pain and neutropenia; dengue hemorrhagic fever with bleeding and plasma leakage, most common on infection with a different serotype after the initial infection (antibody-dependent enhancement); dengue shock syndrome with circulatory collapse; the live recombinant vaccine built on the yellow fever backbone. Yellow fever — monkey or human reservoir, black vomitus, jaundice, Councilman bodies on liver biopsy; live attenuated vaccine for travelers. Zika — conjunctivitis, low-grade fever, itchy rash, Guillain-Barre syndrome, sexual and vertical transmission; congenital Zika syndrome with ventriculomegaly, subcortical calcifications, microcephaly, ocular anomalies, motor abnormalities. THE EMERGING SET: rabies — bullet-shaped, Negri bodies in Purkinje cells and hippocampal neurons, bat-raccoon-skunk bites in the US, retrograde dynein travel after binding ACh receptors, hydrophobia; postexposure prophylaxis = wound cleaning + killed vaccine + rabies immunoglobulin (passive-active immunity). Ebola — filovirus, 21-day incubation, DIC and hemorrhage and shock, RT-PCR within 48 hours, contact and fomite transmission, supportive care. SARS-CoV-2 — positive-sense ssRNA, droplets and aerosols and fomites, anosmia and dysgeusia, spike protein binding ACE2 in lungs-intestines-heart-kidneys, NAAT or the less-sensitive rapid antigen test, mRNA and viral vector vaccines presenting the spike. THE PRION CASCADE: PrPc (alpha-helical) converts to PrPsc (beta-pleated), transmissible via CNS tissue or BSE-contaminated food; PrPsc resists protease and standard autoclaving and converts more PrPc; spongiform encephalopathy with dementia, ataxia, startle myoclonus, death — Creutzfeldt-Jakob disease, mad cow disease, and kuru" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Viral vaccines, diagnosis &amp; emerging viruses — the map (original KYP redraw)</text>
+        <rect x="716" y="24" width="240" height="18" rx="9" className="fill-brand-soft" />
+<text x="836" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">Aedes · rabies · COVID · prions</text>
+      </g>
+      {/* ===== THE AEDES TRIO ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="281" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="96" fontSize="9" fontWeight="800" className="fill-foreground">THE AEDES TRIO + FLAVIVIRUS COUSINS — books 168</text>
+        <rect x="52" y="106" width="104" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="120" fontSize="5.6" fontWeight="800" className="fill-foreground">VIRUS</text>
+        <rect x="162" y="106" width="92" height="20" rx="4" className="fill-secondary" />
+<text x="168" y="120" fontSize="5.6" fontWeight="800" className="fill-foreground">TYPE</text>
+        <rect x="260" y="106" width="300" height="20" rx="4" className="fill-secondary" />
+<text x="266" y="120" fontSize="5.6" fontWeight="800" className="fill-foreground">SYMPTOMS</text>
+        <rect x="566" y="106" width="100" height="20" rx="4" className="fill-secondary" />
+<text x="572" y="120" fontSize="5.6" fontWeight="800" className="fill-foreground">DIAGNOSIS</text>
+        <rect x="674" y="106" width="254" height="20" rx="4" className="fill-secondary" />
+<text x="680" y="120" fontSize="5.6" fontWeight="800" className="fill-foreground">TREATMENT + PREVENTION</text>
+        <rect x="52" y="134" width="876" height="51" rx="4" className="fill-secondary" />
+<text x="58" y="147" fontSize="5.2" fontWeight="800" className="fill-emergency">Chikungunya virus</text>
+<text x="164" y="147" fontSize="4.6" className="fill-muted-foreground">Alphavirus/togavirus.</text>
+<text x="262" y="147" fontSize="4.6" className="fill-muted-foreground">High fever, maculopapular rash, headache, lymphadenopathy, and inflammatory polyarthritis. Arthralgias are more commonly</text>
+<text x="262" y="156" fontSize="4.6" className="fill-muted-foreground">reported (vs dengue); joint swelling is highly specific for Chikungunya. Thrombocytopenia, leukopenia, and hemorrhagic</text>
+<text x="262" y="165" fontSize="4.6" className="fill-muted-foreground">manifestations are less common.</text>
+<text x="568" y="147" fontSize="4.6" fontWeight="700" className="fill-foreground">NAAT, serology</text>
+<text x="676" y="147" fontSize="4.6" className="fill-muted-foreground">TREATMENT: Supportive. Steroids or disease-modifying antirheumatic drugs for chronic arthritis. PREVENTION:</text>
+<text x="676" y="156" fontSize="4.6" className="fill-muted-foreground">Minimize mosquito exposure. No vaccine currently available.</text>
+        <rect x="52" y="191" width="876" height="60" rx="4" className="fill-secondary/60" />
+<text x="58" y="204" fontSize="5.2" fontWeight="800" className="fill-emergency">Dengue virus</text>
+<text x="164" y="204" fontSize="4.6" className="fill-muted-foreground">Flavivirus.</text>
+<text x="262" y="204" fontSize="4.6" className="fill-muted-foreground">Dengue fever: fever, rash, headache, myalgias, arthralgias, retro-orbital pain, neutropenia. Dengue hemorrhagic fever: dengue</text>
+<text x="262" y="213" fontSize="4.6" className="fill-muted-foreground">fever + bleeding and plasma leakage due to severe thrombocytopenia and RBC perturbations. Most common if infected with a</text>
+<text x="262" y="222" fontSize="4.6" className="fill-muted-foreground">DIFFERENT SEROTYPE after initial infection (antibody-dependent enhancement). May progress to dengue shock syndrome: plasma</text>
+<text x="262" y="231" fontSize="4.6" className="fill-muted-foreground">leakage → circulatory collapse.</text>
+<text x="568" y="204" fontSize="4.6" fontWeight="700" className="fill-foreground">NAAT, serology</text>
+<text x="676" y="204" fontSize="4.6" className="fill-muted-foreground">TREATMENT: Supportive. Intravascular volume repletion or blood transfusion if severe shock. PREVENTION:</text>
+<text x="676" y="213" fontSize="4.6" className="fill-muted-foreground">Live, recombinant vaccine available — derived from the yellow fever virus backbone with insertion of genes</text>
+<text x="676" y="222" fontSize="4.6" className="fill-muted-foreground">for the envelope and pre-membrane proteins of dengue virus.</text>
+        <rect x="52" y="265" width="876" height="36" rx="4" className="fill-card stroke-border" />
+<text x="58" y="277" fontSize="5.2" fontWeight="800" className="fill-brand">YELLOW FEVER</text>
+<text x="152" y="277" fontSize="4.6" className="fill-muted-foreground">YELLOW FEVER — a flavivirus (also an arbovirus) transmitted by Aedes mosquito bites; monkey or human reservoir (Flavi = yellow, jaundice). Symptoms: high fever, black vomitus, jaundice, hemorrhage, backache; Councilman bodies (eosinophilic apoptotic globules) on liver biopsy. LIVE, ATTENUATED vaccine for travelers to endemic</text>
+<text x="152" y="286" fontSize="4.6" className="fill-muted-foreground">countries.</text>
+        <rect x="52" y="307" width="876" height="36" rx="4" className="fill-card stroke-border" />
+<text x="58" y="319" fontSize="5.2" fontWeight="800" className="fill-brand">ZIKA</text>
+<text x="152" y="319" fontSize="4.6" className="fill-muted-foreground">ZIKA — a flavivirus, most commonly Aedes-borne. Conjunctivitis, low-grade pyrexia, itchy rash in 20% of cases; tropical and subtropical outbreaks; may be complicated by GUILLAIN-BARRÉ syndrome. Sexual and vertical transmission occurs. In pregnancy: miscarriage or congenital Zika syndrome — brain imaging shows VENTRICULOMEGALY,</text>
+<text x="152" y="328" fontSize="4.6" className="fill-muted-foreground">SUBCORTICAL CALCIFICATIONS A (printed imaging — described-in-text only); the newborn: microcephaly, ocular anomalies, motor abnormalities (spasticity, seizures). Supportive care; diagnose with RT-PCR or serology.</text>
+      </g>
+      {/* ===== THE EMERGING SET ===== */}
+      <g>
+        <rect x="36" y="373" width="908" height="194" rx="14" className="fill-card stroke-border" />
+<text x="52" y="393" fontSize="9" fontWeight="800" className="fill-foreground">THE EMERGING SET — rabies, Ebola, SARS-CoV-2 (book 169)</text>
+        <rect x="52" y="407" width="876" height="49" rx="4" className="fill-secondary" />
+<text x="60" y="420" fontSize="5.6" fontWeight="800" className="fill-brand">RABIES — the retrograde traveler</text>
+<text x="60" y="431" fontSize="4.6" className="fill-muted-foreground">Bullet-shaped virus A (printed TEM — described-in-text only); Negri bodies (cytoplasmic inclusions B, printed micrograph — described-in-text only) in Purkinje cells of cerebellum and hippocampal neurons. Long incubation (weeks to months). US exposure: bat, raccoon, and skunk bites more common than dog</text>
+<text x="60" y="440" fontSize="4.6" className="fill-muted-foreground">bites; aerosol (bat caves) possible. Travels to CNS retrograde via dynein motors up nerve axons after binding ACh receptors. Progression: fever, malaise → agitation, photophobia, hydrophobia, hypersalivation → paralysis, coma → death. PEP = wound cleaning + KILLED VACCINE + RABIES IMMUNOGLOBULIN — the</text>
+<text x="60" y="449" fontSize="4.6" className="fill-muted-foreground">passive-active immunity exemplar.</text>
+        <rect x="52" y="462" width="876" height="40" rx="4" className="fill-secondary/60" />
+<text x="60" y="475" fontSize="5.6" fontWeight="800" className="fill-brand">EBOLA — the filovirus hemorrhage</text>
+<text x="60" y="486" fontSize="4.6" className="fill-muted-foreground">A filovirus A (printed TEM — the filamentous shepherd's-crook virion, described-in-text only). Incubation up to 21 days, then abrupt flulike symptoms, diarrhea/vomiting, high fever, myalgia → DIC, diffuse hemorrhage, shock. Diagnosed with RT-PCR within 48 hr of symptom onset; high mortality.</text>
+<text x="60" y="495" fontSize="4.6" className="fill-muted-foreground">Transmission: direct contact with bodily fluids, fomites (including dead bodies), infected bats or primates; high incidence of healthcare-associated infection. Supportive care only — vaccination of contacts, strict isolation, and barrier practices prevent transmission.</text>
+        <rect x="52" y="508" width="876" height="49" rx="4" className="fill-secondary" />
+<text x="60" y="521" fontSize="5.6" fontWeight="800" className="fill-brand">SARS-COV-2 — the pandemic coronavirus</text>
+<text x="60" y="532" fontSize="4.6" className="fill-muted-foreground">A ⊕ ssRNA virus; the cause of the COVID-19 pandemic. Spread via respiratory droplets, aerosols, and fomites. Symptoms: fever, myalgia, headache, congestion, sneezing, cough, sore throat, nausea, diarrhea, ANOSMIA, DYSGEUSIA. Severe: pneumonia, hypercoagulability (DVT, PE, stroke), myocardial injury,</text>
+<text x="60" y="541" fontSize="4.6" className="fill-muted-foreground">neurologic sequelae, shock, organ failure, death. Entry: the spike protein binds ACE2 (lungs, intestines, heart, kidneys). Diagnosis: NAAT (RT-PCR) — or the rapid antigen test (RAT): rapid, accessible, LESS SENSITIVE than NAAT. Vaccines: mRNA and viral vector, presenting the spike protein → anti-spike</text>
+<text x="60" y="550" fontSize="4.6" className="fill-muted-foreground">antibodies.</text>
+      </g>
+      {/* ===== THE SARS-CoV-2 VIRION (original redraw of the labeled diagram) ===== */}
+      <g>
+        <rect x="36" y="583" width="908" height="128" rx="12" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="603" fontSize="8" fontWeight="800" className="fill-foreground">The SARS-CoV-2 virion — an original redraw of the labeled diagram (book 169)</text>
+        <circle cx="210" cy="657" r="34" className="fill-none stroke-brand" />
+        <circle cx="210" cy="657" r="30" className="fill-none stroke-brand" />
+        <line x1="242.3" y1="667.5" x2="253.7" y2="671.2" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="253.7" cy="671.2" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="230.0" y1="684.5" x2="237.0" y2="694.2" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="237.0" cy="694.2" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="210.0" y1="691.0" x2="210.0" y2="703.0" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="210.0" cy="703.0" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="190.0" y1="684.5" x2="183.0" y2="694.2" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="183.0" cy="694.2" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="177.7" y1="667.5" x2="166.3" y2="671.2" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="166.3" cy="671.2" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="177.7" y1="646.5" x2="166.3" y2="642.8" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="166.3" cy="642.8" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="190.0" y1="629.5" x2="183.0" y2="619.8" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="183.0" cy="619.8" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="210.0" y1="623.0" x2="210.0" y2="611.0" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="210.0" cy="611.0" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="230.0" y1="629.5" x2="237.0" y2="619.8" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="237.0" cy="619.8" r="3.2" className="fill-card stroke-emergency" />
+        <line x1="242.3" y1="646.5" x2="253.7" y2="642.8" className="stroke-emergency" strokeWidth="1.2" />
+        <circle cx="253.7" cy="642.8" r="3.2" className="fill-card stroke-emergency" />
+        <circle cx="234.5" cy="677.6" r="2.0" className="fill-brand" />
+        <circle cx="212.8" cy="688.9" r="2.0" className="fill-brand" />
+        <circle cx="189.4" cy="681.5" r="2.0" className="fill-brand" />
+        <circle cx="178.1" cy="659.8" r="2.0" className="fill-brand" />
+        <circle cx="185.5" cy="636.4" r="2.0" className="fill-brand" />
+        <circle cx="207.2" cy="625.1" r="2.0" className="fill-brand" />
+        <circle cx="230.6" cy="632.5" r="2.0" className="fill-brand" />
+        <circle cx="241.9" cy="654.2" r="2.0" className="fill-brand" />
+        <path d="M 194.0 657 L 226.0 649.0 L 194.0 655.0 L 226.0 663.0 L 194.0 669.0" className="stroke-emergency" strokeWidth="1.1" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="280" y="625" fontSize="5.2" fontWeight="700" className="fill-foreground">Spike (S) protein — the corona; binds ACE2 (lungs, intestines, heart, kidneys)</text>
+        <line x1="277" y1="623" x2="250" y2="629" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="280" y="645" fontSize="5.2" fontWeight="700" className="fill-foreground">Lipid bilayer (the envelope)</text>
+        <line x1="277" y1="643" x2="244" y2="651" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="280" y="665" fontSize="5.2" fontWeight="700" className="fill-foreground">Membrane (M) protein + Envelope (E) protein — embedded in the bilayer</text>
+        <line x1="277" y1="663" x2="241" y2="667" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="280" y="685" fontSize="5.2" fontWeight="700" className="fill-foreground">Helical capsid with viral RNA (a ⊕ ssRNA genome)</text>
+        <line x1="277" y1="683" x2="226" y2="665" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="760" y="639" fontSize="4.8" className="fill-muted-foreground">mRNA + viral vector vaccines present the</text>
+<text x="760" y="649" fontSize="4.8" className="fill-muted-foreground">SPIKE → anti-spike antibodies;</text>
+<text x="760" y="659" fontSize="4.8" className="fill-muted-foreground">NAAT (RT-PCR) is the diagnostic</text>
+<text x="760" y="669" fontSize="4.8" className="fill-muted-foreground">standard; the RAT is rapid but</text>
+<text x="760" y="679" fontSize="4.8" className="fill-muted-foreground">less sensitive.</text>
+      </g>
+      {/* ===== THE PRION CASCADE ===== */}
+      <g>
+        <rect x="36" y="727" width="908" height="158" rx="14" className="fill-card stroke-border" />
+<text x="52" y="747" fontSize="9" fontWeight="800" className="fill-foreground">THE PRION CASCADE — PrPc → PrPsc (book 174)</text>
+        <rect x="52" y="761" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="774" fontSize="5.6" fontWeight="800" className="fill-emergency">THE CONFORMATION CASCADE</text>
+<text x="60" y="785" fontSize="4.6" className="fill-muted-foreground">Prion diseases convert the normal, predominantly α-helical prion protein (PrPc) to a β-pleated form (PrPsc) — transmissible via CNS-related tissue (iatrogenic CJD) or food contaminated by BSE-infected animal products (variant CJD).</text>
+        <rect x="52" y="798" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="811" fontSize="5.6" fontWeight="800" className="fill-emergency">THE RESISTANCE PAIR</text>
+<text x="60" y="822" fontSize="4.6" className="fill-muted-foreground">PrPsc resists PROTEASE degradation and facilitates the conversion of still more PrPc to PrPsc (autocatalysis) — and it resists STANDARD STERILIZING PROCEDURES, including standard autoclaving.</text>
+        <rect x="52" y="835" width="876" height="40" rx="4" className="fill-secondary" />
+<text x="60" y="848" fontSize="5.6" fontWeight="800" className="fill-emergency">THE DISEASE</text>
+<text x="60" y="859" fontSize="4.6" className="fill-muted-foreground">Accumulation of PrPsc → SPONGIFORM ENCEPHALOPATHY: dementia, ataxia, startle myoclonus, and death. Creutzfeldt-Jakob disease — rapidly progressive dementia, typically sporadic (some familial forms). Bovine spongiform encephalopathy — mad cow disease. Kuru — acquired by tribal populations practicing</text>
+<text x="60" y="868" fontSize="4.6" className="fill-muted-foreground">human cannibalism.</text>
+      </g>
+      {/* footer */}
+<text x="24" y="903" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Arboviruses-Aedes block (pdf 190 / book 168), the Rabies + Ebola + SARS-CoV-2 blocks with the labeled virion diagram (pdf 191 / book 169), and the Prions block (pdf 196 / book 174 — page ownership: the microbiota and foodborne</text>
+<text x="24" y="915" fontSize="7.2" className="fill-muted-foreground">blocks on the same page belong to M28).</text>
+<text x="24" y="927" fontSize="7.2" className="fill-muted-foreground">The printed images (the congenital-Zika brain imaging A; the rabies bullet-shaped TEM A and Negri bodies B; the Ebola filamentous TEM A; the SARS-CoV-2 cross-section diagram) are raster — COPYRIGHTED, described-in-text only; the virion cross-section above is an</text>
+<text x="24" y="939" fontSize="7.2" className="fill-muted-foreground">ORIGINAL KYP REDRAW of the labeled diagram.</text>
+<text x="24" y="951" fontSize="7.2" className="fill-muted-foreground">The banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 168-169; book 174 prints 'MICROCIOLOGY—SYSTEMS'. FA's printed gloss ('Food poisoning from reheated rice? Be serious!' — that block belongs to M28) is not redrawn here.</text>
+    </svg>
+  );
+}
