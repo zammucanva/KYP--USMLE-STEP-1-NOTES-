@@ -1,0 +1,236 @@
+{
+  "topicId": "rna-viruses",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "rna-viruses-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164–164"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The RNA viruses table (book 164)",
+      "sourceFigureDescription": "The printed 17-family table: VIRAL FAMILY | ENVELOPE | RNA STRUCTURE | MEDICAL IMPORTANCE, with the cytoplasm-rule intro and the structure footnote.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "rna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the cytoplasm-rule/sense-code strip + the 17-family sense-coded grid"
+    },
+    {
+      "visualId": "rna-viruses-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166–166"
+      },
+      "chapterId": "microbiology",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The influenza shift/drift map (book 166)",
+      "sourceFigureDescription": "The printed shift-vs-drift comparison with its diagram (Virus A/B, host cell, new strain, mutated HA or NA).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "rna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the INFLUENZA shift/drift panel"
+    },
+    {
+      "visualId": "rna-viruses-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          188,
+          189
+        ],
+        "bookPages": "166–167"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The pediatric clinical blocks (books 166-167)",
+      "sourceFigureDescription": "The rubella, paramyxovirus, croup, measles, and mumps text blocks.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "rna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the CLINICAL SET panel (croup, measles, mumps, rubella, RSV)"
+    },
+    {
+      "visualId": "rna-viruses-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165–165"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The picornavirus-rhinovirus-rotavirus blocks (book 165)",
+      "sourceFigureDescription": "The three GI/respiratory detail blocks.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "rna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the GI SET panel"
+    },
+    {
+      "visualId": "rna-viruses-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165–165"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The rotavirus electron micrograph (book 165)",
+      "sourceFigureDescription": "The EM showing the wheel-like rotavirus capsid, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "rna-viruses-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166–166"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The congenital rubella rash photo (book 166)",
+      "sourceFigureDescription": "The blueberry-muffin infant rash, marker A below the Rubella virus heading.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "rna-viruses-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167–167"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The croup steeple-sign x-ray (book 167)",
+      "sourceFigureDescription": "The radiograph showing the narrowed subglottic airway (T marks the trachea), marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "rna-viruses-sv8",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167–167"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Koplik spots photo (book 167)",
+      "sourceFigureDescription": "The buccal-mucosa Koplik spots (bright red with blue-white centers), marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "rna-viruses-sv9",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167–167"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The mumps parotitis photo (book 167)",
+      "sourceFigureDescription": "The child with bilateral parotid swelling, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "rna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "rna-viruses",
+    "textbookVisualCount": 9,
+    "accountedFor": 9,
+    "sourceReproductions": 0,
+    "kypRedraws": 4,
+    "kypOriginals": 5,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "4 source structures redrawn in the registry visual (the 17-family table, the shift/drift map, the pediatric blocks, the GI blocks); 5 raster images (rotavirus EM, blueberry-muffin rubella rash, steeple x-ray, Koplik spots, mumps parotitis) are COPYRIGHTED — described-in-text only in the table blocks."
+}

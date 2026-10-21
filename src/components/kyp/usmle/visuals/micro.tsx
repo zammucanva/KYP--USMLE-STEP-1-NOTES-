@@ -3029,3 +3029,206 @@ export function DnaVirusFamilyMap() {
     </svg>
   );
 }
+
+export function RnaVirusFamilyMap() {
+  const w = 980;
+  const h = 1646;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="RNA viruses, an original KYP family map. THE CYTOPLASM RULE: all RNA viruses replicate in the cytoplasm except retrovirus and influenza virus (nuclear). THE GRID (17 families, sense-coded): Reoviruses (naked, DS linear multisegmented — rotavirus, the infantile diarrhea virus); the positive-sense set — Picornaviruses (naked, polio-Salk-Sabin, echo, rhino, coxsackie, HAV), Hepevirus (HEV), Caliciviruses (norovirus gastroenteritis), Flaviviruses (enveloped — HCV, yellow fever, dengue, West Nile with meningoencephalitis and acute asymmetric flaccid paralysis, Zika; arboviruses), Togaviruses (Chikungunya, Eastern and Western equine encephalitis; arboviruses), Matonavirus (rubella, the 2026 reclassification), Retroviruses (reverse transcriptase — HTLV T-cell leukemia, HIV AIDS), Coronaviruses (common cold, SARS, COVID-19, MERS); the negative-sense set — Orthomyxoviruses (influenza, segmented, nuclear), Paramyxoviruses (parainfluenza croup, RSV bronchiolitis, measles, mumps), Pneumoviruses (RSV), Rhabdoviruses (rabies), Filoviruses (Ebola and Marburg, often fatal); the circular set — Arenaviruses (ambisense, LCMV and Lassa from rodents), Bunyaviruses (California encephalitis, sandfly and Rift Valley fevers, Crimean-Congo hemorrhagic fever, Hantavirus), and Delta virus (defective, requires HBV). INFLUENZA: hemagglutinin binds sialic acid for entry, neuraminidase releases progeny; superinfection with S aureus, S pneumoniae, H influenzae; antigenic SHIFT = reassortment of 2 segmented viruses = pandemics, antigenic DRIFT = HA/NA point mutations = seasonal epidemics; reformulated killed vaccine, intranasal live temperature-sensitive. THE CLINICAL SET: croup with the seal-like cough and steeple sign; measles with cough, coryza, conjunctivitis, Koplik spots, the descending rash, Warthin-Finkeldey giant cells, SSPE, and vitamin A; mumps with parotitis, orchitis, meningitis, pancreatitis; rubella with postauricular nodes and the congenital deafness-cataracts-PDA triad; RSV with the F protein and palivizumab for preemies. THE GI SET: picornavirus one-polypeptide strategy, rhinovirus acid-labile common cold, rotavirus villous atrophy with the vaccine excluding intussusception history and SCID" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">RNA viruses — the sense-coded family map (original KYP redraw)</text>
+        <rect x="706" y="24" width="250" height="18" rx="9" className="fill-brand-soft" />
+<text x="831" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">⊕ · ⊝ · circular · segmented</text>
+      </g>
+      {/* the cytoplasm rule + sense code */}
+      <g>
+        <rect x="36" y="76" width="908" height="48" rx="10" className="fill-secondary" />
+<text x="490" y="92" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-foreground">THE CYTOPLASM RULE: all RNA viruses replicate in the CYTOPLASM — EXCEPT RETROVIRUS and INFLUENZA VIRUS (nuclear).</text>
+<text x="490" y="103" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-foreground">THE SENSE CODE: ⊕ (positive sense, ≈ mRNA — infectious alone) vs ⊝ (negative sense — the virion carries RdRp); a = ARBOVIRUS (arthropod-borne: mosquitoes, ticks).</text>
+      </g>
+      {/* ===== THE 17 FAMILIES ===== */}
+      <g>
+        <rect x="36" y="140" width="908" height="742" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="160" fontSize="9" fontWeight="800" className="fill-foreground">THE SEVENTEEN FAMILIES — book 164 (sense-coded: ⊕ brand · ⊝/DS emergency)</text>
+        <rect x="52" y="170" width="116" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">FAMILY</text>
+        <rect x="176" y="170" width="40" height="20" rx="4" className="fill-secondary" />
+<text x="182" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">ENV</text>
+        <rect x="224" y="170" width="168" height="20" rx="4" className="fill-secondary" />
+<text x="230" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">RNA STRUCTURE</text>
+        <rect x="400" y="170" width="360" height="20" rx="4" className="fill-secondary" />
+<text x="406" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">MEDICAL IMPORTANCE</text>
+        <rect x="768" y="170" width="36" height="20" rx="4" className="fill-secondary" />
+<text x="786" y="184" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">SENSE</text>
+        <rect x="52" y="198" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="211" fontSize="5.4" fontWeight="800" className="fill-emergency">Reoviruses</text>
+<text x="182" y="211" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="230" y="211" fontSize="4.7" className="fill-muted-foreground">DS linear, multisegmented</text>
+<text x="406" y="211" fontSize="4.7" className="fill-muted-foreground">Rotavirus — important cause of diarrhea in young children; may be fatal.</text>
+<text x="786" y="211" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">DS</text>
+        <rect x="52" y="238" width="876" height="42" rx="4" className="fill-secondary/60" />
+<text x="58" y="251" fontSize="5.4" fontWeight="800" className="fill-emergency">Picornaviruses</text>
+<text x="182" y="251" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="230" y="251" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="251" fontSize="4.7" className="fill-muted-foreground">Poliovirus (polio — Salk IPV / Sabin OPV vaccines); Echovirus — aseptic meningitis; Rhinovirus — “common cold”; Coxsackievirus — aseptic meningitis, herpangina</text>
+<text x="406" y="260" fontSize="4.7" className="fill-muted-foreground">(mouth blisters, fever), hand-foot-and-mouth disease, myocarditis, pericarditis; HAV — acute viral hepatitis.</text>
+<text x="786" y="251" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="287" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="300" fontSize="5.4" fontWeight="800" className="fill-emergency">Hepevirus</text>
+<text x="182" y="300" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="230" y="300" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="300" fontSize="4.7" className="fill-muted-foreground">HEV.</text>
+<text x="786" y="300" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="327" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="340" fontSize="5.4" fontWeight="800" className="fill-emergency">Caliciviruses</text>
+<text x="182" y="340" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="230" y="340" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="340" fontSize="4.7" className="fill-muted-foreground">Norovirus — viral gastroenteritis.</text>
+<text x="786" y="340" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="367" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="380" fontSize="5.4" fontWeight="800" className="fill-emergency">Flaviviruses</text>
+<text x="182" y="380" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="380" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="380" fontSize="4.7" className="fill-muted-foreground">HCV; Yellow fever ᵃ; Dengue ᵃ; West Nile virus ᵃ — meningoencephalitis, acute asymmetric flaccid paralysis; Zika virus ᵃ.</text>
+<text x="786" y="380" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="407" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="420" fontSize="5.4" fontWeight="800" className="fill-emergency">Togaviruses</text>
+<text x="182" y="420" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="420" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="420" fontSize="4.7" className="fill-muted-foreground">Chikungunya virus ᵃ (co-infection with dengue can occur), Rubella (formerly a togavirus), Eastern and Western equine encephalitis ᵃ — the CREW set.</text>
+<text x="786" y="420" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="447" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="460" fontSize="5.4" fontWeight="800" className="fill-emergency">Matonavirus</text>
+<text x="182" y="460" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="460" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="460" fontSize="4.7" className="fill-muted-foreground">Rubella (the 2026 reclassification — rubella now lives here, not with the togaviruses).</text>
+<text x="786" y="460" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="487" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="500" fontSize="5.4" fontWeight="800" className="fill-emergency">Retroviruses</text>
+<text x="182" y="500" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="500" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="500" fontSize="4.7" className="fill-muted-foreground">Have REVERSE TRANSCRIPTASE; HTLV — T-cell leukemia; HIV — AIDS.</text>
+<text x="786" y="500" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="527" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="540" fontSize="5.4" fontWeight="800" className="fill-emergency">Coronaviruses</text>
+<text x="182" y="540" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="540" fontSize="4.7" className="fill-muted-foreground">SS ⊕ linear</text>
+<text x="406" y="540" fontSize="4.7" className="fill-muted-foreground">“Common cold,” SARS, COVID-19, MERS.</text>
+<text x="786" y="540" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⊕</text>
+        <rect x="52" y="567" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="580" fontSize="5.4" fontWeight="800" className="fill-emergency">Orthomyxoviruses</text>
+<text x="182" y="580" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="580" fontSize="4.7" className="fill-muted-foreground">SS ⊝ linear, multisegmented</text>
+<text x="406" y="580" fontSize="4.7" className="fill-muted-foreground">Influenza virus (the segmented ⊝ virus that replicates in the NUCLEUS).</text>
+<text x="786" y="580" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="607" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="620" fontSize="5.4" fontWeight="800" className="fill-emergency">Paramyxoviruses</text>
+<text x="182" y="620" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="620" fontSize="4.7" className="fill-muted-foreground">SS ⊝ linear</text>
+<text x="406" y="620" fontSize="4.7" className="fill-muted-foreground">Parainfluenza — croup; RSV — bronchiolitis in babies; measles, mumps.</text>
+<text x="786" y="620" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="647" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="660" fontSize="5.4" fontWeight="800" className="fill-emergency">Pneumoviruses</text>
+<text x="182" y="660" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="660" fontSize="4.7" className="fill-muted-foreground">SS ⊝ linear</text>
+<text x="406" y="660" fontSize="4.7" className="fill-muted-foreground">RSV — bronchiolitis in babies (the non-paramyxovirus home of RSV).</text>
+<text x="786" y="660" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="687" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="700" fontSize="5.4" fontWeight="800" className="fill-emergency">Rhabdoviruses</text>
+<text x="182" y="700" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="700" fontSize="4.7" className="fill-muted-foreground">SS ⊝ linear</text>
+<text x="406" y="700" fontSize="4.7" className="fill-muted-foreground">Rabies.</text>
+<text x="786" y="700" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="727" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="740" fontSize="5.4" fontWeight="800" className="fill-emergency">Filoviruses</text>
+<text x="182" y="740" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="740" fontSize="4.7" className="fill-muted-foreground">SS ⊝ linear</text>
+<text x="406" y="740" fontSize="4.7" className="fill-muted-foreground">Ebola/Marburg virus disease — often fatal.</text>
+<text x="786" y="740" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="767" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="780" fontSize="5.4" fontWeight="800" className="fill-emergency">Arenaviruses</text>
+<text x="182" y="780" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="780" fontSize="4.7" className="fill-muted-foreground">SS ⊕ and ⊝ circular, multisegmented</text>
+<text x="406" y="780" fontSize="4.7" className="fill-muted-foreground">LCMV — lymphocytic choriomeningitis virus; Lassa fever encephalitis — spread by rodents.</text>
+<text x="786" y="780" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">⊕/⊝</text>
+        <rect x="52" y="807" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="820" fontSize="5.4" fontWeight="800" className="fill-emergency">Bunyaviruses</text>
+<text x="182" y="820" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="820" fontSize="4.7" className="fill-muted-foreground">SS ⊝ circular, multisegmented</text>
+<text x="406" y="820" fontSize="4.7" className="fill-muted-foreground">California encephalitis ᵃ; Sandfly/Rift Valley fevers ᵃ; Crimean-Congo hemorrhagic fever ᵃ; Hantavirus — hemorrhagic fever, pneumonia.</text>
+<text x="786" y="820" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+        <rect x="52" y="847" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="860" fontSize="5.4" fontWeight="800" className="fill-emergency">Delta virus</text>
+<text x="182" y="860" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="230" y="860" fontSize="4.7" className="fill-muted-foreground">SS ⊝ circular</text>
+<text x="406" y="860" fontSize="4.7" className="fill-muted-foreground">HDV is “defective” — requires the presence of HBV to replicate.</text>
+<text x="786" y="860" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">⊝</text>
+      </g>
+      {/* ===== INFLUENZA ===== */}
+      <g>
+        <rect x="36" y="898" width="908" height="223" rx="14" className="fill-card stroke-border" />
+<text x="52" y="918" fontSize="9" fontWeight="800" className="fill-foreground">INFLUENZA — the shift/drift map (books 164-166)</text>
+        <rect x="52" y="932" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="945" fontSize="5.6" fontWeight="800" className="fill-brand">THE VIRION</text>
+<text x="60" y="956" fontSize="4.7" className="fill-muted-foreground">Orthomyxoviruses: enveloped, ⊝ ssRNA, SEGMENTED genome, with HEMAGGLUTININ (binds sialic acid and promotes viral entry) and NEURAMINIDASE (promotes progeny virion release) antigens.</text>
+        <rect x="52" y="969" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="982" fontSize="5.6" fontWeight="800" className="fill-brand">THE SUPERINFECTION SET</text>
+<text x="60" y="993" fontSize="4.7" className="fill-muted-foreground">Patients at risk for fatal bacterial superinfection — most commonly S aureus, S pneumoniae, and H influenzae. Treatment: supportive ± neuraminidase inhibitor (oseltamivir, zanamivir).</text>
+        <rect x="52" y="1006" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1019" fontSize="5.6" fontWeight="800" className="fill-brand">ANTIGENIC SHIFT</text>
+<text x="60" y="1030" fontSize="4.7" className="fill-muted-foreground">Infection of 1 cell by 2 different segmented viruses (eg, swine + human influenza) → RNA segment REASORTMENT → a dramatically different virus → major global outbreaks (PANDEMICS).</text>
+        <rect x="52" y="1043" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="1056" fontSize="5.6" fontWeight="800" className="fill-brand">ANTIGENIC DRIFT</text>
+<text x="60" y="1067" fontSize="4.7" className="fill-muted-foreground">Random mutation in hemagglutinin (HA) or neuraminidase (NA) genes → minor changes in HA or NA protein → frequent LOCAL SEASONAL outbreaks (epidemics).</text>
+        <rect x="52" y="1080" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1093" fontSize="5.6" fontWeight="800" className="fill-brand">THE VACCINE</text>
+<text x="60" y="1104" fontSize="4.7" className="fill-muted-foreground">Reformulated each season (the virus's rapid genetic change); KILLED vaccine most frequently used; the live attenuated intranasal vaccine carries a temperature-sensitive mutant that replicates in the nose but not the lung.</text>
+      </g>
+      {/* ===== CLINICAL SET ===== */}
+      <g>
+        <rect x="36" y="1137" width="908" height="241" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1157" fontSize="9" fontWeight="800" className="fill-foreground">THE CLINICAL SET — croup, measles, mumps, rubella, RSV (books 166-167)</text>
+        <rect x="52" y="1171" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1184" fontSize="5.6" fontWeight="800" className="fill-brand">CROUP (parainfluenza)</text>
+<text x="60" y="1195" fontSize="4.7" className="fill-muted-foreground">Acute laryngotracheobronchitis — “seal-like” barking cough and inspiratory stridor; narrowing of the upper trachea and subglottis gives the STEEPLE SIGN on x-ray A (printed radiograph — described-in-text only).</text>
+        <rect x="52" y="1208" width="876" height="40" rx="4" className="fill-secondary/60" />
+<text x="60" y="1221" fontSize="5.6" fontWeight="800" className="fill-brand">MEASLES (rubeola)</text>
+<text x="60" y="1232" fontSize="4.7" className="fill-muted-foreground">Prodromal fever with COUGH, CORYZA, CONJUNCTIVITIS → KOPLIK SPOTS (bright red spots with blue-white center on buccal mucosa A — printed photo, described-in-text only) → maculopapular rash head/neck → downward. Warthin-Finkeldey giant cells; sequelae: SSPE (years later), encephalitis 1:1000</text>
+<text x="60" y="1241" fontSize="4.7" className="fill-muted-foreground">(days), giant cell pneumonia (immunosuppressed), ADEM. Vitamin A reduces morbidity and mortality; pneumonia is the most common cause of measles-associated death.</text>
+        <rect x="52" y="1254" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1267" fontSize="5.6" fontWeight="800" className="fill-brand">MUMPS</text>
+<text x="60" y="1278" fontSize="4.7" className="fill-muted-foreground">Parotitis A (printed photo — described-in-text only), orchitis, aseptic meningitis, pancreatitis; sterility risk after puberty; uncommon thanks to the MMR vaccine.</text>
+        <rect x="52" y="1291" width="876" height="40" rx="4" className="fill-secondary/60" />
+<text x="60" y="1304" fontSize="5.6" fontWeight="800" className="fill-brand">RUBELLA (matonavirus)</text>
+<text x="60" y="1315" fontSize="4.7" className="fill-muted-foreground">German (3-day) measles — fever, POSTAURICULAR lymphadenopathy, arthralgias, fine maculopapular rash face → centrifugal. Mild in children; the congenital TORCH triad: sensorineural deafness, cataracts, patent ductus arteriosus; “blueberry muffin” dermal extramedullary hematopoiesis A (printed</text>
+<text x="60" y="1324" fontSize="4.7" className="fill-muted-foreground">photo — described-in-text only).</text>
+        <rect x="52" y="1337" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1350" fontSize="5.6" fontWeight="800" className="fill-brand">RSV + PALIVIZUMAB</text>
+<text x="60" y="1361" fontSize="4.7" className="fill-muted-foreground">All paramyxoviruses carry the surface F (fusion) protein → respiratory epithelial cells fuse into multinucleated cells. PALIVIZUMAB (anti-F monoclonal) prevents RSV pneumonia in premature infants.</text>
+      </g>
+      {/* ===== GI SET ===== */}
+      <g>
+        <rect x="36" y="1394" width="908" height="158" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1414" fontSize="9" fontWeight="800" className="fill-foreground">THE GI SET — picornavirus, rhinovirus, rotavirus (book 165)</text>
+        <rect x="52" y="1428" width="876" height="31" rx="4" className="fill-secondary" />
+<text x="60" y="1441" fontSize="5.6" fontWeight="800" className="fill-brand">PICORNAVIRUS</text>
+<text x="60" y="1452" fontSize="4.7" className="fill-muted-foreground">Poliovirus, echovirus, rhinovirus, coxsackievirus, HAV. RNA is translated into 1 LARGE POLYPEPTIDE cleaved by virus-encoded proteases into functional viral proteins. Polio, echo, and coxsackie are ENTEROVIRUSES — aseptic (viral) meningitis.</text>
+        <rect x="52" y="1465" width="876" height="31" rx="4" className="fill-secondary/60" />
+<text x="60" y="1478" fontSize="5.6" fontWeight="800" className="fill-brand">RHINOVIRUS</text>
+<text x="60" y="1489" fontSize="4.7" className="fill-muted-foreground">A picornavirus, nonenveloped. The common cold; &gt;100 serologic types. ACID LABILE — destroyed by stomach acid, so it does NOT infect the GI tract (unlike the other picornaviruses).</text>
+        <rect x="52" y="1502" width="876" height="40" rx="4" className="fill-secondary" />
+<text x="60" y="1515" fontSize="5.6" fontWeight="800" className="fill-brand">ROTAVIRUS</text>
+<text x="60" y="1526" fontSize="4.7" className="fill-muted-foreground">Segmented dsRNA (a reovirus) A — the printed EM shows the wheel-like capsid (rota = wheel; described-in-text only). The most important global cause of infantile gastroenteritis; winter day-care outbreaks. Villous destruction with atrophy → ↓ Na+ absorption and K+ loss. CDC vaccination for all</text>
+<text x="60" y="1535" fontSize="4.7" className="fill-muted-foreground">infants EXCEPT those with intussusception history or SCID.</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1570" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's RNA-viruses table (pdf 186 / book 164), the picornavirus-rhinovirus-rotavirus blocks (pdf 187 / book 165), the influenza shift/drift + rubella + paramyxovirus blocks (pdf 188 / book 166), and the croup-measles-mumps blocks</text>
+<text x="24" y="1582" fontSize="7.2" className="fill-muted-foreground">(pdf 189 / book 167).</text>
+<text x="24" y="1594" fontSize="7.2" className="fill-muted-foreground">The printed photos (the rotavirus EM A, the blueberry-muffin rubella rash A, the steeple-sign x-ray A, the Koplik spots A, and the mumps parotitis A) are raster — COPYRIGHTED, described-in-text only.</text>
+<text x="24" y="1606" fontSize="7.2" className="fill-muted-foreground">The source's banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 164-167. FA's printed mnemonics (Retro flu is outta cyt; PERCH; Toga CREW; Rhino has a runny nose; Rotavirus = right out the anus; Sudden shift is more deadly than gradual drift; the 4 C's;</text>
+<text x="24" y="1618" fontSize="7.2" className="fill-muted-foreground">POM-Poms; Palivizumab for preemies) stay in the note's table block — verification-only, not redrawn.</text>
+    </svg>
+  );
+}

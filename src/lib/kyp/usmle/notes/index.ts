@@ -74,6 +74,7 @@ import { helminthsNematodes } from "./helminths-nematodes";
 import { cestodesTrematodes } from "./cestodes-trematodes";
 import { viralStructureGenetics } from "./viral-structure-genetics";
 import { dnaViruses } from "./dna-viruses";
+import { rnaViruses } from "./rna-viruses";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -231,6 +232,7 @@ export const usmleNotes: KypUsMLENote[] = [
   cestodesTrematodes,
   viralStructureGenetics,
   dnaViruses,
+  rnaViruses,
   cranialNerves,
   diabetesMellitus,
 ];

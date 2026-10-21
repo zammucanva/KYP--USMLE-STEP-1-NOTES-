@@ -1,0 +1,576 @@
+{
+  "topicId": "rna-viruses",
+  "title": "RNA Viruses: Families & Disease Map",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      186,
+      187,
+      188,
+      189
+    ],
+    "bookPages": "164–167"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "164",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "RNA viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cytoplasm rule + FA's printed gloss (verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "All replicate in the cytoplasm (except retrovirus and influenza virus). “Retro flu is outta cyt (sight).”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "VIRAL FAMILY\n\nENVELOPE\n\nRNA STRUCTURE\n\nMEDICAL IMPORTANCE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Reoviruses row (rotavirus, the infantile diarrhea anchor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Reoviruses\n\nNo\n\nDS linear\nMultisegmented\n\nRotavirus—important cause of diarrhea in young children; may be\nfatal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Picornaviruses row, interleaved with PERCH (polio Salk/Sabin; echo; rhino; coxsackie; HAV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Picornaviruses\n\nNo\n\nSS ⊕ linear\n\nPoliovirus—polio-Salk/Sabin vaccines—IPV/OPV\nEchovirus—aseptic meningitis\nRhinovirus—“common cold”\nCoxsackievirus—aseptic meningitis; herpangina (mouth blisters,\nfever); hand, foot, and mouth disease; myocarditis; pericarditis\nHAV—acute viral hepatitis\nPERCH",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hepevirus + Caliciviruses rows (HEV; norovirus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Hepevirus\n\nNo\n\nSS ⊕ linear\n\nHEV\n\nCaliciviruses\n\nNo\n\nSS ⊕ linear\n\nNorovirus—viral gastroenteritis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flaviviruses row, interleaved with the arbovirus superscripts (HCV; yellow fever; dengue; West Nile AFP; Zika)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Flaviviruses\n\nYes\n\nSS ⊕ linear\n\nHCV\nYellow fevera\nDenguea\nWest Nile virusa—meningoencephalitis, acute asymmetric flaccid\nparalysis\nZika virusa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Togaviruses row, interleaved (the CREW set; Chikungunya; rubella formerly togavirus; equine encephalitides)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Togaviruses\n\nYes\n\nSS ⊕ linear\n\nToga CREW—Chikungunya virusa (co-infection with dengue virus\ncan occur), Rubella (formerly a togavirus), Eastern and Western\nequine encephalitisa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Matonavirus row — the 2026 reclassification (rubella)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Matonavirus\n\nYes\n\nSS ⊕ linear\n\nRubella",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Retroviruses + Coronaviruses rows (reverse transcriptase; HTLV; HIV; cold/SARS/COVID-19/MERS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Retroviruses\n\nYes\n\nSS ⊕ linear\n\nHave reverse transcriptase\nHTLV—T-cell leukemia\nHIV—AIDS\n\nCoronaviruses\n\nYes\n\nSS ⊕ linear\n\n“Common cold,” SARS, COVID-19, MERS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Orthomyxoviruses + Paramyxoviruses rows (influenza segmented; parainfluenza croup; RSV; measles; mumps)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Orthomyxoviruses\n\nYes\n\nSS ⊝ linear\nMultisegmented\n\nInfluenza virus\n\nParamyxoviruses\n\nYes\n\nSS ⊝ linear\n\nPaRaMyxovirus:\nParainfluenza—croup\nRSV—bronchiolitis in babies\nMeasles, Mumps",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pneumoviruses + Rhabdoviruses + Filoviruses rows (RSV; rabies; Ebola/Marburg often fatal)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Pneumoviruses\n\nYes\n\nSS ⊝ linear\n\nRSV—bronchiolitis in babies\n\nRhabdoviruses\n\nYes\n\nSS ⊝ linear\n\nRabies\n\nFiloviruses\n\nYes\n\nSS ⊝ linear\n\nEbola/Marburg virus disease—often fatal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Arenaviruses row (⊕ and ⊝ circular; LCMV; Lassa from rodents)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Arenaviruses\n\nYes\n\nSS ⊕ and ⊝\ncircular\nMultisegmented\n\nLCMV—lymphocytic choriomeningitis virus\nLassa fever encephalitis—spread by rodents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bunyaviruses + Delta virus rows (the arbovirus fevers + Hantavirus; HDV defective requiring HBV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "Bunyaviruses\n\nYes\n\nSS ⊝ circular\nMultisegmented\n\nCalifornia encephalitisa\nSandfly/Rift Valley feversa\nCrimean-Congo hemorrhagic fevera\nHantavirus—hemorrhagic fever, pneumonia\n\nDelta virus\n\nYes\n\nSS ⊝ circular\n\nHDV is “Defective”; requires presence of HBV to replicate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Structure footnote (SS/DS; ⊕/⊝; the arbovirus definition)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "SS, single-stranded; DS, double-stranded; ⊕, positive sense; ⊝, negative sense; a= arbovirus, arthropod borne (mosquitoes, ticks).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          186
+        ],
+        "bookPages": "164"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "165",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Picornavirus block (1 large polypeptide; protease cleavage; enteroviruses; the PicoRNA/PERCH glosses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "Picornavirus\n\nIncludes Poliovirus, Echovirus, Rhinovirus,\nCoxsackievirus, and HAV. RNA is translated\ninto 1 large polypeptide that is cleaved by\nvirus-encoded proteases into functional\nviral proteins. Poliovirus, echovirus, and\ncoxsackievirus are enteroviruses and can cause\naseptic (viral) meningitis.\n\nPicoRNAvirus = small RNA virus.\nPERCH on a “peak” (pico).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rhinovirus block (nonenveloped; common cold; >100 types; acid labile; the runny-nose gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "Rhinovirus\n\nA picornavirus. Nonenveloped RNA virus.\nCause of common cold; >100 serologic types.\nAcid labile—destroyed by stomach acid;\ntherefore, does not infect the GI tract (unlike\nthe other picornaviruses).\n\nRhino has a runny nose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rotavirus block (segmented dsRNA A; infantile gastroenteritis; winter day care; villous atrophy; Na+/K+; vaccine exclusions; the right-out-the-anus gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          187
+        ],
+        "bookPages": "165"
+      },
+      "quote": "Rotavirus\n\nSegmented dsRNA virus (a reovirus) A .\nMost important global cause of infantile\ngastroenteritis. Major cause of acute diarrhea\nin the United States during winter, especially\nin day care centers, kindergartens.\nVillous destruction with atrophy leads to\n↓ absorption of Na+ and loss of K+.\n\nRotavirus = right out the anus.\nCDC recommends routine vaccination of\nall infants except those with a history of\nintussusception (rare adverse effect of rotavirus\nvaccination) or SCID.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "166",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Influenza block (HA binds sialic acid; NA releases progeny; superinfection S aureus/S pneumoniae/H influenzae; oseltamivir/zanamivir)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Influenza viruses\n\nOrthomyxoviruses. Enveloped, ⊝ ssRNA\nviruses with segmented genome. Contain\nhemagglutinin (binds sialic acid and promotes\nviral entry) and neuraminidase (promotes\nprogeny virion release) antigens. Patients at risk\nfor fatal bacterial superinfection, most commonly\nS aureus, S pneumoniae, and H influenzae.\nTreatment: supportive +/– neuraminidase\ninhibitor (eg, oseltamivir, zanamivir).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antigenic shift definition (2 segmented viruses; reassortment; pandemics) — interleaved with the figure labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Genetic/antigenic\nshift\n\nInfection of 1 cell by 2 different segmented viruses (eg, swine influenza and human influenza viruses)\n→  RNA segment reassortment →  dramatically different virus (genetic shift) →  major global outbreaks\n(pandemics).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antigenic drift definition (random HA/NA mutation; seasonal epidemics)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Genetic/antigenic\ndrift\n\nRandom mutation in hemagglutinin (HA) or neuraminidase (NA) genes →  minor changes in HA\nor NA protein (drift) occur frequently →  local seasonal outbreaks (epidemics).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vaccine block (reformulated; killed; live attenuated temperature-sensitive intranasal) + FA's shift/drift glosses + the figure labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Virus B\n\nHost cell\n\nHemagglutinin: lets the virus in\nNeuraminidaways: sends the virus away\nReformulated vaccine (“the flu shot”) contains\nviral strains most likely to appear during the flu\nseason, due to the virus’ rapid genetic change.\nKilled viral vaccine is most frequently used.\nLive attenuated vaccine contains temperaturesensitive mutant that replicates in the nose but\nnot in the lung; administered intranasally.\nSudden shift is more deadly than gradual drift.\n\nAntigenic shift\nNew strain\nMutated\nHA or NA\n\nVirus A\nHost cell\n\nAntigenic drift\nVirus A\n\nVirus A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rubella virus block — emits after the Paramyxoviruses heading (matonavirus; German measles; postauricular nodes; centrifugal rash; TORCH triad; blueberry muffin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Rubella virus\nA\n\nParamyxoviruses\n\nFAS1_2026_03-Microbiology.indd 166\n\nA matonavirus. Causes rubella, formerly called German (3-day) measles. Fever, postauricular and\nother lymphadenopathy, arthralgias, and fine, maculopapular rash that starts on face and spreads\ncentrifugally to involve trunk and extremities A .\nCauses mild disease in children but serious congenital disease (a TORCH infection). Congenital\nrubella findings include classic triad of sensorineural deafness, cataracts, and patent ductus\narteriosus. “Blueberry muffin” appearance may be seen due to dermal extramedullary\nhematopoiesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Paramyxoviruses block (children's viruses; F fusion protein; multinucleated cells; palivizumab for preemies)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          188
+        ],
+        "bookPages": "166"
+      },
+      "quote": "Paramyxoviruses\n\nFAS1_2026_03-Microbiology.indd 166\n\nA matonavirus. Causes rubella, formerly called German (3-day) measles. Fever, postauricular and\nother lymphadenopathy, arthralgias, and fine, maculopapular rash that starts on face and spreads\ncentrifugally to involve trunk and extremities A .\nCauses mild disease in children but serious congenital disease (a TORCH infection). Congenital\nrubella findings include classic triad of sensorineural deafness, cataracts, and patent ductus\narteriosus. “Blueberry muffin” appearance may be seen due to dermal extramedullary\nhematopoiesis.\n\nParamyxoviruses cause disease in children. They include those that cause parainfluenza (croup),\nmumps, measles, RSV, and human metapneumovirus. All subtypes can cause respiratory tract\ninfection (bronchiolitis, pneumonia) in infants. All contain surface F (fusion) protein, which\ncauses respiratory epithelial cells to fuse and form multinucleated cells. Palivizumab (monoclonal\nantibody against F protein) prevents pneumonia caused by RSV infection in premature infants.\nPalivizumab for paramyxovirus (RSV) prophylaxis in preemies.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167"
+      },
+      "quote": "167",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Croup block — interleaved (parainfluenza; HN antigens; seal-like barking cough; inspiratory stridor; steeple sign A)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167"
+      },
+      "quote": "Also called croup. Caused by parainfluenza viruses. Virus membrane contains hemagglutinin\nAcute\nlaryngotracheobronchitis (binds sialic acid and promotes viral entry) and neuraminidase (promotes progeny virion release)\nantigens. Results in a “seal-like” barking cough and inspiratory stridor. Narrowing of upper trachea\nA\nand subglottis leads to characteristic steeple sign on x-ray A .\n\nT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Measles block (3 C's prodrome; Koplik spots A; descending rash; Warthin-Finkeldey; SSPE; encephalitis 1:1000; giant cell pneumonia; ADEM; vitamin A; pneumonia top cause of death; the 4 C's gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167"
+      },
+      "quote": "Measles (rubeola)\nvirus\nA\n\nMumps virus\nA\n\nFAS1_2026_03-Microbiology.indd 167\n\nUsual presentation involves prodromal fever\nwith cough, coryza, and conjunctivitis, then\neventually Koplik spots (bright red spots with\nblue-white center on buccal mucosa A ),\nfollowed 1-2 days later by a maculopapular\nrash that starts at the head/neck and spreads\ndownward.\nLymphadenitis with Warthin-Finkeldey giant\ncells (fused lymphocytes) in a background of\nparacortical hyperplasia. Possible sequelae:\n▘ Subacute sclerosing panencephalitis (SSPE):\npersonality changes, dementia, autonomic\ndysfunction, death (occurs years later)\n▘ Encephalitis (1:1000): symptoms appear\nwithin few days of rash\n▘ Giant cell pneumonia (rare except in\nimmunosuppressed)\n▘ Acute disseminated (postinfectious)\nencephalomyelitis\n\n4 C’s of measles:\nCough\nCoryza\nConjunctivitis\n“C”oplik spots\nVitamin A supplementation can reduce\nmorbidity and mortality from measles,\nparticularly in malnourished children.\nPneumonia is the most common cause of\nmeasles-associated death in children.\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mumps block (MMR effectiveness; parotitis A; orchitis; meningitis; pancreatitis; sterility; the POM-Poms gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          189
+        ],
+        "bookPages": "167"
+      },
+      "quote": "Mumps virus\nA\n\nFAS1_2026_03-Microbiology.indd 167\n\nUsual presentation involves prodromal fever\nwith cough, coryza, and conjunctivitis, then\neventually Koplik spots (bright red spots with\nblue-white center on buccal mucosa A ),\nfollowed 1-2 days later by a maculopapular\nrash that starts at the head/neck and spreads\ndownward.\nLymphadenitis with Warthin-Finkeldey giant\ncells (fused lymphocytes) in a background of\nparacortical hyperplasia. Possible sequelae:\n▘ Subacute sclerosing panencephalitis (SSPE):\npersonality changes, dementia, autonomic\ndysfunction, death (occurs years later)\n▘ Encephalitis (1:1000): symptoms appear\nwithin few days of rash\n▘ Giant cell pneumonia (rare except in\nimmunosuppressed)\n▘ Acute disseminated (postinfectious)\nencephalomyelitis\n\n4 C’s of measles:\nCough\nCoryza\nConjunctivitis\n“C”oplik spots\nVitamin A supplementation can reduce\nmorbidity and mortality from measles,\nparticularly in malnourished children.\nPneumonia is the most common cause of\nmeasles-associated death in children.\n\nUncommon due to effectiveness of MMR\nvaccine.\nSymptoms: Parotitis A , Orchitis (inflammation\nof testes), aseptic Meningitis, and Pancreatitis.\nCan cause sterility (especially after puberty).\n\nMumps makes your parotid glands and testes as\nbig as POM-Poms.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "rna-virus-family-map"
+  ],
+  "mechanismIds": [
+    "rna-sense-grid-logic",
+    "shift-drift-clinical-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and detail blocks; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "sense-grid-synthesis",
+      "summary": "The 17 families reorganized on the sense-envelope-segmentation axes with per-row sense coding; the cytoplasm-rule exception pair (retrovirus, influenza) framed as the RNA-side mirror of poxvirus; the shift-vs-drift map wired to M22's reassortment; the pediatric set as a sign-per-virus directory (steeple, Koplik, POM, blueberry muffin, palivizumab); and the GI trio's logic (one polypeptide, acid lability, villous atrophy) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table and blocks without the sense-coded synthesis or the sign directory; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p186 0 rasters (pure vector table); p187 1 (rotavirus EM A); p188 1 (blueberry-muffin rubella rash A); p189 3 (steeple x-ray A [gray, with T marking the trachea], Koplik spots A, mumps parotitis A). The banner typo MICROCIOLOGY prints on books 164-167. The arbovirus superscript prints as a trailing 'a' (Yellow fevera, Denguea); 'PERCH' emits standalone at line 42; the structure footnote at 184 precedes the indd footer at 186; p188's shift/drift definitions interleave with the figure labels (Virus B, Host cell, Antigenic shift, New strain, Mutated HA or NA, Virus A) and the HA/NA glosses (Hemagglutinin lets the virus in; Neuraminidaways); the rubella text emits at 67-73 AFTER the Paramyxoviruses heading at 63; p189's croup column split leaves 'Acute' mid-sentence at line 9; the ▘ bullets on the SSPE sequelae (36/39/41/43). FA's printed mnemonics (Retro flu is outta cyt; PERCH; Toga CREW; Rhino has a runny nose; Rotavirus = right out the anus; Sudden shift is more deadly; the 4 C's; POM-Poms; Palivizumab for preemies) are quoted in the table blocks for verification only.",
+  "updatedAt": "2026-10-21"
+}

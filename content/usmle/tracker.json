@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T02:27:32Z",
+  "generatedAt": "2026-10-21T02:38:05Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 110,
+    "topicsProduced": 111,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 55,
+      "pilot-complete": 56,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 23,
-      "topicsRemaining": 16,
+      "topicsProduced": 24,
+      "topicsRemaining": 15,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1703,6 +1703,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "rna-viruses",
+      "title": "RNA Viruses: Families & Disease Map",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Virology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 186, 187, 188, 189 (book 164–167)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
     },
     {
       "topicId": "sorbitol-pathway",
