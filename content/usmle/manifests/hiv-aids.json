@@ -1,0 +1,483 @@
+{
+  "topicId": "hiv-aids",
+  "title": "HIV & AIDS: Virology Through Opportunists",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      194,
+      195
+    ],
+    "bookPages": "172–173"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "172",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "HIV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The virion labels, interleaved (budding envelope; p17 matrix; gp120 docking; lipid envelope; gp41 transmembrane; p24 capsid; RT; diploid 2-RNA genome)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "Envelope proteins\nacquired through budding from\nhost cell plasma membrane\np17: Matrix protein\ngp120:\nDocking\nglycoprotein\n\nLipid envelope\n\ngp41:\nTransmembrane\nglycoprotein\n\np24:\nCapsid protein\nReverse\ntranscriptase\n\nRNA\n\nDiploid genome (2 molecules of RNA).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 3 structural genes (env gp160 cleavage; gp120 attachment; gp41 fusion; gag p24/p17; pol RT-IN-P with FA's RIP gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "The 3 structural genes (protein coded for):\n▘ Env (gp120 and gp41)—formed from cleavage\nof gp160 to form envelope glycoproteins.\n▘ gp120—attachment to host CD4+ T cell.\n▘ gp41 (forty-one)—fusion and entry.\n▘ gag (p24 and p17)—capsid and matrix\nproteins, respectively.\n▘ pol—Reverse transcriptase, Integrase,\nProtease; RIP “Pol” (Paul)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The RT-integration mechanism (dsDNA from genomic RNA; integration into the host genome)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "Reverse transcriptase synthesizes dsDNA from\ngenomic RNA; dsDNA integrates into host\ngenome.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The coreceptor logic (CD4 + CCR5 macrophages early / CXCR4 T cells late; homozygous CCR5 = immunity; heterozygous = slower)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "Virus binds CD4 as well as a coreceptor, either\nCCR5 on macrophages (early infection) or\nCXCR4 on T cells (late infection).\nHomozygous CCR5 mutation = immunity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HIV diagnosis heading + the algorithm's first box (the combination immunoassay)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "HIV diagnosis\nHIV-1/2 antibodies and p24 antigen combination immunoassay\n\nNegative for HIV-1 and HIV-2\nantibodies and p24 Ag\nHIV-1/HIV-2 antibody",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The algorithm's differentiation branches (HIV-1 / HIV-2 / both / NAT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "differentiation immunoassay\n\nHIV-1\nHIV-2\nHIV-1 infection\n\nHIV-1\nHIV-2\nHIV-2 infection\n\nHIV-1\nHIV-2\nHIV-1 and HIV-2\ninfection\n\nHIV-1\n\nor indeterminate\nHIV-2\n\nHIV-1 NAT\nIndicates reactive test results\nIndicates nonreactive test results\nNAT: nucleic acid test",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The algorithm's legend + the NAT repeat boxes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "Diagnostic tests\nTrue positive tests\nTrue negative tests\n\nFAS1_2026_03-Microbiology.indd 172\n\nHIV-1 NAT\nAcute HIV-1 infection\n\nHIV-1 NAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diagnostic tests block (4th-gen Ag/Ab; 2-week window; differentiation confirmatory; NAAT qualitative; viral load quantitative; Western blot retired)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "HIV-1/2 Ag/Ab immunoassays detect viral p24\nantigen capsid protein and IgG and/or IgM to\nHIV-1/2.\n▘ Use for diagnosis. Very high sensitivity/\nspecificity, but may miss early HIV disease if\ntested within first 2 weeks of infection.\n▘ A positive screening test is followed by\na confirmatory HIV-1/2 differentiation\nimmunoassay.\nHIV RNA tests detect elevated HIV RNA and\ncan be qualitative or quantitative.\n▘ NAAT is qualitative, and is a sensitive\nmethod to detect HIV viremia in antibodynegative patients.\n▘ Viral load tests (RT-PCR) are quantitative\nand determine amount of viral RNA in\nthe plasma. Use to monitor response to\ntreatment and transmissibility.\nWestern blot tests are no longer recommended\nby the CDC for confirmatory testing.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pediatric exception (no Ag/Ab in babies — maternal antibody; use viral load)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "HIV-1/2 Ag/Ab testing is not recommended in\nbabies with suspected HIV due to maternally\ntransferred antibody. Use HIV viral load instead.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AIDS diagnosis definition (≤200 CD4; normal 500-1500; AIDS-defining condition eg Pneumocystis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "AIDS diagnosis: ≤200 CD4+ cells/mm3\n(normal: 500-1500 cells/mm3) or HIV ⊕ with\nAIDS-defining condition (eg, Pneumocystis\npneumonia).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "173",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading (splits across lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "Common diseases of\nHIV-positive adults",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The reactivation-dissemination intro line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "↓ CD4+ cell count →  reactivation of past infections (eg, TB, HSV, shingles), dissemination of\nbacterial infections and fungal infections (eg, coccidioidomycosis), and non-Hodgkin lymphomas.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers + the <500 threshold marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "PATHOGEN\n\nPRESENTATION\n\nFINDINGS\n\n3\n\nCD4+ cell count <500/mm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <500 tier: Candida thrush + EBV hairy leukoplakia (scrapable vs unscrapable)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "Candida albicans\n\nOral thrush\n\nScrapable white plaque, pseudohyphae on\nmicroscopy\n\nEBV\n\nOral hairy leukoplakia\n\nUnscrapable white plaque on lateral tongue",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <500 tier: HHV-8 localized Kaposi + HPV SCC + TB reactivation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "\nHHV-8\n\nKaposi sarcoma, localized cutaneous disease\n\nPerivascular spindle cells invading and forming\nvascular tumors on histology\n\nHPV\n\nSquamous cell carcinoma at site(s) of sexual\ncontact (most commonly anus, cervix,\noropharynx)\n\nMycobacterium\ntuberculosis\n\nIncreased risk of reactivation of latent TB\ninfection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <200 threshold + Histoplasma row (oval yeast cells within macrophages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "CD4+ cell count <200/mm3\nHistoplasma\ncapsulatum\n\nFever, weight loss, fatigue, cough, dyspnea,\nnausea, vomiting, diarrhea\n\nOval yeast cells within macrophages",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <200 tier: HIV dementia/nephropathy + JC PML + HHV-8 disseminated + Pneumocystis (ground-glass)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "\nHIV\n\nDementia, HIV-associated nephropathy\n\nCerebral atrophy on neuroimaging\n\nJC virus (reactivation)\n\nProgressive multifocal leukoencephalopathy\n\nNonenhancing areas of demyelination on MRI\n\nHHV-8\n\nKaposi sarcoma, disseminated disease\n(pulmonary, GI, lymphatic)\n\nPneumocystis jirovecii\n\nPneumocystis pneumonia\n\n“Ground-glass” opacities on chest imaging",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <100 threshold + Bartonella angiomatosis + Candida esophagitis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "3\n\nCD4+ cell count <100/mm\nBartonella spp\n\nBacillary angiomatosis\n\nMultiple red to purple papules or nodules\nBiopsy with neutrophilic inflammation\n\nCandida albicans\n\nEsophagitis\n\nWhite plaques on endoscopy; yeast and\npseudohyphae on biopsy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <100 tier: CMV CREEP (linear ulcers, cotton-wool spots, owl-eye inclusions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "CMV\n\nColitis, Retinitis, Esophagitis, Encephalitis,\nPneumonitis (CREEP)\n\nLinear ulcers on endoscopy, cotton-wool spots\non fundoscopy\nBiopsy reveals cells with intranuclear (owl eye)\ninclusion bodies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <100 tier: Cryptococcus meningitis + Cryptosporidium (India ink; acid-fast oocysts)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "Cryptococcus\nneoformans\n\nMeningitis\n\nEncapsulated yeast on India ink stain or\ncapsular antigen ⊕\n\nCryptosporidium spp\n\nChronic, watery diarrhea\n\nAcid-fast oocysts in stool",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The <100 tier: EBV B-cell lymphoma (CNS ring-enhancing, solitary vs Toxoplasma) + MAC (<50) + Toxoplasma (multiple ring-enhancing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "EBV\n\nB-cell lymphoma (eg, non-Hodgkin lymphoma,\nCNS lymphoma)\n\nCNS lymphoma—ring enhancing, may be\nsolitary (vs Toxoplasma)\n\nNonspecific systemic symptoms (fever, night\nMycobacterium\navium–intracellulare, sweats, weight loss, diarrhea) or superficial\nlymphadenitis\nMycobacterium\navium complex\n\nMost common if CD4+ cell count <50/mm3\n\nToxoplasma gondii\n\nMultiple ring-enhancing lesions on MRI\n\nFAS1_2026_03-Microbiology.indd 173\n\nBrain abscesses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hiv-lifecycle-map"
+  ],
+  "mechanismIds": [
+    "hiv-entry-integration-logic",
+    "cd4-threshold-ladder"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the diagram, algorithm, and ladder; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "hiv-ladder-synthesis",
+      "summary": "The gene-part map (env knocks, gag holds, pol copies) wired to M38's drug-class preview; the coreceptor switch with the CCR5-mutation genetics; the diagnostic algorithm as a 2-week-window logic (screen → differentiate → NAT); the AIDS threshold; and the three-tier ladder reorganized with the within-tier discriminator pairs (scrapable/unscrapable, multiple/solitary ring-enhancing, ground-glass/nonenhancing) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the diagram, algorithm, and table without the discriminator-pair synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: BOTH pages PURE VECTOR (0 rasters on 194 and 195) — the labeled virion diagram and the diagnosis-algorithm flowchart are vector originals in the source, redrawn originally in the visual. The banner typo MICROCIOLOGY prints on books 172-173. p194's virion labels emit in two interleaved column blocks before the genes text; the algorithm's boxes emit interleaved with the NAT branches repeating; the 'antibodynegative' hyphen-drop at line 103; p195's ladder emits tier-by-tier with the CD4 thresholds interleaved INSIDE the rows (<500 at 22, <200 at 55, <100 at 89); the MAI/MAC presentation text merges across lines 136-139; the detached superscript-3 markers at lines 20/88. FA's RIP Pol gloss is quoted in the gene strip for verification only.",
+  "updatedAt": "2026-10-21"
+}

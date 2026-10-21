@@ -3606,3 +3606,221 @@ export function HepatitisSerologyMap() {
     </svg>
   );
 }
+
+export function HivLifecycleMap() {
+  const w = 980;
+  const h = 1467.8000000000002;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="HIV and AIDS, an original KYP map. THE VIRION: envelope proteins acquired through budding from the host cell plasma membrane — gp120 the docking glycoprotein for attachment to CD4, gp41 the transmembrane glycoprotein for fusion and entry, the lipid envelope, p17 the matrix protein, p24 the capsid protein, reverse transcriptase, integrase, and protease around the diploid genome of 2 RNA molecules. THE GENES: env (gp120 and gp41 from gp160 cleavage), gag (p24 capsid and p17 matrix), pol (reverse transcriptase, integrase, protease). ENTRY: binds CD4 plus CCR5 on macrophages in early infection or CXCR4 on T cells in late infection; homozygous CCR5 mutation confers immunity and heterozygous a slower course; reverse transcriptase makes dsDNA from genomic RNA and integrase inserts it into the host genome. DIAGNOSIS: the antibody-p24 combination immunoassay (may miss the first 2 weeks), the confirmatory HIV-1/HIV-2 differentiation immunoassay, qualitative NAAT for antibody-negative viremia, quantitative viral load RT-PCR to monitor treatment, Western blot no longer recommended, and viral load instead of serology in babies; AIDS is defined as CD4 below 200 or an AIDS-defining condition like Pneumocystis pneumonia. THE CD4 LADDER: below 500 — oral thrush, oral hairy leukoplakia, localized Kaposi, HPV-associated squamous carcinomas, TB reactivation; below 200 — disseminated histoplasmosis with oval yeasts in macrophages, HIV dementia and nephropathy, JC virus PML, disseminated Kaposi, Pneumocystis pneumonia with ground-glass opacities; below 100 — Bartonella bacillary angiomatosis, Candida esophagitis, CMV CREEP with owl-eye inclusions and cotton-wool spots, Cryptococcus meningitis on India ink, Cryptosporidium acid-fast oocysts, EBV CNS lymphoma (solitary ring-enhancing), MAC below 50, and Toxoplasma multiple ring-enhancing abscesses" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">HIV — the virion, the diagnosis ladder, and the CD4 map (original KYP redraw)</text>
+        <rect x="722" y="24" width="234" height="18" rx="9" className="fill-brand-soft" />
+<text x="839" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">gp120 · ≤200 · the ladder</text>
+      </g>
+      {/* ===== THE VIRION (original redraw) ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="210" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="96" fontSize="9" fontWeight="800" className="fill-foreground">The virion — an original redraw of the labeled diagram (book 172)</text>
+        <line x1="260.4" y1="197.8" x2="270.2" y2="200.0" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="270.2" cy="200.0" r="4.2" className="fill-card stroke-brand" />
+        <line x1="248.5" y1="222.6" x2="256.3" y2="228.9" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="256.3" cy="228.9" r="4.2" className="fill-card stroke-brand" />
+        <line x1="226.9" y1="239.9" x2="231.3" y2="248.9" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="231.3" cy="248.9" r="4.2" className="fill-card stroke-brand" />
+        <line x1="200.0" y1="246.0" x2="200.0" y2="256.0" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="200.0" cy="256.0" r="4.2" className="fill-card stroke-brand" />
+        <line x1="173.1" y1="239.9" x2="168.8" y2="248.9" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="168.8" cy="248.9" r="4.2" className="fill-card stroke-brand" />
+        <line x1="151.5" y1="222.7" x2="143.7" y2="228.9" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="143.7" cy="228.9" r="4.2" className="fill-card stroke-brand" />
+        <line x1="139.6" y1="197.8" x2="129.8" y2="200.1" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="129.8" cy="200.1" r="4.2" className="fill-card stroke-brand" />
+        <line x1="139.5" y1="170.2" x2="129.8" y2="168.0" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="129.8" cy="168.0" r="4.2" className="fill-card stroke-brand" />
+        <line x1="151.5" y1="145.4" x2="143.7" y2="139.1" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="143.7" cy="139.1" r="4.2" className="fill-card stroke-brand" />
+        <line x1="173.1" y1="128.2" x2="168.7" y2="119.2" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="168.7" cy="119.2" r="4.2" className="fill-card stroke-brand" />
+        <line x1="199.9" y1="122.0" x2="199.9" y2="112.0" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="199.9" cy="112.0" r="4.2" className="fill-card stroke-brand" />
+        <line x1="226.8" y1="128.1" x2="231.2" y2="119.1" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="231.2" cy="119.1" r="4.2" className="fill-card stroke-brand" />
+        <line x1="248.4" y1="145.3" x2="256.2" y2="139.1" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="256.2" cy="139.1" r="4.2" className="fill-card stroke-brand" />
+        <line x1="260.4" y1="170.1" x2="270.2" y2="167.9" className="stroke-brand" strokeWidth="1.4" />
+        <circle cx="270.2" cy="167.9" r="4.2" className="fill-card stroke-brand" />
+        <circle cx="200" cy="184" r="62" className="fill-none stroke-brand" />
+        <circle cx="200" cy="184" r="52" className="fill-none stroke-brand" />
+        <circle cx="200" cy="184" r="34" className="fill-card stroke-emergency" />
+        <path d="M 180.0 174.0 q 5 -6 10 0 q 5 6 10 0" className="stroke-emergency" strokeWidth="1.1" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 180.0 188.0 q 5 -6 10 0 q 5 6 10 0" className="stroke-emergency" strokeWidth="1.1" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <circle cx="176" cy="166" r="3.4" className="fill-brand" />
+        <circle cx="224" cy="166" r="3.4" className="fill-brand" />
+        <circle cx="224" cy="202" r="3.4" className="fill-brand" />
+<text x="300" y="124" fontSize="5.2" fontWeight="700" className="fill-foreground">gp120 — DOCKING glycoprotein: attachment to the host CD4+ T cell</text>
+        <line x1="297" y1="122" x2="262" y2="144" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="300" y="144" fontSize="5.2" fontWeight="700" className="fill-foreground">gp41 (forty-one) — TRANSMEMBRANE glycoprotein: fusion and entry</text>
+        <line x1="297" y1="142" x2="258" y2="170" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="300" y="164" fontSize="5.2" fontWeight="700" className="fill-foreground">Lipid envelope — proteins acquired by budding from the host plasma membrane</text>
+        <line x1="297" y1="162" x2="252" y2="204" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="300" y="184" fontSize="5.2" fontWeight="700" className="fill-foreground">p17 — MATRIX protein · p24 — CAPSID protein (the gag pair)</text>
+        <line x1="297" y1="182" x2="234" y2="230" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="300" y="204" fontSize="5.2" fontWeight="700" className="fill-foreground">Reverse transcriptase (+ integrase, protease) — the pol enzyme set</text>
+        <line x1="297" y1="202" x2="222" y2="162" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="300" y="224" fontSize="5.2" fontWeight="700" className="fill-foreground">DIPLOID genome — 2 molecules of RNA</text>
+        <line x1="297" y1="222" x2="218" y2="186" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="770" y="176" fontSize="5.0" className="fill-muted-foreground">RT synthesizes dsDNA from</text>
+<text x="770" y="186" fontSize="5.0" className="fill-muted-foreground">genomic RNA; the dsDNA</text>
+<text x="770" y="196" fontSize="5.0" className="fill-muted-foreground">INTEGRATES into the host</text>
+<text x="770" y="206" fontSize="5.0" className="fill-muted-foreground">genome (integrase).</text>
+<text x="770" y="228" fontSize="5.0" fontWeight="800" className="fill-emergency">gag = p24 + p17</text>
+<text x="770" y="238" fontSize="5.0" fontWeight="800" className="fill-emergency">env = gp120 + gp41</text>
+<text x="770" y="248" fontSize="5.0" fontWeight="800" className="fill-emergency">pol = RT + IN + PR</text>
+      </g>
+      {/* ===== THE 3 STRUCTURAL GENES ===== */}
+      <g>
+        <rect x="36" y="302" width="908" height="137" rx="14" className="fill-card stroke-border" />
+<text x="52" y="322" fontSize="9" fontWeight="800" className="fill-foreground">The 3 structural genes (the proteins they code)</text>
+        <rect x="52" y="336" width="876" height="29" rx="4" className="fill-secondary" />
+<text x="60" y="348" fontSize="6.4" fontWeight="800" className="fill-brand">ENV</text>
+<text x="132" y="348" fontSize="4.6" className="fill-muted-foreground">gp120 and gp41 — formed from cleavage of gp160. gp120: attachment to host CD4+ T cell. gp41 (forty-one): fusion and entry.</text>
+        <rect x="52" y="371" width="876" height="29" rx="4" className="fill-secondary/60" />
+<text x="60" y="383" fontSize="6.4" fontWeight="800" className="fill-brand">GAG</text>
+<text x="132" y="383" fontSize="4.6" className="fill-muted-foreground">p24 (capsid protein) and p17 (matrix protein) — the structural shell.</text>
+        <rect x="52" y="406" width="876" height="29" rx="4" className="fill-secondary" />
+<text x="60" y="418" fontSize="6.4" fontWeight="800" className="fill-brand">POL</text>
+<text x="132" y="418" fontSize="4.6" className="fill-muted-foreground">Reverse transcriptase, Integrase, Protease — the enzyme set. [FA gloss, printed: RIP “Pol” — verification-only.]</text>
+      </g>
+      {/* ===== ENTRY LOGIC ===== */}
+      <g>
+        <rect x="36" y="455" width="908" height="46" rx="10" className="fill-secondary" />
+<text x="490" y="471" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">BINDS CD4 plus a CORECEPTOR: CCR5 on macrophages (EARLY infection) or CXCR4 on T cells (LATE infection).</text>
+<text x="490" y="481" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">Homozygous CCR5 mutation = IMMUNITY. Heterozygous CCR5 mutation = slower course. RT synthesizes dsDNA from genomic RNA; the dsDNA INTEGRATES into the host genome (integrase).</text>
+      </g>
+      {/* ===== DIAGNOSIS ===== */}
+      <g>
+        <rect x="36" y="517" width="908" height="207" rx="14" className="fill-card stroke-border" />
+<text x="52" y="537" fontSize="9" fontWeight="800" className="fill-foreground">The diagnosis algorithm + the AIDS definition (book 172)</text>
+        <rect x="52" y="551" width="876" height="29" rx="4" className="fill-secondary" />
+<text x="60" y="563" fontSize="4.6" className="fill-muted-foreground">STEP 1 — the HIV-1/2 ANTIBODIES + p24 ANTIGEN combination immunoassay (4th-gen screen): detects p24 capsid antigen + IgG/IgM to HIV-1/2. Use for diagnosis; very high sensitivity/specificity — but may miss disease tested within the FIRST 2 WEEKS of infection.</text>
+        <rect x="52" y="586" width="876" height="29" rx="4" className="fill-secondary/60" />
+<text x="60" y="598" fontSize="4.6" className="fill-muted-foreground">STEP 2 — a POSITIVE screen is followed by the confirmatory HIV-1/HIV-2 ANTIBODY DIFFERENTIATION immunoassay (which virus: HIV-1, HIV-2, or both). Indeterminate results → HIV-1 NAT.</text>
+        <rect x="52" y="621" width="876" height="29" rx="4" className="fill-secondary" />
+<text x="60" y="633" fontSize="4.6" className="fill-muted-foreground">THE RNA TESTS: NAAT is QUALITATIVE — a sensitive method to detect HIV viremia in antibody-negative patients. VIRAL LOAD (RT-PCR) is QUANTITATIVE — plasma HIV RNA amount; use to MONITOR treatment response and transmissibility. Western blot is NO LONGER recommended by the CDC.</text>
+        <rect x="52" y="656" width="876" height="29" rx="4" className="fill-secondary/60" />
+<text x="60" y="668" fontSize="4.6" className="fill-muted-foreground">PEDIATRICS: HIV-1/2 Ag/Ab testing is NOT recommended in babies with suspected HIV (maternally transferred antibody) — use the HIV VIRAL LOAD instead.</text>
+        <rect x="52" y="691" width="876" height="29" rx="4" className="fill-secondary" />
+<text x="60" y="703" fontSize="4.6" className="fill-muted-foreground">AIDS DIAGNOSIS: ≤200 CD4+ cells/mm³ (normal 500–1500) or HIV ⊕ with an AIDS-defining condition (eg, Pneumocystis pneumonia).</text>
+      </g>
+      {/* ===== THE CD4 LADDER ===== */}
+      <g>
+        <rect x="36" y="740" width="908" height="669.8000000000001" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="760" fontSize="9" fontWeight="800" className="fill-foreground">Common diseases of HIV-positive adults — the CD4 ladder (book 173)</text>
+<text x="52" y="772" fontSize="4.8" className="fill-muted-foreground">↓ CD4+ → reactivation of past infections (TB, HSV, shingles), dissemination of bacterial and fungal infections (eg, coccidioidomycosis), and non-Hodgkin lymphomas.</text>
+        <rect x="52" y="782" width="60" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="796" fontSize="5.4" fontWeight="800" className="fill-foreground">CD4</text>
+        <rect x="118" y="782" width="190" height="20" rx="4" className="fill-secondary" />
+<text x="124" y="796" fontSize="5.4" fontWeight="800" className="fill-foreground">PATHOGEN</text>
+        <rect x="314" y="782" width="260" height="20" rx="4" className="fill-secondary" />
+<text x="320" y="796" fontSize="5.4" fontWeight="800" className="fill-foreground">PRESENTATION</text>
+        <rect x="580" y="782" width="348" height="20" rx="4" className="fill-secondary" />
+<text x="586" y="796" fontSize="5.4" fontWeight="800" className="fill-foreground">FINDINGS</text>
+        <rect x="52" y="810" width="876" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="822" fontSize="6.6" fontWeight="800" className="fill-foreground">&lt;500</text>
+<text x="120" y="822.0" fontSize="4.5" className="fill-muted-foreground">Candida albicans</text>
+<text x="316" y="822.0" fontSize="4.5" className="fill-muted-foreground">Oral thrush</text>
+<text x="582" y="822.0" fontSize="4.5" className="fill-muted-foreground">Scrapable white plaque, pseudohyphae on microscopy</text>
+        <rect x="52" y="843.6" width="876" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="855.6" fontSize="6.6" fontWeight="800" className="fill-foreground">&lt;500</text>
+<text x="120" y="855.6" fontSize="4.5" className="fill-muted-foreground">EBV</text>
+<text x="316" y="855.6" fontSize="4.5" className="fill-muted-foreground">Oral hairy leukoplakia</text>
+<text x="582" y="855.6" fontSize="4.5" className="fill-muted-foreground">Unscrapable white plaque on lateral tongue</text>
+        <rect x="52" y="877.2" width="876" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="889.2" fontSize="6.6" fontWeight="800" className="fill-foreground">&lt;500</text>
+<text x="120" y="889.2" fontSize="4.5" className="fill-muted-foreground">HHV-8</text>
+<text x="316" y="889.2" fontSize="4.5" className="fill-muted-foreground">Kaposi sarcoma, localized cutaneous disease</text>
+<text x="582" y="889.2" fontSize="4.5" className="fill-muted-foreground">Perivascular spindle cells invading and forming vascular tumors on histology</text>
+        <rect x="52" y="910.8000000000001" width="876" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="922.8000000000001" fontSize="6.6" fontWeight="800" className="fill-foreground">&lt;500</text>
+<text x="120" y="922.8000000000001" fontSize="4.5" className="fill-muted-foreground">HPV</text>
+<text x="316" y="922.8000000000001" fontSize="4.5" className="fill-muted-foreground">Squamous cell carcinoma at sites of sexual contact (anus, cervix, oropharynx)</text>
+<text x="582" y="922.8000000000001" fontSize="4.5" className="fill-muted-foreground">—</text>
+        <rect x="52" y="944.4000000000001" width="876" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="956.4000000000001" fontSize="6.6" fontWeight="800" className="fill-foreground">&lt;500</text>
+<text x="120" y="956.4000000000001" fontSize="4.5" className="fill-muted-foreground">Mycobacterium tuberculosis</text>
+<text x="316" y="956.4000000000001" fontSize="4.5" className="fill-muted-foreground">Increased risk of reactivation of latent TB infection</text>
+<text x="582" y="956.4000000000001" fontSize="4.5" className="fill-muted-foreground">—</text>
+        <rect x="52" y="978.0000000000001" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="990.0000000000001" fontSize="6.6" fontWeight="800" className="fill-brand">&lt;200</text>
+<text x="120" y="990.0000000000001" fontSize="4.5" className="fill-muted-foreground">Histoplasma capsulatum</text>
+<text x="316" y="990.0000000000001" fontSize="4.5" className="fill-muted-foreground">Fever, weight loss, fatigue, cough, dyspnea, nausea, vomiting, diarrhea</text>
+<text x="582" y="990.0000000000001" fontSize="4.5" className="fill-muted-foreground">Oval yeast cells within macrophages</text>
+        <rect x="52" y="1011.6000000000001" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1023.6000000000001" fontSize="6.6" fontWeight="800" className="fill-brand">&lt;200</text>
+<text x="120" y="1023.6000000000001" fontSize="4.5" className="fill-muted-foreground">HIV itself</text>
+<text x="316" y="1023.6000000000001" fontSize="4.5" className="fill-muted-foreground">Dementia, HIV-associated nephropathy</text>
+<text x="582" y="1023.6000000000001" fontSize="4.5" className="fill-muted-foreground">Cerebral atrophy on neuroimaging</text>
+        <rect x="52" y="1045.2" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1057.2" fontSize="6.6" fontWeight="800" className="fill-brand">&lt;200</text>
+<text x="120" y="1057.2" fontSize="4.5" className="fill-muted-foreground">JC virus (reactivation)</text>
+<text x="316" y="1057.2" fontSize="4.5" className="fill-muted-foreground">Progressive multifocal leukoencephalopathy (PML)</text>
+<text x="582" y="1057.2" fontSize="4.5" className="fill-muted-foreground">Nonenhancing areas of demyelination on MRI</text>
+        <rect x="52" y="1078.8" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1090.8" fontSize="6.6" fontWeight="800" className="fill-brand">&lt;200</text>
+<text x="120" y="1090.8" fontSize="4.5" className="fill-muted-foreground">HHV-8</text>
+<text x="316" y="1090.8" fontSize="4.5" className="fill-muted-foreground">Kaposi sarcoma, disseminated (pulmonary, GI, lymphatic)</text>
+<text x="582" y="1090.8" fontSize="4.5" className="fill-muted-foreground">—</text>
+        <rect x="52" y="1112.3999999999999" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1124.3999999999999" fontSize="6.6" fontWeight="800" className="fill-brand">&lt;200</text>
+<text x="120" y="1124.3999999999999" fontSize="4.5" className="fill-muted-foreground">Pneumocystis jirovecii</text>
+<text x="316" y="1124.3999999999999" fontSize="4.5" className="fill-muted-foreground">Pneumocystis pneumonia</text>
+<text x="582" y="1124.3999999999999" fontSize="4.5" className="fill-muted-foreground">“Ground-glass” opacities on chest imaging</text>
+        <rect x="52" y="1145.9999999999998" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1157.9999999999998" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1157.9999999999998" fontSize="4.5" className="fill-muted-foreground">Bartonella spp</text>
+<text x="316" y="1157.9999999999998" fontSize="4.5" className="fill-muted-foreground">Bacillary angiomatosis</text>
+<text x="582" y="1157.9999999999998" fontSize="4.5" className="fill-muted-foreground">Multiple red to purple papules or nodules; biopsy with neutrophilic inflammation</text>
+        <rect x="52" y="1179.5999999999997" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1191.5999999999997" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1191.5999999999997" fontSize="4.5" className="fill-muted-foreground">Candida albicans</text>
+<text x="316" y="1191.5999999999997" fontSize="4.5" className="fill-muted-foreground">Esophagitis</text>
+<text x="582" y="1191.5999999999997" fontSize="4.5" className="fill-muted-foreground">White plaques on endoscopy; yeast and pseudohyphae on biopsy</text>
+        <rect x="52" y="1213.1999999999996" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1225.1999999999996" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1225.1999999999996" fontSize="4.5" className="fill-muted-foreground">CMV</text>
+<text x="316" y="1225.1999999999996" fontSize="4.5" className="fill-muted-foreground">Colitis, Retinitis, Esophagitis, Encephalitis, Pneumonitis (CREEP)</text>
+<text x="582" y="1225.1999999999996" fontSize="4.5" className="fill-muted-foreground">Linear ulcers on endoscopy, cotton-wool spots on fundoscopy; owl-eye intranuclear inclusions on biopsy</text>
+        <rect x="52" y="1246.7999999999995" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1258.7999999999995" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1258.7999999999995" fontSize="4.5" className="fill-muted-foreground">Cryptococcus neoformans</text>
+<text x="316" y="1258.7999999999995" fontSize="4.5" className="fill-muted-foreground">Meningitis</text>
+<text x="582" y="1258.7999999999995" fontSize="4.5" className="fill-muted-foreground">Encapsulated yeast on India ink stain or capsular antigen ⊕</text>
+        <rect x="52" y="1280.3999999999994" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1292.3999999999994" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1292.3999999999994" fontSize="4.5" className="fill-muted-foreground">Cryptosporidium spp</text>
+<text x="316" y="1292.3999999999994" fontSize="4.5" className="fill-muted-foreground">Chronic, watery diarrhea</text>
+<text x="582" y="1292.3999999999994" fontSize="4.5" className="fill-muted-foreground">Acid-fast oocysts in stool</text>
+        <rect x="52" y="1313.9999999999993" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1325.9999999999993" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1325.9999999999993" fontSize="4.5" className="fill-muted-foreground">EBV</text>
+<text x="316" y="1325.9999999999993" fontSize="4.5" className="fill-muted-foreground">B-cell lymphoma (non-Hodgkin, CNS lymphoma)</text>
+<text x="582" y="1325.9999999999993" fontSize="4.5" className="fill-muted-foreground">CNS lymphoma — ring enhancing, may be SOLITARY (vs Toxoplasma)</text>
+        <rect x="52" y="1347.5999999999992" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1359.5999999999992" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1359.5999999999992" fontSize="4.5" className="fill-muted-foreground">Mycobacterium avium–intracellulare (MAC)</text>
+<text x="316" y="1359.5999999999992" fontSize="4.5" className="fill-muted-foreground">Nonspecific systemic symptoms or superficial lymphadenitis</text>
+<text x="582" y="1359.5999999999992" fontSize="4.5" className="fill-muted-foreground">Most common if CD4+ &lt;50/mm³</text>
+        <rect x="52" y="1381.1999999999991" width="876" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1393.1999999999991" fontSize="6.6" fontWeight="800" className="fill-emergency">&lt;100</text>
+<text x="120" y="1393.1999999999991" fontSize="4.5" className="fill-muted-foreground">Toxoplasma gondii</text>
+<text x="316" y="1393.1999999999991" fontSize="4.5" className="fill-muted-foreground">Brain abscesses</text>
+<text x="582" y="1393.1999999999991" fontSize="4.5" className="fill-muted-foreground">MULTIPLE ring-enhancing lesions on MRI</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1427.8000000000002" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's HIV structure diagram + structural genes + coreceptor logic + diagnosis algorithm (pdf 194 / book 172) and the Common diseases of HIV-positive adults CD4 ladder (pdf 195 / book 173). Both pages are PURE VECTOR — no rasters.</text>
+<text x="24" y="1439.8000000000002" fontSize="7.2" className="fill-muted-foreground">FA's printed gloss (RIP “Pol” for the pol gene's RT-Integrase-Protease) is quoted in the gene strip for verification only — KYP's own key is in the note's mnemonics block. The source's banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 172-173.</text>
+    </svg>
+  );
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T02:56:59Z",
+  "generatedAt": "2026-10-21T03:03:17Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 113,
+    "topicsProduced": 114,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 58,
+      "pilot-complete": 59,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 26,
-      "topicsRemaining": 13,
+      "topicsProduced": 27,
+      "topicsRemaining": 12,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1173,6 +1173,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 192, 193 (book 170–171)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
+    },
+    {
+      "topicId": "hiv-aids",
+      "title": "HIV & AIDS: Virology Through Opportunists",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Virology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 194, 195 (book 172–173)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 2,

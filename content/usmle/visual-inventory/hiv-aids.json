@@ -1,0 +1,91 @@
+{
+  "topicId": "hiv-aids",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "hiv-aids-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172–172"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MOLECULAR_STRUCTURE",
+      "visualPurpose": "The labeled HIV virion diagram (book 172)",
+      "sourceFigureDescription": "The printed cross-section: envelope proteins from budding, p17, gp120, lipid envelope, gp41, p24, reverse transcriptase, diploid RNA genome.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hiv-aids",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hiv-lifecycle-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the virion panel (an original redraw of the labeled diagram) + the 3-gene strip + the entry strip"
+    },
+    {
+      "visualId": "hiv-aids-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          194
+        ],
+        "bookPages": "172–172"
+      },
+      "chapterId": "microbiology",
+      "visualType": "DIAGNOSTIC_ALGORITHM",
+      "visualPurpose": "The HIV diagnosis algorithm (book 172)",
+      "sourceFigureDescription": "The printed flowchart: combination immunoassay → differentiation immunoassay → HIV-1 NAT, with reactive/nonreactive branches.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hiv-aids",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hiv-lifecycle-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the diagnosis panel (the algorithm as row blocks + the AIDS definition)"
+    },
+    {
+      "visualId": "hiv-aids-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          195
+        ],
+        "bookPages": "173–173"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Common diseases of HIV-positive adults table (book 173)",
+      "sourceFigureDescription": "The printed CD4 ladder: PATHOGEN | PRESENTATION | FINDINGS across three CD4 tiers.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "hiv-aids",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hiv-lifecycle-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the CD4 ladder panel (18 pathogen rows, tier-colored)"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "hiv-aids",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "All 3 source structures (the virion diagram, the diagnosis algorithm, the CD4 ladder table) are vector in the source and redrawn originally in the registry visual; both pages are raster-free."
+}

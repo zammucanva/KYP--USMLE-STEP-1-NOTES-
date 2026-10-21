@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 13,
+  "pendingTopicCount": 12,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5300,8 +5300,91 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Virology",
-      "status": "pending",
-      "productionRationale": "HIV's structure, lifecycle (E40's drug targets), diagnosis (NAT/4th-gen), the CD4-staged opportunist map (Pneumocystis, CMV CREEP, MAC, cryptococcosis, Kaposi) — virology's clinical capstone."
+      "status": "complete",
+      "productionRationale": "HIV's structure, lifecycle (E40's drug targets), diagnosis (NAT/4th-gen), the CD4-staged opportunist map (Pneumocystis, CMV CREEP, MAC, cryptococcosis, Kaposi) — virology's clinical capstone.",
+      "textbookVisuals": [
+        {
+          "visualId": "hiv-aids-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              194
+            ],
+            "bookPages": "172–172"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MOLECULAR_STRUCTURE",
+          "visualPurpose": "The labeled HIV virion diagram (book 172)",
+          "sourceFigureDescription": "The printed cross-section: envelope proteins from budding, p17, gp120, lipid envelope, gp41, p24, reverse transcriptase, diploid RNA genome.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Virology",
+          "topicId": "hiv-aids",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "hiv-lifecycle-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the virion panel (an original redraw of the labeled diagram) + the 3-gene strip + the entry strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "hiv-lifecycle-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "hiv-aids-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              194
+            ],
+            "bookPages": "172–172"
+          },
+          "chapterId": "microbiology",
+          "visualType": "DIAGNOSTIC_ALGORITHM",
+          "visualPurpose": "The HIV diagnosis algorithm (book 172)",
+          "sourceFigureDescription": "The printed flowchart: combination immunoassay → differentiation immunoassay → HIV-1 NAT, with reactive/nonreactive branches.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Virology",
+          "topicId": "hiv-aids",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "hiv-lifecycle-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the diagnosis panel (the algorithm as row blocks + the AIDS definition)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "hiv-lifecycle-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "hiv-aids-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              195
+            ],
+            "bookPages": "173–173"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Common diseases of HIV-positive adults table (book 173)",
+          "sourceFigureDescription": "The printed CD4 ladder: PATHOGEN | PRESENTATION | FINDINGS across three CD4 tiers.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Virology",
+          "topicId": "hiv-aids",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "hiv-lifecycle-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the CD4 ladder panel (18 pathogen rows, tier-colored)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "hiv-lifecycle-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "normal-flora",
