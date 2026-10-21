@@ -1,0 +1,323 @@
+{
+  "topicId": "normal-flora",
+  "title": "Normal Flora & Colonization",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Systems Microbiology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      196
+    ],
+    "bookPages": "174–174"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "174",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own SYSTEMS typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Normal microbiota heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS\nNormal microbiota:\ndominant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The foodborne heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Bugs causing foodborne illness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The C-section neonate note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Neonates delivered by C-section have microbiota enriched in skin commensals.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Microbiota table headers (interleaved)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "\nMICROORGANISM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Skin + Nose rows (S epidermidis x2; S aureus colonization)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Skin\n\nS epidermidis\n\nNose\n\nS epidermidis; colonized by S aureus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Oropharynx + Dental plaque rows (viridans; S mutans)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Oropharynx\n\nViridans group streptococci\n\nDental plaque\n\nS mutans",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Colon + Vagina rows (B fragilis > E coli; Lactobacillus + E coli/group B strep colonization — the split line 53-54)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Colon\n\nB fragilis > E coli\n\nVagina\n\nLactobacillus; colonized by E coli and group B\nstrep",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The quick-quick rule (S aureus and B cereus — starts quickly and ends quickly, exotoxin-mediated)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "S aureus and B cereus food poisoning starts quickly and ends quickly (exotoxin-mediated).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Foodborne table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "\nSOURCE OF INFECTION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "B cereus row (reheated rice + FA's printed gloss — verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "B cereus\n\nReheated rice. “Food poisoning from reheated",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "C botulinum + C perfringens rows (improperly canned foods, raw honey; reheated meat)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "C botulinum\n\nImproperly canned foods (toxins), raw honey\n(spores)\n\nC perfringens\n\nReheated meat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "E coli O157:H7 + L monocytogenes + Salmonella rows (undercooked meat; deli meats, soft cheeses; poultry, meat, eggs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "E coli O157:H7\n\nUndercooked meat\n\nL monocytogenes\n\nDeli meats, soft cheeses\n\nSalmonella\n\nPoultry, meat, and eggs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "S aureus row, interleaved (the source text at 86 emits BEFORE the label at 88: meats, mayonnaise, custard; preformed toxin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "Meats, mayonnaise, custard; preformed toxin\n\nS aureus\nV parahaemolyticus and V vulnificus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vibrio row + the detached superscript + the source text + the V vulnificus wound footnote (raw/undercooked seafood; predominantly wound infections from contaminated water or shellfish)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "a\n\nFAS1_2026_03-Microbiology.indd 174\n\na\n\nRaw/undercooked seafood\n\nV vulnificus predominantly causes wound infections from contact with contaminated water or",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [],
+  "mechanismIds": [
+    "site-colonization-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "site-source-synthesis",
+      "summary": "The site-ownership reading of the flora directory (one commensal per surface with the colonizer annotations made clinical: device S epidermidis, peripartum GBS, dental-work viridans) and the foodborne timing axis (the quick-quick preformed-toxin pair against the incubated growers) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tables without the ownership or timing synthesis; these are KYP's design.",
+      "location": "core.keyIdea + mechanism caption + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "TABLE NOTE (requiresVisual false — the E22/E35 pattern): both source tables carried verbatim in the note's table blocks; no registry visual per the approved inventory. Census: the page is pure text (0 rasters). Page ownership: book 174's Prions block belongs to M25 (cross-documented); the microbiota and foodborne blocks belong here. The SYSTEMS banner typo 'MICROCIOLOGY—SYSTEMS' prints on book 174. The microbiota headers interleave (28-29); the vagina row's 'group B'/'strep' splits across 53-54; the S aureus source text emits BEFORE its label (86 before 88); the seafood superscript prints detached (90/94) with the source text at 96 and the V vulnificus footnote at 98. FA's printed B cereus gloss is quoted in the table block for verification only.",
+  "updatedAt": "2026-10-21"
+}

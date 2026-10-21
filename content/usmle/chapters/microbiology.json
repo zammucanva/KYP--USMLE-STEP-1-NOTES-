@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 12,
+  "pendingTopicCount": 11,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5404,8 +5404,64 @@
       "visualHints": [],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Systems",
-      "status": "pending",
-      "productionRationale": "The body-site flora directory (skin Staph epidermidis, nose Staph aureus, colon anaerobes/E coli, vagina Lactobacillus) with the sterile-site list."
+      "status": "complete",
+      "productionRationale": "The body-site flora directory (skin Staph epidermidis, nose Staph aureus, colon anaerobes/E coli, vagina Lactobacillus) with the sterile-site list.",
+      "textbookVisuals": [
+        {
+          "visualId": "normal-flora-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              196
+            ],
+            "bookPages": "174–174"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Normal microbiota table (book 174)",
+          "sourceFigureDescription": "The printed 2-column flora directory with the C-section note.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "normal-flora",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[0] table block — verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "normal-flora-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              196
+            ],
+            "bookPages": "174–174"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Bugs causing foodborne illness table (book 174)",
+          "sourceFigureDescription": "The printed 2-column source map with the quick-quick rule.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "normal-flora",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "bugs-by-system-gi-meningitis",

@@ -1,0 +1,73 @@
+{
+  "topicId": "normal-flora",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "normal-flora-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174–174"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Normal microbiota table (book 174)",
+      "sourceFigureDescription": "The printed 2-column flora directory with the C-section note.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Systems Microbiology",
+      "topicId": "normal-flora",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[0] table block — verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "note-block",
+      "plannedImplementation": "note-block"
+    },
+    {
+      "visualId": "normal-flora-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          196
+        ],
+        "bookPages": "174–174"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Bugs causing foodborne illness table (book 174)",
+      "sourceFigureDescription": "The printed 2-column source map with the quick-quick rule.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Systems Microbiology",
+      "topicId": "normal-flora",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "note-block",
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "normal-flora",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both source tables adapted as verbatim note-block tables (the inventory's requiresVisual = false); no registry visual for this topic."
+}

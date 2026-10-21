@@ -78,6 +78,7 @@ import { rnaViruses } from "./rna-viruses";
 import { viralVaccinesDiagnostics } from "./viral-vaccines-diagnostics";
 import { hepatitisViruses } from "./hepatitis-viruses";
 import { hivAids } from "./hiv-aids";
+import { normalFlora } from "./normal-flora";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -239,6 +240,7 @@ export const usmleNotes: KypUsMLENote[] = [
   viralVaccinesDiagnostics,
   hepatitisViruses,
   hivAids,
+  normalFlora,
   cranialNerves,
   diabetesMellitus,
 ];

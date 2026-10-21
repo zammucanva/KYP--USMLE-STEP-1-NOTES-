@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T03:03:17Z",
+  "generatedAt": "2026-10-21T03:08:27Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 114,
+    "topicsProduced": 115,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 59,
+      "pilot-complete": 60,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 27,
-      "topicsRemaining": 12,
+      "topicsProduced": 28,
+      "topicsRemaining": 11,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1538,6 +1538,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "normal-flora",
+      "title": "Normal Flora & Colonization",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Systems Microbiology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 196 (book 174–174)",
+      "visualCount": 0,
+      "mechanismCount": 1,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
     },
     {
       "topicId": "nucleotides-synthesis",
