@@ -1,0 +1,406 @@
+===== element-cestode-trematode-map-dark.png =====
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasite Hint Map - Dark Theme</title>
+    <style>
+        :root {
+            --bg-body: #0f1115;
+            --bg-card: #161b22;
+            --bg-header: #1c2128;
+            --border-color: #30363d;
+            --accent-cyan: #2ea89a; /* Teal/Cyan for borders and links */
+            --accent-red: #ff6b6b;  /* Red for organism names */
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --radius-lg: 12px;
+            --radius-md: 6px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            line-height: 1.5;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Top Navigation Bar */
+        .top-bar {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-title {
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-pills {
+            background-color: #0d3d38; /* Darker teal bg for pill */
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            color: var(--accent-cyan);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        
+        .nav-pills span {
+            color: #fff;
+            margin-right: 4px;
+        }
+
+        /* Section Card */
+        .section-card {
+            background-color: transparent;
+            border: 2px solid var(--accent-cyan);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Card Header */
+        .card-header {
+            background-color: var(--bg-card);
+            padding: 18px 24px;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Table Grid */
+        .data-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            display: table;
+        }
+
+        /* Table Head */
+        .table-head {
+            display: table-row;
+            background-color: var(--bg-header);
+        }
+
+        .th-cell {
+            display: table-cell;
+            padding: 12px 16px;
+            font-weight: 700;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .th-org { width: 18%; }
+        .th-disease { width: 37%; }
+        .th-trans { width: 22%; }
+        .th-treat { width: 23%; }
+
+        /* Table Body Rows */
+        .table-row {
+            display: table-row;
+            background-color: #1c2128; /* Slightly lighter than body, darker than header? No, looks like dark grey blocks */
+            background-color: #1e2329;
+            transition: background-color 0.2s;
+        }
+        
+        .table-row:hover {
+            background-color: #252b33;
+        }
+
+        .td-cell {
+            display: table-cell;
+            padding: 16px;
+            vertical-align: top;
+            border-bottom: 1px solid #252b33;
+            font-size: 13px;
+            color: #c9d1d9;
+            line-height: 1.5;
+        }
+
+        /* Specific Cell Styling */
+        .organism-name {
+            color: var(--accent-red);
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .organism-name.ecto {
+            color: var(--accent-cyan); /* Ectoparasites use cyan in screenshot */
+        }
+
+        .treatment-text {
+            color: #8b949e;
+            font-size: 12.5px;
+        }
+
+        /* Footer Area */
+        .footer-area {
+            background-color: var(--bg-header);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 30px 40px;
+            margin-top: 10px;
+        }
+
+        .footer-links {
+            text-align: center;
+            font-size: 12px;
+            color: #8b949e;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .footer-links strong {
+            color: #e6edf3;
+            font-weight: 600;
+        }
+
+        .copyright-text {
+            font-size: 12px;
+            color: #6e7681;
+            line-height: 1.6;
+            border-top: 1px solid #30363d;
+            padding-top: 20px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 900px) {
+            .data-table {
+                display: block;
+            }
+            .table-head, .table-row {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .th-cell, .td-cell {
+                display: block;
+                width: 100%;
+                border-bottom: none;
+                padding: 10px 16px;
+            }
+            .th-cell {
+                display: none; /* Hide headers on mobile typically, or stack them */
+            }
+            /* Simple stacking for mobile view to match "card" feel if needed, 
+               but keeping it as a list is safer for this specific data density */
+            
+            /* Actually, let's keep the table structure but allow scroll on small screens 
+               or just let it compress naturally as CSS tables do */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <div class="top-title">Cestodes &amp; trematodes + ectoparasites — the hint map (original KYP redraw)</div>
+        <div class="nav-pills">
+            <span>spines</span> • stones • the hint directory
+        </div>
+    </header>
+
+    <!-- Section 1: Cestodes -->
+    <section class="section-card">
+        <div class="card-header">CESTODES (tapeworms) — book 157</div>
+        
+        <div class="data-table">
+            <!-- Headers -->
+            <div class="table-head">
+                <div class="th-cell th-org">ORGANISM</div>
+                <div class="th-cell th-disease">DISEASE</div>
+                <div class="th-cell th-trans">TRANSMISSION</div>
+                <div class="th-cell th-treat">TREATMENT</div>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name">Taenia solium</a></div>
+                <div class="td-cell">
+                    Intestinal taeniasis; ingestion of larvae (cysticerci) in undercooked pork: ABD<br>
+                    cysticercosis, neurocysticercosis (seizures, CNS lesions), seizures B/H → regression of<br>
+                    eggs in food contaminated with infected feces.
+                </div>
+                <div class="td-cell">
+                    Undercooked pork (swine); eggs in food contaminated w/infected/taeniacide; intermediate for taenio/cysticercosis<br>
+                    fleas.
+                </div>
+                <div class="td-cell"></div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name">Diphyllobothrium latum</a></div>
+                <div class="td-cell">
+                    Vitamin B12 deficiency (the tapeworm competes for B12) in infection... megaloblastic<br>
+                    anemia.
+                </div>
+                <div class="td-cell">
+                    Ingestion of larvae in raw freshwater fish.
+                </div>
+                <div class="td-cell treatment-text">Praziquantel, niclosamide</div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name">Echinococcus granulosus</a></div>
+                <div class="td-cell">
+                    Hydatid cysts ("hydatid disease/cyst") most commonly in liver & lung; large cyst<br>
+                    rupture can cause anaphylaxis. Sheep are an intermediate host.
+                </div>
+                <div class="td-cell">
+                    Ingestion of eggs in food contaminated with dog feces.
+                </div>
+                <div class="td-cell treatment-text">Albendazole + surgery for complicated cysts.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Trematodes -->
+    <section class="section-card">
+        <div class="card-header">TREMATODES (flukes) — book 157 (Clonorchis heading emits at the page end)</div>
+        
+        <div class="data-table">
+            <!-- Headers -->
+            <div class="table-head">
+                <div class="th-cell th-org">ORGANISM</div>
+                <div class="th-cell th-disease">DISEASE</div>
+                <div class="th-cell th-trans">TRANSMISSION</div>
+                <div class="th-cell th-treat">TREATMENT</div>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name">Schistosoma</a></div>
+                <div class="td-cell">
+                    Liver and spleen enlargement, fibrosis, inflammation, portal hypertension (S. mansoni<br>
+                    egg with lateral spine, S. haematobium S. japonicum can live in bladder) causes bladder<br>
+                    squamous cell carcinoma, adenocarcinoma, non-efficiency granuloma. Chronic infection<br>
+                    with S. haematobium egg with terminal spine B/U can lead to squamous cell carcinoma of<br>
+                    the bladder (painless hematuria and urinary frequency).
+                </div>
+                <div class="td-cell">
+                    Snails are intermediate host; cercariae penetrate skin of humans (Parasite/parasite<br>
+                    in contact with contaminated fresh water [eg, swimming or<br>
+                    bathing]).
+                </div>
+                <div class="td-cell"></div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name">Clonorchis sinensis</a></div>
+                <div class="td-cell">
+                    Biliary tract inflammation — pyogenic cholangitis associated with cholangiocarcinoma.
+                </div>
+                <div class="td-cell">
+                    Undercooked fish.
+                </div>
+                <div class="td-cell treatment-text">Praziquantel.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Ectoparasites -->
+    <section class="section-card">
+        <div class="card-header">ECTOPARASITES — book 158 (page ownership)</div>
+        
+        <div class="data-table">
+            <!-- Note: Screenshot shows only 2 columns effectively for first item, but grid implies 4. We will stick to 4 col grid but merge visually if needed, or just put content in col 1 & 2 -->
+            
+            <!-- Headers -->
+            <div class="table-head">
+                <div class="th-cell th-org">ORGANISM</div>
+                <div class="th-cell th-disease" colspan="3" style="width: 82%;">DISEASE / DETAILS</div>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name ecto">Sarcoptes scabiei</a></div>
+                <div class="td-cell" colspan="3">
+                    Mites burrow into stratum corneum and cause intense pruritus (worse at night); are serpiginous burrows (linear) often between fingers and toe webs. Common in children, crowded populations, poor nursing homes. Transmission through skin-to-skin contact (rarely from clothing or bed linens).
+                    <br><br>
+                    <span style="float: right; color: #8b949e;">Treatment: permethrin cream, oral ivermectin, washing (by all clothing/bedding), treat close contacts.</span>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name ecto">Pediculus humanus and Phthirus pubis</a></div>
+                <div class="td-cell" style="width: 55%;">
+                    Blood-sucking lice that cause pruritus, scratching with excoriations — crabs (pubic lice), sexual contact and adult body lice, no public use, person-to-person transmission (school). Body lice can transmit Bartonella quintana (trench fever), Borrelia recurrentis (relapsing fever), Rickettsia prowazekii (typhus).
+                    <br><br>
+                    <i style="color:#6e7681; font-size: 11px;">Nits (eggs) glued to hair base can be treated at home without interrupting school attendance.</i>
+                </div>
+                <div class="td-cell treatment-text" style="width: 27%;">
+                    Treatment: pyrethrins, malathion, or ivermectin lotion, and/or combing.
+                </div>
+                <div class="td-cell"></div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="table-row">
+                <div class="td-cell"><a href="#" class="organism-name ecto">Cimex lectularius and Cimex hemipterus</a></div>
+                <div class="td-cell" style="width: 55%;">
+                    Bed bugs — blood-feeding insects that dwell bedding; punctate bites with pruritus, erythematous papules with central hemorrhagic punctum, or clustered or linear pattern of bites seen upon awakening in a sugmatid; diagnosis confirmed by direct identification of bed bugs in the dwelling (likes self-made within 1 week's evacuation of the residence is critical).
+                </div>
+                <div class="td-cell treatment-text" style="width: 27%;">
+                    Symptoms among some; cohabitants may exhibit similar symptoms; via travelers from infested hotels and<br>
+                    unwashed used bedding.
+                </div>
+                <div class="td-cell"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-area">
+        <div class="footer-links">
+            The Parasite-hints directory: Book 158: | biliary tract disease, cholangiocarcinoma — Clonorchis sinensis - brain cysts, seizures — Taenia solium (neurocysticercosis) - Hematuria, SCC bladder — Schistosoma haematobium - liver hydatid cysts, infected dogs — Echinococcus granulosus -<br>
+            Iron-deficiency anemia — Ankylostoma, Necator - myalgia, periorbital edema - Trichinella - nontubercal genital granulitis - Enterobius - portal hypertension - S. mansoni, S. japonicum - B12 deficiency - Diphyllobothrium latum
+        </div>
+        <div class="copyright-text">
+            Original KYP redraw of the source's Cestodes (tapeworms), Trematodes (flukes), Ectoparasites, and Parasite-hints blocks (pdf 179-180 / books 157-158 — pure vector; the printed photos are rarer, COPYRIGHTED, described-in-text only). The source's banner hypo prints on all three pages: MICROBIOLOGY—PARASITOLOGY.<br><br>
+            FA's printed glosses iDipholB012 s/tum; ivermectin for river blindness is M20's stay in the table block only. The Ectoparasite and Parasite-hint blocks print on book 158 under M21's page ownership (the M16/M9 page-ownership rule).
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
+```

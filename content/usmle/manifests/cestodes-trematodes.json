@@ -1,0 +1,405 @@
+{
+  "topicId": "cestodes-trematodes",
+  "title": "Cestodes & Trematodes: Tapeworms and Flukes",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Parasitology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      179,
+      180
+    ],
+    "bookPages": "157–158"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "▶ MICROCIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "157",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Cestodes (tapeworms)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Taenia solium row, interleaved (intestinal tapeworm from pork larvae AND neurocysticercosis B from human-feces eggs; praziquantel; albendazole for neurocysticercosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Taenia solium A\n\nIntestinal tapeworm\n\nIngestion of larvae encysted in\nundercooked pork\n\nPraziquantel\n\nCysticercosis,\nneurocysticercosis (cystic\nCNS lesions, seizures) B\n\nIngestion of eggs in food\ncontaminated with human\nfeces\n\nPraziquantel; albendazole for\nneurocysticercosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Diphyllobothrium row, interleaved (B12 deficiency with the printed DiphylloB12 gloss; megaloblastic anemia; raw freshwater fish; praziquantel/niclosamide)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Diphyllobothrium\nlatum\n\nVitamin B12 deficiency\n(“DiphylloB12 latum”;\ntapeworm competes for B12\nin intestine) →  megaloblastic\nanemia\n\nIngestion of larvae in raw\nfreshwater fish\n\nPraziquantel, niclosamide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Echinococcus row, interleaved with the figure markers (hydatid cysts D with eggshell calcification in liver E and lungs; rupture → anaphylaxis; sheep intermediate; dog feces; albendazole + surgery; the markers A-E and the 'Liver'/'St' fragments)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Echinococcus\ngranulosus C\n\nIngestion of eggs in food\nHydatid cysts D (“eggshell\ncalcification”) most commonly contaminated with dog feces\nSheep are an intermediate host\nin liver E and lungs; cyst\nrupture can cause anaphylaxis\n\nA\n\nB\n\nC\n\nAlbendazole; surgery for\ncomplicated cysts\n\nD\n\nE\nLiver\nSt",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trematodes heading + headers (the flukes table begins on book 157)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Trematodes (flukes)\nORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Schistosoma row, interleaved (lateral-spine mansoni egg A; portal hypertension; mansoni + japonicum intestinal schistosomiasis; terminal-spine haematobium egg B → SCC bladder + pulmonary hypertension; snails; cercariae; praziquantel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Schistosoma\n\nLiver and spleen enlargement\n( A shows S mansoni egg\nwith lateral spine), fibrosis,\ninflammation, portal\nhypertension; S mansoni\nand S japonicum can\nboth also cause intestinal\nschistosomiasis, presenting\nwith diarrhea, abdominal\npain, iron deficiency anemia\nChronic infection with\nS haematobium (egg with\nterminal spine B ) can lead\nto squamous cell carcinoma\nof the bladder (painless\nhematuria) and pulmonary\nhypertension\n\nSnails are intermediate host;\ncercariae penetrate skin of\nhumans in contact with\ncontaminated fresh water (eg,\nswimming or bathing)\n\nPraziquantel",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Clonorchis row + heading at the page end (biliary inflammation → pigmented gallstones; cholangiocarcinoma; undercooked fish; praziquantel; the interleaved markers A/B; the heading emitting at 126-128 with the footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "Biliary tract inflammation\n→  pigmented gallstones\nAssociated with\ncholangiocarcinoma\n\nUndercooked fish\n\nPraziquantel\n\nA\n\nB\n\nClonorchis sinensis\n\nFAS1_2026_03-Microbiology.indd 157",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp (book 157)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          179
+        ],
+        "bookPages": "157"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "158",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "▶ MICROCIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ectoparasites heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "Ectoparasites",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sarcoptes row, interleaved (scabies — nocturnal pruritus, serpiginous burrows A; crowded populations; permethrin/ivermectin + wash + treat contacts)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "Sarcoptes scabiei\n\nMites burrow into stratum corneum and\ncause scabies—pruritus (worse at night) and\nserpiginous burrows (lines) often between\nfingers and toes A .\n\nCommon in children, crowded populations\n(jails, nursing homes); transmission through\nskin-to-skin contact (most common) or via\nfomites.\nTreatment: permethrin cream, oral ivermectin,\nwashing/drying all clothing/bedding, treat\nclose contacts.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lice row, interleaved (head/body/pubic lice; body lice transmit prowazekii, recurrentis, QUINTANA; pyrethroids/malathion/ivermectin lotion + nit B combing; school attendance)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "Blood-sucking lice that cause intense pruritus\nwith associated excoriations, commonly on\nscalp and neck (head lice), waistband and\naxilla (body lice), or pubic and perianal\nregions (pubic lice).\n\nBody lice can transmit Rickettsia prowazekii\n(epidemic typhus), Borrelia recurrentis\n(relapsing fever), Bartonella quintana (trench\nfever).\nTreatment: pyrethroids, malathion, or\nivermectin lotion, and nit B combing.\nChildren with head lice can be treated at\nhome without interrupting school attendance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cimex row (bed bugs — painless bites with hemorrhagic punctum; clustered/linear morning patterns; direct identification; eradication critical)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "Cimex lectularius and\nCimex hemipterus\n\nBed bugs. Blood-feeding insects that infest\ndwellings. Painless bites result in a range of\nskin reactions, typically pruritic, erythematous\npapules with central hemorrhagic punctum.\nA clustered or linear pattern of bites seen\nupon awakening is suggestive. Diagnosis is\nconfirmed by direct identification of bed bugs\nin patient’s dwelling.\n\nBed bugs can spread among rooms; cohabitants\nmay exhibit similar symptoms. Infestations can\nalso spread via travelers from infested hotels and\nthe use of unwashed, used bedding.\nTreatment: bites self resolve within 1 week.\nEradication of the infestation is critical.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Parasite-hints directory (9 association-organism pairs, biliary/B12)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "Parasite hints\n\nASSOCIATIONS\n\nORGANISM\n\nBiliary tract disease, cholangiocarcinoma\n\nClonorchis sinensis\n\nBrain cysts, seizures\n\nTaenia solium (neurocysticercosis)\n\nHematuria, squamous cell bladder cancer\n\nSchistosoma haematobium\n\nLiver (hydatid) cysts, exposure to infected dogs\n\nEchinococcus granulosus\n\nIron deficiency anemia\n\nAncylostoma, Necator\n\nMyalgias, periorbital edema\n\nTrichinella spiralis\n\nNocturnal perianal pruritus\n\nEnterobius\n\nPortal hypertension\n\nSchistosoma mansoni, Schistosoma japonicum\n\nVitamin B12 deficiency\n\nDiphyllobothrium latum",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The lice heading + B marker emitting mid-page among the directory (physical order, lines 100-104: A, Pediculus humanus and Phthirus pubis, B)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "A\n\nPediculus humanus\nand Phthirus pubis\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 158",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          180
+        ],
+        "bookPages": "158"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cestode-trematode-map"
+  ],
+  "mechanismIds": [
+    "cestode-two-host-axis",
+    "trematode-spine-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the blocks; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "spine-cancer-ecto-synthesis",
+      "summary": "Taenia solium's two-host split (pork larvae vs human-feces eggs) with Echinococcus' dog-sheep chain; the Schistosoma spine axis (lateral = portal hypertension; terminal = SCC of the bladder) and Clonorchis' biliary cancer chain; and the ectoparasite vector set (the body louse transmitting prowazekii, recurrentis, quintana; scabies' crowded-population epidemiology; the bed-bug eradication rule) — the Ectoparasites and Parasite-hints blocks print on book 158 under this topic's page ownership — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the blocks without the synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: markers A-E on p179 (Taenia proglottids A, neurocysticercosis imaging B, Echinococcus C, hydatid cysts D, liver cysts E) + the Schistosoma lateral-spine egg A and terminal-spine egg B; pdfimages lists 8 on p179 (including a degenerate 604x740 devn artifact). p180: 2 rasters (the scabies burrows A, the lice nits B). The banner typo MICROCIOLOGY prints on books 157-158. The Clonorchis heading emits at the page end (126-128); the lice heading emits mid-page at 102-104 among the Parasite-hints directory; the Ectoparasites and Parasite-hints blocks print on book 158 under M21's page ownership (the M9/M15 rule). FA's DiphylloB12 gloss stays in the table block only.",
+  "updatedAt": "2026-10-21"
+}

@@ -70,6 +70,8 @@ import { systemicMycoses } from "./systemic-mycoses";
 import { opportunisticFungi } from "./opportunistic-fungi";
 import { intestinalProtozoa } from "./intestinal-protozoa";
 import { bloodTissueProtozoa } from "./blood-tissue-protozoa";
+import { helminthsNematodes } from "./helminths-nematodes";
+import { cestodesTrematodes } from "./cestodes-trematodes";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -223,6 +225,8 @@ export const usmleNotes: KypUsMLENote[] = [
   opportunisticFungi,
   intestinalProtozoa,
   bloodTissueProtozoa,
+  helminthsNematodes,
+  cestodesTrematodes,
   cranialNerves,
   diabetesMellitus,
 ];

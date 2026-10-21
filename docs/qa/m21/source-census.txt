@@ -1,0 +1,27 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 178     0 image     213   190  cmyk    4   8  jpeg   no      7004  0   150   150 12.1K 7.6%
+ 178     1 image     213   190  cmyk    4   8  jpeg   no      7005  0   150   150 20.5K  13%
+ 178     2 image     213   190  cmyk    4   8  jpeg   no      7006  0   150   150 12.0K 7.6%
+ 178     3 image     213   190  cmyk    4   8  jpeg   no      7007  0   150   150 29.1K  18%
+ 178     4 image     213   190  cmyk    4   8  jpeg   no      7008  0   150   150 27.7K  18%
+ 179     5 image     604   740  devn    1   8  jpeg   no      7017  0   600   601  357B 0.1%
+ 179     6 image     218   190  cmyk    4   8  jpeg   no      7019  0   150   150 8136B 4.9%
+ 179     7 image     151   185  gray    1   8  jpeg   no      7020  0   150   150 5957B  21%
+ 179     8 image     218   190  cmyk    4   8  jpeg   no      7021  0   150   150 6521B 3.9%
+ 179     9 image     218   189  cmyk    4   8  jpeg   no      7022  0   150   150 12.9K 8.0%
+ 179    10 image     218   189  gray    1   8  jpeg   no      7023  0   150   150 5256B  13%
+ 179    11 image     150   115  cmyk    4   8  jpeg   no      7024  0   150   150 8074B  12%
+ 179    12 image     150   123  cmyk    4   8  jpeg   no      7025  0   150   150 11.2K  16%
+ 180    13 image     188   188  cmyk    4   8  jpeg   no      7031  0   150   150 11.7K 8.5%
+ 180    14 image     188   188  cmyk    4   8  jpeg   no      7032  0   150   150 22.8K  17%
+
+=== M21 census (pdf 179-180 / books 157-158) ===
+p179: markers A-E (Taenia proglottids, neurocysticercosis imaging,
+Echinococcus, hydatid cysts, liver cysts) + the Schistosoma lateral-spine
+and terminal-spine eggs; pdfimages lists 8 incl. a degenerate 604x740 devn
+artifact. p180: 2 rasters (scabies burrows A, lice nits B). Banner typo
+MICROCIOLOGY on both pages. The Clonorchis heading emits at the page end
+(126-128); the lice heading emits mid-page (102-104) among the Parasite-hints
+directory. The Ectoparasites + Parasite-hints blocks print on book 158 under
+M21's page ownership (the M9/M15 rule).

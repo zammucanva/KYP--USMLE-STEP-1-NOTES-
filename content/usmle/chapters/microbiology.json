@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 20,
+  "pendingTopicCount": 18,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -3796,8 +3796,172 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Parasitology",
-      "status": "pending",
-      "productionRationale": "The intestinal and tissue roundworms: Ascaris, Hookworm (Necator/Ancylostoma), Strongyloides (autoinfection, hyperinfection in steroid/HTLV-1), Enterobius (pinworm, Scotch tape), Trichinella, Onchocerca, Loa, Wucheraria (elephantiasis)."
+      "status": "complete",
+      "productionRationale": "The intestinal and tissue roundworms: Ascaris, Hookworm (Necator/Ancylostoma), Strongyloides (autoinfection, hyperinfection in steroid/HTLV-1), Enterobius (pinworm, Scotch tape), Trichinella, Onchocerca, Loa, Wucheraria (elephantiasis).",
+      "textbookVisuals": [
+        {
+          "visualId": "helminths-nematodes-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Nematodes (roundworms) table (book 156)",
+          "sourceFigureDescription": "The printed 4-column table with 11 organisms and the Intestinal/Tissue split rails.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "nematode-route-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the Intestinal/Tissue panels + the cross-linked route-rails anchors strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "nematode-route-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "helminths-nematodes-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The tape-test eggs micrograph (book 156)",
+          "sourceFigureDescription": "The Enterobius eggs visualized via the tape test, marker A.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "helminths-nematodes-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The knobby Ascaris-eggs micrograph (book 156)",
+          "sourceFigureDescription": "The knobby-coated oval eggs seen in feces, marker B.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "helminths-nematodes-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The cutaneous-larva-migrans photo (book 156)",
+          "sourceFigureDescription": "The hookworms' pruritic, serpiginous rash, marker C.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "helminths-nematodes-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The encysted-muscle-larvae micrograph (book 156)",
+          "sourceFigureDescription": "Trichinella larvae encysted in striated muscle, marker D.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "helminths-nematodes-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              178
+            ],
+            "bookPages": "156–156"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The filarial-lymphedema photo (book 156)",
+          "sourceFigureDescription": "The elephantiasis lymphedema of Wuchereria/Brugia, marker E.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "helminths-nematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "cestodes-trematodes",
@@ -3821,8 +3985,290 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Parasitology",
-      "status": "pending",
-      "productionRationale": "The tapeworms (Taenia solium/saginata, cysticercosis, Diphyllobothrium B12, Echinococcus hydatid) and flukes (Schistosoma species, Clonorchis, Paragonimus, Fasciola) plus ectoparasites (scabies, lice)."
+      "status": "complete",
+      "productionRationale": "The tapeworms (Taenia solium/saginata, cysticercosis, Diphyllobothrium B12, Echinococcus hydatid) and flukes (Schistosoma species, Clonorchis, Paragonimus, Fasciola) plus ectoparasites (scabies, lice).",
+      "textbookVisuals": [
+        {
+          "visualId": "cestodes-trematodes-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Cestodes + Trematodes tables (book 157)",
+          "sourceFigureDescription": "The printed cestode table (Taenia solium, Diphyllobothrium latum, Echinococcus granulosus) and the trematode table (Schistosoma, Clonorchis sinensis) with interleaved markers.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "cestode-trematode-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the CESTODES/TREMATODES panels + the ECTOPARASITES rows + the Parasite-hints anchors strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cestode-trematode-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The Taenia proglottids photo (book 157)",
+          "sourceFigureDescription": "The Taenia solium organism, marker A.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The neurocysticercosis imaging (book 157)",
+          "sourceFigureDescription": "CNS imaging of cystic lesions, marker B.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The Echinococcus organisms photo (book 157)",
+          "sourceFigureDescription": "The Echinococcus granulosus worms, marker C.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The hydatid-cysts imaging (book 157)",
+          "sourceFigureDescription": "The hydatid cysts with eggshell calcification, marker D.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The liver-cysts imaging (book 157)",
+          "sourceFigureDescription": "The liver hydatid cysts, marker E.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv7",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The lateral-spine egg micrograph (book 157)",
+          "sourceFigureDescription": "The S. mansoni egg with its lateral spine, marker A.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv8",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The terminal-spine egg micrograph (book 157)",
+          "sourceFigureDescription": "The S. haematobium egg with its terminal spine, marker B.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv9",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The scabies-burrows photo (book 158)",
+          "sourceFigureDescription": "The serpiginous burrows between fingers and toes, marker A.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "cestodes-trematodes-sv10",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              179,
+              180
+            ],
+            "bookPages": "157–158"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The lice nits photo (book 158)",
+          "sourceFigureDescription": "The pubic lice nits, marker B.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Parasitology",
+          "topicId": "cestodes-trematodes",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "viral-structure-genetics",

@@ -1,0 +1,318 @@
+===== element-nematode-route-map-dark.png =====
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nematodes Route Map - Dark Theme</title>
+    <style>
+        :root {
+            --bg-body: #0b0d10;
+            --bg-card: #13171c;
+            --bg-header: #1a2028;
+            --bg-row: #161b22;
+            --border-color: #00e5cc; /* Cyan/Teal accent */
+            --text-primary: #ffffff;
+            --text-secondary: #8b949e;
+            --text-accent-red: #ff6b6b;
+            --text-link: #58a6ff;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            line-height: 1.5;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        /* Utility */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .red-text { color: var(--text-accent-red); }
+        .muted { color: var(--text-secondary); font-size: 0.9em; }
+
+        /* Header Section */
+        .top-header {
+            background-color: var(--bg-card);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .header-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .header-badge {
+            background-color: #0d3d35;
+            color: var(--border-color);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid rgba(0, 229, 204, 0.2);
+        }
+
+        /* Main Card Component */
+        .data-card {
+            background-color: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 229, 204, 0.05);
+        }
+
+        .card-header {
+            padding: 18px 24px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #21262d;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+        }
+
+        thead th {
+            background-color: var(--bg-header);
+            color: var(--text-primary);
+            text-align: left;
+            padding: 14px 20px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #21262d;
+        }
+
+        tbody tr {
+            background-color: var(--bg-row);
+            border-bottom: 1px solid #21262d;
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #1f252d;
+        }
+
+        tbody td {
+            padding: 18px 20px;
+            vertical-align: top;
+            color: #c9d1d9;
+        }
+
+        /* Column Specifics */
+        td:first-child {
+            width: 22%;
+            color: var(--text-accent-red);
+            font-weight: 500;
+        }
+        
+        td:nth-child(2) {
+            width: 38%;
+            line-height: 1.6;
+        }
+        
+        td:nth-child(3) {
+            width: 20%;
+            color: var(--text-secondary);
+        }
+        
+        td:last-child {
+            width: 20%;
+            color: var(--text-secondary);
+        }
+
+        /* Footer Section */
+        .footer-info {
+            background-color: #151a21;
+            border: 1px solid #21262d;
+            border-radius: 8px;
+            padding: 20px 30px;
+            margin-top: 10px;
+        }
+
+        .footer-text-small {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .copyright-block {
+            font-size: 0.7rem;
+            color: #6e7681;
+            border-top: 1px solid #21262d;
+            padding-top: 15px;
+            line-height: 1.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            body { padding: 10px; }
+            .top-header { flex-direction: column; gap: 10px; align-items: flex-start; }
+            .header-badge { align-self: flex-end; }
+            
+            /* Stack table on very small screens or scroll */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            table { min-width: 800px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation / Title Bar -->
+    <div class="container">
+        <div class="top-header">
+            <div class="header-title">Nematodes (roundworms) — the route map (original KYP redraw)</div>
+            <div class="header-badge">Ingested • cutaneous • bites</div>
+        </div>
+    </div>
+
+    <!-- Section 1: Intestinal -->
+    <div class="container">
+        <div class="data-card">
+            <div class="card-header">INTESTINAL — the ingested and cutaneous sets (book 156)</div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Organism</th>
+                            <th>Disease</th>
+                            <th>Transmission</th>
+                            <th>Treatment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Enterobius vermicularis (pinworm)</td>
+                            <td>Causes anal pruritus, worse at night; eggs a scavenged on tape test. Most common in children aged 5–12.</td>
+                            <td>Fecal-oral.</td>
+                            <td>Bendazoles, pyrantel pamoate</td>
+                        </tr>
+                        <tr>
+                            <td>Ascaris lumbricoides (giant roundworm)</td>
+                            <td>May cause obstruction at biliary tree, biliary strictures, intestinal perforation; migrates from liver/mouth. Migration of worm to alveoli → Loeffler syndrome (pulmonary eosinophilia).</td>
+                            <td>Fecal-oral; poorly cooked food; soil eggs seen in feces under microscope (E).</td>
+                            <td>Bendazoles.</td>
+                        </tr>
+                        <tr>
+                            <td>Strongyloides stercoralis (threadworm)</td>
+                            <td>S/S: vague, abdominal pain/bug, dry cough, hemoptysis, and urticarial rash. Larva currens (serpiginous) from gluteal to waistline due to autoinfection/autoinfection in the immunocompromised.</td>
+                            <td>Larvae in soil penetrate skin; rhabditiform larvae seen in feces under microscope.</td>
+                            <td>Ivermectin or bendazoles.</td>
+                        </tr>
+                        <tr>
+                            <td>Ancylostoma spp., Necator americanus (hookworms)</td>
+                            <td>Causes microcytic anemia by sucking blood from intestinal lobe. Cutaneous rash (ground itch), anemia, eosinophilic, and C.</td>
+                            <td>Larvae penetrate skin from walking barefoot on contaminated beach/soil.</td>
+                            <td>Bendazoles or pyrantel pamoate.</td>
+                        </tr>
+                        <tr>
+                            <td>Trichuris trichiura</td>
+                            <td>Lives in large bowel/cecum. Wrought in uncleaned toilet E ... dysentery. Trichuris—rare, worming, anemia, perianal straining, prolapse.</td>
+                            <td>Uncooked meat (especially pork); fecal-oral (bad hand).</td>
+                            <td>Bendazoles.</td>
+                        </tr>
+                        <tr>
+                            <td>Trichinella spiralis (whipworm)</td>
+                            <td>Often asymptomatic (loose stools, emesis); rectal prolapse in children.</td>
+                            <td>Fecal-oral.</td>
+                            <td>Bendazoles.</td>
+                        </tr>
+                        <tr>
+                            <td>Toxocara canis</td>
+                            <td>Visceral larva migrans → migration into blood → inflammation of liver, eyes (visual impairment), CNS (seizures), cori (heart) myocarditis. Patients often asymptomatic.</td>
+                            <td>Fecal-oral.</td>
+                            <td>Bendazoles.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: Tissue -->
+    <div class="container">
+        <div class="data-card">
+            <div class="card-header">TISSUE — the bites set (book 156)</div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Organism</th>
+                            <th>Disease</th>
+                            <th>Transmission</th>
+                            <th>Treatment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Onchocerca volvulus</td>
+                            <td>Blindness (river blindness), 'river blindness' (black night).</td>
+                            <td>Female black fly.</td>
+                            <td>Ivermectin (ivermectin for river blindness).</td>
+                        </tr>
+                        <tr>
+                            <td>Loa loa</td>
+                            <td>Swelling of eye, worm in conjunctiva.</td>
+                            <td>Deer fly (horse fly, mango fly).</td>
+                            <td>Diethylcarbamazine.</td>
+                        </tr>
+                        <tr>
+                            <td>Wuchereria bancrofti, Brugia malayi</td>
+                            <td>Lymphatic filariasis (elephantiasis)—serous muscle (lymph nodes), edematous, hydrocele & elephantiasis occur after 8–20+ yrs.</td>
+                            <td>Female mosquito.</td>
+                            <td>Diethylcarbamazine.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Info -->
+    <div class="container footer-info">
+        <p class="footer-text-small">
+            The route ralls (cross-linked from MTS's book-156 box): INGESTED — Enterobius, Ascaris, Toxocara, Trichinella, Trichuris; CUTANEOUS — Strongyloides, Ancylostoma, Necator; BITES — Loa loa, Onchocerca, Wuchereria - therapy: spinc bendazoles for the intestinal set; vermectin (Strongyloides, Onchocerca), diethylcarbamazine (Loa loa, Wuchereria)
+        </p>
+        <div class="copyright-block">
+            Original KYP redraw of the source's Nematodes (roundworms) [table] pdf f78 / book 156 — pure vector; the printed photos are raster. COPYRIGHTED, described in-text only). The source's own banner typo prints on this page: 'MICROBIOLOGY--PARASITOLOGY' (line 8).<br>
+            The Intestinal/Tissue split ralls emit as standalone lines (22 and 140). FA's printed mnemonics (ivermectin for river blindness; DiethylB12' (atum is M2fa) — this page's glosses stay in the table block only.
+        </div>
+    </div>
+
+</body>
+</html>
+```

@@ -2415,3 +2415,227 @@ export function BloodTissueProtozoaMap() {
     </svg>
   );
 }
+
+export function NematodeRouteMap() {
+  const w = 980;
+  const h = 878;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Nematodes, the roundworms, an original KYP route map. THE INTESTINAL SET: Enterobius vermicularis (pinworm) — anal pruritus worse at night, eggs visualized via tape test, most common in children aged 5-10; Ascaris lumbricoides (giant roundworm) — ileocecal and biliary obstruction, intestinal perforation, migration from nose and mouth, larvae to alveoli causing Löeffler syndrome with pulmonary eosinophilia, knobby-coated oval eggs in feces; Strongyloides stercoralis (threadworm) — GI, pulmonary, and cutaneous symptoms with hyperinfection syndrome from accelerated autoinfection in the immunocompromised, rhabditiform larvae in feces, ivermectin or bendazoles; the hookworms Ancylostoma and Necator americanus — microcytic anemia from sucking blood, cutaneous larva migrans, skin penetration from barefoot beaches; Trichinella spiralis — larvae encyst in striated muscle causing myositis, fever, periorbital edema, from undercooked pork; Trichuris trichiura (whipworm) — rectal prolapse in children; Toxocara canis — visceral larva migrans into liver, eyes, CNS, heart. THE TISSUE SET: Onchocerca volvulus — black skin nodules and river blindness from the female black fly, ivermectin; Loa loa — swelling in skin, worm in conjunctiva, deer and horse and mango flies, diethylcarbamazine; Wuchereria bancrofti and Brugia malayi — lymphatic filariasis with elephantiasis from the female mosquito, diethylcarbamazine" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Nematodes (roundworms) — the route map (original KYP redraw)</text>
+        <rect x="722" y="24" width="210" height="18" rx="9" className="fill-brand-soft" />
+<text x="827" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">ingested · cutaneous · bites</text>
+      </g>
+      {/* ===== INTESTINAL ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="462" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">INTESTINAL — the ingested and cutaneous sets (book 156)</text>
+        <rect x="52" y="108" width="148" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="204" y="108" width="224" height="20" rx="4" className="fill-secondary" />
+<text x="210" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="434" y="108" width="166" height="20" rx="4" className="fill-secondary" />
+<text x="440" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="606" y="108" width="156" height="20" rx="4" className="fill-secondary" />
+<text x="612" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="136" width="710" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="149" fontSize="5.4" fontWeight="800" className="fill-emergency">Enterobius vermicularis (pinworm)</text>
+<text x="210" y="149" fontSize="5.0" className="fill-muted-foreground">Causes anal pruritus, worse at night (eggs A visualized via tape test). Most common in</text>
+<text x="210" y="159" fontSize="5.0" className="fill-muted-foreground">children aged 5-10.</text>
+<text x="440" y="149" fontSize="5.0" className="fill-muted-foreground">Fecal-oral.</text>
+<text x="612" y="149" fontSize="5.0" className="fill-muted-foreground">Bendazoles, pyrantel pamoate.</text>
+        <rect x="52" y="192" width="710" height="58" rx="4" className="fill-secondary/60" />
+<text x="58" y="205" fontSize="5.4" fontWeight="800" className="fill-emergency">Ascaris lumbricoides (giant roundworm)</text>
+<text x="210" y="205" fontSize="5.0" className="fill-muted-foreground">May cause obstruction at ileocecal valve, biliary obstruction, intestinal perforation;</text>
+<text x="210" y="215" fontSize="5.0" className="fill-muted-foreground">migrates from nose/mouth. Migration of larvae to alveoli → Löeffler syndrome</text>
+<text x="210" y="225" fontSize="5.0" className="fill-muted-foreground">(pulmonary eosinophilia).</text>
+<text x="440" y="205" fontSize="5.0" className="fill-muted-foreground">Fecal-oral; knobby-coated, oval eggs seen in feces under</text>
+<text x="440" y="215" fontSize="5.0" className="fill-muted-foreground">microscope B.</text>
+<text x="612" y="205" fontSize="5.0" className="fill-muted-foreground">Bendazoles.</text>
+        <rect x="52" y="258" width="710" height="58" rx="4" className="fill-secondary" />
+<text x="58" y="271" fontSize="5.4" fontWeight="800" className="fill-emergency">Strongyloides stercoralis (threadworm)</text>
+<text x="210" y="271" fontSize="5.0" className="fill-muted-foreground">GI (eg, duodenitis), pulmonary (eg, dry cough, hemoptysis), and cutaneous (eg,</text>
+<text x="210" y="281" fontSize="5.0" className="fill-muted-foreground">pruritus) symptoms. Hyperinfection syndrome can be caused by accelerated autoinfection</text>
+<text x="210" y="291" fontSize="5.0" className="fill-muted-foreground">in the immunocompromised.</text>
+<text x="440" y="271" fontSize="5.0" className="fill-muted-foreground">Larvae in soil penetrate skin; rhabditiform larvae seen in feces</text>
+<text x="440" y="281" fontSize="5.0" className="fill-muted-foreground">under microscope.</text>
+<text x="612" y="271" fontSize="5.0" className="fill-muted-foreground">Ivermectin or bendazoles.</text>
+        <rect x="52" y="324" width="710" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="337" fontSize="5.4" fontWeight="800" className="fill-emergency">Ancylostoma spp, Necator americanus (hookworms)</text>
+<text x="210" y="337" fontSize="5.0" className="fill-muted-foreground">Cause microcytic anemia by sucking blood from intestinal wall. Cutaneous larva</text>
+<text x="210" y="347" fontSize="5.0" className="fill-muted-foreground">migrans—pruritic, serpiginous rash C.</text>
+<text x="440" y="337" fontSize="5.0" className="fill-muted-foreground">Larvae penetrate skin from walking barefoot on contaminated</text>
+<text x="440" y="347" fontSize="5.0" className="fill-muted-foreground">beach/soil.</text>
+<text x="612" y="337" fontSize="5.0" className="fill-muted-foreground">Bendazoles or pyrantel pamoate.</text>
+        <rect x="52" y="380" width="710" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="393" fontSize="5.4" fontWeight="800" className="fill-emergency">Trichinella spiralis</text>
+<text x="210" y="393" fontSize="5.0" className="fill-muted-foreground">Larvae enter bloodstream, encyst in striated muscle D → myositis. Trichinosis—fever,</text>
+<text x="210" y="403" fontSize="5.0" className="fill-muted-foreground">vomiting, nausea, periorbital edema, myalgia.</text>
+<text x="440" y="393" fontSize="5.0" className="fill-muted-foreground">Undercooked meat (especially pork); fecal-oral (less likely).</text>
+<text x="612" y="393" fontSize="5.0" className="fill-muted-foreground">Bendazoles.</text>
+        <rect x="52" y="436" width="710" height="38" rx="4" className="fill-secondary/60" />
+<text x="58" y="449" fontSize="5.4" fontWeight="800" className="fill-emergency">Trichuris trichiura (whipworm)</text>
+<text x="210" y="449" fontSize="5.0" className="fill-muted-foreground">Often asymptomatic; loose stools, anemia, rectal prolapse in children.</text>
+<text x="440" y="449" fontSize="5.0" className="fill-muted-foreground">Fecal-oral.</text>
+<text x="612" y="449" fontSize="5.0" className="fill-muted-foreground">Bendazoles.</text>
+        <rect x="52" y="482" width="710" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="495" fontSize="5.4" fontWeight="800" className="fill-emergency">Toxocara canis</text>
+<text x="210" y="495" fontSize="5.0" className="fill-muted-foreground">Visceral larva migrans—migration into blood → inflammation of liver, eyes (visual</text>
+<text x="210" y="505" fontSize="5.0" className="fill-muted-foreground">impairment), CNS (seizures, coma), heart (myocarditis). Patients often asymptomatic.</text>
+<text x="440" y="495" fontSize="5.0" className="fill-muted-foreground">Fecal-oral.</text>
+<text x="612" y="495" fontSize="5.0" className="fill-muted-foreground">Bendazoles.</text>
+      </g>
+      {/* ===== TISSUE ===== */}
+      <g>
+        <rect x="36" y="554" width="908" height="208" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="576" fontSize="9" fontWeight="800" className="fill-foreground">TISSUE — the bites set (book 156)</text>
+        <rect x="52" y="586" width="148" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="600" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="204" y="586" width="224" height="20" rx="4" className="fill-secondary" />
+<text x="210" y="600" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="434" y="586" width="166" height="20" rx="4" className="fill-secondary" />
+<text x="440" y="600" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="606" y="586" width="156" height="20" rx="4" className="fill-secondary" />
+<text x="612" y="600" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="614" width="710" height="38" rx="4" className="fill-secondary" />
+<text x="58" y="627" fontSize="5.4" fontWeight="800" className="fill-emergency">Onchocerca volvulus</text>
+<text x="210" y="627" fontSize="5.0" className="fill-muted-foreground">Black skin nodules, river blindness (“black sight”).</text>
+<text x="440" y="627" fontSize="5.0" className="fill-muted-foreground">Female black fly.</text>
+<text x="612" y="627" fontSize="5.0" className="fill-muted-foreground">Ivermectin (ivermectin for river blindness).</text>
+        <rect x="52" y="660" width="710" height="38" rx="4" className="fill-secondary/60" />
+<text x="58" y="673" fontSize="5.4" fontWeight="800" className="fill-emergency">Loa loa</text>
+<text x="210" y="673" fontSize="5.0" className="fill-muted-foreground">Swelling in skin, worm in conjunctiva.</text>
+<text x="440" y="673" fontSize="5.0" className="fill-muted-foreground">Deer fly, horse fly, mango fly.</text>
+<text x="612" y="673" fontSize="5.0" className="fill-muted-foreground">Diethylcarbamazine.</text>
+        <rect x="52" y="706" width="710" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="719" fontSize="5.4" fontWeight="800" className="fill-emergency">Wuchereria bancrofti, Brugia malayi</text>
+<text x="210" y="719" fontSize="5.0" className="fill-muted-foreground">Lymphatic filariasis (elephantiasis)—worms invade lymph nodes → inflammation →</text>
+<text x="210" y="729" fontSize="5.0" className="fill-muted-foreground">lymphedema E; symptom onset after 9 mo-1 yr.</text>
+<text x="440" y="719" fontSize="5.0" className="fill-muted-foreground">Female mosquito.</text>
+<text x="612" y="719" fontSize="5.0" className="fill-muted-foreground">Diethylcarbamazine.</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="778" width="908" height="46" rx="8" className="fill-secondary" />
+<text x="490" y="798" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">The route rails (cross-linked from M19's book-155 box): INGESTED — Enterobius, Ascaris, Toxocara, Trichinella, Trichuris · CUTANEOUS — Strongyloides, Ancylostoma, Necator · BITES — Loa loa, Onchocerca, Wuchereria · therapy spine: bendazoles for the intestinal set; ivermectin</text>
+<text x="490" y="811" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">(Strongyloides, Onchocerca); diethylcarbamazine (Loa loa, Wuchereria)</text>
+      </g>
+      {/* footer */}
+<text x="24" y="838" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Nematodes (roundworms) table (pdf 178 / book 156 — pure vector; the printed photos are raster, COPYRIGHTED, described-in-text only). The source's own banner typo prints on this page: 'MICROCIOLOGY—PARASITOLOGY' (line 6).</text>
+<text x="24" y="850" fontSize="7.2" className="fill-muted-foreground">The Intestinal/Tissue split rails emit as standalone lines (22 and 140). FA's printed mnemonics (ivermectin for river blindness; DiphylloB12 latum is M21's) — this page's glosses stay in the table block only.</text>
+    </svg>
+  );
+}
+
+export function CestodeTrematodeMap() {
+  const w = 980;
+  const h = 950;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cestodes and trematodes with the ectoparasites, an original KYP map. THE CESTODES (book 157): Taenia solium — the intestinal tapeworm from larvae encysted in undercooked pork, and cysticercosis with neurocysticercosis (cystic CNS lesions, seizures) from eggs in food contaminated with human feces; praziquantel with albendazole for neurocysticercosis. Diphyllobothrium latum — vitamin B12 deficiency with megaloblastic anemia from raw freshwater fish; praziquantel or niclosamide. Echinococcus granulosus — hydatid cysts with eggshell calcification in liver and lungs, rupture causing anaphylaxis, sheep the intermediate host, eggs from dog feces; albendazole with surgery for complicated cysts. THE TREMATODES: Schistosoma — liver and spleen enlargement with fibrosis and portal hypertension (the S mansoni egg with its lateral spine); intestinal schistosomiasis from mansoni and japonicum; the S haematobium egg with its terminal spine leading to squamous cell carcinoma of the bladder with painless hematuria and pulmonary hypertension; snails the intermediate host with cercariae penetrating skin in contaminated fresh water; praziquantel. Clonorchis sinensis — biliary tract inflammation with pigmented gallstones and cholangiocarcinoma from undercooked fish; praziquantel. THE ECTOPARASITES (book 158): Sarcoptes scabiei with scabies (nocturnal pruritus, serpiginous burrows between fingers and toes; crowded populations; permethrin and ivermectin); Pediculus humanus and Phthirus pubis (head, body, and pubic lice — body lice transmitting prowazekii, recurrentis, and quintana); and Cimex lectularius (bed bugs with painless bites and hemorrhagic punctum, eradication critical)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cestodes &amp;amp; trematodes + ectoparasites — the hint map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" rx="9" className="fill-brand-soft" />
+<text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">spines · stones · the hint directory</text>
+      </g>
+      {/* ===== CESTODES ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="238" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">CESTODES (tapeworms) — book 157</text>
+        <rect x="52" y="108" width="120" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="178" y="108" width="224" height="20" rx="4" className="fill-secondary" />
+<text x="184" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="410" y="108" width="140" height="20" rx="4" className="fill-secondary" />
+<text x="416" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="558" y="108" width="204" height="20" rx="4" className="fill-secondary" />
+<text x="564" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="136" width="710" height="58" rx="4" className="fill-secondary" />
+<text x="58" y="149" fontSize="5.4" fontWeight="800" className="fill-emergency">Taenia solium</text>
+<text x="184" y="149" fontSize="5.0" className="fill-muted-foreground">Intestinal tapeworm (ingestion of larvae encysted in undercooked pork) AND</text>
+<text x="184" y="159" fontSize="5.0" className="fill-muted-foreground">cysticercosis, neurocysticercosis (cystic CNS lesions, seizures B) from ingestion of</text>
+<text x="184" y="169" fontSize="5.0" className="fill-muted-foreground">eggs in food contaminated with human feces.</text>
+<text x="416" y="149" fontSize="5.0" className="fill-muted-foreground">Undercooked pork (larvae); eggs in food contaminated with human</text>
+<text x="416" y="159" fontSize="5.0" className="fill-muted-foreground">feces.</text>
+<text x="564" y="149" fontSize="5.0" className="fill-muted-foreground">Praziquantel; albendazole for neurocysticercosis.</text>
+        <rect x="52" y="202" width="710" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="215" fontSize="5.4" fontWeight="800" className="fill-emergency">Diphyllobothrium latum</text>
+<text x="184" y="215" fontSize="5.0" className="fill-muted-foreground">Vitamin B12 deficiency (the tapeworm competes for B12 in intestine) → megaloblastic</text>
+<text x="184" y="225" fontSize="5.0" className="fill-muted-foreground">anemia.</text>
+<text x="416" y="215" fontSize="5.0" className="fill-muted-foreground">Ingestion of larvae in raw freshwater fish.</text>
+<text x="564" y="215" fontSize="5.0" className="fill-muted-foreground">Praziquantel, niclosamide.</text>
+        <rect x="52" y="258" width="710" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="271" fontSize="5.4" fontWeight="800" className="fill-emergency">Echinococcus granulosus</text>
+<text x="184" y="271" fontSize="5.0" className="fill-muted-foreground">Hydatid cysts (“eggshell calcification”) most commonly in liver E and lungs; cyst</text>
+<text x="184" y="281" fontSize="5.0" className="fill-muted-foreground">rupture can cause anaphylaxis. Sheep are an intermediate host.</text>
+<text x="416" y="271" fontSize="5.0" className="fill-muted-foreground">Ingestion of eggs in food contaminated with dog feces.</text>
+<text x="564" y="271" fontSize="5.0" className="fill-muted-foreground">Albendazole; surgery for complicated cysts.</text>
+      </g>
+      {/* ===== TREMATODES ===== */}
+      <g>
+        <rect x="36" y="330" width="908" height="192" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="352" fontSize="9" fontWeight="800" className="fill-foreground">TREMATODES (flukes) — book 157 (Clonorchis heading emits at the page end)</text>
+        <rect x="52" y="362" width="120" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="376" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="178" y="362" width="224" height="20" rx="4" className="fill-secondary" />
+<text x="184" y="376" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="410" y="362" width="140" height="20" rx="4" className="fill-secondary" />
+<text x="416" y="376" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="558" y="362" width="204" height="20" rx="4" className="fill-secondary" />
+<text x="564" y="376" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="390" width="710" height="78" rx="4" className="fill-secondary" />
+<text x="58" y="403" fontSize="5.4" fontWeight="800" className="fill-emergency">Schistosoma</text>
+<text x="184" y="403" fontSize="5.0" className="fill-muted-foreground">Liver and spleen enlargement, fibrosis, inflammation, portal hypertension (S mansoni</text>
+<text x="184" y="413" fontSize="5.0" className="fill-muted-foreground">egg with lateral spine A). S mansoni and S japonicum can both also cause intestinal</text>
+<text x="184" y="423" fontSize="5.0" className="fill-muted-foreground">schistosomiasis (diarrhea, abdominal pain, iron deficiency anemia). Chronic infection</text>
+<text x="184" y="433" fontSize="5.0" className="fill-muted-foreground">with S haematobium (egg with terminal spine B) can lead to squamous cell carcinoma of</text>
+<text x="184" y="443" fontSize="5.0" className="fill-muted-foreground">the bladder (painless hematuria) and pulmonary hypertension.</text>
+<text x="416" y="403" fontSize="5.0" className="fill-muted-foreground">Snails are intermediate host; cercariae penetrate skin of humans</text>
+<text x="416" y="413" fontSize="5.0" className="fill-muted-foreground">in contact with contaminated fresh water (eg, swimming or</text>
+<text x="416" y="423" fontSize="5.0" className="fill-muted-foreground">bathing).</text>
+<text x="564" y="403" fontSize="5.0" className="fill-muted-foreground">Praziquantel.</text>
+        <rect x="52" y="476" width="710" height="38" rx="4" className="fill-secondary/60" />
+<text x="58" y="489" fontSize="5.4" fontWeight="800" className="fill-emergency">Clonorchis sinensis</text>
+<text x="184" y="489" fontSize="5.0" className="fill-muted-foreground">Biliary tract inflammation → pigmented gallstones; associated with cholangiocarcinoma.</text>
+<text x="416" y="489" fontSize="5.0" className="fill-muted-foreground">Undercooked fish.</text>
+<text x="564" y="489" fontSize="5.0" className="fill-muted-foreground">Praziquantel.</text>
+      </g>
+      {/* ===== ECTOPARASITES ===== */}
+      <g>
+        <rect x="36" y="538" width="908" height="284" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="560" fontSize="9" fontWeight="800" className="fill-foreground">ECTOPARASITES — book 158 (page ownership)</text>
+        <rect x="52" y="570" width="876" height="48" rx="6" className="fill-secondary" />
+<text x="60" y="584" fontSize="6.2" fontWeight="800" className="fill-brand">Sarcoptes scabiei</text>
+<text x="250" y="584" fontSize="5.0" className="fill-muted-foreground">Mites burrow into stratum corneum and cause scabies—pruritus (worse at night) and serpiginous burrows (lines) often between fingers and toes A. Common in</text>
+<text x="250" y="594" fontSize="5.0" className="fill-muted-foreground">children, crowded populations (jails, nursing homes); transmission through skin-to-skin contact (most common) or via fomites.</text>
+<text x="648" y="584" fontSize="5.0" className="fill-foreground">Treatment: permethrin cream, oral ivermectin, washing/drying all clothing/bedding, treat close contacts.</text>
+        <rect x="52" y="628" width="876" height="58" rx="6" className="fill-secondary/60" />
+<text x="60" y="642" fontSize="6.2" fontWeight="800" className="fill-brand">Pediculus humanus and Phthirus pubis</text>
+<text x="250" y="642" fontSize="5.0" className="fill-muted-foreground">Blood-sucking lice that cause intense pruritus with excoriations — scalp and neck (head lice), waistband and axilla (body lice), or pubic and perianal</text>
+<text x="250" y="652" fontSize="5.0" className="fill-muted-foreground">regions (pubic lice) B. Body lice can transmit Rickettsia prowazekii (epidemic typhus), Borrelia recurrentis (relapsing fever), Bartonella quintana</text>
+<text x="250" y="662" fontSize="5.0" className="fill-muted-foreground">(trench fever). Children with head lice can be treated at home without interrupting school attendance.</text>
+<text x="648" y="642" fontSize="5.0" className="fill-foreground">Treatment: pyrethroids, malathion, or ivermectin lotion, and nit combing.</text>
+        <rect x="52" y="696" width="876" height="58" rx="6" className="fill-secondary" />
+<text x="60" y="710" fontSize="6.2" fontWeight="800" className="fill-brand">Cimex lectularius and Cimex hemipterus</text>
+<text x="250" y="710" fontSize="5.0" className="fill-muted-foreground">Bed bugs — blood-feeding insects that infest dwellings; painless bites with pruritic, erythematous papules with central hemorrhagic punctum; a clustered</text>
+<text x="250" y="720" fontSize="5.0" className="fill-muted-foreground">or linear pattern of bites seen upon awakening is suggestive; diagnosis confirmed by direct identification of bed bugs in the dwelling; bites self resolve</text>
+<text x="250" y="730" fontSize="5.0" className="fill-muted-foreground">within 1 week; eradication of the infestation is critical.</text>
+<text x="648" y="710" fontSize="5.0" className="fill-foreground">Spreads among rooms; cohabitants may exhibit similar symptoms; via travelers from infested hotels and</text>
+<text x="648" y="720" fontSize="5.0" className="fill-foreground">unwashed used bedding.</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="838" width="908" height="46" rx="8" className="fill-secondary" />
+<text x="490" y="858" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">The Parasite-hints directory (book 158): biliary tract disease, cholangiocarcinoma → Clonorchis sinensis · brain cysts, seizures → Taenia solium (neurocysticercosis) · hematuria, SCC bladder → Schistosoma haematobium · liver hydatid cysts, infected dogs → Echinococcus granulosus ·</text>
+<text x="490" y="871" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">iron deficiency anemia → Ancylostoma, Necator · myalgias, periorbital edema → Trichinella · nocturnal perianal pruritus → Enterobius · portal hypertension → S mansoni, S japonicum · B12 deficiency → Diphyllobothrium latum</text>
+      </g>
+      {/* footer */}
+<text x="24" y="898" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Cestodes (tapeworms), Trematodes (flukes), Ectoparasites, and Parasite-hints blocks (pdf 179-180 / books 157-158 — pure vector; the printed photos are raster, COPYRIGHTED, described-in-text only). The source's banner typo</text>
+<text x="24" y="910" fontSize="7.2" className="fill-muted-foreground">prints on all three pages: 'MICROCIOLOGY—PARASITOLOGY'.</text>
+<text x="24" y="922" fontSize="7.2" className="fill-muted-foreground">FA's printed glosses (DiphylloB12 latum; ivermectin for river blindness is M20's) stay in the table block only. The Ectoparasites and Parasite-hints blocks print on book 158 under M21's page ownership (the M15/M9 page-ownership rule).</text>
+    </svg>
+  );
+}

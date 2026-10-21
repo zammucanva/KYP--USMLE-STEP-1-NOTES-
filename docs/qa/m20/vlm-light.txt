@@ -1,0 +1,12 @@
+===== element-nematode-route-map-light.png =====
+VERDICT: **CLEAN**
+
+**QA Check Details:**
+*   **Column Overruns:** None detected. The rightmost **TREATMENT** column (containing "Bendazoles", "Ivermectin", "Diethylcarbamazine", etc.) is fully contained within the panel borders with adequate padding.
+*   **Overlaps:** No text or element overlaps observed. Row heights are sufficient for multi-line disease descriptions.
+*   **Clipping:** No clipped text. All organism names, detailed disease descriptions, transmission routes, and treatment options are fully legible.
+*   **Contrast & Alignment:**
+    *   High contrast between black headers, red organism names, and grey body text against the light mint-green background.
+    *   Consistent 4-column grid alignment across both the **INTESTINAL** (7 rows) and **TISSUE** (3 rows) panels.
+    *   Header chips are perfectly aligned with their respective data columns.
+*   **Layout Integrity:** The anchors strip and 2-line footer are properly positioned without encroaching on the main data panels.

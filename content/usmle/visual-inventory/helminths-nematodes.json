@@ -1,0 +1,163 @@
+{
+  "topicId": "helminths-nematodes",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "helminths-nematodes-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Nematodes (roundworms) table (book 156)",
+      "sourceFigureDescription": "The printed 4-column table with 11 organisms and the Intestinal/Tissue split rails.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "nematode-route-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the Intestinal/Tissue panels + the cross-linked route-rails anchors strip"
+    },
+    {
+      "visualId": "helminths-nematodes-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The tape-test eggs micrograph (book 156)",
+      "sourceFigureDescription": "The Enterobius eggs visualized via the tape test, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "helminths-nematodes-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The knobby Ascaris-eggs micrograph (book 156)",
+      "sourceFigureDescription": "The knobby-coated oval eggs seen in feces, marker B.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "helminths-nematodes-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The cutaneous-larva-migrans photo (book 156)",
+      "sourceFigureDescription": "The hookworms' pruritic, serpiginous rash, marker C.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "helminths-nematodes-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The encysted-muscle-larvae micrograph (book 156)",
+      "sourceFigureDescription": "Trichinella larvae encysted in striated muscle, marker D.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "helminths-nematodes-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156–156"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The filarial-lymphedema photo (book 156)",
+      "sourceFigureDescription": "The elephantiasis lymphedema of Wuchereria/Brugia, marker E.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "helminths-nematodes",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "helminths-nematodes",
+    "textbookVisualCount": 6,
+    "accountedFor": 6,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 5,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "See the manifest notes for the census; all printed photos COPYRIGHTED, described-in-text only."
+}

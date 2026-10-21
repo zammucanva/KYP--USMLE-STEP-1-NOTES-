@@ -1,0 +1,323 @@
+===== element-cestode-trematode-map-light.png =====
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasite Hint Map Redraw</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-main: #1a1a1a;
+            --text-muted: #555555;
+            --accent-red: #d32f2f;
+            --accent-teal: #00897b;
+            --border-color: #00897b;
+            --panel-bg: #f0fdfb; /* Very light teal/cyan */
+            --header-bg: #e0f7fa; /* Slightly darker for headers */
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Header Section */
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            background: white;
+        }
+
+        .page-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .nav-pills {
+            background-color: #b2ebf2;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #006064;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .nav-pills span {
+            color: #00838f; /* Highlight color for 'stones' */
+        }
+
+        /* Panel Styles */
+        .panel {
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        .panel-header {
+            background-color: white; /* As per visual, header is inside the border but distinct */
+            padding: 16px 24px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+
+        .grid-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--panel-bg);
+        }
+
+        .grid-table th {
+            text-align: left;
+            padding: 12px 20px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #000;
+            background-color: transparent; 
+            /* Visual shows light bg on rows, headers seem to sit on top or blend */
+        }
+
+        .grid-table td {
+            padding: 20px;
+            vertical-align: top;
+            font-size: 0.8rem;
+            color: #333;
+            border-bottom: 1px solid rgba(255,255,255,0.5); /* Subtle separator if needed, visual looks like spacing */
+            line-height: 1.6;
+        }
+
+        .grid-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Column Specifics */
+        .col-org { width: 18%; font-weight: 700; color: var(--accent-red); }
+        .col-disease { width: 32%; color: #444; }
+        .col-trans { width: 25%; color: #666; }
+        .col-treat { width: 25%; color: #444; }
+
+        /* Ectoparasites Specifics (2-col layout) */
+        .ecto-grid th { width: 50%; }
+        .ecto-grid td { width: 50%; }
+        .ecto-org { color: var(--accent-teal); font-weight: 700; }
+
+        /* Anchors Strip */
+        .anchors-strip {
+            background-color: #e0f7fa;
+            padding: 30px 40px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #333;
+            line-height: 1.8;
+        }
+        
+        .anchors-strip strong {
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            font-size: 0.75rem;
+            color: #777;
+            line-height: 1.6;
+            padding-top: 10px;
+        }
+
+        /* Responsive tweaks */
+        @media (max-width: 900px) {
+            .grid-table, .grid-table tbody, .grid-table tr, .grid-table td {
+                display: block;
+                width: 100%;
+            }
+            .grid-table thead { display: none; }
+            .grid-table tr { margin-bottom: 20px; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 10px;}
+            /* Simplified responsive for this specific QA task which focuses on desktop layout fidelity */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header class="top-header">
+        <h1 class="page-title">Cestodes &amp; trematodes + ectoparasites — the hint map (original KYP redraw)</h1>
+        <div class="nav-pills">spines • <span>stones</span> • the hint directory</div>
+    </header>
+
+    <!-- Panel 1: CESTODES -->
+    <section class="panel">
+        <div class="panel-header">CESTODES (tapeworms) — book 157</div>
+        <table class="grid-table">
+            <thead>
+                <tr>
+                    <th class="col-org">ORGANISM</th>
+                    <th class="col-disease">DISEASE</th>
+                    <th class="col-trans">TRANSMISSION</th>
+                    <th class="col-treat">TREATMENT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-org">Taenia solium</td>
+                    <td class="col-disease">
+                        Intestinal tapeworm; Ingestion of larvae (cysticerci) in undercooked pork; AND cysticercosis, neurocysticercosis (seizures, CNS lesions), racemose B12 from ingestion of eggs in food contaminated with human feces.
+                    </td>
+                    <td class="col-trans">
+                        Undercooked pork (larvae); eggs in food contaminated with human/feces/soil; autoinfection for neurocysticercosis (feces).
+                    </td>
+                    <td class="col-treat"></td> <!-- Empty as per visual -->
+                </tr>
+                <tr>
+                    <td class="col-org">Diphyllobothrium latum</td>
+                    <td class="col-disease">
+                        Vitamin B12 deficiency (the tapeworm competes for B12 in intestine), megaloblastic anemia.
+                    </td>
+                    <td class="col-trans">
+                        Ingestion of larvae in raw freshwater fish.
+                    </td>
+                    <td class="col-treat">
+                        Praziquantel, niclosamide.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-org">Echinococcus granulosus</td>
+                    <td class="col-disease">
+                        Hydatid cysts ("hydatid sand/cysticerci") most commonly in liver & lung; larger rupture can cause anaphylaxis. Sheep are an intermediate host.
+                    </td>
+                    <td class="col-trans">
+                        Ingestion of eggs in food contaminated with dog feces.
+                    </td>
+                    <td class="col-treat">
+                        Albendazole surgery for complicated cysts.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Panel 2: TREMATODES -->
+    <section class="panel">
+        <div class="panel-header">TREMATODES (flukes) — book 157 (Clonorchis heading emits at the page end)</div>
+        <table class="grid-table">
+            <thead>
+                <tr>
+                    <th class="col-org">ORGANISM</th>
+                    <th class="col-disease">DISEASE</th>
+                    <th class="col-trans">TRANSMISSION</th>
+                    <th class="col-treat">TREATMENT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-org">Schistosoma</td>
+                    <td class="col-disease">
+                        Liver and spleen enlargement, fibrosis (inflammation), portal hypertension (Stomach/gut with Mucosal spines): S. mansoni (S. japonicum & S. mekongi can lead to chronic infection with hepatosplenomegaly, abdominal pain, liver deficiency (cirrhosis). Chronic infection with S. haematobium (egg with terminal spine) B: can lead to squamous cell carcinoma of the bladder (painless hematuria) and pulmonary hypertension.
+                    </td>
+                    <td class="col-trans">
+                        Snails are intermediate host; cercariae penetrate skin of humans (Parasitology is contact with contaminated fresh water (eg., swimming or bathing)).
+                    </td>
+                    <td class="col-treat"></td>
+                </tr>
+                <tr>
+                    <td class="col-org">Clonorchis sinensis</td>
+                    <td class="col-disease">
+                        Biliary tract inflammation → pigment gallstones, associated with cholangiocarcinoma.
+                    </td>
+                    <td class="col-trans">
+                        Undercooked fish.
+                    </td>
+                    <td class="col-treat">
+                        Praziquantel.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Panel 3: ECTOPARASITES -->
+    <section class="panel">
+        <div class="panel-header">ECTOPARASITES — book 158 (page ownership)</div>
+        <table class="grid-table ecto-grid">
+            <thead>
+                <tr>
+                    <th style="text-align:left; padding-left:24px;">ORGANISM / DISEASE CONTEXT</th>
+                    <th style="text-align:left;">SYMPTOMS / TREATMENT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ecto-org" style="padding-left:24px;">Sarcoptes scabiei</td>
+                    <td>
+                        Mite burrow into stratum corneum and cutaneous tunnels — pruritic (worse at night), are papules burrow (linear often between fingers and toes). A. Common in children, crowded populations (also nursing homes). Harvester mite (chiggers) also contact (forest, cemetery) or lawns.
+                        <br><br>
+                        <strong>Treatment:</strong> permethrin cream, oral ivermectin, washing/drying all clothing/bedding, treat close contacts.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ecto-org" style="padding-left:24px;">Pediculus humanus and Pthirus pubis</td>
+                    <td>
+                        Blood-sucking lice that cause intense pruritus with excoriations — body/pubic (crab lice) (pubic, armpits, and axilla body lice) or pubic; pubic lice transmit (public lice). Body lice can transmit (Bartonella quintana) epidemic typhus, Borrelia recurrentis (relapsing fever), (trench fever). Children with head lice can be treated at home without interrupting school attendance.
+                        <br><br>
+                        <strong>Treatment:</strong> pyrethrins, malathion, or ivermectin lotion, and/or combing.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ecto-org" style="padding-left:24px;">Cimex lectularius and Cimex hemipterus</td>
+                    <td>
+                        Bed bugs — blood-feeding insects that often dwell in mattresses, box springs, or furniture; erythematous papules with central hemorrhagic punctum, a clustered or linear pattern of bites often upon awakening is a suggestive diagnosis confirmed by clear identification of bed bugs in the dwelling (bite self-resolve within 1 week; eradication of the infestation is critical).
+                        <br><br>
+                        <strong>Symptoms among rooms:</strong> cohabitants may exhibit urticaria symptoms, vs. travelers from infested hotels and unwashed/used bedding.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Anchors Strip -->
+    <div class="anchors-strip">
+        “The Parasite-hints directory (book 158): biliary tract disease, cholangiocarcinoma — Clonorchis sinensis — brain cysts, seizures — Taenia solium (neurocysticercosis) — hematuria, SCC bladder — Schistosoma haematobium — liver hydatid cysts, infected dogs — Echinococcus granulosus — iron deficiency anemia — Ankylostoma, Necator — myalgias, periorbital edema — Trichinella — nontumoral preputial pruritus — Enterobius — portal hypertension — S. mansoni, S. japonicum, B12 deficiency — Diphyllobothrium latum
+    </div>
+
+    <!-- Footer Text -->
+    <footer class="footer">
+        Original KYP redraw of the source's Cestodes (tapeworms), Trematodes (flukes), Ectoparasites, and Parasite-hints blocks (pdf p179–180 / books 157–158 — pure vector: the printed photos are raster, COPYRIGHTED, described-in-text only). The source’s banner typo prints on all three pages: ‘MICROBIOLOGY—PARASITOLOGY.’<br>
+        FA’s printed glosses [Diphyll0B12 latum; ivermectin for river blindness in M20]’s stay in the table block only. The Ectoparasites and Parasite-hints blocks print on book 158 under M21’s page ownership (the M15/M9 page-ownership rule).
+    </footer>
+
+</div>
+
+</body>
+</html>
+```

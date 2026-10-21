@@ -1,0 +1,313 @@
+{
+  "topicId": "helminths-nematodes",
+  "title": "Nematodes: The Roundworms",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Parasitology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      178
+    ],
+    "bookPages": "156–156"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "156",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "▶ MICROCIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Nematodes (roundworms)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers (ORGANISM / DISEASE / TRANSMISSION / TREATMENT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enterobius row, interleaved (the 'Intestinal' rail emits mid-table at line 22; tape-test eggs A; children 5-10; bendazoles/pyrantel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Fecal-oral.\n\nBendazoles, pyrantel\npamoate.\n\nIntestinal\nEnterobius vermicularis Causes anal pruritus, worse at night\n(eggs A visualized via tape test). Most\n(pinworm)\ncommon in children aged 5-10.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ascaris row, interleaved (ileocecal/biliary obstruction; migration from nose/mouth; Löeffler syndrome; knobby oval eggs B; bendazoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Ascaris lumbricoides\n(giant roundworm)\n\nMay cause obstruction at ileocecal\nFecal-oral; knobby-coated,\nvalve, biliary obstruction, intestinal\noval eggs seen in feces\nperforation, migrates from nose/mouth.\nunder microscope B .\nMigration of larvae to alveoli →  Löeffler\nsyndrome (pulmonary eosinophilia).\n\nBendazoles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Strongyloides row, interleaved (GI/pulmonary/cutaneous; hyperinfection in the immunocompromised; rhabditiform larvae; ivermectin or bendazoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Strongyloides\nstercoralis\n(threadworm)\n\nGI (eg, duodenitis), pulmonary\nLarvae in soil penetrate skin;\n(eg, dry cough, hemoptysis), and\nrhabditiform larvae seen in\ncutaneous (eg, pruritus) symptoms.\nfeces under microscope.\nHyperinfection syndrome can be caused\nby accelerated autoinfection in the\nimmunocompromised.\n\nIvermectin or\nbendazoles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hookworms row, interleaved (microcytic anemia; cutaneous larva migrans C; barefoot skin penetration; bendazoles/pyrantel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Ancylostoma spp,\nNecator americanus\n(hookworms)\n\nCause microcytic anemia by sucking\nblood from intestinal wall.\nCutaneous larva migrans—pruritic,\nserpiginous rash C .\n\nLarvae penetrate skin\nfrom walking barefoot on\ncontaminated beach/soil.\n\nBendazoles or pyrantel\npamoate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trichinella row, interleaved (encyst in striated muscle D; periorbital edema, myositis; undercooked pork; bendazoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Trichinella spiralis\n\nLarvae enter bloodstream, encyst in\nstriated muscle D →  myositis.\nTrichinosis—fever, vomiting, nausea,\nperiorbital edema, myalgia.\n\nUndercooked meat (especially Bendazoles.\npork); fecal-oral (less likely).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trichuris row, interleaved (rectal prolapse in children; bendazoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Trichuris trichiura\n(whipworm)\n\nOften asymptomatic; loose stools,\nanemia, rectal prolapse in children.\n\nFecal-oral.\n\nBendazoles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxocara row, interleaved (visceral larva migrans — liver/eyes/CNS/heart; bendazoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Toxocara canis\n\nVisceral larva migrans—migration into\nblood →  inflammation of liver, eyes\n(visual impairment), CNS (seizures,\ncoma), heart (myocarditis). Patients\noften asymptomatic.\n\nFecal-oral.\n\nBendazoles.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Onchocerca row (river blindness; female black fly; ivermectin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Onchocerca volvulus\n\nBlack skin nodules, river blindness\n(“black sight”).\n\nFemale black fly.\n\nIvermectin (ivermectin\nfor river blindness).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Loa loa row (conjunctival worm; deer/horse/mango fly; diethylcarbamazine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Loa loa\n\nSwelling in skin, worm in conjunctiva.\n\nDeer fly, horse fly, mango fly.\n\nDiethylcarbamazine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Wuchereria/Brugia row, interleaved (lymphatic filariasis — elephantiasis with lymphedema E; onset 9 mo-1 yr; female mosquito; diethylcarbamazine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "Wuchereria bancrofti,\nBrugia malayi\n\nLymphatic filariasis (elephantiasis)—\nworms invade lymph nodes\n→  inflammation →  lymphedema E ;\nsymptom onset after 9 mo-1 yr.\n\nFemale mosquito.\n\nDiethylcarbamazine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure block + the Tissue rail (physical order, lines 136-148: A, B, Tissue, the indd footer at 142, C, D, E)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "A\n\nB\n\nTissue\n\nFAS1_2026_03-Microbiology.indd 156\n\nC\n\nD\n\nE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          178
+        ],
+        "bookPages": "156"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "nematode-route-map"
+  ],
+  "mechanismIds": [
+    "nematode-route-axis",
+    "hyperinfection-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "route-migration-synthesis",
+      "summary": "The Intestinal/Tissue split wired to the cross-linked route rails (Ingested/Cutaneous/Bites — printed on book 155 under M19's ownership); the larval-migration phenomena (Löeffler, cutaneous larva migrans, striated-muscle encystment, visceral larva migrans); the hyperinfection axis of Strongyloides in the immunocompromised; and the therapy spine (bendazoles / ivermectin / diethylcarbamazine) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table without the route synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: 5 photo markers on p178 (A tape-test eggs, B the knobby Ascaris eggs, C the cutaneous larva migrans, D the encysted muscle larvae, E the filarial lymphedema) with pdfimages listing 2 XObjects on p178 and the remainder under the 179-180 batch — the attribution discrepancy documented. The banner typo MICROCIOLOGY prints at line 6. The Intestinal/Tissue rails emit as standalone lines (22/140). The route rails print on book 155 (M19's ownership) — cross-linked. FA's glosses (ivermectin for river blindness) stay in the table block only.",
+  "updatedAt": "2026-10-21"
+}
