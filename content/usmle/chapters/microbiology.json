@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 26,
+  "pendingTopicCount": 25,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -1850,8 +1850,474 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Clinical Bacteriology",
-      "status": "pending",
-      "productionRationale": "The three spirochetes plus syphilis's primary-secondary-tertiary staging with congenital transmission and the nontreponemal-vs-treponemal testing logic (RPR/VDRL vs FTA-ABS/TP-PA)."
+      "status": "complete",
+      "productionRationale": "The three spirochetes plus syphilis's primary-secondary-tertiary staging with congenital transmission and the nontreponemal-vs-treponemal testing logic (RPR/VDRL vs FTA-ABS/TP-PA).",
+      "textbookVisuals": [
+        {
+          "visualId": "spirochetes-syphilis-sv1",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "DIAGNOSTIC_ALGORITHM",
+          "visualPurpose": "The diagnosing-syphilis test-selection tree (book 146)",
+          "sourceFigureDescription": "The printed branch diagram: Serologic testing (light box) splitting into Nontreponemal (nonspecific) with leaves RPR and VDRL, and Treponemal (specific) with leaves FTA-ABS and TP-PA; Direct testing (orange box) with leaves Darkfield microscopy and PCR. Pure vector.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "spirochete-syphilis-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the SEROLOGY panel — the redraw of the printed tree with its two root branches, the rules strip, and the false-positive list",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "spirochete-syphilis-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv2",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The syphilis staging sections (book 145)",
+          "sourceFigureDescription": "The printed staging directory: the Treponema pallidum line (penicillin G) followed by the Primary / Secondary / Tertiary / Congenital syphilis sections with their inline photo markers (A, B, C, D, E, F, G).",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "spirochete-syphilis-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the CLOCK panel — the four stage cards with the congenital branch; the verbatim staging text also carried in the note's table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "spirochete-syphilis-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv3",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Lyme disease section (book 144)",
+          "sourceFigureDescription": "The printed Lyme block: the Ixodes/mouse/deer reservoir paragraph and the three stages with the printed FACE mnemonic box and treatment lines.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "spirochete-syphilis-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the LYME panel — the vector/reservoir card with the three stage cards; the verbatim text also carried in the note's table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "spirochete-syphilis-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv4",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "V. cholerae — the comma-shaped rod micrograph (book 144)",
+          "sourceFigureDescription": "A gram-stain micrograph of the comma-shaped Vibrio cholerae organism, its marker A printed after 'comma shaped'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, V. cholerae row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv5",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "H. pylori — the curved-rod micrograph (book 144)",
+          "sourceFigureDescription": "A micrograph of the curved, flagellated (motile) H. pylori rod, its marker A printed after 'gram ⊝ rod'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, H. pylori row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv6",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Spirochetes — the spiral-with-axial-filaments micrograph (book 144)",
+          "sourceFigureDescription": "A micrograph of spiral-shaped bacteria with axial filaments, its marker A printed after 'Spiral-shaped bacteria'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Spirochetes row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv7",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Lyme disease — the Ixodes deer tick photo (book 144)",
+          "sourceFigureDescription": "A photograph of the Ixodes deer tick, its marker A printed after 'Ixodes deer tick'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Lyme disease row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv8",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Lyme disease — the erythema migrans bulls-eye photo (book 144)",
+          "sourceFigureDescription": "A clinical photograph of erythema migrans in the typical bulls-eye configuration, its marker B printed after 'configuration'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, Lyme disease row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv9",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Primary syphilis — the chancre dark-field micrograph (book 145)",
+          "sourceFigureDescription": "A dark-field micrograph of treponemes in chancre fluid, its marker A printed after 'fluid from chancre'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — figure pointer carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv10",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Secondary syphilis — the maculopapular rash photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of the diffuse maculopapular rash, its marker B printed after 'maculopapular rash'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv11",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Secondary syphilis — the palms photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of the maculopapular rash on the palms, its marker C1 printed in the bottom block.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv12",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Secondary syphilis — the soles photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of the maculopapular rash on the soles, its marker C2 printed in the bottom block.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv13",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Secondary syphilis — the condylomata lata photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of the smooth, painless, wartlike white genital lesions, its marker D printed after 'condylomata lata'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv14",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Tertiary syphilis — the gumma photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of a gumma (chronic granuloma), its marker E printed after 'Gummas'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv15",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Congenital syphilis — the facial-abnormalities photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of the congenital syphilis face with the black arrow marking rhagades (linear scars at the angle of the mouth) and the red arrow marking snuffles (nasal discharge), its marker F printed in the bottom block.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        },
+        {
+          "visualId": "spirochetes-syphilis-sv16",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              166,
+              167,
+              168
+            ],
+            "bookPages": "144–146"
+          },
+          "chapterId": "microbiology",
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "Congenital syphilis — the Hutchinson-teeth photo (book 145)",
+          "sourceFigureDescription": "A clinical photograph of notched (Hutchinson) teeth, its marker G printed after 'notched (Hutchinson) teeth'.",
+          "requiredInKYP": true,
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Clinical Bacteriology",
+          "topicId": "spirochetes-syphilis",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] table block, the syphilis-clock row — described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "note-block",
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "intracellular-bacteria",

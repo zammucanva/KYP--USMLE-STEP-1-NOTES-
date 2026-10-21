@@ -1,0 +1,38 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 166     0 image     188   188  gray    1   8  jpeg   no      6820  0   150   150 2085B 5.9%
+ 166     1 image     188   188  gray    1   8  jpeg   no      6821  0   150   150 5897B  17%
+ 166     2 image     188   188  cmyk    4   8  jpeg   no      6822  0   150   150 9077B 6.4%
+ 166     3 image     187   188  cmyk    4   8  jpeg   no      6823  0   150   150 24.0K  17%
+ 166     4 image     188   188  cmyk    4   8  jpeg   no      6824  0   150   150 8305B 5.9%
+ 167     5 image     216   225  cmyk    4   8  jpeg   no      6827  0   150   150 11.7K 6.2%
+ 167     6 image     216   225  cmyk    4   8  jpeg   no      6828  0   150   150 14.4K 7.6%
+ 167     7 image     216   224  cmyk    4   8  jpeg   no      6829  0   150   150 17.1K 9.1%
+ 167     8 image     214   223  cmyk    4   8  jpeg   no      6830  0   150   150 13.4K 7.2%
+ 167     9 image     216   225  cmyk    4   8  jpeg   no      6831  0   150   150 24.3K  13%
+ 167    10 image     216   225  cmyk    4   8  jpeg   no      6832  0   150   150 20.8K  11%
+ 167    11 image     216   225  cmyk    4   8  jpeg   no      6833  0   150   150 15.7K 8.3%
+ 167    12 image     215   225  gray    1   8  jpeg   no      6834  0   150   150 5420B  11%
+ 168    13 image     188   188  cmyk    4   8  jpeg   no      6852  0   150   150 17.8K  13%
+
+=== census summary (M14, pdf 166-168 / book 144-146) ===
+p166: 5 rasters (2 gray: V. cholerae comma A, H. pylori curved rod A; 3 cmyk: the
+spirochete with axial filaments A, the Ixodes deer tick A, erythema migrans B) —
+all COPYRIGHTED, described-in-text only. The heading block + markers + printed
+footer emit as ONE figure block (dump lines 4-18) before the page banner.
+p167: 8 rasters (chancre dark-field A, maculopapular rash B, palms C1, soles C2,
+condylomata lata D, gummas E, the congenital face F with the rhagades black arrow
+and snuffles red arrow, Hutchinson teeth G) — all described-in-text only; the
+bottom-of-page marker block emits as A/B/C1/C2/D/E/F/G (lines 51-65).
+p168: 1 raster (the chlamydial conjunctivitis photo A) — that image belongs to
+M15's Chlamydiae section (PAGE BOUNDARY: pdf 168 shared; M14 owns the
+syphilis-testing section, the tree cells interleaved with M15's Chlamydiae at
+dump lines 25-42 and 60-65; the Chlamydiae section 34-105 is M15's).
+The diagnosing-syphilis tree is PURE VECTOR (redrawn as the SEROLOGY panel).
+Curved-rod entries (V. cholerae, V. vulnificus, H. pylori) belong to M14 by
+PAGE OWNERSHIP of book 144 (the M12 tree's curved-rod leaves completed; the
+M9 B-anthracis-bridge precedent).
+Column-resolution: VLM census (200-DPI x3 pages) matched the text layer; the
+test-selection tree geometry resolved (Serologic root -> Nontreponemal [RPR,
+VDRL] + Treponemal [FTA-ABS, TP-PA]; Direct root -> Darkfield, PCR; the
+syphilis content stacked above the Chlamydiae block on the shared page).

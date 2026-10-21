@@ -1,0 +1,29 @@
+===== element-spirochete-syphilis-map-light.png =====
+**Paint QA Report: element-spirochete-syphilis-map-light.png**
+
+1.  **OVERLAPS**
+    *   **Panel 1 (The Spirochete Trio):** The bottom-most wrapped lines of text in the *Leptospira* and *Treponema pallidum* cards are dangerously close to the top border of the "JARISCH-HERXHEIMER REACTION" bar. While not strictly overlapping, the vertical clearance is minimal (likely < 5px), which may cause visual crowding on lower-resolution displays.
+    *   **Panel 3 (The Syphilis Clock):** The *TERTIARY* and *CONGENITAL* stage cards contain dense, multi-line descriptions. The final lines of text in these two cards are very close to the card's bottom padding/border. Additionally, the "Treatment: penicillin G..." line sits tightly beneath these cards with little breathing room.
+    *   **Panel 5 (The Curved-Rod Roster):** The descriptive text for *Vibrio cholerae (+ V. vulnificus)* wraps to three lines. The third line is extremely close to the row's bottom border, risking a visual collision if the font renders slightly larger.
+
+2.  **CLIPPING**
+    *   **No hard clipping detected.** All text appears fully contained within its respective cards, panels, and the overall canvas. The anchors strip and the three-line footer at the bottom are fully visible and not cut off by the image edge.
+
+3.  **CONTRAST/READABILITY**
+    *   **Panel 2 & Panel 5 Backgrounds:** These panels use a very light cyan/green tint (`#f0faf8` or similar). The body text within them is a medium-dark gray. While legible, the contrast ratio is lower than the pure white backgrounds used in other panels. Users with minor visual impairments may find this text slightly more difficult to read.
+    *   **Footer Text:** The fine-print footer uses a small font size (~11-12px) in a light gray color. It is readable but strains the eyes due to the low contrast against the white background.
+
+4.  **ALIGNMENT**
+    *   **Panel 3 (The Syphilis Clock):** The four stage cards (*PRIMARY*, *SECONDARY*, *TERTIARY*, *CONGENITAL*) have significantly different heights due to varying text lengths. They are **top-aligned**, which creates an uneven bottom edge. This is a stylistic choice, but it leaves large gaps of empty space at the bottom of the shorter *PRIMARY* and *SECONDARY* cards.
+    *   **Panel 4 (The Serology Tree):** The layout is well-structured. The leaf boxes (RPR, VDRL, etc.) are evenly spaced. The "FALSE-POSITIVE VDRL WITH:" list is properly indented and aligned under its header.
+
+5.  **CONTENT CHECK**
+    *   **Panel 1:** Depicts the three main spirochetes (*Leptospira*, *Treponema pallidum*, *Borrelia burgdorferi*) with key morphological and clinical features, followed by a definition of the Jarisch-Herxheimer reaction.
+    *   **Panel 2:** Details Lyme disease, outlining the vector/reservoir (Ixodes tick), the three clinical stages (localized, disseminated, late), and standard doxycycline treatment.
+    *   **Panel 3:** Presents "The Syphilis Clock," breaking down the four stages of syphilis (Primary, Secondary, Tertiary, Congenital) with their classic signs and noting Penicillin G as the treatment.
+    *   **Panel 4:** Illustrates the diagnostic algorithm for syphilis, branching into Serologic (Nontreponemal vs. Treponemal) and Direct testing methods, including a list of causes for false-positive VDRL results.
+    *   **Panel 5:** Lists curved-rod bacteria, specifically describing the pathogenesis and clinical features of *Vibrio cholerae/vulnificus* and *Helicobacter pylori*.
+
+VERDICT: DEFECTS FOUND
+*   **Tight Vertical Margins:** Text in Panels 1, 3, and 5 sits too close to bottom borders/bars, creating visual clutter.
+*   **Low Contrast Areas:** The tinted backgrounds in Panels 2 and 5 reduce readability compared to the rest of the schematic.

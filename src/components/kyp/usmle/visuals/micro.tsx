@@ -1734,3 +1734,152 @@ export function EntericPathogenMap() {
     </svg>
   );
 }
+
+
+
+
+export function SpirocheteSyphilisMap() {
+  const w = 980;
+  const h = 1195;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Spirochetes and syphilis, an original KYP staging map: the spirochete trio (Leptospira with hook-shaped ends from animal-urine water and Weil disease; Treponema visualized by dark-field or DFA; Borrelia the only spirochete seen with aniline dyes on light microscopy) with the Jarisch-Herxheimer reaction; Lyme disease with the Ixodes deer tick, the mouse reservoir, and its three stages; the syphilis clock from the painless chancre through the systemic secondary stage to the gummas, aortitis, and neurosyphilis of tertiary with the Argyll Robertson pupil, plus the congenital branch; the serology tree (nontreponemal RPR/VDRL vs treponemal FTA-ABS/TP-PA, with darkfield and PCR as direct testing) with the false-positive VDRL causes; and the curved-rod roster of book 144 (Vibrio cholerae with its Gs-activating enterotoxin, Vibrio vulnificus, and Helicobacter pylori with its urease)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Spirochetes &amp; syphilis — the staging map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" rx="9" className="fill-brand-soft" />
+<text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">trio · lyme · clock · serology · roster</text>
+      </g>
+      {/* ===== THE SPIROCHETE TRIO ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="157" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE SPIROCHETE TRIO — spiral-shaped bacteria with axial filaments: Leptospira, Treponema, Borrelia</text>
+        <rect x="52" y="108" width="284" height="87" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="62" y="124" fontSize="6.6" fontWeight="800" className="fill-brand">Leptospira</text>
+<text x="62" y="138" fontSize="5.0" className="fill-muted-foreground">Hook-shaped ends. Water contaminated with animal urine. Leptospirosis — flulike symptoms, myalgias</text>
+<text x="62" y="149" fontSize="5.0" className="fill-muted-foreground">(classically of calves), jaundice, photophobia with conjunctival suffusion (erythema without exudate).</text>
+<text x="62" y="160" fontSize="5.0" className="fill-muted-foreground">Prevalent among surfers and in the tropics (eg, Hawaii). Weil disease (icterohemorrhagic</text>
+<text x="62" y="171" fontSize="5.0" className="fill-muted-foreground">leptospirosis) — the severe form: jaundice and azotemia from liver and kidney dysfunction, fever,</text>
+<text x="62" y="182" fontSize="5.0" className="fill-muted-foreground">hemorrhage, anemia.</text>
+        <rect x="348" y="108" width="284" height="76" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="358" y="124" fontSize="6.6" fontWeight="800" className="fill-emergency">Treponema pallidum</text>
+<text x="358" y="138" fontSize="5.0" className="fill-muted-foreground">Visualized by DARK-FIELD microscopy or direct fluorescent antibody (DFA) microscopy. The syphilis</text>
+<text x="358" y="149" fontSize="5.0" className="fill-muted-foreground">organism — treatment penicillin G. Primary: painless chancre (VDRL ⊕ in ~80%). Secondary: systemic.</text>
+<text x="358" y="160" fontSize="5.0" className="fill-muted-foreground">Tertiary: gummas, aortitis, neurosyphilis. Congenital via placental transmission typically after the</text>
+<text x="358" y="171" fontSize="5.0" className="fill-muted-foreground">first trimester — treat the patient early in pregnancy to prevent.</text>
+        <rect x="644" y="108" width="284" height="76" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="654" y="124" fontSize="6.6" fontWeight="800" className="fill-brand">Borrelia burgdorferi</text>
+<text x="654" y="138" fontSize="5.0" className="fill-muted-foreground">The ONLY spirochete visualized with aniline dyes (Wright or Giemsa stain) in light microscopy, due to</text>
+<text x="654" y="149" fontSize="5.0" className="fill-muted-foreground">size. Lyme disease: transmitted by the Ixodes deer tick (also the vector for Anaplasma spp. and the</text>
+<text x="654" y="160" fontSize="5.0" className="fill-muted-foreground">protozoa Babesia). Natural reservoir is the mouse; deer are essential to the tick life cycle but do</text>
+<text x="654" y="171" fontSize="5.0" className="fill-muted-foreground">NOT harbor Borrelia. Common in the northeastern United States.</text>
+        <rect x="52" y="203" width="876" height="24" rx="6" className="fill-secondary" />
+<text x="64" y="219" fontSize="5.4" fontWeight="700" className="fill-foreground">JARISCH-HERXHEIMER REACTION — flulike symptoms (fever, chills, headache, myalgia) after antibiotics are started, due to the host response to sudden release of bacterial antigens; usually occurs during treatment of spirochetal infections.</text>
+      </g>
+      {/* ===== LYME DISEASE ===== */}
+      <g>
+        <rect x="36" y="249" width="908" height="204" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="271" fontSize="9" fontWeight="800" className="fill-foreground">LYME DISEASE — Borrelia burgdorferi · the Ixodes deer tick (also the vector for Anaplasma spp. and the protozoa Babesia)</text>
+        <rect x="52" y="281" width="876" height="147" rx="8" className="fill-secondary" />
+<text x="62" y="297" fontSize="6.2" fontWeight="800" className="fill-brand">VECTOR &amp; RESERVOIR</text>
+<text x="62" y="311" fontSize="5.2" className="fill-muted-foreground">Natural reservoir is the MOUSE; deer are essential to the tick life cycle but do NOT harbor Borrelia. Common in the northeastern United States.</text>
+<text x="62" y="330" fontSize="6.2" fontWeight="800" className="fill-brand">THE THREE STAGES</text>
+<text x="62" y="344" fontSize="5.4" fontWeight="800" className="fill-emergency">STAGE 1 — EARLY LOCALIZED</text>
+<text x="62" y="358" fontSize="5.0" className="fill-muted-foreground">Erythema migrans — the typical “bulls-eye” configuration is pathognomonic but not always present; flulike symptoms.</text>
+<text x="62" y="372" fontSize="5.4" fontWeight="800" className="fill-emergency">STAGE 2 — EARLY DISSEMINATED</text>
+<text x="62" y="386" fontSize="5.0" className="fill-muted-foreground">Secondary lesions · carditis, AV block · facial nerve (Bell) palsy · migratory myalgias / transient arthritis.</text>
+<text x="62" y="400" fontSize="5.4" fontWeight="800" className="fill-emergency">STAGE 3 — LATE DISSEMINATED</text>
+<text x="62" y="414" fontSize="5.0" className="fill-muted-foreground">Encephalopathy · chronic arthritis · peripheral neuropathy.</text>
+<text x="52" y="444" fontSize="5.2" fontWeight="700" className="fill-foreground">Treatment: doxycycline (1st line); amoxicillin (pregnant patients, children &lt;8 years old); ceftriaxone if IV therapy required.</text>
+      </g>
+      {/* ===== THE SYPHILIS CLOCK ===== */}
+      <g>
+        <rect x="36" y="469" width="908" height="166" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="491" fontSize="9" fontWeight="800" className="fill-foreground">THE SYPHILIS CLOCK — Treponema pallidum · the congenital branch is the vertical-transmission lane</text>
+        <rect x="52" y="501" width="212" height="64" rx="8" className="fill-secondary" />
+<text x="62" y="517" fontSize="7" fontWeight="800" className="fill-emergency">PRIMARY</text>
+<text x="62" y="531" fontSize="5.0" className="fill-muted-foreground">Localized disease presenting with a PAINLESS CHANCRE. Use fluorescent or</text>
+<text x="62" y="541" fontSize="5.0" className="fill-muted-foreground">dark-field microscopy to visualize treponemes in fluid from the chancre.</text>
+<text x="62" y="551" fontSize="5.0" className="fill-muted-foreground">VDRL ⊕ in ~80% of patients.</text>
+        <rect x="276" y="501" width="212" height="104" rx="8" className="fill-secondary" />
+<text x="286" y="517" fontSize="7" fontWeight="800" className="fill-brand">SECONDARY</text>
+<text x="286" y="531" fontSize="5.0" className="fill-muted-foreground">Disseminated disease with constitutional symptoms, maculopapular rash</text>
+<text x="286" y="541" fontSize="5.0" className="fill-muted-foreground">(including palms and soles), condylomata lata (smooth, painless, wartlike</text>
+<text x="286" y="551" fontSize="5.0" className="fill-muted-foreground">white lesions on genitals), lymphadenopathy, patchy hair loss; also</text>
+<text x="286" y="561" fontSize="5.0" className="fill-muted-foreground">confirmable with dark-field microscopy. Serologic testing: VDRL/RPR</text>
+<text x="286" y="571" fontSize="5.0" className="fill-muted-foreground">(nonspecific), confirm with a specific test (eg, FTA-ABS). Secondary</text>
+<text x="286" y="581" fontSize="5.0" className="fill-muted-foreground">syphilis = systemic. Latent syphilis (⊕ serology without symptoms) may</text>
+<text x="286" y="591" fontSize="5.0" className="fill-muted-foreground">follow.</text>
+        <rect x="500" y="501" width="212" height="74" rx="8" className="fill-secondary" />
+<text x="510" y="517" fontSize="7" fontWeight="800" className="fill-emergency">TERTIARY</text>
+<text x="510" y="531" fontSize="5.0" className="fill-muted-foreground">Gummas (chronic granulomas), aortitis (vasa vasorum destruction),</text>
+<text x="510" y="541" fontSize="5.0" className="fill-muted-foreground">neurosyphilis (tabes dorsalis, “general paresis”), Argyll Robertson pupil</text>
+<text x="510" y="551" fontSize="5.0" className="fill-muted-foreground">(constricts with accommodation but is not reactive to light). Signs:</text>
+<text x="510" y="561" fontSize="5.0" className="fill-muted-foreground">broad-based ataxia, ⊕ Romberg, Charcot joint, stroke without hypertension.</text>
+        <rect x="724" y="501" width="212" height="84" rx="8" className="fill-secondary" />
+<text x="734" y="517" fontSize="7" fontWeight="800" className="fill-brand">CONGENITAL</text>
+<text x="734" y="531" fontSize="5.0" className="fill-muted-foreground">Facial abnormalities: rhagades (linear scars at angle of mouth), snuffles</text>
+<text x="734" y="541" fontSize="5.0" className="fill-muted-foreground">(nasal discharge), saddle nose, notched (Hutchinson) teeth, mulberry molars,</text>
+<text x="734" y="551" fontSize="5.0" className="fill-muted-foreground">and short maxilla; saber shins; CN VIII deafness. To prevent, treat the</text>
+<text x="734" y="561" fontSize="5.0" className="fill-muted-foreground">patient early in pregnancy — placental transmission typically occurs after</text>
+<text x="734" y="571" fontSize="5.0" className="fill-muted-foreground">the first trimester.</text>
+<text x="52" y="627" fontSize="5.4" fontWeight="700" className="fill-foreground">Treatment: penicillin G. To prevent congenital syphilis, treat the patient early in pregnancy (placental transmission typically after the first trimester).</text>
+      </g>
+      {/* ===== THE SEROLOGY TREE (redraw of the printed test-selection tree) ===== */}
+      <g>
+        <rect x="36" y="651" width="908" height="219" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="673" fontSize="9" fontWeight="800" className="fill-foreground">THE SEROLOGY TREE — diagnosing syphilis (book 146, redrawn)</text>
+        <rect x="52" y="685" width="428" height="24" rx="6" className="fill-card stroke-border" />
+<text x="266" y="701" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">SEROLOGIC TESTING</text>
+        <rect x="496" y="685" width="432" height="24" rx="6" className="fill-card stroke-border" />
+<text x="712" y="701" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">DIRECT TESTING</text>
+        <rect x="52" y="717" width="208" height="22" rx="6" className="fill-secondary" />
+<text x="156" y="732" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">Nontreponemal (nonspecific)</text>
+        <rect x="272" y="717" width="208" height="22" rx="6" className="fill-secondary" />
+<text x="376" y="732" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">Treponemal (specific)</text>
+        <rect x="52" y="745" width="100" height="26" rx="6" className="fill-card stroke-border" />
+<text x="102" y="762" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">RPR</text>
+        <rect x="162" y="745" width="100" height="26" rx="6" className="fill-card stroke-border" />
+<text x="212" y="762" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">VDRL</text>
+        <rect x="272" y="745" width="100" height="26" rx="6" className="fill-card stroke-border" />
+<text x="322" y="762" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">FTA-ABS</text>
+        <rect x="382" y="745" width="100" height="26" rx="6" className="fill-card stroke-border" />
+<text x="432" y="762" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">TP-PA</text>
+        <rect x="496" y="717" width="208" height="26" rx="6" className="fill-card stroke-border" />
+<text x="600" y="734" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">Darkfield microscopy</text>
+        <rect x="720" y="717" width="208" height="26" rx="6" className="fill-card stroke-border" />
+<text x="824" y="734" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">PCR</text>
+<text x="52" y="785" fontSize="5.2" className="fill-muted-foreground">VDRL and RPR detect nonspecific antibody that reacts with BEEF CARDIOLIPIN — quantitative, inexpensive, widely available; sensitive but NOT specific.</text>
+<text x="52" y="796" fontSize="5.2" className="fill-muted-foreground">After treatment: nontreponemal tests (VDRL, RPR) and direct testing REVERT TO NEGATIVE; treponemal tests (FTA-ABS, TP-PA) REMAIN POSITIVE.</text>
+<text x="52" y="813" fontSize="6.2" fontWeight="800" className="fill-emergency">FALSE-POSITIVE VDRL WITH:</text>
+<text x="52" y="827" fontSize="5.2" className="fill-muted-foreground">Pregnancy · Viral infection (eg, EBV, hepatitis) · Drugs (eg, chlorpromazine, procainamide) · Rheumatic fever (rare) · Lupus (anticardiolipin antibody) and Leprosy</text>
+      </g>
+      {/* ===== THE CURVED-ROD ROSTER (book 144, page ownership) ===== */}
+      <g>
+        <rect x="36" y="886" width="908" height="170" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="908" fontSize="9" fontWeight="800" className="fill-foreground">THE CURVED-ROD ROSTER — the book-144 entries (the M12 tree’s curved-rod leaves, completed)</text>
+        <rect x="52" y="918" width="876" height="63" rx="7" className="fill-secondary" />
+<text x="64" y="933" fontSize="6.4" fontWeight="800" className="fill-emergency">Vibrio cholerae (+ V. vulnificus)</text>
+<text x="240" y="933" fontSize="5.0" className="fill-muted-foreground">Gram ⊝, flagellated, comma shaped, oxidase ⊕, grows in alkaline media. Endemic to developing countries. Produces profuse rice-water diarrhea via enterotoxin that permanently activates Gs → ↑ cAMP. Sensitive to stomach acid (acid labile); requires large inoculum</text>
+<text x="240" y="944" fontSize="5.0" className="fill-muted-foreground">(high ID50) unless the host has ↓ gastric acidity. Transmitted via ingestion of contaminated water or uncooked food (eg, raw shellfish). Treat promptly with oral rehydration solution. V. vulnificus — gram ⊝ bacillus of marine environments: severe wound</text>
+<text x="240" y="955" fontSize="5.0" className="fill-muted-foreground">infections or septicemia from contaminated sea water; cellulitis that can progress to necrotizing fasciitis in high-risk patients, especially with high serum iron (eg, cirrhosis, hemochromatosis). Serious wound infection requires surgical debridement.</text>
+        <rect x="52" y="989" width="876" height="63" rx="7" className="fill-secondary" />
+<text x="64" y="1004" fontSize="6.4" fontWeight="800" className="fill-brand">Helicobacter pylori</text>
+<text x="240" y="1004" fontSize="5.0" className="fill-muted-foreground">Curved, flagellated (motile) gram ⊝ rod that is TRIPLE ⊕: catalase ⊕, oxidase ⊕, and urease ⊕ (urea breath test or fecal antigen test for diagnosis). Urease produces ammonia, creating an alkaline environment that helps H pylori survive in acidic mucosa.</text>
+<text x="240" y="1015" fontSize="5.0" className="fill-muted-foreground">Colonizes mainly the antrum of the stomach; causes gastritis and peptic ulcers (especially duodenal). Risk factor for peptic ulcer disease, gastric adenocarcinoma, and MALT lymphoma. Triple therapy: amoxicillin (metronidazole if penicillin allergy) +</text>
+<text x="240" y="1026" fontSize="5.0" className="fill-muted-foreground">clarithromycin + proton pump inhibitor. Bismuth-based quadruple therapy if concerned about macrolide resistance.</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1072" width="908" height="33" rx="8" className="fill-secondary" />
+<text x="490" y="1092" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Borrelia is the only spirochete seen on light microscopy (aniline dyes — Wright/Giemsa); Treponema needs dark-field or DFA · VDRL/RPR: beef cardiolipin, sensitive not specific, revert to negative after treatment; FTA-ABS/TP-PA remain positive</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1119" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source’s spirochete trio, Lyme stages, syphilis clock, and the diagnosing-syphilis test-selection tree (pdf 166-168 / book 144-146; the tree on book 146 redrawn as the SEROLOGY panel — pdf 168 is the shared page: M14 owns the</text>
+<text x="24" y="1131" fontSize="7.2" className="fill-muted-foreground">syphilis-testing section, the Chlamydiae section below it is M15’s).</text>
+<text x="24" y="1143" fontSize="7.2" className="fill-muted-foreground">The printed images (the comma/curved-rod/spirochete micrographs, the Ixodes tick, the erythema migrans bulls-eye, the chancre dark-field, the maculopapular rash with palms and soles, condylomata lata, gummas, the congenital face with rhagades and snuffles</text>
+<text x="24" y="1155" fontSize="7.2" className="fill-muted-foreground">arrows, Hutchinson teeth) are raster — COPYRIGHTED,</text>
+<text x="24" y="1167" fontSize="7.2" className="fill-muted-foreground">described-in-text only. FA’s printed mnemonics (Little Twirling Bacteria; A Key Lyme pie to the FACE; the triple-therapy letter gloss) are NOT reproduced here — verification only, carried verbatim in the note’s table block.</text>
+    </svg>
+  );
+}

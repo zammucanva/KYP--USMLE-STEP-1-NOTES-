@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -302,4 +302,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "tb-spectrum-map": TbSpectrumMap,
   "gram-neg-bacilli-map": GramNegBacilliMap,
   "enteric-pathogen-map": EntericPathogenMap,
+  "spirochete-syphilis-map": SpirocheteSyphilisMap,
 };

@@ -1,0 +1,34 @@
+===== element-spirochete-syphilis-map-light.png =====
+**Paint QA Report: element-spirochete-syphilis-map-light.png**
+
+1.  **OVERLAPS:**
+    *   **Panel 3 (The Syphilis Clock):** The text content within the **SECONDARY** card is significantly taller than the other three stage cards. The bottom lines of the Secondary description ("...without antibiotic rx may follow") appear to be positioned extremely close to, or potentially overlapping with, the panel's internal border or the "Treatment: penicillin G..." line below it. The other cards (Primary, Tertiary, Congenital) have ample whitespace at their bottoms.
+    *   **Panel 5 (The Curved-Rod Roster):** The wrapped text for both *Vibrio cholerae* and *Helicobacter pylori* is very dense. The final line of text in each row sits very close to the bottom border of its respective light-blue container.
+
+2.  **CLIPPING:**
+    *   No obvious hard-clipping of text at the outer edges of the SVG or within individual cards was detected. All wrapped lines appear to have sufficient width to complete their words.
+    *   The three-line footer and the anchors strip are fully visible and not cut off at the bottom edge of the image.
+
+3.  **CONTRAST/READABILITY:**
+    *   Overall contrast is excellent. Dark grey/black text on white or very light cyan backgrounds is highly legible.
+    *   The red headers (e.g., STAGE 1, PRIMARY, FALSE-POSITIVE VDRL) provide good visual hierarchy without sacrificing readability.
+    *   The fine-print footer is small but remains readable against the white background.
+
+4.  **ALIGNMENT:**
+    *   **Panel 1:** The three organism cards (Leptospira, Treponema, Borrelia) are well-aligned horizontally. The full-width Jarisch-Herxheimer bar sits cleanly beneath them with appropriate padding.
+    *   **Panel 2:** The Lyme Disease card elements (Vector/Reservoir, Three Stages, Treatment) are properly left-aligned and contained.
+    *   **Panel 3:** As noted in Overlaps, there is a vertical misalignment issue where the **SECONDARY** card's content height breaks the visual rhythm established by the other three shorter cards.
+    *   **Panel 4:** The Serology Tree boxes are neatly organized into a clear hierarchy (Roots -> Sub-headers -> Leaves). Alignment is consistent.
+    *   **Panel 5:** The two rows of the Curved-Rod Roster are correctly structured with names on the left and descriptions on the right.
+
+5.  **CONTENT CHECK:**
+    *   **Panel 1:** Depicts three distinct spirochete bacteria (*Leptospira*, *Treponema pallidum*, *Borrelia burgdorferi*) with key clinical features and a note on the Jarisch-Herxheimer reaction.
+    *   **Panel 2:** Details the transmission vector/reservoir and the three clinical stages (Early Localized, Disseminated, Late Disseminated) of Lyme disease along with treatment guidelines.
+    *   **Panel 3:** Illustrates the four stages of syphilis (Primary, Secondary, Tertiary, Congenital) as a "clock" or timeline, highlighting the congenital route as vertical transmission.
+    *   **Panel 4:** Provides a diagnostic algorithm differentiating between nontreponemal (RPR, VDRL) and treponemal (FTA-ABS, TP-PA) serologic tests, direct testing methods, and common false-positive causes.
+    *   **Panel 5:** Lists characteristics of curved-rod bacteria (*Vibrio cholerae*, *Vibrio vulnificus*, *Helicobacter pylori*), focusing on pathogenesis and clinical associations.
+    *   **Footer/Anchors:** Contains copyright/attribution information and navigation anchors to the other panels.
+
+VERDICT: DEFECTS FOUND
+*   **Vertical Overflow in Panel 3:** The **SECONDARY** stage card in "THE SYPHILIS CLOCK" contains too much text for its allocated height, causing the bottom lines to crowd or overlap the border/treatment line below it (unlike the other three cards which fit comfortably).
+*   **Tight Padding in Panel 5:** The text wrapping in "THE CURVED-ROD ROSTER" leaves minimal breathing room between the last line of text and the bottom edge of the row containers.

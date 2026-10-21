@@ -1,0 +1,28 @@
+===== element-spirochete-syphilis-map-dark.png =====
+**Paint QA Report: element-spirochete-syphilis-map-dark.png**
+
+**1. OVERLAPS**
+*   **Panel 1 (Trio):** No overlaps detected. The wrapped text in all three organism cards (Leptospira, Treponema, Borrelia) terminates with comfortable vertical padding before the "JARISCH-HERXHEIMER REACTION" bar.
+*   **Panel 3 (Syphilis Clock):** The four stage cards (Primary, Secondary, Tertiary, Congenital) have varying heights, but the text in the tallest card (Congenital) does not overlap the bottom panel border or the "Treatment: penicillin G..." line.
+*   **Panel 5 (Curved-Rod Roster):** Text in both rows (Vibrio and Helicobacter) is fully contained within their respective row borders without clipping or overlapping the bottom edge.
+*   **General:** No text labels are overlapping each other.
+
+**2. CLIPPING**
+*   **Wrapped Text:** All multi-line text blocks across all panels (especially the dense descriptions in the Syphilis Clock and Curved-Rod Roster) are fully visible. No characters are cut off at the right margins.
+*   **Anchors Strip & Footer:** The top-right navigation strip ("trio · lyme · clock...") and the three-line fine-print footer at the very bottom are completely visible and not clipped by the image canvas edges.
+
+**3. CONTRAST/READABILITY**
+*   **Overall:** High contrast is maintained throughout. White/light-gray body text and cyan/red headers are clearly legible against the dark navy/black background.
+*   **Fine Print:** The footer text is small but remains readable due to sufficient brightness against the dark background.
+
+**4. ALIGNMENT**
+*   **Grid Layout:** The side-by-side cards in Panel 1 (3 columns) and Panel 3 (4 columns) are perfectly aligned with consistent gutters.
+*   **Serology Tree:** The hierarchical structure (Roots -> Sub-headers -> Leaves) is well-aligned. The leaf boxes (RPR, VDRL, etc.) are evenly spaced under their respective categories.
+*   **Floating Elements:** No misplaced elements found. All content is properly contained within its designated card or row.
+
+**5. CONTENT CHECK**
+*   **Panel 1:** Depicts the morphology, clinical features, and diagnostic methods for the three main spirochetes: *Leptospira*, *Treponema pallidum*, and *Borrelia burgdorferi*, including a note on the Jarisch-Herxheimer reaction.
+*   **Panel 2:** Details the transmission vector (*Ixodes* tick), reservoir hosts, the three clinical stages of Lyme disease (Localized, Disseminated, Late), and the standard antibiotic treatment.
+*   **Panel 4:** Illustrates the diagnostic algorithm for syphilis, distinguishing between nontreponemal screening tests (RPR/VDRL) and specific treponemal confirmatory tests (FTA-ABS/TP-PA), while listing common causes of false-positive VDRL results.
+
+VERDICT: CLEAN
