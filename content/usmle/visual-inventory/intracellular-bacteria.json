@@ -1,0 +1,253 @@
+{
+  "topicId": "intracellular-bacteria",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "intracellular-bacteria-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The chlamydiae life-cycle + serotype sections (book 146, the shared page's lower block)",
+      "sourceFigureDescription": "The printed two-column section: the EB/RB cycle with the no-ATP rule and the ▘-bulleted forms; the wall rule (β-lactams ineffective); and the serotype tri-split table (Types A, B, and C / Types D-K / Types L1, L2, and L3).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vector-borne-rash-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the CHLAMYDIAE panel — the cycle lines and the three serotype cards"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 17-row zoonotic directory (book 147)",
+      "sourceFigureDescription": "The printed SPECIES | DISEASE | TRANSMISSION AND SOURCE table: 17 rows from Anaplasma spp through Yersinia pestis with their transmission sources.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vector-borne-rash-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the DIRECTORY panel — the 17-row grid, verbatim"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The RASH COMMON / RASH RARE split + Mycoplasma (book 148)",
+      "sourceFigureDescription": "The printed rickettsial block: RASH COMMON (RMSF with the triad and the CARS/wrists-trunk mnemonic boxes; typhus endemic/epidemic), RASH RARE (ehrlichiosis with MEGA; anaplasmosis; Q fever with the Quite-Complicated box), and the Mycoplasma pneumoniae section (clinical + lab columns with the cold-without-a-coat box).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vector-borne-rash-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the RASH panels + the MYCOPLASMA closer; the verbatim text also carried in the note's table block"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The chlamydial follicular-conjunctivitis photo (book 146)",
+      "sourceFigureDescription": "A photograph of chlamydial (follicular) conjunctivitis, its marker A printed after 'conjunctivitis' in the C. trachomatis diseases line and at the section heading.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the cycle row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Gardnerella clue-cells photo (book 147)",
+      "sourceFigureDescription": "A micrograph of vaginal epithelial cells covered with Gardnerella (clue cells) with a stippled appearance along the outer margin, an arrow marking it; marker A printed after the heading, referenced inline as 'arrow in A'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the Gardnerella row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The RMSF wrist-rash photo (book 148)",
+      "sourceFigureDescription": "A clinical photograph of the RMSF rash at the wrist, its marker A printed after 'wrists' in the rash-distribution line.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the RASH COMMON row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The monocyte-morulae photo of ehrlichiosis (book 148)",
+      "sourceFigureDescription": "A photomicrograph of a monocyte containing mulberrylike inclusions (morulae), its marker B printed after 'morulae' in the ehrlichiosis line and in the figure block.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the RASH RARE row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv8",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The granulocyte-morulae photo of anaplasmosis (book 148)",
+      "sourceFigureDescription": "A photomicrograph of a granulocyte with morulae, its marker C printed after 'morulae' in the anaplasmosis line and standalone at line 91.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the RASH RARE row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intracellular-bacteria-sv9",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          168,
+          169,
+          170
+        ],
+        "bookPages": "146–148"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The pleomorphic Mycoplasma photo (book 148)",
+      "sourceFigureDescription": "A micrograph of the pleomorphic Mycoplasma organism, its marker A printed after 'Pleomorphic' in the lab block and in the figure block at line 70.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Clinical Bacteriology",
+      "topicId": "intracellular-bacteria",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block, the Mycoplasma row — figure pointer carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "intracellular-bacteria",
+    "textbookVisualCount": 9,
+    "accountedFor": 9,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 6,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census: the life-cycle section, the zoonotic directory, and the RASH blocks are pure vector (redrawn in the registry visual — the CHLAMYDIAE, DIRECTORY, and RASH panels). The 6 printed photos (the chlamydial conjunctivitis, the Gardnerella clue cells, the RMSF wrist rash, the two morulae photomicrographs, the pleomorphic Mycoplasma) are rasters — COPYRIGHTED, described-in-text only within the note's table block rows. FA's printed mnemonics (Chlamys = cloak; ABC; D-K; CARS; wrists/trunk; MEGA; Quite Complicated; cold without a coat) carried in the table block only; NOT in the visual."
+}

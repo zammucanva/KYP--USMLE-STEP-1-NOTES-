@@ -1,0 +1,15 @@
+===== element-vector-borne-rash-map-dark.png =====
+**Paint QA Report: element-vector-borne-rash-map-dark.png**
+
+1.  **OVERLAPS**: No text overlaps or border collisions detected. The three serotype cards in Panel 1 have adequate padding for their wrapped lines. The 17-row directory grid (Panel 2) maintains clear column separation between Species, Disease, and Transmission. The Mycoplasma sub-blocks (Panel 3) are well-spaced from the card's bottom border.
+2.  **CLIPPING**: No clipping observed. All wrapped text lines are fully visible within their containers. The top anchors strip and the three-line footer at the bottom are complete and uncut.
+3.  **CONTRAST/READABILITY**: High contrast throughout. White and cyan text on dark backgrounds is legible. The red headers ("RASH COMMON", "RASH RARE") provide good visual distinction without straining the eye.
+4.  **ALIGNMENT**: Elements are properly grounded. The side-by-side cards in Panels 1 and 3 are aligned to a consistent grid. The directory rows are uniform. No floating or misplaced elements found.
+5.  **CONTENT CHECK**:
+    *   Panel 1: Details the obligate intracellular nature of Chlamydiae and categorizes them into LGV, genital, and trachoma serotypes.
+    *   Panel 2: Lists seventeen zoonotic species alongside their associated diseases and specific transmission vectors.
+    *   Panel 3: Distinguishes between common rickettsial rashes (RMSF, Typhus) and rare ones (Ehrlichiosis, etc.), followed by clinical and lab details for Mycoplasma.
+    *   Panel 4: Provides a concise overview of Gardnerella vaginalis as the primary cause of bacterial vaginosis.
+    *   Panel 5: Contains navigation anchors and a detailed copyright/attribution footer.
+
+VERDICT: CLEAN

@@ -1883,3 +1883,177 @@ export function SpirocheteSyphilisMap() {
     </svg>
   );
 }
+
+
+
+
+
+export function VectorBorneRashMap() {
+  const w = 980;
+  const h = 1354;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Intracellular and vector-borne bacteria, an original KYP rash map. THE CHLAMYDIAE: obligate intracellular organisms that cannot make their own ATP, with the elementary body (small, dense, infectious, entering by endocytosis) transforming into the reticulate body (replicating by fission, reorganizing into elementary bodies); the cell wall lacks classic peptidoglycan so beta-lactams are ineffective; Chlamydia trachomatis causes neonatal and follicular adult conjunctivitis, nongonococcal urethritis, PID, and reactive arthritis; Chlamydophila pneumoniae and psittaci cause aerosol-transmitted atypical pneumonia; the serotypes split into A-B-C (chronic infection, blindness in resource-limited areas), D-K (urethritis and PID, neonatal pneumonia with staccato cough and eosinophilia, neonatal conjunctivitis 1-2 weeks after birth via vaginal birth), and L1-L3 (lymphogranuloma venereum with buboes); lab is PCR/NAAT with cytoplasmic inclusions on Giemsa or fluorescent antibody stain; treatment doxycycline or azithromycin in pregnancy. THE ZOONOTIC DIRECTORY: 17 species-disease-transmission rows from Anaplasma through Yersinia pestis. RASH COMMON: Rocky Mountain spotted fever (Rickettsia rickettsii, tick vector, primarily the South Atlantic states especially North Carolina; rash starts at wrists and ankles then spreads to trunk, palms, and soles; the classic triad of headache, fever, and rash is a vasculitis) and typhus (endemic from fleas — R typhi; epidemic from the human body louse — R prowazekii; rash starts centrally and spreads out, sparing palms and soles). RASH RARE: ehrlichiosis (Ehrlichia, tick; monocytes with morulae), anaplasmosis (Anaplasma, tick; granulocytes with morulae), and Q fever (Coxiella burnetii, no arthropod vector, aerosols of cattle and sheep amniotic fluid; headache, cough, flulike symptoms, pneumonia with possible hepatitis; a common cause of culture-negative endocarditis). MYCOPLASMA PNEUMONIAE: atypical walking pneumonia under 30 with outbreaks in military recruits, prisons, and colleges; no cell wall so penicillin is ineffective; not seen on Gram stain; pleomorphic with sterols in the membrane; grown on Eaton agar; CXR more severe than the presentation; cold agglutinins (IgM) agglutinating RBCs; macrolides, doxycycline, or fluoroquinolones. GARDNERELLA VAGINALIS: the pleomorphic gram-variable rod of bacterial vaginosis — gray fishy nonpainful discharge, anaerobic overgrowth with reduced lactobacilli, clue cells with stippled margins, whiff test with KOH, pH above 4.5; metronidazole or clindamycin" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Intracellular &amp; vector-borne bacteria — the rash map (original KYP redraw)</text>
+        <rect x="704" y="24" width="228" height="18" rx="9" className="fill-brand-soft" />
+<text x="818" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">chlamydiae · zoonoses · rash · mycoplasma</text>
+      </g>
+      {/* ===== THE CHLAMYDIAE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="161" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE CHLAMYDIAE — obligate intracellular, cannot make their own ATP (the shared page 168’s lower block; M15’s per the boundary)</text>
+<text x="52" y="114" fontSize="5.0" className="fill-muted-foreground">Chlamydiae cannot make their own ATP. They are obligate intracellular organisms that cause mucosal infections. 2 forms:</text>
+<text x="52" y="125" fontSize="5.0" className="fill-muted-foreground">ELEMENTARY BODY (small, dense) is infectious and enters cell via endocytosis; transforms into reticulate body. RETICULATE BODY replicates in cell by fission; reorganizes into elementary bodies.</text>
+<text x="52" y="136" fontSize="5.0" className="fill-muted-foreground">Chlamydia trachomatis causes neonatal and follicular adult conjunctivitis, nongonococcal urethritis, PID, and reactive arthritis. Chlamydophila pneumoniae and Chlamydophila psittaci cause atypical pneumonia; transmitted by aerosol.</text>
+<text x="52" y="147" fontSize="5.0" className="fill-muted-foreground">Chlamydial cell wall lacks classic peptidoglycan (due to reduced muramic acid), rendering β-lactam antibiotics ineffective. C psittaci has an avian reservoir (parrots).</text>
+<text x="52" y="158" fontSize="5.0" className="fill-muted-foreground">Lab diagnosis: PCR, NAAT. Cytoplasmic inclusions (reticulate bodies) seen on Giemsa or fluorescent antibody–stained smear. Treatment: doxycycline, azithromycin (for pregnant patients). Add ceftriaxone if concurrent gonorrhea testing is positive.</text>
+        <rect x="52" y="175" width="284" height="58" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="62" y="191" fontSize="6.4" fontWeight="800" className="fill-brand">Types A, B, and C</text>
+<text x="62" y="205" fontSize="5.0" className="fill-muted-foreground">Chronic infection, cause blindness due to follicular conjunctivitis in resource-limited areas.</text>
+        <rect x="348" y="175" width="284" height="58" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="358" y="191" fontSize="6.4" fontWeight="800" className="fill-brand">Types D–K</text>
+<text x="358" y="205" fontSize="5.0" className="fill-muted-foreground">Urethritis/PID, neonatal pneumonia (staccato cough) with eosinophilia, neonatal conjunctivitis (1-2 weeks</text>
+<text x="358" y="216" fontSize="5.0" className="fill-muted-foreground">after birth). Neonatal disease can be acquired during vaginal birth if pregnant patient is infected.</text>
+        <rect x="644" y="175" width="284" height="58" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+<text x="654" y="191" fontSize="6.4" fontWeight="800" className="fill-brand">Types L1, L2, and L3</text>
+<text x="654" y="205" fontSize="5.0" className="fill-muted-foreground">Lymphogranuloma venereum—small, painless ulcers on genitals, then swollen, painful inguinal lymph nodes that</text>
+<text x="654" y="216" fontSize="5.0" className="fill-muted-foreground">ulcerate (buboes). Treat with doxycycline.</text>
+      </g>
+      {/* ===== THE ZOONOTIC DIRECTORY ===== */}
+      <g>
+        <rect x="36" y="253" width="908" height="534" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="275" fontSize="9" fontWeight="800" className="fill-foreground">THE ZOONOTIC DIRECTORY — zoonosis: infectious disease transmitted between animals and humans (17 rows, verbatim)</text>
+        <rect x="52" y="285" width="150" height="18" rx="4" className="fill-secondary" />
+<text x="56" y="297" fontSize="6.0" fontWeight="800" className="fill-foreground">SPECIES</text>
+        <rect x="208" y="285" width="300" height="18" rx="4" className="fill-secondary" />
+<text x="214" y="297" fontSize="6.0" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="514" y="285" width="410" height="18" rx="4" className="fill-secondary" />
+<text x="520" y="297" fontSize="6.0" fontWeight="800" className="fill-foreground">TRANSMISSION AND SOURCE</text>
+        <rect x="52" y="311" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="323" fontSize="5.2" fontWeight="700" className="fill-foreground">Anaplasma spp</text>
+<text x="214" y="323" fontSize="5.0" className="fill-muted-foreground">Anaplasmosis</text>
+<text x="520" y="323" fontSize="5.0" className="fill-muted-foreground">Ixodes ticks (live on deer and mice)</text>
+        <rect x="52" y="337" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="349" fontSize="5.2" fontWeight="700" className="fill-foreground">Bartonella spp</text>
+<text x="214" y="349" fontSize="5.0" className="fill-muted-foreground">Cat scratch disease, bacillary angiomatosis</text>
+<text x="520" y="349" fontSize="5.0" className="fill-muted-foreground">Cat scratch</text>
+        <rect x="52" y="363" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="375" fontSize="5.2" fontWeight="700" className="fill-foreground">Borrelia burgdorferi</text>
+<text x="214" y="375" fontSize="5.0" className="fill-muted-foreground">Lyme disease</text>
+<text x="520" y="375" fontSize="5.0" className="fill-muted-foreground">Ixodes ticks (live on deer and mice)</text>
+        <rect x="52" y="389" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="401" fontSize="5.2" fontWeight="700" className="fill-foreground">Borrelia recurrentis</text>
+<text x="214" y="401" fontSize="5.0" className="fill-muted-foreground">Relapsing fever</text>
+<text x="520" y="401" fontSize="5.0" className="fill-muted-foreground">Louse (recurrent due to variable surface antigens)</text>
+        <rect x="52" y="415" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="427" fontSize="5.2" fontWeight="700" className="fill-foreground">Brucella spp</text>
+<text x="214" y="427" fontSize="5.0" className="fill-muted-foreground">Brucellosis/undulant fever</text>
+<text x="520" y="427" fontSize="5.0" className="fill-muted-foreground">Unpasteurized dairy; inhalation of or contact with infected animal tissue or fluids</text>
+        <rect x="52" y="441" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="453" fontSize="5.2" fontWeight="700" className="fill-foreground">Campylobacter</text>
+<text x="214" y="453" fontSize="5.0" className="fill-muted-foreground">Bloody diarrhea</text>
+<text x="520" y="453" fontSize="5.0" className="fill-muted-foreground">Feces from infected pets/animals; contaminated meats/foods/hands</text>
+        <rect x="52" y="467" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="479" fontSize="5.2" fontWeight="700" className="fill-foreground">Chlamydophila psittaci</text>
+<text x="214" y="479" fontSize="5.0" className="fill-muted-foreground">Psittacosis</text>
+<text x="520" y="479" fontSize="5.0" className="fill-muted-foreground">Parrots, other birds</text>
+        <rect x="52" y="493" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="505" fontSize="5.2" fontWeight="700" className="fill-foreground">Coxiella burnetii</text>
+<text x="214" y="505" fontSize="5.0" className="fill-muted-foreground">Q fever</text>
+<text x="520" y="505" fontSize="5.0" className="fill-muted-foreground">Aerosols of cattle/sheep amniotic fluid</text>
+        <rect x="52" y="519" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="531" fontSize="5.2" fontWeight="700" className="fill-foreground">Ehrlichia chaffeensis</text>
+<text x="214" y="531" fontSize="5.0" className="fill-muted-foreground">Ehrlichiosis</text>
+<text x="520" y="531" fontSize="5.0" className="fill-muted-foreground">Amblyomma (Lone Star tick)</text>
+        <rect x="52" y="545" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="557" fontSize="5.2" fontWeight="700" className="fill-foreground">Francisella tularensis</text>
+<text x="214" y="557" fontSize="5.0" className="fill-muted-foreground">Tularemia</text>
+<text x="520" y="557" fontSize="5.0" className="fill-muted-foreground">Ticks, rabbits, deer flies</text>
+        <rect x="52" y="571" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="583" fontSize="5.2" fontWeight="700" className="fill-foreground">Leptospira spp</text>
+<text x="214" y="583" fontSize="5.0" className="fill-muted-foreground">Leptospirosis</text>
+<text x="520" y="583" fontSize="5.0" className="fill-muted-foreground">Animal urine in water; recreational water use</text>
+        <rect x="52" y="597" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="609" fontSize="5.2" fontWeight="700" className="fill-foreground">Mycobacterium leprae</text>
+<text x="214" y="609" fontSize="5.0" className="fill-muted-foreground">Leprosy</text>
+<text x="520" y="609" fontSize="5.0" className="fill-muted-foreground">Humans with lepromatous leprosy; armadillo (rare)</text>
+        <rect x="52" y="623" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="635" fontSize="5.2" fontWeight="700" className="fill-foreground">Pasteurella multocida</text>
+<text x="214" y="635" fontSize="5.0" className="fill-muted-foreground">Cellulitis, osteomyelitis</text>
+<text x="520" y="635" fontSize="5.0" className="fill-muted-foreground">Animal bite, cats, dogs</text>
+        <rect x="52" y="649" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="661" fontSize="5.2" fontWeight="700" className="fill-foreground">Rickettsia prowazekii</text>
+<text x="214" y="661" fontSize="5.0" className="fill-muted-foreground">Epidemic typhus</text>
+<text x="520" y="661" fontSize="5.0" className="fill-muted-foreground">Human to human via human body louse</text>
+        <rect x="52" y="675" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="687" fontSize="5.2" fontWeight="700" className="fill-foreground">Rickettsia rickettsii</text>
+<text x="214" y="687" fontSize="5.0" className="fill-muted-foreground">Rocky Mountain spotted fever</text>
+<text x="520" y="687" fontSize="5.0" className="fill-muted-foreground">Dermacentor (dog tick)</text>
+        <rect x="52" y="701" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="713" fontSize="5.2" fontWeight="700" className="fill-foreground">Rickettsia typhi</text>
+<text x="214" y="713" fontSize="5.0" className="fill-muted-foreground">Endemic typhus</text>
+<text x="520" y="713" fontSize="5.0" className="fill-muted-foreground">Fleas</text>
+        <rect x="52" y="727" width="872" height="26" rx="4" className="fill-secondary" />
+<text x="56" y="739" fontSize="5.2" fontWeight="700" className="fill-foreground">Salmonella spp (except S typhi)</text>
+<text x="214" y="739" fontSize="5.0" className="fill-muted-foreground">Diarrhea (which may be bloody), vomiting, fever, abdominal cramps</text>
+<text x="520" y="739" fontSize="5.0" className="fill-muted-foreground">Reptiles and poultry</text>
+        <rect x="52" y="753" width="872" height="26" rx="4" className="fill-secondary/60" />
+<text x="56" y="765" fontSize="5.2" fontWeight="700" className="fill-foreground">Yersinia pestis</text>
+<text x="214" y="765" fontSize="5.0" className="fill-muted-foreground">Plague</text>
+<text x="520" y="765" fontSize="5.0" className="fill-muted-foreground">Fleas (rats and prairie dogs are reservoirs)</text>
+      </g>
+      {/* ===== RASH COMMON vs RASH RARE ===== */}
+      <g>
+        <rect x="36" y="803" width="908" height="309" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="825" fontSize="9" fontWeight="800" className="fill-foreground">RASH COMMON vs RASH RARE — the rickettsial split (treatment: doxycycline)</text>
+        <rect x="52" y="835" width="432" height="105" rx="8" className="fill-secondary" />
+<text x="62" y="851" fontSize="7" fontWeight="800" className="fill-emergency">RASH COMMON</text>
+<text x="62" y="867" fontSize="6.0" fontWeight="800" className="fill-foreground">ROCKY MOUNTAIN SPOTTED FEVER</text>
+<text x="62" y="883" fontSize="5.0" className="fill-muted-foreground">Rickettsia rickettsii, vector is tick. Despite its name, disease occurs primarily in the South Atlantic states, especially North Carolina. Rash typically starts at</text>
+<text x="62" y="894" fontSize="5.0" className="fill-muted-foreground">wrists and ankles and then spreads to trunk, palms, and soles. Classic triad—headache, fever, rash (vasculitis).</text>
+<text x="62" y="913" fontSize="6.0" fontWeight="800" className="fill-foreground">TYPHUS</text>
+<text x="62" y="929" fontSize="5.0" className="fill-muted-foreground">Endemic (fleas)—R typhi. Epidemic (human body louse)—R prowazekii. Rash starts centrally and spreads out, sparing palms and soles.</text>
+        <rect x="496" y="835" width="432" height="140" rx="8" className="fill-secondary" />
+<text x="506" y="851" fontSize="7" fontWeight="800" className="fill-brand">RASH RARE</text>
+<text x="506" y="867" fontSize="6.0" fontWeight="800" className="fill-foreground">EHRLICHIOSIS</text>
+<text x="506" y="883" fontSize="5.0" className="fill-muted-foreground">Ehrlichia, vector is tick. Monocytes with morulae (mulberrylike inclusions) in cytoplasm.</text>
+<text x="506" y="902" fontSize="6.0" fontWeight="800" className="fill-foreground">ANAPLASMOSIS</text>
+<text x="506" y="918" fontSize="5.0" className="fill-muted-foreground">Anaplasma, vector is tick. Granulocytes with morulae in cytoplasm.</text>
+<text x="506" y="937" fontSize="6.0" fontWeight="800" className="fill-foreground">Q FEVER</text>
+<text x="506" y="953" fontSize="5.0" className="fill-muted-foreground">Coxiella burnetii, no arthropod vector. Bacterium inhaled as aerosols from cattle/sheep amniotic fluid. Presents with headache, cough, flulike symptoms, pneumonia,</text>
+<text x="506" y="964" fontSize="5.0" className="fill-muted-foreground">possibly in combination with hepatitis. Common cause of culture ⊝ endocarditis.</text>
+        <rect x="52" y="987" width="876" height="125" rx="8" className="fill-secondary/40 stroke-brand" strokeWidth="1" />
+<text x="62" y="1003" fontSize="7" fontWeight="800" className="fill-emergency">MYCOPLASMA PNEUMONIAE — the atypical closer (rash rare)</text>
+<text x="62" y="1019" fontSize="6.0" fontWeight="800" className="fill-brand">THE CLINICAL PICTURE</text>
+<text x="62" y="1033" fontSize="5.0" className="fill-muted-foreground">Classic cause of atypical “walking pneumonia” (insidious onset, headache, nonproductive cough, patchy or diffuse interstitial infiltrate, macular rash). Occurs frequently</text>
+<text x="62" y="1044" fontSize="5.0" className="fill-muted-foreground">in those &lt;30 years old; outbreaks in military recruits, prisons, colleges. Treatment: macrolides, doxycycline, or fluoroquinolone (penicillin ineffective since Mycoplasma</text>
+<text x="62" y="1055" fontSize="5.0" className="fill-muted-foreground">has no cell wall).</text>
+<text x="62" y="1078" fontSize="6.0" fontWeight="800" className="fill-brand">THE LAB RULES</text>
+<text x="62" y="1092" fontSize="5.0" className="fill-muted-foreground">Not seen on Gram stain. Pleomorphic. Bacterial membrane contains sterols for stability. Grown on Eaton agar. CXR appears more severe than patient presentation. High titer</text>
+<text x="62" y="1103" fontSize="5.0" className="fill-muted-foreground">of cold agglutinins (IgM), which can agglutinate RBCs.</text>
+      </g>
+      {/* ===== GARDNERELLA ===== */}
+      <g>
+        <rect x="36" y="1128" width="908" height="74" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="1150" fontSize="9" fontWeight="800" className="fill-foreground">GARDNERELLA VAGINALIS — bacterial vaginosis (book 147, page ownership)</text>
+<text x="52" y="1168" fontSize="5.2" className="fill-muted-foreground">A pleomorphic, gram-variable rod involved in bacterial vaginosis. Presents as a gray vaginal discharge with a fishy smell; nonpainful (vs vaginitis). Associated with sexual activity, but not sexually transmitted. Bacterial vaginosis is also characterized by overgrowth of certain anaerobic bacteria in vagina (due to ↓</text>
+<text x="52" y="1180" fontSize="5.2" className="fill-muted-foreground">lactobacilli).</text>
+<text x="52" y="1192" fontSize="5.2" className="fill-muted-foreground">Clue cells (vaginal epithelial cells covered with Gardnerella) have stippled appearance along outer margin (photo A, described-in-text only). Amine whiff test—mixing discharge with 10% KOH enhances fishy odor. Vaginal pH &gt;4.5 during infection. Treatment: metronidazole or clindamycin.</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="1218" width="908" height="46" rx="8" className="fill-secondary" />
+<text x="490" y="1238" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Doxycycline is the rickettsial therapy (all vectors, all stages) · Chlamydiae: doxycycline or azithromycin in pregnancy (+ ceftriaxone only if concurrent gonorrhea) · Mycoplasma: macrolides/doxycycline/fluoroquinolone — penicillin ineffective (no cell wall) · Gardnerella:</text>
+<text x="490" y="1251" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">metronidazole or clindamycin</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1278" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's chlamydiae life-cycle section (the shared pdf 168's lower block — the Chlamydiae section is M15's per the page boundary; the diagnosing-syphilis tree above it is M14's), the 17-row zoonotic directory, the RASH COMMON / RASH</text>
+<text x="24" y="1290" fontSize="7.2" className="fill-muted-foreground">RARE split, and the Gardnerella block (pdf 168-170 / book 146-148).</text>
+<text x="24" y="1302" fontSize="7.2" className="fill-muted-foreground">The printed images (the chlamydial follicular-conjunctivitis photo, the Gardnerella clue cells, the RMSF wrist rash, the monocyte morulae of ehrlichiosis, the granulocyte morulae of anaplasmosis, and the pleomorphic Mycoplasma) are raster — COPYRIGHTED,</text>
+<text x="24" y="1314" fontSize="7.2" className="fill-muted-foreground">described-in-text only. FA's printed mnemonics (Chlamys = cloak; ABC = Africa, Blindness, Chronic; D-K = everything else; you drive CARS using your palms and soles; Rickettsii on the wrists, typhus on the trunk; MEGA; the Quite Complicated bug; cold without a</text>
+<text x="24" y="1326" fontSize="7.2" className="fill-muted-foreground">coat) are NOT reproduced — verification only, in the note's table block.</text>
+    </svg>
+  );
+}

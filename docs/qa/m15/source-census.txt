@@ -1,0 +1,28 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 168     0 image     188   188  cmyk    4   8  jpeg   no      6852  0   150   150 17.8K  13%
+ 169     1 image     188   188  cmyk    4   8  jpeg   no      6860  0   150   150 12.3K 8.9%
+ 170     2 image     285   276  cmyk    4   8  jpeg   no      6863  0   150   150 23.1K 7.5%
+ 170     3 image     285   277  cmyk    4   8  jpeg   no      6864  0   150   150 20.0K 6.5%
+ 170     4 image     285   276  cmyk    4   8  jpeg   no      6865  0   150   150 16.3K 5.3%
+ 170     5 image     188   188  gray    1   8  jpeg   no      6866  0   150   150 6515B  18%
+
+=== census summary (M15, pdf 168-170 / book 146-148) ===
+p168 (M15's section of the SHARED page): 1 raster — the chlamydial (follicular)
+conjunctivitis photo (marker A inline at line 53 + heading marker at 35). The
+diagnosing-syphilis tree above it is M14's (PAGE BOUNDARY: M15 owns the
+Chlamydiae section, dump lines 34-105). Pure vector: the life-cycle section
+and the serotype tri-split (redrawn as the CHLAMYDIAE panel).
+p169: 1 raster — the Gardnerella clue cells (marker A; inline 'arrow in A' at
+line 16). Pure vector: the 17-row zoonotic directory (redrawn as the DIRECTORY
+panel). Gardnerella belongs by PAGE OWNERSHIP of book 147.
+p170: 4 rasters — the RMSF wrist rash (A, inline at 22), the monocyte morulae
+of ehrlichiosis (B, inline at 43 + figure-block B at 74), the granulocyte
+morulae of anaplasmosis (C, inline at 53 + standalone at 91), the pleomorphic
+Mycoplasma (A, inline at 93 + figure-block A at 70). Pure vector: the RASH
+blocks (redrawn as the RASH panels + MYCOPLASMA closer).
+RASH COMMON / RASH RARE grouping: resolved by TWO concordant VLM reads (200-DPI
+census + 2x zoom) — RASH COMMON = RMSF + typhus; RASH RARE = ehrlichiosis +
+anaplasmosis + Q fever, with Mycoplasma closing. The text layer emits the
+RASH RARE label at line 64 (between the Q fever block and the figure row) —
+content-stream ordering quirk documented in the manifest.

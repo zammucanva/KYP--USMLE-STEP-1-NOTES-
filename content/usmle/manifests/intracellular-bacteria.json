@@ -1,0 +1,601 @@
+{
+  "topicId": "intracellular-bacteria",
+  "title": "Intracellular & Vector-Borne Bacteria: Chlamydia, Rickettsia, Mycoplasma",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Clinical Bacteriology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      168,
+      169,
+      170
+    ],
+    "bookPages": "146–148"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The Chlamydiae heading with photo marker (physical order, lines 34-35: Chlamydiae / A — the shared page's lower block; the diagnosing-syphilis tree above is M14's)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Chlamydiae\nA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chlamydiae life cycle and diseases (cannot make their own ATP; obligate intracellular; the ▘-bulleted EB/RB forms with the printed enfectious gloss; C. trachomatis conjunctivitis with inline photo marker A; C. pneumoniae and C. psittaci atypical pneumonia by aerosol)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Chlamydiae cannot make their own ATP. They\nare obligate intracellular organisms that cause\nmucosal infections. 2 forms:\n▘ Elementary body (small, dense)\nis “enfectious” and enters cell via\nendocytosis; transforms into reticulate body.\n▘ Reticulate body replicates in cell by fission;\nreorganizes into elementary bodies.\nChlamydia trachomatis causes neonatal\nand follicular adult conjunctivitis A ,\nnongonococcal urethritis, PID, and reactive\narthritis.\nChlamydophila pneumoniae and Chlamydophila\npsittaci cause atypical pneumonia; transmitted\nby aerosol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chlamydial cell wall + lab + treatment (lacks classic peptidoglycan — reduced muramic acid — β-lactams ineffective; the printed Chlamys=cloak gloss; psittaci's avian reservoir; PCR/NAAT; cytoplasmic inclusions on Giemsa or fluorescent antibody stain; doxycycline, azithromycin for pregnancy, + ceftriaxone if concurrent gonorrhea positive)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Chlamydial cell wall lacks classic peptidoglycan\n(due to reduced muramic acid), rendering\nβ-lactam antibiotics ineffective.\nChlamys = cloak (intracellular).\nC psittaci—has an avian reservoir (parrots),\ncauses atypical pneumonia.\nLab diagnosis: PCR, NAAT. Cytoplasmic\ninclusions (reticulate bodies) seen on Giemsa\nor fluorescent antibody–stained smear.\nTreatment: doxycycline, azithromycin (for\npregnant patients). Add ceftriaxone if\nconcurrent gonorrhea testing is positive.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Serotypes heading + types A, B, and C (chronic infection, blindness, follicular conjunctivitis in resource-limited areas; the printed ABC mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Chlamydia trachomatis serotypes\nTypes A, B, and C\n\nChronic infection, cause blindness due to\nfollicular conjunctivitis in resource-limited\nareas.\n\nABC = Africa, Blindness, Chronic infection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Types D-K (urethritis/PID, neonatal pneumonia with staccato cough and eosinophilia, neonatal conjunctivitis 1-2 weeks after birth; the printed D-K=everything-else gloss; vaginal birth acquisition)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Types D–K\n\nUrethritis/PID, neonatal pneumonia\n(staccato cough) with eosinophilia, neonatal\nconjunctivitis (1-2 weeks after birth).\n\nD–K = everything else.\nNeonatal disease can be acquired during vaginal\nbirth if pregnant patient is infected.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Types L1, L2, and L3 (lymphogranuloma venereum — small painless ulcers → swollen painful inguinal lymph nodes that ulcerate [buboes]; treat with doxycycline, with the → double-space arrow)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "Types L1, L2, and L3\n\nLymphogranuloma venereum—small, painless\nulcers on genitals →  swollen, painful inguinal\nlymph nodes that ulcerate (buboes). Treat with\ndoxycycline.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 146",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          168
+        ],
+        "bookPages": "146"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading with photo marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Gardnerella vaginalis\nA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "147",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gardnerella vaginalis entry (pleomorphic gram-variable rod; bacterial vaginosis; gray fishy nonpainful discharge vs vaginitis; not sexually transmitted; anaerobic overgrowth with ↓ lactobacilli; clue cells with the inline arrow-in-A photo marker)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "A pleomorphic, gram-variable rod involved in\nbacterial vaginosis. Presents as a gray vaginal\ndischarge with a fishy smell; nonpainful (vs\nvaginitis). Associated with sexual activity,\nbut not sexually transmitted. Bacterial\nvaginosis is also characterized by overgrowth\nof certain anaerobic bacteria in vagina (due\nto ↓ lactobacilli). Clue cells (vaginal epithelial\ncells covered with Gardnerella) have stippled\nappearance along outer margin (arrow in A ).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gardnerella side box (amine whiff test with 10% KOH; vaginal pH >4.5; treatment metronidazole or clindamycin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Amine whiff test—mixing discharge with 10%\nKOH enhances fishy odor.\nVaginal pH >4.5 during infection.\nTreatment: metronidazole or clindamycin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zoonotic bacteria heading + definition (zoonosis — infectious disease transmitted between animals and humans)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Zoonotic bacteria\n\nZoonosis—infectious disease transmitted between animals and humans.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zoonotic table headers (SPECIES / DISEASE / TRANSMISSION AND SOURCE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "SPECIES\n\nDISEASE\n\nTRANSMISSION AND SOURCE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zoonotic rows 1-6, interleaved (physical order, lines 37-74: Anaplasma/Ixodes; Bartonella/cat scratch; B. burgdorferi/Ixodes; B. recurrentis/louse with variable surface antigens; Brucella/unpasteurized dairy; Campylobacter/pet feces)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Anaplasma spp\n\nAnaplasmosis\n\nIxodes ticks (live on deer and mice)\n\nBartonella spp\n\nCat scratch disease, bacillary angiomatosis\n\nCat scratch\n\nBorrelia burgdorferi\n\nLyme disease\n\nIxodes ticks (live on deer and mice)\n\nBorrelia recurrentis\n\nRelapsing fever\n\nLouse (recurrent due to variable surface\nantigens)\n\nBrucella spp\n\nBrucellosis/undulant fever\n\nUnpasteurized dairy; inhalation of or contact\nwith infected animal tissue or fluids\n\nCampylobacter\n\nBloody diarrhea\n\nFeces from infected pets/animals; contaminated\nmeats/foods/hands",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zoonotic rows 7-12, interleaved (physical order, lines 76-111: C. psittaci/parrots; Coxiella/aerosols of cattle-sheep amniotic fluid; E. chaffeensis/Lone Star tick; F. tularensis/ticks rabbits deer flies; Leptospira/animal urine; M. leprae/lepromatous humans + armadillo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Chlamydophila psittaci\n\nPsittacosis\n\nParrots, other birds\n\nCoxiella burnetii\n\nQ fever\n\nAerosols of cattle/sheep amniotic fluid\n\nEhrlichia chaffeensis\n\nEhrlichiosis\n\nAmblyomma (Lone Star tick)\n\nFrancisella tularensis\n\nTularemia\n\nTicks, rabbits, deer flies\n\nLeptospira spp\n\nLeptospirosis\n\nAnimal urine in water; recreational water use\n\nMycobacterium leprae\n\nLeprosy\n\nHumans with lepromatous leprosy; armadillo\n(rare)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zoonotic rows 13-17, interleaved (physical order, lines 113-149: Pasteurella/animal bite; R. prowazekii/human body louse; R. rickettsii/Dermacentor dog tick; R. typhi/fleas; Salmonella except S typhi/reptiles and poultry; Y. pestis/fleas with rats and prairie dogs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "Pasteurella multocida\n\nCellulitis, osteomyelitis\n\nAnimal bite, cats, dogs\n\nRickettsia prowazekii\n\nEpidemic typhus\n\nHuman to human via human body louse\n\nRickettsia rickettsii\n\nRocky Mountain spotted fever\n\nDermacentor (dog tick)\n\nRickettsia typhi\n\nEndemic typhus\n\nFleas\n\nSalmonella spp\n(except S typhi)\n\nDiarrhea (which may be bloody), vomiting,\nfever, abdominal cramps\n\nReptiles and poultry\n\nYersinia pestis\n\nPlague\n\nFleas (rats and prairie dogs are reservoirs)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 147",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          169
+        ],
+        "bookPages": "147"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "148",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Rickettsial diseases\nand vector-borne\nillnesses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "▶ MICROBIOLOGY—CLINICAL BACTERIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Treatment line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Treatment: doxycycline.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RASH COMMON label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "RASH COMMON",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rocky Mountain spotted fever block (R. rickettsii, tick vector; South Atlantic states especially North Carolina; the rash starts at wrists A — inline photo marker — and ankles then spreads to trunk, palms, soles; the classic triad headache-fever-rash vasculitis; the printed CARS mnemonic; the printed wrists/trunk mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Rocky Mountain\nspotted fever\n\nRickettsia rickettsii, vector is tick. Despite its\nname, disease occurs primarily in the South\nAtlantic states, especially North Carolina.\nRash typically starts at wrists A and ankles and\nthen spreads to trunk, palms, and soles.\n\nClassic triad—headache, fever, rash (vasculitis).\nPalms and soles rash is seen in Coxsackievirus\nA infection (hand, foot, and mouth disease),\nRocky Mountain spotted fever, and 2° Syphilis\n(you drive CARS using your palms and soles).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Typhus block (endemic fleas — R typhi; epidemic human body louse — R prowazekii; rash starts centrally and spreads out, sparing palms and soles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Typhus\n\nEndemic (fleas)—R typhi.\nEpidemic (human body louse)—R prowazekii.\nRash starts centrally and spreads out, sparing\npalms and soles.\n\nRickettsii on the wrists, typhus on the trunk.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ehrlichiosis block (Ehrlichia, tick; monocytes with morulae B — inline photo marker; mulberrylike inclusions; the printed MEGA mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Ehrlichiosis\n\nEhrlichia, vector is tick. Monocytes with\nmorulae B (mulberrylike inclusions) in\ncytoplasm.\n\nMEGA:\nMonocytes = Ehrlichiosis\nGranulocytes = Anaplasmosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Anaplasmosis block (Anaplasma, tick; granulocytes with morulae C — inline photo marker)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Anaplasmosis\n\nAnaplasma, vector is tick. Granulocytes with\nmorulae C in cytoplasm.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Q fever block (Coxiella burnetii, no arthropod vector; aerosols of cattle/sheep amniotic fluid; headache, cough, flulike symptoms, pneumonia possibly with hepatitis; common cause of culture ⊝ endocarditis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Q fever\n\nCoxiella burnetii, no arthropod vector.\nBacterium inhaled as aerosols from cattle/\nsheep amniotic fluid. Presents with headache,\ncough, flulike symptoms, pneumonia, possibly\nin combination with hepatitis. Common cause\nof culture ⊝ endocarditis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RASH RARE label (emits at line 64, between the Q fever block and the figure row — content-stream quirk; the grouping resolved by two concordant VLM reads)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "RASH RARE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure block with markers and the printed footer (physical order, lines 66-74: A / Mycoplasma pneumoniae / A / the indd footer / B)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "A\n\nMycoplasma\npneumoniae\nA\n\nFAS1_2026_03-Microbiology.indd 148\n\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycoplasma clinical block (atypical walking pneumonia with curly quotes; <30 years old; outbreaks in military recruits, prisons, colleges; macrolides, doxycycline, or fluoroquinolone — penicillin ineffective since Mycoplasma has no cell wall)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Classic cause of atypical “walking pneumonia”\n(insidious onset, headache, nonproductive\ncough, patchy or diffuse interstitial infiltrate,\nmacular rash).\nOccurs frequently in those <30 years old;\noutbreaks in military recruits, prisons, colleges.\nTreatment: macrolides, doxycycline, or\nfluoroquinolone (penicillin ineffective since\nMycoplasma has no cell wall).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed Quite-Complicated Q-fever mnemonic + the C figure marker (physical order, lines 86-91)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Q fever is caused by a Quite Complicated\nbug because it has no rash or vector and its\ncausative organism can survive outside in its\nendospore form. Not in the Rickettsia genus,\nbut closely related.\nC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Mycoplasma lab block (not seen on Gram stain; Pleomorphic with inline photo marker A; membrane sterols; Eaton agar; CXR more severe than presentation; cold agglutinins IgM agglutinating RBCs; the printed cold-without-a-coat mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "Not seen on Gram stain. Pleomorphic A .\nBacterial membrane contains sterols for\nstability. Grown on Eaton agar.\nCXR appears more severe than patient\npresentation. High titer of cold agglutinins (IgM),\nwhich can agglutinate RBCs. Mycoplasma gets\ncold without a coat (no cell wall).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          170
+        ],
+        "bookPages": "148"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "vector-borne-rash-map"
+  ],
+  "mechanismIds": [
+    "obligate-intracellular-cycle",
+    "rash-geography-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the sections and the tables; the USMLE question attack structure is a KYP design.",
+      "location": "usmle section (patterns, traps, pivots, miniCase) + recall/rapidReview"
+    },
+    {
+      "id": "cycle-wall-rash-synthesis",
+      "summary": "The EB/RB cycle read through the wall rule (no peptidoglycan → β-lactams fail → doxycycline/azithromycin axis) with the serotype tri-split (A-C blindness, D-K the 1-2-week neonatal conjunctivitis vs the gonococcal 2-5-day pair of M12, L1-L3 the buboes); the zoonotic directory read as a transmission map (the tick boards, the louse, the fleas, the aerosol exceptions); the rash geometry (RMSF wrists-to-palms vasculitis vs typhus central-sparing) with the morulae cell-lineage axis and Q fever's no-rash-no-vector culture-negative endocarditis; Mycoplasma's no-wall set (cold agglutinins, CXR worse than the patient, not on Gram stain) paired with chlamydiae's no-peptidoglycan as the same therapy logic; and Gardnerella's vaginosis-vs-vaginitis split (nonpainful, pH, whiff, clue cells) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the sections without the cross-chapter wiring or the synthesis; these integrations are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p168 carries 1 raster in M15's section (the chlamydial follicular-conjunctivitis photo, marker A inline at line 53 + heading marker at 35); p169 carries 1 (the Gardnerella clue cells, marker A after the heading with the inline arrow-in-A at line 16); p170 carries 4 (the RMSF wrist rash A inline at 22; the monocyte morulae B inline at 43 + figure-block B at 74; the granulocyte morulae C inline at 53 + standalone C at 91; the pleomorphic Mycoplasma A inline at 93 + figure-block A at 70) — all COPYRIGHTED, described-in-text only. The zoonotic directory and the RASH blocks are pure vector (redrawn in the registry visual — the DIRECTORY grid and the RASH panels). PAGE BOUNDARY: pdf 168 shared with M14 — M15 owns the Chlamydiae section (dump lines 34-105); the diagnosing-syphilis tree (25-65 interleaved) is M14's. Gardnerella belongs by PAGE OWNERSHIP of book 147. RASH COMMON/RASH RARE grouping resolved by TWO concordant VLM reads (census + zoom): RASH COMMON = RMSF + typhus; RASH RARE = ehrlichiosis + anaplasmosis + Q fever, with Mycoplasma closing; the text layer emits the RASH RARE label at line 64 between the Q fever block and the figure row (content-stream quirk documented). Text-layer quirks documented: the ▘ U+2598 bullets; the enfectious gloss (FA's own printed curly-quoted misspelling); the fluorescent antibody–stained en dash; 'culture ⊝ endocarditis' ⊝ U+229D; curly quotes; → double-space arrows; the zoonotic table's interleaved triplets quoted as 3 contiguous chunks. FA's printed mnemonics (Chlamys = cloak; ABC; D-K = everything else; CARS; wrists/trunk; MEGA; Quite Complicated; cold without a coat) carried verbatim in the table block only (NOT in the visual).",
+  "updatedAt": "2026-10-21"
+}
