@@ -1,0 +1,536 @@
+{
+  "topicId": "dna-viruses",
+  "title": "DNA Viruses: Families & Disease Map",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      183,
+      184,
+      185
+    ],
+    "bookPages": "161–163"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "161",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "DNA viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro rule (icosahedral, nucleus, the pox exception + FA's printed gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "All are icosahedral and replicate in the nucleus (except poxvirus). “Pox is out of the box (nucleus).”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "VIRAL FAMILY\n\nENVELOPE\n\nDNA STRUCTURE\n\nMEDICAL IMPORTANCE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Herpesviruses row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Herpesviruses\n\nYes\n\nDS and linear\n\nSee Herpesviruses entry",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Poxvirus row, interleaved (largest DNA virus; smallpox eradicated; cowpox milkmaid blisters; molluscum bodies A)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Poxvirus\n\nYes\n\nDS and linear\n(largest DNA virus)\n\nSmallpox eradicated world wide by use of the liveattenuated vaccine\nCowpox (“milkmaid blisters”)\nMolluscum contagiosum—flesh-colored papule\nwith central umbilication; keratinocytes contain\nmolluscum bodies A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hepadnavirus row, interleaved with the ▘ bullets (partially DS circular; HBV; reverse transcriptase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Hepadnavirus\n\nYes\n\nPartially DS and circular\n\nHBV:\n▘ Acute or chronic hepatitis\n▘ Not a retrovirus but has reverse transcriptase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Adenovirus row, interleaved (febrile pharyngitis B; hemorrhagic cystitis; pneumonia; pink eye; gastroenteritis; myocarditis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Adenovirus\n\nNo\n\nDS and linear\n\nFebrile pharyngitis B —sore throat\nAcute hemorrhagic cystitis\nPneumonia\nConjunctivitis—“pink eye”\nGastroenteritis\nMyocarditis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Papillomavirus row, interleaved (HPV; serotypes 1,2,6,11 warts; 16,18 cancer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Papillomavirus\n\nNo\n\nDS and circular\n\nHPV—warts, cancer (cervical, anal, penile, or\noropharyngeal); serotypes 1, 2, 6, 11 associated with\nwarts; serotypes 16, 18 associated with cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Polyomavirus row, interleaved (JC PML; BK transplant kidney; FA's JC/BK gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Polyomavirus\n\nNo\n\nDS and circular\n\nJC virus—progressive multifocal leukoencephalopathy\n(PML) in immunocompromised patients (eg, HIV)\nBK virus—transplant patients, commonly targets kidney\nJC: Junky Cerebrum; BK: Bad Kidney",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Parvovirus row, interleaved (smallest; parvus = small; B19; slapped cheek; aplastic crises; RBC precursors; hydrops fetalis; RA-like)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "Parvovirus\n\nNo\n\nSS and linear\n(smallest DNA virus;\nparvus = small)\n\nB19 virus—aplastic crises in sickle cell disease,\n“slapped cheek” rash in children (erythema\ninfectiosum, or fifth disease); infects RBC precursors\nand endothelial cells →  RBC destruction →  hydrops\nfetalis and death in fetus, pure RBC aplasia and\nrheumatoid arthritis–like symptoms in adults",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure markers + footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161"
+      },
+      "quote": "A\n\nB\n\nFAS1_2026_03-Microbiology.indd 161\n\n12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "162",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading + intro",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Herpesviruses\n\nEnveloped, DS, and linear viruses. Recent data suggest both HSV-1 and HSV-2 can affect both genital and\nextragenital areas.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "VIRUS\n\nROUTE OF TRANSMISSION\n\nCLINICAL SIGNIFICANCE\n\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HSV-1 row, interleaved (route 25-26; clinical 28-34; notes 35-40 — the route column splits around the clinical block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Herpes\nsimplex\nvirus-1\n\nRespiratory\nsecretions, saliva\n\nGingivostomatitis, keratoconjunctivitis A ,\nherpes labialis (cold sores) B , herpetic\nwhitlow on finger, temporal lobe encephalitis,\nesophagitis, erythema multiforme.\nResponsible for a growing percentage of\nherpes genitalis.\n\nMost commonly latent in trigeminal\nganglia\nMost common cause of sporadic\nencephalitis, can present as altered\nmental status, seizures, and/or\naphasia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HSV-2 row, interleaved (sexual/perinatal; genitalis; neonatal C; sacral latency; meningitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Herpes\nsimplex\nvirus-2\n\nSexual contact,\nperinatal\n\nHerpes genitalis, neonatal herpes C\n\nMost commonly latent in sacral\nganglia\nViral meningitis more common\nwith HSV-2 than with HSV-1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VZV row, interleaved (the route text merges with the notes column at line 63; chickenpox D, shingles E; postherpetic neuralgia; V1 ophthalmicus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Varicellazoster virus\n(HHV-3)\n\nRespiratory\nVaricella-zoster (chickenpox D , shingles E ),\nsecretions,\nencephalitis, pneumonia\ncontact with fluid Most common complication of shingles is postfrom vesicles\nherpetic neuralgia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VZV notes tail (the dorsal-root latency note emits at the page end after the footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 162\n\nLatent in dorsal root or trigeminal\nganglia; CN V1 branch\ninvolvement can cause herpes\nzoster ophthalmicus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "EBV row, interleaved (the kissing-disease route block 69-75; mono 77-80; cancer set 81-85; CD21 + FA gloss 87-88; atypical lymphocytes 89-91; Monospot 92-94; amoxicillin rash 95-97)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Epstein-Barr\nvirus (HHV-4)\n\nRespiratory\nsecretions, saliva;\nalso called\n“kissing disease,”\n(common in\nteens, young\nadults)\n\nMononucleosis—fever, hepatosplenomegaly F ,\npharyngitis, and lymphadenopathy (especially\nposterior cervical nodes); avoid contact sports\nuntil resolution due to risk of splenic rupture\nAssociated with lymphomas (eg, endemic\nBurkitt lymphoma), nasopharyngeal\ncarcinoma (especially Asian adults),\nlymphoproliferative disease in transplant\npatients\n\nInfects B cells through CD21, “Must\nbe 21 to drink Beer in a Barr”\nAtypical lymphocytes on peripheral\nblood smear G —not infected B\ncells but reactive cytotoxic T cells\n⊕ Monospot test—heterophile\nantibodies detected by agglutination\nof sheep or horse RBCs\nUse of amoxicillin (eg, for presumed\nstrep pharyngitis) can cause\nmaculopapular rash",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CMV row, interleaved (the 6-way route block 101-105; ⊝ Monospot mono; transplant pneumonia; AIDS retinitis sightomegalovirus; owl-eye H; mononuclear latency)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Cytomegalovirus (HHV-5)\n\nCongenital,\ntransfusion,\nsexual contact,\nsaliva, urine,\ntransplant\n\nMononucleosis (⊝ Monospot) in\nimmunocompetent patients; infection in\nimmunocompromised, especially pneumonia\nin transplant patients; esophagitis; colitis;\nAIDS retinitis (“sightomegalovirus”):\nhemorrhage, cotton-wool exudates, vision loss\nCongenital CMV\n\nInfected cells have characteristic\n“owl eye” intranuclear\ninclusions H\nLatent in mononuclear cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HHV-6/7 row, interleaved (roseola; fever first Rosy later gloss; children <2; HHV-7 less common)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Human\nherpesviruses 6\nand 7\n\nSaliva\n\nRoseola infantum (exanthem subitum): high\nfevers for several days that can cause seizures,\nfollowed by diffuse macular rash (starts on\ntrunk then spreads to extremities) I ; usually\nseen in children <2 years old\n\nRoseola: fever first, Rosy (rash) later\nSelf-limited illness\nHHV-7—less common cause of\nroseola",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HHV-8 row, interleaved (Kaposi sarcoma; endothelial neoplasm; HIV/AIDS and transplant; violaceous plaques J; GI and lungs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162"
+      },
+      "quote": "Human\nherpesvirus\n8\n\nSexual contact\n\nKaposi sarcoma (neoplasm of endothelial cells).\nSeen in HIV/AIDS and transplant patients.\nDark/violaceous plaques or nodules J\nrepresenting vascular proliferations\n\nCan also affect GI tract and lungs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "163",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading (continuation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "Herpesviruses (continued)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-J gallery markers + Liv/Sp labels + the HSV-identification heading (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "A\n\nB\n\nC\n\nD\n\nE\n\nF\n\nG\n\nH\n\nI\n\nJ\n\nLiv\n\nSp\n\nHSV identification\nA\n\nReceptors used by\nviruses\n\nFAS1_2026_03-Microbiology.indd 163",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HSV identification block (PCR test of choice; CSF PCR; Tzanck outdated — multinucleated giant cells A; Cowdry A inclusions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "PCR of skin lesions is test of choice.\nCSF PCR for herpes encephalitis.\nTzanck test (outdated)—a smear of an opened skin vesicle to detect multinucleated giant cells A\ncommonly seen in HSV-1, HSV-2, and VZV infection.\nIntranuclear eosinophilic Cowdry A inclusions also seen with HSV-1, HSV-2, VZV.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Receptors table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "VIRUS\n\nRECEPTOR(S)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Receptors rows (CMV integrins; EBV CD21; HIV CD4/CXCR4/CCR5)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "CMV\n\nIntegrins (heparan sulfate)\n\nEBV\n\nCD21\n\nHIV\n\nCD4, CXCR4, CCR5",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Receptors rows (parvovirus P antigen; rabies nicotinic AChR; rhinovirus ICAM-1 + FA's I-CAMe gloss; SARS-CoV-2 ACE2)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "Parvovirus B19\n\nP antigen on RBCs\n\nRabies\n\nNicotinic AChR\n\nRhinovirus\n\nICAM-1 (I CAMe to see the rhino)\n\nSARS-CoV-2\n\nACE2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "dna-virus-family-map"
+  ],
+  "mechanismIds": [
+    "dna-family-grid-logic",
+    "herpes-latency-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "grid-latency-synthesis",
+      "summary": "The three-axis family grid (envelope, genome shape, size poles) wired to M22's envelope rule; the herpes roster reorganized on the latency axis (trigeminal, sacral, dorsal root, B cell, mononuclear cell); the two-cell EBV split (infected B cell vs reactive cytotoxic T cell); the Monospot sign as the EBV/CMV discriminator; and the opportunist set mapped to the immunocompromised host — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two tables side by side without the grid axes or the latency synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p183 2 rasters (molluscum bodies A, pharyngitis B); p184 0 rasters (the A-J markers print here, the photographs print on p185 — the cross-page figure convention); p185 13 rasters vs 11 identified markers (A-J gallery + the gray Tzanck A) — the 2-image discrepancy documented as gallery sub-tiling. The banner typo MICROCIOLOGY prints on books 161-163; the VLM census normalized it twice differently (MICROBIOLOGY on p185, MICROBIOLOOY on p183) — the text layer is authoritative. p184's VZV route text merges with the notes column at line 63; the VZV latency note emits at the page end after the footer (150-155); the EBV and CMV route columns emit as multi-line blocks; the parvovirus row's arrow chain carries text-layer control markers stripped by norm(). FA's printed mnemonics (Pox is out of the box; JC Junky Cerebrum / BK Bad Kidney; Must be 21 to drink Beer in a Barr; Roseola fever-first-Rosy-later; I CAMe to see the rhino) are quoted in the table blocks for verification only.",
+  "updatedAt": "2026-10-21"
+}

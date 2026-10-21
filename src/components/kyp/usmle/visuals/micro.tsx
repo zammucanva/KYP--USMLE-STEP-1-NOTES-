@@ -2891,3 +2891,141 @@ export function ViralStructureMap() {
     </svg>
   );
 }
+
+export function DnaVirusFamilyMap() {
+  const w = 980;
+  const h = 1114;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="DNA viruses, an original KYP family map. THE RULES: all DNA viruses are icosahedral and replicate in the nucleus except poxvirus (the largest DNA virus, cytoplasmic); parvovirus is the smallest (parvus = small); the enveloped trio is herpes, hepadna, and pox — the other four families are naked. THE FAMILY GRID: Herpesviruses (enveloped, DS linear — see the roster); Poxvirus (enveloped, DS linear, largest — smallpox eradicated by the live-attenuated vaccine, cowpox milkmaid blisters, molluscum contagiosum with flesh-colored umbilicated papules and molluscum bodies in keratinocytes); Hepadnavirus (enveloped, partially DS circular — HBV acute or chronic hepatitis, not a retrovirus but has reverse transcriptase); Adenovirus (naked, DS linear — febrile pharyngitis, hemorrhagic cystitis, pneumonia, pink eye, gastroenteritis, myocarditis); Papillomavirus (naked, DS circular — HPV warts and cancer, serotypes 1 2 6 11 warts and 16 18 cancer); Polyomavirus (naked, DS circular — JC virus PML in the immunocompromised, BK virus the transplant kidney); Parvovirus (naked, SS linear, smallest — B19 aplastic crises in sickle cell, slapped cheek rash, infects RBC precursors, hydrops fetalis). THE HERPES ROSTER: HSV-1 trigeminal latency with gingivostomatitis, cold sores, and temporal lobe encephalitis; HSV-2 sacral latency with genital and neonatal herpes; VZV chickenpox and shingles with postherpetic neuralgia and zoster ophthalmicus; EBV mononucleosis with CD21 B-cell entry, positive Monospot, atypical lymphocytes, Burkitt and nasopharyngeal carcinoma; CMV owl-eye inclusions with negative-Monospot mono, retinitis, congenital disease; HHV-6 and 7 roseola; HHV-8 Kaposi sarcoma. HSV identification by PCR; Tzanck and Cowdry A; and the receptor set (CMV integrins, EBV CD21, HIV CD4 CXCR4 CCR5, parvovirus P antigen, rabies nicotinic AChR, rhinovirus ICAM-1, SARS-CoV-2 ACE2)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">DNA viruses — the family map + the herpes roster (original KYP redraw)</text>
+        <rect x="722" y="24" width="234" height="18" rx="9" className="fill-brand-soft" />
+<text x="839" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">enveloped trio · naked quartet</text>
+      </g>
+      {/* the box rule + size poles */}
+      <g>
+        <rect x="36" y="76" width="908" height="48" rx="10" className="fill-secondary" />
+<text x="490" y="92" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-foreground">THE BOX RULE: all DNA viruses are icosahedral and replicate in the NUCLEUS — EXCEPT POXVIRUS, which replicates in the cytoplasm (it carries its own machinery).</text>
+<text x="490" y="103" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-foreground">THE SIZE POLES: POXVIRUS = the LARGEST DNA virus; PARVOVIRUS = the SMALLEST (parvus = small). THE ENVELOPE SET: the enveloped trio = HERPES, HEPADNA, POX — the other four families are naked.</text>
+      </g>
+      {/* ===== THE FAMILY GRID ===== */}
+      <g>
+        <rect x="36" y="140" width="908" height="379" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="160" fontSize="9" fontWeight="800" className="fill-foreground">THE SEVEN FAMILIES — book 161</text>
+        <rect x="52" y="170" width="120" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">FAMILY</text>
+        <rect x="180" y="170" width="44" height="20" rx="4" className="fill-secondary" />
+<text x="186" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">ENV</text>
+        <rect x="232" y="170" width="150" height="20" rx="4" className="fill-secondary" />
+<text x="238" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">DNA STRUCTURE</text>
+        <rect x="390" y="170" width="372" height="20" rx="4" className="fill-secondary" />
+<text x="396" y="184" fontSize="5.8" fontWeight="800" className="fill-foreground">MEDICAL IMPORTANCE</text>
+        <rect x="52" y="198" width="710" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="211" fontSize="5.4" fontWeight="800" className="fill-emergency">Herpesviruses</text>
+<text x="186" y="211" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="238" y="211" fontSize="4.7" className="fill-muted-foreground">DS, linear</text>
+<text x="396" y="211" fontSize="4.7" className="fill-muted-foreground">See the Herpesviruses roster below (the source's own pointer).</text>
+        <rect x="52" y="238" width="710" height="42" rx="4" className="fill-secondary/60" />
+<text x="58" y="251" fontSize="5.4" fontWeight="800" className="fill-emergency">Poxvirus</text>
+<text x="186" y="251" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="238" y="251" fontSize="4.7" className="fill-muted-foreground">DS, linear (LARGEST DNA virus)</text>
+<text x="396" y="251" fontSize="4.7" className="fill-muted-foreground">Smallpox eradicated worldwide by use of the live-attenuated vaccine; cowpox (“milkmaid blisters”); molluscum contagiosum — flesh-colored papule with</text>
+<text x="396" y="260" fontSize="4.7" className="fill-muted-foreground">central umbilication; keratinocytes contain molluscum bodies A (printed histology — described-in-text only).</text>
+        <rect x="52" y="287" width="710" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="300" fontSize="5.4" fontWeight="800" className="fill-emergency">Hepadnavirus</text>
+<text x="186" y="300" fontSize="5.0" fontWeight="700" className="fill-foreground">Yes</text>
+<text x="238" y="300" fontSize="4.7" className="fill-muted-foreground">Partially DS, circular</text>
+<text x="396" y="300" fontSize="4.7" className="fill-muted-foreground">HBV: acute or chronic hepatitis; not a retrovirus but HAS REVERSE TRANSCRIPTASE.</text>
+        <rect x="52" y="327" width="710" height="42" rx="4" className="fill-secondary/60" />
+<text x="58" y="340" fontSize="5.4" fontWeight="800" className="fill-emergency">Adenovirus</text>
+<text x="186" y="340" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="238" y="340" fontSize="4.7" className="fill-muted-foreground">DS, linear</text>
+<text x="396" y="340" fontSize="4.7" className="fill-muted-foreground">Febrile pharyngitis — sore throat B (printed photo — described-in-text only); acute hemorrhagic cystitis; pneumonia; conjunctivitis (“pink eye”);</text>
+<text x="396" y="349" fontSize="4.7" className="fill-muted-foreground">gastroenteritis; myocarditis.</text>
+        <rect x="52" y="376" width="710" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="389" fontSize="5.4" fontWeight="800" className="fill-emergency">Papillomavirus</text>
+<text x="186" y="389" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="238" y="389" fontSize="4.7" className="fill-muted-foreground">DS, circular</text>
+<text x="396" y="389" fontSize="4.7" className="fill-muted-foreground">HPV — warts and cancer (cervical, anal, penile, oropharyngeal); serotypes 1, 2, 6, 11 → warts; serotypes 16, 18 → cancer.</text>
+        <rect x="52" y="416" width="710" height="42" rx="4" className="fill-secondary/60" />
+<text x="58" y="429" fontSize="5.4" fontWeight="800" className="fill-emergency">Polyomavirus</text>
+<text x="186" y="429" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="238" y="429" fontSize="4.7" className="fill-muted-foreground">DS, circular</text>
+<text x="396" y="429" fontSize="4.7" className="fill-muted-foreground">JC virus — progressive multifocal leukoencephalopathy (PML) in the immunocompromised (eg, HIV); BK virus — transplant patients, commonly targets the</text>
+<text x="396" y="438" fontSize="4.7" className="fill-muted-foreground">kidney.</text>
+        <rect x="52" y="465" width="710" height="42" rx="4" className="fill-secondary" />
+<text x="58" y="478" fontSize="5.4" fontWeight="800" className="fill-emergency">Parvovirus</text>
+<text x="186" y="478" fontSize="5.0" fontWeight="700" className="fill-foreground">No</text>
+<text x="238" y="478" fontSize="4.7" className="fill-muted-foreground">SS, linear (SMALLEST; parvus = small)</text>
+<text x="396" y="478" fontSize="4.7" className="fill-muted-foreground">B19 virus — aplastic crises in sickle cell disease; “slapped cheek” rash in children (erythema infectiosum, fifth disease); infects RBC precursors and</text>
+<text x="396" y="487" fontSize="4.7" className="fill-muted-foreground">endothelial cells → RBC destruction → hydrops fetalis and death in the fetus; pure RBC aplasia and RA-like symptoms in adults.</text>
+      </g>
+      {/* ===== THE HERPES ROSTER ===== */}
+      <g>
+        <rect x="36" y="535" width="908" height="397" rx="14" className="fill-card stroke-border" />
+<text x="52" y="555" fontSize="9" fontWeight="800" className="fill-foreground">THE HERPESVIRUS ROSTER — book 162 (enveloped, DS, linear)</text>
+<text x="52" y="567" fontSize="4.8" className="fill-muted-foreground">Recent data suggest both HSV-1 and HSV-2 can affect both genital and extragenital areas.</text>
+        <rect x="52" y="575" width="92" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="589" fontSize="5.8" fontWeight="800" className="fill-foreground">VIRUS</text>
+        <rect x="152" y="575" width="188" height="20" rx="4" className="fill-secondary" />
+<text x="158" y="589" fontSize="5.8" fontWeight="800" className="fill-foreground">ROUTE</text>
+        <rect x="348" y="575" width="580" height="20" rx="4" className="fill-secondary" />
+<text x="354" y="589" fontSize="5.8" fontWeight="800" className="fill-foreground">SIGNATURE + LATENCY</text>
+        <rect x="52" y="603" width="876" height="42" rx="4" className="fill-secondary" />
+<text x="58" y="616" fontSize="5.4" fontWeight="800" className="fill-brand">HSV-1</text>
+<text x="158" y="616" fontSize="4.7" className="fill-muted-foreground">Respiratory secretions, saliva</text>
+<text x="354" y="616" fontSize="4.7" className="fill-muted-foreground">Gingivostomatitis, keratoconjunctivitis A, herpes labialis B (cold sores), herpetic whitlow, TEMPORAL LOBE ENCEPHALITIS (the most common sporadic encephalitis — altered mental status, seizures, aphasia), esophagitis, erythema multiforme;</text>
+<text x="354" y="625" fontSize="4.7" className="fill-muted-foreground">a growing percentage of herpes genitalis. LATENT IN TRIGEMINAL GANGLIA.</text>
+        <rect x="52" y="652" width="876" height="33" rx="4" className="fill-secondary/60" />
+<text x="58" y="665" fontSize="5.4" fontWeight="800" className="fill-brand">HSV-2</text>
+<text x="158" y="665" fontSize="4.7" className="fill-muted-foreground">Sexual contact, perinatal</text>
+<text x="354" y="665" fontSize="4.7" className="fill-muted-foreground">Herpes genitalis; NEONATAL HERPES C; viral meningitis more common than with HSV-1. LATENT IN SACRAL GANGLIA.</text>
+        <rect x="52" y="692" width="876" height="42" rx="4" className="fill-secondary" />
+<text x="58" y="705" fontSize="5.4" fontWeight="800" className="fill-brand">VZV (HHV-3)</text>
+<text x="158" y="705" fontSize="4.7" className="fill-muted-foreground">Respiratory secretions, contact with vesicle fluid</text>
+<text x="354" y="705" fontSize="4.7" className="fill-muted-foreground">Varicella (chickenpox D) → zoster (shingles E, dermatomal); encephalitis, pneumonia. POSTHERPETIC NEURALGIA = the most common complication of shingles; latent in dorsal root or trigeminal ganglia; CN V1 involvement → HERPES ZOSTER</text>
+<text x="354" y="714" fontSize="4.7" className="fill-muted-foreground">OPHTHALMICUS.</text>
+        <rect x="52" y="741" width="876" height="51" rx="4" className="fill-secondary/60" />
+<text x="58" y="754" fontSize="5.4" fontWeight="800" className="fill-brand">EBV (HHV-4)</text>
+<text x="158" y="754" fontSize="4.7" className="fill-muted-foreground">Respiratory secretions, saliva (“kissing disease” — teens, young adults)</text>
+<text x="354" y="754" fontSize="4.7" className="fill-muted-foreground">MONONUCLEOSIS: fever, hepatosplenomegaly F, pharyngitis, lymphadenopathy (esp. POSTERIOR CERVICAL nodes); avoid contact sports until resolution (SPLENIC RUPTURE). Endemic Burkitt lymphoma, nasopharyngeal carcinoma (esp. Asian adults),</text>
+<text x="354" y="763" fontSize="4.7" className="fill-muted-foreground">transplant lymphoproliferative disease. Infects B cells through CD21; atypical lymphocytes G = reactive cytotoxic T cells (not infected B cells); ⊕ MONOSPOT (heterophile antibodies agglutinating sheep/horse RBCs); amoxicillin →</text>
+<text x="354" y="772" fontSize="4.7" className="fill-muted-foreground">maculopapular rash.</text>
+        <rect x="52" y="799" width="876" height="42" rx="4" className="fill-secondary" />
+<text x="58" y="812" fontSize="5.4" fontWeight="800" className="fill-brand">CMV (HHV-5)</text>
+<text x="158" y="812" fontSize="4.7" className="fill-muted-foreground">Congenital, transfusion, sexual contact, saliva, urine, transplant</text>
+<text x="354" y="812" fontSize="4.7" className="fill-muted-foreground">Mononucleosis (⊝ Monospot) in the immunocompetent; pneumonia in transplant patients; esophagitis, colitis; AIDS RETINITIS (“sightomegalovirus” — hemorrhage, cotton-wool exudates, vision loss); congenital CMV. “OWL EYE” intranuclear</text>
+<text x="354" y="821" fontSize="4.7" className="fill-muted-foreground">inclusions H; latent in mononuclear cells.</text>
+        <rect x="52" y="848" width="876" height="42" rx="4" className="fill-secondary/60" />
+<text x="58" y="861" fontSize="5.4" fontWeight="800" className="fill-brand">HHV-6 and HHV-7</text>
+<text x="158" y="861" fontSize="4.7" className="fill-muted-foreground">Saliva</text>
+<text x="354" y="861" fontSize="4.7" className="fill-muted-foreground">ROSEOLA INFANTUM (exanthem subitum): high fevers for several days (can cause seizures), then a diffuse macular rash starting on the trunk and spreading to the extremities I; usually children &lt;2 years; self-limited (HHV-7 the less common</text>
+<text x="354" y="870" fontSize="4.7" className="fill-muted-foreground">cause).</text>
+        <rect x="52" y="897" width="876" height="33" rx="4" className="fill-secondary" />
+<text x="58" y="910" fontSize="5.4" fontWeight="800" className="fill-brand">HHV-8</text>
+<text x="158" y="910" fontSize="4.7" className="fill-muted-foreground">Sexual contact</text>
+<text x="354" y="910" fontSize="4.7" className="fill-muted-foreground">KAPOSI SARCOMA — a neoplasm of endothelial cells in HIV/AIDS and transplant patients; dark/violaceous plaques or nodules J (vascular proliferations); can also affect the GI tract and lungs.</text>
+      </g>
+      {/* ===== IDENTIFICATION + RECEPTORS ===== */}
+      <g>
+        <rect x="36" y="948" width="908" height="84" rx="12" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="968" fontSize="6.2" fontWeight="800" className="fill-emergency">HSV IDENTIFICATION</text>
+<text x="58" y="980" fontSize="4.7" className="fill-muted-foreground">PCR of skin lesions = the test of choice</text>
+<text x="58" y="989" fontSize="4.7" className="fill-muted-foreground">CSF PCR for herpes encephalitis</text>
+<text x="58" y="998" fontSize="4.7" className="fill-muted-foreground">Tzanck test (outdated) — smear of an opened skin vesicle for multinucleated giant cells A (HSV-1, HSV-2, VZV)</text>
+<text x="58" y="1007" fontSize="4.7" className="fill-muted-foreground">Intranuclear eosinophilic Cowdry A inclusions (HSV-1, HSV-2, VZV)</text>
+<text x="500" y="968" fontSize="6.2" fontWeight="800" className="fill-emergency">RECEPTORS USED BY VIRUSES</text>
+<text x="506" y="980" fontSize="4.7" className="fill-muted-foreground">CMV — integrins (heparan sulfate) · EBV — CD21 · HIV — CD4, CXCR4, CCR5</text>
+<text x="506" y="989" fontSize="4.7" className="fill-muted-foreground">Parvovirus B19 — P antigen on RBCs · Rabies — nicotinic AChR</text>
+<text x="506" y="998" fontSize="4.7" className="fill-muted-foreground">Rhinovirus — ICAM-1 · SARS-CoV-2 — ACE2</text>
+      </g>
+      {/* footer */}
+<text x="24" y="1050" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's DNA-viruses table (pdf 183 / book 161), Herpesviruses table (pdf 184 / book 162), and the HSV-identification + receptors blocks (pdf 185 / book 163).</text>
+<text x="24" y="1062" fontSize="7.2" className="fill-muted-foreground">The printed photos (molluscum bodies A and pharyngitis B on book 161; the A-J gallery, the Liv/Sp hepatosplenomegaly imaging, and the Tzanck smear A on book 163) are raster — COPYRIGHTED, described-in-text only.</text>
+<text x="24" y="1074" fontSize="7.2" className="fill-muted-foreground">The source's banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 161-163. FA's printed mnemonics (Pox is out of the box; JC Junky Cerebrum / BK Bad Kidney; Must be 21 to drink Beer in a Barr; Roseola fever-first-Rosy-later; I CAMe to see the rhino) stay in the</text>
+<text x="24" y="1086" fontSize="7.2" className="fill-muted-foreground">note's table block — verification-only, not redrawn.</text>
+    </svg>
+  );
+}

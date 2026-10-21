@@ -1,0 +1,188 @@
+{
+  "topicId": "dna-viruses",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "dna-viruses-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161–161"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The DNA viruses table (book 161)",
+      "sourceFigureDescription": "The printed 7-family table: VIRAL FAMILY | ENVELOPE | DNA STRUCTURE | MEDICAL IMPORTANCE, with the intro rule line.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "dna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the box-rule/size-poles strip + the 7-family grid"
+    },
+    {
+      "visualId": "dna-viruses-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          184
+        ],
+        "bookPages": "162–162"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Herpesviruses table (book 162)",
+      "sourceFigureDescription": "The printed 7-virus roster: VIRUS | ROUTE OF TRANSMISSION | CLINICAL SIGNIFICANCE | NOTES.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "dna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the 7-virus herpes roster with routes, signatures, and latency"
+    },
+    {
+      "visualId": "dna-viruses-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163–163"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The HSV-identification and receptors blocks (book 163)",
+      "sourceFigureDescription": "The printed identification text (PCR, CSF PCR, Tzanck, Cowdry A) and the 7-row receptor table.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "dna-virus-family-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the identification + receptors strip"
+    },
+    {
+      "visualId": "dna-viruses-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161–161"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The molluscum-bodies histology (book 161)",
+      "sourceFigureDescription": "The H&E of keratinocytes containing molluscum bodies, marker A in the Poxvirus row.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "dna-viruses-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          183
+        ],
+        "bookPages": "161–161"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The pharyngitis photograph (book 161)",
+      "sourceFigureDescription": "The febrile-pharyngitis photo, marker B in the Adenovirus row.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table row — figure pointer carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "dna-viruses-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          184,
+          185
+        ],
+        "bookPages": "162–163"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The A-J herpes gallery (book 163)",
+      "sourceFigureDescription": "The 10-tile photo gallery: keratoconjunctivitis A, cold sores B, neonatal herpes C, chickenpox D, shingles E, hepatosplenomegaly F (Liv/Sp), atypical lymphocytes G, owl-eye inclusions H, roseola rash I, Kaposi sarcoma J.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] table rows — the markers print on book 162, the gallery on book 163; described-in-text only"
+    },
+    {
+      "visualId": "dna-viruses-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          185
+        ],
+        "bookPages": "163–163"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Tzanck-smear micrograph (book 163)",
+      "sourceFigureDescription": "The gray-scale multinucleated-giant-cells smear, marker A of the HSV-identification block.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "dna-viruses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] table row — figure pointer carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "dna-viruses",
+    "textbookVisualCount": 7,
+    "accountedFor": 7,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "3 source tables redrawn in the registry visual; 4 raster sets (molluscum-bodies histology, pharyngitis photo, the A-J gallery with Liv/Sp, the Tzanck smear) are COPYRIGHTED — described-in-text only in the table blocks."
+}
