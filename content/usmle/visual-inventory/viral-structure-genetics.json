@@ -1,0 +1,115 @@
+{
+  "topicId": "viral-structure-genetics",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "viral-structure-genetics-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159–159"
+      },
+      "chapterId": "microbiology",
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Viral structure—general features figure (book 159)",
+      "sourceFigureDescription": "The printed 4-panel figure: naked (nonenveloped) virus with icosahedral capsid; enveloped virus with icosahedral capsid; enveloped virus with helical capsid; bacteriophage — with all labeled parts.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-structure-genetics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "viral-structure-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the four architecture panels (1 Naked icosahedral / 2 Enveloped icosahedral / 3 Enveloped helical / 4 Bacteriophage)"
+    },
+    {
+      "visualId": "viral-structure-genetics-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159–159"
+      },
+      "chapterId": "microbiology",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Viral genetics diagrams (book 159)",
+      "sourceFigureDescription": "The printed row diagrams: two parent icons + = progeny for recombination, reassortment, complementation (Functional/Nonfunctional), and phenotypic mixing (Virus A/B, Progeny 1/2).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-structure-genetics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "viral-structure-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the four genetic-exchange cards with the what-crosses subtitles"
+    },
+    {
+      "visualId": "viral-structure-genetics-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160–160"
+      },
+      "chapterId": "microbiology",
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Viral genomes naked-genome rule (book 160)",
+      "sourceFigureDescription": "The printed infectivity paragraph: which naked nucleic acids are infectious and why (the polymerase rule).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-structure-genetics",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "viral-structure-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the naked-genome infectivity + envelope rules strip"
+    },
+    {
+      "visualId": "viral-structure-genetics-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160–160"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The CHARACTERISTICS/MNEMONIC table (book 160)",
+      "sourceFigureDescription": "The printed 3-row table: DNA viruses, RNA viruses, Viral envelopes — genome rosters and envelope sources.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Virology",
+      "topicId": "viral-structure-genetics",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] table block — verbatim with FA's mnemonics marked verification-only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "viral-structure-genetics",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both source pages pure vector (0 rasters) — no copyrighted photos on this topic; the 4 source visuals (the structure figure, the genetics diagrams, the genomes rule, the characteristics table) are accounted for: 3 redrawn in the registry visual, 1 adapted as the verbatim note-block table."
+}

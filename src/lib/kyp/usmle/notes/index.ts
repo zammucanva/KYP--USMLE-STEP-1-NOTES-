@@ -72,6 +72,7 @@ import { intestinalProtozoa } from "./intestinal-protozoa";
 import { bloodTissueProtozoa } from "./blood-tissue-protozoa";
 import { helminthsNematodes } from "./helminths-nematodes";
 import { cestodesTrematodes } from "./cestodes-trematodes";
+import { viralStructureGenetics } from "./viral-structure-genetics";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -227,6 +228,7 @@ export const usmleNotes: KypUsMLENote[] = [
   bloodTissueProtozoa,
   helminthsNematodes,
   cestodesTrematodes,
+  viralStructureGenetics,
   cranialNerves,
   diabetesMellitus,
 ];

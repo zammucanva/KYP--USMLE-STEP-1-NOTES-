@@ -1,0 +1,548 @@
+{
+  "topicId": "viral-structure-genetics",
+  "title": "Viral Structure & Genetics",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Virology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      181,
+      182
+    ],
+    "bookPages": "159–160"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY — prints twice on this page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "159",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Viral structure—general features",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels, first interleave block (Surface protein x2, Lipid bilayer x2, Capsid x2, Nucleic acid, Collar — physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Surface\nprotein\n\nSurface\nprotein\n\nLipid bilayer\n\nLipid bilayer\n\nCapsid\n\nCapsid\nNucleic\nacid\nCollar",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels, second interleave block (Capsid, Helical capsid with viral RNA, Nucleic acid)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Capsid\n\nHelical\ncapsid with\nviral RNA\n\nNucleic\nacid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel caption 1 — the naked design",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Naked (nonenveloped)\nvirus with icosahedral capsid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel caption 2 — enveloped icosahedral",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Enveloped virus\nwith icosahedral capsid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phage labels interleaved (Helical sheath, Core, Nucleic acid)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Helical sheath\n\nCore\n\nNucleic\nacid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Base-plate/Spikes interleave ('Base Spikes' then 'plate' — the two labels share their lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Base Spikes\nplate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel caption 3 — enveloped helical",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Enveloped virus\nwith helical capsid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Panel caption 4 — the phage",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Bacteriophage",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viral genetics heading + the four row labels GROUPED before the definitions (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Viral genetics\nRecombination\n\nReassortment\n\nComplementation\n\nPhenotypic mixing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Recombination definition (crossing over within base sequence homology)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Exchange of genes between 2 chromosomes by\ncrossing over within regions of significant base\nsequence homology.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Reassortment definition (segmented genomes; influenza; the 2009 H1N1 human-swine-avian pandemic; antigenic shift)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "When viruses with segmented genomes (eg,\ninfluenza virus) exchange genetic material.\nFor example, the 2009 novel H1N1 influenza\nA pandemic emerged via complex viral\nreassortment of genes from human, swine, and\navian viruses. Has potential to cause antigenic\nshift. Reassortment of genome segments.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Complementation definition (nonfunctional protein rescued; HDV requires replicating HBV to supply HBsAg)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "When 1 of 2 viruses that infect the cell has\na mutation that results in a nonfunctional\nprotein, the nonmutated virus “complements”\nthe mutated one by making a functional\nprotein that serves both viruses. For example,\nhepatitis D virus requires the presence of\nreplicating hepatitis B virus to supply HBsAg,\nthe envelope protein for HDV.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Phenotypic mixing definition (pseudovirion; the type B coat determines tropism; progeny 2 reverts to the type A coat)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "Occurs with simultaneous infection of a\ncell with 2 viruses. For progeny 1, genome\nof virus A can be partially or completely\ncoated (forming pseudovirion) with the\nsurface proteins of virus B. Type B protein\ncoat determines the tropism (infectivity) of\nthe hybrid virus. Progeny from subsequent\ninfection of a cell by progeny 1 will have\na type A coat that is encoded by its type A\ngenetic material.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The diagrams' label set (the + = icons, Functional/Nonfunctional, Virus A/B, Progeny 1/2 — emits after the definitions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "+\n\n=\n\n+\n\n=\n\n+\n\n=\n\nFunctional Nonfunctional\n\n+\nVirus A\n\nFunctional\n\n=\nVirus B\n\nProgeny 1\n\nProgeny 2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          181
+        ],
+        "bookPages": "159"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "160",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Viral genomes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "▶ MICROCIOLOGY—VIROLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The naked-genome infectivity paragraph (most dsDNA except poxviruses/HBV + ⊕ ssRNA infectious; ⊝ ssRNA + dsRNA not; virions carry RdRp)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Naked nucleic acids of most dsDNA viruses (except poxviruses and HBV) and ⊕ strand ssRNA\nviruses are infectious. Naked nucleic acids of ⊝ strand ssRNA and dsRNA viruses are not\ninfectious because they lack the required polymerases to replicate. Virions of ⊝ strand ssRNA\nviruses carry RNA-dependent RNA polymerases to transcribe ⊝ strand to ⊕.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "CHARACTERISTICS\n\nMNEMONIC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA viruses row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "DNA viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA viruses characteristics (all dsDNA except Parvoviridae; all linear except papilloma/polyoma/hepadna)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "All have dsDNA genomes (like our cells) except\nParvoviridae (ssDNA).\nAll are linear except papilloma-, polyoma-, and\nhepadnaviruses (circular).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA's printed DNA-virus mnemonic (verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Part of a virus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA viruses row label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "RNA viruses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA viruses characteristics (the ⊕ / ⊝ / segmented rosters)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "All have ssRNA genomes except Reoviridae\n(dsRNA).\n⊕ stranded (≈ mRNA): retro-, toga-, flavi-,\ncorona-, hepe-, calici-, and picornaviruses.\n⊝ stranded: arena-, bunya-, paramyxo-,\northomyxo-, filo-, and rhabdoviruses.\nSegmented: Bunya-, Orthomyxo-, Arena-, and\nReoviruses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA's printed RNA-virus mnemonic (verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Repeato-virus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viral envelopes characteristics (plasma membrane on exit; herpesviruses from the nuclear membrane)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Generally, enveloped viruses acquire their\nenvelopes from plasma membrane when\nthey exit from cell. Exceptions include\nherpesviruses, which acquire envelopes from\nnuclear membrane.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA's printed envelope mnemonic (the enveloped DNA set — verification-only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Enveloped DNA viruses (herpesvirus,\nhepadnavirus, poxvirus) have helpful\nprotection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Viral envelopes row label (emits AFTER its own row content, at line 50)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "Viral envelopes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "FA's printed RNA-virus mnemonic block (the retro-toga-party sentence + Always bring polymerase + BOAR — emits after the indd footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "While at a retro toga party, I drank flavored\nCorona and ate hippie California pickles.\nAlways bring polymerase or fail replication.\nBOAR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          182
+        ],
+        "bookPages": "160"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "viral-structure-map"
+  ],
+  "mechanismIds": [
+    "capsid-envelope-architecture",
+    "genetic-exchange-spectrum"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definitions; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "exchange-ladder-synthesis",
+      "summary": "The what-crosses ladder (nucleotides → segments → proteins → coats) with the heritable/transient sorter (does the genome change?); the polymerase-dependence reading of the infectivity rule (⊕ is mRNA-ready; ⊝ must carry its printer); the layered-container reading of the four printed architectures; and the phage-as-injection-machine reading — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the four definitions without the ladder/sorter synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdfimages lists 0 rasters on both p181 and p182 — PURE VECTOR, the first M-topic with no copyrighted photos. The banner typo MICROCIOLOGY prints twice on 159 (page header + section header) and once on 160; the VLM census auto-normalized it to MICROBIOLOGY (documented VLM-normalization case — the text layer is authoritative). The structure figure's labels interleave in two-column order; the genetics row labels group before the definitions; 'Base Spikes'/'plate' share lines 49-50; the p182 'Viral envelopes' row label emits after its own row content (line 50); the retro-toga-party mnemonic block emits after the indd footer (52 → 54-57). FA's printed mnemonics (Part of a virus; Repeato-virus; the retro-toga-party sentence; Always bring polymerase or fail replication; BOAR; helpful protection) are quoted in the table block for verification only — KYP's own keys are in the mnemonics block.",
+  "updatedAt": "2026-10-21"
+}

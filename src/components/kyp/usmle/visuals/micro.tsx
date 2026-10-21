@@ -2639,3 +2639,255 @@ export function CestodeTrematodeMap() {
     </svg>
   );
 }
+
+export function ViralStructureMap() {
+  const w = 980;
+  const h = 758;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Viral structure and genetics, an original KYP architecture map. THE ARCHITECTURE: the naked (nonenveloped) virus with icosahedral capsid — capsid shell around nucleic acid; the enveloped virus with icosahedral capsid — surface protein spikes on a lipid bilayer around the capsid around the nucleic acid; the enveloped virus with helical capsid — surface protein on lipid bilayer around the helical capsid with viral RNA; and the bacteriophage — capsid head with nucleic acid, collar, core within the helical sheath, base plate, and spikes. THE GENETIC EXCHANGE: recombination — crossing over within regions of significant base sequence homology; reassortment — segmented genomes (influenza) exchange whole segments, the 2009 H1N1 pandemic from human, swine, and avian reassortment, antigenic shift; complementation — the nonmutated virus makes the functional protein serving both, hepatitis D requiring HBV to supply HBsAg; phenotypic mixing — virus A genome coated with virus B surface proteins (pseudovirion), the B coat determining tropism, progeny 2 reverting to the A coat. THE NAKED-GENOME RULE: most dsDNA (except poxviruses and HBV) and positive-strand ssRNA infectious as naked nucleic acids; negative-strand ssRNA and dsRNA not infectious, their virions carrying RNA-dependent RNA polymerase to transcribe negative to positive. THE ENVELOPE RULE: envelopes from the plasma membrane on exit, herpesviruses from the nuclear membrane; enveloped DNA viruses are herpesvirus, hepadnavirus, poxvirus" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Viral structure &amp; genetics — the architecture map (original KYP redraw)</text>
+        <rect x="736" y="24" width="220" height="18" rx="9" className="fill-brand-soft" />
+<text x="846" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">capsid · envelope · exchange</text>
+      </g>
+      {/* ===== THE ARCHITECTURE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="250" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="48" y="96" fontSize="6.4" fontWeight="800" className="fill-foreground">1 · NAKED ICOSAHEDRAL</text>
+        {/* p1 naked icosahedral */}
+        <polygon points="148.0,174.0 131.0,203.4 97.0,203.4 80.0,174.0 97.0,144.6 131.0,144.6" className="fill-card stroke-brand" strokeWidth="1.4" />
+        <polygon points="132.0,174.0 123.0,189.6 105.0,189.6 96.0,174.0 105.0,158.4 123.0,158.4" className="fill-card stroke-brand" strokeWidth="0.9" />
+        <line x1="148.0" y1="174.0" x2="132.0" y2="174.0" className="stroke-brand" strokeWidth="0.7" />
+        <line x1="131.0" y1="203.4" x2="123.0" y2="189.6" className="stroke-brand" strokeWidth="0.7" />
+        <line x1="97.0" y1="203.4" x2="105.0" y2="189.6" className="stroke-brand" strokeWidth="0.7" />
+        <line x1="80.0" y1="174.0" x2="96.0" y2="174.0" className="stroke-brand" strokeWidth="0.7" />
+        <line x1="97.0" y1="144.6" x2="105.0" y2="158.4" className="stroke-brand" strokeWidth="0.7" />
+        <line x1="131.0" y1="144.6" x2="123.0" y2="158.4" className="stroke-brand" strokeWidth="0.7" />
+        <path d="M 102.0 174.0 q 3.0 -5 6.0 0 q 3.0 5 6.0 0 q 3.0 -5 6.0 0 q 3.0 5 6.0 0" className="stroke-emergency" strokeWidth="1.0" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="176" y="152" fontSize="4.8" fontWeight="700" className="fill-foreground">Capsid</text>
+        <line x1="173" y1="150" x2="141" y2="160" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="176" y="186" fontSize="4.8" fontWeight="700" className="fill-foreground">Nucleic acid</text>
+        <line x1="173" y1="184" x2="120" y2="176" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="48" y="294" fontSize="4.6" className="fill-muted-foreground">Naked (nonenveloped) virus</text>
+<text x="48" y="304" fontSize="4.6" className="fill-muted-foreground">with icosahedral capsid</text>
+<text x="278" y="96" fontSize="6.4" fontWeight="800" className="fill-foreground">2 · ENVELOPED ICOSAHEDRAL</text>
+        {/* p2 enveloped icosahedral */}
+        <line x1="384.6" y1="184.9" x2="392.3" y2="186.9" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="392.3" cy="186.9" r="2.0" className="stroke-brand" />
+        <line x1="373.7" y1="203.7" x2="379.4" y2="209.4" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="379.4" cy="209.4" r="2.0" className="stroke-brand" />
+        <line x1="354.9" y1="214.6" x2="356.9" y2="222.3" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="356.9" cy="222.3" r="2.0" className="stroke-brand" />
+        <line x1="333.1" y1="214.6" x2="331.1" y2="222.3" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="331.1" cy="222.3" r="2.0" className="stroke-brand" />
+        <line x1="314.3" y1="203.7" x2="308.6" y2="209.4" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="308.6" cy="209.4" r="2.0" className="stroke-brand" />
+        <line x1="303.4" y1="184.9" x2="295.7" y2="186.9" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="295.7" cy="186.9" r="2.0" className="stroke-brand" />
+        <line x1="303.4" y1="163.1" x2="295.7" y2="161.1" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="295.7" cy="161.1" r="2.0" className="stroke-brand" />
+        <line x1="314.3" y1="144.3" x2="308.6" y2="138.6" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="308.6" cy="138.6" r="2.0" className="stroke-brand" />
+        <line x1="333.1" y1="133.4" x2="331.1" y2="125.7" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="331.1" cy="125.7" r="2.0" className="stroke-brand" />
+        <line x1="354.9" y1="133.4" x2="356.9" y2="125.7" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="356.9" cy="125.7" r="2.0" className="stroke-brand" />
+        <line x1="373.7" y1="144.3" x2="379.4" y2="138.6" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="379.4" cy="138.6" r="2.0" className="stroke-brand" />
+        <line x1="384.6" y1="163.1" x2="392.3" y2="161.1" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="392.3" cy="161.1" r="2.0" className="stroke-brand" />
+        <circle cx="344" cy="174" r="42" className="fill-none stroke-brand" />
+        <circle cx="344" cy="174" r="37" className="fill-none stroke-brand" />
+        <polygon points="364.0,174.0 354.0,191.3 334.0,191.3 324.0,174.0 334.0,156.7 354.0,156.7" className="fill-card stroke-brand" strokeWidth="1.1" />
+        <path d="M 335.0 174.0 q 2.2 -5 4.5 0 q 2.2 5 4.5 0 q 2.2 -5 4.5 0 q 2.2 5 4.5 0" className="stroke-emergency" strokeWidth="1.0" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="406" y="140" fontSize="4.8" fontWeight="700" className="fill-foreground">Surface protein</text>
+        <line x1="403" y1="138" x2="376" y2="146" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="406" y="162" fontSize="4.8" fontWeight="700" className="fill-foreground">Lipid bilayer</text>
+        <line x1="403" y1="160" x2="383" y2="168" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="406" y="184" fontSize="4.8" fontWeight="700" className="fill-foreground">Capsid</text>
+        <line x1="403" y1="182" x2="362" y2="178" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="406" y="206" fontSize="4.8" fontWeight="700" className="fill-foreground">Nucleic acid</text>
+        <line x1="403" y1="204" x2="350" y2="180" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="278" y="294" fontSize="4.6" className="fill-muted-foreground">Enveloped virus with</text>
+<text x="278" y="304" fontSize="4.6" className="fill-muted-foreground">icosahedral capsid</text>
+<text x="508" y="96" fontSize="6.4" fontWeight="800" className="fill-foreground">3 · ENVELOPED HELICAL</text>
+        {/* p3 enveloped helical */}
+        <line x1="614.6" y1="184.9" x2="622.3" y2="186.9" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="622.3" cy="186.9" r="2.0" className="stroke-brand" />
+        <line x1="603.7" y1="203.7" x2="609.4" y2="209.4" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="609.4" cy="209.4" r="2.0" className="stroke-brand" />
+        <line x1="584.9" y1="214.6" x2="586.9" y2="222.3" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="586.9" cy="222.3" r="2.0" className="stroke-brand" />
+        <line x1="563.1" y1="214.6" x2="561.1" y2="222.3" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="561.1" cy="222.3" r="2.0" className="stroke-brand" />
+        <line x1="544.3" y1="203.7" x2="538.6" y2="209.4" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="538.6" cy="209.4" r="2.0" className="stroke-brand" />
+        <line x1="533.4" y1="184.9" x2="525.7" y2="186.9" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="525.7" cy="186.9" r="2.0" className="stroke-brand" />
+        <line x1="533.4" y1="163.1" x2="525.7" y2="161.1" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="525.7" cy="161.1" r="2.0" className="stroke-brand" />
+        <line x1="544.3" y1="144.3" x2="538.6" y2="138.6" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="538.6" cy="138.6" r="2.0" className="stroke-brand" />
+        <line x1="563.1" y1="133.4" x2="561.1" y2="125.7" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="561.1" cy="125.7" r="2.0" className="stroke-brand" />
+        <line x1="584.9" y1="133.4" x2="586.9" y2="125.7" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="586.9" cy="125.7" r="2.0" className="stroke-brand" />
+        <line x1="603.7" y1="144.3" x2="609.4" y2="138.6" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="609.4" cy="138.6" r="2.0" className="stroke-brand" />
+        <line x1="614.6" y1="163.1" x2="622.3" y2="161.1" className="stroke-brand" strokeWidth="0.9" />
+        <circle cx="622.3" cy="161.1" r="2.0" className="stroke-brand" />
+        <circle cx="574" cy="174" r="42" className="fill-none stroke-brand" />
+        <circle cx="574" cy="174" r="37" className="fill-none stroke-brand" />
+        <path d="M 556 152 L 592 158 L 556 166 L 592 174 L 556 182 L 592 190 L 556 198" className="stroke-emergency" strokeWidth="1.2" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="636" y="140" fontSize="4.8" fontWeight="700" className="fill-foreground">Surface protein</text>
+        <line x1="633" y1="138" x2="606" y2="146" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="636" y="162" fontSize="4.8" fontWeight="700" className="fill-foreground">Lipid bilayer</text>
+        <line x1="633" y1="160" x2="613" y2="168" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="636" y="184" fontSize="4.8" fontWeight="700" className="fill-foreground">Helical capsid</text>
+<text x="636" y="194" fontSize="4.8" fontWeight="700" className="fill-foreground">with viral RNA</text>
+        <line x1="633" y1="186" x2="588" y2="182" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="508" y="294" fontSize="4.6" className="fill-muted-foreground">Enveloped virus with</text>
+<text x="508" y="304" fontSize="4.6" className="fill-muted-foreground">helical capsid</text>
+<text x="738" y="96" fontSize="6.4" fontWeight="800" className="fill-foreground">4 · BACTERIOPHAGE</text>
+        {/* p4 bacteriophage */}
+        <polygon points="826.0,130.0 815.0,149.1 793.0,149.1 782.0,130.0 793.0,110.9 815.0,110.9" className="fill-card stroke-brand" strokeWidth="1.4" />
+        <path d="M 795.0 130.0 q 2.2 -5 4.5 0 q 2.2 5 4.5 0 q 2.2 -5 4.5 0 q 2.2 5 4.5 0" className="stroke-emergency" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <rect x="796" y="153" width="16" height="5" className="fill-card stroke-brand" />
+        <rect x="797" y="158" width="14" height="44" className="fill-card stroke-brand" />
+        <line x1="797" y1="164" x2="811" y2="164" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="170" x2="811" y2="170" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="176" x2="811" y2="176" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="182" x2="811" y2="182" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="188" x2="811" y2="188" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="194" x2="811" y2="194" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="797" y1="200" x2="811" y2="200" className="stroke-brand" strokeWidth="0.8" />
+        <line x1="804" y1="158" x2="804" y2="202" className="stroke-emergency" strokeWidth="1.1" />
+        <rect x="789" y="202" width="30" height="8" rx="2" className="fill-card stroke-brand" />
+        <line x1="793" y1="210" x2="783" y2="222" className="stroke-brand" strokeWidth="1.0" />
+        <line x1="800" y1="210" x2="796" y2="226" className="stroke-brand" strokeWidth="1.0" />
+        <line x1="812" y1="210" x2="816" y2="226" className="stroke-brand" strokeWidth="1.0" />
+        <line x1="819" y1="210" x2="829" y2="222" className="stroke-brand" strokeWidth="1.0" />
+<text x="734" y="124" fontSize="4.8" fontWeight="700" className="fill-foreground">Nucleic acid</text>
+        <line x1="768" y1="122" x2="794" y2="128" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="734" y="176" fontSize="4.8" fontWeight="700" className="fill-foreground">Core</text>
+        <line x1="744" y1="174" x2="796" y2="178" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="734" y="222" fontSize="4.8" fontWeight="700" className="fill-foreground">Spikes</text>
+        <line x1="752" y1="220" x2="786" y2="222" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="866" y="124" fontSize="4.8" fontWeight="700" className="fill-foreground">Capsid</text>
+        <line x1="863" y1="122" x2="822" y2="126" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="866" y="152" fontSize="4.8" fontWeight="700" className="fill-foreground">Collar</text>
+        <line x1="863" y1="150" x2="813" y2="155" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="866" y="180" fontSize="4.8" fontWeight="700" className="fill-foreground">Helical sheath</text>
+        <line x1="863" y1="178" x2="812" y2="182" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="866" y="206" fontSize="4.8" fontWeight="700" className="fill-foreground">Base plate</text>
+        <line x1="863" y1="204" x2="820" y2="206" className="stroke-muted-foreground" strokeWidth="0.7" />
+<text x="738" y="304" fontSize="4.6" className="fill-muted-foreground">Bacteriophage</text>
+      </g>
+      {/* ===== THE GENETIC EXCHANGE ===== */}
+      <g>
+        <rect x="36" y="344" width="908" height="225" rx="14" className="fill-card stroke-border" />
+<text x="52" y="366" fontSize="9" fontWeight="800" className="fill-foreground">The genetic exchange — what crosses in each event</text>
+        {/* card 1 recombination */}
+        <rect x="48" y="378" width="212" height="177" rx="10" className="fill-secondary" />
+<text x="58" y="394" fontSize="6.6" fontWeight="800" className="fill-emergency">RECOMBINATION</text>
+<text x="58" y="405" fontSize="4.6" fontWeight="700" className="fill-brand">what crosses: nucleotides</text>
+        <circle cx="82" cy="440" r="15" className="fill-card stroke-brand" />
+        <path d="M 74.5 440.0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="110" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">+</text>
+        <circle cx="138" cy="440" r="15" className="fill-card stroke-emergency" />
+        <path d="M 130.5 440.0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0" className="stroke-emergency" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="166" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">=</text>
+        <circle cx="200" cy="440" r="17" className="fill-card stroke-foreground" />
+        <path d="M 190.0 440 q 2.5 -3 5 0 q 2.5 3 5 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M 200.0 440 q 2.5 -3 5 0 q 2.5 3 5 0" className="stroke-emergency" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="154" y="478" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">crossover within homology → hybrid genome</text>
+<text x="58" y="504" fontSize="4.6" className="fill-muted-foreground">Genes are exchanged between 2 viral chromosomes by crossing over within regions of</text>
+<text x="58" y="513" fontSize="4.6" className="fill-muted-foreground">significant base sequence homology — the trade happens at the nucleotide level, inside</text>
+<text x="58" y="522" fontSize="4.6" className="fill-muted-foreground">matching stretches.</text>
+<text x="58" y="534" fontSize="4.6" fontWeight="700" className="fill-foreground">The homology requirement is the discriminator: no matching sequence, no crossover.</text>
+        {/* card 2 reasortment */}
+        <rect x="272" y="378" width="212" height="177" rx="10" className="fill-secondary" />
+<text x="282" y="394" fontSize="6.6" fontWeight="800" className="fill-emergency">REASORTMENT</text>
+<text x="282" y="405" fontSize="4.6" fontWeight="700" className="fill-brand">what crosses: genome segments</text>
+        <circle cx="306" cy="440" r="15" className="fill-card stroke-brand" />
+        <rect x="297.75" y="436" width="16.5" height="2.6" className="fill-brand" />
+        <rect x="297.75" y="441.4" width="16.5" height="2.6" className="fill-brand" />
+<text x="334" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">+</text>
+        <circle cx="362" cy="440" r="15" className="fill-card stroke-emergency" />
+        <rect x="353.75" y="436" width="16.5" height="2.6" className="fill-emergency" />
+        <rect x="353.75" y="441.4" width="16.5" height="2.6" className="fill-emergency" />
+<text x="390" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">=</text>
+        <circle cx="424" cy="440" r="17" className="fill-card stroke-foreground" />
+        <rect x="415" y="436" width="18" height="2.6" className="fill-brand" />
+        <rect x="415" y="441.4" width="18" height="2.6" className="fill-emergency" />
+<text x="378" y="478" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">segments swap wholesale — antigenic shift</text>
+<text x="282" y="504" fontSize="4.6" className="fill-muted-foreground">Viruses with segmented genomes exchange genetic material — whole segments move. The</text>
+<text x="282" y="513" fontSize="4.6" className="fill-muted-foreground">2009 novel H1N1 influenza A pandemic emerged via complex viral reassortment of genes</text>
+<text x="282" y="522" fontSize="4.6" className="fill-muted-foreground">from human, swine, and avian viruses; has potential to cause antigenic shift.</text>
+<text x="282" y="534" fontSize="4.6" fontWeight="700" className="fill-foreground">EG: 2009 H1N1 — human + swine + avian segments.</text>
+        {/* card 3 complementation */}
+        <rect x="496" y="378" width="212" height="177" rx="10" className="fill-secondary" />
+<text x="506" y="394" fontSize="6.6" fontWeight="800" className="fill-emergency">COMPLEMENTATION</text>
+<text x="506" y="405" fontSize="4.6" fontWeight="700" className="fill-brand">what crosses: proteins in trans</text>
+        <circle cx="530" cy="440" r="15" className="fill-card stroke-brand" />
+        <path d="M 522.5 440.0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0 q 1.9 -2.6 3.8 0 q 1.9 2.6 3.8 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="530" y="470" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">functional</text>
+<text x="558" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">+</text>
+        <circle cx="586" cy="440" r="15" className="fill-card stroke-muted-foreground" />
+        <line x1="577.75" y1="431.75" x2="594.25" y2="448.25" className="stroke-emergency" strokeWidth="1.2" />
+        <line x1="577.75" y1="448.25" x2="594.25" y2="431.75" className="stroke-emergency" strokeWidth="1.2" />
+<text x="586" y="470" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">nonfunctional</text>
+<text x="614" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">=</text>
+        <circle cx="648" cy="440" r="17" className="fill-card stroke-brand" />
+        <path d="M 639.5 440.0 q 2.1 -2.6 4.2 0 q 2.1 2.6 4.2 0 q 2.1 -2.6 4.2 0 q 2.1 2.6 4.2 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="648" y="470" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">both replicate</text>
+<text x="602" y="482" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">the protein is shared in trans</text>
+<text x="506" y="504" fontSize="4.6" className="fill-muted-foreground">When 1 of 2 viruses infecting a cell has a mutation that results in a nonfunctional</text>
+<text x="506" y="513" fontSize="4.6" className="fill-muted-foreground">protein, the nonmutated virus complements the mutated one by making a functional</text>
+<text x="506" y="522" fontSize="4.6" className="fill-muted-foreground">protein that serves both viruses.</text>
+<text x="506" y="534" fontSize="4.6" fontWeight="700" className="fill-foreground">EG: hepatitis D requires replicating HBV to supply HBsAg, its envelope protein.</text>
+        {/* card 4 phenotypic mixing */}
+        <rect x="720" y="378" width="212" height="177" rx="10" className="fill-secondary" />
+<text x="730" y="394" fontSize="6.6" fontWeight="800" className="fill-emergency">PHENOTYPIC MIXING</text>
+<text x="730" y="405" fontSize="4.6" fontWeight="700" className="fill-brand">what crosses: coat proteins</text>
+        <circle cx="748" cy="440" r="14" className="fill-card stroke-brand" />
+        <path d="M 741.0 440.0 q 1.8 -2.6 3.5 0 q 1.8 2.6 3.5 0 q 1.8 -2.6 3.5 0 q 1.8 2.6 3.5 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="774" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">+</text>
+        <circle cx="800" cy="440" r="14" className="fill-card stroke-emergency" />
+        <path d="M 793.0 440.0 q 1.8 -2.6 3.5 0 q 1.8 2.6 3.5 0 q 1.8 -2.6 3.5 0 q 1.8 2.6 3.5 0" className="stroke-emergency" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="824" y="443" textAnchor="middle" fontSize="8" className="fill-muted-foreground">=</text>
+        <circle cx="858" cy="440" r="16" className="fill-card stroke-emergency" />
+        <path d="M 850.0 440 q 2 -2.6 4 0 q 2 2.6 4 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="858" y="470" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">progeny 1</text>
+<text x="878" y="443" textAnchor="middle" fontSize="7" className="fill-muted-foreground">→</text>
+        <circle cx="906" cy="440" r="13" className="fill-card stroke-brand" />
+        <path d="M 899.5 440 q 1.7 -2.2 3.3 0 q 1.7 2.2 3.3 0" className="stroke-brand" strokeWidth="0.9" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<text x="906" y="470" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">progeny 2</text>
+<text x="826" y="482" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">B coat sets tropism → A coat returns</text>
+<text x="730" y="504" fontSize="4.6" className="fill-muted-foreground">With simultaneous infection, progeny 1 can carry the genome of virus A coated with the</text>
+<text x="730" y="513" fontSize="4.6" className="fill-muted-foreground">surface proteins of virus B (a pseudovirion) — the type B coat determines the tropism;</text>
+<text x="730" y="522" fontSize="4.6" className="fill-muted-foreground">progeny of the next infection carry the type A coat from their own genome.</text>
+<text x="730" y="534" fontSize="4.6" fontWeight="700" className="fill-foreground">EG: the pseudovirion — B's coat sets the tropism; A's genome persists.</text>
+      </g>
+      {/* ===== THE NAKED-GENOME RULE + ENVELOPE RULE ===== */}
+      <g>
+        <rect x="36" y="585" width="908" height="103" rx="12" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="605" fontSize="8" fontWeight="800" className="fill-foreground">The naked-genome rule + the envelope rule — book 160</text>
+<text x="52" y="623" fontSize="5.4" fontWeight="800" className="fill-emergency">INFECTIOUS AS NAKED NUCLEIC ACID:</text>
+<text x="58" y="634" fontSize="4.8" className="fill-muted-foreground">Most dsDNA viruses (EXCEPT poxviruses and HBV)</text>
+<text x="58" y="645" fontSize="4.8" className="fill-muted-foreground">⊕ strand ssRNA viruses (≈ mRNA — ribosome-ready on arrival)</text>
+<text x="520" y="623" fontSize="5.4" fontWeight="800" className="fill-emergency">NOT INFECTIOUS — the virion must carry the polymerase:</text>
+<text x="526" y="634" fontSize="4.8" className="fill-muted-foreground">⊝ strand ssRNA and dsRNA viruses — they lack the required</text>
+<text x="526" y="645" fontSize="4.8" className="fill-muted-foreground">polymerases to replicate as bare genomes</text>
+<text x="490" y="660" textAnchor="middle" fontSize="4.8" className="fill-muted-foreground">ENVELOPE SOURCE: generally the PLASMA membrane, acquired on exit; EXCEPTION — herpesviruses bud from the NUCLEAR membrane.</text>
+<text x="490" y="670" textAnchor="middle" fontSize="4.8" className="fill-muted-foreground">The enveloped DNA viruses: herpesvirus, hepadnavirus, poxvirus (FA's 'helpful protection' gloss — verification-only).</text>
+      </g>
+      {/* footer */}
+<text x="24" y="706" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Viral structure—general features figure + Viral genetics diagrams (pdf 181 / book 159 — pure vector, no rasters)</text>
+<text x="24" y="718" fontSize="7.2" className="fill-muted-foreground">and the Viral genomes + envelopes rules (pdf 182 / book 160). The source's banner typo 'MICROCIOLOGY—VIROLOGY' prints on books 159-160.</text>
+<text x="24" y="730" fontSize="7.2" className="fill-muted-foreground">FA's printed mnemonics (Part of a virus; Repeato-virus; the retro-toga-party sentence; BOAR; helpful protection) stay in the note's table block — verification-only, not redrawn.</text>
+    </svg>
+  );
+}

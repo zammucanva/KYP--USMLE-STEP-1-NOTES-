@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-21T00:51:00Z",
+  "generatedAt": "2026-10-21T02:11:27Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 108,
+    "topicsProduced": 109,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 53,
+      "pilot-complete": 54,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 21,
-      "topicsRemaining": 18,
+      "topicsProduced": 22,
+      "topicsRemaining": 17,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1913,6 +1913,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "viral-structure-genetics",
+      "title": "Viral Structure & Genetics",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Virology",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 181, 182 (book 159–160)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-21"
     },
     {
       "topicId": "virulence-mechanisms",
