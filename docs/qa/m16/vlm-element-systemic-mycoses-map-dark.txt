@@ -1,0 +1,27 @@
+===== element-systemic-mycoses-map-dark.png =====
+**OVERLAPS / CLIPPING:**
+*   **Clipping in "NOTES" column:** The text for *Coccidioidomycosis* ("Associated with dust exposure...") and *Paracoccidioidomycosis* ("Paracoccidioides parasitizes the captain's wheel...") is truncated on the right edge. The table cells or container are not wide enough to display the full content.
+*   **Minor Clipping in Footer:** The bottom line of the footer text ("...verification only, carried verbatim in the note's table block.") is very close to the bottom edge of the image, potentially slightly clipped depending on rendering.
+
+**CONTRAST:**
+*   **Low Contrast (Body Text):** The main body text within the "THE DIMORPHIC RULE" box and the table cells uses a dark grey (`#8b949e` style) against a black/dark background. While legible, it fails standard accessibility contrast ratios (likely below 4.5:1).
+*   **Low Contrast (Footer):** The copyright and source text at the very bottom is extremely faint, making it difficult to read.
+
+**ALIGNMENT:**
+*   **Table Header Alignment:** The column headers (DISEASE, ENDEMIC LOCATION, etc.) appear left-aligned, which matches the data rows. However, the "NOTES" header seems centered while its content is left-aligned (or the content is just filling the space awkwardly due to clipping).
+*   **Vertical Alignment:** Text within the table rows appears vertically centered appropriately.
+
+**CONTENT:**
+*   **Truncated Information:** As noted in clipping, the "NOTES" for the last two diseases are incomplete.
+*   **Typos/Grammar:**
+    *   "All of the following cause **pneumonias** and can **disseminate**" (in the intro box) - spelling looks correct here.
+    *   "yeast **excavation**" in tissue -> Should likely be "**invasion**".
+    *   "spherule **hot** yeast" -> Likely "**not** yeast".
+    *   "can **be** transmitted person-to-person" -> Redundant "be" or awkward phrasing.
+    *   "Treatment: **fluconazole** or **itraconazole**..." -> Standard medical text, looks okay.
+    *   Table Row 2: "Blastomyces **bradly**" -> Should be "**broadly**".
+    *   Table Row 3: "(**absent** rheumatologic)" -> Parenthetical seems disjointed.
+    *   Table Row 4: "nodes **+** hepatitis" -> Symbol usage is inconsistent with other rows using text.
+
+**VERDICT: FAIL
+**Reasoning: The image contains significant **content clipping** in the rightmost column, cutting off medical notes. Additionally, there are **contrast issues** with the body and footer text that hinder readability, along with several **typographical errors** ("bradly", "excavation") that compromise the professional/educational quality of the QA.

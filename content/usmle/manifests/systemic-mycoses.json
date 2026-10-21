@@ -1,0 +1,261 @@
+{
+  "topicId": "systemic-mycoses",
+  "title": "Systemic Mycoses: Histoplasma, Blastomyces, Coccidioides, Paracoccidioides",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Mycology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      171
+    ],
+    "bookPages": "149–149"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (prints twice, lines 2 and 8)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "▶ MICROBIOLOGY—MYCOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "149",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "Systemic mycoses",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dimorphic rules (pneumonia + dissemination; cold 20°C = mold, heat 37°C = yeast; the Coccidioides spherule exception; granulomas like TB, not transmitted person-to-person; the therapy line)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "All of the following can cause pneumonia and can disseminate.\nAll are caused by dimorphic fungi: cold (20°C) = mold; heat (37°C) = yeast. Only exception is\nCoccidioides, which is a spherule (not yeast) in tissue.\nSystemic mycoses can form granulomas (like TB); cannot be transmitted person-to-person (unlike TB).\nTreatment: fluconazole or itraconazole for local infection; amphotericin B for systemic infection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers (DISEASE / ENDEMIC LOCATION / PATHOLOGIC FEATURES / UNIQUE SIGNS/SYMPTOMS / NOTES)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "DISEASE\n\nENDEMIC LOCATION\n\nPATHOLOGIC FEATURES\n\nUNIQUE SIGNS/SYMPTOMS\n\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Histoplasmosis row, interleaved (physical order: the row header at 27; Mississippi and Ohio River Valleys; the macrophage-filled organism smaller than RBC A + tuberculate macroconidia; the unique signs; Histo hides + bird/bat droppings + urine/serum antigen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "Histoplasmosis\n\nMississippi and Ohio\nRiver Valleys\n\nMacrophage filled\nwith Histoplasma\n(smaller than\nRBC) A\nTuberculate\nmacroconidia on\nculture\n\nPalatal/tongue ulcers,\nsplenomegaly,\npancytopenia,\nerythema nodosum\n\nHisto hides (within\nmacrophages)\nAssociated with bird\nor bat droppings\n(eg, caves)\nDiagnosis via urine/\nserum antigen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Blastomycosis row, interleaved (Eastern and Central US Great Lakes; broad-based budding same size as RBC B; inflammatory lung disease; bone/skin with verrucous lesions C; Blasto buds broadly)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "Eastern and Central\nUS, Great Lakes\n\nBroad-based budding\nof Blastomyces (same\nsize as RBC) B\n\nInflammatory lung\ndisease\nDisseminates to bone/\nskin (verrucous\nlesions C , may\nmimic SCC).\n\nBlasto buds broadly",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Coccidioidomycosis row, interleaved (Southwestern US California; the spherule with endospores much larger than RBC D; bone/skin + desert bumps + desert rheumatism + meningitis; dust exposure)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "Southwestern US,\nCalifornia\n\nSpherule filled with\nendospores of\nCoccidioides (much\nlarger than RBC) D\n\nDisseminates to bone/\nskin\nErythema nodosum\n(desert bumps) or\nmultiforme\nArthralgias (desert\nrheumatism)\nCan cause meningitis\n\nAssociated with\ndust exposure in\nendemic areas\n(eg, archeological\nexcavations,\nearthquakes)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Paracoccidioidomycosis row, interleaved (Latin America; the captain's-wheel budding yeast much larger than RBC E; similar to blastomycosis males > females; the parasails mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "Latin America\n\nBudding yeast of\nParacoccidioides with\n“captain’s wheel”\nformation (much\nlarger than RBC) E\n\nSimilar to\nblastomycosis,\nmales > females\n\nParacoccidio parasails\nwith the captain’s\nwheel all the way to\nLatin America\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The bottom figure block (physical order, lines 110-125: the standalone A; the row headers of rows 2-4 [Blastomycosis, Coccidioidomycosis, Paracoccidioidomycosis]; the standalone C; the US-map legend 'Blastomycosis Histoplasmosis Coccidiodomycosis' with the source's own one-d typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "A\n\nBlastomycosis\nB\n\nCoccidioidomycosis\nD\n\nParacoccidioidomycosis\nE\n\nC\n\nBlastomycosis\nHistoplasmosis\nCoccidiodomycosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 149",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "systemic-mycoses-map"
+  ],
+  "mechanismIds": [
+    "dimorphic-size-axis",
+    "dissemination-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "size-geography-synthesis",
+      "summary": "The size axis (smaller than / same size as / much larger than RBC) wired to the geography-exposure axis and the dissemination destinations (the RES display of Histoplasma; the SCC-mimicking verrucous lesions of Blastomyces; the Coccidioides meninges as the only CNS destination); the TB pair (granulomas like TB, never person-to-person) and the depth-based therapy ladder (fluconazole/itraconazole vs amphotericin B) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table without the axis synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p171 carries 5 rasters (A the macrophage filled with Histoplasma; B the broad-based budding; C the verrucous lesions; D the Coccidioides spherule; E the captain's wheel) — all COPYRIGHTED, described-in-text only. The US endemic map is pure vector but NOT reproduced (described-in-text; geography carried by the ENDEMIC column). Text quirks: the 5-column table emits each disease's cells as one contiguous interleaved block; the row headers of rows 2-4 emit at the bottom (112-118); the map legend prints 'Coccidiodomycosis' with one d (the source's own typo, line 125 vs 115); the chapter banner prints twice (2 and 8); the standalone A/C markers emit in the figure block. FA's mnemonics (Histo hides; Blasto buds broadly; Paracoccidio parasails) carried verbatim in the table block only (NOT in the visual).",
+  "updatedAt": "2026-10-21"
+}

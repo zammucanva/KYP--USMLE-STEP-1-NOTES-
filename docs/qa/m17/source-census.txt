@@ -1,0 +1,39 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 171     0 image     157   150  cmyk    4   8  jpeg   no      6880  0   150   150 8069B 8.6%
+ 171     1 image     156   150  cmyk    4   8  jpeg   no      6881  0   150   150 10.3K  11%
+ 171     2 image     150   150  cmyk    4   8  jpeg   no      6882  0   150   150 12.9K  15%
+ 171     3 image     157   151  cmyk    4   8  jpeg   no      6883  0   150   150 16.3K  18%
+ 171     4 image     156   150  cmyk    4   8  jpeg   no      6884  0   150   150 12.0K  13%
+ 172     5 image     216   225  cmyk    4   8  jpeg   no      6909  0   150   150 8779B 4.5%
+ 172     6 image     216   225  cmyk    4   8  jpeg   no      6910  0   150   150 6575B 3.4%
+ 172     7 image     216   225  cmyk    4   8  jpeg   no      6911  0   150   150 18.3K 9.6%
+ 172     8 image     216   224  cmyk    4   8  jpeg   no      6912  0   150   150 16.7K 8.8%
+ 172     9 image     216   223  gray    1   8  jpeg   no      6913  0   150   150 9563B  20%
+ 172    10 image     215   225  cmyk    4   8  jpeg   no      6914  0   150   150 25.9K  14%
+ 172    11 image     216   225  cmyk    4   8  jpeg   no      6915  0   150   150 19.6K  10%
+ 172    12 image     216   225  cmyk    4   8  jpeg   no      6916  0   150   150 17.9K 9.4%
+ 172    13 image     219   225  cmyk    4   8  jpeg   no      6917  0   150   150 24.1K  13%
+
+=== M16 census summary (pdf 171 / book 149) ===
+5 rasters (A the macrophage-filled Histoplasma; B the broad-based budding; C the
+verrucous lesions; D the Coccidioides spherule; E the captain's wheel) — all
+COPYRIGHTED, described-in-text only; markers inline in the PATHOLOGIC cells +
+the standalone A/C in the bottom figure block (110-125). The US endemic map is
+pure vector but NOT reproduced (described-in-text; geography carried by the
+ENDEMIC column). Text quirks: rows 2-4's DISEASE headers emit at the bottom
+(112-118); the map legend prints 'Coccidiodomycosis' with one d (the source's
+own typo, line 125 vs 115's correct spelling); the chapter banner prints twice
+(2 and 8); each disease's cells emit as one contiguous interleaved block.
+FA's mnemonics (Histo hides; Blasto buds broadly; Paracoccidio parasails)
+carried verbatim in the table block ONLY (NOT in the visual — enforced by a
+facts-only NOTES copy after round-1 QA caught the leak).
+
+=== M17 census summary (pdf 172 / book 150) ===
+9 displayed photo panels (A-I) vs pdfimages counting 5 raster XObjects
+(4x 216x225 cmyk + 1x 216x223 gray) — grouping discrepancy documented; all
+COPYRIGHTED, described-in-text only. Markers print inline in the organism
+entries + the figure block (55-69: A B C D F G H I) with E at 73 AFTER the
+footer (71) — the E marker's late emission documented. Text quirks: the →
+double-space arrows (the Mucor route); curly quotes ('soap bubble'); 'μm'
+U+03bc; ⊕ U+2295.

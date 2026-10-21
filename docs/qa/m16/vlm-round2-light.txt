@@ -1,0 +1,21 @@
+===== element-systemic-mycoses-map-light.png (round 2) =====
+**QA Report: Systemic Mycoses — The Dimorphic Grid (Round 2)**
+
+**(a) NOTES Column Text Overflow/Clipping:**
+*   **Status: CLEAN.** Following the rebalancing, the rightmost **NOTES** column is now sufficiently wide. All text—including the longer entries for Histoplasmosis ("Bird or bat droppings...") and Coccidioidomycosis ("Dust exposure in endemic areas...")—fits comfortably within its cell boundaries without wrapping awkwardly or being cut off. The "FA mnemonics" (e.g., "the printed cell is the FA mnemonic...") are correctly contained.
+
+**(b) Typos in Rendered Text:**
+*   **Status: CLEAN.** A full text scan reveals no spelling errors.
+    *   *Header:* Correctly spells "dimorphic," "mycoses," and "Coccidioidomycosis."
+    *   *Grid:* Disease names (Histoplasmosis, Blastomycosis, etc.) and locations (Mississippi/Ohio River Valleys, Latin America) are accurate. Pathologic terms (e.g., "macrophage-filled with Histoplasma," "spherule filled with endospores") are medically correct.
+    *   *Footer:* The attribution text is coherent; "carried verbatim in the note's table block" is grammatically acceptable in this context.
+
+**(c) Overlaps, Clipping, Contrast, and Alignment:**
+*   **Overlaps/Clipping:** None detected. Row heights are adequate for single-line text entries. The "THE DIMORPHIC RULE" box contains its text well.
+*   **Contrast:** Excellent. Black body text on white/light-gray backgrounds provides high readability. Red text for disease names offers good visual distinction without sacrificing legibility. Teal headers and borders are clear.
+*   **Alignment:** 
+    *   The 5-column grid is strictly aligned. Headers center perfectly over their respective columns.
+    *   Left-alignment is consistent within all data cells.
+    *   The "anchors strip" (pneumonia • disseminates • granulomas) and footer are properly centered/padded within their containers.
+
+**VERDICT: CLEAN**

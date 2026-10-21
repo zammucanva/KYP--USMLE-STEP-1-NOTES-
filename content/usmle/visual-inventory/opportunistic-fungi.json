@@ -1,0 +1,259 @@
+{
+  "topicId": "opportunistic-fungi",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "opportunistic-fungi-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The opportunistic-fungi entries (book 150)",
+      "sourceFigureDescription": "The printed four-organism block: Candida albicans, Aspergillus fumigatus, Cryptococcus neoformans, and Mucor and Rhizopus spp with their inline markers A-I.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "opportunistic-fungi-panel",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the four organism cards + the morphology anchors strip; the verbatim text also carried in the note's table block"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Candida pseudohyphae micrograph (book 150)",
+      "sourceFigureDescription": "A micrograph of pseudohyphae and budding yeasts at 20°C, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Candida germ-tube micrograph (book 150)",
+      "sourceFigureDescription": "A micrograph of germ tubes at 37°C, marker B.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The oral-thrush photo (book 150)",
+      "sourceFigureDescription": "A clinical photograph of oral thrush (white plaques), marker C.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Aspergillus 45°-septate-hyphae micrograph (book 150)",
+      "sourceFigureDescription": "A micrograph of septate hyphae branching at acute 45° angles, marker D.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The aspergilloma imaging (book 150)",
+      "sourceFigureDescription": "An imaging study showing an aspergilloma in a pre-existing lung cavity, marker E.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Cryptococcus India-ink micrograph (book 150)",
+      "sourceFigureDescription": "An India-ink preparation showing yeasts with clear halos (the capsule), marker F.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv8",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Cryptococcus mucicarmine micrograph (book 150)",
+      "sourceFigureDescription": "A mucicarmine stain showing the red inner capsule, marker G.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv9",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Mucor/Rhizopus wide-angle-hyphae micrograph (book 150)",
+      "sourceFigureDescription": "A micrograph of irregular, broad, nonseptate hyphae branching at wide angles, marker H.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "opportunistic-fungi-sv10",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          172
+        ],
+        "bookPages": "150"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The black-necrotic-eschar photo (book 150)",
+      "sourceFigureDescription": "A clinical photograph of the black necrotic eschar on the face of rhinocerebral mucormycosis, marker I.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "opportunistic-fungi",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "opportunistic-fungi",
+    "textbookVisualCount": 10,
+    "accountedFor": 10,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 9,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "See the manifest notes for the census and quirks; all printed photos COPYRIGHTED, described-in-text only."
+}

@@ -2057,3 +2057,145 @@ export function VectorBorneRashMap() {
     </svg>
   );
 }
+
+
+export function SystemicMycosesMap() {
+  const w = 980;
+  const h = 585;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Systemic mycoses, an original KYP comparison grid. The dimorphic rule: cold 20 degrees = mold, heat 37 degrees = yeast, with Coccidioides the spherule exception; granulomas like TB but not transmitted person to person; fluconazole or itraconazole for local infection and amphotericin B for systemic. The four diseases: Histoplasmosis (Mississippi and Ohio River Valleys; macrophage filled with Histoplasma smaller than RBC with tuberculate macroconidia on culture; palatal and tongue ulcers, splenomegaly, pancytopenia, erythema nodosum; bird or bat droppings; urine and serum antigen), Blastomycosis (Eastern and Central US and Great Lakes; broad-based budding same size as RBC; inflammatory lung disease disseminating to bone and skin with verrucous lesions that may mimic SCC), Coccidioidomycosis (Southwestern US, California; spherule filled with endospores much larger than RBC; desert bumps erythema nodosum, desert rheumatism arthralgias, meningitis; dust exposure — archeological excavations, earthquakes), and Paracoccidioidomycosis (Latin America; the captains-wheel budding yeast much larger than RBC; similar to blastomycosis, males more than females)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Systemic mycoses — the dimorphic grid (original KYP redraw)</text>
+        <rect x="722" y="24" width="210" height="18" rx="9" className="fill-brand-soft" />
+<text x="827" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">pneumonia · disseminates · granulomas</text>
+      </g>
+      {/* ===== THE DIMORPHIC RULE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="82" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE DIMORPHIC RULE — MYCOLOGY begins</text>
+<text x="52" y="114" fontSize="5.2" className="fill-muted-foreground">All of the following can cause pneumonia and can disseminate.</text>
+<text x="52" y="125" fontSize="5.2" className="fill-muted-foreground">All are caused by dimorphic fungi: cold (20°C) = mold; heat (37°C) = yeast. Only exception is Coccidioides, which is a spherule (not yeast) in tissue.</text>
+<text x="52" y="136" fontSize="5.2" className="fill-muted-foreground">Systemic mycoses can form granulomas (like TB); cannot be transmitted person-to-person (unlike TB).</text>
+<text x="52" y="147" fontSize="5.2" className="fill-muted-foreground">Treatment: fluconazole or itraconazole for local infection; amphotericin B for systemic infection.</text>
+      </g>
+      {/* ===== THE 4-DISEASE GRID ===== */}
+      <g>
+        <rect x="36" y="174" width="908" height="284" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="196" fontSize="9" fontWeight="800" className="fill-foreground">THE FOUR DISEASES — DISEASE | ENDEMIC | PATHOLOGIC | UNIQUE SIGNS | NOTES (facts only; FA's cell mnemonics stay in the table block)</text>
+        <rect x="52" y="206" width="130" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="220" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="190" y="206" width="140" height="20" rx="4" className="fill-secondary" />
+<text x="196" y="220" fontSize="5.8" fontWeight="800" className="fill-foreground">ENDEMIC LOCATION</text>
+        <rect x="338" y="206" width="230" height="20" rx="4" className="fill-secondary" />
+<text x="344" y="220" fontSize="5.8" fontWeight="800" className="fill-foreground">PATHOLOGIC FEATURES</text>
+        <rect x="576" y="206" width="210" height="20" rx="4" className="fill-secondary" />
+<text x="582" y="220" fontSize="5.8" fontWeight="800" className="fill-foreground">UNIQUE SIGNS/SYMPTOMS</text>
+        <rect x="794" y="206" width="138" height="20" rx="4" className="fill-secondary" />
+<text x="800" y="220" fontSize="5.8" fontWeight="800" className="fill-foreground">NOTES</text>
+        <rect x="52" y="234" width="880" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="247" fontSize="6.0" fontWeight="800" className="fill-emergency">Histoplasmosis</text>
+<text x="196" y="247" fontSize="5.0" className="fill-muted-foreground">Mississippi and Ohio River Valleys</text>
+<text x="344" y="247" fontSize="5.0" className="fill-muted-foreground">Macrophage filled with Histoplasma (smaller than RBC); tuberculate macroconidia on</text>
+<text x="344" y="257" fontSize="5.0" className="fill-muted-foreground">culture</text>
+<text x="582" y="247" fontSize="5.0" className="fill-muted-foreground">Palatal/tongue ulcers, splenomegaly, pancytopenia, erythema nodosum</text>
+<text x="800" y="247" fontSize="5.0" className="fill-muted-foreground">Bird or bat droppings (eg, caves); diagnosis via</text>
+<text x="800" y="257" fontSize="5.0" className="fill-muted-foreground">urine/serum antigen</text>
+        <rect x="52" y="290" width="880" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="303" fontSize="6.0" fontWeight="800" className="fill-emergency">Blastomycosis</text>
+<text x="196" y="303" fontSize="5.0" className="fill-muted-foreground">Eastern and Central US, Great Lakes</text>
+<text x="344" y="303" fontSize="5.0" className="fill-muted-foreground">Broad-based budding of Blastomyces (same size as RBC)</text>
+<text x="582" y="303" fontSize="5.0" className="fill-muted-foreground">Inflammatory lung disease; disseminates to bone/skin (verrucous lesions, may</text>
+<text x="582" y="313" fontSize="5.0" className="fill-muted-foreground">mimic SCC)</text>
+<text x="800" y="303" fontSize="5.0" className="fill-muted-foreground">— (the printed cell is the FA mnemonic — table</text>
+<text x="800" y="313" fontSize="5.0" className="fill-muted-foreground">block only)</text>
+        <rect x="52" y="346" width="880" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="359" fontSize="6.0" fontWeight="800" className="fill-emergency">Coccidioidomycosis</text>
+<text x="196" y="359" fontSize="5.0" className="fill-muted-foreground">Southwestern US, California</text>
+<text x="344" y="359" fontSize="5.0" className="fill-muted-foreground">Spherule filled with endospores of Coccidioides (much larger than RBC)</text>
+<text x="582" y="359" fontSize="5.0" className="fill-muted-foreground">Disseminates to bone/skin; erythema nodosum (desert bumps) or multiforme;</text>
+<text x="582" y="369" fontSize="5.0" className="fill-muted-foreground">arthralgias (desert rheumatism); can cause meningitis</text>
+<text x="800" y="359" fontSize="5.0" className="fill-muted-foreground">Dust exposure in endemic areas (eg, archeological</text>
+<text x="800" y="369" fontSize="5.0" className="fill-muted-foreground">excavations, earthquakes)</text>
+        <rect x="52" y="402" width="880" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="415" fontSize="6.0" fontWeight="800" className="fill-emergency">Paracoccidioidomycosis</text>
+<text x="196" y="415" fontSize="5.0" className="fill-muted-foreground">Latin America</text>
+<text x="344" y="415" fontSize="5.0" className="fill-muted-foreground">Budding yeast of Paracoccidioides with the “captain’s wheel” formation (much larger</text>
+<text x="344" y="425" fontSize="5.0" className="fill-muted-foreground">than RBC)</text>
+<text x="582" y="415" fontSize="5.0" className="fill-muted-foreground">Similar to blastomycosis, males &gt; females</text>
+<text x="800" y="415" fontSize="5.0" className="fill-muted-foreground">— (the printed cell is the FA mnemonic — table</text>
+<text x="800" y="425" fontSize="5.0" className="fill-muted-foreground">block only)</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="474" width="908" height="33" rx="8" className="fill-secondary" />
+<text x="490" y="494" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">The size axis names the organism on tissue: smaller than RBC = Histoplasma (inside macrophages) · same size as RBC with broad-based bud = Blastomyces · much larger than RBC = the Coccidioides spherule or the Paracoccidioides captain's wheel</text>
+      </g>
+      {/* footer */}
+<text x="24" y="521" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's systemic-mycoses table (pdf 171 / book 149 — pure vector; the 5 photos are raster, COPYRIGHTED, described-in-text only). The printed US endemic map with its legend (Blastomycosis Histoplasmosis Coccidiodomycosis — the source's</text>
+<text x="24" y="533" fontSize="7.2" className="fill-muted-foreground">own one-d typo at line 125) is NOT reproduced:</text>
+<text x="24" y="545" fontSize="7.2" className="fill-muted-foreground">the endemic geography is carried by the ENDEMIC LOCATION column verbatim. FA's printed mnemonics (Histo hides; Blasto buds broadly; Paracoccidio parasails with the captain's wheel) are NOT reproduced — verification only, carried verbatim in the note's table</text>
+<text x="24" y="557" fontSize="7.2" className="fill-muted-foreground">block.</text>
+    </svg>
+  );
+}
+
+export function OpportunisticFungiPanel() {
+  const w = 980;
+  const h = 425;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Opportunistic fungi, an original KYP panel. Candida albicans: alba white, dimorphic with pseudohyphae and budding yeasts at 20 degrees and germ tubes at 37 degrees; oral and esophageal thrush in the immunocompromised, vulvovaginitis in diabetes and antibiotic use, diaper rash, infective endocarditis in people who inject drugs, disseminated candidiasis in neutropenia, chronic mucocutaneous candidiasis; fluconazole or topical azoles for vaginal, nystatin or azoles or echinocandins for oral, fluconazole or echinocandins or amphotericin B for esophageal or systemic. Aspergillus fumigatus: acute angle 45-degree branching of septate hyphae; invasive aspergillosis in neutrophil dysfunction such as chronic granulomatous disease because Aspergillus is catalase positive; aspergillomas in pre-existing cavities after TB; aflatoxins inducing TP53 mutations and hepatocellular carcinoma; voriconazole; allergic bronchopulmonary aspergillosis with asthma, cystic fibrosis, bronchiectasis, eosinophilia. Cryptococcus neoformans: 5-10 micrometer narrow budding heavily encapsulated yeast, not dimorphic, PAS positive, soil and pigeon droppings, inhalation with hematogenous dissemination to meninges; India ink clear halo, mucicarmine red inner capsule, latex agglutination for capsular antigen; meningitis, pneumonia, encephalitis with soap bubble lesions; amphotericin B plus flucytosine then fluconazole. Mucor and Rhizopus: irregular broad nonseptate hyphae at wide angles; mucormycosis in DKA and neutropenia; inhalation with proliferation in blood vessel walls penetrating the cribriform plate into the brain; rhinocerebral frontal lobe abscess, cavernous sinus thrombosis, black necrotic eschar; surgical debridement with amphotericin B or isavuconazole" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Opportunistic fungi — the morphology panel (original KYP redraw)</text>
+        <rect x="722" y="24" width="210" height="18" rx="9" className="fill-brand-soft" />
+<text x="827" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">catalase ⊕ · DKA · capsule · 45° vs wide</text>
+      </g>
+      {/* ===== THE FOUR ORGANISMS ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="234" rx="14" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">THE FOUR ORGANISMS — morphology · diseases · treatment</text>
+        <rect x="52" y="108" width="432" height="94" rx="8" className="fill-secondary" />
+<text x="62" y="124" fontSize="7" fontWeight="800" className="fill-brand">Candida albicans</text>
+<text x="62" y="138" fontSize="5.0" className="fill-muted-foreground">alba = white. Dimorphic; forms pseudohyphae and budding yeasts at 20°C, germ tubes at 37°C. Systemic or superficial fungal infection.</text>
+<text x="62" y="148" fontSize="5.0" className="fill-muted-foreground">Causes oral and esophageal thrush in immunocompromised (neonates, steroids, diabetes, AIDS), vulvovaginitis (diabetes, use of antibiotics), diaper rash, infective</text>
+<text x="62" y="158" fontSize="5.0" className="fill-muted-foreground">endocarditis (people who inject drugs), disseminated candidiasis (especially in neutropenic patients as host defense relies on phagocytes), chronic mucocutaneous</text>
+<text x="62" y="168" fontSize="5.0" className="fill-muted-foreground">candidiasis.</text>
+<text x="62" y="178" fontSize="5.0" className="fill-muted-foreground">Treatment: oral fluconazole or topical azoles for vaginal; nystatin, azoles, or rarely echinocandins for oral; fluconazole, echinocandins, or amphotericin B for esophageal</text>
+<text x="62" y="188" fontSize="5.0" className="fill-muted-foreground">or systemic disease.</text>
+        <rect x="496" y="108" width="432" height="84" rx="8" className="fill-secondary" />
+<text x="506" y="124" fontSize="7" fontWeight="800" className="fill-emergency">Aspergillus fumigatus</text>
+<text x="506" y="138" fontSize="5.0" className="fill-muted-foreground">Acute angle (45°) branching of septate hyphae. Causes invasive aspergillosis in immunocompromised patients, especially those with neutrophil dysfunction (eg, chronic</text>
+<text x="506" y="148" fontSize="5.0" className="fill-muted-foreground">granulomatous disease) because Aspergillus is catalase ⊕. Can cause aspergillomas in pre-existing lung cavities, especially after TB infection.</text>
+<text x="506" y="158" fontSize="5.0" className="fill-muted-foreground">Some species produce aflatoxins (induce TP53 mutations leading to hepatocellular carcinoma). Treatment: voriconazole or echinocandins (2nd-line).</text>
+<text x="506" y="168" fontSize="5.0" className="fill-muted-foreground">Allergic bronchopulmonary aspergillosis (ABPA) — hypersensitivity response to Aspergillus growing in lung mucus. Associated with asthma and cystic fibrosis; may cause</text>
+<text x="506" y="178" fontSize="5.0" className="fill-muted-foreground">bronchiectasis and eosinophilia.</text>
+        <rect x="52" y="212" width="432" height="94" rx="8" className="fill-secondary" />
+<text x="62" y="228" fontSize="7" fontWeight="800" className="fill-emergency">Cryptococcus neoformans</text>
+<text x="62" y="242" fontSize="5.0" className="fill-muted-foreground">5-10 μm with narrow budding. Heavily encapsulated yeast. Not dimorphic. ⊕ PAS staining. Found in soil, pigeon droppings. Acquired through inhalation with hematogenous</text>
+<text x="62" y="252" fontSize="5.0" className="fill-muted-foreground">dissemination to meninges.</text>
+<text x="62" y="262" fontSize="5.0" className="fill-muted-foreground">Highlighted with India ink (clear halo) and mucicarmine (red inner capsule). Latex agglutination test detects polysaccharide capsular antigen and is more sensitive and</text>
+<text x="62" y="272" fontSize="5.0" className="fill-muted-foreground">specific.</text>
+<text x="62" y="282" fontSize="5.0" className="fill-muted-foreground">Causes cryptococcosis, which can manifest with meningitis, pneumonia, and/or encephalitis (“soap bubble” lesions in brain), primarily in immunocompromised. Treatment:</text>
+<text x="62" y="292" fontSize="5.0" className="fill-muted-foreground">amphotericin B + flucytosine followed by fluconazole for cryptococcal meningitis.</text>
+        <rect x="496" y="212" width="432" height="74" rx="8" className="fill-secondary" />
+<text x="506" y="228" fontSize="7" fontWeight="800" className="fill-brand">Mucor and Rhizopus spp</text>
+<text x="506" y="242" fontSize="5.0" className="fill-muted-foreground">Irregular, broad, nonseptate hyphae branching at wide angles. Causes mucormycosis, mostly in patients with DKA and/or neutropenia (eg, leukemia).</text>
+<text x="506" y="252" fontSize="5.0" className="fill-muted-foreground">Inhalation of spores → fungi proliferate in blood vessel walls, penetrate cribriform plate, and enter brain. Rhinocerebral, frontal lobe abscess; cavernous sinus</text>
+<text x="506" y="262" fontSize="5.0" className="fill-muted-foreground">thrombosis. Headache, facial pain, black necrotic eschar on face; may have cranial nerve involvement.</text>
+<text x="506" y="272" fontSize="5.0" className="fill-muted-foreground">Treatment: surgical debridement, amphotericin B or isavuconazole.</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="326" width="908" height="33" rx="8" className="fill-secondary" />
+<text x="490" y="346" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Septate hyphae at acute 45° angles = Aspergillus · irregular broad nonseptate hyphae at wide angles = Mucor/Rhizopus (the DKA rhinocerebral organism) · pseudohyphae with germ tubes at 37°C = Candida · the encapsulated yeast with a clear halo on India ink = Cryptococcus</text>
+      </g>
+      {/* footer */}
+<text x="24" y="373" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's opportunistic-fungi page (pdf 172 / book 150). The page displays 9 photo panels (A-I: the Candida pseudohyphae and germ tubes and oral thrush; the Aspergillus 45° septate hyphae and the aspergilloma CT; the Cryptococcus</text>
+<text x="24" y="385" fontSize="7.2" className="fill-muted-foreground">India-ink halo and mucicarmine capsule; the Mucor/Rhizopus wide-angle</text>
+<text x="24" y="397" fontSize="7.2" className="fill-muted-foreground">hyphae and the black necrotic facial eschar) — pdfimages counts 5 raster XObjects vs 9 displayed panels (grouping discrepancy documented); all COPYRIGHTED, described-in-text only. No FA cell mnemonics on this page; the morphology axis is carried as facts.</text>
+    </svg>
+  );
+}

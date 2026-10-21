@@ -1,0 +1,187 @@
+{
+  "topicId": "systemic-mycoses",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "systemic-mycoses-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The systemic-mycoses 5-column table (book 149)",
+      "sourceFigureDescription": "The printed DISEASE | ENDEMIC LOCATION | PATHOLOGIC FEATURES | UNIQUE SIGNS/SYMPTOMS | NOTES table: the four systemic mycoses with their interleaved photo markers A-E.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "systemic-mycoses-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the GRID panel — the four-disease x five-column grid, facts only"
+    },
+    {
+      "visualId": "systemic-mycoses-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The printed US endemic map with its legend (book 149)",
+      "sourceFigureDescription": "The map of the United States showing the endemic regions with the legend key 'Blastomycosis Histoplasmosis Coccidiodomycosis' (the source's one-d typo). Pure vector.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text only — the map artwork is NOT reproduced; its geography carried by the ENDEMIC LOCATION column and the note's table block"
+    },
+    {
+      "visualId": "systemic-mycoses-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Histoplasma-in-macrophage micrograph (book 149)",
+      "sourceFigureDescription": "A micrograph of a macrophage filled with Histoplasma (numerous yeasts smaller than an RBC), marker A after 'smaller than RBC'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "systemic-mycoses-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The broad-based-budding Blastomyces micrograph (book 149)",
+      "sourceFigureDescription": "A micrograph of Blastomyces with a single broad-based bud, same size as an RBC, marker B after 'same size as RBC'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "systemic-mycoses-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The verrucous-lesion photo (book 149)",
+      "sourceFigureDescription": "A clinical photograph of the verrucous skin lesion of disseminated blastomycosis, marker C after 'verrucous lesions'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "systemic-mycoses-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Coccidioides spherule micrograph (book 149)",
+      "sourceFigureDescription": "A micrograph of the spherule filled with endospores, much larger than an RBC, marker D after 'much larger than RBC'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "systemic-mycoses-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          171
+        ],
+        "bookPages": "149"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Paracoccidioides captain's-wheel micrograph (book 149)",
+      "sourceFigureDescription": "A micrograph of the budding yeast with the captain's-wheel formation, marker E after the captain's-wheel phrase.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Mycology",
+      "topicId": "systemic-mycoses",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "systemic-mycoses",
+    "textbookVisualCount": 7,
+    "accountedFor": 7,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 6,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "See the manifest notes for the census and quirks; all printed photos COPYRIGHTED, described-in-text only."
+}

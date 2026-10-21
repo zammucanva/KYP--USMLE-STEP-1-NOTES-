@@ -1,0 +1,27 @@
+===== element-opportunistic-fungi-panel-light.png =====
+**OVERLAPS / CLIPPING:** No text or element overlaps detected. All text within the 2x2 grid cards is fully contained and legible without clipping. The footer text is also well-contained within its container.
+
+**CONTRAST:** 
+- Headings (e.g., "Candida albicans", "Aspergillus fumigatus") use a deep red/maroon color which provides sufficient contrast against the light cyan background.
+- Body text is dark grey/black on a very light cyan background, offering excellent readability.
+- The top header and footer use black text on white/light grey backgrounds, maintaining high contrast.
+- The anchor strip ("catalase • DKA • capsule...") uses dark teal text on a light teal background; contrast is acceptable but slightly lower than the main body text.
+
+**ALIGNMENT:**
+- The 2x2 grid is well-aligned with consistent gutters.
+- Text within each card is left-aligned with appropriate padding.
+- The top header, main content area, anchors strip, and footer are all horizontally aligned to the same left/right margins.
+- The bold organism names are consistently positioned at the top of their respective cards.
+
+**CONTENT:**
+- **Header:** "Opportunistic fungi — the morphology panel (original KYP redraw)" - Present and correct.
+- **Sub-header:** "THE FOUR ORGANISMS — morphology · diseases · treatment" - Present.
+- **Grid Content:**
+    - Top-left: *Candida albicans* (text describes white colonies, germ tubes, etc.)
+    - Top-right: *Aspergillus fumigatus* (text describes 45° angle, septate hyphae, etc.)
+    - Bottom-left: *Cryptococcus neoformans* (text describes India ink, mucicarmine, etc.)
+    - Bottom-right: *Mucor and Rhizopus spp* (text describes wide-angle, ribbon-like hyphae, etc.)
+- **Anchors Strip:** "catalase • DKA • capsule • 45° vs wide" - Present and centered in the pill-shaped container.
+- **Footer:** Two lines of text describing the original KYP redraw source and copyright/description notes. Content appears complete and matches the expected medical/educational context.
+
+**VERDICT:** **PASS** — The visual implementation is clean, well-structured, and free of rendering errors. All text is legible, alignment is professional, and the content matches the described layout perfectly.

@@ -1,0 +1,23 @@
+===== element-opportunistic-fungi-panel-dark.png =====
+**OVERLAPS:** None detected. All text blocks, headings, and containers maintain appropriate spacing without intersection.
+
+**CLIPPING:** None detected. Text is fully visible within all card containers and the main body area; no content is cut off at edges.
+
+**CONTRAST:**
+*   **Headings (Candida, Aspergillus, Crypto, Mucor):** Excellent contrast against dark backgrounds.
+*   **Body Text:** Good readability on the dark grey cards (`#1e293b` or similar).
+*   **Footer/Note Text:** The small text in the bottom note bar and the very bottom copyright line is low-contrast (grey-on-dark-grey). While legible, it approaches the minimum threshold for accessibility standards.
+*   **Top Badge:** "catalase • DKC..." has good contrast.
+
+**ALIGNMENT:**
+*   **Grid Layout:** The 2x2 organism grid appears well-aligned with consistent gutters.
+*   **Internal Padding:** Text padding within the four organism cards looks consistent.
+*   **Justification:** The footer note bar text is centered; the bottom paragraph is left-aligned. Both appear correctly positioned relative to their containers.
+
+**CONTENT:**
+*   **Text Integrity:** All medical terminology appears intact with no obvious typos or encoding errors (e.g., "Aspergillus fumigatus", "Cryptococcus neoformans").
+*   **Completeness:** All four expected organisms are present. The descriptive paragraphs are substantial and appear complete.
+*   **Metadata:** The top-right badge ("catalase...") and bottom footnotes are present and contextually relevant to the image content.
+
+**VERDICT: PASS**
+The design is clean, professional, and functionally sound for a dark theme. The only minor observation is the low contrast of the auxiliary footer text, but this does not constitute a failure in standard QA unless strict WCAG AAA compliance is required. No critical layout or rendering errors found.

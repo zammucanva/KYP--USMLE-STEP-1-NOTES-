@@ -1,0 +1,34 @@
+===== element-systemic-mycoses-map-dark.png (round 2) =====
+**VERDICT: CLEAN**
+
+**Detailed QA Check:**
+
+**(a) NOTES Column Overflow/Clipping:**  
+The rightmost **NOTES** column has been successfully rebalanced to a wider width. All text content is fully contained within the cell boundaries:
+- **Histoplasmosis**: "Bird or bat droppings (e.g., caves, droppings via air-conditioning)" — fits cleanly with comfortable padding.
+- **Blastomycosis**: "— the 'printed cell' is the 'RBC' mnemonic — (table block only)" — wraps properly without clipping.
+- **Coccidioidomycosis**: "Dust exposure in arid areas (e.g., archeological excavations, earthquakes)" — fully visible.
+- **Paracoccidioidomycosis**: "— the 'printed cell' is the 'RBC' mnemonic — (table block only)" — fits identically to Blastomycosis row.
+
+No text runs past the column edge or gets truncated.
+
+**(b) Typos in Rendered Text:**  
+Scanning all text blocks:
+- **Header strip**: "pneumonia · disseminates · granulomas" — correct.
+- **Dimorphic Rule**: All medical terminology accurate ("thermally dimorphic," "37°C," "spherule/yeast in tissue").
+- **Table headers**: DISEASE | ENDEMIC LOCATION | PATHOLOGIC FEATURES | UNIQUE SIGNS/SYMPTOMS | NOTES — correct.
+- **Row data**: 
+  - Histoplasmosis: "Macrophage filled with *Histoplasma* (smaller than RBC)..." — spelling correct.
+  - Blastomycosis: "Broad-based budding of *Blastomyces*..." — correct.
+  - Coccidioidomycosis: "Spherule filled with endospores..." — correct.
+  - Paracoccidioidomycosis: "'Captain's wheel' / 'mariner's wheel' / 'pilot's wheel'..." — consistent and correctly spelled.
+- **Footer/Anchors**: Text is grammatically correct; "KYP redraw," "COPYRIGHTED," "ENDEMIC LOCATION" — no errors detected.
+- **FA mnemonics**: Successfully removed from visual cells as requested (only referenced as text descriptions in NOTES).
+
+**(c) Overlaps/Clipping/Contrast/Alignment:**  
+- **Alignment**: All columns align perfectly horizontally; grid lines are crisp and vertical alignment is consistent across all four rows.
+- **Contrast**: Red disease names (#ff6b6b) pop clearly against dark backgrounds; white body text maintains high readability; teal/cyan accents for headers provide sufficient contrast.
+- **Overlaps**: No text elements overlap with borders, other cells, or adjacent columns. The "THE DIMORPHIC RULE" box has adequate internal padding.
+- **Clipping**: No characters are cut off at cell edges or container boundaries. The footer text wraps naturally within its container.
+
+**Final Assessment:** The visual passes all quality checks. The NOTES column width fix resolved the previous overflow issue, and the removal of FA mnemonics from the cells cleans up the visual density while preserving the information in the notes column.
