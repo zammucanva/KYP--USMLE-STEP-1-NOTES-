@@ -1,0 +1,497 @@
+{
+  "topicId": "blood-tissue-protozoa",
+  "title": "Blood & Tissue Protozoa: Plasmodium, Babesia, Toxoplasma, Trypanosoma, Leishmania",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Parasitology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      175,
+      176,
+      177
+    ],
+    "bookPages": "153–155"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "▶ MICROBIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "153",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "Protozoa—CNS infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers (ORGANISM / DISEASE / TRANSMISSION / DIAGNOSIS — the TREATMENT header emits late at line 96)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nDIAGNOSIS\n\nToxoplasma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxoplasma row, interleaved (mononucleosis-like with ⊝ heterophile; AIDS reactivation ring-enhancing MRI A; the congenital triad; cysts in meat/oocysts in cat feces/placental crossing; serology + biopsy tachyzoite B + PCR of amniotic fluid; the interleaved sulfadiazine + pyrimethamine + TMP-SMX CD4<100 treatment block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "Toxoplasma\ngondii\n\nImmunocompetent:\nmononucleosis-like symptoms,\n⊝ heterophile antibody test\nReactivation in AIDS →  brain\nabscesses usually seen as\nmultiple ring-enhancing lesions\non MRI A\nCongenital toxoplasmosis:\nclassic triad of chorioretinitis,\nhydrocephalus, and intracranial\ncalcifications\n\nCysts in meat (most\ncommon); oocysts\nin cat feces; crosses\nplacenta (pregnant\npatients should\navoid cats)\n\nSerology, biopsy\nSulfadiazine +\n(tachyzoite) B ;\npyrimethamine\nPCR of amniotic\nProphylaxis with\nfluid for possible\nTMP-SMX when\nintrauterine disease\nCD4+ cell count\n<100 cells/mm3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Naegleria row (rapidly fatal meningoencephalitis; warm freshwater via the olfactory nerve/cribriform plate; amoebas in CSF C; amphotericin B for a few survivors)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "Naegleria fowleri\n\nRapidly fatal meningoencephalitis\n\nSwimming in warm\nfreshwater; enters\nCNS through\nolfactory nerve via\ncribriform plate\n\nAmoebas in CSF C\n\nAmphotericin B has\nbeen effective for a\nfew survivors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T. brucei row (African sleeping sickness; antigenic variation; tsetse fly; trypomastigote D; suramin/melarsoprol with the printed I-sure-am-mellow gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "Trypanosoma\nbrucei\n\nAfrican sleeping sickness—\nenlarged lymph nodes, recurring\nfever (due to antigenic variation),\nsomnolence, coma\n\nTsetse fly, a painful\nbite\n\nTrypomastigote in\nblood smear D\n\nSuramin for bloodborne disease or\nmelarsoprol for\nCNS penetration\n(“I sure am\nmellow when I’m\nsleeping”)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-block markers + the late TREATMENT header + footer (physical order, lines 88-98: A, the indd footer, B, C, TREATMENT, D)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "A\n\nFAS1_2026_03-Microbiology.indd 153\n\nB\n\nC\n\nTREATMENT\n\nD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          175
+        ],
+        "bookPages": "153"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "154",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "▶ MICROBIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "Protozoa—hematologic infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers (ORGANISM / DISEASE / TRANSMISSION / DIAGNOSIS / TREATMENT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nDIAGNOSIS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Plasmodium row part 1 (malaria — cyclic fevers, headache, anemia, splenomegaly, hypoglycemia; Anopheles; peripheral blood smear; the sensitivity-based therapy ladder with the G6PD check; P. malariae quartan ring; P. vivax/ovale tertian hypnozoite + Schüffner stippling A with primaquine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "Plasmodium\n\nMalaria—cyclic fevers, headache,\nanemia, splenomegaly;\nhypoglycemia in severe disease\n\nAnopheles\nmosquito\n\nPeripheral blood\nsmear (also allows\nfor identification of\nspecies)\n\nIf sensitive, chloroquine;\nif resistant, mefloquine,\ndoxycycline or\natovaquone/proguanil\nIf life threatening, use\nintravenous quinine\nor artesunate (test for\nG6PD deficiency)\n\nP malariae\n\n72-hr fever cycle (quartan)\n\nTrophozoite ring\nwithin RBC\n\nP vivax/ovale\n\n48-hr fever cycle (tertian); dormant\nform (hypnozoite) in liver\n\nTrophozoites and\nAdd primaquine to target\nSchüffner stippling\nhypnozoites\n(small red granules)\nwithin RBC\ncytoplasm A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "P. falciparum sub-row (severe irregular fever; cerebral malaria from capillary occlusion; headphone ring B; crescent gametocytes C)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "P falciparum\n\nSevere, irregular fever pattern;\nparasitized RBCs may occlude\ncapillaries in brain (cerebral\nmalaria), kidneys, lungs\n\nTrophozoite ring\n(headphone\nshaped) within\nRBC B ;\ncrescent-shaped\ngametocytes C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Babesia row interleaved with the figure block (babesiosis — fever + hemolytic anemia; northeastern/north central US; asplenia; Ixodes with Borrelia + Anaplasma; ring form D1 + Maltese cross D2; PCR; atovaquone + azithromycin; the markers A/B/C/D and the timestamp emitting among the row cells)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          176
+        ],
+        "bookPages": "154"
+      },
+      "quote": "Babesia\n\nBabesiosis—fever and hemolytic\nanemia; predominantly in\nnortheastern and north central\nUnited States; asplenia ↑ risk of\nsevere disease due to inability to\nclear infected RBCs\nA\n\nFAS1_2026_03-Microbiology.indd 154\n\nB\n\nIxodes tick\n(also vector\nfor Borrelia\nburgdorferi and\nAnaplasma\nspp)\n\nRing form D1 ,\n“Maltese cross” D2 ;\nPCR\n\nC\n\nAtovaquone\n+ azithromycin\n\nD\n\n12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "▶ MICROBIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "155",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "Protozoa—others",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nDIAGNOSIS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "T. cruzi row (Chagas — dilated cardiomyopathy with apical atrophy, megacolon, megaesophagus; the printed big-problems gloss; Romaña sign; the triatomine kissing bug's fecal transmission; trypomastigote A; benznidazole/nifurtimox)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "Trypanosoma\ncruzi\n\nChagas disease—dilated\ncardiomyopathy with\napical atrophy, megacolon,\nmegaesophagus; (T cruzi causes\nbig problems); predominantly in\nSouth America\nUnilateral periorbital swelling\n(Romaña sign) characteristic of\nacute stage\n\nTriatomine insect\n(kissing bug) bites\nand defecates\naround the mouth\nor eyes →  fecal\ntransmission into\nbite site or mucosa\n\nTrypomastigote in\nblood smear A\n\nBenznidazole or\nnifurtimox",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leishmania row (kala-azar — spiking fevers, hepatosplenomegaly, pancytopenia; cutaneous ulcers B; sandfly; macrophages with amastigotes C; amphotericin B / sodium stibogluconate)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "Leishmania spp\n\nVisceral leishmaniasis\n(kala-azar)—spiking fevers,\nhepatosplenomegaly,\npancytopenia\nCutaneous leishmaniasis—skin\nulcers B\n\nSandfly\n\nMacrophages\ncontaining\namastigotes C\n\nAmphotericin B,\nsodium\nstibogluconate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trichomonas row, interleaved with its mid-table heading emission (the M18 cross-link: sexual/no cysts; motile trophozoites D on wet mount; strawberry cervix; metronidazole for patient and partner(s); the Gardnerella distinction; the interleaved 'Visceral infections'/'Sexually transmitted infections'/'Trichomonas vaginalis' heading lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "Sexual (cannot exist\noutside human\nbecause it cannot\nform cysts)\n\nTrophozoites (motile) Metronidazole\nfor patient\nD on wet mount;\npunctate cervical\nand partner(s)\nhemorrhages\n(prophylaxis; check\n(“strawberry\nfor STI)\ncervix”)\n\nVisceral infections\n\nSexually transmitted infections\nTrichomonas\nvaginalis\n\nVaginitis—foul-smelling, greenish\ndischarge; itching and burning;\ndo not confuse with Gardnerella\nvaginalis, a gram-variable\nbacterium associated with\nbacterial vaginosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Nematode-routes box with its printed mnemonics (Ingested/Cutaneous/Bites + EATTT/SANd/LOW; cross-linked to M20; prints on this page under M19's ownership)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "Nematode routes of\ninfection\n\nFAS1_2026_03-Microbiology.indd 155\n\nB\n\nIngested—Enterobius, Ascaris, Toxocara,\nTrichinella, Trichuris\nCutaneous—Strongyloides, Ancylostoma,\nNecator\nBites—Loa loa, Onchocerca volvulus,\nWuchereria bancrofti\n\nC\n\nD\n\nYou’ll get sick if you EATTT these!\nThese get into your feet from the SANd\nLay LOW to avoid getting bitten",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-block markers (A 93 / B 100 / C 109 / D 111 interleaved with the rows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "A\n\nNematode routes of\ninfection\n\nFAS1_2026_03-Microbiology.indd 155\n\nB\n\nIngested—Enterobius, Ascaris, Toxocara,\nTrichinella, Trichuris\nCutaneous—Strongyloides, Ancylostoma,\nNecator\nBites—Loa loa, Onchocerca volvulus,\nWuchereria bancrofti\n\nC\n\nD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          177
+        ],
+        "bookPages": "155"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "blood-tissue-protozoa-map"
+  ],
+  "mechanismIds": [
+    "vector-smear-therapy-axis",
+    "malaria-cycle-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "vector-malaria-synthesis",
+      "summary": "The vector axis (the arthropod boards) wired to the smear axis (the Plasmodium species set by periodicity and form; the Babesia Maltese cross vs the falciparum crescent) and the therapy axis (the sensitivity-based malaria ladder with the G6PD check and the primaquine-hypnozoite rule; the block's drug set); the host axis (AIDS reactivation at low CD4; asplenia's inability to clear infected RBCs); and the two cross-page bridges resolved by page ownership (Trichomonas prints HERE — the M18 cross-link; the Nematode-routes box prints HERE — the M20 forward link) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tables without the synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): 12 rasters across the 3 pages (4 each: p175 A the ring-enhancing MRI / B the tachyzoite / C the amoebas in CSF / D the brucei trypomastigote; p176 A the Schüffner stippling / B the headphone ring / C the crescent gametocytes / D the Babesia ring form + Maltese cross [the D1/D2 markers vs 4 rasters — a grouping case]; p177 A the cruzi trypomastigote / B the cutaneous ulcers / C the amastigotes / D the motile Trichomonas) — all COPYRIGHTED, described-in-text only. Text quirks: the TREATMENT header on book 153 emits at the page bottom (line 96, among the figure markers) — late header emission; the Plasmodium species set interleaves within its row; the Babesia row interleaves with the figure markers and the timestamp; the Trichomonas row's heading emits mid-table (the 'Visceral infections'/'Sexually transmitted infections' lines); the Nematode-routes box emits with the EATTT/SANd/LOW mnemonics. PAGE-OWNERSHIP RESOLUTIONS: Trichomonas prints on book 155 (M19's ownership — carried verbatim here, cross-linked from M18); the Nematode-routes box prints on book 155 (M19's ownership — carried verbatim here, cross-linked forward to M20). FA's printed mnemonics (I sure am mellow; T cruzi causes big problems; EATTT/SANd/LOW) carried in the table block only (NOT in the visual).",
+  "updatedAt": "2026-10-21"
+}

@@ -1,0 +1,10 @@
+===== element-intestinal-protozoa-panel-light.png =====
+**VERDICT: CLEAN**
+
+**QA Check Details:**
+
+*   **Column Overrun/Clipping:** No text overruns its column boundaries. The rightmost **TREATMENT** column is fully visible with no clipping at the panel edge.
+*   **Overlaps:** There are no text overlaps between cells, headers, or rows.
+*   **Contrast:** High contrast is maintained throughout (black/dark red text on white/light gray backgrounds).
+*   **Alignment:** Headers are consistently left-aligned; row content is neatly aligned within each column's grid structure.
+*   **Layout Integrity:** The 3-row grid, 5-column header chips, anchors strip, and 2-line footer are all correctly rendered and contained within the main panel border.

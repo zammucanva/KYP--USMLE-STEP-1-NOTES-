@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -306,4 +306,6 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "vector-borne-rash-map": VectorBorneRashMap,
   "systemic-mycoses-map": SystemicMycosesMap,
   "opportunistic-fungi-panel": OpportunisticFungiPanel,
+  "intestinal-protozoa-panel": IntestinalProtozoaPanel,
+  "blood-tissue-protozoa-map": BloodTissueProtozoaMap,
 };

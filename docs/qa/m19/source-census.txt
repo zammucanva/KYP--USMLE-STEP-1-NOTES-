@@ -1,0 +1,31 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+ 175     0 image     225   234  cmyk    4   8  jpeg   no      6944  0   150   150 17.6K 8.6%
+ 175     1 image     224   235  cmyk    4   8  jpeg   no      6945  0   150   150 9696B 4.6%
+ 175     2 image     225   235  cmyk    4   8  jpeg   no      6946  0   150   150 29.1K  14%
+ 175     3 image     225   235  cmyk    4   8  jpeg   no      6947  0   150   150 10.4K 5.1%
+ 176     4 image     221   221  cmyk    4   8  jpeg   no      6950  0   150   150 8486B 4.3%
+ 176     5 image     220   220  cmyk    4   8  jpeg   no      6951  0   150   150 8073B 4.2%
+ 176     6 image     220   220  cmyk    4   8  jpeg   no      6952  0   150   150 9188B 4.7%
+ 176     7 image     220   220  cmyk    4   8  jpeg   no      6953  0   150   150 6400B 3.3%
+ 177     8 image     225   225  cmyk    4   8  jpeg   no      6960  0   150   150 9888B 4.9%
+ 177     9 image     225   226  cmyk    4   8  jpeg   no      6961  0   150   150 13.5K 6.8%
+ 177    10 image     225   225  cmyk    4   8  jpeg   no      6962  0   150   150 13.7K 6.9%
+ 177    11 image     225   225  cmyk    4   8  jpeg   no      6963  0   150   150 7216B 3.6%
+
+=== M19 census (pdf 175-177 / book 153-155) ===
+12 rasters (4 per page): p175 A the ring-enhancing MRI / B the tachyzoite /
+C the amoebas in CSF / D the brucei trypomastigote; p176 A the Schüffner
+stippling / B the headphone ring / C the crescent gametocytes / D the Babesia
+ring form + Maltese cross (D1/D2 markers vs 4 rasters — a grouping case);
+p177 A the cruzi trypomastigote / B the cutaneous ulcers / C the amastigotes /
+D the motile Trichomonas. All described-in-text only.
+Text quirks: the TREATMENT header on book 153 emits at the page bottom (line
+96) among the figure markers; the Plasmodium species set interleaves within
+its row; the Babesia row interleaves with the figure markers + the timestamp;
+the Trichomonas row's heading emits mid-table ('Visceral infections' /
+'Sexually transmitted infections'); the Nematode-routes box (95-115) emits
+with the EATTT/SANd/LOW mnemonics.
+PAGE-OWNERSHIP RESOLUTIONS: Trichomonas prints HERE (book 155, M19's
+ownership — the M18 cross-link); the Nematode-routes box prints HERE (M19's
+ownership — cross-linked forward to M20).

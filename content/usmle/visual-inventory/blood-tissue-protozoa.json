@@ -1,0 +1,383 @@
+{
+  "topicId": "blood-tissue-protozoa",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "blood-tissue-protozoa-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The three protozoa tables (books 153-155)",
+      "sourceFigureDescription": "The printed CNS, hematologic, and others tables with their interleaved photo markers A-D per page.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "blood-tissue-protozoa-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the three grids + the vector-axis anchors strip"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Nematode-routes box (book 155, this page's ownership)",
+      "sourceFigureDescription": "The printed Ingested/Cutaneous/Bites routes box with the EATTT/SANd/LOW mnemonics.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — carried verbatim here per page ownership; cross-linked forward to M20's nematode note"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The ring-enhancing MRI (book 153)",
+      "sourceFigureDescription": "Multiple ring-enhancing brain lesions on MRI in AIDS reactivation, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The tachyzoite biopsy (book 153)",
+      "sourceFigureDescription": "A histology photomicrograph showing tachyzoites, marker B.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The amoebas-in-CSF micrograph (book 153)",
+      "sourceFigureDescription": "Naegleria amoebas in CSF, marker C.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The brucei trypomastigote micrograph (book 153)",
+      "sourceFigureDescription": "A trypomastigote in a blood smear, marker D.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Schüffner-stippling micrograph (book 154)",
+      "sourceFigureDescription": "Schüffner stippling (small red granules) within the RBC cytoplasm, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv8",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The headphone-ring micrograph (book 154)",
+      "sourceFigureDescription": "The headphone-shaped trophozoite ring of P. falciparum within an RBC, marker B.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv9",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The crescent-gametocyte micrograph (book 154)",
+      "sourceFigureDescription": "The crescent-shaped gametocyte of P. falciparum, marker C.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv10",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Babesia ring/Maltese-cross micrograph (book 154)",
+      "sourceFigureDescription": "The ring form and the Maltese cross of Babesia, markers D1/D2 (one raster group).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv11",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The cruzi trypomastigote micrograph (book 155)",
+      "sourceFigureDescription": "A trypomastigote in a blood smear, marker A.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv12",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The cutaneous-ulcers photo (book 155)",
+      "sourceFigureDescription": "A clinical photograph of cutaneous leishmaniasis skin ulcers, marker B.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv13",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The amastigotes micrograph (book 155)",
+      "sourceFigureDescription": "Macrophages containing amastigotes, marker C.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "blood-tissue-protozoa-sv14",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          175,
+          176,
+          177
+        ],
+        "bookPages": "153–155"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The motile-Trichomonas micrograph (book 155)",
+      "sourceFigureDescription": "Motile trophozoites on a wet mount, marker D.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "blood-tissue-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "blood-tissue-protozoa",
+    "textbookVisualCount": 14,
+    "accountedFor": 14,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 13,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The three tables are pure vector (redrawn as the registry visual). The 12 printed photos are rasters — COPYRIGHTED, described-in-text only. The Nematode-routes box is carried verbatim in the table block (page ownership) and cross-linked to M20."
+}

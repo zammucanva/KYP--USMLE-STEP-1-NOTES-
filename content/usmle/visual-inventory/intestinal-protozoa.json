@@ -1,0 +1,187 @@
+{
+  "topicId": "intestinal-protozoa",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "visualId": "intestinal-protozoa-sv1",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Protozoa—gastrointestinal infections table (book 152)",
+      "sourceFigureDescription": "The printed 5-column table: Giardia lamblia, Entamoeba histolytica, and Cryptosporidium with their interleaved photo markers A-F.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "intestinal-protozoa-panel",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the water-panel grid + the water/stool/smear anchors strip"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv2",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Giardia multinucleated-trophozoites micrograph (book 152)",
+      "sourceFigureDescription": "A micrograph of the multinucleated trophozoites of Giardia, marker A after 'trophozoites'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv3",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The Giardia cysts micrograph (book 152)",
+      "sourceFigureDescription": "A micrograph of Giardia cysts, marker B after 'cysts'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv4",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The flask-shaped-ulcers histology (book 152)",
+      "sourceFigureDescription": "A histology photomicrograph of the colon biopsy showing flask-shaped ulcers, marker C after 'flask-shaped ulcers'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv5",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The engulfed-RBC trophozoite micrograph (book 152)",
+      "sourceFigureDescription": "A micrograph of the Entamoeba trophozoite with engulfed RBCs in the cytoplasm, marker D (the 855x893 indexed high-resolution histology).",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv6",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The 4-nucleus-cysts micrograph (book 152)",
+      "sourceFigureDescription": "A micrograph of Entamoeba cysts with up to 4 nuclei in stool, marker E after '4 nuclei'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    },
+    {
+      "visualId": "intestinal-protozoa-sv7",
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152–152"
+      },
+      "chapterId": "microbiology",
+      "visualType": "MICROBIOLOGY_IMAGE",
+      "visualPurpose": "The acid-fast-oocysts micrograph (book 152)",
+      "sourceFigureDescription": "A micrograph of Cryptosporidium oocysts on acid-fast stain, marker F after 'acid-fast stain'.",
+      "requiredInKYP": true,
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Parasitology",
+      "topicId": "intestinal-protozoa",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] table block — figure pointers carried verbatim; described-in-text only"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "intestinal-protozoa",
+    "textbookVisualCount": 7,
+    "accountedFor": 7,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 6,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The table is pure vector (redrawn as the registry visual). The 6 printed photos are rasters — COPYRIGHTED, described-in-text only. FA's Ghirardelli gloss carried in the table block only."
+}

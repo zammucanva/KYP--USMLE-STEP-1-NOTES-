@@ -2199,3 +2199,219 @@ export function OpportunisticFungiPanel() {
     </svg>
   );
 }
+
+export function IntestinalProtozoaPanel() {
+  const w = 980;
+  const h = 419;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Intestinal and urogenital protozoa, an original KYP panel. THE GASTROINTESTINAL TABLE (book 152): Giardia lamblia — giardiasis with bloating, flatulence, foul-smelling nonbloody fatty diarrhea often seen in campers and hikers; cysts in water; multinucleated trophozoites or cysts in stool with antigen detection and PCR; tinidazole, nitazoxanide, or metronidazole. Entamoeba histolytica — amebiasis with bloody diarrhea (dysentery), liver abscess with the anchovy-paste exudate, RUQ pain, and flask-shaped ulcers on colon biopsy histology; cysts in water; serology, antigen testing, PCR, trophozoites with engulfed RBCs or cysts with up to 4 nuclei in stool; metronidazole with paromomycin for asymptomatic cyst passers. Cryptosporidium — severe diarrhea in AIDS and mild watery diarrhea in the immunocompetent; oocysts in water; oocysts on acid-fast stain with antigen detection and PCR; prevention with filtering, nitazoxanide for severe disease or the immunocompromised. The urogenital protozoan Trichomonas vaginalis prints on book 155 (M19 page ownership) and is cross-linked" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Intestinal &amp;amp; urogenital protozoa — the water-panel (original KYP redraw)</text>
+        <rect x="712" y="24" width="220" height="18" rx="9" className="fill-brand-soft" />
+<text x="822" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">cysts · oocysts · the water axis</text>
+      </g>
+      {/* ===== THE GI TABLE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="228" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">PROTOZOA — GASTROINTESTINAL INFECTIONS · PARASITOLOGY begins</text>
+        <rect x="52" y="108" width="118" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="176" y="108" width="240" height="20" rx="4" className="fill-secondary" />
+<text x="182" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="422" y="108" width="122" height="20" rx="4" className="fill-secondary" />
+<text x="428" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="552" y="108" width="210" height="20" rx="4" className="fill-secondary" />
+<text x="558" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DIAGNOSIS</text>
+        <rect x="770" y="108" width="150" height="20" rx="4" className="fill-secondary" />
+<text x="776" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="136" width="880" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="149" fontSize="6.0" fontWeight="800" className="fill-emergency">Giardia lamblia</text>
+<text x="182" y="149" fontSize="5.0" className="fill-muted-foreground">Giardiasis—bloating, flatulence, foul-smelling, nonbloody, fatty diarrhea (often seen in</text>
+<text x="182" y="159" fontSize="5.0" className="fill-muted-foreground">campers/hikers)</text>
+<text x="428" y="149" fontSize="5.0" className="fill-muted-foreground">Cysts in water</text>
+<text x="558" y="149" fontSize="5.0" className="fill-muted-foreground">Multinucleated trophozoites or cysts in stool; antigen detection; PCR</text>
+<text x="776" y="149" fontSize="5.0" className="fill-muted-foreground">Tinidazole, nitazoxanide, or metronidazole</text>
+        <rect x="52" y="192" width="880" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="205" fontSize="6.0" fontWeight="800" className="fill-emergency">Entamoeba histolytica</text>
+<text x="182" y="205" fontSize="5.0" className="fill-muted-foreground">Amebiasis—bloody diarrhea (dysentery), liver abscess (“anchovy paste” exudate), RUQ pain;</text>
+<text x="182" y="215" fontSize="5.0" className="fill-muted-foreground">histology of colon biopsy shows flask-shaped ulcers</text>
+<text x="428" y="205" fontSize="5.0" className="fill-muted-foreground">Cysts in water</text>
+<text x="558" y="205" fontSize="5.0" className="fill-muted-foreground">Serology, antigen testing, PCR, and/or trophozoites (with engulfed RBCs in the</text>
+<text x="558" y="215" fontSize="5.0" className="fill-muted-foreground">cytoplasm) or cysts with up to 4 nuclei in stool</text>
+<text x="776" y="205" fontSize="5.0" className="fill-muted-foreground">Metronidazole; paromomycin for asymptomatic cyst</text>
+<text x="776" y="215" fontSize="5.0" className="fill-muted-foreground">passers</text>
+        <rect x="52" y="248" width="880" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="261" fontSize="6.0" fontWeight="800" className="fill-emergency">Cryptosporidium</text>
+<text x="182" y="261" fontSize="5.0" className="fill-muted-foreground">Severe diarrhea in AIDS; mild disease (watery diarrhea) in immunocompetent hosts</text>
+<text x="428" y="261" fontSize="5.0" className="fill-muted-foreground">Oocysts in water</text>
+<text x="558" y="261" fontSize="5.0" className="fill-muted-foreground">Oocysts on acid-fast stain; antigen detection; PCR</text>
+<text x="776" y="261" fontSize="5.0" className="fill-muted-foreground">Prevention (eg, filtering); nitazoxanide (severe</text>
+<text x="776" y="271" fontSize="5.0" className="fill-muted-foreground">disease and/or immunocompromised)</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="320" width="908" height="33" rx="8" className="fill-secondary" />
+<text x="490" y="340" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">Cysts in water (Giardia, Entamoeba) vs oocysts in water (Cryptosporidium — acid-fast) · Entamoeba eats erythrocytes (trophozoites with engulfed RBCs; cysts with up to 4 nuclei) · Giardia: the fatty nonbloody diarrhea of campers</text>
+      </g>
+      {/* footer */}
+<text x="24" y="367" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Protozoa—gastrointestinal infections table (pdf 174 / book 152 — pure vector; the 6 printed photos are raster, COPYRIGHTED, described-in-text only). FA's printed mnemonic (the Ghirardelli chocolates gloss for fatty stools) is</text>
+<text x="24" y="379" fontSize="7.2" className="fill-muted-foreground">NOT reproduced — verification only, in the note's table block.</text>
+<text x="24" y="391" fontSize="7.2" className="fill-muted-foreground">Trichomonas vaginalis — the urogenital protozoan in this topic's title — prints on pdf 177 (book 155) under M19's page ownership; its verbatim entry is carried in M19's table block and cross-linked here (no duplicate verbatim).</text>
+    </svg>
+  );
+}
+
+
+
+export function BloodTissueProtozoaMap() {
+  const w = 980;
+  const h = 986;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Blood and tissue protozoa, an original KYP vector map. THE CNS TABLE (book 153): Toxoplasma gondii — mononucleosis-like symptoms with a negative heterophile antibody test in the immunocompetent; reactivation in AIDS producing brain abscesses as multiple ring-enhancing lesions on MRI; the congenital triad of chorioretinitis, hydrocephalus, and intracranial calcifications; cysts in meat most commonly, oocysts in cat feces, crossing the placenta; serology and biopsy with tachyzoites, PCR of amniotic fluid; sulfadiazine plus pyrimethamine with TMP-SMX prophylaxis under CD4 100. Naegleria fowleri — rapidly fatal meningoencephalitis from swimming in warm freshwater, entering the CNS through the olfactory nerve via the cribriform plate; amoebas in CSF; amphotericin B for the few survivors. Trypanosoma brucei — African sleeping sickness with enlarged lymph nodes, recurring fever from antigenic variation, somnolence and coma; the painful bite of the tsetse fly; trypomastigote in blood smear; suramin for bloodborne disease, melarsoprol for CNS penetration. THE HEMATOLOGIC TABLE (book 154): Plasmodium — malaria with cyclic fevers, headache, anemia, splenomegaly, and hypoglycemia in severe disease, from the Anopheles mosquito, diagnosed on peripheral blood smear: P malariae the 72-hour quartan cycle with the trophozoite ring in the RBC; P vivax and ovale the 48-hour tertian cycle with the dormant hypnozoite in the liver and Schüffner stippling; P falciparum severe and irregular with cerebral malaria from capillary occlusion, headphone-shaped rings and crescent gametocytes; therapy by sensitivity — chloroquine if sensitive, mefloquine or doxycycline or atovaquone-proguanil if resistant, intravenous quinine or artesunate if life-threatening with a G6PD check, and primaquine added for the vivax-ovale hypnozoites. Babesia — babesiosis with fever and hemolytic anemia in the northeastern and north central US, worse in asplenia; the Ixodes tick that also carries Borrelia and Anaplasma; the ring form and Maltese cross on smear with PCR; atovaquone plus azithromycin. THE OTHERS TABLE (book 155): Trypanosoma cruzi — Chagas disease with dilated cardiomyopathy with apical atrophy, megacolon, megaesophagus, and the Romaña sign; the triatomine kissing bug defecating around the mouth and eyes; trypomastigote in blood smear; benznidazole or nifurtimox. Leishmania — visceral kala-azar with spiking fevers, hepatosplenomegaly, pancytopenia, and cutaneous skin ulcers; the sandfly; macrophages containing amastigotes; amphotericin B or sodium stibogluconate. Trichomonas vaginalis (the M18 cross-link) — the strawberry cervix of the sexual axis, metronidazole for patient and partners" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Blood &amp;amp; tissue protozoa — the vector map (original KYP redraw)</text>
+        <rect x="712" y="24" width="220" height="18" rx="9" className="fill-brand-soft" />
+<text x="822" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">smear · vector · the cross axis</text>
+      </g>
+      {/* ===== CNS TABLE ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="258" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">PROTOZOA — CNS INFECTIONS (book 153)</text>
+        <rect x="52" y="108" width="100" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="162" y="108" width="214" height="20" rx="4" className="fill-secondary" />
+<text x="168" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="386" y="108" width="116" height="20" rx="4" className="fill-secondary" />
+<text x="392" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="512" y="108" width="230" height="20" rx="4" className="fill-secondary" />
+<text x="518" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">DIAGNOSIS</text>
+        <rect x="752" y="108" width="180" height="20" rx="4" className="fill-secondary" />
+<text x="758" y="122" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="136" width="880" height="68" rx="4" className="fill-secondary" />
+<text x="58" y="149" fontSize="6.0" fontWeight="800" className="fill-emergency">Toxoplasma gondii</text>
+<text x="168" y="149" fontSize="5.0" className="fill-muted-foreground">Immunocompetent: mononucleosis-like symptoms, ⊝ heterophile antibody test.</text>
+<text x="168" y="159" fontSize="5.0" className="fill-muted-foreground">Reactivation in AIDS → brain abscesses, usually multiple ring-enhancing lesions</text>
+<text x="168" y="169" fontSize="5.0" className="fill-muted-foreground">on MRI. Congenital toxoplasmosis: classic triad of chorioretinitis,</text>
+<text x="168" y="179" fontSize="5.0" className="fill-muted-foreground">hydrocephalus, and intracranial calcifications.</text>
+<text x="392" y="149" fontSize="5.0" className="fill-muted-foreground">Cysts in meat (most common); oocysts in</text>
+<text x="392" y="159" fontSize="5.0" className="fill-muted-foreground">cat feces; crosses placenta (pregnant</text>
+<text x="392" y="169" fontSize="5.0" className="fill-muted-foreground">patients should avoid cats)</text>
+<text x="518" y="149" fontSize="5.0" className="fill-muted-foreground">Serology, biopsy (tachyzoite); PCR of amniotic fluid for possible intrauterine disease</text>
+<text x="758" y="149" fontSize="5.0" className="fill-muted-foreground">Sulfadiazine + pyrimethamine; prophylaxis with TMP-SMX when CD4+</text>
+<text x="758" y="159" fontSize="5.0" className="fill-muted-foreground">&lt;100 cells/mm³</text>
+        <rect x="52" y="212" width="880" height="58" rx="4" className="fill-secondary/60" />
+<text x="58" y="225" fontSize="6.0" fontWeight="800" className="fill-emergency">Naegleria fowleri</text>
+<text x="168" y="225" fontSize="5.0" className="fill-muted-foreground">Rapidly fatal meningoencephalitis</text>
+<text x="392" y="225" fontSize="5.0" className="fill-muted-foreground">Swimming in warm freshwater; enters CNS</text>
+<text x="392" y="235" fontSize="5.0" className="fill-muted-foreground">through olfactory nerve via cribriform</text>
+<text x="392" y="245" fontSize="5.0" className="fill-muted-foreground">plate</text>
+<text x="518" y="225" fontSize="5.0" className="fill-muted-foreground">Amoebas in CSF</text>
+<text x="758" y="225" fontSize="5.0" className="fill-muted-foreground">Amphotericin B has been effective for a few survivors</text>
+        <rect x="52" y="278" width="880" height="48" rx="4" className="fill-secondary" />
+<text x="58" y="291" fontSize="6.0" fontWeight="800" className="fill-emergency">Trypanosoma brucei</text>
+<text x="168" y="291" fontSize="5.0" className="fill-muted-foreground">African sleeping sickness—enlarged lymph nodes, recurring fever (due to</text>
+<text x="168" y="301" fontSize="5.0" className="fill-muted-foreground">antigenic variation), somnolence, coma</text>
+<text x="392" y="291" fontSize="5.0" className="fill-muted-foreground">Tsetse fly, a painful bite</text>
+<text x="518" y="291" fontSize="5.0" className="fill-muted-foreground">Trypomastigote in blood smear</text>
+<text x="758" y="291" fontSize="5.0" className="fill-muted-foreground">Suramin for bloodborne disease or melarsoprol for CNS penetration</text>
+      </g>
+      {/* ===== HEMATOLOGIC TABLE ===== */}
+      <g>
+        <rect x="36" y="350" width="908" height="222" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="372" fontSize="9" fontWeight="800" className="fill-foreground">PROTOZOA — HEMATOLOGIC INFECTIONS (book 154)</text>
+        <rect x="52" y="382" width="100" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="396" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="162" y="382" width="214" height="20" rx="4" className="fill-secondary" />
+<text x="168" y="396" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="386" y="382" width="116" height="20" rx="4" className="fill-secondary" />
+<text x="392" y="396" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="512" y="382" width="230" height="20" rx="4" className="fill-secondary" />
+<text x="518" y="396" fontSize="5.8" fontWeight="800" className="fill-foreground">DIAGNOSIS</text>
+        <rect x="752" y="382" width="180" height="20" rx="4" className="fill-secondary" />
+<text x="758" y="396" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="410" width="880" height="88" rx="4" className="fill-secondary" />
+<text x="58" y="423" fontSize="6.0" fontWeight="800" className="fill-emergency">Plasmodium</text>
+<text x="168" y="423" fontSize="5.0" className="fill-muted-foreground">Malaria—cyclic fevers, headache, anemia, splenomegaly; hypoglycemia in severe</text>
+<text x="168" y="433" fontSize="5.0" className="fill-muted-foreground">disease</text>
+<text x="392" y="423" fontSize="5.0" className="fill-muted-foreground">Anopheles mosquito</text>
+<text x="518" y="423" fontSize="5.0" className="fill-muted-foreground">Peripheral blood smear (also allows for identification of species). P malariae: 72-hr</text>
+<text x="518" y="433" fontSize="5.0" className="fill-muted-foreground">fever cycle (quartan), trophozoite ring within RBC. P vivax/ovale: 48-hr fever cycle</text>
+<text x="518" y="443" fontSize="5.0" className="fill-muted-foreground">(tertian); dormant form (hypnozoite) in liver; trophozoites and Schüffner stippling</text>
+<text x="518" y="453" fontSize="5.0" className="fill-muted-foreground">(small red granules) within RBC cytoplasm. P falciparum: severe, irregular fever</text>
+<text x="518" y="463" fontSize="5.0" className="fill-muted-foreground">pattern; parasitized RBCs may occlude capillaries in brain (cerebral malaria), kidneys,</text>
+<text x="518" y="473" fontSize="5.0" className="fill-muted-foreground">lungs; trophozoite ring (headphone shaped) within RBC; crescent-shaped gametocytes.</text>
+<text x="758" y="423" fontSize="5.0" className="fill-muted-foreground">If sensitive, chloroquine; if resistant, mefloquine, doxycycline</text>
+<text x="758" y="433" fontSize="5.0" className="fill-muted-foreground">or atovaquone/proguanil. If life threatening, intravenous quinine</text>
+<text x="758" y="443" fontSize="5.0" className="fill-muted-foreground">or artesunate (test for G6PD deficiency). P vivax/ovale: add</text>
+<text x="758" y="453" fontSize="5.0" className="fill-muted-foreground">primaquine to target hypnozoites</text>
+        <rect x="52" y="506" width="880" height="58" rx="4" className="fill-secondary/60" />
+<text x="58" y="519" fontSize="6.0" fontWeight="800" className="fill-emergency">Babesia</text>
+<text x="168" y="519" fontSize="5.0" className="fill-muted-foreground">Babesiosis—fever and hemolytic anemia; predominantly in northeastern and north</text>
+<text x="168" y="529" fontSize="5.0" className="fill-muted-foreground">central United States; asplenia ↑ risk of severe disease due to inability to</text>
+<text x="168" y="539" fontSize="5.0" className="fill-muted-foreground">clear infected RBCs</text>
+<text x="392" y="519" fontSize="5.0" className="fill-muted-foreground">Ixodes tick (also vector for Borrelia</text>
+<text x="392" y="529" fontSize="5.0" className="fill-muted-foreground">burgdorferi and Anaplasma spp)</text>
+<text x="518" y="519" fontSize="5.0" className="fill-muted-foreground">Ring form, “Maltese cross”; PCR</text>
+<text x="758" y="519" fontSize="5.0" className="fill-muted-foreground">Atovaquone + azithromycin</text>
+      </g>
+      {/* ===== OTHERS TABLE ===== */}
+      <g>
+        <rect x="36" y="588" width="908" height="258" rx="14" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+<text x="52" y="610" fontSize="9" fontWeight="800" className="fill-foreground">PROTOZOA — OTHERS (book 155; incl. the Trichomonas M18 cross-link)</text>
+        <rect x="52" y="620" width="100" height="20" rx="4" className="fill-secondary" />
+<text x="58" y="634" fontSize="5.8" fontWeight="800" className="fill-foreground">ORGANISM</text>
+        <rect x="162" y="620" width="214" height="20" rx="4" className="fill-secondary" />
+<text x="168" y="634" fontSize="5.8" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="386" y="620" width="116" height="20" rx="4" className="fill-secondary" />
+<text x="392" y="634" fontSize="5.8" fontWeight="800" className="fill-foreground">TRANSMISSION</text>
+        <rect x="512" y="620" width="230" height="20" rx="4" className="fill-secondary" />
+<text x="518" y="634" fontSize="5.8" fontWeight="800" className="fill-foreground">DIAGNOSIS</text>
+        <rect x="752" y="620" width="180" height="20" rx="4" className="fill-secondary" />
+<text x="758" y="634" fontSize="5.8" fontWeight="800" className="fill-foreground">TREATMENT</text>
+        <rect x="52" y="648" width="880" height="68" rx="4" className="fill-secondary" />
+<text x="58" y="661" fontSize="6.0" fontWeight="800" className="fill-emergency">Trypanosoma cruzi</text>
+<text x="168" y="661" fontSize="5.0" className="fill-muted-foreground">Chagas disease—dilated cardiomyopathy with apical atrophy, megacolon,</text>
+<text x="168" y="671" fontSize="5.0" className="fill-muted-foreground">megaesophagus (T cruzi causes big problems); predominantly in South America.</text>
+<text x="168" y="681" fontSize="5.0" className="fill-muted-foreground">Unilateral periorbital swelling (Romaña sign) characteristic of acute stage</text>
+<text x="392" y="661" fontSize="5.0" className="fill-muted-foreground">Triatomine insect (kissing bug) bites</text>
+<text x="392" y="671" fontSize="5.0" className="fill-muted-foreground">and defecates around the mouth or eyes</text>
+<text x="392" y="681" fontSize="5.0" className="fill-muted-foreground">→ fecal transmission into bite site or</text>
+<text x="392" y="691" fontSize="5.0" className="fill-muted-foreground">mucosa</text>
+<text x="518" y="661" fontSize="5.0" className="fill-muted-foreground">Trypomastigote in blood smear</text>
+<text x="758" y="661" fontSize="5.0" className="fill-muted-foreground">Benznidazole or nifurtimox</text>
+        <rect x="52" y="724" width="880" height="48" rx="4" className="fill-secondary/60" />
+<text x="58" y="737" fontSize="6.0" fontWeight="800" className="fill-emergency">Leishmania spp</text>
+<text x="168" y="737" fontSize="5.0" className="fill-muted-foreground">Visceral leishmaniasis (kala-azar)—spiking fevers, hepatosplenomegaly,</text>
+<text x="168" y="747" fontSize="5.0" className="fill-muted-foreground">pancytopenia. Cutaneous leishmaniasis—skin ulcers</text>
+<text x="392" y="737" fontSize="5.0" className="fill-muted-foreground">Sandfly</text>
+<text x="518" y="737" fontSize="5.0" className="fill-muted-foreground">Macrophages containing amastigotes</text>
+<text x="758" y="737" fontSize="5.0" className="fill-muted-foreground">Amphotericin B, sodium stibogluconate</text>
+        <rect x="52" y="780" width="880" height="58" rx="4" className="fill-secondary" />
+<text x="58" y="793" fontSize="6.0" fontWeight="800" className="fill-emergency">Trichomonas vaginalis</text>
+<text x="168" y="793" fontSize="5.0" className="fill-muted-foreground">Vaginitis—foul-smelling, greenish discharge; itching and burning; do not confuse</text>
+<text x="168" y="803" fontSize="5.0" className="fill-muted-foreground">with Gardnerella vaginalis, a gram-variable bacterium associated with bacterial</text>
+<text x="168" y="813" fontSize="5.0" className="fill-muted-foreground">vaginosis</text>
+<text x="392" y="793" fontSize="5.0" className="fill-muted-foreground">Sexual (cannot exist outside human</text>
+<text x="392" y="803" fontSize="5.0" className="fill-muted-foreground">because it cannot form cysts)</text>
+<text x="518" y="793" fontSize="5.0" className="fill-muted-foreground">Trophozoites (motile) on wet mount; punctate cervical hemorrhages (“strawberry cervix”)</text>
+<text x="758" y="793" fontSize="5.0" className="fill-muted-foreground">Metronidazole for patient and partner(s) (prophylaxis; check for</text>
+<text x="758" y="803" fontSize="5.0" className="fill-muted-foreground">STI)</text>
+      </g>
+      {/* anchors strip */}
+      <g>
+        <rect x="36" y="862" width="908" height="46" rx="8" className="fill-secondary" />
+<text x="490" y="882" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">The vector names the disease: tsetse fly (T. brucei, painful bite) · triatomine kissing bug (T. cruzi — Romaña sign) · sandfly (Leishmania) · Anopheles (Plasmodium) · Ixodes (Babesia — also Borrelia and Anaplasma) · cat feces cysts in meat (Toxoplasma — the TORCH triad) · warm</text>
+<text x="490" y="895" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">freshwater (Naegleria) · sexual, no cysts (Trichomonas)</text>
+      </g>
+      {/* footer */}
+<text x="24" y="922" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's three protozoa tables (pdf 175-177 / book 153-155: CNS, hematologic, others — pure vector; the 12 printed photos are raster, COPYRIGHTED, described-in-text only). The TREATMENT header on book 153 emits at the page bottom (line</text>
+<text x="24" y="934" fontSize="7.2" className="fill-muted-foreground">96) — late figure-block emission documented.</text>
+<text x="24" y="946" fontSize="7.2" className="fill-muted-foreground">The 'Nematode routes of infection' box prints on pdf 177 (this page's ownership) and is carried in the note's table block; M20's nematode note cross-links it. FA's printed mnemonics (the sleeping-sickness 'I sure am mellow' gloss; 'T cruzi causes big problems')</text>
+<text x="24" y="958" fontSize="7.2" className="fill-muted-foreground">are NOT reproduced — verification only, in the table block.</text>
+    </svg>
+  );
+}

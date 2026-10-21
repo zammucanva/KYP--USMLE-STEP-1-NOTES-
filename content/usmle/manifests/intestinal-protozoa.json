@@ -1,0 +1,235 @@
+{
+  "topicId": "intestinal-protozoa",
+  "title": "Intestinal & Urogenital Protozoa",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Parasitology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      174
+    ],
+    "bookPages": "152–152"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "152",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (prints twice, lines 6 and 8 — the PARASITOLOGY quirk)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "▶ MICROBIOLOGY—PARASITOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "Protozoa—gastrointestinal infections",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table column headers (ORGANISM / DISEASE / TRANSMISSION / DIAGNOSIS / TREATMENT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "ORGANISM\n\nDISEASE\n\nTRANSMISSION\n\nDIAGNOSIS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Giardia row, interleaved (the fatty nonbloody diarrhea of campers/hikers with the printed Ghirardelli gloss; cysts in water; the multinucleated trophozoites A or cysts B in stool with inline photo markers; antigen detection; PCR; tinidazole/nitazoxanide/metronidazole)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "Giardia lamblia\n\nGiardiasis—bloating, flatulence,\nfoul-smelling, nonbloody,\nfatty diarrhea (often seen in\ncampers/hikers)—think fat-rich\nGhirardelli chocolates for fatty\nstools of Giardia\n\nCysts in water\n\nMultinucleated\ntrophozoites A or\ncysts B in stool,\nantigen detection,\nPCR\n\nTinidazole,\nnitazoxanide, or\nmetronidazole",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Entamoeba row, interleaved (bloody dysentery; anchovy-paste liver abscess; RUQ pain; flask-shaped ulcers C with the inline photo marker; serology/antigen/PCR; trophozoites with engulfed RBCs D and cysts with up to 4 nuclei E; the printed Entamoeba-Eats-Erythrocytes gloss; metronidazole + paromomycin for asymptomatic cyst passers)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "Entamoeba\nhistolytica\n\nAmebiasis—bloody diarrhea\n(dysentery), liver abscess\n(“anchovy paste” exudate), RUQ\npain; histology of colon biopsy\nshows flask-shaped ulcers C\n\nCysts in water\n\nSerology, antigen\ntesting, PCR, and/\nor trophozoites\n(with engulfed\nRBCs D in the\ncytoplasm) or\ncysts with up to 4\nnuclei in stool E ;\nEntamoeba Eats\nErythrocytes\n\nMetronidazole;\nparomomycin for\nasymptomatic cyst\npassers",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cryptosporidium row, interleaved (severe diarrhea in AIDS, mild watery in the immunocompetent; oocysts in water; oocysts on acid-fast stain F with the inline photo marker; antigen detection; PCR; prevention/filtering; nitazoxanide for severe and/or immunocompromised)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "Cryptosporidium\n\nSevere diarrhea in AIDS\nMild disease (watery diarrhea) in\nimmunocompetent hosts\n\nOocysts in water\n\nOocysts on acid-fast\nstain F , antigen\ndetection, PCR\n\nPrevention (eg,\nfiltering); nitazoxanide (severe disease\nand/or immunocompromised)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 152",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-block photo markers (physical order, lines 86-96: A B C D E F)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "A\n\nB\n\nC\n\nD\n\nE\n\nF",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer line (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          174
+        ],
+        "bookPages": "152"
+      },
+      "quote": "12/18/25 9:19 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "intestinal-protozoa-panel"
+  ],
+  "mechanismIds": [
+    "water-stool-axis",
+    "host-severity-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "water-stool-synthesis",
+      "summary": "The cysts-vs-oocysts water axis wired to the stool-character axis (fatty nonbloody malabsorption vs bloody dysentery with the anchovy-paste abscess and flask-shaped ulcers) and the smear axis (multinucleated trophozoites vs engulfed-RBC trophozoites vs acid-fast oocysts); the Cryptosporidium immune split (AIDS-severe vs competent-mild) scaling the therapy; and the Trichomonas cross-page bridge (book 155, M19 ownership — the no-cysts sexual exception distinguished from Gardnerella) — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table without the axis synthesis; these are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + callout + patterns + traps + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages -list): p174 carries 6 rasters (A the multinucleated trophozoites 274x282 gray; B the Giardia cysts 269x282 cmyk; C the flask-shaped-ulcers histology 315x224 cmyk; D the engulfed-RBC trophozoite 855x893 indexed at 476ppi [the high-resolution histology]; E the 4-nucleus cysts 275x281 cmyk; F the acid-fast oocysts 315x281 cmyk) — all COPYRIGHTED, described-in-text only; markers inline in the DIAGNOSIS cells + the bottom figure block (86-96) emitting after the footer. Text quirks: each organism's cells emit as one contiguous interleaved block; the chapter banner prints twice (6 and 8); the Ghirardelli gloss is FA's own printed mnemonic (table block only). PAGE-OWNERSHIP NOTE: Trichomonas vaginalis (the urogenital protozoan of this topic's title and faSubsections) prints on pdf 177 (book 155) under M19's ownership — its verbatim entry lives in M19's table block; this note cross-links it without duplication.",
+  "updatedAt": "2026-10-21"
+}

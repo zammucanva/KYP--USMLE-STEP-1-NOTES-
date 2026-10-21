@@ -1,0 +1,12 @@
+===== element-blood-tissue-protozoa-map-dark.png =====
+**VERDICT: CLEAN**
+
+**QA Check Details:**
+
+*   **(a) Text Overrun:** No text overruns its column boundaries or the panel edges. The rightmost **TREATMENT** column is properly contained in all three panels (CNS, Hematologic, Others), with text wrapping correctly within the allocated space.
+*   **(b) Overlaps:** No overlapping elements detected. The 5-column grid (ORGANISM, DISEASE, TRANSMISSION, DIAGNOSIS, TREATMENT) is well-spaced. Row content is clearly separated without intersection.
+*   **(c) Clipping:** No clipping observed. All header chips, row data, and footer text are fully visible and intact.
+*   **(d) Contrast:** High contrast is maintained throughout. White/grey text on dark backgrounds and red organism names are clearly legible. Header chips provide good visual separation.
+*   **(e) Alignment:** Alignment is consistent. Column headers align perfectly with their respective data rows. The three panels are uniformly sized and stacked with even spacing. The anchors strip and 2-line footer are properly centered/aligned relative to the panels.
+
+The visual layout is clean, professional, and free of rendering errors.
