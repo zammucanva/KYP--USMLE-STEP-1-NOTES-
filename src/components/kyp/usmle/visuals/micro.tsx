@@ -4037,3 +4037,302 @@ export function SystemsBugMatrix() {
     </svg>
   );
 }
+
+export function SystemsBugMatrix2() {
+  const w = 980;
+  const h = 2327.0;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Bugs by system part two, an original KYP matrix. RED RASHES OF CHILDHOOD: coxsackievirus type A (hand-foot-mouth, oval vesicles on palms and soles, herpangina); human herpesvirus 6 (roseola, rose-colored macules after several days of high fever, febrile seizures, infants); measles (confluent rash head to down, cough coryza conjunctivitis, Koplik spots); parvovirus B19 (fifth disease, slapped cheek); rubella (pink macules and papules head down, discrete, postauricular lymphadenopathy); S pyogenes (scarlet fever, sandpaper rash, strawberry tongue, erythrogenic toxin); VZV (chickenpox, vesicular trunk first, lesions of different stages). URINARY TRACT INFECTIONS: cystitis dysuria frequency urgency suprapubic pain WBCs without casts; pyelonephritis fever chills flank pain CVA tenderness hematuria WBC casts; ten times more common in females; E coli leading cause with pink lactose fermentation on MacConkey; S saprophyticus second in young sexually active females; Klebsiella third with mucoid capsule; Serratia red pigment; Enterococcus; Proteus swarming struvite urease; Pseudomonas blue-green fruity; leukocyte esterase WBC activity; nitrite gram-negative reduction. VAGINAL INFECTIONS: bacterial vaginosis no inflammation thin white fishy clue cells pH over 4.5 positive whiff metronidazole or clindamycin; trichomonas strawberry cervix frothy yellow-green motile pear-shaped pH over 4.5 metronidazole treat partners; candida cottage cheese pseudohyphae pH normal azoles. SEXUALLY TRANSMITTED INFECTIONS: the pain axis - painful chancroid do cry and herpes with tender bilateral nodes; painless syphilis chancre, LGV painless ulcers then painful buboes, granuloma inguinale beefy red Donovan bodies; chlamydia D to K most common bacterial STI; gonorrhea creamy purulent; condylomata HPV 6 and 11 koilocytes; hepatitis B jaundice; trichomoniasis motile wet prep. TORCH: transplacental or vaginal delivery HSV-2; hepatosplenomegaly jaundice thrombocytopenia growth restriction; Toxoplasma cat feces undercooked meat chorioretinitis hydrocephalus intracranial calcifications; rubella droplets cataracts deafness PDA; CMV sexual transplant hearing loss periventricular calcifications; HIV recurrent infections chronic diarrhea; HSV-2 meningoencephalitis vesicles; syphilis stillbirth hydrops notched teeth saddle nose saber shins CN 8 deafness; GBS E coli Listeria neonatal meningitis; parvovirus B19 hydrops fetalis. HEALTHCARE-ASSOCIATED: antibiotics and PPIs C difficile; aspiration polymicrobial anaerobes; wounds S aureus MRSA and anaerobes; catheters S aureus and S epidermidis; ventilation Pseudomonas Klebsiella Acinetobacter; blood products HBV HCV; urinary catheterization PEcK; water aerosols Legionella with GI and neurologic signs" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Bugs by system II — rashes, urinary, vaginal, STDs, TORCH, nosocomial (original KYP redraw)</text>
+        <rect x="748" y="24" width="208" height="18" rx="9" className="fill-brand-soft" />
+<text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the systems matrices</text>
+      </g>
+      {/* ===== RED RASHES OF CHILDHOOD ===== */}
+      <g>
+        <rect x="36" y="76" width="908" height="342.8" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="96" fontSize="9" fontWeight="800" className="fill-foreground">Red rashes of childhood — the directory (book 177)</text>
+        <rect x="52" y="106" width="150" height="18" rx="4" className="fill-secondary" />
+<text x="127.0" y="119" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">AGENT</text>
+        <rect x="210" y="106" width="200" height="18" rx="4" className="fill-secondary" />
+<text x="310.0" y="119" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">SYNDROME</text>
+        <rect x="420" y="106" width="498" height="18" rx="4" className="fill-secondary" />
+<text x="669.0" y="119" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CLINICAL PRESENTATION</text>
+        <rect x="52" y="130" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="141" fontSize="5.0" fontWeight="800" className="fill-emergency">Coxsackievirus type A</text>
+<text x="216" y="141.0" fontSize="4.5" className="fill-foreground">Hand-foot-mouth disease</text>
+<text x="426" y="141.0" fontSize="4.5" className="fill-muted-foreground">Oval-shaped vesicles on palms and soles; vesicles and ulcers in oral mucosa (herpangina)</text>
+        <rect x="52" y="162.6" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="173.6" fontSize="5.0" fontWeight="800" className="fill-emergency">Human herpesvirus 6</text>
+<text x="216" y="173.6" fontSize="4.5" className="fill-foreground">Roseola (exanthem subitum)</text>
+<text x="426" y="173.6" fontSize="4.5" className="fill-muted-foreground">Asymptomatic rose-colored macules appear on body after several days of high fever; can present with febrile seizures; usually affects infants</text>
+        <rect x="52" y="195.2" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="206.2" fontSize="5.0" fontWeight="800" className="fill-emergency">Measles virus</text>
+<text x="216" y="206.2" fontSize="4.5" className="fill-foreground">Measles (rubeola)</text>
+<text x="426" y="206.2" fontSize="4.5" className="fill-muted-foreground">Confluent rash beginning at head and moving down; preceded by cough, coryza, conjunctivitis, and blue-white (Koplik) spots on buccal mucosa</text>
+        <rect x="52" y="227.79999999999998" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="238.79999999999998" fontSize="5.0" fontWeight="800" className="fill-emergency">Parvovirus B19</text>
+<text x="216" y="238.79999999999998" fontSize="4.5" className="fill-foreground">Erythema infectiosum (fifth disease)</text>
+<text x="426" y="238.79999999999998" fontSize="4.5" className="fill-muted-foreground">“Slapped cheek” rash on face</text>
+        <rect x="52" y="260.4" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="271.4" fontSize="5.0" fontWeight="800" className="fill-emergency">Rubella virus</text>
+<text x="216" y="271.4" fontSize="4.5" className="fill-foreground">Rubella</text>
+<text x="426" y="271.4" fontSize="4.5" className="fill-muted-foreground">Pink macules and papules begin at head and move down, remain discrete → fine desquamating truncal rash; postauricular lymphadenopathy</text>
+        <rect x="52" y="293.0" width="866" height="37.2" rx="4" className="fill-secondary/60" />
+<text x="58" y="304.0" fontSize="5.0" fontWeight="800" className="fill-emergency">Streptococcus pyogenes</text>
+<text x="216" y="304.0" fontSize="4.5" className="fill-foreground">Scarlet fever</text>
+<text x="426" y="304.0" fontSize="4.5" className="fill-muted-foreground">Sore throat, Circumoral pallor, group A strep, Rash (sandpaperlike, from neck to trunk and extremities), Lymphadenopathy, Erythrogenic toxin, strawberry Tongue</text>
+<text x="426" y="312.6" fontSize="4.5" className="fill-muted-foreground">(SCARLET)</text>
+        <rect x="52" y="334.2" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="345.2" fontSize="5.0" fontWeight="800" className="fill-emergency">Varicella-zoster virus</text>
+<text x="216" y="345.2" fontSize="4.5" className="fill-foreground">Chickenpox</text>
+<text x="426" y="345.2" fontSize="4.5" className="fill-muted-foreground">Vesicular rash begins on trunk, spreads to face and extremities with lesions of different stages</text>
+        <rect x="52" y="366.8" width="866" height="36" rx="6" className="fill-card stroke-border" />
+<text x="58" y="380.8" fontSize="4.7" className="fill-muted-foreground">THE TOPOGRAPHY KEY (original KYP synthesis): palms-and-soles vesicles = coxsackie A · trunk-first crops of different stages = VZV · head-down CONFLUENT with the Koplik prodrome = measles · head-down DISCRETE with postauricular LAD = rubella · fever first, then rose macules = HHV-6 · slapped cheek = parvovirus B19 · sandpaper + strawberry tongue = scarlet fever (the</text>
+<text x="58" y="389.8" fontSize="4.7" className="fill-muted-foreground">bacterial one — erythrogenic toxin).</text>
+      </g>
+      {/* ===== URINARY TRACT INFECTIONS ===== */}
+      <g>
+        <rect x="36" y="434.8" width="908" height="400.4" rx="14" className="fill-card stroke-border" />
+<text x="52" y="454.8" fontSize="9" fontWeight="800" className="fill-foreground">Urinary tract infections — the syndromes and the species ladder (book 178)</text>
+        <rect x="52" y="466.8" width="340" height="55.2" rx="6" className="fill-secondary" />
+<text x="222" y="480.8" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">CYSTITIS</text>
+<text x="60" y="494.8" fontSize="4.5" className="fill-muted-foreground">Dysuria, frequency, urgency, suprapubic pain, and WBCs (but not WBC casts) in urine. Primarily caused by ascension of microbes from urethra to</text>
+<text x="60" y="503.40000000000003" fontSize="4.5" className="fill-muted-foreground">bladder.</text>
+        <rect x="402" y="466.8" width="340" height="46.6" rx="6" className="fill-secondary" />
+<text x="572" y="480.8" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">PYELONEPHRITIS</text>
+<text x="410" y="494.8" fontSize="4.5" className="fill-muted-foreground">Fever, chills, flank pain, costovertebral angle tenderness, hematuria, and WBC casts. Ascension to kidney.</text>
+        <rect x="52" y="532.0" width="866" height="25" rx="6" className="fill-secondary" />
+<text x="58" y="546.0" fontSize="4.7" className="fill-muted-foreground">10 times more common in females (shorter urethras colonized by fecal microbiota). Risk factors: obstruction (eg, kidney stones, enlarged prostate), kidney surgery, catheterization, congenital GU malformation (eg, vesicoureteral reflux), diabetes, pregnancy.</text>
+        <rect x="52" y="569.0" width="866" height="18" rx="4" className="fill-secondary" />
+<text x="58" y="582.0" fontSize="5.4" fontWeight="800" className="fill-foreground">SPECIES</text>
+<text x="240" y="582.0" fontSize="5.4" fontWeight="800" className="fill-foreground">FEATURES</text>
+        <rect x="52" y="593.0" width="866" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="604.0" fontSize="5.0" fontWeight="800" className="fill-brand">Escherichia coli</text>
+<text x="240" y="604.0" fontSize="4.5" className="fill-muted-foreground">Leading cause of UTI. Colonies show strong pink lactose-fermentation on MacConkey agar.</text>
+        <rect x="52" y="622.6" width="866" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="633.6" fontSize="5.0" fontWeight="800" className="fill-brand">Staphylococcus saprophyticus</text>
+<text x="240" y="633.6" fontSize="4.5" className="fill-muted-foreground">2nd leading cause of UTI, particularly in young, sexually active females.</text>
+        <rect x="52" y="652.2" width="866" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="663.2" fontSize="5.0" fontWeight="800" className="fill-brand">Klebsiella pneumoniae</text>
+<text x="240" y="663.2" fontSize="4.5" className="fill-muted-foreground">3rd leading cause of UTI. Large mucoid capsule and viscous colonies.</text>
+        <rect x="52" y="681.8000000000001" width="866" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="692.8000000000001" fontSize="5.0" fontWeight="800" className="fill-brand">Serratia marcescens</text>
+<text x="240" y="692.8000000000001" fontSize="4.5" className="fill-muted-foreground">Some strains produce a red pigment; often healthcare-associated and drug resistant.</text>
+        <rect x="52" y="711.4000000000001" width="866" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="722.4000000000001" fontSize="5.0" fontWeight="800" className="fill-brand">Enterococcus</text>
+<text x="240" y="722.4000000000001" fontSize="4.5" className="fill-muted-foreground">Often healthcare-associated and drug resistant.</text>
+        <rect x="52" y="741.0000000000001" width="866" height="26.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="752.0000000000001" fontSize="5.0" fontWeight="800" className="fill-brand">Proteus mirabilis</text>
+<text x="240" y="752.0000000000001" fontSize="4.5" className="fill-muted-foreground">Motility causes “swarming” on agar; associated with struvite stones. Produces urease.</text>
+        <rect x="52" y="770.6000000000001" width="866" height="26.6" rx="4" className="fill-secondary" />
+<text x="58" y="781.6000000000001" fontSize="5.0" fontWeight="800" className="fill-brand">Pseudomonas aeruginosa</text>
+<text x="240" y="781.6000000000001" fontSize="4.5" className="fill-muted-foreground">Blue-green pigment and fruity odor; usually healthcare-associated and drug resistant.</text>
+        <rect x="52" y="807.2000000000002" width="866" height="25" rx="6" className="fill-card stroke-border" />
+<text x="58" y="821.2000000000002" fontSize="4.7" className="fill-muted-foreground">DIAGNOSTIC MARKERS: Leukocyte esterase = evidence of WBC activity · Nitrite test = reduction of urinary nitrates by gram ⊝ bacterial species (eg, E coli).</text>
+      </g>
+      {/* ===== COMMON VAGINAL INFECTIONS ===== */}
+      <g>
+        <rect x="36" y="851.2" width="908" height="159.79999999999998" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="871.2" fontSize="9" fontWeight="800" className="fill-foreground">Common vaginal infections — the three-way comparison (book 178)</text>
+        <rect x="52" y="883.2" width="282" height="121.79999999999998" rx="6" className="fill-secondary" />
+        <rect x="52" y="883.2" width="282" height="20" rx="6" className="fill-brand" />
+<text x="193" y="897.2" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-card">Bacterial vaginosis</text>
+<text x="60" y="913.2" fontSize="4.4" fontWeight="800" className="fill-foreground">SIGNS AND SYMPTOMS</text>
+<text x="60" y="925.2" fontSize="4.5" className="fill-muted-foreground">No inflammation; Thin, white discharge with fishy odor</text>
+<text x="60" y="939.8000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">LAB FINDINGS</text>
+<text x="60" y="951.8000000000001" fontSize="4.5" className="fill-muted-foreground">Clue cells (bacteria-coated epithelial cells); pH &gt;4.5; ⊕ KOH whiff test</text>
+<text x="60" y="966.4000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">TREATMENT</text>
+<text x="60" y="978.4000000000001" fontSize="4.5" className="fill-muted-foreground">Metronidazole or clindamycin</text>
+        <rect x="344" y="883.2" width="282" height="121.79999999999998" rx="6" className="fill-secondary" />
+        <rect x="344" y="883.2" width="282" height="20" rx="6" className="fill-emergency" />
+<text x="485" y="897.2" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-card">Trichomonas vaginitis</text>
+<text x="352" y="913.2" fontSize="4.4" fontWeight="800" className="fill-foreground">SIGNS AND SYMPTOMS</text>
+<text x="352" y="925.2" fontSize="4.5" className="fill-muted-foreground">Inflammation (“strawberry cervix”); Frothy, yellow-green, foul-smelling discharge</text>
+<text x="352" y="939.8000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">LAB FINDINGS</text>
+<text x="352" y="951.8000000000001" fontSize="4.5" className="fill-muted-foreground">Motile pear-shaped trichomonads; pH &gt;4.5</text>
+<text x="352" y="966.4000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">TREATMENT</text>
+<text x="352" y="978.4000000000001" fontSize="4.5" className="fill-muted-foreground">Metronidazole; Treat sexual partner(s)</text>
+        <rect x="636" y="883.2" width="282" height="121.79999999999998" rx="6" className="fill-secondary" />
+        <rect x="636" y="883.2" width="282" height="20" rx="6" className="fill-brand" />
+<text x="777" y="897.2" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-card">Candida vulvovaginitis</text>
+<text x="644" y="913.2" fontSize="4.4" fontWeight="800" className="fill-foreground">SIGNS AND SYMPTOMS</text>
+<text x="644" y="925.2" fontSize="4.5" className="fill-muted-foreground">Inflammation; Thick, white, “cottage cheese” discharge</text>
+<text x="644" y="939.8000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">LAB FINDINGS</text>
+<text x="644" y="951.8000000000001" fontSize="4.5" className="fill-muted-foreground">Pseudohyphae; pH normal (4.0–4.5)</text>
+<text x="644" y="966.4000000000001" fontSize="4.4" fontWeight="800" className="fill-foreground">TREATMENT</text>
+<text x="644" y="978.4000000000001" fontSize="4.5" className="fill-muted-foreground">Azoles</text>
+      </g>
+      {/* ===== SEXUALLY TRANSMITTED INFECTIONS ===== */}
+      <g>
+        <rect x="36" y="1027.0" width="908" height="525.4000000000001" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1047.0" fontSize="9" fontWeight="800" className="fill-foreground">Sexually transmitted infections — the directory + the pain axis (books 179, 181)</text>
+        <rect x="52" y="1057.0" width="140" height="18" rx="4" className="fill-secondary" />
+<text x="122.0" y="1070.0" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">DISEASE</text>
+        <rect x="200" y="1057.0" width="380" height="18" rx="4" className="fill-secondary" />
+<text x="390.0" y="1070.0" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CLINICAL FEATURES</text>
+        <rect x="588" y="1057.0" width="330" height="18" rx="4" className="fill-secondary" />
+<text x="753.0" y="1070.0" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">PATHOGEN</text>
+        <rect x="52" y="1081.0" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1092.0" fontSize="5.0" fontWeight="800" className="fill-emergency">AIDS</text>
+<text x="206" y="1092.0" fontSize="4.5" className="fill-muted-foreground">Opportunistic infections, Kaposi sarcoma, lymphoma</text>
+<text x="594" y="1092.0" fontSize="4.5" className="fill-muted-foreground">HIV</text>
+        <rect x="52" y="1112.6" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1123.6" fontSize="5.0" fontWeight="800" className="fill-emergency">Chancroid</text>
+<text x="206" y="1123.6" fontSize="4.5" className="fill-muted-foreground">Painful genital ulcer(s) with exudate, inguinal adenopathy</text>
+<text x="594" y="1123.6" fontSize="4.5" className="fill-muted-foreground">Haemophilus ducreyi (it’s so painful, you “do cry”)</text>
+        <rect x="52" y="1144.1999999999998" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1155.1999999999998" fontSize="5.0" fontWeight="800" className="fill-emergency">Chlamydia</text>
+<text x="206" y="1155.1999999999998" fontSize="4.5" className="fill-muted-foreground">Urethritis, cervicitis, epididymitis, conjunctivitis, reactive arthritis, PID</text>
+<text x="594" y="1155.1999999999998" fontSize="4.5" className="fill-muted-foreground">Chlamydia trachomatis (D–K)</text>
+        <rect x="52" y="1175.7999999999997" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1186.7999999999997" fontSize="5.0" fontWeight="800" className="fill-emergency">Condylomata acuminata</text>
+<text x="206" y="1186.7999999999997" fontSize="4.5" className="fill-muted-foreground">Genital warts, koilocytes</text>
+<text x="594" y="1186.7999999999997" fontSize="4.5" className="fill-muted-foreground">HPV-6 and -11</text>
+        <rect x="52" y="1207.3999999999996" width="866" height="37.2" rx="4" className="fill-secondary" />
+<text x="58" y="1218.3999999999996" fontSize="5.0" fontWeight="800" className="fill-emergency">Herpes genitalis</text>
+<text x="206" y="1218.3999999999996" fontSize="4.5" className="fill-muted-foreground">Painful penile, vulvar, or cervical vesicles and ulcers with bilateral tender inguinal lymphadenopathy; can cause systemic symptoms such as fever, headache,</text>
+<text x="206" y="1226.9999999999995" fontSize="4.5" className="fill-muted-foreground">myalgia</text>
+<text x="594" y="1218.3999999999996" fontSize="4.5" className="fill-muted-foreground">HSV-2, less commonly HSV-1</text>
+        <rect x="52" y="1247.5999999999997" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1258.5999999999997" fontSize="5.0" fontWeight="800" className="fill-emergency">Gonorrhea</text>
+<text x="206" y="1258.5999999999997" fontSize="4.5" className="fill-muted-foreground">Urethritis, cervicitis, PID, prostatitis, epididymitis, arthritis, creamy purulent discharge</text>
+<text x="594" y="1258.5999999999997" fontSize="4.5" className="fill-muted-foreground">Neisseria gonorrhoeae</text>
+        <rect x="52" y="1279.1999999999996" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1290.1999999999996" fontSize="5.0" fontWeight="800" className="fill-emergency">Granuloma inguinale (Donovanosis)</text>
+<text x="206" y="1290.1999999999996" fontSize="4.5" className="fill-muted-foreground">Painless, beefy red ulcer that bleeds readily on contact; uncommon in US</text>
+<text x="594" y="1290.1999999999996" fontSize="4.5" className="fill-muted-foreground">Klebsiella (Calymmatobacterium) granulomatis; cytoplasmic Donovan bodies (bipolar staining) seen on microscopy</text>
+        <rect x="52" y="1310.7999999999995" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1321.7999999999995" fontSize="5.0" fontWeight="800" className="fill-emergency">Hepatitis B</text>
+<text x="206" y="1321.7999999999995" fontSize="4.5" className="fill-muted-foreground">Jaundice</text>
+<text x="594" y="1321.7999999999995" fontSize="4.5" className="fill-muted-foreground">HBV</text>
+        <rect x="52" y="1342.3999999999994" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1353.3999999999994" fontSize="5.0" fontWeight="800" className="fill-emergency">Lymphogranuloma venereum</text>
+<text x="206" y="1353.3999999999994" fontSize="4.5" className="fill-muted-foreground">Infection of lymphatics; painless genital ulcers, painful lymphadenopathy (ie, buboes)</text>
+<text x="594" y="1353.3999999999994" fontSize="4.5" className="fill-muted-foreground">C trachomatis (L1-L3)</text>
+        <rect x="52" y="1373.9999999999993" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1384.9999999999993" fontSize="5.0" fontWeight="800" className="fill-emergency">Primary syphilis</text>
+<text x="206" y="1384.9999999999993" fontSize="4.5" className="fill-muted-foreground">Painless chancre, regional lymphadenopathy</text>
+<text x="594" y="1384.9999999999993" fontSize="4.5" className="fill-muted-foreground">Treponema pallidum</text>
+        <rect x="52" y="1405.5999999999992" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1416.5999999999992" fontSize="5.0" fontWeight="800" className="fill-emergency">Secondary syphilis</text>
+<text x="206" y="1416.5999999999992" fontSize="4.5" className="fill-muted-foreground">Fever, diffuse lymphadenopathy, generalized rash, condylomata lata</text>
+<text x="594" y="1416.5999999999992" fontSize="4.5" className="fill-muted-foreground">Treponema pallidum</text>
+        <rect x="52" y="1437.1999999999991" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1448.1999999999991" fontSize="5.0" fontWeight="800" className="fill-emergency">Tertiary syphilis</text>
+<text x="206" y="1448.1999999999991" fontSize="4.5" className="fill-muted-foreground">Gummas, tabes dorsalis, general paresis, aortitis, Argyll Robertson pupil</text>
+<text x="594" y="1448.1999999999991" fontSize="4.5" className="fill-muted-foreground">Treponema pallidum</text>
+        <rect x="52" y="1468.799999999999" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1479.799999999999" fontSize="5.0" fontWeight="800" className="fill-emergency">Trichomoniasis</text>
+<text x="206" y="1479.799999999999" fontSize="4.5" className="fill-muted-foreground">Vaginitis, strawberry cervix, motile in wet prep</text>
+<text x="594" y="1479.799999999999" fontSize="4.5" className="fill-muted-foreground">Trichomonas vaginalis</text>
+        <rect x="52" y="1506.399999999999" width="866" height="36" rx="6" className="fill-card stroke-border" />
+<text x="58" y="1520.399999999999" fontSize="4.7" className="fill-muted-foreground">THE PAIN AXIS (original KYP synthesis): PAINFUL genital ulcers — chancroid (H ducreyi, “do cry”) and herpes genitalis (HSV-2 vesicles with bilateral TENDER inguinal LAD). PAINLESS — primary syphilis (chancre with regional LAD), LGV (painless ulcers, then PAINFUL buboes), granuloma inguinale (beefy red, bleeds readily, Donovan bodies). PID (book 181): the top bugs</text>
+<text x="58" y="1529.399999999999" fontSize="4.7" className="fill-muted-foreground">— C trachomatis (subacute, often undiagnosed; the most common bacterial STI in the US) and N gonorrhoeae (acute).</text>
+      </g>
+      {/* ===== TORCH INFECTIONS ===== */}
+      <g>
+        <rect x="36" y="1568.4" width="908" height="347.8" rx="14" className="fill-secondary/40 stroke-brand" />
+<text x="52" y="1588.4" fontSize="9" fontWeight="800" className="fill-foreground">TORCH infections — the maternal-fetal map (book 180)</text>
+        <rect x="52" y="1598.4" width="866" height="34" rx="6" className="fill-secondary" />
+<text x="58" y="1612.4" fontSize="4.7" className="fill-muted-foreground">ToRCHHeS — microbes that may pass from mother to fetus. Transmission is transplacental in most cases, or via vaginal delivery (especially HSV-2). Nonspecific signs common to many ToRCHHeS infections include hepatosplenomegaly, jaundice, thrombocytopenia, and growth restriction. Other important agents: S agalactiae (GBS), E coli, and Listeria monocytogenes — all</text>
+<text x="58" y="1621.4" fontSize="4.7" className="fill-muted-foreground">causes of meningitis in neonates. Parvovirus B19 causes hydrops fetalis.</text>
+        <rect x="52" y="1644.4" width="160" height="18" rx="4" className="fill-secondary" />
+<text x="132.0" y="1657.4" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">AGENT</text>
+        <rect x="220" y="1644.4" width="175" height="18" rx="4" className="fill-secondary" />
+<text x="307.5" y="1657.4" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">MATERNAL ACQUISITION</text>
+        <rect x="403" y="1644.4" width="205" height="18" rx="4" className="fill-secondary" />
+<text x="505.5" y="1657.4" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">MATERNAL MANIFESTATIONS</text>
+        <rect x="616" y="1644.4" width="302" height="18" rx="4" className="fill-secondary" />
+<text x="767.0" y="1657.4" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">NEONATAL MANIFESTATIONS</text>
+        <rect x="52" y="1668.4" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1679.4" fontSize="5.0" fontWeight="800" className="fill-emergency">Toxoplasma gondii</text>
+<text x="226" y="1679.4" fontSize="4.5" className="fill-muted-foreground">Cat feces or ingestion of undercooked meat</text>
+<text x="409" y="1679.4" fontSize="4.5" className="fill-muted-foreground">Usually asymptomatic; lymphadenopathy (rarely)</text>
+<text x="622" y="1679.4" fontSize="4.5" className="fill-muted-foreground">Classic triad: chorioretinitis, hydrocephalus, and intracranial calcifications, +/− “blueberry muffin” rash</text>
+        <rect x="52" y="1700.0" width="866" height="37.2" rx="4" className="fill-secondary/60" />
+<text x="58" y="1711.0" fontSize="5.0" fontWeight="800" className="fill-emergency">Rubella</text>
+<text x="226" y="1711.0" fontSize="4.5" className="fill-muted-foreground">Respiratory droplets</text>
+<text x="409" y="1711.0" fontSize="4.5" className="fill-muted-foreground">Rash, lymphadenopathy, polyarthritis, polyarthralgia</text>
+<text x="622" y="1711.0" fontSize="4.5" className="fill-muted-foreground">Classic triad: abnormalities of eye (cataracts) and ear (deafness) and congenital heart disease (PDA); +/– “blueberry muffin”</text>
+<text x="622" y="1719.6" fontSize="4.5" className="fill-muted-foreground">rash. “I (eye) ♥ ruby (rubella) earrings” [printed — verification only]</text>
+        <rect x="52" y="1740.2" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1751.2" fontSize="5.0" fontWeight="800" className="fill-emergency">Cytomegalovirus</text>
+<text x="226" y="1751.2" fontSize="4.5" className="fill-muted-foreground">Sexual contact, organ transplants</text>
+<text x="409" y="1751.2" fontSize="4.5" className="fill-muted-foreground">Usually asymptomatic; mononucleosis-like illness</text>
+<text x="622" y="1751.2" fontSize="4.5" className="fill-muted-foreground">Hearing loss, seizures, petechial rash, “blueberry muffin” rash, chorioretinitis, periventricular calcifications</text>
+        <rect x="52" y="1771.8" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="1782.8" fontSize="5.0" fontWeight="800" className="fill-emergency">HIV</text>
+<text x="226" y="1782.8" fontSize="4.5" className="fill-muted-foreground">Sexual contact, needlestick</text>
+<text x="409" y="1782.8" fontSize="4.5" className="fill-muted-foreground">Variable presentation depending on CD4+ cell count</text>
+<text x="622" y="1782.8" fontSize="4.5" className="fill-muted-foreground">Recurrent infections, chronic diarrhea</text>
+        <rect x="52" y="1803.3999999999999" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1814.3999999999999" fontSize="5.0" fontWeight="800" className="fill-emergency">Herpes simplex virus-2</text>
+<text x="226" y="1814.3999999999999" fontSize="4.5" className="fill-muted-foreground">Skin or mucous membrane contact</text>
+<text x="409" y="1814.3999999999999" fontSize="4.5" className="fill-muted-foreground">Usually asymptomatic; herpetic (vesicular) lesions</text>
+<text x="622" y="1814.3999999999999" fontSize="4.5" className="fill-muted-foreground">Meningoencephalitis, herpetic (vesicular) lesions</text>
+        <rect x="52" y="1834.9999999999998" width="866" height="37.2" rx="4" className="fill-secondary/60" />
+<text x="58" y="1845.9999999999998" fontSize="5.0" fontWeight="800" className="fill-emergency">Syphilis</text>
+<text x="226" y="1845.9999999999998" fontSize="4.5" className="fill-muted-foreground">Sexual contact</text>
+<text x="409" y="1845.9999999999998" fontSize="4.5" className="fill-muted-foreground">Chancre (1°) and disseminated rash (2°) are the two stages likely to result in fetal</text>
+<text x="409" y="1854.5999999999997" fontSize="4.5" className="fill-muted-foreground">infection</text>
+<text x="622" y="1845.9999999999998" fontSize="4.5" className="fill-muted-foreground">Often results in stillbirth, hydrops fetalis; if child survives, presents with facial abnormalities (eg, notched teeth, saddle</text>
+<text x="622" y="1854.5999999999997" fontSize="4.5" className="fill-muted-foreground">nose, rhinitis, short maxilla), saber shins, CN VIII deafness</text>
+        <rect x="52" y="1881.1999999999998" width="866" height="25" rx="6" className="fill-card stroke-border" />
+<text x="58" y="1895.1999999999998" fontSize="4.7" className="fill-muted-foreground">THE CALCIFICATION KEY (original KYP synthesis): Toxoplasma = INTRACRANIAL calcifications (with hydrocephalus + chorioretinitis) · CMV = PERIVENTRICULAR calcifications (with hearing loss + microcephaly) · Rubella = no calcification — the eye-ear-heart triad (cataracts, deafness, PDA).</text>
+      </g>
+      {/* ===== HEALTHCARE-ASSOCIATED INFECTIONS ===== */}
+      <g>
+        <rect x="36" y="1932.2" width="908" height="312.8" rx="14" className="fill-card stroke-border" />
+<text x="52" y="1952.2" fontSize="9" fontWeight="800" className="fill-foreground">Healthcare-associated infections — the risk-factor routing (book 181)</text>
+        <rect x="52" y="1962.2" width="205" height="18" rx="4" className="fill-secondary" />
+<text x="154.5" y="1975.2" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">RISK FACTOR</text>
+        <rect x="265" y="1962.2" width="300" height="18" rx="4" className="fill-secondary" />
+<text x="415.0" y="1975.2" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">PATHOGEN</text>
+        <rect x="573" y="1962.2" width="345" height="18" rx="4" className="fill-secondary" />
+<text x="745.5" y="1975.2" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">UNIQUE SIGNS/SYMPTOMS</text>
+        <rect x="52" y="1986.2" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="1997.2" fontSize="4.5" fontWeight="800" className="fill-emergency">Antibiotic use, PPIs</text>
+<text x="271" y="1997.2" fontSize="4.5" className="fill-foreground">C difficile</text>
+<text x="579" y="1997.2" fontSize="4.5" className="fill-muted-foreground">Watery diarrhea, leukocytosis</text>
+        <rect x="52" y="2017.8" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="2028.8" fontSize="4.5" fontWeight="800" className="fill-emergency">Aspiration (2° to altered mental status, old age)</text>
+<text x="271" y="2028.8" fontSize="4.5" className="fill-foreground">Polymicrobial, gram ⊝ bacteria, often anaerobes</text>
+<text x="579" y="2028.8" fontSize="4.5" className="fill-muted-foreground">Right lower lobe infiltrate or right upper/middle lobe (patient recumbent); purulent malodorous sputum</text>
+        <rect x="52" y="2049.4" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="2060.4" fontSize="4.5" fontWeight="800" className="fill-emergency">Decubitus ulcers, surgical wounds, drains</text>
+<text x="271" y="2060.4" fontSize="4.5" className="fill-foreground">S aureus (including MRSA), gram ⊝ anaerobes (Bacteroides, Prevotella, Fusobacterium)</text>
+<text x="579" y="2060.4" fontSize="4.5" className="fill-muted-foreground">Erythema, tenderness, induration, drainage from surgical wound sites</text>
+        <rect x="52" y="2081.0" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="2092.0" fontSize="4.5" fontWeight="800" className="fill-emergency">Intravascular catheters</text>
+<text x="271" y="2092.0" fontSize="4.5" className="fill-foreground">S aureus (including MRSA), S epidermidis (long term)</text>
+<text x="579" y="2092.0" fontSize="4.5" className="fill-muted-foreground">Erythema, induration, tenderness, drainage from access sites</text>
+        <rect x="52" y="2112.6" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="2123.6" fontSize="4.5" fontWeight="800" className="fill-emergency">Mechanical ventilation, endotracheal intubation</text>
+<text x="271" y="2123.6" fontSize="4.5" className="fill-foreground">Late onset: P aeruginosa, Klebsiella, Acinetobacter, S aureus</text>
+<text x="579" y="2123.6" fontSize="4.5" className="fill-muted-foreground">New infiltrate on CXR, ↑ sputum production; sweet odor (Pseudomonas)</text>
+        <rect x="52" y="2144.2" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="2155.2" fontSize="4.5" fontWeight="800" className="fill-emergency">Exposure to blood products, shared medical equipment, needlesticks</text>
+<text x="271" y="2155.2" fontSize="4.5" className="fill-foreground">HBV, HCV</text>
+<text x="579" y="2155.2" fontSize="4.5" className="fill-muted-foreground">—</text>
+        <rect x="52" y="2175.7999999999997" width="866" height="28.6" rx="4" className="fill-secondary" />
+<text x="58" y="2186.7999999999997" fontSize="4.5" fontWeight="800" className="fill-emergency">Urinary catheterization</text>
+<text x="271" y="2186.7999999999997" fontSize="4.5" className="fill-foreground">Proteus spp, E coli, Klebsiella (PEcK)</text>
+<text x="579" y="2186.7999999999997" fontSize="4.5" className="fill-muted-foreground">Dysuria, leukocytosis, flank pain or costovertebral angle tenderness</text>
+        <rect x="52" y="2207.3999999999996" width="866" height="28.6" rx="4" className="fill-secondary/60" />
+<text x="58" y="2218.3999999999996" fontSize="4.5" fontWeight="800" className="fill-emergency">Water aerosols</text>
+<text x="271" y="2218.3999999999996" fontSize="4.5" className="fill-foreground">Legionella</text>
+<text x="579" y="2218.3999999999996" fontSize="4.5" className="fill-muted-foreground">Signs of pneumonia, GI symptoms (diarrhea, nausea, vomiting), neurologic abnormalities</text>
+      </g>
+      {/* footer */}
+      <g>
+<text x="24" y="2263.0" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's Red rashes of childhood, Urinary tract infections, Common vaginal infections, Sexually transmitted infections, TORCH infections, and Healthcare-associated infections tables (pdf 199-204 / books 177-182).</text>
+<text x="24" y="2275.0" fontSize="7.2" className="fill-muted-foreground">All 20 clinical photos (the rash set A-E book 177; the vaginal set A-D book 178; the STD set A-F book 179; the TORCH set A-C book 180; the PID set A-B book 181) are raster — COPYRIGHTED, described-in-text only. FA's printed mnemonics (the rubella earrings line;</text>
+<text x="24" y="2287.0" fontSize="7.2" className="fill-muted-foreground">the CMV = Chorioretinitis, Microcephaly, periVentricular line) stay in the note's table block — verification-only, not redrawn.</text>
+<text x="24" y="2299.0" fontSize="7.2" className="fill-muted-foreground">The source's banner typo 'MICROCIOLOGY—SYSTEMS' prints on books 177-181. The Bugs affecting unvaccinated children table (book 182) is carried verbatim in the note's table block.</text>
+      </g>
+    </svg>
+  );
+}

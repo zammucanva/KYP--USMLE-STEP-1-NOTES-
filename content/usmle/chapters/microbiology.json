@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 10,
+  "pendingTopicCount": 9,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5655,8 +5655,226 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Microbiology — Systems",
-      "status": "pending",
-      "productionRationale": "The vesicular-petechial rash roster, the STD directory, TORCH maternal-neonatal manifestations, UTI/osteomyelitis/water-bite/cellulitis associations, and the classic-bug-by-presentation capstone table."
+      "status": "complete",
+      "productionRationale": "The vesicular-petechial rash roster, the STD directory, TORCH maternal-neonatal manifestations, UTI/osteomyelitis/water-bite/cellulitis associations, and the classic-bug-by-presentation capstone table.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              199
+            ],
+            "bookPages": "177–177"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Red rashes of childhood directory (book 177)",
+          "sourceFigureDescription": "The printed 7-row agent/syndrome/presentation table; the five rash photos A-E print beside it.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the RASH panel; photos A-E are raster, described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              200
+            ],
+            "bookPages": "178–178"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The UTI species table + the cystitis/pyelonephritis text + the diagnostic markers (book 178)",
+          "sourceFigureDescription": "The printed 7-species features/comments directory with the intro text and the markers callout.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the UTI panel (syndrome strip + species ladder + markers strip)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              200
+            ],
+            "bookPages": "178–178"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Common vaginal infections table (book 178)",
+          "sourceFigureDescription": "The printed 3-column signs/labs/treatment comparison; the four photos A-D print beside it.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the VAGINAL panel; photos A-D are raster, described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              201
+            ],
+            "bookPages": "179–179"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Sexually transmitted infections directory (book 179)",
+          "sourceFigureDescription": "The printed 13-row disease/features/pathogen directory; the six photos A-F print beside it.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the STD panel + pain-axis strip; photos A-F are raster, described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv5",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              202
+            ],
+            "bookPages": "180–180"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The TORCH infections table (book 180)",
+          "sourceFigureDescription": "The printed 6-agent four-column maternal-fetal map with the ToRCHHeS intro; the three photos A-C print beside it.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the TORCH panel (intro + 6-agent map + calcification key); photos A-C are raster, described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv6",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              203
+            ],
+            "bookPages": "181–181"
+          },
+          "visualType": "MICROBIOLOGY_IMAGE",
+          "visualPurpose": "The PID clinical photos A-B (book 181)",
+          "sourceFigureDescription": "The printed purulent cervical discharge photo A and the violin-string adhesions photo B.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] PID row — figure pointers carried verbatim; described-in-text only",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv7",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              203
+            ],
+            "bookPages": "181–181"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Healthcare-associated infections table (book 181)",
+          "sourceFigureDescription": "The printed 8-row risk-factor/pathogen/signs routing table.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "systems-bug-matrix-2",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the HAI panel",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "systems-bug-matrix-2",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Systems Microbiology",
+          "topicId": "bugs-by-system-rash-std-torch",
+          "requiredInKYP": true,
+          "visualId": "bugs-by-system-rash-std-torch-sv8",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              204
+            ],
+            "bookPages": "182–182"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Bugs affecting unvaccinated children table (book 182)",
+          "sourceFigureDescription": "The printed presentation/findings/pathogen capstone table with its system labels.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] unvaccinated row — the table carried verbatim in the note block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "antimicrobial-overview",

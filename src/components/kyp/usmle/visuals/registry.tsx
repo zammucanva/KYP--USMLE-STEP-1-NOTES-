@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap, HepatitisSerologyMap, HivLifecycleMap, SystemsBugMatrix } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap, HepatitisSerologyMap, HivLifecycleMap, SystemsBugMatrix, SystemsBugMatrix2 } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -317,4 +317,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "hepatitis-serology-map": HepatitisSerologyMap,
   "hiv-lifecycle-map": HivLifecycleMap,
   "systems-bug-matrix": SystemsBugMatrix,
+  "systems-bug-matrix-2": SystemsBugMatrix2,
 };

@@ -1,0 +1,813 @@
+{
+  "topicId": "bugs-by-system-rash-std-torch",
+  "title": "Bugs by System: Rash, STDs, TORCH & Nosocomial",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Systems Microbiology",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      199,
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "bookPages": "177–182"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own SYSTEMS typo: MICROCIOLOGY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "177",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section heading + the table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "Red rashes of childhood\nAGENT\n\nASSOCIATED SYNDROME/DISEASE\n\nCLINICAL PRESENTATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rash rows, part 1 (Coxsackievirus type A hand-foot-mouth with herpangina; HHV-6 roseola with febrile seizures after high fever; measles with the confluent head-down rash and the Koplik prodrome)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "Coxsackievirus type A\n\nHand-foot-mouth disease\n\nOval-shaped vesicles on palms and soles\nA ; vesicles and ulcers in oral mucosa\n(herpangina)\n\nHuman herpesvirus 6\n\nRoseola (exanthem subitum)\n\nAsymptomatic rose-colored macules appear\non body after several days of high fever; can\npresent with febrile seizures; usually affects\ninfants\n\nMeasles virus\n\nMeasles (rubeola)\n\nConfluent rash beginning at head and moving\ndown B ; preceded by cough, coryza,\nconjunctivitis, and blue-white (Koplik) spots\non buccal mucosa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rash rows, part 2 (parvovirus B19 slapped cheek; rubella discrete head-down with postauricular LAD; S pyogenes scarlet fever with the printed SCARLET expansion; VZV trunk-first crops of different stages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "Parvovirus B19\n\nErythema infectiosum (fifth disease)\n\n“Slapped cheek” rash on face C\n\nRubella virus\n\nRubella\n\nPink macules and papules begin at head\nand move down, remain discrete →  fine\ndesquamating truncal rash; postauricular\nlymphadenopathy\n\nStreptococcus\npyogenes\n\nScarlet fever\n\nSore throat, Circumoral pallor, group A strep,\nRash (sandpaperlike D , from neck to trunk and\nextremities), Lymphadenopathy, Erythrogenic\ntoxin, strawberry Tongue (SCARLET)\n\nVaricella-zoster virus\n\nChickenpox\n\nVesicular rash begins on trunk E , spreads to\nface and extremities with lesions of different\nstages",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-E figure markers emitting at the page bottom with the file footer interleaved (the five rash clinical photos — raster, described-in-text only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "A\n\nB\n\nFAS1_2026_03-Microbiology.indd 177\n\nC\n\nD\n\nE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          199
+        ],
+        "bookPages": "177"
+      },
+      "quote": "12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "178",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner + page banner + the chapter banner typo",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "SEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "UTI heading + the cystitis/pyelonephritis definitions (WBCs without casts vs WBC casts) + the 10x-female line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Urinary tract\ninfections\n\nCystitis presents with dysuria, frequency, urgency, suprapubic pain, and WBCs (but not WBC\ncasts) in urine. Primarily caused by ascension of microbes from urethra to bladder. Ascension to\nkidney results in pyelonephritis, which presents with fever, chills, flank pain, costovertebral angle\ntenderness, hematuria, and WBC casts.\nTen times more common in females (shorter urethras colonized by fecal microbiota).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The UTI risk factors (obstruction, surgery, catheterization, vesicoureteral reflux, diabetes, pregnancy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Risk factors: obstruction (eg, kidney stones, enlarged prostate), kidney surgery, catheterization,\ncongenital GU malformation (eg, vesicoureteral reflux), diabetes, pregnancy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The species headers + the E coli row (leading cause; strong pink lactose-fermentation on MacConkey)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "SPECIES\n\nFEATURES\n\nCOMMENTS\n\nEscherichia coli\n\nLeading cause of UTI. Colonies show strong\npink lactose-fermentation on MacConkey\nagar.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The S saprophyticus row + the diagnostic-markers block emitting mid-table between the species rows (leukocyte esterase = WBC activity; nitrite = gram-negative nitrate reduction)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Staphylococcus\nsaprophyticus\n\n2nd leading cause of UTI, particularly in young,\nsexually active females.\n\nDiagnostic markers:\n⊕ Leukocyte esterase = evidence of WBC\nactivity.\n⊕ Nitrite test = reduction of urinary nitrates\nby gram ⊝ bacterial species (eg, E coli).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Klebsiella (3rd, mucoid capsule) + Serratia (red pigment) + Enterococcus rows",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Klebsiella pneumoniae\n\n3rd leading cause of UTI. Large mucoid capsule\nand viscous colonies.\n\nSerratia marcescens\n\nSome strains produce a red pigment; often\nhealthcare-associated and drug resistant.\n\nEnterococcus\n\nOften healthcare-associated and drug resistant.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Proteus (swarming, struvite, urease) + Pseudomonas (blue-green, fruity) rows",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Proteus mirabilis\n\nMotility causes “swarming” on agar; associated\nwith struvite stones. Produces urease.\n\nPseudomonas\naeruginosa\n\nBlue-green pigment and fruity odor; usually\nhealthcare-associated and drug resistant.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vaginal heading + the three disease headers emitting together",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "Common vaginal infections\nBacterial vaginosis\n\nTrichomonas vaginitis\n\nCandida vulvovaginitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SIGNS AND SYMPTOMS row (the three columns interleaved: no inflammation/thin white fishy; inflammation/strawberry cervix/frothy yellow-green; inflammation/cottage cheese)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "SIGNS AND SYMPTOMS\n\nNo inflammation\nThin, white discharge A with\nfishy odor\n\nInflammation B (“strawberry\ncervix”)\nFrothy, yellow-green, foulsmelling discharge\n\nInflammation\nThick, white, “cottage cheese”\ndischarge D",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LAB FINDINGS row (clue cells, pH >4.5, positive KOH whiff; motile pear-shaped trichomonads, pH >4.5; pseudohyphae, pH normal 4.0-4.5)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "LAC FINDINGS\n\nClue cells (bacteria-coated\nepithelial cells)\npH >4.5\n⊕ KOH whiff test\n\nMotile pear-shaped\ntrichomonads C\npH >4.5\n\nPseudohyphae\npH normal (4.0-4.5)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TREATMENT row (metronidazole or clindamycin; metronidazole + treat partners; azoles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "TREATMENT\n\nMetronidazole or clindamycin\n\nMetronidazole\nTreat sexual partner(s)\n\nAzoles",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-D figure markers with the file footer interleaved (the four vaginal clinical photos — raster, described-in-text only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "A\n\nFAS1_2026_03-Microbiology.indd 178\n\nB\n\nC\n\nD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          200
+        ],
+        "bookPages": "178"
+      },
+      "quote": "12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner (the source's own SYSTEMS typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "179",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The STD heading + the table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "Sexually transmitted infections\nDISEASE\n\nCLINICAL FEATURES\n\nPATHOGEN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STD rows, part 1 (AIDS; chancroid with the printed do-cry gloss; chlamydia D-K with reactive arthritis; condylomata acuminata with koilocytes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "AIDS\n\nOpportunistic infections, Kaposi sarcoma,\nlymphoma\n\nHIV\n\nChancroid\n\nPainful genital ulcer(s) with exudate, inguinal\nadenopathy A\n\nHaemophilus ducreyi (it’s so painful, you “do\ncry”)\n\nChlamydia\n\nUrethritis, cervicitis, epididymitis,\nconjunctivitis, reactive arthritis, PID\n\nChlamydia trachomatis (D–K)\n\nCondylomata\nacuminata\n\nGenital warts B , koilocytes\n\nHPV-6 and -11",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STD rows, part 2 (herpes genitalis with bilateral tender LAD and systemic symptoms; gonorrhea with the creamy purulent discharge)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "Herpes genitalis\n\nPainful penile, vulvar, or cervical vesicles\nand ulcers C with bilateral tender inguinal\nlymphadenopathy; can cause systemic\nsymptoms such as fever, headache, myalgia\n\nHSV-2, less commonly HSV-1\n\nGonorrhea\n\nUrethritis, cervicitis, PID, prostatitis,\nepididymitis, arthritis, creamy purulent\ndischarge\n\nNeisseria gonorrhoeae",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STD rows, part 3 (granuloma inguinale with Donovan bodies, uncommon in US; hepatitis B with jaundice)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "Granuloma inguinale\n(Donovanosis)\n\nPainless, beefy red ulcer that bleeds readily on\ncontact D\nUncommon in US\n\nKlebsiella (Calymmatobacterium) granulomatis;\ncytoplasmic Donovan bodies (bipolar staining)\nseen on microscopy\n\nHepatitis B\n\nJaundice\n\nHBV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STD rows, part 4 (LGV with painless ulcers then painful buboes; the three syphilis stages — chancre, condylomata lata, gummas/tubes dorsalis/general paresis/aortitis/Argyll Robertson)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "Lymphogranuloma\nvenereum\n\nInfection of lymphatics; painless genital ulcers,\npainful lymphadenopathy (ie, buboes E )\n\nC trachomatis (L1-L3)\n\nPrimary syphilis\n\nPainless chancre F , regional lymphadenopathy\n\nTreponema pallidum\n\nSecondary syphilis\n\nFever, diffuse lymphadenopathy, generalized\nrash, condylomata lata\n\nTertiary syphilis\n\nGummas, tabes dorsalis, general paresis, aortitis,\nArgyll Robertson pupil",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The trichomoniasis row + the file footer + the Trichomonas vaginalis pathogen cell emitting AFTER the footer (the page's interleave quirk)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "Trichomoniasis\n\nVaginitis, strawberry cervix, motile in wet prep\n\nFAS1_2026_03-Microbiology.indd 179\n\nTrichomonas vaginalis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-F figure markers with the timestamp (the six STD clinical photos — raster, described-in-text only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          201
+        ],
+        "bookPages": "179"
+      },
+      "quote": "A\n\nB\n\nC\n\nD\n\nE\n\nF\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "180",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner + page banner + the chapter banner typo",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "SEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TORCH heading + the ToRCHHeS intro (transplacental or vaginal delivery HSV-2; the nonspecific signs; GBS/E coli/Listeria neonatal meningitis; parvovirus B19 hydrops fetalis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "TORCH infections\n\nMicrobes that may pass from mother to fetus. Transmission is transplacental in most cases, or via\nvaginal delivery (especially HSV-2). Nonspecific signs common to many ToRCHHeS infections\ninclude hepatosplenomegaly, jaundice, thrombocytopenia, and growth restriction.\nOther important infectious agents include Streptococcus agalactiae (group B streptococci), E coli,\nand Listeria monocytogenes—all causes of meningitis in neonates. Parvovirus B19 causes hydrops\nfetalis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four-column headers (AGENT, MATERNAL ACQUISITION, MATERNAL MANIFESTATIONS, NEONATAL MANIFESTATIONS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "AGENT\n\nMATERNAL ACQUISITION\n\nMATERNAL MANIFESTATIONS\n\nNEONATAL MANIFESTATIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Toxoplasma row (cat feces/undercooked meat; the classic triad of chorioretinitis, hydrocephalus, intracranial calcifications) + Rubella row (droplets; cataracts, deafness, PDA) with the printed ruby-earrings mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "Toxoplasma gondii\n\nCat feces or ingestion of\nundercooked meat\n\nUsually asymptomatic;\nlymphadenopathy (rarely)\n\nClassic triad: chorioretinitis,\nhydrocephalus, and\nintracranial calcifications,\n+/− “blueberry muffin” rash A\n\nRubella\n\nRespiratory droplets\n\nRash, lymphadenopathy,\npolyarthritis, polyarthralgia\n\nClassic triad: abnormalities\nof eye (cataracts B ) and ear\n(deafness) and congenital heart\ndisease (PDA); +/– “blueberry\nmuffin” rash. “I (eye) ♥ ruby\n(rubella) earrings”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CMV row (sexual contact/transplants; hearing loss, seizures, petechial rash, periventricular calcifications) with the printed CMV expansion + HIV row (needlestick; CD4-dependent; recurrent infections, chronic diarrhea)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "Cytomegalovirus\n\nSexual contact, organ\ntransplants\n\nUsually asymptomatic;\nmononucleosis-like illness\n\nHearing loss, seizures, petechial\nrash, “blueberry muffin” rash,\nchorioretinitis, periventricular\ncalcifications C\nCMV = Chorioretinitis,\nMicrocephaly, periVentricular\ncalcifications\n\nHIV\n\nSexual contact, needlestick\n\nVariable presentation depending\non CD4+ cell count\n\nRecurrent infections, chronic\ndiarrhea",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HSV-2 row (the agent and its acquisition merged on one line) + Syphilis row (the two fetal-risk stages; stillbirth, hydrops, notched teeth, saddle nose, rhinitis, short maxilla, saber shins, CN VIII deafness)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "Herpes simplex virus-2 Skin or mucous membrane\ncontact\n\nUsually asymptomatic; herpetic\n(vesicular) lesions\n\nMeningoencephalitis, herpetic\n(vesicular) lesions\n\nSyphilis\n\nSexual contact\n\nChancre (1°) and disseminated\nrash (2°) are the two stages\nlikely to result in fetal infection\n\nOften results in stillbirth,\nhydrops fetalis; if child\nsurvives, presents with facial\nabnormalities (eg, notched\nteeth, saddle nose, rhinitis,\nshort maxilla), saber shins, CN\nVIII deafness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-C figure markers with the file footer interleaved + the timestamp (the three TORCH clinical photos — raster, described-in-text only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          202
+        ],
+        "bookPages": "180"
+      },
+      "quote": "A\n\nB\n\nFAS1_2026_03-Microbiology.indd 180\n\nC\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PID heading + the A/B photo markers emitting BEFORE the chapter banner (the page's emission quirk)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Pelvic inflammatory\ndisease\nA\n\nB\n\n▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PID text part 1 (the ascending-infection definition with salpingitis/endometritis/hydrosalpinx/tubo-ovarian abscess; cervical motion tenderness, adnexal tenderness, purulent discharge; the top bugs; the most-common-bacterial-STI line)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Ascending infection causing inflammation of\nthe female gynecologic tract. PID may include\nsalpingitis, endometritis, hydrosalpinx, and\ntubo-ovarian abscess.\nSigns include cervical motion tenderness,\nadnexal tenderness, purulent cervical\ndischarge A .\nTop bugs—Chlamydia trachomatis (subacute,\noften undiagnosed), Neisseria gonorrhoeae\n(acute).\nC trachomatis—most common bacterial STI in\nthe United States.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity) + the section banner emitting mid-page",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "181\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PID text part 2 (the salpingitis sequelae — ectopic pregnancy, infertility, chronic pelvic pain, adhesions; Fitz-Hugh-Curtis perihepatitis with the violin-string adhesions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Salpingitis is a risk factor for ectopic pregnancy,\ninfertility, chronic pelvic pain, and adhesions.\nCan lead to perihepatitis (Fitz-Hugh–Curtis\nsyndrome)—infection and inflammation of\nliver capsule and “violin string” adhesions of\nperitoneum to liver B .",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The HAI heading + the three headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Healthcare-associated infections\nRISK FACTOR\n\nPATHOGEN\n\nUNIQUE SIGNS/SYMPTOMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HAI rows, part 1 (antibiotics/PPIs -> C difficile; aspiration -> polymicrobial gram-negative anaerobes with the lobe rule; wounds/drains -> S aureus MRSA + Bacteroides/Prevotella/Fusobacterium)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Antibiotic use, PPIs\n\nC difficile\n\nWatery diarrhea, leukocytosis\n\nAspiration (2° to\naltered mental status,\nold age)\n\nPolymicrobial, gram ⊝ bacteria, often\nanaerobes\n\nRight lower lobe infiltrate or right upper/\nmiddle lobe (patient recumbent); purulent\nmalodorous sputum\n\nDecubitus ulcers,\nsurgical wounds,\ndrains\n\nS aureus (including MRSA), gram ⊝ anaerobes\n(Bacteroides, Prevotella, Fusobacterium)\n\nErythema, tenderness, induration, drainage\nfrom surgical wound sites",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HAI rows, part 2 (intravascular catheters -> S aureus + S epidermidis long-term; ventilation late-onset -> Pseudomonas/Klebsiella/Acinetobacter; blood products -> HBV/HCV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Intravascular catheters\n\nS aureus (including MRSA), S epidermidis (long\nterm)\n\nErythema, induration, tenderness, drainage\nfrom access sites\n\nMechanical ventilation,\nendotracheal\nintubation\n\nLate onset: P aeruginosa, Klebsiella,\nAcinetobacter, S aureus\n\nNew infiltrate on CXR, ↑ sputum production;\nsweet odor (Pseudomonas)\n\nExposure to blood\nproducts, shared\nmedical equipment,\nneedlesticks\n\nHBV, HCV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HAI rows, part 3 (urinary catheterization -> PEcK; water aerosols -> Legionella with GI and neurologic signs) + the footer + timestamp",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          203
+        ],
+        "bookPages": "181"
+      },
+      "quote": "Urinary catheterization\n\nProteus spp, E coli, Klebsiella (PEcK)\n\nDysuria, leukocytosis, flank pain or\ncostovertebral angle tenderness\n\nWater aerosols\n\nLegionella\n\nSigns of pneumonia, GI symptoms (diarrhea,\nnausea, vomiting), neurologic abnormalities\n\nFAS1_2026_03-Microbiology.indd 181\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "182",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner + page banner + the chapter banner typo",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "SEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—SYSTEMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The unvaccinated heading + the table headers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "Bugs affecting unvaccinated children\nCLINICAL PRESENTATION\n\nFINDINGS/LACS\n\nPATHOGEN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rows, part 1 (the rubella rash by its postauricular/posterior cervical/suboccipital LAD; the measles rash by its Koplik prodrome; H influenzae type b nasopharyngeal colonization; poliovirus myalgia and paralysis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "Beginning at head and moving down with\npostauricular, posterior cervical, and\nsuboccipital lymphadenopathy\n\nRubella virus\n\nBeginning at head and moving down; preceded by\ncough, coryza, conjunctivitis, and Koplik spots\n\nMeasles virus\n\nMicrobe colonizes nasopharynx\n\nH influenzae type b\n\nCan also lead to myalgia and paralysis\n\nPoliovirus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rows, part 2 (C tetani spasms and opisthotonus; epiglottitis — even in the fully immunized; the pertussis stage cascade; the diphtheria pseudomembranes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "Muscle spasms and spastic paralysis (eg, lockjaw,\nopisthotonus)\n\nC tetani\n\nEpiglottitis\n\nFever with dysphagia, drooling, inspiratory\nstridor, and difficulty breathing due to edema\n\nH influenzae type b (also capable of causing\nepiglottitis in fully immunized children)\n\nPertussis\n\nLow-grade fevers, coryza →  whooping cough,\nposttussive vomiting →  gradual recovery\n\nBordetella pertussis\n\nPharyngitis\n\nGrayish pseudomembranes (may obstruct airways)\n\nCorynebacterium diphtheriae",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The system labels emitting at the page END after the row content (Dermatologic/Rash, Neurologic/Meningitis, Tetanus, Respiratory) + the footer + timestamp",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          204
+        ],
+        "bookPages": "182"
+      },
+      "quote": "Dermatologic\nRash\n\nNeurologic\nMeningitis\nTetanus\nRespiratory\n\nFAS1_2026_03-Microbiology.indd 182\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "systems-bug-matrix-2"
+  ],
+  "mechanismIds": [
+    "rash-topography-logic",
+    "ulcer-pain-axis",
+    "torch-vertical-transmission"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directories; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "systems-axes-synthesis",
+      "summary": "The rash TOPOGRAPHY axis (morphology + starting point + fever order), the genital-ulcer PAIN axis with the PID ascent, the TORCH CALCIFICATION-location key, and the nosocomial EXPOSURE-routing frame — labeled as integrations.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the six directories and the PID text without these unifying axes; they are KYP's design.",
+      "location": "core.keyIdea + all three mechanism captions + callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: 20 clinical-photo rasters across books 177-181 (rash A-E; vaginal A-D; STD A-F; TORCH A-C; PID A-B) — all COPYRIGHTED, described-in-text only; p204 pure vector. The SYSTEMS banner typo MICROCIOLOGY prints on books 177-181. Interleave quirks: p200's diagnostic-markers block emits between the S saprophyticus and Klebsiella rows and the vaginal table emits row-by-row across its three columns; p201's Trichomonas vaginalis cell emits after the timestamp footer; p202's HSV-2 agent-acquisition line merge and the two printed TORCH mnemonics inside the Rubella and CMV rows; p203's PID heading and A/B markers emit before the banner with the printed page number mid-page; p204's system labels emit at the page end. FA's printed mnemonics (SCARLET; do cry; ruby earrings; CMV expansion) are quoted in the table block for verification only.",
+  "updatedAt": "2026-10-22"
+}
