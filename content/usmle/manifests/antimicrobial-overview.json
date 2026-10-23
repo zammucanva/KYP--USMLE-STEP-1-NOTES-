@@ -1,0 +1,573 @@
+{
+  "topicId": "antimicrobial-overview",
+  "title": "Antimicrobial Mechanisms: The Target Map",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      205
+    ],
+    "bookPages": "183–183"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "MICROBIOLOGY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "SEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner, first occurrence (the source's own double-printed banner — the ANTIMICROBIALS typos MICROCIOLOGY + ANTIMICROCIALS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "183",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chapter banner, second occurrence (the banner prints twice, raw lines 4 and 8)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapy heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Antimicrobial therapy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The folate zone heading block (with the source's own parenthetical gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "FOLIC ACID SYNTHESIS\nAND REDUCTION\n(DNA methylation)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The DNA-integrity zone heading (with its printed gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "DNA INTEGRITY\n(via free radicals)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The mRNA-synthesis zone heading (with its printed gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "mRNA SYNTHESIS\n(RNA polymerase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Metronidazole (the DNA-integrity roster — one drug, own line)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Metronidazole",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rifampin (the mRNA-synthesis roster — one drug, own line)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Rifampin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sulfonamides + the two sulfa drugs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Sulfonamides\nSulfamethoxazole\nSulfadiazine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolone roster (printed with the fl ligature in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Fluoroquinolones\nCiproﬂoxacin\nOﬂoxacin\nLevoﬂoxacin\nMoxiﬂoxacin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BACTERIAL CELL + PABA (the folate path's first label emitting right after the cell label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "BACTERIAL CELL\n\nPABA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GYRASE heading (emitting late, after its own roster and after the cell/PABA labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "GYRASE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trimethoprim + its dash marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Trimethoprim\n–",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DNA gyrase + DNA (the gyrase chip emitting before the DNA label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "DNA gyrase\n\nDNA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RNA polymerase (the two-word split label)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "RNA\npolymerase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MEMBRANE INTEGRITY heading + PROTEIN SYNTHESIS heading (emitting as neighbors)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "MEMBRANE INTEGRITY\n\nPROTEIN SYNTHESIS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DHF + the membrane pair with the gram keys",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "DHF\nDaptomycin (gram ⊕)\nPolymyxins (gram ⊝)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "50S SUBUNIT heading (emitting between the membrane pair and the dashes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "50S SUBUNIT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dash marker + mRNA + Ribosomes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "–\n\nmRNA\nRibosomes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CELL WALL SYNTHESIS + THF (the folate terminal emitting inside the wall block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "CELL WALL SYNTHESIS\nTHF",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PEPTIDOGLYCAN SYNTHESIS + the Glycopeptides roster",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "PEPTIDOGLYCAN SYNTHESIS\nGlycopeptides\nVancomycin\nBacitracin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The split membrane rim label (Cell m embrane — the mid-word split)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Cell m\nembrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dash pair + the ribosome subunit markers (50S/30S twice, then 50S + dash + 30S)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "–\n–\n\n50S\n30S\n\n50S\n30S\n\n50S\n\n–\n\n30S",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The split wall rim label (Cell wal l)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Cell wal\nl",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PEPTIDOGLYCAN CROSS-LINKING + the first two beta-lactam groups (penicillinase-sensitive + penicillinase-resistant)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "PEPTIDOGLYCAN CROSS-LINKING\nPenicillinase-sensitive penicillins\nPenicillin G, V\nAmpicillin\nAmoxicillin\nPenicillinase-resistant penicillins\nOxacillin\nNafcillin\nDicloxacillin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 50S roster (emitting inside the cross-linking block — the physical-order interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Chloramphenicol\nClindamycin\nLinezolid\nMacrolides\nAzithromycin\nClarithromycin\nErythromycin\nStreptogramins\nQuinupristin\nDalfopristin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "30S SUBUNIT heading + the antipseudomonal group with the five cephalosporin generations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "30S SUBUNIT\nAntipseudomonal\nPiperacillin\nCephalosporins (I-V)\n1st—Cefazolin, etc\n2nd—Cefoxitin, etc\n3rd—Ceftriaxone, etc\n4th—Cefepime\n5th—Ceftaroline",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Carbapenems + Monobactams",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Carbapenems\nImipenem\nMeropenem\nErtapenem\nMonobactams\nAztreonam",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 30S roster (emitting after the Monobactams)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Aminoglycosides\nGentamicin\nNeomycin\nAmikacin\nTobramycin\nStreptomycin\n\nGlycylcycline\nTigecycline\nTetracyclines\nTetracycline\nDoxycycline\nMinocycline",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The drug card: Penicillin G, V + the prototype line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "Penicillin G, V\n\nPenicillin G (IV and IM form), penicillin V (oral). Prototype β-lactam antibiotics.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The drug card: MECHANISM block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "MECHANISM\n\nD-Ala-D-Ala structural analog. Bind penicillin-binding proteins (transpeptidases).\nBlock transpeptidase cross-linking of peptidoglycan in cell wall.\nActivate autolytic enzymes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The drug card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "CLINICAL USE\n\nMostly used for gram ⊕ organisms (S pneumoniae, S pyogenes, Actinomyces). Also used for gram ⊝\ncocci (mainly N meningitidis) and spirochetes (mainly T pallidum). Bactericidal for gram ⊕ cocci,\ngram ⊕ rods, gram ⊝ cocci, and spirochetes. β-lactamase sensitive.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The drug card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "ADVERSE EFFECTS\n\nHypersensitivity reactions, direct Coombs ⊕ hemolytic anemia, drug-induced interstitial nephritis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The drug card: RESISTANCE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "RESISTANCE\n\nβ-lactamase cleaves the β-lactam ring. Mutations in PBPs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          205
+        ],
+        "bookPages": "183"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 183\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "antimicrobial-target-map"
+  ],
+  "mechanismIds": [
+    "target-layer-logic",
+    "wall-two-stage-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the chart and the card; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "six-layer-synthesis",
+      "summary": "The six-layer reading of the chart (membrane, wall-build, wall-link, folate, nucleic-acid, ribosomal) with the nine numbered doors — the layer-first routing rule and the true-but-irrelevant distractor defense.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the chart spatially without the numbered-door routing system or the layer-first rule; both are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: 4 tiny index rasters (88-92px, 314ppi — the chart's marker glyphs) + 9 standalone dash lines in the text layer; all redrawn as vector marks. The chapter banner typo MICROCIOLOGY—ANTIMICROCIALS prints twice on book 183. Interleave quirks: the folate path labels scatter (PABA 41, DHF 63, THF 75 — each inside other zones' blocks); GYRASE (43) emits after its own roster (31-35); the rim labels print split mid-word (Cell m embrane 81-82; Cell wal l 99-100); the 50S roster (112-121) emits inside the cross-linking block and the 30S roster (142-154) after the Monobactams; the fluoroquinolone set prints with the fl ligature. The Penicillin G, V drug card (156-178) is the directory's first card — page-owned by M31, carried verbatim in the note's table block; M32 continues the directory (books 184-186).",
+  "updatedAt": "2026-10-23"
+}

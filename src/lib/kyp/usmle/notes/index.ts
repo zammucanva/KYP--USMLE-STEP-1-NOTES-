@@ -81,6 +81,7 @@ import { hivAids } from "./hiv-aids";
 import { normalFlora } from "./normal-flora";
 import { bugsBySystemGiMeningitis } from "./bugs-by-system-gi-meningitis";
 import { bugsBySystemRashStdTorch } from "./bugs-by-system-rash-std-torch";
+import { antimicrobialOverview } from "./antimicrobial-overview";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -245,6 +246,7 @@ export const usmleNotes: KypUsMLENote[] = [
   normalFlora,
   bugsBySystemGiMeningitis,
   bugsBySystemRashStdTorch,
+  antimicrobialOverview,
   cranialNerves,
   diabetesMellitus,
 ];

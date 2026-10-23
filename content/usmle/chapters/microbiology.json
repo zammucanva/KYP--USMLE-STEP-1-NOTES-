@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 9,
+  "pendingTopicCount": 8,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5896,8 +5896,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Antimicrobials",
-      "status": "pending",
-      "productionRationale": "The mechanism-of-action map (cell wall, protein synthesis, DNA/RNA, folate, membrane) with the antibacterial-class directory — E40's immunosuppressant map's infectious-disease sibling."
+      "status": "complete",
+      "productionRationale": "The mechanism-of-action map (cell wall, protein synthesis, DNA/RNA, folate, membrane) with the antibacterial-class directory — E40's immunosuppressant map's infectious-disease sibling.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antimicrobial-overview",
+          "requiredInKYP": true,
+          "visualId": "antimicrobial-overview-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              205
+            ],
+            "bookPages": "183–183"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The mechanisms-of-action chart (book 183)",
+          "sourceFigureDescription": "The printed bacterial-cell schematic with the seven drug-class zones and their rosters; the wall pair's two stage headings; the folate cascade PABA-DHF-THF; 4 tiny marker rasters + 9 dash marker lines.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "antimicrobial-target-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the whole component: the cell with its nine numbered target sites, the seven satellite zone panels, and the beta-lactam cross-linking directory",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "antimicrobial-target-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antimicrobial-overview",
+          "requiredInKYP": true,
+          "visualId": "antimicrobial-overview-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              205
+            ],
+            "bookPages": "183–183"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Penicillin G, V drug card (book 183, the directory's first card)",
+          "sourceFigureDescription": "The printed four-row card (prototype/mechanism/clinical use/adverse effects/resistance) opening the antimicrobial drug directory.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention; the directory continues in M32",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "cell-wall-inhibitors",

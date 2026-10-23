@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-22T22:54:01Z",
+  "generatedAt": "2026-10-23T13:08:25Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 117,
+    "topicsProduced": 118,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 62,
+      "pilot-complete": 63,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 30,
-      "topicsRemaining": 9,
+      "topicsProduced": 31,
+      "topicsRemaining": 8,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -443,6 +443,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "antimicrobial-overview",
+      "title": "Antimicrobial Mechanisms: The Target Map",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Antimicrobials",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 205 (book 183–183)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-23"
     },
     {
       "topicId": "atherosclerosis",

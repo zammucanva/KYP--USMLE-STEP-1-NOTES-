@@ -4336,3 +4336,201 @@ export function SystemsBugMatrix2() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M31 — Antimicrobial therapy: the mechanisms-of-action target map (an
+// original KYP redraw of the source chart, pdf 205 / book 183). The bacterial
+// cell with its nine numbered target sites; the seven satellite zone panels
+// with the full printed drug rosters; the β-lactam cross-linking directory.
+// The 4 tiny marker rasters and the 9 standalone dash glyphs of the printed
+// chart are redrawn as vector marks (COPYRIGHTED chart — original redraw,
+// never reproduced).
+// ---------------------------------------------------------------------------
+
+export function AntimicrobialTargetMap() {
+  const w = 980;
+  const h = 1052;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antimicrobial therapy — the mechanisms-of-action target map, an original KYP redraw of the source chart (book 183). LEFT — THE BACTERIAL CELL: a CELL WALL band of peptidoglycan carrying the two wall stages (8 synthesis, 9 cross-linking — the source's split rim labels Cell wal l / Cell m embrane redrawn clean); a CELL MEMBRANE band carrying zone 2 with its gram keys (Daptomycin gram positive, Polymyxins gram negative); the cytoplasm with BACTERIAL CELL and the numbered target sites: zone 1 the folate cascade PABA to DHF to THF with the two blocked steps (Sulfonamides blocking PABA to DHF, Trimethoprim blocking DHF to THF — the one-carbon factory bacteria build and we eat); zone 3 DNA and zone 5 DNA gyrase side by side; zone 4 RNA polymerase emitting mRNA; and the two 70S ribosome pairs (50S cap plus 30S base) fed by the mRNA thread, carrying zones 6 and 7. RIGHT COLUMN A — the zone panels: 1 FOLIC ACID SYNTHESIS AND REDUCTION (DNA methylation) with Sulfonamides (Sulfamethoxazole, Sulfadiazine) blocking the sulfa step and Trimethoprim blocking the folate-reduction step; 2 MEMBRANE INTEGRITY with Daptomycin (gram positive) and Polymyxins (gram negative); 3 DNA INTEGRITY (via free radicals) with Metronidazole; 4 mRNA SYNTHESIS (RNA polymerase) with Rifampin; 5 GYRASE (DNA gyrase) with the Fluoroquinolones (Ciprofloxacin, Ofloxacin, Levofloxacin, Moxifloxacin). RIGHT COLUMN B — the protein synthesis rosters: 6 the 50S SUBUNIT (Chloramphenicol, Clindamycin, Linezolid; the Macrolides Azithromycin, Clarithromycin, Erythromycin; the Streptogramins Quinupristin plus Dalfopristin) and 7 the 30S SUBUNIT (the Aminoglycosides Gentamicin, Neomycin, Amikacin, Tobramycin, Streptomycin; Glycylcycline Tigecycline; the Tetracyclines Tetracycline, Doxycycline, Minocycline), each panel with its printed-order rule. BOTTOM — CELL WALL SYNTHESIS: 8 PEPTIDOGLYCAN SYNTHESIS with the Glycopeptides (Vancomycin, Bacitracin) and 9 PEPTIDOGLYCAN CROSS-LINKING, the beta-lactam directory: penicillinase-sensitive (Penicillin G, V; Ampicillin; Amoxicillin), penicillinase-resistant (Oxacillin, Nafcillin, Dicloxacillin), Antipseudomonal (Piperacillin; Cephalosporins I-V with the five generation examples), Carbapenems (Imipenem, Meropenem, Ertapenem), Monobactams (Aztreonam). The KYP synthesis strip reads the map by its six layers; the footer carries the source attribution, the raster/dash redraw note, the banner-typo note, and the drug-card cross-reference to M32." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+<text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antimicrobial therapy — the mechanisms-of-action target map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+<text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">drug class → cellular target → stage blocked</text>
+      </g>
+      {/* ===== THE BACTERIAL CELL — nine numbered target sites ===== */}
+      <g>
+        <rect x="36" y="100" width="296" height="560" rx="24" className="fill-secondary/40 stroke-brand" />
+<text x="184" y="118" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">The bacterial cell — the target side of the map</text>
+        <rect x="48" y="132" width="272" height="34" rx="10" className="fill-brand-soft/50 stroke-brand" />
+<text x="184" y="148" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">CELL WALL (peptidoglycan) — ⑧ synthesis ⑨ cross-linking</text>
+<text x="184" y="161" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">carried from the source's split rim labels — Cell wal l / Cell m embrane</text>
+        <rect x="48" y="174" width="272" height="24" rx="8" className="fill-card stroke-foreground" />
+<text x="184" y="190" textAnchor="middle" fontSize="5.0" fontWeight="800" className="fill-foreground">CELL MEMBRANE ② — Daptomycin (gram ⊕) · Polymyxins (gram ⊝)</text>
+<text x="184" y="214" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">BACTERIAL CELL</text>
+<text x="184" y="232" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-brand">① FOLIC ACID SYNTHESIS AND REDUCTION (DNA methylation)</text>
+<text x="142" y="244" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">Sulfonamides</text>
+<text x="224" y="244" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">Trimethoprim</text>
+        <rect x="76" y="250" width="56" height="22" rx="6" className="fill-card stroke-border" />
+<text x="104" y="264" textAnchor="middle" fontSize="5.4" fontWeight="700" className="fill-foreground">PABA</text>
+        <rect x="152" y="250" width="56" height="22" rx="6" className="fill-card stroke-border" />
+<text x="180" y="264" textAnchor="middle" fontSize="5.4" fontWeight="700" className="fill-foreground">DHF</text>
+        <rect x="228" y="250" width="56" height="22" rx="6" className="fill-card stroke-border" />
+<text x="256" y="264" textAnchor="middle" fontSize="5.4" fontWeight="700" className="fill-foreground">THF</text>
+        <g className="stroke-emergency" strokeWidth="1.6">
+          <path d="M 132 261 L 152 261" fill="none" />
+          <path d="M 136 254 L 136 268" />
+          <path d="M 208 261 L 228 261" fill="none" />
+          <path d="M 212 254 L 212 268" />
+        </g>
+<text x="184" y="284" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">the one-carbon factory — bacteria build it, we eat it</text>
+<text x="184" y="306" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">③ DNA INTEGRITY (via free radicals) — Metronidazole · ⑤ GYRASE — Fluoroquinolones</text>
+        <rect x="76" y="314" width="96" height="30" rx="8" className="fill-card stroke-border" />
+<text x="124" y="333" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">DNA</text>
+        <path d="M 172 329 L 196 329" className="stroke-foreground" strokeWidth="1.3" />
+        <rect x="196" y="314" width="100" height="30" rx="8" className="fill-card stroke-border" />
+<text x="246" y="333" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">DNA gyrase</text>
+<text x="184" y="362" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">④ mRNA SYNTHESIS (RNA polymerase) — Rifampin</text>
+        <rect x="76" y="370" width="120" height="30" rx="8" className="fill-card stroke-border" />
+<text x="136" y="389" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">RNA polymerase</text>
+        <path d="M 196 385 L 220 385" className="stroke-foreground" strokeWidth="1.3" />
+        <rect x="220" y="370" width="60" height="30" rx="8" className="fill-card stroke-border" />
+<text x="250" y="389" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">mRNA</text>
+<text x="184" y="428" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">RIBOSOMES — two 70S pairs (50S cap + 30S base)</text>
+        <path d="M 250 400 C 258 412, 252 420, 240 430" className="stroke-foreground" strokeWidth="1.1" strokeDasharray="3 3" fill="none" />
+        <rect x="76" y="438" width="96" height="78" rx="10" className="fill-secondary/60 stroke-border" />
+        <rect x="82" y="444" width="84" height="30" className="fill-secondary" />
+<text x="124" y="463" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">50S</text>
+        <rect x="82" y="478" width="84" height="30" className="fill-secondary/60" />
+<text x="124" y="497" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">30S</text>
+        <rect x="188" y="438" width="96" height="78" rx="10" className="fill-secondary/60 stroke-border" />
+        <rect x="194" y="444" width="84" height="30" className="fill-secondary" />
+<text x="236" y="463" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">50S</text>
+        <rect x="194" y="478" width="84" height="30" className="fill-secondary/60" />
+<text x="236" y="497" textAnchor="middle" fontSize="6.0" fontWeight="800" className="fill-foreground">30S</text>
+<text x="184" y="532" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">⑥ 50S SUBUNIT — Chloramphenicol, Clindamycin, Linezolid; Macrolides; Streptogramins</text>
+<text x="184" y="544" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">⑦ 30S SUBUNIT — Aminoglycosides; Glycylcycline; Tetracyclines</text>
+<text x="184" y="570" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">the mRNA thread feeds the second pair — translation in motion</text>
+<text x="184" y="590" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">every numbered site = one drug-class door on the same cell</text>
+<text x="184" y="622" textAnchor="middle" fontSize="4.6" className="fill-muted-foreground">Source figure: the mechanisms-of-action chart, book 183 — an original KYP redraw;</text>
+<text x="184" y="634" textAnchor="middle" fontSize="4.6" className="fill-muted-foreground">the printed marker rasters and dash glyphs are redrawn as vector marks</text>
+      </g>
+      {/* ===== ZONE PANELS · column A ===== */}
+      <g>
+        <rect x="360" y="100" width="284" height="118" rx="14" className="fill-card stroke-border" />
+<text x="376" y="120" fontSize="7.4" fontWeight="800" className="fill-foreground">① FOLIC ACID SYNTHESIS AND REDUCTION</text>
+<text x="376" y="132" fontSize="4.8" className="fill-muted-foreground">(DNA methylation) — the source's own zone gloss, carried verbatim</text>
+<text x="376" y="148" fontSize="5.8" fontWeight="800" className="fill-brand">Sulfonamides</text>
+<text x="376" y="160" fontSize="5.2" className="fill-foreground">Sulfamethoxazole · Sulfadiazine</text>
+<text x="376" y="171" fontSize="4.5" className="fill-muted-foreground">⊣ PABA → DHF — block the sulfa step (the PABA analog)</text>
+<text x="376" y="187" fontSize="5.8" fontWeight="800" className="fill-brand">Trimethoprim</text>
+<text x="376" y="199" fontSize="4.5" className="fill-muted-foreground">⊣ DHF → THF — block the folate-reduction step</text>
+<text x="376" y="210" fontSize="4.2" className="fill-muted-foreground">two steps, two drugs, one pathway — the classic pair</text>
+        <rect x="360" y="232" width="284" height="84" rx="14" className="fill-card stroke-border" />
+<text x="376" y="252" fontSize="7.4" fontWeight="800" className="fill-foreground">② MEMBRANE INTEGRITY</text>
+<text x="376" y="270" fontSize="5.6" fontWeight="700" className="fill-foreground">Daptomycin (gram ⊕)</text>
+<text x="376" y="283" fontSize="5.6" fontWeight="700" className="fill-foreground">Polymyxins (gram ⊝)</text>
+<text x="376" y="296" fontSize="4.5" className="fill-muted-foreground">the physical-disruption pair — one per gram polarity</text>
+        <rect x="360" y="330" width="284" height="78" rx="14" className="fill-card stroke-border" />
+<text x="376" y="350" fontSize="7.4" fontWeight="800" className="fill-foreground">③ DNA INTEGRITY</text>
+<text x="376" y="362" fontSize="4.8" className="fill-muted-foreground">(via free radicals) — carried verbatim</text>
+<text x="376" y="380" fontSize="5.8" fontWeight="800" className="fill-brand">Metronidazole</text>
+<text x="376" y="392" fontSize="4.5" className="fill-muted-foreground">free radicals fragment the helix — the anaerobe killer</text>
+        <rect x="360" y="422" width="284" height="78" rx="14" className="fill-card stroke-border" />
+<text x="376" y="442" fontSize="7.4" fontWeight="800" className="fill-foreground">④ mRNA SYNTHESIS</text>
+<text x="376" y="454" fontSize="4.8" className="fill-muted-foreground">(RNA polymerase) — carried verbatim</text>
+<text x="376" y="472" fontSize="5.8" fontWeight="800" className="fill-brand">Rifampin</text>
+<text x="376" y="484" fontSize="4.5" className="fill-muted-foreground">the polymerase block — orange-body inducer, never monotherapy</text>
+        <rect x="360" y="514" width="284" height="112" rx="14" className="fill-card stroke-border" />
+<text x="376" y="534" fontSize="7.4" fontWeight="800" className="fill-foreground">⑤ GYRASE (DNA gyrase)</text>
+<text x="376" y="552" fontSize="5.8" fontWeight="800" className="fill-brand">Fluoroquinolones</text>
+<text x="376" y="566" fontSize="5.2" className="fill-foreground">Ciprofloxacin · Ofloxacin · Levofloxacin · Moxifloxacin</text>
+<text x="376" y="580" fontSize="4.5" className="fill-muted-foreground">unhook the gyrase — the supercoil gate stays locked</text>
+<text x="376" y="594" fontSize="4.2" className="fill-muted-foreground">printed with the fl ligature in the text layer; normalized here</text>
+      </g>
+      {/* ===== ZONE PANELS · column B — protein synthesis ===== */}
+      <g>
+        <rect x="660" y="100" width="284" height="250" rx="14" className="fill-card stroke-border" />
+<text x="676" y="120" fontSize="7.4" fontWeight="800" className="fill-foreground">⑥ PROTEIN SYNTHESIS — 50S SUBUNIT</text>
+<text x="676" y="136" fontSize="5.6" fontWeight="700" className="fill-foreground">Chloramphenicol · Clindamycin · Linezolid</text>
+<text x="676" y="156" fontSize="5.8" fontWeight="800" className="fill-brand">Macrolides</text>
+<text x="676" y="170" fontSize="5.2" className="fill-foreground">Azithromycin · Clarithromycin · Erythromycin</text>
+<text x="676" y="190" fontSize="5.8" fontWeight="800" className="fill-brand">Streptogramins</text>
+<text x="676" y="204" fontSize="5.2" className="fill-foreground">Quinupristin + Dalfopristin</text>
+<text x="676" y="224" fontSize="4.5" className="fill-muted-foreground">the big cap of the 70S pair — the 50S door</text>
+<text x="676" y="240" fontSize="4.5" className="fill-muted-foreground">streptogramins print as the paired combination Quinupristin/</text>
+<text x="676" y="252" fontSize="4.5" className="fill-muted-foreground">Dalfopristin in the source — 30/70 synergy at the same door</text>
+<text x="676" y="276" fontSize="4.6" className="fill-muted-foreground">printed rule carried: the roster order is physical —</text>
+<text x="676" y="288" fontSize="4.6" className="fill-muted-foreground">singles, then Macrolides, then Streptogramins</text>
+<text x="676" y="310" fontSize="4.2" className="fill-muted-foreground">the 50S drugs freeze the cap; none of them touch the 30S base</text>
+        <rect x="660" y="364" width="284" height="282" rx="14" className="fill-card stroke-border" />
+<text x="676" y="384" fontSize="7.4" fontWeight="800" className="fill-foreground">⑦ 30S SUBUNIT</text>
+<text x="676" y="402" fontSize="5.8" fontWeight="800" className="fill-brand">Aminoglycosides</text>
+<text x="676" y="416" fontSize="5.0" className="fill-foreground">Gentamicin · Neomycin · Amikacin · Tobramycin · Streptomycin</text>
+<text x="676" y="436" fontSize="5.8" fontWeight="800" className="fill-brand">Glycylcycline</text>
+<text x="676" y="450" fontSize="5.0" className="fill-foreground">Tigecycline</text>
+<text x="676" y="470" fontSize="5.8" fontWeight="800" className="fill-brand">Tetracyclines</text>
+<text x="676" y="484" fontSize="5.0" className="fill-foreground">Tetracycline · Doxycycline · Minocycline</text>
+<text x="676" y="504" fontSize="4.5" className="fill-muted-foreground">the small base — ⑦ is the reading-head door: ⑥ builds, ⑦ reads</text>
+<text x="676" y="522" fontSize="4.6" className="fill-muted-foreground">printed rule carried: Aminoglycosides first (the 5-name set),</text>
+<text x="676" y="534" fontSize="4.6" className="fill-muted-foreground">then Glycylcycline single, then the Tetracyclines trio</text>
+<text x="676" y="556" fontSize="4.2" className="fill-muted-foreground">30S blockers need transport-in (aerobes) — the O₂-dependent step</text>
+      </g>
+      {/* ===== CELL WALL SYNTHESIS — ⑧ build · ⑨ cross-link ===== */}
+      <g>
+        <rect x="36" y="688" width="908" height="236" rx="14" className="fill-card stroke-brand" />
+<text x="52" y="708" fontSize="9" fontWeight="800" className="fill-foreground">CELL WALL SYNTHESIS — the two-stage wall zone (books 183)</text>
+        <rect x="52" y="722" width="250" height="188" rx="10" className="fill-secondary/40 stroke-border" />
+<text x="64" y="742" fontSize="6.4" fontWeight="800" className="fill-foreground">⑧ PEPTIDOGLYCAN SYNTHESIS</text>
+<text x="64" y="756" fontSize="4.6" className="fill-muted-foreground">the bricklayers — they block the</text>
+<text x="64" y="767" fontSize="4.6" className="fill-muted-foreground">building of the wall itself</text>
+<text x="64" y="786" fontSize="5.8" fontWeight="800" className="fill-brand">Glycopeptides</text>
+<text x="64" y="800" fontSize="5.2" className="fill-foreground">Vancomycin</text>
+<text x="64" y="812" fontSize="5.2" className="fill-foreground">Bacitracin</text>
+<text x="64" y="832" fontSize="4.5" className="fill-muted-foreground">⑧ = the outer face of the wall band;</text>
+<text x="64" y="844" fontSize="4.5" className="fill-muted-foreground">glycopeptides stop brick delivery</text>
+<text x="64" y="864" fontSize="4.2" className="fill-muted-foreground">source heading pair: PEPTIDOGLYCAN SYNTHESIS /</text>
+<text x="64" y="876" fontSize="4.2" className="fill-muted-foreground">PEPTIDOGLYCAN CROSS-LINKING — carried</text>
+        <rect x="316" y="722" width="612" height="188" rx="10" className="fill-secondary/40 stroke-border" />
+<text x="332" y="742" fontSize="6.4" fontWeight="800" className="fill-foreground">⑨ PEPTIDOGLYCAN CROSS-LINKING — the β-lactam directory</text>
+        <rect x="332" y="754" width="200" height="17" rx="4" className="fill-secondary" />
+<text x="432.0" y="766" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">GROUP</text>
+        <rect x="544" y="754" width="368" height="17" rx="4" className="fill-secondary" />
+<text x="728.0" y="766" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">DRUGS — the printed roster order</text>
+        <rect x="332" y="777" width="580" height="21" rx="4" className="fill-secondary" />
+<text x="340" y="791" fontSize="5.0" fontWeight="700" className="fill-foreground">Penicillinase-sensitive penicillins</text>
+<text x="552" y="791" fontSize="4.8" className="fill-foreground">Penicillin G, V · Ampicillin · Amoxicillin</text>
+        <rect x="332" y="801" width="580" height="21" rx="4" className="fill-secondary/60" />
+<text x="340" y="815" fontSize="5.0" fontWeight="700" className="fill-foreground">Penicillinase-resistant penicillins</text>
+<text x="552" y="815" fontSize="4.8" className="fill-foreground">Oxacillin · Nafcillin · Dicloxacillin</text>
+        <rect x="332" y="825" width="580" height="21" rx="4" className="fill-secondary" />
+<text x="340" y="839" fontSize="5.0" fontWeight="700" className="fill-foreground">Antipseudomonal</text>
+<text x="552" y="839" fontSize="4.8" className="fill-foreground">Piperacillin · Cephalosporins (I-V): 1st—Cefazolin, etc · 2nd—Cefoxitin, etc ·</text>
+        <rect x="332" y="849" width="580" height="21" rx="4" className="fill-secondary/60" />
+<text x="552" y="863" fontSize="4.8" className="fill-foreground">3rd—Ceftriaxone, etc · 4th—Cefepime · 5th—Ceftaroline</text>
+        <rect x="332" y="873" width="580" height="21" rx="4" className="fill-secondary" />
+<text x="340" y="887" fontSize="5.0" fontWeight="700" className="fill-foreground">Carbapenems</text>
+<text x="552" y="887" fontSize="4.8" className="fill-foreground">Imipenem · Meropenem · Ertapenem</text>
+        <rect x="332" y="897" width="580" height="21" rx="4" className="fill-secondary/60" />
+<text x="340" y="911" fontSize="5.0" fontWeight="700" className="fill-foreground">Monobactams</text>
+<text x="552" y="911" fontSize="4.8" className="fill-foreground">Aztreonam — the gram ⊝ rod-only β-lactam (no gram ⊕, no atypicals)</text>
+<text x="332" y="931" fontSize="4.5" className="fill-muted-foreground">⑨ = the inner face of the wall band: β-lactams are D-Ala-D-Ala structural analogs — they bind PBPs (transpeptidases) and freeze the welds. The Penicillin G, V card</text>
+<text x="332" y="942" fontSize="4.5" className="fill-muted-foreground">printing on this page (the first row of the drug directory) is carried verbatim in the note's table block; the directory continues on books 184-186 (M32).</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="940" width="908" height="92" rx="14" className="fill-brand-soft/30 stroke-border" />
+<text x="52" y="960" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — the six layers (original KYP synthesis)</text>
+<text x="52" y="978" fontSize="4.8" className="fill-muted-foreground">Membrane ② disrupts physically — daptomycin ⊕, polymyxins ⊝. Wall ⑧ builds, ⑨ links — glycopeptides lay the bricks, β-lactams freeze the welds. Folate ① starves the one-carbon factory — bacteria synthesize it, we import it (that is the selectivity). Nucleic acid ③④⑤ — metronidazole fragments, rifampin silences, fluoroquinolones unhook. Ribosome ⑥⑦ — the 50S cap</text>
+<text x="52" y="989" fontSize="4.8" className="fill-muted-foreground">and the 30S base, the two translation doors.</text>
+<text x="52" y="1006" fontSize="4.4" className="fill-muted-foreground">Printed keys carried verbatim: (DNA methylation) · (via free radicals) · (RNA polymerase) · gram ⊕ / gram ⊝ — the source's own zone glosses.</text>
+      </g>
+      {/* footer */}
+      <g>
+<text x="24" y="1016" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, book 183 (pdf 205) — the antimicrobial mechanisms-of-action chart, an original KYP redraw preserving the source's label sets, zone glosses, and roster order. The 4 tiny index rasters and the 9 standalone dash markers of the printed chart are redrawn as vector marks. The chapter banner typo MICROCIOLOGY—ANTIMICROCIALS prints on book 183 twice (lines 4 and 8 of the raw layer), as in</text>
+<text x="24" y="1027" fontSize="4.6" className="fill-muted-foreground">the source. The Penicillin G, V drug card on the same page is carried verbatim in the note's table block — the directory continues in M32 (books 184-186).</text>
+      </g>
+    </svg>
+  );
+}
