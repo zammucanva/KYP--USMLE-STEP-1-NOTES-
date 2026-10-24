@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 6,
+  "pendingTopicCount": 5,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -6287,8 +6287,91 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Antimicrobials",
-      "status": "pending",
-      "productionRationale": "Sulfonamides/trimethoprim's sequential folate blockade (the synergistic TMP-SMX logic), fluoroquinolones' DNA gyrase, daptomycin's membrane, and metronidazole's anaerobe activation."
+      "status": "complete",
+      "productionRationale": "Sulfonamides/trimethoprim's sequential folate blockade (the synergistic TMP-SMX logic), fluoroquinolones' DNA gyrase, daptomycin's membrane, and metronidazole's anaerobe activation.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "dna-rna-folate-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "dna-rna-folate-inhibitors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              212
+            ],
+            "bookPages": "190–190"
+          },
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "The folate pathway figure (book 190)",
+          "sourceFigureDescription": "The printed cascade — entirely text-layer glyphs (0 rasters): PABA + pteridine → dihydropteroic acid → dihydrofolic acid → tetrahydrofolic acid, with the two enzyme labels (dihydropteroate synthase; dihydrofolate reductase) and the downstream products panel (purines, thymidine, methionine; DNA, RNA; DNA; protein).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "folate-quinolone-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the folate-factory panel of the registry visual — the cascade with its two locked gates and the products panel",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "folate-quinolone-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "dna-rna-folate-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "dna-rna-folate-inhibitors-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              212
+            ],
+            "bookPages": "190–190"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The sulfonamides, dapsone, and trimethoprim cards (book 190)",
+          "sourceFigureDescription": "The page's three printed cards with the source's own margin mnemonic ('TMP Treats Marrow Poorly').",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "dna-rna-folate-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "dna-rna-folate-inhibitors-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              213
+            ],
+            "bookPages": "191–191"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The fluoroquinolones, daptomycin, and metronidazole cards (book 191)",
+          "sourceFigureDescription": "The page's three printed cards with the source's own margin notes (tendonitis/P-450/bones; the surfactant 'Dapto-myo-skin' gloss; the interleaved GET GAP + diaphragm-rule margin).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block — carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "antimycobacterials",

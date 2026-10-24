@@ -128,7 +128,7 @@ import {
   RejectionTimelineMap,
   ImmunosuppressantTargetMap,
 } from "./immune";
-import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap, HepatitisSerologyMap, HivLifecycleMap, SystemsBugMatrix, SystemsBugMatrix2, AntimicrobialTargetMap, BetaLactamFamilyMap, RibosomeTargetMap } from "./micro";
+import { BacterialCellAnatomy, GramStainDecisionMap, BugMediaMatchingMap, VirulenceResistanceMap, GeneTransferTriangle, ToxinComparisonMap, GramPosCocciTree, GramPosBacilliMap, TbSpectrumMap, GramNegBacilliMap, EntericPathogenMap, SpirocheteSyphilisMap, VectorBorneRashMap, SystemicMycosesMap, OpportunisticFungiPanel, IntestinalProtozoaPanel, BloodTissueProtozoaMap, NematodeRouteMap, CestodeTrematodeMap, ViralStructureMap, DnaVirusFamilyMap, RnaVirusFamilyMap, VaccineDiagnosticMap, HepatitisSerologyMap, HivLifecycleMap, SystemsBugMatrix, SystemsBugMatrix2, AntimicrobialTargetMap, BetaLactamFamilyMap, RibosomeTargetMap, FolateQuinoloneMap } from "./micro";
 
 export const VisualRegistry: Record<string, ComponentType> = {
   // Glycolysis regulation
@@ -321,4 +321,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "antimicrobial-target-map": AntimicrobialTargetMap,
   "beta-lactam-family-map": BetaLactamFamilyMap,
   "ribosome-target-map": RibosomeTargetMap,
+  "folate-quinolone-map": FolateQuinoloneMap,
 };

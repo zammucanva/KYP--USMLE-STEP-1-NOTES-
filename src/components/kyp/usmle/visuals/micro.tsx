@@ -4862,3 +4862,153 @@ export function RibosomeTargetMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M34 — DNA/RNA & folate pathway inhibitors: the folate-quinolone map (an
+// original KYP redraw of the source's folate pathway figure, pdf 212 / book
+// 190 — printed entirely in the text layer, 0 rasters). The cascade with its
+// two locked gates (dihydropteroate synthase — sulfonamides/dapsone;
+// dihydrofolate reductase — trimethoprim/pyrimethamine) and the downstream
+// products panel; beside it the three remaining doors of the M31 map:
+// ⑤ the gyrase (fluoroquinolones), ② the membrane channel (daptomycin, the
+// surfactant exception), and ③ the free radicals (metronidazole, the
+// below-diaphragm owner). The source's own margin mnemonics are omitted per
+// the copyright boundary — carried only in the note's verbatim tables.
+// ---------------------------------------------------------------------------
+export function FolateQuinoloneMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="DNA, RNA and folate pathway inhibitors — the folate-quinolone map, an original KYP redraw of the source's folate pathway figure (book 190). LEFT — THE FOLATE FACTORY: the cascade PABA plus pteridine to dihydropteroic acid to dihydrofolic acid to tetrahydrofolic acid, with its TWO LOCKED GATES: gate 1 dihydropteroate synthase (locked by the sulfonamides and dapsone) and gate 2 dihydrofolate reductase (locked by trimethoprim and pyrimethamine), feeding the downstream products panel (purines, thymidine, methionine for DNA, RNA, and protein); the synergy banner: each lock alone is bacteriostatic, the sequential block together (TMP-SMX) is bactericidal. MIDDLE RIGHT — DOOR 5 THE GYRASE: fluoroquinolones (ciprofloxacin, ofloxacin; respiratory levofloxacin, moxifloxacin) inhibit topoisomerase II (DNA gyrase) and topoisomerase IV; divalent cations cut absorption; cartilage under 18, tendons over 60 or on prednisone, QT, and ciprofloxacin's P-450 inhibition. RIGHT — DOOR 2 THE MEMBRANE CHANNEL: daptomycin's lipopeptide transmembrane channels for MRSA skin, bacteremia, endocarditis, and VRE — inactivated by surfactant, so never pneumonia — with myopathy and rhabdomyolysis; and DOOR 3 THE FREE RADICALS: metronidazole's toxic metabolites damaging DNA — Giardia, Entamoeba, Trichomonas, Gardnerella, Bacteroides, C difficile, the below-diaphragm anaerobes vs clindamycin above, H pylori triple therapy for the penicillin-allergic, and the disulfiram-like reaction with alcohol. A KYP synthesis strip reads the map by gate, door, and route; the footer carries the source attribution, the census note (0 rasters — the figure prints entirely in the text layer), and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">DNA/RNA &amp; folate pathway inhibitors — the folate-quinolone map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">gate · door · route</text>
+      </g>
+      {/* ===== LEFT — the folate factory ===== */}
+      <g>
+        <rect x="36" y="100" width="360" height="560" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE FOLATE FACTORY — two gates, one cascade</text>
+        <rect x="52" y="134" width="150" height="40" rx="8" className="fill-card stroke-border" />
+        <text x="127" y="152" textAnchor="middle" fontSize="5.2" fontWeight="700" className="fill-foreground">PABA</text>
+        <text x="127" y="164" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">+ pteridine</text>
+        <text x="228" y="158" fontSize="4" className="fill-muted-foreground">→</text>
+        <rect x="240" y="134" width="140" height="40" rx="8" className="fill-card stroke-border" />
+        <text x="310" y="152" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">Dihydropteroic</text>
+        <text x="310" y="164" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">acid</text>
+        {/* gate 1 */}
+        <rect x="52" y="186" width="328" height="56" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="68" y="204" fontSize="5.6" fontWeight="800" className="fill-brand">GATE 1 — Dihydropteroate synthase</text>
+        <text x="68" y="216" fontSize="4.2" className="fill-foreground">LOCKED by the sulfonamides (SMX, sulfisoxazole, sulfadiazine)</text>
+        <text x="68" y="226" fontSize="4.2" className="fill-foreground">and dapsone (structurally distinct, same gate)</text>
+        <text x="68" y="238" fontSize="4" className="fill-muted-foreground">each lock alone is bacteriOSTATIC — the factory merely slows</text>
+        <text x="240" y="214" fontSize="4" className="fill-emergency" fontWeight="800">⊣</text>
+        {/* intermediates */}
+        <rect x="52" y="252" width="150" height="34" rx="8" className="fill-card stroke-border" />
+        <text x="127" y="274" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">Dihydrofolic acid</text>
+        <text x="240" y="272" fontSize="4" className="fill-muted-foreground">→</text>
+        {/* gate 2 */}
+        <rect x="52" y="296" width="328" height="56" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="68" y="314" fontSize="5.6" fontWeight="800" className="fill-brand">GATE 2 — Dihydrofolate reductase</text>
+        <text x="68" y="326" fontSize="4.2" className="fill-foreground">LOCKED by trimethoprim (and pyrimethamine,</text>
+        <text x="68" y="336" fontSize="4.2" className="fill-foreground">its antiparasitic cousin)</text>
+        <text x="68" y="348" fontSize="4" className="fill-muted-foreground">bacterial DHFR — the host imports folate, the pathogen builds it</text>
+        <text x="240" y="324" fontSize="4" className="fill-emergency" fontWeight="800">⊣</text>
+        <rect x="52" y="362" width="150" height="34" rx="8" className="fill-card stroke-border" />
+        <text x="127" y="384" textAnchor="middle" fontSize="5.0" fontWeight="700" className="fill-foreground">Tetrahydrofolic acid</text>
+        {/* downstream */}
+        <rect x="52" y="408" width="328" height="76" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="68" y="426" fontSize="5.6" fontWeight="800" className="fill-foreground">The downstream products</text>
+        <text x="68" y="438" fontSize="4.2" className="fill-foreground">Purines · Thymidine · Methionine</text>
+        <text x="68" y="452" fontSize="4.2" className="fill-foreground">→ DNA, RNA · DNA · Protein</text>
+        <text x="68" y="470" fontSize="4" className="fill-muted-foreground">the one-carbon factory the pathogen needs and we import</text>
+        {/* synergy banner */}
+        <rect x="52" y="496" width="328" height="70" rx="10" className="fill-card stroke-border" />
+        <text x="68" y="514" fontSize="5.6" fontWeight="800" className="fill-brand">THE SEQUENTIAL BLOCK — cidal</text>
+        <text x="68" y="526" fontSize="4.2" className="fill-foreground">TMP-SMX together: Nocardia · P jirovecii treatment</text>
+        <text x="68" y="536" fontSize="4.2" className="fill-foreground">and prophylaxis · toxoplasmosis prophylaxis · Shigella ·</text>
+        <text x="68" y="546" fontSize="4.2" className="fill-foreground">Salmonella · simple UTIs</text>
+        <text x="68" y="560" fontSize="4" className="fill-muted-foreground">leucovorin rescues the marrow (megaloblastic anemia, leukopenia);</text>
+        <text x="68" y="570" fontSize="4" className="fill-muted-foreground">hyperkalemia at high doses persists — the K-sparing mechanism</text>
+        <text x="68" y="600" fontSize="4.2" className="fill-muted-foreground">Idiosyncratic set (never rescued): Stevens-Johnson · G6PD hemolysis ·</text>
+        <text x="68" y="610" fontSize="4.2" className="fill-muted-foreground">kernicterus in infants · optic neuritis · dapsone's methemoglobinemia</text>
+        <text x="68" y="630" fontSize="4.2" className="fill-muted-foreground">The figure's own glyph set: the two enzyme labels, the four</text>
+        <text x="68" y="640" fontSize="4.2" className="fill-muted-foreground">intermediates, and the products panel — redrawn as vector panels</text>
+      </g>
+      {/* ===== RIGHT — the three remaining doors ===== */}
+      <g>
+        <rect x="412" y="100" width="532" height="252" rx="14" className="fill-card stroke-border" />
+        <text x="428" y="120" fontSize="8" fontWeight="800" className="fill-foreground">⑤ THE GYRASE — fluoroquinolones</text>
+        <text x="428" y="138" fontSize="4.6" className="fill-foreground">Inhibit prokaryotic topoisomerase II (DNA gyrase) and topoisomerase IV — bactericidal.</text>
+        <text x="428" y="150" fontSize="4.2" className="fill-muted-foreground">Drugs: ciprofloxacin, ofloxacin; respiratory — levofloxacin, moxifloxacin (CAP + atypicals)</text>
+        <text x="428" y="164" fontSize="4.4" className="fill-foreground">Use: gram ⊝ rods of urinary and GI tracts (incl. Pseudomonas), some gram ⊕, otitis externa, CAP.</text>
+        <rect x="428" y="176" width="500" height="64" rx="10" className="fill-brand-soft/30 stroke-border" />
+        <text x="440" y="194" fontSize="4.6" fontWeight="700" className="fill-brand">THE ABSORPTION TRAP (inherited from the tetracyclines):</text>
+        <text x="440" y="206" fontSize="4.2" className="fill-foreground">concurrent divalent cations (dairy, antacids) markedly decrease oral absorption</text>
+        <text x="440" y="220" fontSize="4.2" className="fill-foreground">THE AGE BOOKENDS: cartilage under 18 (contraindicated in pregnancy/breastfeeding</text>
+        <text x="440" y="230" fontSize="4.2" className="fill-foreground">and children) — tendonitis/tendon rupture over 60 or on prednisone</text>
+        <text x="428" y="256" fontSize="4.4" className="fill-foreground">QT prolongation · leg cramps and myalgias · ciprofloxacin inhibits cytochrome P-450</text>
+        <text x="428" y="268" fontSize="4.2" className="fill-muted-foreground">Resistance: chromosome-encoded gyrase mutation, plasmid-mediated, efflux pumps</text>
+        <text x="428" y="286" fontSize="4" className="fill-muted-foreground">we lack bacterial DNA gyrase — the door is pathogen-only</text>
+        <text x="428" y="300" fontSize="4.2" className="fill-muted-foreground">Superinfections, skin rashes, headache, dizziness — the minor set</text>
+      </g>
+      <g>
+        <rect x="412" y="368" width="260" height="292" rx="14" className="fill-card stroke-border" />
+        <text x="428" y="388" fontSize="8" fontWeight="800" className="fill-foreground">② THE MEMBRANE — daptomycin</text>
+        <text x="428" y="406" fontSize="4.6" className="fill-foreground">Lipopeptide that disrupts cell membranes of</text>
+        <text x="428" y="416" fontSize="4.6" className="fill-foreground">gram ⊕ cocci by creating transmembrane channels.</text>
+        <text x="428" y="432" fontSize="4.4" className="fill-foreground">Use: S aureus skin infections (especially MRSA),</text>
+        <text x="428" y="442" fontSize="4.4" className="fill-foreground">bacteremia, infective endocarditis, VRE.</text>
+        <rect x="428" y="454" width="228" height="58" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="440" y="472" fontSize="4.6" fontWeight="800" className="fill-brand">THE SURFACTANT SPONGE</text>
+        <text x="440" y="484" fontSize="4.2" className="fill-foreground">NOT used for pneumonia — avidly binds to and is</text>
+        <text x="440" y="494" fontSize="4.2" className="fill-foreground">inactivated by surfactant. MRSA pneumonia</text>
+        <text x="440" y="504" fontSize="4.2" className="fill-foreground">routes to vancomycin (or linezolid).</text>
+        <text x="428" y="528" fontSize="4.4" className="fill-foreground">Adverse: myopathy, rhabdomyolysis</text>
+        <text x="428" y="544" fontSize="4" className="fill-muted-foreground">the one wall drug the lung silences —</text>
+        <text x="428" y="554" fontSize="4" className="fill-muted-foreground">a site rule, not a spectrum rule</text>
+        <text x="428" y="576" fontSize="4.2" className="fill-muted-foreground">Monitor CK when dosing alongside statins;</text>
+        <text x="428" y="586" fontSize="4.2" className="fill-muted-foreground">the channel needs the gram ⊕ membrane</text>
+        <text x="428" y="608" fontSize="4.2" className="fill-muted-foreground">The printed card carries the Dapto-myo-skin</text>
+        <text x="428" y="618" fontSize="4.2" className="fill-muted-foreground">note in the margin — table-only, never here</text>
+      </g>
+      <g>
+        <rect x="684" y="368" width="260" height="292" rx="14" className="fill-card stroke-border" />
+        <text x="700" y="388" fontSize="8" fontWeight="800" className="fill-foreground">③ THE FREE RADICALS — metronidazole</text>
+        <text x="700" y="406" fontSize="4.6" className="fill-foreground">Forms toxic free radical metabolites in the</text>
+        <text x="700" y="416" fontSize="4.6" className="fill-foreground">bacterial cell that damage DNA.</text>
+        <text x="700" y="426" fontSize="4.6" className="fill-foreground">Bactericidal, antiprotozoal.</text>
+        <text x="700" y="442" fontSize="4.4" className="fill-foreground">Use: Giardia · Entamoeba · Trichomonas ·</text>
+        <text x="700" y="452" fontSize="4.4" className="fill-foreground">Gardnerella vaginalis · anaerobes (Bacteroides,</text>
+        <text x="700" y="462" fontSize="4.4" className="fill-foreground">C difficile).</text>
+        <text x="700" y="478" fontSize="4.2" className="fill-foreground">Replaces amoxicillin in H pylori triple therapy</text>
+        <text x="700" y="488" fontSize="4.2" className="fill-foreground">for the penicillin-allergic.</text>
+        <rect x="700" y="500" width="228" height="56" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="712" y="518" fontSize="4.6" fontWeight="800" className="fill-brand">METRO RIDES LOW</text>
+        <text x="712" y="530" fontSize="4.2" className="fill-foreground">Treats anaerobic infection BELOW the diaphragm</text>
+        <text x="712" y="540" fontSize="4.2" className="fill-foreground">vs clindamycin (anaerobic infections ABOVE it)</text>
+        <text x="712" y="550" fontSize="4" className="fill-muted-foreground">the M33 rule's other half — the two notes pair</text>
+        <text x="700" y="574" fontSize="4.4" className="fill-foreground">Adverse: disulfiram-like reaction with alcohol</text>
+        <text x="700" y="584" fontSize="4.4" className="fill-foreground">(severe flushing, tachycardia, hypotension);</text>
+        <text x="700" y="594" fontSize="4.4" className="fill-foreground">headache, metallic taste.</text>
+        <text x="700" y="616" fontSize="4.2" className="fill-muted-foreground">Counsel no alcohol — the trap that earned the</text>
+        <text x="700" y="626" fontSize="4.2" className="fill-muted-foreground">card its own counseling line</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="680" width="908" height="100" rx="14" className="fill-brand-soft/30 stroke-border" />
+        <text x="52" y="700" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — gate · door · route (original KYP synthesis)</text>
+        <text x="52" y="718" fontSize="4.8" className="fill-muted-foreground">GATE: the folate factory has two locks — sulfa/dapsone at dihydropteroate synthase, TMP/pyrimethamine at DHFR; one lock is static, both are cidal; leucovorin rescues the marrow but never the idiosyncratic set (Stevens-Johnson, G6PD hemolysis, kernicterus) or the potassium. DOOR: ⑤ the gyrase (with its divalent-cation trap and age bookends), ② the membrane channel (the surfactant exception),</text>
+        <text x="52" y="729" fontSize="4.8" className="fill-muted-foreground">③ the free radicals (with the alcohol trap). ROUTE: Nocardia and P jirovecii → TMP-SMX; MRSA pneumonia → vancomycin, never daptomycin; below the diaphragm → metronidazole, above → clindamycin; H pylori in the penicillin-allergic → metronidazole in triple therapy.</text>
+        <text x="52" y="750" fontSize="4.4" className="fill-muted-foreground">Printed facts carried: the selectivity logic (we import folate, the pathogen builds it; we lack DNA gyrase) is the M31 chart's own reasoning, extended here to its directory pages.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="812" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 190-191 (pdf 212-213) — the folate pathway pages. Census: both pages PURE TEXT (0 rasters); the folate cascade figure prints entirely in the text layer (the two enzyme labels, the four intermediates, the downstream products panel) — redrawn here as clean vector panels. The banner typo MICROCIOLOGY—ANTIMICROCIALS prints on both pages;</text>
+        <text x="24" y="823" fontSize="4.6" className="fill-muted-foreground">the downstream products panel prints after the indd footer in the raw layer (page-end emission). The source's own margin mnemonics ('TMP Treats Marrow Poorly', 'Fluoroquinolones hurt attachments to your bones', 'Dapto-myo-skin', 'GET GAP on the Metro') are omitted from this visual per the copyright boundary — carried only inside the note's verbatim table blocks as source provenance.</text>
+      </g>
+    </svg>
+  );
+}

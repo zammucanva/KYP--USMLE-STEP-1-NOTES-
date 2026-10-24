@@ -1,0 +1,509 @@
+{
+  "topicId": "dna-rna-folate-inhibitors",
+  "title": "DNA/RNA & Folate Pathway Inhibitors",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      212,
+      213
+    ],
+    "bookPages": "190–191"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "190",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio (the SEC TION split print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "190\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfonamides card: heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Sulfonamides\n\nSulfamethoxazole (SMX), sulfisoxazole,\nsulfadiazine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfonamides card: MECHANISM (dihydropteroate synthase; static, cidal with TMP)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "MECHANISM\n\nInhibit dihydropteroate synthase, thus inhibiting\nfolate synthesis. Bacteriostatic (bactericidal\nwhen combined with trimethoprim).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfonamides card: CLINICAL USE (Nocardia; TMP-SMX for simple UTI)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "CLINICAL USE\n\nGram ⊕, gram ⊝, Nocardia. TMP-SMX for\nsimple UTI.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfonamides card: ADVERSE EFFECTS (Stevens-Johnson, G6PD hemolysis, kernicterus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "ADVERSE EFFECTS\n\nStevens-Johnson syndrome, urticaria, liver\ndamage, folate deficiency, optic neuritis,\nnephrotoxicity, agranulocytosis, hemolysis if\nG6PD deficient, kernicterus in infants.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfonamides card: MECHANISM OF RESISTANCE (altered enzyme, ↓ uptake, ↑ PABA)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nAltered enzyme (bacterial dihydropteroate\nsynthase), ↓ uptake, or ↑ PABA synthesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure — GATE 1 glyphs (emitting between the sulfa and dapsone cards)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Sulfonamides,\ndapsone\n\nDihydropteroate\nsynthase\nDihydropteroic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dapsone card: heading + MECHANISM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Dapsone\nMECHANISM\n\nSimilar to sulfonamides, but structurally distinct\nagent.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dapsone card: CLINICAL USE (leprosy, P jirovecii with TMP)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "CLINICAL USE\n\nLeprosy (lepromatous and tuberculoid),\nPneumocystis jirovecii prophylaxis, or treatment\nwhen used in combination with TMP.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dapsone card: ADVERSE EFFECTS + the interleaved 'PABA + Pteridine' figure glyph (raw line 58 inside the adverse block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "ADVERSE EFFECTS\n\nPABA + Pteridine\n\nHemolysis if G6PD deficient,\nmethemoglobinemia, agranulocytosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure — GATE 2 glyphs (emitting between the dapsone and trimethoprim cards)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Dihydrofolic acid\nTrimethoprim,\npyrimethamine\n\nDihydrofolate\nreductase\nTetrahydrofolic acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The trimethoprim card: heading + MECHANISM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Trimethoprim\nMECHANISM\n\nInhibits bacterial dihydrofolate reductase.\nBacteriostatic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The trimethoprim card: CLINICAL USE (the sequential block; UTIs, Shigella, Salmonella, P jirovecii, toxoplasmosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "CLINICAL USE\n\nUsed in combination with sulfonamides\n(trimethoprim-sulfamethoxazole [TMPSMX]), causing sequential block of folate\nsynthesis. Combination used for UTIs,\nShigella, Salmonella, Pneumocystis jirovecii\npneumonia treatment and prophylaxis,\ntoxoplasmosis prophylaxis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The trimethoprim card: ADVERSE EFFECTS + the source's own margin mnemonic (raw line 93)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "ADVERSE EFFECTS\n\nHyperkalemia (at high doses; similar\nmechanism as potassium-sparing diuretics),\nmegaloblastic anemia, leukopenia,\ngranulocytopenia, which may be avoided with\ncoadministration of leucovorin (folinic acid).\nTMP Treats Marrow Poorly.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 190",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure — the downstream products panel (emitting AFTER the footer — page-end emission)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "Purines\n\nThymidine\n\nMethionine\n\nDNA, RNA\n\nDNA\n\nProtein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          212
+        ],
+        "bookPages": "190"
+      },
+      "quote": "12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones card: heading + drug line (incl. the respiratory pair)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "Fluoroquinolones\n\nCiprofloxacin, ofloxacin; respiratory fluoroquinolones: levofloxacin, moxifloxacin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones card: MECHANISM (topoisomerase II/IV; the divalent-cation absorption trap)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "MECHANISM\n\nInhibit prokaryotic enzymes topoisomerase\nII (DNA gyrase) and topoisomerase IV.\nBactericidal. Concurrent ingestion of divalent\ncations (eg, dairy, antacids) markedly decreases\noral absorption.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones card: CLINICAL USE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "CLINICAL USE\n\nGram ⊝ rods of urinary and GI tracts (including\nPseudomonas), some gram ⊕ organisms, otitis\nexterna, community-acquired pneumonia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones card: ADVERSE EFFECTS (cartilage <18, QT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "ADVERSE EFFECTS\n\nGI upset, superinfections, skin rashes,\nheadache, dizziness. Less commonly, can\ncause leg cramps and myalgias.\nContraindicated during pregnancy or\nbreastfeeding and in children <18 years old\ndue to possible damage to cartilage. Some may\nprolong QT interval.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones card: MECHANISM OF RESISTANCE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nChromosome-encoded mutation in DNA\ngyrase, plasmid-mediated resistance, efflux\npumps.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed book-page number '191' (printing MID-PAGE at raw line 41, between the resistance block and its margin notes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "191",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fluoroquinolones margin notes (tendonitis/tendon rupture >60 and on prednisone; P-450; the source's own bones mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "May cause tendonitis or tendon rupture in\npeople >60 years old and in patients taking\nprednisone. Ciprofloxacin inhibits cytochrome\nP-450.\nFluoroquinolones hurt attachments to your\nbones.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The daptomycin card: heading + MECHANISM (the lipopeptide channels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "Daptomycin\nMECHANISM\n\nLipopeptide that disrupts cell membranes of\ngram ⊕ cocci by creating transmembrane\nchannels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The daptomycin card: CLINICAL USE (MRSA, bacteremia, endocarditis, VRE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "CLINICAL USE\n\nS aureus skin infections (especially MRSA),\nbacteremia, infective endocarditis, VRE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The daptomycin card: ADVERSE EFFECTS + the surfactant note (the source's own 'Dapto-myo-skin' gloss, raw 66-69)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "ADVERSE EFFECTS\n\nMyopathy, rhabdomyolysis.\n\nNot used for pneumonia (avidly binds to and is\ninactivated by surfactant). “Dapto-myo-skin”\nis used for skin infections but can cause\nmyopathy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The metronidazole card: heading + MECHANISM (free radicals; antiprotozoal)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "Metronidazole\nMECHANISM\n\nForms toxic free radical metabolites in the\nbacterial cell that damage DNA. Bactericidal,\nantiprotozoal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The metronidazole card: CLINICAL USE with the interleaved margin (the GET GAP mnemonic + the diaphragm rule printing alongside the field text, raw 80-86)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "CLINICAL USE\n\nTreats Giardia, Entamoeba, Trichomonas,\nGET GAP on the Metro with metronidazole!\nGardnerella vaginalis, Anaerobes (Bacteroides, Treats anaerobic infection below the diaphragm\nC difficile). Can be used in place of amoxicillin\nvs clindamycin (anaerobic infections above\nin H pylori “triple therapy” in case of penicillin diaphragm).\nallergy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The metronidazole card: ADVERSE EFFECTS (the disulfiram-like reaction)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "ADVERSE EFFECTS\n\nDisulfiram-like reaction (severe flushing,\ntachycardia, hypotension) with alcohol;\nheadache, metallic taste.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          213
+        ],
+        "bookPages": "191"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 191\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "folate-quinolone-map"
+  ],
+  "mechanismIds": [
+    "sequential-folate-blockade",
+    "nonribosomal-doors"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cards and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-gates-synthesis",
+      "summary": "The two-gates reading of the folate cascade (one lock static, both cidal; leucovorin rescues the marrow but never the idiosyncratic set or the potassium) plus the three-remaining-doors routing (gyrase with its age bookends, the surfactant exception, METRO RIDES LOW) — KYP's synthesis of the directory pages.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the cascade and the cards without the gate-lock routing system or the site-exception rules; both are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: both pages pure text (0 rasters); the folate cascade figure prints entirely in the text layer — an original KYP vector redraw (folate-quinolone-map). Interleave quirks documented: the figure's glyphs emit among the cards (gate 1 labels at raw 37-42 between the sulfa and dapsone cards; 'PABA + Pteridine' at 58 inside the dapsone adverse block; gate 2 labels at 63-69; the downstream products panel 97-107 AFTER the indd footer — page-end emission); on p213 the book-page number '191' prints mid-page (raw 41) and the metronidazole margin (GET GAP + the diaphragm rule) interleaves INTO the CLINICAL USE text (raw 80-86). The source's own margin mnemonics (TMP Treats Marrow Poorly at 93; the bones mnemonic at 47-48; Dapto-myo-skin at 66-69) are carried ONLY inside the verbatim tables per the E38 precedent — omitted from the visual and the KYP memory layer.",
+  "updatedAt": "2026-10-24"
+}

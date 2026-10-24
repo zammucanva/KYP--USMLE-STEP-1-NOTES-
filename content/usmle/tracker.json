@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-24T01:51:00Z",
+  "generatedAt": "2026-10-24T02:05:15Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 120,
+    "topicsProduced": 121,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 65,
+      "pilot-complete": 66,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 33,
-      "topicsRemaining": 6,
+      "topicsProduced": 34,
+      "topicsRemaining": 5,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -938,6 +938,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "dna-rna-folate-inhibitors",
+      "title": "DNA/RNA & Folate Pathway Inhibitors",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Antimicrobials",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 212, 213 (book 190–191)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-24"
     },
     {
       "topicId": "dna-viruses",
