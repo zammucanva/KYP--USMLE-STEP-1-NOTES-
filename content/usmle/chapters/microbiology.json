@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 8,
+  "pendingTopicCount": 7,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -5980,8 +5980,145 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Antimicrobials",
-      "status": "pending",
-      "productionRationale": "The beta-lactam family tree (penicillinase-sensitive/resistant, antipseudomonal, the cephalosporin generations with the 3rd-gen ceftriaxone/ceftazidime anchors) plus carbapenems, aztreonam, and vancomycin."
+      "status": "complete",
+      "productionRationale": "The beta-lactam family tree (penicillinase-sensitive/resistant, antipseudomonal, the cephalosporin generations with the 3rd-gen ceftriaxone/ceftazidime anchors) plus carbapenems, aztreonam, and vancomycin.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "cell-wall-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "cell-wall-inhibitors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              206
+            ],
+            "bookPages": "184–184"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The three penicillin cards (book 184)",
+          "sourceFigureDescription": "The printed drug-directory cards: penicillinase-sensitive (aminopenicillins), penicillinase-resistant (anti-staph), piperacillin — with their margin notes. Pure text, 0 rasters.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention (both columns: card fields + margin notes)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "cell-wall-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "cell-wall-inhibitors-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              207
+            ],
+            "bookPages": "185–185"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The cephalosporin card (book 185)",
+          "sourceFigureDescription": "The printed five-generation card: mechanism, the five clinical-use generation blocks, adverse effects, resistance — with its margin notes (including the source's own 'pseudomonaz' typo on the ceftazidime line). Pure text, 0 rasters.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block — carried verbatim (the generations-ladder panel of the registry visual is a separate KYP-original synthesis of the same facts)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "cell-wall-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "cell-wall-inhibitors-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              207
+            ],
+            "bookPages": "185–185"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The beta-lactamase-inhibitor card (book 185)",
+          "sourceFigureDescription": "The printed inhibitor card: clavulanic acid, avibactam, sulbactam, tazobactam + the CAST pairings margin. Pure text, 0 rasters.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block (last rows) — carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "cell-wall-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "cell-wall-inhibitors-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              208
+            ],
+            "bookPages": "186–186"
+          },
+          "visualType": "DERMATOLOGY_PHOTO",
+          "visualPurpose": "The vancomycin infusion-reaction clinical photograph (book 186)",
+          "sourceFigureDescription": "The page's single raster (188x188 cmyk jpeg, 150ppi): a clinical photograph of diffuse bright red flushing of the torso — the vancomycin infusion reaction. Marked with the boxed 'A' (standalone line-78 'A' in the text layer) linking it to the ADVERSE EFFECTS text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "beta-lactam-family-map",
+          "kypImplementation": "described-in-text",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's VANCOMYCIN panel + the note's book-186 table block bracket — a copyrighted patient photograph, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "beta-lactam-family-map",
+          "plannedImplementation": "described-in-text"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "cell-wall-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "cell-wall-inhibitors-sv5",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              208
+            ],
+            "bookPages": "186–186"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The carbapenems, aztreonam, and vancomycin cards (book 186)",
+          "sourceFigureDescription": "The printed last three cards of the directory, with their margin notes; vancomycin's resistance content prints after the indd footer (raw 84-85) — the physical-order interleave documented in the manifest.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[3] the table block — carried verbatim (the A-marker photograph described in the ADVERSE EFFECTS bracket)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "protein-synthesis-inhibitors",

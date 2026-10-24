@@ -4534,3 +4534,176 @@ export function AntimicrobialTargetMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M32 — Cell wall inhibitors: the β-lactam family map (an original KYP
+// synthesis of the drug directory, pdf 206-208 / books 184-186). The two wall
+// doors (⑨ the PBP weld, ⑧ the precursor grab); the penicillin tiers by
+// β-lactamase exposure; the five-generation cephalosporin ladder with the
+// fixed 1st-4th exclusion; the inhibitor bodyguards; the carbapenem trio;
+// the monobactam escape; the vancomycin panel. p206/p207 are pure text;
+// p208's one raster (the infusion-reaction clinical photo, the boxed-A
+// marker) is COPYRIGHTED — described in text only, never reproduced.
+// ---------------------------------------------------------------------------
+export function BetaLactamFamilyMap() {
+  const w = 980;
+  const h = 872;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cell wall inhibitors — the beta-lactam family map, an original KYP synthesis of the drug directory (books 184-186). LEFT — THE TWO WALL DOORS: door 9 the beta-lactams bind penicillin-binding proteins (transpeptidases) and freeze the cross-linking weld (aztreonam the monobactam does the same at PBP3 with no cross-allergenicity with penicillins); door 8 vancomycin binds the D-Ala-D-Ala portion of cell wall precursors upstream of any PBP, gram positive only, oral route for C difficile without absorption, escaped by the D-Ala-D-Lac terminal swap. MIDDLE LEFT — THE PENICILLIN TIERS BY BETA-LACTAMASE EXPOSURE: the aminopenicillins amoxicillin and ampicillin (wider spectrum: H influenzae, H pylori, E coli, enterococci, Listeria monocytogenes, Proteus mirabilis, Salmonella, Shigella; penicillinase sensitive, traveling with the clavulanate escort), the anti-staph trio dicloxacillin, nafcillin, oxacillin (the bulky R group physically blocks the enzyme; S aureus except MRSA), and piperacillin the antipseudomonal (Pseudomonas spp., gram negative rods, anaerobes; paired with tazobactam). MIDDLE RIGHT — THE FIVE-GENERATION CEPHALOSPORIN LADDER: 1st cefazolin and cephalexin (gram positive cocci plus the Proteus, E coli, Klebsiella urinary set; cefazolin for surgical prophylaxis), 2nd cefaclor, cefoxitin, cefuroxime, cefotetan (adds H influenzae, Enterobacter aerogenes, Neisseria, Serratia), 3rd ceftriaxone, cefpodoxime, ceftazidime, cefixime (serious gram negative; crosses the blood-brain barrier; ceftriaxone for meningitis, gonorrhea, disseminated Lyme; ceftazidime for Pseudomonas), 4th cefepime (stepped-up Pseudomonas activity), 5th ceftaroline (the only one covering MRSA and Enterococcus faecalis — still no Pseudomonas), with the fixed exclusion strip: 1st-4th never cover Listeria, the atypicals Chlamydia and Mycoplasma, MRSA, or enterococci. RIGHT — THE ESCORTS AND THE LAST CARDS: the beta-lactamase inhibitors clavulanic acid, avibactam, sulbactam, tazobactam with the pairings (amoxicillin-clavulanate, ceftazidime-avibactam, ampicillin-sulbactam, piperacillin-tazobactam); the carbapenem trio imipenem always with cilastatin the renal dehydropeptidase I inhibitor, meropenem with lower seizure risk and stable to the enzyme, ertapenem the one not active against Pseudomonas; and the monobactam aztreonam (PBP3, gram negative rods only, for the penicillin-allergic patient). BOTTOM — THE VANCOMYCIN PANEL at door 8: mechanism, gram-positive-only spectrum with the oral-route C difficile note, the toxicity set (nephrotoxicity, ototoxicity, thrombophlebitis, the rate-dependent infusion reaction prevented by slower infusion and antihistamines, DRESS), the clinical photograph described in text only (diffuse red flushing of the torso — the boxed-A image, a copyrighted patient photo, never reproduced), and the D-Ala-D-Lac resistance. A KYP synthesis strip reads the map by tier, ladder, escort, and door; the footer carries the source attribution, the census notes, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cell wall inhibitors — the β-lactam family map (original KYP synthesis)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">tier · ladder · escort · door</text>
+      </g>
+      {/* ===== THE TWO WALL DOORS ===== */}
+      <g>
+        <rect x="36" y="100" width="296" height="252" rx="24" className="fill-secondary/40 stroke-brand" />
+        <text x="184" y="118" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">The two wall doors</text>
+        <rect x="48" y="130" width="272" height="104" rx="10" className="fill-card stroke-border" />
+        <text x="184" y="146" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⑨ THE PBP WELD — the β-lactams</text>
+        <text x="60" y="160" fontSize="4.6" className="fill-foreground">D-Ala-D-Ala structural analogs → bind penicillin-binding</text>
+        <text x="60" y="170" fontSize="4.6" className="fill-foreground">proteins (transpeptidases) → cross-linking frozen →</text>
+        <text x="60" y="180" fontSize="4.6" className="fill-foreground">autolysins activated → osmotic lysis</text>
+        <text x="60" y="196" fontSize="4.2" className="fill-muted-foreground">aztreonam does the same at PBP3 — the monobactam</text>
+        <text x="60" y="206" fontSize="4.2" className="fill-muted-foreground">with NO cross-allergenicity with penicillins</text>
+        <text x="60" y="222" fontSize="4.4" fontWeight="700" className="fill-foreground">escapes: β-lactamase / cephalosporinase cleaves the ring;</text>
+        <text x="60" y="232" fontSize="4.4" fontWeight="700" className="fill-foreground">altered PBPs (MRSA) defeat every β-lactam at once</text>
+        <rect x="48" y="240" width="272" height="100" rx="10" className="fill-card stroke-border" />
+        <text x="184" y="256" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">⑧ THE PRECURSOR GRAB — vancomycin</text>
+        <text x="60" y="270" fontSize="4.6" className="fill-foreground">binds the D-Ala-D-Ala portion of cell-wall precursors,</text>
+        <text x="60" y="280" fontSize="4.6" className="fill-foreground">upstream of any PBP — the brick is never delivered</text>
+        <text x="60" y="296" fontSize="4.2" className="fill-muted-foreground">gram ⊕ bugs only · bacteriostatic against C difficile</text>
+        <text x="60" y="306" fontSize="4.2" className="fill-muted-foreground">oral route treats C difficile without absorption</text>
+        <text x="60" y="322" fontSize="4.4" fontWeight="700" className="fill-foreground">escape: the terminal tip swap D-Ala-D-Ala → D-Ala-D-Lac</text>
+        <text x="60" y="332" fontSize="4.4" className="fill-muted-foreground">two doors, two independent escape hatches</text>
+      </g>
+      {/* ===== PENICILLIN TIERS ===== */}
+      <g>
+        <rect x="36" y="372" width="296" height="316" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="392" fontSize="8" fontWeight="800" className="fill-foreground">THE PENICILLIN TIERS — by β-lactamase exposure</text>
+        <rect x="52" y="404" width="264" height="86" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="64" y="422" fontSize="6.0" fontWeight="800" className="fill-brand">AMPHED — the aminopenicillins</text>
+        <text x="64" y="434" fontSize="4.8" className="fill-foreground">Amoxicillin · Ampicillin — wider spectrum</text>
+        <text x="64" y="446" fontSize="4.2" className="fill-muted-foreground">H influenzae, H pylori, E coli, enterococci, Listeria</text>
+        <text x="64" y="456" fontSize="4.2" className="fill-muted-foreground">monocytogenes, Proteus mirabilis, Salmonella, Shigella</text>
+        <text x="64" y="470" fontSize="4.4" fontWeight="700" className="fill-foreground">penicillinase sensitive → clavulanate escort</text>
+        <text x="64" y="482" fontSize="4.0" className="fill-muted-foreground">amoxicillin {'>'} ampicillin in oral bioavailability</text>
+        <rect x="52" y="498" width="264" height="74" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="64" y="516" fontSize="6.0" fontWeight="800" className="fill-brand">ARMORED — the anti-staph penicillins</text>
+        <text x="64" y="528" fontSize="4.8" className="fill-foreground">Dicloxacillin · Nafcillin · Oxacillin</text>
+        <text x="64" y="540" fontSize="4.2" className="fill-muted-foreground">narrow spectrum — S aureus (except MRSA)</text>
+        <text x="64" y="554" fontSize="4.4" fontWeight="700" className="fill-foreground">penicillinase resistant: the bulky R group blocks</text>
+        <text x="64" y="564" fontSize="4.4" fontWeight="700" className="fill-foreground">β-lactamase access to the ring — a steric shield</text>
+        <rect x="52" y="580" width="264" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="64" y="598" fontSize="6.0" fontWeight="800" className="fill-brand">ESCORTED — the antipseudomonal</text>
+        <text x="64" y="610" fontSize="4.8" className="fill-foreground">Piperacillin — extended spectrum</text>
+        <text x="64" y="622" fontSize="4.2" className="fill-muted-foreground">Pseudomonas spp., gram ⊝ rods, anaerobes</text>
+        <text x="64" y="636" fontSize="4.4" fontWeight="700" className="fill-foreground">penicillinase sensitive → inhibitor pairing</text>
+        <text x="64" y="650" fontSize="4.0" className="fill-muted-foreground">the tier system in one line: exposure decides the escort</text>
+      </g>
+      {/* ===== CEPHALOSPORIN LADDER ===== */}
+      <g>
+        <rect x="348" y="100" width="300" height="588" rx="14" className="fill-card stroke-border" />
+        <text x="364" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE CEPHALOSPORIN LADDER — five generations</text>
+        <rect x="364" y="132" width="268" height="74" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="376" y="150" fontSize="6.0" fontWeight="800" className="fill-brand">1st — cefazolin, cephalexin</text>
+        <text x="376" y="162" fontSize="4.2" className="fill-foreground">gram ⊕ cocci + Proteus mirabilis, E coli,</text>
+        <text x="376" y="172" fontSize="4.2" className="fill-foreground">Klebsiella pneumoniae</text>
+        <text x="376" y="188" fontSize="4.2" className="fill-muted-foreground">cefazolin prior to surgery — S aureus wound prophylaxis</text>
+        <text x="376" y="200" fontSize="4.0" className="fill-muted-foreground">the ladder starts gram ⊕ and stays there</text>
+        <rect x="364" y="214" width="268" height="80" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="376" y="232" fontSize="6.0" fontWeight="800" className="fill-brand">2nd — cefaclor, cefoxitin, cefuroxime, cefotetan</text>
+        <text x="376" y="244" fontSize="4.2" className="fill-foreground">gram ⊕ cocci + H influenzae, Enterobacter</text>
+        <text x="376" y="254" fontSize="4.2" className="fill-foreground">aerogenes, Neisseria spp., Serratia marcescens</text>
+        <text x="376" y="270" fontSize="4.0" className="fill-muted-foreground">the gram ⊝ door opens halfway — keeps the 1st set</text>
+        <rect x="364" y="302" width="268" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="376" y="320" fontSize="6.0" fontWeight="800" className="fill-brand">3rd — ceftriaxone, cefpodoxime, ceftazidime, cefixime</text>
+        <text x="376" y="332" fontSize="4.2" className="fill-foreground">serious gram ⊝ infections resistant to other</text>
+        <text x="376" y="342" fontSize="4.2" className="fill-foreground">β-lactams — the BBB-crossing generation</text>
+        <text x="376" y="358" fontSize="4.2" className="fill-muted-foreground">ceftriaxone: meningitis · gonorrhea · disseminated Lyme</text>
+        <text x="376" y="370" fontSize="4.2" className="fill-muted-foreground">ceftazidime: the Pseudomonas pick of the rung</text>
+        <rect x="364" y="402" width="268" height="64" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="376" y="420" fontSize="6.0" fontWeight="800" className="fill-brand">4th — cefepime</text>
+        <text x="376" y="432" fontSize="4.2" className="fill-foreground">gram ⊝ organisms with ↑ activity against</text>
+        <text x="376" y="442" fontSize="4.2" className="fill-foreground">Pseudomonas and gram ⊕ organisms</text>
+        <rect x="364" y="474" width="268" height="74" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="376" y="492" fontSize="6.0" fontWeight="800" className="fill-brand">5th — ceftaroline</text>
+        <text x="376" y="504" fontSize="4.2" className="fill-foreground">broad gram ⊕ and gram ⊝ coverage — the only</text>
+        <text x="376" y="514" fontSize="4.2" className="fill-foreground">generation covering MRSA and E faecalis</text>
+        <text x="376" y="530" fontSize="4.2" fontWeight="700" className="fill-foreground">still does NOT cover Pseudomonas</text>
+        <rect x="364" y="556" width="268" height="114" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="376" y="574" fontSize="6.2" fontWeight="800" className="fill-foreground">THE FIXED EXCLUSION — 1st through 4th</text>
+        <text x="376" y="588" fontSize="4.6" className="fill-foreground">never cover: Listeria · the atypicals (Chlamydia,</text>
+        <text x="376" y="598" fontSize="4.6" className="fill-foreground">Mycoplasma) · MRSA · enterococci</text>
+        <text x="376" y="616" fontSize="4.2" className="fill-muted-foreground">the 5th generation is the only key: ceftaroline lifts the</text>
+        <text x="376" y="626" fontSize="4.2" className="fill-muted-foreground">MRSA/enterococci ban — the Pseudomonas gap stays</text>
+        <text x="376" y="646" fontSize="4.2" className="fill-muted-foreground">adverse effects: hypersensitivity, autoimmune hemolytic</text>
+        <text x="376" y="656" fontSize="4.2" className="fill-muted-foreground">anemia, disulfiram-like reaction, vitamin K deficiency;</text>
+        <text x="376" y="666" fontSize="4.2" className="fill-muted-foreground">low cross-reactivity even in penicillin-allergic patients</text>
+      </g>
+      {/* ===== INHIBITORS + CARBAPENEMS + MONOBACTAM ===== */}
+      <g>
+        <rect x="664" y="100" width="280" height="588" rx="14" className="fill-card stroke-border" />
+        <text x="680" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The escorts and the last cards</text>
+        <rect x="680" y="132" width="248" height="96" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="692" y="150" fontSize="6.0" fontWeight="800" className="fill-brand">THE β-LACTAMASE INHIBITORS — the bodyguards</text>
+        <text x="692" y="162" fontSize="4.8" className="fill-foreground">Clavulanic acid · Avibactam · Sulbactam · Tazobactam</text>
+        <text x="692" y="176" fontSize="4.2" className="fill-muted-foreground">added to penicillins to protect the antibiotic from</text>
+        <text x="692" y="186" fontSize="4.2" className="fill-muted-foreground">destruction by β-lactamase</text>
+        <text x="692" y="202" fontSize="4.2" className="fill-foreground">pairings: amoxicillin-clavulanate ·</text>
+        <text x="692" y="212" fontSize="4.2" className="fill-foreground">ceftazidime-avibactam · ampicillin-sulbactam ·</text>
+        <text x="692" y="222" fontSize="4.2" className="fill-foreground">piperacillin-tazobactam</text>
+        <rect x="680" y="236" width="248" height="124" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="692" y="254" fontSize="6.0" fontWeight="800" className="fill-brand">THE CARBAPENEM TRIO — three personalities</text>
+        <text x="692" y="268" fontSize="4.8" className="fill-foreground">Imipenem — ALWAYS with cilastatin</text>
+        <text x="692" y="279" fontSize="4.2" className="fill-muted-foreground">renal dehydropeptidase I inhibitor; without it the</text>
+        <text x="692" y="289" fontSize="4.2" className="fill-muted-foreground">tubule enzyme inactivates the drug in the kidney</text>
+        <text x="692" y="303" fontSize="4.8" className="fill-foreground">Meropenem — ↓ seizure risk, stable to the enzyme</text>
+        <text x="692" y="314" fontSize="4.2" className="fill-muted-foreground">CNS toxicity (seizures) at high plasma levels is the</text>
+        <text x="692" y="324" fontSize="4.2" className="fill-muted-foreground">family's dose-limiting adverse effect</text>
+        <text x="692" y="338" fontSize="4.8" className="fill-foreground">Ertapenem — NOT active against Pseudomonas</text>
+        <text x="692" y="349" fontSize="4.2" className="fill-muted-foreground">reserved for life-threatening infections or after</text>
+        <text x="692" y="359" fontSize="4.2" className="fill-muted-foreground">other drugs have failed; resistance: carbapenemases</text>
+        <rect x="680" y="368" width="248" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="692" y="386" fontSize="6.0" fontWeight="800" className="fill-brand">THE MONOBACTAM — the allergenicity escape</text>
+        <text x="692" y="398" fontSize="4.8" className="fill-foreground">Aztreonam — binds PBP3</text>
+        <text x="692" y="410" fontSize="4.2" className="fill-muted-foreground">gram ⊝ rods only; no gram ⊕ rods, no anaerobes</text>
+        <text x="692" y="424" fontSize="4.4" fontWeight="700" className="fill-foreground">NO cross-allergenicity with penicillins —</text>
+        <text x="692" y="434" fontSize="4.4" fontWeight="700" className="fill-foreground">the door ⑨ pick for the penicillin-allergic patient</text>
+        <text x="692" y="448" fontSize="4.0" className="fill-muted-foreground">synergistic with aminoglycosides; usually nontoxic</text>
+        <rect x="680" y="468" width="248" height="206" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="692" y="486" fontSize="6.2" fontWeight="800" className="fill-foreground">VANCOMYCIN — the door ⑧ panel</text>
+        <text x="692" y="500" fontSize="4.6" className="fill-foreground">mechanism: binds the D-Ala-D-Ala portion of cell-wall</text>
+        <text x="692" y="510" fontSize="4.6" className="fill-foreground">precursors — peptidoglycan formation stops upstream</text>
+        <text x="692" y="524" fontSize="4.4" className="fill-foreground">spectrum: gram ⊕ bugs only — MRSA, S epidermidis,</text>
+        <text x="692" y="534" fontSize="4.4" className="fill-foreground">sensitive enterococci; oral route for C difficile</text>
+        <text x="692" y="544" fontSize="4.0" className="fill-muted-foreground">(not absorbed — the lumen dose treats the colon)</text>
+        <text x="692" y="560" fontSize="4.4" className="fill-foreground">toxicities: nephrotoxicity · ototoxicity ·</text>
+        <text x="692" y="570" fontSize="4.4" className="fill-foreground">thrombophlebitis · DRESS syndrome</text>
+        <text x="692" y="586" fontSize="4.4" fontWeight="700" className="fill-foreground">the infusion reaction: diffuse flushing, rate-dependent —</text>
+        <text x="692" y="596" fontSize="4.4" fontWeight="700" className="fill-foreground">prevent by SLOWER infusion + antihistamines; not an allergy</text>
+        <text x="692" y="612" fontSize="4.0" className="fill-muted-foreground">the boxed-A clinical photograph printed on the source page —</text>
+        <text x="692" y="622" fontSize="4.0" className="fill-muted-foreground">diffuse red flushing of the torso — is COPYRIGHTED:</text>
+        <text x="692" y="632" fontSize="4.0" className="fill-muted-foreground">described here in text only, never reproduced</text>
+        <text x="692" y="648" fontSize="4.4" className="fill-foreground">resistance (Enterococcus): the terminal tip swap —</text>
+        <text x="692" y="658" fontSize="4.4" className="fill-foreground">D-Ala-D-Ala → D-Ala-D-Lac; the grab slips</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="708" width="908" height="96" rx="14" className="fill-brand-soft/30 stroke-border" />
+        <text x="52" y="728" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — tier · ladder · escort · door (original KYP synthesis)</text>
+        <text x="52" y="746" fontSize="4.8" className="fill-muted-foreground">TIER: the penicillins route by β-lactamase exposure — sensitive (aminopenicillins, antipseudomonal) travel with inhibitor bodyguards; resistant (the anti-staph trio) carry the bulky R group. LADDER: each cephalosporin generation steps down the gram ⊝ ladder while keeping gram ⊕ — 3rd crosses the BBB, 4th adds Pseudomonas</text>
+        <text x="52" y="757" fontSize="4.8" className="fill-muted-foreground">activity, 5th breaks the MRSA/E faecalis exclusion. ESCORT: clavulanate, avibactam, sulbactam, tazobactam exist so the sensitive tiers survive enzyme-rich territory. DOOR: ⑨ the PBP weld (every β-lactam, aztreonam at PBP3) vs ⑧ the precursor grab (vancomycin) — the door sets the escape:</text>
+        <text x="52" y="768" fontSize="4.8" className="fill-muted-foreground">altered PBPs defeat all β-lactams at once (MRSA); the D-Ala-D-Lac tip swap defeats only vancomycin (VRE). The carbapenem trio completes ⑨: imipenem never walks alone (cilastatin), meropenem spares seizures, ertapenem skips Pseudomonas.</text>
+        <text x="52" y="790" fontSize="4.4" className="fill-muted-foreground">Printed facts carried: the ceftazidime line's source margin prints its own typo 'pseudomonaz' (book 185) — documented; this visual prints Pseudomonas.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="828" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 184-186 (pdf 206-208) — the antimicrobial drug directory continued from book 183. Census: p206 and p207 are pure text (0 rasters); p208 carries exactly one raster — the 188×188 cmyk clinical photograph of the vancomycin infusion reaction (the boxed-A marker), COPYRIGHTED and therefore described in text only. The chapter banner</text>
+        <text x="24" y="839" fontSize="4.6" className="fill-muted-foreground">typo MICROCIOLOGY—ANTIMICROCIALS prints on all three pages. The source's own margin mnemonics (its letter-acronym coverage sets) are omitted from this visual per the copyright boundary — they are carried only inside the note's verbatim table blocks as source provenance, never as KYP memory aids.</text>
+      </g>
+    </svg>
+  );
+}

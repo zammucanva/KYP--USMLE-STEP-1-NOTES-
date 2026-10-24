@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-23T13:08:25Z",
+  "generatedAt": "2026-10-24T01:43:11Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 118,
+    "topicsProduced": 119,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 63,
+      "pilot-complete": 64,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 31,
-      "topicsRemaining": 8,
+      "topicsProduced": 32,
+      "topicsRemaining": 7,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -683,6 +683,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "cell-wall-inhibitors",
+      "title": "Cell Wall Inhibitors: Penicillins, Cephalosporins, Carbapenems, Vancomycin",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Antimicrobials",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 206, 207, 208 (book 184–186)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-24"
     },
     {
       "topicId": "cestodes-trematodes",

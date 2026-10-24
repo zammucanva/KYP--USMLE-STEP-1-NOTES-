@@ -1,0 +1,731 @@
+{
+  "topicId": "cell-wall-inhibitors",
+  "title": "Cell Wall Inhibitors: Penicillins, Cephalosporins, Carbapenems, Vancomycin",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      206,
+      207,
+      208
+    ],
+    "bookPages": "184–186"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "184",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio (the SEC TION split print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "SEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins card: tier heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Penicillinase-sensitive\npenicillins\n\nAmoxicillin, ampicillin; aminopenicillins.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins card: MECHANISM block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Same as penicillin. Wider spectrum;\npenicillinase sensitive. Also combine with\nclavulanic acid to protect against destruction\nby β-lactamase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins margin note (emitting mid-page, before CLINICAL USE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Aminopenicillins are amped-up penicillin.\nAmoxicillin has greater oral bioavailability than\nampicillin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Extended-spectrum penicillin—H influenzae,\nH pylori, E coli, Enterococci, Listeria\nmonocytogenes, Proteus mirabilis, Salmonella,\nShigella.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins coverage margin note (emitting after ADVERSE EFFECTS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Coverage: ampicillin/amoxicillin HHEELPSS\nkill enterococci.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Hypersensitivity reactions, rash,\npseudomembranous colitis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminopenicillins card: MECHANISM OF RESISTANCE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Penicillinase (a type of β-lactamase) cleaves\nβ-lactam ring.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-staph card: tier heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Penicillinase-resistant\npenicillins\n\nDicloxacillin, nafcillin, oxacillin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-staph card: MECHANISM block (the bulky R group)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Same as penicillin. Narrow spectrum;\npenicillinase resistant because bulky R group\nblocks access of β-lactamase to β-lactam ring.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-staph card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "S aureus (except MRSA).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-staph card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Hypersensitivity reactions, interstitial nephritis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-staph card: MECHANISM OF RESISTANCE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "MRSA has altered penicillin-binding protein\ntarget site.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The piperacillin card: heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Piperacillin\n\nAntipseudomonal penicillin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The piperacillin card: MECHANISM block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Same as penicillin. Extended spectrum. Penicillinase sensitive; use with β-lactamase inhibitors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The piperacillin card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Pseudomonas spp., gram ⊝ rods, anaerobes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The piperacillin card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "Hypersensitivity reactions.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + the anti-staph margin note + the timestamp (the margin note emits BETWEEN the footer and the timestamp — page-end physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          206
+        ],
+        "bookPages": "184"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 184\n\n“Use naf (nafcillin) for staph.”\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + printed book-page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nSEC TION II\n\n185",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: heading + MECHANISM block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "Cephalosporins\nMECHANISM\n\nβ-lactam drugs that inhibit cell wall synthesis\nbut are less susceptible to penicillinases.\nBactericidal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LAME margin block (the source's own exclusion note, emitting before CLINICAL USE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "Organisms typically not covered by 1st-4th\ngeneration cephalosporins are LAME:\nListeria, Atypicals (Chlamydia, Mycoplasma),\nMRSA, and Enterococci.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: 1st generation block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "1st generation (cefazolin, cephalexin)—gram ⊕\ncocci, Proteus mirabilis, E coli, Klebsiella\npneumoniae. Cefazolin used prior to surgery to\nprevent S aureus wound infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: 2nd generation block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "2nd generation (cefaclor, cefoxitin, cefuroxime,\ncefotetan)—gram ⊕ cocci, H influenzae,\nEnterobacter aerogenes, Neisseria spp., Serratia\nmarcescens, Proteus mirabilis, E coli, Klebsiella\npneumoniae.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: 3rd generation block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "3rd generation (ceftriaxone, cefpodoxime,\nceftazidime, cefixime)—serious gram ⊝\ninfections resistant to other β-lactams.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 1st-generation margin note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "1st generation—⊕ PEcK.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 2nd-generation margin notes (the fox-fur line + HENS PEcK)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "2nd graders wear fake fox fur to tea parties.\n2nd generation—⊕ HENS PEcK.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 3rd-generation margin notes (BBB + ceftriaxone anchors + the ceftazidime line carrying the source's own 'pseudomonaz' typo)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "Can cross blood-brain barrier.\nCeftriaxone—meningitis, gonorrhea,\ndisseminated Lyme disease.\nCeftazidime for pseudomonaz.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: 4th generation block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "4th generation (cefepime)—gram ⊝ organisms,\nwith ↑ activity against Pseudomonas and gram\n⊕ organisms.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: 5th generation block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "5th generation (ceftaroline)—broad gram ⊕\nand gram ⊝ organism coverage; unlike 1st-4th\ngeneration cephalosporins, ceftaroline covers\nMRSA, and Enterococcus faecalis—does not\ncover Pseudomonas.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: ADVERSE EFFECTS block (the crossreactivity hyphen-drop)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "Hypersensitivity reactions, autoimmune\nhemolytic anemia, disulfiram-like reaction,\nvitamin K deficiency. Low rate of crossreactivity even in penicillin-allergic patients.\n↑ nephrotoxicity of aminoglycosides.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cephalosporin card: MECHANISM OF RESISTANCE block (the penicillinbinding hyphen-drop)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "Inactivated by cephalosporinases (a type of\nβ-lactamase). Structural change in penicillinbinding proteins (transpeptidases).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The beta-lactamase-inhibitor card (full block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "β-lactamase inhibitors\n\nInclude Clavulanic acid, Avibactam,\nSulbactam, Tazobactam. Often added to\npenicillin antibiotics to protect the antibiotic\nfrom destruction by β-lactamase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + the CAST margin + the timestamp (the CAST pairings emit after the footer — page-end physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          207
+        ],
+        "bookPages": "185"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 185\n\nCAST (eg, amoxicillin-clavulanate,\nceftazidime-avibactam, ampicillin-sulbactam,\npiperacillin-tazobactam).\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "186",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio (the SEC TION split print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "SEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems card: heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Carbapenems\n\nImipenem, meropenem, ertapenem.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems card: MECHANISM block (the C1-control-prefixed arrows → — the normalizer strips them)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Imipenem is a broad-spectrum, β-lactamase–\nresistant carbapenem. Binds penicillin-binding\nproteins →  inhibition of cell wall synthesis → \ncell death. Always administered with cilastatin\n(inhibitor of renal dehydropeptidase I) to ↓\ninactivation of drug in renal tubules.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Gram ⊕ cocci, gram ⊝ rods, and anaerobes.\nWide spectrum and significant adverse effects\nlimit use to life-threatening infections or\nafter other drugs have failed. Meropenem\nhas a ↓ risk of seizures and is stable to\ndehydropeptidase I.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "GI distress, rash, and CNS toxicity (seizures) at\nhigh plasma levels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems card: MECHANISM OF RESISTANCE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Inactivated by carbapenemases produced by,\neg, K pneumoniae, E coli, Klebsiella aerogenes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carbapenems margin notes (the kill-is-lastin line + the ertapenem-Pseudomonas note, emitting mid-page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "With imipenem, “the kill is lastin’ with\ncilastatin.”\nUnlike other carbapenems, ertapenem is not\nactive against Pseudomonas.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aztreonam card: heading + MECHANISM block (the penicillinbinding hyphen-drop)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Aztreonam\nMECHANISM\n\nLess susceptible to β-lactamases. Prevents peptidoglycan cross-linking by binding to penicillinbinding protein 3. Synergistic with aminoglycosides. No cross-allergenicity with penicillins.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aztreonam card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Gram ⊝ rods only—no activity against gram ⊕ rods or anaerobes. For penicillin-allergic patients\nand those with renal insufficiency who cannot tolerate aminoglycosides.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aztreonam card: ADVERSE EFFECTS block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Usually nontoxic; occasional GI upset.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vancomycin card: heading + MECHANISM block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Vancomycin\nMECHANISM\n\nInhibits cell wall peptidoglycan formation by binding D-Ala-D-Ala portion of cell wall precursors.\nBactericidal against most bacteria (bacteriostatic against C difficile). Not susceptible to\nβ-lactamases.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vancomycin card: CLINICAL USE block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Gram ⊕ bugs only—for serious, multidrug-resistant organisms, including MRSA, S epidermidis,\nsensitive Enterococcus species, and C difficile (oral route).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vancomycin card: ADVERSE EFFECTS block + the standalone boxed-A marker line (the line-78 'A' — the clinical photo's marker glyph)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "Well tolerated in general but not trouble free: nephrotoxicity, ototoxicity, thrombophlebitis,\ndiffuse flushing (vancomycin infusion reaction A —idiopathic reaction largely preventable by\npretreatment with antihistamines and slower infusion rate), DRESS syndrome.\n\nA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vancomycin MECHANISM OF RESISTANCE heading + the indd footer + its content + the margin note (the heading 80 separated from its content 84-85 BY the footer 82 — the page's physical-order interleave; the content prints after the footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nFAS1_2026_03-Microbiology.indd 186\n\nOccurs in bacteria (eg, Enterococcus) via amino acid modification of D-Ala-D-Ala to D-Ala-D-Lac.\n“If you Lack a D-Ala (dollar), you can’t ride the van (vancomycin).”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          208
+        ],
+        "bookPages": "186"
+      },
+      "quote": "12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "beta-lactam-family-map"
+  ],
+  "mechanismIds": [
+    "beta-lactam-door-logic",
+    "wall-two-doors"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the drug cards; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "tier-ladder-door-synthesis",
+      "summary": "The four routing axes of the wall directory — tier (penicillins by beta-lactamase exposure), ladder (five cephalosporin generations with the fixed 1st-4th exclusion), escort (the four inhibitor bodyguards), and door (the 9-vs-8 split that sets the resistance route) — with the two-independent-escape-hatches reading of MRSA vs VRE.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the cards as an alphabetical-adjacent directory without a routing system; the tier/ladder/escort/door axes and the escape-hatch comparison are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p206/p207 pure text (0 rasters); p208 one 188x188 cmyk raster — the vancomycin infusion-reaction clinical photograph (boxed-A marker; standalone line-78 'A'), COPYRIGHTED: described-in-text only. Interleave quirks: the margin notes emit at page end (p206 'Use naf...' at 87 between the indd footer 85 and the timestamp 89; p207 CAST at 75-77 after the footer 73; p208 vancomycin's resistance content at 84-85 AFTER the footer 82, its heading 80 separated from its content by the footer). The source's own margin typo 'pseudomonaz' (book 185, line 44) carried verbatim in the note-block tables; hyphen-drops 'crossreactivity' (207:58) and 'penicillinbinding' (207:64; 208:49). The source's own margin mnemonics (HHEELPSS, LAME, PEcK, HENS PEcK, fox-fur, kill-is-lastin, Lack-a-D-Ala, CAST) are carried ONLY inside the verbatim note-block tables as source provenance per the verbatim-table precedent (E38) — omitted from the registry visual and from the KYP memory layer, which carries original mnemonics instead (PLAIN-AMPED-ARMORED-ESCORTED / 1-2-3-4-5 ladder / THE TIP SWAP / NEVER ALONE).",
+  "updatedAt": "2026-10-24"
+}
