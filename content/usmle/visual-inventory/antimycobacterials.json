@@ -1,0 +1,127 @@
+{
+  "topicId": "antimycobacterials",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antimycobacterials",
+      "requiredInKYP": true,
+      "visualId": "antimycobacterials-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192–192"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The MYCOBACTERIAL CELL schematic (book 192)",
+      "sourceFigureDescription": "The line-art cross-section (labels in the text layer; background is the decorative 1×1+smask wash): the cell wall layers, plasma membrane, interior with the four labeled synthesis doors and the INTRACELLULAR/Pyrazinamide + rifamycin labels; the rotated rim labels emit split mid-word.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "tb-drug-regimen-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the mycobacterial-cell panel of the registry visual — the four doors with the wall layers redrawn clean",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "tb-drug-regimen-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antimycobacterials",
+      "requiredInKYP": true,
+      "visualId": "antimycobacterials-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192–192"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The antituberculous drugs table (book 192)",
+      "sourceFigureDescription": "The 4-column table (DRUG | MECHANISM | ADVERSE EFFECTS | NOTES) with the Rifamycins, Isoniazid, Pyrazinamide, and Ethambutol rows — including the source's own NOTES-column mnemonics.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antimycobacterials",
+      "requiredInKYP": true,
+      "visualId": "antimycobacterials-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193–193"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The antimycobacterial therapy table (book 193)",
+      "sourceFigureDescription": "The three-species prophylaxis/treatment map (M tuberculosis, M avium–intracellulare, M leprae) — with the 'CACTERIUM' header quirk documented.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antimycobacterials",
+      "requiredInKYP": true,
+      "visualId": "antimycobacterials-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193–193"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The antimicrobial prophylaxis table (book 193)",
+      "sourceFigureDescription": "The general prophylaxis table (CLINICAL SCENARIO | MEDICATION) — the eight rows from meningococcal exposure to rheumatic fever.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[3] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "antimycobacterials",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The MYCOBACTERIAL CELL schematic (line art + decorative wash; VLM-census confirmed) is the registry visual — an original KYP vector redraw preserving the four labeled doors. The three printed tables are note-block verbatim adaptations. The source's own NOTES mnemonics are carried only inside the verbatim tables; nothing reproduced."
+}

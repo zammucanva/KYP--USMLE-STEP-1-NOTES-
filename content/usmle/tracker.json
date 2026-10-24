@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-24T02:05:15Z",
+  "generatedAt": "2026-10-24T02:15:17Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 121,
+    "topicsProduced": 122,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 66,
+      "pilot-complete": 67,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 34,
-      "topicsRemaining": 5,
+      "topicsProduced": 35,
+      "topicsRemaining": 4,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -458,6 +458,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-23"
+    },
+    {
+      "topicId": "antimycobacterials",
+      "title": "Antimycobacterial Therapy",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Antimicrobials",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 214, 215 (book 192–193)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 2,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-24"
     },
     {
       "topicId": "atherosclerosis",

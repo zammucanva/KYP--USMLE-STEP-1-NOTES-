@@ -1,0 +1,431 @@
+{
+  "topicId": "antimycobacterials",
+  "title": "Antimycobacterial Therapy",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      214,
+      215
+    ],
+    "bookPages": "192–193"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "192",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio (the SEC TION split print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "192\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table headers (Antituberculous drugs · DRUG · MECHANISM · ADVERSE EFFECTS · NOTES)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Antituberculous drugs\nDRUG\n\nMECHANISM\n\nADVERSE EFFECTS\n\nNOTES\n\nRifamycins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rifamycins row: drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Rifamycins\nRifampin, rifabutin,\nrifapentine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rifamycins row: MECHANISM (the C1-prefixed arrows; RNA-polymerase resistance)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Inhibit DNA-dependent RNA\npolymerase →  ↓ mRNA\nsynthesis\nRifamycin resistance arises\ndue to mutations in gene\nencoding RNA polymerase",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rifamycins row: ADVERSE EFFECTS (CYP450 induction, red-orange discoloration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Minor hepatotoxicity, drug\ninteractions (CYP450\ninduction), red-orange\ndiscoloration of body fluids\n(nonhazardous adverse effect)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rifamycins row: NOTES (rifabutin in HIV; monotherapy resistance)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Rifabutin favored over rifampin\nin patients with HIV infection\ndue to less CYP450 induction\nMonotherapy rapidly leads to\nresistance",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Isoniazid row: MECHANISM (mycolic acid; katG activation; katG resistance)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Isoniazid\n\nInhibits mycolic acid synthesis\n→  ↓ cell wall synthesis\nBacterial catalase-peroxidase\n(encoded by katG) is needed\nto convert INH to active form\nINH resistance arises due to\nmutations in katG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Isoniazid row: ADVERSE EFFECTS (B6 deficiency, hepatotoxicity, lupus, refractory seizures)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Vitamin B6 deficiency\n(peripheral neuropathy,\nsideroblastic anemia),\nhepatotoxicity, drug\ninteractions (CYP450\ninhibition), drug-induced\nlupus\nINH overdose can lead to\nseizures (often refractory to\nbenzodiazepines)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Isoniazid row: NOTES (pyridoxine + the source's own mnemonic; acetylator half-lives)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Administer with pyridoxine\n(vitamin B6)\nINH Injures Neurons and\nHepatocytes (↑ risk of\nhepatotoxicity with ↑ age and\nalcohol overuse)\nDifferent INH half-lives in fast\nvs slow acetylators",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pyrazinamide row: MECHANISM + ADVERSE + NOTES (mechanism uncertain; acidic pH)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Pyrazinamide\n\nMechanism uncertain\n\nHepatotoxicity, hyperuricemia\n\nWorks best at acidic pH (eg, in\nhost phagolysosomes)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ethambutol row: MECHANISM (arabinosyltransferase; the C1-prefixed arrows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Ethambutol\n\nInhibits arabinosyltransferase\n→  ↓ arabinogalactan synthesis\n→  ↓ cell wall synthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ethambutol row: ADVERSE EFFECTS (optic neuropathy) + NOTES (the source's own pronunciation gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "Optic neuropathy (red-green\ncolor blindness or ↓ visual\nacuity, typically reversible)\n\nPronounce “eyethambutol”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MYCOBACTERIAL CELL figure — the schematic's labels emitting after the indd footer (raw 92-155: the interior doors, the split rim labels, the INTRACELLULAR + Pyrazinamide + rifamycin labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "MYCOBACTERIAL CELL\n\nIsoniazid\n\n–\n\nFAS1_2026_03-Microbiology.indd 192\n\nInterior of cell\n\nDNA\n\n–\n\nmRNA SYNTHESIS\n(DNA-dependent\nRNA polymerase)\n\nmRNA\n\nRNA\npolymerase\n\nARABINOGALACTAN\nSYNTHESIS\n(arabinosyltransferase)\nEthambutol\n\nPlasma\nmembrane\n\nArab\ninog\nala\nc\nPep\ntido tan\ngly\ncan\n\nMYCOLIC ACID\nSYNTHESIS\n\nMyc\nolic\nacid\n\nA\ncomp\nlex f cyl lipid\nree\nlipi s,\nds\n\nCell wall\n\n–\n\nRifabutin\nRifampin\nRifapentine\nINTRACELLULAR\n(unclear mechanism)\nPyrazinamide",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          214
+        ],
+        "bookPages": "192"
+      },
+      "quote": "12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed book-page number '193' (mid-page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "193",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapy-table headers (Antimycobacterial therapy; the header quirk 'CACTERIUM' — the MYCOB prefix lost in extraction)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "Antimycobacterial therapy\nCACTERIUM\n\nPROPHYLAXIS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M tuberculosis row (prophylaxis + RIPE treatment)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "M tuberculosis\n\nRifamycin-based regimen for 3-4 months\n\nRifampin, Isoniazid, Pyrazinamide,\nEthambutol (RIPE for treatment)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M avium–intracellulare row (azithromycin/rifabutin; the macrolide-anchored treatment)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "M avium–intracellulare\n\nAzithromycin, rifabutin\n\nAzithromycin or clarithromycin + ethambutol\nCan add rifabutin or ciprofloxacin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "M leprae row (dapsone + rifampin; clofazimine for lepromatous)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "M leprae\n\nN/A\n\nLong-term treatment with dapsone and rifampin\nfor tuberculoid form\nAdd clofazimine for lepromatous form",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prophylaxis-table headers (Antimicrobial prophylaxis · CLINICAL SCENARIO · MEDICATION)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "Antimicrobial\nprophylaxis\n\nCLINICAL SCENARIO\n\nMEDICATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prophylaxis rows 1-2 (meningococcal exposure; IE procedures)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "Exposure to meningococcal infection\n\nCeftriaxone, ciprofloxacin, or rifampin\n\nHigh risk for infective endocarditis and\nundergoing surgical or dental procedures\n\nAmoxicillin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prophylaxis rows 3-4 (recurrent UTIs; malaria)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "History of recurrent UTIs\n\nTMP-SMX\n\nMalaria prophylaxis for travelers\n\nAtovaquone-proguanil, mefloquine, doxycycline,\nprimaquine, or chloroquine (for areas with\nsensitive species)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prophylaxis rows 5-6 (GBS pregnancy; newborn gonococcal conjunctivitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "Pregnant patients carrying group B strep\n\nIntrapartum penicillin G or ampicillin\n\nPrevention of gonococcal conjunctivitis in\nnewborn\n\nErythromycin ointment on eyes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Prophylaxis rows 7-8 (postsurgical S aureus; rheumatic fever)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "Prevention of postsurgical infection due to\nS aureus\n\nCefazolin; vancomycin if ⊕ for MRSA\n\nProphylaxis of strep pharyngitis in child with\nprior rheumatic fever\n\nBenzathine penicillin G or oral penicillin V",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          215
+        ],
+        "bookPages": "193"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 193\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "tb-drug-regimen-map"
+  ],
+  "mechanismIds": [
+    "ripe-four-doors",
+    "mycobacteria-therapy-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the tables and the schematic; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "polarity-pair-synthesis",
+      "summary": "The CYP450 polarity-pair reading of RIPE (rifampin induces while INH inhibits — opposite polarities co-prescribed) plus the partnerships system (pyridoxine, visual monitoring, uric acid, LFTs) and the four-door cell reading — KYP's synthesis of the regimen.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rows without the polarity-pair or partnership framing; both are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p214's only image is the decorative 1×1+smask color wash behind the line-art MYCOBACTERIAL CELL schematic (VLM-census confirmed); p215 pure text. Quirks documented: the 'CACTERIUM' header (MYCOB prefix lost in extraction); the schematic's rotated rim labels split mid-word with the figure emitting after the indd footer (raw 92-155); the source's own NOTES mnemonics ('INH Injures Neurons and Hepatocytes', 'Pronounce eyethambutol') carried ONLY inside the verbatim tables per the E38 precedent — omitted from the visual and the KYP memory layer; the C1-prefixed arrows on the mechanism rows (normalizer strips).",
+  "updatedAt": "2026-10-24"
+}

@@ -5012,3 +5012,186 @@ export function FolateQuinoloneMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M35 — Antimycobacterial therapy: the TB drug regimen map (an original KYP
+// redraw of the source's MYCOBACTERIAL CELL schematic, pdf 214 / book 192 —
+// line art whose labels print in the text layer; the page's only image is a
+// 1x1-pixel solid stretched behind the figure through a 1621x1323 smooth
+// mask — a decorative color wash, confirmed by VLM census). The cell with
+// its four doors (mRNA synthesis/DNA-dependent RNA polymerase — the
+// rifamycins; mycolic acid synthesis — INH; arabinogalactan synthesis/
+// arabinosyltransferase — ethambutol; the intracellular acidic door —
+// pyrazinamide), the RIPE regimen panel with signature toxicities, the
+// three-species therapy map, and the prophylaxis strip. The source's own
+// NOTES-column mnemonics are omitted per the copyright boundary — carried
+// only in the note's verbatim tables.
+// ---------------------------------------------------------------------------
+export function TbDrugRegimenMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antimycobacterial therapy — the TB drug regimen map, an original KYP redraw of the source's mycobacterial cell schematic (book 192). LEFT — THE MYCOBACTERIAL CELL: a cross-section with the plasma membrane, the layered cell wall (a complex of free lipids, mycolic acid, arabinogalactan, peptidoglycan — the source's rotated rim labels print split mid-word and are redrawn clean) and the interior with its four doors: mRNA SYNTHESIS (DNA-dependent RNA polymerase — the rifamycin door: rifampin, rifabutin, rifapentine), MYCOLIC ACID SYNTHESIS (the isoniazid door — the katG-activated prodrug), ARABINOGALACTAN SYNTHESIS (arabinosyltransferase — the ethambutol door), and the INTRACELLULAR acidic door (pyrazinamide — works best at phagolysosomal pH). MIDDLE — THE RIPE REGIMEN panel: each drug's one-line mechanism, signature toxicity (rifamycins: CYP450 induction + red-orange body fluids, nonhazardous; INH: B6 deficiency with peripheral neuropathy and sideroblastic anemia, hepatotoxicity rising with age and alcohol, CYP450 inhibition, drug-induced lupus; PZA: hepatotoxicity and hyperuricemia; ethambutol: the typically reversible optic neuropathy), the partnerships (pyridoxine with INH, visual monitoring on ethambutol), and the resistance routes (RNA-polymerase mutations; katG mutations — monotherapy rapidly leads to resistance). RIGHT — THE THREE-SPECIES THERAPY MAP: M tuberculosis (prophylaxis a rifamycin-based 3-4-month regimen; treatment RIPE), M avium-intracellulare (azithromycin, rifabutin prophylaxis; azithromycin or clarithromycin + ethambutol treatment), M leprae (dapsone + rifampin for the tuberculoid form; add clofazimine for the lepromatous form); below it the antimicrobial prophylaxis strip (meningococcus, IE procedures, recurrent UTIs, malaria, GBS pregnancy, newborn eyes, postsurgical S aureus, rheumatic fever). A KYP synthesis strip reads the map by door, activation, and species; the footer carries the source attribution, the census notes, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antimycobacterial therapy — the TB drug regimen map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">door · activation · species</text>
+      </g>
+      {/* ===== LEFT — the mycobacterial cell ===== */}
+      <g>
+        <rect x="36" y="100" width="340" height="560" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE MYCOBACTERIAL CELL — four doors</text>
+        <rect x="52" y="134" width="308" height="118" rx="12" className="fill-card stroke-border" />
+        <text x="206" y="152" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">CELL WALL — the waxy outer layers</text>
+        <rect x="64" y="160" width="80" height="30" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="104" y="179" textAnchor="middle" fontSize="4.2" className="fill-foreground">free lipids</text>
+        <rect x="152" y="160" width="80" height="30" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="192" y="179" textAnchor="middle" fontSize="4.2" className="fill-foreground">mycolic acid</text>
+        <rect x="240" y="160" width="104" height="30" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="292" y="172" textAnchor="middle" fontSize="3.8" className="fill-foreground">arabinogalactan</text>
+        <text x="292" y="181" textAnchor="middle" fontSize="3.8" className="fill-foreground">+ peptidoglycan</text>
+        <text x="206" y="206" textAnchor="middle" fontSize="4" className="fill-muted-foreground">the source's rotated rim labels print split mid-word</text>
+        <text x="206" y="216" textAnchor="middle" fontSize="4" className="fill-muted-foreground">('Arab inog ala c' · 'Pep tido tan gly can') — redrawn clean</text>
+        <rect x="52" y="258" width="308" height="30" rx="8" className="fill-card stroke-border" />
+        <text x="206" y="278" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">PLASMA MEMBRANE</text>
+        <text x="206" y="306" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">INTERIOR OF CELL — the four doors</text>
+        <rect x="52" y="316" width="150" height="74" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="127" y="334" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-brand">mRNA SYNTHESIS</text>
+        <text x="127" y="344" textAnchor="middle" fontSize="4" className="fill-muted-foreground">(DNA-dependent RNA polymerase)</text>
+        <text x="127" y="360" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Rifamycins</text>
+        <text x="127" y="370" textAnchor="middle" fontSize="4" className="fill-muted-foreground">rifampin · rifabutin · rifapentine</text>
+        <text x="127" y="384" textAnchor="middle" fontSize="4" className="fill-muted-foreground">↓ mRNA synthesis</text>
+        <rect x="210" y="316" width="150" height="74" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="285" y="334" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-brand">MYCOLIC ACID SYNTHESIS</text>
+        <text x="285" y="360" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Isoniazid</text>
+        <text x="285" y="370" textAnchor="middle" fontSize="4" className="fill-muted-foreground">katG activates the prodrug</text>
+        <text x="285" y="384" textAnchor="middle" fontSize="4" className="fill-muted-foreground">↓ cell wall synthesis</text>
+        <rect x="52" y="398" width="150" height="74" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="127" y="416" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-brand">ARABINOGALACTAN SYNTHESIS</text>
+        <text x="127" y="426" textAnchor="middle" fontSize="4" className="fill-muted-foreground">(arabinosyltransferase)</text>
+        <text x="127" y="442" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Ethambutol</text>
+        <text x="127" y="452" textAnchor="middle" fontSize="4" className="fill-muted-foreground">↓ arabinogalactan → ↓ wall</text>
+        <text x="127" y="466" textAnchor="middle" fontSize="4" className="fill-muted-foreground">the optic door</text>
+        <rect x="210" y="398" width="150" height="74" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="285" y="416" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-brand">INTRACELLULAR — acidic</text>
+        <text x="285" y="442" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Pyrazinamide</text>
+        <text x="285" y="452" textAnchor="middle" fontSize="4" className="fill-muted-foreground">works best at acidic pH</text>
+        <text x="285" y="466" textAnchor="middle" fontSize="4" className="fill-muted-foreground">(host phagolysosomes)</text>
+        <text x="206" y="492" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">the cell schematic is line art — its labels print in the</text>
+        <text x="206" y="502" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">text layer; the page's only image is the decorative</text>
+        <text x="206" y="512" textAnchor="middle" fontSize="4.2" className="fill-muted-foreground">color wash behind it (1×1 px + smooth mask)</text>
+        <text x="206" y="540" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">R = RNA polymerase · I = mycolIC acid</text>
+        <text x="206" y="552" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">P = the acidic pH door · E = arabinogalactan</text>
+        <text x="206" y="580" textAnchor="middle" fontSize="4" className="fill-muted-foreground">monotherapy rapidly leads to resistance —</text>
+        <text x="206" y="590" textAnchor="middle" fontSize="4" className="fill-muted-foreground">every door escapes by a single mutation</text>
+        <text x="206" y="612" textAnchor="middle" fontSize="4" className="fill-muted-foreground">RNA-polymerase mutations (rifamycins)</text>
+        <text x="206" y="622" textAnchor="middle" fontSize="4" className="fill-muted-foreground">katG mutations (INH)</text>
+        <text x="206" y="646" textAnchor="middle" fontSize="4" className="fill-muted-foreground">Source figure: the MYCOBACTERIAL CELL schematic, book 192 —</text>
+        <text x="206" y="656" textAnchor="middle" fontSize="4" className="fill-muted-foreground">an original KYP redraw; VLM-census confirmed line art</text>
+      </g>
+      {/* ===== MIDDLE — the RIPE regimen panel ===== */}
+      <g>
+        <rect x="392" y="100" width="280" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="408" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE RIPE REGIMEN — one line each</text>
+        <rect x="408" y="132" width="248" height="106" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="420" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">R — Rifamycins</text>
+        <text x="420" y="162" fontSize="4.2" className="fill-foreground">Inhibit DNA-dependent RNA polymerase → ↓mRNA.</text>
+        <text x="420" y="174" fontSize="4.2" className="fill-foreground">CYP450 INDUCTION · red-orange body fluids</text>
+        <text x="420" y="184" fontSize="4" className="fill-muted-foreground">(nonhazardous) · minor hepatotoxicity.</text>
+        <text x="420" y="200" fontSize="4.2" className="fill-foreground">Rifabutin favored in HIV (less induction);</text>
+        <text x="420" y="210" fontSize="4.2" className="fill-foreground">resistance: RNA-polymerase mutations;</text>
+        <text x="420" y="222" fontSize="4" className="fill-muted-foreground">monotherapy rapidly leads to resistance.</text>
+        <rect x="408" y="246" width="248" height="118" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="420" y="264" fontSize="5.2" fontWeight="800" className="fill-brand">I — Isoniazid</text>
+        <text x="420" y="276" fontSize="4.2" className="fill-foreground">Inhibits mycolic acid synthesis (katG converts</text>
+        <text x="420" y="286" fontSize="4.2" className="fill-foreground">the prodrug; katG mutations = resistance).</text>
+        <text x="420" y="300" fontSize="4.2" className="fill-foreground">B6 deficiency: peripheral neuropathy,</text>
+        <text x="420" y="310" fontSize="4.2" className="fill-foreground">sideroblastic anemia · hepatotoxicity (↑ age</text>
+        <text x="420" y="320" fontSize="4.2" className="fill-foreground">and alcohol) · CYP450 INHIBITION · lupus.</text>
+        <text x="420" y="334" fontSize="4.2" fontWeight="700" className="fill-foreground">Partner: pyridoxine (vitamin B6).</text>
+        <text x="420" y="348" fontSize="4" className="fill-muted-foreground">Overdose: seizures refractory to benzodiazepines;</text>
+        <text x="420" y="358" fontSize="4" className="fill-muted-foreground">fast vs slow acetylator half-lives.</text>
+        <rect x="408" y="372" width="248" height="84" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="420" y="390" fontSize="5.2" fontWeight="800" className="fill-brand">P — Pyrazinamide</text>
+        <text x="420" y="402" fontSize="4.2" className="fill-foreground">Mechanism uncertain — works best at acidic pH</text>
+        <text x="420" y="412" fontSize="4.2" className="fill-foreground">(host phagolysosomes).</text>
+        <text x="420" y="426" fontSize="4.2" className="fill-foreground">Hepatotoxicity · hyperuricemia.</text>
+        <text x="420" y="442" fontSize="4" className="fill-muted-foreground">monitor uric acid (gout flares) and LFTs.</text>
+        <rect x="408" y="464" width="248" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="420" y="482" fontSize="5.2" fontWeight="800" className="fill-brand">E — Ethambutol</text>
+        <text x="420" y="494" fontSize="4.2" className="fill-foreground">Inhibits arabinosyltransferase → ↓arabinogalactan</text>
+        <text x="420" y="504" fontSize="4.2" className="fill-foreground">→ ↓cell wall synthesis.</text>
+        <text x="420" y="518" fontSize="4.2" className="fill-foreground">Optic neuropathy: red-green color blindness</text>
+        <text x="420" y="528" fontSize="4.2" className="fill-foreground">or ↓visual acuity — typically reversible.</text>
+        <text x="420" y="544" fontSize="4" className="fill-muted-foreground">check color discrimination at every visit.</text>
+        <rect x="408" y="562" width="248" height="84" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="420" y="580" fontSize="5.2" fontWeight="800" className="fill-foreground">THE CYP450 POLARITY PAIR</text>
+        <text x="420" y="592" fontSize="4.2" className="fill-foreground">Rifampin INDUCES (OCPs, warfarin, tacrolimus</text>
+        <text x="420" y="602" fontSize="4.2" className="fill-foreground">fall) · INH INHIBITS (substrates rise) —</text>
+        <text x="420" y="612" fontSize="4.2" className="fill-foreground">opposite polarities in one regimen.</text>
+        <text x="420" y="632" fontSize="4" className="fill-muted-foreground">The source's own NOTES mnemonics ride this table</text>
+        <text x="420" y="642" fontSize="4" className="fill-muted-foreground">in the note's verbatim block — never here.</text>
+      </g>
+      {/* ===== RIGHT — the therapy + prophylaxis map ===== */}
+      <g>
+        <rect x="688" y="100" width="256" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="704" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The therapy + prophylaxis map</text>
+        <rect x="704" y="132" width="224" height="128" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="716" y="150" fontSize="5" fontWeight="800" className="fill-brand">M TUBERCULOSIS</text>
+        <text x="716" y="162" fontSize="4" className="fill-foreground">Prophylaxis: rifamycin-based regimen</text>
+        <text x="716" y="172" fontSize="4" className="fill-foreground">for 3-4 months.</text>
+        <text x="716" y="188" fontSize="4" className="fill-foreground">Treatment: Rifampin, Isoniazid,</text>
+        <text x="716" y="198" fontSize="4" className="fill-foreground">Pyrazinamide, Ethambutol —</text>
+        <text x="716" y="208" fontSize="4" fontWeight="700" className="fill-foreground">(RIPE for treatment)</text>
+        <text x="716" y="226" fontSize="4" className="fill-muted-foreground">monotherapy rapidly leads to resistance</text>
+        <text x="716" y="236" fontSize="4" className="fill-muted-foreground">— active TB never starts as one drug</text>
+        <rect x="704" y="268" width="224" height="106" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="716" y="286" fontSize="5" fontWeight="800" className="fill-brand">M AVIUM–INTRACELLULARE</text>
+        <text x="716" y="298" fontSize="4" className="fill-foreground">Prophylaxis: azithromycin, rifabutin.</text>
+        <text x="716" y="314" fontSize="4" className="fill-foreground">Treatment: azithromycin or clarithromycin</text>
+        <text x="716" y="324" fontSize="4" className="fill-foreground">+ ethambutol — can add rifabutin</text>
+        <text x="716" y="334" fontSize="4" className="fill-foreground">or ciprofloxacin.</text>
+        <text x="716" y="352" fontSize="4" className="fill-muted-foreground">the macrolide-anchored regimen</text>
+        <text x="716" y="362" fontSize="4" className="fill-muted-foreground">(M34's clarithromycin/erythromycin</text>
+        <text x="716" y="372" fontSize="4" className="fill-muted-foreground">P-450 note pairs with rifabutin here)</text>
+        <rect x="704" y="382" width="224" height="106" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="716" y="400" fontSize="5" fontWeight="800" className="fill-brand">M LEPRAE</text>
+        <text x="716" y="412" fontSize="4" className="fill-foreground">Prophylaxis: N/A.</text>
+        <text x="716" y="428" fontSize="4" className="fill-foreground">Treatment: long-term dapsone and rifampin</text>
+        <text x="716" y="438" fontSize="4" className="fill-foreground">for the tuberculoid form;</text>
+        <text x="716" y="452" fontSize="4" fontWeight="700" className="fill-foreground">add clofazimine for the lepromatous form</text>
+        <text x="716" y="470" fontSize="4" className="fill-muted-foreground">dapsone's G6PD/methemoglobinemia warnings</text>
+        <text x="716" y="480" fontSize="4" className="fill-muted-foreground">ride with it (the M34 bridge)</text>
+        <rect x="704" y="496" width="224" height="152" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="716" y="514" fontSize="5" fontWeight="800" className="fill-foreground">THE PROPHYLAXIS STRIP (book 193)</text>
+        <text x="716" y="528" fontSize="3.8" className="fill-foreground">meningococcus → ceftriaxone, ciprofloxacin, or</text>
+        <text x="716" y="538" fontSize="3.8" className="fill-foreground">rifampin · IE procedures → amoxicillin</text>
+        <text x="716" y="548" fontSize="3.8" className="fill-foreground">recurrent UTI → TMP-SMX · malaria →</text>
+        <text x="716" y="558" fontSize="3.8" className="fill-foreground">atovaquone-proguanil, mefloquine, doxycycline,</text>
+        <text x="716" y="568" fontSize="3.8" className="fill-foreground">primaquine, or chloroquine</text>
+        <text x="716" y="582" fontSize="3.8" className="fill-foreground">GBS pregnancy → intrapartum penicillin G or</text>
+        <text x="716" y="592" fontSize="3.8" className="fill-foreground">ampicillin · newborn eyes → erythromycin</text>
+        <text x="716" y="602" fontSize="3.8" className="fill-foreground">ointment · postsurgical S aureus → cefazolin</text>
+        <text x="716" y="612" fontSize="3.8" className="fill-foreground">(vancomycin if ⊕ for MRSA) · rheumatic</text>
+        <text x="716" y="622" fontSize="3.8" className="fill-foreground">fever → benzathine penicillin G / penicillin V</text>
+        <text x="716" y="640" fontSize="3.8" className="fill-muted-foreground">full verbatim table in the note's third block</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="680" width="908" height="100" rx="14" className="fill-brand-soft/30 stroke-border" />
+        <text x="52" y="700" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — door · activation · species (original KYP synthesis)</text>
+        <text x="52" y="718" fontSize="4.8" className="fill-muted-foreground">DOOR: RNA polymerase (rifamycins) · mycolic acid (INH) · arabinogalactan (ethambutol) · the acidic interior (PZA). ACTIVATION: INH is a katG prodrug (katG mutations = resistance), and the regimen</text>
+        <text x="52" y="729" fontSize="4.8" className="fill-muted-foreground">carries BOTH CYP450 polarities — rifampin induces while INH inhibits, co-prescribed in RIPE. SPECIES: M tuberculosis → 3-4-month rifamycin prophylaxis / RIPE treatment; M avium–intracellulare → the macrolide-anchored pair; M leprae → dapsone + rifampin, clofazimine added for the lepromatous form.</text>
+        <text x="52" y="751" fontSize="4.4" className="fill-muted-foreground">Partnerships: pyridoxine with INH · visual monitoring on ethambutol · uric acid on PZA · LFTs across the regimen · rifabutin over rifampin in HIV. Monotherapy rapidly leads to resistance — the four-door start is the rule.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="812" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 192-193 (pdf 214-215) — the antimycobacterial therapy pages. Census: p214's only image is a 1×1-pixel cmyk solid stretched behind the cell schematic through a 1621×1323 smooth mask (a light color wash — DECORATIVE; the schematic itself is line art whose</text>
+        <text x="24" y="823" fontSize="4.6" className="fill-muted-foreground">labels print in the text layer; VLM census confirmed); p215 is pure text (0 rasters). The banner typo MICROCIOLOGY—ANTIMICROCIALS prints on both pages; the therapy table's first header word emits as 'CACTERIUM' (the MYCOB prefix lost in extraction); the schematic's</text>
+        <text x="24" y="834" fontSize="4.6" className="fill-muted-foreground">rotated rim labels print split mid-word and are redrawn clean. The source's own NOTES-column mnemonics ('INH Injures Neurons and Hepatocytes', 'Pronounce eyethambutol') are omitted from this visual per the copyright boundary — carried only in the note's verbatim tables.</text>
+      </g>
+    </svg>
+  );
+}
