@@ -1,0 +1,127 @@
+{
+  "topicId": "protein-synthesis-inhibitors",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "protein-synthesis-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "protein-synthesis-inhibitors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187–187"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The translation figure (book 187)",
+      "sourceFigureDescription": "The printed figure — entirely text-layer glyphs (0 rasters): the 70S ribosome with 30S/50S labels, the mRNA thread 5´-A-U-G-C-A-U-G-A-U-3´, the E/P/A sites, Initiation/Elongation/Termination/Translocation panels, and the five drug-door labels (Aminoglycosides 30S, Linezolid 50S, Tetracyclines 30S, Chloramphenicol 50S, Macrolides and clindamycin 50S).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "ribosome-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole component: the banner rules, the figure's four stage panels with the drug doors, the directory rosters, the three practical rules, and the polymyxin annex",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ribosome-target-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "protein-synthesis-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "protein-synthesis-inhibitors-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187–187"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The section intro, the inhibitor lists, and the aminoglycosides card (book 187)",
+      "sourceFigureDescription": "The printed selectivity sentence, the cidal/static banner, the 30S/50S lists, and the aminoglycosides card with its margin notes (including the source's own 'ccel' typo and the Mean GNATS line).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "protein-synthesis-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "protein-synthesis-inhibitors-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188–188"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The tetracyclines, tigecycline, chloramphenicol, and clindamycin cards (book 188)",
+      "sourceFigureDescription": "The page's four printed cards in full, including the source's own 'Teratocyclines' mnemonic in the adverse-effects row.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "protein-synthesis-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "protein-synthesis-inhibitors-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189–189"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The linezolid, macrolides, and polymyxins cards (book 189)",
+      "sourceFigureDescription": "The page's three printed cards in full, including the source's own 'macroslides' gloss and MACRO mnemonic inside the field text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[3] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "protein-synthesis-inhibitors",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The translation figure (pure text-layer glyphs, 0 rasters) is the registry visual — an original KYP vector redraw preserving the source's stage panels and drug-door labels. The three page-card groups are note-block verbatim adaptations (page-ownership convention). The source's own margin mnemonics are carried only inside the verbatim tables; nothing reproduced."
+}

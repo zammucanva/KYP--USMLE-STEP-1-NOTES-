@@ -4707,3 +4707,158 @@ export function BetaLactamFamilyMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M33 — Protein synthesis inhibitors: the ribosome target map (an original
+// KYP redraw of the source's translation figure, pdf 209 / book 187 — printed
+// entirely in the text layer, 0 rasters). The 70S ribosome (30S base + 50S
+// cap) running the mRNA thread through its four stages, with every drug door
+// marked: aminoglycosides and linezolid at initiation, tetracyclines at
+// aa-tRNA attachment, chloramphenicol at the peptidyl transferase, macrolides
+// and clindamycin at translocation; the -cidal/-static banner; the O2-uptake
+// rule; the chelation trap; the diaphragm split; and the polymyxin membrane
+// annex. The source's own margin mnemonics ('Buy at 30, ccel (sell) at 50'
+// with its own 'ccel' typo, 'Mean GNATS') are omitted from this visual per
+// the copyright boundary — carried only in the note's verbatim tables.
+// ---------------------------------------------------------------------------
+export function RibosomeTargetMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Protein synthesis inhibitors — the ribosome target map, an original KYP redraw of the source's translation figure (book 187). LEFT — THE TWO BANNER RULES: the 70S/80S selectivity rule (protein synthesis inhibitors specifically target the smaller bacterial ribosome, 70S made of 30S and 50S subunits, leaving the human 80S ribosome unaffected) and the cidal/static banner (all are bacteriostatic except aminoglycosides, bactericidal, and linezolid, variable). CENTER — THE TRANSLATION FIGURE REDRAWN: the 70S ribosome with its 30S base and 50S cap running the mRNA thread 5-prime-A-U-G-C-A-U-G-A-U-3-prime through four stage panels: INITIATION (initiator tRNA at the P site — the aminoglycosides door at 30S with irreversible initiation-complex inhibition and misreading, and the linezolid door at the 50S 23S rRNA), A-SITE AMINOACYL-tRNA BINDING (the tetracyclines door at 30S), PEPTIDYL TRANSFERASE (the chloramphenicol door at 50S), and TRANSLOCATION with termination UGA (the macrolides and clindamycin door at 50S — the slide). RIGHT — THE DIRECTORY PANELS: the 30S roster (aminoglycosides gentamicin, neomycin, amikacin, tobramycin, streptomycin; tetracyclines tetracycline, doxycycline, minocycline; tigecycline the MDR derivative), the 50S roster (chloramphenicol, clindamycin, linezolid, macrolides azithromycin, clarithromycin, erythromycin), the three practical rules (O2 OR NO GO — aminoglycosides require O2 for uptake, ineffective against anaerobes, synergize with beta-lactams instead; CHELATE AND STARVE — divalent cations milk, antacids, iron inhibit tetracycline absorption; the DIAPHRAGM SPLIT — clindamycin above vs metronidazole below), and the polymyxin membrane annex (colistin and polymyxin B, the MDR gram-negative salvage pair). A KYP synthesis strip reads the map by subunit, stage, and rule; the footer carries the source attribution, the census note (0 rasters — the figure prints entirely in the text layer), and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Protein synthesis inhibitors — the ribosome target map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">subunit · stage · rule</text>
+      </g>
+      {/* ===== LEFT — the two banner rules ===== */}
+      <g>
+        <rect x="36" y="100" width="262" height="210" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The two banner rules</text>
+        <rect x="48" y="132" width="238" height="80" rx="10" className="fill-card stroke-border" />
+        <text x="60" y="150" fontSize="6.2" fontWeight="800" className="fill-brand">70S vs 80S — the selectivity</text>
+        <text x="60" y="164" fontSize="4.4" className="fill-foreground">Specifically target the smaller bacterial ribosome</text>
+        <text x="60" y="174" fontSize="4.4" className="fill-foreground">(70S, made of 30S and 50S subunits), leaving</text>
+        <text x="60" y="184" fontSize="4.4" className="fill-foreground">the human ribosome (80S) unaffected.</text>
+        <text x="60" y="200" fontSize="4.2" className="fill-muted-foreground">the structural selectivity of the whole class —</text>
+        <text x="60" y="210" fontSize="4.2" className="fill-muted-foreground">our proteins are built on 80S, untouched</text>
+        <rect x="48" y="220" width="238" height="76" rx="10" className="fill-card stroke-border" />
+        <text x="60" y="238" fontSize="6.2" fontWeight="800" className="fill-brand">The -cidal/-static banner</text>
+        <text x="60" y="252" fontSize="4.4" className="fill-foreground">All are bacteriostatic, EXCEPT aminoglycosides</text>
+        <text x="60" y="262" fontSize="4.4" className="fill-foreground">(bactericidal) and linezolid (variable).</text>
+        <text x="60" y="278" fontSize="4.2" className="fill-muted-foreground">the two exceptions the exam lifts from the banner</text>
+        <text x="60" y="290" fontSize="4.2" className="fill-muted-foreground">the misreading is irreversible (cidal); linezolid varies</text>
+      </g>
+      {/* ===== CENTER — the translation figure ===== */}
+      <g>
+        <rect x="314" y="100" width="352" height="440" rx="14" className="fill-card stroke-border" />
+        <text x="330" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE TRANSLATION FIGURE — redrawn (book 187)</text>
+        {/* the 70S pair */}
+        <rect x="356" y="134" width="120" height="88" rx="10" className="fill-secondary stroke-border" />
+        <rect x="362" y="140" width="108" height="34" className="fill-secondary/60" />
+        <text x="416" y="161" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">50S</text>
+        <rect x="362" y="178" width="108" height="36" className="fill-secondary" />
+        <text x="416" y="201" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">30S</text>
+        <text x="416" y="230" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-brand">70S — the bacterial engine (30S base + 50S cap)</text>
+        {/* stage 1 INITIATION */}
+        <rect x="496" y="134" width="156" height="88" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="574" y="152" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">① INITIATION</text>
+        <text x="574" y="166" textAnchor="middle" fontSize="4.2" className="fill-foreground">initiator tRNA lands at the P site;</text>
+        <text x="574" y="176" textAnchor="middle" fontSize="4.2" className="fill-foreground">the initiation complex assembles</text>
+        <text x="574" y="192" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">Aminoglycosides (30S)</text>
+        <text x="574" y="202" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">irreversible inhibition + misreading of mRNA</text>
+        <text x="574" y="214" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">Linezolid (50S — 23S rRNA)</text>
+        {/* stage 2 A-site */}
+        <rect x="330" y="234" width="322" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="491" y="252" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">② AMINOACYL-tRNA ATTACHMENT (A-site binding)</text>
+        <text x="352" y="268" fontSize="4.2" className="fill-muted-foreground">mRNA</text>
+        <rect x="392" y="262" width="200" height="14" rx="4" className="fill-card stroke-border" />
+        <text x="492" y="272" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">5´ A U G C A U G A U 3´</text>
+        <text x="352" y="294" fontSize="4.2" className="fill-muted-foreground">E</text>
+        <text x="382" y="294" fontSize="4.2" className="fill-muted-foreground">P</text>
+        <text x="412" y="294" fontSize="4.2" fontWeight="700" className="fill-brand">A</text>
+        <text x="352" y="308" fontSize="4.0" className="fill-muted-foreground">the A site waits for its aminoacyl-tRNA —</text>
+        <text x="352" y="318" fontSize="4.0" className="fill-muted-foreground">codon by codon the thread is read</text>
+        <text x="540" y="290" fontSize="4.4" fontWeight="700" className="fill-brand">Tetracyclines (30S)</text>
+        <text x="540" y="300" fontSize="4.0" className="fill-muted-foreground">prevent attachment of aminoacyl-tRNA —</text>
+        <text x="540" y="310" fontSize="4.0" className="fill-muted-foreground">no delivery, no peptide</text>
+        {/* stage 3 peptidyl transferase */}
+        <rect x="330" y="338" width="322" height="88" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="491" y="356" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">③ PEPTIDYL TRANSFERASE</text>
+        <text x="491" y="370" textAnchor="middle" fontSize="4.2" className="fill-foreground">the peptidyl transferase center welds the peptide bond</text>
+        <text x="491" y="382" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">the 50S catalytic core — the ribozyme step</text>
+        <text x="491" y="400" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">Chloramphenicol (50S)</text>
+        <text x="491" y="410" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">blocks the transferase — no weld</text>
+        {/* stage 4 translocation + termination */}
+        <rect x="330" y="438" width="322" height="88" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="491" y="456" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-foreground">④ TRANSLOCATION · TERMINATION (UGA)</text>
+        <text x="491" y="470" textAnchor="middle" fontSize="4.2" className="fill-foreground">the ribosome slides one codon; at UGA the thread ends</text>
+        <text x="491" y="482" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">E-P-A shift, then release</text>
+        <text x="491" y="500" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-brand">Macrolides + Clindamycin (50S)</text>
+        <text x="491" y="510" textAnchor="middle" fontSize="4.0" className="fill-muted-foreground">block the slide — translocation frozen</text>
+      </g>
+      {/* ===== RIGHT — the directory panels ===== */}
+      <g>
+        <rect x="682" y="100" width="262" height="440" rx="14" className="fill-card stroke-border" />
+        <text x="698" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The directory, in brief</text>
+        <rect x="694" y="132" width="238" height="86" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="706" y="150" fontSize="6" fontWeight="800" className="fill-brand">THE 30S ROSTER</text>
+        <text x="706" y="164" fontSize="4.4" className="fill-foreground">Aminoglycosides: Gentamicin, Neomycin,</text>
+        <text x="706" y="174" fontSize="4.4" className="fill-foreground">Amikacin, Tobramycin, Streptomycin</text>
+        <text x="706" y="188" fontSize="4.4" className="fill-foreground">Tetracyclines: tetracycline, doxycycline, minocycline</text>
+        <text x="706" y="202" fontSize="4.2" className="fill-muted-foreground">tigecycline — the MDR derivative (MRSA, VRE)</text>
+        <rect x="694" y="226" width="238" height="86" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="706" y="244" fontSize="6" fontWeight="800" className="fill-brand">THE 50S ROSTER</text>
+        <text x="706" y="258" fontSize="4.4" className="fill-foreground">Chloramphenicol · Clindamycin · Linezolid</text>
+        <text x="706" y="272" fontSize="4.4" className="fill-foreground">Macrolides: azithromycin, clarithromycin,</text>
+        <text x="706" y="282" fontSize="4.4" className="fill-foreground">erythromycin</text>
+        <text x="706" y="298" fontSize="4.2" className="fill-muted-foreground">23S rRNA is linezolid's address; methylation evicts</text>
+        <text x="706" y="308" fontSize="4.2" className="fill-muted-foreground">the macrolides</text>
+        <rect x="694" y="320" width="238" height="106" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="706" y="338" fontSize="6" fontWeight="800" className="fill-foreground">THE THREE PRACTICAL RULES</text>
+        <text x="706" y="352" fontSize="4.4" fontWeight="700" className="fill-brand">O2 OR NO GO</text>
+        <text x="706" y="362" fontSize="4.0" className="fill-muted-foreground">aminoglycosides require O2 for uptake — useless</text>
+        <text x="706" y="372" fontSize="4.0" className="fill-muted-foreground">against anaerobes; synergize with β-lactams instead</text>
+        <text x="706" y="386" fontSize="4.4" fontWeight="700" className="fill-brand">CHELATE AND STARVE</text>
+        <text x="706" y="396" fontSize="4.0" className="fill-muted-foreground">milk (Ca2+), antacids (Ca2+/Mg2+), iron — divalent</text>
+        <text x="706" y="406" fontSize="4.0" className="fill-muted-foreground">cations inhibit tetracycline absorption in the gut</text>
+        <text x="706" y="416" fontSize="4.0" className="fill-muted-foreground">doxycycline: fecally eliminated — renal failure OK</text>
+        <rect x="694" y="434" width="238" height="94" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="706" y="452" fontSize="6" fontWeight="800" className="fill-brand">THE DIAPHRAGM SPLIT + MEMBRANE ANNEX</text>
+        <text x="706" y="466" fontSize="4.2" className="fill-foreground">clindamycin: anaerobes ABOVE the diaphragm</text>
+        <text x="706" y="476" fontSize="4.2" className="fill-foreground">(aspiration pneumonia, lung abscess, oral)</text>
+        <text x="706" y="486" fontSize="4.2" className="fill-foreground">metronidazole: anaerobes BELOW the diaphragm</text>
+        <text x="706" y="500" fontSize="4.4" fontWeight="700" className="fill-brand">Polymyxins — colistin (polymyxin E) + polymyxin B</text>
+        <text x="706" y="510" fontSize="4.0" className="fill-muted-foreground">cation polypeptides at the gram ⊝ membrane;</text>
+        <text x="706" y="520" fontSize="4.0" className="fill-muted-foreground">MDR gram ⊝ salvage; nephro/neurotoxicity</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="556" width="908" height="100" rx="14" className="fill-brand-soft/30 stroke-border" />
+        <text x="52" y="576" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — assemble · deliver · weld · slide (original KYP synthesis)</text>
+        <text x="52" y="594" fontSize="4.8" className="fill-muted-foreground">SUBUNIT first (30S vs 50S), then STAGE (the figure's four doors), then RULE. The 70S/80S rule spares the host (structural selectivity); the cidal/static banner names its two exceptions — aminoglycosides (the irreversible misreading) and linezolid (variable). The O2 rule spares anaerobes from aminoglycosides (transport-in needs O2 — send clindamycin above</text>
+        <text x="52" y="605" fontSize="4.8" className="fill-muted-foreground">the diaphragm or metronidazole below it, and pair the aminoglycoside with a β-lactam where it can enter). The chelation rule starves tetracyclines (no milk, antacids, or iron — separate the doses). And when the ribosomal doors are exhausted, the polymyxins take the membrane: colistin and polymyxin B, the MDR gram ⊝ salvage pair.</text>
+        <text x="52" y="626" fontSize="4.4" className="fill-muted-foreground">Printed facts carried verbatim: the selectivity sentence and the cidal/static banner are the source's own lines; the macroslides gloss prints inside the macrolides' mechanism row (carried in the note's verbatim tables).</text>
+      </g>
+      {/* ===== the eight-cards roster strip ===== */}
+      <g>
+        <rect x="36" y="672" width="908" height="128" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="692" fontSize="7.2" fontWeight="800" className="fill-foreground">THE EIGHT CARDS — one line each (books 187-189)</text>
+        <text x="52" y="710" fontSize="4.4" className="fill-foreground">Aminoglycosides — 30S initiation, irreversible, misreading; O2-uptake; severe gram ⊝ rods + β-lactam synergy; neomycin for bowel surgery; nephrotoxicity, neuromuscular blockade (myasthenia gravis — absolute contraindication), ototoxicity with loop diuretics, teratogenicity; resistance: acetylation/phosphorylation/adenylation</text>
+        <text x="52" y="724" fontSize="4.4" className="fill-foreground">Tetracyclines — 30S, block aa-tRNA attachment; intracellular accumulators (Rickettsia, Chlamydia) + Borrelia burgdorferi, M pneumoniae, acne, community-acquired MRSA (doxycycline); tooth discoloration, bone-growth inhibition, photosensitivity, teratogenicity; resistance: efflux pumps · Tigecycline — the MDR tetracycline (MRSA, VRE); nausea/vomiting</text>
+        <text x="52" y="738" fontSize="4.4" className="fill-foreground">Chloramphenicol — 50S peptidyltransferase; meningitis + RMSF; dose-dependent anemia, dose-independent aplastic anemia, gray baby syndrome (premature infants lack liver UDP-glucuronosyltransferase); acetyltransferase resistance · Clindamycin — 50S translocation; anaerobes above the diaphragm + invasive group A strep; C difficile pseudomembranous colitis</text>
+        <text x="52" y="752" fontSize="4.4" className="fill-foreground">Linezolid — 50S 23S rRNA initiation complex; gram ⊕ incl. MRSA and VRE; myelosuppression (thrombocytopenia), peripheral neuropathy, serotonin syndrome (partial MAO inhibition); rRNA point-mutation resistance · Macrolides — 50S translocation (macroslides); atypicals + B pertussis + streptococci in the penicillin-allergic; MACRO set (GI Motility, QT Arrhythmia, Cholestatic hepatitis, Rash, eOsinophilia); P-450 inhibition (clarithromycin, erythromycin)</text>
+        <text x="52" y="766" fontSize="4.4" className="fill-foreground">Polymyxins — colistin (polymyxin E) + polymyxin B; cation polypeptides at the gram ⊝ membrane; salvage for MDR gram ⊝ (P aeruginosa, E coli, K pneumoniae); polymyxin B in triple antibiotic ointment; nephrotoxicity, neurotoxicity, respiratory failure</text>
+        <text x="52" y="786" fontSize="4.2" className="fill-muted-foreground">Full verbatim cards with all fields + the source's own margin mnemonics ('Buy at 30, ccel (sell) at 50' — with its own 'ccel' typo; 'Mean GNATS'; 'Teratocyclines'; 'macroslides'; 'MACRO') are carried in the note's three verbatim tables — never here.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="830" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 187-189 (pdf 209-211) — the protein synthesis inhibitor pages. Census: all three pages PURE TEXT (0 rasters); the entire translation figure prints in the text layer (the 70S pair, E/P/A sites, the</text>
+        <text x="24" y="841" fontSize="4.6" className="fill-muted-foreground">mRNA bases, the UGA stop) — redrawn here as clean vector panels. The banner typo MICROCIOLOGY—ANTIMICROCIALS prints on all three pages; the source's own margin typo 'ccel (sell)' (for 'cell') prints on book 187, carried verbatim in</text>
+        <text x="24" y="852" fontSize="4.6" className="fill-muted-foreground">the note's tables and documented. The source's own margin mnemonics (Buy-at-30, Mean GNATS) are omitted from this visual per the copyright boundary — carried only inside the note's verbatim table blocks as source provenance.</text>
+      </g>
+    </svg>
+  );
+}

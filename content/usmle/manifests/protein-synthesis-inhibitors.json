@@ -1,0 +1,757 @@
+{
+  "topicId": "protein-synthesis-inhibitors",
+  "title": "Protein Synthesis Inhibitors: 30S, 50S & Beyond",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      209,
+      210,
+      211
+    ],
+    "bookPages": "187–189"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page banner trio + printed book-page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\n187\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section heading pair",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Protein synthesis\ninhibitors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The selectivity sentence (the 70S/80S rule)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Specifically target smaller bacterial ribosome (70S, made of 30S and 50S subunits), leaving human\nribosome (80S) unaffected.\nAll are bacteriostatic, except aminoglycosides (bactericidal) and linezolid (variable).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 30S inhibitor list (printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "30S inhibitors\n\nAminoglycosides\nTetracyclines",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 50S inhibitor list (printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "50S inhibitors\n\nChloramphenicol, Clindamycin\nErythromycin (macrolides)\nLinezolid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source's margin mnemonic with its own 'ccel' typo (for 'cell')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "“Buy at 30, ccel (sell) at 50.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: the 70S/30S/50S labels with the linezolid door label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Aminoglycosides (30S)\n\n30S\n\n50S\n\nLinezolid\n(50S)\n\n70S",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: the Initiation block (initiator tRNA, mRNA, U AC, the 5´ AUG thread)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Initiation\n\nM\n\nInitiator tRNA\nmRNA\n\nU AC\n\n5´ A U G C A U G A U\n\nU A C\n\nE\n\nP\n\n3´",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: the A-site binding block (GUA, U AC, the A-site label, the second thread)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "A\n\nH\nM\n\nGUA\n\nU AC\n\nA-site tRNA binding\n\n5´ A U G C A U G A U\n\nE\n\nP\n\nA\n\nPeptidyl\ntransferase\nM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: Elongation + the tetracyclines door label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Elongation\n\nH\n\nTetracyclines (30S)\n\n3´\n\nM\n\nM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: the chloramphenicol door label + the H/M markers + the UAC pairs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Chloramphenicol\n(50S)\n\nH\n\nU AC\nU AC GU A\n\nG U A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: Termination (UGA) + the thread pairs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "5´\n\nUGA\n\nTermination\n\n3´\n\n5´ A U G C A U G A U\n\nE\n\nP\n\nA\n\n3´\n\n5´ A U G C A U G A U\n\nE\n\nP\n\nA\n\nTranslocation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure: the translocation + macrolides/clindamycin door label (emitting last)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Translocation\n\n3´\n\nMacrolides and\nclindamycin (50S)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides card: drug roster",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "Aminoglycosides\n\nGentamicin, Neomycin, Amikacin, Tobramycin, Streptomycin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides margin mnemonic (Mean GNATS — cannot kill anaerobes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "“Mean” (aminoglycoside) GNATS cannot kill anaerobes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides card: MECHANISM (initiation complex, misreading, O2 for uptake)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "MECHANISM\n\nBactericidal; irreversible inhibition of initiation complex through binding of the 30S subunit. Can\ncause misreading of mRNA. Also block translocation. Require O2 for uptake; therefore ineffective\nagainst anaerobes.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides card: CLINICAL USE + the Neomycin margin note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "CLINICAL USE\n\nSevere gram ⊝ rod infections. Synergistic with β-lactam antibiotics.\nNeomycin for bowel surgery.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides card: ADVERSE EFFECTS (myasthenia gravis, loop diuretics)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "ADVERSE EFFECTS\n\nNephrotoxicity, neuromuscular blockade (absolute contraindication with myasthenia gravis),\nototoxicity (especially with loop diuretics), teratogenicity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aminoglycosides card: MECHANISM OF RESISTANCE (acetylation, phosphorylation, adenylation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nBacterial transferase enzymes inactivate the drug by acetylation, phosphorylation, or adenylation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          209
+        ],
+        "bookPages": "187"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 187\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + printed book-page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "188\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tetracyclines card: heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "Tetracyclines\n\nTetracycline, doxycycline, minocycline.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tetracyclines card: MECHANISM (aa-tRNA attachment, doxycycline fecal, the divalent-cation rule)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "MECHANISM\n\nBacteriostatic; bind to 30S and prevent attachment of aminoacyl-tRNA. Limited CNS penetration.\nDoxycycline is fecally eliminated and can be used in patients with renal failure. Do not take\ntetracyclines with milk (Ca2+), antacids (eg, Ca2+ or Mg2+), or iron-containing preparations\nbecause divalent cations inhibit drugs’ absorption in the gut.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tetracyclines card: CLINICAL USE (intracellular accumulation, Rickettsia, Chlamydia, acne, community-acquired MRSA)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "CLINICAL USE\n\nBorrelia burgdorferi, M pneumoniae. Drugs’ ability to accumulate intracellularly makes them very\neffective against Rickettsia and Chlamydia. Also used to treat acne. Doxycycline effective against\ncommunity-acquired MRSA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tetracyclines card: ADVERSE EFFECTS (with the source's own 'Teratocyclines' mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "ADVERSE EFFECTS\n\nGI distress, discoloration of teeth and inhibition of bone growth in children, photosensitivity.\n“Teratocyclines” are teratogenic; generally avoided in pregnancy and in children (except\ndoxycycline).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tetracyclines card: MECHANISM OF RESISTANCE (efflux pumps)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\n↓ uptake or ↑ efflux out of bacterial cells by plasmid-encoded transport pumps.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tigecycline card: heading + MECHANISM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "Tigecycline\nMECHANISM\n\nTetracycline derivative. Binds to 30S, inhibiting protein synthesis. Generally bacteriostatic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tigecycline card: CLINICAL USE (MRSA, VRE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "CLINICAL USE\n\nBroad-spectrum anaerobic, gram ⊝, and gram ⊕ coverage. Multidrug-resistant organisms (eg,\nMRSA, VRE).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tigecycline card: ADVERSE EFFECTS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "ADVERSE EFFECTS\n\nNausea, vomiting.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The chloramphenicol card: heading + MECHANISM (peptidyltransferase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "Chloramphenicol\nMECHANISM\n\nBlocks peptidyltransferase at 50S ribosomal subunit. Bacteriostatic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The chloramphenicol card: CLINICAL USE (meningitis, RMSF, developing countries)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "CLINICAL USE\n\nMeningitis (Haemophilus influenzae, Neisseria meningitidis, Streptococcus pneumoniae) and\nrickettsial diseases (eg, Rocky Mountain spotted fever [Rickettsia rickettsii]).\nLimited use due to toxicity but often still used in developing countries because of low cost.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The chloramphenicol card: ADVERSE EFFECTS (gray baby syndrome, UDP-glucuronosyltransferase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "ADVERSE EFFECTS\n\nAnemia (dose dependent), aplastic anemia (dose independent), gray baby syndrome (in premature\ninfants because they lack liver UDP-glucuronosyltransferase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The chloramphenicol card: MECHANISM OF RESISTANCE (acetyltransferase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nPlasmid-encoded acetyltransferase inactivates the drug.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The clindamycin card: heading + MECHANISM (translocation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "Clindamycin\nMECHANISM\n\nBlocks peptide transfer (translocation) at 50S ribosomal subunit. Bacteriostatic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The clindamycin card: CLINICAL USE (above the diaphragm vs metronidazole below)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "CLINICAL USE\n\nAnaerobic infections (eg, Bacteroides spp., C perfringens) in aspiration pneumonia, lung abscesses,\nand oral infections. Also effective against invasive group A streptococcal infection.\nTreats anaerobic infections above the diaphragm vs metronidazole (anaerobic infections below\ndiaphragm).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The clindamycin card: ADVERSE EFFECTS (pseudomembranous colitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "ADVERSE EFFECTS\n\nPseudomembranous colitis (C difficile overgrowth), fever, diarrhea.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          210
+        ],
+        "bookPages": "188"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 188\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + printed book-page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\n189\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The linezolid card: heading + MECHANISM (23S rRNA, initiation complex)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "Linezolid\nMECHANISM\n\nInhibits protein synthesis by binding to the 23S rRNA of the 50S ribosomal subunit and preventing\nformation of the initiation complex.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The linezolid card: CLINICAL USE (MRSA and VRE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "CLINICAL USE\n\nGram ⊕ species including MRSA and VRE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The linezolid card: ADVERSE EFFECTS (myelosuppression, serotonin syndrome, partial MAO)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "ADVERSE EFFECTS\n\nMyelosuppression (especially thrombocytopenia), peripheral neuropathy, serotonin syndrome (due\nto partial MAO inhibition).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The linezolid card: MECHANISM OF RESISTANCE (rRNA point mutation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nPoint mutation of ribosomal RNA.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The macrolides card: heading + drug line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "Macrolides\n\nAzithromycin, clarithromycin, erythromycin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The macrolides card: MECHANISM (the source's own 'macroslides' gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "MECHANISM\n\nInhibit protein synthesis by blocking translocation (“macroslides”); bind to the 50S ribosomal\nsubunit. Bacteriostatic.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The macrolides card: CLINICAL USE (atypicals, STIs, B pertussis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "CLINICAL USE\n\nAtypical pneumonias (Mycoplasma, Chlamydia, Legionella), STIs (Chlamydia), gram ⊕ cocci\n(streptococcal infections in patients allergic to penicillin), and B pertussis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The macrolides card: ADVERSE EFFECTS (the source's own MACRO mnemonic set + P-450)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "ADVERSE EFFECTS\n\nMACRO: Gastrointestinal Motility issues, Arrhythmia caused by prolonged QT interval, acute\nCholestatic hepatitis, Rash, eOsinophilia. Increases serum concentration of theophylline, oral\nanticoagulants. Clarithromycin and erythromycin inhibit cytochrome P-450.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The macrolides card: MECHANISM OF RESISTANCE (23S methylation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nMethylation of 23S rRNA-binding site prevents binding of drug.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The polymyxins card: heading + drug line (colistin, polymyxin B)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "Polymyxins\n\nColistin (polymyxin E), polymyxin B.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The polymyxins card: MECHANISM (cation polypeptides; the C1-prefixed arrows the normalizer strips)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "MECHANISM\n\nCation polypeptides that bind to phospholipids on cell membrane of gram ⊝ bacteria. Disrupt cell\nmembrane integrity →  leakage of cellular components →  cell death.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The polymyxins card: CLINICAL USE (salvage therapy, triple antibiotic ointment)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "CLINICAL USE\n\nSalvage therapy for multidrug-resistant gram ⊝ bacteria (eg, P aeruginosa, E coli, K pneumoniae).\nPolymyxin B is a component of a triple antibiotic ointment used for superficial skin infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The polymyxins card: ADVERSE EFFECTS (neurotoxicity, respiratory failure)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "ADVERSE EFFECTS\n\nNephrotoxicity, neurotoxicity (eg, slurred speech, weakness, paresthesias), respiratory failure.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          211
+        ],
+        "bookPages": "189"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 189\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "ribosome-target-map"
+  ],
+  "mechanismIds": [
+    "translation-stage-doors",
+    "uptake-selectivity-rules"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cards and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "stage-door-synthesis",
+      "summary": "The figure's four stages as the drug-door routing system (assemble / deliver / weld / slide) plus the three practical rules (O2 OR NO GO, CHELATE AND STARVE, the diaphragm split) — KYP's reading of the printed figure.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the cards but no routing system; the stage-door mapping and the three-rules synthesis are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: all three pages pure text (0 rasters); the translation figure prints entirely in the text layer — an original KYP vector redraw (ribosome-target-map). The source's own margin typo 'ccel (sell)' (book 187, raw 27) carried verbatim in the note's tables and documented; the source's own margin mnemonics ('Buy at 30', 'Mean GNATS') carried ONLY inside the verbatim tables per the E38 precedent — omitted from the visual and the KYP memory layer ('macroslides' and 'MACRO' print inside field text and are carried there as printed). Figure glyph emission order documented (70S labels first, the drug-door labels interleaved, Translocation/macrolides label last); the aminoglycosides card emits after the figure; the polymyxins mechanism carries the C1-prefixed arrows (normalizer strips).",
+  "updatedAt": "2026-10-24"
+}
