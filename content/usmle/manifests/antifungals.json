@@ -1,0 +1,405 @@
+{
+  "topicId": "antifungals",
+  "title": "Antifungal Agents",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      216,
+      217
+    ],
+    "bookPages": "194–195"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Printed book-page number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "194",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio (the SEC TION split print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "194\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amphotericin B — MECHANISM + the source's own 'tears holes' margin note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "Binds ergosterol (unique to fungi); forms\nmembrane pores that allow leakage of\nelectrolytes.\n\nAmphotericin “tears” holes in the fungal\nmembrane by forming pores.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amphotericin B — CLINICAL USE (the systemic mycoses set; intrathecal coccidioidal)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "CLINICAL USE\n\nSerious, systemic mycoses. Cryptococcus\n(amphotericin B +/– flucytosine for\ncryptococcal meningitis), Blastomyces,\nCoccidioides, Histoplasma, Candida, Mucor.\nIntrathecally for coccidioidal meningitis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amphotericin B — the K+/Mg2+ supplementation margin note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "Supplement K+ and Mg2+ because of altered\nrenal tubule permeability.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amphotericin B — ADVERSE EFFECTS (shake and bake; amphoterrible — text-layer authoritative)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "ADVERSE EFFECTS\n\nFever/chills (“shake and bake”), hypotension,\nnephrotoxicity, arrhythmias, anemia, IV\nphlebitis (“amphoterrible”).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Amphotericin B — the hydration/liposomal margin notes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "Hydration ↓ nephrotoxicity. Liposomal\namphotericin ↓ toxicity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nystatin — MECHANISM + CLINICAL USE (swish and swallow)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "Nystatin\nMECHANISM\n\nSame as amphotericin B. Topical use only as too toxic for systemic use.\n\nCLINICAL USE\n\n“Swish and swallow” for oral candidiasis (thrush); topical for diaper rash or vaginal candidiasis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flucytosine — MECHANISM (cytosine deaminase → 5-fluorouracil)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "Flucytosine\nMECHANISM\n\nInhibits DNA and RNA biosynthesis by conversion to 5-fluorouracil by cytosine deaminase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flucytosine — CLINICAL USE (with amphotericin B for cryptococcal meningitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "CLINICAL USE\n\nSystemic fungal infections (especially meningitis caused by Cryptococcus) in combination with\namphotericin B.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Flucytosine — ADVERSE EFFECTS (myelosuppression)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "ADVERSE EFFECTS\n\nMyelosuppression.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          216
+        ],
+        "bookPages": "194"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 194\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + the mid-page book number '195'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\n195\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azoles — the single-line drug roster (the chapter's longest)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Azoles\n\nClotrimazole, fluconazole, isavuconazole, itraconazole, ketoconazole, miconazole, voriconazole.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azoles — MECHANISM (the lanosterol→ergosterol P-450)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "MECHANISM\n\nInhibit fungal sterol (ergosterol) synthesis by inhibiting the cytochrome P-450 enzyme that converts\nlanosterol to ergosterol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azoles — CLINICAL USE (the site-by-site azole routing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "CLINICAL USE\n\nLocal and less serious systemic mycoses. Fluconazole for chronic suppression of cryptococcal\nmeningitis in people living with HIV and candidal infections of all types. Itraconazole may\nbe used for Blastomyces, Coccidioides, Histoplasma, Sporothrix schenckii. Clotrimazole and\nmiconazole for topical fungal infections. Voriconazole for Aspergillus and some Candida.\nIsavuconazole for serious Aspergillus and Mucor infections.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Azoles — ADVERSE EFFECTS (gynecomastia esp. ketoconazole; P-450; QT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "ADVERSE EFFECTS\n\nTestosterone synthesis inhibition (gynecomastia, especially with ketoconazole), liver dysfunction\n(inhibits cytochrome P-450), QT interval prolongation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Terbinafine — MECHANISM + CLINICAL USE + ADVERSE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Terbinafine\nMECHANISM\n\nInhibits the fungal enzyme squalene epoxidase.\n\nCLINICAL USE\n\nDermatophytoses (especially onychomycosis—fungal infection of finger or toe nails).\n\nADVERSE EFFECTS\n\nGI upset, headaches, hepatotoxicity, taste disturbance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Echinocandins — the full card (anidulafungin, caspofungin, micafungin; β-glucan)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Echinocandins\n\nAnidulafungin, caspofungin, micafungin.\n\nMECHANISM\n\nInhibit cell wall synthesis by inhibiting synthesis of β-glucan.\n\nCLINICAL USE\n\nInvasive aspergillosis, Candida.\n\nADVERSE EFFECTS\n\nGI upset, flushing (by histamine release).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Griseofulvin — the full card (microtubules; keratin; disulfiram-like; ↑warfarin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Griseofulvin\nMECHANISM\n\nInterferes with microtubule function; disrupts mitosis. Deposits in keratin-containing tissues (eg,\nnails).\n\nCLINICAL USE\n\nOral treatment of superficial infections; inhibits growth of dermatophytes (tinea, ringworm).\n\nADVERSE EFFECTS\n\nTeratogenic, carcinogenic, confusion, headaches, disulfiram-like reaction, ↑ cytochrome P-450 and\nwarfarin metabolism.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The antiprotozoal tail block (pyrimethamine-sulfadiazine through stibogluconate)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Antiprotozoal therapy\n\nPyrimethamine-sulfadiazine (toxoplasmosis), suramin and melarsoprol (Trypanosoma brucei),\nnifurtimox (T cruzi), sodium stibogluconate (leishmaniasis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anti-mite/louse tail block (permethrin, malathion, ivermectin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Anti-mite/louse\ntherapy\n\nPermethrin, malathion (acetylcholinesterase inhibitor), topical or oral ivermectin. Used to treat\nscabies (Sarcoptes scabiei) and lice (Pediculus and Pthirus).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chloroquine — MECHANISM + CLINICAL USE (heme→hemozoin; non-falciparum)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "Chloroquine\nMECHANISM\n\nBlocks detoxification of heme into hemozoin. Heme accumulates and is toxic to plasmodia.\n\nCLINICAL USE\n\nTreatment of plasmodial species other than P falciparum (due to drug resistance from membrane\npump that ↓ intracellular concentration of drug).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chloroquine — ADVERSE EFFECTS (cumulative-dose retinopathy; pruritus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "ADVERSE EFFECTS\n\nRetinopathy (dependent on cumulative dose); pruritus (especially in dark-skinned individuals).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          217
+        ],
+        "bookPages": "195"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 195\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "antifungal-target-map"
+  ],
+  "mechanismIds": [
+    "ergosterol-door-logic",
+    "prodrug-activation-tail"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cards and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "severity-site-router",
+      "summary": "The door-severity-site routing system (serious systemic → the polyene bundle with its four levers; site → the synthesis doors; the CYP450 echo with griseofulvin flipping the polarity) — KYP's synthesis of the antifungal directory.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the cards and the figure without a routing system; the severity/site router and the polarity-pair retelling are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p216's single raster = the FUNGAL CELL diagram (VLM-census confirmed schematic) — REDRAWN as the registry visual; p217 pure text. The text layer prints 'amphoterrible' (authoritative over the VLM's variant reading — M23 convention); the azoles' roster is a single unbroken line (raw 11); '195' prints mid-page (raw 5). The source's own margin mnemonics are carried ONLY inside the verbatim tables per the E38 precedent. Page ownership: book 195's tail (antiprotozoal summary, anti-mite/louse, chloroquine) carried verbatim here; M37 holds the dedicated cards.",
+  "updatedAt": "2026-10-24"
+}

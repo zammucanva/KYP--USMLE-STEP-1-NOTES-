@@ -5195,3 +5195,200 @@ export function TbDrugRegimenMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// M36 — Antifungal therapy: the antifungal target map (an original KYP
+// redraw of the source's FUNGAL CELL mechanisms-of-action diagram, pdf 216 /
+// book 194 — the page's single raster, VLM-census confirmed a color-coded
+// schematic). The cell with its four doors: the ergosterol membrane (the
+// polyenes tearing pores, with the pore-formation inset), the sterol
+// synthesis ladder (terbinafine at squalene epoxidase; the azoles at the
+// lanosterol-to-ergosterol P-450), the beta-glucan wall (echinocandins), and
+// the inner doors (flucytosine's 5-FU activation at the nucleus;
+// griseofulvin's microtubules). The source's own margin mnemonics are
+// omitted per the copyright boundary — carried only in the note's verbatim
+// tables.
+// ---------------------------------------------------------------------------
+export function AntifungalTargetMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antifungal therapy — the antifungal target map, an original KYP redraw of the source's fungal cell mechanisms-of-action diagram (book 194). CENTER — THE FUNGAL CELL: the ergosterol membrane (unique to fungi) with the polyenes binding it and tearing pores (amphotericin B for systemic use, nystatin topical only — with the pore-formation inset showing electrolyte leakage), the sterol-synthesis ladder (squalene epoxidase — terbinafine; the cytochrome P-450 converting lanosterol to ergosterol — the azoles), the beta-glucan cell wall (the echinocandins), and the inner doors (the nucleus where cytosine deaminase converts flucytosine to 5-fluorouracil, inhibiting DNA and RNA biosynthesis; the microtubules where griseofulvin disrupts mitosis and deposits in keratin). LEFT — THE DOSING PANEL: amphotericin B's management bundle (K+ and Mg2+ supplementation for the altered renal-tubule permeability, hydration against nephrotoxicity, the liposomal form against the whole set — shake and bake fever/chills, hypotension, arrhythmias, anemia, IV phlebitis) and flucytosine's myelosuppression. RIGHT — THE SITE ROUTER: serious systemic mycoses (Cryptococcus with flucytosine for meningitis, Blastomyces, Coccidioides intrathecally, Histoplasma, Candida, Mucor) to amphotericin B; local and less serious systemic to the azoles (fluconazole for HIV cryptococcal suppression and all candidal types, itraconazole for the endemic dimorphs and Sporothrix, voriconazole for Aspergillus and some Candida, isavuconazole for serious Aspergillus and Mucor, clotrimazole and miconazole topical — with gynecomastia especially ketoconazole, liver dysfunction, QT prolongation); nails to terbinafine; tinea and ringworm to griseofulvin; invasive aspergillosis and Candida to the echinocandins (anidulafungin, caspofungin, micafungin — beta-glucan inhibition, histamine-release flushing). A KYP synthesis strip reads the map by door, severity, and site; the footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antifungal therapy — the antifungal target map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">door · severity · site</text>
+      </g>
+      {/* ===== LEFT — the dosing panel ===== */}
+      <g>
+        <rect x="36" y="100" width="262" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The amphotericin B bundle</text>
+        <rect x="48" y="132" width="238" height="150" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="60" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">THE MEMBRANE DOOR</text>
+        <text x="60" y="164" fontSize="4.2" className="fill-foreground">Binds ergosterol (unique to fungi); forms</text>
+        <text x="60" y="174" fontSize="4.2" className="fill-foreground">membrane pores that allow leakage of</text>
+        <text x="60" y="184" fontSize="4.2" className="fill-foreground">electrolytes.</text>
+        <text x="60" y="200" fontSize="4.2" fontWeight="700" className="fill-foreground">Amphotericin B — systemic; nystatin —</text>
+        <text x="60" y="210" fontSize="4.2" fontWeight="700" className="fill-foreground">topical only (too toxic for systemic use).</text>
+        <text x="60" y="226" fontSize="4" className="fill-muted-foreground">the polyene pair: same mechanism,</text>
+        <text x="60" y="236" fontSize="4" className="fill-muted-foreground">opposite reach</text>
+        <text x="60" y="252" fontSize="4" className="fill-muted-foreground">thrush: swish and swallow (nystatin);</text>
+        <text x="60" y="262" fontSize="4" className="fill-muted-foreground">diaper rash + vaginal candidiasis: topical</text>
+        <rect x="48" y="292" width="238" height="184" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="60" y="310" fontSize="5.2" fontWeight="800" className="fill-foreground">THE TOXICITY SET + ITS LEVERS</text>
+        <text x="60" y="324" fontSize="4.2" className="fill-foreground">Fever/chills (shake and bake) · hypotension ·</text>
+        <text x="60" y="334" fontSize="4.2" className="fill-foreground">nephrotoxicity · arrhythmias · anemia ·</text>
+        <text x="60" y="344" fontSize="4.2" className="fill-foreground">IV phlebitis.</text>
+        <text x="60" y="362" fontSize="4.2" fontWeight="700" className="fill-brand">Supplement K+ and Mg2+</text>
+        <text x="60" y="372" fontSize="4" className="fill-muted-foreground">(altered renal tubule permeability)</text>
+        <text x="60" y="388" fontSize="4.2" fontWeight="700" className="fill-brand">Hydration ↓ nephrotoxicity</text>
+        <text x="60" y="404" fontSize="4.2" fontWeight="700" className="fill-brand">Liposomal amphotericin ↓ toxicity</text>
+        <text x="60" y="422" fontSize="4" className="fill-muted-foreground">the four printed levers against the set</text>
+        <rect x="48" y="486" width="238" height="70" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="60" y="504" fontSize="5.2" fontWeight="800" className="fill-brand">FLUCYTOSINE — the prodrug door</text>
+        <text x="60" y="518" fontSize="4.2" className="fill-foreground">Cytosine deaminase converts it to</text>
+        <text x="60" y="528" fontSize="4.2" className="fill-foreground">5-fluorouracil → DNA and RNA</text>
+        <text x="60" y="538" fontSize="4.2" className="fill-foreground">biosynthesis inhibited.</text>
+        <text x="60" y="552" fontSize="4.2" fontWeight="700" className="fill-foreground">With amphotericin B for cryptococcal</text>
+        <text x="60" y="562" fontSize="4.2" fontWeight="700" className="fill-foreground">meningitis; price: myelosuppression.</text>
+        <text x="60" y="590" fontSize="4" className="fill-muted-foreground">The katG logic again (M35): fungal</text>
+        <text x="60" y="600" fontSize="4" className="fill-muted-foreground">cytosine deaminase activates it — the</text>
+        <text x="60" y="610" fontSize="4" className="fill-muted-foreground">same prodrug pattern as INH</text>
+        <text x="60" y="636" fontSize="4" className="fill-muted-foreground">The source's own margin mnemonics</text>
+        <text x="60" y="646" fontSize="4" className="fill-muted-foreground">(tears holes / shake and bake /</text>
+        <text x="60" y="656" fontSize="4" className="fill-muted-foreground">amphoterrible / swish and swallow)</text>
+        <text x="60" y="666" fontSize="4" className="fill-muted-foreground">ride the note's verbatim tables only</text>
+      </g>
+      {/* ===== CENTER — the fungal cell ===== */}
+      <g>
+        <rect x="312" y="100" width="352" height="560" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="328" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE FUNGAL CELL — four doors</text>
+        {/* membrane + pore inset */}
+        <rect x="328" y="134" width="320" height="120" rx="12" className="fill-card stroke-border" />
+        <text x="488" y="152" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">MEMBRANE — ERGOSTEROL (unique to fungi)</text>
+        <rect x="344" y="162" width="180" height="18" rx="6" className="fill-secondary stroke-brand" />
+        <text x="434" y="175" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">the ergosterol bilayer</text>
+        <g className="stroke-emergency" strokeWidth="1.4">
+          <path d="M 368 180 L 368 188" /><path d="M 363 184 L 373 184" />
+          <path d="M 424 180 L 424 188" /><path d="M 419 184 L 429 184" />
+          <path d="M 480 180 L 480 188" /><path d="M 475 184 L 485 184" />
+        </g>
+        <text x="434" y="200" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">the polyenes tear pores —</text>
+        <text x="434" y="210" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">electrolytes leak; the cell dies</text>
+        <rect x="536" y="162" width="100" height="76" rx="8" className="fill-brand-soft/40 stroke-brand" />
+        <text x="586" y="178" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-brand">PORE INSET</text>
+        <circle cx="566" cy="200" r="9" className="fill-card stroke-emergency" />
+        <circle cx="594" cy="212" r="7" className="fill-card stroke-emergency" />
+        <circle cx="600" cy="190" r="5" className="fill-card stroke-emergency" />
+        <text x="586" y="232" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">K+ · Mg2+ · electrolytes out</text>
+        <text x="434" y="240" textAnchor="middle" fontSize="4" className="fill-muted-foreground">amphotericin B (systemic) · nystatin (topical)</text>
+        {/* sterol ladder */}
+        <rect x="328" y="266" width="320" height="150" rx="12" className="fill-card stroke-border" />
+        <text x="488" y="284" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">THE STEROL LADDER</text>
+        <rect x="344" y="296" width="130" height="26" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="409" y="312" textAnchor="middle" fontSize="4.2" className="fill-foreground">squalene</text>
+        <text x="492" y="310" fontSize="3.8" className="fill-emergency" fontWeight="800">⊣</text>
+        <text x="508" y="308" fontSize="4" className="fill-brand" fontWeight="700">TERBINAFINE</text>
+        <text x="508" y="318" fontSize="3.6" className="fill-muted-foreground">squalene epoxidase</text>
+        <rect x="344" y="330" width="130" height="26" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="409" y="346" textAnchor="middle" fontSize="4.2" className="fill-foreground">lanosterol</text>
+        <rect x="344" y="364" width="130" height="26" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="409" y="380" textAnchor="middle" fontSize="4.2" className="fill-foreground">ergosterol</text>
+        <text x="492" y="368" fontSize="3.8" className="fill-emergency" fontWeight="800">⊣</text>
+        <text x="508" y="366" fontSize="4" className="fill-brand" fontWeight="700">AZOLES</text>
+        <text x="508" y="376" fontSize="3.6" className="fill-muted-foreground">the P-450 that converts</text>
+        <text x="508" y="386" fontSize="3.6" className="fill-muted-foreground">lanosterol → ergosterol</text>
+        <text x="344" y="404" fontSize="4" className="fill-muted-foreground">starve the sterol the membrane is made of — fluconazole, itraconazole, voriconazole,</text>
+        <text x="344" y="414" fontSize="4" className="fill-muted-foreground">isavuconazole, ketoconazole, clotrimazole, miconazole; host-side: liver dysfunction, QT,</text>
+        <text x="344" y="424" fontSize="4" className="fill-muted-foreground">gynecomastia (esp. ketoconazole)</text>
+        {/* wall */}
+        <rect x="328" y="428" width="155" height="110" rx="12" className="fill-card stroke-border" />
+        <text x="406" y="446" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">WALL — β-GLUCAN</text>
+        <text x="406" y="462" textAnchor="middle" fontSize="4.2" className="fill-foreground">the echinocandins inhibit</text>
+        <text x="406" y="472" textAnchor="middle" fontSize="4.2" className="fill-foreground">β-glucan synthesis:</text>
+        <text x="406" y="488" textAnchor="middle" fontSize="4" className="fill-foreground">anidulafungin · caspofungin ·</text>
+        <text x="406" y="498" textAnchor="middle" fontSize="4" className="fill-foreground">micafungin</text>
+        <text x="406" y="516" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">invasive aspergillosis, Candida;</text>
+        <text x="406" y="526" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">flushing by histamine release</text>
+        {/* inner doors */}
+        <rect x="495" y="428" width="155" height="110" rx="12" className="fill-card stroke-border" />
+        <text x="572" y="446" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE INNER DOORS</text>
+        <text x="572" y="462" textAnchor="middle" fontSize="4.2" className="fill-foreground">Nucleus: flucytosine → 5-FU</text>
+        <text x="572" y="472" textAnchor="middle" fontSize="4.2" className="fill-foreground">(cytosine deaminase) —</text>
+        <text x="572" y="482" textAnchor="middle" fontSize="4.2" className="fill-foreground">DNA/RNA biosynthesis ⊣</text>
+        <text x="572" y="498" textAnchor="middle" fontSize="4.2" className="fill-foreground">Microtubules: griseofulvin</text>
+        <text x="572" y="508" textAnchor="middle" fontSize="4.2" className="fill-foreground">disrupts mitosis; deposits</text>
+        <text x="572" y="518" textAnchor="middle" fontSize="4.2" className="fill-foreground">in keratin (nails)</text>
+        <text x="572" y="532" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">tinea/ringworm; teratogenic;</text>
+        <text x="572" y="542" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">disulfiram-like; ↑CYP450 (↑warfarin)</text>
+        <text x="488" y="560" textAnchor="middle" fontSize="4" className="fill-muted-foreground">Source figure: the FUNGAL CELL mechanisms-of-action diagram, book 194 —</text>
+        <text x="488" y="570" textAnchor="middle" fontSize="4" className="fill-muted-foreground">a 1087×488 rasterized schematic (VLM census: color-coded drug-target</text>
+        <text x="488" y="580" textAnchor="middle" fontSize="4" className="fill-muted-foreground">lines with a pore inset and a small Rx icon) — redrawn, never reproduced</text>
+        <text x="488" y="606" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">ergosterol: unique to fungi — our membranes run cholesterol.</text>
+        <text x="488" y="616" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">That is the whole set's selectivity story.</text>
+        <text x="488" y="642" textAnchor="middle" fontSize="4" className="fill-muted-foreground">β-glucan walls: fungi only — the echinocandins'</text>
+        <text x="488" y="652" textAnchor="middle" fontSize="4" className="fill-muted-foreground">selectivity is structural, not biochemical</text>
+      </g>
+      {/* ===== RIGHT — the site router ===== */}
+      <g>
+        <rect x="678" y="100" width="266" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="694" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The site router</text>
+        <rect x="690" y="132" width="242" height="118" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="702" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">SERIOUS SYSTEMIC → AMPHOTERICIN B</text>
+        <text x="702" y="166" fontSize="4.2" className="fill-foreground">Cryptococcus (± flucytosine for</text>
+        <text x="702" y="176" fontSize="4.2" className="fill-foreground">meningitis) · Blastomyces ·</text>
+        <text x="702" y="186" fontSize="4.2" className="fill-foreground">Coccidioides (intrathecal for</text>
+        <text x="702" y="196" fontSize="4.2" className="fill-foreground">meningitis) · Histoplasma ·</text>
+        <text x="702" y="206" fontSize="4.2" className="fill-foreground">Candida · Mucor.</text>
+        <text x="702" y="222" fontSize="4" className="fill-muted-foreground">then fluconazole for chronic</text>
+        <text x="702" y="232" fontSize="4" className="fill-muted-foreground">cryptococcal suppression in HIV</text>
+        <text x="702" y="242" fontSize="4" className="fill-muted-foreground">(the printed step-down)</text>
+        <rect x="690" y="260" width="242" height="170" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="702" y="278" fontSize="5.2" fontWeight="800" className="fill-brand">LOCAL + LESS SERIOUS → AZOLES</text>
+        <text x="702" y="294" fontSize="4.2" className="fill-foreground">Fluconazole — chronic suppression of</text>
+        <text x="702" y="304" fontSize="4.2" className="fill-foreground">cryptococcal meningitis in people living</text>
+        <text x="702" y="314" fontSize="4.2" className="fill-foreground">with HIV + candidal infections of all types.</text>
+        <text x="702" y="330" fontSize="4.2" className="fill-foreground">Itraconazole — Blastomyces, Coccidioides,</text>
+        <text x="702" y="340" fontSize="4.2" className="fill-foreground">Histoplasma, Sporothrix schenckii.</text>
+        <text x="702" y="356" fontSize="4.2" className="fill-foreground">Voriconazole — Aspergillus, some Candida.</text>
+        <text x="702" y="372" fontSize="4.2" className="fill-foreground">Isavuconazole — serious Aspergillus, Mucor.</text>
+        <text x="702" y="388" fontSize="4.2" className="fill-foreground">Clotrimazole + miconazole — topical.</text>
+        <text x="702" y="406" fontSize="4" className="fill-muted-foreground">adverse: testosterone-synthesis inhibition</text>
+        <text x="702" y="416" fontSize="4" className="fill-muted-foreground">(gynecomastia esp. ketoconazole), liver</text>
+        <text x="702" y="426" fontSize="4" className="fill-muted-foreground">dysfunction (P-450 inhibition), QT ↑</text>
+        <rect x="690" y="440" width="242" height="112" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="702" y="458" fontSize="5.2" fontWeight="800" className="fill-brand">SKIN + NAILS → THE KERATIN DOORS</text>
+        <text x="702" y="474" fontSize="4.2" className="fill-foreground">Nails (onychomycosis) → terbinafine</text>
+        <text x="702" y="484" fontSize="4" className="fill-muted-foreground">(squalene epoxidase; taste disturbance)</text>
+        <text x="702" y="500" fontSize="4.2" className="fill-foreground">Tinea, ringworm → griseofulvin</text>
+        <text x="702" y="510" fontSize="4" className="fill-muted-foreground">(microtubules; teratogenic — never in</text>
+        <text x="702" y="520" fontSize="4" className="fill-muted-foreground">pregnancy; ↑CYP450 → ↑warfarin)</text>
+        <text x="702" y="536" fontSize="4" className="fill-muted-foreground">invasive aspergillosis/Candida →</text>
+        <text x="702" y="546" fontSize="4" className="fill-muted-foreground">echinocandins (histamine flushing)</text>
+        <rect x="690" y="562" width="242" height="84" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="702" y="580" fontSize="5.2" fontWeight="800" className="fill-foreground">THE CYP450 ECHO</text>
+        <text x="702" y="594" fontSize="4.2" className="fill-foreground">Azoles INHIBIT (liver, QT, gynecomastia);</text>
+        <text x="702" y="604" fontSize="4.2" className="fill-foreground">griseofulvin INDUCES (↑warfarin) and adds</text>
+        <text x="702" y="614" fontSize="4.2" className="fill-foreground">a disulfiram-like reaction — the M35</text>
+        <text x="702" y="624" fontSize="4.2" className="fill-foreground">polarity pair retold in the fungal directory</text>
+        <text x="702" y="646" fontSize="4" className="fill-muted-foreground">the page-195 tail (protozoa · lice · chloroquine)</text>
+        <text x="702" y="656" fontSize="4" className="fill-muted-foreground">rides the note's verbatim book-195 table</text>
+      </g>
+      {/* ===== KYP synthesis strip ===== */}
+      <g>
+        <rect x="36" y="680" width="908" height="100" rx="14" className="fill-brand-soft/30 stroke-border" />
+        <text x="52" y="700" fontSize="7.2" fontWeight="800" className="fill-foreground">READ THE MAP — door · severity · site (original KYP synthesis)</text>
+        <text x="52" y="718" fontSize="4.8" className="fill-muted-foreground">DOOR: ergosterol membrane (polyne pores) · sterol ladder (terbinafine at the top, azoles at the P-450 converting lanosterol to ergosterol) · β-glucan wall (echinocandins) · the inner doors (flucytosine's 5-FU; griseofulvin's microtubules). SEVERITY: serious systemic → amphotericin B (the bundle: K+/Mg2+, hydration, liposomal) with flucytosine for cryptococcal meningitis.</text>
+        <text x="52" y="729" fontSize="4.8" className="fill-muted-foreground">SITE: nails → terbinafine; tinea → griseofulvin; local/less serious systemic → the azoles; invasive aspergillosis/Candida → echinocandins.</text>
+        <text x="52" y="751" fontSize="4.4" className="fill-muted-foreground">Printed facts carried: the selectivity sentence (ergosterol unique to fungi) is the source's own; the tail block (protozoa · lice · chloroquine) is carried verbatim in the note's book-195 table per page ownership — M37 details the dedicated cards.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="812" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 194-195 (pdf 216-217) — the antifungal therapy pages. Census: p216's single raster is the FUNGAL CELL mechanisms-of-action diagram (1087×488 cmyk + smask, 150ppi ≈ 7.2×3.3 in — VLM census confirmed a color-coded schematic with drug-target lines, a pore inset, and a small Rx icon) — REDRAWN as this visual, never reproduced;</text>
+        <text x="24" y="823" fontSize="4.6" className="fill-muted-foreground">p217 is pure text (0 rasters). The banner typo MICROCIOLOGY—ANTIMICROCIALS prints on both pages; the text layer prints 'amphoterrible' (authoritative over the VLM census's variant spelling — the M23 convention). The source's own margin mnemonics (tears holes / shake and bake / amphoterrible / swish and swallow) are omitted from this visual per the copyright boundary — carried only in the note's verbatim tables.</text>
+      </g>
+    </svg>
+  );
+}

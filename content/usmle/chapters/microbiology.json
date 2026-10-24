@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 4,
+  "pendingTopicCount": 3,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -6537,8 +6537,118 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Antimicrobials",
-      "status": "pending",
-      "productionRationale": "The ergosterol-pathway map (amphotericin's pore, azoles' 14α-demethylase, the nephrotoxicity sign-off) plus echinocandins' glucan synthesis, flucytosine, terbinafine, and griseofulvin's keratin logic."
+      "status": "complete",
+      "productionRationale": "The ergosterol-pathway map (amphotericin's pore, azoles' 14α-demethylase, the nephrotoxicity sign-off) plus echinocandins' glucan synthesis, flucytosine, terbinafine, and griseofulvin's keratin logic.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antifungals",
+          "requiredInKYP": true,
+          "visualId": "antifungals-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              216
+            ],
+            "bookPages": "194–194"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The FUNGAL CELL mechanisms-of-action diagram (book 194)",
+          "sourceFigureDescription": "The page's single raster (1087×488 cmyk + smask — VLM census confirmed a color-coded schematic): the fungal cell with drug-target lines (terbinafine, azoles, flucytosine, the polyenes with a pore inset, the echinocandins) and a small Rx icon.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "antifungal-target-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the fungal-cell panel of the registry visual — the four doors with the pore inset redrawn clean",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "antifungal-target-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antifungals",
+          "requiredInKYP": true,
+          "visualId": "antifungals-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              216
+            ],
+            "bookPages": "194–194"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The amphotericin B, nystatin, and flucytosine cards (book 194)",
+          "sourceFigureDescription": "The page's first three cards with the source's own margin mnemonics (tears holes; K+/Mg2+; hydration/liposomal; amphoterrible; swish and swallow).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antifungals",
+          "requiredInKYP": true,
+          "visualId": "antifungals-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              217
+            ],
+            "bookPages": "195–195"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The azoles, terbinafine, echinocandins, and griseofulvin cards (book 195)",
+          "sourceFigureDescription": "The page's four antifungal cards — the azoles' roster printing as a single unbroken line (raw 11), the longest in the chapter.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block — carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "antifungals",
+          "requiredInKYP": true,
+          "visualId": "antifungals-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              217
+            ],
+            "bookPages": "195–195"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The page-195 tail: antiprotozoal, anti-mite/louse, chloroquine (book 195)",
+          "sourceFigureDescription": "The three tail blocks printed after the antifungal cards (page ownership): the protozoa roster, the ectoparasite set, and the chloroquine card.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block (tail rows) — carried verbatim; M37 details the dedicated cards",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "antiparasitic-antiviral",
