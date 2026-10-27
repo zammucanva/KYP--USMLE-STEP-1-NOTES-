@@ -1,0 +1,216 @@
+{
+  "topicId": "calcification-radiation-injury",
+  "title": "Calcification & Radiation Injury",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Cellular injury (calcification and radiation)",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      229
+    ],
+    "bookPages": "207–207"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY\n\n207\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Radiation susceptibility and selectivity — stem cells of rapidly regenerating tissues (skin, bone marrow, GI tract, gonads) most susceptible; cancer cells hit more (dysfunctional DNA repair + high replicative rates); radiation dermatitis acute (erythema, peeling, pain, pruritis) and chronic (atrophy, pigmentation changes, telangiectasia, fibrosis via ↑ TGF-β)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "Stem cells of rapidly regenerating tissues (eg,\nskin, bone marrow, GI tract, gonads) are the\nmost susceptible to radiation injury.\nRadiotherapy damages cancer cells more\nthan healthy cells because cancer cells have\ndysfunctional DNA repair mechanisms in\naddition to high replicative rates.\nRadiation dermatitis—acute presents with\nerythema, peeling, pain, and pruritis. Chronic\npresents with atrophy, pigmentation changes,\ntelangiectasia, and fibrosis due to ↑ TGF-β.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ionizing radiation toxicity — double strand breaks + free radicals; complications (localized inflammation and fibrosis; neoplasia leukemia and thyroid cancer); acute radiation syndrome (nausea, vomiting, diarrhea, hair loss, erythema, cytopenias, headache, altered mental status)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "Ionizing radiation\ntoxicity\n\nIonizing radiation causes DNA (eg, double\nstrand breaks) and cellular damage both\ndirectly and indirectly through the production\nof free radicals. Complications usually arise\nwhen patient is exposed to significant doses\n(eg, radiotherapy, nuclear reactor accidents):\n▘ Localized inflammation and fibrosis\n▘ Neoplasia (eg, leukemia, thyroid cancer)\nAcute radiation syndrome—develops after\nsudden whole-body exposure to high doses\nof ionizing radiation → nausea, vomiting,\ndiarrhea, hair loss, erythema, cytopenias,\nheadache, altered mental status.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Types of calcification header + the deeply basophilic H&E note + the Ca2+ deposition row (dystrophic in abnormal/diseased tissues vs metastatic in normal tissues)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "Types of calcification\n\nCalcium deposits appear deeply basophilic (arrow in A ) on H&E stain.\nDystrophic calcification\n\nMetastatic calcification\n\nCa2+ DePOSITION\n\nIn abnormal (diseased) tissues\n\nIn normal tissues",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXTENT row + the dystrophic associated-conditions list (localized, calcific aortic stenosis; TB and granulomatous infections, chronic abscesses, fat necrosis, infarcts, thrombi, schistosomiasis, congenital CMV, toxoplasmosis, rubella, psammoma bodies, CREST, atherosclerotic plaques)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "eXTeNT\n\nTends to be localized (eg, calcific aortic stenosis)\n\nWidespread (ie, diffuse, metastatic)\n\nASSOCIATeD CONDITIONS\n\nTB (lung, pericardium) and other\ngranulomatous infections, liquefactive\nnecrosis of chronic abscesses, fat necrosis,\ninfarcts, thrombi, infections (schistosomiasis,\ncongenital CMV, toxoplasmosis, rubella),\npsammoma bodies, CREST syndrome,\natherosclerotic plaques",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The metastatic associated conditions — interstitial kidney, lung, gastric mucosa (lose acid quickly; ↑ pH favors Ca2+ deposition); nephrocalcinosis of collecting ducts → nephrogenic DI and renal failure",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "Predominantly in interstitial tissues of kidney,\nlung, and gastric mucosa (these tissues lose\nacid quickly; ↑ pH favors Ca2+ deposition)\nNephrocalcinosis of collecting ducts may lead\nto nephrogenic diabetes insipidus and renal\nfailure",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ETIOLOGY row — dystrophic 2° to injury or necrosis; metastatic 2° to hyperphosphatemia (CKD) or hypercalcemia (1° hyperparathyroidism, sarcoidosis, hypervitaminosis D)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "eTIOLOGY\n\n2° to injury or necrosis\n\n2° to hyperphosphatemia (eg, chronic\nkidney disease) or hypercalcemia\n(eg, 1° hyperparathyroidism, sarcoidosis,\nhypervitaminosis D)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Psammoma bodies — concentrically laminated calcified spherules; the six-tumor roster (papillary thyroid and kidney, somatostatinoma, meningioma, mesothelioma, ovarian serous, milk-prolactinoma); basophilic histology",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "Psammoma bodies\n\nConcentrically laminated calcified spherules A .\nUsually seen in certain types of tumors:\n▘ Papillary carcinoma of thyroid gland and\nkidney\n▘ Somatostatinoma\n▘ Meningioma\n▘ Mesothelioma\n▘ Ovarian serous papillary\ncystadenocarcinoma\n▘ Milk (prolactinoma)\nHistology: Basophilic staining of Ca2+ deposits\nwithin tissue.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The source's own mnemonic 'PSoMMOMa Bodies.' + the duplicated 'A' letter markers (raw 100 and 102) + the indd footer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "PSoMMOMa Bodies.\n\nA\n\nA\n\nFAS1_2026_04-Pathol.indd 207",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "calcification-split-map"
+  ],
+  "mechanismIds": [
+    "dystrophic-vs-metastatic",
+    "radiation-selectivity"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the radiation blocks, the calcification table, and the psammoma block; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-question-rule",
+      "summary": "The two-question rule (is the tissue diseased; is the serum overloaded) and the pH-targeting framing (lose acid, gain calcium) — KYP's synthesis of the table's columns.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the columns without a decision rule; the two-question routing and the chemistry-explains-geography framing are KYP's design.",
+      "location": "core.keyIdea + mechanism 1 + the exam callout + the visual's rule panel"
+    },
+    {
+      "id": "selectivity-pair-framing",
+      "summary": "The radiation selectivity framed as two properties (no repair + fast divide) with the collateral list sharing the fast-divide property, and the duplicated-A lettering quirk documentation.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the facts without the paired-property framing; the framing and the quirk documentation are KYP's design.",
+      "location": "mechanism 2 + traps + mnemonics + the visual's radiation panel"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p229's two photographs (both lettered 'A' — the duplicated-lettering quirk: the dystrophic-calcification H&E and the psammoma-bodies H&E) are COPYRIGHTED — described-in-text only, never reproduced (the M32 convention). The source's own mnemonic 'PSoMMOMa Bodies.' (raw 98) is carried VERBATIM in the tables per the E38 precedent; the KYP memory layer stays original. The calcification table's column interleaving documented (the M38 pattern). No other margin mnemonics (VLM confirmed).",
+  "updatedAt": "2026-10-27"
+}

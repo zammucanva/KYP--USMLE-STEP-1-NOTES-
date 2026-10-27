@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T19:15:46Z",
+  "generatedAt": "2026-10-27T19:27:07Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 131,
+    "topicsProduced": 132,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 76,
+      "pilot-complete": 77,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 5,
-      "topicsRemaining": 14,
+      "topicsProduced": 6,
+      "topicsRemaining": 13,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -724,6 +724,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-22"
+    },
+    {
+      "topicId": "calcification-radiation-injury",
+      "title": "Calcification & Radiation Injury",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Cellular injury (calcification and radiation)",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 229 (book 207–207)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
     },
     {
       "topicId": "cd-markers",

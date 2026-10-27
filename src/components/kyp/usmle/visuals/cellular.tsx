@@ -1700,3 +1700,190 @@ export function InfarctTypeMap() {
     </svg>
   );
 }
+
+export function CalcificationSplitMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Calcification and radiation injury — the split map, an original KYP adaptation of the source page (book 207 — the radiation blocks, the Dystrophic-vs-Metastatic calcification table, and the psammoma bodies block; two copyrighted photographs described in text, never reproduced, with the duplicated-A lettering quirk documented). LEFT — THE RADIATION PANEL: the rapidly-regenerating stem-cell susceptibility (skin, bone marrow, GI tract, gonads), the cancer-cell selectivity (dysfunctional DNA repair + high replicative rates), the dermatitis pair (acute erythema-peeling-pain-pruritis; chronic atrophy-pigmentation-telangiectasia-fibrosis via increased TGF-beta), ionizing toxicity (double-strand breaks directly and via free radicals; complications — localized inflammation and fibrosis, neoplasia leukemia and thyroid cancer), and acute radiation syndrome. CENTER — THE CALCIFICATION SPLIT: DYSTROPHIC (in abnormal diseased tissue, localized, 2 degrees to injury or necrosis, with the associated-conditions list) against METASTATIC (in normal tissue, widespread, 2 degrees to hyperphosphatemia CKD or hypercalcemia primary hyperparathyroidism-sarcoidosis-hypervitaminosis D, the acid-losing tissue targeting kidney-lung-gastric mucosa, nephrocalcinosis to nephrogenic DI and renal failure). RIGHT — THE PSAMMOMA PANEL: concentrically laminated calcified spherules, deeply basophilic on H and E, the six-tumor roster with the source's own PSoMMOMa mnemonic carried verbatim, and the two photographs described in text. The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Calcification &amp; radiation injury — the split map (original KYP adaptation)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">serum decides · no repair dies</text>
+      </g>
+      {/* ===== LEFT — radiation ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">Radiation injury (book 207)</text>
+        <rect x="48" y="132" width="216" height="96" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">NO REPAIR, FAST DIVIDE</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">radiotherapy damages cancer cells</text>
+        <text x="156" y="176" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">more than healthy cells —</text>
+        <text x="156" y="186" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">dysfunctional DNA repair +</text>
+        <text x="156" y="196" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">high replicative rates;</text>
+        <text x="156" y="210" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">most susceptible: stem cells of skin,</text>
+        <text x="156" y="220" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">bone marrow, GI tract, gonads</text>
+        <rect x="48" y="238" width="216" height="100" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="256" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE DERMATITIS PAIR</text>
+        <text x="156" y="272" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">ACUTE: erythema, peeling,</text>
+        <text x="156" y="282" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">pain, pruritis</text>
+        <text x="156" y="298" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">CHRONIC: atrophy, pigmentation</text>
+        <text x="156" y="308" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">changes, telangiectasia, fibrosis</text>
+        <text x="156" y="322" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">— the fibrosis due to ↑ TGF-β</text>
+        <rect x="48" y="348" width="216" height="110" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="156" y="366" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-emergency">IONIZING TOXICITY</text>
+        <text x="156" y="382" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">DNA (eg, double strand breaks) +</text>
+        <text x="156" y="392" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">cellular damage — directly AND</text>
+        <text x="156" y="402" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">indirectly via free radicals;</text>
+        <text x="156" y="416" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">significant doses (radiotherapy,</text>
+        <text x="156" y="426" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">nuclear reactor accidents):</text>
+        <text x="156" y="436" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">localized inflammation + fibrosis;</text>
+        <text x="156" y="446" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">neoplasia (leukemia, thyroid CA)</text>
+        <rect x="48" y="468" width="216" height="110" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="156" y="486" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">ACUTE RADIATION SYNDROME</text>
+        <text x="156" y="502" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">sudden whole-body high-dose</text>
+        <text x="156" y="512" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">exposure →</text>
+        <text x="156" y="526" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">nausea, vomiting, diarrhea,</text>
+        <text x="156" y="536" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">hair loss, erythema, cytopenias,</text>
+        <text x="156" y="546" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">headache, altered mental status</text>
+        <text x="52" y="598" fontSize="3.9" className="fill-muted-foreground">The therapeutic window and the</text>
+        <text x="52" y="608" fontSize="3.9" className="fill-muted-foreground">collateral list share one property —</text>
+        <text x="52" y="618" fontSize="3.9" className="fill-muted-foreground">fast division. The tumor cannot</text>
+        <text x="52" y="628" fontSize="3.9" className="fill-muted-foreground">repair what the beam breaks; the</text>
+        <text x="52" y="638" fontSize="3.9" className="fill-muted-foreground">marrow, skin, gut, and gonads are</text>
+        <text x="52" y="648" fontSize="3.9" className="fill-muted-foreground">simply always in cycle.</text>
+      </g>
+      {/* ===== CENTER — the calcification split ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE CALCIFICATION SPLIT (book 207)</text>
+        {/* dystrophic column */}
+        <g>
+          <rect x="304" y="136" width="200" height="530" rx="10" className="fill-card stroke-brand" />
+          <rect x="316" y="146" width="110" height="16" rx="5" className="fill-brand-soft" />
+          <text x="371" y="157" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">DYSTROPHIC</text>
+          <text x="316" y="176" fontSize="3.7" fontWeight="800" className="fill-foreground">Ca2+ DEPOSITION</text>
+          <text x="316" y="185" fontSize="3.7" className="fill-muted-foreground">in abnormal (diseased) tissues</text>
+          <text x="316" y="199" fontSize="3.7" fontWeight="800" className="fill-foreground">EXTENT</text>
+          <text x="316" y="208" fontSize="3.7" className="fill-muted-foreground">tends to be localized (eg, calcific</text>
+          <text x="316" y="218" fontSize="3.7" className="fill-muted-foreground">aortic stenosis)</text>
+          <text x="316" y="232" fontSize="3.7" fontWeight="800" className="fill-foreground">ETIOLOGY</text>
+          <text x="316" y="241" fontSize="3.7" fontWeight="700" className="fill-foreground">2° to injury or necrosis</text>
+          <text x="316" y="255" fontSize="3.7" fontWeight="800" className="fill-foreground">ASSOCIATED CONDITIONS</text>
+          <text x="316" y="266" fontSize="3.6" className="fill-muted-foreground">TB (lung, pericardium) and other</text>
+          <text x="316" y="276" fontSize="3.6" className="fill-muted-foreground">granulomatous infections ·</text>
+          <text x="316" y="286" fontSize="3.6" className="fill-muted-foreground">liquefactive necrosis of chronic</text>
+          <text x="316" y="296" fontSize="3.6" className="fill-muted-foreground">abscesses · fat necrosis ·</text>
+          <text x="316" y="306" fontSize="3.6" className="fill-muted-foreground">infarcts · thrombi · infections</text>
+          <text x="316" y="316" fontSize="3.6" className="fill-muted-foreground">(schistosomiasis, congenital CMV,</text>
+          <text x="316" y="326" fontSize="3.6" className="fill-muted-foreground">toxoplasmosis, rubella) ·</text>
+          <text x="316" y="336" fontSize="3.6" className="fill-muted-foreground">psammoma bodies · CREST</text>
+          <text x="316" y="346" fontSize="3.6" className="fill-muted-foreground">syndrome · atherosclerotic plaques</text>
+          <rect x="316" y="358" width="176" height="60" rx="8" className="fill-brand-soft/30 stroke-border" />
+          <text x="404" y="374" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">PHOTOGRAPH A (table column):</text>
+          <text x="404" y="384" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">an H&amp;E micrograph — a large</text>
+          <text x="404" y="394" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">amorphous deeply basophilic</text>
+          <text x="404" y="404" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">deposit (black arrow) — in text</text>
+          <text x="316" y="436" fontSize="3.7" fontWeight="800" className="fill-foreground">THE RULE</text>
+          <text x="316" y="446" fontSize="3.7" fontWeight="700" className="fill-brand">injured tissue, normal calcium</text>
+          <text x="316" y="458" fontSize="3.6" className="fill-muted-foreground">the serum is fine; the tissue</text>
+          <text x="316" y="468" fontSize="3.6" className="fill-muted-foreground">is not — mineral rains into</text>
+          <text x="316" y="478" fontSize="3.6" className="fill-muted-foreground">necrotic debris and stays put</text>
+        </g>
+        {/* metastatic column */}
+        <g>
+          <rect x="512" y="136" width="200" height="530" rx="10" className="fill-card stroke-emergency" />
+          <rect x="524" y="146" width="110" height="16" rx="5" className="fill-emergency-soft" />
+          <text x="579" y="157" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-emergency">METASTATIC</text>
+          <text x="524" y="176" fontSize="3.7" fontWeight="800" className="fill-foreground">Ca2+ DEPOSITION</text>
+          <text x="524" y="185" fontSize="3.7" className="fill-muted-foreground">in normal tissues</text>
+          <text x="524" y="199" fontSize="3.7" fontWeight="800" className="fill-foreground">EXTENT</text>
+          <text x="524" y="208" fontSize="3.7" className="fill-muted-foreground">widespread (ie, diffuse, metastatic)</text>
+          <text x="524" y="222" fontSize="3.7" fontWeight="800" className="fill-foreground">ETIOLOGY</text>
+          <text x="524" y="231" fontSize="3.6" className="fill-muted-foreground">2° to hyperphosphatemia (eg,</text>
+          <text x="524" y="241" fontSize="3.6" className="fill-muted-foreground">chronic kidney disease) or</text>
+          <text x="524" y="251" fontSize="3.6" className="fill-muted-foreground">hypercalcemia (eg, 1° hyperpara-</text>
+          <text x="524" y="261" fontSize="3.6" className="fill-muted-foreground">thyroidism, sarcoidosis,</text>
+          <text x="524" y="271" fontSize="3.6" className="fill-muted-foreground">hypervitaminosis D)</text>
+          <text x="524" y="285" fontSize="3.7" fontWeight="800" className="fill-foreground">THE LANDING ZONE — WHY</text>
+          <text x="524" y="295" fontSize="3.7" fontWeight="700" className="fill-foreground">kidney, lung, gastric mucosa:</text>
+          <text x="524" y="305" fontSize="3.6" className="fill-muted-foreground">these tissues lose acid quickly;</text>
+          <text x="524" y="315" fontSize="3.6" fontWeight="700" className="fill-foreground">↑ pH favors Ca2+ deposition</text>
+          <text x="524" y="329" fontSize="3.7" fontWeight="800" className="fill-foreground">THE RENAL CHAIN</text>
+          <text x="524" y="339" fontSize="3.6" className="fill-muted-foreground">nephrocalcinosis of collecting</text>
+          <text x="524" y="349" fontSize="3.6" className="fill-muted-foreground">ducts → nephrogenic diabetes</text>
+          <text x="524" y="359" fontSize="3.6" className="fill-muted-foreground">insipidus + renal failure</text>
+          <rect x="524" y="372" width="176" height="46" rx="8" className="fill-emergency-soft/30 stroke-border" />
+          <text x="612" y="388" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">desmopressin-unresponsive</text>
+          <text x="612" y="398" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">polyuria = the nephrogenic proof</text>
+          <text x="524" y="436" fontSize="3.7" fontWeight="800" className="fill-foreground">THE RULE</text>
+          <text x="524" y="446" fontSize="3.7" fontWeight="700" className="fill-emergency">normal tissue, overloaded serum</text>
+          <text x="524" y="458" fontSize="3.6" className="fill-muted-foreground">the tissue is fine; the blood is</text>
+          <text x="524" y="468" fontSize="3.6" className="fill-muted-foreground">saturated — chemistry decides</text>
+          <text x="524" y="478" fontSize="3.6" className="fill-muted-foreground">geography: lose acid, gain Ca2+</text>
+        </g>
+        {/* the shared H&E note */}
+        <rect x="304" y="636" width="408" height="30" rx="8" className="fill-card stroke-border" />
+        <text x="508" y="650" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">Calcium deposits appear DEEPLY BASOPHILIC on H&amp;E stain</text>
+        <text x="508" y="660" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">both halves of the split share the color — the serum and the tissue decide which half</text>
+      </g>
+      {/* ===== RIGHT — psammoma ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">Psammoma bodies</text>
+        <rect x="736" y="132" width="196" height="72" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="834" y="150" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE MORPHOLOGY</text>
+        <text x="834" y="166" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">concentrically laminated</text>
+        <text x="834" y="176" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">calcified spherules —</text>
+        <text x="834" y="186" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">basophilic Ca2+ in tissue (H&amp;E)</text>
+        <text x="834" y="196" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">photograph A: onion-skin spherules, red arrow — in text</text>
+        <rect x="736" y="214" width="196" height="150" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="232" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE TUMOR ROSTER</text>
+        <text x="834" y="248" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">papillary carcinoma of thyroid</text>
+        <text x="834" y="258" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">gland and kidney</text>
+        <text x="834" y="272" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">somatostatinoma</text>
+        <text x="834" y="286" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">meningioma</text>
+        <text x="834" y="300" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">mesothelioma</text>
+        <text x="834" y="314" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">ovarian serous papillary</text>
+        <text x="834" y="324" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">cystadenocarcinoma</text>
+        <text x="834" y="338" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">milk (prolactinoma)</text>
+        <rect x="736" y="374" width="196" height="76" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="834" y="392" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-foreground">THE SOURCE'S OWN MNEMONIC</text>
+        <text x="834" y="410" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">&apos;PSoMMOMa Bodies.&apos;</text>
+        <text x="834" y="426" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">printed beside the roster (raw 98) — carried</text>
+        <text x="834" y="436" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">VERBATIM; the KYP layer stays original</text>
+        <text x="740" y="470" fontSize="3.9" className="fill-muted-foreground">The duplicated-A quirk: BOTH of</text>
+        <text x="740" y="480" fontSize="3.9" className="fill-muted-foreground">the page's photographs carry the</text>
+        <text x="740" y="490" fontSize="3.9" className="fill-muted-foreground">letter 'A' (the dystrophic deposit</text>
+        <text x="740" y="500" fontSize="3.9" className="fill-muted-foreground">and the psammoma micrograph) —</text>
+        <text x="740" y="510" fontSize="3.9" className="fill-muted-foreground">the text layer prints 'A' twice</text>
+        <text x="740" y="520" fontSize="3.9" className="fill-muted-foreground">(raw 100 and 102); documented.</text>
+        <rect x="736" y="534" width="196" height="128" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="552" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">THE TWO-QUESTION RULE</text>
+        <text x="834" y="570" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">1. is the tissue diseased?</text>
+        <text x="834" y="584" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">2. is the serum overloaded?</text>
+        <text x="834" y="602" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">diseased + normal serum = dystrophic;</text>
+        <text x="834" y="612" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">normal + overloaded = metastatic;</text>
+        <text x="834" y="622" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">laminated spherule in a tumor =</text>
+        <text x="834" y="632" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">a psammoma body</text>
+      </g>
+      {/* ===== BOTTOM — the one-line map ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The map in one line — the rules verbatim (book 207)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">DYSTROPHIC: abnormal tissue · localized · 2° to injury or necrosis (TB, abscesses, fat necrosis, infarcts, thrombi, CREST, plaques) · normal serum ·</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">METASTATIC: normal tissue · widespread · 2° to hyperphosphatemia (CKD) or hypercalcemia (hyperparathyroidism, sarcoidosis, vitamin D) · kidney-lung-gastric mucosa (↑pH) · RADIATION: no repair + fast divide; skin, marrow, GI, gonads most susceptible</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 207 (pdf 229) — Calcification &amp; radiation injury: the radiation susceptibility and dermatitis blocks; ionizing radiation toxicity and acute radiation syndrome; the Dystrophic-vs-Metastatic calcification table; the psammoma bodies block. Census: two cmyk JPEG photographs, both lettered 'A' (the duplicated-lettering quirk).</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Photographs VLM-documented: A#1 — an H&amp;E micrograph of dystrophic calcification (a large amorphous deeply basophilic deposit, black arrow) in the table's dystrophic column; A#2 — an H&amp;E micrograph of psammoma bodies (concentrically laminated onion-skin spherules, red arrow) beside the psammoma block.</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">The source's own mnemonic 'PSoMMOMa Bodies.' prints beside the tumor roster — carried VERBATIM in the note's tables per the established precedent; the KYP memory layer stays original. No other margin mnemonics (VLM census confirmed).</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: both photographs are copyrighted — described in text only, never reproduced (the established specimen-photograph convention); the tables and text blocks are carried verbatim; the registry visual is an original KYP adaptation, not a redraw.</text>
+      </g>
+    </svg>
+  );
+}

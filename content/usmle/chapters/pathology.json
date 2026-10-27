@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 14,
+  "pendingTopicCount": 13,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -726,8 +726,118 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pathology — Cellular injury",
-      "status": "pending",
-      "productionRationale": "Dystrophic vs metastatic calcification with psammoma bodies, and ionizing-radiation injury — the deposition-and-exposure pair."
+      "status": "complete",
+      "productionRationale": "Dystrophic vs metastatic calcification with psammoma bodies, and ionizing-radiation injury — the deposition-and-exposure pair.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (calcification and radiation)",
+          "topicId": "calcification-radiation-injury",
+          "requiredInKYP": true,
+          "visualId": "calcification-radiation-injury-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              229
+            ],
+            "bookPages": "207–207"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Dystrophic-vs-Metastatic calcification table (book 207)",
+          "sourceFigureDescription": "The two-column comparison across Ca2+ DEPOSITION, EXTENT, ASSOCIATED CONDITIONS, and ETIOLOGY, with the deeply-basophilic H&E note; the two columns interleave in the text layer (the M38 pattern). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "calcification-split-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the split columns + the two-question rule panel) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "calcification-split-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (calcification and radiation)",
+          "topicId": "calcification-radiation-injury",
+          "requiredInKYP": true,
+          "visualId": "calcification-radiation-injury-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              229
+            ],
+            "bookPages": "207–207"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The radiation blocks + the psammoma block with the source's own mnemonic (book 207)",
+          "sourceFigureDescription": "The radiation susceptibility/selectivity, dermatitis pair, ionizing toxicity with acute radiation syndrome, and the psammoma roster with the source's own 'PSoMMOMa Bodies.' mnemonic printed beside it (raw 98). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "calcification-split-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the radiation panel + the psammoma panel) + blocks[2] the table block carried verbatim (source mnemonic carried verbatim per the E38 precedent)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "calcification-split-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (calcification and radiation)",
+          "topicId": "calcification-radiation-injury",
+          "requiredInKYP": true,
+          "visualId": "calcification-radiation-injury-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              229
+            ],
+            "bookPages": "207–207"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph A#1 — dystrophic calcification (book 207)",
+          "sourceFigureDescription": "An H&E micrograph (cmyk jpeg, ~188x184 at 150 dpi): a large, amorphous, deeply basophilic purple calcium deposit with a black arrow, sitting in the table's dystrophic column. COPYRIGHTED — described in text, never reproduced. A second image also carries the letter A (the duplicated-lettering quirk).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's dystrophic column + blocks[2] the photographs row — a copyrighted micrograph, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (calcification and radiation)",
+          "topicId": "calcification-radiation-injury",
+          "requiredInKYP": true,
+          "visualId": "calcification-radiation-injury-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              229
+            ],
+            "bookPages": "207–207"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph A#2 — psammoma bodies (book 207)",
+          "sourceFigureDescription": "An H&E micrograph (cmyk jpeg, ~188x188 at 150 dpi): small round concentrically laminated calcified spherules (onion-skin psammoma bodies) with a red arrow, beside the psammoma block. COPYRIGHTED — described in text, never reproduced. The duplicated 'A' is a source quirk, documented.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's psammoma panel + blocks[2] the photographs row",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "amyloidosis",

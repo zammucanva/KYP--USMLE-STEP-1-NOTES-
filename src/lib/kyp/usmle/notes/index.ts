@@ -95,6 +95,7 @@ import { cellInjuryMechanisms } from "./cell-injury-mechanisms";
 import { apoptosisPathways } from "./apoptosis-pathways";
 import { necrosisTypes } from "./necrosis-types";
 import { tissueInjuryInfarcts } from "./tissue-injury-infarcts";
+import { calcificationRadiationInjury } from "./calcification-radiation-injury";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -273,6 +274,7 @@ export const usmleNotes: KypUsMLENote[] = [
   apoptosisPathways,
   necrosisTypes,
   tissueInjuryInfarcts,
+  calcificationRadiationInjury,
   cranialNerves,
   diabetesMellitus,
 ];
