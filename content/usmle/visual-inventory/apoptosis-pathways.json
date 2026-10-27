@@ -1,0 +1,100 @@
+{
+  "topicId": "apoptosis-pathways",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Apoptosis",
+      "topicId": "apoptosis-pathways",
+      "requiredInKYP": true,
+      "visualId": "apoptosis-pathways-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204–204"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The three-pathway convergence figure (book 204)",
+      "sourceFigureDescription": "Vector line art printing entirely in the text layer (pdfimages: 0 rasters): the intrinsic column (DNA damage/Radiation-ROS-toxins, Misfolded proteins, Hypoxia → p53 activation → Bax/Bak vs Bcl-2 at a mitochondrion icon → Cytochrome C), the extrinsic column (TNF-α-TNFR, FasL-Fas on a membrane drawing), and the perforin/granzyme column (a cytotoxic T cell) converging on the central executioner-caspase box, fanning to cytoskeletal dispersion, cytoplasmic bleb, and nuclear fragmentation, ending with the apoptotic body (ligands for macrophage cell receptors) engulfed by a macrophage. VLM census confirmed the topology; no photographs.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "apoptosis-pathway-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the full registry visual — the convergence map with original KYP glyphs + the definition panel + the clinical-anchors panel + the one-line map strip",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "apoptosis-pathway-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Apoptosis",
+      "topicId": "apoptosis-pathways",
+      "requiredInKYP": true,
+      "visualId": "apoptosis-pathways-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204–204"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The apoptosis text blocks (book 204)",
+      "sourceFigureDescription": "The definition block plus the three pathway blocks, including the source's own two inline mnemonics ('Bad for survival' for Bax/Bak; 'Be clever, live' for Bcl-2/Bcl-xL) printed in the intrinsic block.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim (source mnemonics carried verbatim per the E38 precedent)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Apoptosis",
+      "topicId": "apoptosis-pathways",
+      "requiredInKYP": true,
+      "visualId": "apoptosis-pathways-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204–204"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The convergence figure's labels (book 204)",
+      "sourceFigureDescription": "The figure's labels printing in the text layer interleaved with the page footer (raw 49-101, the indd line at raw 81 — the M39 footer-split pattern).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim (reading order VLM-verified)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "apoptosis-pathways",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The convergence figure (vector line art in the text layer, 0 rasters — VLM census confirmed, no photographs) is REDRAWN as the registry visual with original KYP glyphs. The four text blocks and the figure's label set are note-block verbatim adaptations; the source's own two inline mnemonics are carried verbatim per the E38 precedent. No other margin mnemonics exist on the page; nothing reproduced."
+}

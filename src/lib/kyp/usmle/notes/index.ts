@@ -92,6 +92,7 @@ import { hivTherapy } from "./hiv-therapy";
 import { hcvTherapy } from "./hcv-therapy";
 import { cellularAdaptations } from "./cellular-adaptations";
 import { cellInjuryMechanisms } from "./cell-injury-mechanisms";
+import { apoptosisPathways } from "./apoptosis-pathways";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -267,6 +268,7 @@ export const usmleNotes: KypUsMLENote[] = [
   hcvTherapy,
   cellularAdaptations,
   cellInjuryMechanisms,
+  apoptosisPathways,
   cranialNerves,
   diabetesMellitus,
 ];

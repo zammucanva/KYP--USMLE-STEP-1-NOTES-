@@ -1033,3 +1033,246 @@ export function InjuryTimelineMap() {
     </svg>
   );
 }
+
+export function ApoptosisPathwayMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Apoptosis — the three-door convergence map, an original KYP redraw of the source's figure (book 204 — vector line art printing in the text layer, 0 rasters; VLM census confirmed the topology). CENTER — THE CONVERGENCE MAP: the INTRINSIC column (DNA damage from radiation, ROS, toxins; misfolded proteins; hypoxia feeding p53 activation, then Bax/Bak against Bcl-2 at the mitochondrion, then cytochrome C released from the intermembrane space); the EXTRINSIC column (FasL binding Fas CD95 and TNF-alpha binding TNFR at the cell membrane); and the PERFORIN/GRANZYME B column (a cytotoxic T cell releasing granzyme B through a perforin pore) — all converging on the central EXECUTIONER CASPASES hub, fanning out to cytoskeletal dispersion, cytoplasmic blebs, and nuclear fragmentation, and ending in the apoptotic body, tagged with ligands for macrophage cell receptors, engulfed by a macrophage. LEFT — the definition panel: ATP-dependent programmed cell death, the caspase cascade, the morphology set (shrinkage, chromatin condensation, blebbing, apoptotic bodies phagocytosed), eosinophilic cytoplasm with basophilic nucleus, pyknosis and karyorrhexis, the intact membrane with no significant inflammation unlike necrosis, and DNA laddering at multiples of 180 bp. RIGHT — the clinical anchors: the intrinsic triggers (embryonic remodeling, IL-2 withdrawal after a completed immunologic reaction, radiation, toxins, hypoxia), the Bcl-2 overexpression of follicular lymphoma t(14;18) with tumorigenesis, the Fas-FasL thymic medullary negative selection, and autoimmune lymphoproliferative syndrome (defective Fas-FasL, failure of clonal deletion, lymphadenopathy, hepatosplenomegaly, autoimmune cytopenias). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Apoptosis — the three-door convergence map (original KYP redraw)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">3 doors · 1 executioner</text>
+      </g>
+      {/* ===== LEFT — the definition ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The definition (book 204)</text>
+        <rect x="48" y="132" width="216" height="96" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">ATP-DEPENDENT PROGRAMMED DEATH</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">intrinsic, extrinsic, and perforin/</text>
+        <text x="156" y="176" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">granzyme B pathways → activate</text>
+        <text x="156" y="186" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">caspases (cytosolic proteases) →</text>
+        <text x="156" y="196" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cellular breakdown → apoptotic</text>
+        <text x="156" y="206" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">bodies, which are then phagocytosed</text>
+        <rect x="48" y="238" width="216" height="110" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="256" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">THE MORPHOLOGY SET</text>
+        <text x="156" y="272" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cell shrinkage · chromatin</text>
+        <text x="156" y="282" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">condensation · membrane blebbing ·</text>
+        <text x="156" y="292" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">apoptotic bodies → phagocytosed</text>
+        <text x="156" y="308" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">deeply eosinophilic cytoplasm,</text>
+        <text x="156" y="318" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">basophilic nucleus · pyknosis ·</text>
+        <text x="156" y="328" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">karyorrhexis</text>
+        <rect x="48" y="358" width="216" height="76" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="156" y="376" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">THE QUIET DEATH</text>
+        <text x="156" y="392" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cell membrane typically remains</text>
+        <text x="156" y="402" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">intact WITHOUT significant</text>
+        <text x="156" y="412" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">inflammation (unlike necrosis)</text>
+        <text x="156" y="428" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the corpse is eaten, never spilled</text>
+        <rect x="48" y="444" width="216" height="60" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="156" y="462" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">DNA LADDERING AT 180</text>
+        <text x="156" y="478" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">fragments in multiples of 180 bp —</text>
+        <text x="156" y="488" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">a sensitive indicator of apoptosis</text>
+        <text x="52" y="522" fontSize="4" className="fill-muted-foreground">The shared nuclear words (pyknosis,</text>
+        <text x="52" y="532" fontSize="4" className="fill-muted-foreground">karyorrhexis) also belong to the</text>
+        <text x="52" y="542" fontSize="4" className="fill-muted-foreground">necrosis ladder of cell injury —</text>
+        <text x="52" y="552" fontSize="4" className="fill-muted-foreground">the discriminator is the membrane:</text>
+        <text x="52" y="562" fontSize="4" className="fill-muted-foreground">intact and quiet here, broken and</text>
+        <text x="52" y="572" fontSize="4" className="fill-muted-foreground">inflamed there.</text>
+        <rect x="48" y="590" width="216" height="72" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="608" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">WHY ATP MATTERS</text>
+        <text x="156" y="624" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">a death that costs energy — starving</text>
+        <text x="156" y="634" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cells necrose instead of apoptose;</text>
+        <text x="156" y="644" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the program is active all the way</text>
+        <text x="156" y="654" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">to the macrophage</text>
+      </g>
+      {/* ===== CENTER — the convergence map ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE CONVERGENCE — three doors, one hub, one ending (book 204)</text>
+        {/* intrinsic column */}
+        <g>
+          <rect x="304" y="136" width="128" height="240" rx="10" className="fill-card stroke-brand" />
+          <text x="368" y="152" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">INTRINSIC (MITOCHONDRIAL)</text>
+          <rect x="316" y="160" width="104" height="34" rx="6" className="fill-brand-soft/50 stroke-border" />
+          <text x="368" y="172" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">DNA damage</text>
+          <text x="368" y="181" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">Radiation, ROS, toxins</text>
+          <rect x="316" y="198" width="104" height="18" rx="6" className="fill-brand-soft/50 stroke-border" />
+          <text x="368" y="210" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Misfolded proteins</text>
+          <rect x="316" y="220" width="104" height="18" rx="6" className="fill-brand-soft/50 stroke-border" />
+          <text x="368" y="232" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Hypoxia</text>
+          <path d="M 368 240 L 368 250" className="stroke-brand" strokeWidth="1" fill="none" />
+          <rect x="316" y="250" width="104" height="18" rx="6" className="fill-secondary/60 stroke-border" />
+          <text x="368" y="262" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">p53 activation</text>
+          <path d="M 368 268 L 368 278" className="stroke-brand" strokeWidth="1" fill="none" />
+          {/* mitochondrion glyph */}
+          <ellipse cx="368" cy="312" rx="44" ry="26" className="fill-secondary/60 stroke-brand" strokeWidth="1.2" />
+          <path d="M 336 306 q 8 8 0 14 q 8 6 0 12" className="stroke-brand" strokeWidth="0.8" fill="none" />
+          <path d="M 352 300 q -8 10 0 20 q -8 8 0 14" className="stroke-brand" strokeWidth="0.8" fill="none" />
+          <path d="M 380 302 q 8 8 0 16 q 8 6 0 12" className="stroke-brand" strokeWidth="0.8" fill="none" />
+          <rect x="314" y="284" width="42" height="14" rx="4" className="fill-emergency-soft stroke-emergency" />
+          <text x="335" y="294" textAnchor="middle" fontSize="3.7" fontWeight="800" className="fill-emergency">Bax/Bak</text>
+          <rect x="382" y="284" width="42" height="14" rx="4" className="fill-brand-soft stroke-brand" />
+          <text x="403" y="294" textAnchor="middle" fontSize="3.7" fontWeight="800" className="fill-brand">Bcl-2</text>
+          <text x="368" y="352" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">Cytochrome C released</text>
+          <text x="368" y="361" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">from the intermembrane space</text>
+          <text x="318" y="370" fontSize="3.2" className="fill-muted-foreground">pores open vs membrane kept impermeable</text>
+        </g>
+        {/* extrinsic column */}
+        <g>
+          <rect x="448" y="136" width="128" height="110" rx="10" className="fill-card stroke-brand" />
+          <text x="512" y="152" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">EXTRINSIC (DEATH RECEPTOR)</text>
+          <rect x="460" y="162" width="50" height="16" rx="5" className="fill-secondary/60 stroke-border" />
+          <text x="485" y="173" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">FasL</text>
+          <path d="M 485 178 L 485 188" className="stroke-brand" strokeWidth="1" fill="none" />
+          <rect x="460" y="188" width="50" height="16" rx="5" className="fill-brand-soft/60 stroke-brand" />
+          <text x="485" y="199" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">Fas (CD95)</text>
+          <rect x="516" y="162" width="50" height="16" rx="5" className="fill-secondary/60 stroke-border" />
+          <text x="541" y="173" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">TNF-α</text>
+          <path d="M 541 178 L 541 188" className="stroke-brand" strokeWidth="1" fill="none" />
+          <rect x="516" y="188" width="50" height="16" rx="5" className="fill-brand-soft/60 stroke-brand" />
+          <text x="541" y="199" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">TNFR</text>
+          <text x="512" y="222" textAnchor="middle" fontSize="3.5" className="fill-muted-foreground">ligand-receptor interactions at the</text>
+          <text x="512" y="231" textAnchor="middle" fontSize="3.5" className="fill-muted-foreground">cell membrane (the figure&apos;s drawing)</text>
+        </g>
+        {/* perforin column */}
+        <g>
+          <rect x="592" y="136" width="108" height="240" rx="10" className="fill-card stroke-brand" />
+          <text x="646" y="152" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-brand">PERFORIN / GRANZYME B</text>
+          <ellipse cx="646" cy="188" rx="36" ry="28" className="fill-secondary/60 stroke-brand" strokeWidth="1.1" />
+          <ellipse cx="646" cy="184" rx="11" ry="8" className="fill-brand-soft stroke-brand" strokeWidth="0.6" />
+          <text x="646" y="230" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Cytotoxic T cell</text>
+          <text x="646" y="240" textAnchor="middle" fontSize="3.5" className="fill-muted-foreground">(and natural killer cell)</text>
+          <rect x="610" y="252" width="34" height="14" rx="4" className="fill-card stroke-border" />
+          <text x="627" y="262" textAnchor="middle" fontSize="3.4" fontWeight="700" className="fill-foreground">Perforin</text>
+          <rect x="650" y="252" width="34" height="14" rx="4" className="fill-card stroke-border" />
+          <text x="667" y="262" textAnchor="middle" fontSize="3.4" fontWeight="700" className="fill-foreground">Granzyme B</text>
+          <path d="M 646 268 L 646 280" className="stroke-brand" strokeWidth="1" fill="none" />
+          <text x="646" y="292" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">perforin forms a pore</text>
+          <text x="646" y="302" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">for granzyme B to enter</text>
+          <text x="646" y="312" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">the target cell</text>
+          <circle cx="646" cy="340" r="5" className="fill-card stroke-emergency" strokeWidth="0.8" />
+          <circle cx="658" cy="336" r="5" className="fill-card stroke-emergency" strokeWidth="0.8" />
+          <circle cx="652" cy="348" r="5" className="fill-card stroke-emergency" strokeWidth="0.8" />
+          <text x="646" y="364" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">the pores on the target membrane</text>
+        </g>
+        {/* convergence arrows to hub */}
+        <g className="stroke-brand" strokeWidth="1.2" fill="none">
+          <path d="M 368 380 C 400 410, 450 420, 480 428" />
+          <path d="M 512 250 C 512 300, 505 370, 500 424" />
+          <path d="M 646 380 C 620 405, 570 418, 532 428" />
+        </g>
+        <path d="M480 428 l-10 -4 l5 10 z" className="fill-brand" />
+        <path d="M500 424 l-5 -10 l11 1 z" className="fill-brand" />
+        <path d="M532 428 l-9 -6 l3 11 z" className="fill-brand" />
+        {/* the hub */}
+        <rect x="424" y="432" width="160" height="44" rx="10" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="504" y="450" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">EXECUTIONER CASPASES</text>
+        <text x="504" y="464" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">cytosolic proteases — the shared hub</text>
+        {/* fan-out */}
+        <g className="stroke-brand" strokeWidth="1" fill="none">
+          <path d="M 464 476 C 420 500, 380 520, 350 540" />
+          <path d="M 504 476 L 504 530" />
+          <path d="M 544 476 C 590 500, 630 520, 660 540" />
+        </g>
+        <path d="M350 540 l-9 -7 l11 -2 z" className="fill-brand" />
+        <path d="M504 530 l-5 -10 l11 0 z" className="fill-brand" />
+        <path d="M660 540 l-2 -11 l10 4 z" className="fill-brand" />
+        <rect x="300" y="540" width="104" height="30" rx="6" className="fill-card stroke-border" />
+        <text x="352" y="553" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Cytoskeletal</text>
+        <text x="352" y="562" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">dispersion</text>
+        <rect x="456" y="532" width="96" height="30" rx="6" className="fill-card stroke-border" />
+        <text x="504" y="545" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Cytoplasmic bleb</text>
+        <text x="504" y="554" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">the surface buds outward</text>
+        <rect x="608" y="540" width="104" height="30" rx="6" className="fill-card stroke-border" />
+        <text x="660" y="553" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Nuclear</text>
+        <text x="660" y="562" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">fragmentation</text>
+        {/* the ending */}
+        <g className="stroke-muted-foreground" strokeWidth="1" fill="none">
+          <path d="M 504 562 C 504 590, 470 600, 450 608" />
+        </g>
+        <path d="M450 608 l-10 -3 l7 -8 z" className="fill-muted-foreground" />
+        <rect x="304" y="612" width="150" height="56" rx="10" className="fill-card stroke-brand" />
+        <ellipse cx="352" cy="636" rx="26" ry="18" className="fill-brand-soft/50 stroke-brand" strokeWidth="1" />
+        <circle cx="346" cy="632" r="4" className="fill-secondary stroke-border" strokeWidth="0.5" />
+        <circle cx="360" cy="640" r="3.4" className="fill-secondary stroke-border" strokeWidth="0.5" />
+        <text x="406" y="628" fontSize="3.9" fontWeight="800" className="fill-foreground">APOPTOTIC BODY</text>
+        <text x="406" y="638" fontSize="3.4" className="fill-muted-foreground">tagged: Ligands for</text>
+        <text x="406" y="647" fontSize="3.4" className="fill-muted-foreground">macrophage cell receptors</text>
+        <path d="M 456 640 L 500 640" className="stroke-muted-foreground" strokeWidth="1" fill="none" />
+        <path d="M500 640 l-9 -5 l0 10 z" className="fill-muted-foreground" />
+        {/* macrophage glyph */}
+        <ellipse cx="560" cy="640" rx="44" ry="26" className="fill-secondary/60 stroke-border" strokeWidth="1.2" />
+        <path d="M 516 628 q -10 -6 -14 2 q 6 8 14 4" className="fill-secondary/60 stroke-border" strokeWidth="0.8" />
+        <path d="M 522 654 q -10 8 -4 14 q 10 -2 12 -10" className="fill-secondary/60 stroke-border" strokeWidth="0.8" />
+        <ellipse cx="576" cy="636" rx="10" ry="7" className="fill-card stroke-border" strokeWidth="0.6" />
+        <text x="640" y="634" textAnchor="middle" fontSize="3.9" fontWeight="800" className="fill-foreground">MACROPHAGE</text>
+        <text x="640" y="644" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">phagocytosis — quiet cleanup,</text>
+        <text x="640" y="653" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">no inflammation behind</text>
+      </g>
+      {/* ===== RIGHT — the clinical anchors ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The clinical anchors</text>
+        <rect x="736" y="132" width="196" height="104" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="150" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">INTRINSIC TRIGGERS</text>
+        <text x="834" y="166" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">tissue remodeling in embryogenesis ·</text>
+        <text x="834" y="176" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">regulating-factor withdrawal — ↓ IL-2</text>
+        <text x="834" y="186" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">after a completed immunologic reaction</text>
+        <text x="834" y="196" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">→ apoptosis of proliferating effector</text>
+        <text x="834" y="206" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cells · injurious stimuli: radiation,</text>
+        <text x="834" y="216" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">toxins, hypoxia</text>
+        <rect x="736" y="246" width="196" height="96" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="834" y="264" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-emergency">THE JAMMED DOOR</text>
+        <text x="834" y="280" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Bcl-2 overexpression (eg, follicular</text>
+        <text x="834" y="290" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">lymphoma t[14;18]) → ↓ caspase</text>
+        <text x="834" y="300" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">activation → tumorigenesis</text>
+        <text x="834" y="316" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the guardian overexpressed, the</text>
+        <text x="834" y="326" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">mitochondrial door held shut —</text>
+        <text x="834" y="336" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">a cancer that will not die</text>
+        <rect x="736" y="352" width="196" height="86" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="834" y="370" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE THYMIC ROLE</text>
+        <text x="834" y="386" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Fas-FasL interaction is necessary</text>
+        <text x="834" y="396" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">in thymic medullary negative</text>
+        <text x="834" y="406" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">selection — self-reactive clones</text>
+        <text x="834" y="416" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">deleted by this page&apos;s quiet death</text>
+        <rect x="736" y="448" width="196" height="112" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="834" y="466" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME</text>
+        <text x="834" y="482" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">defective Fas-FasL interaction →</text>
+        <text x="834" y="492" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">failure of clonal deletion →</text>
+        <text x="834" y="502" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">↑ numbers of self-reacting</text>
+        <text x="834" y="512" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">lymphocytes</text>
+        <text x="834" y="528" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">presents: lymphadenopathy,</text>
+        <text x="834" y="538" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">hepatosplenomegaly,</text>
+        <text x="834" y="548" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">autoimmune cytopenias</text>
+        <text x="740" y="580" fontSize="3.9" className="fill-muted-foreground">The source prints its own two</text>
+        <text x="740" y="590" fontSize="3.9" className="fill-muted-foreground">mnemonics inline in the intrinsic</text>
+        <text x="740" y="600" fontSize="3.9" className="fill-muted-foreground">block — 'Bad for survival' (Bax/Bak)</text>
+        <text x="740" y="610" fontSize="3.9" className="fill-muted-foreground">and 'Be clever, live' (Bcl-2/Bcl-xL)</text>
+        <text x="740" y="620" fontSize="3.9" className="fill-muted-foreground">— carried verbatim in the note&apos;s</text>
+        <text x="740" y="630" fontSize="3.9" className="fill-muted-foreground">tables per the established precedent;</text>
+        <text x="740" y="640" fontSize="3.9" className="fill-muted-foreground">the KYP memory layer stays original.</text>
+        <text x="740" y="662" fontSize="3.9" className="fill-muted-foreground">One page, three doors, two diseases:</text>
+        <text x="740" y="672" fontSize="3.9" className="fill-muted-foreground">the lymphoma that jams the door, the</text>
+        <text x="740" y="682" fontSize="3.9" className="fill-muted-foreground">syndrome that breaks its hinge.</text>
+      </g>
+      {/* ===== BOTTOM — the one-line map ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The map in one line — the labels verbatim (book 204)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">INTRINSIC: DNA damage (radiation, ROS, toxins) · misfolded proteins · hypoxia → p53 → Bax/Bak vs Bcl-2 → cytochrome C · EXTRINSIC: FasL-Fas (CD95), TNF-α-TNFR ·</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">PERFORIN/GRANZYME B: the cytotoxic T cell payload → EXECUTIONER CASPASES → cytoskeletal dispersion · cytoplasmic bleb · nuclear fragmentation → apoptotic body → macrophage</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 204 (pdf 226) — Apoptosis: the definition; the Intrinsic (mitochondrial), Extrinsic (death receptor), and Perforin/granzyme B pathway blocks; the three-pathway convergence figure. Census: p226 is pure text (pdfimages: 0 rasters) — the figure prints as vector line art with all labels in the text layer.</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Figure topology VLM-verified: the intrinsic column (inputs → p53 → the Bax/Bak vs Bcl-2 mitochondrion → cytochrome C), the extrinsic receptors, the cytotoxic T cell with its perforin pores — converging on executioner caspases, fanning to dispersion/bleb/fragmentation, ending in the macrophage-engulfed apoptotic body.</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">The source's own inline mnemonics — 'Bad for survival' (Bax/Bak proapoptotic) and 'Be clever, live' (Bcl-2/Bcl-xL antiapoptotic) — are carried verbatim in the note's tables per the established verbatim-table precedent; the KYP memory layer stays original.</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: facts and labels are carried; expression and artwork are not — the mitochondrion, membrane-receptor, T-cell, and macrophage glyphs are original KYP vectors. No photographs; no other margin notes (VLM census confirmed).</text>
+      </g>
+    </svg>
+  );
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T18:54:07Z",
+  "generatedAt": "2026-10-27T19:01:38Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 128,
+    "topicsProduced": 129,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 73,
+      "pilot-complete": 74,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 2,
-      "topicsRemaining": 17,
+      "topicsProduced": 3,
+      "topicsRemaining": 16,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -509,6 +509,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 218, 219 (book 196–197)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
+    },
+    {
+      "topicId": "apoptosis-pathways",
+      "title": "Apoptosis: Intrinsic, Extrinsic & Misfolded Proteins",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Apoptosis",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 226 (book 204–204)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 3,

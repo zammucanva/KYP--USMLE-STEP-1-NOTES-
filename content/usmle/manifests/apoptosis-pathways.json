@@ -1,0 +1,242 @@
+{
+  "topicId": "apoptosis-pathways",
+  "title": "Apoptosis: Intrinsic, Extrinsic & Misfolded Proteins",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Apoptosis",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      226
+    ],
+    "bookPages": "204–204"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the printed book page, section banner, and heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "204\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY\n\nApoptosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Apoptosis definition block — ATP-dependent programmed cell death; caspases; shrinkage/condensation/blebbing/apoptotic bodies phagocytosed; eosinophilic cytoplasm and basophilic nucleus; pyknosis and karyorrhexis; intact membrane without significant inflammation (unlike necrosis); DNA laddering at 180 bp",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "ATP-dependent programmed cell death.\nIntrinsic, extrinsic, and perforin/granzyme B pathways → activate caspases (cytosolic proteases)\n→ cellular breakdown including cell shrinkage, chromatin condensation, membrane blebbing,\nand formation of apoptotic bodies, which are then phagocytosed.\nCharacterized by deeply eosinophilic cytoplasm and basophilic nucleus, pyknosis, and karyorrhexis.\nCell membrane typically remains intact without significant inflammation (unlike necrosis).\nDNA laddering (fragments in multiples of 180 bp) is a sensitive indicator of apoptosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intrinsic pathway triggers — embryogenesis tissue remodeling; IL-2 withdrawal after a completed immunologic reaction; radiation, toxins, hypoxia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Intrinsic\n(mitochondrial)\npathway\n\nInvolved in tissue remodeling in embryogenesis. Occurs when a regulating factor is withdrawn\nfrom a proliferating cell population (eg, ↓ IL-2 after a completed immunologic reaction\n→ apoptosis of proliferating effector cells). Also occurs after exposure to injurious stimuli (eg,\nradiation, toxins, hypoxia).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bcl-2 rheostat with the source's own inline mnemonics — 'Bad for survival' and 'Be clever, live'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Regulated by Bcl-2 family of proteins. Bax and Bak are proapoptotic (Bad for survival), while Bcl-2\nand Bcl-xL are antiapoptotic (Be clever, live).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intrinsic mechanism and the jammed door — BAX/BAK pores, cytochrome C release, caspase activation; Bcl-2 impermeability; follicular lymphoma t(14;18) overexpression → tumorigenesis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "BAX and BAK form pores in the outer mitochondrial membrane → release of cytochrome C from\nthe mitochondrial intermembrane space into the cytoplasm → activation of caspases.\nBcl-2 keeps the mitochondrial membrane impermeable, thereby preventing cytochrome C release.\nBcl-2 overexpression (eg, follicular lymphoma t[14;18]) → ↓ caspase activation → tumorigenesis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The extrinsic pathway — FasL-Fas (CD95), TNF-α-TNFR; thymic medullary negative selection; autoimmune lymphoproliferative syndrome (failure of clonal deletion, lymphadenopathy, hepatosplenomegaly, autoimmune cytopenias)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Extrinsic (death\nreceptor) pathway\n\nLigand receptor interactions: FasL binding to Fas (CD95) or TNF-α binding to its receptor.\nFas-FasL interaction is necessary in thymic medullary negative selection.\nAutoimmune lymphoproliferative syndrome—caused by defective Fas-FasL interaction → failure\nof clonal deletion → ↑ numbers of self-reacting lymphocytes. Presents with lymphadenopathy,\nhepatosplenomegaly, autoimmune cytopenias.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The perforin/granzyme B pathway — cytotoxic T-cell and NK-cell granules; perforin forms the pore",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Perforin/granzyme B\npathway\n\nRelease of granules containing perforin and granzyme B by immune cells (cytotoxic T-cell and\nnatural killer cell) → perforin forms a pore for granzyme B to enter the target cell.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's column titles + TNF-α + p53 activation + the intrinsic inputs (DNA damage, Radiation/ROS/toxins, Misfolded proteins, Hypoxia)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Intrinsic pathway\n(mitochondrial)\n\nExtrinsic pathway\n(death receptor)\nTNF-α\n\np53 activation\n\nDNA damage\nRadiation, ROS, toxins\nMisfolded proteins\nHypoxia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's membrane pair and the hub approach — Bax/Bak, Bcl-2, Cytochrome C, FasL, TNFR, Fas, Executioner caspases",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Bax/Bak\nBcl-2\n\nCytochrome C\n\nFasL\n\nTNFR\nFas\nExecutioner\ncaspases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's fan-out labels + the indd footer — Cytoskeletal dispersion, Cytoplasmic bleb (the M39 footer-split pattern)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Cytoskelet\nal dispersion\n\nCytoplasmic\nbleb\n\nFAS1_2026_04-Pathol.indd 204",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's cytotoxic payload and ending — Cytotoxic T cell, Granzyme B, Perforin, Nuclear fragmentation, the pathway title, Ligands for macrophage cell receptors, Macrophage, Apoptotic body",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "Cytotoxic T cell\n\nGranzyme B\n\nPerforin\n\nNuclear\nfragmentation\n\nPerforin/granzyme B\npathway\nLigands for\nmacrophage cell\nreceptors\n\nMacrophage\n\nApoptotic\nbody",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "apoptosis-pathway-map"
+  ],
+  "mechanismIds": [
+    "three-doors-one-executioner",
+    "bcl2-rheostat"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition, the three pathway blocks, and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "door-routing-rule",
+      "summary": "The match-the-door-to-the-stimulus routing rule and the failed-apoptosis fork (Bcl-2 overexpression cancer vs Fas-FasL ALPS autoimmunity) — KYP's synthesis of the three blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the pathways without a stimulus-to-door decision rule or a two-disease contrast; the routing rule and the fork are KYP's design.",
+      "location": "core.keyIdea + mechanisms + the exam callout + pivots + traps"
+    },
+    {
+      "id": "quiet-death-framing",
+      "summary": "The quiet-death framing (intact membrane, no inflammation, the corpse eaten) and the shared-nuclear-words trap against the necrosis ladder of the cell-injury page.",
+      "origin": "outside-first-aid",
+      "rationale": "The source states the contrast once in the definition; the sustained quiet-vs-loud framing and the cross-page nuclear-words trap are KYP's design.",
+      "location": "traps + mnemonics + crossLinks + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p226 pure text (0 rasters) — the convergence figure is vector line art in the text layer (the M33/M34 convention); REDRAWN as the registry visual with original KYP glyphs (mitochondrion, membrane receptors, T cell, macrophage). The four text blocks (with the source's own two inline mnemonics 'Bad for survival' and 'Be clever, live' carried verbatim per the E38 precedent) and the figure's label set are note-block verbatim adaptations. No other margin mnemonics (VLM confirmed).",
+  "updatedAt": "2026-10-27"
+}

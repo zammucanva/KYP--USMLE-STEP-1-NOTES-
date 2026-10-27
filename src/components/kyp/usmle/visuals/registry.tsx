@@ -49,6 +49,7 @@ import {
 } from "./translation";
 import {
   AdaptationsComparisonMap,
+  ApoptosisPathwayMap,
   CellCycleCheckpointMap,
   InjuryTimelineMap,
   CiliaAxonemeBasalBody,
@@ -331,4 +332,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "hcv-daa-target-map": HcvDaaTargetMap,
   "adaptations-comparison-map": AdaptationsComparisonMap,
   "injury-timeline-map": InjuryTimelineMap,
+  "apoptosis-pathway-map": ApoptosisPathwayMap,
 };
