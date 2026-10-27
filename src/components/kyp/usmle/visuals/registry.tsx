@@ -50,6 +50,7 @@ import {
 import {
   AdaptationsComparisonMap,
   CellCycleCheckpointMap,
+  InjuryTimelineMap,
   CiliaAxonemeBasalBody,
   DextrocardiaCxr,
   MicrotubuleArchitecture,
@@ -329,4 +330,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "hiv-drug-lifecycle-map": HivDrugLifecycleMap,
   "hcv-daa-target-map": HcvDaaTargetMap,
   "adaptations-comparison-map": AdaptationsComparisonMap,
+  "injury-timeline-map": InjuryTimelineMap,
 };

@@ -1,0 +1,229 @@
+{
+  "topicId": "cell-injury-mechanisms",
+  "title": "Cell Injury: Reversible, Irreversible & Ferroptosis",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Cell injury",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      225
+    ],
+    "bookPages": "203–203"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, the double heading, and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY\n\nSEC TION II\n\n203",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Cell injury' + 'Reversible cell injury' headings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Cell injury\nReversible cell injury",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The reversible cascade — ATP/ATPase pumps/cellular swelling as the earliest morphologic manifestation; ribosomal detachment; membrane blebbing; chromatin clumping; rapid functional loss (myocardial noncontractile after 1-2 minutes); myelin figures",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "▘ ↓ ATP → ↓ activity of Ca2+ and Na+/K+ -ATPase pumps → cellular swelling (cytosol,\nmitochondria, endoplasmic reticulum/Golgi), which is the earliest morphologic manifestation\n▘ Ribosomal/polysomal detachment → ↓ protein synthesis\n▘ Plasma membrane changes (eg, blebbing)\n▘ Nuclear changes (eg, chromatin clumping)\n▘ Rapid loss of function (eg, myocardial cells are noncontractile after 1-2 minutes of ischemia)\n▘ Myelin figures (aggregation of peroxidized lipids)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The irreversible cascade — plasma membrane breakdown with troponin leak and Ca2+ influx; mitochondrial damage with ETC loss; lysosomal rupture with autolysis; the pyknosis-karyorrhexis-karyolysis ladder; amorphous densities",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Irreversible cell injury\n\n▘ Breakdown of plasma membrane → cytosolic enzymes (eg, troponin) leak outside of cell, influx\nof Ca2+ → activation of degradative enzymes\n▘ Mitochondrial damage/dysfunction → loss of electron transport chain → ↓ ATP\n▘ Rupture of lysosomes → autolysis\n▘ Nuclear degradation: pyknosis (nuclear condensation) → karyorrhexis (nuclear fragmentation\ncaused by endonuclease-mediated cleavage) → karyolysis (nuclear dissolution)\n▘ Amorphous densities/inclusions in mitochondria",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's main labels + the Ferroptosis stream-order quirk — Normal cell, Irreversible, Reversible, Cell death (necrosis), Ferroptosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Normal cell\n\nIrreversible\nReversible\nCell death (necrosis)\n\nFerroptosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's reversible-side stage labels — cellular swelling (printing after the footer, the M39 pattern); membrane blebbing; nuclear chromatin clumping; ribosomal detachment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 203\n\nCellular\nswelling\n\nMembrane blebbing\nNuclear chromatin\nclumping\n\nRibosomal\ndetachment",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's irreversible-side stage labels — rupture of lysosomes and autolysis; plasma membrane damage; nuclear degradation; mitochondrial permeability",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Rupture of\nlysosomes\nand autolysis\n\nPlasma membrane\ndamage\n\nNuclear\ndegradation\n\nmitochondrial\npermeability",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ferroptosis mechanism and morphology — lipid peroxidation, lethal lipid species, iron-dependent cell death; mitochondrial shrinkage with loss of cristae and outer membrane rupture",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Lipid peroxidation → accumulation of lethal lipid species → iron-dependent cell death. Results in\nshrinkage of mitochondria with loss of cristae and mitochondrial outer membrane rupture.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ferroptosis disease states and therapeutic applications — MASLD/MASH, ischemia-reperfusion injury, neurodegeneration, cancer therapy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "Involved in the pathogenesis of several disease states (eg, MASLD/MASH, ischemia–reperfusion\ninjury, neurodegeneration), with potential therapeutic applications (eg, cancer therapy).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ferroptosis prevention — iron chelators (deferiprone, deferoxamine) and small lipophilic antioxidants (ferrostatin, liproxstatin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "May be preventable through the use of iron chelators (eg, deferiprone, deferoxamine) and small\nlipophilic antioxidants (eg, ferrostatin, liproxstatin).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "injury-timeline-map"
+  ],
+  "mechanismIds": [
+    "atp-pump-failure-cascade",
+    "point-of-no-return"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two bullet lists, the figure, and the ferroptosis paragraph; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "timeline-position-synthesis",
+      "summary": "The timeline-position reading rule (place the named finding on the green or red segment; the membrane is the border) and the function-before-structure timing rule — KYP's synthesis of the two lists and the figure.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the events and the timeline without a position-based decision rule; the segment logic and the hinge framing are KYP's design.",
+      "location": "core.keyIdea + mechanism 1-2 + the exam callout + patterns + pivots"
+    },
+    {
+      "id": "swelling-inversion-contrast",
+      "summary": "The ferroptosis swelling-inversion contrast (mitochondria SHRINK vs the necrosis timeline's SWELLING) and the troponin-leak-marks-the-border clinical bridge.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints both morphologies without contrasting them; the inversion contrast and the laboratory bridge are KYP's synthesis.",
+      "location": "mechanism 2 + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p225 pure text (0 rasters) — the timeline is vector line art in the text layer (the M33/M34 convention); REDRAWN as the registry visual with original KYP cell glyphs (round, swollen, breaking, fragmented). The two bullet lists and the figure's label set are note-block verbatim adaptations. The 'Ferroptosis' stream-order quirk documented. No margin mnemonics (VLM confirmed).",
+  "updatedAt": "2026-10-27"
+}

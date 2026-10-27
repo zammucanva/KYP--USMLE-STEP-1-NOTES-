@@ -1,0 +1,100 @@
+{
+  "topicId": "cell-injury-mechanisms",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Cell injury",
+      "topicId": "cell-injury-mechanisms",
+      "requiredInKYP": true,
+      "visualId": "cell-injury-mechanisms-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203–203"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The cell injury timeline figure (book 203)",
+      "sourceFigureDescription": "Vector line art printing entirely in the text layer (pdfimages: 0 rasters): normal cell → green double-headed arrow → reversible-injury cell (cellular swelling, ribosomal detachment, membrane blebbing, nuclear chromatin clumping) → red arrow → irreversible-injury cell (rupture of lysosomes and autolysis, plasma membrane damage, nuclear degradation, mitochondrial permeability) → black arrow → the fragmented cell of cell death (necrosis); legend at the figure's left (green Reversible, red Irreversible, black Cell death). VLM census confirmed the topology in two rounds; no photographs.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "injury-timeline-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the full registry visual — the timeline with original KYP cell glyphs + the reversible cascade panel + the irreversible/ferroptosis panel + the one-line timeline strip",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "injury-timeline-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Cell injury",
+      "topicId": "cell-injury-mechanisms",
+      "requiredInKYP": true,
+      "visualId": "cell-injury-mechanisms-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203–203"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The reversible and irreversible bullet lists (book 203)",
+      "sourceFigureDescription": "The two definition lists: six reversible bullets (ATP-pump failure with cellular swelling as the earliest morphologic manifestation, ribosomal detachment, blebbing, chromatin clumping, rapid functional loss, myelin figures) and five irreversible bullets (membrane breakdown with troponin leak, ETC loss, lysosomal autolysis, the nuclear ladder, amorphous densities).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Cell injury",
+      "topicId": "cell-injury-mechanisms",
+      "requiredInKYP": true,
+      "visualId": "cell-injury-mechanisms-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203–203"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The timeline figure's stage labels and legend (book 203)",
+      "sourceFigureDescription": "The figure's labels printing interleaved around the footer in the text layer (raw 30-61), including the 'Ferroptosis' stream-order quirk (prints among the figure labels but sits below the figure as the paragraph heading — VLM-verified).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim (reading order VLM-verified)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cell-injury-mechanisms",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The timeline figure (vector line art in the text layer, 0 rasters — VLM census in two rounds, no photographs) is REDRAWN as the registry visual with original KYP cell glyphs; the source's green/red/black legend is rendered in the KYP palette (teal/red/foreground) and labeled as such. The two bullet lists and the figure's label set are note-block verbatim adaptations. The 'Ferroptosis' stream-order quirk is documented. No margin mnemonics exist on the page; nothing reproduced."
+}

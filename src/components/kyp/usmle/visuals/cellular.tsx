@@ -832,3 +832,204 @@ export function AdaptationsComparisonMap() {
     </svg>
   );
 }
+
+export function InjuryTimelineMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cell injury — the timeline from pump failure through the point of no return, an original KYP redraw of the source's figure (book 203 — vector line art printing in the text layer, 0 rasters; VLM census confirmed the topology). CENTER — THE TIMELINE: the normal cell at left; the GREEN double-headed arrow over the reversible cell carrying Cellular swelling, Ribosomal detachment, Membrane blebbing, Nuclear chromatin clumping; the RED arrow over the irreversible cell carrying Rupture of lysosomes and autolysis, Plasma membrane damage, Nuclear degradation, increased Mitochondrial permeability; the BLACK arrow to the fragmented cell of CELL DEATH (NECROSIS); the legend green Reversible, red Irreversible, black Cell death. LEFT — the reversible cascade panel: ATP depletion stalling the Ca2+ and Na+/K+-ATPase pumps, cellular swelling as the earliest morphologic manifestation, ribosomal detachment, blebbing, chromatin clumping, rapid functional loss (myocardium noncontractile after 1-2 minutes of ischemia), myelin figures. RIGHT — the irreversible cascade panel: plasma membrane breakdown with the troponin leak and Ca2+ influx, electron transport chain loss, lysosomal autolysis, the nuclear ladder pyknosis karyorrhexis karyolysis, amorphous mitochondrial densities — plus the FERROPTOSIS detour: iron-dependent lipid peroxidation, mitochondria that SHRINK with loss of cristae and outer membrane rupture, MASLD/MASH, ischemia-reperfusion, neurodegeneration, cancer therapy, and prevention by iron chelators and lipophilic antioxidants. The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cell injury — the timeline (original KYP redraw)</text>
+        <rect x="744" y="24" width="188" height="18" className="fill-brand-soft" />
+        <text x="838" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">green → red → black</text>
+      </g>
+      {/* ===== LEFT — the reversible cascade ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The reversible cascade (book 203)</text>
+        <rect x="48" y="132" width="216" height="106" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-brand">THE OPENING MOVE</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">↓ ATP → ↓ activity of Ca2+ and</text>
+        <text x="156" y="176" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Na+/K+-ATPase pumps → cellular</text>
+        <text x="156" y="186" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">swelling (cytosol, mitochondria,</text>
+        <text x="156" y="196" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">endoplasmic reticulum/Golgi)</text>
+        <text x="156" y="212" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">the EARLIEST morphologic</text>
+        <text x="156" y="222" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">manifestation of cell injury</text>
+        <rect x="48" y="248" width="216" height="70" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="264" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">THE REVERSIBLE QUARTET</text>
+        <text x="156" y="280" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">ribosomal/polysomal detachment</text>
+        <text x="156" y="290" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">→ ↓ protein synthesis · plasma</text>
+        <text x="156" y="300" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">membrane changes (blebbing) ·</text>
+        <text x="156" y="310" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">nuclear changes (chromatin clumping)</text>
+        <rect x="48" y="328" width="216" height="76" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="344" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">FUNCTION FALLS FIRST</text>
+        <text x="156" y="360" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">rapid loss of function — myocardial</text>
+        <text x="156" y="370" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cells are noncontractile after</text>
+        <text x="156" y="380" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">1-2 minutes of ischemia</text>
+        <text x="156" y="396" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">symptoms and lost contraction arrive</text>
+        <text x="156" y="406" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">long before structural death</text>
+        <rect x="48" y="414" width="216" height="56" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="430" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">MYELIN FIGURES</text>
+        <text x="156" y="446" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">aggregation of peroxidized lipids —</text>
+        <text x="156" y="456" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the lipid-damage marker of the</text>
+        <text x="156" y="466" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">reversible window</text>
+        <text x="52" y="492" fontSize="4" className="fill-muted-foreground">Everything on this panel retreats</text>
+        <text x="52" y="502" fontSize="4" className="fill-muted-foreground">if perfusion returns or the toxin is</text>
+        <text x="52" y="512" fontSize="4" className="fill-muted-foreground">removed — the green double-headed</text>
+        <text x="52" y="522" fontSize="4" className="fill-muted-foreground">arrow of the timeline means exactly</text>
+        <text x="52" y="532" fontSize="4" className="fill-muted-foreground">this: the walk back to normal.</text>
+        <rect x="48" y="548" width="216" height="112" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="156" y="566" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">THE PUMP LADDER (read down)</text>
+        <text x="156" y="582" textAnchor="middle" fontSize="3.9" className="fill-foreground">ischemia or toxin</text>
+        <text x="156" y="594" textAnchor="middle" fontSize="3.9" className="fill-foreground">↓ ATP production</text>
+        <text x="156" y="606" textAnchor="middle" fontSize="3.9" className="fill-foreground">↓ ATPase pump activity</text>
+        <text x="156" y="618" textAnchor="middle" fontSize="3.9" className="fill-foreground">ion gradients collapse</text>
+        <text x="156" y="630" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">water follows → the cell swells</text>
+        <text x="156" y="644" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">every step is a testable link in the chain</text>
+      </g>
+      {/* ===== CENTER — the timeline ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE TIMELINE — normal to necrosis (book 203)</text>
+        {/* legend */}
+        <rect x="304" y="132" width="180" height="58" rx="8" className="fill-card stroke-border" />
+        <line x1="316" y1="146" x2="334" y2="146" className="stroke-brand" strokeWidth="2" />
+        <text x="340" y="149" fontSize="4.4" fontWeight="700" className="fill-foreground">Reversible (source prints green)</text>
+        <line x1="316" y1="160" x2="334" y2="160" className="stroke-emergency" strokeWidth="2" />
+        <text x="340" y="163" fontSize="4.4" fontWeight="700" className="fill-foreground">Irreversible (source prints red)</text>
+        <line x1="316" y1="174" x2="334" y2="174" className="stroke-foreground" strokeWidth="2" />
+        <text x="340" y="177" fontSize="4.4" fontWeight="700" className="fill-foreground">Cell death (necrosis)</text>
+        {/* normal cell */}
+        <g>
+          <ellipse cx="352" cy="330" rx="40" ry="44" className="fill-card stroke-brand" strokeWidth="1.4" />
+          <ellipse cx="352" cy="330" rx="12" ry="9" className="fill-brand-soft stroke-brand" strokeWidth="0.7" />
+          <text x="352" y="392" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">NORMAL CELL</text>
+          <text x="352" y="404" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the origin — every timeline</text>
+          <text x="352" y="413" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">question starts here</text>
+        </g>
+        {/* green double-headed arrow */}
+        <g className="stroke-brand" strokeWidth="1.6" fill="none">
+          <path d="M 398 320 L 476 320" strokeDasharray="none" />
+        </g>
+        <path d="M398 320 l10 -5 l0 10 z" className="fill-brand" />
+        <path d="M476 320 l-10 -5 l0 10 z" className="fill-brand" />
+        <text x="437" y="308" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">Reversible</text>
+        {/* reversible cell */}
+        <g>
+          <ellipse cx="530" cy="330" rx="46" ry="52" className="fill-card stroke-brand" strokeWidth="1.4" />
+          <ellipse cx="530" cy="318" rx="13" ry="10" className="fill-brand-soft stroke-brand" strokeWidth="0.7" />
+          <circle cx="548" cy="352" r="3" className="fill-warning" />
+          <circle cx="515" cy="356" r="2.5" className="fill-warning" />
+          <text x="530" y="396" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">REVERSIBLE INJURY</text>
+          <text x="530" y="408" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">swollen — can still walk back</text>
+        </g>
+        {/* red arrow */}
+        <g className="stroke-emergency" strokeWidth="1.6" fill="none">
+          <path d="M 582 320 L 648 320" />
+        </g>
+        <path d="M648 320 l-10 -5 l0 10 z" className="fill-emergency" />
+        <text x="615" y="308" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-emergency">Irreversible</text>
+        {/* irreversible cell */}
+        <g>
+          <path d="M 672 286 C 706 278, 712 300, 704 318 C 716 322, 714 352, 700 358 C 708 376, 690 388, 676 378 C 664 388, 650 374, 656 360 C 644 350, 648 322, 660 316 C 654 300, 660 288, 672 286 Z" className="fill-card stroke-emergency" strokeWidth="1.4" />
+          <ellipse cx="680" cy="330" rx="11" ry="8" className="fill-warning-soft stroke-warning" strokeWidth="0.7" />
+          <text x="680" y="396" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">IRREVERSIBLE INJURY</text>
+          <text x="680" y="408" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">committed — the border crossed</text>
+        </g>
+        {/* black arrow to death */}
+        <g className="stroke-foreground" strokeWidth="1.6" fill="none">
+          <path d="M 560 470 C 600 500, 640 500, 676 470" />
+        </g>
+        <path d="M676 470 l-4 -10 l10 0 z" className="fill-foreground" />
+        <text x="618" y="512" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">Cell death (necrosis)</text>
+        {/* stage label chips — reversible side */}
+        <g>
+          <rect x="304" y="440" width="188" height="18" rx="6" className="fill-card stroke-brand" />
+          <text x="398" y="452" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Cellular swelling — the earliest sign</text>
+          <rect x="304" y="462" width="188" height="18" rx="6" className="fill-card stroke-brand" />
+          <text x="398" y="474" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Ribosomal detachment → ↓ synthesis</text>
+          <rect x="304" y="484" width="188" height="18" rx="6" className="fill-card stroke-brand" />
+          <text x="398" y="496" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Membrane blebbing (still intact!)</text>
+          <rect x="304" y="506" width="188" height="18" rx="6" className="fill-card stroke-brand" />
+          <text x="398" y="518" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Nuclear chromatin clumping</text>
+        </g>
+        {/* stage label chips — irreversible side */}
+        <g>
+          <rect x="508" y="530" width="190" height="18" rx="6" className="fill-card stroke-emergency" />
+          <text x="603" y="542" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Rupture of lysosomes and autolysis</text>
+          <rect x="508" y="552" width="190" height="18" rx="6" className="fill-card stroke-emergency" />
+          <text x="603" y="564" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Plasma membrane damage — the leak</text>
+          <rect x="508" y="574" width="190" height="18" rx="6" className="fill-card stroke-emergency" />
+          <text x="603" y="586" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Nuclear degradation — the ladder</text>
+          <rect x="508" y="596" width="190" height="18" rx="6" className="fill-card stroke-emergency" />
+          <text x="603" y="608" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">Mitochondrial permeability ↑</text>
+        </g>
+        {/* the hinge callout */}
+        <rect x="304" y="628" width="394" height="40" rx="10" className="fill-emergency-soft/50 stroke-emergency" />
+        <text x="501" y="644" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-emergency">THE HINGE: membrane BREAKDOWN leaks troponin, admits Ca2+</text>
+        <text x="501" y="658" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">blebbing never leaks enzymes — breakdown is the point of no return (the border between the panels)</text>
+      </g>
+      {/* ===== RIGHT — the irreversible cascade + ferroptosis ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The irreversible cascade</text>
+        <rect x="736" y="132" width="196" height="120" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="834" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-emergency">THE POINT OF NO RETURN</text>
+        <text x="834" y="166" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">breakdown of plasma membrane →</text>
+        <text x="834" y="176" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">cytosolic enzymes (eg, troponin) leak</text>
+        <text x="834" y="186" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">outside of cell; influx of Ca2+ →</text>
+        <text x="834" y="196" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">activation of degradative enzymes.</text>
+        <text x="834" y="214" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">mitochondrial damage → loss of</text>
+        <text x="834" y="224" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">electron transport chain → ↓ ATP ·</text>
+        <text x="834" y="234" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">rupture of lysosomes → autolysis</text>
+        <text x="834" y="244" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">amorphous densities in mitochondria</text>
+        <rect x="736" y="262" width="196" height="86" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="280" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE NUCLEAR LADDER</text>
+        <text x="834" y="298" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">pyknosis — condensation</text>
+        <text x="834" y="312" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">karyorrhexis — fragmentation</text>
+        <text x="834" y="322" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">(endonuclease-mediated cleavage)</text>
+        <text x="834" y="338" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">karyolysis — dissolution</text>
+        <rect x="736" y="360" width="196" height="150" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="834" y="378" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">FERROPTOSIS — the detour</text>
+        <text x="834" y="394" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">lipid peroxidation → accumulation of</text>
+        <text x="834" y="404" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">lethal lipid species → iron-dependent</text>
+        <text x="834" y="414" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">cell death</text>
+        <text x="834" y="430" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">shrinkage of mitochondria with loss</text>
+        <text x="834" y="440" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">of cristae and outer membrane rupture</text>
+        <text x="834" y="454" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">— the swelling rule inverted</text>
+        <text x="834" y="470" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">MASLD/MASH · ischemia-reperfusion</text>
+        <text x="834" y="480" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">injury · neurodegeneration ·</text>
+        <text x="834" y="490" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">cancer therapy (applications)</text>
+        <text x="834" y="504" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-brand">preventable — the page's one</text>
+        <rect x="736" y="522" width="196" height="86" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="834" y="540" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE PREVENTION PAIR</text>
+        <text x="834" y="558" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">iron chelators: deferiprone,</text>
+        <text x="834" y="570" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">deferoxamine</text>
+        <text x="834" y="586" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">small lipophilic antioxidants:</text>
+        <text x="834" y="598" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">ferrostatin, liproxstatin</text>
+        <text x="740" y="628" fontSize="3.8" className="fill-muted-foreground">Alone on this page, ferroptosis is</text>
+        <text x="740" y="638" fontSize="3.8" className="fill-muted-foreground">pharmacologically interruptible —</text>
+        <text x="740" y="648" fontSize="3.8" className="fill-muted-foreground">strip the iron, quench the lipids.</text>
+        <text x="740" y="660" fontSize="3.8" className="fill-muted-foreground">Everything else on the timeline is</text>
+        <text x="740" y="670" fontSize="3.8" className="fill-muted-foreground">prevention of the stress itself.</text>
+      </g>
+      {/* ===== BOTTOM — the one-line timeline ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The timeline in one line — the labels verbatim (book 203)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">Normal cell → REVERSIBLE (green): cellular swelling · ribosomal detachment · membrane blebbing · nuclear chromatin clumping →</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">IRREVERSIBLE (red): rupture of lysosomes and autolysis · plasma membrane damage · nuclear degradation · mitochondrial permeability → cell death (necrosis)</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 203 (pdf 225) — Cell injury: the Reversible and Irreversible bullet lists; the injury timeline figure; the Ferroptosis paragraph. Census: p225 is pure text (pdfimages: 0 rasters) — the timeline prints as vector line art with all labels in the text layer.</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Figure topology VLM-verified (two census rounds): normal cell → green double-headed arrow → reversible cell → red arrow → irreversible cell → black arrow → the fragmented cell of cell death (necrosis); legend at the figure's left.</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">Stream-order quirk documented: 'Ferroptosis' prints among the figure labels in the text stream (raw 36) but VLM-verified as the paragraph heading below the figure. No photographs; no margin mnemonics (VLM confirmed).</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: facts and labels are carried; expression and artwork are not — the cell glyphs (round, swollen, breaking, fragmented) are original KYP vectors; the source green/red/black legend is rendered in the KYP palette and labeled as such.</text>
+      </g>
+    </svg>
+  );
+}

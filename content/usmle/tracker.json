@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T18:33:48Z",
+  "generatedAt": "2026-10-27T18:54:07Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 127,
+    "topicsProduced": 128,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 72,
+      "pilot-complete": 73,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 1,
-      "topicsRemaining": 18,
+      "topicsProduced": 2,
+      "topicsRemaining": 17,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -739,6 +739,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "cell-injury-mechanisms",
+      "title": "Cell Injury: Reversible, Irreversible & Ferroptosis",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Cell injury",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 225 (book 203–203)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
     },
     {
       "topicId": "cell-wall-inhibitors",
