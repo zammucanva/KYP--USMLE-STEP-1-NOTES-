@@ -1,0 +1,156 @@
+{
+  "topicId": "antiparasitic-antiviral",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antiparasitic-antiviral",
+      "requiredInKYP": true,
+      "visualId": "antiparasitic-antiviral-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          218,
+          219
+        ],
+        "bookPages": "196–197"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The antiviral target & activation map (the page-set's synthesis visual)",
+      "sourceFigureDescription": "No source figure exists — both pages print entirely in the text layer (0 rasters, pdfimages census): the antihelminthic header, the influenza/COVID cards, and the four herpes-virus antiviral cards.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "antiviral-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the full registry visual — the kinase ladder (activation fork, resistance map) + the progeny doors + the safety panel + the antihelminthic strip",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "antiviral-target-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antiparasitic-antiviral",
+      "requiredInKYP": true,
+      "visualId": "antiparasitic-antiviral-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196–196"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The antihelminthic header and the influenza/COVID cards (book 196)",
+      "sourceFigureDescription": "The page's opening antihelminthic block (with the source's own inline 'bendy worms' gloss) and the oseltamivir/zanamivir, baloxavir, remdesivir cards.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim per the page-ownership convention",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antiparasitic-antiviral",
+      "requiredInKYP": true,
+      "visualId": "antiparasitic-antiviral-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          218,
+          219
+        ],
+        "bookPages": "196–197"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The four herpes-virus antiviral cards (books 196-197)",
+      "sourceFigureDescription": "The acyclovir/famciclovir/valacyclovir, ganciclovir, foscarnet, and cidofovir cards — every field including the four MECHANISM OF RESISTANCE lines.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antiparasitic-antiviral",
+      "requiredInKYP": true,
+      "visualId": "antiparasitic-antiviral-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197–197"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The disinfection and sterilization table (book 197)",
+      "sourceFigureDescription": "The 8-agent disinfectants table with the sporicidal markers and the prion exception; the text layer scrambles the rows (VLM census of the rendered page verified the reading order).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[3] the table block — carried verbatim (reading order VLM-verified, raw print order documented)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "antiparasitic-antiviral",
+      "requiredInKYP": true,
+      "visualId": "antiparasitic-antiviral-sv5",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197–197"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The antimicrobials-to-avoid-in-pregnancy table (book 197)",
+      "sourceFigureDescription": "The 8-row avoid table with the source's own closing mnemonic ('Safe children take really good care.') — carried verbatim per the E38 precedent.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[4] the table block — carried verbatim; the KYP-original body-map mnemonic lives in the memory layer only",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "antiparasitic-antiviral",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 5,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "No source figure exists on either page (0 rasters — pdfimages census; VLM-verified) — the registry visual is an original KYP synthesis of the printed facts (the M33/M34 no-raster convention). The card groups and both closing tables are note-block verbatim adaptations. The scrambled disinfection table's reading order was verified by VLM census of the rendered page and documented. The source's own mnemonics ('bendy worms' inline gloss; 'Safe children take really good care.') are carried only inside the verbatim tables; nothing reproduced."
+}

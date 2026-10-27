@@ -1,0 +1,529 @@
+{
+  "topicId": "antiparasitic-antiviral",
+  "title": "Antiparasitic & Non-HIV Antiviral Agents",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      218,
+      219
+    ],
+    "bookPages": "196–197"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page header trio + the printed book number (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "196\n\nSEC TION II\n\nAntihelminthic\ntherapy\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antihelminthic therapy — the full header block (pyrantel through diethylcarbamazine, with the source's own inline 'bendy worms' gloss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Pyrantel pamoate, ivermectin, mebendazole (treats “bendy worms” by disrupting microtubules and\ncellular motility), praziquantel (↑ Ca2+ permeability, ↑ vacuolization), diethylcarbamazine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Oseltamivir, zanamivir — MECHANISM (neuraminidase, decreased release of progeny virus)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Oseltamivir, zanamivir\nMECHANISM\n\nInhibit influenza neuraminidase →  ↓ release of progeny virus.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Oseltamivir, zanamivir — CLINICAL USE (influenza A and B, treatment and prevention; the 48-hour window)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "CLINICAL USE\n\nTreatment and prevention of influenza A and B. Beginning therapy within 48 hours of symptom\nonset may shorten duration of illness.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Baloxavir — MECHANISM (the cap-snatching endonuclease of the influenza RNA polymerase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Baloxavir\nMECHANISM\n\nInhibits the “cap snatching” (transfer of the 5′ cap from cell mRNA onto viral mRNA)\nendonuclease activity of the influenza virus RNA polymerase →  ↓ viral replication.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Baloxavir — CLINICAL USE (treatment within 48 hours)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "CLINICAL USE\n\nTreatment within 48 hours of symptom onset shortens duration of illness.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Remdesivir — MECHANISM (ATP-analog prodrug; RNA-dependent RNA polymerase; ExoN-proofreading evasion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Remdesivir\nMECHANISM\n\nProdrug of an ATP analog. The active metabolite inhibits viral RNA-dependent RNA polymerase\nand evades proofreading by viral exoribonuclease (ExoN) →  ↓ viral RNA production.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Remdesivir — CLINICAL USE (COVID-19 requiring hospitalization)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "CLINICAL USE\n\nRecently approved for treatment of COVID-19 requiring hospitalization.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acyclovir, famciclovir, valacyclovir — MECHANISM (HSV/VZV thymidine kinase; not phosphorylated in uninfected cells; chain termination)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Acyclovir, famciclovir, valacyclovir\nMECHANISM\n\nGuanosine analogs. Monophosphorylated by HSV/VZV thymidine kinase and not phosphorylated\nin uninfected cells →  few adverse effects. Triphosphate formed by cellular enzymes. Preferentially\ninhibit viral DNA polymerase by chain termination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acyclovir family — CLINICAL USE (no CMV activity; HSV mucocutaneous/genital/encephalitis; prophylaxis; no latent effect; valacyclovir bioavailability; famciclovir for zoster)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "CLINICAL USE\n\nNo activity against CMV because CMV lacks the thymidine kinase necessary to activate\nguanosine analogs. Used for HSV-induced mucocutaneous and genital lesions as well as for\nencephalitis. Prophylaxis in patients who are immunocompromised. Also used as prophylaxis for\nimmunocompetent patients with severe or recurrent infection. No effect on latent forms of HSV\nand VZV. Valacyclovir, a prodrug of acyclovir, has better oral bioavailability.\nFor herpes zoster, use famciclovir.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acyclovir family — ADVERSE EFFECTS (obstructive crystalline nephropathy, hydration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "ADVERSE EFFECTS\n\nObstructive crystalline nephropathy and acute kidney injury if not adequately hydrated.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acyclovir family — MECHANISM OF RESISTANCE (mutated viral thymidine kinase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nMutated viral thymidine kinase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ganciclovir — MECHANISM (5'-monophosphate by a CMV viral kinase; triphosphate by cellular kinases)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "Ganciclovir\nMECHANISM\n\nGuanosine analog. 5′-monophosphate formed by a CMV viral kinase. Triphosphate formed by\ncellular kinases. Preferentially inhibits viral DNA polymerase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ganciclovir — CLINICAL USE (CMV esp. immunocompromised; valganciclovir prodrug)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "CLINICAL USE\n\nCMV, especially in patients who are immunocompromised. Valganciclovir, a prodrug of\nganciclovir, has better oral bioavailability.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ganciclovir — ADVERSE EFFECTS (myelosuppression, renal toxicity; more toxic to host enzymes than acyclovir)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "ADVERSE EFFECTS\n\nMyelosuppression (leukopenia, neutropenia, thrombocytopenia), renal toxicity. More toxic to host\nenzymes than acyclovir.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ganciclovir — MECHANISM OF RESISTANCE (mutated viral kinase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nMutated viral kinase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          218
+        ],
+        "bookPages": "196"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 196\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + the mid-banner book number '197'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nSEC TION II\n\n197",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Foscarnet — MECHANISM (DNA/RNA polymerase + HIV RT inhibitor; pyrophosphate-binding site; no kinase activation; pyrofosphate analog)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Foscarnet\nMECHANISM\n\nViral DNA/RNA polymerase inhibitor and HIV reverse transcriptase inhibitor. Binds to\npyrophosphate-binding site of enzyme. Does not require any kinase activation.\nFoscarnet = pyrofosphate analog.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Foscarnet — CLINICAL USE (CMV retinitis when ganciclovir fails; acyclovir-resistant HSV)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "CLINICAL USE\n\nCMV retinitis in immunocompromised patients when ganciclovir fails; acyclovir-resistant HSV.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Foscarnet — ADVERSE EFFECTS (nephrotoxicity; electrolyte abnormalities leading to seizures)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "ADVERSE EFFECTS\n\nNephrotoxicity, multiple electrolyte abnormalities can lead to seizures.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Foscarnet — MECHANISM OF RESISTANCE (mutated DNA polymerase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nMutated DNA polymerase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cidofovir — MECHANISM (preferentially inhibits viral DNA polymerase; no viral-kinase phosphorylation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Cidofovir\nMECHANISM\n\nPreferentially inhibits viral DNA polymerase. Does not require phosphorylation by viral kinase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cidofovir — CLINICAL USE (CMV retinitis; long half-life)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "CLINICAL USE\n\nCMV retinitis in immunocompromised patients. Long half-life.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cidofovir — ADVERSE EFFECTS (nephrotoxicity; probenecid + IV saline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "ADVERSE EFFECTS\n\nNephrotoxicity (coadminister cidofovir with probenecid and IV saline to ↓ toxicity).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cidofovir — MECHANISM OF RESISTANCE (viral DNA polymerase gene mutations)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "MECHANISM OF RESISTANCE\n\nMutations in the viral DNA polymerase gene.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Disinfection and sterilization — the goals header (safe levels vs all microbes including spores)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Disinfection and\nsterilization\n\nGoals include the reduction of pathogenic organism counts to safe levels (disinfection) and the\ninactivation of all microbes including spores (sterilization).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The autoclave row (pressurized steam >120 C; the prion exception) + alcohols + chlorhexidine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Autoclavea\n\nPressurized steam at >120°C. May not reliably inactivate prions.\n\nAlcohols\n\nDenature proteins and disrupt cell membranes.\n\nChlorhexidine\n\nDisrupts cell membranes and coagulates intracellular components.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The chlorine/ethylene oxide/hydrogen peroxide block — RAW PRINT ORDER (the sporicidal 'a' markers interleaving and the descriptions shifted; VLM census of the rendered page verified the reading order: Chlorine = oxidizes and denatures proteins, ethylene oxide = alkylating agent, hydrogen peroxide = free radical oxidation, each sporicidal with the autoclave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Chlorine\n\na\n\nEthylene oxide\n\nOxidizes and denatures proteins.\na\n\nHydrogen peroxide\n\nAlkylating agent.\na\n\nFree radical oxidation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Iodine and iodophors + quaternary amines + the sporicidal footnote",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Iodine and iodophors\n\nHalogenation of DNA, RNA, and proteins. May be sporicidal.\n\nQuaternary amines\n\nImpair permeability of cell membranes.\n\na\n\nSporicidal.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Antimicrobials to avoid in pregnancy — the table header block",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Antimicrobials to\navoid in pregnancy\n\nANTIMICROCIAL\n\nADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pregnancy table rows 1-5 (sulfonamides-kernicterus through tetracyclines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Sulfonamides\n\nKernicterus\n\nAminoglycosides\n\nOtotoxicity\n\nFluoroquinolones\n\nCartilage damage\n\nClarithromycin\n\nEmbryotoxic\n\nTetracyclines\n\nDiscolored teeth, inhibition of bone growth",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pregnancy table rows 6-8 + the source's own mnemonic (ribavirin, griseofulvin teratogenic; chloramphenicol gray baby; 'Safe children take really good care.')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "Ribavirin\n\nTeratogenic\n\nGriseofulvin\n\nTeratogenic\n\nChloramphenicol\n\nGray baby syndrome\n\nSafe children take really good care.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          219
+        ],
+        "bookPages": "197"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 197\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "antiviral-target-map"
+  ],
+  "mechanismIds": [
+    "kinase-activation-ladder",
+    "progeny-and-polymerase-doors"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the cards and tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "kinase-activation-ladder",
+      "summary": "The activation-ladder synthesis (HSV/VZV thymidine kinase vs the CMV viral kinase vs the no-kinase lane — with resistance following the door and the no-kinase drugs rescuing the kinase-door failures) — KYP's synthesis of the four herpes-virus cards.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four cards independently without a ladder or a resistance-map system; the activation-fork, resistance-follows-the-door, and rescue-lane logic are KYP's design.",
+      "location": "core.keyIdea + mechanism 1 + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    },
+    {
+      "id": "body-map-avoid-list",
+      "summary": "The body-map mnemonic for the pregnancy avoid list (KYP-original companion to the source's own mnemonic, which rides only the verbatim table).",
+      "origin": "outside-first-aid",
+      "rationale": "The source's own mnemonic is carried verbatim per the E38 boundary; the body-map walk is KYP's original memory aid.",
+      "location": "mnemonics[3]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: BOTH pages pure text (0 rasters — pdfimages; VLM-verified) — the registry visual is an ORIGINAL KYP SYNTHESIS, not a redraw. The disinfection table's scrambled text layer reassembled by VLM census (raw print order quoted; reading order documented). No margin mnemonics on either page; the 'bendy worms' gloss is inline and rides the verbatim tables only. The source's own pregnancy mnemonic carried verbatim in the table; the KYP-original body-map mnemonic lives in the memory layer.",
+  "updatedAt": "2026-10-27"
+}

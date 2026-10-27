@@ -1,0 +1,14 @@
+
+===== LIGHT =====
+1) **Yes.** All four major panels (Left, Center, Right, Bottom) are fully rendered. No text is clipped, cut off, or missing.
+2) **No.** There is no text overlapping other text or spilling outside its panel boxes anywhere in the diagram.
+3) **Yes.** The arrows and connector glyphs (including the ⊣ inhibition symbols) are rendering correctly as proper characters, not as missing-glyph boxes (tofu).
+4) **Yes.** The text is highly readable at this size in the light theme, with sufficient contrast between the dark text and the light/white backgrounds.
+5) **CLEAN.** No visual defects were found; the diagram renders perfectly according to the specifications.
+
+===== DARK =====
+1) **Yes.** All four major panels (LEFT, CENTER, RIGHT, BOTTOM) are fully rendered with no clipped, cut-off, or missing text.
+2) **No.** There is no text overlapping other text or spilling outside its panel boxes. (Note: There is a minor instance of text wrapping tightly within the "THE RESISTANCE MAP" box in the center panel, but it remains contained and legible).
+3) **Yes.** The arrows/connector glyphs (e.g., `→`) and the inhibition symbol (`⊣`) are rendering correctly as proper characters, not as missing-glyph boxes (tofu).
+4) **Yes.** The text is highly readable at this size with sufficient contrast (white/cyan text on a dark background).
+5) **CLEAN.** No significant visual defects were found; the diagram is well-structured and fully legible.

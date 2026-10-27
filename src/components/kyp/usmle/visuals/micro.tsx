@@ -5392,3 +5392,212 @@ export function AntifungalTargetMap() {
     </svg>
   );
 }
+
+export function AntiviralTargetMap() {
+  const w = 980;
+  const h = 900;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antiparasitic and non-HIV antiviral therapy — the antiviral target map, an original KYP synthesis of the printed cards (books 196-197, both pages pure text — 0 rasters). CENTER — THE KINASE LADDER, the selectivity engine: the guanoside analogs running from the nucleoside through THE ACTIVATION FORK (HSV/VZV thymidine kinase lighting acyclovir, famciclovir, valacyclovir — HSV and zoster only, no CMV because CMV lacks the kinase, few adverse effects because uninfected cells never phosphorylate them; the CMV viral kinase lighting ganciclovir — CMV especially in the immunocompromised; and the no-kinase lane — foscarnet the pyrophosphate analog at the pyrophosphate-binding site, cidofovir without viral-kinase phosphorylation) to the triphosphate (cellular enzymes) and the viral DNA polymerase (chain termination), with the resistance map strip (mutated thymidine kinase resists acyclovir; mutated viral kinase resists ganciclovir; mutated DNA polymerase resists foscarnet and cidofovir — resistance follows the door). LEFT — THE PROGENY DOORS: the influenza panel (neuraminidase inhibition with oseltamivir and zanamivir — decreased release of progeny virus, treatment and prevention of influenza A and B; the cap-snatching endonuclease block with baloxavir — the viral polymerase's 5-cap theft from cell mRNA; both on the 48-hour window) and the remdesivir door (the ATP-analog prodrug inhibiting the RNA-dependent RNA polymerase while evading ExoN proofreading — COVID-19 requiring hospitalization). RIGHT — THE SAFETY PANEL: acyclovir's obstructive crystalline nephropathy (hydrate), ganciclovir's myelosuppression with renal toxicity, foscarnet's nephrotoxicity and electrolyte-abnormality seizures, cidofovir's probenecid-and-IV-saline escort, and the prodrug bioavailability refinements (valacyclovir, valganciclovir). BOTTOM — the antihelminthic strip (pyrantel pamoate, ivermectin, mebendazole disrupting microtubules and cellular motility, praziquantel raising calcium permeability and vacuolization, diethylcarbamazine) and the pointers to the note's verbatim disinfection and pregnancy tables. The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antiparasitic &amp; non-HIV antiviral therapy — the target &amp; activation map (original KYP synthesis)</text>
+        <rect x="716" y="24" width="216" height="18" className="fill-brand-soft" />
+        <text x="824" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">activation · target · rescue</text>
+      </g>
+      {/* ===== LEFT — the progeny doors ===== */}
+      <g>
+        <rect x="36" y="100" width="262" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The progeny doors — influenza &amp; COVID</text>
+        {/* influenza virion panel */}
+        <rect x="48" y="132" width="238" height="230" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="60" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">THE INFLUENZA VIRION — two doors</text>
+        <circle cx="100" cy="196" r="38" className="fill-card stroke-brand" strokeWidth="1.4" />
+        <g className="stroke-brand" strokeWidth="1.1">
+          <path d="M 62 196 L 74 196" /><path d="M 126 196 L 138 196" />
+          <path d="M 70 172 L 79 180" /><path d="M 121 212 L 130 220" />
+          <path d="M 100 158 L 100 168" /><path d="M 100 224 L 100 234" />
+          <path d="M 70 220 L 79 212" /><path d="M 121 180 L 130 172" />
+        </g>
+        <text x="100" y="192" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">the budding</text>
+        <text x="100" y="202" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">virion</text>
+        <rect x="150" y="166" width="128" height="40" rx="8" className="fill-brand-soft/40 stroke-brand" />
+        <text x="214" y="182" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">NEURAMINIDASE ⊣</text>
+        <text x="214" y="192" textAnchor="middle" fontSize="4" className="fill-foreground">oseltamivir · zanamivir</text>
+        <text x="214" y="201" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">↓ release of progeny virus</text>
+        <rect x="150" y="216" width="128" height="52" rx="8" className="fill-brand-soft/40 stroke-brand" />
+        <text x="214" y="232" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">CAP-SNATCHING ⊣</text>
+        <text x="214" y="242" textAnchor="middle" fontSize="4" className="fill-foreground">baloxavir — the endonuclease</text>
+        <text x="214" y="251" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">blocks the 5′-cap theft from</text>
+        <text x="214" y="260" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">cell mRNA onto viral mRNA</text>
+        <rect x="60" y="280" width="214" height="26" rx="6" className="fill-secondary/60 stroke-brand" />
+        <text x="167" y="296" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-foreground">THE 48-HOUR WINDOW — both doors</text>
+        <text x="60" y="322" fontSize="4" className="fill-muted-foreground">Treatment AND prevention of influenza A and B</text>
+        <text x="60" y="332" fontSize="4" className="fill-muted-foreground">(neuraminidase pair); therapy within 48 hours of</text>
+        <text x="60" y="342" fontSize="4" className="fill-muted-foreground">symptom onset may shorten the illness.</text>
+        <text x="60" y="356" fontSize="4" className="fill-muted-foreground">Neuraminidase = release; endonuclease = the cap</text>
+        <text x="60" y="366" fontSize="4" className="fill-muted-foreground">snatch that starts viral mRNA. Two doors, one clock.</text>
+        {/* remdesivir panel */}
+        <rect x="48" y="376" width="238" height="150" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="60" y="394" fontSize="5.2" fontWeight="800" className="fill-brand">THE COVID DOOR — remdesivir</text>
+        <text x="60" y="412" fontSize="4.2" fontWeight="700" className="fill-foreground">Prodrug of an ATP analog</text>
+        <text x="60" y="428" fontSize="4" className="fill-foreground">Active metabolite inhibits viral RNA-dependent</text>
+        <text x="60" y="438" fontSize="4" className="fill-foreground">RNA polymerase → ↓ viral RNA production</text>
+        <rect x="60" y="450" width="118" height="32" rx="6" className="fill-card stroke-border" />
+        <text x="119" y="464" textAnchor="middle" fontSize="3.9" className="fill-foreground">AND evades proofreading</text>
+        <text x="119" y="474" textAnchor="middle" fontSize="3.9" className="fill-foreground">by viral exoribonuclease</text>
+        <rect x="186" y="450" width="88" height="32" rx="6" className="fill-brand-soft/40 stroke-brand" />
+        <text x="230" y="464" textAnchor="middle" fontSize="3.9" fontWeight="800" className="fill-brand">ExoN cannot</text>
+        <text x="230" y="474" textAnchor="middle" fontSize="3.9" fontWeight="800" className="fill-brand">excise it</text>
+        <text x="60" y="500" fontSize="4" className="fill-muted-foreground">Printed use: COVID-19 requiring hospitalization.</text>
+        <text x="60" y="512" fontSize="4" className="fill-muted-foreground">The polymerase door — one step earlier than</text>
+        <text x="60" y="522" fontSize="4" className="fill-muted-foreground">the progeny doors, one host away from the</text>
+        <text x="60" y="532" fontSize="4" className="fill-muted-foreground">herpes DNA-polymerase door.</text>
+        <text x="60" y="556" fontSize="4" className="fill-muted-foreground">Reading the left panel: influenza = release and</text>
+        <text x="60" y="566" fontSize="4" className="fill-muted-foreground">cap doors; COVID = the polymerase door. The</text>
+        <text x="60" y="576" fontSize="4" className="fill-muted-foreground">48-hour window belongs to influenza only.</text>
+        <text x="60" y="600" fontSize="4" className="fill-muted-foreground">The source's own inline gloss (bendy worms)</text>
+        <text x="60" y="610" fontSize="4" className="fill-muted-foreground">rides the note's verbatim tables only — the</text>
+        <text x="60" y="620" fontSize="4" className="fill-muted-foreground">visual stays inside the copyright boundary.</text>
+        <text x="60" y="650" fontSize="4" className="fill-muted-foreground">ANTIPARASITIC (below) · tables in the note:</text>
+        <text x="60" y="660" fontSize="4" className="fill-muted-foreground">disinfection/sterilization + the pregnancy</text>
+        <text x="60" y="670" fontSize="4" className="fill-muted-foreground">avoid list — carried verbatim as note blocks.</text>
+      </g>
+      {/* ===== CENTER — the kinase ladder ===== */}
+      <g>
+        <rect x="312" y="100" width="352" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="328" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE KINASE LADDER — the activation engine</text>
+        {/* nucleoside start */}
+        <rect x="328" y="134" width="320" height="34" rx="10" className="fill-card stroke-border" />
+        <text x="488" y="149" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">THE NUCLEOSIDE ANALOGS — guanosine family</text>
+        <text x="488" y="160" textAnchor="middle" fontSize="4" className="fill-muted-foreground">acyclovir · famciclovir · valacyclovir · ganciclovir — all end at the same polymerase</text>
+        {/* the activation fork */}
+        <text x="488" y="186" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">THE ACTIVATION FORK — who lights the first phosphate?</text>
+        <rect x="328" y="196" width="100" height="96" rx="10" className="fill-card stroke-brand" />
+        <text x="378" y="212" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-brand">DOOR 1</text>
+        <text x="378" y="224" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">HSV/VZV</text>
+        <text x="378" y="234" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">thymidine kinase</text>
+        <text x="378" y="248" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">lights acyclovir,</text>
+        <text x="378" y="258" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">famciclovir,</text>
+        <text x="378" y="268" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">valacyclovir</text>
+        <text x="378" y="282" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">HSV · VZV — no CMV</text>
+        <rect x="438" y="196" width="100" height="96" rx="10" className="fill-card stroke-brand" />
+        <text x="488" y="212" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-brand">DOOR 2</text>
+        <text x="488" y="224" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">CMV viral</text>
+        <text x="488" y="234" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">kinase</text>
+        <text x="488" y="248" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">lights</text>
+        <text x="488" y="258" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">ganciclovir</text>
+        <text x="488" y="276" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">CMV esp.</text>
+        <text x="488" y="286" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">immunocompromised</text>
+        <rect x="548" y="196" width="100" height="96" rx="10" className="fill-card stroke-emergency" />
+        <text x="598" y="212" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-emergency">DOOR 3 — NONE</text>
+        <text x="598" y="224" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">no kinase at all</text>
+        <text x="598" y="238" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">foscarnet — the</text>
+        <text x="598" y="248" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">pyrophosphate analog</text>
+        <text x="598" y="258" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">(nothing to phosphorylate)</text>
+        <text x="598" y="272" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">cidofovir — no</text>
+        <text x="598" y="282" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">viral-kinase step</text>
+        <text x="488" y="308" textAnchor="middle" fontSize="4" className="fill-muted-foreground">Uninfected cells never phosphorylate Door 1's drugs — that is why acyclovir's adverse</text>
+        <text x="488" y="318" textAnchor="middle" fontSize="4" className="fill-muted-foreground">effects are few; CMV lacks thymidine kinase entirely — that is why acyclovir cannot touch it.</text>
+        {/* triphosphate + polymerase */}
+        <rect x="328" y="332" width="320" height="56" rx="10" className="fill-card stroke-border" />
+        <text x="488" y="350" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">TRIPHOSPHATE — formed by CELLULAR enzymes</text>
+        <text x="488" y="364" textAnchor="middle" fontSize="4" className="fill-muted-foreground">the host finishes what the viral kinase started (Doors 1-2); Door 3 bypasses the logic entirely</text>
+        <text x="488" y="378" textAnchor="middle" fontSize="4" className="fill-muted-foreground">foscarnet binds the pyrophosphate-binding site of viral DNA/RNA polymerases — and HIV RT</text>
+        <rect x="328" y="400" width="320" height="56" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="488" y="418" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">VIRAL DNA POLYMERASE ⊣ — chain termination</text>
+        <text x="488" y="432" textAnchor="middle" fontSize="4" className="fill-muted-foreground">preferentially inhibited — the shared destination of the whole guanoside family</text>
+        <text x="488" y="444" textAnchor="middle" fontSize="4" className="fill-muted-foreground">(cidofovir: preferential inhibition without the chain-termination chemistry)</text>
+        {/* resistance strip */}
+        <rect x="328" y="470" width="320" height="120" rx="10" className="fill-card stroke-emergency" />
+        <text x="488" y="488" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-emergency">THE RESISTANCE MAP — resistance follows the door</text>
+        <text x="344" y="508" fontSize="4.2" fontWeight="700" className="fill-foreground">Mutated THYMIDINE KINASE</text>
+        <text x="344" y="518" fontSize="4" className="fill-muted-foreground">→ acyclovir-resistant HSV (the door is gone)</text>
+        <text x="344" y="534" fontSize="4.2" fontWeight="700" className="fill-foreground">Mutated VIRAL KINASE</text>
+        <text x="344" y="544" fontSize="4" className="fill-muted-foreground">→ ganciclovir-resistant CMV</text>
+        <text x="344" y="560" fontSize="4.2" fontWeight="700" className="fill-foreground">Mutated DNA POLYMERASE</text>
+        <text x="344" y="570" fontSize="4" className="fill-muted-foreground">→ foscarnet/cidofovir resistance (the target itself)</text>
+        <text x="640" y="508" fontSize="3.9" className="fill-muted-foreground">The enzyme that activated</text>
+        <text x="640" y="518" fontSize="3.9" className="fill-muted-foreground">the drug is the enzyme</text>
+        <text x="640" y="528" fontSize="3.9" className="fill-muted-foreground">whose mutation resists it</text>
+        <text x="640" y="544" fontSize="3.9" fontWeight="700" className="fill-brand">→ the no-kinase drugs</text>
+        <text x="640" y="554" fontSize="3.9" fontWeight="700" className="fill-brand">rescue the kinase-door</text>
+        <text x="640" y="564" fontSize="3.9" fontWeight="700" className="fill-brand">failures</text>
+        <text x="488" y="604" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">The activation enzyme is the spectrum — and its mutation is the resistance.</text>
+        <text x="488" y="616" textAnchor="middle" fontSize="4" className="fill-muted-foreground">That single sentence answers every ladder question on the page-set.</text>
+        <text x="488" y="640" textAnchor="middle" fontSize="4" className="fill-muted-foreground">Source: books 196-197 print these four cards entirely in the text</text>
+        <text x="488" y="650" textAnchor="middle" fontSize="4" className="fill-muted-foreground">layer (0 rasters — pdfimages census) — this visual is an original</text>
+        <text x="488" y="660" textAnchor="middle" fontSize="4" className="fill-muted-foreground">KYP synthesis of the printed facts, not a redraw of any figure.</text>
+      </g>
+      {/* ===== RIGHT — the safety panel ===== */}
+      <g>
+        <rect x="676" y="100" width="268" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="692" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The safety &amp; delivery panel</text>
+        <rect x="688" y="132" width="244" height="92" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="700" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">ACYCLOVIR — hydrate</text>
+        <text x="700" y="166" fontSize="4.2" className="fill-foreground">Obstructive crystalline nephropathy and acute</text>
+        <text x="700" y="176" fontSize="4.2" className="fill-foreground">kidney injury if not adequately hydrated.</text>
+        <text x="700" y="192" fontSize="4" className="fill-muted-foreground">Few adverse effects otherwise — uninfected cells</text>
+        <text x="700" y="202" fontSize="4" className="fill-muted-foreground">never phosphorylate it. No effect on latent forms.</text>
+        <text x="700" y="216" fontSize="4" className="fill-muted-foreground">Famciclovir for herpes zoster; valacyclovir = prodrug.</text>
+        <rect x="688" y="236" width="244" height="80" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="700" y="254" fontSize="5.2" fontWeight="800" className="fill-brand">GANCICLOVIR — the marrow price</text>
+        <text x="700" y="270" fontSize="4.2" className="fill-foreground">Myelosuppression (leukopenia, neutropenia,</text>
+        <text x="700" y="280" fontSize="4.2" className="fill-foreground">thrombocytopenia), renal toxicity.</text>
+        <text x="700" y="294" fontSize="4" className="fill-muted-foreground">More toxic to host enzymes than acyclovir —</text>
+        <text x="700" y="304" fontSize="4" className="fill-muted-foreground">the CMV door's price. Valganciclovir = prodrug</text>
+        <text x="700" y="314" fontSize="4" className="fill-muted-foreground">with better oral bioavailability.</text>
+        <rect x="688" y="330" width="244" height="92" rx="10" className="fill-brand-soft/30 stroke-emergency" />
+        <text x="700" y="348" fontSize="5.2" fontWeight="800" className="fill-emergency">FOSCARNET — the rescue price</text>
+        <text x="700" y="364" fontSize="4.2" className="fill-foreground">Nephrotoxicity; multiple electrolyte</text>
+        <text x="700" y="374" fontSize="4.2" className="fill-foreground">abnormalities can lead to seizures.</text>
+        <text x="700" y="390" fontSize="4" className="fill-muted-foreground">The printed jobs: CMV retinitis when ganciclovir</text>
+        <text x="700" y="400" fontSize="4" className="fill-muted-foreground">fails; acyclovir-resistant HSV. Monitor K+, Mg2+,</text>
+        <text x="700" y="410" fontSize="4" className="fill-muted-foreground">Ca2+ — the electrolyte drift precedes the seizure.</text>
+        <rect x="688" y="436" width="244" height="80" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="700" y="454" fontSize="5.2" fontWeight="800" className="fill-brand">CIDOFOVIR — the escorted drug</text>
+        <text x="700" y="470" fontSize="4.2" className="fill-foreground">Nephrotoxicity — coadminister with probenecid</text>
+        <text x="700" y="480" fontSize="4.2" className="fill-foreground">and IV saline to ↓ toxicity. Long half-life.</text>
+        <text x="700" y="494" fontSize="4" className="fill-muted-foreground">CMV retinitis in immunocompromised patients;</text>
+        <text x="700" y="504" fontSize="4" className="fill-muted-foreground">no viral-kinase phosphorylation required.</text>
+        <rect x="688" y="530" width="244" height="64" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="700" y="548" fontSize="5.2" fontWeight="800" className="fill-brand">THE PRODRUG REFINEMENTS</text>
+        <text x="700" y="564" fontSize="4.2" className="fill-foreground">Valacyclovir → acyclovir; valganciclovir →</text>
+        <text x="700" y="574" fontSize="4.2" className="fill-foreground">ganciclovir: better oral bioavailability each.</text>
+        <text x="700" y="588" fontSize="4" className="fill-muted-foreground">The valyl trick changes delivery, never the door.</text>
+        <text x="692" y="612" fontSize="4" className="fill-muted-foreground">Nephrotoxicity cluster: crystals (acyclovir),</text>
+        <text x="692" y="622" fontSize="4" className="fill-muted-foreground">tubular (foscarnet, cidofovir) — hydrate, escort,</text>
+        <text x="692" y="632" fontSize="4" className="fill-muted-foreground">and monitor electrolytes on the rescue lane.</text>
+        <text x="692" y="656" fontSize="4" className="fill-muted-foreground">Also printed: foscarnet inhibits HIV reverse</text>
+        <text x="692" y="666" fontSize="4" className="fill-muted-foreground">transcriptase — the bridge M38's antiretroviral</text>
+        <text x="692" y="676" fontSize="4" className="fill-muted-foreground">directory picks up (NRTIs → integrase inhibitors).</text>
+      </g>
+      {/* ===== BOTTOM — the antiparasitic strip ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="72" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The antiparasitic header — the antihelminthic set (book 196, carried verbatim in the note's table)</text>
+        <rect x="52" y="730" width="168" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="136" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">mebendazole</text>
+        <text x="136" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">microtubules + cellular motility</text>
+        <rect x="228" y="730" width="168" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="312" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">praziquantel</text>
+        <text x="312" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">↑ Ca2+ permeability, ↑ vacuolization</text>
+        <rect x="404" y="730" width="168" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="488" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">pyrantel pamoate</text>
+        <text x="488" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the antihelminthic roster (with ivermectin,</text>
+        <rect x="580" y="730" width="168" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="664" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">diethylcarbamazine</text>
+        <text x="664" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">completing the printed header block)</text>
+        <rect x="756" y="730" width="172" height="30" rx="8" className="fill-brand-soft/40 stroke-brand" />
+        <text x="842" y="743" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-brand">note-block tables (verbatim):</text>
+        <text x="842" y="753" textAnchor="middle" fontSize="3.9" className="fill-brand">disinfection · pregnancy avoids</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="812" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 196-197 (pdf 218-219) — antihelminthic therapy; the influenza/COVID cards; the acyclovir, ganciclovir, foscarnet, cidofovir cards; disinfection and sterilization; antimicrobials to avoid in pregnancy. Census: BOTH pages are pure text — pdfimages reports 0 rasters on each; the disinfection</text>
+        <text x="24" y="823" fontSize="4.6" className="fill-muted-foreground">table's scrambled text layer was reassembled by VLM census of the rendered page (Chlorine = oxidizes/denatures, ethylene oxide = alkylating agent, hydrogen peroxide = free-radical oxidation — the sporicidal set: autoclave, chlorine, ethylene oxide, hydrogen peroxide). This visual is an original KYP synthesis — no source figure exists to redraw; the source's own mnemonics ride the verbatim tables only.</text>
+        <text x="24" y="834" fontSize="4.6" className="fill-muted-foreground">Copyright boundary: facts are carried; expression is not. Text quirks documented: the banner typo MICROCIOLOGY—ANTIMICROCIALS prints on both pages; the arrows print as control glyphs in the raw layer; foscarnet's pyrophosphate-analog line prints inside its MECHANISM block.</text>
+      </g>
+    </svg>
+  );
+}
