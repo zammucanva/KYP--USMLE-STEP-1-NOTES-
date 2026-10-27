@@ -631,3 +631,18 @@ Stage Summary:
 - SESSION TOTAL: 5 complete topics (P1-P5), all first-run evidence, 4 of 5 first-pass QA clean (P1 had 2 real-defect rounds), 5 registry visuals + 5 D2 notes + 5 manifests + 5 inventories registered, chapter flips applied.
 - New conventions documented: the P4/P5 copyrighted-photograph pages (table + photos) take ORIGINAL_KYP_ADAPTATION registry visuals (not redraws) with the photographs described-in-text in a dedicated table block; duplicated photo lettering (P5) and stream-order quirks (P2) are documented in the manifest + visual + m10.
 - NEXT (first action of the next session): verify remote HEAD ≥ this batch's push → P6 calcification-radiation-injury (pdf 229 / book 207, visual hint calcification-split-map) → P7 amyloidosis (230/208) → P8 acute-inflammation (231-232/209-210) → P9 leukocyte-trafficking (233/211) → P10 wound-healing (234/212) — the next ≥5-topic cycle — then P11-P19 → pathology chapter close → public health (pdf 278-300) → organ systems. Follow the P1-P5 pattern exactly. Do not stop.
+
+---
+Task ID: p6-batch-2026-10-28
+Agent: Super Z (main agent)
+Task: P6 calcification-radiation-injury (context-permitting continuation past the 5-topic cycle) + checkpoint.
+
+Work Log:
+- P6 (pdf 229 / book 207) COMPLETED after the P1-P5 cycle: census (TWO cmyk JPEG H&E photographs, BOTH lettered 'A' — another duplicated-lettering quirk; the source's own 'PSoMMOMa Bodies.' mnemonic at raw 98, carried VERBATIM per the E38 precedent) → calcification-split-map registry visual + D2 note (2 mechanisms: dystrophic-vs-metastatic, radiation-selectivity; 2 verbatim tables; CKD two-process miniCase; 4 KYP mnemonics) → gen_p6_json.py 10/10 quotes FIRST RUN + 4 sv inventory + chapter flip 6/19.
+- Gates: CONTRACT GREEN · evidence 3663/3663 · audit 132/0 · tsc 1 baseline.
+- QA: 4-pass browser 0px ×4 + getBBox 131 texts 0/0/0 + crops 1102x991; VLM pass 1 CLEAN; VLM pass 2 raised a truncation claim on the center columns that was ADJUDICATED as a false positive by a dedicated 2x-zoom VLM check (every final line read complete against the source: 'hypervitaminosis D)', 'insipidus + renal failure') + getBBox agreement — documented. COMMIT f20f7f0.
+
+Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 (all VERIFIED) · Pathology 6/19 · 132/3029 topics · evidence 3663/3663 · contract GREEN · 0 depth failures · tsc 1 baseline.
+- Session total now SIX topics (P1-P6).
+- NEXT (first action of the next session): verify remote HEAD ≥ this batch's push → P7 amyloidosis (pdf 230 / book 208, visual hint amyloid-deposition-map) → P8 acute-inflammation (231-232/209-210) → P9 leukocyte-trafficking (233/211) → P10 wound-healing (234/212) → P11 granulomatous-inflammation (235-236/213-214) — continue the ≥5-topic cycles → P19 → pathology chapter close → public health → organ systems. Follow the P1-P6 pattern exactly. Do not stop.
