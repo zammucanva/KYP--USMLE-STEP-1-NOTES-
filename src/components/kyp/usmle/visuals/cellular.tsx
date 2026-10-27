@@ -1276,3 +1276,238 @@ export function ApoptosisPathwayMap() {
     </svg>
   );
 }
+
+export function NecrosisTypeMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Necrosis — the six-type map, an original KYP adaptation of the source's table (book 205 — TYPE, SEEN IN, DUE TO, HISTOLOGY, with six copyrighted photographs A-F described in text, never reproduced). CENTER — THE SIX TYPE CARDS: COAGULATIVE (ischemia/infarcts in most tissues except brain; denatured enzymes block proteolysis; preserved outlines, nuclei gone, eosinophilia up); LIQUEFACTIVE (bacterial abscesses, CNS infarcts; neutrophil lysosomal enzymes digest the tissue; early debris and macrophages, late cystic spaces and cavitation); CASEOUS (TB, systemic fungi, Nocardia; macrophages wall off the organism; the granuloma with cheeselike debris); FAT (enzymatic pancreatitis — lipase, triglycerides, fatty acids bind calcium, saponification chalky-white, dark blue on H and E; nonenzymatic traumatic breast); FIBRINOID (immune polyarteritis nodosa type III immune complex deposition; nonimmune hypertensive emergency and preeclampsia plasma protein leakage; the eosinophilic proteinaceous vessel wall); GANGRENOUS (distal extremity and GI tract after chronic ischemia; dry = coagulative, wet = liquefactive superimposed on coagulative). LEFT — the definition cascade: exogenous injury, plasma membrane damage, intracellular components leak, enzymatic degradation and protein denaturation, local inflammatory reaction, unlike apoptosis; plus the dry/wet fork. RIGHT — the photograph panel: the six copyrighted A-F images described in text per the M32 convention, and the discriminators panel. The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Necrosis — the six-type map (original KYP adaptation)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">6 types · 1 router</text>
+      </g>
+      {/* ===== LEFT — the definition + the fork ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The loud death (book 205)</text>
+        <rect x="48" y="132" width="216" height="128" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-emergency">THE DEFINITION CASCADE</text>
+        <text x="156" y="168" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">exogenous injury</text>
+        <text x="156" y="180" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">→ plasma membrane damage</text>
+        <text x="156" y="192" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">→ intracellular components leak</text>
+        <text x="156" y="204" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">→ enzymatic degradation and</text>
+        <text x="156" y="215" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">protein denaturation</text>
+        <text x="156" y="227" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">→ local inflammatory reaction</text>
+        <text x="156" y="244" textAnchor="middle" fontSize="4.1" fontWeight="800" className="fill-emergency">(unlike apoptosis)</text>
+        <rect x="48" y="272" width="216" height="100" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="290" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE COAGULATIVE PARADOX</text>
+        <text x="156" y="306" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">ischemia denatures the enzymes</text>
+        <text x="156" y="316" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">→ proteolysis BLOCKED →</text>
+        <text x="156" y="326" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">architecture preserved as outlines,</text>
+        <text x="156" y="337" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">nuclei gone, eosinophilia up</text>
+        <text x="156" y="353" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the demolition crew was denatured too</text>
+        <rect x="48" y="384" width="216" height="128" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="156" y="402" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE GANGRENOUS FORK</text>
+        <text x="156" y="420" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">distal extremity and GI tract,</text>
+        <text x="156" y="430" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">after chronic ischemia:</text>
+        <rect x="62" y="440" width="90" height="52" rx="8" className="fill-card stroke-border" />
+        <text x="107" y="456" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">DRY</text>
+        <text x="107" y="468" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">ischemia →</text>
+        <text x="107" y="477" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">coagulative</text>
+        <rect x="160" y="440" width="90" height="52" rx="8" className="fill-card stroke-border" />
+        <text x="205" y="456" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">WET</text>
+        <text x="205" y="468" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">superinfection →</text>
+        <text x="205" y="477" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">liquefactive ON</text>
+        <text x="205" y="486" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">coagulative</text>
+        <text x="156" y="504" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the fork is the bacteria</text>
+        <rect x="48" y="524" width="216" height="140" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="542" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE TISSUE ROUTER</text>
+        <text x="156" y="558" textAnchor="middle" fontSize="3.8" className="fill-foreground">solid-organ ischemia → coagulative</text>
+        <text x="156" y="570" textAnchor="middle" fontSize="3.8" className="fill-foreground">brain or abscess → liquefactive</text>
+        <text x="156" y="582" textAnchor="middle" fontSize="3.8" className="fill-foreground">TB, fungi, Nocardia → caseous</text>
+        <text x="156" y="594" textAnchor="middle" fontSize="3.8" className="fill-foreground">pancreas or breast fat → fat</text>
+        <text x="156" y="606" textAnchor="middle" fontSize="3.8" className="fill-foreground">vessel walls → fibrinoid</text>
+        <text x="156" y="618" textAnchor="middle" fontSize="3.8" className="fill-foreground">extremity / GI + chronic ischemia →</text>
+        <text x="156" y="628" textAnchor="middle" fontSize="3.8" className="fill-foreground">gangrenous (dry / wet fork)</text>
+        <text x="156" y="648" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">match the player, name the pattern</text>
+      </g>
+      {/* ===== CENTER — the six type cards ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE SIX TYPES — the table as cards (book 205)</text>
+        {/* coagulative */}
+        <g>
+          <rect x="304" y="134" width="196" height="168" rx="10" className="fill-card stroke-brand" />
+          <rect x="316" y="144" width="86" height="16" rx="5" className="fill-brand-soft" />
+          <text x="359" y="155" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">COAGULATIVE · A</text>
+          <text x="316" y="174" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="316" y="183" fontSize="3.6" className="fill-muted-foreground">ischemia/infarcts in most tissues</text>
+          <text x="316" y="192" fontSize="3.6" fontWeight="700" className="fill-foreground">(except brain)</text>
+          <text x="316" y="205" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO</text>
+          <text x="316" y="214" fontSize="3.6" className="fill-muted-foreground">ischemia or infarction; injury</text>
+          <text x="316" y="223" fontSize="3.6" className="fill-muted-foreground">denatures enzymes →</text>
+          <text x="316" y="232" fontSize="3.6" fontWeight="700" className="fill-foreground">proteolysis blocked</text>
+          <text x="316" y="245" fontSize="3.7" fontWeight="800" className="fill-foreground">HISTOLOGY</text>
+          <text x="316" y="254" fontSize="3.6" className="fill-muted-foreground">preserved cellular architecture</text>
+          <text x="316" y="263" fontSize="3.6" className="fill-muted-foreground">(cell outlines seen), but nuclei</text>
+          <text x="316" y="272" fontSize="3.6" className="fill-muted-foreground">disappear; ↑ cytoplasmic binding</text>
+          <text x="316" y="281" fontSize="3.6" className="fill-muted-foreground">of eosin stain (red/pink color)</text>
+        </g>
+        {/* liquefactive */}
+        <g>
+          <rect x="512" y="134" width="196" height="168" rx="10" className="fill-card stroke-brand" />
+          <rect x="524" y="144" width="92" height="16" rx="5" className="fill-brand-soft" />
+          <text x="570" y="155" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">LIQUEFACTIVE · B</text>
+          <text x="524" y="174" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="524" y="183" fontSize="3.6" className="fill-muted-foreground">bacterial abscesses, CNS infarcts</text>
+          <text x="524" y="196" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO</text>
+          <text x="524" y="205" fontSize="3.6" className="fill-muted-foreground">neutrophils release lysosomal</text>
+          <text x="524" y="214" fontSize="3.6" className="fill-muted-foreground">enzymes that digest the tissue</text>
+          <text x="524" y="227" fontSize="3.7" fontWeight="800" className="fill-foreground">HISTOLOGY</text>
+          <text x="524" y="236" fontSize="3.6" className="fill-muted-foreground">early: cellular debris and</text>
+          <text x="524" y="245" fontSize="3.6" className="fill-muted-foreground">macrophages · late: cystic spaces</text>
+          <text x="524" y="254" fontSize="3.6" className="fill-muted-foreground">and cavitation (CNS) · neutrophils</text>
+          <text x="524" y="263" fontSize="3.6" className="fill-muted-foreground">and cell debris with bacterial</text>
+          <text x="524" y="272" fontSize="3.6" className="fill-muted-foreground">infection</text>
+        </g>
+        {/* caseous */}
+        <g>
+          <rect x="304" y="314" width="196" height="168" rx="10" className="fill-card stroke-warning" />
+          <rect x="316" y="324" width="80" height="16" rx="5" className="fill-warning-soft" />
+          <text x="356" y="335" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">CASEOUS · C</text>
+          <text x="316" y="354" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="316" y="363" fontSize="3.6" className="fill-muted-foreground">TB, systemic fungi (Histoplasma</text>
+          <text x="316" y="372" fontSize="3.6" className="fill-muted-foreground">capsulatum), Nocardia</text>
+          <text x="316" y="385" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO</text>
+          <text x="316" y="394" fontSize="3.6" className="fill-muted-foreground">macrophages wall off the</text>
+          <text x="316" y="403" fontSize="3.6" className="fill-muted-foreground">infecting microorganism</text>
+          <text x="316" y="412" fontSize="3.6" fontWeight="700" className="fill-foreground">→ granular debris</text>
+          <text x="316" y="425" fontSize="3.7" fontWeight="800" className="fill-foreground">HISTOLOGY</text>
+          <text x="316" y="434" fontSize="3.6" className="fill-muted-foreground">fragmented cells and debris</text>
+          <text x="316" y="443" fontSize="3.6" className="fill-muted-foreground">surrounded by lymphocytes and</text>
+          <text x="316" y="452" fontSize="3.6" className="fill-muted-foreground">macrophages (granuloma);</text>
+          <text x="316" y="461" fontSize="3.6" fontWeight="700" className="fill-foreground">cheeselike gross appearance</text>
+        </g>
+        {/* fat */}
+        <g>
+          <rect x="512" y="314" width="196" height="168" rx="10" className="fill-card stroke-warning" />
+          <rect x="524" y="324" width="56" height="16" rx="5" className="fill-warning-soft" />
+          <text x="552" y="335" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">FAT · D</text>
+          <text x="524" y="354" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="524" y="363" fontSize="3.6" className="fill-muted-foreground">enzymatic: acute pancreatitis ·</text>
+          <text x="524" y="372" fontSize="3.6" className="fill-muted-foreground">nonenzymatic: traumatic</text>
+          <text x="524" y="381" fontSize="3.6" className="fill-muted-foreground">(eg, injury to breast tissue)</text>
+          <text x="524" y="394" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO</text>
+          <text x="524" y="403" fontSize="3.6" className="fill-muted-foreground">pancreatic lipase → triglycerides</text>
+          <text x="524" y="412" fontSize="3.6" fontWeight="700" className="fill-foreground">→ fatty acids + Ca2+</text>
+          <text x="524" y="421" fontSize="3.6" fontWeight="700" className="fill-foreground">→ saponification (chalky-white)</text>
+          <text x="524" y="434" fontSize="3.7" fontWeight="800" className="fill-foreground">HISTOLOGY</text>
+          <text x="524" y="443" fontSize="3.6" className="fill-muted-foreground">outlines of dead fat cells without</text>
+          <text x="524" y="452" fontSize="3.6" className="fill-muted-foreground">peripheral nuclei; saponification</text>
+          <text x="524" y="461" fontSize="3.6" fontWeight="700" className="fill-foreground">(with Ca2+) dark blue on H&amp;E</text>
+        </g>
+        {/* fibrinoid */}
+        <g>
+          <rect x="304" y="494" width="196" height="168" rx="10" className="fill-card stroke-emergency" />
+          <rect x="316" y="504" width="80" height="16" rx="5" className="fill-emergency-soft" />
+          <text x="356" y="515" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-emergency">FIBRINOID · E</text>
+          <text x="316" y="534" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="316" y="543" fontSize="3.6" className="fill-muted-foreground">immune vascular reactions (eg,</text>
+          <text x="316" y="552" fontSize="3.6" className="fill-muted-foreground">polyarteritis nodosa) · nonimmune</text>
+          <text x="316" y="561" fontSize="3.6" className="fill-muted-foreground">(hypertensive emergency,</text>
+          <text x="316" y="570" fontSize="3.6" className="fill-muted-foreground">preeclampsia)</text>
+          <text x="316" y="583" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO</text>
+          <text x="316" y="592" fontSize="3.6" className="fill-muted-foreground">immune complex deposition (type</text>
+          <text x="316" y="601" fontSize="3.6" className="fill-muted-foreground">III) and/or plasma protein (fibrin)</text>
+          <text x="316" y="610" fontSize="3.6" className="fill-muted-foreground">leakage from damaged vessel</text>
+          <text x="316" y="623" fontSize="3.7" fontWeight="800" className="fill-foreground">HISTOLOGY</text>
+          <text x="316" y="632" fontSize="3.6" className="fill-muted-foreground">vessel walls contain eosinophilic</text>
+          <text x="316" y="641" fontSize="3.6" className="fill-muted-foreground">layer of proteinaceous material</text>
+        </g>
+        {/* gangrenous */}
+        <g>
+          <rect x="512" y="494" width="196" height="168" rx="10" className="fill-card stroke-border" />
+          <rect x="524" y="504" width="104" height="16" rx="5" className="fill-secondary/60" />
+          <text x="576" y="515" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">GANGRENOUS · F</text>
+          <text x="524" y="534" fontSize="3.7" fontWeight="800" className="fill-foreground">SEEN IN</text>
+          <text x="524" y="543" fontSize="3.6" className="fill-muted-foreground">distal extremity and GI tract,</text>
+          <text x="524" y="552" fontSize="3.6" className="fill-muted-foreground">after chronic ischemia</text>
+          <text x="524" y="565" fontSize="3.7" fontWeight="800" className="fill-foreground">DUE TO — THE FORK</text>
+          <text x="524" y="574" fontSize="3.6" fontWeight="700" className="fill-foreground">dry: ischemia → coagulative</text>
+          <text x="524" y="583" fontSize="3.6" fontWeight="700" className="fill-foreground">wet: superinfection →</text>
+          <text x="524" y="592" fontSize="3.6" fontWeight="700" className="fill-foreground">liquefactive superimposed</text>
+          <text x="524" y="601" fontSize="3.6" fontWeight="700" className="fill-foreground">on coagulative</text>
+          <text x="524" y="615" fontSize="3.7" fontWeight="800" className="fill-foreground">THE LOCATION RULE</text>
+          <text x="524" y="624" fontSize="3.6" className="fill-muted-foreground">not a seventh pattern — the same</text>
+          <text x="524" y="633" fontSize="3.6" className="fill-muted-foreground">two patterns at a named site,</text>
+          <text x="524" y="642" fontSize="3.6" className="fill-muted-foreground">decided by the bacteria</text>
+        </g>
+      </g>
+      {/* ===== RIGHT — the photographs + discriminators ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The photographs, described</text>
+        <rect x="736" y="132" width="196" height="252" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="148" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">SIX COPYRIGHTED IMAGES — A-F</text>
+        <text x="834" y="162" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">three H&amp;E micrographs, two gross</text>
+        <text x="834" y="171" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">specimens, one clinical photograph;</text>
+        <text x="834" y="180" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">described in text, never reproduced</text>
+        <text x="748" y="198" fontSize="3.7" fontWeight="800" className="fill-foreground">A · coagulative (H&amp;E):</text>
+        <text x="748" y="207" fontSize="3.6" className="fill-muted-foreground">preserved architecture, lost nuclei,</text>
+        <text x="748" y="216" fontSize="3.6" className="fill-muted-foreground">eosinophilic cytoplasm</text>
+        <text x="748" y="230" fontSize="3.7" fontWeight="800" className="fill-foreground">B · liquefactive (gross brain):</text>
+        <text x="748" y="239" fontSize="3.6" className="fill-muted-foreground">a large cystic cavity — the healed</text>
+        <text x="748" y="248" fontSize="3.6" className="fill-muted-foreground">infarct's final form</text>
+        <text x="748" y="262" fontSize="3.7" fontWeight="800" className="fill-foreground">C · caseous (gross):</text>
+        <text x="748" y="271" fontSize="3.6" className="fill-muted-foreground">a central white cheesy area — the</text>
+        <text x="748" y="280" fontSize="3.6" className="fill-muted-foreground">granuloma's necrotic center</text>
+        <text x="748" y="294" fontSize="3.7" fontWeight="800" className="fill-foreground">D · fat (H&amp;E):</text>
+        <text x="748" y="303" fontSize="3.6" className="fill-muted-foreground">fat-cell outlines without nuclei, the</text>
+        <text x="748" y="312" fontSize="3.6" className="fill-muted-foreground">dark-blue calcium saponification</text>
+        <text x="748" y="326" fontSize="3.7" fontWeight="800" className="fill-foreground">E · fibrinoid (H&amp;E):</text>
+        <text x="748" y="335" fontSize="3.6" className="fill-muted-foreground">a vessel wall with a smudgy</text>
+        <text x="748" y="344" fontSize="3.6" className="fill-muted-foreground">eosinophilic proteinaceous layer</text>
+        <text x="748" y="358" fontSize="3.7" fontWeight="800" className="fill-foreground">F · gangrenous (clinical):</text>
+        <text x="748" y="367" fontSize="3.6" className="fill-muted-foreground">a hand with blackened necrotic</text>
+        <text x="748" y="376" fontSize="3.6" className="fill-muted-foreground">fingertips — chronic ischemia</text>
+        <rect x="736" y="396" width="196" height="120" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="834" y="414" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">THE EXAM DISCRIMINATORS</text>
+        <text x="834" y="432" textAnchor="middle" fontSize="3.7" className="fill-foreground">brain + infarct → liquefactive,</text>
+        <text x="834" y="442" textAnchor="middle" fontSize="3.7" className="fill-foreground">not coagulative (the exception)</text>
+        <text x="834" y="456" textAnchor="middle" fontSize="3.7" className="fill-foreground">granuloma + cheese → caseous</text>
+        <text x="834" y="466" textAnchor="middle" fontSize="3.7" className="fill-foreground">chalk + dark blue → fat (Ca2+ soaps)</text>
+        <text x="834" y="480" textAnchor="middle" fontSize="3.7" className="fill-foreground">vessel wall smudged → fibrinoid</text>
+        <text x="834" y="490" textAnchor="middle" fontSize="3.7" className="fill-foreground">(type III vs leakage — same look)</text>
+        <text x="834" y="504" textAnchor="middle" fontSize="3.7" className="fill-foreground">blackened extremity: dry vs wet</text>
+        <text x="736" y="536" fontSize="3.8" className="fill-muted-foreground">The descriptions carry the</text>
+        <text x="740" y="546" fontSize="3.8" className="fill-muted-foreground">discriminators the exam tests —</text>
+        <text x="740" y="556" fontSize="3.8" className="fill-muted-foreground">ghost outlines, the brain cavity,</text>
+        <text x="740" y="566" fontSize="3.8" className="fill-muted-foreground">the cheese, the dark-blue soaps,</text>
+        <text x="740" y="576" fontSize="3.8" className="fill-muted-foreground">the smudged wall, the blackened</text>
+        <text x="740" y="586" fontSize="3.8" className="fill-muted-foreground">digits — so nothing is lost by</text>
+        <text x="740" y="596" fontSize="3.8" className="fill-muted-foreground">not reproducing the photographs.</text>
+        <text x="740" y="618" fontSize="3.8" className="fill-muted-foreground">One page, six dialects of one</text>
+        <text x="740" y="628" fontSize="3.8" className="fill-muted-foreground">loud death — and the router that</text>
+        <text x="740" y="638" fontSize="3.8" className="fill-muted-foreground">names each by tissue and player.</text>
+      </g>
+      {/* ===== BOTTOM — the one-line map ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The router in one line — the types verbatim (book 205)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">most tissues + ischemia → COAGULATIVE (outlines kept, nuclei gone) · brain + infarct / abscess → LIQUEFACTIVE (digested, cavitated) · TB, fungi, Nocardia → CASEOUS (granuloma, cheese)</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">pancreas / breast fat → FAT (lipase + Ca2+ = chalky saponification) · vessel wall → FIBRINOID (type III or leakage) · extremity / GI + chronic ischemia → GANGRENOUS (dry coagulative · wet liquefactive-on-coagulative)</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 205 (pdf 227) — Necrosis: the definition line; the six-row TYPE/SEEN IN/DUE TO/HISTOLOGY table (Coagulative, Liquefactive, Caseous, Fat, Fibrinoid, Gangrenous). Census: six cmyk JPEG photographs A-F (~287x226, 150 dpi) in a 2x3 grid at the page bottom.</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Photographs A-F VLM-documented: A coagulative H&amp;E micrograph; B liquefactive gross brain cavity; C caseous gross cheeselike center; D fat H&amp;E with dark-blue calcium soaps; E fibrinoid H&amp;E smudged vessel wall; F gangrenous clinical photograph of blackened digits.</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: ALL SIX PHOTOGRAPHS ARE COPYRIGHTED — described in text only, never reproduced (the established patient-photograph convention); the table's text is carried verbatim; the registry visual is an original KYP adaptation of the table's structure, not a redraw of any source figure.</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">No margin mnemonics exist on the page (VLM census confirmed); the KYP mnemonics live in the memory layer only. Text quirk documented: the A-F markers print at the end of each HISTOLOGY row and again as a letter row after the indd footer (raw 124-134).</text>
+      </g>
+    </svg>
+  );
+}

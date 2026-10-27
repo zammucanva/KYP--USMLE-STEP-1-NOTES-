@@ -1,0 +1,208 @@
+{
+  "topicId": "necrosis-types",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The six-row necrosis table (book 205)",
+      "sourceFigureDescription": "The page's entire content table — TYPE/SEEN IN/DUE TO/HISTOLOGY for Coagulative, Liquefactive, Caseous, Fat, Fibrinoid, and Gangrenous — with the A-F photograph markers in the HISTOLOGY column. The fat row's seen-in pair prints before its due-to text (the M38 interleaving pattern). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "necrosis-type-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the six type cards + the router panel, a KYP adaptation of the table's structure) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "necrosis-type-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph A — coagulative necrosis (book 205)",
+      "sourceFigureDescription": "An H&E micrograph (cmyk jpeg, ~287x226 at 150 dpi): preserved cellular architecture with lost nuclei and eosinophilic cytoplasm. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table — a copyrighted micrograph, never reproduced",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Photograph B — liquefactive necrosis (book 205)",
+      "sourceFigureDescription": "A gross specimen photograph of a brain with a large cystic cavity — the healed infarct's cavitation. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Photograph C — caseous necrosis (book 205)",
+      "sourceFigureDescription": "A gross specimen photograph with a central white cheeselike area — the granuloma's necrotic center. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv5",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph D — fat necrosis (book 205)",
+      "sourceFigureDescription": "An H&E micrograph: outlines of dead fat cells without peripheral nuclei, with the dark-blue calcium saponification. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv6",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph E — fibrinoid necrosis (book 205)",
+      "sourceFigureDescription": "An H&E micrograph of a vessel wall with a thickened smudgy eosinophilic proteinaceous layer. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Necrosis",
+      "topicId": "necrosis-types",
+      "requiredInKYP": true,
+      "visualId": "necrosis-types-sv7",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Photograph F — gangrenous necrosis (book 205)",
+      "sourceFigureDescription": "A clinical photograph of a hand with blackened necrotic fingertips — dry gangrene of chronic distal ischemia. COPYRIGHTED — described in text, never reproduced (the M32 patient-photograph convention).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photograph panel + blocks[2] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "necrosis-types",
+    "textbookVisualCount": 7,
+    "accountedFor": 7,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 7,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page has no drawn figure — the TABLE is the content, adapted as the registry visual (the six type cards + the router panel). The six photographs (A-F) are ALL COPYRIGHTED — described in text in the registry visual's photograph panel and the note's photographs table, never reproduced (the M32 convention). No margin mnemonics exist on the page; nothing reproduced."
+}

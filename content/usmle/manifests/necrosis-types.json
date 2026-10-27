@@ -1,0 +1,229 @@
+{
+  "topicId": "necrosis-types",
+  "title": "Necrosis: The Five Morphologic Patterns",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Necrosis",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      227
+    ],
+    "bookPages": "205–205"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, the printed page number, and the Necrosis heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY\n\n205\n\nSEC TION II\n\nNecrosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The necrosis definition — exogenous injury → plasma membrane damage → intracellular components leak → enzymatic degradation and protein denaturation → local inflammatory reaction (unlike apoptosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Exogenous injury → plasma membrane damage → intracellular components leak → cell undergoes\nenzymatic degradation and protein denaturation → local inflammatory reaction (unlike apoptosis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's column headers — TYPE, SEEN IN, DUE TO, HISTOLOGY",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "TYPe\n\nSeeN IN\n\nDUe TO\n\nHISTOLOGY\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Coagulative row — most tissues except brain; denatured enzymes block proteolysis; preserved architecture, nuclei disappear, ↑ eosin binding; the A photograph marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Coagulative\n\nIschemia/infarcts in\nmost tissues (except\nbrain)\n\nIschemia or infarction;\ninjury denatures\nenzymes → proteolysis\nblocked\n\nPreserved cellular architecture (cell\noutlines seen), but nuclei disappear;\n↑ cytoplasmic binding of eosin stain\n(→ ↑ eosinophilia; red/pink color) A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Liquefactive row — bacterial abscesses, CNS infarcts; neutrophil lysosomal enzymes; early debris and macrophages, late cystic spaces and cavitation; the B marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Liquefactive\n\nBacterial abscesses,\nCNS infarcts\n\nNeutrophils release\nlysosomal enzymes that\ndigest the tissue\n\nEarly: cellular debris and macrophages\nLate: cystic spaces and cavitation (CNS) B\nNeutrophils and cell debris seen with\nbacterial infection",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Caseous row — TB, systemic fungi (Histoplasma capsulatum), Nocardia; macrophages wall off the organism; the granuloma; cheeselike gross; the C marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Caseous\n\nTB, systemic fungi\n(eg, Histoplasma\ncapsulatum), Nocardia\n\nMacrophages wall off the\ninfecting microorganism\n→ granular debris\n\nFragmented cells and debris surrounded by\nlymphocytes and macrophages (granuloma)\nCheeselike gross appearance C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Fat row (the M38 interleaving — enzymatic/nonenzymatic seen-in pair printing before the due-to text) — pancreatitis saponification, traumatic breast; lipase → triglycerides → fatty acids + calcium; chalky-white; dark blue on H&E; the D marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Fat\n\nEnzymatic: acute\nDamaged pancreatic\npancreatitis\ncells release lipase,\n(saponification of\nwhich breaks down\nperipancreatic fat)\ntriglycerides; liberated\nNonenzymatic:\nfatty acids bind calcium\ntraumatic (eg, injury to\n→ saponification (chalkybreast tissue)\nwhite appearance)\n\nOutlines of dead fat cells without\nperipheral nuclei; saponification of fat\n(combined with Ca2+) appears dark blue\non H&E stain D",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Fibrinoid row — immune vascular reactions (polyarteritis nodosa), nonimmune (hypertensive emergency, preeclampsia); type III immune complex deposition and/or plasma protein leakage; eosinophilic proteinaceous layer; the E marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Fibrinoid\n\nImmune vascular\nreactions (eg,\npolyarteritis nodosa)\nNonimmune\nvascular reactions\n(eg, hypertensive\nemergency,\npreeclampsia)\n\nImmune complex\ndeposition (type III\nhypersensitivity reaction)\nand/or plasma protein\n(eg, fibrin) leakage from\ndamaged vessel\n\nVessel walls contain eosinophilic layer of\nproteinaceous material (arrow in E )",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Gangrenous row — distal extremity and GI tract after chronic ischemia; dry = ischemia = coagulative; wet = superinfection = liquefactive superimposed on coagulative; the F marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "Gangrenous\n\nDistal extremity and\nGI tract, after chronic\nischemia\n\nDry: ischemia F\n\nCoagulative\n\nWet: superinfection\n\nLiquefactive superimposed on coagulative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + the A-F photograph letter row (page identity, the photograph grid's key)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 205\n\nA\n\nB\n\nC\n\nD\n\nE\n\nF",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "necrosis-type-map"
+  ],
+  "mechanismIds": [
+    "membrane-leak-inflammation",
+    "tissue-router"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition and the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "tissue-router",
+      "summary": "The tissue-router synthesis (match the organ and the player to the pattern) and the gangrenous location rule (not a seventh pattern — the same two patterns at a named site, decided by the bacteria).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the six rows without a routing rule or the location framing; the router and the fork logic are KYP's design.",
+      "location": "core.keyIdea + mechanism 2 + the exam callout + the visual's router panel"
+    },
+    {
+      "id": "coagulative-paradox-framing",
+      "summary": "The coagulative-paradox framing (the demolition crew was denatured too) and the loud-death contrast sustained across the table.",
+      "origin": "outside-first-aid",
+      "rationale": "The source states the mechanism once; the paradox framing and the sustained loud/quiet contrast are KYP's synthesis.",
+      "location": "mechanism 1 + traps + mnemonics + crossLinks"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p227's six photographs (A-F: three H&E micrographs, two gross specimens, one clinical photograph) are ALL COPYRIGHTED — described-in-text only, never reproduced (the M32 convention). The page has no drawn figure; the TABLE is the content — the registry visual is an original KYP adaptation of the table's structure (not a redraw). The table's text is carried verbatim; the fat row's column interleaving documented (the M38 pattern). No margin mnemonics (VLM confirmed).",
+  "updatedAt": "2026-10-27"
+}

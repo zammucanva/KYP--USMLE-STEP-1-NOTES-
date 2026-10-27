@@ -52,6 +52,7 @@ import {
   ApoptosisPathwayMap,
   CellCycleCheckpointMap,
   InjuryTimelineMap,
+  NecrosisTypeMap,
   CiliaAxonemeBasalBody,
   DextrocardiaCxr,
   MicrotubuleArchitecture,
@@ -333,4 +334,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "adaptations-comparison-map": AdaptationsComparisonMap,
   "injury-timeline-map": InjuryTimelineMap,
   "apoptosis-pathway-map": ApoptosisPathwayMap,
+  "necrosis-type-map": NecrosisTypeMap,
 };
