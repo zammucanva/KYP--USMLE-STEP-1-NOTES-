@@ -1,0 +1,463 @@
+{
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "number": 4,
+  "part": 1,
+  "section": "Section I · High-Yield General Principles",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 223,
+      "to": 248
+    }
+  ],
+  "extractionStatus": "extracted",
+  "pendingTopicCount": 19,
+  "topics": [
+    {
+      "topicId": "cellular-adaptations",
+      "title": "Cellular Adaptations: Hypertrophy Through Dysplasia",
+      "faSubsections": [
+        "Cellular adaptations"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202–202"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "adaptations-comparison-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Cellular adaptations",
+      "status": "pending",
+      "productionRationale": "The adaptation ladder (hypertrophy, hyperplasia, atrophy, metaplasia, dysplasia) with the physiologic-vs-pathologic splits — the vocabulary every later injury and neoplasia topic builds on."
+    },
+    {
+      "topicId": "cell-injury-mechanisms",
+      "title": "Cell Injury: Reversible, Irreversible & Ferroptosis",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          225
+        ],
+        "bookPages": "203–203"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "injury-timeline-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "The reversible-to-irreversible timeline (membrane blebbing, chromatin, ribosomes, rupture) and ferroptosis — the mechanism core of the injury section."
+    },
+    {
+      "topicId": "apoptosis-pathways",
+      "title": "Apoptosis: Intrinsic, Extrinsic & Misfolded Proteins",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          226
+        ],
+        "bookPages": "204–204"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "apoptosis-pathway-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "The intrinsic (cytochrome C) and extrinsic (Fas, granzyme B/perforin) caspase cascades with the executioner layer and the misfolded-protein arm — the programmed-death mechanism map."
+    },
+    {
+      "topicId": "necrosis-types",
+      "title": "Necrosis: The Five Morphologic Patterns",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          227
+        ],
+        "bookPages": "205–205"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "necrosis-type-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "Coagulative, liquefactive, caseous, fat, and fibrinoid necrosis with their mechanism lines and gross/histologic signatures (the page carries the HISTOLOGY banner content)."
+    },
+    {
+      "topicId": "tissue-injury-infarcts",
+      "title": "Tissue Hypoxia Susceptibility, Infarcts & Free Radicals",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206–206"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "infarct-type-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "The organ-by-organ hypoxia susceptibility table (brain, heart, kidney, liver, colon), red vs pale infarcts, and free-radical injury — the hemodynamic-territory content of the injury section."
+    },
+    {
+      "topicId": "calcification-radiation-injury",
+      "title": "Calcification & Radiation Injury",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          229
+        ],
+        "bookPages": "207–207"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "calcification-split-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "Dystrophic vs metastatic calcification with psammoma bodies, and ionizing-radiation injury — the deposition-and-exposure pair."
+    },
+    {
+      "topicId": "amyloidosis",
+      "title": "Amyloidosis: The Deposition Diseases",
+      "faSubsections": [
+        "Cellular injury"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208–208"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "amyloid-deposition-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Cellular injury",
+      "status": "pending",
+      "productionRationale": "The amyloid table (primary, secondary, transthyretin, dialysis-related, Alzheimer, atrial, islet, medullary thyroid) with Congo red — the deposition-disease directory."
+    },
+    {
+      "topicId": "acute-inflammation",
+      "title": "Acute Inflammation: Cardinal Signs & Acute-Phase Reactants",
+      "faSubsections": [
+        "Inflammation"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          231,
+          232
+        ],
+        "bookPages": "209–210"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "acute-phase-reactant-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Inflammation",
+      "status": "pending",
+      "productionRationale": "The cardinal signs, the systemic acute-phase reaction (fever, leukocytosis, ferritin, fibrinogen, haptoglobin, hepcidin, procalcitonin), ESR determinants, and the acute-vs-chronic split."
+    },
+    {
+      "topicId": "leukocyte-trafficking",
+      "title": "Leukocyte Extravasation & Cytokines",
+      "faSubsections": [
+        "Inflammation"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211–211"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "extravasation-cascade-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Inflammation",
+      "status": "pending",
+      "productionRationale": "The extravasation cascade (margination, rolling via Sialyl LewisX, adhesion, transmigration) with the cytokine mediators — the mechanism engine of the inflammation section."
+    },
+    {
+      "topicId": "wound-healing",
+      "title": "Wound Healing: Mediators & Phases",
+      "faSubsections": [
+        "Inflammation"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212–212"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "wound-healing-phases-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Inflammation",
+      "status": "pending",
+      "productionRationale": "The tissue mediators (angiogenesis factors, PDGF, metalloproteinases) and the three healing phases (inflammatory, proliferative, remodeling) with the diabetes/steroid delay rule."
+    },
+    {
+      "topicId": "granulomatous-inflammation",
+      "title": "Granulomatous Inflammation & Scar Types",
+      "faSubsections": [
+        "Inflammation"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          235,
+          236
+        ],
+        "bookPages": "213–214"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "granuloma-cell-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Inflammation",
+      "status": "pending",
+      "productionRationale": "The granuloma cell cast (lymphocyte, fibroblast, epithelioid, giant cell) with infectious vs noninfectious causes, and hypertrophic scar vs keloid — the chronic-inflammation close."
+    },
+    {
+      "topicId": "neoplasia-nomenclature",
+      "title": "Neoplasia Nomenclature & Progression",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          237,
+          238
+        ],
+        "bookPages": "215–216"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "nomenclature-progression-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The benign-vs-malignant nomenclature tables (epithelial, mesenchymal, blood) and the dysplasia-to-invasive-carcinoma-to-metastasis progression — the vocabulary layer of the neoplasia section."
+    },
+    {
+      "topicId": "cancer-hallmarks",
+      "title": "Hallmarks of Cancer",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217–217"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "hallmarks-of-cancer-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The hallmark table (growth-signal self-sufficiency, anti-growth insensitivity, evasion of apoptosis, limitless replication, sustained angiogenesis, Warburg effect, immune evasion, invasion, metastasis) — the mechanism map of malignancy."
+    },
+    {
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "title": "Cancer Immunotherapy & Epidemiology",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218–218"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "immunotherapy-target-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The checkpoint-inhibitor directory (ipilimumab, atezolizumab, durvalumab, avelumab, cemiplimab, nivolumab, pembrolizumab) and cancer epidemiology (incidence vs mortality) — the translational layer."
+    },
+    {
+      "topicId": "metastasis-patterns",
+      "title": "Metastasis: Organ Patterns & Routes",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219–219"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "metastasis-route-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The organ-by-organ metastasis map (bone, liver, lung, brain) with the primary-tumor sources and route logic — the anatomic layer of spread."
+    },
+    {
+      "topicId": "oncogenes-tumor-suppressors",
+      "title": "Oncogenes & Tumor Suppressors",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220–220"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "oncogene-tumor-suppressor-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The gene table (receptor tyrosine kinases, transcription factors, antiapoptotic molecules, tumor suppressors) with their cancers — the molecular layer of neoplasia."
+    },
+    {
+      "topicId": "chemical-carcinogens",
+      "title": "Chemical Carcinogens & Organ Cancers",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221–221"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "carcinogen-organ-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The carcinogen table (aflatoxins, alkylating agents, aromatic amines, arsenic, and the rest) with source, target organ, and associated cancer — the exposure layer."
+    },
+    {
+      "topicId": "tumor-markers-molecular",
+      "title": "Tumor Markers, Molecular Diagnostics & IHC",
+      "faSubsections": [
+        "Neoplasia"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          244,
+          245
+        ],
+        "bookPages": "222–223"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "tumor-marker-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The tumor-marker directory (AFP through chromogranin), the molecular diagnostics layer (TMB, MSI, HRD, liquid biopsy), and the immunohistochemistry panel (cytokeratin, desmin, neurofilament, PSA) — the diagnostic layer."
+    },
+    {
+      "topicId": "paraneoplastic-aging",
+      "title": "Paraneoplastic Syndromes & Aging",
+      "faSubsections": [
+        "Neoplasia",
+        "Aging"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          246,
+          247,
+          248
+        ],
+        "bookPages": "224–226"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "paraneoplastic-syndrome-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pathology — Neoplasia",
+      "status": "pending",
+      "productionRationale": "The paraneoplastic syndromes (dermatomyositis, acanthosis nigricans, Leser-Trélat, hypertrophic osteoarthropathy, hypercalcemia, Cushing, SIADH) and the system-by-system aging changes with lipofuscin — the chapter close (p248 is the near-empty NOTES page, claimed as continuation)."
+    }
+  ],
+  "notes": "Phase I inventory built from the banner + heading census. Banner structure (with the source's own printed banner typos, documented per the Micro convention): PATHOLOGY banner on pdf 224-248; subsections CeLLULAR INjURY 224-230 (book 202-208), INfLAMMATION 231-236 (209-214), NeOPLASIA 237-246 (215-224), AGInG 247-248 (225-226; p248 = the near-empty NOTES page, 7 nonempty lines, claimed by paraneoplastic-aging as continuation). p223 = chapter opener (book 201, unclaimed — the Micro p143 convention). p232 and p238 print no banner (continuation pages, assigned to their owners). 19 topics; every content page 224-248 claimed by exactly one topic."
+}

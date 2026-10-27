@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T18:01:16Z",
+  "generatedAt": "2026-10-27T18:16:21Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -265,8 +265,8 @@
   },
   "estimatedTotalTopics": 3029,
   "counts": {
-    "chaptersRegistered": 8,
-    "chaptersExtracted": 3,
+    "chaptersRegistered": 9,
+    "chaptersExtracted": 4,
     "topicsProduced": 126,
     "topicsByStatus": {
       "planned": 0,
@@ -311,6 +311,17 @@
       "topicsRemaining": 0,
       "qaStatus": "pass",
       "completedAt": "2026-10-27"
+    },
+    {
+      "chapterId": "pathology",
+      "chapterTitle": "Pathology",
+      "part": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 19,
+      "topicsProduced": 0,
+      "topicsRemaining": 19,
+      "qaStatus": "pending",
+      "completedAt": null
     },
     {
       "chapterId": "pharmacology",
