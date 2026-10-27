@@ -5756,3 +5756,174 @@ export function HivDrugLifecycleMap() {
     </svg>
   );
 }
+
+export function HcvDaaTargetMap() {
+  const w = 980;
+  const h = 860;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Hepatitis C therapy — the DAA target map, an original KYP redraw of the source's replication-cycle figure (book 200 — vector line art printing in the text layer, 0 rasters; VLM census confirmed the hepatocyte schematic with no photographs). CENTER — THE HEPATOCYTE with the replication cycle: the HCV virion arriving with its lipoprotein for receptor binding and endocytosis; fusion, uncoating, and RNA release into the cytoplasm; the positive-sense RNA reaching the ribosome for TRANSLATION (the NS3/4A door — glecaprevir and grazoprevir, the viral protease whose inhibition prevents viral replication); REPLICATION on the membranous web derived from ER, where the positive RNA templates the negative strand and new positives are copied (the NS5B door — sofosbuvir, the chain-terminating RNA-dependent RNA polymerase inhibitor); ASSEMBLY (the NS5A door — elbasvir, ledipasvir, pibrentasvir, velpatasvir, inhibiting the viral phosphoprotein with key roles in RNA replication, virion assembly, and release; exact mechanism unknown); MATURATION through the Golgi apparatus; and RELEASE. LEFT — THE NAMING LADDER: -previr = NS3/4A protease, -asvir = NS5A, -buvir = NS5B polymerase; the multidrug-by-design regimen rule (chronic HCV treated with multidrug therapy targeting the HCV-encoded nonstructural proteins). RIGHT — THE TOXICITY PANEL: the NS doors' mild profiles (headache, diarrhea, fatigue) versus ribavirin's host-door price, and the ribavirin strip itself: IMP to GMP to GTP with the competitive inhibition at IMP dehydrogenase — guanine-nucleotide synthesis starved; hemolytic anemia, severe teratogen. The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Hepatitis C therapy — the DAA target map (original KYP redraw)</text>
+        <rect x="744" y="24" width="188" height="18" className="fill-brand-soft" />
+        <text x="838" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">3 NS doors · 1 host door</text>
+      </g>
+      {/* ===== LEFT — the naming ladder ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The naming ladder</text>
+        <rect x="48" y="132" width="216" height="94" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">-PREVIR = NS3/4A PROTEASE</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">glecaprevir · grazoprevir</text>
+        <text x="156" y="180" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the viral protease inhibited —</text>
+        <text x="156" y="190" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">prevents viral replication;</text>
+        <text x="156" y="204" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">toxicity: headache, fatigue ·</text>
+        <text x="156" y="214" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the HIV-protease logic, one virus over</text>
+        <rect x="48" y="238" width="216" height="94" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="256" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">-ASVIR = NS5A PHOSPHOPROTEIN</text>
+        <text x="156" y="272" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">elbasvir · ledipasvir</text>
+        <text x="156" y="282" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">pibrentasvir · velpatasvir</text>
+        <text x="156" y="296" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">RNA replication, virion assembly,</text>
+        <text x="156" y="306" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">and release — exact mechanism</text>
+        <text x="156" y="316" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">unknown; headache, diarrhea</text>
+        <rect x="48" y="344" width="216" height="94" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="362" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">-BUVIR = NS5B POLYMERASE</text>
+        <text x="156" y="378" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">sofosbuvir</text>
+        <text x="156" y="392" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the RNA-dependent RNA polymerase</text>
+        <text x="156" y="402" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">chain-terminated — prevents viral</text>
+        <text x="156" y="412" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">RNA replication; fatigue, headache ·</text>
+        <text x="156" y="422" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the NRTI chain-termination echo</text>
+        <rect x="48" y="450" width="216" height="80" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="468" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">MULTIDRUG BY DESIGN</text>
+        <text x="156" y="484" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Chronic HCV: multidrug therapy</text>
+        <text x="156" y="494" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">targeting specific steps of the</text>
+        <text x="156" y="504" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">replication cycle — the HCV-encoded</text>
+        <text x="156" y="514" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">nonstructural proteins; different</text>
+        <text x="156" y="524" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">doors combined (the HIV-backbone logic)</text>
+        <text x="52" y="552" fontSize="4" className="fill-muted-foreground">Read any unfamiliar HCV drug&apos;s ending</text>
+        <text x="52" y="562" fontSize="4" className="fill-muted-foreground">and you know its door. The suffix is the</text>
+        <text x="52" y="572" fontSize="4" className="fill-muted-foreground">target; the target is the lifecycle step.</text>
+        <text x="52" y="596" fontSize="4" className="fill-muted-foreground">No margin mnemonics print on this page</text>
+        <text x="52" y="606" fontSize="4" className="fill-muted-foreground">(VLM census confirmed) — the KYP</text>
+        <text x="52" y="616" fontSize="4" className="fill-muted-foreground">naming ladder lives in the memory layer.</text>
+        <text x="52" y="644" fontSize="4" className="fill-muted-foreground">The rosters print twice in the source —</text>
+        <text x="52" y="654" fontSize="4" className="fill-muted-foreground">the table&apos;s DRUG column and the figure&apos;s</text>
+        <text x="52" y="664" fontSize="4" className="fill-muted-foreground">drug boxes; both carried in the tables.</text>
+      </g>
+      {/* ===== CENTER — the hepatocyte and the cycle ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="560" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE HEPATOCYTE — the replication cycle and its doors</text>
+        {/* cell boundary */}
+        <ellipse cx="500" cy="390" rx="192" ry="216" className="fill-card stroke-brand" strokeWidth="1.5" />
+        {/* virion outside */}
+        <circle cx="322" cy="182" r="24" className="fill-card stroke-emergency" strokeWidth="1.2" />
+        <g className="stroke-emergency" strokeWidth="0.9">
+          <path d="M 304 172 L 309 168" /><path d="M 340 172 L 335 168" /><path d="M 322 154 L 322 160" />
+          <path d="M 304 194 L 309 198" /><path d="M 340 194 L 335 198" />
+        </g>
+        <text x="322" y="182" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">HCV</text>
+        <text x="322" y="191" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">+ lipoprotein</text>
+        <text x="322" y="222" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-foreground">receptor binding and endocytosis</text>
+        {/* entry stages */}
+        <text x="500" y="196" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-foreground">fusion, uncoating, RNA release</text>
+        <rect x="420" y="206" width="64" height="18" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="452" y="217" textAnchor="middle" fontSize="3.9" className="fill-foreground">(+) RNA</text>
+        {/* nucleus */}
+        <ellipse cx="560" cy="470" rx="86" ry="64" className="fill-secondary/60 stroke-border" />
+        <text x="560" y="466" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Nucleus</text>
+        <text x="560" y="477" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">ER · Golgi · ribosome ·</text>
+        <text x="560" y="486" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">membranous web (ER-derived)</text>
+        {/* translation + NS3/4A door */}
+        <rect x="316" y="240" width="176" height="84" rx="10" className="fill-card stroke-emergency" />
+        <text x="404" y="256" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-emergency">TRANSLATION ⊣ NS3/4A</text>
+        <text x="404" y="270" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">glecaprevir · grazoprevir</text>
+        <text x="404" y="282" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the viral protease — polyprotein</text>
+        <text x="404" y="291" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">cleavage blocked, no viral replication;</text>
+        <text x="404" y="300" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">headache, fatigue</text>
+        <text x="404" y="314" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">at the ribosome (the figure&apos;s placement)</text>
+        {/* replication + NS5B door */}
+        <rect x="316" y="356" width="176" height="94" rx="10" className="fill-card stroke-emergency" />
+        <text x="404" y="372" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-emergency">REPLICATION ⊣ NS5B</text>
+        <text x="404" y="386" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">sofosbuvir</text>
+        <text x="404" y="398" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the RNA-dependent RNA polymerase</text>
+        <text x="404" y="407" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">chain-terminated — viral RNA replication</text>
+        <text x="404" y="416" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">prevented; fatigue, headache</text>
+        <text x="404" y="430" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">on the membranous web: (+) RNA</text>
+        <text x="404" y="439" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">templating the (−) strand</text>
+        <text x="404" y="451" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">(+) RNA ↔ (−) RNA</text>
+        {/* assembly + NS5A door */}
+        <rect x="528" y="546" width="164" height="86" rx="10" className="fill-card stroke-brand" />
+        <text x="610" y="562" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-brand">ASSEMBLY ⊣ NS5A</text>
+        <text x="610" y="576" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">elbasvir · ledipasvir</text>
+        <text x="610" y="585" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">pibrentasvir · velpatasvir</text>
+        <text x="610" y="598" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the phosphoprotein of RNA replication,</text>
+        <text x="610" y="607" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">virion assembly, and release — exact</text>
+        <text x="610" y="616" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">mechanism unknown; headache, diarrhea</text>
+        {/* tail stages */}
+        <text x="500" y="614" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-foreground">maturation (Golgi apparatus) → release</text>
+        <text x="500" y="634" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">Three viral doors — translate, copy, assemble.</text>
+        <text x="500" y="648" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Source figure: the hepatocyte schematic, book 200 — vector line art printing in the</text>
+        <text x="500" y="658" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">text layer (0 rasters; VLM census confirmed no photographs) — redrawn, never reproduced.</text>
+      </g>
+      {/* ===== RIGHT — ribavirin + toxicity panel ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The host door</text>
+        <rect x="736" y="132" width="196" height="150" rx="10" className="fill-brand-soft/30 stroke-emergency" />
+        <text x="834" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-emergency">RIBAVIRIN — the alternative</text>
+        <rect x="760" y="162" width="46" height="18" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="783" y="174" textAnchor="middle" fontSize="3.9" className="fill-foreground">IMP</text>
+        <text x="816" y="174" fontSize="4.6" fontWeight="800" className="fill-emergency">⊣</text>
+        <rect x="828" y="162" width="46" height="18" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="851" y="174" textAnchor="middle" fontSize="3.9" className="fill-foreground">GMP</text>
+        <path d="M 874 171 L 888 171" className="stroke-muted-foreground" strokeWidth="0.9" />
+        <rect x="890" y="162" width="40" height="18" rx="6" className="fill-secondary/60 stroke-border" />
+        <text x="910" y="174" textAnchor="middle" fontSize="3.9" className="fill-foreground">GTP</text>
+        <text x="834" y="196" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">competitively inhibits IMP dehydrogenase</text>
+        <text x="834" y="206" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">— the IMP-to-GMP step — so guanine</text>
+        <text x="834" y="216" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">nucleotide synthesis falls (the figure&apos;s strip)</text>
+        <text x="834" y="234" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-emergency">Hemolytic anemia</text>
+        <text x="834" y="246" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-emergency">Severe teratogen</text>
+        <text x="834" y="262" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the avoid-in-pregnancy teratogen of</text>
+        <text x="834" y="272" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">M37&apos;s table (with griseofulvin)</text>
+        <rect x="736" y="296" width="196" height="120" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="314" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">WHY THE TOXICITIES DIFFER</text>
+        <text x="834" y="332" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">The NS doors target VIRAL proteins —</text>
+        <text x="834" y="342" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">mild profiles (headache, diarrhea, fatigue).</text>
+        <text x="834" y="356" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Ribavirin&apos;s door is OURS: host nucleotide</text>
+        <text x="834" y="366" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">metabolism — so host toxicities follow</text>
+        <text x="834" y="380" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">(hemolysis, teratogenicity). The selectivity</text>
+        <text x="834" y="390" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">lesson of the antiviral directory, one page.</text>
+        <rect x="736" y="430" width="196" height="104" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="448" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE DAA PROFILES</text>
+        <text x="834" y="466" textAnchor="middle" fontSize="4" className="fill-foreground">NS5A (-asvirs): headache, diarrhea</text>
+        <text x="834" y="482" textAnchor="middle" fontSize="4" className="fill-foreground">NS5B (sofosbuvir): fatigue, headache</text>
+        <text x="834" y="498" textAnchor="middle" fontSize="4" className="fill-foreground">NS3/4A (-previrs): headache, fatigue</text>
+        <text x="834" y="516" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">Three mild viral-door profiles against one</text>
+        <text x="834" y="526" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">host-door toxicity pair — the exam&apos;s split.</text>
+        <text x="740" y="560" fontSize="4" className="fill-muted-foreground">The purine-pathway echo: IMP dehydrogenase</text>
+        <text x="740" y="570" fontSize="4" className="fill-muted-foreground">is the committed step of guanine synthesis —</text>
+        <text x="740" y="580" fontSize="4" className="fill-muted-foreground">the biochemistry chapter&apos;s pathway made</text>
+        <text x="740" y="590" fontSize="4" className="fill-muted-foreground">pharmacologic (the mycophenolate neighbor).</text>
+        <text x="740" y="614" fontSize="4" className="fill-muted-foreground">Contraception during therapy and washout;</text>
+        <text x="740" y="624" fontSize="4" className="fill-muted-foreground">watch the hemoglobin; the pregnancy</text>
+        <text x="740" y="634" fontSize="4" className="fill-muted-foreground">discovered on therapy is the urgent stop.</text>
+      </g>
+      {/* ===== BOTTOM — the cycle strip ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="72" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The cycle in one line — the doors attach where they work (book 200, carried verbatim in the note&apos;s tables)</text>
+        <rect x="52" y="730" width="876" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">receptor binding and endocytosis (the virion + lipoprotein) → fusion, uncoating, RNA release → TRANSLATION ⊣ NS3/4A → REPLICATION ⊣ NS5B →</text>
+        <text x="490" y="753" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">ASSEMBLY ⊣ NS5A → maturation (Golgi apparatus) → release · RIBAVIRIN ⊣ IMP dehydrogenase (the host door: IMP → GMP → GTP)</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="802" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, book 200 (pdf 222) — Hepatitis C therapy: the NS5A, NS5B, NS3/4A, and ribavirin cards; the HCV replication-cycle figure. Census: p222 is pure text (pdfimages: 0 rasters) — the cycle prints as vector line art with all labels in the text layer; VLM census confirmed the hepatocyte schematic (nucleus, ER, Golgi apparatus, ribosome, membranous web; the virion with its lipoprotein; numbered arrows) — no photographs.</text>
+        <text x="24" y="813" fontSize="4.6" className="fill-muted-foreground">Drug placements VLM-verified: NS3/4A at translation; NS5B (sofosbuvir) at replication on the membranous web; NS5A at assembly; ribavirin at the IMP-to-GMP-to-GTP strip. Copyright boundary: facts are carried; expression is not. Text quirks documented: the banner typo; the rosters printing twice; the split-spacing nucleus label; the footer splitting around the figure labels.</text>
+      </g>
+    </svg>
+  );
+}

@@ -1,0 +1,320 @@
+{
+  "topicId": "hcv-therapy",
+  "title": "Hepatitis C Therapy: DAAs",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      222
+    ],
+    "bookPages": "200–200"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page header trio + the 'Hepatitis C therapy' heading (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "200\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nHepatitis C therapy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro block — chronic HCV, multidrug therapy, the replication-cycle targets, HCV-encoded nonstructural proteins",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Chronic HCV infection treated with multidrug therapy that targets specific steps within HCV\nreplication cycle (HCV-encoded nonstructural proteins). Examples of drugs are provided.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table column headers (DRUG / MECHANISM / TOXICITY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "DRUG\n\nMECHANISM\n\nTOXICITY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS5A MECHANISM — the viral phosphoprotein of RNA replication, virion assembly, and release; exact mechanism unknown",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Inhibits NS5A, a viral phosphoprotein that plays\na key role in RNA replication, virion assembly,\nand release\nExact mechanism unknown",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS5A TOXICITY — headache, diarrhea",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Headache, diarrhea",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS5B MECHANISM — the RNA-dependent RNA polymerase chain terminator; prevents viral RNA replication",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Inhibits NS5B, an RNA-dependent RNA\npolymerase acting as a chain terminator\nPrevents viral RNA replication",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS5B TOXICITY — fatigue, headache",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Fatigue, headache",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS3/4A MECHANISM — the viral protease, preventing viral replication",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Inhibits NS3/4A, a viral protease, preventing\nviral replication",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NS3/4A TOXICITY — headache, fatigue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Headache, fatigue",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ribavirin MECHANISM — guanine-nucleotide synthesis inhibited by competitive IMP-dehydrogenase inhibition; TOXICITY — hemolytic anemia, severe teratogen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Inhibits synthesis of guanine nucleotides by\ncompetitively inhibiting IMP dehydrogenase\n\nHemolytic anemia, severe teratogen",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's drug rosters — NS5A (elbasvir, ledipasvir, pibrentasvir, velpatasvir), NS5B (sofosbuvir), NS3/4A (glecaprevir, grazoprevir), alternative (ribavirin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "NS5A inhibitors\nElbasvir\nLedipasvir\nPibrentasvir\nVelpatasvir\nNS5B inhibitors\nSofosbuvir\n\nNS3/4A inhibitors\nGlecaprevir\nGrazoprevir\nAlternative drugs\nRibavirin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's NS5A drug box (the second printing of the roster)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "NS5A inhibitors\nElbasvir\nLedipasvir\nPibrentasvir\nVelpatasvir",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's entry stages — receptor binding and endocytosis (HCV, hepatocyte, lipoprotein), release, cytoplasm",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Receptor binding\nand endocytosis\nHCV\n\nHepatocyte\n\nLipoprotein\n\nRelease\n\nCytoplasm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's uncoating and assembly stages — fusion, uncoating, and RNA release; assembly; the ribavirin and Golgi labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Assembly\n\nFusion, uncoating,\nand RNA release\nRibavirin\n\nGolgi\napparatus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's nucleotide strip and translation apparatus — (+) RNA, IMP, GMP, GTP, maturation, the split-spacing nucleus, ER, ribosome, translation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "(+) RNA\n\nIMP\n\nGMP\nGTP\n\nMaturation\n\nN u cle us\nER\n\n(+) RNA\n(-) RNA\n\nRibosome\n\nTranslation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's NS3/4A drug box (the second printing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "NS3/4A inhibitors\nGlecaprevir\nGrazoprevir",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's membranous-web and replication labels + the NS5B drug box (the second printing) — printing after the footer line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "Membranous web\n(derived from ER)\n\nReplication\n\nNS5B inhibitors\nSofosbuvir",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 200",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hcv-daa-target-map"
+  ],
+  "mechanismIds": [
+    "ns-target-ladder",
+    "guanine-starvation-door"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "naming-ladder",
+      "summary": "The -previr/-asvir/-buvir naming ladder and the translate/copy/assemble lifecycle mapping — KYP's synthesis of the table and the figure.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the drug names and targets without any naming-system or lifecycle-position synthesis; the suffix ladder and the door mapping are KYP's design.",
+      "location": "core.keyIdea + mechanism 1 + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    },
+    {
+      "id": "host-door-contrast",
+      "summary": "The viral-door vs host-door selectivity contrast (the NS targets' mild profiles vs ribavirin's hemolytic anemia and severe teratogenicity) — KYP's cross-page synthesis tying M37's pregnancy table to its mechanism.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the toxicities without the selectivity framing; the host-door contrast and the M37/M38 echoes are KYP's design.",
+      "location": "mechanism 2 + the exam callout + crossLinks + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p222 pure text (0 rasters) — the replication cycle is vector line art in the text layer (the M33/M34 convention); REDRAWN as the registry visual. Drug placements VLM-verified (NS3/4A at translation, NS5B at replication, NS5A at assembly, ribavirin at the IMP-GMP-GTP strip). Rosters print twice (table + figure boxes) — documented. No margin mnemonics (VLM confirmed). Text quirks documented (the split-spacing nucleus label; the footer splitting around the figure labels).",
+  "updatedAt": "2026-10-27"
+}

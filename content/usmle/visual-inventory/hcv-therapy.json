@@ -1,0 +1,100 @@
+{
+  "topicId": "hcv-therapy",
+  "chapterId": "microbiology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "hcv-therapy",
+      "requiredInKYP": true,
+      "visualId": "hcv-therapy-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200–200"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The HCV replication-cycle figure with its drug doors (book 200)",
+      "sourceFigureDescription": "Vector line art printing entirely in the text layer (pdfimages: 0 rasters): the hepatocyte with nucleus, ER, Golgi apparatus, ribosome, and the membranous web derived from ER; the virion with its lipoprotein; numbered arrows. VLM census confirmed the schematic and the drug placements (NS3/4A at translation, NS5B at replication, NS5A at assembly, ribavirin at the IMP-GMP-GTP strip) — no photographs.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hcv-daa-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the full registry visual — the hepatocyte with the three NS doors + the naming ladder + the ribavirin host-door panel + the cycle strip",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "hcv-daa-target-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "hcv-therapy",
+      "requiredInKYP": true,
+      "visualId": "hcv-therapy-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200–200"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The DRUG/MECHANISM/TOXICITY table (book 200)",
+      "sourceFigureDescription": "The four class cards (NS5A, NS5B, NS3/4A, ribavirin) with the mechanism/toxicity text printing before the drug rosters (the M38 interleaving pattern); the rosters print twice (table + figure boxes).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[1] the table block — carried verbatim (card reading order VLM-verified)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "microbiology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Microbiology — Antimicrobials",
+      "topicId": "hcv-therapy",
+      "requiredInKYP": true,
+      "visualId": "hcv-therapy-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          222
+        ],
+        "bookPages": "200–200"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The replication-cycle figure's labels and drug placements (book 200)",
+      "sourceFigureDescription": "The figure's stage labels and drug boxes printing interleaved in the text layer (entry, uncoating, translation, replication, assembly, maturation, release; the ribavirin IMP-GMP-GTP strip; the split-spacing nucleus label; the footer splitting around the figure labels).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "blocks[2] the table block — carried verbatim (reading order VLM-verified)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "hcv-therapy",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The replication-cycle figure (vector line art in the text layer, 0 rasters — VLM confirmed, no photographs) is REDRAWN as the registry visual. The DAA table and the figure's label set are note-block verbatim adaptations. No margin mnemonics exist on the page; nothing reproduced."
+}
