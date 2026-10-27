@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T19:08:48Z",
+  "generatedAt": "2026-10-27T19:15:46Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 130,
+    "topicsProduced": 131,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 75,
+      "pilot-complete": 76,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 4,
-      "topicsRemaining": 15,
+      "topicsProduced": 5,
+      "topicsRemaining": 14,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -2149,6 +2149,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "tissue-injury-infarcts",
+      "title": "Tissue Hypoxia Susceptibility, Infarcts & Free Radicals",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Ischemia and infarcts",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 228 (book 206–206)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
     },
     {
       "topicId": "translation-protein-synthesis",

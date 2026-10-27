@@ -1,0 +1,229 @@
+{
+  "topicId": "tissue-injury-infarcts",
+  "title": "Tissue Hypoxia Susceptibility, Infarcts & Free Radicals",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Ischemia and infarcts",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      228
+    ],
+    "bookPages": "206–206"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the printed page, section banner, the Ischemia heading, and the pre-banner 'A' photograph marker (the duplicated-lettering quirk's first print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "206\n\nSEC TION II\n\nIschemia\nA\n\nPATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ischemia definition and its three mechanisms — ↓ arterial perfusion (atherosclerosis), ↓ venous drainage (testicular torsion, Budd-Chiari syndrome), shock",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Inadequate blood supply to meet demand. Mechanisms include ↓ arterial perfusion (eg,\natherosclerosis), ↓ venous drainage (eg, testicular torsion, Budd-Chiari syndrome), shock.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The vulnerable-regions table intro + headers + the Brain row (ACA/MCA/PCA boundary areas)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Regions most vulnerable to hypoxia/ischemia and subsequent infarction:\nORGAN\n\nSUSCePTIBLe ReGION\n\nBrain\n\nACA/MCA/PCA boundary areasa,b",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Heart, Kidney, Liver, and Colon rows — subendocardium of LV; straight segment of proximal tubule + thick ascending limb; zone III around the central vein; splenic flexure (Griffith point) + rectosigmoid junction (Sudeck point)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Heart\n\nSubendocardium of LV (yellow lines in A\noutline a subendocardial infarction)\n\nKidney\n\nStraight segment of proximal tubule (medulla)\nThick ascending limb (medulla)\n\nLiver\n\nArea around central vein (zone III)\n\nColon\n\nSplenic flexure (Griffith point),a rectosigmoid\njunction (Sudeck point)a",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Footnotes a and b — the watershed-area definition and the most vulnerable neurons (Purkinje cells; pyramidal cells of hippocampus and neocortex, layers 3, 5, 6)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "a\n\nWatershed areas (border zones) receive blood supply from most distal branches of 2 arteries with\nlimited collateral vascularity. These areas are susceptible to ischemia from hypoperfusion.\nb\nNeurons most vulnerable to hypoxic-ischemic insults include Purkinje cells of the cerebellum and\npyramidal cells of the hippocampus and neocortex (layers 3, 5, 6).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Red infarct — venous occlusion, multiple blood supplies (liver, lung, intestine, testes), reperfusion after angioplasty; reperfusion injury due to free radicals",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Types of infarcts\nRed infarct\n\nOccurs in venous occlusion and tissues with\nmultiple blood supplies (eg, liver, lung A ,\nintestine, testes), and with reperfusion (eg,\nafter angioplasty). Reperfusion injury is due to\ndamage by free radicals.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pale infarct — solid organs with a single (endarterial) blood supply (heart, kidney)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Pale infarct\n\nOccurs in solid organs with a single (endarterial) blood supply (eg, heart B , kidney).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Free radical injury — the three damages, the initiators (radiation, phase I metabolism, redox, nitric oxide, transition metals via Fenton, WBC oxidative burst), and the eliminators (catalase, SOD, glutathione peroxidase, spontaneous decay, vitamins A/C/E, transferrin, ceruloplasmin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Free radical injury\n\nFree radicals damage cells via membrane lipid peroxidation, protein modification, DNA breakage.\nInitiated via radiation exposure (eg, cancer therapy), metabolism of drugs (phase I), redox\nreactions, nitric oxide (eg, inflammation), transition metals (eg, iron, copper; form free radicals\nvia Fenton reaction), WBC (eg, neutrophils, macrophages) oxidative burst.\nFree radicals can be eliminated by scavenging enzymes (eg, catalase, superoxide dismutase,\nglutathione peroxidase), spontaneous decay, antioxidants (eg, vitamins A, C, E), and certain metal\ncarrier proteins (eg, transferrin, ceruloplasmin).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The three example groups — oxygen toxicity (ROP, BPD, post-thrombolytic reperfusion); drug/chemical toxicity (acetaminophen; CCl4 → P-450 → CCl3 → fatty liver with ↓ apolipoprotein synthesis, centrilobular necrosis); metal storage diseases (hemochromatosis iron, Wilson copper)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "Examples:\n▘ Oxygen toxicity: retinopathy of prematurity (abnormal vascularization), bronchopulmonary\ndysplasia, reperfusion injury after thrombolytic therapy\n▘ Drug/chemical toxicity: acetaminophen overdose (hepatotoxicity), carbon tetrachloride\n(converted by cytochrome P-450 into CCl3 free radical → fatty liver [cell injury\n→ ↓ apolipoprotein synthesis → fatty change], centrilobular necrosis)\n▘ Metal storage diseases: hemochromatosis (iron) and Wilson disease (copper)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + the A/B photograph letter row (the duplicated-lettering quirk's second print, after the footer — the M39 split pattern)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 206\n\nA\n\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          228
+        ],
+        "bookPages": "206"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "infarct-type-map"
+  ],
+  "mechanismIds": [
+    "supply-demand-mismatch",
+    "free-radical-economy"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition, the table, the infarct pair, and the free-radical block; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "supply-site-color-map",
+      "summary": "The supply-site-color reading frame (route the mechanism, name the vulnerable site, predict the color) and the reperfusion-paradox framing — KYP's synthesis of the page's four blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four blocks side by side without a unifying decision frame; the three-question routing and the paradox framing are KYP's design.",
+      "location": "core.keyIdea + mechanism 1 + the exam callout + patterns + pivots"
+    },
+    {
+      "id": "radical-ledger",
+      "summary": "The free-radical economy framing (initiators against eliminators as a balance sheet, the Fenton metals with their carriers, and the CCl3-zone III link to the vulnerability table) and the duplicated-A lettering quirk documentation.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two lists without the ledger framing or the cross-block link; the economy framing and the quirk documentation are KYP's design.",
+      "location": "mechanism 2 + traps + mnemonics + the visual's quirk panel"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p228's three gross photographs (A-heart-subendocardial, A-lung-red-infarcct, B-heart-pale-transmural) are ALL COPYRIGHTED — described-in-text only, never reproduced (the M32 convention). The DUPLICATED-A lettering (two different images, one letter — printing at raw 6 and raw 82-84) is a source quirk documented in the manifest and the visual's quirk panel. The page is otherwise pure text; the registry visual is a KYP adaptation, not a redraw. No margin mnemonics (VLM confirmed).",
+  "updatedAt": "2026-10-27"
+}

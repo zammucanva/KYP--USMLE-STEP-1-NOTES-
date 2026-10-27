@@ -1511,3 +1511,192 @@ export function NecrosisTypeMap() {
     </svg>
   );
 }
+
+export function InfarctTypeMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Tissue hypoxia susceptibility, infarcts, and free radicals — the supply-site-color map, an original KYP adaptation of the source page (book 206 — the ischemia definition, the ORGAN/SUSCEPTIBLE REGION table, the red/pale infarct pair, and the free-radical injury block; three copyrighted gross photographs described in text, never reproduced, with the duplicated-A lettering quirk documented). LEFT — THE ISCHEMIA PANEL: inadequate blood supply to meet demand; the three mechanisms (decreased arterial perfusion [atherosclerosis], decreased venous drainage [testicular torsion, Budd-Chiari syndrome], shock); THE VULNERABLE REGIONS: brain ACA/MCA/PCA boundary areas, heart subendocardium of LV, kidney straight segment of proximal tubule + thick ascending limb (medulla), liver zone III around the central vein, colon splenic flexure (Griffith point) + rectosigmoid junction (Sudeck point); the watershed definition and the vulnerable neurons (Purkinje cells; pyramidal cells of hippocampus and neocortex, layers 3, 5, 6). CENTER — THE INFARCT FORK: RED infarct (venous occlusion, multiple blood supplies [liver, lung, intestine, testes], reperfusion after angioplasty — free-radical injury) vs PALE infarct (solid organs, single endarterial supply [heart, kidney]), with the three photographs described. RIGHT — THE FREE-RADICAL ECONOMY: the three damages (membrane lipid peroxidation, protein modification, DNA breakage), initiators (radiation, phase I metabolism, redox, nitric oxide, transition metals via Fenton, WBC oxidative burst) against eliminators (catalase, superoxide dismutase, glutathione peroxidase, spontaneous decay, vitamins A, C, E, transferrin, ceruloplasmin), and the example set (ROP, BPD, post-thrombolytic reperfusion; acetaminophen; CCl4 to CCl3 fatty liver + centrilobular necrosis; hemochromatosis, Wilson). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Ischemia, infarcts &amp; free radicals — the supply-site-color map (original KYP adaptation)</text>
+        <rect x="744" y="24" width="188" height="18" className="fill-brand-soft" />
+        <text x="838" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">supply · site · color</text>
+      </g>
+      {/* ===== LEFT — ischemia + vulnerable regions ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">Ischemia &amp; the vulnerable regions</text>
+        <rect x="48" y="132" width="216" height="78" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">INADEQUATE SUPPLY FOR DEMAND</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">↓ arterial perfusion (eg, atherosclerosis)</text>
+        <text x="156" y="176" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">↓ venous drainage (eg, testicular</text>
+        <text x="156" y="186" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">torsion, Budd-Chiari syndrome)</text>
+        <text x="156" y="196" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">· shock</text>
+        <rect x="48" y="220" width="216" height="228" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="238" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE VULNERABLE REGIONS</text>
+        <text x="60" y="254" fontSize="3.9" fontWeight="800" className="fill-brand">BRAIN</text>
+        <text x="60" y="263" fontSize="3.7" className="fill-muted-foreground">ACA/MCA/PCA boundary areas</text>
+        <text x="60" y="272" fontSize="3.5" className="fill-muted-foreground">(watershed — hypoperfusion)</text>
+        <text x="60" y="286" fontSize="3.9" fontWeight="800" className="fill-brand">HEART</text>
+        <text x="60" y="295" fontSize="3.7" className="fill-muted-foreground">subendocardium of LV — the</text>
+        <text x="60" y="304" fontSize="3.5" className="fill-muted-foreground">farthest row from the supply</text>
+        <text x="60" y="318" fontSize="3.9" fontWeight="800" className="fill-brand">KIDNEY</text>
+        <text x="60" y="327" fontSize="3.7" className="fill-muted-foreground">straight segment of proximal</text>
+        <text x="60" y="336" fontSize="3.7" className="fill-muted-foreground">tubule + thick ascending limb</text>
+        <text x="60" y="345" fontSize="3.5" className="fill-muted-foreground">(the relatively hypoxic medulla)</text>
+        <text x="60" y="359" fontSize="3.9" fontWeight="800" className="fill-brand">LIVER</text>
+        <text x="60" y="368" fontSize="3.7" className="fill-muted-foreground">area around central vein (zone III)</text>
+        <text x="60" y="377" fontSize="3.5" className="fill-muted-foreground">(farthest from the portal triad)</text>
+        <text x="60" y="391" fontSize="3.9" fontWeight="800" className="fill-brand">COLON</text>
+        <text x="60" y="400" fontSize="3.7" className="fill-muted-foreground">splenic flexure (Griffith point) +</text>
+        <text x="60" y="409" fontSize="3.7" className="fill-muted-foreground">rectosigmoid junction (Sudeck point)</text>
+        <rect x="48" y="458" width="216" height="100" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="156" y="476" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE WATERSHED DEFINITION</text>
+        <text x="156" y="492" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">border zones receiving blood from</text>
+        <text x="156" y="502" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the most distal branches of 2 arteries</text>
+        <text x="156" y="512" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">with limited collateral vascularity —</text>
+        <text x="156" y="522" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">susceptible to ischemia from</text>
+        <text x="156" y="532" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">hypoperfusion</text>
+        <rect x="48" y="568" width="216" height="96" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="586" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE VULNERABLE NEURONS</text>
+        <text x="156" y="602" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">Purkinje cells of the cerebellum ·</text>
+        <text x="156" y="612" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">pyramidal cells of the hippocampus</text>
+        <text x="156" y="622" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">and neocortex (layers 3, 5, 6)</text>
+        <text x="156" y="638" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">why an anoxic insult selectively</text>
+        <text x="156" y="648" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">takes coordination and memory</text>
+      </g>
+      {/* ===== CENTER — the infarct fork ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE INFARCT FORK — red vs pale (book 206)</text>
+        {/* red infarct card */}
+        <g>
+          <rect x="304" y="136" width="196" height="240" rx="10" className="fill-card stroke-emergency" />
+          <rect x="316" y="146" width="88" height="16" rx="5" className="fill-emergency-soft" />
+          <text x="360" y="157" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-emergency">RED INFARCT</text>
+          <text x="316" y="176" fontSize="3.7" fontWeight="800" className="fill-foreground">OCCURS IN</text>
+          <text x="316" y="186" fontSize="3.7" className="fill-muted-foreground">venous occlusion · tissues with</text>
+          <text x="316" y="196" fontSize="3.7" className="fill-muted-foreground">multiple blood supplies (eg, liver,</text>
+          <text x="316" y="206" fontSize="3.7" className="fill-muted-foreground">lung, intestine, testes) ·</text>
+          <text x="316" y="216" fontSize="3.7" fontWeight="700" className="fill-foreground">reperfusion (eg, after angioplasty)</text>
+          <text x="316" y="232" fontSize="3.7" fontWeight="800" className="fill-foreground">THE REPERFUSION PARADOX</text>
+          <text x="316" y="242" fontSize="3.7" className="fill-muted-foreground">reperfusion injury is due to</text>
+          <text x="316" y="252" fontSize="3.7" fontWeight="700" className="fill-emergency">damage by free radicals</text>
+          <text x="316" y="262" fontSize="3.6" className="fill-muted-foreground">— oxygen meets damaged enzymes</text>
+          <text x="316" y="272" fontSize="3.6" className="fill-muted-foreground">and the radicals follow</text>
+          <text x="316" y="290" fontSize="3.6" fontWeight="800" className="fill-foreground">PHOTOGRAPH A (lung):</text>
+          <text x="316" y="300" fontSize="3.6" className="fill-muted-foreground">a dark-red, wedge-shaped</text>
+          <text x="316" y="310" fontSize="3.6" className="fill-muted-foreground">hemorrhagic infarct at the</text>
+          <text x="316" y="320" fontSize="3.6" className="fill-muted-foreground">periphery — described in text</text>
+        </g>
+        {/* pale infarct card */}
+        <g>
+          <rect x="512" y="136" width="196" height="240" rx="10" className="fill-card stroke-border" />
+          <rect x="524" y="146" width="88" height="16" rx="5" className="fill-secondary/60" />
+          <text x="568" y="157" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-foreground">PALE INFARCT</text>
+          <text x="524" y="176" fontSize="3.7" fontWeight="800" className="fill-foreground">OCCURS IN</text>
+          <text x="524" y="186" fontSize="3.7" className="fill-muted-foreground">solid organs with a single</text>
+          <text x="524" y="196" fontSize="3.7" fontWeight="700" className="fill-foreground">(endarterial) blood supply</text>
+          <text x="524" y="206" fontSize="3.7" className="fill-muted-foreground">(eg, heart, kidney)</text>
+          <text x="524" y="222" fontSize="3.7" fontWeight="800" className="fill-foreground">THE SUPPLY LOGIC</text>
+          <text x="524" y="232" fontSize="3.7" className="fill-muted-foreground">one artery in, no second supply</text>
+          <text x="524" y="242" fontSize="3.7" className="fill-muted-foreground">to bleed into the infarct —</text>
+          <text x="524" y="252" fontSize="3.7" className="fill-muted-foreground">the dead tissue stays anemic</text>
+          <text x="524" y="270" fontSize="3.6" fontWeight="800" className="fill-foreground">PHOTOGRAPH B (heart):</text>
+          <text x="524" y="280" fontSize="3.6" className="fill-muted-foreground">a large pale/white transmural</text>
+          <text x="524" y="290" fontSize="3.6" className="fill-muted-foreground">infarct, demarcated by drawn</text>
+          <text x="524" y="300" fontSize="3.6" className="fill-muted-foreground">yellow lines — described in text</text>
+          <text x="524" y="316" fontSize="3.6" className="fill-muted-foreground">and photograph A (heart, at the</text>
+          <text x="524" y="326" fontSize="3.6" className="fill-muted-foreground">table row): yellow lines tracing</text>
+          <text x="524" y="336" fontSize="3.6" className="fill-muted-foreground">a subendocardial infarction</text>
+        </g>
+        {/* the fork arrow */}
+        <g className="stroke-muted-foreground" strokeWidth="1" fill="none">
+          <path d="M 402 388 C 402 410, 370 420, 350 430" />
+          <path d="M 610 388 C 610 410, 640 420, 660 430" />
+        </g>
+        <path d="M350 430 l-10 -4 l5 10 z" className="fill-muted-foreground" />
+        <path d="M660 430 l-2 -11 l10 4 z" className="fill-muted-foreground" />
+        {/* the supply rule */}
+        <rect x="304" y="436" width="394" height="64" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="501" y="456" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">THE SUPPLY RULE</text>
+        <text x="501" y="474" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">two supplies or a blocked vein → RED (blood can enter and pool)</text>
+        <text x="501" y="488" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">one endarterial artery → PALE (nowhere for blood to come from)</text>
+        {/* the lettering quirk */}
+        <rect x="304" y="510" width="394" height="80" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="501" y="530" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE DUPLICATED-A QUIRK (documented)</text>
+        <text x="501" y="548" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the source prints TWO different photographs both lettered 'A': the heart</text>
+        <text x="501" y="558" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">subendocardial specimen at the table row, and the lung red-infarcct</text>
+        <text x="501" y="568" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">specimen at the red-infarcct block — the text layer prints 'A' at raw 6</text>
+        <text x="501" y="578" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">and again in the letter row after the footer (raw 82-84)</text>
+        <text x="501" y="600" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">all three photographs are copyrighted — described in text, never reproduced</text>
+        <text x="501" y="612" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">(the established patient-photograph convention)</text>
+      </g>
+      {/* ===== RIGHT — the free-radical economy ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The free-radical economy</text>
+        <rect x="736" y="132" width="196" height="52" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="834" y="150" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-emergency">THE THREE DAMAGES</text>
+        <text x="834" y="166" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">membrane lipid peroxidation ·</text>
+        <text x="834" y="176" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">protein modification · DNA breakage</text>
+        <rect x="736" y="194" width="196" height="104" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="212" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">INITIATORS</text>
+        <text x="834" y="228" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">radiation (cancer therapy) · phase I</text>
+        <text x="834" y="238" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">drug metabolism · redox reactions ·</text>
+        <text x="834" y="248" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">nitric oxide (inflammation) ·</text>
+        <text x="834" y="258" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">transition metals (iron, copper —</text>
+        <text x="834" y="268" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">FENTON reaction) · WBC oxidative</text>
+        <text x="834" y="278" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">burst (neutrophils, macrophages)</text>
+        <rect x="736" y="308" width="196" height="88" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="834" y="326" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">ELIMINATORS</text>
+        <text x="834" y="342" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">scavenging enzymes: catalase,</text>
+        <text x="834" y="352" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">superoxide dismutase,</text>
+        <text x="834" y="362" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">glutathione peroxidase ·</text>
+        <text x="834" y="372" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">spontaneous decay · antioxidants</text>
+        <text x="834" y="382" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">(vitamins A, C, E) · carriers:</text>
+        <text x="834" y="392" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">transferrin, ceruloplasmin</text>
+        <rect x="736" y="406" width="196" height="150" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="424" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE EXAMPLE SET</text>
+        <text x="834" y="440" textAnchor="middle" fontSize="3.6" fontWeight="800" className="fill-brand">OXYGEN TOXICITY</text>
+        <text x="834" y="450" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">retinopathy of prematurity (abnormal</text>
+        <text x="834" y="460" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">vascularization), bronchopulmonary</text>
+        <text x="834" y="470" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">dysplasia, reperfusion after</text>
+        <text x="834" y="480" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">thrombolytic therapy</text>
+        <text x="834" y="494" textAnchor="middle" fontSize="3.6" fontWeight="800" className="fill-brand">DRUG/CHEMICAL TOXICITY</text>
+        <text x="834" y="504" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">acetaminophen (hepatotoxicity) ·</text>
+        <text x="834" y="514" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">CCl4 → P-450 → CCl3 radical → fatty</text>
+        <text x="834" y="524" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">liver (↓ apolipoprotein synthesis →</text>
+        <text x="834" y="534" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">fatty change), centrilobular necrosis</text>
+        <text x="834" y="548" textAnchor="middle" fontSize="3.6" fontWeight="800" className="fill-brand">METAL STORAGE DISEASES</text>
+        <text x="834" y="558" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">hemochromatosis (iron) ·</text>
+        <text x="834" y="568" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">Wilson disease (copper)</text>
+        <text x="740" y="580" fontSize="3.7" className="fill-muted-foreground">The Fenton metals and their carriers:</text>
+        <text x="740" y="590" fontSize="3.7" className="fill-muted-foreground">iron rides transferrin, copper rides</text>
+        <text x="740" y="600" fontSize="3.7" className="fill-muted-foreground">ceruloplasmin — carried metals do</text>
+        <text x="740" y="610" fontSize="3.7" className="fill-muted-foreground">not Fenton; freed metals do.</text>
+        <text x="740" y="630" fontSize="3.7" className="fill-muted-foreground">Zone III is where CCl3 strikes —</text>
+        <text x="740" y="640" fontSize="3.7" className="fill-muted-foreground">centrilobular, where P-450 lives:</text>
+        <text x="740" y="650" fontSize="3.7" className="fill-muted-foreground">the vulnerability table and the</text>
+        <text x="740" y="660" fontSize="3.7" className="fill-muted-foreground">toxicology example are one map.</text>
+      </g>
+      {/* ===== BOTTOM — the one-line map ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The map in one line — the rules verbatim (book 206)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">ISCHEMIA: ↓ arterial perfusion · ↓ venous drainage · shock → the vulnerable sites: brain boundaries · LV subendocardium · medullary tubules · zone III · Griffith + Sudeck</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">→ RED infarct (venous occlusion, multiple supplies [liver, lung, intestine, testes], reperfusion — free radicals) vs PALE infarct (single endarterial supply [heart, kidney]) · radicals: initiated [radiation, phase I, redox, NO, Fenton metals, oxidative burst] vs eliminated [catalase, SOD, GPx, decay, vitamins A/C/E, transferrin, ceruloplasmin]</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 206 (pdf 228) — Ischemia; the ORGAN/SUSCEPTIBLE REGION table with its two footnotes; Types of infarcts (red and pale); Free radical injury. Census: three cmyk JPEG gross photographs (~188x137, ~265x264, ~208x209 at 150 dpi) — all copyrighted, described in text, never reproduced.</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Photographs VLM-documented: A (heart table row) — a heart cross-section with yellow lines tracing a pale subendocardial region; A (red-infarcct block) — a lung with a dark-red wedge-shaped hemorrhagic infarct; B — a heart with a yellow-outlined pale transmural infarct.</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">The duplicated-A lettering is a source quirk (two different images, one letter — the text layer prints 'A' at raw 6 and again at raw 82-84); documented in the manifest and the visual's quirk panel. No margin mnemonics exist on the page (VLM census confirmed).</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: the photographs are copyrighted — described in text only (the established patient-photograph convention); the tables and free-radical text are carried verbatim; the registry visual is an original KYP adaptation, not a redraw of any source figure.</text>
+      </g>
+    </svg>
+  );
+}

@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 15,
+  "pendingTopicCount": 14,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -566,8 +566,145 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Cellular injury",
-      "status": "pending",
-      "productionRationale": "The organ-by-organ hypoxia susceptibility table (brain, heart, kidney, liver, colon), red vs pale infarcts, and free-radical injury — the hemodynamic-territory content of the injury section."
+      "status": "complete",
+      "productionRationale": "The organ-by-organ hypoxia susceptibility table (brain, heart, kidney, liver, colon), red vs pale infarcts, and free-radical injury — the hemodynamic-territory content of the injury section.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Ischemia and infarcts",
+          "topicId": "tissue-injury-infarcts",
+          "requiredInKYP": true,
+          "visualId": "tissue-injury-infarcts-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              228
+            ],
+            "bookPages": "206–206"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The ischemia definition + the vulnerable-regions table with its two footnotes (book 206)",
+          "sourceFigureDescription": "The ORGAN/SUSCEPTIBLE REGION table (brain ACA/MCA/PCA boundary areas; heart subendocardium of LV; kidney straight segment of proximal tubule + thick ascending limb; liver zone III; colon Griffith + Sudeck points) with the watershed-area and vulnerable-neuron footnotes. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "infarct-type-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the ischemia panel + the vulnerable-regions panel) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "infarct-type-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Ischemia and infarcts",
+          "topicId": "tissue-injury-infarcts",
+          "requiredInKYP": true,
+          "visualId": "tissue-injury-infarcts-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              228
+            ],
+            "bookPages": "206–206"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The red/pale infarct pair + the free-radical injury block (book 206)",
+          "sourceFigureDescription": "The red infarct (venous occlusion, multiple blood supplies, reperfusion with free-radical injury) and pale infarct (single endarterial supply) pair, plus the free-radical damage/initiators/eliminators block with its three example groups. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "infarct-type-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the infarct-fork panel + the free-radical economy panel) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "infarct-type-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Ischemia and infarcts",
+          "topicId": "tissue-injury-infarcts",
+          "requiredInKYP": true,
+          "visualId": "tissue-injury-infarcts-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              228
+            ],
+            "bookPages": "206–206"
+          },
+          "visualType": "GROSS_PATHOLOGY",
+          "visualPurpose": "Photograph A (heart table row) — subendocardial infarction (book 206)",
+          "sourceFigureDescription": "A gross photograph (cmyk jpeg, ~188x137 at 150 dpi): a heart cross-section with yellow outline lines tracing a pale subendocardial region. COPYRIGHTED — described in text, never reproduced. NOTE: a second, different image (the lung red infarct) also carries the letter A — the duplicated-lettering quirk.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's pale-infarcct card + blocks[3] the photographs table — a copyrighted specimen photograph, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Ischemia and infarcts",
+          "topicId": "tissue-injury-infarcts",
+          "requiredInKYP": true,
+          "visualId": "tissue-injury-infarcts-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              228
+            ],
+            "bookPages": "206–206"
+          },
+          "visualType": "GROSS_PATHOLOGY",
+          "visualPurpose": "Photograph A (red-infarcct block) — hemorrhagic lung infarct (book 206)",
+          "sourceFigureDescription": "A gross photograph (cmyk jpeg, ~265x264 at 150 dpi): lung parenchyma with a dark-red wedge-shaped hemorrhagic (red) infarct at the periphery. COPYRIGHTED — described in text, never reproduced. The duplicated 'A' (also carried by the heart specimen) is a source quirk, documented.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's red-infarcct card + blocks[3] the photographs table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Ischemia and infarcts",
+          "topicId": "tissue-injury-infarcts",
+          "requiredInKYP": true,
+          "visualId": "tissue-injury-infarcts-sv5",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              228
+            ],
+            "bookPages": "206–206"
+          },
+          "visualType": "GROSS_PATHOLOGY",
+          "visualPurpose": "Photograph B (pale-infarcct block) — pale transmural heart infarct (book 206)",
+          "sourceFigureDescription": "A gross photograph (cmyk jpeg, ~208x209 at 150 dpi): a heart with a large pale/white transmural infarct demarcated by drawn yellow lines. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's pale-infarcct card + blocks[3] the photographs table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "calcification-radiation-injury",
