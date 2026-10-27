@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 19,
+  "pendingTopicCount": 18,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -34,8 +34,91 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Cellular adaptations",
-      "status": "pending",
-      "productionRationale": "The adaptation ladder (hypertrophy, hyperplasia, atrophy, metaplasia, dysplasia) with the physiologic-vs-pathologic splits — the vocabulary every later injury and neoplasia topic builds on."
+      "status": "complete",
+      "productionRationale": "The adaptation ladder (hypertrophy, hyperplasia, atrophy, metaplasia, dysplasia) with the physiologic-vs-pathologic splits — the vocabulary every later injury and neoplasia topic builds on.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular adaptations",
+          "topicId": "cellular-adaptations",
+          "requiredInKYP": true,
+          "visualId": "cellular-adaptations-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              224
+            ],
+            "bookPages": "202–202"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The adaptation-progression figure (book 202)",
+          "sourceFigureDescription": "Line-art flowchart whose nodes carry ~98 small monochrome cell-cluster rasters (50-90 px at 308 ppi, one per node — VLM census documented: more cells, bigger cells, shrunken cells, changed type, disordered cells, disordered mass). Topology VLM-verified: Normal cells at center; green arrows up to Hyperplasia/Hypertrophy/Atrophy ('Change in cell size and/or number'); green arrows down to Dysplasia ('Change in cell structure') and Metaplasia ('Change in cell type'); red arrow to Neoplasia ('Change in cell type and structure'); red 'Inability to adapt' and 'Severe stress or injury' into the terminal box 'Irreversible injury → necrosis or apoptosis'; red 'If chronic irritant persists' Dysplasia → Neoplasia; legend green = Reversible, red = Irreversible. No photographs.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "adaptations-comparison-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the full registry visual — the progression map with original KYP node glyphs + the six-block panel + the mechanism sidebar + the one-line map strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "adaptations-comparison-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular adaptations",
+          "topicId": "cellular-adaptations",
+          "requiredInKYP": true,
+          "visualId": "cellular-adaptations-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              224
+            ],
+            "bookPages": "202–202"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The six definition blocks (book 202)",
+          "sourceFigureDescription": "The intro rule plus the five named adaptations (Hypertrophy, Hyperplasia, Atrophy, Metaplasia, Dysplasia) with their mechanisms, examples, and progression rules — the page's high-yield definitions laid out as term/field rows.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular adaptations",
+          "topicId": "cellular-adaptations",
+          "requiredInKYP": true,
+          "visualId": "cellular-adaptations-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              224
+            ],
+            "bookPages": "202–202"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The figure's nodes, arrows, and legend (book 202)",
+          "sourceFigureDescription": "The flowchart's labels printing interleaved in the text layer (raw lines 51-85): the top-row roster, the terminal box, the arrow labels, the legend pair, and the chronic-irritant bridge.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block — carried verbatim (reading order VLM-verified)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "cell-injury-mechanisms",

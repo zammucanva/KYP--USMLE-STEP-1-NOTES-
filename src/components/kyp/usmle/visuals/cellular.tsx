@@ -564,3 +564,271 @@ export function NaKAtpasePump() {
     </svg>
   );
 }
+
+export function AdaptationsComparisonMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cellular adaptations — the progression map, an original KYP redraw of the source's figure (book 202 — a line-art flowchart whose nodes carry small monochrome cell-cluster rasters; VLM census confirmed the topology, no photographs). CENTER — THE PROGRESSION MAP: Normal cells at center; the teal branch up, Change in cell size and/or number, to Hyperplasia (more cells), Hypertrophy (bigger cells), and Atrophy (shrunken cells); the branch down: Change in cell structure to Dysplasia (disordered cells), Change in cell type to Metaplasia (changed cell type), and Change in cell type and structure to Neoplasia (a disordered mass); the two red exits into the terminal box Irreversible injury, necrosis or apoptosis — Inability to adapt from the adapted states and Severe stress or injury direct from normal; the red bridge If chronic irritant persists from Dysplasia to Neoplasia; the legend teal = Reversible, red = Irreversible. LEFT — the six definition blocks: the intro rule (reversible; physiologic or pathologic; excessive or persistent stress progresses to injury) with the five adaptations and their mechanisms and examples. RIGHT — the mechanism sidebar: atrophy's demolition pair (ubiquitin-proteasome pathway, autophagy, down protein synthesis, apoptosis) and its five causes; the two metaplasia directions (acid gives columnar — Barrett; smoke gives squamous); the dysplasia severity fork (mild or moderate may regress; severe becomes irreversible and progresses to carcinoma in situ). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cellular adaptations — the progression map (original KYP redraw)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">2 axes · 2 exits · 1 color rule</text>
+      </g>
+      {/* ===== LEFT — the six definition blocks ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The six blocks (book 202)</text>
+        <rect x="48" y="132" width="216" height="92" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="148" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">THE INTRO RULE</text>
+        <text x="156" y="162" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Reversible changes — physiologic (uterine</text>
+        <text x="156" y="172" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">enlargement in pregnancy) or pathologic</text>
+        <text x="156" y="182" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">(myocardial hypertrophy 2° to systemic</text>
+        <text x="156" y="192" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">hypertension). If stress is excessive or</text>
+        <text x="156" y="202" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">persistent → cell injury: significant LV</text>
+        <text x="156" y="212" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">hypertrophy → myocardial injury → HF</text>
+        <rect x="48" y="234" width="216" height="74" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="250" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">HYPERTROPHY — ↑ size</text>
+        <text x="156" y="264" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">↑ structural proteins and organelles</text>
+        <text x="156" y="274" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">→ ↑ in size of cells;</text>
+        <text x="156" y="288" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">example: cardiac hypertrophy</text>
+        <rect x="48" y="318" width="216" height="88" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="334" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">HYPERPLASIA — ↑ number</text>
+        <text x="156" y="348" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">controlled proliferation of stem cells</text>
+        <text x="156" y="358" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">and differentiated cells → ↑ number</text>
+        <text x="156" y="368" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">of cells (benign prostatic hyperplasia);</text>
+        <text x="156" y="378" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">excessive stimulation → pathologic</text>
+        <text x="156" y="388" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">hyperplasia (endometrial) → dysplasia</text>
+        <text x="156" y="398" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">and cancer</text>
+        <rect x="48" y="416" width="216" height="100" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="432" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">ATROPHY — ↓ mass</text>
+        <text x="156" y="446" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">↓ in size (↑ cytoskeleton degradation via</text>
+        <text x="156" y="456" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">ubiquitin-proteasome pathway and</text>
+        <text x="156" y="466" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">autophagy; ↓ protein synthesis) and/or</text>
+        <text x="156" y="476" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">number of cells (apoptosis). Causes:</text>
+        <text x="156" y="486" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">disuse · denervation · loss of blood</text>
+        <text x="156" y="496" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">supply · loss of hormonal stimulation ·</text>
+        <text x="156" y="506" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">poor nutrition</text>
+        <rect x="48" y="526" width="216" height="100" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="542" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">METAPLASIA — new type</text>
+        <text x="156" y="556" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">reprogramming of stem cells → one cell</text>
+        <text x="156" y="566" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">type replaced by another that adapts to</text>
+        <text x="156" y="576" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the new stressor: ACID — squamous →</text>
+        <text x="156" y="586" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">intestinal-type columnar (Barrett);</text>
+        <text x="156" y="596" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">SMOKE — columnar → squamous.</text>
+        <text x="156" y="606" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">Connective tissue too: myositis ossificans</text>
+        <text x="156" y="616" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">(bone within muscle after trauma)</text>
+        <rect x="48" y="636" width="216" height="32" rx="10" className="fill-warning-soft/50 stroke-warning" />
+        <text x="156" y="648" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">DYSPLASIA — not a true adaptation</text>
+        <text x="156" y="660" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">disordered, precancerous epithelial growth → right panel</text>
+      </g>
+      {/* ===== CENTER — the progression map ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE PROGRESSION MAP — from normal to the terminal box</text>
+        {/* terminal box */}
+        <rect x="536" y="130" width="164" height="44" rx="8" className="fill-emergency-soft stroke-emergency" />
+        <text x="618" y="148" textAnchor="middle" fontSize="5.8" fontWeight="800" className="fill-emergency">IRREVERSIBLE INJURY</text>
+        <text x="618" y="160" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">→ necrosis or apoptosis</text>
+        {/* top row: hyperplasia, hypertrophy, atrophy */}
+        <g>
+          <rect x="304" y="196" width="118" height="86" rx="10" className="fill-card stroke-brand" />
+          <rect x="336" y="204" width="54" height="18" className="fill-brand-soft/60" />
+          {Array.from({ length: 6 }).map((_, i) => (
+            <rect key={i} x={339 + i * 9} y={207} width="7" height="12" rx="2.5" className="fill-card stroke-brand" strokeWidth="0.5" />
+          ))}
+          <text x="363" y="236" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">HYPERPLASIA</text>
+          <text x="363" y="248" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">more cells — controlled</text>
+          <text x="363" y="257" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">proliferation of stem cells</text>
+          <text x="363" y="266" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">and differentiated cells</text>
+          <text x="363" y="277" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">benign prostatic hyperplasia</text>
+        </g>
+        <g>
+          <rect x="440" y="196" width="118" height="86" rx="10" className="fill-card stroke-brand" />
+          <rect x="470" y="202" width="58" height="22" className="fill-brand-soft/60" />
+          {Array.from({ length: 3 }).map((_, i) => (
+            <rect key={i} x={473 + i * 19} y={205} width="16" height="16" rx="3" className="fill-card stroke-brand" strokeWidth="0.6" />
+          ))}
+          <text x="499" y="236" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">HYPERTROPHY</text>
+          <text x="499" y="248" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">bigger cells — ↑ structural</text>
+          <text x="499" y="257" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">proteins and organelles</text>
+          <text x="499" y="266" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">→ ↑ in size of cells</text>
+          <text x="499" y="277" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">cardiac hypertrophy</text>
+        </g>
+        <g>
+          <rect x="576" y="196" width="118" height="86" rx="10" className="fill-card stroke-brand" />
+          <rect x="608" y="206" width="54" height="14" className="fill-brand-soft/60" />
+          {Array.from({ length: 3 }).map((_, i) => (
+            <rect key={i} x={611 + i * 18} y={209} width="14" height="8" rx="2" className="fill-card stroke-brand" strokeWidth="0.5" />
+          ))}
+          <text x="635" y="236" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">ATROPHY</text>
+          <text x="635" y="248" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">shrunken cells — ↓ size</text>
+          <text x="635" y="257" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">(ubiquitin-proteasome +</text>
+          <text x="635" y="266" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">autophagy; ↓ synthesis)</text>
+          <text x="635" y="277" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">and/or ↓ number (apoptosis)</text>
+        </g>
+        {/* teal arrows up from normal */}
+        <g className="stroke-brand" strokeWidth="1.2" fill="none">
+          <path d="M 420 402 C 400 372, 380 344, 363 288" />
+          <path d="M 500 400 C 500 366, 500 340, 499 290" />
+          <path d="M 580 402 C 600 372, 620 344, 635 288" />
+        </g>
+        <path d="M363 288 l-6 -9 l12 1 z" className="fill-brand" />
+        <path d="M499 290 l-5 -10 l11 0 z" className="fill-brand" />
+        <path d="M635 288 l-6 -10 l12 -1 z" className="fill-brand" />
+        <text x="500" y="326" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">Change in cell size and/or number</text>
+        {/* normal cells */}
+        <g>
+          <rect x="390" y="402" width="220" height="64" rx="10" className="fill-card stroke-brand" strokeWidth="1.4" />
+          <rect x="424" y="412" width="152" height="18" className="fill-brand-soft/60" />
+          {Array.from({ length: 5 }).map((_, i) => (
+            <rect key={i} x={427 + i * 30} y={415} width="26" height="12" rx="3" className="fill-card stroke-brand" strokeWidth="0.5" />
+          ))}
+          <text x="500" y="446" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">NORMAL CELLS</text>
+          <text x="500" y="457" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">the map&apos;s origin — every branch and exit starts here</text>
+        </g>
+        {/* red exit 1: inability to adapt (atrophy -> terminal) */}
+        <g className="stroke-emergency" strokeWidth="1.1" fill="none">
+          <path d="M 694 238 C 716 216, 716 176, 700 160" strokeDasharray="none" />
+        </g>
+        <path d="M700 160 l-3 -10 l11 3 z" className="fill-emergency" />
+        <rect x="578" y="179" width="96" height="14" rx="4" className="fill-card stroke-border" />
+        <text x="626" y="189" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-emergency">Inability to adapt</text>
+        {/* red exit 2: severe stress or injury (normal -> terminal) */}
+        <g className="stroke-emergency" strokeWidth="1.1" fill="none">
+          <path d="M 612 400 C 650 350, 640 240, 620 178" />
+        </g>
+        <path d="M620 178 l-1 -11 l10 5 z" className="fill-emergency" />
+        <rect x="652" y="284" width="58" height="26" rx="4" className="fill-card stroke-border" />
+        <text x="681" y="296" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-emergency">Severe stress</text>
+        <text x="681" y="306" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-emergency">or injury</text>
+        {/* teal arrows down */}
+        <g className="stroke-brand" strokeWidth="1.1" fill="none">
+          <path d="M 440 466 C 420 500, 400 530, 372 566" />
+          <path d="M 500 468 C 500 500, 497 530, 497 566" />
+          <path d="M 560 466 C 580 500, 600 530, 622 566" />
+        </g>
+        <path d="M372 566 l-7 -8 l12 -2 z" className="fill-brand" />
+        <path d="M497 566 l-5 -10 l11 0 z" className="fill-brand" />
+        <path d="M622 566 l-5 -10 l11 1 z" className="fill-brand" />
+        <text x="404" y="510" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-brand">Change in cell structure</text>
+        <text x="470" y="510" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-brand">Change in cell type</text>
+        <rect x="548" y="502" width="96" height="12" rx="4" className="fill-card stroke-border" />
+        <text x="596" y="511" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-emergency">Change in cell type and structure</text>
+        {/* bottom row */}
+        <g>
+          <rect x="304" y="566" width="118" height="84" rx="10" className="fill-card stroke-warning" />
+          <polygon points="330,576 352,572 366,582 360,592 334,590" className="fill-warning-soft stroke-warning" strokeWidth="0.6" />
+          <polygon points="352,578 372,574 380,588 366,596" className="fill-warning-soft stroke-warning" strokeWidth="0.6" />
+          <circle cx="342" cy="584" r="2.6" className="fill-warning" />
+          <circle cx="366" cy="584" r="3.2" className="fill-warning" />
+          <text x="363" y="610" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">DYSPLASIA</text>
+          <text x="363" y="622" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">disordered, precancerous —</text>
+          <text x="363" y="631" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">pleomorphism; ↑ N:C ratio,</text>
+          <text x="363" y="640" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">clumped chromatin; not a true</text>
+          <text x="363" y="649" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">adaptive response</text>
+        </g>
+        <g>
+          <rect x="440" y="566" width="118" height="84" rx="10" className="fill-card stroke-brand" />
+          <rect x="466" y="576" width="66" height="12" rx="6" className="fill-brand-soft/60 stroke-brand" strokeWidth="0.5" />
+          <ellipse cx="482" cy="582" rx="7" ry="5.5" className="fill-card stroke-brand" strokeWidth="0.5" />
+          <ellipse cx="500" cy="582" rx="7" ry="5.5" className="fill-card stroke-brand" strokeWidth="0.5" />
+          <ellipse cx="518" cy="582" rx="7" ry="5.5" className="fill-card stroke-brand" strokeWidth="0.5" />
+          <text x="499" y="610" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">METAPLASIA</text>
+          <text x="499" y="622" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">one cell type replaced by</text>
+          <text x="499" y="631" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">another (stem-cell reprogramming)</text>
+          <text x="499" y="642" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">acid → columnar (Barrett)</text>
+          <text x="499" y="651" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">smoke → squamous (airway)</text>
+        </g>
+        <g>
+          <rect x="576" y="566" width="118" height="84" rx="10" className="fill-card stroke-emergency" />
+          <g className="fill-emergency-soft stroke-emergency" strokeWidth="0.5">
+            <polygon points="608,576 626,572 638,580 632,590 612,590" />
+            <polygon points="628,580 648,574 660,584 650,596 630,592" />
+            <polygon points="612,590 630,592 640,602 620,604" />
+          </g>
+          <text x="635" y="618" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">NEOPLASIA</text>
+          <text x="635" y="630" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">the irreversible end of the</text>
+          <text x="635" y="639" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">map — change in cell type</text>
+          <text x="635" y="648" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">and structure (red arrow</text>
+          <text x="635" y="657" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">by the source&apos;s own legend)</text>
+        </g>
+        {/* dysplasia -> neoplasia bridge */}
+        <g className="stroke-emergency" strokeWidth="1.1" fill="none">
+          <path d="M 424 610 C 460 664, 540 664, 574 610" />
+        </g>
+        <path d="M574 610 l2 -11 l9 7 z" className="fill-emergency" />
+        <text x="499" y="668" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-emergency">If chronic irritant persists</text>
+        {/* legend */}
+        <g>
+          <rect x="304" y="130" width="200" height="44" rx="8" className="fill-card stroke-border" />
+          <line x1="316" y1="142" x2="336" y2="142" className="stroke-brand" strokeWidth="2" />
+          <text x="342" y="145" fontSize="4.4" fontWeight="700" className="fill-foreground">Reversible (source prints green)</text>
+          <line x1="316" y1="162" x2="336" y2="162" className="stroke-emergency" strokeWidth="2" />
+          <text x="342" y="165" fontSize="4.4" fontWeight="700" className="fill-foreground">Irreversible (source prints red)</text>
+        </g>
+      </g>
+      {/* ===== RIGHT — the mechanism sidebar ===== */}
+      <g>
+        <rect x="724" y="100" width="220" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The mechanism sidebar</text>
+        <rect x="736" y="132" width="196" height="128" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="834" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">ATROPHY IS ACTIVE DEMOLITION</text>
+        <text x="834" y="166" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">↑ cytoskeleton degradation via the</text>
+        <text x="834" y="176" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">ubiquitin-proteasome pathway +</text>
+        <text x="834" y="186" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">autophagy (programmed digestion of</text>
+        <text x="834" y="196" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">damaged/misfolded intracellular</text>
+        <text x="834" y="206" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">proteins) + ↓ protein synthesis;</text>
+        <text x="834" y="216" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">and/or ↓ number of cells (apoptosis)</text>
+        <text x="834" y="232" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">5 causes: disuse, denervation, loss of</text>
+        <text x="834" y="242" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">blood supply, loss of hormonal</text>
+        <text x="834" y="252" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">stimulation, poor nutrition</text>
+        <rect x="736" y="272" width="196" height="120" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="290" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE TWO METAPLASIA DIRECTIONS</text>
+        <text x="834" y="308" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">ACID (esophagus, GERD):</text>
+        <text x="834" y="318" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">nonkeratinized stratified squamous →</text>
+        <text x="834" y="328" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">intestinal-type columnar — acid</text>
+        <text x="834" y="338" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">resistance — Barrett esophagus</text>
+        <text x="834" y="356" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">SMOKE (airway, tobacco):</text>
+        <text x="834" y="366" textAnchor="middle" fontSize="3.9" className="fill-muted-foreground">pseudostratified ciliated columnar →</text>
+        <text x="834" y="376" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">stratified squamous — protection</text>
+        <rect x="736" y="404" width="196" height="128" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="834" y="422" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE DYSPLASIA SEVERITY FORK</text>
+        <text x="834" y="440" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">MILD + MODERATE (not entire</text>
+        <text x="834" y="450" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">thickness): may regress with</text>
+        <text x="834" y="460" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">alleviation of inciting cause</text>
+        <text x="834" y="478" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-emergency">SEVERE: often becomes</text>
+        <text x="834" y="488" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-emergency">irreversible → progresses to</text>
+        <text x="834" y="498" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-emergency">carcinoma in situ</text>
+        <text x="834" y="516" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">usually preceded by persistent</text>
+        <text x="834" y="526" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">metaplasia or pathologic hyperplasia</text>
+        <rect x="736" y="544" width="196" height="116" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="834" y="562" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">THE PROGRESSION CHAINS</text>
+        <text x="834" y="580" textAnchor="middle" fontSize="3.9" className="fill-foreground">excessive stimulation → pathologic</text>
+        <text x="834" y="590" textAnchor="middle" fontSize="3.9" className="fill-foreground">hyperplasia → dysplasia and cancer</text>
+        <text x="834" y="606" textAnchor="middle" fontSize="3.9" className="fill-foreground">persistent insult → metaplasia →</text>
+        <text x="834" y="616" textAnchor="middle" fontSize="3.9" className="fill-foreground">dysplasia → malignant transformation</text>
+        <text x="834" y="626" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">(Barrett → esophageal adenoCA)</text>
+        <text x="834" y="642" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">significant LV hypertrophy →</text>
+        <text x="834" y="652" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">myocardial injury → HF (the slow exit)</text>
+      </g>
+      {/* ===== BOTTOM — the one-line map ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="76" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">The map in one line — two axes out of normal, two red roads into the terminal box (book 202, labels verbatim)</text>
+        <rect x="52" y="730" width="876" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="490" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">Normal cells — change in cell size and/or number → hyperplasia · hypertrophy · atrophy (reversible) · change in cell type → metaplasia · change in cell structure → dysplasia</text>
+        <text x="490" y="756" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">— if chronic irritant persists → neoplasia (change in cell type and structure) · inability to adapt / severe stress or injury → IRREVERSIBLE INJURY → necrosis or apoptosis</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="806" fontSize="5.2" className="fill-muted-foreground">Source: First Aid 2026, book 202 (pdf 224) — Cellular adaptations: the intro, Hypertrophy, Hyperplasia, Atrophy, Metaplasia, and Dysplasia blocks; the adaptation-progression figure.</text>
+        <text x="24" y="816" fontSize="5.2" className="fill-muted-foreground">Census: the figure is line art whose nodes carry ~98 small monochrome cell-cluster rasters (VLM census documented: more cells, bigger cells, shrunken cells, changed type, disordered cells, disordered mass); no photographs; no margin mnemonics (VLM confirmed).</text>
+        <text x="24" y="826" fontSize="5.2" className="fill-muted-foreground">Figure topology VLM-verified: teal (source green) arrows to the size/number row and to metaplasia/dysplasia; red arrows — change in cell type and structure to neoplasia, inability to adapt + severe stress or injury to the terminal box.</text>
+        <text x="24" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: facts and labels are carried; expression and artwork are not — the node glyphs are original KYP vectors; the chronic-irritant bridge runs dysplasia to neoplasia.</text>
+      </g>
+    </svg>
+  );
+}

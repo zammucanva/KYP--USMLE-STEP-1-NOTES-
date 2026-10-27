@@ -48,6 +48,7 @@ import {
   TrnaStructureCharging,
 } from "./translation";
 import {
+  AdaptationsComparisonMap,
   CellCycleCheckpointMap,
   CiliaAxonemeBasalBody,
   DextrocardiaCxr,
@@ -327,4 +328,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "antiviral-target-map": AntiviralTargetMap,
   "hiv-drug-lifecycle-map": HivDrugLifecycleMap,
   "hcv-daa-target-map": HcvDaaTargetMap,
+  "adaptations-comparison-map": AdaptationsComparisonMap,
 };

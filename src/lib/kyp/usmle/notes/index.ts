@@ -90,6 +90,7 @@ import { antifungals } from "./antifungals";
 import { antiparasiticAntiviral } from "./antiparasitic-antiviral";
 import { hivTherapy } from "./hiv-therapy";
 import { hcvTherapy } from "./hcv-therapy";
+import { cellularAdaptations } from "./cellular-adaptations";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -263,6 +264,7 @@ export const usmleNotes: KypUsMLENote[] = [
   antiparasiticAntiviral,
   hivTherapy,
   hcvTherapy,
+  cellularAdaptations,
   cranialNerves,
   diabetesMellitus,
 ];

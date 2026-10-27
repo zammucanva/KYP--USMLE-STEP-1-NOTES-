@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T18:16:21Z",
+  "generatedAt": "2026-10-27T18:33:48Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 126,
+    "topicsProduced": 127,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 71,
+      "pilot-complete": 72,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,9 +318,9 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 0,
-      "topicsRemaining": 19,
-      "qaStatus": "pending",
+      "topicsProduced": 1,
+      "topicsRemaining": 18,
+      "qaStatus": "pass",
       "completedAt": null
     },
     {
@@ -754,6 +754,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-24"
+    },
+    {
+      "topicId": "cellular-adaptations",
+      "title": "Cellular Adaptations: Hypertrophy Through Dysplasia",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Cellular adaptations",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 224 (book 202–202)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
     },
     {
       "topicId": "cestodes-trematodes",

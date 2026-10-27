@@ -1,0 +1,242 @@
+{
+  "topicId": "cellular-adaptations",
+  "title": "Cellular Adaptations: Hypertrophy Through Dysplasia",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Cellular adaptations",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      224
+    ],
+    "bookPages": "202–202"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the printed book page, the section banner, and the double heading 'PATHOLOGY—CeLLULAR INjURY'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "202\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY\n\n▶ PATHOLOGY—CeLLULAR INjURY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Cellular adaptations intro — reversible changes, physiologic (uterine enlargement during pregnancy) vs pathologic (myocardial hypertrophy 2° to systemic hypertension), and the progression to cell injury (significant LV hypertrophy → myocardial injury → HF)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Cellular adaptations\n\nReversible changes that can be physiologic (eg, uterine enlargement during pregnancy) or pathologic\n(eg, myocardial hypertrophy 2° to systemic hypertension). If stress is excessive or persistent,\nadaptations can progress to cell injury (eg, significant LV hypertrophy → myocardial injury → HF).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypertrophy — ↑ structural proteins and organelles → ↑ in size of cells; example: cardiac hypertrophy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Hypertrophy\n\n↑ structural proteins and organelles → ↑ in size of cells. Example: cardiac hypertrophy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hyperplasia — controlled proliferation of stem cells and differentiated cells → ↑ in number of cells (benign prostatic hyperplasia); excessive stimulation → pathologic hyperplasia (endometrial) which may progress to dysplasia and cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Hyperplasia\n\nControlled proliferation of stem cells and differentiated cells → ↑ in number of cells (eg, benign\nprostatic hyperplasia). Excessive stimulation → pathologic hyperplasia (eg, endometrial\nhyperplasia), which may progress to dysplasia and cancer.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Atrophy — ↓ in tissue mass via ↓ size (ubiquitin-proteasome pathway, autophagy, ↓ protein synthesis) and/or ↓ number (apoptosis); the five causes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Atrophy\n\n↓ in tissue mass due to ↓ in size (↑ cytoskeleton degradation via ubiquitin-proteasome pathway\nand autophagy [programmed digestion of damaged/misfolded intracellular proteins]; ↓ protein\nsynthesis) and/or number of cells (apoptosis). Causes include disuse, denervation, loss of blood\nsupply, loss of hormonal stimulation, poor nutrition.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Metaplasia — stem-cell reprogramming, Barrett esophagus (acid → intestinal-type columnar), the airway opposite (tobacco smoke → stratified squamous), progression risk (Barrett → esophageal adenocarcinoma), and connective-tissue metaplasia (myositis ossificans)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Metaplasia\n\nReprogramming of stem cells → replacement of one cell type by another that can adapt to a new\nstressor. Esophageal exposure to gastric acid: nonkeratinized stratified squamous → intestinal-type\ncolumnar epithelium (acid resistance), called Barrett esophagus. The opposite occurs upon airway\nexposure to tobacco smoke: pseudostratified ciliated columnar → stratified squamous epithelium\n(protection). May progress to dysplasia → malignant transformation with persistent insult (eg,\nBarrett esophagus → esophageal adenocarcinoma). Metaplasia of connective tissue can also occur\n(eg, myositis ossificans, the formation of bone within muscle after trauma).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dysplasia — disordered precancerous epithelial growth, not a true adaptive response; pleomorphism, loss of orientation, nuclear changes; the mild/moderate vs severe fork; usually preceded by persistent metaplasia or pathologic hyperplasia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Dysplasia\n\nDisordered, precancerous epithelial cell growth; not considered a true adaptive response.\nCharacterized by loss of uniformity of cell size and shape (pleomorphism); loss of tissue\norientation; nuclear changes (eg, ↑ nuclear:cytoplasmic ratio and clumped chromatin). Mild and\nmoderate dysplasias (ie, do not involve entire thickness of epithelium) may regress with alleviation\nof inciting cause. Severe dysplasia often becomes irreversible and progresses to carcinoma in situ.\nUsually preceded by persistent metaplasia or pathologic hyperplasia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's top-row labels + terminal box — 'Inability to adapt', Hyperplasia, Hypertrophy, Atrophy, 'Irreversible injury → necrosis or apoptosis'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Inability\nto adapt\nHyperplasia\n\nHypertrophy\n\nAtrophy\n\nIrreversible\ninjury → necrosis\nor apoptosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's central labels — 'Change in cell size and/or number', 'Severe stress or injury', 'Normal cells'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Change in cell size\nand/or number\nSevere stress\nor injury\nNormal cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's bottom-row labels — 'Change in cell structure', Dysplasia, 'Change in cell type', Metaplasia, 'Change in cell type and structure', Neoplasia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Change in\ncell structure\n\nDysplasia\n\nChange in\ncell type\n\nMetaplasia\n\nChange in cell type\nand structure\n\nNeoplasia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's legend and bridge — 'Irreversible', 'Reversible', 'If chronic irritant persists'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "Irreversible\nReversible\n\nIf chronic irritant persists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          224
+        ],
+        "bookPages": "202"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 202\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "adaptations-comparison-map"
+  ],
+  "mechanismIds": [
+    "adaptation-axis-map",
+    "reversibility-exit-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definitions and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axis-map",
+      "summary": "The two-axis synthesis (size/number vs type/structure) and the two-exits timing rule (slow 'inability to adapt' vs fast 'severe stress or injury') — KYP's reading of the figure's topology.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the nodes and arrows without any axis or timing synthesis; the two-axis map and the slow/fast exit framing are KYP's design.",
+      "location": "core.keyIdea + mechanism 1 + the exam callout + patterns + mnemonics"
+    },
+    {
+      "id": "atrophy-demolition-framing",
+      "summary": "Atrophy framed as ACTIVE demolition (the degradation-machinery pair made explicit) and the metaplasia direction pair as a stressor-picks-the-type rule.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the mechanisms and examples; the active-demolition framing and the direction-pair rule are KYP's synthesis.",
+      "location": "mechanism 2 sidebar + traps + pivots + mnemonics + miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p224's figure is line art with ~98 small monochrome cell-cluster rasters (one per node — VLM census documented); REDRAWN as the registry visual with original KYP vector glyphs; the source's green/red legend rendered in KYP palette (teal/red). The six definition blocks and the figure's label set are note-block verbatim adaptations. No margin mnemonics (VLM confirmed). Text quirk documented: the banner heading prints twice.",
+  "updatedAt": "2026-10-27"
+}
