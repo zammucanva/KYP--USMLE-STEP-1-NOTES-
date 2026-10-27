@@ -1,0 +1,438 @@
+{
+  "topicId": "hiv-therapy",
+  "title": "HIV Therapy: NRTIs Through Integrase Inhibitors",
+  "chapterId": "microbiology",
+  "chapterTitle": "Microbiology",
+  "subsection": "Microbiology — Antimicrobials",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      220,
+      221
+    ],
+    "bookPages": "198–199"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page header trio + the 'HIV therapy' heading (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "198\n\nSEC TION II\n\nMICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\nHIV therapy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ART intro block — initiation, indications, the 3-drug backbone, the HIV-2 exceptions, PrEP",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Antiretroviral therapy (ART): often initiated at the time of HIV diagnosis.\nStrongest indication for use with patients presenting with AIDS-defining illness, low CD4+ cell\ncounts (<500 cells/mm3), or high viral load. Regimen consists of 3 drugs to prevent resistance:\n2 NRTIs and preferably an integrase inhibitor.\nMost ARTs are active against both HIV-1 and HIV-2 (exceptions: NNRTIs and enfuvirtide not\neffective against HIV-2).\nTenofovir + emtricitabine can be administered as pre-exposure prophylaxis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table column headers (DRUG / MECHANISM / ADVERSE EFFECTS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "DRUG\n\nMECHANISM\n\nADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NRTI MECHANISM — competitive inhibition, chain termination, no 3' OH; tenofovir the nucleoTide; all phosphorylated; ZDV prophylaxis and pregnancy; the source's own in-cell mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Competitively inhibit nucleotide binding to\nreverse transcriptase and terminate the DNA\nchain (lack a 3′ OH group). Tenofovir is a\nnucleoTide; the others are nucleosides. All\nneed to be phosphorylated to be active.\nZDV can be used for general prophylaxis and\nduring pregnancy to ↓ risk of fetal transmission.\nHave you dined (vudine) with my nuclear\n(nucleosides) family?",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NRTI ADVERSE EFFECTS — myelosuppression with G-CSF/erythropoietin rescue, nephrotoxicity, the HLA-B*5701 abacavir contraindication",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Myelosuppression (can be reversed with\ngranulocyte colony-stimulating factor\n[G-CSF] and erythropoietin), nephrotoxicity.\nAbacavir contraindicated if patient has\nHLA-B*5701 mutation due to ↑ risk of\nhypersensitivity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NNRTI MECHANISM — different site, no phosphorylation, no nucleotide competition",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Bind to reverse transcriptase at site different\nfrom NRTIs. Do not require phosphorylation\nto be active or compete with nucleotides.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NNRTI ADVERSE EFFECTS — rash and hepatotoxicity all; efavirenz vivid dreams/CNS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Rash and hepatotoxicity are common to all\nNNRTIs. Vivid dreams and CNS symptoms\nare common with efavirenz.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NRTI drug roster (ABC, FTC, 3TC, TDF, ZDV/AZT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "NRTIs\nAbacavir (ABC)\nEmtricitabine (FTC)\nLamivudine (3TC)\nTenofovir (TDF)\nZidovudine (ZDV,\nformerly AZT)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NNRTI drug roster (doravirine, efavirenz, rilpivirine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "NNRTIs\nDoravirine\nEfavirenz\nRilpivirine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Integrase strand transfer inhibitors — the full card (reversible integrase inhibition; increased creatine kinase, weight gain)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Integrase strand transfer inhibitors\nAlso called integrase inhibitors. Inhibit HIV\ngenome integration into host cell chromosome\nby reversibly inhibiting HIV integrase.\n\n↑ creatine kinase, weight gain.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Protease inhibitor MECHANISM — virion maturation, the pol-gene protease, boosting requirement, the source's own in-cell mnemonic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Prevents maturation of new virions. Maturation\ndepends on HIV-1 protease (pol gene), which\ncleaves the polypeptide products of HIV\nmRNA into their functional parts.\nAll protease inhibitors require boosting with\neither ritonavir or cobicistat.\nNavir (never) tease a protease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Protease inhibitor ADVERSE EFFECTS — the metabolic set, GI intolerance; the rifampin CYP/UGT-induction interaction with rifabutin substitution; ritonavir only as booster",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Hyperglycemia, dyslipidemia, lipodystrophy\nsyndrome, GI intolerance (nausea, diarrhea).\nRifampin (potent CYP/UGT inducer) ↓ protease\ninhibitor concentrations; use rifabutin instead.\nRitonavir (cytochrome P-450 inhibitor) is only\nused as a boosting agent.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Enfuvirtide — the full card (gp41, fusion; injection-site skin reactions; the source's own in-cell mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Enfuvirtide\n\nBinds gp41, inhibiting viral entry.\nEnfuvirtide inhibits fusion.\n\nSkin reaction at injection sites.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Maraviroc — the full card (CCR-5 on T cells/monocytes, the gp120 interaction; the source's own in-cell mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Maraviroc\n\nBinds CCR-5 on surface of T cells/monocytes,\ninhibiting interaction with gp120.\nMaraviroc inhibits docking.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The INSTI table roster (bictegravir, dolutegravir) + the protease inhibitor table roster (atazanavir, darunavir, lopinavir, ritonavir) + the entry-inhibitors class header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "Bictegravir\nDolutegravir\nProtease inhibitors\nAtazanavir\nDarunavir\nLopinavir\nRitonavir\n\nEntry inhibitors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          220
+        ],
+        "bookPages": "198"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 198\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page banner trio + the 'HIV therapy (continued)' heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "MICROBIOLOGY\n\n▶ MICROCIOLOGY—ANTIMICROCIALS\n\n199\n\nSEC TION II\n\nHIV therapy (continued)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ENTRY box — ATTACHMENT (maraviroc), PENETRATION (enfuvirtide), the entry panel labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "ENTRY\n\nREVERSE\nTRANSCRIPTASE\n\nATTACHMENT\nMaraviroc\n\n–\n\nNRTIs\nAbacavir (ABC)\nEmtricitabine (FTC)\nLamivudine (3TC)\nTenofovir (TDF)\nZidovudine (ZDV,\nformerly AZT)\n\nPENETRATION\nEnfuvirtide\n\n–",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The REVERSE TRANSCRIPTION boxes — the NRTI roster and the figure's NNRTI roster (efavirenz, nevirapine) at the copy door",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "Uncoating\n\nReverse\ntranscription\n\nNNRTIs\nEfavirenz\nNevirapine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The INTEGRASE box — bictegravir, cabotegravir, dolutegravir, raltegravir at DNA integration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "DNA\nintegration\n\nINTEGRASE\nBictegravir\nCabotegravir\nDolutegravir\nRaltegravir\n\n–",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CD4+ T CELL label, transcription, translation, and proteolytic processing stages",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "CD4+ T CELL\nTranscription\n\n–\n\nPROTEASEa\n\nTranslation\n\n–\n\nProteolytic\nprocessing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PROTEASE box roster — the seven -avirs (atazanavir through saquinavir) + packaging/assembly, budding, release",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "Packaging\nand assembly\nBudding\n\na\n\nAtazanavir\nDarunavir\nFosamprenavir\nIndinavir\nLopinavir\nRitonavir\nSaquinavir\n\nRelease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure footnote — the ritonavir/cobicistat boosting rule",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "All protease inhibitors require boosting with either ritonavir (protease inhibitor only used as a boosting agent) or cobicistat\n(cytochrome P450 inhibitor).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prophylaxis table — header block (CELL COUNT / PROPHYLAXIS / INFECTION)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "Prophylaxis in HIV infection/AIDS\nCELL COUNT\n\nPROPHYLAXIS\n\nINFECTION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prophylaxis row 1 — CD4+ <200 cells/mm3, TMP-SMX, Pneumocystis pneumonia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "3\n\nCD4+ <200 cells/mm\n\nTMP-SMX\n\nPneumocystis pneumonia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prophylaxis row 2 — CD4+ <100 cells/mm3, TMP-SMX, Pneumocystis pneumonia and toxoplasmosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "3\n\nTMP-SMX\n\nPneumocystis pneumonia and toxoplasmosis\n\nCD4+ <100 cells/mm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          221
+        ],
+        "bookPages": "199"
+      },
+      "quote": "FAS1_2026_03-Microbiology.indd 199\n\n12/18/25 9:20 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hiv-drug-lifecycle-map"
+  ],
+  "mechanismIds": [
+    "lifecycle-door-map",
+    "phosphorylation-and-boosting"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table, figure, and prophylaxis block; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "lifecycle-door-map",
+      "summary": "The five-doors lifecycle synthesis (dock/fuse/copy/integrate/mature) with the 3-drug backbone rule, the HIV-2 exceptions, and the PrEP pair — KYP's synthesis of the figure and the table.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the table side by side without a door-mapping system; the five-door ladder and the backbone routing are KYP's design.",
+      "location": "core.keyIdea + both mechanism captions + the exam callout + patterns + traps + pivots + mnemonics + miniCase"
+    },
+    {
+      "id": "phosphorylation-echo",
+      "summary": "The M37 kinase-ladder connection (NRTIs phosphorylated to activate vs NNRTIs not) and the boosting-world framing (ritonavir/cobicistat, the rifampin collision) — KYP's cross-page synthesis.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the phosphorylation line and the interaction lines without connecting them to the antiviral ladder or the CYP450 polarity pairs of M34-M36; the echo framing is KYP's design.",
+      "location": "mechanism 2 + the exam callout + crossLinks"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p220 pure text (0 rasters; the interleaved columns and in-cell mnemonics VLM-verified); p221's lifecycle figure = line art on two decorative 1x1+smask washes (the M35 pattern; VLM confirmed a schematic, no photographs) — REDRAWN as the registry visual. VLM quirks documented ('3 drugs' misread as '5'; the ↓ arrow dropped) — text layer authoritative (M23 convention). Figure-vs-table roster differences documented (cabotegravir, raltegravir, fosamprenavir, indinavir, saquinavir, nevirapine figure-only). The source's own mnemonics carried ONLY inside the verbatim tables per the E38 precedent.",
+  "updatedAt": "2026-10-27"
+}

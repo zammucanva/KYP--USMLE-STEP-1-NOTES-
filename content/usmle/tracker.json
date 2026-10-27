@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T17:42:09Z",
+  "generatedAt": "2026-10-27T17:54:37Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 8,
     "chaptersExtracted": 3,
-    "topicsProduced": 124,
+    "topicsProduced": 125,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 69,
+      "pilot-complete": 70,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -307,8 +307,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 39,
-      "topicsProduced": 37,
-      "topicsRemaining": 2,
+      "topicsProduced": 38,
+      "topicsRemaining": 1,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1313,6 +1313,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-21"
+    },
+    {
+      "topicId": "hiv-therapy",
+      "title": "HIV Therapy: NRTIs Through Integrase Inhibitors",
+      "chapterId": "microbiology",
+      "subsection": "Microbiology — Antimicrobials",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 220, 221 (book 198–199)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-27"
     },
     {
       "topicId": "hla-subtypes",

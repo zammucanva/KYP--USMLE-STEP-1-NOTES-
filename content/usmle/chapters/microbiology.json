@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 2,
+  "pendingTopicCount": 1,
   "topics": [
     {
       "topicId": "bacterial-structures",
@@ -6846,8 +6846,118 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Microbiology — Antimicrobials",
-      "status": "pending",
-      "productionRationale": "The HIV drug classes mapped to the lifecycle (entry: maraviroc/enfuvirtide; RT: NRTIs/NNRTIs; integrase: bictegravir/dolutegravir; protease: atazanavir/darunavir) with the toxicities (ZDV marrow, abacavir HLA-B*5701) and prophylaxis rules."
+      "status": "complete",
+      "productionRationale": "The HIV drug classes mapped to the lifecycle (entry: maraviroc/enfuvirtide; RT: NRTIs/NNRTIs; integrase: bictegravir/dolutegravir; protease: atazanavir/darunavir) with the toxicities (ZDV marrow, abacavir HLA-B*5701) and prophylaxis rules.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "hiv-therapy",
+          "requiredInKYP": true,
+          "visualId": "hiv-therapy-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              221
+            ],
+            "bookPages": "199–199"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The HIV lifecycle figure with its drug boxes (book 199)",
+          "sourceFigureDescription": "Line art on two decorative 1x1+smask color washes (171x162 and 231x357 jpeg smasks, 150ppi — the M35 pattern): VLM census confirmed a schematic drawing (the CD4+ T CELL circle, stylized virions, wavy nucleic-acid lines, stage arrows, and four colored drug-group boxes) — no photographs; the stage labels and rosters print in the text layer.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "hiv-drug-lifecycle-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the full registry visual — the cell with the five drug doors, the backbone/boosting/safety panels, and the prophylaxis strip",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "hiv-drug-lifecycle-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "hiv-therapy",
+          "requiredInKYP": true,
+          "visualId": "hiv-therapy-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              220
+            ],
+            "bookPages": "198–198"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The ART intro block and the five-class drug table (book 198)",
+          "sourceFigureDescription": "The three-column table (DRUG/MECHANISM/ADVERSE EFFECTS) with its columns interleaved in extraction; the source's own mnemonics print inside the mechanism cells (dined-with-my-nuclear-family; navir-never-tease-a-protease; fusion; docking).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[1] the table block — carried verbatim (card reading order VLM-verified)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "hiv-therapy",
+          "requiredInKYP": true,
+          "visualId": "hiv-therapy-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              221
+            ],
+            "bookPages": "199–199"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The lifecycle figure's stage labels and drug boxes (book 199)",
+          "sourceFigureDescription": "The figure's stage labels and drug rosters printing in the text layer, interleaved (ENTRY/REVERSE TRANSCRIPTASE/INTEGRASE/PROTEASE boxes; the footnote).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[2] the table block — carried verbatim (reading order VLM-verified)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "microbiology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Microbiology — Antimicrobials",
+          "topicId": "hiv-therapy",
+          "requiredInKYP": true,
+          "visualId": "hiv-therapy-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              221
+            ],
+            "bookPages": "199–199"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The prophylaxis in HIV infection/AIDS table (book 199)",
+          "sourceFigureDescription": "The two-row CD4-threshold prophylaxis table (CD4+ <200 → TMP-SMX → Pneumocystis; CD4+ <100 → TMP-SMX → Pneumocystis + toxoplasmosis).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "blocks[3] the table block — carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "hcv-therapy",

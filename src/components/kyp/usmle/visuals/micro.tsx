@@ -5601,3 +5601,158 @@ export function AntiviralTargetMap() {
     </svg>
   );
 }
+
+export function HivDrugLifecycleMap() {
+  const w = 980;
+  const h = 920;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="HIV therapy — the drug-lifecycle map, an original KYP redraw of the source's lifecycle figure (book 199 — line art on decorative color washes, VLM census confirmed a schematic with no photographs). LEFT-CENTER — THE CD4+ T CELL with the lifecycle running its full circle: ATTACHMENT (the virion docking via gp120 to CD4 and CCR-5 — the maraviroc door, CCR-5 binding that inhibits the interaction), PENETRATION (the gp41 fusion — the enfuvirtide door), uncoating, REVERSE TRANSCRIPTION (the two copy doors: the NRTIs' chain termination — competitive nucleotide binding, no 3-prime OH, all phosphorylated to activate, tenofovir the nucleotide — versus the NNRTIs' different site without phosphorylation), DNA INTEGRATION at the nucleus (the integrase strand transfer inhibitors — bictegravir, cabotegravir, dolutegravir, raltegravir — reversibly inhibiting HIV integrase), transcription, translation, PROTEOLYTIC PROCESSING (the protease inhibitors blocking the pol-gene protease that cleaves the polypeptide products into functional parts — no virion maturation; all boosted with ritonavir or cobicistat), packaging and assembly, budding, and release. RIGHT — THE BACKBONE PANEL: 3 drugs to prevent resistance (2 NRTIs + preferably an integrase inhibitor), ART often initiated at diagnosis, strongest indication with an AIDS-defining illness, CD4 below 500, or high viral load; the HIV-2 exceptions (NNRTIs and enfuvirtide); tenofovir + emtricitabine as PrEP. THE BOOSTING PANEL: ritonavir (the P-450 inhibitor used only as a booster) or cobicistat; the rifampin collision (the potent CYP/UGT inducer drops protease inhibitor concentrations — use rifabutin). THE SAFETY PANEL: the HLA-B*5701 abacavir gate, the G-CSF and erythropoietin marrow rescue, efavirenz vivid dreams, increased creatine kinase and weight gain on the integrase inhibitors, the protease metabolic set (hyperglycemia, dyslipidemia, lipodystrophy). BOTTOM — the prophylaxis thresholds strip (CD4 below 200, TMP-SMX for Pneumocystis; below 100, toxoplasmosis added). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">HIV therapy — the drug-lifecycle map (original KYP redraw)</text>
+        <rect x="748" y="24" width="184" height="18" className="fill-brand-soft" />
+        <text x="840" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">5 classes · 5 doors · 3 drugs</text>
+      </g>
+      {/* ===== LEFT-CENTER — the CD4+ T cell and the lifecycle ===== */}
+      <g>
+        <rect x="36" y="100" width="600" height="560" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE CD4+ T CELL — the lifecycle and its five drug doors</text>
+        {/* the cell body */}
+        <ellipse cx="330" cy="380" rx="250" ry="210" className="fill-card stroke-brand" strokeWidth="1.6" />
+        <text x="330" y="186" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-brand">CD4+ T CELL</text>
+        {/* nucleus */}
+        <ellipse cx="360" cy="410" rx="92" ry="72" className="fill-secondary/60 stroke-border" />
+        <text x="360" y="408" textAnchor="middle" fontSize="4.6" fontWeight="700" className="fill-foreground">nucleus</text>
+        <text x="360" y="419" textAnchor="middle" fontSize="4" className="fill-muted-foreground">proviral DNA</text>
+        {/* virion outside at attachment */}
+        <circle cx="108" cy="248" r="30" className="fill-card stroke-emergency" strokeWidth="1.2" />
+        <g className="stroke-emergency" strokeWidth="0.9">
+          <path d="M 84 240 L 90 236" /><path d="M 84 258 L 90 262" /><path d="M 132 240 L 126 236" /><path d="M 132 258 L 126 262" />
+          <path d="M 108 214 L 108 220" /><path d="M 108 282 L 108 276" />
+        </g>
+        <text x="108" y="250" textAnchor="middle" fontSize="3.9" fontWeight="700" className="fill-foreground">HIV virion</text>
+        <text x="108" y="260" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">gp120 spikes</text>
+        {/* ENTRY door */}
+        <rect x="52" y="292" width="150" height="86" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="127" y="308" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-brand">THE ENTRY DOORS</text>
+        <text x="127" y="322" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-foreground">ATTACHMENT ⊣ maraviroc</text>
+        <text x="127" y="331" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">binds CCR-5 (T cells/monocytes),</text>
+        <text x="127" y="340" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">blocks the gp120 interaction</text>
+        <text x="127" y="354" textAnchor="middle" fontSize="4.1" fontWeight="700" className="fill-foreground">PENETRATION ⊣ enfuvirtide</text>
+        <text x="127" y="363" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">binds gp41 — fusion blocked;</text>
+        <text x="127" y="372" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">injection-site skin reactions</text>
+        {/* lifecycle steps inside */}
+        <text x="212" y="236" fontSize="4.2" fontWeight="700" className="fill-foreground">uncoating</text>
+        <path d="M 250 250 Q 290 300 296 330" className="stroke-muted-foreground" strokeWidth="0.9" fill="none" markerEnd="url(#m38arr)" />
+        {/* RT door */}
+        <rect x="180" y="258" width="0" height="0" />
+        <rect x="198" y="270" width="160" height="92" rx="10" className="fill-card stroke-emergency" />
+        <text x="278" y="286" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-emergency">REVERSE TRANSCRIPTION</text>
+        <text x="278" y="300" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">NRTIs ⊣ chain termination</text>
+        <text x="278" y="309" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">competitive nucleotide binding;</text>
+        <text x="278" y="318" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">no 3′ OH; ALL phosphorylated</text>
+        <text x="278" y="327" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">to activate (tenofovir = nucleotide)</text>
+        <text x="278" y="341" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">NNRTIs ⊣ a different site</text>
+        <text x="278" y="350" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">no phosphorylation required,</text>
+        <text x="278" y="359" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">no nucleotide competition</text>
+        {/* integrase door */}
+        <rect x="272" y="446" width="176" height="66" rx="10" className="fill-card stroke-brand" />
+        <text x="360" y="462" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-brand">DNA INTEGRATION ⊣ INSTIs</text>
+        <text x="360" y="474" textAnchor="middle" fontSize="3.8" className="fill-foreground">bictegravir · cabotegravir ·</text>
+        <text x="360" y="483" textAnchor="middle" fontSize="3.8" className="fill-foreground">dolutegravir · raltegravir</text>
+        <text x="360" y="496" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">reversibly inhibit HIV integrase;</text>
+        <text x="360" y="505" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">↑ creatine kinase, weight gain</text>
+        {/* transcription/translation labels */}
+        <text x="478" y="352" fontSize="4.2" fontWeight="700" className="fill-foreground">transcription</text>
+        <text x="478" y="378" fontSize="4.2" fontWeight="700" className="fill-foreground">translation</text>
+        <path d="M 470 356 Q 500 360 502 372" className="stroke-muted-foreground" strokeWidth="0.9" fill="none" />
+        {/* protease door */}
+        <rect x="440" y="420" width="180" height="104" rx="10" className="fill-card stroke-emergency" />
+        <text x="530" y="436" textAnchor="middle" fontSize="4.8" fontWeight="800" className="fill-emergency">PROTEOLYTIC PROCESSING ⊣</text>
+        <text x="530" y="450" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">the protease inhibitors</text>
+        <text x="530" y="460" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the pol-gene protease cleaves the</text>
+        <text x="530" y="469" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">polypeptide products into functional</text>
+        <text x="530" y="478" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">parts — blocked, no virion maturation</text>
+        <text x="530" y="492" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-brand">ALL boosted: ritonavir or cobicistat</text>
+        <text x="530" y="502" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">atazanavir · darunavir · lopinavir +</text>
+        <text x="530" y="511" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">fosamprenavir · indinavir · saquinavir</text>
+        {/* tail stages */}
+        <text x="500" y="546" fontSize="4.2" fontWeight="700" className="fill-foreground">packaging and assembly</text>
+        <text x="500" y="568" fontSize="4.2" fontWeight="700" className="fill-foreground">budding → release</text>
+        <text x="330" y="612" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">Five classes, five doors: dock (maraviroc) · fuse (enfuvirtide) · copy (NRTIs + NNRTIs) ·</text>
+        <text x="330" y="623" textAnchor="middle" fontSize="4.4" fontWeight="700" className="fill-foreground">integrate (INSTIs) · mature (the boosted protease inhibitors).</text>
+        <text x="330" y="640" textAnchor="middle" fontSize="4" className="fill-muted-foreground">Source figure: the HIV lifecycle schematic, book 199 — line art on two decorative 1×1+smask</text>
+        <text x="330" y="650" textAnchor="middle" fontSize="4" className="fill-muted-foreground">color washes (VLM census: schematic, no photographs; stage labels in the text layer) —</text>
+        <text x="330" y="660" textAnchor="middle" fontSize="4" className="fill-muted-foreground">redrawn as clean vector panels, never reproduced.</text>
+      </g>
+      {/* ===== RIGHT — backbone + boosting + safety ===== */}
+      <g>
+        <rect x="648" y="100" width="296" height="560" rx="14" className="fill-card stroke-border" />
+        <text x="664" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The backbone and its rules</text>
+        <rect x="660" y="132" width="272" height="104" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="672" y="150" fontSize="5.2" fontWeight="800" className="fill-brand">THE 3-DRUG BACKBONE</text>
+        <text x="672" y="166" fontSize="4.2" fontWeight="700" className="fill-foreground">2 NRTIs + preferably an integrase</text>
+        <text x="672" y="176" fontSize="4.2" fontWeight="700" className="fill-foreground">inhibitor — 3 drugs to prevent resistance</text>
+        <text x="672" y="192" fontSize="4" className="fill-muted-foreground">ART often initiated at diagnosis; strongest</text>
+        <text x="672" y="202" fontSize="4" className="fill-muted-foreground">indication with AIDS-defining illness, CD4+</text>
+        <text x="672" y="212" fontSize="4" className="fill-muted-foreground">below 500 cells/mm3, or high viral load.</text>
+        <text x="672" y="228" fontSize="4" fontWeight="700" className="fill-foreground">PrEP: tenofovir + emtricitabine</text>
+        <rect x="660" y="248" width="272" height="70" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="672" y="266" fontSize="5.2" fontWeight="800" className="fill-brand">THE HIV-2 EXCEPTIONS</text>
+        <text x="672" y="282" fontSize="4.2" className="fill-foreground">Most ARTs cover HIV-1 and HIV-2 —</text>
+        <text x="672" y="292" fontSize="4.2" className="fill-foreground">except the NNRTIs and enfuvirtide</text>
+        <text x="672" y="306" fontSize="4" className="fill-muted-foreground">(not effective against HIV-2)</text>
+        <rect x="660" y="330" width="272" height="96" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="672" y="348" fontSize="5.2" fontWeight="800" className="fill-brand">THE BOOSTING WORLD</text>
+        <text x="672" y="364" fontSize="4.2" className="fill-foreground">All protease inhibitors boosted with ritonavir</text>
+        <text x="672" y="374" fontSize="4.2" className="fill-foreground">or cobicistat. Ritonavir (a P-450 inhibitor) is</text>
+        <text x="672" y="384" fontSize="4.2" className="fill-foreground">ONLY used as the boosting agent.</text>
+        <text x="672" y="400" fontSize="4" fontWeight="700" className="fill-emergency">Rifampin (potent CYP/UGT inducer) ↓ PI</text>
+        <text x="672" y="410" fontSize="4" fontWeight="700" className="fill-emergency">concentrations — use rifabutin instead</text>
+        <rect x="660" y="438" width="272" height="132" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="672" y="456" fontSize="5.2" fontWeight="800" className="fill-brand">THE SAFETY LAYER</text>
+        <text x="672" y="472" fontSize="4.1" fontWeight="700" className="fill-foreground">HLA-B*5701 gate:</text>
+        <text x="672" y="481" fontSize="3.9" className="fill-muted-foreground">abacavir contraindicated (hypersensitivity)</text>
+        <text x="672" y="495" fontSize="4.1" fontWeight="700" className="fill-foreground">Marrow rescue:</text>
+        <text x="672" y="504" fontSize="3.9" className="fill-muted-foreground">NRTI myelosuppression reversed by G-CSF +</text>
+        <text x="672" y="513" fontSize="3.9" className="fill-muted-foreground">erythropoietin; nephrotoxicity the class price</text>
+        <text x="672" y="527" fontSize="4.1" fontWeight="700" className="fill-foreground">Class signatures:</text>
+        <text x="672" y="536" fontSize="3.9" className="fill-muted-foreground">efavirenz vivid dreams/CNS (NNRTI rash +</text>
+        <text x="672" y="545" fontSize="3.9" className="fill-muted-foreground">hepatotoxicity); INSTI ↑CK + weight gain; PI</text>
+        <text x="672" y="554" fontSize="3.9" className="fill-muted-foreground">hyperglycemia, dyslipidemia, lipodystrophy, GI</text>
+        <text x="672" y="568" fontSize="3.9" className="fill-muted-foreground">ZDV: general prophylaxis + pregnancy (↓ fetal</text>
+        <text x="672" y="577" fontSize="3.9" className="fill-muted-foreground">transmission)</text>
+        <text x="664" y="600" fontSize="4" className="fill-muted-foreground">The source's own mnemonics (dined-with-my-</text>
+        <text x="664" y="610" fontSize="4" className="fill-muted-foreground">nuclear-family; navir-never-tease-a-protease;</text>
+        <text x="664" y="620" fontSize="4" className="fill-muted-foreground">fusion; docking) ride the verbatim tables only</text>
+        <text x="664" y="644" fontSize="4" className="fill-muted-foreground">Figure roster note: the figure's boxes add</text>
+        <text x="664" y="654" fontSize="4" className="fill-muted-foreground">cabotegravir + raltegravir (integrase),</text>
+        <text x="664" y="664" fontSize="4" className="fill-muted-foreground">fosamprenavir/indinavir/saquinavir (PI), and</text>
+        <text x="664" y="674" fontSize="4" className="fill-muted-foreground">nevirapine (NNRTI) beyond the table page.</text>
+      </g>
+      {/* ===== BOTTOM — prophylaxis strip ===== */}
+      <g>
+        <rect x="36" y="700" width="908" height="72" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="720" fontSize="7" fontWeight="800" className="fill-foreground">Prophylaxis in HIV infection/AIDS (book 199, carried verbatim in the note&apos;s table)</text>
+        <rect x="52" y="730" width="420" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="262" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">CD4+ &lt;200 cells/mm3 → TMP-SMX</text>
+        <text x="262" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">Pneumocystis pneumonia</text>
+        <rect x="492" y="730" width="420" height="30" rx="8" className="fill-secondary/60 stroke-border" />
+        <text x="702" y="743" textAnchor="middle" fontSize="4.2" fontWeight="700" className="fill-foreground">CD4+ &lt;100 cells/mm3 → TMP-SMX</text>
+        <text x="702" y="753" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">Pneumocystis pneumonia and toxoplasmosis</text>
+      </g>
+      {/* footer */}
+      <g>
+        <text x="24" y="832" fontSize="4.6" className="fill-muted-foreground">Source: First Aid 2026, books 198-199 (pdf 220-221) — the ART intro block; the five-class drug table (NRTIs, NNRTIs, integrase strand transfer inhibitors, protease inhibitors, entry inhibitors); the HIV lifecycle figure; prophylaxis in HIV infection/AIDS. Census: p220 pure text (0 rasters);</text>
+        <text x="24" y="843" fontSize="4.6" className="fill-muted-foreground">p221's lifecycle figure = line art on two decorative 1×1+smask color washes (VLM census confirmed a schematic — the CD4+ T cell circle, stylized virions, wavy nucleic-acid lines, stage arrows, colored drug boxes; no photographs) — REDRAWN as clean vector panels, never reproduced.</text>
+        <text x="24" y="854" fontSize="4.6" className="fill-muted-foreground">Copyright boundary: facts are carried; expression is not. The source's own mnemonics (in the mechanism cells) ride the note's verbatim tables only. VLM census quirks documented: '3 drugs' misread as '5', the ↓ arrow dropped in the ZDV line — the text layer is authoritative (the M23 convention).</text>
+      </g>
+      <defs>
+        <marker id="m38arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+          <path d="M 0 0 L 6 3 L 0 6 z" className="fill-muted-foreground" />
+        </marker>
+      </defs>
+    </svg>
+  );
+}

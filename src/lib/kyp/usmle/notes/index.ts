@@ -88,6 +88,7 @@ import { dnaRnaFolateInhibitors } from "./dna-rna-folate-inhibitors";
 import { antimycobacterials } from "./antimycobacterials";
 import { antifungals } from "./antifungals";
 import { antiparasiticAntiviral } from "./antiparasitic-antiviral";
+import { hivTherapy } from "./hiv-therapy";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -259,6 +260,7 @@ export const usmleNotes: KypUsMLENote[] = [
   antimycobacterials,
   antifungals,
   antiparasiticAntiviral,
+  hivTherapy,
   cranialNerves,
   diabetesMellitus,
 ];
