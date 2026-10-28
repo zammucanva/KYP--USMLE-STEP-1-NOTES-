@@ -99,6 +99,7 @@ import { calcificationRadiationInjury } from "./calcification-radiation-injury";
 import { amyloidosis } from "./amyloidosis";
 import { acuteInflammation } from "./acute-inflammation";
 import { leukocyteTrafficking } from "./leukocyte-trafficking";
+import { woundHealing } from "./wound-healing";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -281,6 +282,7 @@ export const usmleNotes: KypUsMLENote[] = [
   amyloidosis,
   acuteInflammation,
   leukocyteTrafficking,
+  woundHealing,
   cranialNerves,
   diabetesMellitus,
 ];

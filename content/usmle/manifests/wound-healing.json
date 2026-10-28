@@ -1,0 +1,242 @@
+{
+  "topicId": "wound-healing",
+  "title": "Wound Healing: Mediators & Phases",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Inflammation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      234
+    ],
+    "bookPages": "212–212"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "212\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—INfLAMMATION\n\nChronic inflammation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic inflammation — the definition: prolonged, mononuclear infiltration (macrophages, lymphocytes, plasma cells), simultaneous tissue destruction and repair (angiogenesis and fibrosis); may be preceded by acute inflammation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "Prolonged inflammation characterized by mononuclear infiltration (macrophages, lymphocytes,\nplasma cells), which leads to simultaneous tissue destruction and repair (including angiogenesis\nand fibrosis). May be preceded by acute inflammation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic STIMULI — persistent infections (TB, T pallidum, certain fungi and viruses) → type IV hypersensitivity; autoimmune; toxic agents (silica); foreign material",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "STIMULI\n\nPersistent infections (eg, TB, T pallidum, certain fungi and viruses) → type IV hypersensitivity,\nautoimmune diseases, prolonged exposure to toxic agents (eg, silica) and foreign material.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic MEDIATORS — macrophages dominant; the Th1 → IFN-γ → classical activation (proinflammatory) and Th2 → IL-4/IL-13 → alternative activation (repair, anti-inflammatory) fork",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "MeDIATORS\n\nMacrophages are the dominant cells. Interaction of macrophages and T cells → chronic\ninflammation.\n▘ Th1 cells secrete IFN-γ → macrophage classical activation (proinflammatory)\n▘ Th2 cells secrete IL-4 and IL-13 → macrophage alternative activation (repair and antiinflammatory)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Chronic OUTCOMES — scarring, amyloidosis, neoplastic transformation; the HCV → hepatocellular carcinoma and H pylori → chronic gastritis → gastric adenocarcinoma chains",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "OUTCOMeS\n\nScarring, amyloidosis, and neoplastic transformation (eg, chronic HCV infection → chronic\ninflammation → hepatocellular carcinoma; Helicobacter pylori infection → chronic gastritis\n→ gastric adenocarcinoma).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The wound healing headers + the tissue mediators table part 1 — FGF (angiogenesis), TGF-β (angiogenesis, fibrosis), VEGF (angiogenesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "Wound healing\nTissue mediators\n\nMeDIATOR\n\nROLe\n\nFGF\nTGF-β\n\nStimulates angiogenesis\nAngiogenesis, fibrosis\n\nVEGF\n\nStimulates angiogenesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tissue mediators table part 2 — PDGF's full role (activated platelets and macrophages; vascular remodeling, smooth muscle migration; fibroblast growth for collagen synthesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "PDGF\n\nSecreted by activated platelets and macrophages\nInduces vascular remodeling and smooth\nmuscle cell migration\nStimulates fibroblast growth for collagen\nsynthesis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tissue mediators table part 3 — Metalloproteinases (tissue remodeling) and EGF (cell growth via tyrosine kinases, EGFR/ErbB1)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "Metalloproteinases\n\nTissue remodeling\n\nEGF\n\nStimulates cell growth via tyrosine kinases (eg,\nEGFR/ErbB1)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The phases table part 1 — headers + the Inflammatory phase (up to 3 days; platelets, neutrophils, macrophages; clot formation, ↑ vessel permeability, neutrophil migration; macrophages clear debris 2 days later)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "PHASe Of WOUND HeALING\n\neffeCTOR CeLLS\n\nCHARACTeRISTICS\n\nInflammatory (up to\n3 days after wound)\n\nPlatelets, neutrophils, macrophages\n\nClot formation, ↑ vessel permeability and\nneutrophil migration into tissue; macrophages\nclear debris 2 days later",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The phases table part 2 — the Proliferative phase (day 3-weeks; fibroblasts, myofibroblasts, endothelial cells, keratinocytes, macrophages; granulation tissue and type III collagen, angiogenesis, epithelial proliferation, clot dissolution, wound contraction via myofibroblasts; delayed in vitamin C and copper deficiency)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "Proliferative\n(day 3-weeks after\nwound)\n\nFibroblasts, myofibroblasts, endothelial cells,\nkeratinocytes, macrophages\n\nDeposition of granulation tissue and type\nIII collagen, angiogenesis, epithelial cell\nproliferation, dissolution of clot, and wound\ncontraction (mediated by myofibroblasts)\nDelayed second phase of wound healing in\nvitamin C and copper deficiency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The phases table part 3 — the Remodeling phase (1 week-6+ months; fibroblasts; type III replaced by type I, ↑ tensile strength; zinc-requiring collagenases break down type III; zinc deficiency → delayed wound healing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "Remodeling\n(1 week-6+ months\nafter wound)\n\nFibroblasts\n\nType III collagen replaced by type I collagen,\n↑ tensile strength of tissue\nCollagenases (require zinc to function) break\ndown type III collagen\nZinc deficiency → delayed wound healing",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 212\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "wound-healing-phase-map"
+  ],
+  "mechanismIds": [
+    "phase-relay-map",
+    "chronic-stage-setter"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the chronic block and both wound tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "phase-cofactor-pairing",
+      "summary": "The phase-cofactor pairing rule (build needs C and copper, swap needs zinc) — KYP's synthesis of the two printed deficiency notes into one routing rule.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the deficiency notes inside the table cells without a phase-lockout framing; the pairing rule is KYP's design.",
+      "location": "core.keyIdea + mechanism 1's output + the visual's highlighted lockouts"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (CLEAN BUILD STRENGTHEN / C AND COPPER BUILD ZINC SWAPS / THREE GROW VESSELS PDGF BUILDS / ANGER VS REPAIR SAME MACROPHAGE) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 212 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's phase band"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: NO rasters on pdf 234 — the chronic inflammation block and both wound-healing tables are pure text (an ORIGINAL KYP ADAPTATION registry visual; never a reproduction). The topic includes the chronic inflammation block that prints above the wound tables on the same page. No margin mnemonics (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-10-28"
+}

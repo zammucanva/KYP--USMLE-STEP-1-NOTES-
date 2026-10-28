@@ -397,3 +397,141 @@ export function LeukocyteTraffickingMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Pathology P10 — Wound healing: the mediator and phase map
+// ---------------------------------------------------------------------------
+
+export function WoundHealingPhaseMap() {
+  const w = 980;
+  const h = 900;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Wound healing — the mediator and phase map, an original KYP adaptation of the source page (book 212 — the chronic inflammation block, the tissue mediators table, and the three phases of wound healing; no images on the page, pure text). TOP — CHRONIC INFLAMMATION: the definition (prolonged, mononuclear infiltration — macrophages, lymphocytes, plasma cells; simultaneous destruction and repair), the stimuli (persistent infections TB T pallidum fungi viruses to type IV hypersensitivity, autoimmune, silica, foreign material), the Th1-Th2 mediator fork (IFN-gamma classical activation vs IL-4 and IL-13 alternative activation), and the outcomes (scarring, amyloidosis, neoplastic transformation — HCV to hepatocellular carcinoma, H pylori to gastric adenocarcinoma). MIDDLE — THE TISSUE MEDIATORS: FGF, TGF-beta, VEGF, PDGF, metalloproteinases, EGF with their roles. BOTTOM — THE THREE PHASES: inflammatory (up to 3 days — platelets, neutrophils, macrophages; clot, permeability, debris clearance), proliferative (day 3 to weeks — granulation tissue, type III collagen, angiogenesis, contraction via myofibroblasts; delayed in vitamin C and copper deficiency), remodeling (1 week to 6+ months — type III replaced by type I, tensile strength, collagenases requiring zinc; zinc deficiency delays healing). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Wound healing — the mediator and phase map (original KYP adaptation)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">three phases · six mediators</text>
+      </g>
+      {/* ===== TOP — chronic inflammation ===== */}
+      <g>
+        <rect x="36" y="80" width="908" height="240" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="102" fontSize="8" fontWeight="800" className="fill-foreground">Chronic inflammation (book 212 — the block above the wound tables)</text>
+        <g>
+          <rect x="52" y="114" width="290" height="90" rx="10" className="fill-card stroke-border" />
+          <text x="64" y="130" fontSize="5" fontWeight="800" className="fill-brand">THE DEFINITION + STIMULI</text>
+          <text x="64" y="144" fontSize="3.7" fontWeight="700" className="fill-foreground">Prolonged inflammation; mononuclear infiltration</text>
+          <text x="64" y="154" fontSize="3.7" fontWeight="700" className="fill-foreground">(macrophages, lymphocytes, plasma cells) with</text>
+          <text x="64" y="164" fontSize="3.7" fontWeight="700" className="fill-foreground">SIMULTANEOUS destruction and repair</text>
+          <text x="64" y="178" fontSize="3.6" className="fill-muted-foreground">stimuli: persistent infections (TB, T pallidum,</text>
+          <text x="64" y="188" fontSize="3.6" className="fill-muted-foreground">certain fungi and viruses) → type IV hypersensitivity;</text>
+          <text x="64" y="198" fontSize="3.6" className="fill-muted-foreground">autoimmune; toxic agents (silica); foreign material</text>
+          <rect x="356" y="114" width="290" height="90" rx="10" className="fill-card stroke-border" />
+          <text x="368" y="130" fontSize="5" fontWeight="800" className="fill-brand">THE MEDIATOR FORK (Th1 vs Th2)</text>
+          <text x="368" y="144" fontSize="3.7" fontWeight="700" className="fill-foreground">Macrophages are the dominant cells; the</text>
+          <text x="368" y="154" fontSize="3.7" fontWeight="700" className="fill-foreground">macrophage–T-cell interaction drives chronicity:</text>
+          <text x="368" y="168" fontSize="3.7" fontWeight="800" className="fill-foreground">Th1 → IFN-γ → classical activation (proinflammatory)</text>
+          <text x="368" y="182" fontSize="3.7" fontWeight="800" className="fill-foreground">Th2 → IL-4 and IL-13 → alternative activation</text>
+          <text x="368" y="192" fontSize="3.7" fontWeight="700" className="fill-foreground">(repair and anti-inflammatory)</text>
+          <rect x="660" y="114" width="268" height="90" rx="10" className="fill-card stroke-border" />
+          <text x="672" y="130" fontSize="5" fontWeight="800" className="fill-emergency">THE OUTCOMES</text>
+          <text x="672" y="144" fontSize="3.7" fontWeight="700" className="fill-foreground">Scarring · amyloidosis · neoplastic transformation</text>
+          <text x="672" y="158" fontSize="3.6" className="fill-muted-foreground">the printed oncogenesis chains: chronic HCV</text>
+          <text x="672" y="168" fontSize="3.6" className="fill-muted-foreground">infection → chronic inflammation → hepatocellular</text>
+          <text x="672" y="178" fontSize="3.6" className="fill-muted-foreground">carcinoma; H pylori infection → chronic gastritis</text>
+          <text x="672" y="188" fontSize="3.6" className="fill-muted-foreground">→ gastric adenocarcinoma</text>
+        </g>
+        <text x="52" y="224" fontSize="4.4" fontWeight="700" className="fill-muted-foreground">The bridge to wound healing: chronic inflammation is destruction AND repair running at once — angiogenesis and fibrosis are already underway — and the wound tables below name the molecules and the timetable of that repair.</text>
+        <text x="52" y="240" fontSize="4.4" fontWeight="700" className="fill-muted-foreground">May be preceded by acute inflammation (the P8 panel's fifth outcome: antigen presentation by macrophages and other APCs → activation of CD4+ Th cells → the mononuclear shift).</text>
+      </g>
+      {/* ===== MIDDLE — the tissue mediators ===== */}
+      <g>
+        <text x="36" y="344" fontSize="8" fontWeight="800" className="fill-foreground">The tissue mediators (book 212 — verbatim)</text>
+        <g>
+          <rect x="36" y="354" width="300" height="56" rx="8" className="fill-card stroke-border" />
+          <text x="48" y="370" fontSize="4.6" fontWeight="800" className="fill-foreground">FGF · VEGF</text>
+          <text x="48" y="384" fontSize="3.7" fontWeight="700" className="fill-foreground">Stimulate angiogenesis</text>
+          <text x="48" y="398" fontSize="3.5" className="fill-muted-foreground">the vessel growers of the granulation bed</text>
+          <rect x="348" y="354" width="300" height="56" rx="8" className="fill-card stroke-border" />
+          <text x="360" y="370" fontSize="4.6" fontWeight="800" className="fill-foreground">TGF-β</text>
+          <text x="360" y="384" fontSize="3.7" fontWeight="700" className="fill-foreground">Angiogenesis, fibrosis</text>
+          <text x="360" y="398" fontSize="3.5" className="fill-muted-foreground">the fibrosis driver (the P6 radiation dermatitis molecule)</text>
+          <rect x="660" y="354" width="284" height="56" rx="8" className="fill-card stroke-border" />
+          <text x="672" y="370" fontSize="4.6" fontWeight="800" className="fill-foreground">METALLOPROTEINASES</text>
+          <text x="672" y="384" fontSize="3.7" fontWeight="700" className="fill-foreground">Tissue remodeling</text>
+          <text x="672" y="398" fontSize="3.5" className="fill-muted-foreground">the matrix movers</text>
+          <rect x="36" y="420" width="440" height="72" rx="8" className="fill-card stroke-border" />
+          <text x="48" y="436" fontSize="4.6" fontWeight="800" className="fill-foreground">PDGF</text>
+          <text x="48" y="450" fontSize="3.7" fontWeight="700" className="fill-foreground">Secreted by activated platelets and macrophages</text>
+          <text x="48" y="462" fontSize="3.7" fontWeight="700" className="fill-foreground">Induces vascular remodeling and smooth muscle cell migration</text>
+          <text x="48" y="474" fontSize="3.7" fontWeight="700" className="fill-foreground">Stimulates fibroblast growth for collagen synthesis</text>
+          <rect x="488" y="420" width="456" height="72" rx="8" className="fill-card stroke-border" />
+          <text x="500" y="436" fontSize="4.6" fontWeight="800" className="fill-foreground">EGF</text>
+          <text x="500" y="450" fontSize="3.7" fontWeight="700" className="fill-foreground">Stimulates cell growth via tyrosine kinases (eg, EGFR/ErbB1)</text>
+          <text x="500" y="464" fontSize="3.5" className="fill-muted-foreground">the epithelial proliferator — the receptor the wound edge uses;</text>
+          <text x="500" y="476" fontSize="3.5" className="fill-muted-foreground">the growth-factor table's oncology crossover (ErbB1 = HER1)</text>
+        </g>
+      </g>
+      {/* ===== BOTTOM — the three phases ===== */}
+      <g>
+        <text x="36" y="518" fontSize="8" fontWeight="800" className="fill-foreground">The three phases of wound healing (book 212 — verbatim)</text>
+        <g>
+          <rect x="36" y="528" width="908" height="30" rx="8" className="fill-brand-soft" />
+          <text x="196" y="547" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">1. INFLAMMATORY — up to 3 days</text>
+          <text x="490" y="547" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">2. PROLIFERATIVE — day 3 to weeks</text>
+          <text x="796" y="547" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">3. REMODELING — 1 week to 6+ months</text>
+        </g>
+        <g>
+          <rect x="36" y="566" width="290" height="230" rx="10" className="fill-card stroke-border" />
+          <text x="48" y="584" fontSize="5" fontWeight="800" className="fill-foreground">THE OPENING CLEANUP</text>
+          <text x="48" y="600" fontSize="4.2" fontWeight="800" className="fill-foreground">effeCTOR CeLLS</text>
+          <text x="48" y="612" fontSize="3.7" fontWeight="700" className="fill-foreground">Platelets · neutrophils · macrophages</text>
+          <text x="48" y="632" fontSize="4.2" fontWeight="800" className="fill-foreground">CHARACTeRISTICS</text>
+          <text x="48" y="644" fontSize="3.7" fontWeight="700" className="fill-foreground">Clot formation; ↑ vessel permeability and</text>
+          <text x="48" y="654" fontSize="3.7" fontWeight="700" className="fill-foreground">neutrophil migration into tissue;</text>
+          <text x="48" y="664" fontSize="3.7" fontWeight="700" className="fill-foreground">macrophages clear debris 2 days later</text>
+          <text x="48" y="684" fontSize="3.6" className="fill-muted-foreground">The P8 page's acute panel in miniature: the</text>
+          <text x="48" y="694" fontSize="3.6" className="fill-muted-foreground">clot stops the bleeding, the neutrophils arrive</text>
+          <text x="48" y="704" fontSize="3.6" className="fill-muted-foreground">first, and the macrophages — the late-stage</text>
+          <text x="48" y="714" fontSize="3.6" className="fill-muted-foreground">predominators (peak 2-3 days) — sweep up.</text>
+          <rect x="338" y="566" width="300" height="230" rx="10" className="fill-card stroke-border" />
+          <text x="350" y="584" fontSize="5" fontWeight="800" className="fill-foreground">THE GRANULATION BUILD</text>
+          <text x="350" y="600" fontSize="4.2" fontWeight="800" className="fill-foreground">effeCTOR CeLLS</text>
+          <text x="350" y="612" fontSize="3.7" fontWeight="700" className="fill-foreground">Fibroblasts · myofibroblasts · endothelial</text>
+          <text x="350" y="622" fontSize="3.7" fontWeight="700" className="fill-foreground">cells · keratinocytes · macrophages</text>
+          <text x="350" y="642" fontSize="4.2" fontWeight="800" className="fill-foreground">CHARACTeRISTICS</text>
+          <text x="350" y="654" fontSize="3.7" fontWeight="700" className="fill-foreground">Deposition of granulation tissue and type III</text>
+          <text x="350" y="664" fontSize="3.7" fontWeight="700" className="fill-foreground">collagen; angiogenesis; epithelial cell</text>
+          <text x="350" y="674" fontSize="3.7" fontWeight="700" className="fill-foreground">proliferation; dissolution of clot; wound</text>
+          <text x="350" y="684" fontSize="3.7" fontWeight="700" className="fill-foreground">contraction (mediated by myofibroblasts)</text>
+          <rect x="350" y="694" width="276" height="36" rx="6" className="fill-warning-soft/40 stroke-warning" />
+          <text x="488" y="708" textAnchor="middle" fontSize="3.7" fontWeight="800" className="fill-warning">Delayed in VITAMIN C and COPPER deficiency</text>
+          <text x="488" y="720" textAnchor="middle" fontSize="3.5" className="fill-muted-foreground">the collagen-synthesis cofactors</text>
+          <rect x="650" y="566" width="294" height="230" rx="10" className="fill-card stroke-border" />
+          <text x="662" y="584" fontSize="5" fontWeight="800" className="fill-foreground">THE STRENGTHENING SWAP</text>
+          <text x="662" y="600" fontSize="4.2" fontWeight="800" className="fill-foreground">effeCTOR CeLLS</text>
+          <text x="662" y="612" fontSize="3.7" fontWeight="700" className="fill-foreground">Fibroblasts</text>
+          <text x="662" y="632" fontSize="4.2" fontWeight="800" className="fill-foreground">CHARACTeRISTICS</text>
+          <text x="662" y="644" fontSize="3.7" fontWeight="700" className="fill-foreground">Type III collagen replaced by type I collagen;</text>
+          <text x="662" y="654" fontSize="3.7" fontWeight="700" className="fill-foreground">↑ tensile strength of tissue</text>
+          <text x="662" y="668" fontSize="3.7" fontWeight="700" className="fill-foreground">Collagenases (require ZINC to function)</text>
+          <text x="662" y="678" fontSize="3.7" fontWeight="700" className="fill-foreground">break down type III collagen</text>
+          <rect x="662" y="690" width="270" height="40" rx="6" className="fill-warning-soft/40 stroke-warning" />
+          <text x="797" y="704" textAnchor="middle" fontSize="3.7" fontWeight="800" className="fill-warning">ZINC deficiency → delayed wound healing</text>
+          <text x="797" y="716" textAnchor="middle" fontSize="3.5" className="fill-muted-foreground">the collagenase cofactor</text>
+          <text x="662" y="748" fontSize="3.6" className="fill-muted-foreground">Months of quiet exchange: the weak</text>
+          <text x="662" y="758" fontSize="3.6" className="fill-muted-foreground">scaffold traded for the strong one, scar</text>
+          <text x="662" y="768" fontSize="3.6" className="fill-muted-foreground">maturing as tensile strength climbs.</text>
+        </g>
+      </g>
+      {/* footer */}
+      <g>
+        <rect x="24" y="810" width="932" height="72" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="830" fontSize="6" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 234 / book 212 (Pathology — Inflammation: Chronic inflammation + Wound healing)</text>
+        <text x="42" y="848" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): NO raster images on this page — the chronic inflammation block and both wound-healing tables are pure text; this registry visual is an original KYP adaptation, not a reproduction.</text>
+        <text x="42" y="862" fontSize="5" className="fill-muted-foreground">Carried verbatim: the chronic inflammation definition/stimuli/mediators/outcomes, the 6-row tissue mediators table, and the 3-row phases table with both deficiency notes (vitamin C + copper; zinc). No margin mnemonics print on the page (VLM census confirmed); the KYP memory layer is original. Copyright boundary: the tables are carried verbatim; the registry visual is an original KYP adaptation.</text>
+      </g>
+    </svg>
+  );
+}

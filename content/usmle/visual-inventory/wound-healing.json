@@ -1,0 +1,100 @@
+{
+  "topicId": "wound-healing",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "wound-healing",
+      "requiredInKYP": true,
+      "visualId": "wound-healing-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The chronic inflammation block (book 212)",
+      "sourceFigureDescription": "The definition (mononuclear infiltration, simultaneous destruction and repair), STIMULI, MEDIATORS (with the Th1/Th2 fork), and OUTCOMES rows with the two oncogenesis chains. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "wound-healing-phase-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the chronic stage-setter cards) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "wound-healing-phase-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "wound-healing",
+      "requiredInKYP": true,
+      "visualId": "wound-healing-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The tissue mediators table (book 212)",
+      "sourceFigureDescription": "The MEDIATOR | ROLE table: FGF, TGF-β, VEGF, PDGF (3-line role), Metalloproteinases, EGF (EGFR/ErbB1). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "wound-healing-phase-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the six mediator cards) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "wound-healing-phase-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "wound-healing",
+      "requiredInKYP": true,
+      "visualId": "wound-healing-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          234
+        ],
+        "bookPages": "212"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The phases of wound healing table (book 212)",
+      "sourceFigureDescription": "The PHASE OF WOUND HEALING | EFFECTOR CELLS | CHARACTERISTICS table: Inflammatory (up to 3 days), Proliferative (day 3-weeks, with the vitamin C and copper note), Remodeling (1 week-6+ months, with the zinc/collagenase note). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "wound-healing-phase-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the three-phase relay with both deficiency lockouts) + blocks[3] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "wound-healing-phase-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "wound-healing",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries no images — three pure-text blocks (the chronic inflammation block and the two wound-healing tables) are adapted as the registry visual and carried verbatim in the note's tables (ORIGINAL KYP ADAPTATIONS; nothing reproduced). No margin mnemonics exist on the page."
+}

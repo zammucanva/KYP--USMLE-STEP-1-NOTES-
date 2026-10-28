@@ -6,7 +6,7 @@
 
 import type { ComponentType } from "react";
 
-import { AcutePhaseReactantMap, LeukocyteTraffickingMap } from "./inflammation";
+import { AcutePhaseReactantMap, LeukocyteTraffickingMap, WoundHealingPhaseMap } from "./inflammation";
 import { AvBlockEcgGallery } from "./ecg";
 import {
   AcidBaseAlgorithm,
@@ -344,4 +344,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "amyloid-deposition-map": AmyloidDepositionMap,
   "acute-phase-reactant-map": AcutePhaseReactantMap,
   "leukocyte-trafficking-map": LeukocyteTraffickingMap,
+  "wound-healing-phase-map": WoundHealingPhaseMap,
 };
