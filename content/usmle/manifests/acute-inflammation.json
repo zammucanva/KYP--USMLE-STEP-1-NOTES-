@@ -1,0 +1,373 @@
+{
+  "topicId": "acute-inflammation",
+  "title": "Acute Inflammation: Cardinal Signs & Acute-Phase Reactants",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Inflammation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      231,
+      232
+    ],
+    "bookPages": "209–210"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and the printed page number (book 209)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—INfLAMMATION\n\nSEC TION II\n\n209\n\n▶ PATHOLOGY—INfLAMMATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inflammation definition — eliminate the initial cause, remove necrotic cells, initiate tissue repair; divided into acute and chronic; the harmful triple (excessive septic shock, prolonged TB, inappropriate SLE)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Response to eliminate initial cause of cell injury, to remove necrotic cells resulting from the\noriginal insult, and to initiate tissue repair. Divided into acute and chronic. The inflammatory\nresponse itself can be harmful to the host if the reaction is excessive (eg, septic shock), prolonged\n(eg, persistent infections such as TB), or inappropriate (eg, autoimmune diseases such as SLE).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Rubor and calor — redness and warmth; vasodilation (relaxation of arteriolar smooth muscle) → ↑ blood flow; histamine, prostaglandins, bradykinin, NO",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Rubor and calor\n\nRedness and warmth. Vasodilation (relaxation of arteriolar smooth muscle) → ↑ blood flow.\nMediated by histamine, prostaglandins, bradykinin, NO.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tumor — swelling; endothelial contraction/disruption → ↑ vascular permeability → protein-rich exudate from postcapillary venules → ↑ interstitial oncotic pressure; leukotrienes (C4, D4, E4), histamine, serotonin, bradykinin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Tumor\n\nSwelling. Endothelial contraction/disruption (eg, from tissue damage) → ↑ vascular permeability\n→ leakage of protein-rich fluid from postcapillary venules into interstitial space (exudate)\n→ ↑ interstitial oncotic pressure. Endothelial cell contraction is mediated by leukotrienes (C4, D4,\nE4), histamine, serotonin, bradykinin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Dolor — pain; sensitization of sensory nerve endings; bradykinin, PGE2, histamine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Dolor\n\nPain. Sensitization of sensory nerve endings. Mediated by bradykinin, PGE2, histamine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Functio laesa — loss of function; inability to make fist due to hand cellulitis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Functio laesa\n\nLoss of function. Inflammation impairs function (eg, inability to make fist due to hand cellulitis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Fever — pyrogens (eg, LPS) induce macrophages to release IL-1 and TNF → ↑ COX activity in perivascular cells of anterior hypothalamus → ↑ PGE2 → ↑ temperature set point",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Fever\n\nPyrogens (eg, LPS) induce macrophages to release IL-1 and TNF → ↑ COX activity in perivascular\ncells of anterior hypothalamus → ↑ PGE2 → ↑ temperature set point.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Leukocytosis — ↑ WBC count; predominant cell depends on inciting agent (eg, bacteria → ↑ neutrophils)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Leukocytosis\n\n↑ WBC count; type of predominant cell depends on inciting agent or injury (eg, bacteria\n→ ↑ neutrophils).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "↑ plasma acute-phase reactants — serum concentrations change in acute and chronic inflammation; produced by liver; notably induced by IL-6",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "↑ plasma acute-phase\nreactants\n\nSerum concentrations significantly change in response to acute and chronic inflammation.\nProduced by liver. Notably induced by IL-6.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The POSITIVE reactant rows part 1 — CRP (opsonin, fixes complement, nonspecific sign), Ferritin (sequesters iron), Fibrinogen (coagulation factor, endothelial repair, correlates with ESR)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "POSITIVe (UPReGULATeD)\n\nC-reactive protein\n\nOpsonin; fixes complement and facilitates phagocytosis.\nMeasured clinically as a nonspecific sign of ongoing inflammation.\n\nFerritin\n\nBinds and sequesters iron to inhibit microbial iron scavenging.\n\nFibrinogen\n\nCoagulation factor; promotes endothelial repair; correlates with ESR.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The POSITIVE reactant rows part 2 — Haptoglobin (binds extracellular hemoglobin), Hepcidin (↓ absorption by degrading ferroportin + ↓ release → anemia of chronic disease), Procalcitonin (bacterial infections), Serum amyloid A (prolonged → secondary amyloidosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "Haptoglobin\n\nBinds extracellular hemoglobin, protects against oxidative stress.\n\nHepcidin\n\n↓ iron absorption (by degrading ferroportin) and ↓ iron release (from macrophages) → anemia of\nchronic disease.\n\nProcalcitonin\n\nIncreases in bacterial infections.\n\nSerum amyloid A\n\nProlonged elevation can lead to secondary amyloidosis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEGATIVE reactant rows — Albumin (conserves amino acids), Transferrin (internalized to sequester iron), Transthyretin (prealbumin; conserves amino acids) + the indd footer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "quote": "NeGATIVe (DOWNReGULATeD)\n\nAlbumin\n\nDownregulation conserves amino acids for positive reactants.\n\nTransferrin\n\nInternalized by macrophages to sequester iron.\n\nTransthyretin\n\nAlso called prealbumin. Downregulation conserves amino acids for positive reactants.\n\nFAS1_2026_04-Pathol.indd 209",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ESR mechanism — RBCs separated via ⊝ charges; fibrinogen coats RBCs → ↓ ⊝ charge → ↑ aggregation; denser aggregates fall faster → ↑ ESR; co-tested with CRP (more specific)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "RBCs normally remain separated via ⊝ charges. Products of inﬂammation (eg, fibrinogen) coat\nRBCs → ↓ ⊝ charge → ↑ RBC aggregation. Denser RBC aggregates fall at a faster rate within a\npipette tube → ↑ ESR. Often co-tested with CRP (more specific marker of inflammation).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ↑ ESR list — most anemias, infections, inflammation (giant cell [temporal] arteritis, polymyalgia rheumatica), cancer (metastases, multiple myeloma), renal disease (end-stage or nephrotic syndrome), pregnancy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "Most anemias\nInfections\nInflammation (eg, giant cell [temporal] arteritis,\npolymyalgia rheumatica)\nCancer (eg, metastases, multiple myeloma)\nRenal disease (end-stage or nephrotic syndrome)\nPregnancy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ↓ ESR list with the 'lower than expected' footnote — sickle cell anemia (altered shape), polycythemia (↑ RBCs 'dilute' aggregation factors), HF, microcytosis, hypofibrinogenemia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "Sickle cell anemia (altered shape)\nPolycythemia (↑ RBCs “dilute” aggregation\nfactors)\nHF\nMicrocytosis\nHypofibrinogenemia\n\na\n\nAcute inflammation\n\n▶ PATHOLOGY—INfLAMMATION\n\nLower than expected.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The acute inflammation definition — transient and early, neutrophils in tissue A with edema, rapid onset (seconds to minutes), short duration (minutes to days), innate immune system (less specific than chronic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "Transient and early response to injury or infection. Characterized by neutrophils in tissue A ,\noften with associated edema. Rapid onset (seconds to minutes) and short duration (minutes to\ndays). Represents a reaction of the innate immune system (ie, less specific response than chronic\ninflammation).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STIMULI (infections, trauma, necrosis, foreign bodies) + MEDIATORS (TLRs, arachidonic acid metabolites, neutrophils, eosinophils, pre-existing antibodies, mast cells, basophils, complement, Hageman factor XII)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "STIMULI\n\nInfections, trauma, necrosis, foreign bodies.\n\nMeDIATORS\n\nToll-like receptors, arachidonic acid metabolites,\nneutrophils, eosinophils, antibodies (preexisting), mast cells, basophils, complement,\nHageman factor (factor XII).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "COMPONENTS — vascular (vasodilation → ↑ blood flow and stasis; ↑ endothelial permeability, contraction opens interendothelial junctions) + cellular (extravasation of leukocytes mainly neutrophils from postcapillary venules → accumulation → activation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "COMPONeNTS\n\n▘ Vascular: vasodilation (→ ↑ blood flow\nand stasis) and ↑ endothelial permeability\n(contraction of endothelial cells opens\ninterendothelial junctions)\n▘ Cellular: extravasation of leukocytes (mainly\nneutrophils) from postcapillary venules\n→ accumulation of leukocytes in focus of\ninjury → leukocyte activation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OUTCOMES — resolution and healing (IL-10, TGF-β), persistent acute inflammation (IL-8), abscess (walled off by fibrosis), chronic inflammation (antigen presentation by macrophages and other APCs → CD4+ Th cells), scarring",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "▘ Resolution and healing (IL-10, TGF-β)\n▘ Persistent acute inflammation (IL-8)\n▘ Abscess (acute inflammation walled off by\nfibrosis)\n▘ Chronic inflammation (antigen presentation\nby macrophages and other APCs\n→ activation of CD4+ Th cells)\n▘ Scarring",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inflammasome margin block — cytoplasmic complex recognizing DAMPs and PAMPs (microbial products, uric acid crystals) → IL-1 activation → fever, leukocytosis; brings cells and proteins to the site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "Inﬂammasome—cytoplasmic complex\nrecognizing damage- and pathogen-associated\nmolecular patterns (eg, microbial products,\nuric acid crystals) → IL-1 activation →\ninflammatory response (eg, fever, leukocytosis).\nBrings cells and proteins to site of injury or\ninfection.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The extravasation + macrophage margin block — 4 steps (margination and rolling, adhesion, transmigration, migration/chemoattraction); macrophages predominate late (peak 2-3 days), secreting cytokines",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "Leukocyte extravasation has 4 steps: margination\nand rolling, adhesion, transmigration, and\nmigration (chemoattraction).\nMacrophages predominate in the late stages of\nacute inflammation (peak 2-3 days after onset)\nand influence outcome by secreting cytokines.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity, book 210)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "acute-phase-reactant-map"
+  ],
+  "mechanismIds": [
+    "cardinal-sign-cascade",
+    "reactant-esr-routing"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition, the signs table, the reactants, the ESR block, and the panel; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "three-frame-reading",
+      "summary": "The three-frame rule (the local sign, the systemic marker, the panel) — KYP's synthesis of the two pages into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the blocks side by side without a unified reading protocol; the three-frame framing is KYP's design.",
+      "location": "core.keyIdea + both mechanisms + m3"
+    },
+    {
+      "id": "iron-trio-framing",
+      "summary": "The 'iron goes into hiding' framing (ferritin locks, hepcidin blocks, transferrin hides) unifying the iron-related reactants across both columns — and the four original mnemonics, since no mnemonic prints on either page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 209-210 (VLM census confirmed); the four codes and the iron-trio framing are KYP's design.",
+      "location": "mnemonics + traps + the mini-case reasoning"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: pdf 232's single photograph (A — the H&E micrograph of dense neutrophil infiltration, dark purple multilobed nuclei in pink tissue) is COPYRIGHTED — described-in-text only, never reproduced (the M32 convention). Two-page topic: the cardinal signs + reactants on book 209; the ESR + acute inflammation panel on book 210. No margin mnemonics on either page (VLM confirmed on both); the KYP memory layer is original.",
+  "updatedAt": "2026-10-28"
+}

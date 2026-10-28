@@ -1,0 +1,154 @@
+{
+  "topicId": "acute-inflammation",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "acute-inflammation",
+      "requiredInKYP": true,
+      "visualId": "acute-inflammation-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Cardinal signs table (book 209)",
+      "sourceFigureDescription": "The SIGN | MECHANISM table with the Cardinal signs rows (Rubor and calor, Tumor, Dolor, Functio laesa) and the Systemic manifestations rows (Fever, Leukocytosis, ↑ plasma acute-phase reactants). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "acute-phase-reactant-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the local response panel + the systemic answer panel) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "acute-phase-reactant-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "acute-inflammation",
+      "requiredInKYP": true,
+      "visualId": "acute-inflammation-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          231
+        ],
+        "bookPages": "209"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Acute-phase reactants table (book 209)",
+      "sourceFigureDescription": "The POSITIVE (UPREGULATED) group (CRP, Ferritin, Fibrinogen, Haptoglobin, Hepcidin, Procalcitonin, Serum amyloid A) and the NEGATIVE (DOWNREGULATED) group (Albumin, Transferrin, Transthyretin) with each function. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "acute-phase-reactant-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the reactant router with both groups) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "acute-phase-reactant-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "acute-inflammation",
+      "requiredInKYP": true,
+      "visualId": "acute-inflammation-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The ESR block (book 210)",
+      "sourceFigureDescription": "The ESR mechanism paragraph, the two-column ↑ ESR / ↓ ESR disease lists, and the 'a Lower than expected' footnote. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "acute-phase-reactant-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the ESR panel with mechanism + both lists) + blocks[3] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "acute-phase-reactant-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "acute-inflammation",
+      "requiredInKYP": true,
+      "visualId": "acute-inflammation-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The acute inflammation panel + the two margin blocks (book 210)",
+      "sourceFigureDescription": "The definition (transient and early, neutrophils in tissue, innate) with the four-row table STIMULI / MEDIATORS / COMPONENTS / OUTCOMES, plus the inflammasome and 4-step extravasation/macrophages margin blocks. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "acute-phase-reactant-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the bottom acute inflammation panel) + blocks[4] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "acute-phase-reactant-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "acute-inflammation",
+      "requiredInKYP": true,
+      "visualId": "acute-inflammation-sv5",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          232
+        ],
+        "bookPages": "210"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph A — neutrophils in tissue (book 210)",
+      "sourceFigureDescription": "A cmyk JPEG micrograph (~187x188 at 150 dpi), lettered A beside 'Characterized by neutrophils in tissue A': an H&E micrograph of dense neutrophil infiltration — dark purple multilobed nuclei within pinkish tissue/stroma — below the Acute inflammation header. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's panel definition line + blocks[3] the photographs row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "acute-inflammation",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 5,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pages' four text blocks (the cardinal signs table; the reactants table; the ESR block; the acute inflammation panel with its two margin blocks) are adapted as the registry visual and carried verbatim in the note's tables. The single photograph (A — the neutrophil-infiltration H&E micrograph) is COPYRIGHTED — described in text in the registry visual and the note's table, never reproduced (the M32 convention). No margin mnemonics exist on either page; nothing reproduced."
+}

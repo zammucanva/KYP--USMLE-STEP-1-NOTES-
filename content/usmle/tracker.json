@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-28T17:14:38Z",
+  "generatedAt": "2026-10-28T17:24:56Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 133,
+    "topicsProduced": 134,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 78,
+      "pilot-complete": 79,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 7,
-      "topicsRemaining": 12,
+      "topicsProduced": 8,
+      "topicsRemaining": 11,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -409,6 +409,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "acute-inflammation",
+      "title": "Acute Inflammation: Cardinal Signs & Acute-Phase Reactants",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Inflammation",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 231, 232 (book 209–210)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-28"
     },
     {
       "topicId": "amino-acids",

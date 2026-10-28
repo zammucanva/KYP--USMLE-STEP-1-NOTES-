@@ -97,6 +97,7 @@ import { necrosisTypes } from "./necrosis-types";
 import { tissueInjuryInfarcts } from "./tissue-injury-infarcts";
 import { calcificationRadiationInjury } from "./calcification-radiation-injury";
 import { amyloidosis } from "./amyloidosis";
+import { acuteInflammation } from "./acute-inflammation";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -277,6 +278,7 @@ export const usmleNotes: KypUsMLENote[] = [
   tissueInjuryInfarcts,
   calcificationRadiationInjury,
   amyloidosis,
+  acuteInflammation,
   cranialNerves,
   diabetesMellitus,
 ];
