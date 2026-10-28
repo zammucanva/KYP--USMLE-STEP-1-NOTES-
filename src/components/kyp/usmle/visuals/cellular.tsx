@@ -1887,3 +1887,200 @@ export function CalcificationSplitMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Pathology P7 — Amyloidosis: the fibril-to-organ deposition map
+// ---------------------------------------------------------------------------
+
+export function AmyloidDepositionMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Amyloidosis — the fibril-to-organ deposition map, an original KYP adaptation of the source page (book 208 — the definition block with the beta-pleated sheet configuration, the six-organ manifestations list, the Congo red and H-and-E staining block, and the COMMON TYPES table; two copyrighted micrographs described in text, never reproduced). LEFT — THE DEFINITION AND THE STAIN: extracellular deposition of protein in abnormal fibrillar form (beta-pleated sheet configuration) causing cell injury and apoptosis; Congo red red-orange on nonpolarized light (A) and apple-green birefringence on polarized light (B); H-and-E amorphous pink. CENTER — THE COMMON TYPES ROUTER: SYSTEMIC (Primary AL from Ig light chains in plasma cell dyscrasias eg multiple myeloma; Secondary AA from serum amyloid A in chronic inflammatory conditions eg rheumatoid arthritis, IBD, familial Mediterranean fever, protracted infection; Transthyretin wild-type slowly progressive aging heart and mutated familial amyloid polyneuropathy or cardiomyopathy; Dialysis-related beta2-microglobulin in ESRD on long-term dialysis) against LOCALIZED (Alzheimer beta-amyloid cleaved from amyloid precursor protein; Isolated atrial ANP with increased atrial fibrillation risk; Type 2 diabetes islet amyloid polypeptide amylin in pancreatic islets; Medullary thyroid cancer calcitonin secreted from tumor cells). RIGHT — THE SIX ORGANS: renal nephrotic syndrome, cardiac restrictive cardiomyopathy, GI hepatosplenomegaly, neurologic dementia and peripheral neuropathy, musculoskeletal macroglossia and carpal tunnel, skin waxy thickening and easy bruising. The footer carries the source attribution, the census note with the stream-order quirk, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Amyloidosis — the fibril-to-organ deposition map (original KYP adaptation)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">one sheet · nine diseases</text>
+      </g>
+      {/* ===== LEFT — definition + stain ===== */}
+      <g>
+        <rect x="36" y="100" width="240" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The definition and the stain (book 208)</text>
+        <rect x="48" y="132" width="216" height="104" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="150" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-brand">THE β-PLEATED SHEET</text>
+        <text x="156" y="166" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">extracellular deposition of protein</text>
+        <text x="156" y="176" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">in abnormal fibrillar form</text>
+        <text x="156" y="186" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">(β-pleated sheet configuration)</text>
+        <text x="156" y="202" textAnchor="middle" fontSize="3.8" className="fill-muted-foreground">→ cell injury and apoptosis;</text>
+        <text x="156" y="212" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">manifestations vary depending</text>
+        <text x="156" y="222" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">on involved organ (six at right)</text>
+        <rect x="48" y="248" width="216" height="150" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="266" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">CONGO RED — THE CONFIRMATORY STAIN</text>
+        <text x="156" y="284" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">nonpolarized light (A):</text>
+        <text x="156" y="294" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">RED/ORANGE deposits</text>
+        <text x="156" y="310" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">polarized light (B):</text>
+        <text x="156" y="320" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">APPLE-GREEN birefringence</text>
+        <text x="156" y="336" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">H&amp;E stain:</text>
+        <text x="156" y="346" textAnchor="middle" fontSize="3.8" fontWeight="700" className="fill-foreground">amorphous pink</text>
+        <text x="156" y="362" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the birefringence under the</text>
+        <text x="156" y="372" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">polarizer is the diagnosis</text>
+        <text x="156" y="386" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the exam asks for</text>
+        <rect x="48" y="410" width="216" height="130" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="156" y="428" textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-foreground">THE TWO PHOTOGRAPHS — DESCRIBED</text>
+        <text x="156" y="446" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">A (cmyk JPEG ~188x177): Congo red</text>
+        <text x="156" y="456" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">under NONPOLARIZED light — salmon</text>
+        <text x="156" y="466" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">red/orange deposits, granular and</text>
+        <text x="156" y="476" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">dense, pale pink background with</text>
+        <text x="156" y="486" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">scattered dark nuclei</text>
+        <text x="156" y="502" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">B (~188x175): the same field</text>
+        <text x="156" y="512" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">POLARIZED — dark background, the</text>
+        <text x="156" y="522" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">deposits glowing apple-green</text>
+        <text x="156" y="532" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">birefringent flecks and streaks</text>
+        <text x="52" y="560" fontSize="3.8" fontWeight="800" className="fill-foreground">THE STREAM-ORDER QUIRK</text>
+        <text x="52" y="572" fontSize="3.7" className="fill-muted-foreground">the left-column labels 'Amyloidosis',</text>
+        <text x="52" y="582" fontSize="3.7" className="fill-muted-foreground">'COMMON TYPeS', 'A', 'B', 'Systemic',</text>
+        <text x="52" y="592" fontSize="3.7" className="fill-muted-foreground">'Localized' print AFTER the table rows</text>
+        <text x="52" y="602" fontSize="3.7" className="fill-muted-foreground">in the text layer (raw 94–104; the</text>
+        <text x="52" y="612" fontSize="3.7" className="fill-muted-foreground">M39 footer-split pattern, documented)</text>
+        <text x="52" y="632" fontSize="3.7" className="fill-muted-foreground">No margin mnemonics print on this</text>
+        <text x="52" y="642" fontSize="3.7" className="fill-muted-foreground">page (VLM census confirmed); the</text>
+        <text x="52" y="652" fontSize="3.7" className="fill-muted-foreground">KYP memory layer stays original.</text>
+      </g>
+      {/* ===== CENTER — the COMMON TYPES router ===== */}
+      <g>
+        <rect x="288" y="100" width="424" height="580" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="120" fontSize="8" fontWeight="800" className="fill-foreground">THE COMMON TYPES ROUTER (book 208 — verbatim)</text>
+        {/* SYSTEMIC group */}
+        <rect x="304" y="128" width="392" height="16" rx="5" className="fill-brand-soft" />
+        <text x="500" y="139" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">SYSTEMIC — multi-organ deposition</text>
+        <g>
+          <rect x="304" y="150" width="392" height="106" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="164" fontSize="4.6" fontWeight="800" className="fill-foreground">PRIMARY AMYLOIDOSIS</text>
+          <rect x="316" y="170" width="120" height="13" rx="4" className="fill-brand-soft" />
+          <text x="376" y="179" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">AL (from Ig Light chains)</text>
+          <text x="316" y="196" fontSize="3.7" fontWeight="700" className="fill-foreground">Seen in plasma cell dyscrasias</text>
+          <text x="316" y="206" fontSize="3.7" fontWeight="700" className="fill-foreground">(eg, multiple myeloma)</text>
+          <text x="316" y="224" fontSize="3.6" className="fill-muted-foreground">The marrow is the source: the M spike and the free light</text>
+          <text x="316" y="234" fontSize="3.6" className="fill-muted-foreground">chains name the fibril — nephrotic syndrome, restrictive</text>
+          <text x="316" y="244" fontSize="3.6" className="fill-muted-foreground">cardiomyopathy, macroglossia, carpal tunnel.</text>
+        </g>
+        <g>
+          <rect x="304" y="264" width="392" height="106" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="278" fontSize="4.6" fontWeight="800" className="fill-foreground">SECONDARY AMYLOIDOSIS</text>
+          <rect x="316" y="284" width="120" height="13" rx="4" className="fill-brand-soft" />
+          <text x="376" y="293" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">AA (serum Amyloid A)</text>
+          <text x="316" y="310" fontSize="3.7" fontWeight="700" className="fill-foreground">Seen in chronic inflammatory conditions,</text>
+          <text x="316" y="320" fontSize="3.7" fontWeight="700" className="fill-foreground">(eg, rheumatoid arthritis, IBD, familial</text>
+          <text x="316" y="330" fontSize="3.7" fontWeight="700" className="fill-foreground">Mediterranean fever, protracted infection)</text>
+          <text x="316" y="348" fontSize="3.6" className="fill-muted-foreground">The acute-phase protein that never stops: treat the</text>
+          <text x="316" y="358" fontSize="3.6" className="fill-muted-foreground">source — the joint, the bowel, the fever syndrome.</text>
+        </g>
+        <g>
+          <rect x="304" y="378" width="392" height="106" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="392" fontSize="4.6" fontWeight="800" className="fill-foreground">TRANSTHYRETIN AMYLOIDOSIS</text>
+          <rect x="316" y="398" width="120" height="13" rx="4" className="fill-brand-soft" />
+          <text x="376" y="407" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">Transthyretin</text>
+          <text x="316" y="424" fontSize="3.7" fontWeight="700" className="fill-foreground">Sporadic (wild-type TTR)—slowly progressive,</text>
+          <text x="316" y="434" fontSize="3.7" fontWeight="700" className="fill-foreground">associated with aging; mainly affects the heart</text>
+          <text x="316" y="450" fontSize="3.7" fontWeight="700" className="fill-foreground">Hereditary (mutated TTR)—familial amyloid</text>
+          <text x="316" y="460" fontSize="3.7" fontWeight="700" className="fill-foreground">polyneuropathy and/or cardiomyopathy</text>
+          <text x="316" y="476" fontSize="3.6" className="fill-muted-foreground">One protein, two clocks: the aging heart vs the family neuropathy.</text>
+        </g>
+        <g>
+          <rect x="304" y="492" width="392" height="56" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="506" fontSize="4.6" fontWeight="800" className="fill-foreground">DIALYSIS-RELATED AMYLOIDOSIS</text>
+          <rect x="316" y="512" width="120" height="13" rx="4" className="fill-brand-soft" />
+          <text x="376" y="521" textAnchor="middle" fontSize="4.4" fontWeight="800" className="fill-brand">β2-microglobulin</text>
+          <text x="316" y="538" fontSize="3.7" fontWeight="700" className="fill-foreground">Seen in patients with ESRD on long-term dialysis</text>
+        </g>
+        {/* LOCALIZED group */}
+        <rect x="304" y="554" width="392" height="16" rx="5" className="fill-emergency-soft" />
+        <text x="500" y="565" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-emergency">LOCALIZED — organ-confined deposition</text>
+        <g>
+          <rect x="304" y="576" width="190" height="46" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="589" fontSize="4.2" fontWeight="800" className="fill-foreground">ALZHEIMER DISEASE</text>
+          <text x="316" y="599" fontSize="3.7" fontWeight="700" className="fill-brand">β-amyloid protein</text>
+          <text x="316" y="609" fontSize="3.6" className="fill-muted-foreground">cleaved from amyloid precursor protein</text>
+          <rect x="506" y="576" width="190" height="46" rx="8" className="fill-card stroke-border" />
+          <text x="518" y="589" fontSize="4.2" fontWeight="800" className="fill-foreground">ISOLATED ATRIAL AMYLOIDOSIS</text>
+          <text x="518" y="599" fontSize="3.7" fontWeight="700" className="fill-brand">ANP</text>
+          <text x="518" y="609" fontSize="3.6" className="fill-muted-foreground">common, aging; ↑ risk for atrial fibrillation</text>
+          <rect x="304" y="628" width="190" height="46" rx="8" className="fill-card stroke-border" />
+          <text x="316" y="641" fontSize="4.2" fontWeight="800" className="fill-foreground">TYPE 2 DIABETES MELLITUS</text>
+          <text x="316" y="651" fontSize="3.7" fontWeight="700" className="fill-brand">Islet amyloid polypeptide</text>
+          <text x="316" y="661" fontSize="3.6" className="fill-muted-foreground">deposition of amylin in pancreatic islets</text>
+          <rect x="506" y="628" width="190" height="46" rx="8" className="fill-card stroke-border" />
+          <text x="518" y="641" fontSize="4.2" fontWeight="800" className="fill-foreground">MEDULLARY THYROID CANCER</text>
+          <text x="518" y="651" fontSize="3.7" fontWeight="700" className="fill-brand">Calcitonin</text>
+          <text x="518" y="661" fontSize="3.6" className="fill-muted-foreground">secreted from tumor cells</text>
+        </g>
+      </g>
+      {/* ===== RIGHT — the six organs ===== */}
+      <g>
+        <rect x="724" y="100" width="232" height="580" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="120" fontSize="8" fontWeight="800" className="fill-foreground">The six organs (book 208)</text>
+        <text x="740" y="134" fontSize="3.7" className="fill-muted-foreground">manifestations vary depending on</text>
+        <text x="740" y="144" fontSize="3.7" className="fill-muted-foreground">involved organ — the clinical surface</text>
+        <g>
+          <rect x="736" y="154" width="208" height="76" rx="8" className="fill-brand-soft/40 stroke-brand" />
+          <text x="748" y="172" fontSize="5" fontWeight="800" className="fill-brand">RENAL</text>
+          <text x="748" y="188" fontSize="3.8" fontWeight="700" className="fill-foreground">nephrotic syndrome</text>
+          <text x="748" y="202" fontSize="3.6" className="fill-muted-foreground">heavy proteinuria, hypoalbuminemia —</text>
+          <text x="748" y="212" fontSize="3.6" className="fill-muted-foreground">the glomerular deposition disease</text>
+        </g>
+        <g>
+          <rect x="736" y="240" width="208" height="76" rx="8" className="fill-emergency-soft/40 stroke-emergency" />
+          <text x="748" y="258" fontSize="5" fontWeight="800" className="fill-emergency">CARDIAC</text>
+          <text x="748" y="274" fontSize="3.8" fontWeight="700" className="fill-foreground">restrictive cardiomyopathy</text>
+          <text x="748" y="288" fontSize="3.6" className="fill-muted-foreground">thick walls, stiff filling, normal EF —</text>
+          <text x="748" y="298" fontSize="3.6" className="fill-muted-foreground">AL and wild-type TTR both land here</text>
+        </g>
+        <g>
+          <rect x="736" y="326" width="208" height="66" rx="8" className="fill-secondary/40 stroke-border" />
+          <text x="748" y="344" fontSize="5" fontWeight="800" className="fill-foreground">GI</text>
+          <text x="748" y="360" fontSize="3.8" fontWeight="700" className="fill-foreground">hepatosplenomegaly</text>
+          <text x="748" y="374" fontSize="3.6" className="fill-muted-foreground">early satiety, the enlarged margins</text>
+        </g>
+        <g>
+          <rect x="736" y="402" width="208" height="76" rx="8" className="fill-secondary/40 stroke-border" />
+          <text x="748" y="420" fontSize="5" fontWeight="800" className="fill-foreground">NEUROLOGIC</text>
+          <text x="748" y="436" fontSize="3.8" fontWeight="700" className="fill-foreground">dementia, peripheral neuropathy</text>
+          <text x="748" y="450" fontSize="3.6" className="fill-muted-foreground">the systemic sheets reach the brain</text>
+          <text x="748" y="460" fontSize="3.6" className="fill-muted-foreground">and the nerves; β-amyloid is local</text>
+        </g>
+        <g>
+          <rect x="736" y="488" width="208" height="86" rx="8" className="fill-warning-soft/40 stroke-warning" />
+          <text x="748" y="506" fontSize="5" fontWeight="800" className="fill-warning">MUSCULOSKELETAL</text>
+          <text x="748" y="522" fontSize="3.8" fontWeight="700" className="fill-foreground">muscle enlargement (eg, macroglossia),</text>
+          <text x="748" y="532" fontSize="3.8" fontWeight="700" className="fill-foreground">carpal tunnel syndrome</text>
+          <text x="748" y="546" fontSize="3.6" className="fill-muted-foreground">the giant tongue with dental notches;</text>
+          <text x="748" y="556" fontSize="3.6" className="fill-muted-foreground">the nocturnal burning hands</text>
+        </g>
+        <g>
+          <rect x="736" y="584" width="208" height="76" rx="8" className="fill-secondary/40 stroke-border" />
+          <text x="748" y="602" fontSize="5" fontWeight="800" className="fill-foreground">SKIN</text>
+          <text x="748" y="618" fontSize="3.8" fontWeight="700" className="fill-foreground">waxy thickening, easy bruising</text>
+          <text x="748" y="632" fontSize="3.6" className="fill-muted-foreground">the eyelids and neck of the exam</text>
+          <text x="748" y="642" fontSize="3.6" className="fill-muted-foreground">vignette, pinched and shining</text>
+        </g>
+        <text x="740" y="672" fontSize="3.7" className="fill-muted-foreground">One mechanism, six costumes — every</text>
+        <text x="740" y="682" fontSize="3.7" className="fill-muted-foreground">organ list entry is a presentation the</text>
+        <text x="740" y="692" fontSize="3.7" className="fill-muted-foreground">sheet can wear; the stain identifies,</text>
+        <text x="740" y="702" fontSize="3.7" className="fill-muted-foreground">the source routing names the disease.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <rect x="24" y="700" width="932" height="160" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="722" fontSize="6.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 230 / book 208 (Pathology — Cellular injury: Amyloidosis)</text>
+        <text x="42" y="742" fontSize="5.2" className="fill-muted-foreground">Census (pdfimages + VLM): TWO cmyk JPEG rasters (~188x177 and ~188x175 at 150 dpi), lettered A and B — A = Congo red under nonpolarized light (salmon red/orange deposits); B = the same field under polarized light</text>
+        <text x="42" y="754" fontSize="5.2" className="fill-muted-foreground">(apple-green birefringent glow on a dark background), sitting in the upper right column beside the definition. BOTH COPYRIGHTED — described in text only, never reproduced (the established specimen-photograph convention).</text>
+        <text x="42" y="774" fontSize="5.2" className="fill-muted-foreground">Text-layer stream-order quirk (the M39 footer-split pattern): the left-column labels 'Amyloidosis' (raw 94), 'COMMON TYPeS' (raw 96), 'A' (raw 98), 'B' (raw 100), 'Systemic' (raw 102), and 'Localized' (raw 104) print AFTER the table rows in the pdftotext stream.</text>
+        <text x="42" y="794" fontSize="5.2" className="fill-muted-foreground">Carried verbatim: the definition block, the six-organ manifestations list, the Congo red/H&amp;E staining block, and the COMMON TYPES table (all nine rows, Systemic and Localized groups with each fibril protein and note). No margin mnemonics print on the page (VLM census confirmed).</text>
+        <text x="42" y="814" fontSize="5.2" className="fill-muted-foreground">The KYP memory layer (ONE SHEET SIX ORGANS · CONGO GLOWS GREEN · MARROW MAKES AL INFLAMMATION MAKES AA · LOCAL PROTEIN LOCAL DISEASE) is original.</text>
+        <text x="42" y="836" fontSize="5.2" className="fill-muted-foreground">Copyright boundary: both photographs are copyrighted — described in text only, never reproduced (the established specimen-photograph convention); the table and text blocks are carried verbatim; this registry visual is an original KYP adaptation, not a redraw.</text>
+      </g>
+    </svg>
+  );
+}

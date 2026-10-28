@@ -52,6 +52,7 @@ import {
   ApoptosisPathwayMap,
   CellCycleCheckpointMap,
   CalcificationSplitMap,
+  AmyloidDepositionMap,
   InfarctTypeMap,
   InjuryTimelineMap,
   NecrosisTypeMap,
@@ -339,4 +340,5 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "necrosis-type-map": NecrosisTypeMap,
   "infarct-type-map": InfarctTypeMap,
   "calcification-split-map": CalcificationSplitMap,
+  "amyloid-deposition-map": AmyloidDepositionMap,
 };

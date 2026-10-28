@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 13,
+  "pendingTopicCount": 12,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -859,8 +859,118 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pathology — Cellular injury",
-      "status": "pending",
-      "productionRationale": "The amyloid table (primary, secondary, transthyretin, dialysis-related, Alzheimer, atrial, islet, medullary thyroid) with Congo red — the deposition-disease directory."
+      "status": "complete",
+      "productionRationale": "The amyloid table (primary, secondary, transthyretin, dialysis-related, Alzheimer, atrial, islet, medullary thyroid) with Congo red — the deposition-disease directory.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (amyloidosis)",
+          "topicId": "amyloidosis",
+          "requiredInKYP": true,
+          "visualId": "amyloidosis-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              230
+            ],
+            "bookPages": "208–208"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The COMMON TYPES table (book 208)",
+          "sourceFigureDescription": "The three-column table (COMMON TYPES | FIBRIL PROTEIN | NOTES) with Systemic (Primary AL, Secondary AA, Transthyretin, Dialysis-related β2-microglobulin) and Localized (Alzheimer β-amyloid, Isolated atrial ANP, Type 2 DM islet amyloid polypeptide, Medullary thyroid cancer calcitonin) group headers. Pure text; the group headers print late in the stream (raw 102/104, the M39 pattern).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "amyloid-deposition-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the COMMON TYPES router, Systemic and Localized groups) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "amyloid-deposition-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (amyloidosis)",
+          "topicId": "amyloidosis",
+          "requiredInKYP": true,
+          "visualId": "amyloidosis-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              230
+            ],
+            "bookPages": "208–208"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The definition + manifestations + staining blocks (book 208)",
+          "sourceFigureDescription": "The β-pleated sheet definition with the cell injury and apoptosis endpoint, the six-organ manifestations list (▘ bullets), and the Congo red/H&E staining block. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "amyloid-deposition-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the definition panel, the stain panel, the six-organ strip) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "amyloid-deposition-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (amyloidosis)",
+          "topicId": "amyloidosis",
+          "requiredInKYP": true,
+          "visualId": "amyloidosis-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              230
+            ],
+            "bookPages": "208–208"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph A — Congo red under nonpolarized light (book 208)",
+          "sourceFigureDescription": "A cmyk JPEG micrograph (~188x177 at 150 dpi): salmon red/orange amyloid deposits in a granular, dense texture against a pale pinkish background with scattered dark nuclei, lettered A. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's stain panel + blocks[1] the photographs row — a copyrighted micrograph, never reproduced",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Cellular injury (amyloidosis)",
+          "topicId": "amyloidosis",
+          "requiredInKYP": true,
+          "visualId": "amyloidosis-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              230
+            ],
+            "bookPages": "208–208"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph B — Congo red under polarized light (book 208)",
+          "sourceFigureDescription": "A cmyk JPEG micrograph (~188x175 at 150 dpi): the same field under polarized light — a dark background with the amyloid deposits glowing as apple-green birefringent flecks and streaks, lettered B. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's stain panel + blocks[1] the photographs row",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "acute-inflammation",

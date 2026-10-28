@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-27T19:27:07Z",
+  "generatedAt": "2026-10-28T17:14:38Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 132,
+    "topicsProduced": 133,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 77,
+      "pilot-complete": 78,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 6,
-      "topicsRemaining": 13,
+      "topicsProduced": 7,
+      "topicsRemaining": 12,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -439,6 +439,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "amyloidosis",
+      "title": "Amyloidosis: The Deposition Diseases",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Cellular injury (amyloidosis)",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 230 (book 208–208)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-10-28"
     },
     {
       "topicId": "antibody-structure",

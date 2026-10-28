@@ -1,0 +1,268 @@
+{
+  "topicId": "amyloidosis",
+  "title": "Amyloidosis: The Deposition Diseases",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Cellular injury (amyloidosis)",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      230
+    ],
+    "bookPages": "208–208"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "208\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—CeLLULAR INjURY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The definition block — extracellular deposition of protein in abnormal fibrillar form (β-pleated sheet configuration) → cell injury and apoptosis; manifestations vary depending on involved organ",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Extracellular deposition of protein in abnormal\nfibrillar form (β-pleated sheet configuration)\n→ cell injury and apoptosis. Manifestations\nvary depending on involved organ and include:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The six-organ manifestations list — Renal nephrotic syndrome; Cardiac restrictive cardiomyopathy; GI hepatosplenomegaly; Neurologic dementia and peripheral neuropathy; Musculoskeletal muscle enlargement (eg, macroglossia) and carpal tunnel syndrome; Skin waxy thickening and easy bruising",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "▘ Renal—nephrotic syndrome.\n▘ Cardiac—restrictive cardiomyopathy.\n▘ GI—hepatosplenomegaly.\n▘ Neurologic—dementia, peripheral\nneuropathy.\n▘ Musculoskeletal—muscle enlargement\n(eg, macroglossia), carpal tunnel syndrome.\n▘ Skin—waxy thickening, easy bruising.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The staining block — Congo red (red/orange on nonpolarized light A, apple-green birefringence on polarized light B) and H&E (amorphous pink)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Amyloid deposits are visualized by Congo red\nstain (red/orange on nonpolarized light A ,\napple-green birefringence on polarized\nlight B ), and H&E stain (amorphous pink).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table headers (FIBRIL PROTEIN / NOTES) + the Primary amyloidosis row — AL (from Ig Light chains), seen in plasma cell dyscrasias (eg, multiple myeloma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "fIBRIL PROTeIN\n\nNOTeS\n\nPrimary amyloidosis\n\nAL (from Ig Light chains)\n\nSeen in plasma cell dyscrasias (eg, multiple\nmyeloma)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Secondary amyloidosis row — AA (serum Amyloid A), seen in chronic inflammatory conditions (eg, rheumatoid arthritis, IBD, familial Mediterranean fever, protracted infection)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Secondary\namyloidosis\n\nAA (serum Amyloid A)\n\nSeen in chronic inﬂammatory conditions,\n(eg, rheumatoid arthritis, IBD, familial\nMediterranean fever, protracted infection)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Transthyretin amyloidosis row — sporadic (wild-type TTR) slowly progressive, associated with aging, mainly affects the heart; hereditary (mutated TTR) familial amyloid polyneuropathy and/or cardiomyopathy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Transthyretin\namyloidosis\n\nTransthyretin\n\nSporadic (wild-type TTR)—slowly progressive,\nassociated with aging; mainly affects the heart\nHereditary (mutated TTR)—familial amyloid\npolyneuropathy and/or cardiomyopathy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Dialysis-related amyloidosis row — β2-microglobulin, seen in patients with ESRD on long-term dialysis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Dialysis-related\namyloidosis\n\nβ2-microglobulin\n\nSeen in patients with ESRD on long-term\ndialysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Alzheimer disease row — β-amyloid protein, cleaved from amyloid precursor protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Alzheimer disease\n\nβ-amyloid protein\n\nCleaved from amyloid precursor protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Isolated atrial amyloidosis row — ANP, common, associated with aging; ↑ risk for atrial fibrillation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Isolated atrial\namyloidosis\n\nANP\n\nCommon, associated with aging; ↑ risk for atrial\nfibrillation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Type 2 diabetes mellitus row — Islet amyloid polypeptide, caused by deposition of amylin in pancreatic islets",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Type 2 diabetes\nmellitus\n\nIslet amyloid polypeptide\n\nCaused by deposition of amylin in pancreatic\nislets",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Medullary thyroid cancer row — Calcitonin, secreted from tumor cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Medullary thyroid\ncancer\n\nCalcitonin\n\nSecreted from tumor cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The stream-order quirk block — the left-column labels 'Amyloidosis', 'COMMON TYPeS', 'A', 'B', 'Systemic', 'Localized' printing AFTER the table rows (the M39 footer-split pattern, documented)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "Amyloidosis\n\nCOMMON TYPeS\n\nA\n\nB\n\nSystemic\n\nLocalized",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          230
+        ],
+        "bookPages": "208"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 208\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "amyloid-deposition-map"
+  ],
+  "mechanismIds": [
+    "beta-sheet-identification",
+    "fibril-source-routing"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition, the manifestations list, the staining block, and the COMMON TYPES table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "three-station-rule",
+      "summary": "The three-station rule (the stain confirms, the organs map, the source names) — KYP's synthesis of the page's three blocks into one routing protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three blocks side by side without a decision protocol; the three-station framing is KYP's design.",
+      "location": "core.keyIdea + mechanism 1's output + m3 rapid review"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (ONE SHEET SIX ORGANS / CONGO GLOWS GREEN / MARROW MAKES AL INFLAMMATION MAKES AA / LOCAL PROTEIN LOCAL DISEASE) — the source page prints no mnemonics (VLM census confirmed), so the memory layer is entirely KYP-original.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 208; the four codes and their meanings are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: p230's two photographs (A = Congo red nonpolarized, salmon red/orange deposits; B = polarized, apple-green birefringent glow on a dark field) are COPYRIGHTED — described-in-text only, never reproduced (the M32 convention). Stream-order quirk documented (the M39 footer-split pattern): the left-column labels print at raw 94-104, after the table rows. No margin mnemonics on the page (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-10-28"
+}
