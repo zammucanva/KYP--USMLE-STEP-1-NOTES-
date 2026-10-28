@@ -1,0 +1,73 @@
+{
+  "topicId": "leukocyte-trafficking",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "leukocyte-trafficking",
+      "requiredInKYP": true,
+      "visualId": "leukocyte-trafficking-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The STeP | VASCULATURe/STROMA MARKeRS | LeUKOCYTe MARKeRS table (book 211)",
+      "sourceFigureDescription": "The four-row marker table: margination and rolling (E-selectin, P-selectin, GlyCAM-1/CD34 vs Sialyl LewisX, L-selectin; LAD-2 note), tight binding (ICAM-1, VCAM-1 vs CD11/18 integrins, VLA-4; LAD-1 note), diapedesis (PECAM-1 both sides), migration (the seven chemotactic factors vs various). Pure text; the STEP-column entries interleave (the M38 pattern).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "leukocyte-trafficking-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the four station cards with both marker columns) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "leukocyte-trafficking-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "leukocyte-trafficking",
+      "requiredInKYP": true,
+      "visualId": "leukocyte-trafficking-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The four-station extravasation figure (book 211)",
+      "sourceFigureDescription": "A VECTOR LINE-ART vessel cross-section (pdfimages: 0 rasters): Vessel lumen / Endothelium / Interstitium zone labels; six PMN circles shown rolling (Sialyl Lewis X labeled), flattening to tight binding (LFA-1 on the PMN against ICAM-1 on the endothelium), squeezing between endothelial cells at the PECAM-1 junction (diapedesis), and migrating through the interstitium; the four numbered station titles print with the figure.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "leukocyte-trafficking-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the vessel map: lumen/endothelium/interstitium bands, the four numbered stations, PMN glyphs, and every interaction label) + blocks[2] the figure-labels table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "leukocyte-trafficking-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "leukocyte-trafficking",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's marker table is adapted as the registry visual's station cards and carried verbatim in the note's tables (an ORIGINAL KYP ADAPTATION). The four-station extravasation figure is pure vector line art (no rasters) — redrawn as an ORIGINAL KYP REDRAW with original glyphs per the P2/P3 pure-vector convention, never a reproduction. No margin mnemonics exist on the page; nothing reproduced."
+}

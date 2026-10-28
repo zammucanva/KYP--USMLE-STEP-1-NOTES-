@@ -223,3 +223,177 @@ export function AcutePhaseReactantMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Pathology P9 — Leukocyte extravasation: the four-station vessel map
+// ---------------------------------------------------------------------------
+
+export function LeukocyteTraffickingMap() {
+  const w = 980;
+  const h = 880;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Leukocyte extravasation — the four-station vessel map, an original KYP redraw of the source figure (book 211 — the four-step extravasation at postcapillary venules with the marker table). THE FIGURE: a vessel cross-section with Vessel lumen, Endothelium, and Interstitium zones; a PMN rolling on P-selectin and E-selectin via Sialyl Lewis X at station 1; flattening to tight binding with LFA-1 on the PMN against ICAM-1 on the endothelium at station 2; squeezing between endothelial cells at PECAM-1 junctions in diapedesis at station 3; and migrating through the interstitium along chemotactic factors at station 4. THE MARKER TABLE: margination and rolling — E-selectin (upregulated by TNF and IL-1), P-selectin (Weibel-Palade exocytosis), GlyCAM-1, CD34 against Sialyl LewisX and L-selectin, defective in leukocyte adhesion deficiency type 2; tight binding — ICAM-1 (CD54) and VCAM-1 (CD106) against CD11/18 integrins (LFA-1, Mac-1) and VLA-4, defective in LAD type 1 (↓ CD18); diapedesis — PECAM-1 (CD31) on both sides; migration — the chemotactic factors C5a, IL-8, LTB4, 5-HETE, kallikrein, platelet-activating factor, N-formylmethionyl peptides. The footer carries the source attribution, the census note, and the redraw declaration." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Leukocyte extravasation — the four-station vessel map (original KYP redraw)</text>
+        <rect x="724" y="24" width="208" height="18" className="fill-brand-soft" />
+        <text x="828" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">four stations · two lockouts</text>
+      </g>
+      {/* ===== the vessel figure ===== */}
+      <g>
+        <rect x="36" y="80" width="908" height="450" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="100" fontSize="8" fontWeight="800" className="fill-foreground">The vessel map (book 211 — an original KYP redraw of the source line-art figure)</text>
+        <text x="52" y="114" fontSize="4.6" fontWeight="700" className="fill-muted-foreground">Extravasation predominantly occurs at postcapillary venules.</text>
+        {/* zone bands */}
+        <rect x="120" y="128" width="808" height="130" rx="10" className="fill-brand-soft/30 stroke-brand" />
+        <text x="132" y="146" fontSize="5.4" fontWeight="800" className="fill-brand">Vessel lumen</text>
+        <rect x="120" y="266" width="808" height="34" rx="8" className="fill-secondary/60 stroke-border" />
+        <rect x="120" y="304" width="808" height="210" rx="10" className="fill-warning-soft/20 stroke-warning" />
+        <text x="132" y="322" fontSize="5.4" fontWeight="800" className="fill-warning">Endothelium</text>
+        <text x="132" y="500" fontSize="5.4" fontWeight="800" className="fill-warning">Interstitium</text>
+        {/* station headers */}
+        <g>
+          <rect x="140" y="124" width="16" height="16" rx="8" className="fill-brand" />
+          <text x="148" y="136" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-background">1</text>
+          <text x="162" y="136" fontSize="6.4" fontWeight="800" className="fill-foreground">Margination &amp; rolling</text>
+          <rect x="360" y="124" width="16" height="16" rx="8" className="fill-brand" />
+          <text x="368" y="136" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-background">2</text>
+          <text x="382" y="136" fontSize="6.4" fontWeight="800" className="fill-foreground">Tight binding (adhesion)</text>
+          <rect x="580" y="124" width="16" height="16" rx="8" className="fill-brand" />
+          <text x="588" y="136" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-background">3</text>
+          <text x="602" y="136" fontSize="6.4" fontWeight="800" className="fill-foreground">DiaPEdesis (transmigration)</text>
+          <rect x="790" y="124" width="16" height="16" rx="8" className="fill-brand" />
+          <text x="798" y="136" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-background">4</text>
+          <text x="812" y="136" fontSize="6.4" fontWeight="800" className="fill-foreground">Migration</text>
+        </g>
+        {/* station 1 — rolling */}
+        <g>
+          <circle cx="200" cy="222" r="22" className="fill-brand-soft stroke-brand" />
+          <text x="200" y="226" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">PMN</text>
+          <text x="200" y="194" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">Sialyl LewisX</text>
+          <path d="M 168 222 Q 200 208 232 222" fill="none" className="stroke-brand" strokeWidth="1.4" strokeDasharray="3 2" />
+          <text x="200" y="212" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">rolling</text>
+          {/* selectin stalks on endothelium */}
+          <path d="M 172 266 L 172 284" className="stroke-emergency" strokeWidth="2" />
+          <text x="172" y="296" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-emergency">P-selectin</text>
+          <path d="M 232 266 L 232 284" className="stroke-emergency" strokeWidth="2" />
+          <text x="232" y="296" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-emergency">E-selectin</text>
+          <rect x="118" y="336" width="172" height="42" rx="6" className="fill-card stroke-border" />
+          <text x="204" y="348" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">P-selectin translocates via exocytosis from</text>
+          <text x="204" y="358" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">Weibel-Palade bodies; E-selectin is released</text>
+          <text x="204" y="368" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">from endothelial cells, upregulated by TNF, IL-1</text>
+        </g>
+        {/* station 2 — tight binding */}
+        <g>
+          <ellipse cx="420" cy="248" rx="26" ry="18" className="fill-brand-soft stroke-brand" />
+          <text x="420" y="252" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">PMN</text>
+          <text x="394" y="216" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-foreground">LFA-1 (CD11/18)</text>
+          <path d="M 400 266 L 400 284" className="stroke-emergency" strokeWidth="2" />
+          <text x="400" y="296" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-emergency">ICAM-1</text>
+          <rect x="360" y="336" width="172" height="42" rx="6" className="fill-card stroke-border" />
+          <text x="446" y="348" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the integrin flattens and locks the PMN:</text>
+          <text x="446" y="358" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">LFA-1/Mac-1 bind ICAM-1 (CD54);</text>
+          <text x="446" y="368" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">VLA-4 binds VCAM-1 (CD106)</text>
+        </g>
+        {/* station 3 — diapedesis */}
+        <g>
+          <ellipse cx="640" cy="278" rx="16" ry="22" className="fill-brand-soft stroke-brand" />
+          <text x="640" y="282" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">PMN</text>
+          <path d="M 618 266 L 634 290 M 662 266 L 646 290" className="stroke-border" strokeWidth="1.6" />
+          <text x="610" y="308" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-emergency">PECAM-1</text>
+          <text x="678" y="308" textAnchor="middle" fontSize="4" fontWeight="700" className="fill-emergency">PECAM-1</text>
+          <rect x="552" y="336" width="188" height="42" rx="6" className="fill-card stroke-border" />
+          <text x="646" y="348" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">the WBC travels BETWEEN endothelial cells</text>
+          <text x="646" y="358" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">and exits the blood vessel — PECAM-1 (CD31)</text>
+          <text x="646" y="368" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">on BOTH the leukocyte and the endothelium</text>
+        </g>
+        {/* station 4 — migration */}
+        <g>
+          <circle cx="860" cy="380" r="20" className="fill-brand-soft stroke-brand" />
+          <text x="860" y="384" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">PMN</text>
+          <path d="M 860 356 Q 848 400 852 440" fill="none" className="stroke-brand" strokeWidth="1.4" strokeDasharray="3 2" />
+          <rect x="820" y="420" width="132" height="72" rx="6" className="fill-card stroke-border" />
+          <text x="886" y="432" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-muted-foreground">chemotactic gradient</text>
+          <text x="886" y="448" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">C5a · IL-8 · LTB4 · 5-HETE</text>
+          <text x="886" y="458" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">kallikrein · PAF ·</text>
+          <text x="886" y="468" textAnchor="middle" fontSize="3.7" className="fill-muted-foreground">N-formylmethionyl peptides</text>
+          <text x="886" y="482" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">guiding to the injury</text>
+        </g>
+        {/* the postcapillary rule strip */}
+        <rect x="140" y="400" width="440" height="88" rx="8" className="fill-card stroke-brand" />
+        <text x="152" y="418" fontSize="5.4" fontWeight="800" className="fill-brand">WHERE IT HAPPENS</text>
+        <text x="152" y="434" fontSize="3.8" fontWeight="700" className="fill-foreground">Extravasation predominantly occurs at POSTCAPILLARY VENULES —</text>
+        <text x="152" y="444" fontSize="3.8" fontWeight="700" className="fill-foreground">the slow, permeable stretch where margination can begin.</text>
+        <text x="152" y="460" fontSize="3.7" className="fill-muted-foreground">The four stations in one line: roll (selectins) → bind (integrins) →</text>
+        <text x="152" y="470" fontSize="3.7" className="fill-muted-foreground">squeeze (PECAM-1) → walk (chemotaxis) — each pair a handshake</text>
+        <text x="152" y="480" fontSize="3.7" className="fill-muted-foreground">between a leukocyte marker and a vasculature marker.</text>
+      </g>
+      {/* ===== the marker table ===== */}
+      <g>
+        <text x="36" y="556" fontSize="8" fontWeight="800" className="fill-foreground">The marker table (book 211 — verbatim)</text>
+        <rect x="36" y="566" width="220" height="170" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="48" y="584" fontSize="5.2" fontWeight="800" className="fill-foreground">1. MARGINATION AND ROLLING</text>
+        <text x="48" y="596" fontSize="3.6" fontWeight="700" className="fill-emergency">defective in LAD type 2 (↓ Sialyl LewisX)</text>
+        <text x="48" y="612" fontSize="3.7" fontWeight="800" className="fill-foreground">VASCULATURe/STROMA MARKeRS</text>
+        <text x="48" y="624" fontSize="3.7" fontWeight="700" className="fill-foreground">E-selectin (released from endothelial cells,</text>
+        <text x="48" y="634" fontSize="3.7" fontWeight="700" className="fill-foreground">upregulated by TNF and IL-1)</text>
+        <text x="48" y="646" fontSize="3.7" fontWeight="700" className="fill-foreground">P-selectin (translocated to endothelial surface</text>
+        <text x="48" y="656" fontSize="3.7" fontWeight="700" className="fill-foreground">via exocytosis from Weibel-Palade bodies)</text>
+        <text x="48" y="668" fontSize="3.7" fontWeight="700" className="fill-foreground">GlyCAM-1, CD34</text>
+        <text x="48" y="684" fontSize="3.7" fontWeight="800" className="fill-foreground">LeUKOCYTe MARKeRS</text>
+        <text x="48" y="696" fontSize="3.7" fontWeight="700" className="fill-foreground">Sialyl LewisX · L-selectin</text>
+        <text x="48" y="712" fontSize="3.6" className="fill-muted-foreground">the rolling handshake: carbohydrate meets selectin</text>
+        <rect x="266" y="566" width="220" height="170" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="278" y="584" fontSize="5.2" fontWeight="800" className="fill-foreground">2. TIGHT BINDING (ADHESION)</text>
+        <text x="278" y="596" fontSize="3.6" fontWeight="700" className="fill-emergency">defective in LAD type 1 (↓ CD18 integrin subunit)</text>
+        <text x="278" y="612" fontSize="3.7" fontWeight="800" className="fill-foreground">VASCULATURe/STROMA MARKeRS</text>
+        <text x="278" y="624" fontSize="3.7" fontWeight="700" className="fill-foreground">ICAM-1 (CD54)</text>
+        <text x="278" y="636" fontSize="3.7" fontWeight="700" className="fill-foreground">VCAM-1 (CD106)</text>
+        <text x="278" y="684" fontSize="3.7" fontWeight="800" className="fill-foreground">LeUKOCYTe MARKeRS</text>
+        <text x="278" y="696" fontSize="3.7" fontWeight="700" className="fill-foreground">CD11/18 integrins (LFA-1, Mac-1)</text>
+        <text x="278" y="708" fontSize="3.7" fontWeight="700" className="fill-foreground">VLA-4 integrin</text>
+        <text x="278" y="724" fontSize="3.6" className="fill-muted-foreground">the locking handshake: integrin meets Ig-superfamily</text>
+        <rect x="496" y="566" width="220" height="170" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="508" y="584" fontSize="5.2" fontWeight="800" className="fill-foreground">3. DIAPEDESIS (TRANSMIGRATION)</text>
+        <text x="508" y="600" fontSize="3.7" fontWeight="700" className="fill-foreground">WBC travels between endothelial cells</text>
+        <text x="508" y="610" fontSize="3.7" fontWeight="700" className="fill-foreground">and exits blood vessel</text>
+        <text x="508" y="632" fontSize="3.7" fontWeight="800" className="fill-foreground">VASCULATURe/STROMA MARKeRS</text>
+        <text x="508" y="644" fontSize="3.7" fontWeight="700" className="fill-foreground">PECAM-1 (CD31)</text>
+        <text x="508" y="684" fontSize="3.7" fontWeight="800" className="fill-foreground">LeUKOCYTe MARKeRS</text>
+        <text x="508" y="696" fontSize="3.7" fontWeight="700" className="fill-foreground">PECAM-1 (CD31)</text>
+        <text x="508" y="712" fontSize="3.6" className="fill-muted-foreground">the mirror handshake: the same molecule both sides</text>
+        <rect x="726" y="566" width="218" height="170" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="738" y="584" fontSize="5.2" fontWeight="800" className="fill-foreground">4. MIGRATION</text>
+        <text x="738" y="600" fontSize="3.7" fontWeight="700" className="fill-foreground">WBC travels through interstitium to site</text>
+        <text x="738" y="610" fontSize="3.7" fontWeight="700" className="fill-foreground">of injury or infection guided by chemotactic</text>
+        <text x="738" y="620" fontSize="3.7" fontWeight="700" className="fill-foreground">signals</text>
+        <text x="738" y="640" fontSize="3.7" fontWeight="800" className="fill-foreground">CHEMOTACTIC FACTORS</text>
+        <text x="738" y="652" fontSize="3.7" fontWeight="700" className="fill-foreground">C5a, IL-8, LTB4, 5-HETE, kallikrein,</text>
+        <text x="738" y="662" fontSize="3.7" fontWeight="700" className="fill-foreground">platelet-activating factor,</text>
+        <text x="738" y="672" fontSize="3.7" fontWeight="700" className="fill-foreground">N-formylmethionyl peptides</text>
+        <text x="738" y="690" fontSize="3.7" fontWeight="800" className="fill-foreground">LeUKOCYTe MARKeRS</text>
+        <text x="738" y="702" fontSize="3.7" fontWeight="700" className="fill-foreground">Various</text>
+        <text x="738" y="718" fontSize="3.6" className="fill-muted-foreground">the gradient walk: follow the signal</text>
+      </g>
+      {/* ===== the two lockouts ===== */}
+      <g>
+        <rect x="36" y="748" width="448" height="60" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="48" y="766" fontSize="5.2" fontWeight="800" className="fill-emergency">LAD TYPE 1 — the binding lockout (↓ CD18 integrin subunit)</text>
+        <text x="48" y="782" fontSize="3.8" fontWeight="700" className="fill-foreground">The CD11/18 integrins (LFA-1, Mac-1) cannot be built — tight binding fails,</text>
+        <text x="48" y="792" fontSize="3.8" fontWeight="700" className="fill-foreground">rolling proceeds but nothing locks: the classic no-pus, delayed-cord-separation child.</text>
+        <rect x="496" y="748" width="448" height="60" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="508" y="766" fontSize="5.2" fontWeight="800" className="fill-warning">LAD TYPE 2 — the rolling lockout (↓ Sialyl LewisX)</text>
+        <text x="508" y="782" fontSize="3.8" fontWeight="700" className="fill-foreground">The carbohydrate ligand for the selectins is missing — the PMN cannot even slow down</text>
+        <text x="508" y="792" fontSize="3.8" fontWeight="700" className="fill-foreground">to roll; the defect sits one station earlier, at the handshake that starts the cascade.</text>
+      </g>
+      {/* footer */}
+      <g>
+        <rect x="24" y="820" width="932" height="56" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="836" fontSize="5.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 233 / book 211 (Pathology — Inflammation: Leukocyte extravasation)</text>
+        <text x="42" y="850" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): NO raster images on this page — the extravasation figure is VECTOR LINE ART with all labels in the text layer (Vessel lumen / Endothelium / Interstitium, PMN ×6, Sialyl Lewis X, P-selectin, E-selectin, LFA-1, ICAM-1, PECAM-1, the four numbered stations).</text>
+        <text x="42" y="862" fontSize="5" className="fill-muted-foreground">This registry visual is an ORIGINAL KYP REDRAW of that topology with original glyphs, not a reproduction. The marker table is carried verbatim in the note's tables. No margin mnemonics print on the page (VLM confirmed); the KYP memory layer is original.</text>
+      </g>
+    </svg>
+  );
+}

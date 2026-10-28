@@ -1,0 +1,229 @@
+{
+  "topicId": "leukocyte-trafficking",
+  "title": "Leukocyte Extravasation & Cytokines",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Inflammation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      233
+    ],
+    "bookPages": "211–211"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, the header, and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "PATHOLOGY\n\nLeukocyte\nextravasation\n\n▶ PATHOLOGY—INfLAMMATION\n\n211\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro rule — extravasation predominantly occurs at postcapillary venules; the table headers (STeP | VASCULATURe/STROMA MARKeRS | LeUKOCYTe MARKeRS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Extravasation predominantly occurs at postcapillary venules.\nSTeP\n\nVASCULATURe/STROMA MARKeRS\n\nLeUKOCYTe MARKeRS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 1 vascular markers — E-selectin (released from endothelial cells, upregulated by TNF and IL-1) and P-selectin (translocated to endothelial surface via exocytosis from Weibel-Palade bodies)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "E-selectin (released from\nendothelial cells, upregulated by\nTNF and IL-1)\nP-selectin (translocated to\nendothelial surface via exocytosis\nfrom Weibel-Palade bodies)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 1 stroma and leukocyte markers — GlyCAM-1, CD34; Sialyl LewisX (the rolling carbohydrate)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "GlyCAM-1, CD34\n\nSialyl LewisX",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 2 — tight binding (adhesion), defective in leukocyte adhesion deficiency type 1 (↓ CD18 integrin subunit); ICAM-1 (CD54), VCAM-1 (CD106); CD11/18 integrins (LFA-1, Mac-1), VLA-4 integrin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Tight binding (adhesion)—\ndefective in leukocyte adhesion\ndeficiency type 1 (↓ CD18\nintegrin subunit)\nICAM-1 (CD54)\nVCAM-1 (CD106)\nCD11/18 integrins\n(LFA-1, Mac-1)\nVLA-4 integrin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 3 — DiaPEdesis (transmigration), WBC travels between endothelial cells and exits blood vessel; PECAM-1 (CD31) on both sides",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "DiaPEdesis (transmigration)—\nWBC travels between\nendothelial cells and exits blood\nvessel\n\nPECAM-1 (CD31)\n\nPECAM-1 (CD31)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 4 — Migration, WBC travels through interstitium to site of injury or infection guided by chemotactic signals; the chemotactic factors (C5a, IL-8, LTB4, 5-HETE, kallikrein, platelet-activating factor, N-formylmethionyl peptides); leukocyte markers various",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Migration—WBC travels\nthrough interstitium to site of\ninjury or infection guided by\nchemotactic signals\n\nChemotactic factors: C5a, IL-8,\nLTB4, 5-HETE, kallikrein,\nplatelet-activating factor,\nN-formylmethionyl peptides\n\nVarious",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Station 1 — the interleaved STEP-column entry: margination and rolling, defective in leukocyte adhesion deficiency type 2 (↓ Sialyl LewisX) — the M38 interleaving pattern documented",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Margination and rolling—\ndefective in leukocyte adhesion\ndeficiency type 2 (↓ Sialyl\nLewisX)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure labels part 1 — the four numbered stations and the rolling carbohydrate (Margination & rolling, 2. Tight binding, 3. Diapedesis, 4. Migration, Sialyl LewisX, L-selectin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Margination & rolling\n\n2. Tight binding\n\nSialyl LewisX\n\nL-selectin\n\n3. Diapedesis\n\n4. Migration\n\nSialyl Lewis\n\nX",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure labels part 2 — the vessel zones and interaction markers (Vessel lumen, PMN, P-selectin, E-selectin, LFA-1, ICAM-1, PECAM-1, Endothelium, Interstitium, PMN, PMN)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "Vessel\nlumen\n\nPMN\nPMN\nP-selectin\n\nPMN\nE-selectin\n\nLFA-1\nICAM-1\n\nPMN\n\nPECAM-1\n\nEndothelium\n\nInterstitium\nPMN\n\nPMN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer + timestamp (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          233
+        ],
+        "bookPages": "211"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 211\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "leukocyte-trafficking-map"
+  ],
+  "mechanismIds": [
+    "extravasation-station-map",
+    "lad-deficiency-fork"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the marker table and the figure; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "handshake-framing",
+      "summary": "The four-handshake framing (roll, lock, squeeze, walk — each station one vasculature-leukocyte marker pair) and the two-lockout reading of the LAD deficiencies (station 2 vs station 1).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table's rows without the pairing protocol; the handshake framing and the lockout reading are KYP's design.",
+      "location": "core.keyIdea + both mechanisms + the visual's station cards"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (ROLL LOCK SQUEEZE WALK / POSTCAPILLARY IS THE DOOR / CARBOHYDRATE ROLLS INTEGRIN LOCKS / C5a IL-8 LTB4 THE GRADIENT SEVEN) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 211 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: NO rasters on pdf 233 — the extravasation figure is pure VECTOR LINE ART (labels in the text layer), redrawn as an ORIGINAL KYP figure with original glyphs (the P2/P3 pure-vector convention; never a reproduction). The table's STEP-column interleaving documented (the M38 pattern, raw 62-65). No margin mnemonics (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-10-28"
+}
