@@ -1,0 +1,282 @@
+{
+  "topicId": "granulomatous-inflammation",
+  "title": "Granulomatous Inflammation & Scar Types",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Inflammation",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      235,
+      236
+    ],
+    "bookPages": "213–214"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 213)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—INfLAMMATION\n\nSEC TION II\n\nGranulomatous\ninflammation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The granuloma definition — a pattern of chronic inflammation; persistent T-cell response; wall off without eradicating → persistent inflammation → fibrosis, organ damage",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "A pattern of chronic inﬂammation. Can be induced by persistent T-cell response to certain\ninfections (eg, TB), immune-mediated diseases, and foreign bodies. Granulomas “wall off” a\nresistant stimulus without completely eradicating or degrading it → persistent inflammation\n→ fibrosis, organ damage.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The HISTOLOGY block — epithelioid cells (activated macrophages, abundant pink cytoplasm), lymphocytes, multinucleated giant cells (fusion of several activated macrophages); the caseating (central necrosis A, infectious TB/fungal) vs noncaseating (no necrosis, noninfectious sarcoidosis/Crohn) fork",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "HISTOLOGY\n\nFocus of epithelioid cells (activated macrophages with abundant pink cytoplasm) surrounded by\nlymphocytes and multinucleated giant cells (formed by fusion of several activated macrophages).\nTwo types:\nCaseating: associated with central necrosis A . Seen with infectious etiologies (eg, TB, fungal).\nNoncaseating: no central necrosis. Seen with noninfectious etiologies (eg, sarcoidosis, Crohn\ndisease).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The letter marker A (the caseating-granuloma photograph, described in text — copyrighted) + the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "A\n\n213",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MECHANISM block — APC + IL-12 → Th1; Th1 IFN-γ → macrophage activation; macrophage ↑ TNF → epithelioid macrophages + giant cells; the anti-TNF rule (sequestering granulomas break down → disseminated disease; test latent TB first); the hypercalcemia rule (↑ 1α-hydroxylase in activated macrophages → ↑ vitamin D activity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "APCs present antigens to CD4+ Th cells and secrete IL-12 → CD4+ Th cells differentiate into\nTh1 cells\nTh1 secretes IFN-γ → macrophage activation\nMacrophages ↑ cytokine secretion (eg, TNF) → formation of epithelioid macrophages and giant\ncells\nAnti-TNF therapy can cause sequestering granulomas to break down → disseminated disease.\nAlways test for latent TB before starting anti-TNF therapy.\nAssociated with hypercalcemia due to ↑ 1α-hydroxylase activity in activated macrophages, resulting\nin ↑ vitamin D activity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MECHANISM figure labels part 1 — the cascade headers and the cell labels (MeCHANISM, Lymphocyte, Fibroblast, Epithelioid cell, IL-12, TCR, Antigen, T cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "MeCHANISM\n\nLymphocyte\nFibroblast\nEpithelioid cell\n\nIL-12\n\nTCR\n\nAntigen\nT cell",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MECHANISM figure labels part 2 — the interaction markers and cell names (CD40, IFN-g, MHC II, CD4, CD40L, APC, Th1 cell, TNF, Activated macrophage, Giant cell, Granuloma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "CD40\n\nIFN-g\n\nMHC II\n\nCD4\n\nCD40L\n\nAPC\n\nTh1 cell\n\nTNF\n\nActivated\nmacrophage\nGiant cell\nGranuloma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The etiologies table part 1 — the Infectious column (Mycobacteria TB/leprosy, Bartonella henselae stellate necrotizing granulomas, Listeria granulomatosis infantiseptica, Treponema pallidum 3° syphilis, endemic mycoses, schistosomiasis, catalase-positive organisms in CGD)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "Infectious\nBacterial: Mycobacteria (TB, leprosy),\nBartonella henselae (cat scratch disease;\nstellate necrotizing granulomas), Listeria\nmonocytogenes (granulomatosis infantiseptica),\nTreponema pallidum (3° syphilis)\nFungal: endemic mycoses (eg, histoplasmosis)\nParasitic: schistosomiasis\nCatalase ⊕ organisms in chronic granulomatous\ndisease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The etiologies table part 2 — the Noninfectious column (sarcoidosis, Crohn, 1° biliary cholangitis, de Quervain thyroiditis; GPA, EGPA, giant cell temporal arteritis, Takayasu; berylliosis, talcosis, hypersensitivity pneumonitis) + the timestamp footer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "quote": "Noninfectious\nImmune-mediated: sarcoidosis, Crohn disease,\n1° biliary cholangitis, subacute (de Quervain/\ngranulomatous) thyroiditis\nVasculitis: granulomatosis with polyangiitis,\neosinophilic granulomatosis with polyangiitis,\ngiant cell (temporal) arteritis, Takayasu arteritis\nForeign bodies: berylliosis, talcosis,\nhypersensitivity pneumonitis\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity — the scar formation header (book 214)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "214\n\nSEC TION II\n\nScar formation\n\nPATHOLOGY\n\n▶ PATHOLOGY—INfLAMMATION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The scar formation rule — repair that cannot be accomplished by regeneration alone; nonregenerated cells replaced by connective tissue; 70%-80% of tensile strength at 3 months; excess TGF-β → hypertrophic and keloid scars",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "Occurs when repair cannot be accomplished by cell regeneration alone. Nonregenerated cells (2°\nto severe acute or chronic injury) are replaced by connective tissue. 70%-80% of tensile strength\nregained at 3 months; little tensile strength regained thereafter. Excess TGF-β is associated with\naberrant scarring, such as hypertrophic and keloid scars.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The comparison table part 1 — headers (Hypertrophic scar A, Keloid scar B) + the COLLAGEN SYNTHESIS row (↑ type III > type I vs ↑↑↑ type I > type III) + the COLLAGEN ORGANIZATION row (Parallel vs Disorganized)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "Hypertrophic scar A\n\nKeloid scar B\n\nCOLLAGeN SYNTHeSIS\n\n↑ (type III > type I)\n\n↑↑↑ (type I > type III)\n\nCOLLAGeN ORGANIZATION\n\nParallel\n\nDisorganized",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The comparison table part 2 — the EXTENT row (confined to borders vs clawlike projections on earlobes, face, upper extremities) + the RECURRENCE row (infrequent vs frequent)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "eXTeNT Of SCAR\n\nConfined to borders of original wound\n\nExtends beyond borders of original wound with\n“clawlike” projections typically on earlobes,\nface, upper extremities\n\nReCURReNCe\n\nInfrequent\n\nFrequent",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The comparison table part 3 — the PREDISPOSITION row (none vs ↑ incidence in people with darker skin) + the A/B photograph markers (the hypertrophic and keloid clinical photographs, described in text — copyrighted) + the indd footer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "PReDISPOSITION\n\nNone\n\n↑ incidence in people with darker skin\n\nA\n\nB\n\nFAS1_2026_04-Pathol.indd 214",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity, book 214)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "quote": "12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "granuloma-scar-map"
+  ],
+  "mechanismIds": [
+    "granuloma-cascade",
+    "scar-overbuild-fork"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the granuloma blocks, the etiologies table, and the scar comparison; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "four-frame-reading",
+      "summary": "The four-frame rule (the fork, the cascade, the two rules, the columns) — KYP's synthesis of the granuloma page into one reading protocol — and the two-question scar rule (borders + collagen).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the blocks sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (NECROSIS NAMES THE INFECTION / IL-12 TO TH1 TO IFN-γ TO TNF / THE MORTAR AND THE ENZYME / INSIDE THE BORDERS BEYOND THE BORDERS) — no mnemonic prints on either page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 213-214 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census: THREE copyrighted photographs (p235's A — the caseating-granuloma H&E; p236's A and B — the hypertrophic and keloid clinical photographs) described-in-text only, never reproduced (the M32 convention). The MECHANISM figure is vector line art, redrawn as an ORIGINAL KYP figure (the P2/P3 convention). Two-page topic. No margin mnemonics (VLM confirmed on both); the KYP memory layer is original.",
+  "updatedAt": "2026-10-28"
+}

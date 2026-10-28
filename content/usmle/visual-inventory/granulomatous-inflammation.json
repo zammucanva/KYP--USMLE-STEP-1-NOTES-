@@ -1,0 +1,154 @@
+{
+  "topicId": "granulomatous-inflammation",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "granulomatous-inflammation",
+      "requiredInKYP": true,
+      "visualId": "granulomatous-inflammation-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The granuloma definition + histology + mechanism + rules (book 213)",
+      "sourceFigureDescription": "The wall-off definition, the HISTOLOGY block with the caseating/noncaseating fork, the MECHANISM cascade with the anti-TNF and hypercalcemia rules, and the eTIOLOGIeS table. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "granuloma-scar-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the granuloma panel + the rules panel + the etiologies band) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "granuloma-scar-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "granulomatous-inflammation",
+      "requiredInKYP": true,
+      "visualId": "granulomatous-inflammation-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The granuloma-formation mechanism figure (book 213)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: only a small 87x49 sep raster for the photograph): APC → T cell → Th1 cell → Activated macrophage → Granuloma with IL-12, CD40L/CD40, TCR/MHC II, IFN-γ, TNF interaction labels and Lymphocyte, Fibroblast, Epithelioid cell, Giant cell cell labels.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "granuloma-scar-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the mechanism cascade redrawn with original KYP glyphs) + blocks[1] the mechanism table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "granuloma-scar-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "granulomatous-inflammation",
+      "requiredInKYP": true,
+      "visualId": "granulomatous-inflammation-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          235
+        ],
+        "bookPages": "213"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph A — the caseating granuloma (book 213)",
+      "sourceFigureDescription": "A small H&E micrograph (the 87x49 sep raster at 300 dpi), lettered A beside 'Caseating: associated with central necrosis A': central amorphous pink acellular necrosis with a black arrow, ringed by epithelioid cells and lymphocytes, beside the HISTOLOGY block. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's histology card + blocks[1] the histology row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "granulomatous-inflammation",
+      "requiredInKYP": true,
+      "visualId": "granulomatous-inflammation-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The scar formation block + the hypertrophic-vs-keloid comparison (book 214)",
+      "sourceFigureDescription": "The 70%-80% tensile-strength rule, the excess TGF-β association, and the 5-row comparison table (COLLAGEN SYNTHESIS, COLLAGEN ORGANIZATION, EXTENT OF SCAR, RECURRENCE, PREDISPOSITION). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "granuloma-scar-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the scar band with both comparison columns) + blocks[3] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "granuloma-scar-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Inflammation",
+      "topicId": "granulomatous-inflammation",
+      "requiredInKYP": true,
+      "visualId": "granulomatous-inflammation-sv5",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          236
+        ],
+        "bookPages": "214"
+      },
+      "visualType": "DERMATOLOGY_PHOTO",
+      "visualPurpose": "Photographs A and B — the hypertrophic and keloid scars (book 214)",
+      "sourceFigureDescription": "TWO cmyk JPEG clinical photographs (~427x340 and ~428x340 at 150 dpi) beneath the comparison table: A = a raised red/pink linear hypertrophic scar confined to the original wound with a measuring ruler; B = a large dark lobulated clawlike keloid extending beyond the wound on an earlobe/neck area. BOTH COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's scar band + blocks[3] the photographs row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "granulomatous-inflammation",
+    "textbookVisualCount": 5,
+    "accountedFor": 5,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pages' text blocks (the granuloma definition/histology/mechanism/rules, the etiologies table, and the scar block with its comparison) are adapted as the registry visual and carried verbatim in the note's tables. The mechanism figure is pure vector line art — redrawn as an ORIGINAL KYP REDRAW (the P2/P3 convention). The THREE photographs (the caseating-granuloma H&E; the hypertrophic and keloid clinical photographs) are COPYRIGHTED — described in text, never reproduced (the M32 convention). No margin mnemonics exist on either page; nothing reproduced."
+}

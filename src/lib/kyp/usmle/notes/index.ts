@@ -100,6 +100,7 @@ import { amyloidosis } from "./amyloidosis";
 import { acuteInflammation } from "./acute-inflammation";
 import { leukocyteTrafficking } from "./leukocyte-trafficking";
 import { woundHealing } from "./wound-healing";
+import { granulomatousInflammation } from "./granulomatous-inflammation";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -283,6 +284,7 @@ export const usmleNotes: KypUsMLENote[] = [
   acuteInflammation,
   leukocyteTrafficking,
   woundHealing,
+  granulomatousInflammation,
   cranialNerves,
   diabetesMellitus,
 ];

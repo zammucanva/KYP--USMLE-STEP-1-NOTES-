@@ -535,3 +535,222 @@ export function WoundHealingPhaseMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Pathology P11 — Granulomatous inflammation & scar formation map
+// ---------------------------------------------------------------------------
+
+export function GranulomaScarMap() {
+  const w = 980;
+  const h = 1080;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Granulomatous inflammation and scar formation — the map, an original KYP adaptation of the source pages (book 213-214 — the granuloma definition and histology, the mechanism figure, the two clinical rules, the etiologies table, and the scar formation block with the hypertrophic-vs-keloid comparison; three copyrighted photographs described in text, never reproduced). LEFT — THE GRANULOMA: the wall-off definition (persistent T-cell response, fibrosis, organ damage), the histology (epithelioid cells, lymphocytes, multinucleated giant cells), the caseating-vs-noncaseating fork, photograph A described. CENTER — THE MECHANISM CASCADE (an original KYP redraw): APC presenting antigen via MHC II-TCR with IL-12 and CD40-CD40L to the CD4 T cell, differentiation to the Th1 cell, IFN-gamma activating the macrophage, TNF-driven epithelioid macrophages and giant cells fusing into the granuloma with lymphocytes and fibroblasts. RIGHT — THE TWO CLINICAL RULES: anti-TNF therapy breaking down sequestering granulomas (test latent TB first) and hypercalcemia via increased 1-alpha-hydroxylase and vitamin D activity. BOTTOM — THE ETIOLOGIES (infectious vs noninfectious columns) and THE SCAR TABLE (hypertrophic vs keloid across collagen synthesis, organization, extent, recurrence, predisposition, with photographs A and B described). The footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Granulomatous inflammation &amp; scar formation — the map (original KYP adaptation)</text>
+        <rect x="740" y="24" width="192" height="18" className="fill-brand-soft" />
+        <text x="836" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">wall off · overbuild</text>
+      </g>
+      {/* ===== LEFT — the granuloma ===== */}
+      <g>
+        <rect x="36" y="80" width="240" height="480" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="100" fontSize="8" fontWeight="800" className="fill-foreground">The granuloma (book 213)</text>
+        <rect x="48" y="112" width="216" height="76" rx="10" className="fill-brand-soft/40 stroke-brand" />
+        <text x="156" y="128" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">THE WALL-OFF DEFINITION</text>
+        <text x="156" y="144" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">a pattern of chronic inflammation induced by a</text>
+        <text x="156" y="154" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">persistent T-cell response — granulomas “wall off” a</text>
+        <text x="156" y="164" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">resistant stimulus without eradicating it →</text>
+        <text x="156" y="174" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">persistent inflammation → fibrosis, organ damage</text>
+        <rect x="48" y="198" width="216" height="120" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="214" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">THE HISTOLOGY</text>
+        <text x="156" y="230" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">focus of EPITHELIOID cells (activated macrophages</text>
+        <text x="156" y="240" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">with abundant pink cytoplasm) surrounded by</text>
+        <text x="156" y="250" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">lymphocytes and MULTINUCLEATED GIANT CELLS</text>
+        <text x="156" y="260" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">(formed by fusion of several activated macrophages)</text>
+        <text x="156" y="278" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">PHOTOGRAPH A (copyrighted, described): an H&amp;E</text>
+        <text x="156" y="288" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">micrograph of a caseating granuloma — central</text>
+        <text x="156" y="298" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">amorphous pink acellular necrosis (black arrow)</text>
+        <text x="156" y="308" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">ringed by epithelioid cells and lymphocytes</text>
+        <rect x="48" y="328" width="216" height="100" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="156" y="344" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-emergency">CASEATING — central necrosis</text>
+        <text x="156" y="360" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">seen with INFECTIOUS etiologies</text>
+        <text x="156" y="372" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">(eg, TB, fungal)</text>
+        <text x="156" y="390" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the cheese-like amorphous center the</text>
+        <text x="156" y="400" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">microscope reads as surrendered ground</text>
+        <rect x="48" y="438" width="216" height="100" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="156" y="454" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">NONCASEATING — no central necrosis</text>
+        <text x="156" y="470" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">seen with NONINFECTIOUS etiologies</text>
+        <text x="156" y="482" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">(eg, sarcoidosis, Crohn disease)</text>
+        <text x="156" y="500" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the clean ring of the immune-mediated and</text>
+        <text x="156" y="510" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">foreign-body granulomas</text>
+      </g>
+      {/* ===== CENTER — the mechanism cascade (KYP redraw) ===== */}
+      <g>
+        <rect x="288" y="80" width="424" height="480" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="304" y="100" fontSize="8" fontWeight="800" className="fill-foreground">The mechanism cascade (book 213 — an original KYP redraw)</text>
+        {/* row 1: APC -> T cell -> Th1 */}
+        <g>
+          <circle cx="340" cy="150" r="26" className="fill-brand-soft stroke-brand" />
+          <text x="340" y="148" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">APC</text>
+          <text x="340" y="158" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">antigen</text>
+          <circle cx="500" cy="150" r="26" className="fill-card stroke-border" />
+          <text x="500" y="148" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">T cell</text>
+          <text x="500" y="158" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">CD4+</text>
+          <circle cx="660" cy="150" r="26" className="fill-brand-soft stroke-brand" />
+          <text x="660" y="148" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-brand">Th1 cell</text>
+          <text x="660" y="158" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">IL-12 driven</text>
+          <path d="M 368 144 L 470 144" className="stroke-brand" strokeWidth="1.6" />
+          <path d="M 470 144 L 463 141 M 470 144 L 463 147" className="stroke-brand" strokeWidth="1.6" />
+          <text x="419" y="132" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">MHC II–TCR · IL-12</text>
+          <text x="419" y="141" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">CD40–CD40L</text>
+          <path d="M 528 144 L 630 144" className="stroke-brand" strokeWidth="1.6" />
+          <path d="M 630 144 L 623 141 M 630 144 L 623 147" className="stroke-brand" strokeWidth="1.6" />
+          <text x="579" y="132" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">differentiation</text>
+        </g>
+        {/* row 2: Th1 -> activated macrophage */}
+        <g>
+          <path d="M 660 178 L 660 220" className="stroke-brand" strokeWidth="1.6" />
+          <path d="M 660 220 L 657 213 M 660 220 L 663 213" className="stroke-brand" strokeWidth="1.6" />
+          <text x="700" y="204" fontSize="3.6" fontWeight="700" className="fill-foreground">IFN-γ</text>
+          <ellipse cx="500" cy="250" rx="44" ry="26" className="fill-card stroke-border" />
+          <text x="500" y="248" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">Activated</text>
+          <text x="500" y="258" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">macrophage</text>
+          <path d="M 630 250 L 550 250" className="stroke-brand" strokeWidth="1.6" />
+          <path d="M 550 250 L 557 247 M 550 250 L 557 253" className="stroke-brand" strokeWidth="1.6" />
+          <text x="590" y="242" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">IFN-γ → activation</text>
+        </g>
+        {/* row 3: macrophage -> epithelioid + giant cells -> granuloma */}
+        <g>
+          <path d="M 456 250 L 400 290" className="stroke-brand" strokeWidth="1.4" />
+          <text x="410" y="288" fontSize="3.6" fontWeight="700" className="fill-foreground">↑ TNF</text>
+          <rect x="310" y="296" width="180" height="60" rx="10" className="fill-card stroke-border" />
+          <text x="400" y="314" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">EPITHELIOID MACROPHAGES</text>
+          <text x="400" y="328" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">↑ cytokine secretion (eg, TNF) →</text>
+          <text x="400" y="338" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the abundant-pink-cytoplasm cells</text>
+          <rect x="310" y="366" width="180" height="46" rx="10" className="fill-card stroke-border" />
+          <text x="400" y="384" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">GIANT CELLS</text>
+          <text x="400" y="398" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">fusion of several activated macrophages</text>
+          <path d="M 400 356 L 400 366" className="stroke-brand" strokeWidth="1.4" />
+          {/* granuloma assembly */}
+          <rect x="520" y="310" width="170" height="102" rx="12" className="fill-brand-soft/40 stroke-brand" />
+          <text x="605" y="330" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">GRANULOMA</text>
+          <text x="605" y="346" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">epithelioid cells + giant cells</text>
+          <text x="605" y="356" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">+ LYMPHOCYTES rimming</text>
+          <text x="605" y="366" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">+ FIBROBLASTS walling</text>
+          <text x="605" y="382" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the sequestering fortress —</text>
+          <text x="605" y="392" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">containment without eradication</text>
+          <path d="M 490 389 L 520 380" className="stroke-brand" strokeWidth="1.4" />
+          <text x="322" y="450" fontSize="4.4" fontWeight="700" className="fill-muted-foreground">The cascade in one line: APC presents antigen (MHC II–TCR, IL-12, CD40–CD40L) → CD4+ Th cell → Th1 → IFN-γ → macrophage</text>
+          <text x="322" y="462" fontSize="4.4" fontWeight="700" className="fill-muted-foreground">activation → ↑ TNF → epithelioid macrophages + giant cells → the granuloma (lymphocytes + fibroblasts completing the wall).</text>
+        </g>
+      </g>
+      {/* ===== RIGHT — the two clinical rules ===== */}
+      <g>
+        <rect x="724" y="80" width="232" height="480" rx="14" className="fill-card stroke-border" />
+        <text x="740" y="100" fontSize="8" fontWeight="800" className="fill-foreground">The two clinical rules (213)</text>
+        <rect x="736" y="112" width="208" height="150" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="840" y="130" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-emergency">THE ANTI-TNF RULE</text>
+        <text x="840" y="148" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Anti-TNF therapy can cause sequestering</text>
+        <text x="840" y="158" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">granulomas to break down →</text>
+        <text x="840" y="168" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">DISSEMINATED DISEASE</text>
+        <text x="840" y="188" textAnchor="middle" fontSize="3.8" fontWeight="800" className="fill-emergency">Always test for LATENT TB</text>
+        <text x="840" y="198" textAnchor="middle" fontSize="3.8" fontWeight="800" className="fill-emergency">before starting anti-TNF therapy</text>
+        <text x="840" y="216" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the wall exists because of TNF —</text>
+        <text x="840" y="226" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">remove the mortar, the fortress falls</text>
+        <text x="840" y="246" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">and the mycobacteria escape</text>
+        <rect x="736" y="274" width="208" height="130" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="840" y="292" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-warning">THE HYPERCALCEMIA RULE</text>
+        <text x="840" y="310" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Associated with hypercalcemia due to</text>
+        <text x="840" y="320" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">↑ 1α-hydroxylase activity in activated</text>
+        <text x="840" y="330" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">macrophages, resulting in</text>
+        <text x="840" y="340" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">↑ vitamin D activity</text>
+        <text x="840" y="360" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the granuloma's macrophages carry the</text>
+        <text x="840" y="370" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">kidney's enzyme — sarcoidosis's calcium</text>
+        <text x="840" y="380" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">story starts inside its granulomas</text>
+        <rect x="736" y="416" width="208" height="130" rx="10" className="fill-secondary/40 stroke-border" />
+        <text x="840" y="434" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-foreground">WHY GRANULOMAS FORM</text>
+        <text x="840" y="452" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">Persistent T-cell response to:</text>
+        <text x="840" y="466" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">certain infections (eg, TB) ·</text>
+        <text x="840" y="476" textAnchor="middle" fontSize="3.7" fontWeight="700" className="fill-foreground">immune-mediated diseases · foreign bodies</text>
+        <text x="840" y="496" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">the stimulus resists eradication, so the</text>
+        <text x="840" y="506" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">body settles for imprisonment — the price</text>
+        <text x="840" y="516" textAnchor="middle" fontSize="3.6" className="fill-muted-foreground">is fibrosis and organ damage</text>
+      </g>
+      {/* ===== ETIOLOGIES band ===== */}
+      <g>
+        <rect x="36" y="572" width="908" height="220" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="594" fontSize="8" fontWeight="800" className="fill-foreground">The etiologies (book 213 — verbatim)</text>
+        <g>
+          <rect x="52" y="606" width="440" height="172" rx="10" className="fill-card stroke-border" />
+          <rect x="52" y="606" width="440" height="20" rx="10" className="fill-emergency-soft" />
+          <text x="272" y="620" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-emergency">Infectious</text>
+          <text x="64" y="640" fontSize="4" fontWeight="800" className="fill-foreground">BACTeRIAL</text>
+          <text x="64" y="652" fontSize="3.7" fontWeight="700" className="fill-foreground">Mycobacteria (TB, leprosy) · Bartonella henselae (cat scratch</text>
+          <text x="64" y="662" fontSize="3.7" fontWeight="700" className="fill-foreground">disease; stellate necrotizing granulomas) · Listeria</text>
+          <text x="64" y="672" fontSize="3.7" fontWeight="700" className="fill-foreground">monocytogenes (granulomatosis infantiseptica) · Treponema</text>
+          <text x="64" y="682" fontSize="3.7" fontWeight="700" className="fill-foreground">pallidum (3° syphilis)</text>
+          <text x="64" y="698" fontSize="4" fontWeight="800" className="fill-foreground">fUNGAL · PARASITIC</text>
+          <text x="64" y="710" fontSize="3.7" fontWeight="700" className="fill-foreground">endemic mycoses (eg, histoplasmosis) · schistosomiasis</text>
+          <text x="64" y="726" fontSize="4" fontWeight="800" className="fill-foreground">THe CGD eNTRY</text>
+          <text x="64" y="738" fontSize="3.7" fontWeight="700" className="fill-foreground">Catalase ⊕ organisms in chronic granulomatous disease</text>
+          <text x="64" y="754" fontSize="3.6" className="fill-muted-foreground">the neutrophil-oxidase failure that hands catalase-positive</text>
+          <text x="64" y="764" fontSize="3.6" className="fill-muted-foreground">bugs to the granuloma builder</text>
+          <rect x="500" y="606" width="428" height="172" rx="10" className="fill-card stroke-border" />
+          <rect x="500" y="606" width="428" height="20" rx="10" className="fill-brand-soft" />
+          <text x="714" y="620" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-brand">Noninfectious</text>
+          <text x="512" y="640" fontSize="4" fontWeight="800" className="fill-foreground">IMMUNe-MeDIATeD</text>
+          <text x="512" y="652" fontSize="3.7" fontWeight="700" className="fill-foreground">sarcoidosis · Crohn disease · 1° biliary cholangitis ·</text>
+          <text x="512" y="662" fontSize="3.7" fontWeight="700" className="fill-foreground">subacute (de Quervain/granulomatous) thyroiditis</text>
+          <text x="512" y="678" fontSize="4" fontWeight="800" className="fill-foreground">VASCUITIS</text>
+          <text x="512" y="690" fontSize="3.7" fontWeight="700" className="fill-foreground">granulomatosis with polyangiitis · eosinophilic granulomatosis</text>
+          <text x="512" y="700" fontSize="3.7" fontWeight="700" className="fill-foreground">with polyangiitis · giant cell (temporal) arteritis · Takayasu arteritis</text>
+          <text x="512" y="716" fontSize="4" fontWeight="800" className="fill-foreground">fORIGN BODIeS</text>
+          <text x="512" y="728" fontSize="3.7" fontWeight="700" className="fill-foreground">berylliosis · talcosis · hypersensitivity pneumonitis</text>
+          <text x="512" y="750" fontSize="3.6" className="fill-muted-foreground">The noncaseating side of the fork: immune-mediated,</text>
+          <text x="512" y="760" fontSize="3.6" className="fill-muted-foreground">vasculitic, and foreign-body granulomas without necrosis.</text>
+        </g>
+      </g>
+      {/* ===== SCAR band ===== */}
+      <g>
+        <rect x="36" y="804" width="908" height="212" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="826" fontSize="8" fontWeight="800" className="fill-foreground">Scar formation (book 214 — verbatim)</text>
+        <text x="52" y="844" fontSize="4.4" fontWeight="700" className="fill-muted-foreground">Occurs when repair cannot be accomplished by cell regeneration alone; nonregenerated cells (2° to severe acute or chronic injury) are replaced by connective tissue. 70%-80% of tensile strength regained at 3 months; little thereafter. Excess TGF-β is associated with aberrant scarring — hypertrophic and keloid scars.</text>
+        <g>
+          <rect x="52" y="856" width="430" height="144" rx="10" className="fill-card stroke-border" />
+          <rect x="52" y="856" width="430" height="20" rx="10" className="fill-warning-soft" />
+          <text x="267" y="870" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-warning">Hypertrophic scar (A)</text>
+          <text x="64" y="890" fontSize="3.7" fontWeight="800" className="fill-foreground">COLLAGeN SYNTHeSIS</text>
+          <text x="64" y="901" fontSize="3.7" fontWeight="700" className="fill-foreground">↑ (type III &gt; type I)</text>
+          <text x="64" y="917" fontSize="3.7" fontWeight="800" className="fill-foreground">COLLAGeN ORGANIZATION</text>
+          <text x="64" y="928" fontSize="3.7" fontWeight="700" className="fill-foreground">Parallel</text>
+          <text x="64" y="944" fontSize="3.7" fontWeight="800" className="fill-foreground">eXTeNT / ReCURReNCe / PReDISPOSITION</text>
+          <text x="64" y="955" fontSize="3.7" fontWeight="700" className="fill-foreground">Confined to borders of original wound · infrequent recurrence · none</text>
+          <text x="64" y="976" fontSize="3.6" className="fill-muted-foreground">PHOTOGRAPH A (copyrighted, described): a clinical photograph of a</text>
+          <text x="64" y="986" fontSize="3.6" className="fill-muted-foreground">raised, red/pink linear scar confined to the original wound (with a</text>
+          <text x="64" y="996" fontSize="3.6" className="fill-muted-foreground">measuring ruler) — staying inside its borders</text>
+          <rect x="492" y="856" width="436" height="144" rx="10" className="fill-card stroke-border" />
+          <rect x="492" y="856" width="436" height="20" rx="10" className="fill-emergency-soft" />
+          <text x="710" y="870" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-emergency">Keloid scar (B)</text>
+          <text x="504" y="890" fontSize="3.7" fontWeight="800" className="fill-foreground">COLLAGeN SYNTHeSIS</text>
+          <text x="504" y="901" fontSize="3.7" fontWeight="700" className="fill-foreground">↑↑↑ (type I &gt; type III)</text>
+          <text x="504" y="917" fontSize="3.7" fontWeight="800" className="fill-foreground">COLLAGeN ORGANIZATION</text>
+          <text x="504" y="928" fontSize="3.7" fontWeight="700" className="fill-foreground">Disorganized</text>
+          <text x="504" y="944" fontSize="3.7" fontWeight="800" className="fill-foreground">eXTeNT / ReCURReNCe / PReDISPOSITION</text>
+          <text x="504" y="955" fontSize="3.7" fontWeight="700" className="fill-foreground">Extends beyond borders with “clawlike” projections (earlobes, face,</text>
+          <text x="504" y="965" fontSize="3.7" fontWeight="700" className="fill-foreground">upper extremities) · frequent recurrence · ↑ in darker skin</text>
+          <text x="504" y="982" fontSize="3.6" className="fill-muted-foreground">PHOTOGRAPH B (copyrighted, described): a clinical photograph of a large,</text>
+          <text x="504" y="992" fontSize="3.6" className="fill-muted-foreground">dark, lobulated clawlike mass extending well beyond the wound —</text>
+          <text x="504" y="1002" fontSize="3.6" className="fill-muted-foreground">on an earlobe/neck area</text>
+        </g>
+      </g>
+      {/* footer */}
+      <g>
+        <rect x="24" y="1026" width="932" height="48" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="1042" fontSize="5.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 235–236 / book 213–214 (Pathology — Inflammation: Granulomatous inflammation; Scar formation)</text>
+        <text x="42" y="1056" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): THREE copyrighted photographs (p235's A — the caseating-granuloma H&amp;E micrograph; p236's A and B — the hypertrophic and keloid clinical photographs) — all described in text, never reproduced.</text>
+        <text x="42" y="1068" fontSize="5" className="fill-muted-foreground">The mechanism figure is vector line art, redrawn here as an ORIGINAL KYP figure. Tables carried verbatim in the note. No margin mnemonics (VLM confirmed); the KYP memory layer is original.</text>
+      </g>
+    </svg>
+  );
+}
