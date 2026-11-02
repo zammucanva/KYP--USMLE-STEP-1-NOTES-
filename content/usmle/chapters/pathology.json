@@ -12,7 +12,7 @@
     }
   ],
   "extractionStatus": "extracted",
-  "pendingTopicCount": 8,
+  "pendingTopicCount": 3,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -1500,8 +1500,172 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The benign-vs-malignant nomenclature tables (epithelial, mesenchymal, blood) and the dysplasia-to-invasive-carcinoma-to-metastasis progression — the vocabulary layer of the neoplasia section."
+      "status": "complete",
+      "productionRationale": "The benign-vs-malignant nomenclature tables (epithelial, mesenchymal, blood) and the dysplasia-to-invasive-carcinoma-to-metastasis progression — the vocabulary layer of the neoplasia section.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              237
+            ],
+            "bookPages": "215"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The neoplasia definition + the five progression rows (book 215)",
+          "sourceFigureDescription": "The definition (uncontrolled, often monoclonal proliferation; parenchyma + stroma) and the five-row progression table (Normal cells, Dysplasia, Carcinoma in situ/preinvasive, Invasive carcinoma, Metastasis) with the molecular gates. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the definition panel + the progression cascade) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              237
+            ],
+            "bookPages": "215"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The cervical epithelium progression figure (book 215)",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): a five-stage arrow chain Normal -> Dysplasia -> Carcinoma in situ -> Invasive carcinoma -> Metastasis, with the basement membrane band beneath the epithelial cell layers (intact through CIS, breached at Invasive) and a blood/lymphatic vessel at the base (the metastasis route).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the progression cascade redrawn with original KYP glyphs) + blocks[1] the progression table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              238
+            ],
+            "bookPages": "216"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The nomenclature intro + hamartoma/choristoma + the grade-vs-stage definitions (book 216)",
+          "sourceFigureDescription": "The carcinoma/sarcoma rule, the benign and malignant feature lists, the hamartoma-vs-choristoma definitions, the GRADE block (differentiation + mitotic activity, low- to high-grade/anaplastic, correlates with aggressiveness), and the STAGE block (invasion + spread, depth correlates with metastasis risk, clinical [c] or pathologic [p] findings). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the nomenclature panel + the grade-vs-stage fork) + blocks[2] and blocks[3] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              238
+            ],
+            "bookPages": "216"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The tumor nomenclature table (book 216)",
+          "sourceFigureDescription": "The 10-row nomenclature table with the Mesenchyme category header and the Blood cells / Blood vessels / Smooth muscle / Striated muscle / Connective tissue / Bone / Fat / Melanocyte rows (benign vs malignant). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the nomenclature grid) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv5",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              238
+            ],
+            "bookPages": "216"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The grade illustration (book 216)",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): four cell-cluster panels labeled Low grade / High grade (top row) and Low grade / High grade (bottom row) illustrating the differentiation spectrum from well-differentiated (uniform small cells) to anaplastic (pleomorphic irregular cells).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the grade axis redrawn with original KYP glyphs) + blocks[3] the grade row",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "neoplasia-nomenclature",
+          "requiredInKYP": true,
+          "visualId": "neoplasia-nomenclature-sv6",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              238
+            ],
+            "bookPages": "216"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The TNM staging figure (book 216)",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): a primary tumor (T) at upper right with a lymph node (N) at center-left and a blood/lymphatic vessel (M) at lower right with an arrow to 'Spread to other organs and tissues' — illustrating the TNM staging system with the printed importance rule M > N > T.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "neoplasia-progression-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the TNM staging redraw with original KYP glyphs) + blocks[3] the stage row",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "neoplasia-progression-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "cancer-hallmarks",
@@ -1523,8 +1687,37 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The hallmark table (growth-signal self-sufficiency, anti-growth insensitivity, evasion of apoptosis, limitless replication, sustained angiogenesis, Warburg effect, immune evasion, invasion, metastasis) — the mechanism map of malignancy."
+      "status": "complete",
+      "productionRationale": "The hallmark table (growth-signal self-sufficiency, anti-growth insensitivity, evasion of apoptosis, limitless replication, sustained angiogenesis, Warburg effect, immune evasion, invasion, metastasis) — the mechanism map of malignancy.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "cancer-hallmarks",
+          "requiredInKYP": true,
+          "visualId": "cancer-hallmarks-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              239
+            ],
+            "bookPages": "217"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 9-row HALLMARK | MECHANISM table (book 217)",
+          "sourceFigureDescription": "The complete hallmarks-of-cancer table: Growth signal self-sufficiency, Anti-growth signal insensitivity, Evasion of apoptosis, Limitless replicative potential, Sustained angiogenesis, Warburg effect, Immune evasion in cancer, Tissue invasion, Metastasis — each with its mechanism. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "cancer-hallmarks-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the 9-hallmark grid) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cancer-hallmarks-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "cancer-immunotherapy-epidemiology",
@@ -1546,8 +1739,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The checkpoint-inhibitor directory (ipilimumab, atezolizumab, durvalumab, avelumab, cemiplimab, nivolumab, pembrolizumab) and cancer epidemiology (incidence vs mortality) — the translational layer."
+      "status": "complete",
+      "productionRationale": "The checkpoint-inhibitor directory (ipilimumab, atezolizumab, durvalumab, avelumab, cemiplimab, nivolumab, pembrolizumab) and cancer epidemiology (incidence vs mortality) — the translational layer.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "cancer-immunotherapy-epidemiology",
+          "requiredInKYP": true,
+          "visualId": "cancer-immunotherapy-epidemiology-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              240
+            ],
+            "bookPages": "218"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The immune checkpoint interactions text + the cancer epidemiology table (book 218)",
+          "sourceFigureDescription": "The checkpoint definition and the two axes (PD-1/PD-L1/2 and CTLA-4/CD28/B7) with the 7 drug names, plus the 4-column epidemiology table (MALES / FEMALES / CHILDREN / NOTES) with incidence and mortality rows. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "checkpoint-epidemiology-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the checkpoint panel + the epidemiology grid) + blocks[1] and blocks[2] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "checkpoint-epidemiology-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "cancer-immunotherapy-epidemiology",
+          "requiredInKYP": true,
+          "visualId": "cancer-immunotherapy-epidemiology-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              240
+            ],
+            "bookPages": "218"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The immune checkpoint interactions figure (book 218)",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): T cell + APC + tumor cell with MHC II, CD28, B7, CTLA-4, Antigen, MHC I, TCR, T cell activation, PD-1, PD-L1, and the 7 drug labels (ipilimumab; atezolizumab, durvalumab, avelumab; cemiplimab, nivolumab, pembrolizumab) showing the two checkpoint axes and their antibody targets.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "checkpoint-epidemiology-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the checkpoint figure redrawn with original KYP glyphs) + blocks[1] the checkpoint table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "checkpoint-epidemiology-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "metastasis-patterns",
@@ -1569,8 +1818,91 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The organ-by-organ metastasis map (bone, liver, lung, brain) with the primary-tumor sources and route logic — the anatomic layer of spread."
+      "status": "complete",
+      "productionRationale": "The organ-by-organ metastasis map (bone, liver, lung, brain) with the primary-tumor sources and route logic — the anatomic layer of spread.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "metastasis-patterns",
+          "requiredInKYP": true,
+          "visualId": "metastasis-patterns-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              241
+            ],
+            "bookPages": "219"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The CLaSH rule + the 4-hematogenous-carcinoma exception list + the 4-row site-of-metastasis table (book 219)",
+          "sourceFigureDescription": "The CLaSH rule (Carcinomas-Lymphatics, Sarcomas-Hematogenous — the source's own acronym), the four carcinomas that route hematogenously (follicular thyroid, choriocarcinoma, renal cell, hepatocellular), the metastasis-vs-primary rule (more common than 1° in bone/liver/lung/brain; multiple vs solitary lesions), and the 4-row site-of-metastasis table (Bone, Liver, Lung, Brain) with their tumor lists and notes (including the bone blastic/mixed/lytic fork). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "metastasis-pattern-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the CLaSH panel + the 4-row site grid + the bone fork) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "metastasis-pattern-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "metastasis-patterns",
+          "requiredInKYP": true,
+          "visualId": "metastasis-patterns-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              241
+            ],
+            "bookPages": "219"
+          },
+          "visualType": "RADIOLOGY",
+          "visualPurpose": "Photograph A — the bone metastasis axial-skeleton image (book 219)",
+          "sourceFigureDescription": "A gray jpeg radiograph/photograph (188x245 at 150 dpi), lettered A beside the Bone row's 'Predilection for axial skeleton A' note — showing the axial skeleton's predilection for bone metastasis. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's Bone row + blocks[1] the Bone row axial-skeleton note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "metastasis-patterns",
+          "requiredInKYP": true,
+          "visualId": "metastasis-patterns-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              241
+            ],
+            "bookPages": "219"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph B — the liver parenchyma metastasis image (book 219)",
+          "sourceFigureDescription": "A cmyk jpeg histology/photograph (188x150 at 150 dpi), lettered B beside the Liver row's 'Scattered throughout liver parenchyma B' note — showing metastatic deposits scattered throughout the liver parenchyma. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's Liver row + blocks[1] the Liver row scattered-parenchyma note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     },
     {
       "topicId": "oncogenes-tumor-suppressors",
@@ -1592,8 +1924,37 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The gene table (receptor tyrosine kinases, transcription factors, antiapoptotic molecules, tumor suppressors) with their cancers — the molecular layer of neoplasia."
+      "status": "complete",
+      "productionRationale": "The gene table (receptor tyrosine kinases, transcription factors, antiapoptotic molecules, tumor suppressors) with their cancers — the molecular layer of neoplasia.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "oncogenes-tumor-suppressors",
+          "requiredInKYP": true,
+          "visualId": "oncogenes-tumor-suppressors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              242
+            ],
+            "bookPages": "220"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 12-row oncogene table + the 15-row tumor suppressor table (book 220)",
+          "sourceFigureDescription": "The oncogene definition (gain of function, one allele) and the 12-row oncogene table (ALK, EGFR, HER2, RET, BCR-ABL, JAK2, BRAF, c-KIT, MYCC, MYCN, KRAS, BCL-2) with their gene products and associated neoplasms; the tumor suppressor definition (loss of function, two alleles — Knudson 2-hit) and the 15-row tumor suppressor table (APC, BRCA1/2, CDKN2A, DCC, SMAD4, MEN1, NF1, NF2, PTEN, RB1, TP53, TSC1, TSC2, VHL, WT1) with their gene products and associated conditions. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "oncogene-suppressor-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the two-table panel map with the allele axis) + blocks[1] and blocks[2] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "oncogene-suppressor-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "chemical-carcinogens",

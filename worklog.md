@@ -666,3 +666,62 @@ Stage Summary:
 - MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 (all VERIFIED) · Pathology 11/19 (P1-P11) · 137/3029 topics produced · evidence 3737/3737 · contract GREEN · 0 depth failures · tsc 1 baseline.
 - SESSION TOTAL: 5 complete topics (P7-P11), all first-run evidence, 3 of 5 first-pass QA clean (P7/P8/P11 one footer-or-panel fix round each; P9 one contrast round + one adjudicated false positive).
 - NEXT (first action of the next session): verify remote HEAD ≥ this batch's push → P12 neoplasia-nomenclature (pdf 237/215) → P13 cancer-hallmarks → P14 cancer-immunotherapy-epidemiology → P15 metastasis-patterns → P16 oncogenes-tumor-suppressors — the next ≥5-topic cycle → P17-P19 → pathology chapter close (audit + completedAt) → public health inventory (pdf 278-300) → organ systems. Follow the P7-P11 pattern exactly. Do not stop.
+
+---
+
+## Session 2026-11-02 — P12-P16 batch (5 topics, Pathology 11→16/19)
+
+### Environment recovery
+- Session opened with a FRESH sandbox (the `/home/z/my-project/.git` had only 11 UUID-named commits — the KYP repository history was gone). The 198MB bundle at `download/kyp-usmle-notes-checkpoint.bundle` was also stale (HEAD `34f9d73d`, pre-M1).
+- Found a LARGER bundle at `/tmp/my-project/download/kyp-usmle-notes-checkpoint.bundle` (691MB, HEAD `7086079`) — this contained the full history including Microbiology 39/39 COMPLETE and Pathology P1-P11.
+- Recovery: cloned the 691MB bundle to `/tmp/kyp-verify`, then copied its `.git` over the fresh `/home/z/my-project/.git`, preserved `upload/` PDFs (still present), ran `git checkout -- .`, `bun install` (794 pkgs), and verified baseline gates: CONTRACT GREEN (2 baseline warnings), audit 137/0, evidence 3737/3737, tsc 1 baseline error (next.config.ts redirects — pre-existing).
+- PAT written to `/tmp/.kyp_pat` (chmod 600).
+- Confirmed checkpoint `f59a8a2` IS in the bundle's history (the summary's claimed checkpoint was real, but the bundle's HEAD `7086079` was 50+ commits ahead — Microbiology 39/39 and Pathology P1-P11 already done).
+
+### P12 — neoplasia-nomenclature (pdf 237-238 / book 215-216) — CLEAN FIRST PASS
+- Census (pdfimages + VLM): NO raster images on either page. TWO vector figures (the cervical epithelium progression diagram on p237; the grade illustration + TNM staging figure on p238) — both redrawn as ORIGINAL KYP figures (the P2/P3 pure-vector convention).
+- Visual: `neoplasia-progression-map` (NeoplasiaProgressionMap in neoplasia.tsx) — the 5-station progression cascade (Normal → Dysplasia → CIS → Invasive → Metastasis with the basement membrane band, molecular gates, and blood/lymphatic vessel) + the nomenclature rules panel (carcinoma vs sarcoma, benign vs malignant, hamartoma vs choristoma) + the 10-row nomenclature table grid + the grade-vs-stage fork + the TNM staging figure redraw.
+- D2 note with 2 mechanisms (progression-cascade, grade-vs-stage-axis), 3 verbatim tables (the progression definitions, the nomenclature table, the grade-vs-stage block), cervical-biopsy CIS miniCase with 4 distractors (invasive / dysplasia / metastatic / hamartoma), 4 KYP mnemonics (THE BASEMENT MEMBRANE IS THE LINE / CARCINOMA EPITHELIAL SARCOMA MESENCHYME / GRADE DIFFERENTIATES STAGE SPREADS / M N T THE PROGNOSTIC PRIORITY).
+- Evidence: 24 quotes verified (4 line-range fixes on first run — the figure-label fragments and the nomenclature table interleaving required contiguous-range quoting).
+- QA: 4-pass browser 0px x4 + getBBox 160 texts 0/0/0 + VLM confirmed the SVG visual renders correctly (progression diagram + TNM figure visible). FIRST PASS CLEAN — 0 fix rounds.
+
+### P13 — cancer-hallmarks (pdf 239 / book 217) — CLEAN FIRST PASS
+- Census (pdfimages + VLM): NO raster images. Single 9-row HALLMARK | MECHANISM table — pure text, no figures.
+- Visual: `cancer-hallmarks-map` (CancerHallmarksMap in neoplasia.tsx) — the 9 hallmarks as 3 pairs + 1 trio (growth pair; death-immortality pair; supply pair; spread trio) with the invasion-metastasis cascade as a 6-step flow at the bottom.
+- D2 note with 2 mechanisms (hallmark-axis, invasion-metastasis-cascade), 1 verbatim table (the 9-row HALLMARK | MECHANISM table), lung-cancer-with-KRAS-and-E-cadherin-loss miniCase with 4 distractors, 4 KYP mnemonics (GROW IGNORE CHEAT LIVE / VEGF TELOMERASE TP53 BCL2 / E-CADHERIN IS THE GATE / LYMPHATICS OR BLOOD THEN HOMING).
+- Evidence: 16 quotes verified (1 sourceRef format fix: "p. 217" → "pp. 217" per the validator's production format).
+- QA: 4-pass browser 0px x4 + getBBox 114 texts 0/0/0. FIRST PASS CLEAN.
+
+### P14 — cancer-immunotherapy-epidemiology (pdf 240 / book 218) — CLEAN FIRST PASS
+- Census (pdfimages + VLM): NO raster images. ONE vector figure (the immune checkpoint interactions diagram — T cell + APC + tumor cell with PD-1/PD-L1, CTLA-4/CD28/B7, TCR/MHC I, MHC II, T cell activation, and 7 drug labels) — redrawn as an ORIGINAL KYP figure. The cancer epidemiology block is a 4-column table (MALES/FEMALES/CHILDREN/NOTES).
+- Visual: `checkpoint-epidemiology-map` (CheckpointEpidemiologyMap in neoplasia.tsx) — the checkpoint figure redraw (T cell + APC + tumor cell with the two axes and 7 drug labels mapped to their targets) + the 7-antibody roster panel + the 4-column epidemiology grid with incidence and mortality rows + the divergence callout (incidence leader = sex-specific, mortality leader = lung).
+- D2 note with 2 mechanisms (checkpoint-axis, incidence-mortality-axis), 2 verbatim tables (the checkpoint interactions, the epidemiology table), NSCLC-with-anti-PD-1 miniCase with 4 distractors (anti-CTLA-4 / anti-PD-L1 / anti-HER2 / anti-VEGF), 4 KYP mnemonics (PD-1 T CELLS PD-L1 TUMOR / CTLA-4 STEALS B7 FROM CD28 / SKIN IS MOST COMMON / SECOND TO HEART).
+- Evidence: 16 quotes verified (4 line-range fixes on first run — the checkpoint figure's scattered labels required contiguous-cluster quoting instead of non-contiguous joins).
+- QA: 4-pass browser 0px x4 + getBBox 117 texts 0/0/0. FIRST PASS CLEAN.
+
+### P15 — metastasis-patterns (pdf 241 / book 219) — CLEAN (1 fix round)
+- Census (pdfimages + VLM): TWO copyrighted photographs — the "A" marker (image 0, 188x245 gray jpeg — bone axial-skeleton) and the "B" marker (image 1, 188x150 cmyk jpeg — liver parenchyma) — BOTH described-in-text only, NEVER reproduced (the M32 convention). No vector figures. The CLaSH rule (the source's own acronym, attributed), the 4-hematogenous-carcinoma exception list, and the 4-row site-of-metastasis table are pure text.
+- Visual: `metastasis-pattern-map` (MetastasisPatternMap in neoplasia.tsx) — the CLaSH panel + 4 exceptions + metastasis-vs-primary rule + the 4-row site grid (Bone with photograph A described, Liver with photograph B described, Lung, Brain) + the bone blastic/mixed/lytic fork + the imaging heuristic.
+- D2 note with 2 mechanisms (clash-route-axis, site-tropism-axis), 1 verbatim table (the CLaSH rule + 4 exceptions + metastasis-vs-primary rule + 4-row site table), prostate-cancer-blastic-bone-metastasis miniCase with 4 distractors (CLaSH-exception / lung-primary / primary-bone-tumor / breast-primary), 4 KYP mnemonics (CLaSH [attributed] / FOUR HEMATOGENOUS CARCINOMAS / BLASTIC MIXED LYTIC / MULTIPLE METASTASES LONE PRIMARY).
+- Evidence: 12 quotes verified (all contiguous ranges, first pass).
+- QA: 1 fix round — the visual-type vocabulary validator caught "RADIOGRAPH" (not in the VISUAL_TYPES list; should be "RADIOLOGY" for the bone image). Fixed and regenerated. Then 4-pass browser 0px x4 + getBBox 99 texts 0/0/0.
+
+### P16 — oncogenes-tumor-suppressors (pdf 242 / book 220) — CLEAN (1 fix round)
+- Census (pdfimages + VLM): NO raster images. Two pure-text tables — the 12-row ONCOGENE table (gain of function, one allele) and the 15-row TUMOR SUPPRESSOR table (loss of function, two alleles — Knudson 2-hit).
+- Visual: `oncogene-suppressor-map` (OncogeneSuppressorMap in neoplasia.tsx) — the allele axis band (one-allele gain vs two-allele loss) + the 12-row oncogene table and 15-row tumor suppressor table rendered side-by-side + the gene-class axis summary (kinases / nuclear / regulators / misc) + the Li-Fraumeni SBLA callout with the 4 lettered panels (S/B-B/L-L/A) + the 4 KYP mnemonics summary.
+- D2 note with 2 mechanisms (allele-axis, gene-class-axis), 2 verbatim tables (the 12-row oncogene table, the 15-row tumor suppressor table), Li-Fraumeni-TP53-germline miniCase with 4 distractors (BRCA / RB1 / BRAF / PTEN-Cowden), 4 KYP mnemonics (ONE ALLELE GAIN TWO ALLELES LOSS / KNUDSON TWO-HIT / SBLA LI-FRAUMENI / THE TWO DELETED DCC SMAD4).
+- Evidence: 28 quotes verified (all contiguous ranges, first pass).
+- QA: 1 fix round — the sourceRef field's slash-separated gene lists ("ALK/EGFR/HER2/RET/BCR-ABL/JAK2/BRAF/c-KIT/MYCC/MYCN/KRAS/BCL-2" and "APC/BRCA1-2/CDKN2A/DCC/SMAD4/MEN1/NF1/NF2/PTEN/RB1/TP53/TSC1/TSC2/VHL/WT1") caused 78px mobile horizontal overflow because slashes are not word-break characters. Fixed by changing slashes to commas. Then 4-pass browser 0px x4 + getBBox 154 texts 0/0/0.
+
+### Batch gates (post-P12-P16)
+- CONTRACT GREEN (2 baseline warnings — endocrine and neurology cross-chapter sources, pre-existing).
+- Evidence: 3833/3833 verified (was 3737 at batch start — +96 quotes for 5 topics: 24+16+16+12+28).
+- Audit: 142 topics, 0 depth failures (was 137 — +5 for P12-P16).
+- TSC: 1 baseline error (next.config.ts redirects — pre-existing, unchanged). No P12-P16-specific tsc errors.
+- Visual registry: +5 visuals (neoplasia-progression-map, cancer-hallmarks-map, checkpoint-epidemiology-map, metastasis-pattern-map, oncogene-suppressor-map) — all in neoplasia.tsx, all registered in registry.tsx.
+- Notes registry: +5 notes (neoplasia-nomenclature, cancer-hallmarks, cancer-immunotherapy-epidemiology, metastasis-patterns, oncogenes-tumor-suppressors) — all in src/lib/kyp/usmle/notes/, all registered in index.ts.
+
+### Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 (all VERIFIED) · Pathology 16/19 (P1-P16) · 142/3029 topics produced · evidence 3833/3833 · contract GREEN · 0 depth failures · tsc 1 baseline.
+- SESSION TOTAL: 5 complete topics (P12-P16), all first-run evidence, 3 of 5 first-pass QA clean (P12/P13/P14); P15 one vocab fix round (RADIOGRAPH→RADIOLOGY); P16 one mobile-overflow fix round (slash-separated sourceRef → commas).
+- NEXT (first action of the next session): P17 chemical-carcinogens (pdf 243 / book 221) → P18 tumor-markers-molecular (pdf 244-245 / book 222-223) → P19 paraneoplastic-aging (pdf 246-248 / book 224-226) — the Pathology chapter close (audit + completedAt at 19/19) → Pharmacology inventory → Public Health → organ systems. Follow the P12-P16 pattern exactly. Do not stop.

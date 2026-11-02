@@ -1,0 +1,242 @@
+{
+  "topicId": "metastasis-patterns",
+  "title": "Metastasis: Organ Patterns & Routes",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      241
+    ],
+    "bookPages": "219"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 219)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA\n\nSEC TION II\n\n219\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CLaSH rule — most Carcinomas spread via Lymphatics; most Sarcomas spread Hematogenously (CLaSH)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Common metastases\n\nMost Carcinomas spread via Lymphatics; most Sarcomas spread Hematogenously (CLaSH).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four hematogenous carcinomas — follicular thyroid carcinoma, choriocarcinoma, renal cell carcinoma, hepatocellular carcinoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "However, four carcinomas route hematogenously: follicular thyroid carcinoma, choriocarcinoma,\nrenal cell carcinoma, and hepatocellular carcinoma. Metastasis to bone, liver, lung, and brain is",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The metastasis-vs-primary rule — metastasis to bone, liver, lung, and brain is more common than 1° malignancy in these organs; metastases often appear as multiple lesions (vs 1° tumors which generally appear as solitary lesions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "renal cell carcinoma, and hepatocellular carcinoma. Metastasis to bone, liver, lung, and brain is\nmore common than 1° malignancy in these organs. Metastases often appear as multiple lesions (vs\n1° tumors which generally appear as solitary lesions).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table header — SITE OF METASTASIS | 10 TUMOR | NOTES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "SITe Of MeTASTASIS\n\n10 TUMOR\n\nNOTeS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bone row part 1 — the 10 TUMOR list (Prostate, breast >> lung > kidney, colon) + the axial-skeleton predilection note with the A photograph marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Bone\n\nProstate, breast >> lung > kidney, colon\n\nPredilection for axial skeleton A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bone row part 2 — the bone metastasis fork: Blastic (eg, prostate, small cell lung cancer), Mixed (eg, breast), Lytic (eg, kidney, colon, non-small cell lung cancer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Bone metastasis can be:\n▘ Blastic (eg, prostate, small cell lung cancer)\n▘ Mixed (eg, breast)\n▘ Lytic (eg, kidney, colon, non-small cell lung\ncancer)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Liver row — the 10 TUMOR list (Colon > breast >> pancreas, lung, prostate) + the scattered-throughout-liver-parenchyma note with the B photograph marker",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Colon > breast >> pancreas, lung, prostate\n\nScattered throughout liver parenchyma B",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lung row — the 10 TUMOR list (Colon, breast >> kidney, prostate) + the typically-involve-both-lungs note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Lung\n\nColon, breast >> kidney, prostate\n\nTypically involve both lungs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Brain row — the 10 TUMOR list (Lung > breast >> melanoma > colon, prostate) + the gray-white matter junction note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "Brain\n\nLung > breast >> melanoma > colon, prostate\n\nUsually seen at gray-white matter junction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two photograph markers (A = bone axial-skeleton, B = liver parenchyma) — the figure-letter anchors that map to the two copyrighted raster images",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "A\nLiver\nB",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 219)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 219\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "metastasis-pattern-map"
+  ],
+  "mechanismIds": [
+    "clash-route-axis",
+    "site-tropism-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the CLaSH rule, the 4-hematogenous-carcinoma exception list, and the 4-row site-of-metastasis table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "route-tropism-reading",
+      "summary": "The two-axis rule (the route axis: CLaSH + 4 hematogenous-carcinoma exceptions; the tropism axis: the 4 site-of-metastasis rows with the bone blastic/mixed/lytic fork) — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rule and the table sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (CLaSH / FOUR HEMATOGENOUS CARCINOMAS / BLASTIC MIXED LYTIC / MULTIPLE METASTASES LONE PRIMARY) — no mnemonic prints on the page beyond the CLaSH acronym (which is the source's own).",
+      "origin": "outside-first-aid",
+      "rationale": "Only the CLaSH acronym prints on book 219 (the source's own); the other three codes are KYP's design. The CLaSH acronym is attributed to the source.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): TWO copyrighted photographs on the page — the 'A' marker (image 0, 188x245 gray jpeg at 150 dpi — the bone metastasis axial-skeleton image beside the Bone row's 'Predilection for axial skeleton A' note) and the 'B' marker (image 1, 188x150 cmyk jpeg at 150 dpi — the liver parenchyma image beside the Liver row's 'Scattered throughout liver parenchyma B' note) — BOTH described-in-text only, NEVER reproduced (the M32 convention). The page has NO vector figures — the CLaSH rule (the source's own acronym, attributed), the 4-hematogenous-carcinoma exception list, and the 4-row site-of-metastasis table are pure text, carried verbatim in the note's table block. No margin mnemonics beyond the source's CLaSH (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-11-02"
+}

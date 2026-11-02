@@ -1,0 +1,100 @@
+{
+  "topicId": "metastasis-patterns",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The CLaSH rule + the 4-hematogenous-carcinoma exception list + the 4-row site-of-metastasis table (book 219)",
+      "sourceFigureDescription": "The CLaSH rule (Carcinomas-Lymphatics, Sarcomas-Hematogenous — the source's own acronym), the four carcinomas that route hematogenously (follicular thyroid, choriocarcinoma, renal cell, hepatocellular), the metastasis-vs-primary rule (more common than 1° in bone/liver/lung/brain; multiple vs solitary lesions), and the 4-row site-of-metastasis table (Bone, Liver, Lung, Brain) with their tumor lists and notes (including the bone blastic/mixed/lytic fork). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "metastasis-pattern-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the CLaSH panel + the 4-row site grid + the bone fork) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metastasis-pattern-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Photograph A — the bone metastasis axial-skeleton image (book 219)",
+      "sourceFigureDescription": "A gray jpeg radiograph/photograph (188x245 at 150 dpi), lettered A beside the Bone row's 'Predilection for axial skeleton A' note — showing the axial skeleton's predilection for bone metastasis. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's Bone row + blocks[1] the Bone row axial-skeleton note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph B — the liver parenchyma metastasis image (book 219)",
+      "sourceFigureDescription": "A cmyk jpeg histology/photograph (188x150 at 150 dpi), lettered B beside the Liver row's 'Scattered throughout liver parenchyma B' note — showing metastatic deposits scattered throughout the liver parenchyma. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's Liver row + blocks[1] the Liver row scattered-parenchyma note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "metastasis-patterns",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's text blocks (the CLaSH rule, the 4-hematogenous-carcinoma exception list, the metastasis-vs-primary rule, and the 4-row site-of-metastasis table with the bone blastic/mixed/lytic fork) are adapted as the registry visual and carried verbatim in the note's table block. The TWO copyrighted photographs (A = bone axial-skeleton, B = liver parenchyma) are described in text, never reproduced (the M32 convention). The CLaSH acronym is the source's own (attributed); no margin mnemonics beyond it (VLM confirmed); the KYP memory layer is original."
+}

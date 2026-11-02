@@ -1,0 +1,46 @@
+{
+  "topicId": "cancer-hallmarks",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-hallmarks",
+      "requiredInKYP": true,
+      "visualId": "cancer-hallmarks-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 9-row HALLMARK | MECHANISM table (book 217)",
+      "sourceFigureDescription": "The complete hallmarks-of-cancer table: Growth signal self-sufficiency, Anti-growth signal insensitivity, Evasion of apoptosis, Limitless replicative potential, Sustained angiogenesis, Warburg effect, Immune evasion in cancer, Tissue invasion, Metastasis — each with its mechanism. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cancer-hallmarks-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the 9-hallmark grid) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cancer-hallmarks-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cancer-hallmarks",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's 9-row HALLMARK | MECHANISM table is the only visual element — pure text, no figures, no photographs (pdfimages confirmed zero rasters). Adapted as the registry visual (the 9-hallmark grid) and carried verbatim in the note's table block. No copyrighted photographs; nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}

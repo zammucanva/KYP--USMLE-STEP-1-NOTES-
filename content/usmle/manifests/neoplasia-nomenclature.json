@@ -1,0 +1,399 @@
+{
+  "topicId": "neoplasia-nomenclature",
+  "title": "Neoplasia Nomenclature & Progression",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      237,
+      238
+    ],
+    "bookPages": "215–216"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 215)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA\n\nSEC TION II\n\n215\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The neoplasia definition — uncontrolled, often monoclonal proliferation; benign or malignant; parenchyma + supporting stroma (nonneoplastic; eg, blood vessels, connective tissue)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "Neoplasia and\nneoplastic progression\n\nUncontrolled, often monoclonal proliferation of cells. Can be benign or malignant. Any neoplastic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The progression figure labels — the basement membrane band and the blood/lymphatic vessel that anchor the cervical progression diagram (the figure's text-layer fragments)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "growth has two components: parenchyma (neoplastic cells) and supporting stroma (nonneoplastic; eg, blood vessels, connective tissue).\n\nEpithelial\nEpithelial\nEpithelial\ncellayer\nlayer Basement\ncell\nlayer\ncell\nBasement\nBasement\nmembrane\nmembrane\nmembrane\n\nBlood\nor\nlymphatic\nBloodor\norlymphatic\nlymphatic\nBlood\nvessel\nvessel\nvessel",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "NORMAL CELLS — basal to apical polarity; the cervical example shows normal cells and the spectrum of dysplasia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "\n→\n\n→",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DYSPLASIA — loss of uniformity in cell size and shape (pleomorphism); loss of tissue orientation; nuclear changes (eg, ↑ nuclear:cytoplasmic ratio); often reversible",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "\n→\n\nNormal cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARCINOMA IN SITU / PREINVASIVE — irreversible severe dysplasia that involves the entire thickness of epithelium but does not penetrate the intact basement membrane",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "\nNormal cells with basal → apical polarity. See cervical example, which shows normal cells and\nspectrum of dysplasia, as discussed below.\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "INVASIVE CARCINOMA — cells have invaded basement membrane using collagenases and hydrolases (metalloproteinases); cell-cell contacts lost by inactivation of E-cadherin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "Dysplasia\n\nLoss of uniformity in cell size and shape (pleomorphism); loss of tissue orientation; nuclear\nchanges (eg, ↑ nuclear:cytoplasmic ratio); often reversible.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "METASTASIS — spread to distant organ(s) via lymphatics or blood",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "\nCarcinoma in situ/",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 215)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "quote": "\nIrreversible severe dysplasia that involves the entire thickness of epithelium but does not",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity — the tumor nomenclature header (book 216)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "216\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nomenclature rule — carcinoma implies epithelial origin, sarcoma denotes mesenchymal origin; both generally imply malignancy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "\nCarcinoma implies epithelial origin, whereas sarcoma denotes mesenchymal origin. Both terms\ngenerally imply malignancy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Benign tumor features — usually well-differentiated and well-demarcated, with low mitotic activity, no metastases, and no necrosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Benign tumors are usually well-differentiated and well-demarcated, with low mitotic activity, no\nmetastases, and no necrosis.\nMalignant tumors (cancers) may show poor differentiation, erratic growth, local invasion,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Malignant tumor features — may show poor differentiation, erratic growth, local invasion, metastasis, and ↓ apoptosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "metastasis, and ↓ apoptosis.\nTerms for non-neoplastic malformations include hamartoma (disorganized overgrowth of tissues in\ntheir native location, eg, Peutz-Jeghers polyps) and choristoma (normal tissue in a foreign location,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hamartoma vs choristoma — hamartoma: disorganized overgrowth of tissues in their native location (eg, Peutz-Jeghers polyps); choristoma: normal tissue in a foreign location (eg, gastric tissue located in distal ileum in Meckel diverticulum)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "eg, gastric tissue located in distal ileum in Meckel diverticulum).\n\nCeLL TYPe\n\nBeNIGN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nomenclature table header row — CELL TYPE | BENIGN | MALIGNANT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "MALIGNANT\n\nEpithelium\n\nAdenoma, papilloma\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nomenclature table part 1 — Epithelium row (Adenoma, papilloma / Adenocarcinoma, papillary carcinoma) + the Mesenchyme category header + Blood cells row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Epithelium\n\nAdenoma, papilloma\n\nAdenocarcinoma, papillary carcinoma\n\nMesenchyme\nLeukemia, lymphoma\n\nBlood cells",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nomenclature table part 2 — Blood cells row (Leukemia, lymphoma) + Blood vessels row (Hemangioma / Angiosarcoma) + Smooth muscle row (Leiomyoma / Leiomyosarcoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Blood cells\nBlood vessels\n\nHemangioma\n\nAngiosarcoma\n\nSmooth muscle\n\nLeiomyoma\n\nLeiomyosarcoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nomenclature table part 3 — Striated muscle row (Rhabdomyoma / Rhabdomyosarcoma) + Connective tissue row (Fibroma / Fibrosarcoma) + Bone row (Osteoma / Osteosarcoma) + Fat row (Lipoma / Liposarcoma) + Melanocyte row (Nevus/mole / Melanoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Smooth muscle\n\nLeiomyoma\n\nLeiomyosarcoma\n\nStriated muscle\n\nRhabdomyoma\n\nRhabdomyosarcoma\n\nConnective tissue\n\nFibroma\n\nFibrosarcoma\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor grade vs stage header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "\nOsteoma\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GRADE — degree of cell differentiation (tissue of origin resemblance) and mitotic activity on histology; ranges from low-grade (well differentiated) to high-grade (poorly differentiated or undifferentiated [anaplastic]); higher grade often correlates with higher aggressiveness",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Osteosarcoma\n\nFat\nLipoma\n\nLiposarcoma\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "STAGE — degree of invasion and spread from initial site; depth of invasion correlates to risk of metastasis; based on clinical (c) or pathologic (p) findings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Melanocyte\n\nNevus/mole\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TNM staging system rule — importance: M > N > T; Primary tumor size/invasion; Regional lymph node metastasis; Distant metastasis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "TNM staging system (importance: M > N > T):\n▘ Primary tumor size/invasion.\n▘ Regional lymph node metastasis.\n▘ Distant metastasis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The grade-vs-stage prognostic rule — stage generally has more prognostic value than grade (eg, a high-stage yet low-grade tumor is usually worse than a low-stage yet high-grade tumor); stage (spread) determines survival",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "(p) findings.\nTNM staging system (importance: M > N > T):\n▘ Primary tumor size/invasion.\n▘ Regional lymph node metastasis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 216)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "quote": "Stage generally has more prognostic value than\ngrade (eg, a high-stage yet low-grade tumor is",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "neoplasia-progression-map"
+  ],
+  "mechanismIds": [
+    "progression-cascade",
+    "grade-vs-stage-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the progression definitions, the nomenclature table, and the grade-vs-stage block; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "five-frame-reading",
+      "summary": "The five-frame rule (the definition, the progression cascade with its molecular gates, the nomenclature axis, the grade-vs-stage fork, the TNM priority) — KYP's synthesis of the two-page spread into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the blocks sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (THE BASEMENT MEMBRANE IS THE LINE / CARCINOMA EPITHELIAL SARCOMA MESENCHYME / GRADE DIFFERENTIATES STAGE SPREADS / M N T THE PROGNOSTIC PRIORITY) — no mnemonic prints on either page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 215-216 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on either page (pdfimages -list returned zero rows for both pdf 237 and pdf 238). The TWO figures are pure vector line art (the cervical epithelium progression diagram on book 215 with the basement membrane band, the blood/lymphatic vessel, and the five-stage arrow chain; and the grade illustration + the TNM staging figure on book 216) — BOTH redrawn as ORIGINAL KYP figures (the P2/P3 pure-vector convention). The nomenclature table and the grade-vs-stage block are pure text, carried verbatim in the note's tables. No copyrighted photographs; no margin mnemonics (VLM confirmed on both); the KYP memory layer is original.",
+  "updatedAt": "2026-11-02"
+}

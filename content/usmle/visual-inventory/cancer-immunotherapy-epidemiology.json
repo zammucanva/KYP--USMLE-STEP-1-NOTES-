@@ -1,0 +1,73 @@
+{
+  "topicId": "cancer-immunotherapy-epidemiology",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "requiredInKYP": true,
+      "visualId": "cancer-immunotherapy-epidemiology-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The immune checkpoint interactions text + the cancer epidemiology table (book 218)",
+      "sourceFigureDescription": "The checkpoint definition and the two axes (PD-1/PD-L1/2 and CTLA-4/CD28/B7) with the 7 drug names, plus the 4-column epidemiology table (MALES / FEMALES / CHILDREN / NOTES) with incidence and mortality rows. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "checkpoint-epidemiology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the checkpoint panel + the epidemiology grid) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "checkpoint-epidemiology-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "requiredInKYP": true,
+      "visualId": "cancer-immunotherapy-epidemiology-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The immune checkpoint interactions figure (book 218)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): T cell + APC + tumor cell with MHC II, CD28, B7, CTLA-4, Antigen, MHC I, TCR, T cell activation, PD-1, PD-L1, and the 7 drug labels (ipilimumab; atezolizumab, durvalumab, avelumab; cemiplimab, nivolumab, pembrolizumab) showing the two checkpoint axes and their antibody targets.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "checkpoint-epidemiology-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the checkpoint figure redrawn with original KYP glyphs) + blocks[1] the checkpoint table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "checkpoint-epidemiology-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cancer-immunotherapy-epidemiology",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's text blocks (the checkpoint definition, the two axes, the 7 drug names, and the 4-column epidemiology table with incidence and mortality rows) are adapted as the registry visual and carried verbatim in the note's tables. The ONE vector figure (the immune checkpoint interactions diagram) is pure vector line art with zero rasters — redrawn as an ORIGINAL KYP REDRAW (the P2/P3 convention). No copyrighted photographs exist on the page (pdfimages confirmed zero rasters); nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}

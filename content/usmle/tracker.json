@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-10-28T17:49:46Z",
+  "generatedAt": "2026-11-02T16:04:08Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 137,
+    "topicsProduced": 142,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 82,
+      "pilot-complete": 87,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -318,8 +318,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 19,
-      "topicsProduced": 11,
-      "topicsRemaining": 8,
+      "topicsProduced": 16,
+      "topicsRemaining": 3,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -769,6 +769,36 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-27"
+    },
+    {
+      "topicId": "cancer-hallmarks",
+      "title": "Hallmarks of Cancer",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 239 (book 217)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "title": "Cancer Immunotherapy & Epidemiology",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 240 (book 218)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "cd-markers",
@@ -1746,6 +1776,21 @@
       "updatedAt": "2026-10-10"
     },
     {
+      "topicId": "metastasis-patterns",
+      "title": "Metastasis: Organ Patterns & Routes",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 241 (book 219)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
+    },
+    {
       "topicId": "mhc-complex",
       "title": "MHC I vs MHC II and Bare Lymphocyte Syndrome",
       "chapterId": "immunology",
@@ -1821,6 +1866,21 @@
       "updatedAt": "2026-10-27"
     },
     {
+      "topicId": "neoplasia-nomenclature",
+      "title": "Neoplasia Nomenclature & Progression",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 237, 238 (book 215–216)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
+    },
+    {
       "topicId": "nk-b-t-cell-functions",
       "title": "Major Functions of NK, B and T Cells",
       "chapterId": "immunology",
@@ -1879,6 +1939,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "oncogenes-tumor-suppressors",
+      "title": "Oncogenes & Tumor Suppressors",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 242 (book 220)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "opportunistic-fungi",

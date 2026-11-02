@@ -1,0 +1,181 @@
+{
+  "topicId": "neoplasia-nomenclature",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The neoplasia definition + the five progression rows (book 215)",
+      "sourceFigureDescription": "The definition (uncontrolled, often monoclonal proliferation; parenchyma + stroma) and the five-row progression table (Normal cells, Dysplasia, Carcinoma in situ/preinvasive, Invasive carcinoma, Metastasis) with the molecular gates. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the definition panel + the progression cascade) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          237
+        ],
+        "bookPages": "215"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The cervical epithelium progression figure (book 215)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): a five-stage arrow chain Normal -> Dysplasia -> Carcinoma in situ -> Invasive carcinoma -> Metastasis, with the basement membrane band beneath the epithelial cell layers (intact through CIS, breached at Invasive) and a blood/lymphatic vessel at the base (the metastasis route).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the progression cascade redrawn with original KYP glyphs) + blocks[1] the progression table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The nomenclature intro + hamartoma/choristoma + the grade-vs-stage definitions (book 216)",
+      "sourceFigureDescription": "The carcinoma/sarcoma rule, the benign and malignant feature lists, the hamartoma-vs-choristoma definitions, the GRADE block (differentiation + mitotic activity, low- to high-grade/anaplastic, correlates with aggressiveness), and the STAGE block (invasion + spread, depth correlates with metastasis risk, clinical [c] or pathologic [p] findings). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the nomenclature panel + the grade-vs-stage fork) + blocks[2] and blocks[3] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The tumor nomenclature table (book 216)",
+      "sourceFigureDescription": "The 10-row nomenclature table with the Mesenchyme category header and the Blood cells / Blood vessels / Smooth muscle / Striated muscle / Connective tissue / Bone / Fat / Melanocyte rows (benign vs malignant). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the nomenclature grid) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv5",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The grade illustration (book 216)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): four cell-cluster panels labeled Low grade / High grade (top row) and Low grade / High grade (bottom row) illustrating the differentiation spectrum from well-differentiated (uniform small cells) to anaplastic (pleomorphic irregular cells).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the grade axis redrawn with original KYP glyphs) + blocks[3] the grade row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv6",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          238
+        ],
+        "bookPages": "216"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The TNM staging figure (book 216)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters): a primary tumor (T) at upper right with a lymph node (N) at center-left and a blood/lymphatic vessel (M) at lower right with an arrow to 'Spread to other organs and tissues' — illustrating the TNM staging system with the printed importance rule M > N > T.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "neoplasia-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the TNM staging redraw with original KYP glyphs) + blocks[3] the stage row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "neoplasia-progression-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "neoplasia-nomenclature",
+    "textbookVisualCount": 6,
+    "accountedFor": 6,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pages' text blocks (the definition, the five progression rows, the nomenclature intro and table, and the grade-vs-stage block) are adapted as the registry visual and carried verbatim in the note's tables. The TWO vector figures on book 215 (the cervical progression diagram) and book 216 (the grade illustration and the TNM staging figure) are pure vector line art with zero rasters — redrawn as ORIGINAL KYP REDRAWS (the P2/P3 convention). No copyrighted photographs exist on either page (pdfimages confirmed zero rasters); nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}

@@ -1,0 +1,294 @@
+{
+  "topicId": "cancer-hallmarks",
+  "title": "Hallmarks of Cancer",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      239
+    ],
+    "bookPages": "217"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 217)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA\n\n217\n\nSEC TION II\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The hallmarks definition — cancer is caused by (mostly acquired) DNA mutations that affect fundamental cellular processes (eg, growth, DNA repair, survival)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Hallmarks of cancer\n\nCancer is caused by (mostly acquired) DNA mutations that affect fundamental cellular processes\n(eg, growth, DNA repair, survival).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table header row — HALLMARK | MECHANISM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "HALLMARK\n\nMeCHANISM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 1 — Growth signal self-sufficiency: mutations in genes encoding proto-oncogenes (↑ growth factors, autocrine loop, eg, ↑PDGF in brain tumors); growth factor receptors (constitutive signaling, eg, HER2 in breast cancer); signaling molecules (eg, RAS); transcription factors (eg, MYC); cell cycle regulators (eg, cyclins, CDKs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Growth signal\nself-sufficiency\n\nMutations in genes encoding:\n▘ Proto-oncogenes → ↑ growth factors → autocrine loop (eg, ↑ PDGF in brain tumors)\n▘ Growth factor receptors → constitutive signaling (eg, HER2 in breast cancer)\n▘ Signaling molecules (eg, RAS)\n▘ Transcription factors (eg, MYC)\n▘ Cell cycle regulators (eg, cyclins, CDKs)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 2 — Anti-growth signal insensitivity: mutations in tumor suppressor genes (eg, Rb); loss of E-cadherin function → loss of contact inhibition (eg, NF2 mutations)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Anti-growth signal\ninsensitivity\n\n▘ Mutations in tumor suppressor genes (eg, Rb)\n▘ Loss of E-cadherin function → loss of contact inhibition (eg, NF2 mutations)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 3 — Evasion of apoptosis: mutations in genes that regulate apoptosis (eg, TP53, BCL2 → follicular B cell lymphoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Evasion of apoptosis\n\nMutations in genes that regulate apoptosis (eg, TP53, BCL2 → follicular B cell lymphoma).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 4 — Limitless replicative potential: reactivation of telomerase → maintenance and lengthening of telomeres → prevention of chromosome shortening and cell aging",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Limitless replicative\npotential\n\nReactivation of telomerase → maintenance and lengthening of telomeres → prevention of\nchromosome shortening and cell aging.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 5 — Sustained angiogenesis: ↑ pro-angiogenic factors (eg, VEGF) or ↓ inhibitory factors; factors may be produced by tumor or stromal cells; vessels can sprout from existing capillaries (neoangiogenesis) or endothelial cells are recruited from bone marrow (vasculogenesis); vessels may be leaky and/or dilated",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Sustained\nangiogenesis\n\n↑ pro-angiogenic factors (eg, VEGF) or ↓ inhibitory factors. Factors may be produced by tumor or\nstromal cells. Vessels can sprout from existing capillaries (neoangiogenesis) or endothelial cells are\nrecruited from bone marrow (vasculogenesis). Vessels may be leaky and/or dilated.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 6 — Warburg effect: shift of glucose metabolism from mitochondrial oxidative phosphorylation to glycolysis, even under aerobic conditions; driven by altered metabolic enzymes (eg, pyruvate kinase M2, LDH-A); aerobic glycolysis supplies rapidly dividing cancer cells with biosynthetic intermediates for nucleotide, lipid, and amino acid synthesis, resulting in ↑ lactate production",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Warburg effect\n\nShift of glucose metabolism from mitochondrial oxidative phosphorylation to glycolysis, even under\naerobic conditions. Driven by altered metabolic enzymes (eg, pyruvate kinase M2, LDH-A).\nAerobic glycolysis supplies rapidly dividing cancer cells with biosynthetic intermediates for\nnucleotide, lipid, and amino acid synthesis, resulting in ↑ lactate production.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 7 — Immune evasion in cancer: normally immune cells can recognize and attack tumor cells; for successful tumorigenesis, tumor cells must evade the immune system; multiple escape mechanisms exist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Immune evasion in\ncancer\n\nNormally, immune cells can recognize and attack tumor cells. For successful tumorigenesis, tumor\ncells must evade the immune system. Multiple escape mechanisms exist:",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 7 escape mechanism 1 — ↓ MHC class I expression by tumor cells → cytotoxic T cells are unable to recognize tumor cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "▘ ↓ MHC class I expression by tumor cells → cytotoxic T cells are unable to recognize tumor\ncells.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 7 escape mechanism 2 — tumor cells secrete immunosuppressive factors (eg, TGF-β) and recruit regulatory T cells to downregulate immune response",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "▘ Tumor cells secrete immunosuppressive factors (eg, TGF-β) and recruit regulatory T cells to\ndownregulate immune response.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 7 escape mechanism 3 — tumor cells upregulate immune checkpoint molecules, which inhibit immune response",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "▘ Tumor cells upregulate immune checkpoint molecules, which inhibit immune response.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 8 — Tissue invasion: loss of E-cadherin function → loosening of intercellular junctions → metalloproteinases degrade basement membrane and ECM → cells attach to ECM proteins (eg, laminin, fibronectin) → cells migrate through degraded ECM ('locomotion') → vascular dissemination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Tissue invasion\n\nLoss of E-cadherin function → loosening of intercellular junctions → metalloproteinases degrade\nbasement membrane and ECM → cells attach to ECM proteins (eg, laminin, fibronectin) → cells\nmigrate through degraded ECM (“locomotion”) → vascular dissemination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "HALLMARK 9 — Metastasis: tumor cells or emboli spread via lymphatics or blood → adhesion to endothelium → extravasation and homing; site of metastasis can be predicted by site of 1° tumor, as the target organ is often the first-encountered capillary bed; some cancers show organ tropism (eg, lung cancers commonly metastasize to adrenals)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "Metastasis\n\nTumor cells or emboli spread via lymphatics or blood → adhesion to endothelium → extravasation\nand homing. Site of metastasis can be predicted by site of 1° tumor, as the target organ is often the\nfirst-encountered capillary bed. Some cancers show organ tropism (eg, lung cancers commonly\nmetastasize to adrenals).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 217)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 217\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cancer-hallmarks-map"
+  ],
+  "mechanismIds": [
+    "hallmark-axis",
+    "invasion-metastasis-cascade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the 9-row HALLMARK | MECHANISM table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "nine-frame-reading",
+      "summary": "The nine-frame rule (the 9 hallmarks as a categorical axis: self-sufficiency, insensitivity, apoptosis evasion, immortality, angiogenesis, Warburg, immune evasion, invasion, metastasis) — KYP's synthesis of the table into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rows sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (GROW IGNORE CHEAT LIVE / VEGF TELLOMERASE TP53 BCL2 / E-CADHERIN IS THE GATE / LYMPHATICS OR BLOOD THEN HOMING) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 217 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 239). The page is a single 9-row HALLMARK | MECHANISM table — pure text, no figures. The visual is an ORIGINAL KYP adaptation rendering the 9-hallmark grid as a panel map (no source figure to redraw). The table is carried verbatim in the note's table block. No copyrighted photographs; no margin mnemonics (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-11-02"
+}

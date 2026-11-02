@@ -1,0 +1,46 @@
+{
+  "topicId": "oncogenes-tumor-suppressors",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "oncogenes-tumor-suppressors",
+      "requiredInKYP": true,
+      "visualId": "oncogenes-tumor-suppressors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 12-row oncogene table + the 15-row tumor suppressor table (book 220)",
+      "sourceFigureDescription": "The oncogene definition (gain of function, one allele) and the 12-row oncogene table (ALK, EGFR, HER2, RET, BCR-ABL, JAK2, BRAF, c-KIT, MYCC, MYCN, KRAS, BCL-2) with their gene products and associated neoplasms; the tumor suppressor definition (loss of function, two alleles — Knudson 2-hit) and the 15-row tumor suppressor table (APC, BRCA1/2, CDKN2A, DCC, SMAD4, MEN1, NF1, NF2, PTEN, RB1, TP53, TSC1, TSC2, VHL, WT1) with their gene products and associated conditions. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "oncogene-suppressor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the two-table panel map with the allele axis) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "oncogene-suppressor-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "oncogenes-tumor-suppressors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's two text tables (the 12-row oncogene table and the 15-row tumor suppressor table) are the only visual element — pure text, no figures, no photographs (pdfimages confirmed zero rasters). Adapted as the registry visual (the two-table panel map) and carried verbatim in the note's table blocks. No copyrighted photographs; nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}
