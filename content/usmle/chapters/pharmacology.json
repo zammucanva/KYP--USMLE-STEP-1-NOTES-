@@ -154,7 +154,117 @@
       "difficulty": 2,
       "requiresVisual": true,
       "mechanismHeavy": true,
-      "status": "pending"
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The AUC (plasma concentration vs time) plot",
+          "sourceFigureDescription": "The AUC plot: plasma concentration on the Y-axis against time on the X-axis, two curves drawn — the IV curve (higher, peaking immediately) labeled AUCIV, and the oral curve (lower, peaking later) labeled AUCOral — illustrating the bioavailability concept; the bioavailability formula F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100 printed beside the plot. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-left panel of the PharmacokineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Vd compartment / drug-types table",
+          "sourceFigureDescription": "The Vd compartment / drug-types table: rows = Low, Medium, High Vd; columns = Compartment (Intravascular, ECF, All tissues including fat), Drug types (Large/charged molecules; plasma protein bound, Small hydrophilic molecules, Small lipophilic molecules especially if bound to tissue protein). Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the Vd compartment table inside the PharmacokineticsMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The half-life remaining table",
+          "sourceFigureDescription": "The half-life remaining table: header row '# of half-lives' / '% remaining'; data row 1 → 50%, 2 → 25%, 3 → 12.5%, 4 → 6.25%. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the half-life remaining strip inside the PharmacokineticsMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "COMPARISON_FIGURE",
+          "visualPurpose": "The age-related PK changes (Absorption / Distribution / Metabolism / Excretion)",
+          "sourceFigureDescription": "The age-related PK changes: a four-row bulleted list comparing elderly vs young — Absorption (mostly unaffected), Distribution (↓ total body water → ↓ Vd of hydrophilic drugs; ↑ total body fat → ↑ Vd of lipophilic drugs), Metabolism (↓ hepatic mass and blood flow → ↓ first-pass metabolism; Phase I decreased, Phase II preserved), Excretion (↓ renal mass and blood flow → ↓ GFR → ↓ renal clearance). Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the age-related PK strip inside the PharmacokineticsMap) + the rapid-review section in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "drug-metabolism",
@@ -821,6 +931,6 @@
       "status": "pending"
     }
   ],
-  "pendingTopicCount": 41,
+  "pendingTopicCount": 40,
   "notes": "Chapter registered from the calibrated FA 2026 chapter map. Phase I-C extraction: 43 topics identified across the four pharmacology subsections (Pharmacokinetics/Pharmacodynamics, Autonomic Drugs, Toxicities and Adverse Effects, Miscellaneous). Sympathomimetics is the pilot-complete topic with shipped note + manifest + visual inventory; remaining 42 topics are pending authoring. Topics are authored deliberately, never mass-generated."
 }

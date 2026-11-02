@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-02T17:20:48Z",
+  "generatedAt": "2026-11-02T17:32:36Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 146,
+    "topicsProduced": 147,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 91,
+      "pilot-complete": 92,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 43,
-      "topicsProduced": 2,
-      "topicsRemaining": 41,
+      "topicsProduced": 3,
+      "topicsRemaining": 40,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -2104,6 +2104,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-10"
+    },
+    {
+      "topicId": "pharmacokinetics",
+      "title": "Pharmacokinetics",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 251 (book 229)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "protein-synthesis-inhibitors",

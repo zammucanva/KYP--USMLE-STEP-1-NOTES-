@@ -534,3 +534,202 @@ export function EnzymeKineticsMap() {
     </svg>
   );
 }
+
+export function PharmacokineticsMap() {
+  const w = 980;
+  const h = 1200;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Pharmacokinetics — the map (an original KYP redraw of the source page book 229 — the AUC plot showing plasma concentration vs time with the IV curve and the oral curve, the AUCIV and AUCOral labels, and the bioavailability formula F = [AUCoral x DoseIV] / [Doseoral x AUCIV] x 100; the Vd compartment / drug-types table with the Low/Intravascular/Large-charged, Medium/ECF/Small-hydrophilic, High/All-tissues-including-fat/Small-lipophilic rows; the Clearance equation CL = Vd x Ke; the Half-life equation t1/2 = 0.7 x Vd / CL with the 4-5 half-lives to steady state and 3.3 half-lives to 90% rules; the half-life remaining strip showing 50%, 25%, 12.5%, 6.25% after 1, 2, 3, 4 half-lives; the age-related PK changes 2x2 grid covering Absorption, Distribution, Metabolism, Excretion; and the FOUR TO FIVE HALF-LIVES TO STEADY STATE margin mnemonic; no copyrighted photographs on the page)" className="min-w-[940px]">
+      {/* ===== HEADER ===== */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Pharmacokinetics — the map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">4 constants · 2 tables · 1 mnemonic</text>
+      </g>
+
+      {/* ===== TOP-LEFT: AUC PLOT ===== */}
+      <g>
+        <rect x="24" y="76" width="460" height="360" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="40" y="98" fontSize="9" fontWeight="800" className="fill-foreground">BIOAVAILABILITY (F) — AUC PLOT</text>
+        <text x="40" y="112" fontSize="6.5" className="fill-muted-foreground">Plasma concentration vs time; IV (taller) vs Oral (shorter) curves</text>
+
+        {/* plot area: origin (80, 380), Y up to y=130, X right to x=460 */}
+        <line x1="80" y1="380" x2="80" y2="130" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <line x1="80" y1="380" x2="460" y2="380" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <text x="465" y="394" fontSize="7" className="fill-muted-foreground">Time →</text>
+        <text x="72" y="135" textAnchor="end" fontSize="7" className="fill-muted-foreground">Plasma</text>
+        <text x="72" y="144" textAnchor="end" fontSize="7" className="fill-muted-foreground">conc.</text>
+
+        {/* IV curve: peaks immediately at y=140, then exponential decay to baseline */}
+        <path d="M 80 140 C 110 150, 150 220, 200 280 C 250 320, 320 360, 460 378" fill="none" strokeWidth="2.4" className="stroke-brand" />
+        {/* Oral curve: starts at 0 (origin), rises to lower peak at y=190 around x=160, then decays */}
+        <path d="M 80 380 C 110 340, 140 200, 170 190 C 210 200, 260 290, 320 340 C 380 365, 420 376, 460 380" fill="none" strokeWidth="2.4" className="stroke-warning" strokeDasharray="6 3" />
+
+        {/* AUCIV label (under IV curve) */}
+        <text x="180" y="270" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-brand">AUCIV</text>
+        {/* AUCOral label (under oral curve) */}
+        <text x="240" y="335" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-warning">AUCOral</text>
+
+        {/* Legend */}
+        <g>
+          <line x1="96" y1="160" x2="110" y2="160" strokeWidth="2.4" className="stroke-brand" />
+          <text x="114" y="163" fontSize="6.5" className="fill-foreground">IV (F = 100%)</text>
+          <line x1="96" y1="172" x2="110" y2="172" strokeWidth="2.4" className="stroke-warning" strokeDasharray="3 2" />
+          <text x="114" y="175" fontSize="6.5" className="fill-foreground">Oral (F &lt;100%)</text>
+        </g>
+
+        {/* formula */}
+        <rect x="40" y="404" width="428" height="26" rx="6" className="fill-card stroke-border" />
+        <text x="254" y="421" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100</text>
+
+        {/* definition snippet */}
+        <text x="40" y="441" fontSize="6" className="fill-muted-foreground">F = fraction reaching systemic circulation. IV: F = 100%. Oral: F &lt;100% (incomplete absorption + first-pass metabolism).</text>
+      </g>
+
+      {/* ===== TOP-RIGHT: Vd COMPARTMENT TABLE ===== */}
+      <g>
+        <rect x="504" y="76" width="452" height="360" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="520" y="98" fontSize="9" fontWeight="800" className="fill-foreground">Vd COMPARTMENT / DRUG TYPES (book 229 — verbatim)</text>
+        <text x="520" y="112" fontSize="6.5" className="fill-muted-foreground">Vd = amount of drug in the body / plasma drug concentration</text>
+
+        {/* Header row at y=124-160 (height 36) */}
+        <rect x="520" y="124" width="80" height="36" className="fill-secondary stroke-border" />
+        <text x="560" y="147" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">Vd</text>
+
+        <rect x="600" y="124" width="150" height="36" className="fill-brand-soft stroke-border" />
+        <text x="675" y="147" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">COMPARTMENT</text>
+
+        <rect x="750" y="124" width="190" height="36" className="fill-warning-soft stroke-border" />
+        <text x="845" y="147" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-warning">DRUG TYPES</text>
+
+        {/* Data rows (3 rows × 70 height = 210) */}
+        {[
+          { y: 160, label: "Low", compartment: "Intravascular", types: "Large/charged molecules; plasma protein bound", tone: "brand" },
+          { y: 230, label: "Medium", compartment: "ECF", types: "Small hydrophilic molecules", tone: "warning" },
+          { y: 300, label: "High", compartment: "All tissues including fat", types: "Small lipophilic molecules, especially if bound to tissue protein", tone: "emergency" },
+        ].map((row, i) => (
+          <g key={i}>
+            <rect x="520" y={row.y} width="80" height="70" className={i % 2 === 0 ? "fill-secondary/40 stroke-border" : "fill-card stroke-border"} />
+            <text x="560" y={row.y + 40} textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">{row.label}</text>
+
+            <rect x="600" y={row.y} width="150" height="70" className={i % 2 === 0 ? "fill-brand-soft/30 stroke-border" : "fill-card stroke-border"} />
+            <text x="675" y={row.y + 40} textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">{row.compartment}</text>
+
+            <rect x="750" y={row.y} width="190" height="70" className={i % 2 === 0 ? "fill-warning-soft/30 stroke-border" : "fill-card stroke-border"} />
+            <text x="845" y={row.y + 30} textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">{row.types}</text>
+          </g>
+        ))}
+
+        {/* Rule strip below the table */}
+        <rect x="520" y="378" width="420" height="50" rx="8" className="fill-card stroke-border" />
+        <text x="530" y="396" fontSize="6.5" fontWeight="700" className="fill-foreground">Liver &amp; kidney disease ↑ Vd (↓ protein binding). Hemodialysis: most effective for LOW-Vd drugs.</text>
+        <text x="530" y="410" fontSize="6.5" fontWeight="700" className="fill-foreground">t1/2 = 0.7 × Vd / CL (high Vd → long t1/2; low Vd → dialyzable).</text>
+        <text x="530" y="423" fontSize="6.5" className="fill-muted-foreground">Drugs may distribute in more than one compartment.</text>
+      </g>
+
+      {/* ===== MIDDLE-LEFT: CLEARANCE & HALF-LIFE ===== */}
+      <g>
+        <rect x="24" y="450" width="460" height="230" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="40" y="472" fontSize="9" fontWeight="800" className="fill-foreground">CLEARANCE &amp; HALF-LIFE</text>
+        <text x="40" y="486" fontSize="6.5" className="fill-muted-foreground">How fast the body clears the drug; how long the drug stays</text>
+
+        {/* CL equation panel */}
+        <rect x="40" y="500" width="428" height="56" rx="8" className="fill-card stroke-brand" />
+        <text x="56" y="520" fontSize="8" fontWeight="800" className="fill-brand">CLEARANCE (CL)</text>
+        <text x="56" y="534" fontSize="7" className="fill-foreground">CL = rate of elimination / plasma drug concentration = Vd × Ke (elimination constant)</text>
+        <text x="56" y="546" fontSize="7" className="fill-muted-foreground">Volume of plasma cleared per unit time; impaired by cardiac, hepatic, or renal dysfunction.</text>
+
+        {/* t1/2 equation panel */}
+        <rect x="40" y="566" width="428" height="56" rx="8" className="fill-card stroke-emergency" />
+        <text x="56" y="586" fontSize="8" fontWeight="800" className="fill-emergency">HALF-LIFE (t1/2)</text>
+        <text x="56" y="600" fontSize="7" className="fill-foreground">t1/2 = 0.7 × Vd / CL  (first-order elimination)</text>
+        <text x="56" y="612" fontSize="7" className="fill-muted-foreground">Time to eliminate 1/2 of the drug. ↑Vd or ↓CL → ↑t1/2. Both move t1/2 the same direction.</text>
+
+        {/* Steady-state rules */}
+        <rect x="40" y="632" width="428" height="40" rx="8" className="fill-brand-soft stroke-brand" />
+        <text x="56" y="650" fontSize="8" fontWeight="800" className="fill-brand">STEADY STATE</text>
+        <text x="56" y="664" fontSize="7" className="fill-foreground">4-5 half-lives to steady state · 3.3 half-lives to 90% of steady state · rate in = rate out</text>
+      </g>
+
+      {/* ===== MIDDLE-RIGHT: HALF-LIFE REMAINING STRIP ===== */}
+      <g>
+        <rect x="504" y="450" width="452" height="230" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="520" y="472" fontSize="9" fontWeight="800" className="fill-foreground">HALF-LIFE REMAINING (book 229 — verbatim)</text>
+        <text x="520" y="486" fontSize="6.5" className="fill-muted-foreground">% of drug remaining after each half-life of first-order elimination</text>
+
+        {/* Column strip: 4 columns × 100 height */}
+        {[
+          { n: 1, pct: "50%", color: "fill-brand-soft stroke-brand", text: "fill-brand" },
+          { n: 2, pct: "25%", color: "fill-warning-soft stroke-warning", text: "fill-warning" },
+          { n: 3, pct: "12.5%", color: "fill-emergency-soft stroke-emergency", text: "fill-emergency" },
+          { n: 4, pct: "6.25%", color: "fill-neural-soft stroke-neural", text: "fill-neural" },
+        ].map((col, i) => (
+          <g key={i}>
+            <rect x={520 + i * 105} y={500} width={100} height={110} rx="8" className={col.color} />
+            <text x={570 + i * 105} y={528} textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">{col.n}</text>
+            <text x={570 + i * 105} y={540} textAnchor="middle" fontSize="6" className="fill-muted-foreground">half-life{col.n === 1 ? "" : "s"}</text>
+            <text x={570 + i * 105} y={585} textAnchor="middle" fontSize="14" fontWeight="800" className={col.text}>{col.pct}</text>
+            <text x={570 + i * 105} y={600} textAnchor="middle" fontSize="6" className="fill-muted-foreground">remaining</text>
+          </g>
+        ))}
+
+        {/* Annotation */}
+        <text x="520" y="630" fontSize="7" fontWeight="700" className="fill-foreground">Each half-life halves the remaining drug (or accumulates half the gap to plateau).</text>
+        <text x="520" y="644" fontSize="6.5" className="fill-muted-foreground">Symmetric: 1 half-life = 50% of plateau (or 50% eliminated); 4 half-lives ≈ 94% of plateau.</text>
+        <text x="520" y="657" fontSize="6.5" className="fill-muted-foreground">After discontinuation, the same decay applies to washout.</text>
+        <text x="520" y="672" fontSize="6.5" fontWeight="700" className="fill-brand">3.3 half-lives → 90% of steady state; 4-5 half-lives → steady state.</text>
+      </g>
+
+      {/* ===== BOTTOM: AGE-RELATED PK CHANGES 2x2 GRID ===== */}
+      <g>
+        <rect x="24" y="694" width="932" height="386" rx="14" className="fill-secondary/40 stroke-emergency" />
+        <text x="40" y="716" fontSize="9" fontWeight="800" className="fill-emergency">AGE-RELATED CHANGES IN PHARMACOKINETICS</text>
+        <text x="40" y="730" fontSize="6.5" className="fill-muted-foreground">Aging rewires every PK constant — older patients often require reduced doses to prevent toxicity</text>
+
+        {/* Top-left: Absorption */}
+        <rect x="40" y="744" width="448" height="160" rx="10" className="fill-card stroke-border" />
+        <text x="56" y="766" fontSize="9" fontWeight="800" className="fill-emergency">▘ ABSORPTION</text>
+        <text x="56" y="790" fontSize="8" fontWeight="700" className="fill-foreground">Mostly unaffected</text>
+        <text x="56" y="812" fontSize="7" className="fill-muted-foreground">Gut motility and surface area do not significantly change with age.</text>
+        <text x="56" y="826" fontSize="7" className="fill-muted-foreground">Absorption rate may slow slightly, but the extent of absorption is preserved.</text>
+        <text x="56" y="846" fontSize="7" fontWeight="700" className="fill-foreground">Clinical: standard oral dosing is acceptable for absorption.</text>
+        <text x="56" y="868" fontSize="7" className="fill-muted-foreground">Toxicity in the elderly is NOT from ↑ absorption — look elsewhere (Vd, CL, t1/2).</text>
+
+        {/* Top-right: Distribution */}
+        <rect x="498" y="744" width="448" height="160" rx="10" className="fill-card stroke-border" />
+        <text x="514" y="766" fontSize="9" fontWeight="800" className="fill-emergency">▘ DISTRIBUTION</text>
+        <text x="514" y="790" fontSize="8" fontWeight="700" className="fill-foreground">↓ Total body water · ↑ Total body fat</text>
+        <text x="514" y="812" fontSize="7" className="fill-foreground">↓ TBW → ↓ Vd of hydrophilic drugs → ↑ plasma concentration (smaller compartment, same dose).</text>
+        <text x="514" y="826" fontSize="7" className="fill-foreground">↑ TBF → ↑ Vd of lipophilic drugs → ↑ half-life (drug hides in fat, clearance cannot find it).</text>
+        <text x="514" y="846" fontSize="7" fontWeight="700" className="fill-emergency">Hydrophilic concentrates; lipophilic lingers — opposite directions, both toxic.</text>
+        <text x="514" y="868" fontSize="7" className="fill-muted-foreground">Examples: digoxin (lipophilic, ↑ t1/2); lithium (hydrophilic, ↑ concentration).</text>
+
+        {/* Bottom-left: Metabolism */}
+        <rect x="40" y="912" width="448" height="160" rx="10" className="fill-card stroke-border" />
+        <text x="56" y="934" fontSize="9" fontWeight="800" className="fill-emergency">▘ METABOLISM</text>
+        <text x="56" y="958" fontSize="8" fontWeight="700" className="fill-foreground">↓ Hepatic mass &amp; blood flow → ↓ first-pass, ↓ hepatic clearance</text>
+        <text x="56" y="980" fontSize="7" className="fill-foreground">Phase I (CYP450 oxidation/reduction/hydrolysis): DECREASED in the elderly.</text>
+        <text x="56" y="994" fontSize="7" className="fill-foreground">Phase II (conjugation — glucuronidation, sulfation, acetylation): RELATIVELY PRESERVED.</text>
+        <text x="56" y="1014" fontSize="7" fontWeight="700" className="fill-emergency">Phase I falls, Phase II preserved → prefer LOT (Lorazepam, Oxazepam, Temazepam).</text>
+        <text x="56" y="1036" fontSize="7" className="fill-muted-foreground">Avoid diazepam/chlordiazepoxide/midazolam (Phase I-oxidized) — longer t1/2 in elderly.</text>
+
+        {/* Bottom-right: Excretion */}
+        <rect x="498" y="912" width="448" height="160" rx="10" className="fill-card stroke-border" />
+        <text x="514" y="934" fontSize="9" fontWeight="800" className="fill-emergency">▘ EXCRETION</text>
+        <text x="514" y="958" fontSize="8" fontWeight="700" className="fill-foreground">↓ Renal mass &amp; blood flow → ↓ GFR → ↓ renal clearance</text>
+        <text x="514" y="980" fontSize="7" className="fill-foreground">Renally-cleared drugs (digoxin, lithium, vancomycin, aminoglycosides, metformin) accumulate.</text>
+        <text x="514" y="994" fontSize="7" className="fill-foreground">t1/2 rises → steady-state concentration rises → toxicity at standard doses.</text>
+        <text x="514" y="1014" fontSize="7" fontWeight="700" className="fill-emergency">CrCl-based dosing required for every renally-cleared drug in the elderly.</text>
+        <text x="514" y="1036" fontSize="7" className="fill-muted-foreground">Drug-disease interaction: CKD + elderly multiplies the renal CL decline.</text>
+      </g>
+
+      {/* ===== MNEMONIC CALLOUT ===== */}
+      <g>
+        <rect x="24" y="1094" width="932" height="62" rx="10" className="fill-brand-soft stroke-brand" />
+        <text x="490" y="1120" textAnchor="middle" fontSize="11" fontWeight="800" className="fill-brand">FOUR TO FIVE HALF-LIVES TO STEADY STATE · 0.7 × Vd / CL = t1/2</text>
+        <text x="490" y="1140" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">Low Vd = dialyzable, high Vd = not · Phase I falls, Phase II preserved in the elderly</text>
+      </g>
+    </svg>
+  );
+}

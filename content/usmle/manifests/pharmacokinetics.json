@@ -1,0 +1,775 @@
+{
+  "topicId": "pharmacokinetics",
+  "title": "Pharmacokinetics",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      251
+    ],
+    "bookPages": "229"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 229)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n229\n\nSEC TION II\n\nBioavailability (F)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bioavailability (F) definition — fraction of administered drug reaching systemic circulation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Fraction of administered drug reaching systemic circulation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bioavailability (F) definition — for an IV dose, F = 100%",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "For an IV dose, F = 100%.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bioavailability (F) definition — orally: F typically <100% due to incomplete absorption and first-pass metabolism",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Orally: F typically <100% due to incomplete absorption and first-pass",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bioavailability (F) definition — can be calculated from the area under the curve in a plot of plasma concentration over time",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Can be calculated from the area under the curve in a plot of plasma concentration over time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AUC plot label — Plasma concentration (Y-axis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Plasma concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AUC plot label — Time (X-axis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Time",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AUC plot curve label — AUCIV",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "AUCIV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AUC plot curve label — AUCOral",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "AUCOral",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Volume of distribution (Vd) definition — theoretical value that relates drug amount to plasma concentration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Theoretical value that relates drug amount to plasma concentration.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd definition — liver and kidney disease increase Vd (↓ protein binding, ↑ Vd)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Liver and kidney disease increase Vd (↓ protein binding, ↑ Vd).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd definition — drugs may be distributed in more than one compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Drugs may be distributed in more than one compartment.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd definition — hemodialysis is most effective for drugs with a low Vd",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Hemodialysis is most effective for drugs with a low Vd.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd equation — amount of drug in the body / plasma drug concentration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "amount of drug in the body",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd equation — plasma drug concentration (denominator)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "plasma drug concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table header — Vd COMPARTMENT DRUG TYPES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Vd COMPARTMENT DRUG TYPES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table header — COMPARTMENT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "COMPARTMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table header — DRUG TYPES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "DRUG TYPES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table row 1 — Low Vd",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Low",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table row 2 — Medium Vd",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Medium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table row 3 — High Vd",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "High",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — Intravascular compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Intravascular",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — ECF compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "ECF",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — All tissues including fat compartment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "All tissues including fat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — Large/charged molecules; plasma protein bound",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Large/charged molecules; plasma protein bound",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — Small hydrophilic molecules",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Small hydrophilic molecules",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment / drug-types table cell — Small lipophilic molecules, especially if bound to tissue protein",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Small lipophilic molecules, especially if bound to tissue protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Clearance (CL) definition — the volume of plasma cleared of drug per unit time",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "The volume of plasma cleared of drug per unit time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Clearance (CL) definition — clearance may be impaired with defects in cardiac, hepatic, or renal function",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Clearance may be impaired with defects in cardiac, hepatic, or renal function.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Clearance (CL) equation — rate of elimination of drug / plasma drug concentration = Vd × Ke",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "= Vd × Ke (elimination constant)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) header on the page",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Half-life (t1/2)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) definition — the time required to eliminate 1/2 of the drug from the body",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "The time required to eliminate 1/2 of the drug from the body.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) definition — steady state is a dynamic equilibrium in which drug concentration stays constant (ie, rate of drug elimination = rate of drug administration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Steady state is a dynamic equilibrium in which drug concentration stays constant (ie, rate of drug elimination = rate of drug administration).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) definition — in first-order kinetics, a drug infused at a constant rate takes 4-5 half-lives to reach steady state",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "In first-order kinetics, a drug infused at a constant rate takes 4-5 half-lives to reach steady state.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) definition — it takes 3.3 half-lives to reach 90% of the steady-state level",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "It takes 3.3 half-lives to reach 90% of the steady-state level.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) equation — 0.7 × Vd / CL in first-order elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "0.7 × Vd",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Half-life (t1/2) equation — in first-order elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "in first-order elimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table header — # of half-lives",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "# of half-lives",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table header — % remaining",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "% remaining",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table cell — 1 half-life → 50% remaining",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "50%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table cell — 2 half-lives → 25% remaining",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "25%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table cell — 3 half-lives → 12.5% remaining",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "12.5%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-life remaining table cell — 4 half-lives → 6.25% remaining",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "6.25%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes header on the page",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Age-related changes in pharmacokinetics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes definition — aging alters the passage of drugs through the body and standard doses can result in ↑ plasma concentrations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Aging alters the passage of drugs through the body and standard doses can result in ↑ plasma concentrations.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes definition — older patients often require reduced doses to prevent toxicity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Older patients often require reduced doses to prevent toxicity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Absorption—mostly unaffected",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Absorption—mostly unaffected.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Distribution—↓ total body water (↓ Vd of hydrophilic drugs → ↑ concentration), ↑ total body fat",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Distribution—↓ total body water (↓ Vd of hydrophilic drugs → ↑ concentration), ↑ total body fat",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Distribution continuation (↑ Vd of lipophilic drugs → ↑ half-life)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "(↑ Vd of lipophilic drugs → ↑ half-life).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Metabolism—↓ hepatic mass and blood flow → ↓ first-pass metabolism, ↓ hepatic clearance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Metabolism—↓ hepatic mass and blood flow → ↓ first-pass metabolism, ↓ hepatic clearance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Phase I of drug metabolism is decreased; phase II is relatively preserved",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Phase I of drug metabolism is decreased; phase II is relatively preserved.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The age-related changes bullet — Excretion—↓ renal mass and blood flow (↓ GFR) → ↓ renal clearance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Excretion—↓ renal mass and blood flow (↓ GFR) → ↓ renal clearance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 229)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 229\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pharmacokinetics-map"
+  ],
+  "mechanismIds": [
+    "pk-bioavailability-clearance-axis",
+    "pk-steady-state-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the PK definitions and the two tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axis-reading",
+      "summary": "The two-axis reading (the bioavailability-clearance axis: F, Vd, CL, and t1/2 = 0.7×Vd/CL wired together so a change in Vd or CL propagates to t1/2; the steady-state axis: 4-5 half-lives to steady state, 3.3 half-lives to 90%, and the half-life remaining decay 50/25/12.5/6.25) — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definitions and tables sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (FOUR TO FIVE HALF-LIVES TO STEADY STATE / 0.7 × Vd / CL = t1/2 / LOW Vd = DIALYZABLE, HIGH Vd = NOT / PHASE I FALLS, PHASE II PRESERVED IN THE ELDERLY) — the page prints no margin mnemonic; all four codes are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints verbatim on book 229; all four codes are KYP-original.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 251). The page has ONE vector figure — the AUC (plasma concentration vs time) plot showing the IV and Oral curves with the bioavailability formula F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100 — plus THREE text tables: the Vd compartment / drug-types table, the half-life remaining table (1 → 50%, 2 → 25%, 3 → 12.5%, 4 → 6.25%), and the age-related PK changes list (Absorption / Distribution / Metabolism / Excretion). The visual is an ORIGINAL KYP REDRAW of the AUC plot (vector graphic, no photograph). The two tables are pure text and are carried verbatim in the note's table blocks (ORIGINAL_KYP_ADAPTATION). No copyrighted photographs exist on the page; nothing reproduced. The KYP memory layer is original (no mnemonics print on book 229; all four KYP mnemonics are original designs).",
+  "updatedAt": "2026-11-02"
+}

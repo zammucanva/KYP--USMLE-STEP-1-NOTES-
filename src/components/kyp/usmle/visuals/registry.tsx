@@ -24,6 +24,7 @@ import {
   EnzymeKineticsMap,
   HypersensitivityMechanisms,
   SympathReceptorGrid,
+  PharmacokineticsMap,
 } from "./pharm";
 import {
   DnaRepairPathways,
@@ -150,6 +151,8 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "epi-reversal": EpiReversalVisual,
   // Enzyme kinetics (PH1)
   "enzyme-kinetics-map": EnzymeKineticsMap,
+  // Pharmacokinetics (PH2)
+  "pharmacokinetics-map": PharmacokineticsMap,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,
   // Urinary casts
