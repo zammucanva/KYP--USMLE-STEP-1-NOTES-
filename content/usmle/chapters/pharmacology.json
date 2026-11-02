@@ -12,8 +12,302 @@
     }
   ],
   "bookPages": "227–254",
-  "extractionStatus": "registered",
+  "extractionStatus": "extracted",
   "topics": [
+    {
+      "topicId": "enzyme-kinetics",
+      "title": "Enzyme Kinetics",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [250],
+        "bookPages": "228"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "pharmacokinetics",
+      "title": "Pharmacokinetics",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [251],
+        "bookPages": "229"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-metabolism",
+      "title": "Drug Metabolism",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [252],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "elimination-of-drugs",
+      "title": "Elimination of Drugs",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [252],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "urine-ph-and-drug-elimination",
+      "title": "Urine pH and Drug Elimination",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [253],
+        "bookPages": "231"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "dosage-calculations",
+      "title": "Dosage Calculations",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [253],
+        "bookPages": "231"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "efficacy-vs-potency",
+      "title": "Efficacy vs Potency",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [254],
+        "bookPages": "232"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "receptor-binding",
+      "title": "Receptor Binding",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [255],
+        "bookPages": "233"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "therapeutic-index",
+      "title": "Therapeutic Index",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [255],
+        "bookPages": "233"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-effect-modifications",
+      "title": "Drug Effect Modifications",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [256],
+        "bookPages": "234"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "autonomic-receptors",
+      "title": "Autonomic Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [256],
+        "bookPages": "234"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "acetylcholine-receptors",
+      "title": "Acetylcholine Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [257],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "pain-transmission",
+      "title": "Pain Transmission",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [257],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "micturition-control",
+      "title": "Micturition Control",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [258],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "tissue-distribution-of-adrenergic-receptors",
+      "title": "Tissue Distribution of Adrenergic Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [258],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "g-protein-linked-second-messengers",
+      "title": "G-Protein–Linked Second Messengers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [259],
+        "bookPages": "237"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "autonomic-drugs",
+      "title": "Autonomic Drugs Synapse Map",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [260],
+        "bookPages": "238"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "cholinomimetic-agents",
+      "title": "Cholinomimetic Agents",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [261],
+        "bookPages": "239"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "anticholinesterase-poisoning",
+      "title": "Anticholinesterase Poisoning",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [261],
+        "bookPages": "239"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "muscarinic-antagonists",
+      "title": "Muscarinic Antagonists",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [262],
+        "bookPages": "240"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "atropine",
+      "title": "Atropine",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [262],
+        "bookPages": "240"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
     {
       "topicId": "sympathomimetics",
       "title": "Sympathomimetics",
@@ -36,8 +330,302 @@
       ],
       "mechanismHeavy": true,
       "status": "complete"
+    },
+    {
+      "topicId": "sympatholytics-alpha-2-agonists",
+      "title": "Sympatholytics (α2-Agonists)",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [265],
+        "bookPages": "243"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "alpha-blockers",
+      "title": "α-Blockers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [265],
+        "bookPages": "243"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "beta-blockers",
+      "title": "β-Blockers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [266],
+        "bookPages": "244"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "phosphodiesterase-inhibitors",
+      "title": "Phosphodiesterase Inhibitors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [267],
+        "bookPages": "245"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "ingested-seafood-toxins",
+      "title": "Ingested Seafood Toxins",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [268],
+        "bookPages": "246"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "plant-toxins",
+      "title": "Plant Toxins",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [268],
+        "bookPages": "246"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "specific-toxicity-treatments",
+      "title": "Specific Toxicity Treatments",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [269],
+        "bookPages": "247"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-cardiovascular",
+      "title": "Drug Reactions—Cardiovascular",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [269],
+        "bookPages": "247"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-endocrine-reproductive",
+      "title": "Drug Reactions—Endocrine/Reproductive",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [270],
+        "bookPages": "248"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-gastrointestinal",
+      "title": "Drug Reactions—Gastrointestinal",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [270],
+        "bookPages": "248"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-hematologic",
+      "title": "Drug Reactions—Hematologic",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [271],
+        "bookPages": "249"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-musculoskeletal-skin-connective-tissue",
+      "title": "Drug Reactions—Musculoskeletal/Skin/Connective Tissue",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [271],
+        "bookPages": "249"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-neurologic",
+      "title": "Drug Reactions—Neurologic",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [272],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-renal-genitourinary",
+      "title": "Drug Reactions—Renal/Genitourinary",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [272],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-respiratory",
+      "title": "Drug Reactions—Respiratory",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [272],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-multiorgan",
+      "title": "Drug Reactions—Multiorgan",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [272],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drugs-affecting-pupil-size",
+      "title": "Drugs Affecting Pupil Size",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [273],
+        "bookPages": "251"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "cytochrome-p-450-interactions",
+      "title": "Cytochrome P-450 Interactions (Selected)",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [273],
+        "bookPages": "251"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "sulfa-drugs",
+      "title": "Sulfa Drugs",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [273],
+        "bookPages": "251"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-names",
+      "title": "Drug Names",
+      "subsection": "Pharmacology — Miscellaneous",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [274, 275],
+        "bookPages": "252–253"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "biologic-agents",
+      "title": "Biologic Agents",
+      "subsection": "Pharmacology — Miscellaneous",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [276],
+        "bookPages": "254"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
     }
   ],
-  "pendingTopicCount": null,
-  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+  "pendingTopicCount": 42,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Phase I-C extraction: 43 topics identified across the four pharmacology subsections (Pharmacokinetics/Pharmacodynamics, Autonomic Drugs, Toxicities and Adverse Effects, Miscellaneous). Sympathomimetics is the pilot-complete topic with shipped note + manifest + visual inventory; remaining 42 topics are pending authoring. Topics are authored deliberately, never mass-generated."
 }

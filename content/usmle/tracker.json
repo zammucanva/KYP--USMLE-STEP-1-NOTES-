@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-02T16:57:56Z",
+  "generatedAt": "2026-11-02T17:07:58Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -266,7 +266,7 @@
   "estimatedTotalTopics": 3029,
   "counts": {
     "chaptersRegistered": 9,
-    "chaptersExtracted": 4,
+    "chaptersExtracted": 5,
     "topicsProduced": 145,
     "topicsByStatus": {
       "planned": 0,
@@ -327,10 +327,10 @@
       "chapterId": "pharmacology",
       "chapterTitle": "Pharmacology",
       "part": 1,
-      "extractionStatus": "registered",
-      "topicsRegistered": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 43,
       "topicsProduced": 1,
-      "topicsRemaining": null,
+      "topicsRemaining": 42,
       "qaStatus": "pass",
       "completedAt": null
     },
