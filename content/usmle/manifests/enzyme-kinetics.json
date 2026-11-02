@@ -1,0 +1,437 @@
+{
+  "topicId": "enzyme-kinetics",
+  "title": "Enzyme Kinetics",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      250
+    ],
+    "bookPages": "228"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 228)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "228\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Michaelis-Menten kinetics definition — Km is the substrate concentration needed for an enzyme to reach a rate of 1/2 Vmax and is inversely related to the affinity of the enzyme for its substrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "K m is the substrate concentration needed for an enzyme to reach a rate of 1/2 Vmax and is inversely related to the affinity of the enzyme for its substrate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Michaelis-Menten kinetics definition — Vmax is directly proportional to the enzyme concentration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Vmax is directly proportional to the enzyme concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Michaelis-Menten kinetics definition — most enzymatic reactions follow a hyperbolic curve (ie, Michaelis-Menten kinetics); however, enzymatic reactions that exhibit a sigmoidal curve usually indicate positive cooperativity in substrate binding (eg, aspartate transcarbamoylase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Most enzymatic reactions follow a hyperbolic curve (ie, Michaelis-Menten kinetics); however, enzymatic reactions that exhibit a sigmoidal curve usually indicate positive cooperativity in substrate binding (eg, aspartate transcarbamoylase)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Lineweaver-Burk plot definition — the closer to 0 on the Y-axis, the higher the Vmax",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "The closer to 0 on the Y-axis, the higher the Vmax",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Lineweaver-Burk plot definition — the closer to 0 on the X-axis, the higher the Km",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "The closer to 0 on the X-axis, the higher the K m",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Lineweaver-Burk plot definition — the higher the Km, the lower the affinity",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "The higher the K m, the lower the affinity",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Lineweaver-Burk plot definition — reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Kompetitive inhibitors increase Km' margin mnemonic (printed on the page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Kompetitive inhibitors increase K m",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Resemble substrate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Resemble substrate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Overcome by ↑ [S]",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Overcome by ↑ [S]",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Bind site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Bind site",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Effect on Vmax",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Effect on Vmax",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Effect on Km",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Effect on Km",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table row label — Pharmacodynamics",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Pharmacodynamics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table cell — reversible competitive binds the Active site (and irreversible competitive too)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Active",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table cell — noncompetitive binds the Allosteric site",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Allosteric",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table cell — Vmax Unchanged (reversible competitive and both Km-unchanged cells)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Unchanged",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table cell — reversible competitive pharmacodynamics = ↓ potency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "↓ potency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition comparison table cell — noncompetitive and irreversible competitive pharmacodynamics = ↓ efficacy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "↓ efficacy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Competitive inhibitor (reversible) legend entry on the plots",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Competitive inhibitor (reversible)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Noncompetitive inhibitor legend entry on the plots",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Noncompetitive inhibitor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Uninhibited legend entry on the plots",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Uninhibited",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Saturation label on the Michaelis-Menten plot",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Saturation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Lineweaver-Burk plot title",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Lineweaver-Burk plot",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Effects of enzyme inhibition title beneath the plots",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Effects of enzyme inhibition",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 228)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "12/19/25 8:07 AM\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "enzyme-kinetics-map"
+  ],
+  "mechanismIds": [
+    "kinetics-affinity-axis",
+    "inhibition-type-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the kinetics definitions and the inhibition comparison table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axis-reading",
+      "summary": "The two-axis reading (the affinity axis: Km inverse to affinity, Vmax proportional to enzyme concentration, hyperbolic vs sigmoid; the inhibition-type axis: competitive-reversible / competitive-irreversible / noncompetitive mapped to Vmax, Km, overcome-by-↑[S], bind site, pharmacodynamics) — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the plots and the table sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (KOMPETITIVE INHIBITORS INCREASE KM / V-MAX IS THE CEILING, KM IS THE FLOOR / KOMPETITIVE = KROSS, NONCOMPETITIVE = NO KROSS / HYPERBOLA OR SIGMOID) — the page prints only the 'Kompetitive inhibitors increase Km' mnemonic; the other three codes are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "Only one mnemonic ('Kompetitive inhibitors increase Km') prints on book 228; the other three codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 250). The page has THREE vector figures — the Michaelis-Menten kinetics plot (V vs [S] with Vmax, Km, 1/2 Vmax), the Lineweaver-Burk plot (1/V vs 1/[S] with slope = m, Km, Vmax), and the Effects of enzyme inhibition comparison panels — plus a 5-row inhibition comparison table and the 'Kompetitive inhibitors increase Km' margin mnemonic. The visuals are ORIGINAL KYP REDRAWS of the source vector figures (no photographs, no copyrighted artwork reproduced). The inhibition comparison table is carried verbatim in the note's table block. No copyrighted photographs; the KYP memory layer is original (only the 'Kompetitive' mnemonic is verbatim from the page; the other three mnemonics are KYP-original).",
+  "updatedAt": "2026-11-02"
+}

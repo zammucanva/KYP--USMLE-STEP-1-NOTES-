@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-02T17:07:58Z",
+  "generatedAt": "2026-11-02T17:20:48Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 145,
+    "topicsProduced": 146,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 90,
+      "pilot-complete": 91,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 43,
-      "topicsProduced": 1,
-      "topicsRemaining": 42,
+      "topicsProduced": 2,
+      "topicsRemaining": 41,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1174,6 +1174,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-20"
+    },
+    {
+      "topicId": "enzyme-kinetics",
+      "title": "Enzyme Kinetics",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 250 (book 228)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "enzyme-terminology",

@@ -1,0 +1,127 @@
+{
+  "topicId": "enzyme-kinetics",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Michaelis-Menten kinetics plot (V vs [S])",
+      "sourceFigureDescription": "The Michaelis-Menten kinetics plot: velocity (V) on the Y-axis against substrate concentration [S] on the X-axis, a hyperbolic curve rising from origin and saturating at Vmax; the Km marked at the substrate concentration where V = 1/2 Vmax; the 'Saturation' label at the plateau. A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the top-left panel of the EnzymeKineticsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Lineweaver-Burk plot (1/V vs 1/[S])",
+      "sourceFigureDescription": "The Lineweaver-Burk double-reciprocal plot: 1/V on the Y-axis against 1/[S] on the X-axis, a straight line with negative x-intercept at -1/Km and y-intercept at 1/Vmax; slope = m labeled; the three lines (uninhibited, competitive reversible, noncompetitive) demonstrating that reversible competitive inhibitors cross the uninhibited line whereas noncompetitive inhibitors do not. A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the top-right panel of the EnzymeKineticsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Effects of enzyme inhibition comparison panels",
+      "sourceFigureDescription": "The Effects of enzyme inhibition panels: the Michaelis-Menten (V vs [S]) and Lineweaver-Burk (1/V vs 1/[S]) overlays showing uninhibited, competitive inhibitor (reversible), and noncompetitive inhibitor curves, demonstrating that competitive inhibition raises Km while Vmax is unchanged (curves cross on Lineweaver-Burk) and noncompetitive inhibition lowers Vmax while Km is unchanged (curves do not cross). A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the bottom panel of the EnzymeKineticsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 5-row inhibition comparison table",
+      "sourceFigureDescription": "The inhibition comparison table: rows = Resemble substrate, Overcome by ↑ [S], Bind site, Effect on Vmax, Effect on Km, Pharmacodynamics; columns = Competitive inhibitors reversible, Competitive inhibitors irreversible, Noncompetitive inhibitors. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the inhibition comparison table inside the EnzymeKineticsMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "enzyme-kinetics",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 250). The page has THREE vector figures (the Michaelis-Menten plot, the Lineweaver-Burk plot, the Effects of enzyme inhibition comparison panels) — all redrawn as ORIGINAL_KYP_REDRAW vector graphics in the registry visual (no photographs, no copyrighted artwork reproduced). The 5-row inhibition comparison table is pure text and is carried verbatim in the note's table block (ORIGINAL_KYP_ADAPTATION). No copyrighted photographs; nothing reproduced. The page prints the 'Kompetitive inhibitors increase Km' mnemonic verbatim; the other three KYP mnemonics are original designs."
+}

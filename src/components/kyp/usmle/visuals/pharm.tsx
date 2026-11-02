@@ -310,3 +310,227 @@ export function HypersensitivityMechanisms() {
     </div>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Enzyme kinetics — the kinetics + inhibition map (PH1)
+// An original KYP redraw of book 228: the Michaelis-Menten kinetics plot,
+// the Lineweaver-Burk double-reciprocal plot, the Effects of enzyme
+// inhibition overlays, and the inhibition comparison table.
+// ---------------------------------------------------------------------------
+
+export function EnzymeKineticsMap() {
+  const w = 980;
+  const h = 1180;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Enzyme kinetics — the map (an original KYP redraw of the source page book 228 — the Michaelis-Menten kinetics plot with Vmax, 1/2 Vmax, Km, and the Saturation plateau; the Lineweaver-Burk double-reciprocal plot with slope = m, the -1/Km X-intercept, and the 1/Vmax Y-intercept; the Effects of enzyme inhibition overlays showing reversible competitive lines crossing the uninhibited line at the Y-axis and noncompetitive lines not crossing; the 5-row inhibition comparison table with the Competitive reversible, Competitive irreversible, Noncompetitive columns and the Resemble substrate, Overcome by ↑ [S], Bind site, Effect on Vmax, Effect on Km, Pharmacodynamics rows; and the Kompetitive inhibitors increase Km margin mnemonic; no copyrighted photographs on the page)" className="min-w-[940px]">
+      {/* ===== HEADER ===== */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Enzyme kinetics — the map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">2 plots · 3 inhibitions · 1 mnemonic</text>
+      </g>
+
+      {/* ===== TOP-LEFT: MICHAELIS-MENTEN PLOT ===== */}
+      <g>
+        <rect x="36" y="76" width="440" height="380" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="98" fontSize="9" fontWeight="800" className="fill-foreground">MICHAELIS-MENTEN KINETICS</text>
+        <text x="52" y="112" fontSize="6.5" className="fill-muted-foreground">V vs [S] — hyperbolic; Vmax ceiling, Km at 1/2 Vmax</text>
+
+        {/* plot area: origin (100, 410), Y up to y=130, X right to x=450 */}
+        <line x1="100" y1="410" x2="100" y2="130" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <line x1="100" y1="410" x2="450" y2="410" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <text x="455" y="424" fontSize="7" className="fill-muted-foreground">[S] →</text>
+        <text x="92" y="135" textAnchor="end" fontSize="7" className="fill-muted-foreground">V</text>
+
+        {/* Vmax dashed line at y=150 */}
+        <line x1="100" y1="150" x2="450" y2="150" stroke="currentColor" strokeWidth="0.8" strokeDasharray="3 3" className="text-muted-foreground/60" />
+        <text x="455" y="153" fontSize="7" fontWeight="700" className="fill-foreground">Vmax</text>
+
+        {/* 1/2 Vmax dashed line at y=280 */}
+        <line x1="100" y1="280" x2="450" y2="280" stroke="currentColor" strokeWidth="0.8" strokeDasharray="3 3" className="text-muted-foreground/60" />
+        <text x="455" y="283" fontSize="7" fontWeight="700" className="fill-foreground">1/2 Vmax</text>
+
+        {/* Km vertical line at x=220 (where curve crosses 1/2 Vmax) */}
+        <line x1="220" y1="280" x2="220" y2="410" stroke="currentColor" strokeWidth="0.8" strokeDasharray="2 3" className="text-muted-foreground/60" />
+        <text x="220" y="424" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-brand">Km</text>
+
+        {/* Hyperbolic curve: from (100,410) through (220,280) to plateau (450,150) */}
+        <path d="M 100 410 C 160 410, 190 290, 220 280 C 260 270, 320 175, 380 155 L 450 150" fill="none" strokeWidth="2.4" className="stroke-brand" />
+
+        {/* Saturation label */}
+        <text x="370" y="142" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-muted-foreground">Saturation</text>
+
+        {/* annotation: Km = [S] at 1/2 Vmax */}
+        <text x="280" y="395" textAnchor="middle" fontSize="6.5" fontWeight="700" className="fill-brand">Km = [S] at 1/2 Vmax</text>
+
+        {/* definition snippet */}
+        <text x="52" y="438" fontSize="6" className="fill-muted-foreground">Km = substrate concentration at 1/2 Vmax; inversely related to affinity (↑Km = ↓affinity).</text>
+        <text x="52" y="448" fontSize="6" className="fill-muted-foreground">Vmax ∝ [enzyme]. Hyperbolic = Michaelis-Menten; sigmoidal = cooperativity (eg, aspartate transcarbamoylase).</text>
+      </g>
+
+      {/* ===== TOP-RIGHT: LINEWEAVER-BURK PLOT ===== */}
+      <g>
+        <rect x="504" y="76" width="440" height="380" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="520" y="98" fontSize="9" fontWeight="800" className="fill-foreground">LINEWEAVER-BURK PLOT (double-reciprocal)</text>
+        <text x="520" y="112" fontSize="6.5" className="fill-muted-foreground">1/V vs 1/[S] — linear; Y-intercept = 1/Vmax, X-intercept = -1/Km</text>
+
+        {/* plot area: origin (700, 410), Y up to y=130, X from x=560 (neg) to x=920 (pos) */}
+        <line x1="560" y1="410" x2="920" y2="410" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <line x1="700" y1="410" x2="700" y2="130" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <text x="925" y="424" fontSize="7" className="fill-muted-foreground">1/[S] →</text>
+        <text x="692" y="135" textAnchor="end" fontSize="7" className="fill-muted-foreground">1/V</text>
+        <text x="695" y="424" textAnchor="end" fontSize="6" className="fill-muted-foreground">0</text>
+
+        {/* X-intercept tick at (560, 410) = -1/Km */}
+        <line x1="560" y1="410" x2="560" y2="416" stroke="currentColor" strokeWidth="1" className="text-muted-foreground" />
+        <text x="560" y="426" textAnchor="middle" fontSize="6.5" fontWeight="700" className="fill-brand">-1/Km</text>
+
+        {/* Y-intercept tick at (700, 250) = 1/Vmax */}
+        <line x1="694" y1="250" x2="700" y2="250" stroke="currentColor" strokeWidth="1" className="text-muted-foreground" />
+        <text x="690" y="253" textAnchor="end" fontSize="6.5" fontWeight="700" className="fill-brand">1/Vmax</text>
+
+        {/* Straight line: (560, 410) → (770, 138) passing through (700, 250) */}
+        <line x1="560" y1="410" x2="770" y2="138" strokeWidth="2.4" className="stroke-brand" />
+
+        {/* slope = m label aligned with the line */}
+        <text x="660" y="262" fontSize="7" fontWeight="700" className="fill-muted-foreground" transform="rotate(-52 660 262)">slope = m</text>
+
+        {/* definition snippet */}
+        <text x="520" y="438" fontSize="6" className="fill-muted-foreground">Y-intercept closer to 0 → higher Vmax. X-intercept closer to 0 → higher Km.</text>
+        <text x="520" y="448" fontSize="6" className="fill-muted-foreground">↑Km = ↓affinity. Reversible competitive lines CROSS; noncompetitive lines DO NOT cross.</text>
+      </g>
+
+      {/* ===== EFFECTS OF ENZYME INHIBITION (overlay plots) ===== */}
+      <g>
+        <rect x="36" y="470" width="908" height="350" rx="14" className="fill-secondary/40 stroke-emergency" />
+        <text x="52" y="492" fontSize="9" fontWeight="800" className="fill-emergency">EFFECTS OF ENZYME INHIBITION — overlay plots</text>
+        <text x="52" y="506" fontSize="6.5" className="fill-muted-foreground">Uninhibited (teal) vs Reversible competitive (amber) vs Noncompetitive (rose)</text>
+
+        {/* ===== LEFT OVERLAY: MM with 3 curves ===== */}
+        {/* plot area: origin (80, 790), Y up to y=530, X right to x=460 */}
+        <line x1="80" y1="790" x2="80" y2="530" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <line x1="80" y1="790" x2="460" y2="790" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <text x="465" y="804" fontSize="6.5" className="fill-muted-foreground">[S] →</text>
+        <text x="74" y="535" textAnchor="end" fontSize="6.5" className="fill-muted-foreground">V</text>
+        <text x="120" y="546" fontSize="7" fontWeight="800" className="fill-foreground">V vs [S] — 3 curves</text>
+
+        {/* Vmax dashed lines (uninhibited + reversible competitive share Vmax at y=552) */}
+        <line x1="80" y1="552" x2="460" y2="552" stroke="currentColor" strokeWidth="0.6" strokeDasharray="3 3" className="text-brand/50" />
+        {/* Noncompetitive Vmax (lower) at y=642 */}
+        <line x1="80" y1="642" x2="460" y2="642" stroke="currentColor" strokeWidth="0.6" strokeDasharray="3 3" className="text-emergency/50" />
+
+        {/* Uninhibited curve: Vmax at y=552, Km at x=200 (1/2 Vmax at y=671) */}
+        <path d="M 80 790 C 140 790, 175 685, 200 671 C 240 651, 300 580, 360 558 L 460 552" fill="none" strokeWidth="2.2" className="stroke-brand" />
+
+        {/* Reversible competitive curve: Vmax at y=552 (SAME), Km at x=290 (HIGHER) */}
+        <path d="M 80 790 C 180 790, 240 685, 290 671 C 330 651, 380 580, 420 558 L 460 552" fill="none" strokeWidth="2.2" className="stroke-warning" strokeDasharray="6 3" />
+
+        {/* Noncompetitive curve: Vmax at y=642 (LOWER), Km at x=200 (SAME) */}
+        <path d="M 80 790 C 140 790, 175 725, 200 716 C 240 700, 300 660, 360 645 L 460 642" fill="none" strokeWidth="2.2" className="stroke-emergency" strokeDasharray="2 3" />
+
+        {/* Km vertical at x=200 (shared by uninhibited + noncompetitive) */}
+        <line x1="200" y1="716" x2="200" y2="790" stroke="currentColor" strokeWidth="0.6" strokeDasharray="2 3" className="text-muted-foreground/50" />
+        <text x="200" y="804" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-brand">Km</text>
+        {/* Km' vertical at x=290 (reversible competitive, shifted right) */}
+        <line x1="290" y1="671" x2="290" y2="790" stroke="currentColor" strokeWidth="0.6" strokeDasharray="2 3" className="text-muted-foreground/50" />
+        <text x="290" y="804" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-warning">Km ↑</text>
+
+        {/* Legend (upper-left of plot, clear area) — absolute coordinates to avoid transform-related getBBox offset */}
+        <g>
+          <line x1="96" y1="575" x2="110" y2="575" strokeWidth="2.2" className="stroke-brand" />
+          <text x="114" y="578" fontSize="6" className="fill-foreground">Uninhibited</text>
+          <line x1="96" y1="586" x2="110" y2="586" strokeWidth="2.2" className="stroke-warning" strokeDasharray="3 2" />
+          <text x="114" y="589" fontSize="6" className="fill-foreground">Competitive (reversible)</text>
+          <line x1="96" y1="597" x2="110" y2="597" strokeWidth="2.2" className="stroke-emergency" strokeDasharray="2 2" />
+          <text x="114" y="600" fontSize="6" className="fill-foreground">Noncompetitive</text>
+        </g>
+
+        {/* annotation */}
+        <text x="80" y="815" fontSize="6" className="fill-muted-foreground">Competitive: same Vmax, Km ↑ (curve shifts RIGHT). Noncompetitive: Vmax ↓ (curve flattens), Km unchanged.</text>
+
+        {/* ===== RIGHT OVERLAY: LB with 3 lines ===== */}
+        {/* plot area: origin (700, 790), Y up to y=530, X from x=520 (neg) to x=920 (pos) */}
+        <line x1="520" y1="790" x2="920" y2="790" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <line x1="700" y1="790" x2="700" y2="530" stroke="currentColor" strokeWidth="1.2" className="text-muted-foreground" />
+        <text x="925" y="804" fontSize="6.5" className="fill-muted-foreground">1/[S] →</text>
+        <text x="694" y="535" textAnchor="end" fontSize="6.5" className="fill-muted-foreground">1/V</text>
+        <text x="780" y="546" fontSize="7" fontWeight="800" className="fill-foreground">1/V vs 1/[S] — 3 lines</text>
+
+        {/* Uninhibited line: (560, 790) → (803, 530), through (700, 640) */}
+        <line x1="560" y1="790" x2="803" y2="530" strokeWidth="2.2" className="stroke-brand" />
+        {/* Reversible competitive line: (520, 790) → (832, 530), through (700, 640) — CROSSES uninhibited at Y-axis */}
+        <line x1="520" y1="790" x2="832" y2="530" strokeWidth="2.2" className="stroke-warning" strokeDasharray="6 3" />
+        {/* Noncompetitive line: (560, 790) → (733, 530), through (700, 580) — does NOT cross uninhibited above X-axis */}
+        <line x1="560" y1="790" x2="733" y2="530" strokeWidth="2.2" className="stroke-emergency" strokeDasharray="2 3" />
+
+        {/* Crossing point markers */}
+        <circle cx="700" cy="640" r="3.5" className="fill-card stroke-warning" strokeWidth="1.4" />
+        <circle cx="560" cy="790" r="3.5" className="fill-card stroke-emergency" strokeWidth="1.4" />
+
+        {/* X-intercept labels */}
+        <text x="560" y="804" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-brand">-1/Km</text>
+        <text x="520" y="804" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-warning">-1/Km'</text>
+
+        {/* Y-intercept labels */}
+        <text x="690" y="643" textAnchor="end" fontSize="6" fontWeight="700" className="fill-brand">1/Vmax</text>
+        <text x="690" y="583" textAnchor="end" fontSize="6" fontWeight="700" className="fill-emergency">1/Vmax'</text>
+
+        {/* Crossing annotation */}
+        <text x="720" y="635" fontSize="6" fontWeight="700" className="fill-warning">CROSS</text>
+        <text x="575" y="775" fontSize="6" fontWeight="700" className="fill-emergency">NO CROSS</text>
+
+        {/* annotation */}
+        <text x="520" y="815" fontSize="6" className="fill-muted-foreground">Competitive lines CROSS at Y-axis (shared 1/Vmax). Noncompetitive lines DO NOT CROSS (shared -1/Km, diverge).</text>
+      </g>
+
+      {/* ===== INHIBITION COMPARISON TABLE ===== */}
+      <g>
+        <rect x="36" y="834" width="908" height="290" rx="14" className="fill-card stroke-border" />
+        <text x="52" y="856" fontSize="9" fontWeight="800" className="fill-foreground">INHIBITION COMPARISON TABLE (book 228 — verbatim)</text>
+
+        {/* Header row at y 868-908 (height 40) */}
+        <rect x="52" y="868" width="180" height="40" className="fill-secondary stroke-border" />
+        <text x="142" y="892" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">Property</text>
+
+        <rect x="232" y="868" width="220" height="40" className="fill-warning-soft stroke-border" />
+        <text x="342" y="884" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-warning">Competitive inhibitors,</text>
+        <text x="342" y="895" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-warning">reversible</text>
+
+        <rect x="452" y="868" width="220" height="40" className="fill-emergency-soft stroke-border" />
+        <text x="562" y="884" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">Competitive inhibitors,</text>
+        <text x="562" y="895" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">irreversible</text>
+
+        <rect x="672" y="868" width="240" height="40" className="fill-neural-soft stroke-border" />
+        <text x="792" y="892" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-neural">Noncompetitive inhibitors</text>
+
+        {/* Data rows (6 rows × 36 height = 216) */}
+        {[
+          { y: 908, label: "Resemble substrate", c1: "Yes", c2: "Yes", c3: "No" },
+          { y: 944, label: "Overcome by ↑ [S]", c1: "Yes", c2: "No", c3: "No" },
+          { y: 980, label: "Bind site", c1: "Active", c2: "Active", c3: "Allosteric" },
+          { y: 1016, label: "Effect on Vmax", c1: "Unchanged", c2: "↓", c3: "↓" },
+          { y: 1052, label: "Effect on Km", c1: "↑", c2: "Unchanged", c3: "Unchanged" },
+          { y: 1088, label: "Pharmacodynamics", c1: "↓ potency", c2: "↓ efficacy", c3: "↓ efficacy" },
+        ].map((row, i) => (
+          <g key={i}>
+            <rect x="52" y={row.y} width="180" height="36" className={i % 2 === 0 ? "fill-secondary/40 stroke-border" : "fill-card stroke-border"} />
+            <text x="142" y={row.y + 22} textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">{row.label}</text>
+            <rect x="232" y={row.y} width="220" height="36" className={i % 2 === 0 ? "fill-warning-soft/30 stroke-border" : "fill-card stroke-border"} />
+            <text x="342" y={row.y + 22} textAnchor="middle" fontSize="7.5" fontWeight="700" className="fill-foreground">{row.c1}</text>
+            <rect x="452" y={row.y} width="220" height="36" className={i % 2 === 0 ? "fill-emergency-soft/30 stroke-border" : "fill-card stroke-border"} />
+            <text x="562" y={row.y + 22} textAnchor="middle" fontSize="7.5" fontWeight="700" className="fill-foreground">{row.c2}</text>
+            <rect x="672" y={row.y} width="240" height="36" className={i % 2 === 0 ? "fill-neural-soft/30 stroke-border" : "fill-card stroke-border"} />
+            <text x="792" y={row.y + 22} textAnchor="middle" fontSize="7.5" fontWeight="700" className="fill-foreground">{row.c3}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== MNEMONIC CALLOUT ===== */}
+      <g>
+        <rect x="36" y="1130" width="908" height="40" rx="10" className="fill-brand-soft stroke-brand" />
+        <text x="490" y="1156" textAnchor="middle" fontSize="11" fontWeight="800" className="fill-brand">KOMPETITIVE INHIBITORS INCREASE Km</text>
+      </g>
+    </svg>
+  );
+}

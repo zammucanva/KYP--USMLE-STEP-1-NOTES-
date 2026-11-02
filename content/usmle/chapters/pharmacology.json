@@ -20,13 +20,125 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [250],
+        "pdfPages": [
+          250
+        ],
         "bookPages": "228"
       },
       "difficulty": 2,
       "requiresVisual": true,
       "mechanismHeavy": true,
-      "status": "pending"
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Michaelis-Menten kinetics plot (V vs [S])",
+          "sourceFigureDescription": "The Michaelis-Menten kinetics plot: velocity (V) on the Y-axis against substrate concentration [S] on the X-axis, a hyperbolic curve rising from origin and saturating at Vmax; the Km marked at the substrate concentration where V = 1/2 Vmax; the 'Saturation' label at the plateau. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-left panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Lineweaver-Burk plot (1/V vs 1/[S])",
+          "sourceFigureDescription": "The Lineweaver-Burk double-reciprocal plot: 1/V on the Y-axis against 1/[S] on the X-axis, a straight line with negative x-intercept at -1/Km and y-intercept at 1/Vmax; slope = m labeled; the three lines (uninhibited, competitive reversible, noncompetitive) demonstrating that reversible competitive inhibitors cross the uninhibited line whereas noncompetitive inhibitors do not. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-right panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "COMPARISON_FIGURE",
+          "visualPurpose": "The Effects of enzyme inhibition comparison panels",
+          "sourceFigureDescription": "The Effects of enzyme inhibition panels: the Michaelis-Menten (V vs [S]) and Lineweaver-Burk (1/V vs 1/[S]) overlays showing uninhibited, competitive inhibitor (reversible), and noncompetitive inhibitor curves, demonstrating that competitive inhibition raises Km while Vmax is unchanged (curves cross on Lineweaver-Burk) and noncompetitive inhibition lowers Vmax while Km is unchanged (curves do not cross). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the bottom panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 5-row inhibition comparison table",
+          "sourceFigureDescription": "The inhibition comparison table: rows = Resemble substrate, Overcome by ↑ [S], Bind site, Effect on Vmax, Effect on Km, Pharmacodynamics; columns = Competitive inhibitors reversible, Competitive inhibitors irreversible, Noncompetitive inhibitors. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the inhibition comparison table inside the EnzymeKineticsMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "pharmacokinetics",
@@ -34,7 +146,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [251],
+        "pdfPages": [
+          251
+        ],
         "bookPages": "229"
       },
       "difficulty": 2,
@@ -48,7 +162,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [252],
+        "pdfPages": [
+          252
+        ],
         "bookPages": "230"
       },
       "difficulty": 2,
@@ -62,7 +178,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [252],
+        "pdfPages": [
+          252
+        ],
         "bookPages": "230"
       },
       "difficulty": 2,
@@ -76,7 +194,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [253],
+        "pdfPages": [
+          253
+        ],
         "bookPages": "231"
       },
       "difficulty": 2,
@@ -90,7 +210,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [253],
+        "pdfPages": [
+          253
+        ],
         "bookPages": "231"
       },
       "difficulty": 2,
@@ -104,7 +226,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [254],
+        "pdfPages": [
+          254
+        ],
         "bookPages": "232"
       },
       "difficulty": 2,
@@ -118,7 +242,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [255],
+        "pdfPages": [
+          255
+        ],
         "bookPages": "233"
       },
       "difficulty": 2,
@@ -132,7 +258,9 @@
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [255],
+        "pdfPages": [
+          255
+        ],
         "bookPages": "233"
       },
       "difficulty": 2,
@@ -146,7 +274,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [256],
+        "pdfPages": [
+          256
+        ],
         "bookPages": "234"
       },
       "difficulty": 1,
@@ -160,7 +290,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [256],
+        "pdfPages": [
+          256
+        ],
         "bookPages": "234"
       },
       "difficulty": 2,
@@ -174,7 +306,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [257],
+        "pdfPages": [
+          257
+        ],
         "bookPages": "235"
       },
       "difficulty": 2,
@@ -188,7 +322,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [257],
+        "pdfPages": [
+          257
+        ],
         "bookPages": "235"
       },
       "difficulty": 2,
@@ -202,7 +338,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [258],
+        "pdfPages": [
+          258
+        ],
         "bookPages": "236"
       },
       "difficulty": 2,
@@ -216,7 +354,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [258],
+        "pdfPages": [
+          258
+        ],
         "bookPages": "236"
       },
       "difficulty": 2,
@@ -230,7 +370,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [259],
+        "pdfPages": [
+          259
+        ],
         "bookPages": "237"
       },
       "difficulty": 2,
@@ -244,7 +386,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [260],
+        "pdfPages": [
+          260
+        ],
         "bookPages": "238"
       },
       "difficulty": 3,
@@ -258,7 +402,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [261],
+        "pdfPages": [
+          261
+        ],
         "bookPages": "239"
       },
       "difficulty": 2,
@@ -272,7 +418,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [261],
+        "pdfPages": [
+          261
+        ],
         "bookPages": "239"
       },
       "difficulty": 2,
@@ -286,7 +434,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [262],
+        "pdfPages": [
+          262
+        ],
         "bookPages": "240"
       },
       "difficulty": 2,
@@ -300,7 +450,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [262],
+        "pdfPages": [
+          262
+        ],
         "bookPages": "240"
       },
       "difficulty": 2,
@@ -337,7 +489,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [265],
+        "pdfPages": [
+          265
+        ],
         "bookPages": "243"
       },
       "difficulty": 2,
@@ -351,7 +505,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [265],
+        "pdfPages": [
+          265
+        ],
         "bookPages": "243"
       },
       "difficulty": 2,
@@ -365,7 +521,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [266],
+        "pdfPages": [
+          266
+        ],
         "bookPages": "244"
       },
       "difficulty": 2,
@@ -379,7 +537,9 @@
       "subsection": "Pharmacology — Autonomic Drugs",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [267],
+        "pdfPages": [
+          267
+        ],
         "bookPages": "245"
       },
       "difficulty": 2,
@@ -393,7 +553,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [268],
+        "pdfPages": [
+          268
+        ],
         "bookPages": "246"
       },
       "difficulty": 1,
@@ -407,7 +569,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [268],
+        "pdfPages": [
+          268
+        ],
         "bookPages": "246"
       },
       "difficulty": 1,
@@ -421,7 +585,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [269],
+        "pdfPages": [
+          269
+        ],
         "bookPages": "247"
       },
       "difficulty": 2,
@@ -435,7 +601,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [269],
+        "pdfPages": [
+          269
+        ],
         "bookPages": "247"
       },
       "difficulty": 1,
@@ -449,7 +617,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [270],
+        "pdfPages": [
+          270
+        ],
         "bookPages": "248"
       },
       "difficulty": 1,
@@ -463,7 +633,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [270],
+        "pdfPages": [
+          270
+        ],
         "bookPages": "248"
       },
       "difficulty": 1,
@@ -477,7 +649,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [271],
+        "pdfPages": [
+          271
+        ],
         "bookPages": "249"
       },
       "difficulty": 1,
@@ -491,7 +665,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [271],
+        "pdfPages": [
+          271
+        ],
         "bookPages": "249"
       },
       "difficulty": 1,
@@ -505,7 +681,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [272],
+        "pdfPages": [
+          272
+        ],
         "bookPages": "250"
       },
       "difficulty": 1,
@@ -519,7 +697,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [272],
+        "pdfPages": [
+          272
+        ],
         "bookPages": "250"
       },
       "difficulty": 1,
@@ -533,7 +713,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [272],
+        "pdfPages": [
+          272
+        ],
         "bookPages": "250"
       },
       "difficulty": 1,
@@ -547,7 +729,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [272],
+        "pdfPages": [
+          272
+        ],
         "bookPages": "250"
       },
       "difficulty": 1,
@@ -561,7 +745,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [273],
+        "pdfPages": [
+          273
+        ],
         "bookPages": "251"
       },
       "difficulty": 1,
@@ -575,7 +761,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [273],
+        "pdfPages": [
+          273
+        ],
         "bookPages": "251"
       },
       "difficulty": 2,
@@ -589,7 +777,9 @@
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [273],
+        "pdfPages": [
+          273
+        ],
         "bookPages": "251"
       },
       "difficulty": 1,
@@ -603,7 +793,10 @@
       "subsection": "Pharmacology — Miscellaneous",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [274, 275],
+        "pdfPages": [
+          274,
+          275
+        ],
         "bookPages": "252–253"
       },
       "difficulty": 1,
@@ -617,7 +810,9 @@
       "subsection": "Pharmacology — Miscellaneous",
       "sourcePages": {
         "part": 1,
-        "pdfPages": [276],
+        "pdfPages": [
+          276
+        ],
         "bookPages": "254"
       },
       "difficulty": 1,
@@ -626,6 +821,6 @@
       "status": "pending"
     }
   ],
-  "pendingTopicCount": 42,
+  "pendingTopicCount": 41,
   "notes": "Chapter registered from the calibrated FA 2026 chapter map. Phase I-C extraction: 43 topics identified across the four pharmacology subsections (Pharmacokinetics/Pharmacodynamics, Autonomic Drugs, Toxicities and Adverse Effects, Miscellaneous). Sympathomimetics is the pilot-complete topic with shipped note + manifest + visual inventory; remaining 42 topics are pending authoring. Topics are authored deliberately, never mass-generated."
 }

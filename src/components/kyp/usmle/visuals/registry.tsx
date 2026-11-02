@@ -21,6 +21,7 @@ import {
 import { CranialNerveMap, StrokeTerritoryMap, UrinaryCastGallery } from "./anatomy";
 import {
   EpiReversalVisual,
+  EnzymeKineticsMap,
   HypersensitivityMechanisms,
   SympathReceptorGrid,
 } from "./pharm";
@@ -147,6 +148,8 @@ export const VisualRegistry: Record<string, ComponentType> = {
   // Sympathomimetics
   "sympath-receptor-grid": SympathReceptorGrid,
   "epi-reversal": EpiReversalVisual,
+  // Enzyme kinetics (PH1)
+  "enzyme-kinetics-map": EnzymeKineticsMap,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,
   // Urinary casts

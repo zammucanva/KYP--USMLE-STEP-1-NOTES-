@@ -111,6 +111,7 @@ import { tumorMarkersMolecular } from "./tumor-markers-molecular";
 import { paraneoplasticAging } from "./paraneoplastic-aging";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
+import { enzymeKinetics } from "./enzyme-kinetics";
 import { geneExpressionModifications } from "./gene-expression-modifications";
 import { geneticTermsPopgen } from "./genetic-terms-popgen";
 import { imprintingDisorders } from "./imprinting-disorders";
@@ -303,6 +304,7 @@ export const usmleNotes: KypUsMLENote[] = [
   paraneoplasticAging,
   cranialNerves,
   diabetesMellitus,
+  enzymeKinetics,
 ];
 
 export const usmleNotesById: Record<string, KypUsMLENote> = Object.fromEntries(
