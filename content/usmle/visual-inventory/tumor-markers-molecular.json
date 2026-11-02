@@ -1,0 +1,47 @@
+{
+  "topicId": "tumor-markers-molecular",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "tumor-markers-molecular",
+      "requiredInKYP": true,
+      "visualId": "tumor-markers-molecular-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          244,
+          245
+        ],
+        "bookPages": "222–223"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The four-section carcinogen page (book 222-223)",
+      "sourceFigureDescription": "Four pure-text sections: (1) oncogenic microbes (8 microbes → cancers: EBV, HBV/HCV, HHV-8, HPV, H pylori, HTLV-1, liver fluke, Schistosoma haematobium); (2) serum tumor markers (12 markers: ALP, AFP, hCG, CA 15-3/27-29, CA 19-9, CA 125, calcitonin, CEA, chromogranin, LDH, NSE, PSA); (3) cancer testing (tumor mutational burden, MSI testing, PD-L1 expression, HRD testing, liquid biopsy); (4) IHC stains (10: chromogranin/synaptophysin, cytokeratin, desmin, GFAP, neurofilament, PSA, PECAM-1/CD-31, S-100, TRAP, vimentin) + P-glycoprotein. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "tumor-markers-ihc-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the four-section grid) + blocks[1-4] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "tumor-markers-ihc-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "tumor-markers-molecular",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's four text sections (oncogenic microbes, serum tumor markers, cancer testing, IHC stains) are the only visual element — pure text, no figures, no photographs (pdfimages confirmed zero rasters on both pages). Adapted as the registry visual (the four-section grid) and carried verbatim in the note's table blocks. No copyrighted photographs; nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}

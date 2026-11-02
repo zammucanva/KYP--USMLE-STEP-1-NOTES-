@@ -1,0 +1,100 @@
+{
+  "topicId": "paraneoplastic-aging",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia + Aging",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The paraneoplastic syndromes table (book 224)",
+      "sourceFigureDescription": "4-category 16-entry table: musculoskeletal/cutaneous (dermatomyositis, acanthosis nigricans, Sign of Leser-Trélat, hypertrophic osteoarthropathy), endocrine (hypercalcemia PTHrP + calcitriol, Cushing ACTH, SIADH ADH), hematologic (polycythemia EPO, pure red cell aplasia, Good syndrome, Trousseau syndrome, nonbacterial thrombotic endocarditis), neuromuscular (anti-NMDA, opsoclonus-myoclonus, cerebellar degeneration, encephalomyelitis, Lambert-Eaton, myasthenia gravis). Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "paraneoplastic-aging-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the paraneoplastic grid) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "paraneoplastic-aging-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia + Aging",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The normal aging organ-system changes + Lipofuscin (book 225)",
+      "sourceFigureDescription": "Normal aging definition + 10 organ-system changes (cardiovascular, GI, hematopoietic, immune, musculoskeletal, nervous, special senses, skin, renal, reproductive, respiratory) + Lipofuscin 'wear and tear' pigment. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "paraneoplastic-aging-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the aging organ-system grid + Lipofuscin panel) + blocks[2] and blocks[3] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "paraneoplastic-aging-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia + Aging",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph A — the Lipofuscin 'wear and tear' pigment (book 225)",
+      "sourceFigureDescription": "A cmyk jpeg photograph (175x126 at 150 dpi), lettered A beside the 'Lipofuscin A' text — showing the yellow-brown granular pigment deposited in tissue. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": null,
+      "kypImplementation": "note-block",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's Lipofuscin panel + blocks[3] the Lipofuscin row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": null,
+      "plannedImplementation": "note-block"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "paraneoplastic-aging",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's text blocks (the paraneoplastic syndromes table, the aging organ-system changes, and the Lipofuscin block) are adapted as the registry visual and carried verbatim in the note's tables. The ONE copyrighted photograph (A = Lipofuscin 'wear and tear' pigment on book 225) is described in text, never reproduced (the M32 convention). No margin mnemonics (VLM confirmed); the KYP memory layer is original."
+}

@@ -1,0 +1,46 @@
+{
+  "topicId": "chemical-carcinogens",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "chemical-carcinogens",
+      "requiredInKYP": true,
+      "visualId": "chemical-carcinogens-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 11-toxin carcinogen table (book 221)",
+      "sourceFigureDescription": "The complete TOXIN | EXPOSURE | ORGAN | IMPACT table with 11 toxin entries: aflatoxins (Aspergillus), alkylating agents, aromatic amines (benzidine, 2-naphthylamine), arsenic, asbestos, tobacco smoke (8 organs), ethanol (3 organs), ionizing radiation (2 organs), nickel/chromium/beryllium/silica, nitrosamines, radon, vinyl chloride. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "carcinogen-organ-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the toxin-organ grid) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "carcinogen-organ-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "chemical-carcinogens",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's 11-toxin table is the only visual element — pure text, no figures, no photographs (pdfimages confirmed zero rasters). Adapted as the registry visual (the toxin-organ grid) and carried verbatim in the note's table block. No copyrighted photographs; nothing reproduced. No margin mnemonics; the KYP memory layer is original."
+}

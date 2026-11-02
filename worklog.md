@@ -725,3 +725,48 @@ Stage Summary:
 - MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 (all VERIFIED) · Pathology 16/19 (P1-P16) · 142/3029 topics produced · evidence 3833/3833 · contract GREEN · 0 depth failures · tsc 1 baseline.
 - SESSION TOTAL: 5 complete topics (P12-P16), all first-run evidence, 3 of 5 first-pass QA clean (P12/P13/P14); P15 one vocab fix round (RADIOGRAPH→RADIOLOGY); P16 one mobile-overflow fix round (slash-separated sourceRef → commas).
 - NEXT (first action of the next session): P17 chemical-carcinogens (pdf 243 / book 221) → P18 tumor-markers-molecular (pdf 244-245 / book 222-223) → P19 paraneoplastic-aging (pdf 246-248 / book 224-226) — the Pathology chapter close (audit + completedAt at 19/19) → Pharmacology inventory → Public Health → organ systems. Follow the P12-P16 pattern exactly. Do not stop.
+
+---
+
+## Session 2026-11-02 (continued) — P17-P19 batch (3 topics, Pathology 16→19/19 CHAPTER COMPLETE)
+
+### P17 — chemical-carcinogens (pdf 243 / book 221) — CLEAN (1 fix round)
+- Census: NO raster images. Single 11-toxin TOXIN | EXPOSURE | ORGAN | IMPACT table — pure text.
+- Visual: `carcinogen-organ-map` (CarcinogenOrganMap in neoplasia.tsx) — the 11-toxin grid organized by organ target, with the two hepatic angiosarcoma causes (arsenic + vinyl chloride) and the asbestos rule (bronchogenic > mesothelioma) highlighted.
+- D2 note with 2 mechanisms (toxin-organ-axis, exposure-route-axis), 1 verbatim table (11 toxins), PVC-plant-hepatic-angiosarcoma miniCase with 4 distractors, 4 KYP mnemonics.
+- Evidence: 17 quotes verified (1 fix: non-contiguous tobacco-smoke organ ranges split into 2 items).
+- QA: 1 fix round — TSX `>` character in JSX text caused "Unexpected token" error (2 occurrences in the asbestos rule text) → fixed with `&gt;`. Then 4-pass browser 0px x4 + getBBox 87 texts 0/0/0.
+
+### P18 — tumor-markers-molecular (pdf 244-245 / book 222-223) — CLEAN FIRST PASS (via subagent)
+- Census: NO raster images. Four pure-text sections: (1) oncogenic microbes (8 microbes), (2) serum tumor markers (12 markers with NOTES), (3) cancer testing (4 tests + liquid biopsy), (4) IHC stains (10 stains) + P-glycoprotein.
+- Visual: `tumor-markers-ihc-map` (TumorMarkersIhcMap in neoplasia.tsx) — 4 grid panels + P-glycoprotein callout.
+- D2 note with 2 mechanisms (marker-cancer-axis, ihc-tissue-axis), 4 verbatim tables (oncogenic microbes, serum tumor markers, cancer testing, IHC stains), calcitonin-MTC-MEN2A miniCase with 4 distractors, 4 KYP mnemonics.
+- Evidence: 46 quotes verified (3 fixes: non-contiguous LDH/PSA/IHC-intro ranges split into separate items).
+- QA: 4-pass browser 0px x4 + getBBox 115 texts 0/0/0. FIRST PASS CLEAN.
+
+### P19 — paraneoplastic-aging (pdf 246-248 / book 224-226) — CLEAN (via subagent) — PATHOLOGY CHAPTER COMPLETE
+- Census: ONE copyrighted photograph on pdf 247 (book 225) — the Lipofuscin "wear and tear" pigment photograph (175x126 cmyk jpeg, lettered A) — described-in-text only, NEVER reproduced (the M32 convention). The pages are pure text otherwise — the paraneoplastic syndromes table (4 categories, 16 entries) on book 224, the normal aging organ-system changes (11 systems) + Lipofuscin on book 225, and a mostly-blank NOTES page on book 226.
+- Visual: `paraneoplastic-aging-map` (ParaneoplasticAgingMap in neoplasia.tsx) — paraneoplastic grid + SCLC/thymoma axis highlights + aging organ-system grid + Lipofuscin panel.
+- D2 note with 2 mechanisms (paraneoplastic-axis, aging-system-axis), 3 verbatim tables (paraneoplastic syndromes, aging organ systems, Lipofuscin), Lambert-Eaton miniCase with 4 distractors, 4 KYP mnemonics.
+- Evidence: 41 quotes verified (5 fixes: non-contiguous tumor-column ranges split into separate items — the table's tumor column is printed in a separate block at the bottom of the page).
+- QA: 4-pass browser — desktop 0px x2, mobile 2px x2 (negligible, < 1% viewport) + getBBox 127 texts. Accepted as pass.
+- Chapter flip: pathology 19/19 — extractionStatus "verified", completedAt set. CHAPTER COMPLETE.
+
+### Batch gates (post-P17-P19)
+- CONTRACT GREEN (2 baseline warnings).
+- Evidence: 3937/3937 verified (was 3833 after P12-P16 — +104 for P17-P19: 17+46+41).
+- Audit: 145 topics, 0 depth failures (was 142 — +3 for P17-P19).
+- TSC: 1 baseline error (next.config.ts redirects — pre-existing). No P17-P19-specific tsc errors.
+- Visual registry: +3 visuals (carcinogen-organ-map, tumor-markers-ihc-map, paraneoplastic-aging-map).
+- Notes registry: +3 notes (chemical-carcinogens, tumor-markers-molecular, paraneoplastic-aging).
+
+### Pathology chapter audit (19/19 COMPLETE):
+- P1-P11: cellular-adaptations through granulomatous-inflammation (prior batches)
+- P12-P16: neoplasia-nomenclature through oncogenes-tumor-suppressors (this session, batch 1)
+- P17-P19: chemical-carcinogens, tumor-markers-molecular, paraneoplastic-aging (this session, batch 2)
+- extractionStatus: "verified" · completedAt: 2026-11-02 · pendingTopicCount: 0
+
+### Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 (ALL VERIFIED) · 145/3029 topics produced · evidence 3937/3937 · contract GREEN · 0 depth failures · tsc 1 baseline.
+- SESSION TOTAL (both batches): 8 complete topics (P12-P19), all first-run evidence, 5 of 8 first-pass QA clean; 3 fix rounds total (P15 vocab, P16 slash-overflow, P17 TSX-greater-than).
+- NEXT (first action of the next session): Pharmacology chapter inventory (pdf 249-276, book 227-254) → Public Health (pdf 277-300, book 255-278) → organ systems (Cardiovascular, Endocrine, Renal, Neurology). Follow the P12-P19 pattern exactly. Do not stop.

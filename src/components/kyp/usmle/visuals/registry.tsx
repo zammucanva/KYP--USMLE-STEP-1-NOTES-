@@ -7,7 +7,7 @@
 import type { ComponentType } from "react";
 
 import { AcutePhaseReactantMap, LeukocyteTraffickingMap, WoundHealingPhaseMap, GranulomaScarMap } from "./inflammation";
-import { NeoplasiaProgressionMap, CancerHallmarksMap, CheckpointEpidemiologyMap, MetastasisPatternMap, OncogeneSuppressorMap } from "./neoplasia";
+import { NeoplasiaProgressionMap, CancerHallmarksMap, CheckpointEpidemiologyMap, MetastasisPatternMap, OncogeneSuppressorMap, CarcinogenOrganMap, TumorMarkersIhcMap, ParaneoplasticAgingMap } from "./neoplasia";
 import { AvBlockEcgGallery } from "./ecg";
 import {
   AcidBaseAlgorithm,
@@ -352,4 +352,7 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "checkpoint-epidemiology-map": CheckpointEpidemiologyMap,
   "metastasis-pattern-map": MetastasisPatternMap,
   "oncogene-suppressor-map": OncogeneSuppressorMap,
+  "carcinogen-organ-map": CarcinogenOrganMap,
+  "tumor-markers-ihc-map": TumorMarkersIhcMap,
+  "paraneoplastic-aging-map": ParaneoplasticAgingMap,
 };

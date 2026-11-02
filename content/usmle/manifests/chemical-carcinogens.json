@@ -1,0 +1,307 @@
+{
+  "topicId": "chemical-carcinogens",
+  "title": "Chemical Carcinogens & Organ Cancers",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      243
+    ],
+    "bookPages": "221"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 221)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—neOPLASIA\n\nSEC TION II\n\n221\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The carcinogens header and table column headers — TOXIN | EXPOSURE | ORGAN | IMPACT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Carcinogens\nTOXIn\n\neXPOSUre\n\nOrGAn\n\nImPACT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aflatoxins (Aspergillus) — stored grains and nuts — liver — hepatocellular carcinoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Aflatoxins (Aspergillus)\n\nStored grains and nuts\n\nLiver\n\nHepatocellular carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alkylating agents — oncologic chemotherapy — blood — leukemia/lymphoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Alkylating agents\n\nOncologic chemotherapy\n\nBlood\n\nLeukemia/lymphoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Aromatic amines (eg, benzidine, 2-naphthylamine) — textile industry (dyes), tobacco smoke (2-naphthylamine) — bladder — transitional cell carcinoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Aromatic amines\n(eg, benzidine,\n2-naphthylamine)\n\nTextile industry (dyes), tobacco\nsmoke (2-naphthylamine)\n\nBladder\n\nTransitional cell carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Arsenic — herbicides (vineyard workers), metal smelting, wood preservation — liver / lung / skin — hepatic angiosarcoma / lung cancer / squamous cell carcinoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Arsenic\n\nHerbicides (vineyard workers),\nmetal smelting, wood\npreservation\n\nLiver\nLung\nSkin\n\nHepatic angiosarcoma\nLung cancer\nSquamous cell carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Asbestos — old roofing material, shipyard workers — lung — bronchogenic carcinoma > mesothelioma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Asbestos\n\nOld roofing material, shipyard\nworkers\n\nLung\n\nBronchogenic carcinoma >\nmesothelioma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tobacco smoke organs part 1 — bladder / cervix / esophagus / oropharynx / pancreas with their impacts (transitional cell carcinoma, SCC, SCC/adenocarcinoma, renal cell carcinoma, SCC, squamous cell and small cell carcinoma, SCC, pancreatic adenocarcinoma) — the 5 organs printed in the first block with all 8 impacts",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Bladder\nCervix\nEsophagus\n\nOropharynx\nPancreas\n\nTransitional cell carcinoma\nSquamous cell carcinoma\nSquamous cell carcinoma/\nadenocarcinoma\nRenal cell carcinoma\nSquamous cell carcinoma\nSquamous cell and small cell\ncarcinoma\nSquamous cell carcinoma\nPancreatic adenocarcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tobacco smoke organs part 2 — kidney / larynx / lung (the 3 organs printed in a separate block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Kidney\nLarynx\nLung",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Tobacco smoke toxin name (line 105, between the ionizing radiation and nickel blocks)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Tobacco smoke",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ethanol — esophagus / liver / breast — squamous cell carcinoma / hepatocellular carcinoma / breast cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Ethanol\n\nEsophagus\nLiver\nBreast\n\nSquamous cell carcinoma\nHepatocellular carcinoma\nBreast cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Ionizing radiation — blood / thyroid — leukemia / papillary thyroid carcinoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Ionizing radiation\n\nBlood\nThyroid\n\nLeukemia\nPapillary thyroid carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nickel, chromium, beryllium, silica — occupational exposure — lung — lung cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Nickel, chromium,\nberyllium, silica\n\nOccupational exposure\n\nLung\n\nLung cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nitrosamines — smoked foods — stomach — gastric cancer (intestinal type)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Nitrosamines\n\nSmoked foods\n\nStomach\n\nGastric cancer (intestinal type)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Radon — byproduct of uranium decay, accumulates in basements — lung — lung cancer (2nd leading cause after tobacco smoke)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Radon\n\nByproduct of uranium decay,\naccumulates in basements\n\nLung\n\nLung cancer (2nd leading\ncause after tobacco smoke)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Vinyl chloride — used to make PVC pipes — liver — hepatic angiosarcoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "Vinyl chloride\n\nUsed to make PVC pipes\n\nLiVer\n\nHepatic angiosarcoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 221)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 221\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "carcinogen-organ-map"
+  ],
+  "mechanismIds": [
+    "toxin-organ-axis",
+    "exposure-route-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the 11-toxin table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "toxin-organ-reading",
+      "summary": "The two-axis rule (the toxin axis: 11 named carcinogens; the organ axis: the target organs and their cancer types) — KYP's synthesis of the table into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (LIVER ANGIOSARCOMA ARSENIC VINYL CHLORIDE / TOBACCO EIGHT ORGANS / RADON BASEMENT URANIUM / NITROSAMINES SMOKED STOMACH) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 221 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 243). The page is a single pure-text table — TOXIN | EXPOSURE | ORGAN | IMPACT — with 11 toxin entries (some with multiple organs: arsenic has 3, tobacco smoke has 8, ethanol has 3, ionizing radiation has 2). The visual is an ORIGINAL KYP adaptation rendering the table as a toxin-organ-impact grid map (no source figure to redraw). The table is carried verbatim in the note's table block. No copyrighted photographs; no margin mnemonics (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-11-02"
+}

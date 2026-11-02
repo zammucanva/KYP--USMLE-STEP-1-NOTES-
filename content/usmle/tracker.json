@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-02T16:04:08Z",
+  "generatedAt": "2026-11-02T16:57:56Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 4,
-    "topicsProduced": 142,
+    "topicsProduced": 145,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 87,
+      "pilot-complete": 90,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -316,12 +316,12 @@
       "chapterId": "pathology",
       "chapterTitle": "Pathology",
       "part": 1,
-      "extractionStatus": "extracted",
+      "extractionStatus": "verified",
       "topicsRegistered": 19,
-      "topicsProduced": 16,
-      "topicsRemaining": 3,
+      "topicsProduced": 19,
+      "topicsRemaining": 0,
       "qaStatus": "pass",
-      "completedAt": null
+      "completedAt": "2026-11-02"
     },
     {
       "chapterId": "pharmacology",
@@ -889,6 +889,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-21"
+    },
+    {
+      "topicId": "chemical-carcinogens",
+      "title": "Chemical Carcinogens & Organ Cancers",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 243 (book 221)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "chromatin-organization",
@@ -2031,6 +2046,21 @@
       "updatedAt": "2026-10-20"
     },
     {
+      "topicId": "paraneoplastic-aging",
+      "title": "Paraneoplastic Syndromes & Aging",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia + Aging",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 246, 247, 248 (book 224–226)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
+    },
+    {
       "topicId": "pcr-crispr",
       "title": "PCR & CRISPR/Cas9",
       "chapterId": "biochemistry",
@@ -2359,6 +2389,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-09"
+    },
+    {
+      "topicId": "tumor-markers-molecular",
+      "title": "Tumor Markers, Molecular Diagnostics & IHC",
+      "chapterId": "pathology",
+      "subsection": "Pathology — Neoplasia",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 244, 245 (book 222–223)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "urea-cycle-disorders",

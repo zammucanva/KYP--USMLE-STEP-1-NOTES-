@@ -1,0 +1,621 @@
+{
+  "topicId": "paraneoplastic-aging",
+  "title": "Paraneoplastic Syndromes & Aging",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia + Aging",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      246,
+      247,
+      248
+    ],
+    "bookPages": "224–226"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — pdf 246 / book 224 header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "224\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—neOPLASIA\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Paraneoplastic syndromes header + table column headers — MANIFESTATION | DESCRIPTION/MECHANISM | MOST COMMONLY ASSOCIATED TUMOR(S)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Paraneoplastic syndromes\nmAnIfeSTATIOn\n\nDeSCrIPTIOn/meCHAnISm\n\nmOST COmmOnLY ASSOCIATeD TUmOr(S)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Musculoskeletal and cutaneous category header + Dermatomyositis — progressive proximal muscle weakness, Gottron papules, heliotrope rash → adenocarcinomas, especially ovarian",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Musculoskeletal and cutaneous\nDermatomyositis\n\nProgressive proximal muscle weakness, Gottron\npapules, heliotrope rash\n\nAdenocarcinomas, especially ovarian",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Acanthosis nigricans — hyperpigmented velvety plaques in axilla and neck → gastric adenocarcinoma and other visceral malignancies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Acanthosis nigricans\n\nHyperpigmented velvety plaques in axilla and\nneck\n\nGastric adenocarcinoma and other visceral\nmalignancies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Sign of Leser-Trélat — sudden onset of multiple seborrheic keratoses → GI adenocarcinomas and other visceral malignancies",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Sign of Leser-Trélat\n\nSudden onset of multiple seborrheic keratoses\n\nGI adenocarcinomas and other visceral\nmalignancies",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypertrophic osteoarthropathy — abnormal proliferation of skin and bone at distal extremities → clubbing, arthralgia, joint effusions, periostosis of tubular bones → adenocarcinoma of the lung",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Hypertrophic\nosteoarthropathy\n\nAbnormal proliferation of skin and bone at\ndistal extremities → clubbing, arthralgia, joint\neffusions, periostosis of tubular bones\n\nAdenocarcinoma of the lung",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypercalcemia via PTHrP — tumors: SCa2+mous cell carcinomas of lung, head, and neck; renal, bladder, breast, and ovarian carcinomas",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "PTHrP\n\nSCa2+mous cell carcinomas of lung, head,\nand neck; renal, bladder, breast, and ovarian\ncarcinomas",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Endocrine category header + Hypercalcemia entry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Endocrine\nHypercalcemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hypercalcemia via calcitriol (↑ 1,25-(OH)2 vitamin D3) → lymphoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Lymphoma\n\nEndocrine\nHypercalcemia\n\n↑ 1,25-(OH)2 vitamin D3 (calcitriol)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cushing syndrome (↑ ACTH) and Hyponatremia/SIADH (↑ ADH) → small cell lung cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Cushing syndrome\n\n↑ ACTH\n\nHyponatremia (SIADH)\n\n↑ ADH\nSmall cell lung cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hematologic category header + Polycythemia entry (↑ erythropoietin, paraneoplastic rise to high hematocrit levels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Hematologic\nPolycythemia\n\n↑ Erythropoietin\nParaneoplastic rise to High hematocrit levels",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Polycythemia tumors — pheochromocytoma, renal cell carcinoma, HCC, hemangioblastoma, leiomyoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Pheochromocytoma, renal cell carcinoma,\nHCC, hemangioblastoma, leiomyoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Pure red cell aplasia (anemia with low reticulocytes) and Good syndrome (hypogammaglobulinemia)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Pure red cell aplasia\n\nAnemia with low reticulocytes\n\nGood syndrome\n\nHypogammaglobulinemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thymoma — the associated tumor for pure red cell aplasia, Good syndrome, and myasthenia gravis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Thymoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Trousseau syndrome — migratory superficial thrombophlebitis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Trousseau syndrome\n\nMigratory superficial thrombophlebitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nonbacterial thrombotic endocarditis — deposition of sterile platelet thrombi on heart valves → adenocarcinomas, especially pancreatic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Nonbacterial\nthrombotic\nendocarditis\n\nDeposition of sterile platelet thrombi on heart\nvalves\n\nAdenocarcinomas, especially pancreatic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Neuromuscular category + Anti-NMDA receptor encephalitis — psychiatric disturbance, memory deficits, seizures, dyskinesias, autonomic instability, language dysfunction → ovarian teratoma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Anti-NMDA receptor\nencephalitis\n\nPsychiatric disturbance, memory deficits,\nseizures, dyskinesias, autonomic instability,\nlanguage dysfunction\nOvarian teratoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Opsoclonus-myoclonus ataxia syndrome — 'Dancing eyes, dancing feet' → neuroblastoma (children), small cell lung cancer (adults)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Opsoclonusmyoclonus ataxia\nsyndrome\n\n“Dancing eyes, dancing feet”\n\nNeuroblastoma (children), small cell lung\ncancer (adults)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Paraneoplastic cerebellar degeneration — antibodies against antigens in Purkinje cells → SCLC (anti-Hu), gynecologic and breast cancers (anti-Yo), Hodgkin lymphoma (anti-Tr)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Paraneoplastic\ncerebellar\ndegeneration\n\nAntibodies against antigens in Purkinje cells\n\nSmall cell lung cancer (anti-Hu), gynecologic\nand breast cancers (anti-Yo), and Hodgkin\nlymphoma (anti-Tr)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Paraneoplastic encephalomyelitis (anti-Hu in neurons) and Lambert-Eaton myasthenic syndrome (antibodies against presynaptic P/Q-type Ca2+ channels at NMJ)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Paraneoplastic\nencephalomyelitis\n\nAnti-Hu in neurons\n\nLambert-Eaton\nmyasthenic syndrome\n\nAntibodies against presynaptic (P/Q-type) Ca2+\nchannels at NMJ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Small cell lung cancer — the associated tumor for encephalomyelitis, Lambert-Eaton, Cushing syndrome, and SIADH",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Small cell lung cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Myasthenia gravis — antibodies against postsynaptic ACh receptors at NMJ",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Myasthenia gravis\n\nAntibodies against postsynaptic ACh receptors\nat NMJ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Thymoma — the associated tumor for myasthenia gravis (second occurrence)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "Thymoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 224)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 224",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity — pdf 247 / book 225 header (PATHOLOGY—AGING)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—AGInG\n\n225\n\nSEC TION II\n\n▶ PATHOLOGY—AGInG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Normal aging definition — time-dependent progressive decline in organ function resulting in ↑ susceptibility to disease; associated with genetic (eg, telomere shortening), epigenetic (eg, DNA methylation), and metabolic (eg, mitochondrial dysfunction) alterations",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Normal aging\n\nTime-dependent progressive decline in organ function resulting in ↑ susceptibility to disease.\nAssociated with genetic (eg, telomere shortening), epigenetic (eg, DNA methylation), and\nmetabolic (eg, mitochondrial dysfunction) alterations.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Cardiovascular aging — ↓ arterial compliance (↑ stiffness), ↑ aortic diameter, ↓ left ventricular cavity size and sigmoid-shaped interventricular septum (due to myocardial hypertrophy), ↑ left atrial cavity size, aortic and mitral valve calcification, ↓ maximum heart rate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Cardiovascular\n\n↓ arterial compliance (↑ stiffness), ↑ aortic diameter, ↓ left ventricular cavity size and sigmoidshaped interventricular septum (due to myocardial hypertrophy), ↑ left atrial cavity size, aortic\nand mitral valve calcification, ↓ maximum heart rate.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Gastrointestinal aging — ↓ LES tone, ↓ gastric mucosal protection, ↓ colonic motility",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Gastrointestinal\n\n↓ LES tone, ↓ gastric mucosal protection, ↓ colonic motility.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Hematopoietic aging — ↓ bone marrow mass, ↑ bone marrow fat; less vigorous response to stressors (eg, blood loss)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Hematopoietic\n\n↓ bone marrow mass, ↑ bone marrow fat; less vigorous response to stressors (eg, blood loss).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Immune aging — predominant effect on adaptive immunity: thymic involution → ↓ production of naïve T cells (and, indirectly, naïve B cells), while memory B and T cells are preserved; net effect = diminished response to novel antigens (eg, pathogens, vaccines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Immune\n\nPredominant effect on adaptive immunity: thymic involution → ↓ production of naïve T cells (and,\nindirectly, naïve B cells), while memory B and T cells are preserved. Net effect = diminished\nresponse to novel antigens (eg, pathogens, vaccines).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Musculoskeletal aging — ↓ skeletal muscle mass (sarcopenia), ↓ bone mass (osteopenia), joint cartilage thinning",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Musculoskeletal\n\n↓ skeletal muscle mass (sarcopenia), ↓ bone mass (osteopenia), joint cartilage thinning.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Nervous aging — ↓ brain volume (neuronal loss), ↓ cerebral blood flow; function is preserved despite mild cognitive decline",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Nervous\n\n↓ brain volume (neuronal loss), ↓ cerebral blood flow; function is preserved despite mild cognitive\ndecline.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Special senses aging — impaired accommodation (presbyopia), ↓ hearing (presbycusis), ↓ smell and taste",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Special senses\n\nImpaired accommodation (presbyopia), ↓ hearing (presbycusis), ↓ smell and taste.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Skin aging — atrophy with flattening of dermal-epidermal junction; ↓ dermal collagen and ↓ elastin (wrinkles, senile purpura), ↓ sweat glands (heat stroke), ↓ sebaceous glands (xerosis cutis); intrinsic aging (↓ biosynthetic capacity of dermal fibroblasts); extrinsic aging / photoaging (degradation of dermal collagen and elastin from sun exposure / UVA; solar elastosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Skin\n\nAtrophy with flattening of dermal-epidermal junction; ↓ dermal collagen and ↓ elastin (wrinkles,\nsenile purpura), ↓ sweat glands (heat stroke), ↓ sebaceous glands (xerosis cutis).\n▘ Intrinsic aging (chronological aging)—↓ biosynthetic capacity of dermal fibroblasts.\n▘ Extrinsic aging (photoaging)—degradation of dermal collagen and elastin from sun exposure\n(UVA); degradation products accumulate in dermis (solar elastosis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Renal aging — ↓ GFR (↓ nephrons), ↓ RBF, ↓ hormonal function; voiding dysfunction (eg, urinary incontinence)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Renal\n\n↓ GFR (↓ nephrons), ↓ RBF, ↓ hormonal function. Voiding dysfunction (eg, urinary incontinence).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Reproductive aging — males: testicular atrophy (↓ spermatogenesis), prostate enlargement, slower erection/ejaculation, longer refractory period; females: vulvovaginal atrophy, vaginal shortening/thinning/dryness, ↑ pH, due to ↓ estrogen from exhaustion of ovarian follicles (menopause)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Reproductive\n\nMales—testicular atrophy (↓ spermatogenesis), prostate enlargement, slower erection/ejaculation,\nlonger refractory period. Less pronounced ↓ in libido as compared to females.\nFemales—vulvovaginal atrophy; vaginal shortening, thinning, dryness, ↑ pH. Due to ↓ estrogen\nfrom exhaustion of ovarian follicles (menopause).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Respiratory aging — ↑ lung compliance (↓ elastic recoil), ↓ chest wall compliance (↑ stiffness), ↓ respiratory muscle strength; ↓ FEV1, ↓ FVC, ↑ RV (TLC unchanged); ↑ A-a gradient, ↑ V/Q mismatch; blunted ventilatory response to hypoxia/hypercapnia; less vigorous cough, slower mucociliary clearance",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Respiratory\n\n↑ lung compliance (↓ elastic recoil), ↓ chest wall compliance (↑ stiffness), ↓ respiratory muscle\nstrength; ↓ FEV1, ↓ FVC, ↑ RV (TLC is unchanged); ↑ A-a gradient, ↑\nmismatch.\nVentilatory response to hypoxia/hypercapnia is blunted. Less vigorous cough, slower mucociliary\nclearance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Lipofuscin — a yellow-brown 'wear and tear' pigment A associated with normal aging; composed of polymers of lipids and phospholipids complexed with protein; may be derived through lipid peroxidation of polyunsaturated lipids of subcellular membranes; autopsy of older adult will reveal deposits in heart, colon, liver, kidney, eye, and other organs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Lipofuscin\n\nA yellow-brown, “wear and tear” pigment A associated with normal aging.\nComposed of polymers of lipids and phospholipids complexed with protein. May be derived\nthrough lipid peroxidation of polyunsaturated lipids of subcellular membranes.\nAutopsy of older adult will reveal deposits in heart, colon, liver, kidney, eye, and other organs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The photograph A marker (the Lipofuscin 'wear and tear' pigment photograph — copyrighted, described in text, never reproduced)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "Lipofuscin\nA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 225)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 225\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page 226 (book 226) — the NOTES page (mostly blank)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          248
+        ],
+        "bookPages": "226"
+      },
+      "quote": "226\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—AGInG\n\n▶ NOTES\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "paraneoplastic-aging-map"
+  ],
+  "mechanismIds": [
+    "paraneoplastic-axis",
+    "aging-system-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the paraneoplastic table and the aging organ-system changes; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-page-reading",
+      "summary": "The two-axis rule (the paraneoplastic axis: 4 categories × 16 entries; the aging axis: 10 organ systems + Lipofuscin) — KYP's synthesis of the 3-page spread into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the sections sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (SCLC MAKES HORMONES / THYMOMA THREE DISEASES / LAMBERT-EATEN PRESYNAPTIC MYASTHENIA POSTSYNAPTIC / WEAR AND TEAR LIPOFUSCIN) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 224-226 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): ONE copyrighted photograph on pdf 247 (book 225) — image 0, 175x126 cmyk jpeg at 150 dpi, the Lipofuscin 'wear and tear' pigment photograph lettered A beside the 'Lipofuscin A' text — described-in-text only, NEVER reproduced (the M32 convention). The pages are pure text otherwise — the paraneoplastic syndromes table (4 categories: musculoskeletal/cutaneous, endocrine, hematologic, neuromuscular; 16 entries) on book 224, the normal aging organ-system changes (10 systems: cardiovascular, GI, hematopoietic, immune, musculoskeletal, nervous, special senses, skin, renal, reproductive, respiratory) + Lipofuscin on book 225, and a mostly-blank NOTES page on book 226. The visual is an ORIGINAL KYP adaptation rendering the paraneoplastic table and the aging organ-system grid as panel maps (no source figure to redraw). The tables are carried verbatim in the note's table blocks. No margin mnemonics (VLM confirmed); the KYP memory layer is original.",
+  "updatedAt": "2026-11-02"
+}

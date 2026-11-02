@@ -11,8 +11,8 @@
       "to": 248
     }
   ],
-  "extractionStatus": "extracted",
-  "pendingTopicCount": 3,
+  "extractionStatus": "verified",
+  "pendingTopicCount": 0,
   "topics": [
     {
       "topicId": "cellular-adaptations",
@@ -1976,8 +1976,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The carcinogen table (aflatoxins, alkylating agents, aromatic amines, arsenic, and the rest) with source, target organ, and associated cancer — the exposure layer."
+      "status": "complete",
+      "productionRationale": "The carcinogen table (aflatoxins, alkylating agents, aromatic amines, arsenic, and the rest) with source, target organ, and associated cancer — the exposure layer.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "chemical-carcinogens",
+          "requiredInKYP": true,
+          "visualId": "chemical-carcinogens-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              243
+            ],
+            "bookPages": "221"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 11-toxin carcinogen table (book 221)",
+          "sourceFigureDescription": "The complete TOXIN | EXPOSURE | ORGAN | IMPACT table with 11 toxin entries: aflatoxins (Aspergillus), alkylating agents, aromatic amines (benzidine, 2-naphthylamine), arsenic, asbestos, tobacco smoke (8 organs), ethanol (3 organs), ionizing radiation (2 organs), nickel/chromium/beryllium/silica, nitrosamines, radon, vinyl chloride. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "carcinogen-organ-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the toxin-organ grid) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "carcinogen-organ-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "tumor-markers-molecular",
@@ -2000,8 +2029,38 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The tumor-marker directory (AFP through chromogranin), the molecular diagnostics layer (TMB, MSI, HRD, liquid biopsy), and the immunohistochemistry panel (cytokeratin, desmin, neurofilament, PSA) — the diagnostic layer."
+      "status": "complete",
+      "productionRationale": "The tumor-marker directory (AFP through chromogranin), the molecular diagnostics layer (TMB, MSI, HRD, liquid biopsy), and the immunohistochemistry panel (cytokeratin, desmin, neurofilament, PSA) — the diagnostic layer.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia",
+          "topicId": "tumor-markers-molecular",
+          "requiredInKYP": true,
+          "visualId": "tumor-markers-molecular-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              244,
+              245
+            ],
+            "bookPages": "222–223"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The four-section carcinogen page (book 222-223)",
+          "sourceFigureDescription": "Four pure-text sections: (1) oncogenic microbes (8 microbes → cancers: EBV, HBV/HCV, HHV-8, HPV, H pylori, HTLV-1, liver fluke, Schistosoma haematobium); (2) serum tumor markers (12 markers: ALP, AFP, hCG, CA 15-3/27-29, CA 19-9, CA 125, calcitonin, CEA, chromogranin, LDH, NSE, PSA); (3) cancer testing (tumor mutational burden, MSI testing, PD-L1 expression, HRD testing, liquid biopsy); (4) IHC stains (10: chromogranin/synaptophysin, cytokeratin, desmin, GFAP, neurofilament, PSA, PECAM-1/CD-31, S-100, TRAP, vimentin) + P-glycoprotein. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "tumor-markers-ihc-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the four-section grid) + blocks[1-4] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "tumor-markers-ihc-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "paraneoplastic-aging",
@@ -2026,9 +2085,93 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pathology — Neoplasia",
-      "status": "pending",
-      "productionRationale": "The paraneoplastic syndromes (dermatomyositis, acanthosis nigricans, Leser-Trélat, hypertrophic osteoarthropathy, hypercalcemia, Cushing, SIADH) and the system-by-system aging changes with lipofuscin — the chapter close (p248 is the near-empty NOTES page, claimed as continuation)."
+      "status": "complete",
+      "productionRationale": "The paraneoplastic syndromes (dermatomyositis, acanthosis nigricans, Leser-Trélat, hypertrophic osteoarthropathy, hypercalcemia, Cushing, SIADH) and the system-by-system aging changes with lipofuscin — the chapter close (p248 is the near-empty NOTES page, claimed as continuation).",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia + Aging",
+          "topicId": "paraneoplastic-aging",
+          "requiredInKYP": true,
+          "visualId": "paraneoplastic-aging-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              246
+            ],
+            "bookPages": "224"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The paraneoplastic syndromes table (book 224)",
+          "sourceFigureDescription": "4-category 16-entry table: musculoskeletal/cutaneous (dermatomyositis, acanthosis nigricans, Sign of Leser-Trélat, hypertrophic osteoarthropathy), endocrine (hypercalcemia PTHrP + calcitriol, Cushing ACTH, SIADH ADH), hematologic (polycythemia EPO, pure red cell aplasia, Good syndrome, Trousseau syndrome, nonbacterial thrombotic endocarditis), neuromuscular (anti-NMDA, opsoclonus-myoclonus, cerebellar degeneration, encephalomyelitis, Lambert-Eaton, myasthenia gravis). Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "paraneoplastic-aging-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the paraneoplastic grid) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "paraneoplastic-aging-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia + Aging",
+          "topicId": "paraneoplastic-aging",
+          "requiredInKYP": true,
+          "visualId": "paraneoplastic-aging-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              247
+            ],
+            "bookPages": "225"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The normal aging organ-system changes + Lipofuscin (book 225)",
+          "sourceFigureDescription": "Normal aging definition + 10 organ-system changes (cardiovascular, GI, hematopoietic, immune, musculoskeletal, nervous, special senses, skin, renal, reproductive, respiratory) + Lipofuscin 'wear and tear' pigment. Pure text.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "paraneoplastic-aging-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the aging organ-system grid + Lipofuscin panel) + blocks[2] and blocks[3] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "paraneoplastic-aging-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pathology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pathology — Neoplasia + Aging",
+          "topicId": "paraneoplastic-aging",
+          "requiredInKYP": true,
+          "visualId": "paraneoplastic-aging-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              247
+            ],
+            "bookPages": "225"
+          },
+          "visualType": "HISTOLOGY",
+          "visualPurpose": "Photograph A — the Lipofuscin 'wear and tear' pigment (book 225)",
+          "sourceFigureDescription": "A cmyk jpeg photograph (175x126 at 150 dpi), lettered A beside the 'Lipofuscin A' text — showing the yellow-brown granular pigment deposited in tissue. COPYRIGHTED — described in text, never reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "qaStatus": "passed",
+          "kypLocation": "described-in-text in the registry visual's Lipofuscin panel + blocks[3] the Lipofuscin row",
+          "productionStatus": "complete",
+          "plannedKypVisualId": null,
+          "plannedImplementation": "note-block"
+        }
+      ]
     }
   ],
-  "notes": "Phase I inventory built from the banner + heading census. Banner structure (with the source's own printed banner typos, documented per the Micro convention): PATHOLOGY banner on pdf 224-248; subsections CeLLULAR INjURY 224-230 (book 202-208), INfLAMMATION 231-236 (209-214), NeOPLASIA 237-246 (215-224), AGInG 247-248 (225-226; p248 = the near-empty NOTES page, 7 nonempty lines, claimed by paraneoplastic-aging as continuation). p223 = chapter opener (book 201, unclaimed — the Micro p143 convention). p232 and p238 print no banner (continuation pages, assigned to their owners). 19 topics; every content page 224-248 claimed by exactly one topic."
+  "notes": "Phase I inventory built from the banner + heading census. Banner structure (with the source's own printed banner typos, documented per the Micro convention): PATHOLOGY banner on pdf 224-248; subsections CeLLULAR INjURY 224-230 (book 202-208), INfLAMMATION 231-236 (209-214), NeOPLASIA 237-246 (215-224), AGInG 247-248 (225-226; p248 = the near-empty NOTES page, 7 nonempty lines, claimed by paraneoplastic-aging as continuation). p223 = chapter opener (book 201, unclaimed — the Micro p143 convention). p232 and p238 print no banner (continuation pages, assigned to their owners). 19 topics; every content page 224-248 claimed by exactly one topic.",
+  "completedAt": "2026-11-02"
 }

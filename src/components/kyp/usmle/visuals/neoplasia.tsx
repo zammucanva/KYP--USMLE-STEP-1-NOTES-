@@ -1234,3 +1234,516 @@ export function OncogeneSuppressorMap() {
     </svg>
   );
 }
+
+// P17 — Carcinogen-organ map (an original KYP adaptation of book
+// 221). The page is a single pure-text TOXIN | EXPOSURE | ORGAN |
+// IMPACT table with 11 toxin entries — no raster images (pdfimages
+// confirmed zero). The visual renders the 11 toxins organized by
+// organ target, with the two hepatic angiosarcoma causes and the
+// asbestos rule highlighted.
+
+export function CarcinogenOrganMap() {
+  const w = 980;
+  const h = 1260;
+  const toxins = [
+    { name: "Aflatoxins (Aspergillus)", exp: "Stored grains and nuts", organ: "Liver", impact: "Hepatocellular carcinoma", color: "warning" },
+    { name: "Alkylating agents", exp: "Oncologic chemotherapy", organ: "Blood", impact: "Leukemia/lymphoma", color: "brand" },
+    { name: "Aromatic amines (benzidine, 2-naphthylamine)", exp: "Textile dyes, tobacco smoke", organ: "Bladder", impact: "Transitional cell carcinoma", color: "brand" },
+    { name: "Arsenic", exp: "Herbicides, smelting, wood preservation", organ: "Liver / Lung / Skin", impact: "Angiosarcoma / Lung cancer / SCC", color: "emergency" },
+    { name: "Asbestos", exp: "Old roofing, shipyard workers", organ: "Lung", impact: "Bronchogenic carcinoma > mesothelioma", color: "warning" },
+    { name: "Tobacco smoke (8 organs)", exp: "Tobacco", organ: "Bladder, cervix, esophagus, kidney, larynx, lung, oropharynx, pancreas", impact: "TCC, SCC, SCC/adenoca, RCC, SCC, SCC+small cell, SCC, adenocarcinoma", color: "emergency" },
+    { name: "Ethanol", exp: "Alcohol", organ: "Esophagus / Liver / Breast", impact: "SCC / HCC / Breast cancer", color: "warning" },
+    { name: "Ionizing radiation", exp: "Radiation", organ: "Blood / Thyroid", impact: "Leukemia / Papillary thyroid", color: "brand" },
+    { name: "Nickel, chromium, beryllium, silica", exp: "Occupational exposure", organ: "Lung", impact: "Lung cancer", color: "warning" },
+    { name: "Nitrosamines", exp: "Smoked foods", organ: "Stomach", impact: "Gastric cancer (intestinal type)", color: "brand" },
+    { name: "Radon", exp: "Uranium decay, basements", organ: "Lung", impact: "Lung cancer (2nd after tobacco)", color: "emergency" },
+    { name: "Vinyl chloride", exp: "PVC pipes", organ: "Liver", impact: "Hepatic angiosarcoma", color: "emergency" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Chemical carcinogens and organ cancers — the map, an original KYP adaptation of the source page (book 221 — the TOXIN | EXPOSURE | ORGAN | IMPACT table with 11 entries: aflatoxins, alkylating agents, aromatic amines, arsenic, asbestos, tobacco smoke [8 organs], ethanol [3 organs], ionizing radiation [2 organs], nickel/chromium/beryllium/silica, nitrosamines, radon, vinyl chloride; the two hepatic angiosarcoma causes [arsenic + vinyl chloride] and the asbestos rule [bronchogenic > mesothelioma] highlighted; no copyrighted photographs on the page). TOP — THE 11-TOXIN GRID organized by organ target. BOTTOM-LEFT — THE TWO HEPATIC ANGIOSARCOMA CAUSES callout. BOTTOM-RIGHT — THE ASBESTOS RULE and RADON RULE callouts. Footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Chemical carcinogens &amp; organ cancers — the map (original KYP adaptation)</text>
+        <rect x="740" y="24" width="192" height="18" className="fill-brand-soft" />
+        <text x="836" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">11 toxins · 4 columns</text>
+      </g>
+
+      {/* ===== 11-toxin grid ===== */}
+      <g>
+        <rect x="36" y="80" width="908" height="780" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="100" fontSize="8" fontWeight="800" className="fill-foreground">The 11-toxin carcinogen table (book 221 — verbatim, organized by organ)</text>
+
+        {/* header row */}
+        <rect x="52" y="112" width="220" height="20" className="fill-secondary" />
+        <text x="162" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">TOXIN</text>
+        <rect x="272" y="112" width="260" height="20" className="fill-secondary" />
+        <text x="402" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">EXPOSURE</text>
+        <rect x="532" y="112" width="180" height="20" className="fill-secondary" />
+        <text x="622" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">ORGAN</text>
+        <rect x="712" y="112" width="216" height="20" className="fill-secondary" />
+        <text x="820" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">IMPACT</text>
+
+        {toxins.map((t, i) => {
+          const y = 134 + i * 60;
+          const isAngiosarcoma = t.impact.includes("Angiosarcoma") || t.impact.includes("angiosarcoma");
+          const isTobacco = t.name.includes("Tobacco");
+          const isAsbestos = t.name.includes("Asbestos");
+          const isRadon = t.name.includes("Radon");
+          const highlight = isAngiosarcoma ? "fill-emergency-soft/30" : isTobacco ? "fill-emergency-soft/20" : isAsbestos ? "fill-warning-soft/30" : isRadon ? "fill-emergency-soft/20" : "fill-card";
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="220" height="56" className={highlight} stroke="stroke-border" />
+              <text x="60" y={y + 18} fontSize="3.8" fontWeight="800" className="fill-foreground">{t.name}</text>
+              <rect x="272" y={y} width="260" height="56" className={highlight} stroke="stroke-border" />
+              <text x="280" y={y + 30} fontSize="3.6" fontWeight="700" className="fill-foreground">{t.exp}</text>
+              <rect x="532" y={y} width="180" height="56" className={highlight} stroke="stroke-border" />
+              <text x="540" y={y + 30} fontSize="3.6" fontWeight="700" className="fill-foreground">{t.organ}</text>
+              <rect x="712" y={y} width="216" height="56" className={highlight} stroke="stroke-border" />
+              <text x="720" y={y + 30} fontSize="3.6" className="fill-foreground">{t.impact}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== BOTTOM-LEFT — two hepatic angiosarcoma causes ===== */}
+      <g>
+        <rect x="36" y="876" width="460" height="160" rx="14" className="fill-card stroke-emergency" strokeWidth="1.2" />
+        <text x="52" y="896" fontSize="8" fontWeight="800" className="fill-emergency">The two hepatic angiosarcoma causes</text>
+
+        <rect x="52" y="908" width="208" height="110" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="156" y="928" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-emergency">ARSENIC</text>
+        <text x="156" y="944" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">Herbicides (vineyard workers),</text>
+        <text x="156" y="954" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">metal smelting, wood preservation</text>
+        <text x="156" y="976" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-emergency">→ LIVER</text>
+        <text x="156" y="992" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">Hepatic angiosarcoma</text>
+        <text x="156" y="1008" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">(also lung cancer + skin SCC)</text>
+
+        <rect x="272" y="908" width="208" height="110" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="376" y="928" textAnchor="middle" fontSize="5" fontWeight="800" className="fill-emergency">VINYL CHLORIDE</text>
+        <text x="376" y="944" textAnchor="middle" fontSize="3.6" fontWeight="700" className="fill-foreground">Used to make PVC pipes</text>
+        <text x="376" y="976" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-emergency">→ LIVER</text>
+        <text x="376" y="992" textAnchor="middle" fontSize="4.2" fontWeight="800" className="fill-foreground">Hepatic angiosarcoma</text>
+        <text x="376" y="1008" textAnchor="middle" fontSize="3.4" className="fill-muted-foreground">CD31/CD34+ endothelial tumor</text>
+      </g>
+
+      {/* ===== BOTTOM-RIGHT — asbestos rule + radon rule ===== */}
+      <g>
+        <rect x="508" y="876" width="436" height="160" rx="14" className="fill-card stroke-border" />
+        <text x="524" y="896" fontSize="8" fontWeight="800" className="fill-foreground">The asbestos rule and the radon rule</text>
+
+        <rect x="524" y="908" width="412" height="58" rx="10" className="fill-warning-soft/40 stroke-warning" />
+        <text x="534" y="926" fontSize="4.4" fontWeight="800" className="fill-warning">ASBESTOS RULE — bronchogenic carcinoma &gt; mesothelioma</text>
+        <text x="534" y="942" fontSize="3.6" fontWeight="700" className="fill-foreground">Asbestos causes bronchogenic carcinoma MORE COMMONLY than mesothelioma.</text>
+        <text x="534" y="954" fontSize="3.6" fontWeight="700" className="fill-foreground">Mesothelioma is the more SPECIFIC association, but bronchogenic is the more COMMON cancer.</text>
+
+        <rect x="524" y="974" width="412" height="48" rx="10" className="fill-emergency-soft/40 stroke-emergency" />
+        <text x="534" y="992" fontSize="4.4" fontWeight="800" className="fill-emergency">RADON RULE — 2nd leading cause of lung cancer after tobacco smoke</text>
+        <text x="534" y="1006" fontSize="3.6" fontWeight="700" className="fill-foreground">Byproduct of uranium decay, accumulates in basements → lung cancer (2nd after tobacco).</text>
+      </g>
+
+      {/* ===== Summary callouts ===== */}
+      <g>
+        <rect x="36" y="1052" width="908" height="100" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="1072" fontSize="8" fontWeight="800" className="fill-foreground">The four KYP mnemonics (original — no mnemonics print on the page)</text>
+        <text x="52" y="1088" fontSize="4" fontWeight="800" className="fill-emergency">LIVER ANGIOSARCOMA = ARSENIC + VINYL CHLORIDE</text>
+        <text x="420" y="1088" fontSize="3.6" className="fill-muted-foreground">— the two toxins that cause the rare liver vascular cancer</text>
+        <text x="52" y="1102" fontSize="4" fontWeight="800" className="fill-emergency">TOBACCO = EIGHT ORGANS</text>
+        <text x="420" y="1102" fontSize="3.6" className="fill-muted-foreground">— bladder TCC, cervix SCC, esophagus, kidney RCC, larynx SCC, lung SCC+small cell, oropharynx SCC, pancreas</text>
+        <text x="52" y="1116" fontSize="4" fontWeight="800" className="fill-emergency">RADON = BASEMENT URANIUM, 2ND TO TOBACCO</text>
+        <text x="420" y="1116" fontSize="3.6" className="fill-muted-foreground">— radon is the 2nd leading lung cancer cause; uranium decay accumulates in basements</text>
+        <text x="52" y="1130" fontSize="4" fontWeight="800" className="fill-emergency">NITROSAMINES = SMOKED FOODS → STOMACH</text>
+        <text x="420" y="1130" fontSize="3.6" className="fill-muted-foreground">— the dietary carcinogen for intestinal-type gastric cancer</text>
+        <text x="52" y="1146" fontSize="3.6" fontWeight="700" className="fill-muted-foreground">Asbestos: bronchogenic &gt; mesothelioma (bronchogenic more common, mesothelioma more specific). Tobacco is the 8-organ carcinogen. Radon is 2nd to tobacco for lung.</text>
+      </g>
+
+      {/* footer */}
+      <g>
+        <rect x="24" y="1164" width="932" height="80" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="1182" fontSize="5.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 243 / book 221 (Pathology — Neoplasia: Carcinogens)</text>
+        <text x="42" y="1196" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 243). The page is a single pure-text</text>
+        <text x="42" y="1206" fontSize="5" className="fill-muted-foreground">TOXIN | EXPOSURE | ORGAN | IMPACT table with 11 entries. Adapted as the registry visual (the toxin-organ grid); table carried verbatim in the note.</text>
+        <text x="42" y="1216" fontSize="5" className="fill-muted-foreground">No copyrighted photographs. No margin mnemonics (VLM confirmed); the KYP memory layer is original.</text>
+      </g>
+    </svg>
+  );
+}
+
+export function TumorMarkersIhcMap() {
+  const w = 980;
+  const h = 1800;
+  const microbes = [
+    { name: "EBV", cancer: "Burkitt lymphoma, Hodgkin lymphoma, nasopharyngeal carcinoma, 1° CNS lymphoma (in immunocompromised patients)", color: "emergency" },
+    { name: "HBV, HCV", cancer: "Hepatocellular carcinoma", color: "warning" },
+    { name: "HHV-8", cancer: "Kaposi sarcoma", color: "brand" },
+    { name: "HPV (usually types 16, 18)", cancer: "Cervical and penile/anal carcinoma, head and neck cancer", color: "emergency" },
+    { name: "H pylori", cancer: "Gastric adenocarcinoma and MALT lymphoma", color: "warning" },
+    { name: "HTLV-1", cancer: "Adult T-cell Leukemia/Lymphoma", color: "brand" },
+    { name: "Liver fluke (Clonorchis sinensis)", cancer: "Cholangiocarcinoma", color: "warning" },
+    { name: "Schistosoma haematobium", cancer: "Squamous cell bladder cancer", color: "emergency" },
+  ];
+  const markers = [
+    { name: "Alkaline phosphatase", asc: "Metastases to bone or liver, Paget disease of bone, seminoma (PLAP)", notes: "Exclude hepatic origin by checking LFTs and GGT levels." },
+    { name: "α-fetoprotein (AFP)", asc: "HCC, endodermal sinus (yolk sac) tumor, mixed germ cell tumor, ataxia-telangiectasia, neural tube defects", notes: "Normally made by fetus. Transiently elevated in pregnancy. High = neural tube/abdominal wall defects, low = Down syndrome." },
+    { name: "hCG", asc: "Hydatidiform moles and Choriocarcinomas (Gestational trophoblastic disease), testicular cancer, mixed germ cell tumor", notes: "Produced by syncytiotrophoblasts of the placenta." },
+    { name: "CA 15-3/CA 27-29", asc: "Breast cancer", notes: "" },
+    { name: "CA 19-9", asc: "Pancreatic adenocarcinoma", notes: "" },
+    { name: "CA 125", asc: "Epithelial ovarian cancer", notes: "" },
+    { name: "Calcitonin", asc: "Medullary thyroid carcinoma (alone and in MEN2A, MEN2B)", notes: "Calci2nin." },
+    { name: "CEA", asc: "Colorectal and pancreatic cancers. Minor associations: gastric, breast, and medullary thyroid carcinomas", notes: "CarcinoEmbryonic Antigen. Very nonspecific." },
+    { name: "Chromogranin", asc: "Neuroendocrine tumors", notes: "" },
+    { name: "LDH", asc: "Testicular germ cell tumors, ovarian dysgerminoma, other cancers", notes: "Can be used as an indicator of tumor burden." },
+    { name: "Neuron-specific enolase", asc: "Neuroendocrine tumors (eg, small cell lung cancer, carcinoid tumor, neuroblastoma)", notes: "" },
+    { name: "PSA", asc: "Prostate cancer", notes: "Prostate-Specific Antigen—monitor recurrence/response; uncertain risk/benefit for screening. Also ↑ in BPH/prostatitis." },
+  ];
+  const tests = [
+    { name: "Tumor mutational burden", desc: "Total number of mutations present in cancer cells. May predict response to certain treatments (eg, immune-checkpoint inhibitors)." },
+    { name: "Microsatellite instability testing", desc: "Assesses deficits in the mismatch repair pathway (hallmark of Lynch syndrome). Used to assess prognosis and determine treatment for certain cancers (eg, colorectal adenocarcinoma, endometrial carcinoma)." },
+    { name: "PD-L1 expression patterns", desc: "PD-L1 expressed to varying degrees in certain cancers (eg, NSCLC, urothelial carcinoma). May be targeted with anti-PD-L1 and anti-PD1 antibodies." },
+    { name: "Homologous recombination deficiency testing", desc: "Identifies cancer types with genetic abnormalities and genomic instability (eg, breast, ovarian) that may respond to certain treatments (eg, PARP inhibitors)." },
+    { name: "Liquid biopsy", desc: "Noninvasive diagnostic test in body fluid (eg, blood, urine) using circulating tumor DNA (ctDNA), RNA (ctRNA), or circulating tumor cells (CTCs) for cancer profiling (eg, EGFR in lung cancer), treatment monitoring, and post-treatment surveillance (eg, colorectal cancer). Aids in early metastatic detection and personalized therapy." },
+  ];
+  const stains = [
+    { name: "Chromogranin and synaptophysin", target: "Neuroendocrine cells", tumor: "Small cell carcinoma of the lung, carcinoid tumor, neuroblastoma" },
+    { name: "Cytokeratin", target: "Epithelial cells", tumor: "Epithelial tumors (eg, squamous cell carcinoma)" },
+    { name: "Desmin", target: "Muscle", tumor: "Muscle tumors (eg, rhabdomyosarcoma)" },
+    { name: "GFAP", target: "NeuroGlia (eg, astrocytes, Schwann cells, oligodendrocytes)", tumor: "Astrocytoma, Glioblastoma" },
+    { name: "Neurofilament", target: "Neurons", tumor: "Neuronal tumors (eg, neuroblastoma)" },
+    { name: "PSA", target: "Prostatic epithelium", tumor: "Prostate cancer" },
+    { name: "PECAM-1/CD-31", target: "Endothelial cells", tumor: "Vascular tumors (eg, angiosarcoma)" },
+    { name: "S-100", target: "Neural crest cells", tumor: "Melanoma, schwannoma, Langerhans cell histiocytosis" },
+    { name: "TRAP", target: "Tartrate-resistant acid phosphatase", tumor: "Hairy cell leukemia" },
+    { name: "Vimentin", target: "Mesenchymal tissue (eg, fibroblasts, endothelial cells, macrophages)", tumor: "Mesenchymal tumors (eg, sarcoma), but also many other tumors (eg, endometrial carcinoma, RCC, meningioma)" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Tumor markers, molecular diagnostics, and IHC — the map, an original KYP adaptation of the source pages (book 222-223 — four sections: oncogenic microbes [8 rows: EBV, HBV/HCV, HHV-8, HPV 16/18, H pylori, HTLV-1, Clonorchis sinensis, Schistosoma haematobium]; serum tumor markers [12 markers with NOTES: ALP, AFP, hCG, CA 15-3/27-29, CA 19-9, CA 125, calcitonin, CEA, chromogranin, LDH, NSE, PSA]; cancer testing [5 entries: TMB, MSI testing, PD-L1 expression, HRD testing, liquid biopsy]; important IHC stains [10 rows]; plus the P-glycoprotein / MDR1 drug-resistance callout; the marker caveat [markers monitor, biopsy diagnoses] and the Calci2nin = MEN2 mnemonic highlighted; no copyrighted photographs on either page). TOP — THE 8-ONCOGENIC-MICROBES GRID. UPPER-MIDDLE — THE 12-SERUM-TUMOR-MARKERS GRID with NOTES column. LOWER-MIDDLE — THE 5-ENTRY CANCER TESTING BLOCK (4 tests + liquid biopsy). BOTTOM-LEFT — THE 10-IHC-STAINS GRID (stain → target → tumor). BOTTOM-RIGHT — THE P-GLYCOPROTEIN (MDR1) DRUG-RESISTANCE CALLOUT. Footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Tumor markers, molecular diagnostics &amp; IHC — the map (original KYP adaptation)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">8 microbes · 12 markers · 10 stains</text>
+      </g>
+
+      {/* ===== Section 1 — oncogenic microbes (8 rows) ===== */}
+      <g>
+        <rect x="36" y="80" width="908" height="380" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="100" fontSize="8" fontWeight="800" className="fill-foreground">Section 1 — oncogenic microbes (book 222 — verbatim, 8 microbes → cancers)</text>
+
+        {/* header row */}
+        <rect x="52" y="112" width="280" height="20" className="fill-secondary" />
+        <text x="192" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">MICROBE</text>
+        <rect x="332" y="112" width="596" height="20" className="fill-secondary" />
+        <text x="630" y="126" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">CANCER</text>
+
+        {microbes.map((m, i) => {
+          const y = 134 + i * 38;
+          const hl = m.color === "emergency" ? "fill-emergency-soft/20" : m.color === "warning" ? "fill-warning-soft/20" : "fill-brand-soft/20";
+          const txt = m.color === "emergency" ? "fill-emergency" : m.color === "warning" ? "fill-warning" : "fill-brand";
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="280" height="34" className={hl} stroke="stroke-border" />
+              <text x="60" y={y + 20} fontSize="4" fontWeight="800" className={txt}>{m.name}</text>
+              <rect x="332" y={y} width="596" height="34" className={hl} stroke="stroke-border" />
+              <text x="340" y={y + 20} fontSize="3.8" className="fill-foreground">{m.cancer}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== Section 2 — serum tumor markers (12 rows + NOTES) ===== */}
+      <g>
+        <rect x="36" y="470" width="908" height="420" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="490" fontSize="8" fontWeight="800" className="fill-foreground">Section 2 — serum tumor markers (book 222-223 — verbatim, 12 markers · markers MONITOR recurrence/response, biopsy DIAGNOSES)</text>
+
+        {/* header row */}
+        <rect x="52" y="502" width="180" height="20" className="fill-secondary" />
+        <text x="142" y="516" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">MARKER</text>
+        <rect x="232" y="502" width="400" height="20" className="fill-secondary" />
+        <text x="432" y="516" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">ASSOCIATIONS</text>
+        <rect x="632" y="502" width="296" height="20" className="fill-secondary" />
+        <text x="780" y="516" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">NOTES</text>
+
+        {markers.map((m, i) => {
+          const y = 524 + i * 30;
+          const isCaveat = m.name === "CEA" || m.name === "PSA" || m.name === "α-fetoprotein (AFP)" || m.name === "Calcitonin";
+          const hl = isCaveat ? "fill-warning-soft/20" : "fill-card";
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="180" height="28" className={hl} stroke="stroke-border" />
+              <text x="60" y={y + 18} fontSize="3.8" fontWeight="800" className="fill-foreground">{m.name}</text>
+              <rect x="232" y={y} width="400" height="28" className={hl} stroke="stroke-border" />
+              <text x="240" y={y + 12} fontSize="3.4" className="fill-foreground">{m.asc}</text>
+              <rect x="632" y={y} width="296" height="28" className={hl} stroke="stroke-border" />
+              <text x="640" y={y + 12} fontSize="3.2" className="fill-muted-foreground">{m.notes}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== Section 3 — cancer testing (5 entries) ===== */}
+      <g>
+        <rect x="36" y="900" width="908" height="330" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="920" fontSize="8" fontWeight="800" className="fill-foreground">Section 3 — cancer testing (book 223 — verbatim, 4 tests + liquid biopsy · therapy-axis: TMB → ICI, MSI → Lynch, PD-L1 → anti-PD-L1/PD1, HRD → PARP, liquid biopsy → ctDNA/ctRNA/CTC)</text>
+
+        {/* header row */}
+        <rect x="52" y="932" width="248" height="20" className="fill-secondary" />
+        <text x="176" y="946" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">TEST</text>
+        <rect x="300" y="932" width="628" height="20" className="fill-secondary" />
+        <text x="614" y="946" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">DESCRIPTION</text>
+
+        {tests.map((t, i) => {
+          const y = 954 + i * 54;
+          const isLiquid = t.name === "Liquid biopsy";
+          const hl = isLiquid ? "fill-emergency-soft/20" : i % 2 === 0 ? "fill-card" : "fill-card";
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="248" height="50" className={hl} stroke="stroke-border" />
+              <text x="60" y={y + 28} fontSize="4" fontWeight="800" className="fill-foreground">{t.name}</text>
+              <rect x="300" y={y} width="628" height="50" className={hl} stroke="stroke-border" />
+              <text x="308" y={y + 16} fontSize="3.4" className="fill-foreground">{t.desc}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== Section 4 — IHC stains (10 rows: stain → target → tumor) ===== */}
+      <g>
+        <rect x="36" y="1240" width="908" height="380" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="1260" fontSize="8" fontWeight="800" className="fill-foreground">Section 4 — important immunohistochemical stains (book 223 — verbatim, 10 stains → targets → tumors · the stain names the lineage, the lineage names the primary)</text>
+
+        {/* header row */}
+        <rect x="52" y="1272" width="220" height="20" className="fill-secondary" />
+        <text x="162" y="1286" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">STAIN</text>
+        <rect x="272" y="1272" width="340" height="20" className="fill-secondary" />
+        <text x="442" y="1286" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">TARGET</text>
+        <rect x="612" y="1272" width="316" height="20" className="fill-secondary" />
+        <text x="770" y="1286" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">TUMOR</text>
+
+        {stains.map((s, i) => {
+          const y = 1294 + i * 32;
+          const isS100 = s.name === "S-100";
+          const isVimentin = s.name === "Vimentin";
+          const hl = isS100 ? "fill-emergency-soft/20" : isVimentin ? "fill-warning-soft/20" : "fill-card";
+          return (
+            <g key={i}>
+              <rect x="52" y={y} width="220" height="30" className={hl} stroke="stroke-border" />
+              <text x="60" y={y + 19} fontSize="3.8" fontWeight="800" className="fill-foreground">{s.name}</text>
+              <rect x="272" y={y} width="340" height="30" className={hl} stroke="stroke-border" />
+              <text x="280" y={y + 12} fontSize="3.4" className="fill-foreground">{s.target}</text>
+              <rect x="612" y={y} width="316" height="30" className={hl} stroke="stroke-border" />
+              <text x="620" y={y + 12} fontSize="3.4" className="fill-foreground">{s.tumor}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== P-glycoprotein callout ===== */}
+      <g>
+        <rect x="36" y="1630" width="908" height="70" rx="14" className="fill-emergency-soft/40 stroke-emergency" strokeWidth="1.2" />
+        <text x="52" y="1650" fontSize="8" fontWeight="800" className="fill-emergency">P-glycoprotein (MDR1) — the multidrug resistance mechanism</text>
+        <text x="52" y="1666" fontSize="5" fontWeight="700" className="fill-foreground">ATP-dependent efflux pump, also called multidrug resistance protein 1 (MDR1). Expressed in some cancer cells to pump out toxins,</text>
+        <text x="52" y="1678" fontSize="5" fontWeight="700" className="fill-foreground">including chemotherapeutic agents (one mechanism of ↓ responsiveness or resistance to chemotherapy over time). P-GP PUMPS POISON.</text>
+      </g>
+
+      {/* footer */}
+      <g>
+        <rect x="24" y="1710" width="932" height="80" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="1728" fontSize="5.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 244-245 / book 222-223 (Pathology — Neoplasia: Tumor Markers, Molecular Diagnostics &amp; IHC)</text>
+        <text x="42" y="1742" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): NO raster images on either page (pdfimages -list returned zero rows for pdf 244 and pdf 245). The pages are pure text —</text>
+        <text x="42" y="1752" fontSize="5" className="fill-muted-foreground">four sections (oncogenic microbes, serum tumor markers, cancer testing, IHC stains). Adapted as the registry visual (the four-section grid map); tables carried verbatim in the note.</text>
+        <text x="42" y="1762" fontSize="5" className="fill-muted-foreground">No copyrighted photographs. No margin mnemonics (VLM confirmed); the KYP memory layer is original. P-glycoprotein (MDR1) callout for the drug-resistance mechanism.</text>
+      </g>
+    </svg>
+  );
+}
+
+export function ParaneoplasticAgingMap() {
+  const w = 980;
+  const h = 1900;
+  const para = [
+    { cat: "Musculoskeletal and cutaneous", rows: [
+      { m: "Dermatomyositis", d: "Progressive proximal muscle weakness, Gottron papules, heliotrope rash", t: "Adenocarcinomas, especially ovarian", hl: "warning" },
+      { m: "Acanthosis nigricans", d: "Hyperpigmented velvety plaques in axilla and neck", t: "Gastric adenocarcinoma and other visceral malignancies", hl: "warning" },
+      { m: "Sign of Leser-Trélat", d: "Sudden onset of multiple seborrheic keratoses", t: "GI adenocarcinomas and other visceral malignancies", hl: "warning" },
+      { m: "Hypertrophic osteoarthropathy", d: "Abnormal proliferation of skin and bone at distal extremities → clubbing, arthralgia, joint effusions, periostosis", t: "Adenocarcinoma of the lung", hl: "warning" },
+    ]},
+    { cat: "Endocrine", rows: [
+      { m: "Hypercalcemia", d: "PTHrP", t: "SCa2+mous cell carcinomas of lung, head, neck; renal, bladder, breast, ovarian", hl: "brand" },
+      { m: "Hypercalcemia", d: "↑ 1,25-(OH)2 vitamin D3 (calcitriol)", t: "Lymphoma", hl: "brand" },
+      { m: "Cushing syndrome", d: "↑ ACTH", t: "Small cell lung cancer", hl: "sclc" },
+      { m: "Hyponatremia (SIADH)", d: "↑ ADH", t: "Small cell lung cancer", hl: "sclc" },
+    ]},
+    { cat: "Hematologic", rows: [
+      { m: "Polycythemia", d: "↑ Erythropoietin; paraneoplastic rise to high hematocrit", t: "Pheochromocytoma, RCC, HCC, hemangioblastoma, leiomyoma", hl: "card" },
+      { m: "Pure red cell aplasia", d: "Anemia with low reticulocytes", t: "Thymoma", hl: "thymoma" },
+      { m: "Good syndrome", d: "Hypogammaglobulinemia", t: "Thymoma", hl: "thymoma" },
+      { m: "Trousseau syndrome", d: "Migratory superficial thrombophlebitis", t: "Adenocarcinomas, especially pancreatic", hl: "card" },
+      { m: "Nonbacterial thrombotic endocarditis", d: "Deposition of sterile platelet thrombi on heart valves", t: "Adenocarcinomas, especially pancreatic", hl: "card" },
+    ]},
+    { cat: "Neuromuscular", rows: [
+      { m: "Anti-NMDA receptor encephalitis", d: "Psychiatric disturbance, memory deficits, seizures, dyskinesias, autonomic instability, language dysfunction", t: "Ovarian teratoma", hl: "card" },
+      { m: "Opsoclonus-myoclonus ataxia syndrome", d: "\"Dancing eyes, dancing feet\"", t: "Neuroblastoma (children), SCLC (adults)", hl: "sclc" },
+      { m: "Paraneoplastic cerebellar degeneration", d: "Antibodies against antigens in Purkinje cells", t: "SCLC (anti-Hu), gynecologic/breast (anti-Yo), Hodgkin (anti-Tr)", hl: "sclc" },
+      { m: "Paraneoplastic encephalomyelitis", d: "Anti-Hu in neurons", t: "Small cell lung cancer", hl: "sclc" },
+      { m: "Lambert-Eaton myasthenic syndrome", d: "Antibodies against presynaptic (P/Q-type) Ca2+ channels at NMJ", t: "Small cell lung cancer", hl: "sclc" },
+      { m: "Myasthenia gravis", d: "Antibodies against postsynaptic ACh receptors at NMJ", t: "Thymoma", hl: "thymoma" },
+    ]},
+  ];
+  const systems = [
+    { name: "Cardiovascular", change: "↓ arterial compliance (↑ stiffness), ↑ aortic diameter, ↓ LV cavity + sigmoid septum (hypertrophy), ↑ LA, aortic + mitral valve calcification, ↓ max heart rate" },
+    { name: "Gastrointestinal", change: "↓ LES tone, ↓ gastric mucosal protection, ↓ colonic motility" },
+    { name: "Hematopoietic", change: "↓ bone marrow mass, ↑ bone marrow fat; less vigorous response to stressors (eg, blood loss)" },
+    { name: "Immune", change: "Thymic involution → ↓ naïve T cells (and indirectly naïve B cells); memory B and T preserved. ↓ response to novel antigens (pathogens, vaccines)" },
+    { name: "Musculoskeletal", change: "↓ skeletal muscle mass (sarcopenia), ↓ bone mass (osteopenia), joint cartilage thinning" },
+    { name: "Nervous", change: "↓ brain volume (neuronal loss), ↓ cerebral blood flow; function preserved despite mild cognitive decline" },
+    { name: "Special senses", change: "Impaired accommodation (presbyopia), ↓ hearing (presbycusis), ↓ smell and taste" },
+    { name: "Skin", change: "Atrophy + flattening of dermal-epidermal junction; ↓ collagen + ↓ elastin (wrinkles, senile purpura); ↓ sweat glands (heat stroke); ↓ sebaceous glands (xerosis). Intrinsic = ↓ fibroblast biosynthesis; extrinsic (photoaging) = UVA collagen/elastin degradation → solar elastosis" },
+    { name: "Renal", change: "↓ GFR (↓ nephrons), ↓ RBF, ↓ hormonal function. Voiding dysfunction (eg, urinary incontinence)" },
+    { name: "Reproductive", change: "M: testicular atrophy (↓ spermatogenesis), prostate enlargement, slower erection/ejaculation. F: vulvovaginal atrophy; vaginal shortening/thinning/dryness/↑ pH; ↓ estrogen from ovarian follicle exhaustion (menopause)" },
+    { name: "Respiratory", change: "↑ lung compliance (↓ elastic recoil), ↓ chest wall compliance; ↓ respiratory muscle strength; ↓ FEV1, ↓ FVC, ↑ RV (TLC unchanged); ↑ A-a gradient, ↑ V/Q mismatch; blunted hypoxia/hypercapnia response" },
+  ];
+  // Render the paraneoplastic table — flatten categories into rows
+  const paraRows: { cat?: string; m?: string; d?: string; t?: string; hl?: string }[] = [];
+  for (const c of para) {
+    paraRows.push({ cat: c.cat });
+    for (const r of c.rows) paraRows.push(r);
+  }
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Paraneoplastic syndromes and normal aging — the map, an original KYP adaptation of the source pages (book 224-226 — Section 1: paraneoplastic syndromes table [4 categories, 16 entries: musculoskeletal/cutaneous (dermatomyositis → ovarian, acanthosis nigricans → gastric, Sign of Leser-Trélat → GI, hypertrophic osteoarthropathy → lung); endocrine (PTHrP-hypercalcemia → SCC, calcitriol-hypercalcemia → lymphoma, ACTH-Cushing → SCLC, ADH-SIADH → SCLC); hematologic (EPO-polycythemia → pheochromocytoma/RCC/HCC/hemangioblastoma/leiomyoma, PRCA → thymoma, Good → thymoma, Trousseau → pancreatic, NBTE → pancreatic); neuromuscular (anti-NMDA → ovarian teratoma, opsoclonus-myoclonus → neuroblastoma/SCLC, cerebellar degeneration anti-Hu/anti-Yo/anti-Tr → SCLC/gynecologic-breast/Hodgkin, encephalomyelitis anti-Hu → SCLC, Lambert-Eaton presynaptic → SCLC, myasthenia gravis postsynaptic → thymoma)]. SCLC is highlighted as the most common paraneoplastic tumor (5 syndromes); thymoma is the second (3 syndromes). Section 2: the 11-system aging organ-system grid (cardiovascular, GI, hematopoietic, immune, musculoskeletal, nervous, special senses, skin, renal, reproductive, respiratory). Section 3: the Lipofuscin 'wear and tear' pigment A panel — described in text, never reproduced (the M32 convention; one copyrighted photograph on book 225, image 0, 175x126 cmyk jpeg at 150 dpi). No margin mnemonics (VLM confirmed); the KYP memory layer is original. Footer carries the source attribution, the census note, and the copyright boundary." className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Paraneoplastic syndromes &amp; normal aging — the map (original KYP adaptation)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">16 syndromes · 11 systems · 1 pigment</text>
+      </g>
+
+      {/* ===== Section 1 — paraneoplastic syndromes table (4 categories, 16 entries) ===== */}
+      <g>
+        <rect x="36" y="78" width="908" height="668" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="98" fontSize="8" fontWeight="800" className="fill-foreground">Section 1 — paraneoplastic syndromes (book 224 — verbatim, 4 categories × 16 entries · MANIFESTATION | DESCRIPTION/MECHANISM | MOST COMMONLY ASSOCIATED TUMOR[S])</text>
+
+        {/* header row */}
+        <rect x="52" y="108" width="240" height="20" className="fill-secondary" />
+        <text x="172" y="122" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">MANIFESTATION</text>
+        <rect x="292" y="108" width="380" height="20" className="fill-secondary" />
+        <text x="482" y="122" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">DESCRIPTION / MECHANISM</text>
+        <rect x="672" y="108" width="256" height="20" className="fill-secondary" />
+        <text x="800" y="122" textAnchor="middle" fontSize="4" fontWeight="800" className="fill-foreground">MOST COMMONLY ASSOCIATED TUMOR(S)</text>
+
+        {paraRows.map((r, i) => {
+          const y = 130 + i * 30;
+          if (r.cat) {
+            return (
+              <g key={`cat-${i}`}>
+                <rect x="52" y={y} width="876" height="28" className="fill-brand-soft/40 stroke-border" />
+                <text x="60" y={y + 18} fontSize="4.4" fontWeight="800" className="fill-brand">— {r.cat} —</text>
+              </g>
+            );
+          }
+          const hl = r.hl === "sclc" ? "fill-emergency-soft/30" : r.hl === "thymoma" ? "fill-warning-soft/30" : r.hl === "warning" ? "fill-warning-soft/15" : r.hl === "brand" ? "fill-brand-soft/15" : "fill-card";
+          const tag = r.hl === "sclc"
+            ? <text x="920" y={y + 18} textAnchor="end" fontSize="3.2" fontWeight="800" className="fill-emergency">SCLC</text>
+            : r.hl === "thymoma"
+            ? <text x="920" y={y + 18} textAnchor="end" fontSize="3.2" fontWeight="800" className="fill-warning">THYMOMA</text>
+            : null;
+          return (
+            <g key={`r-${i}`}>
+              <rect x="52" y={y} width="240" height="28" className={hl} stroke="stroke-border" />
+              <text x="60" y={y + 18} fontSize="3.8" fontWeight="800" className="fill-foreground">{r.m}</text>
+              <rect x="292" y={y} width="380" height="28" className={hl} stroke="stroke-border" />
+              <text x="300" y={y + 12} fontSize="3.2" className="fill-foreground">{r.d}</text>
+              <rect x="672" y={y} width="256" height="28" className={hl} stroke="stroke-border" />
+              <text x="680" y={y + 12} fontSize="3.2" fontWeight="700" className="fill-foreground">{r.t}</text>
+              {tag}
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== Section 2 — SCLC axis + thymoma axis highlights ===== */}
+      <g>
+        <rect x="36" y="754" width="448" height="120" rx="14" className="fill-emergency-soft/40 stroke-emergency" strokeWidth="1.2" />
+        <text x="52" y="774" fontSize="8" fontWeight="800" className="fill-emergency">SCLC axis — 5 paraneoplastic syndromes (the most common tumor)</text>
+        <text x="52" y="790" fontSize="4.2" fontWeight="700" className="fill-foreground">Small cell lung cancer — a neuroendocrine tumor that retains hormone- and antibody-producing capacity.</text>
+        <text x="52" y="806" fontSize="3.8" fontWeight="800" className="fill-emergency">Cushing (↑ ACTH)</text>
+        <text x="240" y="806" fontSize="3.6" className="fill-muted-foreground">SIADH (↑ ADH)</text>
+        <text x="400" y="806" fontSize="3.6" className="fill-muted-foreground">cerebellar deg (anti-Hu)</text>
+        <text x="52" y="822" fontSize="3.8" fontWeight="800" className="fill-emergency">encephalomyelitis (anti-Hu)</text>
+        <text x="240" y="822" fontSize="3.6" className="fill-muted-foreground">Lambert-Eaton (presynaptic Ca2+)</text>
+        <text x="52" y="842" fontSize="3.6" fontWeight="700" className="fill-foreground">5 of 16 entries — SCLC dominates the paraneoplastic table.</text>
+        <text x="52" y="856" fontSize="3.6" fontWeight="700" className="fill-foreground">Lambert-Eaton vs MG: presynaptic Ca2+ (SCLC) vs postsynaptic AChR (thymoma).</text>
+
+        <rect x="496" y="754" width="448" height="120" rx="14" className="fill-warning-soft/40 stroke-warning" strokeWidth="1.2" />
+        <text x="512" y="774" fontSize="8" fontWeight="800" className="fill-warning">Thymoma axis — 3 paraneoplastic syndromes (the second most common tumor)</text>
+        <text x="512" y="790" fontSize="4.2" fontWeight="700" className="fill-foreground">Thymus is the central lymphoid organ for T-cell tolerance — thymoma disrupts both</text>
+        <text x="512" y="802" fontSize="4.2" fontWeight="700" className="fill-foreground">T-cell selection and B-cell help.</text>
+        <text x="512" y="822" fontSize="3.8" fontWeight="800" className="fill-warning">Pure red cell aplasia</text>
+        <text x="700" y="822" fontSize="3.6" className="fill-muted-foreground">Good syndrome (hypogam)</text>
+        <text x="512" y="838" fontSize="3.8" fontWeight="800" className="fill-warning">Myasthenia gravis (postsynaptic AChR)</text>
+        <text x="512" y="858" fontSize="3.6" fontWeight="700" className="fill-foreground">3 of 16 entries. LEMS (SCLC) and MG (thymoma) are the NMJ pair.</text>
+      </g>
+
+      {/* ===== Section 3 — aging organ-system grid (11 systems in 2 columns) ===== */}
+      <g>
+        <rect x="36" y="886" width="908" height="792" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="52" y="906" fontSize="8" fontWeight="800" className="fill-foreground">Section 3 — normal aging organ-system changes (book 225 — verbatim, 11 systems · time-dependent decline in organ function; genetic [telomere shortening] + epigenetic [DNA methylation] + metabolic [mitochondrial dysfunction])</text>
+
+        {/* Two columns of cards. Left column has 6 cards, right column has 5 cards. */}
+        {systems.slice(0, 6).map((s, i) => {
+          const y = 918 + i * 124;
+          const isImmune = s.name === "Immune";
+          const hl = isImmune ? "fill-brand-soft/30" : "fill-card";
+          return (
+            <g key={`l-${i}`}>
+              <rect x="52" y={y} width="432" height="116" rx="10" className={hl} stroke="stroke-border" />
+              <text x="62" y={y + 18} fontSize="5" fontWeight="800" className="fill-foreground">{s.name}</text>
+              {isImmune && <text x="468" y={y + 18} textAnchor="end" fontSize="3.2" fontWeight="800" className="fill-brand">HIGHLIGHT</text>}
+              <text x="62" y={y + 36} fontSize="3.6" className="fill-foreground">{s.change}</text>
+            </g>
+          );
+        })}
+        {systems.slice(6, 11).map((s, i) => {
+          const y = 918 + i * 124;
+          const isResp = s.name === "Respiratory";
+          const isSkin = s.name === "Skin";
+          const hl = isResp ? "fill-emergency-soft/30" : isSkin ? "fill-warning-soft/30" : "fill-card";
+          const tag = isResp
+            ? <text x="932" y={y + 18} textAnchor="end" fontSize="3.2" fontWeight="800" className="fill-emergency">HIGHLIGHT</text>
+            : isSkin
+            ? <text x="932" y={y + 18} textAnchor="end" fontSize="3.2" fontWeight="800" className="fill-warning">HIGHLIGHT</text>
+            : null;
+          return (
+            <g key={`r-${i}`}>
+              <rect x="496" y={y} width="436" height="116" rx="10" className={hl} stroke="stroke-border" />
+              <text x="506" y={y + 18} fontSize="5" fontWeight="800" className="fill-foreground">{s.name}</text>
+              {tag}
+              <text x="506" y={y + 36} fontSize="3.6" className="fill-foreground">{s.change}</text>
+            </g>
+          );
+        })}
+      </g>
+
+      {/* ===== Section 4 — Lipofuscin 'wear and tear' pigment A panel ===== */}
+      <g>
+        <rect x="36" y="1690" width="908" height="108" rx="14" className="fill-card stroke-emergency" strokeWidth="1.2" />
+        <text x="52" y="1710" fontSize="8" fontWeight="800" className="fill-emergency">Lipofuscin — the yellow-brown "wear and tear" pigment A (book 225, described in text — never reproduced)</text>
+        <text x="52" y="1726" fontSize="5" fontWeight="700" className="fill-foreground">A yellow-brown, "wear and tear" pigment A associated with normal aging. Composed of polymers of lipids and phospholipids complexed with</text>
+        <text x="52" y="1738" fontSize="5" fontWeight="700" className="fill-foreground">protein. May be derived through lipid peroxidation of polyunsaturated lipids of subcellular membranes. Autopsy of older adult will reveal</text>
+        <text x="52" y="1750" fontSize="5" fontWeight="700" className="fill-foreground">deposits in heart, colon, liver, kidney, eye, and other organs.</text>
+        <rect x="52" y="1760" width="876" height="28" rx="6" className="fill-emergency-soft/30 stroke-emergency" />
+        <text x="62" y="1778" fontSize="3.8" fontWeight="800" className="fill-emergency">Photograph A (copyrighted) — one cmyk jpeg, 175×126 at 150 dpi, on pdf 247 (book 225), lettered A beside the "Lipofuscin A" text. Described in text, never reproduced (the M32 convention).</text>
+      </g>
+
+      {/* footer */}
+      <g>
+        <rect x="24" y="1810" width="932" height="80" rx="12" className="fill-secondary/40 stroke-border" />
+        <text x="42" y="1828" fontSize="5.4" fontWeight="800" className="fill-foreground">Source &amp; census — First Aid for the USMLE Step 1 2026, Part 1 pdf 246-248 / book 224-226 (Pathology — Neoplasia + Aging: Paraneoplastic syndromes [224] + Normal aging [225] + NOTES [226])</text>
+        <text x="42" y="1842" fontSize="5" className="fill-muted-foreground">Census (pdfimages + VLM): ONE copyrighted photograph on pdf 247 (book 225) — image 0, 175×126 cmyk jpeg at 150 dpi, the Lipofuscin</text>
+        <text x="42" y="1852" fontSize="5" className="fill-muted-foreground">"wear and tear" pigment photograph lettered A — described in text, never reproduced (the M32 convention). Pages are pure text otherwise.</text>
+        <text x="42" y="1862" fontSize="5" className="fill-muted-foreground">Adapted as the registry visual (the paraneoplastic + aging grid); tables carried verbatim in the note. No margin mnemonics (VLM confirmed); the KYP memory layer stays original.</text>
+      </g>
+    </svg>
+  );
+}
