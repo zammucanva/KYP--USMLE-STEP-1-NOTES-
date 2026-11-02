@@ -113,6 +113,7 @@ import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { enzymeKinetics } from "./enzyme-kinetics";
 import { pharmacokinetics } from "./pharmacokinetics";
+import { drugMetabolism } from "./drug-metabolism";
 import { geneExpressionModifications } from "./gene-expression-modifications";
 import { geneticTermsPopgen } from "./genetic-terms-popgen";
 import { imprintingDisorders } from "./imprinting-disorders";
@@ -307,6 +308,7 @@ export const usmleNotes: KypUsMLENote[] = [
   diabetesMellitus,
   enzymeKinetics,
   pharmacokinetics,
+  drugMetabolism,
 ];
 
 export const usmleNotesById: Record<string, KypUsMLENote> = Object.fromEntries(

@@ -733,3 +733,244 @@ export function PharmacokineticsMap() {
     </svg>
   );
 }
+
+// ---------------------------------------------------------------------------
+// Drug metabolism — Phase I → Phase II → Excretion flow (PH3, book 230)
+// ---------------------------------------------------------------------------
+
+export function DrugMetabolismMap() {
+  const w = 980;
+  const h = 1100;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Drug metabolism — the map (an original KYP redraw of the source page book 230 — the Phase I to Phase II to Excretion flow diagram with the Lipophilic drugs input rail at top-left and the Polar drugs water-soluble input rail at top-right; the Phase I box labeled predominantly CYP450-dependent containing the four reaction types Reduction, Oxidation, Hydrolysis, Methylation, outputting a Slightly polar metabolite (active or inactive) plus Reactive oxygen metabolites; the Phase II box containing the three conjugation reactions Glucuronidation, Acetylation, Sulfation, outputting a Very polar hydrophilic metabolite except the acetylated metabolite which is less polar; the Excretion box with Serum (urine, sweat) and bile (stool) routes; the Phase I reaction list table; the Phase II reaction list table; the two modifier callouts Geriatric patients lose phase I first and Slow acetylators have increased adverse effects (eg, isoniazid); and the PHASE I = OXIDIZE REDUCE HYDROLYZE METHYLATE (CYP450) mnemonic callout at the bottom; no copyrighted photographs on the page)" className="min-w-[940px]">
+      {/* ===== HEADER ===== */}
+      <g>
+        <rect x="24" y="14" width="932" height="48" rx="12" className="fill-card stroke-border" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Drug metabolism — the map (original KYP redraw)</text>
+        <rect x="700" y="24" width="232" height="18" className="fill-brand-soft" />
+        <text x="816" y="37" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">2 phases · 2 tables · 2 modifiers</text>
+      </g>
+
+      {/* ===== INPUT RAILS ===== */}
+      <g>
+        <rect x="60" y="80" width="240" height="32" rx="8" className="fill-brand-soft stroke-brand" />
+        <text x="180" y="101" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-brand">Lipophilic drugs</text>
+
+        <rect x="680" y="80" width="240" height="32" rx="8" className="fill-warning-soft stroke-warning" />
+        <text x="800" y="101" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-warning">Polar drugs (water-soluble)</text>
+      </g>
+
+      {/* ===== ARROWS: input rails to phase boxes ===== */}
+      <g>
+        {/* Lipophilic → Phase I (vertical down) */}
+        <line x1="180" y1="112" x2="180" y2="140" stroke="currentColor" strokeWidth="1.6" className="text-brand" />
+        <polygon points="176,138 180,148 184,138" className="fill-brand" />
+        {/* Polar → Phase II (vertical down) */}
+        <line x1="800" y1="112" x2="800" y2="140" stroke="currentColor" strokeWidth="1.6" className="text-warning" />
+        <polygon points="796,138 800,148 804,138" className="fill-warning" />
+      </g>
+
+      {/* ===== PHASE I BOX ===== */}
+      <g>
+        <rect x="40" y="150" width="440" height="300" rx="14" className="fill-secondary/40 stroke-brand" />
+        <text x="56" y="172" fontSize="10" fontWeight="800" className="fill-brand">PHASE I  (predominantly CYP450-dependent)</text>
+        <text x="56" y="186" fontSize="6.5" className="fill-muted-foreground">Introduces/unmasks a functional group → slightly polar metabolite</text>
+
+        {/* 4 reaction sub-boxes */}
+        {[
+          { x: 50, label: "Reduction" },
+          { x: 160, label: "Oxidation" },
+          { x: 270, label: "Hydrolysis" },
+          { x: 380, label: "Methylation" },
+        ].map((r, i) => (
+          <g key={i}>
+            <rect x={r.x} y={200} width={i === 3 ? 90 : 100} height={36} rx="6" className="fill-card stroke-brand" />
+            <text x={r.x + (i === 3 ? 45 : 50)} y={222} textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">{r.label}</text>
+          </g>
+        ))}
+
+        {/* reactive oxygen metabolites note */}
+        <text x="56" y="258" fontSize="7" fontWeight="700" className="fill-emergency">+ Reactive oxygen metabolites (CYP450 byproduct)</text>
+
+        {/* Output panel inside Phase I */}
+        <rect x="50" y="280" width="420" height="80" rx="10" className="fill-card stroke-border" />
+        <text x="60" y="302" fontSize="8" fontWeight="800" className="fill-brand">PHASE I OUTPUT</text>
+        <text x="60" y="318" fontSize="7.5" fontWeight="700" className="fill-foreground">Slightly polar metabolite</text>
+        <text x="60" y="330" fontSize="7" className="fill-muted-foreground">(active or inactive — codeine → morphine = bioactivation;</text>
+        <text x="60" y="342" fontSize="7" className="fill-muted-foreground">diazepam → oxazepam preserves activity; most are deactivated)</text>
+        <text x="60" y="354" fontSize="7" fontWeight="700" className="fill-emergency">Plus reactive oxygen metabolites (oxidative stress source)</text>
+
+        {/* Bioactivation note */}
+        <text x="56" y="382" fontSize="6.5" className="fill-muted-foreground">Active or inactive — Phase I can bioactivate (prodrug → active), deactivate, or preserve activity.</text>
+        <text x="56" y="394" fontSize="6.5" className="fill-muted-foreground">CYP450 = heme-thiolate monooxygenase (CYP3A4, 2D6, 2E1, 1A2 major isoforms).</text>
+        <text x="56" y="406" fontSize="6.5" fontWeight="700" className="fill-brand">Examples: codeine CYP2D6 → morphine; diazepam CYP3A4 → nordiazepam.</text>
+      </g>
+
+      {/* ===== PHASE II BOX ===== */}
+      <g>
+        <rect x="510" y="150" width="430" height="300" rx="14" className="fill-secondary/40 stroke-warning" />
+        <text x="526" y="172" fontSize="10" fontWeight="800" className="fill-warning">PHASE II  (conjugation)</text>
+        <text x="526" y="186" fontSize="6.5" className="fill-muted-foreground">Attaches a bulky polar conjugate → very polar hydrophilic metabolite</text>
+
+        {/* 3 reaction sub-boxes */}
+        {[
+          { x: 520, label: "Glucuronidation" },
+          { x: 660, label: "Acetylation" },
+          { x: 800, label: "Sulfation" },
+        ].map((r, i) => (
+          <g key={i}>
+            <rect x={r.x} y={200} width={130} height={36} rx="6" className="fill-card stroke-warning" />
+            <text x={r.x + 65} y={222} textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">{r.label}</text>
+          </g>
+        ))}
+
+        {/* donor note */}
+        <text x="526" y="258" fontSize="7" fontWeight="700" className="fill-foreground">Donors: UDP-glucuronic acid (UGT) · Acetyl-CoA (NAT1/NAT2) · PAPS (SULT)</text>
+
+        {/* Output panel inside Phase II */}
+        <rect x="520" y="280" width="410" height="80" rx="10" className="fill-card stroke-border" />
+        <text x="530" y="302" fontSize="8" fontWeight="800" className="fill-warning">PHASE II OUTPUT</text>
+        <text x="530" y="318" fontSize="7.5" fontWeight="700" className="fill-foreground">Very polar, hydrophilic metabolite</text>
+        <text x="530" y="332" fontSize="7" fontWeight="700" className="fill-emergency">EXCEPT acetylated metabolite — LESS polar than the parent</text>
+        <text x="530" y="346" fontSize="7" className="fill-muted-foreground">(the lone Phase II exception — why slow acetylators accumulate isoniazid:</text>
+        <text x="530" y="358" fontSize="7" className="fill-muted-foreground">slower formation AND less-polar product is less readily excreted)</text>
+
+        {/* Notes */}
+        <text x="526" y="382" fontSize="6.5" className="fill-muted-foreground">Glucuronidation (UGT, UDP-glucuronic acid) · Sulfation (SULT, PAPS) make metabolite very polar.</text>
+        <text x="526" y="394" fontSize="6.5" className="fill-muted-foreground">Acetylation (NAT1/NAT2, acetyl-CoA) MASKS the amine → less polar product.</text>
+        <text x="526" y="406" fontSize="6.5" fontWeight="700" className="fill-warning">Examples: lorazepam UGT; isoniazid NAT2; acetaminophen UGT/SULT.</text>
+      </g>
+
+      {/* ===== ARROW: Phase I → Phase II (slightly polar → conjugation) ===== */}
+      <g>
+        <line x1="470" y1="320" x2="510" y2="320" stroke="currentColor" strokeWidth="1.8" className="text-foreground" />
+        <polygon points="506,316 516,320 506,324" className="fill-foreground" />
+        <text x="490" y="313" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">slightly</text>
+        <text x="490" y="324" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">polar →</text>
+      </g>
+
+      {/* ===== EXCRETION BOX ===== */}
+      <g>
+        {/* Arrow Phase II → Excretion */}
+        <line x1="725" y1="450" x2="725" y2="478" stroke="currentColor" strokeWidth="1.8" className="text-warning" />
+        <polygon points="721,476 725,486 729,476" className="fill-warning" />
+
+        <rect x="300" y="478" width="640" height="50" rx="10" className="fill-brand-soft stroke-brand" />
+        <text x="620" y="500" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-brand">EXCRETION</text>
+        <text x="620" y="516" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">Serum (urine, sweat) · bile (stool)</text>
+
+        {/* Side note */}
+        <text x="60" y="500" fontSize="7" fontWeight="700" className="fill-muted-foreground">Kidney filters water-soluble</text>
+        <text x="60" y="512" fontSize="7" fontWeight="700" className="fill-muted-foreground">metabolites; liver secretes</text>
+        <text x="60" y="524" fontSize="7" fontWeight="700" className="fill-muted-foreground">larger conjugates into bile.</text>
+      </g>
+
+      {/* ===== NOT-NECESSARILY-SEQUENTIAL CALLOUT ===== */}
+      <g>
+        <rect x="40" y="444" width="260" height="30" rx="6" className="fill-card stroke-border" />
+        <text x="50" y="459" fontSize="6.5" fontWeight="700" className="fill-foreground">Not necessarily sequential —</text>
+        <text x="50" y="469" fontSize="6.5" fontWeight="700" className="fill-foreground">phase I can follow phase II.</text>
+      </g>
+
+      {/* ===== PHASE I REACTION LIST TABLE ===== */}
+      <g>
+        <rect x="24" y="548" width="932" height="180" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="40" y="570" fontSize="9" fontWeight="800" className="fill-brand">PHASE I REACTION LIST (book 230 — verbatim)</text>
+        <text x="40" y="584" fontSize="6.5" className="fill-muted-foreground">Phase I (predominantly CYP450-dependent): Reduction, Oxidation, Hydrolysis, Methylation → slightly polar metabolite (active or inactive) + reactive oxygen metabolites</text>
+
+        {/* Header row at y=594-624 (height 30) */}
+        <rect x="40" y="594" width="160" height="30" className="fill-secondary stroke-border" />
+        <text x="120" y="613" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-foreground">Phase I reaction</text>
+        <rect x="200" y="594" width="240" height="30" className="fill-brand-soft stroke-border" />
+        <text x="320" y="613" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-brand">Catalyst / note</text>
+        <rect x="440" y="594" width="260" height="30" className="fill-warning-soft stroke-border" />
+        <text x="570" y="613" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-warning">Output</text>
+        <rect x="700" y="594" width="240" height="30" className="fill-emergency-soft stroke-border" />
+        <text x="820" y="613" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-emergency">Clinical anchor</text>
+
+        {/* Data rows: 4 rows × 25 height = 100 */}
+        {[
+          { y: 624, c1: "Reduction", c2: "Predominantly CYP450 (anaerobic)", c3: "Slightly polar metabolite + ROM", c4: "Halothane reduction under low O2" },
+          { y: 649, c1: "Oxidation", c2: "Predominantly CYP450 (major route)", c3: "Slightly polar metabolite + ROM", c4: "Codeine → morphine (CYP2D6 bioactivation)" },
+          { y: 674, c1: "Hydrolysis", c2: "Esterases / amidases (plasma, tissue)", c3: "Slightly polar metabolite", c4: "Procaine → PABA; succinylcholine; aspirin" },
+          { y: 699, c1: "Methylation", c2: "Methyltransferases (COMT, TPMT); SAM", c3: "Slightly polar metabolite", c4: "Catechol-O-methylation; TPMT polymorphism" },
+        ].map((row, i) => (
+          <g key={i}>
+            <rect x="40" y={row.y} width="160" height="25" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="120" y={row.y + 17} textAnchor="middle" fontSize="7.5" fontWeight="700" className="fill-foreground">{row.c1}</text>
+            <rect x="200" y={row.y} width="240" height="25" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="320" y={row.y + 17} textAnchor="middle" fontSize="7" className="fill-foreground">{row.c2}</text>
+            <rect x="440" y={row.y} width="260" height="25" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="570" y={row.y + 17} textAnchor="middle" fontSize="7" className="fill-foreground">{row.c3}</text>
+            <rect x="700" y={row.y} width="240" height="25" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="820" y={row.y + 17} textAnchor="middle" fontSize="7" className="fill-foreground">{row.c4}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== PHASE II REACTION LIST TABLE ===== */}
+      <g>
+        <rect x="24" y="740" width="932" height="155" rx="14" className="fill-secondary/40 stroke-border" />
+        <text x="40" y="762" fontSize="9" fontWeight="800" className="fill-warning">PHASE II REACTION LIST (book 230 — verbatim)</text>
+        <text x="40" y="776" fontSize="6.5" className="fill-muted-foreground">Phase II (conjugation): Glucuronidation, Acetylation, Sulfation → very polar, hydrophilic metabolite (EXCEPT acetylated metabolite, which is LESS polar than the parent)</text>
+
+        {/* Header row at y=786-816 (height 30) */}
+        <rect x="40" y="786" width="160" height="30" className="fill-secondary stroke-border" />
+        <text x="120" y="805" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-foreground">Phase II reaction</text>
+        <rect x="200" y="786" width="240" height="30" className="fill-brand-soft stroke-border" />
+        <text x="320" y="805" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-brand">Conjugate donor</text>
+        <rect x="440" y="786" width="260" height="30" className="fill-warning-soft stroke-border" />
+        <text x="570" y="805" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-warning">Output</text>
+        <rect x="700" y="786" width="240" height="30" className="fill-emergency-soft stroke-border" />
+        <text x="820" y="805" textAnchor="middle" fontSize="7.5" fontWeight="800" className="fill-emergency">Clinical anchor</text>
+
+        {/* Data rows: 3 rows × 30 height = 90 */}
+        {[
+          { y: 816, c1: "Glucuronidation", c2: "UDP-glucuronic acid (UGT)", c3: "Very polar, hydrophilic metabolite", c4: "Bilirubin; morphine; LOT (loraz/oxaz/temaz)" },
+          { y: 846, c1: "Acetylation", c2: "Acetyl-CoA (NAT1/NAT2)", c3: "EXCEPT — less polar than parent", c4: "Isoniazid, hydralazine, procainamide, dapsone" },
+          { y: 876, c1: "Sulfation", c2: "PAPS (SULT)", c3: "Very polar, hydrophilic metabolite", c4: "Steroids; acetaminophen sulfate" },
+        ].map((row, i) => (
+          <g key={i}>
+            <rect x="40" y={row.y} width="160" height="30" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="120" y={row.y + 18} textAnchor="middle" fontSize="7.5" fontWeight="700" className="fill-foreground">{row.c1}</text>
+            <rect x="200" y={row.y} width="240" height="30" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="320" y={row.y + 18} textAnchor="middle" fontSize="7" className="fill-foreground">{row.c2}</text>
+            <rect x="440" y={row.y} width="260" height="30" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="570" y={row.y + 18} textAnchor="middle" fontSize="7" className={i === 1 ? "fill-emergency" : "fill-foreground"} fontWeight={i === 1 ? "700" : "400"}>{row.c3}</text>
+            <rect x="700" y={row.y} width="240" height="30" className={i % 2 === 0 ? "fill-card stroke-border" : "fill-secondary/30 stroke-border"} />
+            <text x="820" y={row.y + 18} textAnchor="middle" fontSize="7" className="fill-foreground">{row.c4}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== MODIFIER CALLOUTS ===== */}
+      <g>
+        <rect x="24" y="908" width="456" height="120" rx="10" className="fill-card stroke-emergency" />
+        <text x="40" y="930" fontSize="9" fontWeight="800" className="fill-emergency">▘ MODIFIER 1 — GERIATRIC</text>
+        <text x="40" y="952" fontSize="9" fontWeight="800" className="fill-foreground">Geriatric patients lose Phase I first.</text>
+        <text x="40" y="970" fontSize="7" className="fill-foreground">Phase I (CYP450 oxidation, reduction, hydrolysis, methylation) declines with age</text>
+        <text x="40" y="982" fontSize="7" className="fill-foreground">as hepatic mass and blood flow fall; Phase II (glucuronidation, sulfation,</text>
+        <text x="40" y="994" fontSize="7" className="fill-foreground">acetylation) is relatively PRESERVED.</text>
+        <text x="40" y="1012" fontSize="7" fontWeight="700" className="fill-emergency">Use LOT (Lorazepam, Oxazepam, Temazepam) over Phase I-oxidized diazepam.</text>
+        <text x="40" y="1024" fontSize="6.5" className="fill-muted-foreground">Phase I-metabolized drugs (diazepam, phenytoin, theophylline) accumulate → toxicity.</text>
+      </g>
+      <g>
+        <rect x="500" y="908" width="456" height="120" rx="10" className="fill-card stroke-warning" />
+        <text x="516" y="930" fontSize="9" fontWeight="800" className="fill-warning">▘ MODIFIER 2 — SLOW ACETYLATOR</text>
+        <text x="516" y="952" fontSize="9" fontWeight="800" className="fill-foreground">Slow acetylators have ↑ adverse effects from ↓ rate of metabolism.</text>
+        <text x="516" y="970" fontSize="7" className="fill-foreground">NAT2 slow-acetylator polymorphism reduces Phase II ACETYLATION (one of three</text>
+        <text x="516" y="982" fontSize="7" className="fill-foreground">Phase II reactions) — the acetylated metabolite is LESS polar than the parent</text>
+        <text x="516" y="994" fontSize="7" className="fill-foreground">(the page's Phase II exception) → slower formation + less-readily-excreted product.</text>
+        <text x="516" y="1012" fontSize="7" fontWeight="700" className="fill-warning">Isoniazid (hepatotox + neuropathy, B6) · hydralazine/procainamide (lupus) · dapsone (hemolysis).</text>
+        <text x="516" y="1024" fontSize="6.5" className="fill-muted-foreground">The four NAT2-substrate drugs are the test set.</text>
+      </g>
+
+      {/* ===== MNEMONIC CALLOUT ===== */}
+      <g>
+        <rect x="24" y="1042" width="932" height="48" rx="10" className="fill-brand-soft stroke-brand" />
+        <text x="490" y="1066" textAnchor="middle" fontSize="11" fontWeight="800" className="fill-brand">PHASE I = OXIDIZE / REDUCE / HYDROLYZE / METHYLATE (CYP450)</text>
+        <text x="490" y="1082" textAnchor="middle" fontSize="8" fontWeight="700" className="fill-foreground">PHASE II = CONJUGATE (GLUCURONIDE / SULFATE / ACETYLATE) · Geriatric loses Phase I · Slow acetylators accumulate (INH, hydralazine, procainamide, dapsone)</text>
+      </g>
+    </svg>
+  );
+}

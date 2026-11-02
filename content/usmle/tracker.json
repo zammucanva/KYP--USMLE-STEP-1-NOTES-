@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-02T17:32:36Z",
+  "generatedAt": "2026-11-02T17:45:07Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 147,
+    "topicsProduced": 148,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 92,
+      "pilot-complete": 93,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 43,
-      "topicsProduced": 3,
-      "topicsRemaining": 40,
+      "topicsProduced": 4,
+      "topicsRemaining": 39,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1159,6 +1159,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-21"
+    },
+    {
+      "topicId": "drug-metabolism",
+      "title": "Drug Metabolism",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 252 (book 230)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 3,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-02"
     },
     {
       "topicId": "enteric-pathogens",

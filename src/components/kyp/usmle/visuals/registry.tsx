@@ -25,6 +25,7 @@ import {
   HypersensitivityMechanisms,
   SympathReceptorGrid,
   PharmacokineticsMap,
+  DrugMetabolismMap,
 } from "./pharm";
 import {
   DnaRepairPathways,
@@ -153,6 +154,8 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "enzyme-kinetics-map": EnzymeKineticsMap,
   // Pharmacokinetics (PH2)
   "pharmacokinetics-map": PharmacokineticsMap,
+  // Drug metabolism (PH3)
+  "drug-metabolism-map": DrugMetabolismMap,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,
   // Urinary casts

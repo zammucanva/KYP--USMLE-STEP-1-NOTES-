@@ -1,0 +1,127 @@
+{
+  "topicId": "drug-metabolism",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Phase I → Phase II → Excretion flow diagram",
+      "sourceFigureDescription": "The Drug Metabolism flow diagram: two input rails (Lipophilic drugs at top-left; Polar drugs (water-soluble) at top-right) feeding into Phase I (predominantly CYP450-dependent) and Phase II boxes; Phase I contains the four reaction types (Reduction, Oxidation, Hydrolysis, Methylation) and outputs Slightly polar metabolite (active or inactive) plus Reactive oxygen metabolites; Phase II contains the three conjugation reactions (Glucuronidation, Acetylation, Sulfation) and outputs Very polar, hydrophilic metabolite (except acetylated metabolite); the final Excretion box shows Serum (urine, sweat) and bile (stool) routes. The Phase I output flows into Phase II (sequential) but the page notes the reactions 'do not have to take place sequentially' (eg, phase I can follow phase II, or take place as a single reaction). A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "drug-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the flow-diagram panel of the DrugMetabolismMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-metabolism-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Phase I reaction list (Reduction, Oxidation, Hydrolysis, Methylation)",
+      "sourceFigureDescription": "The Phase I reaction list: the four Phase I reaction types printed under the Phase I header — Reduction, Oxidation, Hydrolysis, Methylation — labeled as predominantly CYP450-dependent, producing a slightly polar metabolite (active or inactive) plus reactive oxygen metabolites. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the Phase I reaction strip inside the DrugMetabolismMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-metabolism-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Phase II reaction list (Glucuronidation, Acetylation, Sulfation)",
+      "sourceFigureDescription": "The Phase II reaction list: the three Phase II conjugation reaction types printed under the Phase II header — Glucuronidation, Acetylation, Sulfation — producing a very polar, hydrophilic metabolite (except the acetylated metabolite, which is less polar). Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the Phase II reaction strip inside the DrugMetabolismMap) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-metabolism-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Lipophilic-vs-Polar input comparison and the geriatric/slow-acetylator modifier strip",
+      "sourceFigureDescription": "The Drug Metabolism page's two input rails (Lipophilic drugs → Phase I → Phase II; Polar drugs → Phase II directly) and the two modifier sentences ('Geriatric patients lose phase I first'; 'Patients who are slow acetylators have ↑ adverse effects from certain drugs because of ↓ rate of metabolism (eg, isoniazid)'). The input comparison shows that lipophilic drugs need both phases while polar drugs can skip Phase I and go straight to Phase II conjugation. Pure text + the two modifier callouts.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-metabolism-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the input-comparison strip and the geriatric/slow-acetylator callout inside the DrugMetabolismMap) + the rapid-review section in the note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-metabolism-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-metabolism",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 252). The Drug Metabolism section has ONE vector flow diagram (the Phase I → Phase II → Excretion flow with the Lipophilic and Polar input rails) — redrawn as ORIGINAL_KYP_REDRAW vector graphics in the registry visual (no photographs, no copyrighted artwork reproduced). The Phase I / Phase II reaction lists and the lipophilic-vs-polar input split are pure text and are carried verbatim in the note's table blocks (ORIGINAL_KYP_ADAPTATION). No copyrighted photographs exist on the page; nothing reproduced. No mnemonic prints on book 230's Drug Metabolism section; the four KYP mnemonics are original designs. NOTE: page 252 (book 230) ALSO contains the Elimination of Drugs section (zero-order vs first-order with the PEA mnemonic); that section is reserved for the separate elimination-of-drugs topic and is NOT covered here."
+}
