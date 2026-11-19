@@ -1,0 +1,211 @@
+{
+  "topicId": "pharmacokinetics-aging",
+  "title": "Pharmacokinetic Parameters & Age-Related Changes",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      251
+    ],
+    "bookPages": "229–229"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, header, and page furniture (book 229)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n229\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Bioavailability (F) — the definition block (IV F = 100%; oral F typically <100% from incomplete absorption AND first-pass metabolism; computed from the area under the curve) plus the formula and the AUC plot's curve and axis labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Bioavailability (F)\n\nFraction of administered drug\nreaching systemic circulation.\nFor an IV dose, F = 100%.\nOrally: F typically <100% due to\nincomplete absorption and first-pass\nx100\nmetabolism. Can be calculated\nfrom the area under the curve in\na plot of plasma concentration\nover time.\n\nPlasma concentration\n\nPharmacokinetics\n\nF=\n\n[AUCoral x DoseIV]\n[Doseoral x AUCIV]\n\nAUCIV\n\nAUCOral\nTime",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Volume of distribution (Vd) — the definition block with the liver/kidney-disease rule (↓ protein binding, ↑ Vd), the multi-compartment note, the hemodialysis-low-Vd rule, and the formula stem",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Volume of distribution\n(Vd)\n\nTheoretical value that relates drug amount to plasma concentration. Liver and kidney disease\nincrease Vd (↓ protein binding, ↑ Vd). Drugs may be distributed in more than one compartment.\nHemodialysis is most effective for drugs with a low Vd.\nVd =",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vd compartment table — the Vd/COMPARTMENT/DRUG TYPES header and all three rows verbatim (Low/intravascular/large-charged + plasma protein bound; Medium/ECF/small hydrophilic; High/all tissues including fat/small lipophilic esp tissue-protein bound). Raw text-layer quirk: the Clearance (CL) heading (line 44) interleaves between the Vd formula stem and the table's Vd header cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Vd\n\nCOMPARTMENT\n\nDRUG TYPES\n\nLow\n\nIntravascular\n\nLarge/charged molecules; plasma protein bound\n\nMedium\n\nECF\n\nSmall hydrophilic molecules\n\nHigh\n\nAll tissues including\nfat\n\nSmall lipophilic molecules, especially if bound\nto tissue protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Clearance (CL) — the definition (volume of plasma cleared of drug per unit time; impaired with cardiac, hepatic, or renal defects) plus the formula (rate of elimination / plasma concentration = Vd × Ke). Raw text-layer quirk: the Half-life (t1/2) heading (line 76) and the footer slug FAS1_2026_05-Pharmacology.indd 229 (line 78) interleave between the CL stem and its fraction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "The volume of plasma cleared of drug per unit time. Clearance may be impaired with defects in\ncardiac, hepatic, or renal function.\nCL =\n\nHalf-life (t1/2)\n\nFAS1_2026_05-Pharmacology.indd 229\n\nrate of elimination of drug\n= Vd × Ke (elimination constant)\nplasma drug concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Half-life (t1/2) — the definition (time to eliminate 1/2 of the drug), the steady-state block (dynamic equilibrium, elimination = administration; 4-5 half-lives to steady state, 3.3 half-lives to 90%), and the formula (0.7 × Vd / CL in first-order elimination). Raw text-layer quirk: the Age-related changes in pharmacokinetics heading (lines 91-92) interleaves above the fraction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "The time required to eliminate 1/2 of the drug from the body.\nSteady state is a dynamic equilibrium in which drug concentration stays constant (ie, rate of drug\nelimination = rate of drug administration).\nIn first-order kinetics, a drug infused at a constant rate takes 4-5 half-lives to reach steady state. It\ntakes 3.3 half-lives to reach 90% of the steady-state level.\nt1/2 =\n\nAge-related changes\nin pharmacokinetics\n\namount of drug in the body\nplasma drug concentration\n\n0.7 × Vd\nin first-order elimination\nCL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The half-lives-vs-percent-remaining table — all four columns verbatim (1→50%, 2→25%, 3→12.5%, 4→6.25%)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "# of half-lives\n\n1\n\n2\n\n3\n\n4\n\n% remaining\n\n50%\n\n25%\n\n12.5%\n\n6.25%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Age-related changes in pharmacokinetics — the intro (standard doses → ↑ plasma concentrations; older patients often require reduced doses to prevent toxicity) plus all four ▘ bullets verbatim (Absorption mostly unaffected; Distribution ↓TBW/↑fat; Metabolism ↓hepatic mass and blood flow with phase I decreased and phase II relatively preserved; Excretion ↓renal mass and blood flow, ↓GFR)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "Aging alters the passage of drugs through the body and standard doses can result in ↑ plasma\nconcentrations. Older patients often require reduced doses to prevent toxicity.\n▘ Absorption—mostly unaffected.\n▘ Distribution—↓ total body water (↓ Vd of hydrophilic drugs → ↑ concentration), ↑ total body fat\n(↑ Vd of lipophilic drugs → ↑ half-life).\n▘ Metabolism—↓ hepatic mass and blood flow → ↓ first-pass metabolism, ↓ hepatic clearance.\nPhase I of drug metabolism is decreased; phase II is relatively preserved.\n▘ Excretion—↓ renal mass and blood flow (↓ GFR) → ↓ renal clearance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the timestamp (the indd slug FAS1_2026_05-Pharmacology.indd 229 prints at raw line 78, carried inside the Clearance quote above)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pk-parameters-map"
+  ],
+  "mechanismIds": [
+    "pk-parameter-trio-map",
+    "aging-pk-shift-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the parameter definitions and the aging bullets only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "linked-parameter-system",
+      "summary": "The F→Vd→CL→t1/2 chain read as ONE linked system (route gates the fraction, the arriving amount dissolves into the space, CL = Vd × Ke compounds space with speed, and the clock t1/2 = 0.7 × Vd / CL schedules everything) — KYP's synthesis of the page's four separate blocks into one map.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four parameters as separate entries; the chain framing, the gate metaphor, and the map structure are KYP's design.",
+      "location": "core.keyIdea + mechanisms[0] pk-parameter-trio-map + blocks[4] the steps block + the registry visual's linked layout"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (FRACTION, SPACE, SPEED, CLOCK / CHARGED STAYS IN THE PIPE, WET WALKS THE BATH, FAT BOARDS EVERY DECK / HALVE FOUR TIMES, 6.25 SURVIVES; 3.3 TO NINETY, FIVE TO FULL / GUT UNCHANGED, WATER DOWN, FAT UP, LIVER SLOW, KIDNEY SLOW) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 229 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the registry visual's ladder footers + rapidReview.m3"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The elderly-lithium miniCase (a hydrophilic drug with rising levels and pinned-normal renal function — which PK parameter shifted and why) — a KYP-authored integration of the aging distribution bullet against its metabolism/excretion distractors.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the four aging bullets separately and never asks the learner to pick the parameter a vignette moved; the vignette, the four distractors, and the pinned-CrCl near-miss design are KYP's.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [],
+  "notes": "Census (pdfimages + VLM, ph2-vlm-census.ts): ZERO raster images on pdf 251 / book 229 — pure text plus small VECTOR formula/figure elements (the F formula with its AUC plot thumbnail, the Vd/CL/t1/2 fraction formulas, the half-lives-vs-%-remaining table); the VLM confirmed every block, both tables, the two-curve AUC thumbnail (AUCIV above AUCOral), and NO photographs, margin notes, or mnemonics. Quirks, documented: (1) the raw pdftotext layer interleaves blocks — the Clearance (CL) heading falls between the Vd formula stem and the compartment table's Vd header cell, and the Half-life (t1/2) heading plus the footer slug FAS1_2026_05-Pharmacology.indd 229 fall between the CL stem and its fraction — the quotes are pinned to exact contiguous raw line ranges and the interleaves are named in their claims; (2) the page's book-page offset (pdf 251 = book 229) matches BOOK_PARTS[1].bookPageOffset -22; (3) outputs are STAGED under .usmle-pipeline-cache/staging-ph2/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, the visual registry, and notes/index.ts are owned by the promotion step; the note's visualId 'pk-parameters-map' is therefore not yet in visuals/registry.tsx by design). Difficulty matches the chapter inventory (2) with all difficulty-2 floors exceeded (4 patterns, 4 traps, 3 pivots, 11 recall, 5 related, 4 crossLinks).",
+  "updatedAt": "2026-11-19"
+}

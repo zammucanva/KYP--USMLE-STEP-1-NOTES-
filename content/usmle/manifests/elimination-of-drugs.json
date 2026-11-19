@@ -1,0 +1,223 @@
+{
+  "topicId": "elimination-of-drugs",
+  "title": "Elimination of Drugs: Zero & First Order",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      252
+    ],
+    "bookPages": "230–230"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The topic heading and the zero-order column head — Elimination of drugs / Zero-order elimination (book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Elimination of drugs\nZero-order\nelimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zero-order elimination — rate of elimination is constant regardless of Cp (constant amount of drug eliminated per unit time); Cp ↓ linearly with time; examples Phenytoin, Ethanol, and Aspirin (at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Rate of elimination is constant regardless of Cp\n(ie, constant amount of drug eliminated per\nunit time). Cp ↓ linearly with time. Examples\nof drugs—Phenytoin, Ethanol, and Aspirin\n(at high or toxic concentrations → ↑ salicylate\nsaturation → zero-order elimination).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Zero-order is capacity-limited elimination, with the source's own margin mnemonic “A PEA is round, shaped like the “0” in zeroorder.” (P·E·A = Phenytoin, Ethanol, Aspirin) carried verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Capacity-limited elimination.\nA PEA is round, shaped like the “0” in zeroorder.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "First-order elimination — rate directly proportional to the drug concentration (constant fraction of drug eliminated per unit time); Cp ↓ exponentially with time; applies to most drugs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "First-order elimination\n\nRate of first-order elimination is directly\nproportional to the drug concentration (ie,\nconstant fraction of drug eliminated per unit\ntime). Cp ↓ exponentially with time. Applies to\nmost drugs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "First-order is flow-dependent elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Flow-dependent elimination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two elimination-curve figure titles — Zero-order elimination / First-order elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Zero-order elimination\n\nFirst-order elimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order curve labels — constant 2 U/h slope chips, the half-life bracket chain First t1/2 > Second t1/2 > Third t1/2 (each successive interval SHORTER as concentration falls), and the Time (h) axis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "2 U/h\nFirst t1/2 >\n\n2 U/h\nSecond t1/2 >\nThird t1/2\n\nTime (h)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug — FAS1_2026_05-Pharmacology.indd 230 (page identity, book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 230",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order figure's y-axis label and half-life annotation — Drug plasma concentration ↑; the time of t1/2 ↑ as concentration ↑ (no single half-life exists)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Drug plasma concentration\n\n↑\n\nTime of t1/2 as\nconcentration\n\n↑",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order curve labels — Drug plasma concentration; Elimination rate (=slope) chips 4 → 2 → 1 → 0.5 U/h (the slope halves as the concentration halves); the annotation Time of t1/2 is constant as concentration ↑; the equal-bracket labels First t1/2 = Second t1/2 = Third t1/2; the Time (h) axis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Drug plasma concentration\n\n2 U/h\n\nElimination rate (=slope)\n4 U/h\nTime of t1/2 is constant\nas concentration\n↑\n\nElimination rate (=slope)\n\n2 U/h\nFirst t1/2 =\n\n1 U/h\nSecond t1/2 =\n\n0.5 U/h\nThird t1/2\n\nTime (h)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "elimination-kinetics-map"
+  ],
+  "mechanismIds": [
+    "capacity-saturation-map",
+    "slope-reading-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four original KYP mnemonics (ZERO = AMOUNT, FIRST = FRACTION / STUCK RATE, STRAIGHT LINE / ZERO'S HALF-LIFE WANDERS, FIRST'S HALF-LIFE HOLDS / FLOOD THE ENZYME, FLATTEN THE LINE). The source's own margin mnemonic — “A PEA is round, shaped like the “0” in zero-order.” — is carried VERBATIM with attribution (it is NOT counted among the four KYP codes).",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints exactly one mnemonic (A PEA, the zero-order example list); the four ALL-CAPS rate-rule, curve-shape, half-life-signature, and saturation-crossover codes are KYP's design.",
+      "location": "mnemonics + blocks[4] the mnemonic-provenance callout + the visual's panel markers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The dual-signature miniCase — a salicylate overdose whose serial levels fall by a fixed AMOUNT every 2 h with an 18-hour apparent half-life, paired with a phenytoin 10%-dose-increase trap (trough more than doubles, nystagmus/ataxia) — one saturated mechanism, two faces.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the two columns and the figures but never integrates them into a numeric overdose-vs-titration vignette; the fixed-amount arithmetic, the 18-h vs 2–4-h half-life contrast, and the four distractors (first-order misread, flow-dependent misfile, protein-binding conflation, invented CYP inhibition) are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "slope-reading-layer",
+      "summary": "The slope-chip reading protocol (CHIP TEST → LINE TEST → BRACKET TEST → TAG TEST → CROSSOVER TEST) and the saturation-crossover framing (rate = Vmax·Cp/(Km + Cp): below Km first-order, above Km zero-order) — KYP's synthesis of the two figures and the two mechanism tags into one protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two figures side by side with interleaved text-layer labels; the five-gate reading order, the fork banner (constant AMOUNT vs constant FRACTION), and the Michaelis–Menten bridge are KYP's design.",
+      "location": "blocks[2] the steps block + mechanisms[1] slope-reading-map + the registry visual"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot attack structure layered over the source facts — 5 patterns (linear salicylate fall, fixed-rate ethanol, flow-dependent high-extraction, phenytoin titration jump, figure reading), 5 traps (constant amount vs fraction, linear vs exponential, the bracket symbols, capacity-limited vs flow-dependent, aspirin's dose-range qualifier), 3 pivots.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two definitions, the tags, the examples, and the figure labels only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 252 / book 230 carries two subsections — Drug metabolism (top half, sibling topic drug-metabolism) and Elimination of drugs (bottom half, this topic); only the elimination block's contiguous lines (part1.txt page-252 lines 49-118) are quoted, and the interleaved figure labels are quoted in physical order as the text layer prints them. PEA PROVENANCE: “A PEA is round, shaped like the “0” in zero-order.” is First Aid's own margin mnemonic (book 230, printed in the margin directly under “Capacity-limited elimination.” — VLM: red bold PEA/“0”/“zero-”); it is carried verbatim with attribution and is not counted among the four original KYP mnemonics. FIGURE-DIRECTION DECISION (documented): the production brief's glosses said the zero-order half-life 'LENGTHENS as concentration falls' / 'each successive half-life interval is LONGER' — the literal printed chain 'First t1/2 > Second t1/2 > Third t1/2' means each successive interval is SHORTER down the curve (at a constant 2 U/h, 16→8 takes 4 h, 8→4 takes 2 h, 4→2 takes 1 h), matching the zero-order annotation 'Time of t1/2 ↑ as concentration ↑', the VLM bracket reading ('the FIRST half-life interval, at the highest concentration, is drawn longest'), and standard pharmacokinetics; the note ships the correct reading (half-life lengthens as concentration RISES). A second focused VLM pass disagreed on the small arrow glyphs (a known VLM limitation) — the text layer (which preserves ↑/↓ and the > / = symbols verbatim) was treated as authoritative. Census (pdfimages + VLM, scripts/usmle-pipeline/ph4-vlm-census.ts): ZERO rasters; two VECTOR figures redrawn as original KYP art. Quirks, documented: (1) part1.txt page-252 line N = ph1-p252.txt line N+1 (the pre-extracted file's banner line); (2) the text-layer line-wrap renders the PEA line's trailing word 'zeroorder.' (hyphen at the print line break) — the note carries it as printed, 'zero-order'; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-ph4/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, and the visual registry are owned by the promotion step; the note's visualId 'elimination-kinetics-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-19"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-19T13:19:25Z",
+  "generatedAt": "2026-11-19T13:41:05Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 145,
+    "topicsProduced": 150,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 90,
+      "pilot-complete": 95,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 29,
-      "topicsProduced": 1,
-      "topicsRemaining": 28,
+      "topicsProduced": 6,
+      "topicsRemaining": 23,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1164,6 +1164,36 @@
       "updatedAt": "2026-10-21"
     },
     {
+      "topicId": "drug-metabolism",
+      "title": "Drug Metabolism: Phase I & Phase II",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 252 (book 230–230)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "elimination-of-drugs",
+      "title": "Elimination of Drugs: Zero & First Order",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 252 (book 230–230)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
+    {
       "topicId": "enteric-pathogens",
       "title": "Enteric Pathogens: Salmonella, Shigella, E. coli Strains & Campylobacter",
       "chapterId": "microbiology",
@@ -1177,6 +1207,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-20"
+    },
+    {
+      "topicId": "enzyme-kinetics",
+      "title": "Enzyme Kinetics",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 250 (book 228–228)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
     },
     {
       "topicId": "enzyme-terminology",
@@ -2094,6 +2139,21 @@
       "updatedAt": "2026-10-10"
     },
     {
+      "topicId": "pharmacokinetics-aging",
+      "title": "Pharmacokinetic Parameters & Age-Related Changes",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 251 (book 229–229)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
+    {
       "topicId": "protein-synthesis-inhibitors",
       "title": "Protein Synthesis Inhibitors: 30S, 50S & Beyond",
       "chapterId": "microbiology",
@@ -2437,6 +2497,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "urine-ph-dosage",
+      "title": "Urine pH, Ion Trapping & Dosage Calculations",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 253 (book 231–231)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
     },
     {
       "topicId": "viral-structure-genetics",

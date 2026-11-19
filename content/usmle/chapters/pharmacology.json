@@ -13,7 +13,7 @@
   ],
   "bookPages": "227–254",
   "extractionStatus": "extracted",
-  "pendingTopicCount": 28,
+  "pendingTopicCount": 23,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -86,8 +86,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Km/Vmax with competitive vs noncompetitive inhibition (the Lineweaver-Burk and Michaelis-Mencken figure labels) — the quantitative foundation every PK/PD and pharmacology exam question builds on."
+      "status": "complete",
+      "productionRationale": "Km/Vmax with competitive vs noncompetitive inhibition (the Lineweaver-Burk and Michaelis-Mencken figure labels) — the quantitative foundation every PK/PD and pharmacology exam question builds on.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The effects-of-enzyme-inhibition table (book 228): 3 columns (Competitive inhibitors, reversible / Competitive inhibitors, irreversible / Noncompetitive inhibitors) x 6 rows in printed order (Resemble substrate Yes/Yes/No; Overcome by ↑ [S] Yes/No/No; Bind site Active/Active/Allosteric; Effect on Vmax Unchanged/↓/↓; Effect on Km ↑/Unchanged/Unchanged; Pharmacodynamics ↓ potency/↓ efficacy/↓ efficacy)",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): the complete inhibition table as printed, with the source's own red typo 'Kompetitive inhibitors increase K m.' printing in the left column directly beneath the crossing rule; the table's header and first two rows physically interleave with the figure clusters in the text layer (raw 89-101 and 155-188), the lower four rows stream clean (raw 190-220).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Panel 4 of the registry visual (EnzymeKineticsMap in visuals/pharm-p1.tsx — the table re-set as KYP table art with the Pharmacodynamics row highlighted) + blocks[1] the table block carried verbatim in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The four curve panels (book 228): the single Michaelis-Menten hyperbola (Velocity V vs [S], dashed 1/2 Vmax meeting the curve at Km, 'Km = [S] at 1/2 Vmax', Saturation) and the single Lineweaver-Burk line (1/V vs 1/[S], Y-intercept 1/Vmax, X-intercept −1/Km, slope = Km/Vmax), plus the two 'Effects of enzyme inhibition' overlays (Michaelis-Menten axes and Lineweaver-Burk axes) each carrying Uninhibited / Competitive inhibitor (reversible) / Noncompetitive inhibitor",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; VLM confirmed): four curve panels printed as vector line art whose labels interleave in the text layer at the batch's densest — 'VmaxVmax', 'CompetitiveK inhibitor = [S] at 1/2(reversible)', '− Km 1⁄2 V1/2 Vmax', 'Km Km Substrate [S]', the axis labels 1/V and 1/[S] repeated across panels, and the reading rules ('The closer to 0 on the Y-axis, the higher the Vmax.', 'The closer to 0 on the X-axis, the higher the K m.', 'The higher the K m, the lower the affinity.', 'Reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not.') printed beneath the plots.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Panels 1-3 of the registry visual (EnzymeKineticsMap in visuals/pharm-p1.tsx — the hyperbola and the double-reciprocal lines recomputed on original KYP axes with the three-inhibitor overlays, plus the four reading rules as verbatim rule cards and the Kompetitive-typo strip)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "pharmacokinetics-aging",
@@ -110,8 +166,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Bioavailability F with the AUC formula, volume of distribution Vd with the compartment table, clearance, half-life — plus the age-related changes (pediatric and geriatric PK). The parameter trio every dosing question turns on."
+      "status": "complete",
+      "productionRationale": "Bioavailability F with the AUC formula, volume of distribution Vd with the compartment table, clearance, half-life — plus the age-related changes (pediatric and geriatric PK). The parameter trio every dosing question turns on.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics-aging",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-aging-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Vd COMPARTMENT/DRUG TYPES table and the # of half-lives vs % remaining table (book 229)",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): two printed tables — (1) the Vd compartment table, header Vd | COMPARTMENT | DRUG TYPES, rows Low/Intravascular/Large-charged molecules + plasma protein bound, Medium/ECF/Small hydrophilic molecules, High/All tissues including fat/Small lipophilic molecules especially if bound to tissue protein; (2) the half-lives-vs-percent-remaining table, # of half-lives 1 2 3 4 vs % remaining 50% 25% 12.5% 6.25%.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pk-parameters-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the three-compartment ladder + the halving-ladder panels of PkParametersMap in visuals/pharm-p2.tsx) + blocks[1] and blocks[2], the two table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pk-parameters-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics-aging",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-aging-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The bioavailability F formula with its AUCoral/AUCIV plasma-concentration-vs-time plot thumbnail (book 229)",
+          "sourceFigureDescription": "SMALL VECTOR SUMMARY FIGURE (pdfimages: zero raster images; VLM confirmed line art, not a photograph): the bioavailability formula F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100 beside a two-curve concentration-time thumbnail — a higher AUCIV curve and a lower AUCOral curve over a Time axis, y-axis Plasma concentration — illustrating that F is computed from the area under the curve.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "pk-parameters-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the F panel of the registry visual (the AUC thumbnail redrawn with both curves and axis labels, plus the formula — PkParametersMap in visuals/pharm-p2.tsx)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pk-parameters-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "drug-metabolism",
@@ -133,8 +245,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Phase I (CYP450 oxidation/reduction/hydrolysis) vs phase II (conjugation) metabolism with the key inducers and inhibitors — shared page 252 with elimination-of-drugs, distinct subsections (the p196 shared-page convention)."
+      "status": "complete",
+      "productionRationale": "Phase I (CYP450 oxidation/reduction/hydrolysis) vs phase II (conjugation) metabolism with the key inducers and inhibitors — shared page 252 with elimination-of-drugs, distinct subsections (the p196 shared-page convention).",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "BIOCHEMICAL_PATHWAY",
+          "visualPurpose": "The phase I/II metabolism flow figure (book 230, top half)",
+          "sourceFigureDescription": "VECTOR FLOW FIGURE (pdfimages: zero raster images; VLM confirmed on ph3-vlm-census.ts): Lipophilic drugs → Phase I (predominantly CYP450-dependent) with the three reaction chutes Reduction / Oxidation / Hydrolysis → Slightly polar metabolite (active or inactive) + Reactive oxygen metabolites (label printed twice — at the phase I output and beside the phase II header) → Phase II with the four conjugation chutes Methylation / Acetylation / Glucuronidation / Sulfation → Very polar, hydrophilic metabolite (except acetylated metabolite) → Excretion: Serum (urine, sweat), bile (stool); the figure's second input, Polar drugs (water-soluble), bypasses phase I and feeds phase II directly. No margin notes or mnemonics.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "metabolism-phase-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (MetabolismPhaseMap in visuals/pharm-p3.tsx — the pipeline zone with the input chips, bypass lane, CYP450 reactor, reactive-oxygen flag, conjugation station, except-acetylated chip, and excretion terminal) + blocks[2] the steps block distilling the same pipeline; the printed labels are also carried verbatim in blocks[1] the table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "metabolism-phase-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The metabolism rules text block — the either/both + non-sequential intro rule, the geriatric rule, and the slow-acetylator rule (book 230, top half)",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): 'Drugs can be metabolized by either or both phase I and phase II reactions. These reactions serve to bioactivate or deactivate substances, and do not have to take place sequentially (eg, phase I can follow phase II, or take place as a single reaction). Geriatric patients lose phase I first. Patients who are slow acetylators have ↑ adverse effects from certain drugs because of ↓ rate of metabolism (eg, isoniazid).' No margin notes or mnemonics.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "metabolism-phase-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's two clinical-rule cards (GERIATRIC RULE / SLOW-ACETYLATOR RULE) + the FORKS-NOT-A-LADDER banner and the phase I vs phase II comparison strip, with the rules also carried verbatim in the note's table block (rows INPUTS and PHASE I/II), core.what, and recall[0-2]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "metabolism-phase-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "elimination-of-drugs",
@@ -156,8 +324,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Zero-order (capacity-limited, constant amount: ethanol, aspirin, phenytoin at therapeutic doses) vs first-order (constant fraction) elimination, the PEA/amount-over-time figure and the steady-state/half-life rules. Shared page 252 with drug-metabolism, distinct subsections."
+      "status": "complete",
+      "productionRationale": "Zero-order (capacity-limited, constant amount: ethanol, aspirin, phenytoin at therapeutic doses) vs first-order (constant fraction) elimination, the PEA/amount-over-time figure and the steady-state/half-life rules. Shared page 252 with drug-metabolism, distinct subsections.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two-column zero-order / first-order elimination text block (book 230)",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): the two-column elimination block — Zero-order elimination [Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time); Cp ↓ linearly with time; Examples of drugs—Phenytoin, Ethanol, and Aspirin (at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination); Capacity-limited elimination.; margin mnemonic “A PEA is round, shaped like the “0” in zeroorder.”] vs First-order elimination [Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time); Cp ↓ exponentially with time; Applies to most drugs.; Flow-dependent elimination.].",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "elimination-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's fork banner + mirror panel headers/markers (EliminationKineticsMap in visuals/pharm-p4.tsx) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The two vector elimination-curve figures (book 230): zero-order (constant 2 U/h, shrinking t1/2 brackets) and first-order (halving 4→2→1→0.5 U/h slopes, equal t1/2 brackets)",
+          "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: zero raster images; labels read via the pdftotext text layer + VLM): FIGURE 1, Zero-order elimination — y-axis 'Drug plasma concentration ↑', x-axis 'Time (h)', a STRAIGHT declining line with constant slope chips '2 U/h' and an 'Elimination rate (=slope)' label, half-life brackets 'First t1/2 > Second t1/2 > Third t1/2' (VLM: the FIRST bracket, at the highest concentration, is drawn longest), annotation 'Time of t1/2 ↑ as concentration ↑'. FIGURE 2, First-order elimination — same axes, an EXPONENTIAL decay curve whose 'Elimination rate (=slope)' chips halve 4 U/h → 2 U/h → 1 U/h → 0.5 U/h, equal brackets 'First t1/2 = Second t1/2 = Third t1/2', annotation 'Time of t1/2 is constant as concentration ↑'.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "elimination-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's two mirror panels (the straight line with 2 U/h chips and shrinking First>Second>Third brackets; the exponential curve with 4→2→1→0.5 U/h chips and equal First=Second=Third brackets) plus the saturation-crossover panel (EliminationKineticsMap in visuals/pharm-p4.tsx)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "urine-ph-dosage",
@@ -180,8 +404,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Weak acid/base ion trapping in urine (the aspirin overdose bicarbonate rule) + loading dose vs maintenance dose calculations with the Cp target equations."
+      "status": "complete",
+      "productionRationale": "Weak acid/base ion trapping in urine (the aspirin overdose bicarbonate rule) + loading dose vs maintenance dose calculations with the Cp target equations.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-dosage",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-dosage-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Urine pH and drug elimination text/equations block + the Dosage calculations block (book 231)",
+          "sourceFigureDescription": "PURE TEXT + TYPESET EQUATIONS (pdfimages: zero raster images; VLM confirmed): the rule 'Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.'; the weak-acid block (RCOOH (lipid soluble) ↔ RCOO– + H+ (trapped); examples phenobarbital, methotrexate, aspirin (salicylates); treat overdose with sodium bicarbonate to alkalinize urine); the weak-base block (RNH3+ (trapped) ↔ RNH2 + H+ (lipid soluble); examples TCAs, amphetamines; trapped in acidic environments; for severe alkalosis treat with ammonium chloride to acidify urine); the pKa definition (pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized; represents the strength of the weak acid or base); the TCA rule (sodium bicarbonate to overcome the sodium channel-blocking activity — treats cardiac toxicity, does not accelerate drug elimination); and the dosage block (Loading dose = Cp × Vd / F; Maintenance dose = Cp × CL × τ / F; Cp = target plasma concentration; τ = dosage interval, does not apply for continuous infusions; renal/liver disease → maintenance dose ↓, loading dose usually unchanged; time to steady state depends primarily on t1/2, independent of dose and dosing frequency).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "urine-ph-trapping-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (Band 1 the tubular trapping map with the blood strip, the two equilibrium cards, and the NaHCO3/NH4Cl treatment arrows; Band 3 the TCA exception card with the renal-vs-cardiac contrast chips; Band 4 the dosage panel — UrinePhTrappingMap in visuals/pharm-p5.tsx) + blocks[1] and blocks[5] the table blocks carried verbatim + blocks[2] the compare block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-trapping-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-dosage",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-dosage-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The ionization-vs-pH curve — the vector figure on book 231",
+          "sourceFigureDescription": "The ONE vector figure on the page (zero rasters; VLM confirmed the topology): a graph titled 'Ionized species formation (%)' with a y-axis 0-100 (ticks 0, 50, 100) against an x-axis 'pH' running 4-14 (ticks 4, 8, 12, 14); two S-shaped curves labeled 'Weak acid' (rising to the right — more ionized at high pH) and 'Weak base' (falling to the right — more ionized at low pH) crossing at the 50% level near pH 9-10, with dashed horizontal (50%) and vertical (crossing-pH) guide lines; the annotation 'pKa: 9.2' sits below the x-axis near the crossing, flanked by the margin notes 'pKa = more acidic' (toward low pH) and 'pKa = more basic' (toward high pH) with arrows. REDRAWN as an original KYP figure — not reproduced.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "urine-ph-trapping-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (Band 2 — the curve redrawn with original KYP axes: the weak-acid and weak-base sigmoids, the 50% crossing marked at pH = pKa, the pKa 9.2 example marker, the more-acidic/more-basic annotations, and the reading-rules card) + blocks[1] the figure row of the table block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-trapping-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "efficacy-potency",

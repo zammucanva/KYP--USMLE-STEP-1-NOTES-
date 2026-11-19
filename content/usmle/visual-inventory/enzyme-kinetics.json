@@ -1,0 +1,73 @@
+{
+  "topicId": "enzyme-kinetics",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The effects-of-enzyme-inhibition table (book 228): 3 columns (Competitive inhibitors, reversible / Competitive inhibitors, irreversible / Noncompetitive inhibitors) x 6 rows in printed order (Resemble substrate Yes/Yes/No; Overcome by ↑ [S] Yes/No/No; Bind site Active/Active/Allosteric; Effect on Vmax Unchanged/↓/↓; Effect on Km ↑/Unchanged/Unchanged; Pharmacodynamics ↓ potency/↓ efficacy/↓ efficacy)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): the complete inhibition table as printed, with the source's own red typo 'Kompetitive inhibitors increase K m.' printing in the left column directly beneath the crossing rule; the table's header and first two rows physically interleave with the figure clusters in the text layer (raw 89-101 and 155-188), the lower four rows stream clean (raw 190-220).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Panel 4 of the registry visual (EnzymeKineticsMap in visuals/pharm-p1.tsx — the table re-set as KYP table art with the Pharmacodynamics row highlighted) + blocks[1] the table block carried verbatim in the note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "enzyme-kinetics",
+      "requiredInKYP": true,
+      "visualId": "enzyme-kinetics-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The four curve panels (book 228): the single Michaelis-Menten hyperbola (Velocity V vs [S], dashed 1/2 Vmax meeting the curve at Km, 'Km = [S] at 1/2 Vmax', Saturation) and the single Lineweaver-Burk line (1/V vs 1/[S], Y-intercept 1/Vmax, X-intercept −1/Km, slope = Km/Vmax), plus the two 'Effects of enzyme inhibition' overlays (Michaelis-Menten axes and Lineweaver-Burk axes) each carrying Uninhibited / Competitive inhibitor (reversible) / Noncompetitive inhibitor",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; VLM confirmed): four curve panels printed as vector line art whose labels interleave in the text layer at the batch's densest — 'VmaxVmax', 'CompetitiveK inhibitor = [S] at 1/2(reversible)', '− Km 1⁄2 V1/2 Vmax', 'Km Km Substrate [S]', the axis labels 1/V and 1/[S] repeated across panels, and the reading rules ('The closer to 0 on the Y-axis, the higher the Vmax.', 'The closer to 0 on the X-axis, the higher the K m.', 'The higher the K m, the lower the affinity.', 'Reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not.') printed beneath the plots.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "enzyme-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Panels 1-3 of the registry visual (EnzymeKineticsMap in visuals/pharm-p1.tsx — the hyperbola and the double-reciprocal lines recomputed on original KYP axes with the three-inhibitor overlays, plus the four reading rules as verbatim rule cards and the Kompetitive-typo strip)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "enzyme-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "enzyme-kinetics",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's two visual assets are its four VECTOR curve panels (redrawn as ORIGINAL KYP art — the hyperbola and double-reciprocal lines recomputed from the Michaelis-Menten equation on original KYP axes) and its pure-text inhibition table (carried verbatim in the note's table block and re-set as KYP table art in the registry visual); nothing is reproduced. Census: zero raster images (pdfimages) and no margin mnemonics (VLM confirmed on scripts/usmle-pipeline/ph1-vlm-census.ts); the source's own 'Kompetitive inhibitors increase K m.' typo prints in red in the left column and is carried verbatim. STAGED under .usmle-pipeline-cache/staging-ph1/ — promotion into content/ is owned downstream."
+}

@@ -1,0 +1,250 @@
+{
+  "topicId": "enzyme-kinetics",
+  "title": "Enzyme Kinetics",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      250
+    ],
+    "bookPages": "228–228"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, headers, and topic heading (book 228)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "228\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\nEnzyme kinetics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Km definition + Vmax + hyperbolic-vs-sigmoidal block — the raw 105-139 region, where the left-column paragraph (Km is the substrate concentration needed for an enzyme to reach a rate of 1/2 Vmax, inversely related to affinity; Vmax directly proportional to enzyme concentration; hyperbolic = Michaelis-Menten kinetics, sigmoidal = positive cooperativity, eg, aspartate transcarbamoylase) physically interleaves with the figure annotation 'Km = [S] at 1/2 Vmax', the 'Effects of enzyme inhibition' title, the reading rules, and the 1/Vmax / −Km axis labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Km = [S] at 1/2 Vmax\n\n1\n[S]\nKm Substrate [S]\n\nEffects of enzyme inhibition\n\nThe closer to 0 on the Y-axis, the higher the\nVmax.\nThe closer to 0 on the X-axis, the higher the K m.\nThe higher the K m, the lower the affinity.\nReversible competitive inhibitors cross each\nother, whereas noncompetitive inhibitors do\nnot.\n\n1\nVmax\n−\nKm\n\nVelocity (V)\n\nK m is the substrate concentration needed for\nan enzyme to reach a rate of 1/2 Vmax and is\ninversely related to the affinity of the enzyme\nfor its substrate.\nVmax is directly proportional to the enzyme\nconcentration.\nMost enzymatic reactions follow a hyperbolic\ncurve (ie, Michaelis-Menten kinetics);\nhowever, enzymatic reactions that exhibit\na sigmoidal curve usually indicate positive\ncooperativity in substrate binding (eg,\naspartate transcarbamoylase).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four Lineweaver-Burk reading rules, verbatim — Y-axis 0-proximity (higher Vmax), X-axis 0-proximity (higher Km), the Km-affinity inverse, and the crossing rule (reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "The closer to 0 on the Y-axis, the higher the\nVmax.\nThe closer to 0 on the X-axis, the higher the K m.\nThe higher the K m, the lower the affinity.\nReversible competitive inhibitors cross each\nother, whereas noncompetitive inhibitors do\nnot.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 1 of 3 — the top curve panels (the single Michaelis-Menten hyperbola + the single Lineweaver-Burk line): '1/2 Vmax', '1/Vmax', the doubled 'VmaxVmax', the stacked '− Km' X-intercept, 'Uninhibited', 'Saturation' twice, 'slope = Km/Vmax' (stacked), and the densest interleave on the page — 'CompetitiveK inhibitor' fused with '= [S] at 1/2(reversible)' (the Competitive inhibitor (reversible) curve label fused with the Km = [S] at 1/2 Vmax annotation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Lineweaver-Burk plot\n\n1/2 Vmax\n\n1\nVmax\n\nVmaxVmax\n1\n− Km 1⁄2 V1/2 Vmax\nmax\n\nUninhibited\nSaturation\nSaturation\nK\nslope = m\nVmax\nCompetitiveK inhibitor\n= [S] at 1/2(reversible)\nV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 2 of 3 — the effects-of-inhibition overlay panels: 'Noncompetitive inhibitor', the doubled 'Km Km Substrate' X-axis labels, '[S]' three times, 'Uninhibited', 'Competitive inhibitor', 'slope = Km/Vmax', the paired 1/V Y-axis labels, and the '− Km' X-intercept",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Noncompetitive inhibitor\n\n1\n[S]\nKm Km Substrate\n[S]\n[S]\n\nNoncompetitive inhibitor\nUninhibited\nCompetitive inhibitor\nK\nslope = m\nUninhibited\n\n1 1\nV V\n1\n− Km",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 3 of 3 — the second 'Effects of enzyme inhibition' title with its three line labels ('Noncompetitive inhibitor', 'Competitive inhibitor', 'Uninhibited', 'Competitive inhibitor (reversible)' wrapped across three lines) plus the 1/Vmax Y-intercepts and the paired 1/V axes and 1/[S] X-axis labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Vmax\n\n1\nVmax\n\n1\n1\n[S]\n[S]\n\nEffects of enzyme inhibition\nNoncompetitive inhibitor\nCompetitive inhibitor\nNoncompetitive\ninhibitor\nUninhibited\ninhibitor (reversible)\nCompetitive\nUninhibited\n\n1\nV\n1\nV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition table, part 1 — the source's own printed typo 'Kompetitive inhibitors increase K m.' in its physical position (left column, beneath the crossing rule), fused with the table's first printed row and first column header: 'Resemble substrate' + 'Competitive / inhibitors, / reversible' + 'Yes', interleaved with the Lineweaver-Burk 'V' / '1' / '− Km' labels",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Kompetitive inhibitors increase K m.\n\nResemble substrate\n\nCompetitive\ninhibitors,\nreversible\nYes\n\nV\n\n1\n− Km",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition table, part 2 — the 'Overcome by ↑ [S]' row (Yes / No / No) and the column-2 and column-3 headers ('Competitive / inhibitors, / irreversible' + Yes; 'Noncompetitive / inhibitors' + No), interleaved with the Michaelis-Menten overlay labels ('1 Vmax', '[S]', 'Saturation', 'Competitive inhibitor (reversible)', '1⁄2 Vmax', 'Noncompetitive inhibitor', 'Km')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Overcome by ↑ [S]\n\nYes\n\nNo\n\n1\n\n1 Vmax\n[S]\n1\n[S]\n\nCompetitive\ninhibitors,\nirreversible\nVmax\nYes\n\nNoncompetitive\nSaturation\ninhibitors\nCompetitive\ninhibitor (reversible)\nNo\n\n1⁄2 Vmax\n\nNo\nNoncompetitive\ninhibitor\nKm\n\n[S]",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The inhibition table, part 3 — the clean lower block, verbatim: Bind site (Active / Active / Allosteric), Effect on Vmax (Unchanged / ↓ / ↓), Effect on Km (↑ / Unchanged / Unchanged)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Bind site\n\nActive\n\nActive\n\nAllosteric\n\nEffect on Vmax\n\nUnchanged\n\n↓\n\n↓\n\nEffect on Km\n\n↑\n\nUnchanged\n\nUnchanged",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pharmacodynamics row, verbatim — ↓ potency (Competitive inhibitors, reversible) / ↓ efficacy (Competitive inhibitors, irreversible) / ↓ efficacy (Noncompetitive inhibitors)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "Pharmacodynamics\n\n↓ potency\n\n↓ efficacy\n\n↓ efficacy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the indd slug (page identity, book 228; it prints mid-stream, interleaved between the table-header cluster and the Km-definition block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 228",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the timestamp at stream end (page identity, book 228)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "enzyme-kinetics-map"
+  ],
+  "mechanismIds": [
+    "km-affinity-map",
+    "crossing-lines-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definitions, the four reading rules, and the table only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-dials-reading",
+      "summary": "The two-dials reading protocol (Km = the affinity dial at [S] = 1/2 Vmax; Vmax = the capacity dial set by enzyme head-count; exactly ONE dial moves per inhibitor class) and the geometry decode of the Lineweaver-Burk intercepts (Y-intercept = 1/Vmax, X-intercept = −1/Km, slope = Km/Vmax) — KYP's synthesis of the page's definitions, rules, and table into one protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definitions, the rules, and the table as separate blocks and never states the one-dial-per-inhibitor invariant; the two-dials framing and the dial-routing pivot are KYP's design.",
+      "location": "core.keyIdea + mechanism km-affinity-map + the registry visual's panels + pivots"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (HALF-SPEED SUBSTRATE, HEAD-COUNT CEILING / HUG THE ZERO — Y-HUG LIFTS VMAX, X-HUG LIFTS KM / CROSSERS SHARE THE Y-AXIS; NONCROSSERS SHARE THE X-AXIS / COMPETITION BENDS POTENCY; EVICTION BREAKS EFFICACY) — no mnemonic prints on the page (VLM confirmed).",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 228 (VLM census confirmed; the only margin glyph is a small key icon beside two panels); the four codes are KYP's design.",
+      "location": "mnemonics + rapidReview.m3 + the visual's rule cards"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The allosteric-inhibitor miniCase (binding site distinct from the active site, no substrate homology, Vmax ↓ with Km unchanged, shared X-intercept, no crossing, doubling [S] restores nothing) with the irreversible-competitive near-miss distractor — the two table columns that are numerically identical separated only by Bind site and Resemble substrate.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the table columns side by side and never asks the learner to separate the identically-numbered Vmax-movers from binding data; the vignette and the four distractors are KYP's design.",
+      "location": "usmle.miniCase + traps"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [],
+  "notes": "Census (pdfimages + VLM, ph1-vlm-census.ts): ZERO raster images on pdf 250 / book 228 — FOUR VECTOR curve panels (VLM: the single Michaelis-Menten hyperbola with dashed 1/2 Vmax meeting the curve at Km, the 'Km = [S] at 1/2 Vmax' annotation and the Saturation arrow; the effects-of-inhibition Michaelis-Menten overlay with Uninhibited / Competitive inhibitor (reversible) / Noncompetitive inhibitor; the single Lineweaver-Burk line with Y-intercept 1/Vmax, X-intercept −1/Km and slope = Km/Vmax; the effects-of-inhibition Lineweaver-Burk overlay with the same three lines) plus the pure-text inhibition table; no margin mnemonics print (VLM: only a small key-icon glyph beside two panels). THE INTERLEAVE (documented, at the batch's densest): the text layer fuses labels across panels — 'VmaxVmax', 'CompetitiveK inhibitor' fused with '= [S] at 1/2(reversible)' (the Competitive inhibitor (reversible) curve label fused with the Km = [S] at 1/2 Vmax annotation), '− Km 1⁄2 V1/2 Vmax', 'Km Km Substrate [S]', and the table's header/first rows physically interleave with the figure clusters (raw 89-101, 155-188) while the lower four rows stream clean (raw 190-220). QUIRKS, documented: (1) the source's own printed typo — 'Kompetitive inhibitors increase K m.' — prints in red in the left column directly beneath the crossing rule ('Reversible competitive inhibitors cross each other, whereas noncompetitive inhibitors do not.') and above the Lineweaver-Burk inhibition panel and the table (VLM confirmed the capital K as printed); KYP carries it verbatim in the note's callout block and visual Panel 3. (2) TABLE ROW ORDER: the production spec assumed Bind site first, but both the VLM reading and a layout-preserved pdftotext pass confirm the printed order is Resemble substrate → Overcome by ↑ [S] → Bind site → Effect on Vmax → Effect on Km → Pharmacodynamics; the verbatim table block and the visual's Panel 4 carry the PRINTED order. (3) The indd footer slug (FAS1_2026_05-Pharmacology.indd 228) prints mid-stream (raw 103), not adjacent to the timestamp (raw 222), so the two print-line components are quoted as two contiguous-range entries. (4) Outputs are STAGED under .usmle-pipeline-cache/staging-ph1/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, and the visual registry are owned by the promotion step; the note's visualId 'enzyme-kinetics-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-19"
+}

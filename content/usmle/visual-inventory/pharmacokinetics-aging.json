@@ -1,0 +1,73 @@
+{
+  "topicId": "pharmacokinetics-aging",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "pharmacokinetics-aging",
+      "requiredInKYP": true,
+      "visualId": "pharmacokinetics-aging-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Vd COMPARTMENT/DRUG TYPES table and the # of half-lives vs % remaining table (book 229)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): two printed tables — (1) the Vd compartment table, header Vd | COMPARTMENT | DRUG TYPES, rows Low/Intravascular/Large-charged molecules + plasma protein bound, Medium/ECF/Small hydrophilic molecules, High/All tissues including fat/Small lipophilic molecules especially if bound to tissue protein; (2) the half-lives-vs-percent-remaining table, # of half-lives 1 2 3 4 vs % remaining 50% 25% 12.5% 6.25%.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "pk-parameters-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the three-compartment ladder + the halving-ladder panels of PkParametersMap in visuals/pharm-p2.tsx) + blocks[1] and blocks[2], the two table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pk-parameters-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "pharmacokinetics-aging",
+      "requiredInKYP": true,
+      "visualId": "pharmacokinetics-aging-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The bioavailability F formula with its AUCoral/AUCIV plasma-concentration-vs-time plot thumbnail (book 229)",
+      "sourceFigureDescription": "SMALL VECTOR SUMMARY FIGURE (pdfimages: zero raster images; VLM confirmed line art, not a photograph): the bioavailability formula F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100 beside a two-curve concentration-time thumbnail — a higher AUCIV curve and a lower AUCOral curve over a Time axis, y-axis Plasma concentration — illustrating that F is computed from the area under the curve.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "pk-parameters-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the F panel of the registry visual (the AUC thumbnail redrawn with both curves and axis labels, plus the formula — PkParametersMap in visuals/pharm-p2.tsx)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pk-parameters-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "pharmacokinetics-aging",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's two visual assets are its printed tables (adapted: the compartment ladder + the halving ladder inside the registry visual, both also carried verbatim in the note's table blocks) and the small vector F/AUC formula figure (redrawn: the two-curve AUC thumbnail + formula inside the F panel of PkParametersMap in visuals/pharm-p2.tsx); nothing is reproduced. Census: zero raster images (pdfimages) and zero photographs/margin mnemonics (VLM confirmed on scripts/usmle-pipeline/ph2-vlm-census.ts). STAGED under .usmle-pipeline-cache/staging-ph2/ — promotion into content/ is owned downstream."
+}

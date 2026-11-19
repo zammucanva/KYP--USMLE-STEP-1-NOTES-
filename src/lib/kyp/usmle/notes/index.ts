@@ -22,6 +22,11 @@ import { flowCytometryElisa } from "./flow-cytometry-elisa";
 import { karyotyping } from "./karyotyping";
 import { glycolysisRegulation } from "./glycolysis-regulation";
 import { sympathomimetics } from "./sympathomimetics";
+import { enzymeKinetics } from "./enzyme-kinetics";
+import { pharmacokineticsAging } from "./pharmacokinetics-aging";
+import { drugMetabolism } from "./drug-metabolism";
+import { eliminationOfDrugs } from "./elimination-of-drugs";
+import { urinePhDosage } from "./urine-ph-dosage";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -214,6 +219,11 @@ export const usmleNotes: KypUsMLENote[] = [
   // Pilot corpus
   glycolysisRegulation,
   sympathomimetics,
+  enzymeKinetics,
+  pharmacokineticsAging,
+  drugMetabolism,
+  eliminationOfDrugs,
+  urinePhDosage,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

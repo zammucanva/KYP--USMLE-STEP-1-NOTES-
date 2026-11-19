@@ -31,6 +31,11 @@ import {
   HypersensitivityMechanisms,
   SympathReceptorGrid,
 } from "./pharm";
+import { EnzymeKineticsMap } from "./pharm-p1";
+import { PkParametersMap } from "./pharm-p2";
+import { MetabolismPhaseMap } from "./pharm-p3";
+import { EliminationKineticsMap } from "./pharm-p4";
+import { UrinePhTrappingMap } from "./pharm-p5";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -153,6 +158,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "pyruvate-hub": PyruvateHub,
   // Sympathomimetics
   "sympath-receptor-grid": SympathReceptorGrid,
+  "enzyme-kinetics-map": EnzymeKineticsMap,
+  "pk-parameters-map": PkParametersMap,
+  "metabolism-phase-map": MetabolismPhaseMap,
+  "elimination-kinetics-map": EliminationKineticsMap,
+  "urine-ph-trapping-map": UrinePhTrappingMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

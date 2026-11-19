@@ -1,0 +1,73 @@
+{
+  "topicId": "elimination-of-drugs",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two-column zero-order / first-order elimination text block (book 230)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): the two-column elimination block — Zero-order elimination [Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time); Cp ↓ linearly with time; Examples of drugs—Phenytoin, Ethanol, and Aspirin (at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination); Capacity-limited elimination.; margin mnemonic “A PEA is round, shaped like the “0” in zeroorder.”] vs First-order elimination [Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time); Cp ↓ exponentially with time; Applies to most drugs.; Flow-dependent elimination.].",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "elimination-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's fork banner + mirror panel headers/markers (EliminationKineticsMap in visuals/pharm-p4.tsx) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The two vector elimination-curve figures (book 230): zero-order (constant 2 U/h, shrinking t1/2 brackets) and first-order (halving 4→2→1→0.5 U/h slopes, equal t1/2 brackets)",
+      "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: zero raster images; labels read via the pdftotext text layer + VLM): FIGURE 1, Zero-order elimination — y-axis 'Drug plasma concentration ↑', x-axis 'Time (h)', a STRAIGHT declining line with constant slope chips '2 U/h' and an 'Elimination rate (=slope)' label, half-life brackets 'First t1/2 > Second t1/2 > Third t1/2' (VLM: the FIRST bracket, at the highest concentration, is drawn longest), annotation 'Time of t1/2 ↑ as concentration ↑'. FIGURE 2, First-order elimination — same axes, an EXPONENTIAL decay curve whose 'Elimination rate (=slope)' chips halve 4 U/h → 2 U/h → 1 U/h → 0.5 U/h, equal brackets 'First t1/2 = Second t1/2 = Third t1/2', annotation 'Time of t1/2 is constant as concentration ↑'.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "elimination-kinetics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's two mirror panels (the straight line with 2 U/h chips and shrinking First>Second>Third brackets; the exponential curve with 4→2→1→0.5 U/h chips and equal First=Second=Third brackets) plus the saturation-crossover panel (EliminationKineticsMap in visuals/pharm-p4.tsx)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-kinetics-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "elimination-of-drugs",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Two visual assets on the source page (pdfimages: ZERO rasters — both are VECTOR figures): (1) the two-column zero-order/first-order text block, adapted as the registry visual's fork banner + panel structure and carried verbatim in the note's table block; (2) the two elimination-curve figures (zero-order constant 2 U/h with shrinking First>Second>Third brackets; first-order halving 4→2→1→0.5 U/h slopes with equal brackets), redrawn as original KYP vector art. Nothing is reproduced; the source's own PEA margin mnemonic is quoted verbatim with attribution. Census: zero raster images (pdfimages) and one margin mnemonic, A PEA, confirmed by VLM (scripts/usmle-pipeline/ph4-vlm-census.ts). Shared page: pdf 252's top half (Drug metabolism) belongs to the sibling topic. STAGED under .usmle-pipeline-cache/staging-ph4/ — promotion into content/ is owned downstream."
+}

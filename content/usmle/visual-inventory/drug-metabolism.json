@@ -1,0 +1,73 @@
+{
+  "topicId": "drug-metabolism",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "BIOCHEMICAL_PATHWAY",
+      "visualPurpose": "The phase I/II metabolism flow figure (book 230, top half)",
+      "sourceFigureDescription": "VECTOR FLOW FIGURE (pdfimages: zero raster images; VLM confirmed on ph3-vlm-census.ts): Lipophilic drugs → Phase I (predominantly CYP450-dependent) with the three reaction chutes Reduction / Oxidation / Hydrolysis → Slightly polar metabolite (active or inactive) + Reactive oxygen metabolites (label printed twice — at the phase I output and beside the phase II header) → Phase II with the four conjugation chutes Methylation / Acetylation / Glucuronidation / Sulfation → Very polar, hydrophilic metabolite (except acetylated metabolite) → Excretion: Serum (urine, sweat), bile (stool); the figure's second input, Polar drugs (water-soluble), bypasses phase I and feeds phase II directly. No margin notes or mnemonics.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "metabolism-phase-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (MetabolismPhaseMap in visuals/pharm-p3.tsx — the pipeline zone with the input chips, bypass lane, CYP450 reactor, reactive-oxygen flag, conjugation station, except-acetylated chip, and excretion terminal) + blocks[2] the steps block distilling the same pipeline; the printed labels are also carried verbatim in blocks[1] the table block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metabolism-phase-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "drug-metabolism",
+      "requiredInKYP": true,
+      "visualId": "drug-metabolism-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The metabolism rules text block — the either/both + non-sequential intro rule, the geriatric rule, and the slow-acetylator rule (book 230, top half)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): 'Drugs can be metabolized by either or both phase I and phase II reactions. These reactions serve to bioactivate or deactivate substances, and do not have to take place sequentially (eg, phase I can follow phase II, or take place as a single reaction). Geriatric patients lose phase I first. Patients who are slow acetylators have ↑ adverse effects from certain drugs because of ↓ rate of metabolism (eg, isoniazid).' No margin notes or mnemonics.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "metabolism-phase-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's two clinical-rule cards (GERIATRIC RULE / SLOW-ACETYLATOR RULE) + the FORKS-NOT-A-LADDER banner and the phase I vs phase II comparison strip, with the rules also carried verbatim in the note's table block (rows INPUTS and PHASE I/II), core.what, and recall[0-2]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metabolism-phase-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-metabolism",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The metabolism half's two visual assets — the ONE vector flow figure (redrawn as the registry visual metabolism-phase-map, an ORIGINAL KYP REDRAW with the printed labels also carried verbatim in the note's table block) and the rules text block (adapted as the visual's rule cards + banner + comparison strip and carried verbatim in the note) — are both accounted for; nothing is reproduced. Census: zero raster images (pdfimages) and no margin mnemonics in the metabolism half (VLM confirmed on scripts/usmle-pipeline/ph3-vlm-census.ts). SHARED PAGE (the p196 convention): the bottom half of pdf 252 / book 230 is the sibling topic elimination-of-drugs and is out of scope here. STAGED under .usmle-pipeline-cache/staging-ph3/ — promotion into content/ is owned downstream."
+}

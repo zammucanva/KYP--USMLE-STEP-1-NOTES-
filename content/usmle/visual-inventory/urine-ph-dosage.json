@@ -1,0 +1,73 @@
+{
+  "topicId": "urine-ph-dosage",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-dosage",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-dosage-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Urine pH and drug elimination text/equations block + the Dosage calculations block (book 231)",
+      "sourceFigureDescription": "PURE TEXT + TYPESET EQUATIONS (pdfimages: zero raster images; VLM confirmed): the rule 'Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.'; the weak-acid block (RCOOH (lipid soluble) ↔ RCOO– + H+ (trapped); examples phenobarbital, methotrexate, aspirin (salicylates); treat overdose with sodium bicarbonate to alkalinize urine); the weak-base block (RNH3+ (trapped) ↔ RNH2 + H+ (lipid soluble); examples TCAs, amphetamines; trapped in acidic environments; for severe alkalosis treat with ammonium chloride to acidify urine); the pKa definition (pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized; represents the strength of the weak acid or base); the TCA rule (sodium bicarbonate to overcome the sodium channel-blocking activity — treats cardiac toxicity, does not accelerate drug elimination); and the dosage block (Loading dose = Cp × Vd / F; Maintenance dose = Cp × CL × τ / F; Cp = target plasma concentration; τ = dosage interval, does not apply for continuous infusions; renal/liver disease → maintenance dose ↓, loading dose usually unchanged; time to steady state depends primarily on t1/2, independent of dose and dosing frequency).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "urine-ph-trapping-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (Band 1 the tubular trapping map with the blood strip, the two equilibrium cards, and the NaHCO3/NH4Cl treatment arrows; Band 3 the TCA exception card with the renal-vs-cardiac contrast chips; Band 4 the dosage panel — UrinePhTrappingMap in visuals/pharm-p5.tsx) + blocks[1] and blocks[5] the table blocks carried verbatim + blocks[2] the compare block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-trapping-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-dosage",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-dosage-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The ionization-vs-pH curve — the vector figure on book 231",
+      "sourceFigureDescription": "The ONE vector figure on the page (zero rasters; VLM confirmed the topology): a graph titled 'Ionized species formation (%)' with a y-axis 0-100 (ticks 0, 50, 100) against an x-axis 'pH' running 4-14 (ticks 4, 8, 12, 14); two S-shaped curves labeled 'Weak acid' (rising to the right — more ionized at high pH) and 'Weak base' (falling to the right — more ionized at low pH) crossing at the 50% level near pH 9-10, with dashed horizontal (50%) and vertical (crossing-pH) guide lines; the annotation 'pKa: 9.2' sits below the x-axis near the crossing, flanked by the margin notes 'pKa = more acidic' (toward low pH) and 'pKa = more basic' (toward high pH) with arrows. REDRAWN as an original KYP figure — not reproduced.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "urine-ph-trapping-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (Band 2 — the curve redrawn with original KYP axes: the weak-acid and weak-base sigmoids, the 50% crossing marked at pH = pKa, the pKa 9.2 example marker, the more-acidic/more-basic annotations, and the reading-rules card) + blocks[1] the figure row of the table block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-trapping-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "urine-ph-dosage",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Two source visuals: sv1 the text/equations/dosage block (pure text + typeset equations — ZERO rasters) adapted as the registry visual's Bands 1, 3, and 4 and carried verbatim in the note's table blocks; sv2 the ionization-vs-pH vector figure REDRAWN with original KYP axes as the registry visual's Band 2 (the weak-acid and weak-base sigmoids, the 50% crossing at pH = pKa, the pKa 9.2 example, the more-acidic/more-basic annotations). Nothing is reproduced; both surface through the single registry visual urine-ph-trapping-map (UrinePhTrappingMap in visuals/pharm-p5.tsx). Census: zero rasters (pdfimages) and no margin mnemonics (VLM confirmed on scripts/usmle-pipeline/ph5-vlm-census.ts). STAGED under .usmle-pipeline-cache/staging-ph5/ — promotion into content/ is owned downstream."
+}

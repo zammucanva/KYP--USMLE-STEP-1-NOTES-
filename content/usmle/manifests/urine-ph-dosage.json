@@ -1,0 +1,275 @@
+{
+  "topicId": "urine-ph-dosage",
+  "title": "Urine pH, Ion Trapping & Dosage Calculations",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      253
+    ],
+    "bookPages": "231–231"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, header, and topic heading (book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n231\n\nSEC TION II\n\nUrine pH and drug\nelimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ion-trapping rule — ionized species are trapped in urine and cleared quickly; neutral forms can be reabsorbed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acids block — examples (phenobarbital, methotrexate, aspirin/salicylates) and the treatment: sodium bicarbonate to alkalinize urine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak acids\n\nExamples: phenobarbital, methotrexate, aspirin (salicylates). Treat overdose with sodium\nbicarbonate to alkalinize urine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid equilibrium — RCOOH (lipid soluble) ↔ RCOO– + H+ (trapped); the equation lines print at raw 21-27 AFTER the 'Weak bases' label (raw 19) — the two-column interleave quirk of this page",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak bases\n\nRCOOH\n\nRCOO – + H+\n\n(lipid soluble)\n\n(trapped)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-bases block — examples (TCAs, amphetamines), trapped in acidic environments, and for severe alkalosis ammonium chloride to acidify urine, plus the RNH3+ (trapped) ↔ RNH2 + H+ (lipid soluble) equation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Examples: tricyclic antidepressants (TCAs), amphetamines. Trapped in acidic environments. For\nsevere alkalosis, treat with ammonium chloride to acidify urine.\nRNH3+\n(trapped)\n\nRNH2 + H+\n(lipid soluble)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pKa definition — pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized; the pKa represents the strength of the weak acid or base",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pKa\n\npH at which drugs (weak acid or base) are\n50% ionized and 50% nonionized. The pKa\nrepresents the strength of the weak acid or\nbase.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ionization-figure y-axis title — 'Ionized species formation (%)' (prints at raw 44, before the TCA rule)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Ionized species formation (%)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TCA rule — TCA toxicity is initially treated with sodium bicarbonate to overcome the sodium channel-blocking activity; treats cardiac toxicity, does not accelerate drug elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "TCA toxicity is initially treated with sodium bicarbonate to overcome the sodium channel-blocking\nactivity of TCAs. This treats cardiac toxicity, but does not accelerate drug elimination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ionization-figure y-axis tick labels — 100 and 0 (print at raw 48/50, straddling the 'Dosage calculations' heading)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "100\n\n0",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dosage-calculations block — Loading dose = Cp × Vd / F; Maintenance dose = Cp × CL × τ / F; Cp = target plasma concentration; τ = dosage interval (time between doses), does not apply for continuous infusions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Dosage calculations\n\nLoading dose =\n\nCp × Vd\nF\n\nMaintenance dose =\n\nCp × CL × τ\n\nF\nCp = target plasma concentration\nτ = dosage interval (time between\ndoses); does not apply for continuous\ninfusions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the indd slug (page identity, book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 231",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ionization-figure label cluster — Weak acid, Weak base, the 50 crossing, the pH axis 4 / 8 / 12 / 14, pKa: 9.2, pKa = more acidic, pKa = more basic (prints at raw 71-84, AFTER the indd footer — the vector figure's scattered text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak acid\nWeak base\n\n50\n\n4\n\n8\n\n12\n14 pH\npKa: 9.2\npKa = more acidic\npKa = more basic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The organ-disease and steady-state rules — in renal or liver disease, maintenance dose ↓ and loading dose is usually unchanged; time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "In renal or liver disease, maintenance\ndose ↓ and loading dose is usually\nunchanged.\nTime to steady state depends primarily\non t1/2 and is independent of dose and\ndosing frequency.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timestamp footer (page identity, book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "urine-ph-trapping-map"
+  ],
+  "mechanismIds": [
+    "ion-trapping-map",
+    "dose-equation-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts (4 patterns, 4 traps, 3 pivots).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the rule, the two equilibria with examples and treatments, the pKa definition, the figure, the TCA line, and the dosage equations; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "three-gate-reading",
+      "summary": "The three-gate reading protocol (GATE 1 CLASSIFY the drug as weak acid or weak base; GATE 2 COUNT THE CHARGE at the tubular pH — ionized = trapped and cleared, neutral = reabsorbed; GATE 3 MOVE the urine pH toward the ionized side) plus the two-exception frame (the TCA cardiac-not-renal bicarbonate; loading-Vd vs maintenance-CL in organ disease) — KYP's synthesis of the page into one algorithm.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rule, the classes, and the equations as separate fragments; the gate protocol, the exception pairing, and the fill-the-container/match-the-drain framing of the dosage equations are KYP's design.",
+      "location": "core.keyIdea + blocks[3] the steps block + pivots + the visual's Band 1/4 spine"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (CHARGED TRAPPED, NEUTRAL RETURNED / BICARB TRAPS ACIDS, AMMONIUM TRAPS BASES / AT THE pKa, 50/50 — ACIDS UP, BASES DOWN / LOAD WITH Vd, MAINTAIN WITH CL) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on book 231 (VLM census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's card footers + rapidReview.m3"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The salicylate-overdose miniCase (a CKD-stage-4 patient whose renal-elimination maneuver [bicarbonate to trap RCOO–] is paired with the dosing adjustment [maintenance ↓, loading usually unchanged], with the ammonium-chloride wrong-direction, the TCA sodium-channel confusion, the steady-state conflation, and the acidify-plus-shrink-both-doses distractors) — a KYP-authored integration of the trapping rule and both dosage rules.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the urine-pH block and the dosage block side by side but never asks the learner to pair them; the vignette, the four distractors, and the two-layer question are KYP's design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM, ph5-vlm-census.ts): ZERO raster images on pdf 253 / book 231 — pure text plus ONE vector figure (the ionization-vs-pH curve: 'Ionized species formation (%)' 0-100 with ticks 0/50/100, pH axis 4-14 with ticks 4/8/12/14, the Weak acid curve rising and the Weak base curve falling to the right, the two crossing at 50% near pH 9-10 with dashed horizontal and vertical crossing lines, 'pKa: 9.2' below the x-axis, 'pKa = more acidic' left and 'pKa = more basic' right with arrows) plus the two typeset reaction equations and the two dosage formulas. The VLM confirmed the figure topology and NO margin notes or mnemonics anywhere on the page; the KYP memory layer is original. Text-layer interleave quirks, documented: (1) the weak-acid equation lines (RCOOH / RCOO– + H+ / (lipid soluble) / (trapped)) print at raw lines 21-27 AFTER the 'Weak bases' label (raw 19) — pdftotext's two-column interleave, mirrored in the claims; (2) the figure's text is scattered through the layer — the y-axis title at raw 44, the 100/0 ticks at raw 48/50 straddling the 'Dosage calculations' heading, and the Weak acid / Weak base / 50 / pH-tick / pKa: 9.2 / more-acidic / more-basic cluster at raw 71-84 AFTER the indd footer at raw 69; (3) the printed 'For severe alkalosis' qualifier on the ammonium chloride line is carried verbatim (it is the source's own indication wording for acidifying the urine); (4) the ↓ arrow on the organ-disease line is preceded in the raw layer by a \\x90 control byte (stripped by norm, per the pipeline convention). Difficulty 2 matches the chapter inventory (content/usmle/chapters/pharmacology.json lists urine-ph-dosage at difficulty 2 — no pending correction). Outputs are STAGED under .usmle-pipeline-cache/staging-ph5/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'urine-ph-trapping-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-19"
+}
