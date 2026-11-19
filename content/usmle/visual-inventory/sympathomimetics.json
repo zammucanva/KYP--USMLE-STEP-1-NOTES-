@@ -3,62 +3,6 @@
   "chapterId": "pharmacology",
   "inventory": [
     {
-      "visualId": "sympathomimetics-sv1",
-      "visualType": "VISUAL_TABLE",
-      "visualPurpose": "Anticholinergic system reference",
-      "sourceFigureDescription": "Muscarinic antagonists table (atropine, benztropine...) by organ system",
-      "part": 1,
-      "pdfPages": [
-        262
-      ],
-      "bookPages": "240",
-      "requiredInKYP": false,
-      "implementationType": "SOURCE_REFERENCE",
-      "kypVisualId": null,
-      "omissionReason": "Anticholinergics — adjacent pharmacology topic sharing the page; atropine's AV-block use is covered by the av-conduction-blocks note",
-      "sourceBook": "First Aid for the USMLE Step 1 2026",
-      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-      "qaStatus": "passed",
-      "topicId": "sympathomimetics",
-      "chapterId": "pharmacology",
-      "subsection": "Autonomic Pharmacology — Sympathomimetics",
-      "sourcePages": {
-        "part": 1,
-        "pdfPages": [
-          262
-        ],
-        "bookPages": "240"
-      }
-    },
-    {
-      "visualId": "sympathomimetics-sv2",
-      "visualType": "VISUAL_TABLE",
-      "visualPurpose": "Atropine actions",
-      "sourceFigureDescription": "Atropine organ-system actions with DUMBBELSS mnemonic layout",
-      "part": 1,
-      "pdfPages": [
-        262
-      ],
-      "bookPages": "240",
-      "requiredInKYP": false,
-      "implementationType": "SOURCE_REFERENCE",
-      "kypVisualId": null,
-      "omissionReason": "Anticholinergics — adjacent pharmacology topic sharing the page",
-      "sourceBook": "First Aid for the USMLE Step 1 2026",
-      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-      "qaStatus": "passed",
-      "topicId": "sympathomimetics",
-      "chapterId": "pharmacology",
-      "subsection": "Autonomic Pharmacology — Sympathomimetics",
-      "sourcePages": {
-        "part": 1,
-        "pdfPages": [
-          262
-        ],
-        "bookPages": "240"
-      }
-    },
-    {
       "visualId": "sympathomimetics-sv3",
       "visualType": "VISUAL_TABLE",
       "visualPurpose": "Sympathomimetic classification",
@@ -143,50 +87,19 @@
         ],
         "bookPages": "242"
       }
-    },
-    {
-      "visualId": "sympathomimetics-sv6",
-      "visualType": "VISUAL_TABLE",
-      "visualPurpose": "α-blocker antidote context",
-      "sourceFigureDescription": "Sympatholytics (α-agonists) and α-blockers table with applications and adverse effects",
-      "part": 1,
-      "pdfPages": [
-        265
-      ],
-      "bookPages": "243",
-      "requiredInKYP": true,
-      "implementationType": "ORIGINAL_KYP_ADAPTATION",
-      "kypVisualId": null,
-      "kypImplementation": "note-block",
-      "kypLocation": "blocks: table 'The antidote side of the map — α-blockers (context completes the system)'",
-      "sourceBook": "First Aid for the USMLE Step 1 2026",
-      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
-      "qaStatus": "passed",
-      "topicId": "sympathomimetics",
-      "chapterId": "pharmacology",
-      "subsection": "Autonomic Pharmacology — Sympathomimetics",
-      "sourcePages": {
-        "part": 1,
-        "pdfPages": [
-          265
-        ],
-        "bookPages": "243"
-      }
     }
   ],
   "coverageAudit": {
     "topicId": "sympathomimetics",
-    "textbookVisualCount": 6,
-    "accountedFor": 6,
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
     "sourceReproductions": 0,
     "kypRedraws": 1,
-    "kypOriginals": 3,
+    "kypOriginals": 2,
     "unresolved": 0,
-    "omitted": 2,
-    "omissionReasons": [
-      "sympathomimetics-sv1: Anticholinergics — adjacent pharmacology topic sharing the page; atropine's AV-block use is covered by the av-conduction-blocks note",
-      "sympathomimetics-sv2: Anticholinergics — adjacent pharmacology topic sharing the page"
-    ],
-    "complete": true
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true,
+    "notes": "Rescoped 2026-11-19 during the pharmacology census rebuild: declared range narrowed from pdf 262-265 to the true evidence pages 263-264 (sv1/sv2 — the p262 anticholinergic/atropine tables, previously documented omissions as adjacent-topic content — and sv6 — the p265 alpha-blocker context — now belong to the muscarinic-antagonists and sympatholytics-alpha-blockers topics)."
   }
 }

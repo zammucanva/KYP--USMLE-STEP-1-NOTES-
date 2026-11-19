@@ -704,3 +704,20 @@ Work Log:
 Stage Summary:
 - MILESTONE: PATHOLOGY CHAPTER COMPLETE — 19/19 topics (P1-P11 prior lineage + P12-P19 this session, re-produced), extractionStatus=verified, completedAt 2026-11-19. Biochemistry 55/55 + Immunology 24/24 + Microbiology 39/39 + Pathology 19/19 = 4 chapters fully VERIFIED. Mission: 145/3029 topics · 3851/3851 evidence · 138 registry visuals · contract GREEN · 0 depth failures.
 - NEXT (first action of the next session): pharmacology chapter inventory rebuild (the 43-topic census over pdf 249-277 / book 227-255 — the prior lineage's inventory was lost with it; sympathomimetics 262-265 already produced) → PH1+ production batches (≥5 topics per cycle: pharmacokinetics intro ~249, …, elimination-of-drugs 252, drug-effect-modifications 253 …) → then Public Health (pdf 278-300) → organ systems. Follow the P12-P19 parallel-subagent pattern. Do not stop.
+
+---
+Task ID: pharm-census-2026-11-19
+Agent: Super Z (main agent)
+Task: Pharmacology chapter inventory rebuild (the 43-topic census of the lost lineage, re-derived from source) + sympathomimetics scope correction.
+
+Work Log:
+- Banner census: PHARMACOLOGY spans pdf 249-276 (book 227-254); subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255, AUTONOMIC DRUGS 256-267, TOXICITIES AND ADVERSE EFFECTS 268-273, MISCELLANEOUS 274-276; p249 = chapter opener (unclaimed, the p223 convention); p277 opens Public Health.
+- Heading census via the immunology method (PyMuPDF #004b6c MyriadPro-Bold 10pt subsection bars): pharm-census.py walked all 28 pages.
+- pharmacology.json rebuilt: 29 topics (28 pending + sympathomimetics complete) — PK/PD 7, Autonomic 14, Toxicities 6, Miscellaneous 2. Shared pages with distinct subsections documented (the p196 convention): p252 (Drug metabolism / Elimination), p256 (Drug effect modifications / Autonomic receptors), p257 (ACh receptors / Pain transmission), p258 (Micturition / Adrenergic tissue distribution). Chapter number 5, section II.
+- SCOPE CORRECTION (documented): the initial-build sympathomimetics topic declared pdf 262-265 (book 240-243) but its 5 evidence quotes all sit on 263-264 — narrowed to 263-264 (book 241-242): manifest sourcePages + note sourceRef synced (the validator's cross-check format), inventory sv1/sv2 (the p262 anticholinergic/atropine tables — previously documented as adjacent-topic omissions) and sv6 (the p265 alpha-blocker context) removed, coverageAudit reconciled (3 records: 2 adaptations + 1 redraw, 0 unresolved). The p262 content now owns muscarinic-antagonists; p265 owns sympatholytics-alpha-blockers — nothing silently disappeared.
+- Note on totals: the mission's 3,029 is the pre-pilot survey estimate ("confirmed per chapter by Phase I-C extraction" per schemas.ts) — this census's 29 topics is the source-confirmed count for pharmacology (the lost lineage's 43 was a finer split; this rebuild follows the same teachable-unit rules).
+- Gates: sync-tracker (145 topics registered) · validate CONTRACT GREEN (2 baseline warnings) · evidence 3851/3851 · audit 145/0 · tsc 1 baseline.
+
+Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 (all VERIFIED) · Pharmacology 1/29 (census complete, production starting) · 145/3029 topics · evidence 3851/3851 · 138 registry visuals.
+- NEXT (first action of the next session): the first pharmacology production batch — enzyme-kinetics (250/228) → pharmacokinetics-aging (251/229) → drug-metabolism (252/230, top) → elimination-of-drugs (252/230, bottom) → urine-ph-dosage (253/231) — then efficacy-potency (254) + receptor-binding-ti (255) to close the PK/PD block, then the Autonomic block. Follow the P12-P19 parallel-subagent pattern. Do not stop.

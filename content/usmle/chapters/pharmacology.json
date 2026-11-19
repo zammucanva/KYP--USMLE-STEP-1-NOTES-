@@ -12,21 +12,469 @@
     }
   ],
   "bookPages": "227–254",
-  "extractionStatus": "registered",
+  "extractionStatus": "extracted",
+  "pendingTopicCount": 28,
+  "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
+  "extraction": {
+    "extractedOn": "2026-11-19",
+    "method": "PyMuPDF span-style heading census (the immunology method: #004b6c MyriadPro-Bold 10pt = FA subsection bars) + banner census + text-layer cross-verification + pdfimages raster census per page.",
+    "frontMatter": "pdf 249 (book 227) = chapter title/opener page",
+    "contentPages": "pdf 250-276 (book 228-254)",
+    "backMatter": "none — pdf 277 opens Public Health (Epidemiology banner)",
+    "faGroups": [
+      {
+        "group": "Pharmacokinetics and Pharmacodynamics",
+        "pdfPages": [
+          250,
+          255
+        ],
+        "bookPages": "228–233",
+        "topics": 7
+      },
+      {
+        "group": "Autonomic Drugs",
+        "pdfPages": [
+          256,
+          267
+        ],
+        "bookPages": "234–245",
+        "topics": 14
+      },
+      {
+        "group": "Toxicities and Adverse Effects",
+        "pdfPages": [
+          268,
+          273
+        ],
+        "bookPages": "246–251",
+        "topics": 6
+      },
+      {
+        "group": "Miscellaneous",
+        "pdfPages": [
+          274,
+          276
+        ],
+        "bookPages": "252–254",
+        "topics": 2
+      }
+    ]
+  },
+  "visualPlan": {
+    "textbookVisualsIdentified": null,
+    "rightsPosture": "All First Aid 2026 artwork is COPYRIGHTED_NO_REPUBLISH — no republication; every figure is either an ORIGINAL_KYP_REDRAW, ORIGINAL_KYP_ADAPTATION (note-block), or a documented omission.",
+    "method": "per-topic visual inventory authored at production time (gen_pN_json.py pattern)"
+  },
   "topics": [
     {
-      "topicId": "sympathomimetics",
-      "title": "Sympathomimetics",
-      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "topicId": "enzyme-kinetics",
+      "title": "Enzyme Kinetics & Drug-Receptor Interactions",
+      "faSubsections": [
+        "Enzyme kinetics"
+      ],
       "sourcePages": {
         "part": 1,
         "pdfPages": [
-          262,
-          263,
-          264,
-          265
+          250
         ],
-        "bookPages": "240–243"
+        "bookPages": "228"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "enzyme-kinetics-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Km/Vmax with competitive vs noncompetitive inhibition (the Lineweaver-Burk and Michaelis-Mencken figure labels) — the quantitative foundation every PK/PD and pharmacology exam question builds on."
+    },
+    {
+      "topicId": "pharmacokinetics-aging",
+      "title": "Pharmacokinetic Parameters & Age-Related Changes",
+      "faSubsections": [
+        "Pharmacokinetics",
+        "Age-related changes in pharmacokinetics"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "pk-parameters-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Bioavailability F with the AUC formula, volume of distribution Vd with the compartment table, clearance, half-life — plus the age-related changes (pediatric and geriatric PK). The parameter trio every dosing question turns on."
+    },
+    {
+      "topicId": "drug-metabolism",
+      "title": "Drug Metabolism: Phase I & Phase II",
+      "faSubsections": [
+        "Drug metabolism"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "metabolism-phase-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Phase I (CYP450 oxidation/reduction/hydrolysis) vs phase II (conjugation) metabolism with the key inducers and inhibitors — shared page 252 with elimination-of-drugs, distinct subsections (the p196 shared-page convention)."
+    },
+    {
+      "topicId": "elimination-of-drugs",
+      "title": "Elimination of Drugs: Zero & First Order",
+      "faSubsections": [
+        "Elimination of drugs"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "elimination-kinetics-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Zero-order (capacity-limited, constant amount: ethanol, aspirin, phenytoin at therapeutic doses) vs first-order (constant fraction) elimination, the PEA/amount-over-time figure and the steady-state/half-life rules. Shared page 252 with drug-metabolism, distinct subsections."
+    },
+    {
+      "topicId": "urine-ph-dosage",
+      "title": "Urine pH, Ion Trapping & Dosage Calculations",
+      "faSubsections": [
+        "Urine pH and drug elimination",
+        "Dosage calculations"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "urine-ph-trapping-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Weak acid/base ion trapping in urine (the aspirin overdose bicarbonate rule) + loading dose vs maintenance dose calculations with the Cp target equations."
+    },
+    {
+      "topicId": "efficacy-potency",
+      "title": "Efficacy vs Potency: Reading Dose-Response Curves",
+      "faSubsections": [
+        "Efficacy vs potency"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "dose-response-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "Efficacy (Emax, the ceiling) vs potency (EC50, the shift) on the dose-response curve — which the exam tests with partial agonists, competitive antagonists, and the EC50-shift questions."
+    },
+    {
+      "topicId": "receptor-binding-ti",
+      "title": "Receptor Binding, Agonist Types & Therapeutic Index",
+      "faSubsections": [
+        "Receptor binding",
+        "Therapeutic index"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "receptor-binding-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "status": "pending",
+      "productionRationale": "The A/B/C receptor-binding panels (full/partial agonists, antagonists, inverse agonists) with the Can/Cannot behaviors + the therapeutic index TD50/ED50 with the margin-of-safety reading."
+    },
+    {
+      "topicId": "drug-effect-modifications",
+      "title": "Drug Effect Modifications",
+      "faSubsections": [
+        "Drug effect modifications"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "effect-modification-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "Potentiation, additive/synergistic effects, tolerance, tachyphylaxis, and the placebo/nocebo framework. Shared page 256 with autonomic-receptors, distinct subsections."
+    },
+    {
+      "topicId": "autonomic-receptors",
+      "title": "Autonomic Receptors: The Organ Response Table",
+      "faSubsections": [
+        "Autonomic receptors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "autonomic-organ-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The organ-by-organ autonomic table (eye, heart, vasculature, GI, GU, sweat glands with the sympathetic-cholinergic exception) — THE master table of autonomic pharmacology. Shared page 256 with drug-effect-modifications."
+    },
+    {
+      "topicId": "acetylcholine-receptors",
+      "title": "Acetylcholine Receptors: Nicotinic & Muscarinic",
+      "faSubsections": [
+        "Acetylcholine receptors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "ach-receptor-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "Nm (somatic muscle), Nn (all autonomic ganglia, adrenal medulla), M1-M3 muscarinic — the binding/activation hierarchy (nerve gas: irreversible; curare: Nn reversible) with the agonist/antagonist matrix. Shared page 257 with pain-transmission."
+    },
+    {
+      "topicId": "pain-transmission",
+      "title": "Pain Transmission & Analgesic Targets",
+      "faSubsections": [
+        "Pain transmission"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "pain-transmission-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The pain fiber table (A-delta fast/sharp vs C slow/burning), the gate-control and descending modulation pathways, and where opioids/NSAIDs/TCAs act. Shared page 257 with acetylcholine-receptors."
+    },
+    {
+      "topicId": "micturition-control",
+      "title": "Micturition Control: The Bladder Pharmacology",
+      "faSubsections": [
+        "Micturition control"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "micturition-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The detrusor/sphincter parasympathetic-sympathetic wiring with the Botox/anticholinergic/α-blocker intervention points for urge vs overflow incontinence. Shared page 258 with adrenergic-receptor-distribution."
+    },
+    {
+      "topicId": "adrenergic-receptor-distribution",
+      "title": "Tissue Distribution of Adrenergic Receptors",
+      "faSubsections": [
+        "Tissue distribution of adrenergic receptors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "adrenergic-distribution-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "α1/α2/β1/β2/β3 receptor distribution by tissue (the B1 one-heart/B2 two-lungs rule) with the vaso, bronchi, and uterine targets. Shared page 258 with micturition-control."
+    },
+    {
+      "topicId": "g-protein-second-messengers",
+      "title": "G-Protein-Linked Second Messengers",
+      "faSubsections": [
+        "G-protein–linked second messengers"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "visualHints": [
+        "g-protein-messenger-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The complete Gs/Gi/Gq table — adrenergic (α1 q, α2 i, β1/β2/β3 s), muscarinic (M1 q, M2 i, M3 q), dopaminergic, and the rest with their second messengers (cAMP, IP3/DAG/Ca2+) and major functions. The single highest-yield table in autonomic pharmacology."
+    },
+    {
+      "topicId": "autonomic-drugs-synapse",
+      "title": "Autonomic Drugs: Synapse Targets & Overview",
+      "faSubsections": [
+        "Autonomic drugs"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "autonomic-synapse-map"
+      ],
+      "mechanismHeavy": true,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The NE-release modulation (α2 autoreceptor negative feedback), amphetamine/VMAT/NET mechanism, and the cholinergic vs noradrenergic synapse figure with every drug's entry point (ChAT, botulinum, AChE, MAO, COMT, reserpine, guanethidine)."
+    },
+    {
+      "topicId": "cholinomimetics",
+      "title": "Cholinomimetic Agents",
+      "faSubsections": [
+        "Cholinomimetic agents"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "cholinomimetic-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "Direct agonists (bethanechol, carbachol, methacholine, pilocarpine — with the source's own mnemonics) vs indirect anticholinesterases (edrophonium, pyridostigmine, echothiophate, the organophosphates + pralidoxime reactivation rule) with applications and the COPD/asthma/peptic-ulcer exacerbation warning."
+    },
+    {
+      "topicId": "muscarinic-antagonists",
+      "title": "Muscarinic Antagonists & Atropine",
+      "faSubsections": [
+        "Muscarinic antagonists",
+        "Atropine"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "muscarinic-antagonist-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The anticholinergic system reference table (atropine, benztropine, scopolamine, ipratropium, oxybutynin, the SOFT/BENZ mnemonic families) + the atropine block with DUMBBELSS and the temperature-regulation rule."
+    },
+    {
+      "topicId": "sympathomimetics",
+      "title": "Sympathomimetics",
+      "faSubsections": [
+        "Sympathomimetics",
+        "Physiologic effects of sympathomimetics"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          263,
+          264
+        ],
+        "bookPages": "241–242"
       },
       "difficulty": 2,
       "requiresVisual": true,
@@ -35,9 +483,355 @@
         "epi-reversal"
       ],
       "mechanismHeavy": true,
-      "status": "complete"
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "complete",
+      "productionRationale": "The α1/α2/β1/β2/D1 receptor map with direct (epi, NE, isoproterenol, phenylephrine, dopamine, dobutamine), indirect (amphetamines, ephedrine), and mixed (cocaine, TCAs, MAOIs) sympathomimetics — hemodynamics, indications, and the epinephrine-reversal experiment. PRODUCED (initial build; scope corrected 2026-11-19 from 262-265 to its true evidence pages 263-264).",
+      "textbookVisuals": [
+        {
+          "visualId": "sympathomimetics-sv3",
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "Sympathomimetic classification",
+          "sourceFigureDescription": "Sympathomimetics table categorizing direct and indirect drugs by receptor site, hemodynamic changes, and applications",
+          "part": 1,
+          "pdfPages": [
+            263
+          ],
+          "bookPages": "241",
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks: tables 'The three intravenous catecholamines side by side' + 'Indirect-acting sympathomimetics' + 'Selected direct agonists — use-cases worth overlearning'",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "qaStatus": "passed",
+          "topicId": "sympathomimetics",
+          "chapterId": "pharmacology",
+          "subsection": "Autonomic Pharmacology — Sympathomimetics",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              263
+            ],
+            "bookPages": "241"
+          }
+        },
+        {
+          "visualId": "sympathomimetics-sv4",
+          "visualType": "PHYSIOLOGY_DIAGRAM",
+          "visualPurpose": "Catecholamine hemodynamic traces",
+          "sourceFigureDescription": "Physiologic effects graphs: blood pressure, heart rate, peripheral resistance for norepinephrine, epinephrine, isoproterenol",
+          "part": 1,
+          "pdfPages": [
+            264
+          ],
+          "bookPages": "242",
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": null,
+          "kypImplementation": "note-block",
+          "kypLocation": "blocks: table 'The three intravenous catecholamines side by side' (hemodynamic columns)",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "qaStatus": "passed",
+          "topicId": "sympathomimetics",
+          "chapterId": "pharmacology",
+          "subsection": "Autonomic Pharmacology — Sympathomimetics",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              264
+            ],
+            "bookPages": "242"
+          }
+        },
+        {
+          "visualId": "sympathomimetics-sv5",
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Epinephrine reversal experiment",
+          "sourceFigureDescription": "Comparison graphs showing the effect of α-blockade on blood pressure and heart rate for epinephrine vs phenylephrine",
+          "part": 1,
+          "pdfPages": [
+            264
+          ],
+          "bookPages": "242",
+          "requiredInKYP": true,
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "epi-reversal",
+          "kypImplementation": "registry-visual",
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "qaStatus": "passed",
+          "topicId": "sympathomimetics",
+          "chapterId": "pharmacology",
+          "subsection": "Autonomic Pharmacology — Sympathomimetics",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              264
+            ],
+            "bookPages": "242"
+          }
+        }
+      ]
+    },
+    {
+      "topicId": "sympatholytics-alpha-blockers",
+      "title": "Sympatholytics (α2-agonists) & α-Blockers",
+      "faSubsections": [
+        "Sympatholytics (α2-agonists)",
+        "α-blockers"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "sympatholytic-alpha-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The α2-agonists (clonidine, guanfacine, α-methyldopa with the pregnancy/Coombs rules, tizanidine) + the α-blockers (phenoxybenzamine irreversible for pheochromocytoma, phentolamine, the selective α1 blockers with the first-dose hypotension rule)."
+    },
+    {
+      "topicId": "beta-blockers",
+      "title": "β-Blockers",
+      "faSubsections": [
+        "β-blockers"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "beta-blocker-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The full β-blocker table — the drug list with selectivity/ISA properties, and the nine applications (angina, glaucoma, heart failure with the mortality trio bisoprolol/carvedilol/metoprolol, hypertension, thyroid storm, HCM, migraine, MI) with actions and the contraindication traps."
+    },
+    {
+      "topicId": "phosphodiesterase-inhibitors",
+      "title": "Phosphodiesterase Inhibitors",
+      "faSubsections": [
+        "Phosphodiesterase inhibitors"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "pde-inhibitor-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "status": "pending",
+      "productionRationale": "The PDE inhibitor table — nonspecific (theophylline, methylxanthines with cardiotoxicity/neurotoxicity), PDE-5 (sildenafil with the NO/cGMP mechanism and the nitrates contraindication), PDE-3 (milrinone), PDE-4 (roflumilast) with mechanisms, uses, and adverse effects."
+    },
+    {
+      "topicId": "seafood-plant-toxins",
+      "title": "Ingested Seafood & Plant Toxins",
+      "faSubsections": [
+        "Ingested seafood toxins",
+        "Plant toxins"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "seafood-plant-toxin-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "The seafood toxin table (ciguatera, scombroid with the MAOI interaction, shellfish/saxitoxin, pufferfish/tetrodotoxin) + the plant toxins (anticholinergic plants, ricin, cyanogenic with the bitter-almond rule, convulsions water hemlock)."
+    },
+    {
+      "topicId": "toxicity-treatments",
+      "title": "Specific Toxicity Treatments: The Antidote Table",
+      "faSubsections": [
+        "Specific toxicity treatments"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "antidote-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "THE antidote table — acetaminophen (N-acetylcysteine), organophosphates (atropine + pralidoxime), methanol/ethylene glycol (fomepizole/dialysis), iron (deferoxamine), copper/arsenic/gold (dimercaprol), lead (EDTA/succimer), methemoglobinemia (methylene blue), cyanide (nitrite + thiosulfate), opioids, benzos, TCAs, warfarin, heparin — the highest-yield table in toxicology."
+    },
+    {
+      "topicId": "drug-reactions-endocrine",
+      "title": "Drug Reactions: Endocrine & Reproductive",
+      "faSubsections": [
+        "Drug reactions—endocrine/reproductive"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          270
+        ],
+        "bookPages": "248"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "drug-reaction-endocrine-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "The endocrine/reproductive adverse-reaction table — from gynecomastia (spironolactone, cimetidine) to SIADH/hyponatremia (carbamazepine, SSRIs), adrenal insufficiency, hypothyroidism/hyperthyroidism, and the sexual-dysfunction families."
+    },
+    {
+      "topicId": "drug-reactions-hematologic",
+      "title": "Drug Reactions: Hematologic",
+      "faSubsections": [
+        "Drug reactions—hematologic"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "drug-reaction-hematologic-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "The hematologic adverse-reaction table — aplastic anemia (chloramphenicol, carbamazepine), agranulocytosis (methimazole, clozapine), megaloblastic (methotrexate, phenytoin), hemolysis (G6PD drugs, penicillin, methyldopa), SLE-like, thrombocytopenia, and the gray-baby/serotonin-syndrome classics."
+    },
+    {
+      "topicId": "drug-reactions-neurologic",
+      "title": "Drug Reactions: Neurologic",
+      "faSubsections": [
+        "Drug reactions—neurologic"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "drug-reaction-neurologic-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "The neurologic adverse-reaction table — seizures (bupropion, INH, the withdrawn drugs), tremor/other movement disorders (tardive dyskinesia, Parkinsonism), headache, peripheral neuropathy (INH, vincristine, metronidazole), and the cognitive effects."
+    },
+    {
+      "topicId": "pupil-size-cyp450",
+      "title": "Drugs Affecting Pupil Size & CYP-450 Interactions",
+      "faSubsections": [
+        "Drugs affecting pupil size",
+        "Cytochrome P-450 interactions (selected)"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "pupil-cyp-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "status": "pending",
+      "productionRationale": "The mydriasis/miosis drug lists (the classic pin-point-opioids vs blown-out-atropine/amphetamine/CO pairing) + the CYP-450 table of selected inducers (the chronic alcohol/phenytoin/rifampin family) and inhibitors (the cimetidine/erythromycin/ketoconazole/GFJ family)."
+    },
+    {
+      "topicId": "drug-names",
+      "title": "Drug Names: Prefixes, Suffixes & Stem Families",
+      "faSubsections": [
+        "Drug names",
+        "Drug names (continued)"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          274,
+          275
+        ],
+        "bookPages": "252–253"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "drug-name-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Miscellaneous",
+      "status": "pending",
+      "productionRationale": "The drug-name tables across both pages — the -prazole PPIs, -sartan ARBs, -olol β-blockers, -afil PDE-5s, -statin/-vastatin, gli- antidiabetics, -caine anesthetics, -pril ACEs, the dofa-/gab- families, and the suffix-to-class decoding rules."
+    },
+    {
+      "topicId": "biologic-agents",
+      "title": "Biologic Agents",
+      "faSubsections": [
+        "Biologic agents"
+      ],
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "visualHints": [
+        "biologic-agents-map"
+      ],
+      "mechanismHeavy": false,
+      "subsection": "Pharmacology — Miscellaneous",
+      "status": "pending",
+      "productionRationale": "The biologic agents table — the -mab monoclonal antibody families (the -xi-/-zu- humanization codes), the -cept fusion proteins, recombinant cytokines and enzymes, with their targets and indications."
     }
-  ],
-  "pendingTopicCount": null,
-  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Full subsection/topic extraction happens in Phase I-C, chapter by chapter — topics are authored deliberately, never mass-generated."
+  ]
 }

@@ -8,12 +8,10 @@
   "sourcePages": {
     "part": 1,
     "pdfPages": [
-      262,
       263,
-      264,
-      265
+      264
     ],
-    "bookPages": "240–243"
+    "bookPages": "241–242"
   },
   "sourceEvidence": [
     {
@@ -137,5 +135,6 @@
     "trackerSynced": "pass"
   },
   "productionStatus": "pilot-complete",
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-07",
+  "notes": " Scope corrected 2026-11-19 during the pharmacology census rebuild: declared range narrowed from pdf 262-265 (book 240-243) to the true evidence pages 263-264 (book 241-242); the p262 anticholinergic/atropine and p265 alpha-blocker content now owns muscarinic-antagonists and sympatholytics-alpha-blockers."
 }

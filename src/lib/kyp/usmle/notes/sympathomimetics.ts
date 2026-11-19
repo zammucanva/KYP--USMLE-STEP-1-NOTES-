@@ -12,7 +12,7 @@ export const sympathomimetics: KypUsMLENote = {
   pilotCategory: "Pharmacology mechanism",
   difficulty: 2,
   readTime: 12,
-  sourceRef: "First Aid 2026, Part 1 pp. 240–243 (sympathomimetics; physiologic effects; α-blockers)",
+  sourceRef: "First Aid 2026, Part 1 pp. 241–242 (sympathomimetics; physiologic effects of sympathomimetics)",
   tags: [
     "epinephrine",
     "norepinephrine",
