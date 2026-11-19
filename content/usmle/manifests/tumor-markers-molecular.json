@@ -1,0 +1,328 @@
+{
+  "topicId": "tumor-markers-molecular",
+  "title": "Tumor Markers, Molecular Diagnostics & IHC",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      244,
+      245
+    ],
+    "bookPages": "222–223"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the printed page number, the section banner, and the two block headers Oncogenic microbes + Serum tumor markers (book 222)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "222\n\nSEC TION II\n\nOncogenic microbes\n\nSerum tumor markers\n\nPATHOLOGY\n\n▶ PATHOLOGY—neOPLASIA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogenic microbes table header + part 1 — mICrOBe / ASSOCIATeD CAnCer (the source's odd-capitals headers); EBV (Burkitt lymphoma, Hodgkin lymphoma, nasopharyngeal carcinoma, 1° CNS lymphoma in immunocompromised patients); HBV, HCV (hepatocellular carcinoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "mICrOBe\n\nASSOCIATeD CAnCer\n\nEBV\n\nBurkitt lymphoma, Hodgkin lymphoma,\nnasopharyngeal carcinoma, 1° CNS\nlymphoma (in immunocompromised patients)\n\nHBV, HCV\n\nHepatocellular carcinoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogenic microbes table part 2 — HHV-8 (Kaposi sarcoma, printed with the source's own “Ka∞si” infinity-symbol joke); HPV usually types 16, 18 (cervical and penile/anal carcinoma, head and neck cancer); H pylori (gastric adenocarcinoma and MALT lymphoma); HTLV-1 (adult T-cell leukemia/lymphoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "HHV-8\n\nKaposi (“Ka∞si”) sarcoma\n\nHPV (usually types 16, 18)\n\nCervical and penile/anal carcinoma, head and\nneck cancer\n\nH pylori\n\nGastric adenocarcinoma and MALT lymphoma\n\nHTLV-1\n\nAdult T-cell Leukemia/Lymphoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogenic microbes table part 3 — liver fluke (Clonorchis sinensis) → cholangiocarcinoma; Schistosoma haematobium → squamous cell bladder cancer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "Liver fluke (Clonorchis sinensis)\n\nCholangiocarcinoma\n\nSchistosoma haematobium\n\nSquamous cell bladder cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The marker-use rule — tumor markers should not be used as the 1° tool for cancer diagnosis or screening; they may be used to monitor tumor recurrence and response to therapy, but definitive diagnosis is made via biopsy; some can be associated with non-neoplastic conditions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "Tumor markers should not be used as the 1° tool for cancer diagnosis or screening. They may be\nused to monitor tumor recurrence and response to therapy, but definitive diagnosis is made via\nbiopsy. Some can be associated with non-neoplastic conditions.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serum tumor markers table header + part 1 — mArKer / ImPOrTAnT ASSOCIATIOnS / nOTeS; alkaline phosphatase (metastases to bone or liver, Paget disease of bone, seminoma [PLAP] — exclude hepatic origin by checking LFTs and GGT levels); α-fetoprotein (HCC, yolk sac tumor, mixed germ cell tumor, ataxia-telangiectasia, neural tube defects — normally made by fetus, transiently elevated in pregnancy, high levels with neural tube and abdominal wall defects, low levels with Down syndrome); hCG (gestational trophoblastic disease, testicular cancer, mixed germ cell tumor — produced by syncytiotrophoblasts of the placenta)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "mArKer\n\nImPOrTAnT ASSOCIATIOnS\n\nnOTeS\n\nAlkaline phosphatase\n\nMetastases to bone or liver, Paget disease of\nbone, seminoma (PLAP).\n\nExclude hepatic origin by checking LFTs and\nGGT levels.\n\nα-fetoprotein\n\nHepatocellular carcinoma, endodermal sinus\n(yolk sac) tumor, mixed germ cell tumor,\nataxia-telangiectasia, neural tube defects.\n\nNormally made by fetus. Transiently elevated in\npregnancy. High levels associated with neural\ntube and abdominal wall defects, low levels\nassociated with Down syndrome.\n\nhCG\n\nHydatidiform moles and Choriocarcinomas\n(Gestational trophoblastic disease), testicular\ncancer, mixed germ cell tumor.\n\nProduced by syncytiotrophoblasts of the\nplacenta.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serum tumor markers table part 2 — the CA set and calcitonin: CA 15-3/CA 27-29 (breast cancer); CA 19-9 (pancreatic adenocarcinoma); CA 125 (epithelial ovarian cancer); calcitonin (medullary thyroid carcinoma alone and in MEN2A, MEN2B — printed with the source's own “Calci2nin.” mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "CA 15-3/CA 27-29\n\nBreast cancer.\n\nCA 19-9\n\nPancreatic adenocarcinoma.\n\nCA 125\n\nEpithelial ovarian cancer.\n\nCalcitonin\n\nMedullary thyroid carcinoma (alone and in\nMEN2A, MEN2B).\n\nCalci2nin.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serum tumor markers table part 3 — CEA (colorectal and pancreatic cancers with the minor gastric/breast/medullary thyroid associations — CarcinoEmbryonic Antigen, very nonspecific); chromogranin (neuroendocrine tumors); LDH (testicular germ cell tumors, ovarian dysgerminoma, other cancers); neuron-specific enolase (neuroendocrine tumors — small cell lung cancer, carcinoid tumor, neuroblastoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "CEA\n\nColorectal and pancreatic cancers.\nMinor associations: gastric, breast, and\nmedullary thyroid carcinomas.\n\nCarcinoEmbryonic Antigen. Very nonspecific.\n\nChromogranin\n\nNeuroendocrine tumors.\n\nLDH\n\nTesticular germ cell tumors, ovarian\ndysgerminoma, other cancers.\n\nNeuron-specific\nenolase\n\nNeuroendocrine tumors (eg, small cell lung\ncancer, carcinoid tumor, neuroblastoma).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serum tumor markers table part 4 — the PSA row (prostate cancer; Prostate-Specific Antigen—monitor recurrence/response, uncertain risk/benefit for screening, also ↑ in BPH/prostatitis), with the page-244 footer line and the LDH tumor-burden note cell interleaved in the raw text layer (physical order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "PSA\n\nProstate cancer.\n\nFAS1_2026_04-Pathol.indd 222\n\nCan be used as an indicator of tumor burden.\n\nProstate-Specific Antigen—monitor recurrence/\nresponse; uncertain risk/benefit for screening.\nAlso ↑ in BPH/prostatitis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page-244 footer print line and timestamp (page identity, book 222) — the raw text layer interleaves the bottom of the PSA NOTES cell between them (physical order; the contiguous range runs from the footer line through the timestamp)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 222\n\nCan be used as an indicator of tumor burden.\n\nProstate-Specific Antigen—monitor recurrence/\nresponse; uncertain risk/benefit for screening.\nAlso ↑ in BPH/prostatitis.\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity — the section banner and the printed page number (book 223)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "PATHOLOGY\n\n▶ PATHOLOGY—neOPLASIA\n\nSEC TION II\n\n223",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Cancer testing block — all 5 rows: tumor mutational burden (total number of mutations; may predict response to immune-checkpoint inhibitors); microsatellite instability testing (mismatch repair deficits, hallmark of Lynch syndrome; prognosis and treatment for colorectal adenocarcinoma and endometrial carcinoma); PD-L1 expression patterns (NSCLC, urothelial carcinoma; anti-PD-L1 and anti-PD1 antibodies); homologous recombination deficiency testing (genomic instability, breast/ovarian; PARP inhibitors); liquid biopsy (ctDNA, ctRNA, CTCs in body fluid — cancer profiling, treatment monitoring, post-treatment surveillance, early metastatic detection, personalized therapy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "Cancer testing\nTumor mutational\nburden\n\nTotal number of mutations present in cancer cells. May predict response to certain treatments (eg,\nimmune-checkpoint inhibitors).\n\nMicrosatellite\ninstability testing\n\nAssesses deficits in the mismatch repair pathway (hallmark of Lynch syndrome). Used to assess\nprognosis and determine treatment for certain cancers (eg, colorectal adenocarcinoma,\nendometrial carcinoma).\n\nPD-L1 expression\npatterns\n\nPD-L1 expressed to varying degrees in certain cancers (eg, NSCLC, urothelial carcinoma). May be\ntargeted with anti-PD-L1 and anti-PD1 antibodies.\n\nHomologous\nrecombination\ndeficiency testing\n\nIdentifies cancer types with genetic abnormalities and genomic instability (eg, breast, ovarian) that\nmay respond to certain treatments (eg, PARP inhibitors).\n\nLiquid biopsy\n\nNoninvasive diagnostic test in body fluid (eg, blood, urine) using circulating tumor DNA (ctDNA),\nRNA (ctRNA), or circulating tumor cells (CTCs) for cancer profiling (eg, EGFR in lung cancer),\ntreatment monitoring, and post-treatment surveillance (eg, colorectal cancer). Aids in early\nmetastatic detection and personalized therapy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Important immunohistochemical stains intro + table header — determine primary site of origin for metastatic tumors and characterize tumors that are difficult to classify, with prognostic and predictive value; STAIn / TArGeT / TUmOrS IDenTIfIeD (the source's odd-capitals headers; the sidebar header 'Important immunohistochemical stains' interleaves in the raw text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "Determine primary site of origin for metastatic tumors and characterize tumors that are difficult to\nImportant\nimmunohistochemical classify. Can have prognostic and predictive value.\nstains\nSTAIn\n\nTArGeT\n\nTUmOrS IDenTIfIeD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The immunohistochemical stains table part 1 — chromogranin and synaptophysin (neuroendocrine cells — small cell carcinoma of the lung, carcinoid tumor, neuroblastoma); cytokeratin (epithelial cells — epithelial tumors, eg squamous cell carcinoma); desmin (muscle — muscle tumors, eg rhabdomyosarcoma); GFAP (NeuroGlia — astrocytoma, glioblastoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "Chromogranin and\nsynaptophysin\n\nNeuroendocrine cells\n\nSmall cell carcinoma of the lung, carcinoid\ntumor, neuroblastoma\n\nCytokeratin\n\nEpithelial cells\n\nEpithelial tumors (eg, squamous cell carcinoma)\n\nDesmin\n\nMuscle\n\nMuscle tumors (eg, rhabdomyosarcoma)\n\nGFAP\n\nNeuroGlia (eg, astrocytes, Schwann cells,\noligodendrocytes)\n\nAstrocytoma, Glioblastoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The immunohistochemical stains table part 2 — neurofilament (neurons — neuronal tumors, eg neuroblastoma); PSA (prostatic epithelium — prostate cancer); PECAM-1/CD-31 (endothelial cells — vascular tumors, eg angiosarcoma); S-100 (neural crest cells — melanoma, schwannoma, Langerhans cell histiocytosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "Neurofilament\n\nNeurons\n\nNeuronal tumors (eg, neuroblastoma)\n\nPSA\n\nProstatic epithelium\n\nProstate cancer\n\nPECAM-1/CD-31\n\nEndothelial cells\n\nVascular tumors (eg, angiosarcoma)\n\nS-100\n\nNeural crest cells\n\nMelanoma, schwannoma, Langerhans cell\nhistiocytosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The immunohistochemical stains table part 3 — TRAP (tartrate-resistant acid phosphatase — hairy cell leukemia); vimentin (mesenchymal tissue — mesenchymal tumors, eg sarcoma, but also many other tumors: endometrial carcinoma, renal cell carcinoma, meningioma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "TRAP\n\nTartrate-resistant acid phosphatase\n\nHairy cell leukemia\n\nVimentin\n\nMesenchymal tissue (eg, fibroblasts, endothelial\ncells, macrophages)\n\nMesenchymal tumors (eg, sarcoma), but also\nmany other tumors (eg, endometrial carcinoma,\nrenal cell carcinoma, meningioma)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The P-glycoprotein paragraph — ATP-dependent efflux pump, also called multidrug resistance protein 1 (MDR1); expressed in some cancer cells to pump out toxins, including chemotherapeutic agents (one mechanism of ↓ responsiveness or resistance to chemotherapy over time — the ↓ prints as a control glyph in the raw text layer; VLM confirms it is ↓)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "P-glycoprotein\n\nATP-dependent efflux pump, also called multidrug resistance protein 1 (MDR1). Expressed in\nsome cancer cells to pump out toxins, including chemotherapeutic agents (one mechanism\nof ↓ responsiveness or resistance to chemotherapy over time).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line and timestamp (page identity, book 223)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 223\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "tumor-marker-map"
+  ],
+  "mechanismIds": [
+    "marker-use-rule-map",
+    "stain-lineage-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the rule paragraph and the four tables/blocks; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "diagnostic-three-frame-reading",
+      "summary": "The three-frame rule (the marker-use rule — monitor, don't screen, biopsy defines; the rosters — serum dashboard, microbe roster, molecular panel; and the lineage map — the IHC stains as embryonic-lineage tracers) — KYP's synthesis of the two pages into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tables as flat rosters without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's rule trio and lineage map"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (MARKERS MONITOR, BIOPSIES DEFINE / CANCER GROWS WHERE THE MICROBE LIVES / COUNT, MISMATCH, PAINT, REPAIR, DRAW / TRACE THE LINEAGE) — no mnemonic prints on either page.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin notes or mnemonics print anywhere on book 222–223 (pdfimages + VLM census confirmed); the four codes are KYP's design (the second frames the source's own table; the verbs of the third are original).",
+      "location": "mnemonics + the visual's band headers and testing-card verbs"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The marker-use-rule miniCase — a BPH-confounded PSA of 7.2 ng/mL in a 62-year-old man, discriminated across five distractors (PSA-as-diagnosis, BPH-excludes-cancer, hCG/AFP panel completion, liquid-biopsy-as-diagnosis, and serum-sent-for-IHC) with the printed rule as the solving layer.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rule and the PSA row; the vignette, the distractor set, and the rule-based discrimination are a KYP design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM glm-4.6v on p2x-244-244.png + p2x-245-245.png): ZERO raster images on pdf 244–245 / book 222–223 — pure tables and text blocks: the Oncogenic microbes table (8 rows), the marker-use rule paragraph + Serum tumor markers table (12 rows with NOTES), the Cancer testing block (5 rows), the Important immunohistochemical stains intro + table (10 rows), and the P-glycoprotein paragraph; no figures; NO margin notes or mnemonics print on either page (VLM census confirmed) — the registry visual is a pure ORIGINAL KYP ADAPTATION and the KYP memory layer is original. Source quirks preserved verbatim: HHV-8's cancer prints Kaposi (“Ka∞si”) sarcoma (the source's own infinity-symbol joke); Calcitonin's note prints “Calci2nin.” (the 2 of MEN 2); and every table header uses the book's odd embedded-capitals styling (mICrOBe / ASSOCIATeD CAnCer / mArKer / ImPOrTAnT ASSOCIATIOnS / nOTeS / STAIn / TArGeT / TUmOrS IDenTIfIeD) — all carried verbatim in the note's table blocks. Text-layer notes for the integrator: (1) the page-244 footer line interleaves inside the PSA row in physical order (the PSA quote range therefore includes the footer and the LDH tumor-burden note cell); (2) the P-glycoprotein paragraph's ↓ prints as a U+0090 control glyph in the raw layer (norm() strips it; VLM confirms the printed character is ↓ — the note renders it as ↓); (3) VLM confirms the 'Cancer testing' block prints with NO column-header row (test | description), so the note's TeST/DeSCRIPTION headers follow the source's odd-cap convention without reproducing a nonexistent header. STAGING manifest (staging-p18/) — promotion to content/usmle/manifests + content/usmle/visual-inventory + the chapter/tracker flip are deferred to the integration step (this generator deliberately does not touch content/). The note is authored at difficulty 2, matching the chapter registry entry for tumor-markers-molecular.",
+  "updatedAt": "2026-11-19"
+}

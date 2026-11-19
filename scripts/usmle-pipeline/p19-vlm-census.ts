@@ -1,0 +1,21 @@
+import ZAI, { VisionMessage } from 'z-ai-web-dev-sdk';
+import { readFileSync } from 'fs';
+async function main() {
+  const zai = await ZAI.create();
+  const guard = `IMPORTANT: This is a PAGE LAYOUT INSPECTION task. Do NOT write code, HTML, or CSS. Do NOT recreate the page. Describe exactly what is printed, then answer the numbered questions. Keep it factual and terse.`;
+  const png246 = readFileSync('/home/z/my-project/scripts/p-pages/p2x-246-246.png');
+  const png247 = readFileSync('/home/z/my-project/scripts/p-pages/p2x-247-247.png');
+  const desc = `These are pages 246 and 247 of First Aid for the USMLE Step 1 2026 (pdf 246-247 = printed book pages 224-225). Page 224 (first image) is PATHOLOGY—NEOPLASIA: the "Paraneoplastic syndromes" table with columns MANIFESTATION / DESCRIPTION/MECHANISM / MOST COMMONLY ASSOCIATED TUMOR(S), grouped into band labels. Page 225 (second image) is PATHOLOGY—AGING: "Normal aging" (a system-by-system table: Cardiovascular, Gastrointestinal, Hematopoietic, Immune, Musculoskeletal, Nervous, Special senses, Skin, Renal, Reproductive, Respiratory) + a "Lipofuscin" block. pdfimages reports: p246 ZERO raster images; p247 ONE 175x126 8bpc image lettered A beside the Lipofuscin block.
+Questions:
+1) PAGE 225: Describe photograph A precisely — what kind of image is it (histology micrograph? gross photo?), what tissue does it show, what does the pigment look like (color, granular pattern, distribution in cells), where does the letter A sit, and what are its approximate size and position on the page (which block is it beside/below)?
+2) PAGE 224: Confirm the paraneoplastic table's group bands and their order (Musculoskeletal and cutaneous / Endocrine / Hematologic / Neuromuscular). Describe how the mechanism column interleaves with the tumor column visually — specifically: (a) is "Hypercalcemia" one manifestation cell spanning TWO mechanism rows (PTHrP with squamous cell carcinomas of lung/head/neck, renal, bladder, breast, ovarian; and ↑ 1,25-(OH)2 vitamin D3/calcitriol with Lymphoma)? (b) which band does the PTHrP row sit in versus the calcitriol row? (c) do "Small cell lung cancer" and "Thymoma" appear as tall merged tumor cells spanning multiple endocrine/hematologic rows?
+3) PAGE 224: Confirm the rows in each band: Musculoskeletal and cutaneous (Dermatomyositis; Acanthosis nigricans; Sign of Leser-Trélat; Hypertrophic osteoarthropathy); Endocrine (Cushing syndrome ↑ACTH; Hyponatremia/SIADH ↑ADH — Small cell lung cancer); Hematologic (Polycythemia ↑Erythropoietin with Pheochromocytoma, renal cell carcinoma, HCC, hemangioblastoma, leiomyoma; Pure red cell aplasia; Good syndrome — Thymoma; Trousseau syndrome; Nonbacterial thrombotic endocarditis — Adenocarcinomas especially pancreatic); Neuromuscular (Anti-NMDA receptor encephalitis — Ovarian teratoma; Opsoclonus-myoclonus ataxia syndrome "Dancing eyes, dancing feet" — Neuroblastoma children, SCLC adults; Paraneoplastic cerebellar degeneration anti-Purkinje — SCLC anti-Hu, gynecologic/breast anti-Yo, Hodgkin anti-Tr; Paraneoplastic encephalomyelitis Anti-Hu; Lambert-Eaton myasthenic syndrome presynaptic P/Q-type Ca2+ channels; Myasthenia gravis postsynaptic ACh receptors — Thymoma).
+4) PAGE 225: Confirm the aging table's system rows and their arrow directions (Cardiovascular ↓ arterial compliance etc; Respiratory ↑ lung compliance, ↓ elastic recoil, TLC unchanged...) and the two skin bullets (Intrinsic aging — ↓ biosynthetic capacity of dermal fibroblasts; Extrinsic aging/photoaging — UVA collagen degradation, solar elastosis).
+5) Any margin notes or mnemonics on either page? Quote verbatim (eg, a note beside the Polycythemia row reading "Paraneoplastic rise to High hematocrit levels"?).`;
+  const messages: VisionMessage[] = [
+    { role: 'user', content: [ { type: 'text', text: `${guard}\n\n${desc}\n\nInspect both pages now.` }, { type: 'image_url', image_url: { url: `data:image/png;base64,${png246.toString('base64')}` } }, { type: 'image_url', image_url: { url: `data:image/png;base64,${png247.toString('base64')}` } } ] },
+  ];
+  const r = await zai.chat.completions.createVision({ model: 'glm-4.6v', messages, thinking: { type: 'disabled' } });
+  console.log(r.choices?.[0]?.message?.content ?? '');
+}
+main().catch((e) => { console.error(e); process.exit(1); });

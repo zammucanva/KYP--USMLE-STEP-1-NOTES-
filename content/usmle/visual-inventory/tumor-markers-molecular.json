@@ -1,0 +1,101 @@
+{
+  "topicId": "tumor-markers-molecular",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "tumor-markers-molecular",
+      "requiredInKYP": true,
+      "visualId": "tumor-markers-molecular-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          244
+        ],
+        "bookPages": "222"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Oncogenic microbes table (book 222)",
+      "sourceFigureDescription": "The 8-row mICrOBe / ASSOCIATeD CAnCer table (EBV; HBV, HCV; HHV-8 — printed with the source's own “Ka∞si” joke; HPV usually types 16, 18; H pylori; HTLV-1; liver fluke [Clonorchis sinensis]; Schistosoma haematobium) with their associated cancers. Pure text — no figure (pdfimages: zero rasters; VLM confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "tumor-marker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the oncogenic-microbe roster band as 8 pathogen→cancer pairs with their residence rules) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "tumor-marker-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "tumor-markers-molecular",
+      "requiredInKYP": true,
+      "visualId": "tumor-markers-molecular-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          244,
+          245
+        ],
+        "bookPages": "222–223"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Serum tumor markers rule + table (book 222) and the Cancer testing block (book 223)",
+      "sourceFigureDescription": "The marker-use rule paragraph (not the 1° tool for diagnosis or screening; monitor recurrence and response; biopsy definitive; non-neoplastic associations) + the 12-row mArKer / ImPOrTAnT ASSOCIATIOnS / nOTeS table (alkaline phosphatase, α-fetoprotein, hCG, CA 15-3/CA 27-29, CA 19-9, CA 125, calcitonin — with “Calci2nin.”, CEA, chromogranin, LDH, neuron-specific enolase, PSA) + the 5-row Cancer testing block (tumor mutational burden, microsatellite instability testing, PD-L1 expression patterns, homologous recombination deficiency testing, liquid biopsy). Pure text — no figure (pdfimages: zero rasters; VLM confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "tumor-marker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the rule trio + confounder strip, the serum dashboard grid with the AFP pregnancy fork highlighted and the PSA BPH/prostatitis trap flagged, and the modern molecular panel as five COUNT/MISMATCH/PAINT/REPAIR/DRAW cards) + blocks[1] the rule text block, blocks[3] the markers table, and blocks[4] the testing table carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "tumor-marker-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "tumor-markers-molecular",
+      "requiredInKYP": true,
+      "visualId": "tumor-markers-molecular-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          245
+        ],
+        "bookPages": "223"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Important immunohistochemical stains table + the P-glycoprotein paragraph (book 223)",
+      "sourceFigureDescription": "The stains intro (determine primary site of origin for metastatic tumors; prognostic and predictive value) + the 10-row STAIn / TArGeT / TUmOrS IDenTIfIeD table (chromogranin and synaptophysin, cytokeratin, desmin, GFAP, neurofilament, PSA, PECAM-1/CD-31, S-100, TRAP, vimentin) + the P-glycoprotein paragraph (ATP-dependent efflux pump, MDR1, chemotherapy resistance). Pure text — no figure (pdfimages: zero rasters; VLM confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "tumor-marker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the IHC lineage map with its lineage-header cards and the organ-specific pair, plus the P-glycoprotein efflux-pump glyph) + blocks[5] the stains table and blocks[6] the P-glycoprotein text block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "tumor-marker-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "tumor-markers-molecular",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both pages are pure text (pdfimages: ZERO raster images; VLM census confirmed) — their 'visuals' are the four tables/blocks themselves, grouped here as three inventory records (microbes table; markers rule + table + cancer testing; IHC stains + P-glycoprotein), each adapted as the registry visual (ORIGINAL_KYP ADAPTATION, the P18 convention: an original rule trio, roster grids, a modern-diagnostics panel, a lineage map, and an efflux glyph, with every row carried verbatim in the note's table blocks) and nothing reproduced. No margin notes or mnemonics print on either page; the KYP memory layer is original."
+}

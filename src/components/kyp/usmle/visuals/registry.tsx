@@ -12,6 +12,9 @@ import { HallmarksOfCancerMap } from "./neoplasia-p13";
 import { ImmunotherapyTargetMap } from "./neoplasia-p14";
 import { MetastasisRouteMap } from "./neoplasia-p15";
 import { OncogeneTumorSuppressorMap } from "./neoplasia-p16";
+import { CarcinogenOrganMap } from "./neoplasia-p17";
+import { TumorMarkerMap } from "./neoplasia-p18";
+import { ParaneoplasticSyndromeMap } from "./neoplasia-p19";
 import { AvBlockEcgGallery } from "./ecg";
 import {
   AcidBaseAlgorithm,
@@ -356,4 +359,7 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "immunotherapy-target-map": ImmunotherapyTargetMap,
   "metastasis-route-map": MetastasisRouteMap,
   "oncogene-tumor-suppressor-map": OncogeneTumorSuppressorMap,
+  "carcinogen-organ-map": CarcinogenOrganMap,
+  "tumor-marker-map": TumorMarkerMap,
+  "paraneoplastic-syndrome-map": ParaneoplasticSyndromeMap,
 };

@@ -1,0 +1,100 @@
+{
+  "topicId": "paraneoplastic-aging",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          246
+        ],
+        "bookPages": "224"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Paraneoplastic syndromes table (book 224)",
+      "sourceFigureDescription": "The four-band table (Musculoskeletal and cutaneous / Endocrine / Hematologic / Neuromuscular) with 19 manifestation rows across three printed columns (mAnIfeSTATIOn / DeSCrIPTIOn/meCHAnISm / mOST COmmOnLY ASSOCIATeD TUmOr(S)), the two-row Hypercalcemia span, the merged SCLC and Thymoma tumor cells, and the source's own polycythemia mnemonic. Pure text — pdfimages: ZERO rasters on the page.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "paraneoplastic-syndrome-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the four family bands with manifestation-mechanism-tumor rows, the ectopic-hormone tags, and the hotspot cards) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "paraneoplastic-syndrome-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Normal aging table (book 225)",
+      "sourceFigureDescription": "The aging definition (time-dependent progressive decline; genetic/epigenetic/metabolic alterations) and the 11-system decline table (Cardiovascular, Gastrointestinal, Hematopoietic, Immune, Musculoskeletal, Nervous, Special senses, Skin, Renal, Reproductive, Respiratory) with the intrinsic-vs-extrinsic skin fork. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "paraneoplastic-syndrome-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the three-clocks definition strip + the eleven-system decline grid + the skin fork) + blocks[2] the aging rows carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "paraneoplastic-syndrome-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "paraneoplastic-aging",
+      "requiredInKYP": true,
+      "visualId": "paraneoplastic-aging-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          247
+        ],
+        "bookPages": "225"
+      },
+      "visualType": "HISTOLOGY",
+      "visualPurpose": "Photograph A — the Lipofuscin 'wear and tear' pigment micrograph (book 225)",
+      "sourceFigureDescription": "The ONE 175x126 8bpc raster on the page, lettered A beside the Lipofuscin block: a histology micrograph on a pale pink/lavender tissue background (consistent with cardiac or liver tissue) showing scattered yellow-brown granular pigment deposits within cells, with two black arrows pointing to the dark-brown granule clusters; the letter A sits in a small dark box at the image's top-left, ~1.9 x 1.4 in directly below the bold Lipofuscin label. COPYRIGHTED — described in text, never reproduced (the M32 convention; the description-in-text IS the adaptation, per the P11 sv3/sv5 photo convention).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "paraneoplastic-syndrome-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's Lipofuscin card + blocks[2] the lipofuscin row (the note block)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "paraneoplastic-syndrome-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "paraneoplastic-aging",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Three source visuals: the paraneoplastic table (p246, pure text — ZERO rasters), the Normal aging table (p247, pure text), and photograph A (the p247 175x126 lettered lipofuscin micrograph). All three are adapted as the registry visual (an ORIGINAL KYP ADAPTATION — the paraneoplastic four-band map, the eleven-system aging grid, and the Lipofuscin card) and the note's table blocks carry the rows verbatim. The photograph is COPYRIGHTED — described in text, never reproduced (the M32 convention; the description-in-text is the adaptation, per the P11 sv3/sv5 photo convention). p248 (the printed NOTES page) carries no visuals. Nothing reproduced; the KYP memory layer is original. STAGING COPY — the content/ inventory tree is intentionally untouched by this subtask."
+}

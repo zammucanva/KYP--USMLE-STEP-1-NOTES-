@@ -106,6 +106,9 @@ import { cancerHallmarks } from "./cancer-hallmarks";
 import { cancerImmunotherapyEpidemiology } from "./cancer-immunotherapy-epidemiology";
 import { metastasisPatterns } from "./metastasis-patterns";
 import { oncogenesTumorSuppressors } from "./oncogenes-tumor-suppressors";
+import { chemicalCarcinogens } from "./chemical-carcinogens";
+import { tumorMarkersMolecular } from "./tumor-markers-molecular";
+import { paraneoplasticAging } from "./paraneoplastic-aging";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -295,6 +298,9 @@ export const usmleNotes: KypUsMLENote[] = [
   cancerImmunotherapyEpidemiology,
   metastasisPatterns,
   oncogenesTumorSuppressors,
+  chemicalCarcinogens,
+  tumorMarkersMolecular,
+  paraneoplasticAging,
   cranialNerves,
   diabetesMellitus,
 ];

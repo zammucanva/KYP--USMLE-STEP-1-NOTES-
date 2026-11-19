@@ -1,0 +1,46 @@
+{
+  "topicId": "chemical-carcinogens",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "chemical-carcinogens",
+      "requiredInKYP": true,
+      "visualId": "chemical-carcinogens-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          243
+        ],
+        "bookPages": "221"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 12-row Carcinogens table (book 221)",
+      "sourceFigureDescription": "One pure text table — TOXIN / EXPOSURE / ORGAN / IMPACT (header extracts as “TOXIn / eXPOSUre / OrGAn / ImPACT”, odd internal caps) — 12 rows: aflatoxins, alkylating agents, aromatic amines, arsenic (three-organ fan), asbestos, tobacco smoke (eight organs, the interleaved row), ethanol, ionizing radiation, nickel/chromium/beryllium/silica, nitrosamines, radon, vinyl chloride (organ prints “LiVer”). ZERO raster images on the page (pdfimages + VLM census, two rounds).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "carcinogen-organ-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (four bands: FUNGI & CHEMICALS / METALS & DUSTS / RADIATION / LIFESTYLE, the multi-organ fan chips, the angiosarcoma-pair callout, the radon #2 note) + blocks[1] the table carried verbatim + blocks[2] the tobacco pairing table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "carcinogen-organ-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "chemical-carcinogens",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's single visual element is its text table (pdfimages + VLM census: ZERO rasters) — adapted as the registry visual and carried verbatim in the note's tables. The tobacco row's text-layer interleave is resolved by the VLM census (one row between Asbestos and Ethanol, blank exposure, alphabetical 8-organ list paired line-by-line with 8 impacts) and is documented in the manifest notes. No mnemonics print on the page (VLM confirmed); the four KYP mnemonics are original. Nothing reproduced."
+}
