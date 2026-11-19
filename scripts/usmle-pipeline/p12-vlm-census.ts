@@ -1,0 +1,21 @@
+import ZAI, { VisionMessage } from 'z-ai-web-dev-sdk';
+import { readFileSync } from 'fs';
+async function main() {
+  const zai = await ZAI.create();
+  const guard = `IMPORTANT: This is a PAGE LAYOUT INSPECTION task. Do NOT write code, HTML, or CSS. Do NOT recreate the page. Describe exactly what is printed, then answer the numbered questions. Keep it factual and terse.`;
+  const png = readFileSync('/home/z/my-project/scripts/p-pages/p1x-237-237.png');
+  const png2 = readFileSync('/home/z/my-project/scripts/p-pages/p1x-238-238.png');
+  const desc = `These are pages 237 and 238 of First Aid for the USMLE Step 1 2026 (pdf 237-238 = printed book pages 215-216, PATHOLOGY — NEOPLASIA: "Neoplasia and neoplastic progression" on 215, "Tumor nomenclature" + "Tumor grade vs stage" on 216). pdfimages reports ZERO raster images on either page — everything should be text + vector line art.
+Questions:
+1) PAGE 215: Describe the neoplastic-progression figure in detail — how many tissue panels/stations does it show left-to-right, and what does each show? Expected: normal cells with basal-to-apical polarity, dysplasia (pleomorphic cells, still inside the basement membrane), carcinoma in situ (atypical cells through the entire epithelial thickness with the basement membrane intact), invasive carcinoma (cells breaching through the basement membrane into the lamina propria/stroma), metastasis (cells entering a blood or lymphatic vessel and spreading to distant organs). Where are the labels "Epithelial cell layer", "Basement membrane", "Blood or lymphatic vessel" positioned (top, bottom, per-panel)? Is there a repeated label pattern or a legend? Are there arrows between panels?
+2) PAGE 215: Below/around the figure, confirm the five printed definitions: Normal cells (basal → apical polarity, cervical example), Dysplasia (pleomorphism, loss of tissue orientation, ↑ nuclear:cytoplasmic ratio, often reversible), Carcinoma in situ/preinvasive (irreversible severe dysplasia involving the entire thickness of epithelium but not penetrating the intact basement membrane), Invasive carcinoma (invaded basement membrane using collagenases and hydrolases [metalloproteinases]; cell-cell contacts lost by inactivation of E-cadherin), Metastasis (spread to distant organ(s) via lymphatics or blood).
+3) PAGE 216: Confirm the nomenclature table layout: column headers "CELL TYPE", "BENIGN", "MALIGNANT". Is "Mesenchyme" a row-GROUP label that spans (sits above/beside) the Blood vessels, Smooth muscle, Striated muscle, Connective tissue, Bone, and Fat rows — i.e., those six rows are grouped under a "Mesenchyme" label while "Epithelium" and "Blood cells" are separate cell-type rows? Does the "Blood cells" row have an EMPTY benign cell with only "Leukemia, lymphoma" in the MALIGNANT column? Confirm all rows: Epithelium (Adenoma, papilloma vs Adenocarcinoma, papillary carcinoma); Blood cells (— vs Leukemia, lymphoma); Blood vessels (Hemangioma vs Angiosarcoma); Smooth muscle (Leiomyoma vs Leiomyosarcoma); Striated muscle (Rhabdomyoma vs Rhabdomyosarcoma); Connective tissue (Fibroma vs Fibrosarcoma); Bone (Osteoma vs Osteosarcoma); Fat (Lipoma vs Liposarcoma); Melanocyte (Nevus/mole vs Melanoma).
+4) PAGE 216: Describe the grade-vs-stage figure: is there art with "Low grade" and "High grade" tissue circles/cells, a "T" primary-tumor glyph, "N" with a lymph node drawing, "M" with a blood-or-lymphatic vessel drawing, and "Spread to other organs and tissues"? Where do these sit relative to the Grade/Stage text columns?
+5) Any margin notes, mnemonics, or memory tips printed anywhere on either page? Quote verbatim if present.`;
+  const messages: VisionMessage[] = [
+    { role: 'user', content: [ { type: 'text', text: `${guard}\n\n${desc}\n\nInspect both pages now.` }, { type: 'image_url', image_url: { url: `data:image/png;base64,${png.toString('base64')}` } }, { type: 'image_url', image_url: { url: `data:image/png;base64,${png2.toString('base64')}` } } ] },
+  ];
+  const r = await zai.chat.completions.createVision({ model: 'glm-4.6v', messages, thinking: { type: 'disabled' } });
+  console.log(r.choices?.[0]?.message?.content ?? '');
+}
+main().catch((e) => { console.error(e); process.exit(1); });

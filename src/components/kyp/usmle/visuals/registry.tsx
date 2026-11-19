@@ -7,6 +7,11 @@
 import type { ComponentType } from "react";
 
 import { AcutePhaseReactantMap, LeukocyteTraffickingMap, WoundHealingPhaseMap, GranulomaScarMap } from "./inflammation";
+import { NomenclatureProgressionMap } from "./neoplasia-p12";
+import { HallmarksOfCancerMap } from "./neoplasia-p13";
+import { ImmunotherapyTargetMap } from "./neoplasia-p14";
+import { MetastasisRouteMap } from "./neoplasia-p15";
+import { OncogeneTumorSuppressorMap } from "./neoplasia-p16";
 import { AvBlockEcgGallery } from "./ecg";
 import {
   AcidBaseAlgorithm,
@@ -346,4 +351,9 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "leukocyte-trafficking-map": LeukocyteTraffickingMap,
   "wound-healing-phase-map": WoundHealingPhaseMap,
   "granuloma-scar-map": GranulomaScarMap,
+  "nomenclature-progression-map": NomenclatureProgressionMap,
+  "hallmarks-of-cancer-map": HallmarksOfCancerMap,
+  "immunotherapy-target-map": ImmunotherapyTargetMap,
+  "metastasis-route-map": MetastasisRouteMap,
+  "oncogene-tumor-suppressor-map": OncogeneTumorSuppressorMap,
 };

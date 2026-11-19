@@ -1,0 +1,73 @@
+{
+  "topicId": "oncogenes-tumor-suppressors",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "oncogenes-tumor-suppressors",
+      "requiredInKYP": true,
+      "visualId": "oncogenes-tumor-suppressors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Oncogenes block (book 220)",
+      "sourceFigureDescription": "The gain-of-function rule paragraph (requires damage to only one allele of a proto-oncogene) + the 12-row GENE / GENE PRODUCT / ASSOCIATED NEOPLASM table (ALK, EGFR (ERBB1), HER2 (ERBB2), RET, BCR-ABL, JAK2, BRAF, c-KIT, MYCC (c-myc), MYCN (N-myc), KRAS, BCL-2). Pure text — no figure (pdfimages: zero rasters; VLM confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "oncogene-tumor-suppressor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the rule panel's one-hit half + the oncogene roster as a kinase-classification grid) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "oncogene-tumor-suppressor-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "oncogenes-tumor-suppressors",
+      "requiredInKYP": true,
+      "visualId": "oncogenes-tumor-suppressors-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Tumor suppressor genes block (book 220)",
+      "sourceFigureDescription": "The loss-of-function rule paragraph (both (two) alleles must be lost — the Knudson 2-hit hypothesis) + the 15-row GENE / GENE PRODUCT / ASSOCIATED CONDITION table (APC, BRCA1/BRCA2, CDKN2A, DCC, SMAD4 (DPC4), MEN1, NF1, NF2, PTEN, RB1, TP53, TSC1, TSC2, VHL, WT1). Pure text — no figure (pdfimages: zero rasters; VLM confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "oncogene-tumor-suppressor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the rule panel's two-hit Knudson fork + the tumor-suppressor roster as a function-family grid) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "oncogene-tumor-suppressor-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "oncogenes-tumor-suppressors",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page is pure text (pdfimages: ZERO raster images; VLM census confirmed) — its two 'visuals' are the two tables themselves, each adapted as the registry visual (ORIGINAL_KYP ADAPTATION, the P16 convention: an original rule panel + classification grids, with every row carried verbatim in the note's table blocks) and nothing reproduced. No margin notes or mnemonics print on the page; the KYP memory layer is original."
+}

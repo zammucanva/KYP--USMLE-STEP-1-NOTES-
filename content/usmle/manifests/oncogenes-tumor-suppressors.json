@@ -1,0 +1,262 @@
+{
+  "topicId": "oncogenes-tumor-suppressors",
+  "title": "Oncogenes & Tumor Suppressor Genes",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      242
+    ],
+    "bookPages": "220–220"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, the printed page number, and the Oncogenes header (book 220)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "220\n\nSEC TION II\n\nPATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA\n\nOncogenes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogene rule — gain of function mutation converts proto-oncogene (normal gene) to oncogene → ↑ cancer risk; requires damage to only ONE allele of a proto-oncogene",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "Gain of function mutation converts proto-oncogene (normal gene) to oncogene → ↑ cancer risk.\nRequires damage to only one allele of a proto-oncogene.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogene table header — GENE / GENE PRODUCT / ASSOCIATED NEOPLASM (the source's embedded capitals 'GeNe')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "GeNe\n\nGeNe PRODUCT\n\nASSOCIATeD NeOPLASM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogene table part 1 — the receptor tyrosine kinase rows: ALK (lung adenocarcinoma), EGFR/ERBB1 (lung adenocarcinoma), HER2/ERBB2 (breast and gastric carcinomas), RET (printed 'REceptor Tyrosine kinase'; MEN2A and 2B, medullary and papillary thyroid carcinoma, pheochromocytoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "ALK\n\nReceptor tyrosine kinase\n\nLung adenocarcinoma\n\nEGFR (ERBB1)\n\nReceptor tyrosine kinase\n\nLung adenocarcinoma\n\nHER2 (ERBB2)\n\nReceptor tyrosine kinase\n\nBreast and gastric carcinomas\n\nRET\n\nREceptor Tyrosine kinase\n\nMEN2A and 2B, medullary and papillary\nthyroid carcinoma, pheochromocytoma",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogene table part 2 — the kinase rows: BCR-ABL (non-receptor tyrosine kinase; CML, ALL), JAK2 (non-receptor tyrosine kinase; myeloproliferative neoplasms), BRAF (serine/threonine kinase; melanoma, non-Hodgkin lymphoma, colorectal carcinoma, papillary thyroid carcinoma, hairy cell leukemia), c-KIT (printed 'CytoKIne receptor (CD117)'; GIST, mastocytosis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "BCR-ABL\n\nNon-receptor tyrosine kinase\n\nCML, ALL\n\nJAK2\n\nNon-receptor tyrosine kinase\n\nMyeloproliferative neoplasms\n\nBRAF\n\nSerine/threonine kinase\n\nMelanoma, non-Hodgkin lymphoma, colorectal\ncarcinoma, papillary thyroid carcinoma, hairy\ncell leukemia\n\nc-KIT\n\nCytoKIne receptor (CD117)\n\nGastrointestinal stromal tumor (GIST),\nmastocytosis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The oncogene table part 3 — the non-kinase rows: MYCC/c-myc (transcription factor; Burkitt lymphoma), MYCN/N-myc (transcription factor; neuroblastoma), KRAS (RAS GTPase; pancreatic, colorectal, lung, endometrial cancers), BCL-2 (antiapoptotic molecule — inhibits apoptosis; follicular and diffuse large B-Cell Lymphomas)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "MYCC (c-myc)\n\nTranscription factor\n\nBurkitt lymphoma\n\nMYCN (N-myc)\n\nTranscription factor\n\nNeuroblastoma\n\nKRAS\n\nRAS GTPase\n\nPancreatic, colorectal, lung, endometrial\ncancers\n\nBCL-2\n\nAntiapoptotic molecule (inhibits apoptosis)\n\nFollicular and diffuse large B-Cell Lymphomas",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor rule — loss of function → ↑ cancer risk; both (two) alleles of a tumor suppressor gene must be lost for expression of disease (the Knudson 2-hit hypothesis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "Tumor suppressor\ngenes\n\nLoss of function → ↑ cancer risk; both (two) alleles of a tumor suppressor gene must be lost for\nexpression of disease (the Knudson 2-hit hypothesis).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor table header — GENE / GENE PRODUCT / ASSOCIATED CONDITION (the source's embedded capitals 'GeNe')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "GeNe\n\nGeNe PRODUCT\n\nASSOCIATeD CONDITION",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor table part 1 — APC (negative regulator of β-catenin/WNT; colorectal cancer associated with FAP), BRCA1/BRCA2 (proteins; printed 'BReast, ovarian, prostate, pancreatic CAncers'), CDKN2A (p16, blocks G1 → S phase; many cancers — melanoma, lung, pancreatic), DCC (DCC—Deleted in Colorectal Cancer; colorectal cancer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "APC\n\nNegative regulator of β-catenin/WNT pathway\n\nColorectal cancer (associated with FAP)\n\nBRCA1/BRCA2\n\nBRCA1/BRCA2 proteins\n\nBReast, ovarian, prostate, pancreatic CAncers\n\nCDKN2A\n\np16, blocks G1 → S phase\n\nMany cancers (eg, melanoma, lung, pancreatic)\n\nDCC\n\nDCC—Deleted in Colorectal Cancer\n\nColorectal cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor table part 2 — SMAD4/DPC4 (DPC—Deleted in Pancreatic Cancer; pancreatic and colorectal cancer), MEN1 (MENin; Multiple Endocrine Neoplasia type 1), NF1 (Neurofibromin, Ras GTPase activating protein; NeuroFibromatosis type 1), NF2 (Merlin/schwannomin protein; NeuroFibromatosis type 2), PTEN (negative regulator of PI3k/AKT; printed 'Prostate, breasT, and ENdometrial cancers')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "SMAD4 (DPC4)\n\nDPC—Deleted in Pancreatic Cancer\n\nPancreatic cancer, colorectal cancer\n\nMEN1\n\nMENin\n\nMultiple Endocrine Neoplasia type 1\n\nNF1\n\nNeurofibromin (Ras GTPase activating protein)\n\nNeuroFibromatosis type 1\n\nNF2\n\nMerlin (schwannomin) protein\n\nNeuroFibromatosis type 2\n\nPTEN\n\nNegative regulator of PI3k/AKT pathway\n\nProstate, breasT, and ENdometrial cancers",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor table part 3 — the G1→S gatekeepers and the tuberous sclerosis pair: RB1 (inhibits E2F; blocks G1 → S; retinoblastoma, osteosarcoma — printed '(Bone cancer)'), TP53 (p53 activates p21, blocks G1 → S; most cancers, Li-Fraumeni SBLA syndrome — Sarcoma, Breast/Brain, Lung/Leukemia, Adrenal gland), TSC1 (Hamartin protein; tuberous sclerosis complex), TSC2 (Tuberin, printed '2berin'; tuberous sclerosis complex)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "RB1\n\nInhibits E2F; blocks G1 → S phase\n\nRetinoblastoma, osteosarcoma (Bone cancer)\n\nTP53\n\np53, activates p21, blocks G1 → S phase\n\nMost cancers, Li-Fraumeni (SBLA) syndrome\n(multiple malignancies at early age; Sarcoma,\nBreast/Brain, Lung/Leukemia, Adrenal gland)\n\nTSC1\n\nHamartin protein\n\nTuberous sclerosis complex\n\nTSC2\n\nTuberin (“2berin”)\n\nTuberous sclerosis complex",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The tumor suppressor table part 4 — VHL (inhibits hypoxia-inducible factor 1α; von Hippel-Lindau disease), WT1 (urogenital development transcription factor; Wilms Tumor / nephroblastoma)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "VHL\n\nInhibits hypoxia-inducible factor 1α\n\nvon Hippel-Lindau disease\n\nWT1\n\nUrogenital development transcription factor\n\nWilms Tumor (nephroblastoma)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line and timestamp (page identity, book 220)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          242
+        ],
+        "bookPages": "220"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 220\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "oncogene-tumor-suppressor-map"
+  ],
+  "mechanismIds": [
+    "one-hit-two-hit-map",
+    "gatekeeper-pathway-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two rule paragraphs and the two tables; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "three-frame-reading",
+      "summary": "The three-frame rule (the allele arithmetic, the oncogene address membrane→cytoplasm→nucleus, and the suppressor brake gatekeeper/pathway/eponym) — KYP's synthesis of the two tables into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tables as flat rosters without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's rule panel and roster grids"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (GAIN ONE, LOSE TWO / MEMBRANE, CYTOPLASM, NUCLEUS / GUARD THE GATE, REGULATE THE PATHWAY / THE 2s GET THE NICKNAMES) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin notes or mnemonics print anywhere on book 220 (pdfimages + VLM census confirmed); the four codes are KYP's design (the fourth builds on the source's own printed '2berin' pun but the framing is original).",
+      "location": "mnemonics + the visual's rule panel and function-family headers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The allele-count miniCase — the inherited TP53 Li-Fraumeni (SBLA) pedigree discriminated from germline RET (one-hit oncogene), RB1, BRCA1/BRCA2, and APC (all two-hit suppressors) with the allele-count reasoning as the solving layer.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the genes and rules; the pedigree, the distractor set, and the allele-count discrimination are a KYP design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM glm-4.6v on p1x-242-242.png): ZERO raster images on pdf 242 / book 220 — pure text: the Oncogenes block (gain-of-function one-allele rule + 12-row table) back-to-back with the Tumor suppressor genes block (loss-of-function Knudson 2-hit rule + 15-row table); no figures; NO margin notes or mnemonics print on the page (VLM census confirmed) — the registry visual is a pure ORIGINAL KYP ADAPTATION and the KYP memory layer is original. Source quirks preserved verbatim (the source's own mnemonic-style embedded capitals): RET's product prints 'REceptor Tyrosine kinase'; c-KIT's prints 'CytoKIne receptor (CD117)'; BRCA1/BRCA2's condition prints 'BReast, ovarian, prostate, pancreatic CAncers'; PTEN's prints 'Prostate, breasT, and ENdometrial cancers'; NF1/NF2's print 'NeuroFibromatosis'; RB1's prints '(Bone cancer)'; BCL-2's prints 'B-Cell Lymphomas'; TSC2's product prints Tuberin ('2berin'). STAGING manifest (staging-p16/) — promotion to content/usmle/manifests + the chapter/tracker flip are deferred to the integration step (this generator deliberately does not touch content/). The note is authored at difficulty 2 per the production task spec (the chapter registry lists difficulty 3 — flagged for the integrator).",
+  "updatedAt": "2026-11-19"
+}

@@ -1,0 +1,75 @@
+{
+  "topicId": "neoplasia-nomenclature",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          237,
+          238
+        ],
+        "bookPages": "215–216"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The progression definitions + naming rules + the 9-row nomenclature table + the grade/stage columns (book 215-216)",
+      "sourceFigureDescription": "The parenchyma-plus-stroma definition, the five station definitions (normal polarity / dysplasia / carcinoma in situ / invasive carcinoma / metastasis), the naming rules with the benign and malignant trait lists, hamartoma vs choristoma, the full nomenclature table (with the Mesenchyme row-group label and the Blood cells row's empty BENIGN cell), and both grade/stage columns with the TNM bullets and the stage-determines-survival verdict. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "nomenclature-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the progression stations + the naming rules band + the table band + the grade/stage band) + blocks[1]-blocks[4] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "nomenclature-progression-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "neoplasia-nomenclature",
+      "requiredInKYP": true,
+      "visualId": "neoplasia-nomenclature-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          237,
+          238
+        ],
+        "bookPages": "215–216"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The two vector figures — the progression strip (215) and the grade-vs-stage art (216)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: ZERO raster images on either page). p237: the five-panel progression strip — normal epithelium with basal-to-apical polarity over an intact basement membrane with a stromal vessel → disorganized pleomorphic cells still above the membrane → atypical cells filling the entire epithelial thickness with the membrane intact → cells breaching the membrane into the stroma → cells entering the vessel lumen for distant spread; labels print once over panel 1 ('Epithelial cell layer / Basement membrane / Blood or lymphatic vessel') but interleave 3× in the text layer with fused fragments. p238: low/high-grade tissue circles, T with a primary-tumor glyph, N with two lymph-node drawings, M with a blood-or-lymphatic-vessel drawing and 'Spread to other organs and tissues' — labels duplicated 2× with fused fragments.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "nomenclature-progression-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the five stations + the three-label legend + the weapons strip + the grade circles and the T/N/M stage map redrawn with original KYP glyphs)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "nomenclature-progression-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "neoplasia-nomenclature",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Both pages' text blocks (the definition, the five stations, the naming rules, the malformation pair, the 9-row table, the grade/stage columns) are adapted as the registry visual and carried verbatim in the note's tables. The TWO figures are pure vector line art (zero rasters) — redrawn as ORIGINAL KYP glyphs (the P2/P3 convention): the five-station progression strip with its three labels and the grade-vs-stage art with its T/N/M glyphs. Table quirks preserved and documented: 'Mesenchyme' is a row-group label spanning Blood cells through Fat; the Blood cells BENIGN cell prints empty (leukemia/lymphoma malignant-only); melanoma wears no carcinoma/sarcoma suffix. No margin mnemonics exist on either page; nothing reproduced. STAGING — registration + content/ flip belong to the main session."
+}

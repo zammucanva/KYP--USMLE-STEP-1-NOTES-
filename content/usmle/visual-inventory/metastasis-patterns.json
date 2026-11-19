@@ -1,0 +1,100 @@
+{
+  "topicId": "metastasis-patterns",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Common metastases paragraph + the 4-row site-of-metastasis table (book 219)",
+      "sourceFigureDescription": "The CLaSH route rule with the four hematogenous carcinomas, the frequency rule, the multiple-vs-solitary rule, and the 4-row table (Bone / Liver / Lung / Brain × SITE OF METASTASIS / 1° TUMOR / NOTES — the text layer prints the header “10 TUMOR”, a mangled degree sign) with the Bone row's Blastic/Mixed/Lytic fork. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "metastasis-route-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the route split band + the four organ target cards) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metastasis-route-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "RADIOLOGY",
+      "visualPurpose": "Photograph A — the bone-metastasis spine image beside the Bone row (book 219)",
+      "sourceFigureDescription": "An 188x245 8bpc raster, lettered A beside “Predilection for axial skeleton A”: a sagittal MR image of the spine showing the axial skeleton — a grayscale vertebral column with bright fatty marrow and dark CSF/vertebral bodies; red arrows point to metastatic lesions at the labeled vertebral levels T8 and L1 (white labels with red arrows); the white boxed letter A sits at the image's top-left. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "metastasis-route-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photographs panel + blocks[2] the Bone row's bracketed description + blocks[3] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metastasis-route-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "metastasis-patterns",
+      "requiredInKYP": true,
+      "visualId": "metastasis-patterns-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          241
+        ],
+        "bookPages": "219"
+      },
+      "visualType": "GROSS_PATHOLOGY",
+      "visualPurpose": "Photograph B — the gross liver metastases photograph beside the Liver row (book 219)",
+      "sourceFigureDescription": "An 188x150 8bpc raster, lettered B beside “Scattered throughout liver parenchyma B”: a gross specimen photograph — the cut surface of two liver halves on a teal/blue-green background; the dark reddish-brown liver parenchyma contains large, pale yellow-white/cream, somewhat nodular metastatic masses with central discoloration (necrosis), one large mass in each half; a small white asterisk (photographer credit) at bottom-right; the white boxed letter B sits at the image's top-left. COPYRIGHTED — described in text, never reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "metastasis-route-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "described-in-text in the registry visual's photographs panel + blocks[2] the Liver row's bracketed description + blocks[3] the photographs table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "metastasis-route-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "metastasis-patterns",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's text (the CLaSH paragraph and the 4-row organ table) is adapted as the registry visual and carried verbatim in the note's tables. The TWO photographs (A — the sagittal spine MR with red arrows at T8/L1; B — the gross liver with pale nodular metastases) are COPYRIGHTED — described in text in the registry visual's photographs panel and the note's photographs block, never reproduced (the M32 convention). CLaSH is the source's own mnemonic (quoted verbatim); the four KYP mnemonics are original. Nothing reproduced."
+}

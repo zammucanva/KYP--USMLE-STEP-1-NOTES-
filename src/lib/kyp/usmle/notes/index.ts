@@ -101,6 +101,11 @@ import { acuteInflammation } from "./acute-inflammation";
 import { leukocyteTrafficking } from "./leukocyte-trafficking";
 import { woundHealing } from "./wound-healing";
 import { granulomatousInflammation } from "./granulomatous-inflammation";
+import { neoplasiaNomenclature } from "./neoplasia-nomenclature";
+import { cancerHallmarks } from "./cancer-hallmarks";
+import { cancerImmunotherapyEpidemiology } from "./cancer-immunotherapy-epidemiology";
+import { metastasisPatterns } from "./metastasis-patterns";
+import { oncogenesTumorSuppressors } from "./oncogenes-tumor-suppressors";
 import { cranialNerves } from "./cranial-nerves";
 import { diabetesMellitus } from "./diabetes-mellitus";
 import { geneExpressionModifications } from "./gene-expression-modifications";
@@ -285,6 +290,11 @@ export const usmleNotes: KypUsMLENote[] = [
   leukocyteTrafficking,
   woundHealing,
   granulomatousInflammation,
+  neoplasiaNomenclature,
+  cancerHallmarks,
+  cancerImmunotherapyEpidemiology,
+  metastasisPatterns,
+  oncogenesTumorSuppressors,
   cranialNerves,
   diabetesMellitus,
 ];

@@ -1,0 +1,46 @@
+{
+  "topicId": "cancer-hallmarks",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-hallmarks",
+      "requiredInKYP": true,
+      "visualId": "cancer-hallmarks-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          239
+        ],
+        "bookPages": "217"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 9-row HALLMARK / MECHANISM table (book 217)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images; VLM confirmed): the intro line 'Cancer is caused by (mostly acquired) DNA mutations that affect fundamental cellular processes (eg, growth, DNA repair, survival)' plus the complete 9-row table — growth signal self-sufficiency (proto-oncogenes/↑PDGF brain tumors, HER2 breast, RAS, MYC, cyclins/CDKs), anti-growth signal insensitivity (Rb; E-cadherin loss → contact inhibition, NF2), evasion of apoptosis (TP53, BCL2 → follicular B cell lymphoma), limitless replicative potential (telomerase reactivation → telomere maintenance/lengthening), sustained angiogenesis (↑VEGF or ↓inhibitory factors; neoangiogenesis vs bone-marrow vasculogenesis; leaky/dilated vessels), Warburg effect (glycolysis even under aerobic conditions; pyruvate kinase M2, LDH-A; biosynthetic intermediates; ↑ lactate), immune evasion in cancer (↓ MHC class I; TGF-β + regulatory T cells; checkpoint upregulation), tissue invasion (E-cadherin loss → metalloproteinases → laminin/fibronectin → locomotion → vascular dissemination), metastasis (lymphatics/blood → endothelial adhesion → extravasation/homing; first-encountered capillary bed; lung → adrenals tropism).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "hallmarks-of-cancer-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the nine stations across the six labeled bands — HallmarksOfCancerMap in visuals/neoplasia-p13.tsx) + blocks[1] the table block carried verbatim + blocks[2] the steps block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "hallmarks-of-cancer-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cancer-hallmarks",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's single visual asset is its text table — adapted as the registry visual (nine stations, six bands) and carried verbatim in the note's table block; nothing is reproduced. Census: zero raster images (pdfimages) and zero figures/photographs/margin mnemonics (VLM confirmed on scripts/usmle-pipeline/p13-vlm-census.ts). STAGED under .usmle-pipeline-cache/staging-p13/ — promotion into content/ is owned downstream."
+}

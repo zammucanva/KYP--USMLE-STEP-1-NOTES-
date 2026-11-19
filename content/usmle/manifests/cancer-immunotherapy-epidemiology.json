@@ -1,0 +1,184 @@
+{
+  "topicId": "cancer-immunotherapy-epidemiology",
+  "title": "Cancer Immunotherapy & Epidemiology",
+  "chapterId": "pathology",
+  "chapterTitle": "Pathology",
+  "subsection": "Pathology — Neoplasia",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      240
+    ],
+    "bookPages": "218–218"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 218)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "218\n\nSEC TION II\n\nImmune checkpoint\ninteractions\n\nPATHOLOGY\n\n▶ PATHOLOGY—NeOPLASIA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The checkpoint intro + the PD-1/PD-L1 axis — signals that modulate T-cell activation and function → ↓ immune response against tumor cells, targeted by cancer immunotherapies; PD-1 (on T cells) × PD-L1/2 (on tumor cells or immune cells in tumor microenvironment) → T-cell dysfunction (exhaustion); inhibited by the anti-PD-1 antibodies cemiplimab, nivolumab, pembrolizumab or the anti-PD-L1 antibodies atezolizumab, durvalumab, avelumab",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "Signals that modulate T-cell activation and function → ↓ immune response against tumor cells.\nTargeted by several cancer immunotherapies. Examples:\n▘ Interaction between PD-1 (on T cells) and PD-L1/2 (on tumor cells or immune cells in tumor\nmicroenvironment) → T-cell dysfunction (exhaustion). Inhibited by antibodies against PD-1 (eg,\ncemiplimab, nivolumab, pembrolizumab) or PD-L1 (eg, atezolizumab, durvalumab, avelumab).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CTLA-4/B7 axis — CTLA-4 on T cells outcompetes CD28 for B7 on APCs → loss of T-cell costimulatory signal; inhibited by antibodies against CTLA-4 (eg, ipilimumab)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "▘ CTLA-4 on T cells outcompetes CD28 for B7 on APCs → loss of T-cell costimulatory signal.\nInhibited by antibodies against CTLA-4 (eg, ipilimumab).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The checkpoint figure labels part 1 (M39 interleave) — Ipilimumab, MHC II, the T cell label, Atezolizumab, Durvalumab, Avelumab, CD28, B7, CTLA-4",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "Ipilimumab\n\nMHC II\n\nT cell\n\nAtezolizumab\nDurvalumab\nAvelumab\n\nCD28\nB7\nCTLA-4",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The checkpoint figure labels part 2 (M39 interleave) — Cemiplimab, Nivolumab, Pembrolizumab, Antigen, T cell activation, TCR, MHC I, PD-1, the interleaved Cancer epidemiology heading, APC, Tumor cell, PD-L1",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "Cemiplimab\nNivolumab\nPembrolizumab\n\nAntigen\nT cell activation\n\nTCR\n\nMHC I\n\nPD-1\n\nCancer epidemiology\n\nAPC\n\nTumor cell\n\nPD-L1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cancer epidemiology table verbatim — the skin-cancer exclusion line (basal > squamous >> melanoma, not included below); headers MALeS / feMALeS / CHILDReN (AGe 0-14) / NOTeS; the Cancer incidence row (males 1. Prostate 2. Lung 3. Colon/rectum; females 1. Breast 2. Lung 3. Colon/rectum; children 1. Leukemia 2. CNS 3. Neuroblastoma; NOTES lung cancer incidence ↓ in males, not changed significantly in females); the Cancer mortality row (males 1. Lung 2. Prostate 3. Colon/rectum; females 1. Lung 2. Breast 3. Colon/rectum; children the same trio; NOTES cancer is the 2nd leading cause of death in the United States, heart disease is 1st) — including the column interleave exactly as the text layer prints it",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "Skin cancer (basal > squamous >> melanoma) is the most common cancer (not included below).\nMALeS\n\nfeMALeS\n\nCHILDReN (AGe 0-14)\n\nNOTeS\n\nCancer incidence\n\n1. Prostate\n2. Lung\n3. Colon/rectum\n\n1. Breast\n2. Lung\n3. Colon/rectum\n\n1. Leukemia\n2. CNS\n3. Neuroblastoma\n\nLung cancer incidence has ↓ in\nmales, but has not changed\nsignificantly in females.\n\nCancer mortality\n\n1. Lung\n2. Prostate\n3. Colon/rectum\n\n1. Lung\n2. Breast\n3. Colon/rectum\n\n1. Leukemia\n2. CNS\n3. Neuroblastoma\n\nCancer is the 2nd leading cause\nof death in the United States\n(heart disease is 1st).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the indd footer + timestamp (page identity, book 218)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "quote": "FAS1_2026_04-Pathol.indd 218\n\n12/19/25 8:04 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "immunotherapy-target-map"
+  ],
+  "mechanismIds": [
+    "checkpoint-blockade-map",
+    "incidence-mortality-split-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure (three patterns, four traps, two pivots, and the five-option melanoma miniCase) layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two checkpoint bullets and the epidemiology table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-frame-reading",
+      "summary": "The two-frame rule (START GATE, LONG BRAKE — the CTLA-4 priming gate at the APC vs the PD-1 exhaustion brake in the tumor microenvironment; and the incidence-versus-mortality flip with the lung #1 rule) — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two axes and the two table rows sequentially without a unified protocol; the framing is KYP's design.",
+      "location": "core.keyIdea + mechanisms[0] and mechanisms[1] + pivots + the visual's flip-rule card"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four original KYP mnemonics (START GATE, LONG BRAKE / IPI HOLDS THE GATE, A.D.A. BLUNTS THE LIGAND, C.N.P. FREES THE RECEPTOR / PROSTATE LEADS MEN IN; LUNG LEADS EVERYONE OUT / SKIN STAYS OFF THE LIST; KIDS KEEP L-C-N TWICE) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin notes or mnemonics print anywhere on book 218 (pdfimages + VLM census confirmed); the four codes are KYP designs.",
+      "location": "mnemonics + the visual's directory band and standing-rules card"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The pembrolizumab miniCase — metastatic melanoma with PD-L1-expressing tumor and PD-1-positive infiltrating lymphocytes, solved by the PD-1 blockade mechanism plus the immune-related adverse events (thyroiditis, colitis), discriminated from PD-1 agonism, ipilimumab's CTLA-4 mechanism, the anti-PD-L1 class, and ADCC direct-kill.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the axes and the drugs but no clinical vignette; the melanoma case, the irAE layer, and the distractor set are KYP designs.",
+      "location": "usmle.miniCase + patterns[0] and patterns[1]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM p14-vlm-census.ts, glm-4.6v on p1x-240-240.png): ZERO raster images on pdf 240 / book 218 — pure text plus ONE vector line-art figure, redrawn as an ORIGINAL KYP figure with original glyphs (the P2/P3 pure-vector convention); nothing reproduced. M39 label interleave: the figure's labels interleave with the running text at raw lines 20-53 and split into two non-contiguous blocks (part 1 = lines 20-32: Ipilimumab, MHC II, T cell, Atezolizumab, Durvalumab, Avelumab, CD28, B7, CTLA-4; part 2 = lines 34-53: Cemiplimab, Nivolumab, Pembrolizumab, Antigen, T cell activation, TCR, MHC I, PD-1, Cancer epidemiology, APC, Tumor cell, PD-L1) — both blocks quoted in order. VLM findings: the molecule-to-cell topology confirmed (APC carries MHC II + B7 with antigen presented to the TCR; T cell carries TCR, CD28, CTLA-4, PD-1; tumor cell carries MHC I + PD-L1); the Y-shaped antibody blockers confirmed at their binding sites (Ipilimumab on CTLA-4; Atezolizumab/Durvalumab/Avelumab on PD-L1; Cemiplimab/Nivolumab/Pembrolizumab on PD-1) with inhibition symbols; the 'T cell activation' label confirmed; the epidemiology table structure and every cell confirmed verbatim; NO margin mnemonics on the page (VLM confirmed) — the KYP memory layer is original. Text-layer quirks: the table headers print in the source's odd-cap forms (MALeS / feMALeS / CHILDReN (AGe 0-14) / NOTeS — a small-caps rendering artifact) and are carried verbatim; the ↓ arrows in lines 12 and 78 are preceded by a \\x90 control character that norm() strips. Single-page topic.",
+  "updatedAt": "2026-11-19"
+}

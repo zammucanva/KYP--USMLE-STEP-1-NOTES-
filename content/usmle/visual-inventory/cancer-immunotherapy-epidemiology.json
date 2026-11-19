@@ -1,0 +1,73 @@
+{
+  "topicId": "cancer-immunotherapy-epidemiology",
+  "chapterId": "pathology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "requiredInKYP": true,
+      "visualId": "cancer-immunotherapy-epidemiology-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Immune checkpoint interactions text block + the Cancer epidemiology table (book 218)",
+      "sourceFigureDescription": "The checkpoint intro (signals that modulate T-cell activation and function → ↓ immune response against tumor cells, targeted by several cancer immunotherapies) with both axis bullets — PD-1 (on T cells) × PD-L1/2 (on tumor cells or immune cells in tumor microenvironment) → T-cell dysfunction (exhaustion), inhibited by anti-PD-1 (cemiplimab, nivolumab, pembrolizumab) or anti-PD-L1 (atezolizumab, durvalumab, avelumab); CTLA-4 on T cells outcompetes CD28 for B7 on APCs → loss of T-cell costimulatory signal, inhibited by anti-CTLA-4 (ipilimumab) — plus the VERBATIM epidemiology table: the skin-cancer exclusion line (basal > squamous >> melanoma, not included below), the incidence and mortality rows across MALeS / feMALeS / CHILDReN (AGe 0-14) / NOTeS, and both NOTES blocks. Pure text.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "immunotherapy-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the axis cards + the epidemiology grid + the flip-rule and standing-rules cards) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "immunotherapy-target-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pathology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pathology — Neoplasia",
+      "topicId": "cancer-immunotherapy-epidemiology",
+      "requiredInKYP": true,
+      "visualId": "cancer-immunotherapy-epidemiology-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          240
+        ],
+        "bookPages": "218"
+      },
+      "visualType": "IMMUNOLOGY_DIAGRAM",
+      "visualPurpose": "The Immune checkpoint interactions vector figure (book 218)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: ZERO raster images on the page): an APC (MHC II presenting Antigen to the TCR; B7) and a T cell (TCR, CD28, CTLA-4, PD-1) with 'T cell activation' at their contact on the left side; a Tumor cell (MHC I, PD-L1) facing the T cell's PD-1 on the right; the seven drug antibodies drawn as Y-shaped blockers — Ipilimumab on CTLA-4; Atezolizumab, Durvalumab, Avelumab on PD-L1; Cemiplimab, Nivolumab, Pembrolizumab on PD-1.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "immunotherapy-target-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the checkpoint figure redrawn with original KYP glyphs — the three cells, the receptor glyphs, and the Y-shaped blockers with drug names at their binding sites) + blocks[1] the figure row",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "immunotherapy-target-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cancer-immunotherapy-epidemiology",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's text (the checkpoint intro + both axis bullets, and the verbatim cancer epidemiology table with both NOTES blocks) is adapted as the registry visual and carried verbatim in the note's tables. The checkpoint figure is pure vector line art — redrawn as an ORIGINAL KYP REDRAW with original glyphs (the P2/P3 convention). ZERO raster images on the page, so nothing is described-in-text-only and nothing reproduced. The figure labels interleave in the text layer (the M39 pattern, raw lines 20-53, quoted in two blocks). No margin mnemonics exist on the page (VLM confirmed); the four KYP mnemonics are original."
+}
