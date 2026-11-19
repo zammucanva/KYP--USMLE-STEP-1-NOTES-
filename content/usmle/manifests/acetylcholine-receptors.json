@@ -1,0 +1,145 @@
+{
+  "topicId": "acetylcholine-receptors",
+  "title": "Acetylcholine Receptors: Nicotinic & Muscarinic",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      257
+    ],
+    "bookPages": "235–235"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, header, and topic heading (book 235)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "PHARMACOLOGY\n\nAcetylcholine\nreceptors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n235",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NICOTINIC block — ligand-gated channels allowing efflux of K+ and influx of Na+ and in some cases Ca2+; two subtypes NN (autonomic ganglia, adrenal medulla) and NM (neuromuscular junction of skeletal muscle)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in\nsome cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found\nin neuromuscular junction of skeletal muscle).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MUSCARINIC block — G-protein–coupled receptors that usually act through 2nd messengers; 5 subtypes M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat glands (cholinergic sympathetic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Muscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd\nmessengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat\nglands (cholinergic sympathetic).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the indd print slug and timestamp (position note: these two footer lines print at the very foot of pdf 257, AFTER the sibling Pain transmission block at the bottom half of the shared page; quoted here as its own entry for page-identity pinning only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 235\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "ach-receptor-map"
+  ],
+  "mechanismIds": [
+    "channel-vs-gpcr-map",
+    "subtype-distribution-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two receptor definitions only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "fork-reading",
+      "summary": "The four-move reading protocol (SPOT / SORT / PLACE / PREDICT) and the three-locks framing of the page — one key (ACh), three locks (NN, NM, M1–5) — including the receptor-intact vs drive-interrupted split and the never-sort-by-division rule as documented synthesis.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two blocks as definitions and never asks the learner to route drugs through them; the four-move synthesis, the three-locks framing, and the neural-arc split are KYP's design.",
+      "location": "core.keyIdea + blocks[2] the steps block + pivots + the registry visual's exam-targets band"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (GATE VS MAILBOX / NN RUNS NEURONS, NM MOVES MUSCLE / FOUR M-HOMES AND ONE SYMPATHETIC SPY / ONE KEY, THREE LOCKS) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere in the Acetylcholine receptors half of book 235 (pdfimages + text-layer census; the VLM returned 401 twice); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's panel footers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The ganglionic-blocker miniCase (a hypertensive emergency on an NN-selective ganglionic antagonist — which cholinergic pathway remains fully intact) with distractors discriminating adrenal medulla (NN, blocked) vs NMJ (NM, spared) vs vagal slowing and thermoregulatory sweating (M receptor intact, neural drive interrupted at the ganglion).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the subtype locations as a list and never asks the learner to apply them to a drug; the vignette, the four distractors, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 257 / book 235 carries TWO subsections — 'Acetylcholine receptors' (top half, THIS topic) and 'Pain transmission' (bottom half, the sibling topic pain-transmission); only the ACh-receptors block's contiguous lines are quoted and every quote range stops before the 'Pain transmission' heading (part1.txt raw line 19), which belongs to the sibling. Census (pdfimages): ZERO raster images on the page — the ACh half is PURE TEXT, exactly two blocks (nicotinic, muscarinic), no figures; the z-ai VLM census attempt (ph10-vlm-census.ts) returned 401 TWICE in subagent context (missing X-Token header — the ph8/ph9 failure mode), so the census stands on pdfimages + the text layer: nothing but the two printed blocks appears in the top half, and the indd slug + timestamp print at the very foot of the page, AFTER the sibling's Pain transmission block (quoted as its own page-identity entry with the position noted). NO margin notes or mnemonics print in the ACh half — the KYP memory layer is original. Quirks, documented: (1) the spec's raw line coordinates are 1-based lines of .usmle-pipeline-cache/ph1-p257.txt (banner at line 1), so the part1.txt page-257 ranges used here are shifted by -1 (banner + heading 1-10, nicotinic 12-14, muscarinic 15-17; the Pain transmission heading sits at part1.txt line 19 and is never quoted; the footer prints at lines 38-40); (2) the whole subsection is FOUR printed sentences — two text blocks of two sentences each; the printed blocks do NOT map individual M numbers to individual organs (the page lists the family M1–5 across the five sites), and the note deliberately preserves that restraint; (3) the text layer prints the subtypes as NN and NM and the muscarinic range as 'M1–5' (en dash); (4) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (5) outputs are STAGED under .usmle-pipeline-cache/staging-ph10/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'ach-receptor-map' is therefore not yet in visuals/registry.tsx by design); (6) there is NO figure on the source page, so the registry visual is an ORIGINAL KYP diagram (not a redraw) built from the two text blocks; the printed text is carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-19"
+}

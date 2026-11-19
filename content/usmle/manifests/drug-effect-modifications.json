@@ -1,0 +1,197 @@
+{
+  "topicId": "drug-effect-modifications",
+  "title": "Drug Effect Modifications: The Arithmetic of Two Drugs",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      256
+    ],
+    "bookPages": "234–234"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the page number, the section banner (with the source's own typos “SEC TIoN II” and “PHARMACoLoGY” printed exactly as shown), the subsection banner, and the topic heading (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "234\n\nSEC TIoN II\n\nPHARMACoLoGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nDrug effect modifications",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table header — the three column labels TERM / DEFINITION / EXAMPLE of the drug effect modifications table",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "TERM\n\nDEFINITION\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 1, ADDITIVE — effect of substances A and B together is equal to the sum of their individual effects; aspirin and acetaminophen; the source's own chip “2 + 2 = 4”",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Additive\n\nEffect of substances A and B together is equal to\nthe sum of their individual effects\n\nAspirin and acetaminophen\n“2 + 2 = 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 2, PERMISSIVE — presence of substance A is required for the full effects of substance B; cortisol on catecholamine responsiveness (no arithmetic chip printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Permissive\n\nPresence of substance A is required for the full\neffects of substance B\n\nCortisol on catecholamine responsiveness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 3, SYNERGISTIC — effect of substances A and B together is greater than the sum of their individual effects; clopidogrel with aspirin; the source's own chip “2 + 2 > 4”",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Synergistic\n\nEffect of substances A and B together is greater\nthan the sum of their individual effects\n\nClopidogrel with aspirin\n“2 + 2 > 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, POTENTIATION — similar to synergism, but drug B (with no therapeutic action alone) enhances the therapeutic action of drug A; carbidopa only blocks enzyme to prevent peripheral conversion of levodopa; the source's own chip “2 + 0 > 2”",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Potentiation\n\nSimilar to synergism, but drug B (with no\ntherapeutic action alone) enhances the\ntherapeutic action of drug A\n\nCarbidopa only blocks enzyme to prevent\nperipheral conversion of levodopa\n“2 + 0 > 2”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 5, ANTAGONISTIC — effect of substances A and B together is less than the sum of their individual effects; morphine with naloxone; the source's own chip “2 + 2 < 4”",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Antagonistic\n\nEffect of substances A and B together is less\nthan the sum of their individual effects\n\nMorphine with naloxone\n“2 + 2 < 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 6, TACHYPHYLACTIC — acute decrease in response to a drug after initial/repeated administration; repeat use of intranasal decongestant (eg, oxymetazoline) → ↓ therapeutic response (with rebound congestion); no arithmetic chip printed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Tachyphylactic\n\nAcute decrease in response to a drug after\ninitial/repeated administration\n\nRepeat use of intranasal decongestant (eg,\noxymetazoline) → ↓ therapeutic response (with\nrebound congestion)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "effect-modification-map"
+  ],
+  "mechanismIds": [
+    "interaction-arithmetic-map",
+    "tachyphylaxis-clock-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the six-term table only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "ladder-reading",
+      "summary": "The four-gate reading protocol (THE OPERATOR / THE ZERO TEST / THE REQUIREMENT TEST / THE CLOCK) and the arithmetic-ladder framing of the table, including the documented quirk that only four of the six rows print an arithmetic chip (Permissive and Tachyphylactic print none).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the six terms as an unordered table; the operator/zero/requirement/clock synthesis, the rung ordering, and the chip-count quirk documentation are KYP's design.",
+      "location": "core.keyIdea + the registry visual's ladder zones + the steps block + pivots"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (READ THE OPERATOR: = ADDS, > SYNS, < ANTS / A ZERO PARTNER MAKES IT POTENTIATION / PERMISSIVE IS THE KEY, NOT THE BOOSTER / TACHY FADES FAST, THE NOSE REBOUNDS) — no mnemonic prints on the page; the four arithmetic chips inside them are the source's own, carried verbatim and attributed.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere in the Drug effect modifications half of book 234 (census confirmed); the four codes are KYP's design.",
+      "location": "mnemonics + the visual's operator strip and card captions"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The two-patient miniCase (a Parkinson patient on carbidopa + levodopa whose silent partner is mislabeled + an oxymetazoline rebound-congestion patient) — a KYP-authored integration of the potentiation and tachyphylactic rows.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the six terms as table rows and never asks the learner to apply them to patients; the vignette, the four distractors (synergistic/antagonistic misfile, permissive/additive misfile, blocks-enzyme-as-antagonism, additive/synergistic stretch), and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 256 / book 234 carries TWO subsections — 'Drug effect modifications' (top half, THIS topic) and 'Autonomic receptors' (bottom half, the sibling topic autonomic-receptors); only the effect-modifications block's contiguous lines are quoted and every quote range stops before the SECOND '▶ PHARMACOLOGY—AUTONOMIC DRUGS' banner (part1.txt page-256 raw line 66), which belongs to the sibling. Census (pdfimages: ZERO raster images on the page — pure text): the top half is ONE 6-row TERM/DEFINITION/EXAMPLE table (Additive / Permissive / Synergistic / Potentiation / Antagonistic / Tachyphylactic) and NOTHING else — no figures, no margin notes, no mnemonics; the KYP memory layer is original. VLM confirm attempted twice (ph8-vlm-census.ts, glm-4.6v on scripts/p-pages/ph1-256-256.png) — both calls failed with 401 missing X-Token (the sandbox vision credential is absent), so per the fallback rule the census stands on the pdfimages raster census + the pdftotext text layer. Documented quirks: (1) only FOUR of the six rows print an arithmetic chip — the source's own “2 + 2 = 4” (Additive), “2 + 2 > 4” (Synergistic), “2 + 0 > 2” (Potentiation), “2 + 2 < 4” (Antagonistic); Permissive (a requirement, not an operator) and Tachyphylactic (a time course, not a combination) print none; (2) the page header prints the source's own banner typos 'PHARMACoLoGY' and 'SEC TIoN II' — quoted exactly as printed in the page-identity evidence; (3) the Tachyphylactic example line carries two stray cp1252 control characters (U+008E, U+0090) before the → and ↓ glyphs in the text layer — norm() strips them for containment; (4) the spec's raw line coordinates are 1-based lines of .usmle-pipeline-cache/ph1-p256.txt (banner at line 1), so the part1.txt page-256 ranges used here are shifted by -1 (identity 1-9, header 10-14, rows 16-22/24-29/31-37/39-47/49-55/57-64; the second ▶ banner sits at part1.txt line 66 and is never quoted); (5) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (6) outputs are STAGED under .usmle-pipeline-cache/staging-ph8/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'effect-modification-map' is therefore not yet in visuals/registry.tsx by design); (7) the note's verbatim table block carries the table's cell text, not its column geometry — the ladder layout, key-unlock glyph, and fading-response curve are expressed only in the ORIGINAL KYP redraw.",
+  "updatedAt": "2026-11-19"
+}

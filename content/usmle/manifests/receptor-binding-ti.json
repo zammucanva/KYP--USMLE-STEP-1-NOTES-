@@ -1,0 +1,289 @@
+{
+  "topicId": "receptor-binding-ti",
+  "title": "Receptor Binding & Therapeutic Index",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      255
+    ],
+    "bookPages": "233–233"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, headers, and topic heading (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n233\n\nSEC TION II\n\nReceptor binding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 1 of 3 — the receptor-binding panels' top region: the three '100' y-axis ticks, the panel A/B/C region curve labels 'Agonist' (the plain reference curve printed in every panel, hence Agonist x3 on the page), the white-on-teal letter chip 'A', the first '50' tick, and panel C's 'Reduced efficacy' label (raw order interleaves the three panels — panel C's label streams before panels A/B's lower labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "100\n\n100\n\n100\nAgonist\n\nA\n50\n\nReduced\nefficacy\n\nAgonist\n\nAgonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 2 of 3 — panel A's second-curve label 'Agonist + competitive antagonist' (the pink right-shifted same-ceiling curve), the white-on-teal letter chip 'B', panel B's 'Reduced efficacy' label (the red down-arrow annotation), panel C's first 'Partial agonist' label, the second '50' tick, and panel A's 'Reduced potency' label (the red right-arrow annotation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Agonist +\ncompetitive\nantagonist\n\nB\n\nReduced\nefficacy\n\nPartial\nagonist\n50\n\nReduced\npotency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure-label cluster 3 of 3 — the third '50' tick, the fused 'Partial C / agonist' print (panel C's second 'Partial agonist' label fused with the white-on-teal C chip in the text layer), panel B's second-curve label 'Agonist + noncompetitive antagonist' (the orange lower-plateau curve), the three '0' ticks, the three 'Agonist dose' x-axis labels, and panel C's 'Independent potency' label interleaved between them",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "50\n\nPartial C\nagonist\n\nAgonist +\nnoncompetitive\nantagonist\n0\n\n0\n\n0\nAgonist dose\n\nAgonist dose\n\nIndependent\npotency\n\nAgonist dose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The agonist-types table header, verbatim — AGONIST WITH / POTENCY / EFFICACY / REMARKS / EXAMPLE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "AGONIST WITH\n\nPOTENCY\n\nEFFICACY\n\nREMARKS\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table row A, verbatim — Competitive antagonist: potency ↓, efficacy No change, can be overcome by ↑ agonist concentration; Diazepam (agonist) + flumazenil (competitive antagonist) on GABA A receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "A Competitive\nantagonist\n\n↓\n\nNo change\n\nCan be overcome by\n↑ agonist concentration\n\nDiazepam (agonist) + flumazenil\n(competitive antagonist) on GABA A\nreceptor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table row B, verbatim — Noncompetitive antagonist: potency No change, efficacy ↓, cannot be overcome by ↑ agonist concentration; Norepinephrine (agonist) + phenoxybenzamine (noncompetitive antagonist) on α-receptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "B Noncompetitive\nantagonist\n\nNo change\n\n↓\n\nCannot be overcome by\n↑ agonist concentration\n\nNorepinephrine (agonist) +\nphenoxybenzamine (noncompetitive\nantagonist) on α-receptors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table row C, verbatim — Partial agonist (alone): potency Independent, efficacy ↓, acts at same site as full agonist; Morphine (full agonist) vs buprenorphine (partial agonist) at opioid μ-receptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "C Partial agonist\n(alone)\n\nIndependent\n\n↓\n\nActs at same site as full\nagonist\n\nMorphine (full agonist) vs buprenorphine\n(partial agonist) at opioid μ-receptors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table row 4, verbatim — Inverse agonist (alone): potency Independent, efficacy Negative, binds to a constitutively active receptor thereby reducing its activity; has the opposite effect of an agonist; H1 antihistamines (eg, diphenhydramine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Inverse agonist\n(alone)\n\nIndependent\n\nNegative\n\nBinds to a constitutively\nactive receptor, thereby\nreducing its activity;\nhas the opposite effect\nof an agonist\n\nH1 antihistamines (eg, diphenhydramine)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapeutic-index block, part 1 — the definition and the display fraction: 'Therapeutic index / Measurement of drug safety.' + the stacked TI = TD50 / ED50 fraction (TD50 = median toxic dose over ED50 = median effective dose, with the '=' between the two stacked fractions) + the therapeutic-window sentence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Therapeutic index\n\nMeasurement of drug safety.\nTD50\nmedian toxic dose\n=\nED50 median effective dose\nTherapeutic window—range of drug\nconcentrations that can safely and effectively\ntreat disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapeutic-index block, part 2 — the quantal figure's left labels: the 'Efficacy' curve label, the rotated y-axis label '% of patients responding', and the '100' and '50' ticks",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Efficacy\n\n% of patients responding\n\n100\n\n50",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapeutic-index block, part 3 — the source's own TITE mnemonic carried VERBATIM ('TITE' prints in red bold), the low-TI monitoring sentence with the five drugs (warfarin, theophylline, digoxin, antiepileptic drugs, lithium — each printing with a red initial capital) and the source's own 'Warning! These drugs are lethal!' carried VERBATIM, plus the LD50 sentence",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "TITE: Therapeutic Index = TD50 / ED50.\nSafer drugs have ↑ TI; drugs with ↓ TI\nrequire frequent monitoring (eg, warfarin,\ntheophylline, digoxin, antiepileptic drugs,\nlithium; Warning! These drugs are lethal!).\nLD50 (lethal median dose) often replaces TD50\nin animal studies.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapeutic-index block, part 4 — the quantal figure's remaining labels: the 'Toxicity' curve label, the 'Therapeutic index' bracket label spanning the ED50→TD50 gap, the 'ED50' and 'TD50' markers, the 'ED = Effective dose / TD = Toxic dose' legend, the '0' tick, and the 'Log (drug concentration)' x-axis label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Toxicity\n\nTherapeutic index\n\nED50\n\nTD50\n\nED = Effective dose\nTD = Toxic dose\n\n0\nLog (drug concentration)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the indd slug (page identity, book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 233",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The footer print line — the timestamp at stream end (page identity, book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "receptor-binding-map"
+  ],
+  "mechanismIds": [
+    "antagonist-axes-map",
+    "ti-margin-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the panels, the table, and the TI block only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axes-reading",
+      "summary": "The two-axes reading protocol (the DOSE axis = potency, the EFFECT axis = efficacy; a competitive antagonist moves only the dose axis with the ceiling intact and is overcome by ↑ agonist, a noncompetitive antagonist moves only the effect axis and is never overcome; single molecule alone that plateaus lower = partial agonist with Independent potency; activity below zero requires a constitutively active receptor = inverse agonist) — KYP's synthesis of the three panels and the four table rows into one protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the panels, the table, and the TI block as separate blocks and never states the which-axis-moved invariant or the molecule-ownership test; the two-axes framing and the ceiling-first reading order are KYP's design.",
+      "location": "core.keyIdea + mechanism antagonist-axes-map + the registry visual's panels + pivots"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (COMPETITIVE SLIDES RIGHT; NONCOMPETITIVE SINKS DOWN / FLUMAZENIL WRESTLES FOR THE SEAT; PHENOXYBENZAMINE WELDS IT SHUT / SAME SEAT, LOWER LADDER, FREE RUNG / THE GAP IS THE GUARDRAIL) — the page's own memory devices are TITE and the Warning line and are carried VERBATIM and attributed as the source's; the four codes are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "The only mnemonics printing on book 233 are the source's own TITE line ('TITE: Therapeutic Index = TD50 / ED50.', with TITE in red bold) and the 'Warning! These drugs are lethal!' flag on the low-TI list; the four ALL-CAPS codes are KYP's design and are attributed as such.",
+      "location": "mnemonics + rapidReview.m3 + the visual's TITE banner and chips band"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The two-compound miniCase (a surmountable right-shift at GABA A named as competitive antagonist + a buprenorphine-like lower-plateau-alone compound at μ-receptors named as partial agonist) with four distractors, each failing exactly one hinge: the noncompetitive misread of the right shift (ignores intact ceiling + rescue), the noncompetitive read of the lone compound (ignores ownership), and the inverse-agonist vocabulary flips (require negative efficacy nobody showed).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the four rows side by side and never asks the learner to route two experiments through the axes-and-ownership tests; the vignette and the four distractors are KYP's design.",
+      "location": "usmle.miniCase + traps"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "pendingCorrections": [],
+  "notes": "Census: pdfimages — ZERO raster images on pdf 255 / book 233. The VLM confirm (scripts/usmle-pipeline/ph7-vlm-census.ts, adapted from ph1-vlm-census.ts) was attempted TWICE and failed both times with an auth error (401 'missing X-Token header'), so the census was completed from the text layer plus the PDF's own VECTOR layer (PyMuPDF get_drawings: 147 paths; path coordinates, dash patterns, and stroke colors cross-referenced against word positions in the same coordinate system) — an exact fallback, stronger than a VLM sketch. PANEL MAPPING (documented correction): the production spec assumed A = agonist alone / B = agonist + competitive antagonist / C = agonist + noncompetitive antagonist, but the vector layer confirms the PRINTED mapping is A = Agonist + COMPETITIVE antagonist (the panel's second curve is pink, right-shifted, reaching the SAME 100% ceiling, label 'Agonist + competitive antagonist' at the panel's top right, red right-arrow between the two EC50 markers labeled 'Reduced potency'), B = Agonist + NONCOMPETITIVE antagonist (orange curve at the SAME midpoint with a ~50% lower plateau, label 'Agonist + noncompetitive antagonist', red down-arrow from the 100% ceiling labeled 'Reduced efficacy', both half-max L-markers stacked at the same dose = potency No change), and C = PARTIAL AGONISTS (the plain Agonist curve plus TWO green partial-agonist curves with lower plateaus, two red down-arrows 'Reduced efficacy', two 'Partial agonist' labels, and 'Independent potency' — the two half-max markers straddling the agonist's). Every panel carries the plain black 'Agonist' reference curve (hence 'Agonist' x3 in the text layer) — there is NO agonist-alone panel; the note and the registry visual carry the PRINTED mapping. THE A/B/C LETTER CHIPS: white letters on teal circles inside each panel (vector circles + white letter glyphs; the C chip prints fused with panel C's second 'Partial agonist' label as 'Partial C / agonist' in the text layer — raw line 46), and table rows A/B/C carry their own teal circle chips at the row-label left edge while the Inverse agonist row prints WITHOUT a chip. THE INTERLEAVE (documented): the text layer streams the three panels' labels in mixed order — the three '100' ticks together, then panel labels interleaved ('Agonist' x3 at lines 16/24/26), the two 'Reduced efficacy' labels (panels B and C) print at lines 21-22 and 34-35 while panel A's 'Reduced potency' prints later at lines 41-42, and 'Independent potency' interleaves between the second and third 'Agonist dose' x-axis labels (lines 57-64); additionally each panel's rotated y-axis label prints as vector text-outlines OUTSIDE the text layer (not quotable), while the TI figure's rotated '% of patients responding' IS text. TI BLOCK QUIRKS: the TI = TD50/ED50 print is a stacked display fraction ('TD50 median toxic dose' over a bar over 'ED50 median effective dose', with the '=' between two stacked fractions); 'TITE' prints in red bold at the head of the source's own mnemonic line; the five low-TI drug names print with red initial capitals (warfarin, theophylline, digoxin, antiepileptic drugs, lithium) and the closing 'Warning! These drugs are lethal!' carries the same red-letter treatment — both carried VERBATIM and attributed as the source's own. Outputs are STAGED under .usmle-pipeline-cache/staging-ph7/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, and the visual registry are owned by the promotion step; the note's visualId 'receptor-binding-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-19"
+}

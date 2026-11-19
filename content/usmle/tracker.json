@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-19T13:41:05Z",
+  "generatedAt": "2026-11-19T15:08:15Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 150,
+    "topicsProduced": 155,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 95,
+      "pilot-complete": 100,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 29,
-      "topicsProduced": 6,
-      "topicsRemaining": 23,
+      "topicsProduced": 11,
+      "topicsRemaining": 18,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -380,6 +380,21 @@
     }
   ],
   "topics": [
+    {
+      "topicId": "acetylcholine-receptors",
+      "title": "Acetylcholine Receptors: Nicotinic & Muscarinic",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 257 (book 235–235)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
     {
       "topicId": "acid-base-physiology",
       "title": "Acid-Base Physiology",
@@ -589,6 +604,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "autonomic-receptors",
+      "title": "Autonomic Receptors: The Wiring Map",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 256 (book 234–234)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
     },
     {
       "topicId": "autosomal-trisomies",
@@ -1164,6 +1194,21 @@
       "updatedAt": "2026-10-21"
     },
     {
+      "topicId": "drug-effect-modifications",
+      "title": "Drug Effect Modifications: The Arithmetic of Two Drugs",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 256 (book 234–234)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
+    {
       "topicId": "drug-metabolism",
       "title": "Drug Metabolism: Phase I & Phase II",
       "chapterId": "pharmacology",
@@ -1172,6 +1217,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 252 (book 230–230)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "efficacy-potency",
+      "title": "Efficacy vs Potency: Reading Dose-Response Curves",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 254 (book 232–232)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 4,
@@ -2182,6 +2242,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-08"
+    },
+    {
+      "topicId": "receptor-binding-ti",
+      "title": "Receptor Binding & Therapeutic Index",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 255 (book 233–233)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-19"
     },
     {
       "topicId": "recombinant-cytokines",

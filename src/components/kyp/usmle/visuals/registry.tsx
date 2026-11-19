@@ -36,6 +36,11 @@ import { PkParametersMap } from "./pharm-p2";
 import { MetabolismPhaseMap } from "./pharm-p3";
 import { EliminationKineticsMap } from "./pharm-p4";
 import { UrinePhTrappingMap } from "./pharm-p5";
+import { DoseResponseMap } from "./pharm-p6";
+import { ReceptorBindingMap } from "./pharm-p7";
+import { EffectModificationMap } from "./pharm-p8";
+import { AutonomicOrganMap } from "./pharm-p9";
+import { AchReceptorMap } from "./pharm-p10";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -163,6 +168,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "metabolism-phase-map": MetabolismPhaseMap,
   "elimination-kinetics-map": EliminationKineticsMap,
   "urine-ph-trapping-map": UrinePhTrappingMap,
+  "dose-response-map": DoseResponseMap,
+  "receptor-binding-map": ReceptorBindingMap,
+  "effect-modification-map": EffectModificationMap,
+  "autonomic-organ-map": AutonomicOrganMap,
+  "ach-receptor-map": AchReceptorMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

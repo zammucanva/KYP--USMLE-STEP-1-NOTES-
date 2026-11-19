@@ -1,0 +1,46 @@
+{
+  "topicId": "acetylcholine-receptors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "acetylcholine-receptors",
+      "requiredInKYP": true,
+      "visualId": "acetylcholine-receptors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two-block Acetylcholine receptors text (book 235, top half) — the nicotinic and muscarinic receptor definitions with their subtype/distribution lists",
+      "sourceFigureDescription": "PURE TEXT, TWO BLOCKS (pdfimages: zero raster images; VLM census attempt returned 401 twice in subagent context, so the census stands on pdfimages + the text layer): the NICOTINIC block — 'Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in some cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found in neuromuscular junction of skeletal muscle).' — followed by the MUSCARINIC block — 'Muscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd messengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat glands (cholinergic sympathetic).' No figures, margin notes, or mnemonics print in the ACh half.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "ach-receptor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (AchReceptorMap in visuals/pharm-p10.tsx — the ACh dispatcher chip, the nicotinic channel glyph with K+ efflux / Na+ and in-some-cases Ca2+ influx arrows plus the NN and NM subtype chips, the muscarinic GPCR glyph with its G-protein → 2nd-messenger cascade plus the five M1–5 location chips with the cholinergic-sympathetic sweat exception, the exam-targets band, and the one-key-three-locks banner); the two printed blocks are also carried verbatim in the note's table block (blocks[1]), core.what, and recall[0-1]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ach-receptor-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "acetylcholine-receptors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The ACh half's single visual asset — the two-block text (nicotinic + muscarinic definitions) — is accounted for as an ORIGINAL KYP ADAPTATION: there is no figure on the source page (pdfimages: zero rasters), so the registry visual ach-receptor-map (AchReceptorMap in visuals/pharm-p10.tsx) is an original KYP diagram built from the two printed blocks, whose text is also carried verbatim in the note's table block; nothing is reproduced. Census: zero raster images (pdfimages) and no margin mnemonics in the ACh half (the z-ai VLM census attempt returned 401 twice in subagent context, so the census stands on pdfimages + the text layer). SHARED PAGE (the p196 convention): the bottom half of pdf 257 / book 235 is the sibling topic pain-transmission and is out of scope here. STAGED under .usmle-pipeline-cache/staging-ph10/ — promotion into content/ is owned downstream."
+}

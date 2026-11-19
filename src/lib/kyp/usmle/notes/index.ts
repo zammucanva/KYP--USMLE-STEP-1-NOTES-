@@ -27,6 +27,11 @@ import { pharmacokineticsAging } from "./pharmacokinetics-aging";
 import { drugMetabolism } from "./drug-metabolism";
 import { eliminationOfDrugs } from "./elimination-of-drugs";
 import { urinePhDosage } from "./urine-ph-dosage";
+import { efficacyPotency } from "./efficacy-potency";
+import { receptorBindingTi } from "./receptor-binding-ti";
+import { drugEffectModifications } from "./drug-effect-modifications";
+import { autonomicReceptors } from "./autonomic-receptors";
+import { acetylcholineReceptors } from "./acetylcholine-receptors";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -224,6 +229,11 @@ export const usmleNotes: KypUsMLENote[] = [
   drugMetabolism,
   eliminationOfDrugs,
   urinePhDosage,
+  efficacyPotency,
+  receptorBindingTi,
+  drugEffectModifications,
+  autonomicReceptors,
+  acetylcholineReceptors,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

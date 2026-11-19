@@ -1,0 +1,73 @@
+{
+  "topicId": "efficacy-potency",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-potency-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two definition blocks (book 232): Efficacy (maximal effect a drug can produce — intrinsic activity; represented by the y-value (Emax); ↑ y-value = ↑ Emax = ↑ efficacy; unrelated to potency — efficacious drugs can have high or low potency; partial agonists have less efficacy than full agonists) and Potency (amount of drug needed for a given effect; represented by the x-value (EC50); left shifting = ↓ EC50 = ↑ potency = ↓ drug needed; unrelated to efficacy — potent drugs can have high or low efficacy)",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images): the page's entire text content is the two symmetric definition blocks, each carrying its own axis assignment (y-value Emax vs x-value EC50), its own conversion chain, its own independence clause, and — for efficacy only — the partial-agonist clause; the ↑/↓ arrows carry \\x8f/\\x90 control bytes in the raw text layer (stripped by norm).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "dose-response-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (DoseResponseMap in visuals/pharm-p6.tsx — Panel 1's rule chip '↑ y-value = ↑ Emax = ↑ efficacy' and partial-agonist note chip; Panel 2's rule chip 'left shifting = ↓ EC50 = ↑ potency = ↓ drug needed' and the 'EC = Effective concentration' note chip; Panel 4's four rule cards) + blocks[1] the table block carried verbatim in the note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dose-response-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-potency-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The two vector dose-response figures (book 232): RELATIVE EFFICACY (% Maximal effect 0-100 vs Log (drug dose); Drug A plateauing at Emax 100 and Drug B at Emax 50 at the same log-dose position; the Δ Efficacy bracket spanning the two plateaus) and RELATIVE POTENCY (Drug A left-shifted of Drug B with BOTH reaching the same maximal effect; two EC50 markers on the Log (drug dose) axis; the Δ Potency bracket spanning them; the 'EC = Effective concentration' note)",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; text-layer census — the VLM confirm attempt failed 401 on environment credentials, so the topology stands on the raster count + the pre-extracted text layer and the task's pre-verified reading): two sigmoid-panel figures whose labels stream nearly cleanly — '% Maximal effect' and 'Log (drug dose)' axes on both, ticks 100 / 50 / 0, 'Emax Drug A' / 'Emax Drug B' with the 'Δ Efficacy' bracket label interleaved between them (raw 22-25), 'Drug A' / 'Drug B' with the 'Δ Potency' bracket label (raw 44-48) and the two-line 'EC = Effective / concentration' wrap straddled by the two EC50 labels (raw 50-54).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "dose-response-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Panels 1-2 of the registry visual (DoseResponseMap in visuals/pharm-p6.tsx — the sigmoids recomputed from the logistic equation on original KYP axes: RELATIVE EFFICACY with Drug A's plateau at 100 and Drug B's at 50 and the vertical Δ Efficacy bracket; RELATIVE POTENCY with Drug A left-shifted at the same 100% ceiling, the two dashed EC50 markers, the horizontal Δ Potency bracket, and the left-shift arrow)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dose-response-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "efficacy-potency",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Two source visuals: sv1 the two definition blocks (pure text — ZERO rasters) adapted as the registry visual's rule chips / partial-agonist note / EC note / rule cards and carried verbatim in the note's table block; sv2 the two vector dose-response figures (RELATIVE EFFICACY, RELATIVE POTENCY) REDRAWN with original KYP axes as the registry visual's Panels 1-2 (the sigmoids recomputed from the logistic equation, the Δ brackets redrawn as vertical and horizontal brackets, the EC50 markers placed at each curve's half-maximal crossing). Nothing is reproduced; both surface through the single registry visual dose-response-map (DoseResponseMap in visuals/pharm-p6.tsx), whose Panel 3 independence grid is flagged KYP TEACHING CONTENT (not a book figure). Census: zero rasters (pdfimages); the VLM confirm attempt (ph6-vlm-census.ts) failed 401 on both retries (environment credentials — missing X-Token), so the census stands on the raster count + the text layer per the fallback policy. STAGED under .usmle-pipeline-cache/staging-ph6/ — promotion into content/ is owned downstream."
+}

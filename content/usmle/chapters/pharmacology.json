@@ -13,7 +13,7 @@
   ],
   "bookPages": "227–254",
   "extractionStatus": "extracted",
-  "pendingTopicCount": 23,
+  "pendingTopicCount": 18,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -483,8 +483,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "Efficacy (Emax, the ceiling) vs potency (EC50, the shift) on the dose-response curve — which the exam tests with partial agonists, competitive antagonists, and the EC50-shift questions."
+      "status": "complete",
+      "productionRationale": "Efficacy (Emax, the ceiling) vs potency (EC50, the shift) on the dose-response curve — which the exam tests with partial agonists, competitive antagonists, and the EC50-shift questions.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-potency-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two definition blocks (book 232): Efficacy (maximal effect a drug can produce — intrinsic activity; represented by the y-value (Emax); ↑ y-value = ↑ Emax = ↑ efficacy; unrelated to potency — efficacious drugs can have high or low potency; partial agonists have less efficacy than full agonists) and Potency (amount of drug needed for a given effect; represented by the x-value (EC50); left shifting = ↓ EC50 = ↑ potency = ↓ drug needed; unrelated to efficacy — potent drugs can have high or low efficacy)",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images): the page's entire text content is the two symmetric definition blocks, each carrying its own axis assignment (y-value Emax vs x-value EC50), its own conversion chain, its own independence clause, and — for efficacy only — the partial-agonist clause; the ↑/↓ arrows carry \\x8f/\\x90 control bytes in the raw text layer (stripped by norm).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "dose-response-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (DoseResponseMap in visuals/pharm-p6.tsx — Panel 1's rule chip '↑ y-value = ↑ Emax = ↑ efficacy' and partial-agonist note chip; Panel 2's rule chip 'left shifting = ↓ EC50 = ↑ potency = ↓ drug needed' and the 'EC = Effective concentration' note chip; Panel 4's four rule cards) + blocks[1] the table block carried verbatim in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dose-response-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-potency-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The two vector dose-response figures (book 232): RELATIVE EFFICACY (% Maximal effect 0-100 vs Log (drug dose); Drug A plateauing at Emax 100 and Drug B at Emax 50 at the same log-dose position; the Δ Efficacy bracket spanning the two plateaus) and RELATIVE POTENCY (Drug A left-shifted of Drug B with BOTH reaching the same maximal effect; two EC50 markers on the Log (drug dose) axis; the Δ Potency bracket spanning them; the 'EC = Effective concentration' note)",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; text-layer census — the VLM confirm attempt failed 401 on environment credentials, so the topology stands on the raster count + the pre-extracted text layer and the task's pre-verified reading): two sigmoid-panel figures whose labels stream nearly cleanly — '% Maximal effect' and 'Log (drug dose)' axes on both, ticks 100 / 50 / 0, 'Emax Drug A' / 'Emax Drug B' with the 'Δ Efficacy' bracket label interleaved between them (raw 22-25), 'Drug A' / 'Drug B' with the 'Δ Potency' bracket label (raw 44-48) and the two-line 'EC = Effective / concentration' wrap straddled by the two EC50 labels (raw 50-54).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "dose-response-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Panels 1-2 of the registry visual (DoseResponseMap in visuals/pharm-p6.tsx — the sigmoids recomputed from the logistic equation on original KYP axes: RELATIVE EFFICACY with Drug A's plateau at 100 and Drug B's at 50 and the vertical Δ Efficacy bracket; RELATIVE POTENCY with Drug A left-shifted at the same 100% ceiling, the two dashed EC50 markers, the horizontal Δ Potency bracket, and the left-shift arrow)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dose-response-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "receptor-binding-ti",
@@ -507,8 +563,91 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
-      "status": "pending",
-      "productionRationale": "The A/B/C receptor-binding panels (full/partial agonists, antagonists, inverse agonists) with the Can/Cannot behaviors + the therapeutic index TD50/ED50 with the margin-of-safety reading."
+      "status": "complete",
+      "productionRationale": "The A/B/C receptor-binding panels (full/partial agonists, antagonists, inverse agonists) with the Can/Cannot behaviors + the therapeutic index TD50/ED50 with the margin-of-safety reading.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding-ti",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-ti-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The agonist-types table (book 233): 5 columns (AGONIST WITH / POTENCY / EFFICACY / REMARKS / EXAMPLE) x 4 rows in printed order (A Competitive antagonist: ↓ / No change / Can be overcome by ↑ agonist concentration / Diazepam + flumazenil on GABA A receptor; B Noncompetitive antagonist: No change / ↓ / Cannot be overcome by ↑ agonist concentration / Norepinephrine + phenoxybenzamine on α-receptors; C Partial agonist (alone): Independent / ↓ / Acts at same site as full agonist / Morphine vs buprenorphine at opioid μ-receptors; Inverse agonist (alone): Independent / Negative / Binds to a constitutively active receptor, thereby reducing its activity; has the opposite effect of an agonist / H1 antihistamines (eg, diphenhydramine)), rows A-C carrying the book's teal letter chips and the Inverse agonist row printing chipless",
+          "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images): the complete table as printed; the row-A/B/C letter chips are vector circles with white letters at each row-label's left edge (the Inverse agonist row has none). The table streams cleanly in the text layer (raw 66-130) without figure interleave.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Band 2 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the table re-set as KYP table art with the POTENCY column tagged 'dose axis' and the EFFICACY column tagged 'effect axis', the ↓ cells tinted by axis, and the Inverse agonist row marked chipless) + blocks[1] the table block carried verbatim in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding-ti",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-ti-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The three receptor-binding dose-response panels (book 233), A/B/C white-on-teal letter chips in each: panel A the Agonist reference curve + Agonist + competitive antagonist (pink, right-shifted, SAME 100% ceiling; red right-arrow 'Reduced potency'); panel B Agonist + Agonist + noncompetitive antagonist (orange, SAME midpoint, ~50% lower plateau; red down-arrow 'Reduced efficacy'; both half-max markers at the same dose = potency No change); panel C Agonist + TWO Partial agonist curves (green, lower plateaus; two red down-arrows 'Reduced efficacy'; 'Independent potency' half-max straddle) — every panel carries the plain Agonist reference curve",
+          "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; pinned from the PDF's vector layer — PyMuPDF get_drawings, 147 paths, after the VLM confirm failed twice on auth): the panels' labels interleave in the text layer ('Agonist' x3; the two 'Reduced efficacy' labels of panels B and C print before panel A's 'Reduced potency'; 'Partial C' fuses the C chip with the second 'Partial agonist' label; 'Independent potency' interleaves the 'Agonist dose' x-axis labels), and each panel's rotated y-axis label prints as vector text-outlines outside the text layer.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Band 1 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the three panels recomputed on original KYP axes: logistic sigmoids with dashed Emax ceilings, EC50 L-markers colored per curve, red right/down arrows, KYP letter chips, and per-panel row strips linking each panel to its table row)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding-ti",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-ti-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The therapeutic-index block (book 233): the quantal cumulative-response figure (Efficacy and Toxicity curves, y-axis '% of patients responding' with 100/50/0 ticks, x-axis 'Log (drug concentration)', ED50 and TD50 markers, the 'Therapeutic index' bracket spanning the ED50→TD50 gap, legend 'ED = Effective dose / TD = Toxic dose') plus the TI = TD50/ED50 display fraction, the definition ('Measurement of drug safety.'), the therapeutic-window sentence, the source's own 'TITE: Therapeutic Index = TD50 / ED50.' mnemonic, the low-TI monitoring sentence (warfarin, theophylline, digoxin, antiepileptic drugs, lithium; 'Warning! These drugs are lethal!'), and the LD50 sentence",
+          "sourceFigureDescription": "MIXED (pdfimages: zero raster images): the quantal figure prints as VECTOR line art (blue Efficacy curve, red Toxicity curve, the ED50/TD50 markers and the 'Therapeutic index' bracket in the vector layer) while the surrounding block — definition, fraction, window sentence, TITE line, low-TI list, LD50 sentence — is pure text ('TITE' and the drug-list initials in red bold; the fraction bar and '=' are vector).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "Bands 3-4 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the quantal curves recomputed on original KYP axes with the ED50/TD50 markers and safety-gap bracket, the inverse-agonist card with the constitutively-active-receptor glyph, the TITE banner quoting the source's own mnemonic verbatim, the therapeutic-window strip, and the five low-TI drug chips under the source's own Warning line) + the note's callout block carrying TITE and the Warning verbatim with attribution",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "drug-effect-modifications",
@@ -530,8 +669,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "Potentiation, additive/synergistic effects, tolerance, tachyphylaxis, and the placebo/nocebo framework. Shared page 256 with autonomic-receptors, distinct subsections."
+      "status": "complete",
+      "productionRationale": "Potentiation, additive/synergistic effects, tolerance, tachyphylaxis, and the placebo/nocebo framework. Shared page 256 with autonomic-receptors, distinct subsections.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "drug-effect-modifications",
+          "requiredInKYP": true,
+          "visualId": "drug-effect-modifications-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              256
+            ],
+            "bookPages": "234"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 6-row drug effect modifications table (book 234, top half) — TERM/DEFINITION/EXAMPLE for additive, permissive, synergistic, potentiation, antagonistic, tachyphylactic",
+          "sourceFigureDescription": "PURE TEXT TABLE (pdfimages: zero raster images on the page; no figures, no margin notes or mnemonics): one 6-row TERM/DEFINITION/EXAMPLE table — Additive (effect of substances A and B together is equal to the sum of their individual effects; aspirin and acetaminophen; “2 + 2 = 4”), Permissive (presence of substance A is required for the full effects of substance B; cortisol on catecholamine responsiveness; no chip), Synergistic (effect of substances A and B together is greater than the sum of their individual effects; clopidogrel with aspirin; “2 + 2 > 4”), Potentiation (similar to synergism, but drug B [with no therapeutic action alone] enhances the therapeutic action of drug A; carbidopa only blocks enzyme to prevent peripheral conversion of levodopa; “2 + 0 > 2”), Antagonistic (effect of substances A and B together is less than the sum of their individual effects; morphine with naloxone; “2 + 2 < 4”), Tachyphylactic (acute decrease in response to a drug after initial/repeated administration; repeat use of intranasal decongestant [eg, oxymetazoline] → ↓ therapeutic response [with rebound congestion]; no chip). VLM confirm attempted twice (ph8-vlm-census.ts) — both calls failed 401 missing X-Token; census stands on pdfimages + the text layer.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "effect-modification-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (EffectModificationMap in visuals/pharm-p8.tsx — the six arithmetic-ladder cards with the four source-own equation chips, the permissive key-unlock glyph with its dashed no-chip ghost chip, the tachyphylactic fading-response curve with the growing rebound-congestion bars and rebound arrow, the operator strip, and the two-rows-refuse-an-operator banner) + blocks[2] the steps block distilling the same six rungs; the table is also carried verbatim in blocks[1] the table block, core.what, and recall[0-5]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "effect-modification-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "autonomic-receptors",
@@ -553,8 +721,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The organ-by-organ autonomic table (eye, heart, vasculature, GI, GU, sweat glands with the sympathetic-cholinergic exception) — THE master table of autonomic pharmacology. Shared page 256 with drug-effect-modifications."
+      "status": "complete",
+      "productionRationale": "The organ-by-organ autonomic table (eye, heart, vasculature, GI, GU, sweat glands with the sympathetic-cholinergic exception) — THE master table of autonomic pharmacology. Shared page 256 with drug-effect-modifications.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "autonomic-receptors",
+          "requiredInKYP": true,
+          "visualId": "autonomic-receptors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              256
+            ],
+            "bookPages": "234"
+          },
+          "visualType": "PHYSIOLOGY_DIAGRAM",
+          "visualPurpose": "The autonomic/somatic wiring figure (book 234): the two-neuron chains, their transmitters, and every receptor chip",
+          "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: zero raster images; VLM attempted twice on scripts/usmle-pipeline/ph9-vlm-census.ts and failed 401 missing X-Token both times — labels read via the pdftotext text layer): ONE large wiring figure — AUTONOMIC split into a Parasympathetic column (Brainstem origin; Preganglionic neuron (long) → Nn ganglion near the target → Postganglionic neuron (short) → ACh → M₁, M₂, M₃ on Smooth muscle, gland cells, nerve terminals, cardiac muscle) and a Sympathetic column (Spinal cord origin; Preganglionic neuron (short) → Nn in the Sympathetic chain → Postganglionic neuron (long) → NE → α1, α2, β1, β2 on the same target set and Cardiac muscle, vessels, plus α1, α2, β1, D1 on Renal vasculature smooth muscle), beside a SOMATIC column (Voluntary motor nerve → ACh → Neuromuscular junction with Nm on Skeletal muscle). The sympathetic exceptions print on the same figure: the Adrenal gland (medulla) with its own Nn, DIRECTLY innervated by a preganglionic sympathetic fiber and releasing Epi + NE into Blood (catecholamine transmission); and the Sweat glands — part of the sympathetic pathway but innervated by cholinergic fibers (ACh → M₃; sympathetic nervous system results in a “chold” sweat, the source's own typo) — with a standalone “D” label printing beneath “Sweat glands” in the text layer. Three rule lines print under the figure: the parasympathetic nerve list (pelvic splanchnic nerves and CNs III, VII, IX, and X), the direct adrenal-medulla line, and the sweat-gland cholinergic exception.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "autonomic-organ-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's full wiring map (AutonomicOrganMap in visuals/pharm-p9.tsx): the CNS band with the three origin glyphs, the three columns (parasympathetic brand-blue with its long-then-short fiber pair and M₁/M₂/M₃ target; sympathetic emergency-red with its short-then-long pair, chain-of-Nn glyph and α/β target; somatic warning-amber with the NMJ zigzag, Nm chip and Skeletal muscle), the exceptions band (the adrenal direct line with Epi/NE chips into the Blood vessel glyph; the sweat gland's flagged ACh exception with M₃ and the “chold” quote; the renal α1, α2, β1, D1 chip), the receptor-chip address band, and the three-rules band — plus the note's verbatim label table (blocks[1])",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "autonomic-organ-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "acetylcholine-receptors",
@@ -576,8 +773,37 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "Nm (somatic muscle), Nn (all autonomic ganglia, adrenal medulla), M1-M3 muscarinic — the binding/activation hierarchy (nerve gas: irreversible; curare: Nn reversible) with the agonist/antagonist matrix. Shared page 257 with pain-transmission."
+      "status": "complete",
+      "productionRationale": "Nm (somatic muscle), Nn (all autonomic ganglia, adrenal medulla), M1-M3 muscarinic — the binding/activation hierarchy (nerve gas: irreversible; curare: Nn reversible) with the agonist/antagonist matrix. Shared page 257 with pain-transmission.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "acetylcholine-receptors",
+          "requiredInKYP": true,
+          "visualId": "acetylcholine-receptors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              257
+            ],
+            "bookPages": "235"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two-block Acetylcholine receptors text (book 235, top half) — the nicotinic and muscarinic receptor definitions with their subtype/distribution lists",
+          "sourceFigureDescription": "PURE TEXT, TWO BLOCKS (pdfimages: zero raster images; VLM census attempt returned 401 twice in subagent context, so the census stands on pdfimages + the text layer): the NICOTINIC block — 'Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in some cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found in neuromuscular junction of skeletal muscle).' — followed by the MUSCARINIC block — 'Muscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd messengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat glands (cholinergic sympathetic).' No figures, margin notes, or mnemonics print in the ACh half.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "ach-receptor-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (AchReceptorMap in visuals/pharm-p10.tsx — the ACh dispatcher chip, the nicotinic channel glyph with K+ efflux / Na+ and in-some-cases Ca2+ influx arrows plus the NN and NM subtype chips, the muscarinic GPCR glyph with its G-protein → 2nd-messenger cascade plus the five M1–5 location chips with the cholinergic-sympathetic sweat exception, the exam-targets band, and the one-key-three-locks banner); the two printed blocks are also carried verbatim in the note's table block (blocks[1]), core.what, and recall[0-1]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "ach-receptor-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "pain-transmission",

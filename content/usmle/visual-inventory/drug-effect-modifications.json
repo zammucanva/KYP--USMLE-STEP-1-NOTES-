@@ -1,0 +1,46 @@
+{
+  "topicId": "drug-effect-modifications",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "drug-effect-modifications",
+      "requiredInKYP": true,
+      "visualId": "drug-effect-modifications-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 6-row drug effect modifications table (book 234, top half) — TERM/DEFINITION/EXAMPLE for additive, permissive, synergistic, potentiation, antagonistic, tachyphylactic",
+      "sourceFigureDescription": "PURE TEXT TABLE (pdfimages: zero raster images on the page; no figures, no margin notes or mnemonics): one 6-row TERM/DEFINITION/EXAMPLE table — Additive (effect of substances A and B together is equal to the sum of their individual effects; aspirin and acetaminophen; “2 + 2 = 4”), Permissive (presence of substance A is required for the full effects of substance B; cortisol on catecholamine responsiveness; no chip), Synergistic (effect of substances A and B together is greater than the sum of their individual effects; clopidogrel with aspirin; “2 + 2 > 4”), Potentiation (similar to synergism, but drug B [with no therapeutic action alone] enhances the therapeutic action of drug A; carbidopa only blocks enzyme to prevent peripheral conversion of levodopa; “2 + 0 > 2”), Antagonistic (effect of substances A and B together is less than the sum of their individual effects; morphine with naloxone; “2 + 2 < 4”), Tachyphylactic (acute decrease in response to a drug after initial/repeated administration; repeat use of intranasal decongestant [eg, oxymetazoline] → ↓ therapeutic response [with rebound congestion]; no chip). VLM confirm attempted twice (ph8-vlm-census.ts) — both calls failed 401 missing X-Token; census stands on pdfimages + the text layer.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "effect-modification-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (EffectModificationMap in visuals/pharm-p8.tsx — the six arithmetic-ladder cards with the four source-own equation chips, the permissive key-unlock glyph with its dashed no-chip ghost chip, the tachyphylactic fading-response curve with the growing rebound-congestion bars and rebound arrow, the operator strip, and the two-rows-refuse-an-operator banner) + blocks[2] the steps block distilling the same six rungs; the table is also carried verbatim in blocks[1] the table block, core.what, and recall[0-5]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "effect-modification-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-effect-modifications",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The effect-modifications half's ONE visual asset — the 6-row TERM/DEFINITION/EXAMPLE table — is accounted for: adapted as the registry visual effect-modification-map (an ORIGINAL KYP ADAPTATION — the arithmetic-ladder redraw with the source's own four equation chips carried verbatim) and carried verbatim in the note's table block; nothing is reproduced. Census: zero raster images (pdfimages) and no margin mnemonics in the top half; VLM confirm attempted twice (ph8-vlm-census.ts) but both calls failed 401 missing X-Token, so the census stands on pdfimages + the text layer. SHARED PAGE (the p196 convention): the bottom half of pdf 256 / book 234 is the sibling topic autonomic-receptors and is out of scope here. STAGED under .usmle-pipeline-cache/staging-ph8/ — promotion into content/ is owned downstream."
+}

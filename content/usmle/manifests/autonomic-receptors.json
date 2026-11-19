@@ -1,0 +1,249 @@
+{
+  "topicId": "autonomic-receptors",
+  "title": "Autonomic Receptors: The Wiring Map",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      256
+    ],
+    "bookPages": "234–234"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "The second subsection banner and the topic heading — ▶ PHARMACOLOGY—AUTONOMIC DRUGS / Autonomic receptors (book 234; the FIRST banner on this shared page belongs to Drug effect modifications and is NOT quoted here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "▶ PHARMACOLOGY—AUTONOMIC DRUGS\nAutonomic receptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's divisions and origins, cluster 1 — AUTONOMIC (Parasympathetic from the Brainstem, with its Preganglionic neuron (long)) vs SOMATIC / Sympathetic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "AUTONOMIC\nParasympathetic\nBrainstem\n\nPreganglionic\nneuron (long)\n\nSOMATIC\nSympathetic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's divisions and origins, cluster 2 — Spinal cord, the SOMATIC Voluntary motor nerve, the sympathetic Preganglionic neuron (short), and the first Nn ganglion label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Spinal cord\n\nVoluntary\nmotor nerve\n\nPreganglionic\nneuron (short)\n\nNn",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The preganglionic transmitter stamps — ACh on every preganglionic fiber (three ACh labels), Nn in the ganglia, and a fourth ACh (the direct adrenal line / sweat line region)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "ACh\n\nACh\n\nACh\n\nNn\n\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The adrenal and chain cluster — Adrenal gland (medulla), Sympathetic chain, Nn, and Blood (catecholamine transmission)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Adrenal\ngland\n(medulla)\n\nSympathetic\nchain\n\nNn\n\nBlood\n(catecholamine\ntransmission)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The postganglionic mirror — ACh, Postganglionic neuron (short) [parasympathetic] vs Postganglionic neuron (long) [sympathetic] with its NE stamp, then ACh and ACh (the parasympathetic target stamp and the sweat-gland cholinergic stamp)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "ACh\n\nPostganglionic\nneuron (short)\n\nPostganglionic\nneuron (long)\nNE\n\nACh\n\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The muscarinic chips and targets — M₁, M₂, M₃ on Smooth muscle, gland cells, nerve terminals, cardiac muscle; M₃ on Sweat glands; the standalone D label printing beneath Sweat glands (carried verbatim)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "M₁, M₂, M₃\n\nM₃\n\nSmooth muscle,\ngland cells, nerve\nterminals,\ncardiac muscle\n\nSweat glands\n\nD",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The catecholamine and adrenergic chips — NE, Epi, NE (the adrenal medulla's output) and α1, α2, β1, β2 (sympathetic targets) vs α1, α2, β1, D1 (renal vasculature)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "NE\n\nEpi\n\nNE\nα1, α2, β1, β2\n\nα1, α2, β1, D1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The interleaved receptor-target pair — Smooth muscle, gland cells, nerve terminals, cardiac muscle printed side by side with Renal vasculature smooth muscle on shared lines (the text layer's two-column interleave, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Smooth muscle, Renal vasculature\ngland cells, nerve smooth muscle\nterminals,\ncardiac muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The somatic cluster — the Neuromuscular / ACh junction interleave, α1, α2, β1, β2 on Cardiac muscle, vessels, Nm at the NMJ, and Skeletal muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Neuromuscular\nACh junction\n\nα1, α2, β1, β2\n\nNm\n\nCardiac muscle,\nvessels\n\nSkeletal muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE THREE RULES, verbatim — (1) pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous system; (2) adrenal medulla is directly innervated by preganglionic sympathetic fibers; (3) sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers (sympathetic nervous system results in a “chold” sweat — the source's OWN TYPO, carried verbatim)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous\nsystem.\nAdrenal medulla is directly innervated by preganglionic sympathetic fibers.\nSweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers\n(sympathetic nervous system results in a “chold” sweat).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 234 / 12/19/25 8:07 AM (page identity, book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 234\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "autonomic-organ-map"
+  ],
+  "mechanismIds": [
+    "two-neuron-chain-map",
+    "the-three-exceptions-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four original KYP mnemonics (EVERY PRE FIRES ACh / PARA LONG PRE, SYM SHORT PRE / SYMPATHETIC WIRING, CHOLINERGIC SWEAT / GANGLION Nn, END-PLATE Nm, KIDNEY D1). The source page prints NO mnemonics of its own — its three rule lines are carried VERBATIM with attribution (they are the source's rules, not counted among the four KYP codes), including the third rule's own “chold” typo preserved exactly as printed.",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints exactly three rule lines and no mnemonic; the four ALL-CAPS transmitter-rule, length-rule, sweat-exception, and receptor-geography codes are KYP's design.",
+      "location": "mnemonics + blocks[4] the mnemonic-provenance callout + the visual's band markers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The ganglionic-blocker miniCase — a man on an Nn-blocker infusion (trimethaphan) for aortic-dissection hypertension, asked which synaptic transmission remains fully intact; the correct answer is the somatic NMJ (Nm), with four distractors built from the page's own wiring rules (adrenal medulla 'postganglionic' misread, vascular NE 'downstream' misread, sweat-gland cholinergic-vs-nicotinic conflation, bowel M3 location-vs-traffic conflation).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the wiring figure and the three rules but never integrates them into a what-survives-ganglionic-blockade vignette; the trimethaphan stem, the warm-dry-skin/ileus/retention findings, and all four distractor mechanisms are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "five-gate-layer",
+      "summary": "The five-gate reading protocol (WHICH COLUMN → WHICH FIBER IS LONG → WHICH TRANSMITTER → WHICH RECEPTOR CHIP → WHICH EXCEPTION) and the ganglionic-blocker reasoning callout (what Nn blockade silences vs spares) — KYP's synthesis of the wiring figure, its transmitter stamps, and its three rules into one protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the rules but no reading order; the five-gate protocol, the Nn-blockade silences/spares ledger, and the length-rule framing are KYP's design.",
+      "location": "blocks[2] the steps block + blocks[3] the exam callout + the registry visual's band footers"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot attack structure layered over the source facts — 6 patterns (postganglionic NE fiber reading, ganglionic-blocker intact transmissions, anticholinergic anhidrosis, pheochromocytoma's direct line, renal-dose dopamine's D1, the parasympathetic nerve list), 5 traps (the sweat-gland NE assumption, the long-vs-short reversal, the adrenal medulla's wiring, Nn vs Nm, the renal β1+D1 vs generic β2 chip), 3 pivots.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the figure's labels and the three rules only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 256 / book 234 carries two subsections — Drug effect modifications (top half, sibling topic drug-effect-modifications) and Autonomic receptors (bottom half, this topic); only the autonomic-receptors block's contiguous lines (part1.txt page-256 lines 66-170, from the second '▶ PHARMACOLOGY—AUTONOMIC DRUGS' banner onward) are quoted, and the interleaved figure labels are quoted in physical order as the text layer prints them — the Drug effect modifications block (lines 1-65) is NOT quoted. CHOLD TYPO (documented): the third rule's parenthetical prints the SOURCE'S OWN TYPO — sympathetic nervous system results in a 'chold' sweat ('chold' for 'cold') — carried verbatim, in quotes, with attribution, never silently corrected. D LABEL (documented decision): a standalone 'D' prints directly beneath 'Sweat glands' in the text layer (between the sweat-gland label and the adrenal Epi/NE cluster) — carried verbatim in the note's label table and evidence; read as the figure's dopamine letter in the sweat-gland band, its unambiguous sibling being the D1 of the renal chip α1, α2, β1, D1; the VLM pass that might have resolved its exact placement failed (see census below), so the ambiguity is documented rather than resolved. INTERLEAVE QUIRK (documented): the text layer interleaves side-by-side labels on shared lines — 'Smooth muscle, Renal vasculature / gland cells, nerve smooth muscle' (the sympathetic target cell printed beside Renal vasculature smooth muscle) and 'Neuromuscular / ACh junction' (the NMJ printed beside its ACh stamp) — both carried as printed and glossed in the note's verbatim table. CENSUS METHOD: pdfimages reports ZERO raster images on pdf 256; the z-ai VLM census (scripts/usmle-pipeline/ph9-vlm-census.ts, glm-4.6v) was attempted twice and failed 401 (missing X-Token) both times — as it did for the ph8 sibling — so the census stands on pdfimages + the text layer; the wiring topology is fully recoverable from the interleaved labels + the three rules, all quoted above. Quirks, documented: (1) part1.txt page-256 line N = ph1-p256.txt line N+1 (the pre-extracted file's banner line); (2) the source prints subscript M₁, M₂, M₃ but regular digits α1, α2, β1, β2, D1 — both carried as printed; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-ph9/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, and the visual registry are owned by the promotion step; the note's visualId 'autonomic-organ-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-19"
+}

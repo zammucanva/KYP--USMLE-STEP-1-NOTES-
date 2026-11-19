@@ -1,0 +1,100 @@
+{
+  "topicId": "receptor-binding-ti",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding-ti",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-ti-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The agonist-types table (book 233): 5 columns (AGONIST WITH / POTENCY / EFFICACY / REMARKS / EXAMPLE) x 4 rows in printed order (A Competitive antagonist: ↓ / No change / Can be overcome by ↑ agonist concentration / Diazepam + flumazenil on GABA A receptor; B Noncompetitive antagonist: No change / ↓ / Cannot be overcome by ↑ agonist concentration / Norepinephrine + phenoxybenzamine on α-receptors; C Partial agonist (alone): Independent / ↓ / Acts at same site as full agonist / Morphine vs buprenorphine at opioid μ-receptors; Inverse agonist (alone): Independent / Negative / Binds to a constitutively active receptor, thereby reducing its activity; has the opposite effect of an agonist / H1 antihistamines (eg, diphenhydramine)), rows A-C carrying the book's teal letter chips and the Inverse agonist row printing chipless",
+      "sourceFigureDescription": "PURE TEXT (pdfimages: zero raster images): the complete table as printed; the row-A/B/C letter chips are vector circles with white letters at each row-label's left edge (the Inverse agonist row has none). The table streams cleanly in the text layer (raw 66-130) without figure interleave.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Band 2 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the table re-set as KYP table art with the POTENCY column tagged 'dose axis' and the EFFICACY column tagged 'effect axis', the ↓ cells tinted by axis, and the Inverse agonist row marked chipless) + blocks[1] the table block carried verbatim in the note",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding-ti",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-ti-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The three receptor-binding dose-response panels (book 233), A/B/C white-on-teal letter chips in each: panel A the Agonist reference curve + Agonist + competitive antagonist (pink, right-shifted, SAME 100% ceiling; red right-arrow 'Reduced potency'); panel B Agonist + Agonist + noncompetitive antagonist (orange, SAME midpoint, ~50% lower plateau; red down-arrow 'Reduced efficacy'; both half-max markers at the same dose = potency No change); panel C Agonist + TWO Partial agonist curves (green, lower plateaus; two red down-arrows 'Reduced efficacy'; 'Independent potency' half-max straddle) — every panel carries the plain Agonist reference curve",
+      "sourceFigureDescription": "VECTOR LINE ART (pdfimages: zero rasters; pinned from the PDF's vector layer — PyMuPDF get_drawings, 147 paths, after the VLM confirm failed twice on auth): the panels' labels interleave in the text layer ('Agonist' x3; the two 'Reduced efficacy' labels of panels B and C print before panel A's 'Reduced potency'; 'Partial C' fuses the C chip with the second 'Partial agonist' label; 'Independent potency' interleaves the 'Agonist dose' x-axis labels), and each panel's rotated y-axis label prints as vector text-outlines outside the text layer.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Band 1 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the three panels recomputed on original KYP axes: logistic sigmoids with dashed Emax ceilings, EC50 L-markers colored per curve, red right/down arrows, KYP letter chips, and per-panel row strips linking each panel to its table row)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding-ti",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-ti-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The therapeutic-index block (book 233): the quantal cumulative-response figure (Efficacy and Toxicity curves, y-axis '% of patients responding' with 100/50/0 ticks, x-axis 'Log (drug concentration)', ED50 and TD50 markers, the 'Therapeutic index' bracket spanning the ED50→TD50 gap, legend 'ED = Effective dose / TD = Toxic dose') plus the TI = TD50/ED50 display fraction, the definition ('Measurement of drug safety.'), the therapeutic-window sentence, the source's own 'TITE: Therapeutic Index = TD50 / ED50.' mnemonic, the low-TI monitoring sentence (warfarin, theophylline, digoxin, antiepileptic drugs, lithium; 'Warning! These drugs are lethal!'), and the LD50 sentence",
+      "sourceFigureDescription": "MIXED (pdfimages: zero raster images): the quantal figure prints as VECTOR line art (blue Efficacy curve, red Toxicity curve, the ED50/TD50 markers and the 'Therapeutic index' bracket in the vector layer) while the surrounding block — definition, fraction, window sentence, TITE line, low-TI list, LD50 sentence — is pure text ('TITE' and the drug-list initials in red bold; the fraction bar and '=' are vector).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Bands 3-4 of the registry visual (ReceptorBindingMap in visuals/pharm-p7.tsx — the quantal curves recomputed on original KYP axes with the ED50/TD50 markers and safety-gap bracket, the inverse-agonist card with the constitutively-active-receptor glyph, the TITE banner quoting the source's own mnemonic verbatim, the therapeutic-window strip, and the five low-TI drug chips under the source's own Warning line) + the note's callout block carrying TITE and the Warning verbatim with attribution",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "receptor-binding-ti",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's three visual assets are its three VECTOR receptor-binding panels (redrawn as ORIGINAL KYP art — logistic sigmoids recomputed on original KYP axes with the printed panel mapping A competitive / B noncompetitive / C partial agonists, each panel carrying the plain Agonist reference curve), its pure-text agonist-types table (carried verbatim in the note's table block and re-set as KYP table art in the registry visual), and its therapeutic-index block (the quantal ED50/TD50 figure redrawn on original KYP axes + the formula/window/low-TI text re-set as the TITE banner, window strip, and drug chips); nothing is reproduced. Census: zero raster images (pdfimages); the VLM confirm (ph7-vlm-census.ts) failed twice on auth (401 missing X-Token) so the geometry was pinned from the PDF's own vector layer (PyMuPDF get_drawings) plus the text layer; the source's own 'TITE: Therapeutic Index = TD50 / ED50.' and 'Warning! These drugs are lethal!' are carried verbatim and attributed. STAGED under .usmle-pipeline-cache/staging-ph7/ — promotion into content/ is owned downstream."
+}

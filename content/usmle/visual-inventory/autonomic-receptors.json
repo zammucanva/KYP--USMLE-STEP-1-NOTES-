@@ -1,0 +1,46 @@
+{
+  "topicId": "autonomic-receptors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "autonomic-receptors",
+      "requiredInKYP": true,
+      "visualId": "autonomic-receptors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "visualType": "PHYSIOLOGY_DIAGRAM",
+      "visualPurpose": "The autonomic/somatic wiring figure (book 234): the two-neuron chains, their transmitters, and every receptor chip",
+      "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: zero raster images; VLM attempted twice on scripts/usmle-pipeline/ph9-vlm-census.ts and failed 401 missing X-Token both times — labels read via the pdftotext text layer): ONE large wiring figure — AUTONOMIC split into a Parasympathetic column (Brainstem origin; Preganglionic neuron (long) → Nn ganglion near the target → Postganglionic neuron (short) → ACh → M₁, M₂, M₃ on Smooth muscle, gland cells, nerve terminals, cardiac muscle) and a Sympathetic column (Spinal cord origin; Preganglionic neuron (short) → Nn in the Sympathetic chain → Postganglionic neuron (long) → NE → α1, α2, β1, β2 on the same target set and Cardiac muscle, vessels, plus α1, α2, β1, D1 on Renal vasculature smooth muscle), beside a SOMATIC column (Voluntary motor nerve → ACh → Neuromuscular junction with Nm on Skeletal muscle). The sympathetic exceptions print on the same figure: the Adrenal gland (medulla) with its own Nn, DIRECTLY innervated by a preganglionic sympathetic fiber and releasing Epi + NE into Blood (catecholamine transmission); and the Sweat glands — part of the sympathetic pathway but innervated by cholinergic fibers (ACh → M₃; sympathetic nervous system results in a “chold” sweat, the source's own typo) — with a standalone “D” label printing beneath “Sweat glands” in the text layer. Three rule lines print under the figure: the parasympathetic nerve list (pelvic splanchnic nerves and CNs III, VII, IX, and X), the direct adrenal-medulla line, and the sweat-gland cholinergic exception.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "autonomic-organ-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's full wiring map (AutonomicOrganMap in visuals/pharm-p9.tsx): the CNS band with the three origin glyphs, the three columns (parasympathetic brand-blue with its long-then-short fiber pair and M₁/M₂/M₃ target; sympathetic emergency-red with its short-then-long pair, chain-of-Nn glyph and α/β target; somatic warning-amber with the NMJ zigzag, Nm chip and Skeletal muscle), the exceptions band (the adrenal direct line with Epi/NE chips into the Blood vessel glyph; the sweat gland's flagged ACh exception with M₃ and the “chold” quote; the renal α1, α2, β1, D1 chip), the receptor-chip address band, and the three-rules band — plus the note's verbatim label table (blocks[1])",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "autonomic-organ-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autonomic-receptors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "ONE visual asset on the source page (pdfimages: ZERO rasters — the Autonomic receptors block is a single large VECTOR wiring figure plus three rule lines): the autonomic-vs-somatic wiring diagram, redrawn as original KYP vector art (autonomic-organ-map — three columns from a CNS band through Nn ganglia chips to the target organs, every fiber stamped with its transmitter, the adrenal medulla's direct line releasing Epi/NE into the Blood glyph, the sweat gland's flagged cholinergic exception with the source's own “chold” sweat quote carried verbatim, the renal α1/α2/β1/D1 chip, and the three-rules band). Nothing is reproduced; all printed labels are quoted verbatim in the note's label table. Census: zero raster images (pdfimages); the z-ai VLM pass was attempted twice (ph9-vlm-census.ts) and failed 401 missing X-Token both times — the census stands on pdfimages + the text layer (the wiring topology is fully recoverable from the interleaved labels + the three rules). Shared page: pdf 256's top half (Drug effect modifications) belongs to the sibling topic. STAGED under .usmle-pipeline-cache/staging-ph9/ — promotion into content/ is owned downstream."
+}
