@@ -1,0 +1,73 @@
+{
+  "topicId": "g-protein-second-messengers",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "g-protein-second-messengers",
+      "requiredInKYP": true,
+      "visualId": "g-protein-second-messengers-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The page-dominant RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table (book 237): 14 receptor rows in five family bands, each with its q/i/s G-protein class letter and its major functions — the single highest-yield table in autonomic pharmacology",
+      "sourceFigureDescription": "TYPOGRAPHIC TABLE (VLM-confirmed: shaded family bands — Adrenergic, Cholinergic, Dopamine, Histamine, Vasopressin — over 14 rows: α1 (q), α2 (i), β1 (s), β2 (s), β3 (s), M1 (q), M2 (i), M3 (q), D1 (s), D2 (i), H1 (q), H2 (s), V1 (q), V2 (s); the G-PROTEIN CLASS letters print as plain lowercase italics; the functions print with ↑/↓ glyphs; three red-printed mnemonic touches: '(one heart)' in the β1 row, '(two lungs)' in the β2 row, and the V2 row's 'twobules (tubules)' wordplay with the corrected word in parentheses; no figures, icons, photographs, or margin notes in the table region).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "g-protein-messenger-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's q/i/s SWIMLANE DIRECTORY (GProteinMessengerMap in visuals/pharm-p14.tsx — the Gq lane with its five receptor chips, the Gs lane with its six, the Gi lane with its three, each chip carrying its printed letter and a function digest) + the table's full text carried VERBATIM in the note's table block (blocks[1], printed row order, family bands included, typos/wordplay carried and attributed)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "g-protein-messenger-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "g-protein-second-messengers",
+      "requiredInKYP": true,
+      "visualId": "g-protein-second-messengers-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "visualType": "SIGNAL_TRANSDUCTION",
+      "visualPurpose": "The two-panel G-protein cascade figure (book 237): the Gq route (phospholipase C → PIP2 → DAG + IP3 → Ca2+ → smooth muscle contraction) and the shared-enzyme Gs/Gi route (adenylyl cyclase stimulated by GS protein, inhibited by Gi protein; ATP → cAMP → PKA → ↑Ca2+ and ⊣ myosin light-chain kinase)",
+      "sourceFigureDescription": "VECTOR LINE ART, ZERO rasters (pdfimages CONFIRMED; VLM seven passes 120–432 DPI + PyMuPDF word/vector-path dump, saved to staging-ph14/): TWO STACKED PANELS. TOP — the Gq cascade: Ligand (pink circle) → 'H1, α1, V1, M1, or M3 receptor' (7-TM) → Gq protein → ⊕ Phospholipase C → ⊕ PIP2 (hexagon) → DAG (right, → ⊕ Protein kinase C) and IP3 (down, → ↑Ca2+ → both ⊕ Protein kinase C and 'Smooth muscle contraction'); all arrows pointed/stimulatory. BOTTOM — the shared-enzyme panel: one Ligand label (the right arm's ligand circle unlabeled), 'B1, B2, B3, D1, H2, or V2 receptor' (Latin B as printed) → GS protein → pointed green ⊕ onto the central Adenylyl cyclase; 'M2, α2, or D2 receptor' → Gi protein → blunt red ⊖ T-bar ONTO THE SAME Adenylyl cyclase; ATP (starburst) → Cyclic AMP (circle cluster) → Protein kinase A → green ⊕ leftward onto ↑Ca2+ and blunt red ⊖ rightward onto 'Myosin light-chain kinase (smooth muscle contraction)'. Environment labels print twice per panel's left edge: Extracellular space / Cell membrane / Cytoplasm.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "g-protein-messenger-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's TWO CASCADE PANELS (GProteinMessengerMap in visuals/pharm-p14.tsx): the Gq panel redrawn as a KYP glyph chain (ligand circle → hatched membrane + 7-TM receptor glyph → Gq protein → Phospholipase C → PIP2 hexagon → the DAG/PKC and IP3/↑Ca2+/smooth-muscle-contraction fork, green ⊕ markers on the stimulatory arrows) and the shared-enzyme panel (two receptors in one membrane, GS protein's ⊕ and Gi protein's blunt red T-bar ⊖ onto the one Adenylyl cyclase, ATP → Cyclic AMP → Protein kinase A, PKA's ⊕ to ↑Ca2+ and blunt red ⊖ to Myosin light-chain kinase), with the environment labels preserved on each panel's left edge as printed",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "g-protein-messenger-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "g-protein-second-messengers",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "TWO visual assets on the source page, both accounted for: [1] the RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table — an ORIGINAL KYP ADAPTATION (the registry visual's q/i/s swimlane directory + the verbatim table block in the note, printed row order, with the source's own red-printed '(one heart)' / '(two lungs)' / 'twobules (tubules)' hints carried attributed); [2] the two-panel cascade figure — an ORIGINAL KYP REDRAW (the visual's two glyph-chain panels, every printed label preserved, both inhibitory arrows drawn as blunt red T-bars with ⊖ markers exactly where the page prints them: Gi protein onto adenylyl cyclase, and Protein kinase A onto myosin light-chain kinase). Census: ZERO raster images (pdfimages, CONFIRMED); VLM (glm-4.6v) ran seven passes this session (120–432 DPI) plus a PyMuPDF word/vector-path dump — the figure is pure vector line art, no photographs, no margin notes or mnemonics anywhere on the page. ADJUDICATION: the figure is TWO stacked panels (Gq on top; Gs and Gi share the bottom panel's ONE adenylyl cyclase); 'Myosin light-chain kinase (smooth muscle contraction)' prints in the BOTTOM panel under Protein kinase A's inhibitory arrow (the β2-relaxation mechanism), not in the Gq panel. STAGED under .usmle-pipeline-cache/staging-ph14/ — promotion into content/ is owned downstream."
+}

@@ -32,6 +32,11 @@ import { receptorBindingTi } from "./receptor-binding-ti";
 import { drugEffectModifications } from "./drug-effect-modifications";
 import { autonomicReceptors } from "./autonomic-receptors";
 import { acetylcholineReceptors } from "./acetylcholine-receptors";
+import { painTransmission } from "./pain-transmission";
+import { micturitionControl } from "./micturition-control";
+import { adrenergicReceptorDistribution } from "./adrenergic-receptor-distribution";
+import { gProteinSecondMessengers } from "./g-protein-second-messengers";
+import { autonomicDrugsSynapse } from "./autonomic-drugs-synapse";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -234,6 +239,11 @@ export const usmleNotes: KypUsMLENote[] = [
   drugEffectModifications,
   autonomicReceptors,
   acetylcholineReceptors,
+  painTransmission,
+  micturitionControl,
+  adrenergicReceptorDistribution,
+  gProteinSecondMessengers,
+  autonomicDrugsSynapse,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

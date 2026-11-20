@@ -1,0 +1,184 @@
+{
+  "topicId": "adrenergic-receptor-distribution",
+  "title": "Tissue Distribution of Adrenergic Receptors",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      258
+    ],
+    "bookPages": "236–236"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the subsection heading and the table's three column headers (book 236; the TOP half of this shared page, Micturition control lines 1-94, belongs to the sibling topic micturition-control and is NEVER quoted here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Tissue distribution of adrenergic receptors\nRECEPTOR\n\nTISSUE\n\nEFFECT(S)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The α1 block — Vascular smooth muscle → Vasoconstriction; Visceral smooth muscle → Smooth muscle contraction (the text layer prints the two TISSUE cells as a group, then the two EFFECT(S) cells — the m38 interleave; the row pairing is positional and VLM-adjudicated at 200 DPI)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "α1\n\nVascular smooth muscle\nVisceral smooth muscle\n\nVasoconstriction\nSmooth muscle contraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The α2 block — Pancreas → Inhibition of insulin secretion; Presynaptic terminals → Inhibition of neurotransmitter release; Salivary glands → Inhibition of salivary secretion (every α2 row is an inhibition; the same interleave applies)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "α2\n\nPancreas\nPresynaptic terminals\nSalivary glands\n\nInhibition of insulin secretion\nInhibition of neurotransmitter release\nInhibition of salivary secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β1 block — Heart → ↑ heart rate, contractility; Kidney → ↑ renin secretion (the ↑ glyphs print in the text layer preceded by a \\x8f control-char artifact — a pdftotext artifact, stripped by the verifier, never a printed character)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β1\n\nHeart\nKidney\n\n↑ heart rate, contractility\n↑ renin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β2 block — Bronchioles → Bronchodilation; Cardiac muscle → ↑ heart rate, contractility; Liver → Glycogenolysis, glucose release; Arterial smooth muscle → Vasodilation; Pancreas → Stimulation of insulin secretion (the five-row membership list — the widest in the table; the pancreas double-booking with α2 is deliberate and exam-tested)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β2\n\nBronchioles\nCardiac muscle\nLiver\nArterial smooth muscle\nPancreas\n\nBronchodilation\n↑ heart rate, contractility\nGlycogenolysis, glucose release\nVasodilation\nStimulation of insulin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β3 block — Adipose → ↑ lipolysis (the one-row receptor; the table gives β3 no other tissue)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β3\n\nAdipose\n\n↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the indd print slug and timestamp (page identity; prints at the very foot of pdf 258, below the adrenergic table, after both shared-page subsections)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 236\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "adrenergic-distribution-map"
+  ],
+  "mechanismIds": [
+    "adrenergic-directory-map",
+    "double-booked-organs-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed table — 6 patterns (β2 bronchodilation in asthma, the β1 cardiac-renal pair under β1 blockade, α1 vasoconstriction as decongestant/pressor, the α2 three-inhibition cluster of centrally acting agonists, the β2 cardiac-muscle row in a β2 agonist infusion, the β3 one-row adipose/lipolysis study), 5 traps (β1 Heart vs β2 Cardiac muscle; α2 Pancreas vs β2 Pancreas; α1 Vascular vs β2 Arterial smooth muscle; the α2 presynaptic autoreceptor vs the intuition that adrenergic stimulation always turns output up; the β3 one-row subtype), 3 pivots — including the drug exemplars (albuterol, metoprolol, phenylephrine, clonidine-type agents, β3 agonist) used as exam handles.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the bare distribution table and never asks the learner to route drugs through it; the attack structure and the drug exemplars are a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "directory-reading-layer",
+      "summary": "The NAME → PLACE → PREDICT (+ CHECK the double bookings) reading protocol and the double-bookings framing — three tissues hold two receptor memberships each (pancreas α2+β2 opposite insulin directions; heart β1 Heart + β2 Cardiac muscle same effect; vascular bed α1 Vascular + β2 Arterial opposite directions), plus the 'effect belongs to the (receptor, tissue) pair, never to the organ alone' rule.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the table as a lookup and never teaches a reading order or flags the double bookings; the four-move protocol and the double-bookings ledger are KYP's synthesis.",
+      "location": "core.keyIdea + blocks[2] the steps block + blocks[4] the why callout + the registry visual's double-bookings band and rule banner"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (ONE HEART, TWO LUNGS, THREE FAT / ALPHA-2, ALL BRAKES / PANCREAS PAYS BOTH WAYS / NAME, PLACE, PREDICT) — no mnemonic prints anywhere in the bottom half of the page.",
+      "origin": "outside-first-aid",
+      "rationale": "The VLM census confirms NO margin notes or mnemonics print in the adrenergic half of book 236 ('Baby one more time.' is the TOP half's, the sibling micturition-control's); the four codes are KYP's design.",
+      "location": "mnemonics + rapidReview.m3 + the visual's band footers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The α2-agonist miniCase — a centrally acting antihypertensive whose cluster (dry mouth + reduced fasting insulin + reduced norepinephrine release) is one subtype's three printed inhibition rows — with distractors built from the pancreas double-booking (β2 inverts the insulin sign), the smooth-muscle-only α1 list, and the cardiac-renal β1 list.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the table and never integrates its rows into a drug-cluster vignette; the stem, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 258 / book 236 carries TWO subsections — 'Micturition control' (top half, lines 1-94, the sibling topic micturition-control, which owns the bladder figure, the DRUGS/MECHANISM/APPLICATIONS table, and the 'Baby one more time.' margin note) and 'Tissue distribution of adrenergic receptors' (bottom half, THIS topic); only the adrenergic table's contiguous lines 96-147 are quoted, plus the indd slug/timestamp footer (lines 149-151) as its own page-identity entry — the micturition lines are NEVER quoted. CENSUS (VLM SUCCEEDED this session — both passes saved to staging-ph13/vlm-census.txt): pdfimages reports THREE rasters on pdf 258 (426x336, 383x518, 458x277, sep, 316ppi) but PyMuPDF xobject-rect analysis places ALL THREE in the TOP half (x~190-293pt, top-origin y~103-264pt) and the VLM adjudication of the extracted rasters confirmed they are the micturition figure's pure anatomy silhouettes (brainstem/pons mask, bladder with urethra, detrusor crescent — no text); the BOTTOM half is a PURE 3-column text table with ZERO figures (PyMuPDF: 34 vector paths = cell borders/shading; VLM at 200 DPI: 'text and table borders only') and ZERO margin mnemonics. The first VLM pass guessed one raster might be the adrenergic table 'rendered as a raster' — adjudicated FALSE (a raster cannot yield the table's full pdftotext text layer); the adjudication is documented in vlm-census.txt. INTERLEAVE (the m38 convention, documented): the text layer prints each receptor's TISSUE cells as a group then its EFFECT(S) cells as a group; the logical row pairing (tissue[i] <-> effect[i]) was reconstructed and VLM-adjudicated at 200 DPI, and the reconstructed table is carried VERBATIM (printed row order, 13 rows) in the note's table block (blocks[1]). Quirks, documented: (1) the table prints the receptor names with REGULAR digits (α1, α2, β1, β2, β3) while the top-half micturition figure on the same page prints α₁/β₃ with SUBSCRIPT digits — both carried as printed, never normalized; (2) the ↑ glyphs print in the text layer preceded by a \\x8f control-char artifact (a pdftotext artifact, not a printed character — the verifier's normalizer strips it); (3) NO source typos print in this half — the table text is clean; (4) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (5) outputs are STAGED under .usmle-pipeline-cache/staging-ph13/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'adrenergic-distribution-map' is therefore not yet in visuals/registry.tsx by design); (6) there is NO figure on this half, so the registry visual is an ORIGINAL KYP ADAPTATION (a five-column receptor-directory map with the pancreas and heart double-bookings flagged and an exam-reading band carrying the α2 presynaptic-autoreceptor hook — which forward-links to the sibling autonomic-drugs-synapse topic — and the β2 cardiac-muscle trap vs β1), not a redraw of source art.",
+  "updatedAt": "2026-11-20"
+}

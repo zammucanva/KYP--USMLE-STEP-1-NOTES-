@@ -1,0 +1,405 @@
+{
+  "topicId": "g-protein-second-messengers",
+  "title": "G-Protein-Linked Second Messengers",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      259
+    ],
+    "bookPages": "237–237"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header, section banner, book page number, and section mark (the 'SEC TION II' stray space is a poppler artifact, carried as printed; book 237)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\n237\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The topic heading and the table's three column headers — G-protein–linked second messengers / RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS (book 237)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "G-protein–linked second messengers\nRECEPTOR\n\nG-PROTEIN CLASS\n\nMAJOR FUNCTIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Adrenergic family band and the α1 row (q) — vascular smooth muscle contraction, pupillary dilator muscle contraction (mydriasis), intestinal and bladder sphincter muscle contraction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Adrenergic\nα1\n\nq\n\n↑ vascular smooth muscle contraction, ↑ pupillary dilator muscle contraction (mydriasis), ↑ intestinal and\nbladder sphincter muscle contraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The α2 row (i) — ↓ sympathetic (adrenergic) outflow, ↓ insulin release, ↓ lipolysis, ↑ platelet aggregation, ↓ aqueous humor production",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "α2\n\ni\n\n↓ sympathetic (adrenergic) outflow, ↓ insulin release, ↓ lipolysis, ↑ platelet aggregation, ↓ aqueous\nhumor production",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β1 row (s) — heart rate, contractility (one heart), renin release, lipolysis — the '(one heart)' parenthetical is the source's own red-printed hint, carried attributed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β1\n\ns\n\n↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β2 row (s) — vasodilation, bronchodilation (two lungs), lipolysis, insulin release, glycogenolysis, uterine tone (tocolysis), aqueous humor production, cellular K+ uptake — the '(two lungs)' parenthetical is the source's own red-printed hint, carried attributed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β2\n\ns\n\nVasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone\n(tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The β3 row (s) — lipolysis, thermogenesis in skeletal muscle, bladder relaxation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β3\n\ns\n\n↑ lipolysis, ↑ thermogenesis in skeletal muscle, ↑ bladder relaxation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Cholinergic family band and the M1 row (q) — higher cognitive functions, enteric nervous system, exocrine gland secretions",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Cholinergic\nM1\n\nq\n\nMediates higher cognitive functions, stimulates enteric nervous system, ↑ exocrine gland secretions",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The M2 row (i) — heart rate, AV node conduction velocity, and atrial contractility",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "M2\n\ni\n\n↓ heart rate, AV node conduction velocity, and atrial contractility",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The M3 row (q) — exocrine gland secretions, gut peristalsis, bladder contraction, bronchoconstriction, vasodilation, pupillary sphincter muscle contraction (miosis), ciliary muscle contraction (accommodation)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "M3\n\nq\n\n↑ exocrine gland secretions, gut peristalsis, bladder contraction, bronchoconstriction, vasodilation,\n↑ pupillary sphincter muscle contraction (miosis), ciliary muscle contraction (accommodation)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Dopamine family band and the D1 row (s) — relaxes renal vascular smooth muscle, activates direct pathway of striatum",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Dopamine\nD1\n\ns\n\nRelaxes renal vascular smooth muscle, activates direct pathway of striatum",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The D2 row (i) — modulates transmitter release, especially in brain, inhibits indirect pathway of striatum",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "D2\n\ni\n\nModulates transmitter release, especially in brain, inhibits indirect pathway of striatum",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Histamine family band and the H1 row (q) — bronchoconstriction, airway mucus production, vascular permeability/vasodilation, pruritus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Histamine\nH1\n\nq\n\n↑ bronchoconstriction, airway mucus production, ↑ vascular permeability/vasodilation, pruritus",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The H2 row (s) — gastric acid secretion",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "H2\n\ns\n\n↑ gastric acid secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Vasopressin family band and the V1 row (q) — vascular smooth muscle contraction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Vasopressin\nV1\n\nq\n\n↑ vascular smooth muscle contraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The V2 row (s) — H2O permeability and reabsorption via upregulating aquaporin-2 in collecting twobules (tubules) of kidney, release of vWF — the 'twobules (tubules)' wordplay is the SOURCE'S OWN red-printed pun (V2 · aquaporin-2 · TWO-bules), carried VERBATIM with the corrected word in parentheses, as printed, never silently fixed; NOTE the figure's first 'Ligand' label interleaves inside this row's wrapped function text (between 'of' and 'kidney, ↑ release'), an interleave carried as printed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "V2\n\ns\n\n↑ H2O permeability and reabsorption via upregulating aquaporin-2 in collecting twobules (tubules) of\nLigand\nkidney, ↑ release\nof vWF",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Gq (TOP) panel's environment + receptor labels, cluster 1 — Extracellular space, the 'H1, α1, V1, M1, or M3 receptor' label (printed TWICE — the pdftotext doubling artifact of the ghost-copy vector data), Ligand, Extracellular / Cell space / membrane (the doubled + interleaved cluster, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Extracellular\nspace\n\nH1, α1, V1, M1, or M3 receptor\n\nLigand\n\nExtracellular\nCell\nspace\nmembrane\n\nH1, α1, V1, M1, or M3 receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Gq (TOP) panel's PIP2 / Gq protein / Phospholipase C cluster — PIP2 twice, Cytoplasm twice, Cell membrane, Gq protein twice, Phospholipase C twice (the doubling artifact, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "PIP2\n\nCytoplasm\nCell\nmembrane\n\nPIP2\n\nGq protein\n\nCytoplasm\n\nPhospholipase C\nGq protein\nPhospholipase C",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Gq (TOP) panel's downstream cluster — DAG twice, IP3, the interleave artifacts 'CaIP 3' + '2+' (Ca2+ beside IP3) and 'SmoothCamuscle' + '2+' + 'contraction' (Smooth muscle beside Ca2+'s superscript), Protein kinase C twice, Smooth muscle contraction twice — all carried exactly as printed and glossed in the note",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "DAG\n\nIP3\n\nDAG\n\n2+\nCaIP\n3\n\nProtein\nkinase C\n\nSmoothCamuscle\n2+\ncontraction\n\nProtein\nkinase C\n\nSmooth muscle\ncontraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BOTTOM (shared-enzyme) panel's ligand + receptor labels — Ligand, Extracellular space, the 'B1, B2, B3, D1, H2, or V2 receptor' label (Latin B as printed; printed twice) and the 'M2, α2, or D2 receptor' label (printed twice), plus the second Ligand and the Extracellular / Cell space / membrane interleave (carried as printed; only ONE 'Ligand' text label prints in the finished figure — the right arm's ligand circle is unlabeled)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Ligand\nExtracellular\nspace\n\nB1, B2, B3, D1, H2, or V2 receptor\n\nM2, α2, or D2 receptor\n\nB1, B2, B3, D1, H2, or V2 receptor\n\nM2, α2, or D2 receptor\n\nLigand\nExtracellular\nCell\nspace\nmembrane",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BOTTOM panel's adenylyl cyclase + GS protein + ATP + Cyclic AMP cluster — Adenylyl cyclase twice, Cytoplasm twice, Cell membrane, GS protein twice (capital S as printed), ATP twice, Cyclic AMP twice (the doubling artifact, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Adenylyl\ncyclase\n\nCytoplasm\nCell\nmembrane\nCytoplasm\n\nAdenylyl\ncyclase\n\nGS protein\nATP\n\nCyclic\nAMP\n\nATP\n\nCyclic\nAMP\n\nGS protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug — FAS1_2026_05-Pharmacology.indd 237 (page identity, book 237; POSITION NOTE: this line prints MID-FIGURE in the text layer because poppler interleaves it with the figure labels — its physical position on the page is the foot, below both panels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 237",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BOTTOM panel's output cluster — Ca2+ twice, Protein kinase A twice, Gi protein twice, Myosin light-chain kinase (smooth muscle contraction) twice — ADJUDICATED: MLCK prints in the BOTTOM panel under Protein kinase A's inhibitory arrow, not in the Gq panel (the doubling artifact is the pdftotext ghost-copy interleave, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Ca2+\n\nProtein\nkinase A\n\nCa2+\n\nProtein\nkinase A\n\nGi protein\n\nGi protein\n\nMyosin light-chain kinase\n(smooth muscle contraction)\nMyosin light-chain kinase\n(smooth muscle contraction)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print timestamp footer — 12/19/25 8:07 AM (page identity; prints at the very foot of the page, after all figure labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "g-protein-messenger-map"
+  ],
+  "mechanismIds": [
+    "gq-cascade-map",
+    "gs-gi-opposition-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "figure-adjudication-layer",
+      "summary": "The adjudicated figure reconstruction: TWO stacked panels (not three side-by-side) — the TOP Gq cascade panel and a BOTTOM shared-enzyme panel where the Gs arm (B1, B2, B3, D1, H2, or V2 receptor → GS protein → pointed ⊕) and the Gi arm (M2, α2, or D2 receptor → Gi protein → blunt red ⊖) land on ONE Adenylyl cyclase, with Protein kinase A ending on ⊕ ↑Ca2+ and ⊖ Myosin light-chain kinase (smooth muscle contraction). The raw production spec had sketched the MLCK label as part of the Gq panel; the VLM page render (180–432 DPI, seven passes) + PyMuPDF word-geometry (MLCK at y 704-714, inside the bottom panel's span) + vector-path analysis (blunt T-bar + red ⊖ symbol at x 355.9, y 709.2 on the PKA→MLCK arrow) adjudicated MLCK into the BOTTOM panel under PKA's inhibitory arrow — the page's own print wins, and the note + visual follow the adjudication.",
+      "origin": "outside-first-aid",
+      "rationale": "The spec's initial three-panel reading could not be confirmed on the page; the adjudication is documented in staging-ph14/vlm-census.txt and the redraw follows the page, not the spec sketch.",
+      "location": "blocks[0] the visual notice + blocks[5] the exam callout + mechanisms[1] + the visual's bottom panel"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four original KYP mnemonics (HAV M&M — the Gq five: H1, α1, V1, M1, M3 / MAD TWOS — the Gi three: M2, α2, D2, all 2s, all brakes / Q SQUEEZES · S SPARKS · I SILENCES — the three routes / PIP2 SPLITS TWO WAYS — the Gq fork). The source's OWN printed hints — '(one heart)', '(two lungs)', and the 'twobules (tubules)' wordplay — are carried ATTRIBUTED to First Aid (red-printed in the source, inside the β1/β2/V2 table rows) and are NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints outside the table's own red-styled parentheticals (VLM-confirmed: no margin notes anywhere on the page); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[4] the attribution callout + the visual's lane footers and hook band"
+    },
+    {
+      "id": "reading-protocol",
+      "summary": "The five-move reading protocol (SORT the letter → NAME the enzyme → FOLLOW the messenger → OUTPUT the kinase → PREDICT the organ) and the q/i/s crosswalk that fuses the printed table with the printed figure — the page prints the two assets separately and never connects them.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table and the figure side by side; the fusion protocol and the crosswalk table are KYP's synthesis of the page's own two halves.",
+      "location": "core.keyIdea + blocks[2] the crosswalk table + blocks[3] the steps block"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts — 5 patterns (the Gq squeeze, the one-heart Gs route, the β2 tocolysis/K+ pair, the α2 Gi brake, the V2 aquaporin row), 5 traps (α1-vs-α2, β1-vs-β2, M1/M3-vs-M2, H1-vs-H2, D1-vs-D2 — every family fork on the page), 3 pivots, and the β2-tocolysis miniCase (4 options, exactly 1 correct, why on every option) whose distractors flip the G protein (q, i) and the final PKA→MLCK arrow.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table rows and the figure labels only; the attack structure and the vignette are a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL PAGE (no shared-page split): pdf 259 / book 237 is entirely this topic's — the RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table (14 rows, five family bands, q/i/s letters) + the two-panel cascade figure + the indd slug/timestamp footer; every quote below comes from this page's contiguous line ranges. CENSUS: pdfimages = ZERO raster images on pdf 259 (CONFIRMED, not assumed — saved to staging-ph14/pdfimages-census.txt); the VLM (glm-4.6v) SUCCEEDED this session (unlike the ph6-ph10 401 outage) and ran SEVEN passes — 120-DPI full page, 180-DPI full page (figure + table), 220-DPI panel crops, 2x/1.5x-zoomed bottom bands, and a 432-DPI PyMuPDF render of the Gq downstream cluster — saved to staging-ph14/vlm-census.txt, plus a PyMuPDF word/span/vector-path dump (staging-ph14/pymupdf-words.txt: 78 text spans in the figure region, 14 filled-triangle arrowheads, 2 red circled-⊖ symbols, all mapped to label geometry). VLM confirms: full-color vector line art, NO photographs, NO margin notes or mnemonics (all mnemonic material is inside the table, red-printed, attributed), the q/i/s letters print as plain lowercase italics, and the figure's Gs receptor label prints Latin 'B1, B2, B3' (Museo Sans text font) while the table prints Greek β1, β2, β3 (Symbol font) — both carried as printed, and the figure's G protein prints 'GS protein' with a capital S. FIGURE ADJUDICATION (documented, spec-vs-page discrepancy resolved in the page's favor): the figure is TWO STACKED PANELS, not three side-by-side — TOP: the Gq cascade (Ligand → 'H1, α1, V1, M1, or M3 receptor' → Gq protein → Phospholipase C → PIP2 → DAG → Protein kinase C, with the second arm IP3 → ↑Ca2+ feeding BOTH Protein kinase C ⊕ and 'Smooth muscle contraction'; all arrows stimulatory); BOTTOM: the shared-enzyme panel (left arm 'B1, B2, B3, D1, H2, or V2 receptor' → GS protein → pointed ⊕ onto Adenylyl cyclase; right arm 'M2, α2, or D2 receptor' → Gi protein → blunt red ⊖ ONTO THE SAME Adenylyl cyclase; then ATP → Cyclic AMP → Protein kinase A → ⊕ ↑Ca2+ leftward and ⊖ 'Myosin light-chain kinase (smooth muscle contraction)' rightward — MLCK prints in the BOTTOM panel under PKA's inhibitory arrow, NOT in the Gq panel as the raw spec sketched; only ONE 'Ligand' text label prints in the bottom panel). VERBATIM/TYPO CARRIES, documented: (1) the V2 row prints 'twobules (tubules)' — the source's OWN red-printed wordplay (V2 · aquaporin-2 · TWO-bules) with the corrected word in parentheses immediately after, carried verbatim, attributed, never silently corrected; (2) the β1 '(one heart)' and β2 '(two lungs)' parentheticals are the source's own red-printed hints, carried attributed and NOT counted as KYP mnemonics; (3) the figure label interleave artifacts 'CaIP 3' + '2+' and 'SmoothCamuscle' + 'contraction' print exactly so and are quoted as-is; (4) every figure label prints DOUBLED in part1.txt — a pdftotext artifact of an invisible +19.2pt ghost copy of the downstream cluster in the vector data (PyMuPDF sees each label once) — figure quotes are carried as printed, doubled, and glossed; (5) the V2 row's wrapped function text interleaves with the figure's first 'Ligand' label (lines 103-110), quoted as one contiguous range as printed; (6) the footer slug prints MID-FIGURE in the text layer (physically at the page foot) and is quoted as its own page-identity entry; (7) the header prints 'SEC TION II' with a stray space (poppler artifact; PyMuPDF reads 'SECTION') — carried as printed. Quirks, also documented: (a) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (b) outputs are STAGED under .usmle-pipeline-cache/staging-ph14/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'g-protein-messenger-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-20"
+}

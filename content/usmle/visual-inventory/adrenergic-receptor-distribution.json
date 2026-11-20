@@ -1,0 +1,46 @@
+{
+  "topicId": "adrenergic-receptor-distribution",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "adrenergic-receptor-distribution",
+      "requiredInKYP": true,
+      "visualId": "adrenergic-receptor-distribution-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The RECEPTOR / TISSUE / EFFECT(S) distribution table (book 236, bottom half) — the five adrenergic receptor subtypes with their thirteen tissue→effect rows, the directory every adrenergic drug question resolves to",
+      "sourceFigureDescription": "PURE 3-COLUMN TEXT TABLE, no figures (census: pdfimages finds THREE rasters on pdf 258 but PyMuPDF xobject-rect analysis + z-ai VLM glm-4.6v adjudication place ALL THREE in the TOP half — the sibling micturition figure's anatomy silhouettes: a brainstem/pons mask, the bladder with urethra, a detrusor crescent, no text; the bottom half has ZERO rasters — its 34 PyMuPDF vector paths are the table's own cell borders/shading, and the VLM on the 200-DPI render confirms 'text and table borders only'). Headers RECEPTOR / TISSUE / EFFECT(S); five receptor blocks with regular-digit names (α1, α2, β1, β2, β3) and thirteen logical rows: α1 Vascular smooth muscle → Vasoconstriction, Visceral smooth muscle → Smooth muscle contraction; α2 Pancreas → Inhibition of insulin secretion, Presynaptic terminals → Inhibition of neurotransmitter release, Salivary glands → Inhibition of salivary secretion; β1 Heart → ↑ heart rate, contractility, Kidney → ↑ renin secretion; β2 Bronchioles → Bronchodilation, Cardiac muscle → ↑ heart rate, contractility, Liver → Glycogenolysis, glucose release, Arterial smooth muscle → Vasodilation, Pancreas → Stimulation of insulin secretion; β3 Adipose → ↑ lipolysis. The text layer interleaves each receptor's tissue cells (printed as a group) before its effect cells (the m38 convention) — the row pairing is positional and was VLM-adjudicated. The indd slug + timestamp print at the page foot. No margin notes or mnemonics print in this half ('Baby one more time.' is the TOP half's, the sibling micturition-control's).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "adrenergic-distribution-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (AdrenergicDistributionMap in visuals/pharm-p13.tsx — five receptor-directory columns α1/α2/β1/β2/β3 each stacked with its printed tissue→effect chips, the PANCREAS ×2 flags on the α2-inhibit and β2-stimulate rows and HEART ×2 flags on the β1 Heart and β2 Cardiac muscle rows, the double-bookings band contrasting pancreas/heart/vascular-bed pairs, the exam-reading band with the α2 presynaptic-autoreceptor hook and the β2 cardiac-muscle trap, and the NAME→PLACE→PREDICT rule banner); the printed table is also carried verbatim (printed row order, 13 rows) in the note's table block (blocks[1]) and recall[0-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "adrenergic-distribution-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "adrenergic-receptor-distribution",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The adrenergic half's single visual asset — the RECEPTOR/TISSUE/EFFECT(S) table itself (a table functioning as a visual learning aid) — is accounted for as an ORIGINAL KYP ADAPTATION: there is no figure on this half (census: the page's three rasters are ALL top-half micturition art, PyMuPDF + VLM adjudicated), so the registry visual adrenergic-distribution-map (AdrenergicDistributionMap in visuals/pharm-p13.tsx) is an original five-column receptor-directory map built from the printed rows, with the pancreas (α2 inhibit vs β2 stimulate) and heart (β1 Heart vs β2 Cardiac muscle) double-bookings deliberately flagged and an exam-reading band; the printed table is also carried verbatim (printed row order) in the note's table block. Nothing is reproduced. Census: VLM SUCCEEDED this session (both passes in staging-ph13/vlm-census.txt) — zero rasters and zero margin mnemonics in the bottom half; 'Baby one more time.' and the three anatomy rasters belong to the TOP half (sibling micturition-control) and are out of scope here. SHARED PAGE (the p196 convention): the top half of pdf 258 / book 236 is the sibling topic and is out of scope. STAGED under .usmle-pipeline-cache/staging-ph13/ — promotion into content/ is owned downstream."
+}

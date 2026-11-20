@@ -1,0 +1,256 @@
+{
+  "topicId": "autonomic-drugs-synapse",
+  "title": "Autonomic Drugs: Synapse Targets & Overview",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      260
+    ],
+    "bookPages": "238–238"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header, section title, and subsection banner: book page 238, SECTION II, PHARMACOLOGY, Autonomic drugs, ▶ PHARMACOLOGY—AUTONOMIC DRUGS (the FULL page belongs to THIS topic — no shared-page split; the 'SEC TION II' split is a pdftotext mapping artifact, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "238\n\nSEC TION II\n\nAutonomic drugs\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VERBATIM INTRO (a) — the α2-autoreceptor rule, the page's first printed sentence: release of norepinephrine from a sympathetic nerve ending is modulated by NE itself, acting on presynaptic α2-autoreceptors → negative feedback",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Release of norepinephrine from a sympathetic nerve ending is modulated by NE itself, acting on\npresynaptic α2-autoreceptors → negative feedback.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "VERBATIM INTRO (b) — the amphetamine paragraph in full: amphetamines use NET to enter the presynaptic terminal, utilize VMAT to enter neurosecretory vesicles, displace NE from the vesicles, and once NE reaches a concentration threshold the action of NET is reversed and NE is expelled into the synaptic cleft, contributing to the characteristics and effects of ↑ NE observed in patients taking amphetamines",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamines use the NE transporter (NET) to enter the presynaptic terminal, where they utilize\nthe vesicular monoamine transporter (VMAT) to enter neurosecretory vesicles. This displaces NE\nfrom the vesicles. Once NE reaches a concentration threshold within the presynaptic terminal,\nthe action of NET is reversed, and NE is expelled into the synaptic cleft, contributing to the\ncharacteristics and effects of ↑ NE observed in patients taking amphetamines.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's two TOP panel titles + the first cholinergic labels — CHOLINERGIC and NORADRENERGIC (the source figure is a 2×2 grid: these are the top row), the first AXON TERMINAL watermark fragments (TE, L), and the cholinergic synthesis pair ChAT / ACh",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "CHOLINERGIC\n\nNORADRENERGIC\n\nTE\n\nL\n\nChAT\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic terminal cluster interleaved with noradrenergic synthesis — AXON TERMINAL fragments (AX, ON, IN A), Botulinum toxin (the Cholinergic inhibitor banner's drug; VLM 200 DPI: its red ⊖ terminates on the release machinery), the noradrenergic DOPA chip (printed WITHOUT the L- prefix — the dopaminergic panel prints L-DOPA), a second ACh, and the cholinergic Ca2+ channel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AX\n\nON\n\nBotulinum toxin\n\nIN A\n\nDOPA\n\nACh\n\nCa2+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The release-modulation + banner cluster — Releasemodulating receptors (one word as printed; VLM 200 DPI: the bracket belongs to the NORADRENERGIC panel and groups AT II ⊕ and α2 ⊖ on the presynaptic membrane — the cholinergic panel prints no presynaptic receptor), Vesicular monoamine transporter (VMAT) inhibitor (its drug Tetrabenazine prints 150 lines later, at line 202 — the content-stream interleave documented), Amphetamine, Ephedrine (the ⊕ release banner), Dopamine (the noradrenergic chain's third chip), more AXON TERMINAL fragments (RM, TE, ON, RM), and the first class-banner titles: Cholinergic inhibitor / Noradrenergic stimulant",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Releasemodulating\nreceptors\n\nVesicular\nmonoamine\ntransporter\n(VMAT) inhibitor\n\nRM\nTE\n\nAmphetamine,\nEphedrine\n\nDopamine\n\nON\n\nRM\n\nCholinergic inhibitor\n\nNoradrenergic stimulant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The substrates + autoreceptor cluster, both top panels interleaved — Tyrosine (noradrenergic synthesis start) beside Choline + Acetyl-CoA (the cholinergic substrates feeding ChAT), VMAT, AT II, NE, α2, the second Noradrenergic stimulant title, Negative feedback (the label on the dashed cleft-NE → α2 loop), and the cholinergic breakdown products Choline + Acetate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AX\n\nIN A\n\nL\n\nTyrosine\nCholine\n+\nAcetyl-CoA\n\nVMAT\n\nAT II\nNE\n\nα2\n\nNoradrenergic\nstimulant\n\nNegative\nfeedback\nCholine\nAcetate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cleft enzyme + both postsynaptic rows — AChE (the cholinergic cleft enzyme), M1 M2 M3 (VLM 200 DPI: postsynaptic membrane only, under the one-word label Cholinoreceptors), AChE inhibitors eg, Donepezil (the Cholinergic stimulant banner; its red ⊖ lands on AChE), POSTSYNAPTIC NEURON, and the noradrenergic postsynaptic row β α under Adrenoreceptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AChE\n\nM1\n\nM2\n\nM3\n\nAChE inhibitors\neg, Donepezil\n\nPOSTSYNAPTIC NEURON\n\nβ\n\nα\n\nAdrenoreceptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The bottom row's titles + synthesis chains, interleaved — SEROTONERGIC with its chain Tryptophan / 5-Hydroxytryptophan / 5-HT, beside the dopaminergic chain Tyrosine / L-DOPA (WITH the L- prefix) / Dopamine, plus AXON TERMINAL fragments (NA, L)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "SEROTONERGIC\nTryptophan\n\nL-DOPA\n\n5-Hydroxytryptophan\n\nDopamine\n\n5-HT\n\nNA\n\nL\n\nTyrosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cleft-clearance cluster — AXON TERMINAL watermark fragments (AXO NT ER M / AXO NT ER MI AL), Reuptake (the NET/SERT/DAT arrows, direction cleft → terminal per the VLM render), Diffusion, metabolism (pointing away from the noradrenergic cleft), and POSTSYNAPTIC NEURON",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AXO\nNT\nER\nM\n\nAXO\nNT\nER\nMI\n\nAL\n\nReuptake\n\nDiffusion,\nmetabolism\n\nPOSTSYNAPTIC NEURON",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic panel + every remaining banner — DOPAMINERGIC, the NET-blocker list Amphetamine, SNRIs, Cocaine, TCAs, MDMA with NET (VLM: the banner's red ⊖ terminates on the NET transporter), Cholinergic stimulant, Cholinoreceptors, 5-HT, Dopamine, Dopaminergic stimulant, Serotonergic stimulant, the DAT-blocker list Amphetamine, Methylphenidate, Cocaine with DAT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "DOPAMINERGIC\n\nIN\n\nAmphetamine,\nSNRIs, Cocaine,\nTCAs, MDMA\n\nNET\n\nCholinergic stimulant\n\nCholinoreceptors\n\n5-HT\n\nDopamine\n\nDopaminergic stimulant\n\nSerotonergic stimulant\n\nAmphetamine,\nMethylphenidate,\nCocaine\n\nDAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The final fragments + footer + serotonergic pump cluster — the bottom row's split POSTSYNAPTIC NEURON watermarks (POSTSYNAPTIC N / EURO / N / N), the indd slug FAS1_2026_05-Pharmacology.indd 238 (page identity; the content stream prints it BETWEEN the figure's late labels), the SERT-blocker list Amphetamine, SNRIs, Cocaine, SSRIs with SERT and Reuptake, Dopamine receptor, Tetrabenazine (the second half of the VMAT-inhibitor banner) and the noradrenergic Ca2+ channel, and the timestamp 12/19/25 8:07 AM",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Reuptake\n\nPOSTSYNAPTIC N\nEURO\n\n5-HT receptor\n\nPOSTSYNAPTIC N\nEURO\n\nN\n\nN\n\nFAS1_2026_05-Pharmacology.indd 238\n\nAmphetamine, SNRIs,\nCocaine, SSRIs\n\nSERT\n\nReuptake\n\nDopamine receptor\n\nTetrabenazine\nCa2+\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "autonomic-synapse-map"
+  ],
+  "mechanismIds": [
+    "alpha2-autoreceptor-feedback-map",
+    "amphetamine-reverse-transport-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case/recall/rapid-review attack structure layered over the two printed paragraphs and the four-panel figure — 4 patterns (tetrabenazine depletion, cocaine NET blockade, donepezil's AChE inhibition, the amphetamine NET reversal), 4 traps (tetrabenazine vs cocaine, α2-autoreceptor vs postsynaptic α/β, stimulant-banner-vs-red-⊖ arrows, NET vs VMAT), 3 pivots, and the 10-item recall deck.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the figure, its labels, and the two paragraphs; the attack structure is a KYP design.",
+      "location": "usmle section + recall + rapidReview"
+    },
+    {
+      "id": "reading-protocol",
+      "summary": "The five-move reading protocol (NAME THE PANEL → NAME THE COMPARTMENT → NAME THE DIRECTION → APPLY THE LEDGER → CHECK THE PRINTED EXCEPTIONS) and the directionality ledger (block the membrane pump → cleft rises; block the vesicle pump → releasable falls; inhibit the cleft enzyme → transmitter survives; block release → nothing leaves; open the autoreceptor → release falls).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the two paragraphs but no reading order; the compartment sort and the direction ledger are KYP's synthesis of the figure's anchors into one protocol.",
+      "location": "core.keyIdea + blocks[3] the steps block + blocks[4] the exam callout"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (THREE MEMBRANE PUMPS, ONE VESICLE PUMP / AMPHETAMINE AND COCAINE RIDE EVERY PUMP / IN BY NET, PACKED BY VMAT, OUT IN REVERSE / α2 IS THE BRAKE, AT II IS THE GAS) — no mnemonic prints on the page.",
+      "origin": "outside-first-aid",
+      "rationale": "VLM census (four passes, 120 + 200 DPI) confirms NO margin notes or mnemonics anywhere on pdf 260; the four codes are KYP's design.",
+      "location": "mnemonics + the registry visual's exam-note zones + rapidReview.m3"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The tetrabenazine-vs-cocaine miniCase — a tardive-dyskinesia patient on tetrabenazine with a monoamine-depletion picture (orthostatic hypotension, blunted reflex tachycardia, depressed mood), asked where the drug acts; the correct answer is VMAT blockade, with distractors built from the page's own printed anchors (cocaine-style NET blockade — wrong direction; α2-autoreceptor activation — the printed rule's receptor, wrong drug; the amphetamine NET reversal — same two transporters, opposite direction).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the drug banners and the two mechanism paragraphs but never asks the learner to discriminate their directions in a vignette; the stem, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The drugs array (amphetamine, ephedrine, tetrabenazine, cocaine, donepezil, botulinum toxin). Each card's TARGET and MECHANISM come from the printed banners and the printed paragraphs; the klass/effect/uses/adverse/clue framing — and the clinical uses in particular (tardive dyskinesia, ADHD, Alzheimer disease, focal dystonias) — are standard clinical anchoring from outside this page.",
+      "origin": "outside-first-aid",
+      "rationale": "The page anchors the mechanisms but prints no indications or adverse-effect profiles; the DrugCard framing is a KYP design and its clinical fields are not attributed to the page.",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL PAGE (no shared-page split): pdf 260 / book 238 is the 'Autonomic drugs' section opener — TWO printed intro paragraphs (the α2-autoreceptor negative-feedback sentence and the amphetamine NET/VMAT reverse-transport paragraph, both quoted VERBATIM) + ONE page-dominating FOUR-PANEL VECTOR SYNOPTIC FIGURE (cholinergic, noradrenergic, serotonergic, dopaminergic), every label quoted verbatim in the text layer's physical order. CENSUS: pdfimages = ZERO raster images on pdf 260 — CONFIRMED, not assumed (the expectation of zero rasters held) — the figure is pure vector line art; THE VLM WAS AVAILABLE THIS SESSION (the ph6–ph10 batch lost it to a 401 outage): four passes were run (glm-4.6v — full page at 120 DPI, full page at 200 DPI, targeted 200 DPI crops of the top and bottom halves, per-panel zooms of the two top panels) and saved to staging-ph15/vlm-census.txt; the VLM confirms no photographs, no margin notes, and no mnemonics anywhere on the page. VLM ADJUDICATIONS (the text layer interleaves the side-by-side panels' labels, so placement + arrow directions were adjudicated on the 200 DPI render, per the shared brief's disputed-mapping protocol): (a) the source figure is a 2×2 grid — cholinergic top-left, noradrenergic top-right, dopaminergic bottom-left, serotonergic bottom-right — re-laid-out in the KYP redraw as four VERTICAL panels (cholinergic | noradrenergic | serotonergic | dopaminergic, the production spec's column order) with every label, drug anchor, and arrow direction preserved; (b) 'Releasemodulating receptors' (one word as printed) belongs to the NORADRENERGIC panel and brackets exactly AT II (green ⊕ to the release machinery) and α2 (red ⊖ — the negative-feedback arm; the dashed curve runs from the cleft NE back up to α2, with the label 'Negative feedback') — the cholinergic panel prints NO presynaptic receptor; (c) M1, M2, M3 sit on the POSTSYNAPTIC membrane only, under the one-word label 'Cholinoreceptors'; (d) the noradrenergic chain prints 'DOPA' (no L- prefix) while the dopaminergic chain prints 'L-DOPA' — both spellings carried verbatim and flagged in the redraw; (e) Ca2+ channels print ONLY on the cholinergic and noradrenergic terminals (the bottom panels print none, and also no inhibitor banner and no release-modulating receptor); (f) anchor terminations as adjudicated: botulinum's red ⊖ on the release machinery (not synthesis), the donepezil banner (a STIMULANT banner) carrying a red ⊖ onto AChE, amphetamine/ephedrine's ⊕ on the release machinery, tetrabenazine's ⊖ on VMAT, the NET/SERT/DAT blocker banners' ⊖ on the membrane transporters whose own Reuptake arrows run cleft → terminal, 'Diffusion, metabolism' pointing away from the cleft; (g) the amphetamine reverse transport is NOT drawn as an arrow in the source figure — it is the printed paragraph, so the redraw renders it as the noradrenergic panel's four-step annotated strip labeled as the printed paragraph's mechanism (documented, not invented); (h) the source's small publisher logo (lower right of the serotonergic panel) is NOT reproduced. TEXT-LAYER QUIRKS, documented: (1) the two top panels' labels INTERLEAVE on shared lines (the ph9/m38 convention — contiguous ranges quoted as printed, panel attribution adjudicated via the VLM render); (2) the diagonal AXON TERMINAL watermark splits into fragments (TE, L, AX, ON, IN A, RM, AXO, NT, ER, M, MI, AL, NA) carried verbatim as fragments; (3) the header prints 'SEC TION II' (a pdftotext mapping artifact, as in prior batches) and the → and ↑ glyphs in the printed paragraphs carry 0x8E/0x8F mapping artifacts immediately before them (stripped by the verification normalizer); (4) the content stream prints the indd slug BETWEEN the figure's late-drawn labels (after the POSTSYNAPTIC fragments, before the SERT cluster) and tetrabenazine's banner halves 150 lines apart (lines 47–50 and line 202); (5) no source typos were found in the printed text blocks themselves. Batch conventions: productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); outputs are STAGED under .usmle-pipeline-cache/staging-ph15/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'autonomic-synapse-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-20"
+}

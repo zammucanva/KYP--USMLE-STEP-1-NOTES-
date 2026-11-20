@@ -1,0 +1,106 @@
+
+===== ph11 LIGHT — REVIEW =====
+1) Yes — all major panels (relay, four stations, neuropathic panel, overlap ledger, sources) render fully with no clipped or missing text.
+
+2) No text-on-text overlap or spillage observed; chips and captions fit within their boxes.
+
+3) Connectors render correctly (solid/dashed red arrows to CNS panel, black arrows between stations). Special glyphs render fine — up/down triangles in stimulus boxes, zigzag nociceptive-signal wave, Greek-style labels (GABA-ergic, etc.) — no tofu boxes.
+
+4) Yes, readable: dark text on light theme, good contrast; small caption text is fine though tiny at some spots (e.g., fiber annotations).
+
+5) Defects:
+- The floating "Search" pill overlaps the right edge of the "PERCEPTION — FEEL" column header in the overlap ledger (browser UI overlay, not a diagram flaw).
+- Otherwise CLEAN.
+
+===== ph11 DARK — REVIEW =====
+1) Yes — all major panels (relay diagram, four station columns, neuropathic panel, matrix, sources footer) appear fully rendered; nothing is visibly cut off at edges.
+
+2) No obvious text overlap or box overflow; chips and labels sit inside their outlines. Some captions are extremely small but appear contained.
+
+3) Arrows render correctly (solid Aδ fiber arrow, dashed C-fiber arrow, inter-station white arrows). Special glyphs (≈, Δ, dashes, red zig-zag spikes) render as shapes, not tofu.
+
+4) Mostly readable: colored headers and chip labels have good contrast on dark theme. However, many micro-captions (tiny red/teal footnote lines, matrix footnote, sources paragraph) are very low size (~4–5 px) and effectively unreadable at this render scale — a readability defect even though contrast is acceptable.
+
+5) Defects:
+- Body/micro text throughout is far too small to read (likely fine in vector 
+
+===== ph12 LIGHT — REVIEW =====
+1) Yes — all panels (pontine centers, wiring map, retention/voiding fork, drug rows, sources) are fully rendered; nothing clipped or missing.
+
+2) No overlapping text; labels sit within their boxes/panels.
+
+3) Yes — arrows (pelvic teal, hypogastric red, pudendal orange, black receptor pointers) render with proper arrowheads; α, β, ↑/↓ arrows, and Greek subscripts render correctly, no tofu.
+
+4) Yes — dark text on light background, good contrast; small caption/footnote text is tiny but legible.
+
+5) CLEAN.
+
+===== ph12 DARK — REVIEW =====
+1) All major panels appear fully rendered; no clipped or missing text observed.
+
+2) No text overlapping or spilling outside boxes.
+
+3) Arrows/connectors render correctly (pelvic, hypogastric, pudendal nerves all connect with arrowheads); α/β glyphs, ↑/↓ arrows, and colored triangles render as proper glyphs, no tofu boxes.
+
+4) Text is readable — dark theme with light text and good contrast; small annotation text is dim but legible.
+
+5) Minor observations only: some very small footnote/caption text (e.g., M3/β3 mechanism notes, source lines at bottom) is low-contrast/fine-print and hard to read; a browser "Search" overlay partially overlaps the right edge near the retention-vs-voiding panel. Otherwise CLEAN.
+
+===== ph13 LIGHT — REVIEW =====
+1) Yes — all panels (directory columns, double-booking cards, exam band, footer) render fully; no clipped or missing text.
+
+2) No overlaps or spills; chips, badges ("SHARED #", "SECOND #"), and effect boxes all contain their text.
+
+3) Connectors/badges render correctly; special glyphs (α, β, ↑/↓, arrows like → and ↕) render as proper characters, no tofu.
+
+4) Yes — readable: dark text on light backgrounds, colored labels have adequate contrast; very small footer text is dense but legible.
+
+5) Minor notes only: footer/caption text is quite small (fine-print scale), and the browser "Search" pill overlaps the bottom-right page background (browser UI, not a diagram defect). Otherwise CLEAN.
+
+===== ph13 DARK — REVIEW =====
+1) Yes — all five receptor columns, double-booking cards, exam-reading band, and footer render fully; nothing clipped or missing.
+2) No overlapping or spilling text; chips stay within their boxes.
+3) Connectors (small link dots/dashes between tissue and effect) render fine; Greek glyphs α/β and subscripts (α₁, α₂, β₁, β₂, β₃) render correctly, no tofu boxes; up/down triangles in the bottom-left corner render as ↑/↓.
+4) Yes — good contrast: colored headers, badges, and body text are readable on the dark background; smallest annotation text is dim but legible.
+5) CLEAN.
+
+===== ph14 LIGHT — REVIEW =====
+1) All major panels render fully; no clipped or missing text observed.
+2) No text overlaps or spills outside boxes.
+3) Arrows/connectors render correctly; special glyphs (α, β, subscripts like IP₃, DAG, iCa2+) render as proper characters, no tofu.
+4) Text is readable but very small at this scale (small annotations/captions are near legibility limits); contrast is adequate for the light theme.
+5) CLEAN (minor caveat: bottom-panel footnote captions are extremely small).
+
+===== ph14 DARK — REVIEW =====
+1) All major panels appear fully rendered; no clipped or missing text at panel boundaries.
+
+2) No text-on-text overlap or spilling observed; small caption text is dense but contained.
+
+3) Arrows/connectors render correctly; special glyphs (α/β subscripts, arrows, membrane chevrons, PKC/IP3 shapes) all render — no tofu boxes.
+
+4) Readability is marginal: body/label text is readable, but many footnote/caption lines (e.g., under panels and the "Sources & cross-links" block) are very small (~4–6px equivalent) and low-contrast against the dark background — effectively illegible at this zoom.
+
+5) Defects:
+- Extremely small footnote/citation text in multiple places (hard to read, though likely intentional at this scale).
+- Some faint gray side labels ("Synaptic cleft", etc.) are low contrast.
+- Otherwise CLEAN.
+
+===== ph15 LIGHT — REVIEW =====
+1) Yes — all four panels render fully; text appears complete, no visible clipping (bottom panels/chips included).
+2) No obvious text-on-text overlap; small labels ("reuptake blocked", "diffuse") fit near their elements.
+3) Yes — dashed reuptake arrows, curved terminals, and glyphs render correctly; no tofu boxes observed.
+4) Yes — dark text on light theme is readable; some small captions (e.g., "diffuse modulation") are small/light but legible.
+5) A floating browser "Search" widget overlaps the dopaminergic "Postsynaptic receptors" box (likely a page overlay, not a diagram defect); otherwise CLEAN.
+
+===== ph15 DARK — REVIEW =====
+1) Yes — all four panels fully rendered, nothing clipped or missing.
+
+2) No overlaps or spills observed; labels sit within their boxes.
+
+3) Arrows/connectors (solid, dashed, red/green feedback loops) render correctly; glyphs (α, β, M, N receptor labels, arrows, +/– signs) all render properly, no tofu.
+
+4) Yes — readable. Dark theme with good contrast; tiny footnote/summary text is small but legible.
+
+5) CLEAN.
+
+VLM-BATCH-DONE defects-flagged: 10

@@ -1,0 +1,73 @@
+{
+  "topicId": "micturition-control",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "micturition-control",
+      "requiredInKYP": true,
+      "visualId": "micturition-control-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The bladder innervation figure (book 236): the three nerve inputs, the two urethral sphincters, the four receptor placements, and the pontine retention-vs-voiding coordination",
+      "sourceFigureDescription": "MIXED COMPOSITE FIGURE (pdfimages: THREE spot-color raster objects — 426x336, 383x518, 458x277 @316ppi — which the VLM reads as the white-silhouette anatomy layers of the bladder illustration: the bladder+lower-tract funnel, the valentine-shaped bladder body with the urethral stem, and the crescent lobulated detrusor wall band; all LABELS are live vector text): a coronal cutaway of the urinary bladder with a thick detrusor wall and folded mucosa, a funnel neck continuing as a vertical urethra, the internal urethral sphincter as two smooth ovoid masses at the bladder neck, and the external urethral sphincter as striated bundles lower on the urethra. Three yellow nerve lines enter from the left: Pelvic nerve (parasympathetic input) ending at the detrusor; Hypogastric nerve (sympathetic input) branching to the detrusor AND the bladder neck/internal sphincter; Pudendal nerve (somatic input) curving to the external urethral sphincter. Receptor labels with leader lines, each carrying a dark-teal numbered circle: M₃-receptor ❶ → detrusor; β₃-receptor ❷ → detrusor; α₁-receptor ❸ → internal urethral sphincter; plus Nicotinic receptor → external urethral sphincter. Beside the figure, a text panel carries the pons block — 'Micturition center in pons regulates involuntary bladder function via coordination of sympathetic and parasympathetic nervous systems. ⊕ sympathetic → ↑ urinary retention. ⊕ parasympathetic → ↑ urine voiding. Some autonomic drugs act on smooth muscle receptors to treat bladder dysfunction.' — with the First Aid mnemonic 'Baby one more time.' printed directly below it (first letters B-o-m-t in the FA red; the page's own anchor is the red initials of the four example drugs in the table below).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "micturition-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's full wiring map (MicturitionMap in visuals/pharm-p12.tsx): the MICTURITION CENTER IN PONS band with the printed opposition (⊕ sympathetic → ↑ urinary retention vs ⊕ parasympathetic → ↑ urine voiding) and the attributed First Aid mnemonic chip; the bladder glyph with its Detrusor muscle wall, funnel neck and urethra carrying the two gates (Internal urethral sphincter — smooth muscle, α₁-receptor chip ❸; External urethral sphincter — striated skeletal muscle, Nicotinic receptor chip); the three nerve paths from the left (Pelvic → M₃ ❶ on the detrusor; Hypogastric → β₃ ❷ on the detrusor AND the α₁ chip at the internal sphincter, the branch preserved; Pudendal → the nicotinic chip at the external sphincter); the numbered ❶❷❸ circles preserved at the receptor chips; the retention-vs-voiding fork band with the somatic third-rail note; and the four drug rows as dock cards",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "micturition-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "micturition-control",
+      "requiredInKYP": true,
+      "visualId": "micturition-control-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The printed DRUGS / MECHANISM / APPLICATIONS table (book 236): the four drug classes routed through three smooth-muscle receptors, with the book's circled ❶❶❷❸ cross-reference markers linking each row to the figure's receptor labels",
+      "sourceFigureDescription": "A three-column table — DRUGS | MECHANISM | APPLICATIONS — with four rows: ❶ Muscarinic agonists (eg, bethanechol) | ⊕ M₃ receptor → contraction of detrusor smooth muscle → ↑ bladder emptying | Urinary retention; ❶ Muscarinic antagonists (eg, oxybutynin) | ⊝ M₃ receptor → relaxation of detrusor smooth muscle → ↓ detrusor overactivity | Urgency incontinence; ❷ Sympathomimetics (eg, mirabegron) | ⊕ β₃ receptor → relaxation of detrusor smooth muscle → ↑ bladder capacity | Urgency incontinence; ❸ α₁-antagonists (eg, tamsulosin) | ⊝ α₁-receptor → relaxation of smooth muscle (eg, bladder, neck, prostate) → ↓ urinary obstruction | BPH. The drug-class names print in blue with the example drugs' first letters in the First Aid red (the mnemonic's red-initial anchor); the circled numbers are vector drawings (not text-layer characters). The text layer interleaves the four subscript digits (3, 3, 3, 1) and the row tails on separate lines below the row heads (the m38 convention) — the logical table above is reconstructed from the 300dpi VLM crops.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "micturition-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "carried VERBATIM in printed row order in the note's table block (blocks[1], with the ❶❶❷❸ circled cross-reference markers and the interleave documented in the caption) and echoed as the four numbered dock cards in the registry visual (MicturitionMap in visuals/pharm-p12.tsx, Zone D); the mnemonic red-initial anchor is documented in the memory callout (blocks[4])",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "micturition-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "micturition-control",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "TWO visual assets on the source half: [1] the bladder innervation figure — a mixed composite (pdfimages: three spot-color raster anatomy layers + vector text labels; VLM available this session, three passes, staging-ph12/vlm-census.txt) — accounted for as an ORIGINAL KYP REDRAW: the registry visual micturition-map (MicturitionMap in visuals/pharm-p12.tsx) redraws the wiring with original KYP glyphs while preserving every printed label, the three nerves (including the hypogastric branch to BOTH storage targets), the two sphincters, the receptor placements, the book's ❶❷❸ cross-reference circles, and the retention/voiding opposition; the First Aid mnemonic 'Baby one more time.' prints inside the figure's right text column and is carried ATTRIBUTED (adjudication documented). [2] the printed DRUGS/MECHANISM/APPLICATIONS table — accounted for as an ORIGINAL KYP ADAPTATION: carried verbatim in printed row order in the note's table block and echoed as the visual's four numbered dock cards. Nothing is reproduced; coverage reconciles to 100% (accountedFor = textbookVisualCount, unresolved 0, omissions none). SHARED PAGE: the bottom half of pdf 258 / book 236 (Tissue distribution of adrenergic receptors) is the sibling topic adrenergic-receptor-distribution; the indd footer at the page foot is likewise out of PH12 scope. STAGED under .usmle-pipeline-cache/staging-ph12/ — promotion into content/ is owned downstream."
+}

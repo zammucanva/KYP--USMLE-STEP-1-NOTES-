@@ -13,7 +13,7 @@
   ],
   "bookPages": "227–254",
   "extractionStatus": "extracted",
-  "pendingTopicCount": 18,
+  "pendingTopicCount": 13,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -825,8 +825,37 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The pain fiber table (A-delta fast/sharp vs C slow/burning), the gate-control and descending modulation pathways, and where opioids/NSAIDs/TCAs act. Shared page 257 with acetylcholine-receptors."
+      "status": "complete",
+      "productionRationale": "The pain fiber table (A-delta fast/sharp vs C slow/burning), the gate-control and descending modulation pathways, and where opioids/NSAIDs/TCAs act. Shared page 257 with acetylcholine-receptors.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "pain-transmission",
+          "requiredInKYP": true,
+          "visualId": "pain-transmission-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              257
+            ],
+            "bookPages": "235"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Pain transmission text (book 235, bottom half) — the nociceptive pain definition with the TRPV transduction cascade and the Aδ/C fiber fork, the four-process blocker-list table, and the neuropathic pain block",
+          "sourceFigureDescription": "PURE TEXT, THREE BLOCKS + A BULLETED LIST (pdfimages: zero raster images; the VLM census RAN this session — glm-4.6v on the 120-DPI and 200-DPI renders, staging-ph11/vlm-census.txt — confirming no figures, photographs, icons, or margin notes/mnemonics anywhere on the page): [1] the NOCICEPTIVE PAIN block — 'Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli. Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation. Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).' — [2] the lead-in 'Processes involved in pain transmission:' with FOUR square-bulleted rows (process names in bold): '▘ Transduction—blocked by local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids' / '▘ Transmission—blocked by local anesthetics, α2-agonists, opioids' / '▘ Modulation—blocked by TCAs, SSRIs, SNRIs, gabapentinoids' / '▘ Perception—blocked by α2-agonists, opioids, TCAs, SSRIs, SNRIs' — and [3] the NEUROPATHIC PAIN block — 'Caused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent activation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.' No figures, margin notes, or mnemonics print in the Pain-transmission half.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pain-transmission-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (PainTransmissionMap in visuals/pharm-p11.tsx — the PERIPHERY panel with the TRPV transducer glyph: stimulus chips, vanilloid ligand receptor, Ca2+ influx arrow, Na+ channel activation spark, the signal-born zigzag; the Aδ fast lane and C slow lane fork into the CNS panel with the MODULATION and PERCEPTION boxes; the four station cards with every printed blocker chip docked beneath its station and the 6·3·4·5 count chips; the NEUROPATHIC PAIN panel with the upregulated-channel nerve glyph, NO STIMULUS NEEDED flag, and the diabetic peripheral neuropathy example card; and the drug-class × station overlap ledger); the printed text is also carried verbatim in the note's table block (blocks[1]), core.what, and recall[0]/[2-6]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pain-transmission-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "micturition-control",
@@ -848,8 +877,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The detrusor/sphincter parasympathetic-sympathetic wiring with the Botox/anticholinergic/α-blocker intervention points for urge vs overflow incontinence. Shared page 258 with adrenergic-receptor-distribution."
+      "status": "complete",
+      "productionRationale": "The detrusor/sphincter parasympathetic-sympathetic wiring with the Botox/anticholinergic/α-blocker intervention points for urge vs overflow incontinence. Shared page 258 with adrenergic-receptor-distribution.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "micturition-control",
+          "requiredInKYP": true,
+          "visualId": "micturition-control-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The bladder innervation figure (book 236): the three nerve inputs, the two urethral sphincters, the four receptor placements, and the pontine retention-vs-voiding coordination",
+          "sourceFigureDescription": "MIXED COMPOSITE FIGURE (pdfimages: THREE spot-color raster objects — 426x336, 383x518, 458x277 @316ppi — which the VLM reads as the white-silhouette anatomy layers of the bladder illustration: the bladder+lower-tract funnel, the valentine-shaped bladder body with the urethral stem, and the crescent lobulated detrusor wall band; all LABELS are live vector text): a coronal cutaway of the urinary bladder with a thick detrusor wall and folded mucosa, a funnel neck continuing as a vertical urethra, the internal urethral sphincter as two smooth ovoid masses at the bladder neck, and the external urethral sphincter as striated bundles lower on the urethra. Three yellow nerve lines enter from the left: Pelvic nerve (parasympathetic input) ending at the detrusor; Hypogastric nerve (sympathetic input) branching to the detrusor AND the bladder neck/internal sphincter; Pudendal nerve (somatic input) curving to the external urethral sphincter. Receptor labels with leader lines, each carrying a dark-teal numbered circle: M₃-receptor ❶ → detrusor; β₃-receptor ❷ → detrusor; α₁-receptor ❸ → internal urethral sphincter; plus Nicotinic receptor → external urethral sphincter. Beside the figure, a text panel carries the pons block — 'Micturition center in pons regulates involuntary bladder function via coordination of sympathetic and parasympathetic nervous systems. ⊕ sympathetic → ↑ urinary retention. ⊕ parasympathetic → ↑ urine voiding. Some autonomic drugs act on smooth muscle receptors to treat bladder dysfunction.' — with the First Aid mnemonic 'Baby one more time.' printed directly below it (first letters B-o-m-t in the FA red; the page's own anchor is the red initials of the four example drugs in the table below).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "micturition-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's full wiring map (MicturitionMap in visuals/pharm-p12.tsx): the MICTURITION CENTER IN PONS band with the printed opposition (⊕ sympathetic → ↑ urinary retention vs ⊕ parasympathetic → ↑ urine voiding) and the attributed First Aid mnemonic chip; the bladder glyph with its Detrusor muscle wall, funnel neck and urethra carrying the two gates (Internal urethral sphincter — smooth muscle, α₁-receptor chip ❸; External urethral sphincter — striated skeletal muscle, Nicotinic receptor chip); the three nerve paths from the left (Pelvic → M₃ ❶ on the detrusor; Hypogastric → β₃ ❷ on the detrusor AND the α₁ chip at the internal sphincter, the branch preserved; Pudendal → the nicotinic chip at the external sphincter); the numbered ❶❷❸ circles preserved at the receptor chips; the retention-vs-voiding fork band with the somatic third-rail note; and the four drug rows as dock cards",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "micturition-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "micturition-control",
+          "requiredInKYP": true,
+          "visualId": "micturition-control-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The printed DRUGS / MECHANISM / APPLICATIONS table (book 236): the four drug classes routed through three smooth-muscle receptors, with the book's circled ❶❶❷❸ cross-reference markers linking each row to the figure's receptor labels",
+          "sourceFigureDescription": "A three-column table — DRUGS | MECHANISM | APPLICATIONS — with four rows: ❶ Muscarinic agonists (eg, bethanechol) | ⊕ M₃ receptor → contraction of detrusor smooth muscle → ↑ bladder emptying | Urinary retention; ❶ Muscarinic antagonists (eg, oxybutynin) | ⊝ M₃ receptor → relaxation of detrusor smooth muscle → ↓ detrusor overactivity | Urgency incontinence; ❷ Sympathomimetics (eg, mirabegron) | ⊕ β₃ receptor → relaxation of detrusor smooth muscle → ↑ bladder capacity | Urgency incontinence; ❸ α₁-antagonists (eg, tamsulosin) | ⊝ α₁-receptor → relaxation of smooth muscle (eg, bladder, neck, prostate) → ↓ urinary obstruction | BPH. The drug-class names print in blue with the example drugs' first letters in the First Aid red (the mnemonic's red-initial anchor); the circled numbers are vector drawings (not text-layer characters). The text layer interleaves the four subscript digits (3, 3, 3, 1) and the row tails on separate lines below the row heads (the m38 convention) — the logical table above is reconstructed from the 300dpi VLM crops.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "micturition-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "carried VERBATIM in printed row order in the note's table block (blocks[1], with the ❶❶❷❸ circled cross-reference markers and the interleave documented in the caption) and echoed as the four numbered dock cards in the registry visual (MicturitionMap in visuals/pharm-p12.tsx, Zone D); the mnemonic red-initial anchor is documented in the memory callout (blocks[4])",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "micturition-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "adrenergic-receptor-distribution",
@@ -871,8 +956,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "α1/α2/β1/β2/β3 receptor distribution by tissue (the B1 one-heart/B2 two-lungs rule) with the vaso, bronchi, and uterine targets. Shared page 258 with micturition-control."
+      "status": "complete",
+      "productionRationale": "α1/α2/β1/β2/β3 receptor distribution by tissue (the B1 one-heart/B2 two-lungs rule) with the vaso, bronchi, and uterine targets. Shared page 258 with micturition-control.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "adrenergic-receptor-distribution",
+          "requiredInKYP": true,
+          "visualId": "adrenergic-receptor-distribution-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The RECEPTOR / TISSUE / EFFECT(S) distribution table (book 236, bottom half) — the five adrenergic receptor subtypes with their thirteen tissue→effect rows, the directory every adrenergic drug question resolves to",
+          "sourceFigureDescription": "PURE 3-COLUMN TEXT TABLE, no figures (census: pdfimages finds THREE rasters on pdf 258 but PyMuPDF xobject-rect analysis + z-ai VLM glm-4.6v adjudication place ALL THREE in the TOP half — the sibling micturition figure's anatomy silhouettes: a brainstem/pons mask, the bladder with urethra, a detrusor crescent, no text; the bottom half has ZERO rasters — its 34 PyMuPDF vector paths are the table's own cell borders/shading, and the VLM on the 200-DPI render confirms 'text and table borders only'). Headers RECEPTOR / TISSUE / EFFECT(S); five receptor blocks with regular-digit names (α1, α2, β1, β2, β3) and thirteen logical rows: α1 Vascular smooth muscle → Vasoconstriction, Visceral smooth muscle → Smooth muscle contraction; α2 Pancreas → Inhibition of insulin secretion, Presynaptic terminals → Inhibition of neurotransmitter release, Salivary glands → Inhibition of salivary secretion; β1 Heart → ↑ heart rate, contractility, Kidney → ↑ renin secretion; β2 Bronchioles → Bronchodilation, Cardiac muscle → ↑ heart rate, contractility, Liver → Glycogenolysis, glucose release, Arterial smooth muscle → Vasodilation, Pancreas → Stimulation of insulin secretion; β3 Adipose → ↑ lipolysis. The text layer interleaves each receptor's tissue cells (printed as a group) before its effect cells (the m38 convention) — the row pairing is positional and was VLM-adjudicated. The indd slug + timestamp print at the page foot. No margin notes or mnemonics print in this half ('Baby one more time.' is the TOP half's, the sibling micturition-control's).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "adrenergic-distribution-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (AdrenergicDistributionMap in visuals/pharm-p13.tsx — five receptor-directory columns α1/α2/β1/β2/β3 each stacked with its printed tissue→effect chips, the PANCREAS ×2 flags on the α2-inhibit and β2-stimulate rows and HEART ×2 flags on the β1 Heart and β2 Cardiac muscle rows, the double-bookings band contrasting pancreas/heart/vascular-bed pairs, the exam-reading band with the α2 presynaptic-autoreceptor hook and the β2 cardiac-muscle trap, and the NAME→PLACE→PREDICT rule banner); the printed table is also carried verbatim (printed row order, 13 rows) in the note's table block (blocks[1]) and recall[0-4]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "adrenergic-distribution-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "g-protein-second-messengers",
@@ -894,8 +1008,64 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The complete Gs/Gi/Gq table — adrenergic (α1 q, α2 i, β1/β2/β3 s), muscarinic (M1 q, M2 i, M3 q), dopaminergic, and the rest with their second messengers (cAMP, IP3/DAG/Ca2+) and major functions. The single highest-yield table in autonomic pharmacology."
+      "status": "complete",
+      "productionRationale": "The complete Gs/Gi/Gq table — adrenergic (α1 q, α2 i, β1/β2/β3 s), muscarinic (M1 q, M2 i, M3 q), dopaminergic, and the rest with their second messengers (cAMP, IP3/DAG/Ca2+) and major functions. The single highest-yield table in autonomic pharmacology.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "g-protein-second-messengers",
+          "requiredInKYP": true,
+          "visualId": "g-protein-second-messengers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              259
+            ],
+            "bookPages": "237"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The page-dominant RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table (book 237): 14 receptor rows in five family bands, each with its q/i/s G-protein class letter and its major functions — the single highest-yield table in autonomic pharmacology",
+          "sourceFigureDescription": "TYPOGRAPHIC TABLE (VLM-confirmed: shaded family bands — Adrenergic, Cholinergic, Dopamine, Histamine, Vasopressin — over 14 rows: α1 (q), α2 (i), β1 (s), β2 (s), β3 (s), M1 (q), M2 (i), M3 (q), D1 (s), D2 (i), H1 (q), H2 (s), V1 (q), V2 (s); the G-PROTEIN CLASS letters print as plain lowercase italics; the functions print with ↑/↓ glyphs; three red-printed mnemonic touches: '(one heart)' in the β1 row, '(two lungs)' in the β2 row, and the V2 row's 'twobules (tubules)' wordplay with the corrected word in parentheses; no figures, icons, photographs, or margin notes in the table region).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "g-protein-messenger-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's q/i/s SWIMLANE DIRECTORY (GProteinMessengerMap in visuals/pharm-p14.tsx — the Gq lane with its five receptor chips, the Gs lane with its six, the Gi lane with its three, each chip carrying its printed letter and a function digest) + the table's full text carried VERBATIM in the note's table block (blocks[1], printed row order, family bands included, typos/wordplay carried and attributed)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "g-protein-messenger-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "g-protein-second-messengers",
+          "requiredInKYP": true,
+          "visualId": "g-protein-second-messengers-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              259
+            ],
+            "bookPages": "237"
+          },
+          "visualType": "SIGNAL_TRANSDUCTION",
+          "visualPurpose": "The two-panel G-protein cascade figure (book 237): the Gq route (phospholipase C → PIP2 → DAG + IP3 → Ca2+ → smooth muscle contraction) and the shared-enzyme Gs/Gi route (adenylyl cyclase stimulated by GS protein, inhibited by Gi protein; ATP → cAMP → PKA → ↑Ca2+ and ⊣ myosin light-chain kinase)",
+          "sourceFigureDescription": "VECTOR LINE ART, ZERO rasters (pdfimages CONFIRMED; VLM seven passes 120–432 DPI + PyMuPDF word/vector-path dump, saved to staging-ph14/): TWO STACKED PANELS. TOP — the Gq cascade: Ligand (pink circle) → 'H1, α1, V1, M1, or M3 receptor' (7-TM) → Gq protein → ⊕ Phospholipase C → ⊕ PIP2 (hexagon) → DAG (right, → ⊕ Protein kinase C) and IP3 (down, → ↑Ca2+ → both ⊕ Protein kinase C and 'Smooth muscle contraction'); all arrows pointed/stimulatory. BOTTOM — the shared-enzyme panel: one Ligand label (the right arm's ligand circle unlabeled), 'B1, B2, B3, D1, H2, or V2 receptor' (Latin B as printed) → GS protein → pointed green ⊕ onto the central Adenylyl cyclase; 'M2, α2, or D2 receptor' → Gi protein → blunt red ⊖ T-bar ONTO THE SAME Adenylyl cyclase; ATP (starburst) → Cyclic AMP (circle cluster) → Protein kinase A → green ⊕ leftward onto ↑Ca2+ and blunt red ⊖ rightward onto 'Myosin light-chain kinase (smooth muscle contraction)'. Environment labels print twice per panel's left edge: Extracellular space / Cell membrane / Cytoplasm.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "g-protein-messenger-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's TWO CASCADE PANELS (GProteinMessengerMap in visuals/pharm-p14.tsx): the Gq panel redrawn as a KYP glyph chain (ligand circle → hatched membrane + 7-TM receptor glyph → Gq protein → Phospholipase C → PIP2 hexagon → the DAG/PKC and IP3/↑Ca2+/smooth-muscle-contraction fork, green ⊕ markers on the stimulatory arrows) and the shared-enzyme panel (two receptors in one membrane, GS protein's ⊕ and Gi protein's blunt red T-bar ⊖ onto the one Adenylyl cyclase, ATP → Cyclic AMP → Protein kinase A, PKA's ⊕ to ↑Ca2+ and blunt red ⊖ to Myosin light-chain kinase), with the environment labels preserved on each panel's left edge as printed",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "g-protein-messenger-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "autonomic-drugs-synapse",
@@ -917,8 +1087,37 @@
       ],
       "mechanismHeavy": true,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The NE-release modulation (α2 autoreceptor negative feedback), amphetamine/VMAT/NET mechanism, and the cholinergic vs noradrenergic synapse figure with every drug's entry point (ChAT, botulinum, AChE, MAO, COMT, reserpine, guanethidine)."
+      "status": "complete",
+      "productionRationale": "The NE-release modulation (α2 autoreceptor negative feedback), amphetamine/VMAT/NET mechanism, and the cholinergic vs noradrenergic synapse figure with every drug's entry point (ChAT, botulinum, AChE, MAO, COMT, reserpine, guanethidine).",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "autonomic-drugs-synapse",
+          "requiredInKYP": true,
+          "visualId": "autonomic-drugs-synapse-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              260
+            ],
+            "bookPages": "238"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The four-panel synapse figure (book 238): the cholinergic, noradrenergic, serotonergic, and dopaminergic synapses with every synthesis chain, transporter, cleft-clearance route, drug banner, and postsynaptic receptor — the master target map of autonomic pharmacology",
+          "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: ZERO raster images on pdf 260, CONFIRMED; VLM available this session — four passes at 120 + 200 DPI including per-panel crops, saved to staging-ph15/vlm-census.txt): a page-dominating 2×2 grid of four synapse cartoons. CHOLINERGIC (top-left): ChAT joining Choline + Acetyl-CoA into ACh; vesicles; a Ca2+ channel with a green ⊕ to the release site; the red-bannered 'Cholinergic inhibitor — Botulinum toxin' whose red ⊖ terminates on the release machinery; the cleft enzyme AChE splitting ACh into Choline + Acetate; the green-bannered 'Cholinergic stimulant — AChE inhibitors eg, Donepezil' whose red ⊖ lands on AChE; postsynaptic M1, M2, M3 under 'Cholinoreceptors'. NORADRENERGIC (top-right): Tyrosine → DOPA → Dopamine in the cytoplasm, Dopamine → NE crossing the vesicle membrane via VMAT; 'Vesicular monoamine transporter (VMAT) inhibitor — Tetrabenazine' (⊖ on VMAT); the 'Releasemodulating receptors' bracket grouping AT II (⊕) and α2 (⊖) with the dashed 'Negative feedback' curve from the cleft NE; 'Noradrenergic stimulant — Amphetamine, Ephedrine' (⊕ release); NET with its cleft→terminal 'Reuptake' arrow blocked by 'Noradrenergic stimulant — Amphetamine, SNRIs, Cocaine, TCAs, MDMA' (⊖ on NET); 'Diffusion, metabolism' leaving the cleft; postsynaptic α and β under 'Adrenoreceptors'; Ca2+ channel. SEROTONERGIC (bottom-right): Tryptophan → 5-Hydroxytryptophan → 5-HT; SERT + 'Reuptake' blocked by 'Serotonergic stimulant — Amphetamine, SNRIs, Cocaine, SSRIs' (⊖ on SERT); postsynaptic '5-HT receptor'; NO Ca2+, NO inhibitor banner. DOPAMINERGIC (bottom-left): Tyrosine → L-DOPA → Dopamine; DAT + 'Reuptake' blocked by 'Dopaminergic stimulant — Amphetamine, Methylphenidate, Cocaine' (⊖ on DAT); postsynaptic 'Dopamine receptor'; NO Ca2+, NO inhibitor banner. A small publisher logo prints at the lower right of the serotonergic panel (not reproduced).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "autonomic-synapse-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (AutonomicSynapseMap in visuals/pharm-p15.tsx): four vertical panels (cholinergic | noradrenergic | serotonergic | dopaminergic — the source's 2×2 layout re-laid-out vertically per the production spec), each carrying the axon terminal with its synthesis chain and vesicle, the Ca2+ channel where the source prints one (cholinergic + noradrenergic only), the synaptic cleft with its clearance route (AChE → Choline + Acetate for cholinergic; NET/SERT/DAT Reuptake + Diffusion, metabolism for the amines), the drug-anchor chips with their exact printed ⊖/⊕ terminations, the postsynaptic receptor row, the class banner(s) as printed, and an at-this-synapse exam note; the noradrenergic panel additionally carries the α2/AT II release-modulating bracket with the dashed negative-feedback loop and the four-step amphetamine reverse-transport strip (the printed paragraph, rendered as annotated steps and labeled as such); the printed labels are also carried verbatim in the note's label table (blocks[2]) and the two intro paragraphs verbatim in blocks[1]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "autonomic-synapse-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "cholinomimetics",

@@ -1,0 +1,46 @@
+{
+  "topicId": "autonomic-drugs-synapse",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "autonomic-drugs-synapse",
+      "requiredInKYP": true,
+      "visualId": "autonomic-drugs-synapse-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The four-panel synapse figure (book 238): the cholinergic, noradrenergic, serotonergic, and dopaminergic synapses with every synthesis chain, transporter, cleft-clearance route, drug banner, and postsynaptic receptor — the master target map of autonomic pharmacology",
+      "sourceFigureDescription": "VECTOR LINE ART, no raster (pdfimages: ZERO raster images on pdf 260, CONFIRMED; VLM available this session — four passes at 120 + 200 DPI including per-panel crops, saved to staging-ph15/vlm-census.txt): a page-dominating 2×2 grid of four synapse cartoons. CHOLINERGIC (top-left): ChAT joining Choline + Acetyl-CoA into ACh; vesicles; a Ca2+ channel with a green ⊕ to the release site; the red-bannered 'Cholinergic inhibitor — Botulinum toxin' whose red ⊖ terminates on the release machinery; the cleft enzyme AChE splitting ACh into Choline + Acetate; the green-bannered 'Cholinergic stimulant — AChE inhibitors eg, Donepezil' whose red ⊖ lands on AChE; postsynaptic M1, M2, M3 under 'Cholinoreceptors'. NORADRENERGIC (top-right): Tyrosine → DOPA → Dopamine in the cytoplasm, Dopamine → NE crossing the vesicle membrane via VMAT; 'Vesicular monoamine transporter (VMAT) inhibitor — Tetrabenazine' (⊖ on VMAT); the 'Releasemodulating receptors' bracket grouping AT II (⊕) and α2 (⊖) with the dashed 'Negative feedback' curve from the cleft NE; 'Noradrenergic stimulant — Amphetamine, Ephedrine' (⊕ release); NET with its cleft→terminal 'Reuptake' arrow blocked by 'Noradrenergic stimulant — Amphetamine, SNRIs, Cocaine, TCAs, MDMA' (⊖ on NET); 'Diffusion, metabolism' leaving the cleft; postsynaptic α and β under 'Adrenoreceptors'; Ca2+ channel. SEROTONERGIC (bottom-right): Tryptophan → 5-Hydroxytryptophan → 5-HT; SERT + 'Reuptake' blocked by 'Serotonergic stimulant — Amphetamine, SNRIs, Cocaine, SSRIs' (⊖ on SERT); postsynaptic '5-HT receptor'; NO Ca2+, NO inhibitor banner. DOPAMINERGIC (bottom-left): Tyrosine → L-DOPA → Dopamine; DAT + 'Reuptake' blocked by 'Dopaminergic stimulant — Amphetamine, Methylphenidate, Cocaine' (⊖ on DAT); postsynaptic 'Dopamine receptor'; NO Ca2+, NO inhibitor banner. A small publisher logo prints at the lower right of the serotonergic panel (not reproduced).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "autonomic-synapse-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (AutonomicSynapseMap in visuals/pharm-p15.tsx): four vertical panels (cholinergic | noradrenergic | serotonergic | dopaminergic — the source's 2×2 layout re-laid-out vertically per the production spec), each carrying the axon terminal with its synthesis chain and vesicle, the Ca2+ channel where the source prints one (cholinergic + noradrenergic only), the synaptic cleft with its clearance route (AChE → Choline + Acetate for cholinergic; NET/SERT/DAT Reuptake + Diffusion, metabolism for the amines), the drug-anchor chips with their exact printed ⊖/⊕ terminations, the postsynaptic receptor row, the class banner(s) as printed, and an at-this-synapse exam note; the noradrenergic panel additionally carries the α2/AT II release-modulating bracket with the dashed negative-feedback loop and the four-step amphetamine reverse-transport strip (the printed paragraph, rendered as annotated steps and labeled as such); the printed labels are also carried verbatim in the note's label table (blocks[2]) and the two intro paragraphs verbatim in blocks[1]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "autonomic-synapse-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autonomic-drugs-synapse",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "ONE visual asset on the source page (pdfimages: ZERO rasters, CONFIRMED — the page's figure is pure vector line art; the two intro paragraphs are prose, not a table): the page-dominating FOUR-PANEL SYNOPTIC FIGURE (cholinergic, noradrenergic, serotonergic, dopaminergic), accounted for as an ORIGINAL KYP REDRAW — autonomic-synapse-map (AutonomicSynapseMap in visuals/pharm-p15.tsx): the source's 2×2 grid re-laid-out as four vertical panels with every printed label, drug anchor, and arrow direction preserved as adjudicated on the 200 DPI VLM render (the Releasemodulating receptors bracket to the noradrenergic panel; M1/M2/M3 postsynaptic only; DOPA vs L-DOPA spellings; Ca2+ channels on the cholinergic and noradrenergic terminals only; the amphetamine reverse transport rendered as the printed paragraph's four-step strip since the source draws no such arrow; the publisher logo not reproduced). Nothing is reproduced; all printed labels are quoted verbatim in the note's label table (blocks[2]) and the two intro paragraphs verbatim in blocks[1]. Census: zero raster images (pdfimages, CONFIRMED) and no margin mnemonics (VLM, four passes at 120 + 200 DPI — the VLM was available this session, unlike the ph6–ph10 batch). FULL PAGE: no shared-page split — the whole of pdf 260 / book 238 belongs to this topic. STAGED under .usmle-pipeline-cache/staging-ph15/ — promotion into content/ is owned downstream."
+}

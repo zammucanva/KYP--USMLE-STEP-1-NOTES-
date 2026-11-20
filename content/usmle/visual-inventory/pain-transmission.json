@@ -1,0 +1,46 @@
+{
+  "topicId": "pain-transmission",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "pain-transmission",
+      "requiredInKYP": true,
+      "visualId": "pain-transmission-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Pain transmission text (book 235, bottom half) — the nociceptive pain definition with the TRPV transduction cascade and the Aδ/C fiber fork, the four-process blocker-list table, and the neuropathic pain block",
+      "sourceFigureDescription": "PURE TEXT, THREE BLOCKS + A BULLETED LIST (pdfimages: zero raster images; the VLM census RAN this session — glm-4.6v on the 120-DPI and 200-DPI renders, staging-ph11/vlm-census.txt — confirming no figures, photographs, icons, or margin notes/mnemonics anywhere on the page): [1] the NOCICEPTIVE PAIN block — 'Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli. Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation. Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).' — [2] the lead-in 'Processes involved in pain transmission:' with FOUR square-bulleted rows (process names in bold): '▘ Transduction—blocked by local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids' / '▘ Transmission—blocked by local anesthetics, α2-agonists, opioids' / '▘ Modulation—blocked by TCAs, SSRIs, SNRIs, gabapentinoids' / '▘ Perception—blocked by α2-agonists, opioids, TCAs, SSRIs, SNRIs' — and [3] the NEUROPATHIC PAIN block — 'Caused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent activation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.' No figures, margin notes, or mnemonics print in the Pain-transmission half.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "pain-transmission-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (PainTransmissionMap in visuals/pharm-p11.tsx — the PERIPHERY panel with the TRPV transducer glyph: stimulus chips, vanilloid ligand receptor, Ca2+ influx arrow, Na+ channel activation spark, the signal-born zigzag; the Aδ fast lane and C slow lane fork into the CNS panel with the MODULATION and PERCEPTION boxes; the four station cards with every printed blocker chip docked beneath its station and the 6·3·4·5 count chips; the NEUROPATHIC PAIN panel with the upregulated-channel nerve glyph, NO STIMULUS NEEDED flag, and the diabetic peripheral neuropathy example card; and the drug-class × station overlap ledger); the printed text is also carried verbatim in the note's table block (blocks[1]), core.what, and recall[0]/[2-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pain-transmission-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "pain-transmission",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The Pain-transmission half's single visual asset — the printed text (nociceptive definition + four-process blocker-list table + neuropathic block) — is accounted for as an ORIGINAL KYP ADAPTATION: there is no figure on the source page (pdfimages: zero rasters; the VLM census RAN this session and confirms no figures or margin mnemonics anywhere), so the registry visual pain-transmission-map (PainTransmissionMap in visuals/pharm-p11.tsx) is an original KYP diagram built from the printed text — the four-station relay with the blocker chips, the Aδ/C fiber fork, the TRPV transducer glyph, the neuropathic upregulated-Na+-channel panel, and the drug-class overlap ledger — whose text is also carried verbatim in the note's table block; nothing is reproduced. SHARED PAGE (the p196 convention): the top half of pdf 257 / book 235 (Acetylcholine receptors) belongs to the completed sibling topic acetylcholine-receptors and is out of scope here. Authoring-side paint QA: two label collisions found and fixed, verified readable in both themes (staging-ph11/paint-qa-summary.txt). STAGED under .usmle-pipeline-cache/staging-ph11/ — promotion into content/ is owned downstream."
+}

@@ -41,6 +41,11 @@ import { ReceptorBindingMap } from "./pharm-p7";
 import { EffectModificationMap } from "./pharm-p8";
 import { AutonomicOrganMap } from "./pharm-p9";
 import { AchReceptorMap } from "./pharm-p10";
+import { PainTransmissionMap } from "./pharm-p11";
+import { MicturitionMap } from "./pharm-p12";
+import { AdrenergicDistributionMap } from "./pharm-p13";
+import { GProteinMessengerMap } from "./pharm-p14";
+import { AutonomicSynapseMap } from "./pharm-p15";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -173,6 +178,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "effect-modification-map": EffectModificationMap,
   "autonomic-organ-map": AutonomicOrganMap,
   "ach-receptor-map": AchReceptorMap,
+  "pain-transmission-map": PainTransmissionMap,
+  "micturition-map": MicturitionMap,
+  "adrenergic-distribution-map": AdrenergicDistributionMap,
+  "g-protein-messenger-map": GProteinMessengerMap,
+  "autonomic-synapse-map": AutonomicSynapseMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

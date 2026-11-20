@@ -1,0 +1,217 @@
+{
+  "topicId": "micturition-control",
+  "title": "Micturition Control: The Bladder Pharmacology",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      258
+    ],
+    "bookPages": "236–236"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the book page number, the SECTION II / PHARMACOLOGY banner, the ▶ PHARMACOLOGY—AUTONOMIC DRUGS running head, and the topic heading 'Micturition control' (book 236; the shared page's bottom half, 'Tissue distribution of adrenergic receptors', is the sibling topic and is never quoted here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "236\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nMicturition control",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels, cluster 1 — the two detrusor receptors and the parasympathetic nerve: M₃-receptor, Detrusor muscle, β₃-receptor, and Pelvic nerve (parasympathetic input) (β₃ confirmed by the text layer + both high-DPI VLM passes; a low-DPI misread of β₂ is overruled)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "M₃-receptor\nDetrusor muscle\n\nβ₃-receptor\n\nPelvic nerve\n(parasympathetic\ninput)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The α₁-receptor label + the complete pons text block — 'Micturition center in pons regulates involuntary bladder function via coordination of sympathetic and parasympathetic nervous systems. ⊕ sympathetic → ↑ urinary retention. ⊕ parasympathetic → ↑ urine voiding. Some autonomic drugs act on smooth muscle receptors to treat bladder dysfunction.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "α₁-receptor\n\nMicturition center in pons regulates\ninvoluntary bladder function via\ncoordination of sympathetic and\nparasympathetic nervous systems.\n⊕ sympathetic → ↑ urinary retention.\n⊕ parasympathetic → ↑ urine voiding.\nSome autonomic drugs act on smooth\nmuscle receptors to treat bladder\ndysfunction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The First Aid margin mnemonic, printed on its own line directly below the pons text block — 'Baby one more time.' with the four first letters B, o, m, t in the First Aid mnemonic red (span b82837); the page's own anchor is the red-initial correspondence with the table's four example drugs (b-ethanechol, o-xybutynin, m-irabegron, t-amsulosin, span c04d49) — carried attributed, adjudication documented in the manifest notes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Baby one more time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure labels, cluster 2 — the two sphincters and the sympathetic + somatic nerves: Internal urethral sphincter, Hypogastric nerve (sympathetic input), External urethral sphincter, Pudendal nerve (somatic input)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Internal urethral\nsphincter\n\nHypogastric nerve\n(sympathetic input)\n\nExternal urethral\nsphincter\nPudendal nerve\n(somatic input)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table column headers DRUGS / MECHANISM / APPLICATIONS, with the figure's Nicotinic receptor label interleaved between them in the text layer (the m38 interleave — the label prints at the figure's bottom right, beside the table header row; the printed table's drug rows also carry the vector-drawn circled cross-reference numbers ❶❶❷❸, confirmed by VLM + PyMuPDF drawing positions)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "DRUGS\n\nNicotinic receptor\n\nMECHANISM\n\nAPPLICATIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table rows 1-2 as the text layer prints them — Muscarinic agonists (eg, bethanechol) ⊕ M receptor → contraction of detrusor smooth ... Urinary retention; Muscarinic antagonists (eg, oxybutynin) ⊝ M receptor → relaxation of detrusor smooth muscle (the subscript 3s print on separate lines below — the m38 interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Muscarinic\nagonists\n(eg, bethanechol)\n\n⊕ M receptor → contraction of detrusor smooth\n\nUrinary retention\n\nMuscarinic\nantagonists\n(eg, oxybutynin)\n\n⊝ M receptor → relaxation of detrusor smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table rows 3-4 as the text layer prints them — Sympathomimetics (eg, mirabegron) ⊕ β receptor → relaxation of detrusor smooth muscle; α1-antagonists (eg, tamsulosin) ⊝ α -receptor → relaxation of smooth muscle (eg, (the subscript 3/1 digits print on separate lines below — the m38 interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Sympathomimetics\n(eg, mirabegron)\n\n⊕ β receptor → relaxation of detrusor smooth muscle\n\nα1-antagonists\n(eg, tamsulosin)\n\n⊝ α -receptor → relaxation of smooth muscle (eg,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The interleaved subscript digits (3, 3, 3, 1) and the four row tails — muscle → ↑ bladder emptying; Urgency incontinence; → ↓ detrusor overactivity; Urgency incontinence; → ↑ bladder capacity; BPH; bladder, neck, prostate) → ↓ urinary obstruction — from which the logical printed table is reconstructed (300dpi VLM crops) and carried verbatim in the note's table block in printed row order",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "3\n\nmuscle → ↑ bladder emptying\n\n3\n\nUrgency incontinence\n\n→ ↓ detrusor overactivity\n\n3\n\nUrgency incontinence\n\n→ ↑ bladder capacity\n1\n\nBPH\n\nbladder, neck, prostate) → ↓ urinary obstruction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "micturition-map"
+  ],
+  "mechanismIds": [
+    "retention-vs-voiding-map",
+    "four-drugs-one-organ-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four original KYP mnemonics (PELVIC PEES, HYPOGASTRIC HOLDS, PUDENDAL PARKS / M₃ MOVES IT OUT, β₃ MAKES ROOM / ALPHA-ONE ANCHORS THE NECK / TWO ROADS TO URGE, TWO WAYS TO FLOW). The page's own mnemonic — 'Baby one more time.' — is First Aid's, NOT counted here: it is carried ATTRIBUTED (mnemonics[0] + the memory callout + the visual's mnemonic chip) with its printed red-initial anchor documented (B-o-m-t = bethanechol, oxybutynin, mirabegron, tamsulosin, the four example drugs in printed row order).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints exactly one mnemonic on this page ('Baby one more time.'); the four ALL-CAPS nerve/detrusor/gate/table-structure codes are KYP's design.",
+      "location": "mnemonics[1-4] + blocks[4] the mnemonic-provenance callout + the visual's mnemonic chip"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The urgency-incontinence miniCase — a 74-year-old woman whose oxybutynin was stopped for anticholinergic effects, asked for the next pharmacologic mechanism; the correct answer is the mirabegron row (⊕ β₃ receptor → relaxation of detrusor smooth muscle → ↑ bladder capacity), with distractors built from the other three printed rows (bethanechol's inverted direction, oxybutynin's right-receptor-wrong-history, tamsulosin's wrong application).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the four drug rows but never asks the learner to choose between the two roads to the same application after a side-effect failure; the vignette, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The four DrugCards (bethanechol, oxybutynin, mirabegron, tamsulosin): klass/target/mechanism/effect/uses follow the printed table rows; the adverse-effect lines are KYP additions from general autonomic pharmacology (each flagged 'KYP addition — not printed on book 236' in the field itself).",
+      "origin": "outside-first-aid",
+      "rationale": "The printed table carries mechanism and application only; the DrugCard schema's adverse field is filled from standard pharmacology and is labeled as such, never presented as First Aid content.",
+      "location": "drugs"
+    },
+    {
+      "id": "reading-protocol",
+      "summary": "The four-move reading protocol (PLACE the tissue → NAME the receptor → PREDICT the muscle response → MATCH the printed application) and the one-organ-two-levers framing (the detrusor's M₃/β₃ fork, the two-roads-to-urge asymmetry, the somatic third rail).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure and the table but no reading order; the four-move protocol and the asymmetry framing are KYP's synthesis.",
+      "location": "core.keyIdea + blocks[3] the steps block + the visual's fork band and dock footers"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot attack structure layered over the source facts — 3 patterns (postoperative retention → bethanechol; anticholinergic-intolerant urge → mirabegron; BPH obstruction → tamsulosin), 3 traps (β₃ vs M₃ on the same muscle; oxybutynin vs mirabegron same-application; internal α₁ vs external nicotinic sphincter), 2 pivots.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the wiring figure and the four table rows only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SHARED PAGE (the p196 convention): pdf 258 / book 236 carries TWO subsections — 'Micturition control' (top half, THIS topic, part1.txt page-258 lines 1-94) and 'Tissue distribution of adrenergic receptors' (bottom half, the sibling topic adrenergic-receptor-distribution, from line 96); only the Micturition-control block's contiguous lines are quoted and every quote range stops before the sibling's heading. The indd slug + timestamp footer prints at lines 149-151, at the very foot of the page AFTER the sibling's table — it belongs to the page bottom / the sibling's half per the batch spec and is deliberately NOT quoted by PH12 (this entry documents that decision). CENSUS METHOD: VLM AVAILABLE this session (three passes — full page @120dpi, full page @200dpi + the three extracted raster objects, 300dpi crops of the figure/pons+mnemonic/table — saved to staging-ph12/vlm-census.txt), unlike the ph6-ph10 batch's 401 outage. pdfimages reports THREE spot-color raster objects (426x336, 383x518, 458x277 @316ppi), read by the VLM as the white-silhouette anatomy LAYERS of the bladder illustration; all labels, leader lines, the pons text, the mnemonic, and the table are live vector text — the figure is a MIXED composite, so the task spec's 'vector figure' description is adjudicated as 'raster anatomy layers + vector labels'; the redraw target (ORIGINAL_KYP_REDRAW, no reproduction) is unaffected. MNEMONIC ADJUDICATION (documented): 'Baby one more time.' prints directly below the pons text block (x 385-471pt — inside the right text column, not the outer page margin), first letters B, o, m, t in the First Aid red (span b82837); the page's own anchor is the red-initial correspondence with the table's example drugs (b/o/m/t, span c04d49) — the mnemonic memorizes the four example DRUGS in printed row order, transitively carrying each row's receptor, mechanism, and application; NO letter-to-receptor anchor prints near the mnemonic (two high-DPI VLM passes + PyMuPDF span sweep), so the task spec's tentative receptor-letter decode (B=β₃, O=α₁, M=M₃, T='time') is not what the page anchors — the drug-initial decode is used and documented either way. FIGURE FIDELITY: the redraw (micturition-map, MicturitionMap in visuals/pharm-p12.tsx) preserves every printed label, the three nerves (Pelvic/parasympathetic → M₃ on detrusor; Hypogastric/sympathetic → β₃ on detrusor AND α₁ at the internal sphincter, the branch preserved; Pudendal/somatic → nicotinic at the external sphincter), the two sphincters (internal smooth-muscle α₁, external striated nicotinic), the receptor placements, the book's own dark-teal numbered cross-reference circles ❶❷❸ (at the three receptor labels, repeated ❶❶❷❸ in the table's DRUGS column — vector drawings confirmed by PyMuPDF at the label positions and the four table rows), and the retention/voiding opposition of the pons text. Quirks, documented: (1) the table interleaves in the text layer (the m38 convention) — the four subscript digits (3, 3, 3, 1) and the row tails print on separate lines below the row heads (lines 75-94); the logical printed table is reconstructed via the 300dpi VLM crops and carried VERBATIM in printed row order in the note's table block, with the circled ❶❶❷❸ cross-reference markers preserved; (2) the text layer prints the figure subscripts directly (M₃-receptor, β₃-receptor, α₁-receptor) but the table subscripts as separate lines ('α1-antagonists', '⊝ α -receptor' + 1) — the printed book renders α with a subscript 1 there, and the note's verbatim table carries α₁ as printed; (3) an early 120dpi VLM pass misread the detrusor β label as β₂ — overruled by the text layer and both high-DPI passes (β₃-receptor); (4) NO source typos found on this half; (5) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (6) outputs are STAGED under .usmle-pipeline-cache/staging-ph12/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'micturition-map' is therefore not yet in visuals/registry.tsx by design).",
+  "updatedAt": "2026-11-20"
+}

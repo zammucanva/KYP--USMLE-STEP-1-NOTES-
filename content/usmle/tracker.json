@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-19T15:08:15Z",
+  "generatedAt": "2026-11-20T00:38:03Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 155,
+    "topicsProduced": 160,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 100,
+      "pilot-complete": 105,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 29,
-      "topicsProduced": 11,
-      "topicsRemaining": 18,
+      "topicsProduced": 16,
+      "topicsRemaining": 13,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -439,6 +439,21 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-28"
+    },
+    {
+      "topicId": "adrenergic-receptor-distribution",
+      "title": "Tissue Distribution of Adrenergic Receptors",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 258 (book 236–236)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
     },
     {
       "topicId": "amino-acids",
@@ -604,6 +619,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "autonomic-drugs-synapse",
+      "title": "Autonomic Drugs: Synapse Targets & Overview",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 260 (book 238–238)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
     },
     {
       "topicId": "autonomic-receptors",
@@ -1404,6 +1434,21 @@
       "updatedAt": "2026-10-10"
     },
     {
+      "topicId": "g-protein-second-messengers",
+      "title": "G-Protein-Linked Second Messengers",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 259 (book 237–237)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 4,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "topicId": "gene-expression-modifications",
       "title": "Gene Expression Modifications",
       "chapterId": "biochemistry",
@@ -1929,6 +1974,21 @@
       "updatedAt": "2026-10-15"
     },
     {
+      "topicId": "micturition-control",
+      "title": "Micturition Control: The Bladder Pharmacology",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 258 (book 236–236)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "topicId": "modes-of-inheritance",
       "title": "Modes of Inheritance",
       "chapterId": "biochemistry",
@@ -2152,6 +2212,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-20"
+    },
+    {
+      "topicId": "pain-transmission",
+      "title": "Pain Transmission & Analgesic Targets",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 257 (book 235–235)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
     },
     {
       "topicId": "paraneoplastic-aging",
