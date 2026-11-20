@@ -1,0 +1,321 @@
+{
+  "topicId": "cholinomimetics",
+  "title": "Cholinomimetic Agents",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      261
+    ],
+    "bookPages": "239–239"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner, running header, SECTION II, book page number 239, and the topic heading 'Cholinomimetic agents' (the 'SEC TION II' header spacing is the text layer's own artifact, quoted as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n239\n\nCholinomimetic\nagents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed class warning above the table — watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients (spans BOTH the direct and indirect lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table column headers — DRUG / ACTION / APPLICATIONS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "DRUG\n\nACTION\n\nAPPLICATIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BETHANECHOL row — activates bladder smooth muscle; resistant to AChE; acts on muscarinic receptors, no nicotinic activity; the source's own mnemonic 'Bethany, call me to activate your bladder.'; application urinary retention",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Bethanechol\n\nActivates bladder smooth muscle; resistant\nto AChE. Acts on muscarinic receptors; no\nnicotinic activity. “Bethany, call me to activate\nyour bladder.”\n\nUrinary retention.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CARBACHOL row — carbon copy of acetylcholine (but resistant to AChE); constricts pupil; used for intraoperative miosis induction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Carbachol\n\nCarbon copy of acetylcholine (but resistant to\nAChE).\n\nConstricts pupil. Used for intraoperative miosis\ninduction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The METHACHOLINE row — stimulates muscarinic receptors in airway when inhaled; challenge test for diagnosis of asthma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Methacholine\n\nStimulates muscarinic receptors in airway when\ninhaled.\n\nChallenge test for diagnosis of asthma.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PILOCARPINE row — contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma); resistant to AChE; the text layer's 'bloodbrain' merge of the printed line-broken 'blood-brain' and the source's own 'pilow' spelling (both documented); applications (APPLICATIONS column per the 200-dpi VLM adjudication): potent stimulator of sweat, tears, and saliva; open-angle and closed-angle glaucoma, xerostomia (Sjögren syndrome)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Pilocarpine\n\nContracts ciliary muscle of eye (open-angle\nglaucoma), pupillary sphincter (closed-angle\nglaucoma); resistant to AChE, can cross bloodbrain barrier. “You cry, drool, and sweat on\nyour ‘pilow.’ ”\n\nPotent stimulator of sweat, tears, and saliva\nOpen-angle and closed-angle glaucoma,\nxerostomia (Sjögren syndrome).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TWO SPANNING SUBHEADERS — 'Direct agonists' and 'Indirect agonists (anticholinesterases)' (INTERLEAVE NOTE, the m38 convention: the text layer prints both labels HERE, between the pilocarpine and donepezil rows; the logical table per the VLM render places them as spanning shaded rows above each half — quoted in physical text-layer order)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Direct agonists\n\nIndirect agonists (anticholinesterases)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The DONEPEZIL, RIVASTIGMINE, GALANTAMINE row — ↑ ACh; 1st line for Alzheimer disease (Dona Riva forgot the gala)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Donepezil,\nrivastigmine,\ngalantamine\n\n↑ ACh.\n\n1st line for Alzheimer disease (Dona Riva forgot\nthe gala).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEOSTIGMINE row — ↑ ACh; Neo = no blood-brain barrier penetration due to positive charge; postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of neuromuscular junction blockade (postoperative)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Neostigmine\n\n↑ ACh.\nNeo = no blood-brain barrier penetration due to\npositive charge.\n\nPostoperative and neurogenic ileus and\nurinary retention, myasthenia gravis,\nreversal of neuromuscular junction blockade\n(postoperative).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PYRIDOSTIGMINE row — ↑ ACh; ↑ muscle strength; does not penetrate CNS; pyridostigmine gets rid of myasthenia gravis; myasthenia gravis (long acting) with glycopyrrolate or hyoscyamine to control adverse effects",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Pyridostigmine\n\n↑ ACh; ↑ muscle strength. Does not penetrate\nCNS. Pyridostigmine gets rid of myasthenia\ngravis.\n\nMyasthenia gravis (long acting). Used with\nglycopyrrolate or hyoscyamine to control\npyridostigmine adverse effects.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PHYSOSTIGMINE row — ↑ ACh; Phreely (freely) crosses blood-brain barrier as not charged → CNS; antidote for anticholinergic toxicity; physostigmine 'phyxes' atropine overdose",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Physostigmine\n\n↑ ACh. Phreely (freely) crosses blood-brain\nbarrier as not charged → CNS.\n\nAntidote for anticholinergic toxicity;\nphysostigmine “phyxes” atropine overdose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ANTICHOLINESTERASE POISONING block heading and intro — often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE; commonly used as insecticides; poisoning usually seen in farmers",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Anticholinesterase\npoisoning\n\nOften due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.\nOrganophosphates commonly used as insecticides; poisoning usually seen in farmers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MUSCARINIC effects row — Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation; DUMBBELSS; reversed by atropine, a competitive inhibitor; atropine can cross BBB to relieve CNS symptoms",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Muscarinic effects\n\nDiarrhea, Urination, Miosis, Bronchospasm,\nBradycardia, Emesis, Lacrimation, Sweating,\nSalivation.\n\nDUMBBELSS.\nReversed by atropine, a competitive inhibitor.\nAtropine can cross BBB to relieve CNS\nsymptoms.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NICOTINIC effects row — neuromuscular blockade (mechanism similar to succinylcholine); reversed by pralidoxime, regenerates AChE via dephosphorylation if given early; must be coadministered with atropine to prevent transient worsening of symptoms; pralidoxime does not readily cross BBB",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Nicotinic effects\n\nNeuromuscular blockade (mechanism similar to\nsuccinylcholine).\n\nReversed by pralidoxime, regenerates AChE\nvia dephosphorylation if given early. Must\nbe coadministered with atropine to prevent\ntransient worsening of symptoms.\nPralidoxime does not readily cross BBB.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CNS effects row — respiratory depression, lethargy, seizures, coma",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "CNS effects\n\nRespiratory depression, lethargy, seizures, coma.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the indd print slug and timestamp (page identity, book 239)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 239\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cholinomimetic-map"
+  ],
+  "mechanismIds": [
+    "direct-agonist-lock-map",
+    "anticholinesterase-shredder-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/recall/rapidReview attack structure layered over the printed table — 6 patterns (bethanechol for postoperative retention; the methacholine challenge test; pilocarpine for Sjögren xerostomia + glaucoma; the donepezil trio as Alzheimer first line; pyridostigmine as the long-acting myasthenia mainstay with glycopyrrolate/hyoscyamine; the farmer's DUMBBELLS presentation), 5 traps (bethanechol vs carbachol; neostigmine vs physostigmine; pyridostigmine vs neostigmine; atropine vs pralidoxime; physostigmine-as-poisoning-antidote), 3 pivots.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the DRUG/ACTION/APPLICATIONS table and the poisoning block only; the attack structure is a KYP design.",
+      "location": "usmle section + recall + rapidReview"
+    },
+    {
+      "id": "fork-reading",
+      "summary": "The four-move reading protocol (FORK / TARGET / APPLY / ROUTE) and the turn-the-lock vs jam-the-shredder framing of the page — a direct agonist is a receptor key; an indirect agonist jams AChE, the synapse's shredder, so endogenous ACh accumulates — including the one-drug-one-organ anchoring of the direct lane and the receptor-layer routing of poisoning management.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints two table halves side by side but never teaches the fork as a decision path; the protocol, the shredder metaphor, and the organ anchoring are KYP's synthesis.",
+      "location": "core.keyIdea + blocks[5] the steps block + blocks[4] the compare block + the registry visual's lane headers"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (TURN THE LOCK OR JAM THE SHREDDER / ONE DRUG, ONE ORGAN / CHARGED STAYS OUT, UNCHARGED CROSSES IN / MUSCARINIC GETS ATROPINE, NICOTINIC GETS PRALIDOXIME). The source's OWN mnemonics print in the table cells ('Bethany, call me to activate your bladder.'; 'Carbon copy of acetylcholine'; 'You cry, drool, and sweat on your pilow.'; '(Dona Riva forgot the gala)'; 'Neo = no blood-brain barrier penetration'; 'Pyridostigmine gets rid of myasthenia gravis'; 'Phreely (freely) crosses blood-brain barrier'; physostigmine 'phyxes' atropine overdose; DUMBBELSS) — carried ATTRIBUTED to First Aid in the note's memory callout and verbatim tables, and NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "The four ALL-CAPS codes (class-fork, organ anchoring, BBB charge rule, antidote routing) are KYP's design; none duplicates a printed mnemonic.",
+      "location": "mnemonics + blocks[7] the mnemonic-provenance callout + the registry visual's band footers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The farmer organophosphate-poisoning miniCase (malathion exposure with the full DUMBBELSS picture, nicotinic weakness, and lethargy; management question) — the correct option is atropine PLUS pralidoxime given early; the distractors are atropine alone (leaves the nicotinic neuromuscular blockade unopposed), pralidoxime alone (the printed coadministration rule — transient worsening — plus poor BBB leaving the CNS layer uncovered), and physostigmine (the mirror-image trap: it antidotes ANTICHOLINERGIC toxicity and would deepen cholinergic excess). Includes the enzyme-aging rationale behind the printed 'if given early' (pralidoxime must dephosphorylate AChE before the organophosphate-enzyme bond ages into permanence).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the poisoning block as findings and reversers but never integrates them into a management vignette; the stem, the four distractor mechanisms, and the aging rationale are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "angle-mechanics-gloss",
+      "summary": "The glaucoma outflow mechanics behind pilocarpine's printed parentheticals — ciliary-muscle contraction opens the trabecular-meshwork outflow pathway (the open-angle application) and pupillary-sphincter contraction pulls the iris out of the angle (the closed-angle application).",
+      "origin": "outside-first-aid",
+      "rationale": "Book 239 prints only the drug facts ('Contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma)') without the aqueous-outflow mechanics; the gloss used in the ophthalmology crossLink is standard pharmacology knowledge, recorded here so it is never presented as though it printed on the page.",
+      "location": "crossLinks[0] (ophthalmology)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL PAGE (no shared split in the PH16-PH20 batch): pdf 261 / book 239 is entirely the Cholinomimetic agents subsection — one printed DRUG/ACTION/APPLICATIONS table under two spanning shaded subheaders (Direct agonists: bethanechol, carbachol, methacholine, pilocarpine; Indirect agonists (anticholinesterases): donepezil/rivastigmine/galantamine, neostigmine, pyridostigmine, physostigmine) plus the separate Anticholinesterase poisoning block (organophosphate intro; muscarinic DUMBBELSS / nicotinic / CNS rows with their printed reversers) and the indd footer. Edrophonium and echothiophate do NOT print on this page and are never quoted or claimed (the batch spec's 'whatever prints on the page' rule). CENSUS METHOD: pdfimages reports ZERO raster images on pdf 261 — pure text + table art; the VLM was AVAILABLE this session (unlike the ph6-ph10 batch's 401 outage): the full-page 120-dpi pass confirmed the table structure, both spanning subheaders, the poisoning block's findings-vs-reversal split, all the in-cell mnemonics, and the absence of figures/photographs, and ONE documented 200-dpi adjudication pass on the pilocarpine row resolved the interleaved text layer — 'Potent stimulator of sweat, tears, and saliva' sits in the APPLICATIONS column (both VLM passes agree), the mnemonic prints 'pilow' (the source's own spelling, confirmed at 200 dpi against the text layer), and the ACTION cell breaks 'blood-brain' across a printed line (the pdftotext layer merges it to 'bloodbrain' — an extraction artifact, NOT a source typo; the note's human-facing verbatim table shows the printed 'blood-brain' hyphenation and documents the merge, while the evidence quotes follow the text layer exactly). INTERLEAVE QUIRK (documented, the m38 convention): the text layer prints the two spanning subheader labels ('Direct agonists' at page-261 line 55, 'Indirect agonists (anticholinesterases)' at line 57) BETWEEN the pilocarpine row and the donepezil row; the logical table per the VLM render places them as spanning shaded rows above each half — quoted in physical text-layer order as one entry with the position documented. Other verbatim quirks carried and documented: the source's own mnemonics print IN the table cells (all carried attributed to First Aid in the note's memory callout + verbatim tables); the ↑ and → glyphs print in the text layer (with \\x8f control bytes that the verifier strips); 'SEC TION II' is the header's own text-layer spacing artifact; the donepezil trio's entire ACTION cell prints as just '↑ ACh.'. Quirks, documented: (1) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (2) outputs are STAGED under .usmle-pipeline-cache/staging-ph16/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'cholinomimetic-map' is therefore not yet in visuals/registry.tsx by design); (3) there is NO figure on the source page, so the registry visual is an ORIGINAL KYP diagram (not a redraw) built from the printed table, whose text is carried verbatim in the note's three table blocks; (4) the batch depth convention is met: 2 mechanisms, 4 KYP mnemonics, a 4-option miniCase with exactly 1 correct and a why on every option, and the source tables carried VERBATIM in printed row order.",
+  "updatedAt": "2026-11-20"
+}

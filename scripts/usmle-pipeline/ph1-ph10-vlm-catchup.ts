@@ -1,4 +1,4 @@
-import ZAI from 'z-ai-web-dev-sdk';
+import ZAI from '/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk';
 import { readFileSync } from 'fs';
 
 /* Pending VLM catch-up re-read of the ph1-ph10 element crops (the PH6-PH10

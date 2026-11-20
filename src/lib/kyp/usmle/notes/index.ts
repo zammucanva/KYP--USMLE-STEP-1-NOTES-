@@ -37,6 +37,11 @@ import { micturitionControl } from "./micturition-control";
 import { adrenergicReceptorDistribution } from "./adrenergic-receptor-distribution";
 import { gProteinSecondMessengers } from "./g-protein-second-messengers";
 import { autonomicDrugsSynapse } from "./autonomic-drugs-synapse";
+import { cholinomimetics } from "./cholinomimetics";
+import { muscarinicAntagonists } from "./muscarinic-antagonists";
+import { sympatholyticsAlphaBlockers } from "./sympatholytics-alpha-blockers";
+import { betaBlockers } from "./beta-blockers";
+import { phosphodiesteraseInhibitors } from "./phosphodiesterase-inhibitors";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -244,6 +249,11 @@ export const usmleNotes: KypUsMLENote[] = [
   adrenergicReceptorDistribution,
   gProteinSecondMessengers,
   autonomicDrugsSynapse,
+  cholinomimetics,
+  muscarinicAntagonists,
+  sympatholyticsAlphaBlockers,
+  betaBlockers,
+  phosphodiesteraseInhibitors,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

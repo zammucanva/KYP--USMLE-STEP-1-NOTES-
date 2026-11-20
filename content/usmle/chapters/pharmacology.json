@@ -13,7 +13,7 @@
   ],
   "bookPages": "227–254",
   "extractionStatus": "extracted",
-  "pendingTopicCount": 13,
+  "pendingTopicCount": 8,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -1139,8 +1139,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "Direct agonists (bethanechol, carbachol, methacholine, pilocarpine — with the source's own mnemonics) vs indirect anticholinesterases (edrophonium, pyridostigmine, echothiophate, the organophosphates + pralidoxime reactivation rule) with applications and the COPD/asthma/peptic-ulcer exacerbation warning."
+      "status": "complete",
+      "productionRationale": "Direct agonists (bethanechol, carbachol, methacholine, pilocarpine — with the source's own mnemonics) vs indirect anticholinesterases (edrophonium, pyridostigmine, echothiophate, the organophosphates + pralidoxime reactivation rule) with applications and the COPD/asthma/peptic-ulcer exacerbation warning.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "cholinomimetics",
+          "requiredInKYP": true,
+          "visualId": "cholinomimetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              261
+            ],
+            "bookPages": "239"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Cholinomimetic agents DRUG/ACTION/APPLICATIONS table (book 239): the printed class warning, the two spanning subheaders (Direct agonists / Indirect agonists (anticholinesterases)), all eight drug rows with their actions, in-cell mnemonics, and applications",
+          "sourceFigureDescription": "TABLE ART, NO RASTER (pdfimages: zero raster images on pdf 261; VLM census in two passes, saved to staging-ph16/vlm-census.txt): one printed table with columns DRUG / ACTION / APPLICATIONS under the warning line 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.' and two spanning shaded subheader rows — 'Direct agonists': BETHANECHOL (activates bladder smooth muscle; resistant to AChE; muscarinic receptors, no nicotinic activity; 'Bethany, call me to activate your bladder.' / urinary retention), CARBACHOL (carbon copy of acetylcholine, resistant to AChE / constricts pupil, intraoperative miosis induction), METHACHOLINE (stimulates muscarinic receptors in airway when inhaled / challenge test for diagnosis of asthma), PILOCARPINE (contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma); resistant to AChE, can cross blood-brain barrier; 'You cry, drool, and sweat on your pilow.' / potent stimulator of sweat, tears, and saliva; open- and closed-angle glaucoma, xerostomia (Sjögren syndrome)) — and 'Indirect agonists (anticholinesterases)': DONEPEZIL, RIVASTIGMINE, GALANTAMINE (↑ ACh / 1st line for Alzheimer disease, 'Dona Riva forgot the gala'), NEOSTIGMINE (↑ ACh; no BBB penetration, positive charge / postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of NMJ blockade), PYRIDOSTIGMINE (↑ ACh; ↑ muscle strength; does not penetrate CNS / myasthenia gravis long acting, with glycopyrrolate or hyoscyamine), PHYSOSTIGMINE (↑ ACh; freely crosses BBB, not charged → CNS / antidote for anticholinergic toxicity, 'phyxes' atropine overdose). No figures, photographs, or margin art print on the page.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "cholinomimetic-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (CholinomimeticMap in visuals/pharm-p16.tsx): the fork root with the printed warning banner; the DIRECT lane's four drug cards (name chip, 'resistant to AChE' flag where printed, action text, attributed First Aid mnemonic, applications chip); the INDIRECT lane's anticholinesterases-⊣-AChE-→-↑ACh flow row, the four reversible agent chips with applications, and the BBB charge-rule band; PLUS the note's verbatim table blocks (blocks[1] direct half, blocks[2] indirect half) carrying every printed cell in row order",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cholinomimetic-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "cholinomimetics",
+          "requiredInKYP": true,
+          "visualId": "cholinomimetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              261
+            ],
+            "bookPages": "239"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Anticholinesterase poisoning block (book 239): the organophosphate intro (fenthion, parathion, malathion; insecticides; farmers) and the three effect layers — muscarinic DUMBBELSS, nicotinic neuromuscular blockade (succinylcholine-like), CNS effects — with their printed reversers (atropine; pralidoxime's dephosphorylation-if-early, coadministration, and BBB rules)",
+          "sourceFigureDescription": "TABLE ART, NO RASTER (pdfimages: zero raster images; VLM census in two passes, saved to staging-ph16/vlm-census.txt): a second table-style block under the left-margin label 'Anticholinesterase poisoning', opening with the spanning intro 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE. Organophosphates commonly used as insecticides; poisoning usually seen in farmers.', then three findings-vs-reversal rows — MUSCARINIC EFFECTS: 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' / 'DUMBBELSS. Reversed by atropine, a competitive inhibitor. Atropine can cross BBB to relieve CNS symptoms.' — NICOTINIC EFFECTS: 'Neuromuscular blockade (mechanism similar to succinylcholine).' / 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early. Must be coadministered with atropine to prevent transient worsening of symptoms. Pralidoxime does not readily cross BBB.' — CNS EFFECTS: 'Respiratory depression, lethargy, seizures, coma.' (single cell). No figures or photographs.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "cholinomimetic-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's IRREVERSIBLE organophosphate band (fenthion/parathion/malathion intro + the three effect chips with DUMBBELSS, succinylcholine-like, and CNS text) and the ANTIDOTE FORK band (atropine chip beside pralidoxime chip, the coadministration note, and the two dashed reactivation hooks — competitive-at-M and dephosphorylates-AChE-if-given-early); PLUS the note's verbatim poisoning table (blocks[3]) carrying every printed cell in row order",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cholinomimetic-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "muscarinic-antagonists",
@@ -1163,8 +1219,91 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The anticholinergic system reference table (atropine, benztropine, scopolamine, ipratropium, oxybutynin, the SOFT/BENZ mnemonic families) + the atropine block with DUMBBELSS and the temperature-regulation rule."
+      "status": "complete",
+      "productionRationale": "The anticholinergic system reference table (atropine, benztropine, scopolamine, ipratropium, oxybutynin, the SOFT/BENZ mnemonic families) + the atropine block with DUMBBELSS and the temperature-regulation rule.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "muscarinic-antagonists",
+          "requiredInKYP": true,
+          "visualId": "muscarinic-antagonists-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              262
+            ],
+            "bookPages": "240"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The anticholinergic system directory (book 240) — the DRUGS / ORGAN SYSTEMS / APPLICATIONS lookup that routes every muscarinic antagonist to its organ and application",
+          "sourceFigureDescription": "PURE VECTOR TABLE (pdfimages: zero raster images; VLM 120dpi pass adjudicated the interleaved text layer): a 3-column table — headers DRUGS / ORGAN SYSTEMS / APPLICATIONS — with SEVEN rows in printed order: Atropine, homatropine, tropicamide | Eye | Produce mydriasis and cycloplegia; Benztropine, trihexyphenidyl | CNS | Parkinson disease (“park my Benz”) / Acute dystonia; Glycopyrrolate | GI, respiratory | Parenteral: preoperative use to reduce airway secretions / Oral: reduces drooling, peptic ulcer; Hyoscyamine, dicyclomine | GI | Antispasmodics for irritable bowel syndrome; Ipratropium, tiotropium | Respiratory | COPD, asthma / Duration: tiotropium > ipratropium; Solifenacin, Oxybutynin, Flavoxate, Tolterodine | Genitourinary | Reduce bladder spasms and urge urinary incontinence (overactive bladder) / Make bladder SOFT; Scopolamine | CNS | Motion sickness. The 'park my Benz' and 'Make bladder SOFT' mnemonic phrases print inside their cells (First Aid's own, red-initial styling per the VLM read).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "muscarinic-antagonist-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (MuscarinicAntagonistMap in visuals/pharm-p17.tsx — THE DIRECTORY zone: the seven rows docked by organ in printed order with CNS-entry tags) and the note's blocks[1] table block carrying the directory VERBATIM in printed row order; the DrugCards (drugs) restructure the same rows into card format",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "muscarinic-antagonist-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "muscarinic-antagonists",
+          "requiredInKYP": true,
+          "visualId": "muscarinic-antagonists-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              262
+            ],
+            "bookPages": "240"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The atropine end-organ table (book 240) — the prototype's six-organ blockade pattern (ORGAN SYSTEM / ACTION) with the spanning DUMBBELSS NOTES cell",
+          "sourceFigureDescription": "PURE VECTOR TABLE (pdfimages: zero rasters; VLM adjudication): the 'Atropine' heading with the definition line 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' above a 3-column table — headers ORGAN SYSTEM / ACTION / NOTES — with six rows: Eye | ↑ pupil dilation, cycloplegia; Airway | Bronchodilation, ↓ secretions; Heart | ↑ heart rate; Stomach | ↓ acid secretion; Gut | ↓ motility; Bladder | ↓ urgency in cystitis. The NOTES column is ONE cell spanning all six rows: 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects' (VLM: it spans Eye through Bladder, which is why the text layer extracts it mid-table between Heart and Stomach).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "muscarinic-antagonist-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (MuscarinicAntagonistMap — THE SPINE zone: the six organ chips with their printed actions + the DUMBBELSS note rendered as the vertical spanning banner it is in print; and the DUMBBELSS BOUNDARY trap card) and the note's blocks[2] table block carrying the six rows + the spanning note VERBATIM in its spanning position; mechanisms[0] renders the same pattern as a MechanismFlow",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "muscarinic-antagonist-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "muscarinic-antagonists",
+          "requiredInKYP": true,
+          "visualId": "muscarinic-antagonists-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              262
+            ],
+            "bookPages": "240"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The ADVERSE EFFECTS row (book 240) — the printed anticholinergic toxidrome body plus First Aid's own mnemonic cell (Hot as a hare ... Full as a flask; Jimson weed → gardener's pupil)",
+          "sourceFigureDescription": "PURE VECTOR TABLE ROW (pdfimages: zero rasters; VLM adjudication): one row with the label ADVERSE EFFECTS, the body '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation / Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants', and — as the right-hand cell, NOT a margin box — First Aid's mnemonic: 'Adverse effects: Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask / Jimson weed (Datura) → gardener’s pupil (mydriasis)'.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "muscarinic-antagonist-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (MuscarinicAntagonistMap — THE PRINTED TOXIDROME zone: the seven phrase chips decoded against the printed adverse effects + the Jimson weed line + the three special-population traps) and the note's blocks[3] table block carrying the body and the mnemonic cell VERBATIM (attributed to First Aid); the clinical blocks decode the toxidrome at the bedside",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "muscarinic-antagonist-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "sympathomimetics",
@@ -1301,8 +1440,64 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The α2-agonists (clonidine, guanfacine, α-methyldopa with the pregnancy/Coombs rules, tizanidine) + the α-blockers (phenoxybenzamine irreversible for pheochromocytoma, phentolamine, the selective α1 blockers with the first-dose hypotension rule)."
+      "status": "complete",
+      "productionRationale": "The α2-agonists (clonidine, guanfacine, α-methyldopa with the pregnancy/Coombs rules, tizanidine) + the α-blockers (phenoxybenzamine irreversible for pheochromocytoma, phentolamine, the selective α1 blockers with the first-dose hypotension rule).",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "sympatholytics-alpha-blockers",
+          "requiredInKYP": true,
+          "visualId": "sympatholytics-alpha-blockers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              265
+            ],
+            "bookPages": "243"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Sympatholytics (α2-agonists) table (book 243): the four α2-agonist drugs with their printed APPLICATIONS and ADVERSE EFFECTS — the drug-side application of the presynaptic α2-autoreceptor brake printed on book 238",
+          "sourceFigureDescription": "VECTOR TABLE TYPESSETTING, no raster (pdfimages: zero raster images; ONE VLM pass at 120 DPI, glm-4.6v, saved to staging-ph18/vlm-census.txt): the Sympatholytics (α2-agonists) table, columns DRUG / APPLICATIONS / ADVERSE EFFECTS, three drug rows in printed order — 'Clonidine, guanfacine' | 'Hypertensive urgency (limited situations), ADHD, Tourette syndrome, symptom control in opioid withdrawal' | 'CNS depression, bradycardia, hypotension, respiratory depression, miosis, rebound hypertension with abrupt cessation'; 'α-methyldopa' | 'Hypertension in pregnancy' | 'Direct Coombs ⊕ hemolysis, drug-induced lupus, hyperprolactinemia'; 'Tizanidine' | 'Relief of spasticity' | 'Hypotension, weakness, xerostomia'. No figures, margin notes, or mnemonics print in this table (the page's only embedded mnemonic — the red p of '(prazosin)' — prints in the α-blockers table).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "sympatholytic-alpha-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's FORK 1 (SympatholyticAlphaMap in visuals/pharm-p18.tsx — the presynaptic terminal glyph with NE vesicles, the α2 AUTORECEPTOR chip on its membrane, NE's dashed negative-feedback curve with the book-238 attribution, the T-bar inhibition of NE release, the three drug chips with their printed applications, and the flagged adverse band with the rebound-hypertension rule); the printed cells are also carried VERBATIM in the note's Table 1 block (blocks[1]), core.what, recall[0-3], and the DrugCards",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "sympatholytic-alpha-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "sympatholytics-alpha-blockers",
+          "requiredInKYP": true,
+          "visualId": "sympatholytics-alpha-blockers-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              265
+            ],
+            "bookPages": "243"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The α-blockers table (book 243): the three printed selectivity bands — nonselective (irreversible phenoxybenzamine vs reversible phentolamine), α1 selective (-osin ending), α2 selective (mirtazapine) — with the shared nonselective adverse cell, the first-dose rule, and the source's own red-p mnemonic",
+          "sourceFigureDescription": "VECTOR TABLE TYPESSETTING, no raster (pdfimages: zero raster images; ONE VLM pass at 120 DPI, glm-4.6v, saved to staging-ph18/vlm-census.txt): the α-blockers table, columns DRUG / APPLICATIONS / ADVERSE EFFECTS, printed as THREE shaded full-width band rows. Nonselective: 'Phenoxybenzamine' | 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.' and 'Phentolamine' | 'Reversible. Given to patients on MAO inhibitors who eat tyramine-containing foods and for severe cocaine-induced hypertension (2nd line). Also used to treat norepinephrine extravasation.' — the band's ADVERSE EFFECTS cell prints ONCE, vertically spanning both drug rows: 'Orthostatic hypotension, reflex tachycardia.' (VLM-confirmed; not repeated on the phentolamine row). α1 selective (-osin ending): 'Prazosin, terazosin, doxazosin, tamsulosin' | 'Urinary symptoms of BPH; PTSD (prazosin); hypertension (except tamsulosin).' | '1st-dose orthostatic hypotension, dizziness, headache.' — the source prints the p of '(prazosin)' in RED (its own embedded typographic mnemonic, VLM-confirmed). α2 selective: 'Mirtazapine' | 'Depression.' | 'Sedation, ↑ serum cholesterol, ↑ appetite.' (the text layer prints both mirtazapine cells BEFORE the band label — the m38 interleave).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "sympatholytic-alpha-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's FORK 2 (SympatholyticAlphaMap in visuals/pharm-p18.tsx — the α1/α2 target chips with the three T-bar inhibit arrows, the NONSELECTIVE band card with the IRREVERSIBLE/REVERSIBLE stamps and the flagged ONE-shared-cell chip, the α1 SELECTIVE (-osin ending) card with the red-p tspan in the emergency token color and the flagged 1st-dose rule, and the α2 SELECTIVE card with the mirror-of-Fork-1 note) plus the four-rules banner; the printed cells are also carried VERBATIM in the note's Table 2 block (blocks[2]), recall[4-8], and the DrugCards",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "sympatholytic-alpha-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "beta-blockers",
@@ -1324,8 +1519,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The full β-blocker table — the drug list with selectivity/ISA properties, and the nine applications (angina, glaucoma, heart failure with the mortality trio bisoprolol/carvedilol/metoprolol, hypertension, thyroid storm, HCM, migraine, MI) with actions and the contraindication traps."
+      "status": "complete",
+      "productionRationale": "The full β-blocker table — the drug list with selectivity/ISA properties, and the nine applications (angina, glaucoma, heart failure with the mortality trio bisoprolol/carvedilol/metoprolol, hypertension, thyroid storm, HCM, migraine, MI) with actions and the contraindication traps.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "beta-blockers",
+          "requiredInKYP": true,
+          "visualId": "beta-blockers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              266
+            ],
+            "bookPages": "244"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The β-blocker table (book 244) — the alphabetical drug list plus the APPLICATION / ACTIONS / NOTES-EXAMPLES grid: ten clinical application rows, the ADVERSE EFFECTS row (with the cocaine controversy note), and the four SELECTIVITY rows (β1-selective A-to-M; nonselective N-to-Z; the α1+β modified-suffix duals; nebivolol's β1 + β3-NO pathway)",
+          "sourceFigureDescription": "ONE large three-column table, pure vector/text (pdfimages: ZERO raster images; VLM census glm-4.6v at 120 dpi, staging-ph19/vlm-census.txt — no figures, photographs, margin notes, or footnotes; the six mnemonics print in RED inside the NOTES-EXAMPLES cells). Printed row order: Angina pectoris (↓ heart rate and contractility → ↓ O2 consumption); Glaucoma (↓ production of aqueous humor — Timolol); Heart failure (Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality — Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)); Hypertension (↓ cardiac output, ↓ renin secretion (due to β1-receptor blockade on JG cells)); Hyperthyroidism/thyroid storm (Symptom control (↓ heart rate, ↓ tremor) — Propranolol); Hypertrophic cardiomyopathy (↓ heart rate → ↑ filling time, relieving obstruction); Migraine (↓ nitric oxide production — Effective for prevention); Myocardial infarction (↓ O2 demand (short-term), ↓ mortality (long-term)); Supraventricular tachycardia (eg, atrial fibrillation) (↓ AV conduction velocity (class II antiarrhythmic) — Metoprolol, esmolol); Variceal bleeding (↓ hepatic venous pressure gradient and portal hypertension (prophylactic use) — Nadolol, propranolol, carvedilol for no portal circulation); ADVERSE EFFECTS (Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations — Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation); SELECTIVITY (β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol — 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)'; Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol — 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)'; Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol — modified suffixes (instead of \"-olol\"); Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3-receptors (activate NO synthase in the vasculature and ↓ SVR) — 'NebivOlol increases NO').",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "beta-blocker-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (BetaBlockerMap in visuals/pharm-p19.tsx): the drug-list alphabet strip (the eleven drugs sorted into First Aid's alphabet halves with the three 'mostly' exceptions — carvedilol, labetalol, nebivolol — flagged), the four-lane selectivity directory (β1-selective A-to-M with brand chips; nonselective N-to-Z with the printed 'NonZelective' capital-Z quirk; the α1+β modified-suffix duals; nebivolol's β1-block + β3-stimulation → NO synthase → ↓ SVR turbo) with the drug chips and their printed application anchors, the ten-dock band in printed row order with action gists and named anchors, and the classic-exam band (the airway rule, the cocaine controversy quoted verbatim, the hidden tolls) plus the mortality-trio strip; the printed table is also carried VERBATIM in the note's table block (blocks[1]), with the printed quirks documented in its caption",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "beta-blocker-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "phosphodiesterase-inhibitors",
@@ -1347,8 +1571,37 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Autonomic Drugs",
-      "status": "pending",
-      "productionRationale": "The PDE inhibitor table — nonspecific (theophylline, methylxanthines with cardiotoxicity/neurotoxicity), PDE-5 (sildenafil with the NO/cGMP mechanism and the nitrates contraindication), PDE-3 (milrinone), PDE-4 (roflumilast) with mechanisms, uses, and adverse effects."
+      "status": "complete",
+      "productionRationale": "The PDE inhibitor table — nonspecific (theophylline, methylxanthines with cardiotoxicity/neurotoxicity), PDE-5 (sildenafil with the NO/cGMP mechanism and the nitrates contraindication), PDE-3 (milrinone), PDE-4 (roflumilast) with mechanisms, uses, and adverse effects.",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "phosphodiesterase-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "phosphodiesterase-inhibitors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              267
+            ],
+            "bookPages": "245"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The PDE inhibitor table (book 245): five drug families sharing one mechanism (PDE inhibition → ↑ cAMP and/or ↑ cGMP) with their mechanisms of action, clinical uses, and adverse effects",
+          "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph20/vlm-census.txt — VLM available this session): one introductory sentence, then a four-column table (TYPE OF INHIBITOR / MECHANISM OF ACTION / CLINICAL USES / ADVERSE EFFECTS) with five rows in printed order — [1] Nonspecific PDE inhibitor, Theophylline (↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation; COPD/asthma (rarely used); cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain); [2] PDE-5 inhibitors, Sildenafil, vardenafil, tadalafil, avanafil (drug names in red with the -fil endings highlighted): ↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis ('fills' in red); ED, pulmonary hypertension, BPH (tadalafil only); facial flushing, headache, dyspepsia, hypotension in patients taking nitrates, 'hot and sweaty,' then headache, heartburn, hypotension (red), sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina; [3] PDE-4 inhibitor, Roflumilast (↑ cAMP in neutrophils, granulocytes, and bronchial epithelium; severe COPD; abdominal pain, weight loss, depression, anxiety, insomnia); [4] PDE-3 inhibitor, Milrinone (cardiomyocytes ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy (the source's own printed spelling); vascular smooth muscle ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload; acute decompensated HF with cardiogenic shock (inotrope); tachycardia, ventricular arrhythmias, hypotension); [5] 'Platelet inhibitors', Cilostazolᵃ, Dipyridamoleᵇ (in platelets ↑ cAMP → inhibition of platelet aggregation; intermittent claudication, stroke/TIA prevention with aspirin, cardiac stress testing (dipyridamole only, due to coronary vasodilation), prevention of coronary stent restenosis; nausea, headache, facial flushing, hypotension, abdominal pain) + two superscripted footnotes (a: cilostazol is a PDE-3 inhibitor categorized as a platelet inhibitor due to its indications; b: dipyridamole is a nonspecific PDE inhibitor that also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation). Light-blue shading on the TYPE OF INHIBITOR column; no figures, icons, or margin notes.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pde-inhibitor-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (PdeInhibitorMap in visuals/pharm-p20.tsx — the two second-messenger lanes (cAMP via adenylyl cyclase, cGMP via NO → guanylyl cyclase) both cut by the shared PDE brake T-bar with the printed intro sentence; the five family cards in PRINTED row order, each with drug chip, lane tag, mechanism arrow, clinical uses, adverse effects, and the two printed footnotes verbatim; and the sildenafil NO/cGMP corpus-cavernosum panel with the NITRATES CONTRAINDICATED warning band and the PDE-6 (six) retina chip); the table's full text is ALSO carried verbatim in the note's table blocks (blocks[2] the five rows, blocks[3] the two footnotes), core.what, and recall[0-7]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pde-inhibitor-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
     },
     {
       "topicId": "seafood-plant-toxins",

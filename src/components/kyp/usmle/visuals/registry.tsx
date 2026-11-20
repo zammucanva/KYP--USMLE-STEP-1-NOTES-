@@ -46,6 +46,11 @@ import { MicturitionMap } from "./pharm-p12";
 import { AdrenergicDistributionMap } from "./pharm-p13";
 import { GProteinMessengerMap } from "./pharm-p14";
 import { AutonomicSynapseMap } from "./pharm-p15";
+import { CholinomimeticMap } from "./pharm-p16";
+import { MuscarinicAntagonistMap } from "./pharm-p17";
+import { SympatholyticAlphaMap } from "./pharm-p18";
+import { BetaBlockerMap } from "./pharm-p19";
+import { PdeInhibitorMap } from "./pharm-p20";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -183,6 +188,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "adrenergic-distribution-map": AdrenergicDistributionMap,
   "g-protein-messenger-map": GProteinMessengerMap,
   "autonomic-synapse-map": AutonomicSynapseMap,
+  "cholinomimetic-map": CholinomimeticMap,
+  "muscarinic-antagonist-map": MuscarinicAntagonistMap,
+  "sympatholytic-alpha-map": SympatholyticAlphaMap,
+  "beta-blocker-map": BetaBlockerMap,
+  "pde-inhibitor-map": PdeInhibitorMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

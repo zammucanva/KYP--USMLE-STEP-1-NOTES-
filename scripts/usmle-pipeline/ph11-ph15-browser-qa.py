@@ -7,11 +7,7 @@ import json, subprocess, time
 
 OUT_BASE = "/home/z/my-project/kyp-usmle-notes/docs/qa"
 TOPICS = [
-    ("ph11", "pain-transmission", "Pain Transmission", "Pain Transmission"),
-    ("ph12", "micturition-control", "Micturition Control", "Micturition"),
-    ("ph13", "adrenergic-receptor-distribution", "Tissue Distribution of Adrenergic Receptors", "Tissue Distribution"),
-    ("ph14", "g-protein-second-messengers", "G-Protein-Linked Second Messengers", "G-Protein"),
-    ("ph15", "autonomic-drugs-synapse", "Autonomic Drugs", "Autonomic Drugs"),
+    ("ph17", "muscarinic-antagonists", "Muscarinic Antagonists & Atropine", "Muscarinic Antagonists"),
 ]
 
 def ab(session, *args):

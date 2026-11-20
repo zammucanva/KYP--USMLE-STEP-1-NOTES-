@@ -1,0 +1,146 @@
+
+===== ph16 LIGHT — REVIEW =====
+1) Yes — all panels (title, fork band, direct agonist column, indirect panel, poisoning band, antidote fork, sources) are fully rendered; no clipped or missing blocks.
+
+2) No text overlap or spilling observed; small caption lines sit within their boxes.
+
+3) Connectors render correctly (AChE ↔ i-AChE arrow with bar, upward arrows into the fork, dotted antidote connectors). Glyphs appear as real characters, no tofu boxes.
+
+4) Readable but very small — body text is fine; the fine-print side notes (e.g., gray micro-captions under drug names and source lines) are near the legibility floor, though contrast is adequate in the light theme.
+
+5) CLEAN.
+
+===== ph16 DARK — REVIEW =====
+1) Yes — all panels render fully; text appears complete and within bounds.
+2) No visible text overlap or spillage.
+3) Arrows/connectors (AChE inhibition bar, antidote fork connectors) render; glyphs (arrows, triangles) appear fine, no tofu.
+4) Yes — readable; small annotations are low-contrast but legible.
+5) CLEAN (minor note: some footnote text is quite small/dim, but not a defect).
+
+===== ph17 LIGHT — REVIEW =====
+1) **No.** All panels are present, but there is an "ENGAGE • Search" floating overlay/pill on the right side (over the Bladder Door panel area) that appears to be a UI overlay, and the DUMBBELSS banner spine (orange column) appears largely empty.
+
+2) **Yes, some overlap/spill issues:**
+- Vertical rotated text near the bottom of the spine column (orange/teal tiny labels around x≈355–400, y≈620–710) appears cramped/overlapping the spine's bottom edge and neighboring text.
+- Small footnotes in the spine panel and exam-traps panels are very low-contrast and cramped but appear within bounds.
+
+3) **Mostly yes.** Arrows (→, ↓, ↑) render as proper glyphs throughout the directory rows and footnotes. No tofu boxes visible. No explicit connector arrows between panels — layout uses adjacency instead.
+
+4) **Mixed.** Headings, teal chips, and row titles are readable. However, many footnote/dose lines 
+
+===== ph17 DARK — REVIEW =====
+1) **No.** The six-organ spine contains a tall, mostly empty amber column — the DUMBBELSS banner appears missing/blank inside it. Also a "Search" pill and magnifier icon float over the right edge of the exam-trap band, overlapping the "Bladder door" panel content (its rightmost text is obscured).
+
+2) **Yes.** The floating Search widget overlaps the "THE BLADDER DOOR" panel's right side, covering text near "ml/hr" / "supers" region. Vertical orange text labels ("NICOTINIC…", "MUSCARINIC…") run along the spine's right edge and appear cramped/overlapping the column border.
+
+3) Mostly yes. Down-triangles (▼) before directory names render correctly; no tofu boxes detected. No arrow glyphs visibly broken.
+
+4) Readable overall — body text has decent contrast on dark panels; but tiny footnote/micro-caption text in the spine and red-on-dark small print is low-contrast at small sizes.
+
+5) Defects:
+
+===== ph18 LIGHT — REVIEW =====
+1) All major panels appear fully rendered; no clipped or missing panel content.
+
+2) No clear text-on-text overlaps. Some captions inside small cards sit close to card edges (e.g., red text in the α₁-selective adverse-effect box, and the "methyldopa... refractory HTN" note under the α₁ card) but do not visibly spill outside their boxes.
+
+3) Arrows/connectors render correctly: three arrowheads into the α₂-autoreceptor hub, the black → "WE RELEASED →" arrow to the target-organ box, the dashed orange feedback loop, and the T-bars (inhibition stubs) into the three α-blocker forks all draw properly. Special glyphs (α, β, →, ↓/↑, T-bars) render as real glyphs — no tofu boxes.
+
+4) Readability: body text is readable, but several caption/footnote strings are extremely small and low-contrast (e.g., "WE RELEASED →", the hub sublabel "the WASD Brake 2025"?, bottom footnotes, and tiny italic annotatio
+
+===== ph18 DARK — REVIEW =====
+1) All major panels appear fully rendered; no clipped or missing text visible at this zoom.
+
+2) No obvious text overlap; small print within cards stays inside borders. Some body text is extremely small but contained.
+
+3) Connectors render correctly (junction lines into α2-autoreceptor hub, red bar→arrow to target organ, dashed feedback arc, inhibition T-bars to the three drug cards). Glyphs (α, →, ↓, ⇄) render properly — no tofu boxes.
+
+4) Readability is generally good: headings and labels have decent contrast on dark background. Caveat: several fine-print lines (e.g., footer notes, card body text, "adverse effects" card) are very small and low-contrast — borderline legibility.
+
+5) Defects (minor):
+- Very small, low-contrast footnote/body text in several cards (e.g., adverse-effects card, red-edged card in α1-selective column, bottom receptor-family strip).
+- A "Search" pill (browser UI?
+
+===== ph19 LIGHT — REVIEW =====
+1) Yes — all panels (selectivity lanes, nebivolol lane, ten docks, exam band, mortality trio band) appear fully rendered; no clipped or missing text visible.
+
+2) No text overlap or spill observed; all content fits within its boxes/lanes.
+
+3) Arrows between nebivolol → β1 receptor → NO synthase → cGMP render correctly as solid connectors. Special glyphs (β₁, β₂, α₁, →, italic Greek) render as proper characters, no tofu.
+
+4) Yes — readable on light theme; panel headers are high-contrast colored badges (teal/orange/purple/crimson), body text is small but legible, adequate contrast.
+
+5) CLEAN. (Only note: the browser "Search" pill overlays the right edge near dock 10, but that is browser UI, not a diagram defect.)
+
+===== ph19 DARK — REVIEW =====
+1) Yes — all major panels (drug list, four selectivity lanes, ten application docks, classic-exam band, mortality band, sources footer) appear fully rendered with no clipped or cut-off text.
+
+2) No text overlap or spilling observed; all text stays within its boxes/lanes.
+
+3) Arrows/connectors render correctly (the nebivolol lane shows three flow arrows with arrowheads). Special glyphs (β, α, →, ↑/↓) appear as proper glyphs, no tofu boxes.
+
+4) Mixed: headings and colored labels are readable, but much of the fine print (lane footnotes, dock body lines, classic-exam details) is rendered at very small sizes and low contrast against the dark background — borderline readable, strained at this zoom.
+
+5) Defects:
+- Fine-print text throughout is very small and low-contrast (dim gray on dark navy), which hurts readability even though it is technically rendered.
+- Some lane notes use colored-but-fa
+
+===== ph20 LIGHT — REVIEW =====
+1) Yes — all panels (two-lane diagram, five family cards, sildenafil/NO panel, contraindication panel) render fully; no clipped or missing text visible.
+2) No true text-on-text overlaps or box spillage. Note: the pink-outlined "SILDENAFIL (PDE-5, NO → ↑cGMP)" box slightly overlaps the beige summary box's left edge (looks intentional/stylistic).
+3) Yes — arrows/connectors (lane arrows, NO→cGMP chain, PDE brake bar) render correctly; Greek/Unicode glyphs (α, β, ↑, ↓, ▲/▼, en-dashes) render as real characters, no tofu.
+4) Yes, readable. Text is quite small (fine-print annotations ~6–8px equivalent), which strains readability, but contrast (dark gray/red on white/tinted panels) is adequate.
+5) Minor issues only:
+- Browser "Search" pill overlay in the top-right area (over the white margin/near the red panel) — browser chrome, not diagram content.
+- The sildenafil pink callout box slightly ove
+
+===== ph20 DARK — REVIEW =====
+1) Yes — all major panels (two second-messenger lanes, five PDE family cards, sildenafil/NO-cGMP panel, nitrates contraindication box, sources footer) appear fully rendered with no clipped or cut-off text.
+
+2) No overlaps or spillover observed; text stays within its boxes. Some text is very small but contained.
+
+3) Arrows and connectors render correctly (lane arrows with brake bars, sildenafil pathway arrows). Glyphs like ↑/↓ triangles, →, ·, and dashes all render properly — no tofu boxes.
+
+4) Mostly readable: good contrast on headings and body text in dark theme. However, several very small annotation lines (e.g., caption text under lanes, tiny footnote lines in cards, footer sources) are near the lower limit of legibility — readable when zoomed but faint.
+
+5) Minor issues only:
+- Some body/footnote text is extremely small (marginal legibility at 100% zoom).
+- The red PDE brake bar over
+
+VLM-BATCH-DONE defects-flagged: 10
+
+===================== PH17 DEFECT + FIX RECORD (2026-11-20) =====================
+DEFECT (VLM pass 1, both themes): the DUMBBELSS spanning banner's four rotated
+text lines rendered BELOW the amber column (anchor construction bug: the four
+<text transform="rotate(-90 400 616)" textAnchor="end" y=576..615> lines mapped
+all anchors to y=612 with text extending downward past the column rect
+y-bottom 620, spilling over the spine bottom edge into the trap band; the
+column itself rendered mostly empty).
+ROOT CAUSE OF THE AUDIT GAP (documented for the pipeline): getBBox() measures
+the element's LOCAL pre-transform box — it does NOT apply the element's own
+transform attribute. The rotated lines' pre-transform boxes sit stacked 18
+units apart (no >1px overlap pre-transform), so the geometry audit reported 0
+overlaps on the DEFECTIVE build; after the fix the same audit reports 7
+"overlaps" that are FALSE POSITIVES (the pre-transform boxes of four
+horizontally-laid-out strings). Rotated-text visuals must be verified
+visually (VLM/crops), not by the getBBox audit.
+FIX (src/components/kyp/usmle/visuals/pharm-p17.tsx): the four lines
+re-anchored rotate(-90 H 608) x=H y=608 textAnchor="start" at H=344/366/384/402
+— each line now starts at the column bottom (y 608) and reads bottom-to-top
+inside the column (computed AABBs x 339-345/356-371/378-390/394-406, all within
+the column rect x 314-426 y 104-620, pairwise disjoint).
+RE-VERIFICATION (ph17-fix-vlm-verify.txt): crops re-captured post-fix
+(element-crop-light-v2.png 1102x1254 + element-crop-dark.png); VLM verdict —
+LIGHT: CLEAN ("all four rotated lines visible inside the amber column,
+bottom-anchored, no overlaps, nothing clipped"); DARK: CLEAN with one
+cosmetic note (the smallest rotated line, fontSize 3.4, renders slightly
+faint in dark theme — the standard fine-print house-style note, adjudicated
+as readable, no further change). Browser 4-pass re-run post-fix: 0px x4,
+correct title/theme. PH16/PH18/PH19/PH20 unaffected (their QA stands from
+the batch run).
+NOTE: the ph17 crop re-capture required three server rebuilds — an
+environment reaper repeatedly deletes kyp-usmle-notes/node_modules (5x this
+session), intermittently breaking the dev server's client compile (empty-body
+pages, svgCount 0). The successful capture ran in a tight window immediately
+after bun install + fresh compile. This is an environment limitation, not a
+content defect; documented for the record.

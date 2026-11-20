@@ -1,0 +1,46 @@
+{
+  "topicId": "phosphodiesterase-inhibitors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "phosphodiesterase-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "phosphodiesterase-inhibitors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The PDE inhibitor table (book 245): five drug families sharing one mechanism (PDE inhibition → ↑ cAMP and/or ↑ cGMP) with their mechanisms of action, clinical uses, and adverse effects",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph20/vlm-census.txt — VLM available this session): one introductory sentence, then a four-column table (TYPE OF INHIBITOR / MECHANISM OF ACTION / CLINICAL USES / ADVERSE EFFECTS) with five rows in printed order — [1] Nonspecific PDE inhibitor, Theophylline (↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation; COPD/asthma (rarely used); cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain); [2] PDE-5 inhibitors, Sildenafil, vardenafil, tadalafil, avanafil (drug names in red with the -fil endings highlighted): ↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis ('fills' in red); ED, pulmonary hypertension, BPH (tadalafil only); facial flushing, headache, dyspepsia, hypotension in patients taking nitrates, 'hot and sweaty,' then headache, heartburn, hypotension (red), sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina; [3] PDE-4 inhibitor, Roflumilast (↑ cAMP in neutrophils, granulocytes, and bronchial epithelium; severe COPD; abdominal pain, weight loss, depression, anxiety, insomnia); [4] PDE-3 inhibitor, Milrinone (cardiomyocytes ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy (the source's own printed spelling); vascular smooth muscle ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload; acute decompensated HF with cardiogenic shock (inotrope); tachycardia, ventricular arrhythmias, hypotension); [5] 'Platelet inhibitors', Cilostazolᵃ, Dipyridamoleᵇ (in platelets ↑ cAMP → inhibition of platelet aggregation; intermittent claudication, stroke/TIA prevention with aspirin, cardiac stress testing (dipyridamole only, due to coronary vasodilation), prevention of coronary stent restenosis; nausea, headache, facial flushing, hypotension, abdominal pain) + two superscripted footnotes (a: cilostazol is a PDE-3 inhibitor categorized as a platelet inhibitor due to its indications; b: dipyridamole is a nonspecific PDE inhibitor that also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation). Light-blue shading on the TYPE OF INHIBITOR column; no figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "pde-inhibitor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (PdeInhibitorMap in visuals/pharm-p20.tsx — the two second-messenger lanes (cAMP via adenylyl cyclase, cGMP via NO → guanylyl cyclase) both cut by the shared PDE brake T-bar with the printed intro sentence; the five family cards in PRINTED row order, each with drug chip, lane tag, mechanism arrow, clinical uses, adverse effects, and the two printed footnotes verbatim; and the sildenafil NO/cGMP corpus-cavernosum panel with the NITRATES CONTRAINDICATED warning band and the PDE-6 (six) retina chip); the table's full text is ALSO carried verbatim in the note's table blocks (blocks[2] the five rows, blocks[3] the two footnotes), core.what, and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pde-inhibitor-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "phosphodiesterase-inhibitors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's single visual asset — the color-coded PDE inhibitor table (five rows, four columns, two footnotes; red drug names with -fil endings, red in-cell mnemonic text, light-blue first column) — is accounted for as an ORIGINAL KYP ADAPTATION: nothing is reproduced; the registry visual pde-inhibitor-map (PdeInhibitorMap in visuals/pharm-p20.tsx) rebuilds the table's every label, mechanism arrow, use, adverse effect, and footnote as original KYP vector art (the two second-messenger lanes cut by the shared PDE brake, five family cards in printed row order, and the sildenafil NO/cGMP panel with the nitrates-contraindication warning band), and the table's text is additionally carried verbatim in the note's table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v pass (vlm-census.txt) confirmed the printed row order (PDE-4 before PDE-3), the color furniture, and the absence of margin mnemonics; the two spellings the 120dpi read left disputed were adjudicated deterministically (pdftotext -bbox + PyMuPDF raw spans, documented in vlm-census.txt): the print carries 'ionotropy' (source's own spelling) and the hyphenated 'blue-tinted'. FULL single page (no shared split). STAGED under .usmle-pipeline-cache/staging-ph20/ — promotion into content/ is owned downstream."
+}

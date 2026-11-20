@@ -1,0 +1,243 @@
+{
+  "topicId": "sympatholytics-alpha-blockers",
+  "title": "Sympatholytics (α2-agonists) & α-Blockers",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      265
+    ],
+    "bookPages": "243–243"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header, section banner, and book page number (book 243; the header prints the kerning artifact 'SEC TION II' in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n243",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 1's heading and column headers — Sympatholytics (α2-agonists) with DRUG / APPLICATIONS / ADVERSE EFFECTS, the three headers printing one per line after the heading (the m38 interleave)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Sympatholytics (α2-agonists)\nDRUG\n\nAPPLICATIONS\n\nADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 1 row 1 — Clonidine, guanfacine: hypertensive urgency (limited situations), ADHD, Tourette syndrome, symptom control in opioid withdrawal; CNS depression, bradycardia, hypotension, respiratory depression, miosis, rebound hypertension with abrupt cessation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Clonidine, guanfacine\n\nHypertensive urgency (limited situations),\nADHD, Tourette syndrome, symptom control\nin opioid withdrawal\n\nCNS depression, bradycardia, hypotension,\nrespiratory depression, miosis, rebound\nhypertension with abrupt cessation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 1 row 2 — α-methyldopa: Hypertension in pregnancy; Direct Coombs ⊕ hemolysis, drug-induced lupus, hyperprolactinemia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "α-methyldopa\n\nHypertension in pregnancy\n\nDirect Coombs ⊕ hemolysis, drug-induced\nlupus, hyperprolactinemia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 1 row 3 — Tizanidine: Relief of spasticity; Hypotension, weakness, xerostomia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Tizanidine\n\nRelief of spasticity\n\nHypotension, weakness, xerostomia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 2's heading block with its INTERLEAVED column headers — APPLICATIONS / ADVERSE EFFECTS print BEFORE the 'α-blockers' heading and its DRUG header (the m38 interleave, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "APPLICATIONS\n\nADVERSE EFFECTS\n\nα-blockers\nDRUG",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 2, the Nonselective band's first row — Phenoxybenzamine: 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Nonselective\nPhenoxybenzamine\n\nIrreversible. Pheochromocytoma (used\npreoperatively) to prevent catecholamine\n(hypertensive) crisis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 2, the Nonselective band's second row and the ONE shared adverse cell — Phentolamine: 'Reversible. Given to patients on MAO inhibitors who eat tyramine-containing foods and for severe cocaine-induced hypertension (2nd line). Also used to treat norepinephrine extravasation.' followed by the shared cell 'Orthostatic hypotension, reflex tachycardia.' which the VLM confirms prints ONCE, vertically spanning BOTH nonselective rows (not repeated on the phentolamine row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Phentolamine\n\nReversible. Given to patients on MAO inhibitors\nwho eat tyramine-containing foods and for\nsevere cocaine-induced hypertension (2nd line).\nAlso used to treat norepinephrine extravasation.\n\nOrthostatic hypotension, reflex tachycardia.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 2, the α1 selective (-osin ending) band — Prazosin, terazosin, doxazosin, tamsulosin: 'Urinary symptoms of BPH; PTSD (prazosin); hypertension (except tamsulosin).' with '1st-dose orthostatic hypotension, dizziness, headache.' (the source prints the p of (prazosin) in red — its own embedded mnemonic, VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "α1 selective (-osin ending)\nPrazosin, terazosin,\ndoxazosin,\ntamsulosin\n\nUrinary symptoms of BPH; PTSD (prazosin);\nhypertension (except tamsulosin).\n\n1st-dose orthostatic hypotension, dizziness,\nheadache.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Table 2, the α2 selective band — INTERLEAVE carried as printed: mirtazapine's two cells ('Depression.' / 'Sedation, ↑ serum cholesterol, ↑ appetite.') print BEFORE its 'α2 selective / Mirtazapine' band label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Depression.\n\nSedation, ↑ serum cholesterol, ↑ appetite.\n\nα2 selective\nMirtazapine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the indd print slug and timestamp (page identity, book 243)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 243\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "sympatholytic-alpha-map"
+  ],
+  "mechanismIds": [
+    "alpha2-presynaptic-brake-map",
+    "alpha-blockade-selectivity-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed tables — 4 patterns (pheochromocytoma preop, the -osin first-dose rule, clonidine rebound hypertension, methyldopa pregnancy + Direct Coombs ⊕), 4 traps (phenoxybenzamine-vs-phentolamine, clonidine-urgency-vs-rebound, tamsulosin-vs-the-other--osins, mirtazapine-the-α2-BLOCKER-vs-the-α2-AGONISTS), 3 pivots.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two drug tables only; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-fork-synthesis",
+      "summary": "The two-fork reading protocol (MOVE 1 DIRECTION: agonist at the presynaptic brake vs blocker at the receptor; MOVE 2 BAND: which drug in which printed band; MOVE 3 CELL: quote the printed cell; MOVE 4 RULES: first-dose / abrupt-cessation / pregnancy / pheo-preop) and the two-fork map connecting the α2-autoreceptor brake to this page's drug tables. The brake sentence itself is First Aid's own and prints on book 238 (the sibling topic autonomic-drugs-synapse) — carried ATTRIBUTED, cross-page; the FORK-MAP LINKAGE (agonists press the brake / mirtazapine blocks it) and the four-move protocol are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "The source page prints only the drug tables (its own title 'Sympatholytics (α2-agonists)' carries the mechanism by name only); the presynaptic-autoreceptor narrative lives on book 238 and is attributed there; the synthesis connecting brake to table, the direction-first rule, and the four moves are KYP's design.",
+      "location": "core.keyIdea + blocks[3] the steps block + blocks[4] the exam callout + mechanisms[0] + the registry visual's Fork 1"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (PRESS THE BRAKE, DON'T CUT THE WIRE / METHYLDOPA: THE PREGNANT BRAKE WITH THREE TAXES / PHENOXY FOREVER, PHENTOLAMINE FLEETING / -OSIN FOR THE OUTLETS, FIRST DOSE FLOORS). The source's own embedded mnemonic — the red 'p' printed in 'PTSD (prazosin)' (VLM-confirmed on the 120 DPI render) — is carried ATTRIBUTED to First Aid in the note's Table 2 caption, the -osin drug card, and the visual's band 2, and is NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on the page except First Aid's own red-p typographic pairing (attributed); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + the visual's chip footers + rapidReview.m3"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The pheochromocytoma preoperative-preparation miniCase (episodic headache/sweats/palpitations, elevated metanephrines, adrenal mass, surgery in three weeks — which drug before the operation), correct answer phenoxybenzamine (the printed cell 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.'), with distractors phentolamine (reversible — the acute rescuer, not the preop maintainer), prazosin (α1-selective with the 1st-dose orthostatic hypotension rule, printed for BPH/PTSD/HTN), and clonidine (α2-agonist — wrong direction, plus rebound hypertension with abrupt cessation).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the phenoxybenzamine cell but never builds a vignette around it; the stem, the four distractors, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The Pharmacology DrugCard section (7 cards) translating the printed table cells into drug → target → mechanism → effect → uses → adverse + clue: Clonidine/guanfacine, α-methyldopa, Tizanidine, Phenoxybenzamine, Phentolamine, the -osin family (prazosin/terazosin/doxazosin/tamsulosin with the tamsulosin exception), and Mirtazapine (α2-selective blockade — the mirror of the agonists).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints cells, not drug cards; the target/mechanism/effect/clue framing is a KYP design (uses and adverse effects are the printed cells, quoted).",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL PAGE (no shared-page split): pdf 265 / book 243 prints exactly TWO logical tables — Sympatholytics (α2-agonists) and α-blockers, both DRUG / APPLICATIONS / ADVERSE EFFECTS — plus the running header and the indd footer; the whole page belongs to THIS topic (sympathomimetics ended on 263-264; beta-blockers starts on 266). CENSUS: pdfimages = ZERO raster images on pdf 265 (CONFIRMED, not assumed) — pure vector text/table typesetting; THE VLM WAS AVAILABLE THIS SESSION (the ph6–ph10 batch lost it to a 401 outage): ONE pass (glm-4.6v, 120 DPI, scripts/usmle-pipeline/ph18-vlm-census.ts) saved to staging-ph18/vlm-census.txt, per the brief's single-pass census (no disputed panel mapping — the page has no figure). The VLM confirms the two tables and their column headers, the THREE shaded band rows of the α-blocker table (Nonselective / α1 selective (-osin ending) / α2 selective), the ONE shared nonselective ADVERSE EFFECTS cell ('Orthostatic hypotension, reflex tachycardia.') printed once and vertically spanning BOTH nonselective rows (not repeated on the phentolamine row — the reason the text layer prints it once at line 60, after phentolamine's applications), NO margin notes/side mnemonics/photographs/drawings anywhere on the page, and ONE embedded typographic mnemonic INSIDE the table: the 'p' of '(prazosin)' prints in RED to pair prazosin with PTSD — First Aid's own, carried ATTRIBUTED (note Table 2 caption, the -osin drug card, the visual's band 2 rendered in the emergency token color) and NOT counted among the four KYP mnemonics. INTERLEAVE QUIRKS (the m38 convention, documented and carried as printed): (1) the α-blockers table's APPLICATIONS/ADVERSE EFFECTS column headers print BEFORE the 'α-blockers' heading + DRUG header (lines 39-44); (2) mirtazapine's two cells print BEFORE its 'α2 selective / Mirtazapine' band label (lines 73-78) — the logical printed tables were reconstructed via the VLM render and carried VERBATIM (printed row order, every printed word) in the note's two table blocks; the evidence quotes the contiguous physical ranges as the text layer prints them. GLYPH QUIRKS: the running header prints the kerning artifact 'SEC TION II' (a text-layer artifact of the section banner, not a book typo); the two ↑ glyphs of 'Sedation, ↑ serum cholesterol, ↑ appetite.' are each prefixed by a \\x8f control character in the text layer (the generator's norm() strips control chars for containment; the ↑ arrows are kept in the quotes, the note, and the visual); the ⊕ glyph prints in the Coombs cell; '1st-dose' prints with a plain '1'. CROSS-PAGE ATTRIBUTION (documented): the presynaptic α2-autoreceptor brake mechanism is NOT printed on pdf 265 — the page prints only the drug tables; the brake sentence is First Aid's own and prints on book 238 / pdf 260 (the sibling topic autonomic-drugs-synapse): 'Release of norepinephrine from a sympathetic nerve ending is modulated by NE itself, acting on presynaptic α2-autoreceptors → negative feedback.' — carried ATTRIBUTED in the note (subtitle, core, mechanism alpha2-presynaptic-brake-map, the visual's Fork 1) and linked via related/crossLinks, with the fork-map LINKAGE recorded as kypExtension two-fork-synthesis. Quirks, documented: (1) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (2) outputs are STAGED under .usmle-pipeline-cache/staging-ph18/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'sympatholytic-alpha-map' is therefore not yet in visuals/registry.tsx by design); (3) there is NO figure on the source page, so the registry visual is an ORIGINAL KYP two-fork diagram (not a redraw) built from the two printed tables, whose cells are carried verbatim in the note's table blocks; (4) the note ships 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 4 mnemonics, 10 recall, 4 related, 4 crossLinks, 7 DrugCards, and a 4-option miniCase with exactly 1 correct — the D2 floors plus the batch convention.",
+  "updatedAt": "2026-11-20"
+}

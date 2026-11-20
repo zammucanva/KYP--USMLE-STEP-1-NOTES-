@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-20T00:38:03Z",
+  "generatedAt": "2026-11-20T01:13:52Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 160,
+    "topicsProduced": 165,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 105,
+      "pilot-complete": 110,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 29,
-      "topicsProduced": 16,
-      "topicsRemaining": 13,
+      "topicsProduced": 21,
+      "topicsRemaining": 8,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -756,6 +756,21 @@
       "updatedAt": "2026-10-20"
     },
     {
+      "topicId": "beta-blockers",
+      "title": "β-Blockers",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 266 (book 244–244)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "topicId": "blood-tissue-protozoa",
       "title": "Blood & Tissue Protozoa: Plasmodium, Babesia, Toxoplasma, Trypanosoma, Leishmania",
       "chapterId": "microbiology",
@@ -967,6 +982,21 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "cholinomimetics",
+      "title": "Cholinomimetic Agents",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 261 (book 239–239)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
     },
     {
       "topicId": "chromatin-organization",
@@ -2004,6 +2034,21 @@
       "updatedAt": "2026-10-09"
     },
     {
+      "topicId": "muscarinic-antagonists",
+      "title": "Muscarinic Antagonists & Atropine",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 262 (book 240–240)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 6,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "topicId": "muscular-dystrophies",
       "title": "Muscular Dystrophies",
       "chapterId": "biochemistry",
@@ -2289,6 +2334,21 @@
       "updatedAt": "2026-11-19"
     },
     {
+      "topicId": "phosphodiesterase-inhibitors",
+      "title": "Phosphodiesterase Inhibitors",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 267 (book 245–245)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "topicId": "protein-synthesis-inhibitors",
       "title": "Protein Synthesis Inhibitors: 30S, 50S & Beyond",
       "chapterId": "microbiology",
@@ -2467,6 +2527,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "sympatholytics-alpha-blockers",
+      "title": "Sympatholytics (α2-agonists) & α-Blockers",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 265 (book 243–243)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-20"
     },
     {
       "topicId": "sympathomimetics",

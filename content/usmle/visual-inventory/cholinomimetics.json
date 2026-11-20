@@ -1,0 +1,73 @@
+{
+  "topicId": "cholinomimetics",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "cholinomimetics",
+      "requiredInKYP": true,
+      "visualId": "cholinomimetics-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Cholinomimetic agents DRUG/ACTION/APPLICATIONS table (book 239): the printed class warning, the two spanning subheaders (Direct agonists / Indirect agonists (anticholinesterases)), all eight drug rows with their actions, in-cell mnemonics, and applications",
+      "sourceFigureDescription": "TABLE ART, NO RASTER (pdfimages: zero raster images on pdf 261; VLM census in two passes, saved to staging-ph16/vlm-census.txt): one printed table with columns DRUG / ACTION / APPLICATIONS under the warning line 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.' and two spanning shaded subheader rows — 'Direct agonists': BETHANECHOL (activates bladder smooth muscle; resistant to AChE; muscarinic receptors, no nicotinic activity; 'Bethany, call me to activate your bladder.' / urinary retention), CARBACHOL (carbon copy of acetylcholine, resistant to AChE / constricts pupil, intraoperative miosis induction), METHACHOLINE (stimulates muscarinic receptors in airway when inhaled / challenge test for diagnosis of asthma), PILOCARPINE (contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma); resistant to AChE, can cross blood-brain barrier; 'You cry, drool, and sweat on your pilow.' / potent stimulator of sweat, tears, and saliva; open- and closed-angle glaucoma, xerostomia (Sjögren syndrome)) — and 'Indirect agonists (anticholinesterases)': DONEPEZIL, RIVASTIGMINE, GALANTAMINE (↑ ACh / 1st line for Alzheimer disease, 'Dona Riva forgot the gala'), NEOSTIGMINE (↑ ACh; no BBB penetration, positive charge / postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of NMJ blockade), PYRIDOSTIGMINE (↑ ACh; ↑ muscle strength; does not penetrate CNS / myasthenia gravis long acting, with glycopyrrolate or hyoscyamine), PHYSOSTIGMINE (↑ ACh; freely crosses BBB, not charged → CNS / antidote for anticholinergic toxicity, 'phyxes' atropine overdose). No figures, photographs, or margin art print on the page.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cholinomimetic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (CholinomimeticMap in visuals/pharm-p16.tsx): the fork root with the printed warning banner; the DIRECT lane's four drug cards (name chip, 'resistant to AChE' flag where printed, action text, attributed First Aid mnemonic, applications chip); the INDIRECT lane's anticholinesterases-⊣-AChE-→-↑ACh flow row, the four reversible agent chips with applications, and the BBB charge-rule band; PLUS the note's verbatim table blocks (blocks[1] direct half, blocks[2] indirect half) carrying every printed cell in row order",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cholinomimetic-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "cholinomimetics",
+      "requiredInKYP": true,
+      "visualId": "cholinomimetics-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Anticholinesterase poisoning block (book 239): the organophosphate intro (fenthion, parathion, malathion; insecticides; farmers) and the three effect layers — muscarinic DUMBBELSS, nicotinic neuromuscular blockade (succinylcholine-like), CNS effects — with their printed reversers (atropine; pralidoxime's dephosphorylation-if-early, coadministration, and BBB rules)",
+      "sourceFigureDescription": "TABLE ART, NO RASTER (pdfimages: zero raster images; VLM census in two passes, saved to staging-ph16/vlm-census.txt): a second table-style block under the left-margin label 'Anticholinesterase poisoning', opening with the spanning intro 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE. Organophosphates commonly used as insecticides; poisoning usually seen in farmers.', then three findings-vs-reversal rows — MUSCARINIC EFFECTS: 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' / 'DUMBBELSS. Reversed by atropine, a competitive inhibitor. Atropine can cross BBB to relieve CNS symptoms.' — NICOTINIC EFFECTS: 'Neuromuscular blockade (mechanism similar to succinylcholine).' / 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early. Must be coadministered with atropine to prevent transient worsening of symptoms. Pralidoxime does not readily cross BBB.' — CNS EFFECTS: 'Respiratory depression, lethargy, seizures, coma.' (single cell). No figures or photographs.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cholinomimetic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's IRREVERSIBLE organophosphate band (fenthion/parathion/malathion intro + the three effect chips with DUMBBELSS, succinylcholine-like, and CNS text) and the ANTIDOTE FORK band (atropine chip beside pralidoxime chip, the coadministration note, and the two dashed reactivation hooks — competitive-at-M and dephosphorylates-AChE-if-given-early); PLUS the note's verbatim poisoning table (blocks[3]) carrying every printed cell in row order",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cholinomimetic-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cholinomimetics",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "TWO visual assets on the source page, both table art (pdfimages: ZERO rasters — the page is pure text + two-color table typography; VLM census in two passes saved to staging-ph16/vlm-census.txt, including the documented 200-dpi adjudication of the pilocarpine row): [1] the Cholinomimetic agents DRUG/ACTION/APPLICATIONS table (warning line + two spanning subheaders + all eight drug rows) and [2] the Anticholinesterase poisoning block (organophosphate intro + the muscarinic/nicotinic/CNS effect rows with their printed reversers). Both are accounted for as ORIGINAL KYP ADAPTATIONS: there is no figure to reproduce, so the registry visual cholinomimetic-map (CholinomimeticMap in visuals/pharm-p16.tsx) re-expresses both as the direct-vs-indirect fork map (direct drug cards, the AChE-⊣-↑ACh flow, the reversible chips, the BBB band, the irreversible organophosphate band with the three effect layers, and the atropine+pralidoxime antidote fork with the reactivation hooks), and every printed cell is additionally carried VERBATIM in the note's three table blocks (blocks[1-3]) in printed row order. The source's own in-cell mnemonics (Bethany / carbon copy / pilow / Dona Riva / Neo / pyridostigmine-gets-rid / Phreely / phyxes / DUMBBELSS) are carried attributed to First Aid; the four ALL-CAPS KYP mnemonics are original (origin outside-first-aid, recorded in the manifest's kypExtensions). Edrophonium and echothiophate do not print on this page and are not claimed. STAGED under .usmle-pipeline-cache/staging-ph16/ — promotion into content/ is owned downstream."
+}

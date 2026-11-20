@@ -1,13 +1,13 @@
-import ZAI from 'z-ai-web-dev-sdk';
+import ZAI from '/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk';
 import { readFileSync } from 'fs';
 
 const BASE = '/home/z/my-project/kyp-usmle-notes/docs/qa';
 const TOPICS: [string, string][] = [
-  ['ph11', 'pain transmission (the four-station relay: transduction, transmission, modulation, perception — each with drug-class blocker chips; A-delta vs C fiber lanes; TRPV transducer; neuropathic Na+ channel panel)'],
-  ['ph12', 'bladder micturition pharmacology (pontine center band, bladder wiring map with M3/beta-3/alpha-1 receptors and three nerves: pelvic, hypogastric, pudendal; retention-vs-voiding fork; four drug rows bethanechol/oxybutynin/mirabegron/tamsulosin)'],
-  ['ph13', 'adrenergic receptor tissue distribution directory (five columns alpha-1, alpha-2, beta-1, beta-2, beta-3 with tissue-to-effect chips; double-booked pancreas and heart flags; exam-reading band)'],
-  ['ph14', 'G-protein second messenger system (three swimlanes Gq/Gs/Gi families with receptor lists; the Gq cascade panel: receptor, Gq, phospholipase C, PIP2, DAG, protein kinase C, IP3, Ca2+; the shared adenylyl cyclase panel with Gs stimulating and Gi inhibiting; ATP to cyclic AMP to protein kinase A)'],
-  ['ph15', 'the four-panel autonomic synapse map (cholinergic, noradrenergic, serotonergic, dopaminergic synapses with synthesis chains, vesicles, transporters NET/SERT/DAT with drug blocker chips, postsynaptic receptors, class banners; alpha-2 negative feedback loop in the noradrenergic panel)'],
+  ['ph16', 'cholinomimetic agents (direct agonists bethanechol/carbachol/methacholine/pilocarpine vs indirect anticholinesterases; organophosphate poisoning band; atropine vs pralidoxime antidote fork)'],
+  ['ph17', 'muscarinic antagonists and atropine (the six-organ atropine spine with DUMBBELSS banner, seven drug directory rows, CNS tollbooth exam band, anticholinergic toxidrome chips)'],
+  ['ph18', 'sympatholytics alpha-2 agonists and alpha-blockers (the presynaptic alpha-2 autoreceptor brake fork; the alpha-blocker fork with nonselective/alpha-1-selective/alpha-2-selective cards)'],
+  ['ph19', 'beta blockers (selectivity lanes beta-1-selective A-to-M, nonselective N-to-Z, alpha+beta duals, nebivolol; ten application docks; classic-exam band with mortality trio)'],
+  ['ph20', 'phosphodiesterase inhibitors (cAMP and cGMP second-messenger lanes cut by the PDE brake; five family cards; the sildenafil NO/cGMP panel with nitrates contraindication warning)'],
 ];
 
 async function main() {

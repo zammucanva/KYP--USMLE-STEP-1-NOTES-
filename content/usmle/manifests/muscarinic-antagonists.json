@@ -1,0 +1,328 @@
+{
+  "topicId": "muscarinic-antagonists",
+  "title": "Muscarinic Antagonists & Atropine",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      262
+    ],
+    "bookPages": "240–240"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header and the topic heading (book 240): the page number, SECTION II ('SEC TION' prints with the space inside SECTION — text-layer quirk carried verbatim), the PHARMACOLOGY banner, the ▶ PHARMACOLOGY—AUTONOMIC DRUGS subsection bar, and the Muscarinic antagonists heading",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "240\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nMuscarinic antagonists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The anticholinergic system directory — the column headers DRUGS / ORGAN SYSTEMS / APPLICATIONS plus row 1: Atropine, homatropine, tropicamide | Eye | Produce mydriasis and cycloplegia (the text layer interleaves each row's cells as separate lines — the m38 convention; the logical row order is VLM-adjudicated)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "DRUGS\n\nORGAN SYSTEMS\n\nAPPLICATIONS\n\nAtropine,\nhomatropine,\ntropicamide\n\nEye\n\nProduce mydriasis and cycloplegia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 2 — Benztropine, trihexyphenidyl | CNS | Parkinson disease (“park my Benz”) / Acute dystonia — the printed mnemonic phrase carried verbatim inside the cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Benztropine,\ntrihexyphenidyl\n\nCNS\n\nParkinson disease (“park my Benz”)\nAcute dystonia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 3 — Glycopyrrolate | GI, respiratory | Parenteral: preoperative use to reduce airway secretions / Oral: reduces drooling, peptic ulcer",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Glycopyrrolate\n\nGI, respiratory\n\nParenteral: preoperative use to reduce airway\nsecretions\nOral: reduces drooling, peptic ulcer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 4 — Hyoscyamine, dicyclomine | GI | Antispasmodics for irritable bowel syndrome",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Hyoscyamine,\ndicyclomine\n\nGI\n\nAntispasmodics for irritable bowel syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 5 — Ipratropium, tiotropium | Respiratory | COPD, asthma / Duration: tiotropium > ipratropium",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Ipratropium,\ntiotropium\n\nRespiratory\n\nCOPD, asthma\nDuration: tiotropium > ipratropium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 6 — Solifenacin, Oxybutynin, Flavoxate, Tolterodine | Genitourinary | Reduce bladder spasms and urge urinary incontinence (overactive bladder) / Make bladder SOFT — the printed SOFT acronym (the four drug initials) carried verbatim inside the cell",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Solifenacin,\nOxybutynin,\nFlavoxate,\nTolterodine\n\nGenitourinary\n\nReduce bladder spasms and urge urinary\nincontinence (overactive bladder)\nMake bladder SOFT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Directory row 7 — Scopolamine | CNS | Motion sickness",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Scopolamine\n\nCNS\n\nMotion sickness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Atropine block — the heading plus the printed definition line: Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Atropine\n\nMuscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine end-organ table — the column headers ORGAN SYSTEM / ACTION / NOTES plus the first three rows: Eye (↑ pupil dilation, cycloplegia), Airway (Bronchodilation, ↓ secretions), Heart (↑ heart rate) — the ↑/↓ arrows print in the text layer preceded by U+008F/U+0090 control characters (stripped by the generator's norm(); the arrows themselves are carried)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "ORGAN SYSTEM\n\nACTION\n\nNOTES\n\nEye\n\n↑ pupil dilation, cycloplegia\n\nAirway\n\nBronchodilation, ↓ secretions\n\nHeart\n\n↑ heart rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine table's NOTES cell, at its interleaved mid-table extraction position (between the Heart and Stomach rows) — VLM-adjudicated to be ONE cell spanning ALL SIX organ rows Eye through Bladder: Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects — 'DUMBBELSS' prints with the DOUBLE S, carried verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Blocks muscarinic effects (DUMBBELSS)\nof anticholinesterases, but not the nicotinic\neffects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine end-organ table rows 4-6 — Stomach (↓ acid secretion), Gut (↓ motility), Bladder (↓ urgency in cystitis)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Stomach\n\n↓ acid secretion\n\nGut\n\n↓ motility\n\nBladder\n\n↓ urgency in cystitis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ADVERSE EFFECTS row label (the left cell of the printed adverse-effects row; the indd footer slug interleaves between this label and the body in the text layer but prints at the page foot)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "ADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ADVERSE EFFECTS body, verbatim — ↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation / Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "↑ body temperature (due to ↓ sweating); ↑ HR;\ndry mouth; dry, flushed skin; cycloplegia;\nconstipation; disorientation\nCan cause acute angle-closure glaucoma\nin older adults (due to mydriasis), urinary\nretention in men with prostatic hyperplasia,\nand hyperthermia in infants",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed mnemonic cell of the ADVERSE EFFECTS row, verbatim — Adverse effects: Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask / Jimson weed (Datura) → gardener’s pupil (mydriasis) — First Aid's own mnemonic (VLM-adjudicated: it is the right-hand cell of the ADVERSE EFFECTS row, NOT a margin box; carried attributed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Adverse effects:\nHot as a hare\nFast as a fiddle\nDry as a bone\nRed as a beet\nBlind as a bat\nMad as a hatter\nFull as a flask\nJimson weed (Datura) → gardener’s pupil\n(mydriasis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug — FAS1_2026_05-Pharmacology.indd 240 (page identity; POSITION QUIRK: this line extracts at a MID-PAGE position in the text layer, line 112, between the ADVERSE EFFECTS label and its body, but prints at the page foot)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 240",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print timestamp footer — 12/19/25 8:07 AM (page identity, the last line of the page block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "muscarinic-antagonist-map"
+  ],
+  "mechanismIds": [
+    "atropine-end-organ-pattern",
+    "organ-selectivity-docking"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed tables and the adverse-effects row.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the directory table, the atropine table, and the adverse-effects row; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "reading-protocol",
+      "summary": "The four-move reading protocol (NAME THE PATTERN / NAME THE DOOR / CHECK THE BARRIER / EXPECT THE TOXIDROME) and the one-mechanism-seven-doors framing of the page.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the directory as a lookup table and never asks the learner to route vignettes through it; the four-move synthesis and the door framing are KYP's design.",
+      "location": "core.keyIdea + blocks[4] the steps block + mechanisms[1] + the registry visual's directory zone"
+    },
+    {
+      "id": "barrier-selectivity-synthesis",
+      "summary": "The CNS tollbooth: the charge-based blood-brain-barrier rule (permanently charged quaternary amines ipratropium, tiotropium, glycopyrrolate are excluded from the CNS; the tertiary amines atropine, homatropine, tropicamide, benztropine, trihexyphenidyl, scopolamine, oxybutynin cross) — explaining the printed CNS organ assignments (park my Benz, motion sickness) and the disorientation of the toxidrome.",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints only the ORGAN SYSTEMS column; the quaternary-vs-tertiary charge rule behind it is general pharmacology knowledge NOT printed on book 240 — recorded here so it is never presented as First Aid content (the note and visual flag it 'KYP synthesis').",
+      "location": "core.keyIdea MOVE 3 + blocks[4] MOVE 3 + usmle.traps[0] + mnemonics[2] + the registry visual's tollbooth panel"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (DRY, WIDE, FAST, STILL (AND HOT) / THE CNS TOLLBOOTH — CHARGED STAYS OUT / EYES DROP, BRAIN PARKS, AIRWAY DRIES, GUT CALMS, BLADDER SOFTENS / NO SWEAT, NO EXIT — THE THERMOSTAT RULE). First Aid's OWN printed mnemonic family (Hot as a hare ... Full as a flask + Jimson weed → gardener's pupil) and the printed in-table phrases (“park my Benz”, “Make bladder SOFT”, “(DUMBBELSS)”) are carried ATTRIBUTED in the note's table blocks and mnemonics[0], and are NOT extensions.",
+      "origin": "outside-first-aid",
+      "rationale": "The four ALL-CAPS codes are KYP's design; the printed family is First Aid's own and is carried attributed to book 240.",
+      "location": "mnemonics[1-4] + the visual's verb tags, tollbooth, and toxidrome panels"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The anticholinesterase-poisoning miniCase (which finding persists despite adequate atropine — the nicotinic muscle findings) with distractors routing miosis, bronchorrhea, and bradycardia through the printed muscarinic rows and inventing barriers (distance, 'sympathetic-only airway', 'protected SA node') that the printed rule denies.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the boundary rule ('blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects') but never asks the learner to apply it to a poisoned patient; the vignette, the four distractors, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The eight DrugCards (atropine; homatropine/tropicamide; benztropine/trihexyphenidyl; glycopyrrolate; hyoscyamine/dicyclomine; ipratropium/tiotropium; the SOFT quartet; scopolamine) restructuring the printed directory rows into the KYP drug → target → mechanism → effect → uses → adverse + clue card format.",
+      "origin": "outside-first-aid",
+      "rationale": "The DrugCard presentation is a KYP design over First Aid's printed table rows; all drug/appication facts trace to the printed directory (adverse facts to the printed adverse-effects row).",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single-owner page (no shared-page split): pdf 262 / book 240 carries the Muscarinic antagonists directory + the Atropine block + the ADVERSE EFFECTS row — the p262 content was assigned to this topic by the batch's documented scope correction (the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264). Census (pdfimages): ZERO raster images on pdf 262 — pure text and tables, no figures; VLM WAS AVAILABLE this session (one 120dpi pass, glm-4.6v, saved to staging-ph17/vlm-census.txt — the ph6-ph10 batch lost VLM to a 401 outage; this session did not) and adjudicated the interleaved text layer: (1) the 7-row directory in the printed order quoted (the m38 interleave — each row's three cells extract as separate lines; the logical table is the VLM reconstruction, carried verbatim in the note's blocks[1]); (2) the atropine table's NOTES cell — 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects' — is ONE cell spanning ALL SIX organ rows, which is why the text layer extracts it between the Heart and Stomach rows (quoted as its own evidence entry at that position with the spanning adjudication; the note carries it once in its spanning position in blocks[2]); (3) the 'Hot as a hare ... Full as a flask + Jimson weed (Datura) → gardener’s pupil (mydriasis)' mnemonic is the right-hand cell of the printed ADVERSE EFFECTS row, NOT a margin box — it is First Aid's own mnemonic, carried ATTRIBUTED (note blocks[3] + mnemonics[0]) and NOT a kypExtension. Quirks, documented: (a) 'DUMBBELSS' prints with the DOUBLE S — carried verbatim everywhere, never corrected to DUMBBELLS; (b) the printed in-table mnemonic phrases “park my Benz” and “Make bladder SOFT” are carried exactly inside their table cells; (c) the running header prints 'SEC TION II' (space inside SECTION — text-layer quirk, carried verbatim in the identity quote); (d) the ↑/↓/→ arrows print preceded by U+008F/U+0090/U+008E control characters — the generator's norm() strips - so containment is control-character-insensitive while the direction glyphs stay in the quotes; (e) the indd slug extracts at a MID-PAGE position (line 112, between the ADVERSE EFFECTS label and its body) but prints at the page foot — quoted as its own entry with the position note, and the timestamp extracts as the page block's last line; (f) line numbers are 1-based within the part1.txt page-262 block (its line 1 is the printed book page number '240' — no banner line, unlike the ph1-pNNN.txt convention). productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the PH-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'). Outputs are STAGED under .usmle-pipeline-cache/staging-ph17/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'muscarinic-antagonist-map' is therefore not yet in visuals/registry.tsx by design). There is NO figure on the source page, so the registry visual is an ORIGINAL KYP diagram (not a redraw) built from the three printed tables; the barrier/tollbooth content inside it is a flagged KYP synthesis.",
+  "updatedAt": "2026-11-20"
+}

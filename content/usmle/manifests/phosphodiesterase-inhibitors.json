@@ -1,0 +1,230 @@
+{
+  "topicId": "phosphodiesterase-inhibitors",
+  "title": "Phosphodiesterase Inhibitors",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      267
+    ],
+    "bookPages": "245–245"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the header banner, topic heading, section banner, and book page number 245 (the text layer prints the section header as 'SEC TION II', a known extraction artifact, carried as-is)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PHARMACOLOGY\n\nPhosphodiesterase\ninhibitors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n245",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The introductory sentence, verbatim — PDE inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP; varying specificity for PDE isoforms and thus different clinical uses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or\ncGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for\nPDE isoforms and thus have different clinical uses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's four column headers — TYPE OF INHIBITOR / MECHANISM OF ACTION / CLINICAL USES / ADVERSE EFFECTS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "TYPE OF INHIBITOR\n\nMECHANISM OF ACTION\n\nCLINICAL USES\n\nADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (printed first) — Nonspecific PDE inhibitor, Theophylline: ↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation; COPD/asthma (rarely used); cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "Nonspecific PDE\ninhibitor\nTheophylline\n\n↓ cAMP hydrolysis → ↑ cAMP\n→ bronchial smooth muscle\nrelaxation → bronchodilation\n\nCOPD/asthma (rarely used)\n\nCardiotoxicity (eg, tachycardia,\narrhythmia), neurotoxicity\n(eg, seizures, headache),\nabdominal pain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (printed second) — PDE-5 inhibitors, Sildenafil, vardenafil, tadalafil, avanafil: ↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis; erectile dysfunction, pulmonary hypertension, BPH (tadalafil only); facial flushing, headache, dyspepsia, hypotension in patients taking nitrates; “hot and sweaty,” then headache, heartburn, hypotension; sildenafil only: cyanopia (bluetinted vision) via inhibition of PDE-6 (six) in retina — the cache line prints the hyphenated wrap merged as 'bluetinted'; the PRINT carries the hyphen (blue-tinted), per the PyMuPDF raw-span adjudication in vlm-census.txt",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-5 inhibitors\nSildenafil, vardenafil,\ntadalafil, avanafil\n\n↓ hydrolysis of cGMP\n→ ↑ cGMP → ↑ smooth\nmuscle relaxation by\nenhancing NO activity\n→ pulmonary vasodilation\nand ↑ blood flow in corpus\ncavernosum fills the penis\n\nErectile dysfunction\nPulmonary hypertension\nBenign prostatic hyperplasia\n(tadalafil only)\n\nFacial flushing, headache,\ndyspepsia, hypotension in\npatients taking nitrates; “hot\nand sweaty,” then headache,\nheartburn, hypotension\nSildenafil only: cyanopia (bluetinted vision) via inhibition of\nPDE-6 (six) in retina",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 (printed THIRD — PDE-4 prints before PDE-3 on this page) — PDE-4 inhibitor, Roflumilast: ↑ cAMP in neutrophils, granulocytes, and bronchial epithelium; severe COPD; abdominal pain, weight loss, depression, anxiety, insomnia",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-4 inhibitor\nRoflumilast\n\n↑ cAMP in neutrophils,\ngranulocytes, and bronchial\nepithelium\n\nSevere COPD\n\nAbdominal pain, weight loss,\ndepression, anxiety, insomnia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 (printed FOURTH) — PDE-3 inhibitor, Milrinone: in cardiomyocytes ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy (the source's OWN PRINTED SPELLING 'ionotropy', extra 'o' — carried verbatim; the same row's uses cell correctly prints '(inotrope)'); in vascular smooth muscle ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload; acute decompensated HF with cardiogenic shock (inotrope); tachycardia, ventricular arrhythmias, hypotension",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-3 inhibitor\nMilrinone\n\nIn cardiomyocytes:\n↑ cAMP → ↑ Ca2+ influx\n→ ↑ ionotropy and\nchronotropy\nIn vascular smooth muscle:\n↑ cAMP → MLCK inhibition\n→ vasodilation → ↓ preload\nand afterload\n\nAcute decompensated HF with\ncardiogenic shock (inotrope)\n\nTachycardia, ventricular\narrhythmias, hypotension",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 5 (printed fifth) — “Platelet inhibitors”, Cilostazol + Dipyridamole (the cache layer merges the footnote superscripts into the drug words as 'Cilostazola'/'Dipyridamoleb' — the print carries superscripts, adjudicated in vlm-census.txt): in platelets ↑ cAMP → inhibition of platelet aggregation; intermittent claudication, stroke or TIA prevention (with aspirin), cardiac stress testing (dipyridamole only, due to coronary vasodilation), prevention of coronary stent restenosis; nausea, headache, facial flushing, hypotension, abdominal pain",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "“Platelet inhibitors”\nCilostazola\nDipyridamoleb\n\nIn platelets: ↑ cAMP\n→ inhibition of platelet\naggregation\n\nIntermittent claudication\nStroke or TIA prevention (with\naspirin)\nCardiac stress testing\n(dipyridamole only, due to\ncoronary vasodilation)\nPrevention of coronary stent\nrestenosis\n\nNausea, headache, facial\nflushing, hypotension,\nabdominal pain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two table footnotes, verbatim — the footnote markers a/b interleave in the text layer (marker 'a' before both sentences, marker 'b' after); adjudicated by bbox coordinates + the VLM render: footnote a = the Cilostazol sentence, footnote b = the Dipyridamole sentence (with the adenosine-reuptake mechanism)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "a\n\nCilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.\nDipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake\nby platelets → ↑ extracellular adenosine → ↑ vasodilation.\n\nb",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 245 / 12/19/25 8:07 AM (page identity, book 245)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 245\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pde-inhibitor-map"
+  ],
+  "mechanismIds": [
+    "pde-brake-map",
+    "sildenafil-no-cgmp-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed table — 4 patterns (theophylline's three-system toxicity spill, the sildenafil+nitrates contraindication, milrinone's two-tissue inotrope physiology, roflumilast's severe-COPD mood/gut cluster), 4 traps (cAMP vs cGMP lanes, contraindication-vs-listed-AE, cilostazol's PDE-3 chemistry vs platelet filing, sildenafil-only cyanopia), 3 pivots, 8 recall cards — the platelet row's dipyridamole stress-test use is additionally covered in its drug card, recall, and the miniCase reasoning.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table's facts only; the attack structure, the distractor designs, and the four-move reading protocol are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "four-moves-protocol",
+      "summary": "The four-move reading protocol (NAME THE ISOENZYME → NAME THE LANE → NAME THE TISSUE → PREDICT USE AND ADVERSE EFFECT FROM THE TISSUE) and the PDE-is-the-brake framing of the whole page, including the observation that the tissue — never the drug name — is the answer key.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rows as parallel table cells and never asks the learner to route a stem through isoenzyme → nucleotide → tissue → prediction; the protocol and the brake framing are KYP's synthesis.",
+      "location": "core.keyIdea + blocks[3] the steps block + the registry visual's two-lane band"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (PDE IS THE BRAKE / FIVE FILLS, SIX SEES / THREE PUMPS, FOUR CALMS / NITRATES STEP ON THE GAS, “FIL” RELEASES THE BRAKE). No mnemonic prints in the page's margins; First Aid's own red in-cell mnemonic text (“hot and sweaty,” then headache, heartburn, hypotension · PDE-6 (six) in retina · fills the penis) is carried ATTRIBUTED inside the verbatim table and is NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin mnemonic prints anywhere on pdf 267 (pdfimages + VLM census, staging-ph20/vlm-census.txt); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[5] the memory callout + the visual's panel footers"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The sildenafil + isosorbide dinitrate miniCase — which mechanism best explains the danger — with the correct answer tracking both drugs onto the cGMP axis (nitrates ↑ NO → ↑ cGMP synthesis; PDE-5 inhibition ↓ hydrolysis of cGMP → compounded ↑↑ cGMP → profound hypotension) and distractors importing milrinone's PDE-3/cAMP row, inventing a P450 pharmacokinetic story, and misreading tadalafil's BPH indication as a class exemption.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the contraindication as one adverse-effects phrase ('hypotension in patients taking nitrates') and never dissects it against distractor mechanisms; the vignette, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The six DrugCards (theophylline, sildenafil + the -fil family, roflumilast, milrinone, cilostazol, dipyridamole) — one card per printed drug family, each cell traceable to the table row and footnotes.",
+      "origin": "outside-first-aid",
+      "rationale": "The source organizes the pharmacology as a table, not as drug cards; the card layer is a KYP presentation of the same printed facts (every mechanism/uses/adverse string is quoted from the table cells or footnotes).",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 267 / book 245 is entirely the Phosphodiesterase inhibitors subsection. CENSUS (pdfimages): ZERO raster images — the page is ONE introductory sentence + ONE color-coded table (TYPE OF INHIBITOR / MECHANISM OF ACTION / CLINICAL USES / ADVERSE EFFECTS) + two superscripted footnotes + the indd footer. VLM WAS AVAILABLE this session (unlike the ph6-ph10 401-outage batch): ONE 120dpi glm-4.6v pass (staging-ph20/vlm-census.txt) confirmed the printed row order (Nonspecific → PDE-5 → PDE-4 → PDE-3 → “Platelet inhibitors” — PDE-4 PRINTS BEFORE PDE-3 on this page; the batch spec's content map listed PDE-3 first, but 'whatever rows print' governs and the printed order is carried), the color furniture (red drug names with the -fil endings highlighted, red in-cell mnemonic text, light-blue TYPE OF INHIBITOR column), and the absence of margin mnemonics; a SECOND VLM pass was not needed — the two disputes the 120dpi read left were adjudicated deterministically with pdftotext -bbox word coordinates + PyMuPDF raw spans (documented in vlm-census.txt): (1) the milrinone mechanism cell PRINTS the source's own spelling 'ionotropy' (extra 'o'; the VLM smoothed it to 'inotropy'; the same row's uses cell correctly prints '(inotrope)') — carried verbatim, attributed; (2) 'blue-tinted' prints hyphenated across a line wrap while the cache text layer merges it as 'bluetinted' — the note's verbatim table restores the printed hyphen, and the evidence quotes quote the cache lines AS-IS (the pinned-layer verification convention); also adjudicated by bbox: the footnote markers a/b interleave in the text layer (a before both sentences, b after) — a heads the Cilostazol sentence, b heads the Dipyridamole sentence, matching the table superscripts; and the cache merges the superscripts into the drug words ('Cilostazola'/'Dipyridamoleb') — carried as Cilostazolᵃ/Dipyridamoleᵇ per the print. Source spellings carried verbatim + documented: 'cyanopia' (not 'cyanopsia'), '↑ ionotropy' (not 'inotropy'), the 'SEC TION II' header-space extraction artifact. First Aid's own red in-cell mnemonic text is carried ATTRIBUTED inside the note's verbatim table (it is NOT counted among the four KYP mnemonics). Quirks, documented: (1) the batch convention targets are met — 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related, 3 crossLinks, 4 KYP mnemonics, 6 DrugCards, and a miniCase with 4 options (exactly 1 correct, why on every option); the note is 750 lines and the visual 265, within the brief's 600-750 / 250-400 budgets; (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-ph20/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'pde-inhibitor-map' is therefore not yet in visuals/registry.tsx by design); (4) the page's single visual asset (the color-coded table) is implemented as ORIGINAL KYP ART (pde-inhibitor-map, PdeInhibitorMap in visuals/pharm-p20.tsx) with every label, mechanism arrow, use, adverse effect, and footnote preserved — the table's text is ALSO carried verbatim in the note's table blocks (blocks[2] and blocks[3]).",
+  "updatedAt": "2026-11-20"
+}

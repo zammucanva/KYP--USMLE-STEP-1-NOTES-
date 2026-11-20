@@ -1,0 +1,46 @@
+{
+  "topicId": "beta-blockers",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "beta-blockers",
+      "requiredInKYP": true,
+      "visualId": "beta-blockers-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The β-blocker table (book 244) — the alphabetical drug list plus the APPLICATION / ACTIONS / NOTES-EXAMPLES grid: ten clinical application rows, the ADVERSE EFFECTS row (with the cocaine controversy note), and the four SELECTIVITY rows (β1-selective A-to-M; nonselective N-to-Z; the α1+β modified-suffix duals; nebivolol's β1 + β3-NO pathway)",
+      "sourceFigureDescription": "ONE large three-column table, pure vector/text (pdfimages: ZERO raster images; VLM census glm-4.6v at 120 dpi, staging-ph19/vlm-census.txt — no figures, photographs, margin notes, or footnotes; the six mnemonics print in RED inside the NOTES-EXAMPLES cells). Printed row order: Angina pectoris (↓ heart rate and contractility → ↓ O2 consumption); Glaucoma (↓ production of aqueous humor — Timolol); Heart failure (Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality — Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)); Hypertension (↓ cardiac output, ↓ renin secretion (due to β1-receptor blockade on JG cells)); Hyperthyroidism/thyroid storm (Symptom control (↓ heart rate, ↓ tremor) — Propranolol); Hypertrophic cardiomyopathy (↓ heart rate → ↑ filling time, relieving obstruction); Migraine (↓ nitric oxide production — Effective for prevention); Myocardial infarction (↓ O2 demand (short-term), ↓ mortality (long-term)); Supraventricular tachycardia (eg, atrial fibrillation) (↓ AV conduction velocity (class II antiarrhythmic) — Metoprolol, esmolol); Variceal bleeding (↓ hepatic venous pressure gradient and portal hypertension (prophylactic use) — Nadolol, propranolol, carvedilol for no portal circulation); ADVERSE EFFECTS (Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations — Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation); SELECTIVITY (β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol — 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)'; Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol — 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)'; Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol — modified suffixes (instead of \"-olol\"); Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3-receptors (activate NO synthase in the vasculature and ↓ SVR) — 'NebivOlol increases NO').",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "beta-blocker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (BetaBlockerMap in visuals/pharm-p19.tsx): the drug-list alphabet strip (the eleven drugs sorted into First Aid's alphabet halves with the three 'mostly' exceptions — carvedilol, labetalol, nebivolol — flagged), the four-lane selectivity directory (β1-selective A-to-M with brand chips; nonselective N-to-Z with the printed 'NonZelective' capital-Z quirk; the α1+β modified-suffix duals; nebivolol's β1-block + β3-stimulation → NO synthase → ↓ SVR turbo) with the drug chips and their printed application anchors, the ten-dock band in printed row order with action gists and named anchors, and the classic-exam band (the airway rule, the cocaine controversy quoted verbatim, the hidden tolls) plus the mortality-trio strip; the printed table is also carried VERBATIM in the note's table block (blocks[1]), with the printed quirks documented in its caption",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "beta-blocker-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "beta-blockers",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's single visual asset — the β-blocker table (the alphabetical drug list + the APPLICATION/ACTIONS/NOTES-EXAMPLES grid with ten application rows, the ADVERSE EFFECTS row, and the four SELECTIVITY rows) — is accounted for as an ORIGINAL KYP ADAPTATION: the registry visual beta-blocker-map (BetaBlockerMap in visuals/pharm-p19.tsx) conveys the table's full educational content with original KYP artwork and layout (the alphabet-half drug strip, the four selectivity lanes with drug chips and application anchors, the ten docks, and the classic-exam band), and the table text itself is carried VERBATIM in the note's table block. Nothing is reproduced. Census: pdfimages reports ZERO raster images on pdf 266 (pure vector/text table); the VLM census ran clean at 120 dpi (glm-4.6v, staging-ph19/vlm-census.txt) with a documented 200-dpi adjudication pass (staging-ph19/vlm-adjudication.txt) cross-checked by pdftotext -bbox baselines — no figures, photographs, margin notes, or footnotes beyond the six red in-cell mnemonics, all carried attributed. FULL PAGE, no shared split (pdf 265's α-blockers and pdf 267's PDE inhibitors are the sibling topics on their own pages). STAGED under .usmle-pipeline-cache/staging-ph19/ — promotion into content/ is owned downstream."
+}

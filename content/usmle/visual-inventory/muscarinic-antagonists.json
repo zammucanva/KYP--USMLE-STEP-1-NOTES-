@@ -1,0 +1,100 @@
+{
+  "topicId": "muscarinic-antagonists",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "muscarinic-antagonists",
+      "requiredInKYP": true,
+      "visualId": "muscarinic-antagonists-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The anticholinergic system directory (book 240) — the DRUGS / ORGAN SYSTEMS / APPLICATIONS lookup that routes every muscarinic antagonist to its organ and application",
+      "sourceFigureDescription": "PURE VECTOR TABLE (pdfimages: zero raster images; VLM 120dpi pass adjudicated the interleaved text layer): a 3-column table — headers DRUGS / ORGAN SYSTEMS / APPLICATIONS — with SEVEN rows in printed order: Atropine, homatropine, tropicamide | Eye | Produce mydriasis and cycloplegia; Benztropine, trihexyphenidyl | CNS | Parkinson disease (“park my Benz”) / Acute dystonia; Glycopyrrolate | GI, respiratory | Parenteral: preoperative use to reduce airway secretions / Oral: reduces drooling, peptic ulcer; Hyoscyamine, dicyclomine | GI | Antispasmodics for irritable bowel syndrome; Ipratropium, tiotropium | Respiratory | COPD, asthma / Duration: tiotropium > ipratropium; Solifenacin, Oxybutynin, Flavoxate, Tolterodine | Genitourinary | Reduce bladder spasms and urge urinary incontinence (overactive bladder) / Make bladder SOFT; Scopolamine | CNS | Motion sickness. The 'park my Benz' and 'Make bladder SOFT' mnemonic phrases print inside their cells (First Aid's own, red-initial styling per the VLM read).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "muscarinic-antagonist-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (MuscarinicAntagonistMap in visuals/pharm-p17.tsx — THE DIRECTORY zone: the seven rows docked by organ in printed order with CNS-entry tags) and the note's blocks[1] table block carrying the directory VERBATIM in printed row order; the DrugCards (drugs) restructure the same rows into card format",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "muscarinic-antagonist-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "muscarinic-antagonists",
+      "requiredInKYP": true,
+      "visualId": "muscarinic-antagonists-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The atropine end-organ table (book 240) — the prototype's six-organ blockade pattern (ORGAN SYSTEM / ACTION) with the spanning DUMBBELSS NOTES cell",
+      "sourceFigureDescription": "PURE VECTOR TABLE (pdfimages: zero rasters; VLM adjudication): the 'Atropine' heading with the definition line 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' above a 3-column table — headers ORGAN SYSTEM / ACTION / NOTES — with six rows: Eye | ↑ pupil dilation, cycloplegia; Airway | Bronchodilation, ↓ secretions; Heart | ↑ heart rate; Stomach | ↓ acid secretion; Gut | ↓ motility; Bladder | ↓ urgency in cystitis. The NOTES column is ONE cell spanning all six rows: 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects' (VLM: it spans Eye through Bladder, which is why the text layer extracts it mid-table between Heart and Stomach).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "muscarinic-antagonist-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (MuscarinicAntagonistMap — THE SPINE zone: the six organ chips with their printed actions + the DUMBBELSS note rendered as the vertical spanning banner it is in print; and the DUMBBELSS BOUNDARY trap card) and the note's blocks[2] table block carrying the six rows + the spanning note VERBATIM in its spanning position; mechanisms[0] renders the same pattern as a MechanismFlow",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "muscarinic-antagonist-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "muscarinic-antagonists",
+      "requiredInKYP": true,
+      "visualId": "muscarinic-antagonists-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The ADVERSE EFFECTS row (book 240) — the printed anticholinergic toxidrome body plus First Aid's own mnemonic cell (Hot as a hare ... Full as a flask; Jimson weed → gardener's pupil)",
+      "sourceFigureDescription": "PURE VECTOR TABLE ROW (pdfimages: zero rasters; VLM adjudication): one row with the label ADVERSE EFFECTS, the body '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation / Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants', and — as the right-hand cell, NOT a margin box — First Aid's mnemonic: 'Adverse effects: Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask / Jimson weed (Datura) → gardener’s pupil (mydriasis)'.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "muscarinic-antagonist-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (MuscarinicAntagonistMap — THE PRINTED TOXIDROME zone: the seven phrase chips decoded against the printed adverse effects + the Jimson weed line + the three special-population traps) and the note's blocks[3] table block carrying the body and the mnemonic cell VERBATIM (attributed to First Aid); the clinical blocks decode the toxidrome at the bedside",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "muscarinic-antagonist-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "muscarinic-antagonists",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's three visual assets — the anticholinergic system directory (sv1), the atropine end-organ table with its spanning DUMBBELSS note (sv2), and the ADVERSE EFFECTS row with First Aid's mnemonic cell (sv3) — are all accounted for as ORIGINAL KYP ADAPTATIONS: there are NO raster images and no figures on pdf 262 (pdfimages: zero; the page is pure text and tables), so the registry visual muscarinic-antagonist-map (MuscarinicAntagonistMap in visuals/pharm-p17.tsx) is an original KYP diagram built from the three printed tables, each of which is ALSO carried verbatim in the note's table blocks (blocks[1], blocks[2], blocks[3]) with the printed mnemonic family attributed to First Aid. The one substantive non-printed element in the visual — the CNS tollbooth panel (the quaternary-vs-tertiary charge rule) — is flagged 'KYP synthesis' in the visual itself and recorded as the barrier-selectivity-synthesis kypExtension in the manifest. Census: VLM was available this session (one 120dpi pass, saved to staging-ph17/vlm-census.txt) and adjudicated the interleaved table structures, the spanning NOTES cell, and the in-table (non-margin) position of the mnemonic cell. STAGED under .usmle-pipeline-cache/staging-ph17/ — promotion into content/ is owned downstream."
+}
