@@ -13,7 +13,7 @@
  ],
  "bookPages": "255–278",
  "extractionStatus": "extracted",
- "pendingTopicCount": 17,
+ "pendingTopicCount": 12,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -321,7 +321,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The bias table: selection bias (nonrandom sampling, convenience, Berkson, attrition), recall bias, measurement bias (faulty sphygmomanometer, Hawthorne effect), procedure bias, observer-expectancy (Pygmalion) bias, lead-time bias, length-time bias — each with definition, examples, and reduction strategies (randomization, blinding + placebo, objective methods, back-end survival, RCT screening assignment), plus the recruiting/performing/interpreting stage rail. In-cell FA mnemonics ('Hawthorne watches you like a hawk') carried attributed. Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -344,7 +344,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The confounding vs effect-modification table (factor related to both exposure and outcome, not on causal pathway; no association after stratification vs different outcomes in subgroups, true association exists), the coffee→lung cancer and OCP→DVT worked examples, reduction strategies (crossover, matching, regression, stratified analysis), and the crude-vs-stratified-analysis vector diagrams (association disappears = confounding; strong in one subgroup only = effect modification). Diagrams pure-vector → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -367,7 +367,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "Measures of central tendency (mean / median / mode, outlier sensitivity), measures of dispersion (SD, SE = σ/√n, variance = SD²), the normal distribution with the 68-95-99.7 rule, bimodal distribution (two populations — fast vs slow acetylators, Hodgkin age, suicide by age), positive skew (mean > median > mode, tail right) and negative skew (mean < median < mode, tail left), plus the statistical hypothesis testing opener (H0, H1, P value). The distribution curves are pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -392,7 +392,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The study-vs-reality 2×2 (power = 1−β, α, β with blue-shaded correct cells), type I error (α, false positive, the boy who cried wolf, P < α rejects H0, statistical ≠ clinical significance) and type II error (β, false negative, power = 1−β, ↑power by ↑sample size / ↑effect size / ↑precision / ↑α), and the statistical-vs-clinical-significance distinction (the 1 mg/dL blood-sugar example). Pure text → ORIGINAL KYP ADAPTATION with the error grid as the centerpiece."
   },
   {
@@ -416,7 +416,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "UPPER portion of book 267: confidence intervals (CI = 1−α, 95% CI Z = 1.96, 99% CI Z = 2.58, narrowing with ↑sample size, CI = x ± Z(SE)) with the significance rules (mean-difference CI excludes 0, OR/RR CI excludes 1, non-overlapping CIs between groups), and meta-analysis (pooling summary data, heterogeneity, improved power/generalizability, limited by study quality and selection bias). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {

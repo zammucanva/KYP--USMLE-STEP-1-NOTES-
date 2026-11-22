@@ -1,0 +1,133 @@
+=== pubh11 (bias-and-study-errors) — light — REVIEW ===
+**1) Fully rendered panels?**
+Yes. All panels/blocks are present: the left "stage rail" (3 stage cards: Formulating the Question, Designing the Study, Interpreting Results), the 7 numbered bias cards, the "Remember to Call" teal box (card 4's right column), the two pill-shaped trap boxes in the rail, and the bottom summary/footer blocks. Nothing appears clipped at crop edges.
+
+**2) Text overlap / spillover?**
+No overlaps or spillover detected. Text stays within its cards and the green pill boxes. Small caveat: right-side metadata labels (e.g., "SELECTION/INSTRUMENT BIAS") on cards 1–3 sit very close to the card's right edge but do not spill.
+
+**3) Connectors/arrows?**
+Correct. Vertical dotted connectors with arrowheads link the three stage cards; horizontal dotted connectors tie cards to the rail; the dashed line inside the "Remember to Call" box renders fine. No tofu boxes or missing glyphs.
+
+**4) Text readability?**
+Headings, numbered badges, and green callouts are clearly readable with good contrast. Two items near the legibility floor: the tiny right-aligned metadata labels on cards (upper-right corners) and the very small gray body/mnemonics text in the left rail and footer — still legible but small at this zoom.
+
+**5) Verdict: CLEAN.**
+No functional defects; only minor note that smallest gray text (rail annotations, corner metadata labels) is at the legibility floor.
+
+=== pubh11 (bias-and-study-errors) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?**
+Yes — all sections appear complete: title bar, three stage columns (PRE-READING, DURING READING ×2, POST-READING), the seven numbered trap cards, the green "REMEMBER TO CALL..." sidebar box, and the bottom KEY EXAM ERRORS + Source & Sources blocks. Nothing is clipped at crop edges.
+
+**2) Text overlap/spill?**
+None observed. Body text stays inside cards; the green summary box's dashed separator and list items are contained. Some red "Watch out" lines are dense but not overlapping.
+
+**3) Connectors/arrows/glyphs?**
+Correct. The dotted flow line with small diamond nodes between stage columns renders, down-arrows between stage blocks render, numbered circle badges (1–7) render. No tofu boxes or broken characters.
+
+**4) Text readability?**
+Headings and green callout boxes are high-contrast and readable. The floor: fine print in the description lines, "WATCH OUT" red text, and the Source & Sources footnote block at bottom — very small gray-on-dark text, near the legibility limit but legible at zoom.
+
+**5) Verdict: CLEAN.**
+Minor (non-defect) note: smallest gray/red body text and bottom source citations are at the legibility floor; consider bumping font size slightly, but no rendering defects.
+
+=== pubh12 (confounding-effect-modification) — light — REVIEW ===
+**1) Fully rendered blocks?**
+Yes — both stratification panels (Confounding / Effect modification), all box rows, legend section, printed table blocks, and sources footer are complete with no clipping or missing blocks.
+
+**2) Text overlap / spillage?**
+None observed. All labels sit inside their boxes; arrow captions ("Significant association", "Stratify and assess effect", "No crude association") sit cleanly under their arrows. No overlapping elements.
+
+**3) Connectors/arrows?**
+All arrows render correctly — solid heavy arrow (stratified), thin solid arrow (crude), dashed arrow (no crude association) all show proper arrowheads. No tofu boxes or broken glyphs.
+
+**4) Text readability?**
+Most text is readable, but many small annotations are near the legibility floor: the tiny gray captions under arrows (e.g., "Significant association," "Stratify and assess effect"), the dense multi-line fine print under "THE RULES" and in the "Sources & more" footer, and the small gray text in the Stratifier/Residuary boxes. Low-contrast light gray on white — readable at zoom, marginal at 100%.
+
+**5) Verdict: CLEAN.**
+No structural or rendering defects. Only minor concern is the very small, low-contrast footnote text (legend captions, rules paragraph, sources footer) — worth enlarging slightly, but nothing broken.
+
+=== pubh12 (confounding-effect-modification) — dark — REVIEW ===
+**1) Full rendering:** Yes — both side-by-side panels (Confounding / Effect modification), arrow legend, and printed table sections are fully drawn. No clipped or missing blocks.
+
+**2) Overlap/spill:** No overlapping elements or text spilling outside containers. A "Search" pill overlaps the page edge at right (~y=843), but that's a UI overlay, not a diagram defect.
+
+**3) Connectors/arrows:** All arrows render correctly — solid arrows (crude analysis, strong association) and dashed arrows (residual association) in both panels, plus the three legend arrows. No tofu boxes or broken glyphs.
+
+**4) Readability:** Main labels are readable. Several small annotations are near the legibility floor due to low size + low contrast: the arrow captions ("Figs over-estimates drift", "No-estimate drift", "N=20 data & not unadjusted...") under each arrow row, the small print in the VERDICT/MBDD-style boxes, and footer source text. These are dim gray on dark background — borderline at zoomed-out scale.
+
+**5) Verdict:** **CLEAN.** No structural defects. Minor (non-blocking): very small, low-contrast caption text throughout could be bumped up a point or brightened for accessibility.
+
+=== pubh13 (statistical-distributions) — light — REVIEW ===
+1) **Panel rendering:** Yes — all panels (Normal distribution, Bimodal, Skew, Measures of Dispersion, Hypothesis Testing, Sources) appear fully rendered with no clipped or missing blocks.
+
+2) **Text overlap/spill:** No overlap or spilling detected. Text fits within its cards; a UI "Search" pill floats on the right edge (~y=815) and slightly overlaps the skew panel area, but that's an app overlay, not the diagram itself.
+
+3) **Connectors/arrows:** Render correctly. Axis arrows on the distribution curves are intact; dashed vertical drop-lines (Mode/Median/Mean markers) render fine; braces under the normal curve (68%, 95%, 99.7%) render as proper glyphs. No tofu boxes or broken characters visible.
+
+4) **Readability:** Body text is small but legible. The smallest items — the tiny inline ±σ labels on the normal curve, the footnote lines at the bottom of panels (e.g., "variance is computed around the mean…", text under the skew panels, and the Sources/references footer) — sit near the legibility floor at this zoom level. Contrast is adequate (dark text on light teal/white backgrounds; red accent text on pills is readable).
+
+5) **Verdict: CLEAN** (with minor caveats only): smallest footnote/source text is borderline-legible at rendered size, and the app's floating Search pill overlaps the right edge of the skew panel — neither is a defect of the diagram rendering itself.
+
+=== pubh13 (statistical-distributions) — dark — REVIEW ===
+1) **Fully rendered?** Yes. All six panels (Normal, Bimodal, Skew, Measures of Dispersion, Hypothesis Testing, Sources) are complete with no clipped or missing blocks.
+
+2) **Overlap/spill?** No. Mode/Median labels sit above dashed lines without collision; pill badges (red "severely defective," orange/green "tail pulls mean") fit within their outlines. The floating "Search" control at the right edge is app UI, not diagram content — not a defect.
+
+3) **Connectors/arrows?** Correct. The normal-curve axis arrowheads render properly, the ∓/± sigma ticks, the horizontal brace lines under the normal curve (68/95/99.7%) are intact, and dashed drop-lines for Mode/Median/Skew are clean. No tofu or broken glyphs.
+
+4) **Readability?** Good overall — teal-on-dark headings and bold body text have strong contrast. Near the legibility floor: the small sigma annotations around the normal curve's shoulders (~±1σ/±2σ/±3σ ticks), the tiny footnote/caption lines under the Normal and Skew panels, and the small gray "Mode/Median" labels above the dashed lines. These are small and low-contrast gray but still decipherable at zoom.
+
+5) **Verdict: CLEAN** — no functional defects; only minor polish note: several gray caption/annotation texts (footnotes, sigma tick labels) are very small and near the contrast/size floor.
+
+=== pubh14 (hypothesis-testing-errors) — light — REVIEW ===
+1) **Panels/blocks**: All blocks appear fully rendered — the 2×2 reality grid, Type I/Type II error panels, four power factor boxes, and bottom sections are complete with no clipping or missing blocks.
+
+2) **Text overlap/spill**: No overlaps or spillage detected. Text stays within its containers; the two pill-shaped callout boxes in the left panel and the Type I/II error pills fit their text.
+
+3) **Connectors/glyphs**: No arrows/connectors in this diagram, so nothing broken. Special characters (α, β, H0/H1 subscripts, σ) render correctly — no tofu boxes or missing glyphs.
+
+4) **Readability**: Body text is small but legible in the light theme. The smallest text (footnote-style lines under "Bottom the current result" and the footer source citation at the very bottom) is near the legibility floor — fine at full zoom, faint at a glance. Contrast is adequate (dark text on light backgrounds; colored red/orange/green accents are readable).
+
+5) **Verdict**: **CLEAN.** Only minor note: footer/small-print text is at the lower edge of comfortable legibility, but no actual defects.
+
+=== pubh14 (hypothesis-testing-errors) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?**
+Yes — all cards render: the "Correct result" summary card, the 2×2 reality grid (H1/H0 columns × Reality/H0 false rows), Type I/Type II error cards, four power-factor boxes, the statistical-vs-clinical significance panels, and the mnemonic footer block. No clipped or missing blocks.
+
+**2) Text overlap / spillover?**
+No overlapping text or spilling inside the registry itself. Note: the app's floating "Search" widget (right edge, ~y=815) overlaps the page near the "Statistical Power" section — that's app chrome, not a defect of this visual, but worth flagging.
+
+**3) Connectors/glyphs?**
+The 2×2 grid renders cleanly with proper cell borders and colored quadrant outlines (teal/green/orange). No arrows used, none missing. No tofu boxes or broken characters; Greek letters (α, β) appear to render correctly in headers.
+
+**4) Text readability?**
+Weak point. Body text is very small and low-contrast gray-on-dark throughout:
+- Card body text (~8–9 px equivalent) in "Correct result," Type I/II cards, and power boxes is near the legibility floor.
+- Some cell content in the 2×2 grid (e.g., "Effect does not exist" column entries) is tiny and dim.
+- Quotes/footnotes at the bottom of each card are barely readable.
+Headings and accent text (teal/orange) are fine.
+
+**5) Verdict: CLEAN with one caveat.**
+No structural defects — blocks, borders, and color coding all render correctly, no overlaps or broken glyphs. Legibility issue: body/footnote text is very small with low contrast (dark-gray on near-black), especially in the left "Correct result" card, Type I/II card footnotes, and 2×2 grid cell sub-text — bump font size and/or contrast before shipping. Also note the Search overlay obscures nothing critical but sits over the power section's right edge.
+
+=== pubh15 (confidence-intervals-meta-analysis) — light — REVIEW ===
+1) **All panels fully rendered?** Yes — all panels/blocks (CI blocks, verdict-rule panels, meta-analysis diagram, side legend boxes) appear complete, none clipped or missing.
+
+2) **Text overlap/spill?** None observed. Text stays within its containers; labels sit beside/below the number lines without collisions.
+
+3) **Connectors/arrows?** Yes — meta-analysis arrows (three converging into the pooled estimate box) render cleanly with visible arrowheads; no tofu boxes or broken glyphs.
+
+4) **Readability?** Mostly fine with good contrast. Several fine-print caption lines (e.g., under the verdict-rule panels and the CI note text) are very small and borderline at the legibility floor, but still legible. Faded/placeholder-style text (e.g., "n/a" placeholders and grayed meta-study rows) is low contrast by design.
+
+5) **Verdict:** **CLEAN** — only minor note: the smallest caption/footnote text is near the legibility floor, no defects otherwise.
+
+=== pubh15 (confidence-intervals-meta-analysis) — dark — REVIEW ===
+1) **Panels/blocks**: All panels appear fully rendered — section headers, CI visual box, number-line panels, forest plot boxes, study cards, and the pooled estimate box are all present and not clipped.
+
+2) **Text overlap/spill**: No overlap or spilling observed. Small caption text inside colored bars/pills (e.g., the teal/green bars in the number-line panels and the orange top bars) sits within its containers, though it is very small.
+
+3) **Connectors/arrows**: Render correctly. The three arrows from the study cards converge cleanly onto the pooled box with visible arrowheads; error-bar whiskers with end caps render properly. No tofu boxes or broken glyphs.
+
+4) **Text readability**: Most body text is readable, but many labels are near the legibility floor — tiny caption text inside the colored interval bars, axis tick labels, and small footnote-style text (e.g., inside the top-left CI box and bottom definitions block) are quite small and low-contrast against the dark background. Fine at full zoom; borderline at 100%.
+
+5) **Verdict**: **CLEAN** — no structural defects. Only minor caveat: several micro-labels (bar captions, tick labels, footnotes) are near the minimum size/contrast threshold and could be bumped up slightly for legibility.

@@ -3,7 +3,7 @@
 390x844, light + dark): theme class BEFORE capture, horizontal overflow px,
 page title; in-browser getBBox paint audit over each topic's registry visual
 svg texts (overlaps + outside-viewBox); element crops (light reset + dark)."""
-import json, subprocess, time
+import json, os, subprocess, time
 
 OUT_BASE = "/home/z/my-project/kyp-usmle-notes/docs/qa"
 TOPICS = [
@@ -16,7 +16,7 @@ TOPICS = [
 
 def ab(session, *args):
     r = subprocess.run(["agent-browser", *args], capture_output=True, text=True, timeout=240,
-                       env={"AGENT_BROWSER_SESSION": session, "PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": "/home/z"})
+                       env={**os.environ, "AGENT_BROWSER_SESSION": session})
     return (r.stdout or "") + (r.stderr or "")
 
 def parse_json(r):

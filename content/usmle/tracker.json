@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T07:00:24Z",
+  "generatedAt": "2026-11-22T07:59:22Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 10,
     "chaptersExtracted": 6,
-    "topicsProduced": 183,
+    "topicsProduced": 188,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 128,
+      "pilot-complete": 133,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -340,8 +340,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 27,
-      "topicsProduced": 10,
-      "topicsRemaining": 17,
+      "topicsProduced": 15,
+      "topicsRemaining": 12,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -782,6 +782,21 @@
       "updatedAt": "2026-11-20"
     },
     {
+      "topicId": "bias-and-study-errors",
+      "title": "Bias and Study Errors: The Seven Traps and Their Fixes",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 285 (book 263–263)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "biologic-agents",
       "title": "Biologic Agents: The Naming Table",
       "chapterId": "pharmacology",
@@ -1128,6 +1143,36 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-17"
+    },
+    {
+      "topicId": "confidence-intervals-meta-analysis",
+      "title": "Confidence Intervals and Meta-Analysis: The Interval, the Verdict, and the Pool",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 289 (book 267 (upper))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "confounding-effect-modification",
+      "title": "Confounding vs Effect Modification: What Stratification Reveals",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 286 (book 264–264)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "connective-tissue-diseases",
@@ -1848,6 +1893,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "hypothesis-testing-errors",
+      "title": "Hypothesis Testing Errors: Type I, Type II, and Power",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 288 (book 266–266)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 6,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "immunodeficiency-infection-patterns",
@@ -2748,6 +2808,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-20"
+    },
+    {
+      "topicId": "statistical-distributions",
+      "title": "Statistical Distributions: Center, Spread, and Skew",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 287 (book 265–265)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "stroke-syndromes",

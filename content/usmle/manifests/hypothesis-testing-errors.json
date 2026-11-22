@@ -1,0 +1,250 @@
+{
+  "topicId": "hypothesis-testing-errors",
+  "title": "Hypothesis Testing Errors: Type I, Type II, and Power",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      288
+    ],
+    "bookPages": "266–266"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 266, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printing ONCE on this page in the running-header band (small-caps 'm' artifact as extracted; the twice-printing was the subsection-opener quirk of book 256)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "266\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 opener — the 'Outcomes of statistical hypothesis testing' title, the 'Correct result' label, and BOTH printed Correct-result definitions: 'Stating that there is an effect or difference when one exists (H0 rejected in favor of H1).' and 'Stating that there is no effect or difference when none exists (H0 not rejected).' — the two sentences that describe exactly the grid's two blue cells",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Outcomes of statistical hypothesis testing\nCorrect result\n\nStating that there is an effect or difference when\none exists (H0 rejected in favor of H1).\nStating that there is no effect or difference when\nnone exists (H0 not rejected).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 — the STUDY-VS-REALITY 2×2 GRID, labels in RAW extraction order (interleaved, a documented reading-order quirk): 'Reality' (the spanning column header), the row headers 'Study rejects H0' / 'Study does not reject H0', the column headers 'H1' / 'H0', the cells 'Power' + 'α' + '( 1 – β)' + 'Type I error' + 'β' + 'Type II error', and the legend 'Blue shading = correct result.' — cell assignment pinned by pdftotext -bbox + two VLM passes: columns H1 (LEFT) / H0 (RIGHT); blue cells = Power (reject × H1) and the EMPTY not-reject × H0 cell; the '( 1 – β)' thin spaces around the en-dash are a text-layer artifact (en-dash used as minus, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Reality\n\nStudy rejects H0\n\nStudy does not reject H0\n\nH1\n\nH0\n\nPower\n\nα\n\n( 1 – β)\n\nType I error\n\nβ\nType II error\n\nBlue shading = correct result.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 opener — the 'Testing errors' title, the row label 'Type I error (α)', and the printed definition: 'Stating that there is an effect or difference when none exists (H0 incorrectly rejected in favor of H1).'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Testing errors\nType I error (α)\n\nStating that there is an effect or difference when\nnone exists (H0 incorrectly rejected in favor of\nH1).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, Type I main text — 'α is the probability of making a type I error (usually 0.05 is chosen). If P < α, then assuming H0 is true, the probability of obtaining the test results would be less than the probability of making a type I error. H0 is therefore rejected as false.' + the printed warning 'Statistical significance ≠ clinical significance.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "α is the probability of making a type I error\n(usually 0.05 is chosen). If P < α, then\nassuming H0 is true, the probability of\nobtaining the test results would be less than\nthe probability of making a type I error. H0 is\ntherefore rejected as false.\nStatistical significance ≠ clinical significance.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, Type I right column — 'Also called false-positive error.'; First Aid's OWN mnemonic line (red lead numeral, VLM-confirmed) '1st time boy cries wolf, the town believes there is a wolf, but there is not (false positive).'; and 'You can never “prove” H1, but you can reject the H0 as being very unlikely.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Also called false-positive error.\n1st time boy cries wolf, the town believes there\nis a wolf, but there is not (false positive).\nYou can never “prove” H1, but you can reject the\nH0 as being very unlikely.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, Type II — the row label 'Type II error (β)', the printed definition 'Stating that there is not an effect or difference when one exists (H0 is not rejected when it is in fact false).', and the power sentence: 'β is the probability of making a type II error. β is related to statistical power (1 – β), which is the probability of rejecting H0 when it is false.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Type II error (β)\n\nStating that there is not an effect or difference\nwhen one exists (H0 is not rejected when it is\nin fact false).\nβ is the probability of making a type II error. β is\nrelated to statistical power (1 – β), which is the\nprobability of rejecting H0 when it is false.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, the power lever list — '↑ power and ↓ β by:' with the FOUR printed square-bullet levers: '↑ sample size', '↑ expected effect size', '↑ precision of measurement', '↑ α level (↑ statistical significance level).' (C1 control bytes around the ↑↓ arrows and before the ▘ bullets are stripped by the normalizer — a documented quirk; exactly four bullets, text-layer-pinned)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "↑ power and ↓ β by:\n▘ ↑ sample size\n▘ ↑ expected effect size\n▘ ↑ precision of measurement\n▘ ↑ α level (↑ statistical significance level).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, Type II right column — 'Also called false-negative error.'; First Aid's OWN mnemonic lines (red lead numeral + red phrase, VLM-confirmed) '2nd time boy cries wolf, the town believes there is no wolf, but there is one.' and 'If you ↑ sample size, you ↑ power. There is power in numbers.'; and the printed see-saw 'Generally, when type I error increases, type II error decreases.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Also called false-negative error.\n2nd time boy cries wolf, the town believes there is\nno wolf, but there is one.\nIf you ↑ sample size, you ↑ power. There is power\nin numbers.\nGenerally, when type I error increases, type II\nerror decreases.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 — the 'Statistical vs clinical significance' title (wraps across two lines in its left label column) with the indd footer slug 'FAS1_2026_06-PubHealth.indd 266' interleaved MID-BLOCK in the raw layer (a reading-order artifact — it prints at the page foot), then the three printed definition sentences: 'Statistical significance—defined by the likelihood of study results being due to chance. If there is a high statistical significance, then there is a low probability that the results are due to chance.'; 'Clinical significance—measure of effect on treatment outcomes. An intervention with high clinical significance is likely to have a large impact on patient outcomes/measures.'; and the 1 mg/dL example: 'Some studies have a very high statistical significance, but the proposed intervention may have limited clinical impact/significance, eg, a study might show a statistical significance of lowered blood sugar levels by 1 mg/dL correlated with better outcomes, but this may not be clinically as important.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "Statistical vs clinical\nsignificance\n\nFAS1_2026_06-PubHealth.indd 266\n\nStatistical significance—defined by the likelihood of study results being due to chance. If there is a\nhigh statistical significance, then there is a low probability that the results are due to chance.\nClinical significance—measure of effect on treatment outcomes. An intervention with high clinical\nsignificance is likely to have a large impact on patient outcomes/measures.\nSome studies have a very high statistical significance, but the proposed intervention may have\nlimited clinical impact/significance, eg, a study might show a statistical significance of lowered\nblood sugar levels by 1 mg/dL correlated with better outcomes, but this may not be clinically as\nimportant.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 266)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "hypothesis-errors-map"
+  ],
+  "mechanismIds": [
+    "reality-by-decision",
+    "power-levers"
+  ],
+  "kypExtensions": [
+    {
+      "id": "reality-by-decision-grammar",
+      "summary": "The verdict-×-reality reading grammar of the printed grid: every error question decomposes into MOVE 1 what did the study conclude (reject / not reject H0 — the rows), MOVE 2 what is reality (H1 an effect exists / H0 none exists — the columns), MOVE 3 cross them to name the cell (Power (1 – β) / Type I error (α) / Type II error (β) / the silent correct cell), MOVE 4 pull the right lever, MOVE 5 separate statistical from clinical significance; plus the 'two ways to be right, two ways to be wrong' frame and the observation that the two printed Correct-result sentences ARE the two blue cells (the print's layout, the pairing is KYP's reading).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the grid and the definitions but never states the cross-reading procedure nor the blue-cell/Correct-result pairing; the grammar is KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] reality-by-decision + blocks[3] the steps block + the registry visual's Zone A rule strip"
+    },
+    {
+      "id": "courtroom-frame",
+      "summary": "The courtroom frame for the two errors (the null hypothesis as defendant): Type I error (α) = convicting an innocent defendant — rejecting an H0 that is true (false positive); Type II error (β) = acquitting a guilty one — failing to reject an H0 that is false (the real effect walks free); packaged as the KYP mnemonic 'α ACCUSES THE INNOCENT NULL; β ACQUITS THE TRUE EFFECT'.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definitions and its own cry-wolf anchors; the courtroom personification and the α-accuses/β-acquits code are KYP's design (the cry-wolf pair remains attributed to the source).",
+      "location": "mnemonics[2] + blocks[2] the decoder list + usmle.pivots[0]"
+    },
+    {
+      "id": "power-lever-panel",
+      "summary": "The four-lever design reading of '↑ power and ↓ β by:': n–E–P–α in printed order (sample size, expected Effect size, Precision, α level), with the split the page implies but does not state — levers 1–3 raise power without spending Type I safety, lever 4 buys power with α on the printed see-saw ('Generally, when type I error increases, type II error decreases.'), and power as a design quantity computed before the data exist (why the page prints a lever list rather than a formula).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four levers and the see-saw sentence as parallel facts; the free-vs-traded lever split, the n–E–P–α code, and the design-quantity framing are KYP's organization.",
+      "location": "mechanisms[1] power-levers + blocks[3] the steps block MOVE 4 + the registry visual's Zone C + mnemonics[3]"
+    },
+    {
+      "id": "significance-split-layer",
+      "summary": "The statistical-vs-clinical significance layer: chance-language vs patients-language ('statistical significance says the result is unlikely to be chance; clinical significance says it matters for patients'), the sample-size-drives-the-first/effect-size-drives-the-second asymmetry, and the exam twist that re-dresses the printed 1 mg/dL blood-sugar example (big n makes small differences significant, not important).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three definition sentences and the example; the two-language split, the n-vs-effect-size asymmetry, and the exam-twist packaging are KYP's design.",
+      "location": "clinical block + usmle.patterns[3] + usmle.traps[3] + the registry visual's Zone D"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the false-benefit Type I stem, the underpowered-pilot Type II/power stem, the P < α justification stem, the 1 mg/dL significance twist), 4 traps (Type I vs Type II; α vs P value; power's when-clause vs α's; statistical vs clinical), 3 pivots (error-name vs error-probability; sample size vs α as the power lever; 'proved H1' language), and a 5-option miniCase (the phase III underpowered-drug vignette routed to ↑ sample size / Type II error against wrong-error, wrong-direction, constraint-violating, and error-denying distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN four lines — the cry-wolf pair ('1st time boy cries wolf, the town believes there is a wolf, but there is not (false positive).' / '2nd time boy cries wolf, the town believes there is no wolf, but there is one.'), 'If you ↑ sample size, you ↑ power. There is power in numbers.', and 'Generally, when type I error increases, type II error decreases.' (the cry-wolf lead numerals and 'power in numbers' print in RED, VLM-confirmed) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the decoder list, and the visual's cards; plus TWO KYP originals, marked as such: 'α ACCUSES THE INNOCENT NULL; β ACQUITS THE TRUE EFFECT' and 'n–E–P–α' (the four levers in printed order).",
+      "origin": "outside-first-aid",
+      "rationale": "The cry-wolf pair and 'There is power in numbers.' are the source's own hooks (attributed, not counted as KYP's); no margin mnemonic prints anywhere on pdf 288 (pdfimages + VLM census, staging-pubh14/vlm-census.txt); the two KYP codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's card and lever lines"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 288 / book 266, the third page of the EPIDEMIOLOGY AND BIOSTATISTICS subsection (bounded by the Statistical hypothesis testing opener that closes book 265 — owned by statistical-distributions — and the Confidence interval block that opens book 267 — owned by confidence-intervals-meta-analysis), carrying THREE blocks: (1) 'Outcomes of statistical hypothesis testing' — the two printed Correct-result sentences plus the STUDY-VS-REALITY 2×2 GRID (rows 'Study rejects H0' / 'Study does not reject H0'; columns under the spanning 'Reality' header: H1 LEFT / H0 RIGHT; cells Power (1 – β) [blue], α Type I error, β Type II error, EMPTY [blue]; legend 'Blue shading = correct result.'), carried verbatim in the note's table block; (2) 'Testing errors' — the Type I and Type II rows with the α/P-value logic, the four power levers, the 'Also called' lines, and First Aid's OWN cry-wolf pair + 'There is power in numbers.' + the see-saw sentence, all carried VERBATIM and ATTRIBUTED; (3) 'Statistical vs clinical significance' — the three definition sentences including the 1 mg/dL blood-sugar example. CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (glm-4.6v, TWO passes, staging-pubh14/vlm-census.txt: a 120dpi full-page pass + a 200dpi focused grid/Testing-errors crop pass): the grid's geometry confirmed as above, with the two BLUE cells = the Power cell (reject × H1) and the EMPTY not-reject × H0 cell; the cry-wolf pair prints in ROMAN (not italic, not boxed) with RED lead numerals ('1st'/'2nd'), 'power in numbers' in RED, and the Roman numerals I/II of the two row labels in RED; the four levers print with ▘ square bullets and ↑ arrows; no margin notes, mnemonics, asterisk footnotes, or images. ADJUDICATION (all reads agree after the focused re-pass — raw text layer + pdftotext -bbox/-layout + the 200dpi VLM pass): the FIRST full-page VLM pass mis-assigned the grid's column headers (claimed H0 LEFT / H1 RIGHT, contradicting its own cell description and its own blue-shading claim) — the bbox coordinates are authoritative (H1 x≈485 LEFT of H0 x≈535; 'Power' x≈479 under H1; 'α' x≈536 under H0) and the focused 200dpi pass read H1-left/H0-right with blue = Power + the empty cell, matching the print's internal logic (rejecting a true H0 is a Type I error, not power) and the task brief's expectation; the visual and the note draw the grid exactly as pinned. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); small-caps artifact 'EPIDEmIOLOGY AND BIOSTATISTICS' — the ▶ banner prints ONCE on this page (the twice-printing was the subsection-opener quirk of book 256); the grid's labels extract INTERLEAVED in the raw layer (evidence range 3 quotes the raw order; the cell assignment is bbox+VLM-pinned); the '( 1 – β)' cell's thin spaces around the en-dash widen to '( 1 – β)' in the raw layer (en-dash used as minus throughout — the note carries '(1 – β)'); C1 control bytes (\\x8f/\\x90) around the ↑↓ arrows and \\x83 before each ▘ bullet (stripped by the normalizer); the indd footer slug 'FAS1_2026_06-PubHealth.indd 266' extracts MID-BLOCK between the bottom block's title wrap and its body although it prints at the page foot (reading-order artifact; evidence range 10 preserves the raw order); the bottom block's title wraps across two lines in its label column; 'eg,' prints without periods. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (reality-by-decision, power-levers), a visual block + verbatim grid table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the significance split with the 1 mg/dL example + the why-β-matters framing), 4 patterns, 4 traps, 3 pivots, 9 recall, 4 related (statistical-distributions, confidence-intervals-meta-analysis, statistical-tests, quantifying-risk — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own cry-wolf pair and 'There is power in numbers.' carried attributed + two KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints statistical logic, not drugs — the DrugCard shape does not fit; the clinical layer is the significance block, carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-pubh1; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh14/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'hypothesis-errors-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's THREE visual assets are implemented in ONE registry visual (hypothesis-errors-map, HypothesisErrorsMap in visuals/pubhealth-p14.tsx, viewBox 0 0 1102 1290): the study-vs-reality grid as an ORIGINAL_KYP_REDRAW (KYP geometry, every printed label preserved, the two correct cells blue-shaded exactly as the print shades them, the legend and the Correct-result sentences carried) and the two text blocks as ORIGINAL KYP ADAPTATIONS (the Type I/Type II cards with the cry-wolf pair attributed; the four-lever power panel; the statistical-vs-clinical strip with the 1 mg/dL example) — with the grid's labels and the error rows ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

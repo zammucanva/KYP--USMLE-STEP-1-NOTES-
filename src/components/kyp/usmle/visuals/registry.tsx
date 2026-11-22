@@ -69,6 +69,11 @@ import { SurvivalAnalysisMap } from "./pubhealth-p7";
 import { DiagnosticTestMap } from "./pubhealth-p8";
 import { RocPrecisionMap } from "./pubhealth-p9";
 import { IncidencePrevalenceMap } from "./pubhealth-p10";
+import { BiasMap } from "./pubhealth-p11";
+import { ConfoundingMap } from "./pubhealth-p12";
+import { DistributionsMap } from "./pubhealth-p13";
+import { HypothesisErrorsMap } from "./pubhealth-p14";
+import { CiMetaMap } from "./pubhealth-p15";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -229,6 +234,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "diagnostic-test-map": DiagnosticTestMap,
   "roc-precision-map": RocPrecisionMap,
   "incidence-prevalence-map": IncidencePrevalenceMap,
+  "bias-map": BiasMap,
+  "confounding-map": ConfoundingMap,
+  "distributions-map": DistributionsMap,
+  "hypothesis-errors-map": HypothesisErrorsMap,
+  "ci-meta-map": CiMetaMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

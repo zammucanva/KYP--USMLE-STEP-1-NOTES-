@@ -1,0 +1,308 @@
+{
+  "topicId": "confounding-effect-modification",
+  "title": "Confounding vs Effect Modification: What Stratification Reveals",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      286
+    ],
+    "bookPages": "264–264"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 264, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the running banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printed ONCE on this page (running header only — no in-body subsection ribbon, unlike the subsection opener pdf 278; small-caps 'm' artifact as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "264\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's title and four column headers — 'Confounding vs effect modification', TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS (the EXAMPLES header extracts with a lowercase 'm' — a small-caps extraction artifact, carried as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Confounding vs effect modification\nTYPE\n\nDEFINITION\n\nEXAmPLES\n\nSTRATEGIES TO REDUCE BIAS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (TYPE + DEFINITION cell) — Confounding: 'Factor related to both exposure and outcome (not on a causal pathway) distorts the effect on the outcome' + the bold verdict sub-line 'No association after stratification' (the parenthetical excludes mediators — variables ON the causal pathway)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Confounding\n\nFactor related to both\nexposure and outcome (not\non a causal pathway) distorts\nthe effect on the outcome\nNo association after\nstratification",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (EXAmPLES cell) — the printed confounding example: coffee appears linked to lung cancer, but smoking is the true cause, as coffee drinkers tend to smoke more",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Coffee appears to be linked\nto lung cancer, but smoking\nis the true cause, as coffee\ndrinkers tend to smoke more",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (STRATEGIES TO REDUCE BIAS cell) — the three printed strategies in order: Crossover studies (subject serves as self-control); Matching (patients with similar characteristics in both treatment and control groups); Analytic techniques (eg, regression analysis when confounding variables are known and were measured)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Crossover studies (subject\nserves as self-control)\nMatching (patients with\nsimilar characteristics in both\ntreatment and control groups)\nAnalytic techniques (eg,\nregression analysis when\nconfounding variables are\nknown and were measured)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (TYPE + DEFINITION cell) — Effect modification: 'Exposure leads to different outcomes in subgroups stratified by factor' + the bold verdict sub-line 'True association exists'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Effect modification\n\nExposure leads to different\noutcomes in subgroups\nstratified by factor\nTrue association exists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (EXAmPLES cell) — the printed effect-modification example: a study among women using OCPs showed significant risk of DVT, but when stratified by smoking habits there was a very strong association between OCP use and DVT among smokers and no such association in people who do not smoke",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "A study among women using\nOCPs showed significant risk\nof DVT, but when these data\nwere stratified by smoking\nhabits, there was a very strong\nassociation between OCP use\nand DVT among smokers,\nbut there was no such\nassociation in people who do\nnot smoke",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (STRATEGIES TO REDUCE BIAS cell) — the printed handling: Stratified analysis (eg, after testing for interaction between OCP and smoking, analyze risk among smokers and nonsmokers)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Stratified analysis (eg, after\ntesting for interaction\nbetween OCP and smoking,\nanalyze risk among smokers\nand nonsmokers)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 1 (Confounding), part 1 of 3 — the group title 'Confounding' (gray rounded box, centered) and the Crude analysis row: 'Drinking coffee' (tan box) -> 'Lung cancer' (light-blue box) joined by the thin-solid 'Significant association' arrow style (pixel census: ~1.0pt thick)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Confounding\nCrude analysis\nDrinking coffee\n\nLung cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 1 (Confounding), part 2 of 3 — the two Stratified analysis rows: 'Smokers' -> 'Drinking coffee' -> 'Lung cancer' (thick-solid 'Strong association' style, ~2.2pt) and 'Nonsmokers' -> 'Drinking coffee' -> 'Lung cancer' (thin-dashed 'Weak/no association' style) — the stratum labels print in light-gray boxes at the left of each row",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Smokers\n\nDrinking coffee\n\nLung cancer\n\nNonsmokers\n\nDrinking coffee\n\nLung cancer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 1 (Confounding), part 3 of 3 — the 'Stratiﬁed analysis' label (ﬁ ligature; bold horizontal label at the LEFT, printing between the crude row and the first stratified row but extracting AFTER the stratum rows in the raw text layer — a reading-order quirk, documented) + the group's note printed below the rows: 'Note: Association disappeared after stratiﬁcation.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Stratiﬁed analysis\n\nNote: Association disappeared after stratiﬁcation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 2 (Effect modification), part 1 of 3 — the group title 'Effect modiﬁcation' (ﬁ ligature; gray rounded box, centered) and the Crude analysis row: 'OCP use' (tan box) -> 'DVT' (light-blue box) joined by the thin-solid 'Significant association' arrow style",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Effect modiﬁcation\nCrude analysis\nOCP use\n\nDVT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 2 (Effect modification), part 2 of 3 — the two Stratified analysis rows: 'Smokers' -> 'OCP use' -> 'DVT' (thick-solid 'Strong association' style) and 'Nonsmokers' -> 'OCP use' -> 'DVT' (thin-dashed 'Weak/no association' style) — the same three-style arrow grammar as group 1 (VLM x3 + pixel census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Smokers\n\nOCP use\n\nDVT\n\nNonsmokers\n\nOCP use\n\nDVT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "DIAGRAM GROUP 2 (Effect modification), part 3 of 3 — the 'Stratiﬁed analysis' label (ﬁ ligature; same reading-order quirk — extracts after the stratum rows) + the group's note printed below the rows: 'Note: Association was strong in one subgroup with weak/no association in the other subgroup.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Stratiﬁed analysis\n\nNote: Association was strong in one subgroup with weak/no association in the other subgroup.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE ARROW LEGEND — the three association labels, printed ONCE below group 2's note as a standalone key (sample arrow + label per entry, NO leader lines to any diagram arrow; VLM x3 + pixel census: thick solid = 'Strong association', thin solid = 'Signiﬁcant association' (ﬁ ligature), thin dashed = 'Weak/no association'), decoding the arrow grammar used in BOTH diagram groups; a small ▶ multimedia marker prints near the right margin at this level (vector, no text-layer content)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "Strong association\nSigniﬁcant association\nWeak/no association",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug + timestamp — 'FAS1_2026_06-PubHealth.indd 264' and '12/16/25 12:46 PM' (page identity, book 264)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 264\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "confounding-map"
+  ],
+  "mechanismIds": [
+    "confounding-collapse-map",
+    "effect-modification-split-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "stratification-verdict-protocol",
+      "summary": "The four-move stratification protocol the page implies but never states as a sequence: (1) STATE the crude association (both phenomena begin as an identical crude link — coffee-cancer; OCP-DVT); (2) TEST the third variable (two links + the pathway exclusion); (3) STRATIFY and compare the strata with each other and with the crude estimate; (4) DELIVER the verdict and act — COLLAPSE (association gone in every stratum) = confounding, remove it; SPLIT (real but different across strata) = effect modification, report it. The 'collapse vs split' rule and the 'remove vs report' action pairing are the KYP synthesis of the two printed rows.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two rows as parallel facts plus two worked examples; the ordered protocol, the collapse-vs-split router, and the remove-vs-report action pairing are KYP's organization.",
+      "location": "core.keyIdea MOVES 1-4 + mechanisms[0] confounding-collapse-map + mechanisms[1] effect-modification-split-map + blocks[3] the steps block + the visual's KYP rule strip"
+    },
+    {
+      "id": "confounder-mediator-modifier-router",
+      "summary": "The three-role router for any third variable in any stem: upstream common cause of both exposure and outcome, not on the causal pathway = CONFOUNDER (remove); downstream consequence of the exposure transmitting the effect = MEDIATOR (do not adjust — the printed parenthetical '(not on a causal pathway)' exists to exclude this); variable that changes the size/direction of a true effect across subgroups = EFFECT MODIFIER (test for interaction, then stratify and report). Plus the smoking double-role observation: the same variable is the confounder in the coffee-lung-cancer story and the modifier in the OCP-DVT story — the role belongs to the relationship, not the variable.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the confounder definition (with its parenthetical) and the two smoking examples; the explicit mediator category, the three-way router, and the role-not-variable principle are KYP's framing.",
+      "location": "core.why + core.keyIdea MOVE 2 + blocks[2] the decoder list (ROW 1 and the smoking double role) + usmle.traps[1] confounder vs mediator + usmle.pivots[0]"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the stratified-collapse coffee-cancer stem, the stratified-split OCP-DVT stem, the crossover self-control strategy stem, the pathway-exclusion mediator stem), 4 traps (confounding vs effect modification; confounder vs mediator; effect modification is not a bias despite the printed column header; matching vs stratified analysis), 3 pivots (the third-variable role router, the collapse-vs-split estimate reader, the technique-selector), and 8 recall cards covering both rows, both examples, all four strategies, and the legend.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the two rows and the diagrams only; the attack structure, distractor shapes, and question templates are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: NO First Aid mnemonic prints anywhere on pdf 286 (pdfimages + the VLM passes, staging-pubh12/vlm-census.txt — no red in-cell mnemonics, no margin mnemonics), so all four hooks are KYP ORIGINALS, marked as such: 'TWO LINKS, NO PATHWAY' (the confounder test), 'COLLAPSE = CONFOUND, SPLIT = MODIFY' (the stratification verdict), 'COMA' (Crossover · Matching · Analytic techniques — the three printed anti-confounding strategies), and 'TEST, THEN SPLIT' (interaction test before stratified analysis).",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic is printed on the page (census-confirmed); all four codes are KYP's design, built on the printed strategy cells.",
+      "location": "mnemonics + blocks[6] the memory callout + rapidReview.m3 + the visual's KYP rule strip"
+    },
+    {
+      "id": "clinical-anchor-and-boundary-layer",
+      "summary": "The clinical anchor layer: the two printed example threads — the coffee-lung-cancer thread (smoking the true cause of bronchogenic carcinoma; any crude lifestyle-association with a smoking-related outcome deserves stratification) and the OCP-DVT thread (estrogen-associated thromboembolic risk amplified by smoking — why smoking status shapes contraceptive counseling) — plus the boundary framing (confounding is a VALIDITY problem: the crude estimate is wrong, remove it; effect modification is a DISCOVERY: the crude estimate is an average of two truths, report it) and the miniCase (the OCP-DVT interaction-test vignette routed to effect modification/stratified reporting against the confounding, regression-pooling, mediator, and selection-bias distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "The examples themselves are printed (FA-own); the thread organization, the remove-vs-report boundary framing, the pharmacologic smoking-estrogen context, and the miniCase with its distractors are KYP's design, flagged as such.",
+      "location": "clinical block + usmle.miniCase + usmle.patterns[0-1] + crossLinks[0-1]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 286 / book 264, the page after 'Bias and study errors' (pdf 285 / book 263) and before 'Statistical distribution' (pdf 287 / book 265) in the EPIDEMIOLOGY AND BIOSTATISTICS subsection, carrying TWO blocks — the 'Confounding vs effect modification' table (columns TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS, TWO rows in printed order: Confounding; Effect modification — carried VERBATIM in the note's table block, blocks[1]) and the TWO CRUDE-VS-STRATIFIED DIAGRAM GROUPS plus their SHARED ARROW LEGEND (group 1 'Confounding' and group 2 'Effect modification', each with a Crude analysis row, two Stratified analysis rows, and its printed Note; then the three-entry legend), redrawn as ORIGINAL KYP vector art. CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (glm-4.6v: full-page 120dpi + 300dpi zoom + a targeted 300dpi confirmation pass, PLUS an objective pixel census of the 300dpi bitmap — staging-pubh12/vlm-census.txt): exactly TWO rows confirmed in printed order (none missing or extra); blue bold row labels, bold verdict sub-lines ('No association after stratification' / 'True association exists'), dotted hairlines, NO red text, NO margin mnemonics; diagram geometry = gray rounded title boxes, tan/orange exposure boxes, light-blue outcome boxes, light-gray stratum boxes, bold horizontal 'Crude analysis' / 'Stratified analysis' labels at the LEFT above their row blocks, dark-gray right-pointing arrows. ADJUDICATIONS (all reads agree — VLM x3 + pixel census): (A) the task brief described 'Strong association'/'Weak/no association' as subgroup annotations inside the effect-modification diagram — the PRINT prints them ONCE, below group 2's note, as a STANDALONE LEGEND (sample arrow + label per entry, no leader lines), decoding the arrow grammar used in BOTH groups (thick solid = Strong; thin solid = Significant; thin dashed = Weak/no); brief corrected to print; (B) BOTH diagram groups print the identical three-style grammar (crude row thin solid; Smokers row thick solid; Nonsmokers row dashed) — the confounding group's stratified rows therefore print the strong/dashed pattern even though that group's own note and the table's DEFINITION cell say the association disappears; the printed NOTE governs the teaching verdict (the KYP redraw draws the print's arrow grammar exactly and gives each lane its own printed note as the verdict strip; the tension is documented, not resolved); (C) the task brief anticipated the diagram labels 'extracting interleaved with the table' — the diagrams extract entirely AFTER the table in the raw layer (lines 66-111); the interleaving is INSIDE the figure block: each group's 'Stratified analysis' label extracts AFTER the stratum rows (lines 84, 106) though it prints between the crude row and the first stratified row, and the legend labels extract after group 2's note (lines 109-111). Quirks carried + documented: 'SEC TION II' header-space artifact (known, as-is); small-caps artifacts 'EPIDEmIOLOGY AND BIOSTATISTICS' (banner prints ONCE — running header only, no in-body ribbon on this page) and the column header 'EXAmPLES'; the fi LIGATURE (U+FB01) prints in the DIAGRAM groups' text objects only ('Stratified analysis' x2, 'stratification' in note 1, 'Effect modification' group 2 title, 'Significant association' legend entry) while the TABLE cells print plain 'fi' — carried verbatim both ways; a small ▶ multimedia marker near the right margin at the legend's level (vector, no text-layer content). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (confounding-collapse-map, effect-modification-split-map), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the two printed example threads + the boundary), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (bias-and-study-errors — produced in a parallel batch, referenced by design; clinical-therapeutic-trials; statistical-tests; observational-studies — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (ALL KYP originals, marked — NO First Aid mnemonic prints on this page, census-confirmed), and a miniCase with 5 options (exactly 1 correct + 4 distractors, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints no drug rows — OCPs appear as a study EXPOSURE, not a drug monograph; the clinical anchors are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-pubh1 and staging-pubh10; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh12/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'confounding-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (confounding-map, ConfoundingMap in visuals/pubhealth-p12.tsx, viewBox 0 0 1102 1194): the table as an ORIGINAL KYP ADAPTATION (two-row digest band + the verdict strips carrying the table's verdict sub-lines and strategy cells) and the two diagram groups + shared legend as an ORIGINAL_KYP_REDRAW (the book's two stacked groups re-arranged as TWO PARALLEL VERTICAL LANES — confounding: Drinking coffee -> Lung cancer collapsing on smoking stratification; effect modification: OCP use -> DVT splitting on smoking stratification — every printed label preserved, the three arrow styles drawn exactly as the print's legend decodes them) — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

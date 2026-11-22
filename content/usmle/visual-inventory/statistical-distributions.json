@@ -1,0 +1,73 @@
+{
+  "topicId": "statistical-distributions",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "statistical-distributions",
+      "requiredInKYP": true,
+      "visualId": "statistical-distributions-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Statistical distribution table + the Statistical hypothesis testing text block (book 265): the central-tendency definitions with their outlier rules, the dispersion definitions and formula lines, the normal-distribution routing sentences, the nonnormal sub-rows, and the H0/H1/P value rows — the Epidemiology and Biostatistics subsection's distribution-reading core and the opener of its inference sequence",
+      "sourceFigureDescription": "COLOR-CODED TABLE + TEXT BLOCKS, no raster (pdfimages: zero raster images; VLM-read in four passes, staging-pubh13/vlm-census.txt — VLM available this session): the running header (book page 265, SEC TION II, PUBLIC HEALTH SCIENCES, the banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printing ONCE — running header only, no in-body ribbon on this page), the section header 'Statistical distribution' in dark teal-navy bold, row labels in teal semibold (Measures of central tendency / Measures of dispersion / Normal distribution / Nonnormal distributions, with the three Nonnormal sub-rows regular and indented; Null hypothesis / Alternative hypothesis / P value in the bottom block under its own 'Statistical hypothesis testing' header), body text in dark gray, dotted hairline row separators (no zebra striping), and RED BOLD printing in the hypothesis-testing rows — the subscript 0 of H0, the subscript 1 of H1, and the words 'zero' and 'one' (First Aid's own H0↔zero / H1↔at-least-one linkage, texttrace rgb 183,40,55). Rows: Mean = (sum of values)/(total number of values) — most affected by outliers (extreme values); Median = middle value of a list of data sorted from least to greatest — even number of values → the average of the middle two; Mode = most common value — least affected by outliers; Standard deviation = how much variability exists in a set of values, around the mean of these values; Standard error = an estimate of how much variability exists in a (theoretical) set of sample means around the true population mean; σ = SD; n = sample size; Variance = (SD)²; SE = σ/√n; SE ↓ as n ↑; Normal distribution — Gaussian, also called bell-shaped; mean = median = mode; for normal distribution, mean is the best measure of central tendency; for skewed data, median is a better measure of central tendency than mean; Bimodal distribution — suggests two different populations (metabolic polymorphism such as fast vs slow acetylators; age at onset of Hodgkin lymphoma; suicide rate by age); Positive skew — typically, mean > median > mode; asymmetry with longer tail on right; mean falls closer to tail; Negative skew — typically, mean < median < mode; asymmetry with longer tail on left; mean falls closer to tail; Null hypothesis — also called H0, zero difference between two groups or variables in the population; Alternative hypothesis — also called H1, at least one difference or association; P value — probability of obtaining test results at least as extreme as those observed in the sample, assuming H0 is correct; commonly accepted as 0.05 (<5% of such repeated tests would show results that extreme just by chance alone). Footer slug 'FAS1_2026_06-PubHealth.indd 265' + timestamp '12/16/25 12:46 PM'.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "distributions-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the central-tendency cards (Mean/Median/Mode with their outlier chips), the dispersion zone's definitions and formula chips (σ = SD; n = sample size · Variance = (SD)² · SE = σ/√n · SE ↓ as n ↑), and the H0/H1/P strip with First Aid's red 'zero'/'one' carried attributed, in the registry visual (DistributionsMap in visuals/pubhealth-p13.tsx, Zones B/D/E); the full table text is ALSO carried verbatim in the note's two table blocks (blocks[1], blocks[2]), core.what, the steps block, and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "distributions-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "statistical-distributions",
+      "requiredInKYP": true,
+      "visualId": "statistical-distributions-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The four stacked curve figures of the right-hand column (book 265): the normal bell with its graded σ bands and the 68%/95%/99.7% below-axis braces, the bimodal twin-peak curve, the positive-skew curve (markers Mode → Median → Mean), and the negative-skew curve (markers Mean → Median → Mode) — the page's visual comparison of distribution shapes and the anchor of every ordering question the exam asks from this page",
+      "sourceFigureDescription": "PURE VECTOR ART, no raster (pdfimages: zero raster images; 159 path objects on the page, 102 in the figure column x≈417-537; geometry pinned by the four VLM passes + the PyMuPDF vector-geometry reconstruction + the pixel-visibility scan, staging-pubh13/vlm-census.txt — VLM available this session): FOUR distinct curve figures stacked vertically, each beside its table row. (1) NORMAL CURVE (beside 'Normal distribution'; x 425.9-532.3, baseline y 274.6, peak y 235.0, center x 478.6, σ≈10.5pt): a symmetric bell filled with six graded σ-band slices — center ±1σ light teal/mint, ±1σ-2σ pale lavender/periwinkle, ±2σ-3σ pale teal — with thin vertical teal dividing lines at each σ boundary; the σ tick labels –3σ…+3σ (en-dash minus signs) print INSIDE the curve at their band boundaries, cascading down the contour (–1σ/+1σ y 241.8 just under the peak; –2σ/+2σ y 255.7; –3σ/+3σ y 266.2 near the baseline); BELOW the solid dark navy horizontal axis, three nested horizontal curly braces with cusps pointing DOWN, each above its label, stacked under the curve's center: ±1σ brace (w 21pt) → '68%' (y 281.4), ±2σ brace (w 43pt) → '95%' (y 296.9), ±3σ brace (w 63pt) → '99.7%' (y 312.2) — 68% narrowest at top, 99.7% widest at bottom. (2) BIMODAL CURVE (beside 'Bimodal distribution'; humps at x≈451 and x≈494, saddle x≈476, baseline y 384.2): two rounded peaks of roughly equal height with a saddle between, plain light-teal fill, darker teal outline, thick dark navy baseline — NO σ ticks, NO percentage labels, NO Mode/Median/Mean markers. (3) POSITIVE SKEW (beside 'Positive skew'; peak left, long tail right, baseline y 444.4): three dashed teal vertical drop-lines (x 467.7/476.2/489.1) with markers printed left-to-right Mode (y 405.4, at the peak) → Median (y 408.6, just right of the peak) → Mean (y 422.7, down the tail slope). (4) NEGATIVE SKEW (beside 'Negative skew'; peak right, long tail left, baseline y 498.7): three dashed drop-lines (x 483.3/474.7/461.9) with markers printed left-to-right Mean (y 477.0, on the left tail) → Median (y 463.4, just left of the peak) → Mode (y 459.7, at the peak). Color furniture: light teal/aqua curve fills with darker teal outlines; σ tick labels small dark text; percentage labels dark; Mode/Median/Mean markers black/gray. TEXT-LAYER QUIRK (documented): the raw layer carries CLIPPED, INVISIBLE DUPLICATE COPIES of the normal-curve group (two copies, offset +83.9pt and +14.4pt) and of the skew marker cascades (+14.4pt) — the σ ticks and 68%/95%/99.7% labels extract THREE times each, the Mode/Median/Mean cascades TWICE each (including the merged line '–2σ–1σ +1σ +2σ' and the 'MedianMean' merge token) — while the page VISIBLY prints each label ONCE (VLM: 'no ghosting or doubling'; pixel-visibility scan: exactly one visible set). Two small gray-blue vector 'Rx' multimedia glyphs print at the figure column's right edge (not content; not redrawn).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "distributions-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A (the 68-95-99.7 bell: six graded σ-band slices, thin σ-boundary dividers, the σ tick labels cascading inside the curve, and the three below-axis stacked braces with cusps pointing down at 68%/95%/99.7%), Zone B's bimodal panel (twin peaks on a baseline, no markers, no ticks, with the three printed two-population anchors listed), and Zone C's two skew panels (dashed drop-lines; positive skew markers Mode → Median → Mean with the 'mean > median > mode' chip; negative skew markers Mean → Median → Mode with the 'mean < median < mode' chip) of the registry visual (DistributionsMap in visuals/pubhealth-p13.tsx) — every printed label preserved, each label drawn exactly ONCE (the clipped-duplicate text-layer quirk documented in the header comment and footer, NOT drawn); the figures' semantics are also carried in mechanisms[0] and mechanisms[1], blocks[3] the figure-decoder list, blocks[5] the compare block, and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "distributions-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "statistical-distributions",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the distributions table/text blocks (sv1: the Statistical distribution rows from Measures of central tendency through Negative skew, plus the Statistical hypothesis testing opener rows) and the four stacked curve figures of the right-hand column (sv2: the normal bell with graded σ bands and below-axis 68%/95%/99.7% braces, the bimodal twin peaks, the positive-skew and negative-skew curves with their dashed drop-lines and Mode/Median/Mean markers) — both accounted for in ONE registry visual (distributions-map, DistributionsMap in visuals/pubhealth-p13.tsx, viewBox 0 0 1102 1352): the table/text blocks as an ORIGINAL KYP ADAPTATION (central-tendency cards with outlier chips, dispersion formula chips, and the H0/H1/P strip carrying First Aid's red 'zero'/'one' printing attributed) and the four figures as an ORIGINAL_KYP_REDRAW (KYP vector art in the census-pinned geometry — σ labels cascading inside the curve, the three stacked braces below the axis with cusps down, the bimodal figure with NO markers and NO ticks, the skew marker orders Mode→Median→Mean and Mean→Median→Mode); nothing is reproduced, and the full table text is additionally carried verbatim in the note's two table blocks. Census: ZERO raster images (pdfimages; 159 vector path objects, 102 in the figure column); VLM available this session — FOUR passes (120dpi full page + three 300dpi figure-column crops) plus a PyMuPDF geometry reconstruction and a pixel-visibility scan (vlm-census.txt), pinning the figure geometry quoted above and the clipped-duplicate text-layer quirk (σ ticks and percentages ×3, marker cascades ×2 in the raw layer; the page prints each label ONCE — the visual draws each label ONCE). First Aid's own red H0↔zero / H1↔at-least-one printing is carried VERBATIM and ATTRIBUTED (not a KYP mnemonic). The two small vector 'Rx' multimedia glyphs are InDesign furniture, not content — not redrawn (documented). FULL single page (pdf 287 / book 265), the distributions page of the Epidemiology and Biostatistics subsection, closing with the hypothesis-testing opener that book 266 continues. STAGED under .usmle-pipeline-cache/staging-pubh13/ — promotion into content/ is owned downstream."
+}

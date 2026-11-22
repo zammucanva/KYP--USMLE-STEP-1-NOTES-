@@ -60,6 +60,11 @@ import { survivalAnalysis } from "./survival-analysis";
 import { diagnosticTestPerformance } from "./diagnostic-test-performance";
 import { rocPrecisionAccuracy } from "./roc-precision-accuracy";
 import { incidencePrevalence } from "./incidence-prevalence";
+import { biasAndStudyErrors } from "./bias-and-study-errors";
+import { confoundingEffectModification } from "./confounding-effect-modification";
+import { statisticalDistributions } from "./statistical-distributions";
+import { hypothesisTestingErrors } from "./hypothesis-testing-errors";
+import { confidenceIntervalsMetaAnalysis } from "./confidence-intervals-meta-analysis";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -290,6 +295,11 @@ export const usmleNotes: KypUsMLENote[] = [
   diagnosticTestPerformance,
   rocPrecisionAccuracy,
   incidencePrevalence,
+  biasAndStudyErrors,
+  confoundingEffectModification,
+  statisticalDistributions,
+  hypothesisTestingErrors,
+  confidenceIntervalsMetaAnalysis,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

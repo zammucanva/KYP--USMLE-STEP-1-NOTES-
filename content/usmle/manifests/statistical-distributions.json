@@ -1,0 +1,373 @@
+{
+  "topicId": "statistical-distributions",
+  "title": "Statistical Distributions: Center, Spread, and Skew",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      287
+    ],
+    "bookPages": "265–265"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 265, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printing ONCE (running header only — NO in-body ribbon on this page, unlike pdf 278; small-caps 'm' artifact as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\n265\n\nSEC TION II\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header 'Statistical distribution' and the first row label 'Measures of central tendency' (wraps across two lines in the print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Statistical distribution\nMeasures of central\ntendency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Central tendency, MEAN — 'Mean = (sum of values)/(total number of values).' + 'Most affected by outliers (extreme values).'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Mean = (sum of values)/(total number of values).\n\nMost affected by outliers (extreme values).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Central tendency, MEDIAN — 'Median = middle value of a list of data sorted from least to greatest.' + the even-number rule: 'If there is an even number of values, the median will be the average of the middle two values.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Median = middle value of a list of data sorted\nfrom least to greatest.\n\nIf there is an even number of values, the median\nwill be the average of the middle two values.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Central tendency, MODE — 'Mode = most common value.' + 'Least affected by outliers.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Mode = most common value.\n\nLeast affected by outliers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Measures of dispersion' row (label wraps across two lines) with both printed definitions: standard deviation (variability of a set of values around the mean of these values) and standard error (variability of a theoretical set of sample means around the true population mean)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Measures of\ndispersion\n\nStandard deviation = how much variability\nexists in a set of values, around the mean of\nthese values.\nStandard error = an estimate of how much\nvariability exists in a (theoretical) set of sample\nmeans around the true population mean.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dispersion formula lines — 'σ = SD; n = sample size.' / 'Variance = (SD)2.' (the superscript 2 extracts inline; the print shows (SD)² with a raised 2) / 'SE = σ/√n.' / 'SE ↓ as n ↑.' (the raw line carries C1 control bytes around the arrows — 'SE \\x90↓ as n \\x8f↑.' — documented; the pipeline norm() strips \\u0080-\\u009f)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "σ = SD; n = sample size.\nVariance = (SD)2.\nSE = σ/√n.\nSE ↓ as n ↑.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Normal distribution row — Gaussian/bell-shaped, mean = median = mode, the mean is the best measure of central tendency for a normal distribution, and the median is a better measure than the mean for skewed data",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Normal distribution\n\nGaussian, also called bell-shaped.\nMean = median = mode.\nFor normal distribution, mean is the best\nmeasure of central tendency.\nFor skewed data, median is a better measure of\ncentral tendency than mean.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NORMAL CURVE FIGURE, VISIBLE labels part 1 of 2 — the σ tick labels in their raw extraction order ('–1σ +1σ' / '+2σ' / '–2σ' / '–3σ' / '+3σ', en-dash minus signs): the VISIBLE normal-curve figure beside the 'Normal distribution' row prints these INSIDE the curve at their band boundaries, cascading down the contour (–1σ/+1σ just under the peak, –2σ/+2σ mid-slope, –3σ/+3σ near the baseline) — geometry pinned by the VLM census passes + PyMuPDF clip-respecting extraction + the pixel-visibility scan (staging-pubh13/vlm-census.txt)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "–1σ +1σ\n+2σ\n\n–2σ\n–3σ\n\n+3σ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NORMAL CURVE FIGURE, VISIBLE labels part 2 of 2 — '68% / 95% / 99.7%': the three percentage labels print BELOW the x-axis, stacked vertically under the curve's center, each above its horizontal curly brace spanning its band (68% narrowest at top spanning ±1σ, 95% middle spanning ±2σ, 99.7% widest at bottom spanning ±3σ; each brace's cusp aims DOWN toward its label) — pinned by the VLM census (pass 2, 300dpi crop) + the PyMuPDF brace geometry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "68%\n95%\n99.7%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The clipped-duplicate quirk OPENS (a second '–1σ +1σ' begins the hidden copies) interleaved with the 'Nonnormal distributions' group label, the 'Bimodal distribution' sub-row label, and the 'Positive skew' sub-row label — the raw layer carries clipped, INVISIBLE duplicate copies of the normal-curve figure group (offset +83.9pt and a further +14.4pt down; an InDesign/plate artifact) while the page prints each label ONCE (VLM passes 1-4 + pixel-visibility scan, staging-pubh13/vlm-census.txt)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "–1σ +1σ\n\nNonnormal distributions\nBimodal distribution\n\nPositive skew",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The merged hidden-copy σ line '–2σ–1σ +1σ +2σ' — the clipped duplicate copies' –2σ/+2σ row merged on one extraction line with another copy's –1σ/+1σ row (the visible figure prints each tick label once; the merge is the plate artifact, documented in the note header and the census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "–2σ–1σ +1σ +2σ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BIMODAL and POSITIVE SKEW row text — 'Suggests two different populations (eg, metabolic polymorphism such as fast vs slow acetylators; age at onset of Hodgkin lymphoma; suicide rate by age).' + 'Typically, mean > median > mode. Asymmetry with longer tail on right; mean falls closer to tail.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Suggests two different populations (eg,\nmetabolic polymorphism such as fast vs\nslow acetylators; age at onset of Hodgkin\nlymphoma; suicide rate by age).\nTypically, mean > median > mode.\nAsymmetry with longer tail on right; mean falls\ncloser to tail.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The clipped-duplicate percentage DOUBLE-PRINT — '–3σ / –2σ / –3σ / +2σ' (hidden σ copies) then '68% 68% 95% 95% 99.7%' (each percentage extracting twice): the hidden copies of the normal-curve group double-print the labels in the raw layer while the page prints each ONCE (documented quirk; the visible set was pinned in the two claims above)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "–3σ\n–2σ\n–3σ\n\n+2σ\n\n68%\n68%\n95%\n95%\n99.7%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The POSITIVE SKEW FIGURE's marker cascade in raw order — 'Mode / Mode / Median / 99.7% / MedianMean / Median': the VISIBLE positive-skew figure (beside the 'Positive skew' row) prints Mode (at the peak), Median (just right of the peak), and Mean (farther right, down the tail slope) with dashed drop-lines, left-to-right Mode → Median → Mean; the raw layer interleaves a clipped duplicate cascade (+14.4pt offset), and the merge token 'MedianMean' is the duplicate's 'Median' colliding on one extraction line with the VISIBLE 'Mean' (in the print the two sit at different heights and do not touch) — pinned by VLM pass 4 (300dpi crop) + PyMuPDF drop-line geometry (x 467.7/476.2/489.1)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Mode\n\nMode\n\nMedian\n99.7%\nMedianMean\n\nMedian\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Negative skew' sub-row label and its text — 'Typically, mean < median < mode. Asymmetry with longer tail on left; mean falls closer to tail.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Negative skew\n\nTypically, mean < median < mode.\nAsymmetry with longer tail on left; mean falls\ncloser to tail.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEGATIVE SKEW FIGURE's marker cascade in raw order — '+3σ / +3σ' (remaining clipped σ duplicates) then 'Mean / Mode / Mode / Mean / Median / Mean': the VISIBLE negative-skew figure (beside the 'Negative skew' row) prints Mean (on the left tail), Median (just left of the peak), and Mode (at the peak) with dashed drop-lines, left-to-right Mean → Median → Mode; the raw layer interleaves the clipped duplicates of both skew cascades — pinned by VLM pass 4 (300dpi crop) + PyMuPDF drop-line geometry (x 483.3/474.7/461.9)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "+3σ\n+3σ\n\nMean\nMode\n\nMode\nMean\nMedian\nMean",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Statistical hypothesis testing' section header and the Null hypothesis row — 'Also called H0. Hypothesis with zero difference between two groups or variables in the population.' (the subscript 0 extracts inline as 'H0'; the print sets it as a subscript, in RED per the texttrace census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Statistical hypothesis testing\nNull hypothesis\n\nAlso called H0. Hypothesis with zero difference between two groups or variables in the population.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Alternative hypothesis row — 'Also called H1. Hypothesis states at least one difference or association between two groups or variables in the population.' (subscript 1 extracts inline; printed in RED in the H1)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "Alternative hypothesis\n\nAlso called H1. Hypothesis states at least one difference or association between two groups or\nvariables in the population.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The P value row — the full printed definition: probability of obtaining test results at least as extreme as those observed in the sample, assuming that H0 is correct; commonly accepted as 0.05 (<5% of such repeated tests would show results that extreme just by chance alone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "P value\n\nProbability of obtaining test results at least as extreme as those observed in the sample, assuming\nthat H0 is correct. Commonly accepted as 0.05 (<5% of such repeated tests would show results\nthat extreme just by chance alone).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer — the indd slug 'FAS1_2026_06-PubHealth.indd 265' and the timestamp '12/16/25 12:46 PM' (page identity, book 265)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          287
+        ],
+        "bookPages": "265"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 265\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "distributions-map"
+  ],
+  "mechanismIds": [
+    "shape-center-spread-map",
+    "tail-drags-the-mean-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "shape-center-spread-decoder",
+      "summary": "The three-pass reading grammar for any distribution — CENTER (mean/median/mode ranked by outlier sensitivity: mean most affected, mode least, median rank-based with the even-n average-of-middle-two rule), SPREAD (SD scatters the values around their mean; SE scatters theoretical sample means around the true population mean; Variance = (SD)²; SE = σ/√n), SHAPE (Gaussian bell vs two humps vs one long tail) — feeding the printed routing rules: for normal distribution the mean is the best measure of central tendency, for skewed data the median is better than the mean, and bimodal data must be split into its two populations before summarizing.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definitions and the two routing sentences as parallel rows; the three-pass protocol, the outlier-sensitivity ranking as a decision axis, and the split-the-bimodal instruction are KYP's synthesis.",
+      "location": "core.what/core.why/core.keyIdea + mechanisms[0] shape-center-spread-map + blocks[4] the steps block + the registry visual's formula cards"
+    },
+    {
+      "id": "tail-drags-the-mean",
+      "summary": "The mechanism behind both printed skew orderings: every value enters the mean's sum, so the long tail drags the mean toward it ('mean falls closer to tail' prints for both skews) while the median only ranks and the mode sits at the peak — hence positive skew (tail right) gives mean > median > mode and negative skew (tail left) gives mean < median < mode, the inequality always pointing the same way as the tail; packaged with the 68-95-99.7 reading of the normal figure's below-axis braces (±1σ ≈ 68%, ±2σ ≈ 95%, ±3σ ≈ 99.7%) and the SE-vs-n square-root behavior (quadruple n, halve the SE).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two orderings and the band labels but never states WHY the mean moves toward the tail, never states the tail/inequality direction-match rule, and never derives the √n pacing; the mechanism, the direction-match rule, and the corollary are KYP's.",
+      "location": "mechanisms[1] tail-drags-the-mean-map + blocks[3] the figure-decoder list + blocks[5] the compare block + mnemonics 2-4"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the long-right-tail ordering stem, the symmetric-bell best-measure stem, the SE-when-n-quadruples arithmetic stem, the P value definition stem), 4 traps (positive vs negative skew; SD vs SE; mean vs mode outlier sensitivity; H0 vs H1), 3 pivots (the best-measure router; the bimodal split-don't-average; the P value as a conditional computed assuming H0, against the probability-of-truth misreading), and 8 recall cards covering every printed row plus the figures.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions only; the attack structure, the distractor options, and the classic P value misreading flag are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN red-printed linkage — H0 ↔ 'zero' difference / H1 ↔ 'at least one' difference or association (the subscript 0 of H0, the subscript 1 of H1, and the words 'zero' and 'one' print in RED BOLD on book 265; texttrace + VLM census) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the hypothesis table block, and the visual's H0/H1/P strip; plus THREE KYP originals, marked as such: 'THE MEAN CHASES THE TAIL' (both skew orderings via the dragging mechanism), '68–95–99.7 AT 1–2–3σ' (the normal bands), and 'QUADRUPLE n, HALVE THE SE' (the √n pacing of SE ↓ as n ↑).",
+      "origin": "outside-first-aid",
+      "rationale": "The red zero/one printing is the source's own emphasis (attributed, not counted as KYP's); no mnemonic prints anywhere on pdf 287 (pdfimages + the VLM census found none — no margin mnemonics); the three ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's Zone E strip and dispersion chip"
+    },
+    {
+      "id": "clinical-anchor-layer",
+      "summary": "The clinical anchor layer: the three printed bimodal examples unpacked — metabolic polymorphism such as fast vs slow acetylators (NAT2 pharmacogenomics, isoniazid-context KYP), age at onset of Hodgkin lymphoma (the young-adult and older-adult peaks, KYP), suicide rate by age (the two-peak age curve, KYP) — plus the skewed-data reporting habit (right-skewed clinical variables reported as medians) and the hypothesis-testing opener bridge: H0/H1/P value defined here, with the Type I/II error machinery continuing on book 266 (the hypothesis-testing-errors topic) and the SE feeding confidence intervals on book 267; the miniCase (hospital length-of-stay vignette) routes the printed rules against mean, mode, normal, and bimodal distractors.",
+      "origin": "outside-first-aid",
+      "rationale": "The three examples are printed (FA-own); their clinical unpacking, the reporting habit, the boundary framing, and the miniCase vignette with its distractors are KYP's design, flagged as such.",
+      "location": "clinical block + usmle.miniCase + related + crossLinks + the registry visual's bimodal anchor list"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 287 / book 265, carrying the 'Statistical distribution' table (Measures of central tendency — Mean/Median/Mode with outlier rules; Measures of dispersion — SD/SE plus the formula lines σ = SD, Variance = (SD)², SE = σ/√n, SE ↓ as n ↑; Normal distribution; the 'Nonnormal distributions' group with Bimodal distribution, Positive skew, Negative skew), FOUR pure-vector curve figures stacked in the right-hand column, and the 'Statistical hypothesis testing' opener (Null hypothesis, Alternative hypothesis, P value) — all carried VERBATIM in the note's two table blocks. CENSUS (pdfimages + PyMuPDF): ZERO raster images — 159 path objects on the page, 102 in the figure column; VLM WAS AVAILABLE this session (glm-4.6v, FOUR passes: full page 120dpi + three 300dpi figure-column crops, plus a PyMuPDF vector-geometry reconstruction and a rendered-pixel visibility scan — staging-pubh13/vlm-census.txt): the normal curve's σ tick labels print INSIDE the curve cascading down the contour and the 68%/95%/99.7% labels print BELOW the axis, stacked under the center, each above its horizontal curly brace (68% ±1σ narrowest at top, 99.7% ±3σ widest at bottom, cusps pointing down); the bimodal figure has NO Mode markers and NO σ ticks; the positive-skew markers read left-to-right Mode → Median → Mean and the negative-skew markers Mean → Median → Mode, both with dashed drop-lines; the hypothesis rows print First Aid's OWN red emphasis — the subscript 0 of H0, the subscript 1 of H1, and the words 'zero' and 'one' — carried VERBATIM and ATTRIBUTED (not counted among the KYP mnemonics); no margin mnemonics, no asterisk footnotes, no zebra striping (dotted hairlines only); the banner prints ONCE (running header only, NO in-body ribbon — unlike pdf 278). ADJUDICATION (all reads agree — raw text layer + PyMuPDF clip-respecting extraction + the pixel-visibility scan + the four VLM passes): the raw layer's σ ticks/percentages ×3 and Mode/Median/Mean cascades ×2 are CLIPPED, INVISIBLE DUPLICATE COPIES (an InDesign/plate artifact; the normal-curve group duplicated at +83.9pt and +14.4pt, the skew cascades at +14.4pt) — the page VISIBLY prints each label ONCE; evidence ranges pin the VISIBLE normal-curve spans in raw order (lines 51-61) and quote the interleaved duplicate spans (lines 62-115, including the merged line '–2σ–1σ +1σ +2σ' and the 'MedianMean' merge token) as the quirk, with the figure assignment explained claim-by-claim; the note's visual draws each label exactly once. The two small gray-blue vector 'Rx' icons (beside the 99.7% label and the negative-skew figure) are InDesign multimedia glyphs, not content — not redrawn (documented). Quirks carried + documented: 'SEC TION II' header-space artifact (known, as-is); small-caps artifact 'EPIDEmIOLOGY AND BIOSTATISTICS' (banner ONCE); C1 control bytes around the arrows in the raw formula line ('SE \\x90↓ as n \\x8f↑.' — the note carries 'SE ↓ as n ↑.'); 'Variance = (SD)2.' inline superscript extraction (print shows (SD)²); H0/H1 subscripts extract inline as 'H0'/'H1'; 'Measures of central tendency' and 'Measures of dispersion' wrap across two lines in their label cells; en-dash minus signs in the σ tick labels as printed. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (shape-center-spread-map, tail-drags-the-mean-map), a visual block + TWO verbatim table blocks (the Statistical distribution table; the Statistical hypothesis testing opener) + a figure-decoder list + a steps block + a compare block + an exam callout + a memory callout, a clinical block (the three printed bimodal anchors unpacked + the skewed-data reporting habit), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (hypothesis-testing-errors — book 266, the direct continuation; confidence-intervals-meta-analysis — book 267 upper; roc-precision-accuracy; statistical-tests — book 267 lower; all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own red H0↔zero/H1↔one linkage carried attributed + three KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/why-wrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints statistical distributions, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the printed fast-vs-slow-acetylator example is carried in the clinical block with its NAT2 pharmacogenomics context marked KYP; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-pubh1 and the batch-1 manifests; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh13/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'distributions-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (distributions-map, DistributionsMap in visuals/pubhealth-p13.tsx, viewBox 0 0 1102 1352): the table/text blocks as an ORIGINAL KYP ADAPTATION (the central-tendency cards with their outlier chips, the dispersion formula chips, and the H0/H1/P strip with First Aid's red zero/one carried attributed) and the four curve figures as an ORIGINAL_KYP_REDRAW (the 68-95-99.7 bell with graded σ bands, inside-curve cascading σ labels and below-axis stacked braces; the bimodal twin peaks with the three printed anchors; the two skew panels with dashed drop-lines and the census-pinned marker orders) — with the full table text ALSO carried verbatim in the note's two table blocks.",
+  "updatedAt": "2026-11-22"
+}

@@ -1,0 +1,16 @@
+import ZAI from 'z-ai-web-dev-sdk';
+import { readFileSync } from 'fs';
+async function main() {
+  const zai = await (ZAI as any).create();
+  const b64 = readFileSync('/tmp/pubh11-page-285.png').toString('base64');
+  const r = await zai.chat.completions.createVision({
+    model: 'glm-4.6v',
+    messages: [{ role: 'user', content: [
+      { type: 'text', text: 'This is First Aid USMLE 2026 Part 1, pdf page 285 / printed book page 263, banner "PUBLIC HEALTH SCIENCES—EPIDEMIOLOGY AND BIOSTATISTICS". The page carries ONE table titled "Bias and study errors" with columns TYPE / DEFINITION / EXAMPLES / STRATEGIES TO REDUCE BIAS and SEVEN bias rows, plus a small left-side rail of study-stage labels. Describe the page precisely and completely: (1) THE TABLE — list EVERY row in PRINTED order with all four cells verbatim (Selection bias, Recall bias, Measurement bias, Procedure bias, Observer-expectancy bias, Lead-time bias, Length-time bias — report the EXACT printed text of every TYPE, DEFINITION, EXAMPLES, and STRATEGIES TO REDUCE BIAS cell, including capitalization, hyphens, em-dashes, parentheses, and the "Most commonly a sampling bias" line in the Selection bias definition cell); confirm there are exactly SEVEN rows and none missing or extra; (2) THE MERGED STRATEGIES CELL — the critical part: does the STRATEGIES TO REDUCE BIAS column have ONE single merged cell that vertically SPANS BOTH the Procedure bias row AND the Observer-expectancy bias row, reading "Blinding (masking) and use of placebo reduce influence of participants and researchers on procedures and interpretation of outcomes as neither are aware of group assignments"? Or are there two separate strategy cells in those two rows (if so, quote each cell separately and exactly)? Also confirm whether the Procedure bias row has ANY separate strategy text of its own; (3) RED / COLORED TEXT — which words or lines anywhere on the page print in RED (or any color other than black/gray)? Check specifically: "Hawthorne watches you like a hawk." in the Measurement bias examples cell, "(bedside bias)" in the Berkson bias example, "Most commonly a sampling bias" in the Selection bias definition cell, the seven bias TYPE names in the left column, the column headers, and the table title "Bias and study errors" (state its color); (4) THE SIDE RAIL — the left side of the table prints three study-stage labels: "Recruiting participants", "Performing study", "Interpreting results". Describe exactly where each label sits vertically (which bias rows does each stage label sit next to / span), and state which of the seven biases fall under each of the three stages; are these labels inside colored boxes, brackets, or arrows on the left margin?; (5) any margin notes, mnemonics printed in the margins, asterisk footnotes, images, or icons anywhere on the page; (6) the header/banner lines at the top (does the subsection banner print once or twice on this page?) and the footer slug with timestamp; (7) state any words that look truncated or hyphenated across line wraps (eg, "follow up" vs "follow-up"). Preserve exact printed spellings.' },
+      { type: 'image_url', image_url: { url: `data:image/png;base64,${b64}` } },
+    ]}],
+    thinking: { type: 'disabled' },
+  });
+  console.log(String(r.choices?.[0]?.message?.content));
+}
+main();

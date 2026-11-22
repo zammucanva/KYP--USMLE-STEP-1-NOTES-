@@ -1,0 +1,73 @@
+{
+  "topicId": "confidence-intervals-meta-analysis",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "confidence-intervals-meta-analysis",
+      "requiredInKYP": true,
+      "visualId": "confidence-intervals-meta-analysis-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Confidence interval block with its significance-rules panel (book 267 upper): the definition (range of values within which the true mean of the population is expected to fall, with a specified probability), the level rule CI = 1 – α with the 95% convention, the formula CI for sample mean = x ± Z(SE), the Z constants 1.96 (95%) and 2.58 (99%), the sample-size narrowing rule, and the six mirrored verdict rules (excludes/includes 0 for mean differences, excludes/includes 1 for OR/RR, non-overlap/overlap between two groups) — the estimate side of the chapter's inference story",
+      "sourceFigureDescription": "PURE TEXT, no raster (pdfimages: zero raster images; VLM-read in TWO passes — 120dpi full page + 300dpi upper crop, staging-pubh15/vlm-census.txt): the bold dark-navy heading 'Confidence interval' in the left label column with the body text right of it (definition; 'CI = 1 – α. The 95% CI (corresponding to α = 0.05) is often used. As sample size increases, CI narrows.'; 'CI for sample mean = x ± Z(SE)' with the sample-mean x printed with an OVERBAR and the ± as a true plus-minus; 'For the 95% CI, Z = 1.96.'; 'For the 99% CI, Z = 2.58.'), and BESIDE it in the same vertical band (upper-right; bbox x≈421–612 vs the CI body x≈199–380) a BORDERLESS rules panel with small light-teal filled-square bullets and H0 with a subscript zero: 'H0 is rejected (and results are significant) when:' + '95% CI for mean difference excludes 0' + '95% CI OR or RR excludes 1' + 'CIs between two groups do not overlap', then 'H0 is not rejected (and results are not significant)' / 'when:' (the lead-in wraps, 'when:' alone on its own line) + the three mirror bullets (includes 0, includes 1, do overlap). The panel extracts AFTER the Meta-analysis body in the raw text stream (reading-order jumble; print position pinned by bbox + VLM). NO figure prints anywhere in the upper portion (both VLM passes explicit: no curve, distribution, error bars, forest plot, or icons) — the brief's possible distribution figure beside the CI block was NOT found.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "ci-meta-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A + Zone B of the registry visual (CiMetaMap in visuals/pubhealth-p15.tsx): Zone A the formula card (the printed definition and level rule, the big x̄ ± Z(SE) with a drawn overbar, the two Z-constant chips, the small-n/large-n narrowing dial, and the number line with the 95% bracket sitting inside the wider 99% bracket around the x̄ tick) and Zone B the six verdict rules as mirrored number-line glyphs (green rejected column: brackets excluding the null ticks 0 and 1, two disjoint group brackets; warning not-rejected column: brackets straddling the nulls, two overlapping group brackets) plus the KYP null-value router strip — every printed word preserved verbatim; all number-line geometry is KYP's. The full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list (blocks[2]), the steps block (blocks[3]), and recall[0-5]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ci-meta-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "confidence-intervals-meta-analysis",
+      "requiredInKYP": true,
+      "visualId": "confidence-intervals-meta-analysis-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Meta-analysis block (book 267 upper, full width below a thin rule): a method of statistical analysis that pools summary data (eg, means, RRs) from multiple studies for a more precise estimate of the size of an effect; also estimates heterogeneity of effect sizes between studies; improves power, strength of evidence, and generalizability (external validity) of study findings; limited by quality of individual studies and bias in study selection — the evidence pyramid's pooling layer",
+      "sourceFigureDescription": "PURE TEXT, no raster (pdfimages: zero raster images; VLM-read in two passes, staging-pubh15/vlm-census.txt): the bold dark-navy heading 'Meta-analysis' in the left label column below a thin horizontal rule, with three body sentences printed full-width in plain black text (no bold lead-ins, no colored text): 'A method of statistical analysis that pools summary data (eg, means, RRs) from multiple studies for a more precise estimate of the size of an effect. Also estimates heterogeneity of effect sizes between studies.' / 'Improves power, strength of evidence, and generalizability (external validity) of study findings.' / 'Limited by quality of individual studies and bias in study selection.' 'eg' prints without periods (First Aid house style); the wraps are clean. NO figure prints with the block (both VLM passes: no forest plot, no icons — the area is pure text).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "ci-meta-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (CiMetaMap in visuals/pubhealth-p15.tsx): the pooling diagram — three KYP study cards (summary RR/mean estimates, each with a wide interval) converging by arrows into one POOLED ESTIMATE card carrying a visibly narrower interval ('a more precise estimate of the size of an effect'), the heterogeneity chip ('Also estimates heterogeneity of effect sizes between studies.'), the gains chip ('Improves power, strength of evidence, and generalizability (external validity) of study findings.'), the limits chip ('Limited by quality of individual studies and bias in study selection.'), and the KYP bridge strip tying pooling to the printed narrowing rule; every quoted sentence is the print's own, the pooling geometry and the three study cards are KYP's. The full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, mechanisms[1], and recall[6-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ci-meta-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "confidence-intervals-meta-analysis",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pinned upper portion of book 267 (through the end of the Meta-analysis block; 'Common statistical tests' below belongs to statistical-tests) carries TWO visual assets — the Confidence interval block WITH its borderless significance-rules panel (sv1: definition, CI = 1 – α, x ± Z(SE), the Z constants 1.96/2.58, the narrowing rule, and the six mirrored verdict rules) and the Meta-analysis block (sv2: pooling, heterogeneity, gains, limits) — both accounted for as ORIGINAL KYP ADAPTATIONS in ONE registry visual (ci-meta-map, CiMetaMap in visuals/pubhealth-p15.tsx, viewBox 0 0 1102 1238): Zone A the formula card with the number line and Z chips, Zone B the six verdict rules as mirrored number-line glyphs with the null-value router strip, Zone C the pooling diagram with the heterogeneity/gains/limits chips and the bridge strip. Nothing is reproduced — the census found NO figure anywhere in the upper portion (pdfimages: zero rasters; VLM two passes: no curve, distribution, error bars, forest plot, or icons; the page's only figure lies below the split and belongs to statistical-tests), so every number line, bracket, tick, and pooling arrow is KYP-drawn geometry with the printed words preserved. ADJUDICATIONS: (A) the brief's possible distribution figure beside the CI block — NONE found, no figure record claimed; (B) the rules panel is assigned to sv1 (it prints in the CI band, no heading of its own, all six rules are CI-application rules); (C) FA-own mnemonic count ZERO in scope — all four mnemonics are KYP originals. Quirks documented: the reading-order jumble (the rules panel prints upper-right beside the CI block but extracts after the Meta-analysis body — bbox + VLM pinned), the teal square bullet glyphs extracting as C1 control byte + U+2598, the spaced en-dash in 'CI = 1 – α', the x-bar overbar and H0 subscript flattening in the text layer, the 'when:' line-wrap, the 'SEC TION II' and 'EPIDEmIOLOGY' small-caps artifacts, and the ONE-instance banner. STAGED under .usmle-pipeline-cache/staging-pubh15/ — promotion into content/ is owned downstream."
+}

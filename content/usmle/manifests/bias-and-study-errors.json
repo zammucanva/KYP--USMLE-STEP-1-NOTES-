@@ -1,0 +1,256 @@
+{
+  "topicId": "bias-and-study-errors",
+  "title": "Bias and Study Errors: The Seven Traps and Their Fixes",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      285
+    ],
+    "bookPages": "263–263"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 263, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, the subsection banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printing ONCE in the running header (this is not the subsection opener — no in-body ribbon; small-caps 'm' artifact as extracted), and the table title 'Bias and study errors'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS\n\nSEC TION II\n\n263\n\nBias and study errors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's four column headers — TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS (the EXAMPLES header extracts with a lowercase 'm' — a small-caps extraction artifact, carried as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "TYPE\n\nDEFINITION\n\nEXAmPLES\n\nSTRATEGIES TO REDUCE BIAS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1, part 1 — Selection bias DEFINITION cell: 'Nonrandom sampling or treatment allocation of subjects such that study population is not representative of target population' + the printed sub-line 'Most commonly a sampling bias' (prints BLACK, pixel-pinned) + 'Convenience sampling—patients are enrolled on basis of ease of contact' (ADJUDICATION: prints in the DEFINITION column — bbox x 199.5-303.6 + the VLM pass agree — as the cell's third stacked block; the task brief listed it among the examples; print governs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Nonrandom sampling\nor treatment allocation\nof subjects such that\nstudy population is not\nrepresentative of target\npopulation\nMost commonly a sampling\nbias\nConvenience sampling—\npatients are enrolled on basis\nof ease of contact",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1, part 2 — Selection bias EXAMPLES + STRATEGIES cells (raw reading order interleaves the two columns): Berkson bias—cases and/or controls selected from hospitals (bedside bias) are less healthy and have different exposures ('and/or' wraps across lines in the raw layer — the joined form is carried); Attrition bias—participants lost to follow up have a different prognosis than those who complete the study ('follow up' prints as TWO WORDS here, verb); Randomization (creates groups with similar distributions of known and unknown variables); Ensure the choice of the right comparison/reference group",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Randomization (creates groups\nBerkson bias—cases and/\nwith similar distributions\nor controls selected from\nof known and unknown\nhospitals (bedside bias) are\nvariables)\nless healthy and have different\nEnsure the choice of the right\nexposures\ncomparison/reference group\nAttrition bias—participants lost\nto follow up have a different\nprognosis than those who\ncomplete the study",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 — Recall bias → Awareness of disorder alters recall by subjects; common in retrospective studies → Patients with disease recall exposure after learning of similar cases → Decrease time from exposure to follow-up (hyphenated noun here); use medical records as sources",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Recall bias\n\nAwareness of disorder alters\nrecall by subjects; common in\nretrospective studies\n\nPatients with disease recall\nexposure after learning of\nsimilar cases\n\nDecrease time from exposure\nto follow-up; use medical\nrecords as sources",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 — Measurement bias → Information is gathered in a systemically distorted manner → Using a faulty automatic sphygmomanometer; Hawthorne effect—participants change behavior upon awareness of being observed (Hawthorne watches you like a hawk). [First Aid's OWN mnemonic, printed in RED in the cell — carried VERBATIM and ATTRIBUTED] → Use objective, standardized, and previously tested methods of data collection that are planned ahead of time; Use placebo group",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Measurement bias\n\nInformation is gathered in a\nsystemically distorted manner\n\nUsing a faulty automatic\nsphygmomanometer\nHawthorne effect—participants\nchange behavior upon\nawareness of being observed\n(Hawthorne watches you like\na hawk).\n\nUse objective, standardized,\nand previously tested methods\nof data collection that are\nplanned ahead of time\nUse placebo group",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 — Procedure bias → Subjects in different groups are not treated the same → Patients in treatment group spend more time in highly specialized hospital units → [its STRATEGIES cell is the ONE merged cell shared with row 5, quoted with row 5]",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Procedure bias\n\nSubjects in different groups are\nnot treated the same\n\nPatients in treatment group\nspend more time in highly\nspecialized hospital units",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 5 + THE MERGED STRATEGIES CELL — Observer-expectancy bias ('Observer-expectancy / bias' wraps across two lines in its TYPE cell) → Researcher's belief in the efficacy of a treatment changes the outcome of that treatment (also called Pygmalion effect) → An observer expecting treatment group to show signs of recovery is more likely to document positive outcomes; AND the print's ONE merged STRATEGIES cell spanning BOTH the Procedure bias and Observer-expectancy bias rows: 'Blinding (masking) and use of placebo reduce influence of participants and researchers on procedures and interpretation of outcomes as neither are aware of group assignments' (ADJUDICATION: the task brief described TWO separate strategy cells — bbox y-span 449.5-527.5 + -layout flow + the zoom VLM pass all agree the print has ONE merged cell with no internal divider; brief corrected to print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Observer-expectancy\nbias\n\nResearcher’s belief in the\nAn observer expecting\nefficacy of a treatment changes\ntreatment group to show signs\nthe outcome of that treatment\nof recovery is more likely to\n(also called Pygmalion effect)\ndocument positive outcomes\n\nBlinding (masking) and\nuse of placebo reduce\ninfluence of participants and\nresearchers on procedures and\ninterpretation of outcomes\nas neither are aware of group\nassignments",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE STUDY-STAGE RAIL — the three band labels printing inside the table as full-width light-teal shaded bands: 'Recruiting participants' (governs the Selection bias row), 'Performing study' (governs Recall / Measurement / Procedure / Observer-expectancy), 'Interpreting results' (governs Lead-time / Length-time) — AND the reading-order quirk: the TYPE cells 'Selection bias' (row 1) and 'Lead-time bias' (row 6) extract LATE in the raw layer, interleaved with the band labels (rows 2-5 extract in place); the 1-4-2 stage mapping is pinned by bbox + the VLM passes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Recruiting participants\nSelection bias\n\nPerforming study\n\nInterpreting results\nLead-time bias",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 6 — Lead-time bias → Early detection interpreted as ↑ survival, but the disease course has not changed [a C1 control byte precedes the ↑ arrow in the raw layer — known artifact, stripped by the verifier; the book prints the 'E' of 'Early' and the 'd' of 'detection' in RED — its own letter-link L(e)a(d)-time = (E)arly (d)etection, carried ATTRIBUTED] → Breast cancer diagnosed early by mammography may appear to exaggerate survival time because patients are known to have the cancer for longer → Measure 'back-end' survival (adjust survival according to the severity of disease at the time of diagnosis); a caveat of adjusting for severity is the potential masking of causality",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Early detection interpreted as\n↑ survival, but the disease\ncourse has not changed\n\nBreast cancer diagnosed early\nby mammography may\nappear to exaggerate survival\ntime because patients are\nknown to have the cancer for\nlonger\n\nMeasure “back-end” survival\n(adjust survival according to\nthe severity of disease at the\ntime of diagnosis); a caveat\nof adjusting for severity is the\npotential masking of causality",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 7 — Length-time bias → Screening test detects diseases with long latency period, while those with shorter latency period become symptomatic earlier → A slowly progressive cancer is more likely detected by a screening test than a rapidly progressive cancer → A randomized controlled trial assigning subjects to the screening program or to no screening",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "Length-time bias\n\nScreening test detects diseases\nwith long latency period,\nwhile those with shorter\nlatency period become\nsymptomatic earlier\n\nA slowly progressive cancer\nis more likely detected by a\nscreening test than a rapidly\nprogressive cancer\n\nA randomized controlled trial\nassigning subjects to the\nscreening program or to no\nscreening",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug — 'FAS1_2026_06-PubHealth.indd 263' + timestamp 12/16/25 12:46 PM (page identity, book 263)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 263\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "bias-map"
+  ],
+  "mechanismIds": [
+    "stage-trap-map",
+    "fix-toolbox-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "stage-decoder-grammar",
+      "summary": "The three-stage grammar of the printed rail: every study passes Recruiting participants → Performing study → Interpreting results, and each bias enters at the stage whose work it distorts — the recruiting band holds ONE trap (selection, with its three printed faces: convenience, Berkson 'bedside', attrition), the performing band holds FOUR (recall, measurement, procedure, observer-expectancy — what is remembered, measured, done, expected), the interpreting band holds TWO (lead-time, length-time — how screening results are read); the 1-4-2 census and the 'stage → distorted action → trap → fix' decode are the KYP synthesis of the printed bands.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three band labels as group headers but never states the generating grammar (the stage where the distortion enters names the trap) nor the 1-4-2 census; the synthesis is KYP's.",
+      "location": "core.keyIdea MOVES 1-2 + mechanisms[0] stage-trap-map + blocks[3] the steps block + the registry visual's left rail and rule strip"
+    },
+    {
+      "id": "fix-toolbox-mapping",
+      "summary": "The fix-toolbox reading of the STRATEGIES column: six printed fix families mapped stage-to-trap — randomization (similar distributions of known and unknown variables) + the right comparison/reference group → selection; a shorter exposure-to-follow-up window + medical records → recall; objective, standardized, previously tested methods planned ahead of time + a placebo group → measurement; the ONE merged cell (blinding (masking) + placebo, neither participants nor researchers aware of assignments) → procedure AND observer-expectancy together; back-end survival adjusted for severity at diagnosis (caveat: potential masking of causality) → lead-time; the screening RCT (screening program vs no screening) → length-time; the claim 'fixes are stage-matched' and the read-a-named-fix-backwards move are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the strategies per row; the toolbox organization, the stage-matching rule, and the reverse-reading move are KYP's design.",
+      "location": "mechanisms[1] fix-toolbox-map + core.keyIdea MOVE 4 + blocks[2] the decoder list + the registry visual's fix chips and merged fix box"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the mammography lead-time stem, the slowly-progressive-cancer length-time stem, the solvent-recall case-control stem, the wearable-monitor Hawthorne stem), 4 traps (lead-time vs length-time; Hawthorne vs observer-expectancy — whose awareness acts; procedure vs observer-expectancy — unequal care vs expectant documentation, both killed by the merged cell; Berkson vs attrition — the two enrollment-vs-retention faces of selection), 3 pivots (the screening-bias router, the bias-vs-confounding boundary with the next page, the named-fix read backwards), and 9 recall cards covering all seven rows plus the rail and the randomization fix.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions, examples, and strategies only; the attack structure, distractor shapes, and question templates are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN printed hooks — '(Hawthorne watches you like a hawk).' (red in the Measurement bias EXAMPLES cell), the '(bedside bias)' nickname (red letter-link 'be…bias' in the Berkson example), and the red E+d letter-link binding L(e)a(d)-time bias to '(E)arly (d)etection' — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's cards; plus TWO KYP originals, marked as such: 'ONE RECRUITS, FOUR PERFORM, TWO INTERPRET' (the 1-4-2 stage census) and 'LEAD-TIME STEALS A HEAD START; LENGTH-TIME FAVORS THE SLOW' (the two screening biases and their fixes).",
+      "origin": "outside-first-aid",
+      "rationale": "The three hooks are the source's own (attributed, not counted as KYP's — the red letter-link device is pinned by PyMuPDF span colors + 300dpi pixel reads + the VLM pass); no margin mnemonic prints anywhere on pdf 285 (pdfimages + the VLM census); the two ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's card hook lines"
+    },
+    {
+      "id": "clinical-and-boundary-layer",
+      "summary": "The clinical anchor layer: the page's four printed props — the faulty automatic sphygmomanometer (measurement), the highly specialized hospital unit (procedure), the mammography/breast-cancer screening example (lead-time), and the slowly-vs-rapidly progressive cancer (length-time) — plus the observational validity boundary framing (all seven rows are BIAS; book 264 opens 'Confounding vs effect modification', the rival third-variable explanation — a different beast) and the miniCase (the hospital-recruited bladder-cancer case-control vignette routed to Berkson/selection bias against recall, Hawthorne/measurement, observer-expectancy, and lead-time distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "The props and examples themselves are printed (FA-own); the anchor organization, the boundary framing, and the miniCase vignette with its distractors are KYP's design, flagged as such.",
+      "location": "clinical block + usmle.miniCase + usmle.patterns + the registry visual's example lines"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 285 / book 263, carrying the 'Bias and study errors' table (columns TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS, SEVEN rows in printed order: Selection, Recall, Measurement, Procedure, Observer-expectancy, Lead-time, Length-time — carried VERBATIM in the note's table block, blocks[1]) PLUS the study-stage rail printing as three full-width light-teal bands INSIDE the table (Recruiting participants / Performing study / Interpreting results — the 1-4-2 grouping). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass + TWO zoom passes, staging-pubh11/vlm-census.txt), colors PINNED by PyMuPDF span reads + 300dpi pixel sampling: exactly SEVEN rows confirmed in printed order (none missing or extra); the STRATEGIES column carries ONE merged cell spanning the Procedure + Observer-expectancy rows; navy title/headers, teal TYPE names + band labels, black body; red reserved for FA's letter-link hooks ('(bedside bias)', the Hawthorne mnemonic's watch-words + 'observed', the E+d of Lead-time = Early detection); 'Most commonly a sampling bias' prints BLACK (the VLM's first red call was pixel-corrected); no margin notes, mnemonics, asterisk footnotes, or images. ADJUDICATIONS (all reads agree — raw text layer + pdftotext -bbox/-layout + PyMuPDF spans + pixel sampling + the VLM passes): (A) ONE merged STRATEGIES cell spans rows 4-5 ('Blinding (masking) and use of placebo reduce influence of participants and researchers on procedures and interpretation of outcomes as neither are aware of group assignments') — the task brief described two separate cells; brief corrected to print, and the note's table + the visual's merged fix box draw it exactly as printed; (B) 'Convenience sampling—patients are enrolled on basis of ease of contact' prints in the DEFINITION column (the brief listed it among the examples; print governs — the EXAMPLES cell carries Berkson + Attrition only); (C) 'Most commonly a sampling bias' prints black (VLM color call corrected by pixel sampling); (D) the stage rail prints as full-width bands inside the table, mapping 1-4-2. Quirks carried + documented: 'SEC TION II' header-space artifact (known, as-is); small-caps artifacts 'EPIDEmIOLOGY AND BIOSTATISTICS' (banner prints ONCE — running header only, not the subsection opener) and the column header 'EXAmPLES'; 'follow up' (two words, Attrition verb) vs 'follow-up' (hyphenated, Recall strategy noun) both as printed; em-dashes in the four 'name—' compounds; curly quotes/apostrophe in 'Measure “back-end” survival' and 'Researcher’s'; the C1 control byte before the ↑ arrow in '↑ survival' (carried in the evidence quote, stripped by the verifier); 'and/' + 'or' line-wrap split (joined 'and/or' carried); 'Observer-expectancy / bias' wraps in its TYPE cell; rows 1 and 6's TYPE cells extract late interleaved with the band labels (raw lines 108-114) — positions bbox-pinned; sentence-final periods normalized in the verbatim table (the text layer prints terminal punctuation only inside the Hawthorne mnemonic). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (stage-trap-map, fix-toolbox-map), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the four printed props + the confounding boundary), 4 patterns, 4 traps, 3 pivots, 9 recall, 4 related (confounding-effect-modification — produced in parallel in this same batch, referenced by design; clinical-therapeutic-trials; observational-studies; roc-precision-accuracy — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own three hooks carried attributed + two KYP originals marked — the ledger holds 4 entries: the Hawthorne mnemonic, the Berkson bedside nickname, and the two KYP codes, with the E+d letter-link carried inside the Hawthorne/Lead-time material and the memory callout), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints biases, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the printed clinical props are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh11/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'bias-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (bias-map, BiasMap in visuals/pubhealth-p11.tsx, viewBox 0 0 1102 1360): the seven-row table as an ORIGINAL KYP ADAPTATION (seven cards in printed order carrying definition → examples → FIX chip, with FA's red hooks attributed and the merged blinding-and-placebo cell drawn as ONE fix box spanning the Procedure + Observer-expectancy cards) and the stage rail as an ORIGINAL KYP ADAPTATION (the three full-width bands re-drawn as a docked left rail with the 1-4-2 census and band-to-card connectors) — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

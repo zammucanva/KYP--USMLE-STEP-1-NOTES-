@@ -1,0 +1,16 @@
+import ZAI from 'z-ai-web-dev-sdk';
+import { readFileSync } from 'fs';
+async function main() {
+  const zai = await (ZAI as any).create();
+  const b64 = readFileSync('/tmp/pubh13-page-287.png').toString('base64');
+  const r = await zai.chat.completions.createVision({
+    model: 'glm-4.6v',
+    messages: [{ role: 'user', content: [
+      { type: 'text', text: 'This is First Aid USMLE 2026 Part 1, pdf page 287 / printed book page 265, banner "PUBLIC HEALTH SCIENCES—EPIDEMIOLOGY AND BIOSTATISTICS", section "Statistical distribution". The page has a left-hand table (rows: Measures of central tendency / Measures of dispersion / Normal distribution / Nonnormal distributions with sub-rows Bimodal distribution, Positive skew, Negative skew) and a right-hand column of small CURVE FIGURES. Answer precisely, figure by figure: (1) HOW MANY distinct curve figures print in the right column (count every separate curve drawing, including any that repeat), top to bottom, and which table row each sits beside; (2) THE NORMAL CURVE(S): for each bell-curve figure, list the EXACT x-axis tick labels printed under/around it left to right (are they –3σ, –2σ, –1σ, +1σ, +2σ, +3σ?), and the percentage labels printed inside or beside it (68%, 95%, 99.7%?) — do the SAME σ ticks and percentages print MORE THAN ONCE, i.e., does the page print TWO normal curves each with the 68/95/99.7 bands, or one? Where do the 68%/95%/99.7% labels sit relative to the curve (stacked at the center? outside?)? (3) THE BIMODAL FIGURE: describe it — two humps? does it have σ tick labels or percentage labels of its own, or is it adjacent to a normal curve with them? Where do the "Mode" markers sit (one on each peak?)? Does it share a figure with anything else? (4) THE POSITIVE SKEW FIGURE: which direction does the long tail point? List the marker labels on/under the curve LEFT TO RIGHT in printed order (Mode, Median, Mean?) and say where each sits (Mode at the peak? Mean closest to the tail? Median between?). Does THIS figure also carry σ ticks or 68%/95%/99.7% labels of its own? (5) THE NEGATIVE SKEW FIGURE: same questions — tail direction, the LEFT-TO-RIGHT printed order of Mode/Median/Mean markers, any σ ticks or percentage labels. (6) OVERALL LAYOUT: are the curve figures stacked vertically in one narrow right column? Which figure is tallest? Are the skew curves drawn with their own small x-axes with tick marks? (7) THE BOTTOM BLOCK: does a "Statistical hypothesis testing" block print at the BOTTOM of the page below the distributions, with rows Null hypothesis (H0), Alternative hypothesis (H1), P value — and is its layout a continuation of the same left-label/right-text table? (8) COLOR FURNITURE: what colors are the curves, the shaded bands under the normal curve(s), the σ tick labels, the percentage labels, the Mode/Median/Mean markers, and the table text (any red/blue)? (9) Any margin notes, mnemonics in margins, asterisk footnotes, or raster images anywhere on the page? Preserve exact printed spellings (–3σ with en-dash, 99.7%, "MedianMean" if two labels touch).' },
+      { type: 'image_url', image_url: { url: `data:image/png;base64,${b64}` } },
+    ]}],
+    thinking: { type: 'disabled' },
+  });
+  console.log(String(r.choices?.[0]?.message?.content));
+}
+main();

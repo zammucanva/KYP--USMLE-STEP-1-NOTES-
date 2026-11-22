@@ -1,0 +1,73 @@
+{
+  "topicId": "confounding-effect-modification",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "confounding-effect-modification",
+      "requiredInKYP": true,
+      "visualId": "confounding-effect-modification-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Confounding vs effect modification table (book 264): columns TYPE / DEFINITION / EXAMPLES / STRATEGIES TO REDUCE BIAS, TWO rows — the Epidemiology and Biostatistics subsection's third-variable page: confounding (factor related to both exposure and outcome, not on a causal pathway, no association after stratification; coffee/lung-cancer example; crossover, matching, analytic techniques) vs effect modification (different outcomes in subgroups stratified by factor, true association exists; OCP/DVT example; stratified analysis after testing for interaction)",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi + 300dpi zoom, staging-pubh12/vlm-census.txt — VLM available this session): the running header (book page 264, SEC TION II, PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printed ONCE — running header only), the table title 'Confounding vs effect modification' (blue bold, left-aligned), column headers TYPE / DEFINITION / EXAMPLES / STRATEGIES TO REDUCE BIAS (small caps on a light gray header band; the EXAMPLES header extracts as 'EXAmPLES' — small-caps artifact), then TWO rows in printed order with BLUE BOLD row labels, dotted hairline separators (no zebra), and BOLD verdict sub-lines inside the DEFINITION cells ('No association after stratification'; 'True association exists') — NO red text anywhere: Confounding — Factor related to both exposure and outcome (not on a causal pathway) distorts the effect on the outcome; No association after stratification; Coffee appears to be linked to lung cancer, but smoking is the true cause, as coffee drinkers tend to smoke more; Crossover studies (subject serves as self-control); Matching (patients with similar characteristics in both treatment and control groups); Analytic techniques (eg, regression analysis when confounding variables are known and were measured); Effect modification — Exposure leads to different outcomes in subgroups stratified by factor; True association exists; A study among women using OCPs showed significant risk of DVT, but when these data were stratified by smoking habits, there was a very strong association between OCP use and DVT among smokers, but there was no such association in people who do not smoke; Stratified analysis (eg, after testing for interaction between OCP and smoking, analyze risk among smokers and nonsmokers).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "confounding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the two-card digest band (Zone C) + the two verdict strips (Zone A) in the registry visual (ConfoundingMap in visuals/pubhealth-p12.tsx): one card per printed row in PRINTED order, each carrying the definition sentence, the verdict chip (No association after stratification / True association exists), the printed example, and the full strategy cell, with the small-caps 'EXAmPLES' artifact documented on the band; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[2]), and recall[0-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confounding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "confounding-effect-modification",
+      "requiredInKYP": true,
+      "visualId": "confounding-effect-modification-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          286
+        ],
+        "bookPages": "264"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The two crude-vs-stratified diagram groups + their shared arrow legend (book 264): group 1 'Confounding' (Crude: Drinking coffee -> Lung cancer; Stratified: Smokers / Nonsmokers rows; 'Note: Association disappeared after stratification.') and group 2 'Effect modification' (Crude: OCP use -> DVT; Stratified: Smokers / Nonsmokers rows; 'Note: Association was strong in one subgroup with weak/no association in the other subgroup.'), with the three-entry legend decoding the arrow grammar — the page's visual grammar for what stratification reveals: collapse = confounding, split = effect modification",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox + pdftotext -layout + THREE VLM passes + an objective PIXEL census of the 300dpi bitmap, staging-pubh12/vlm-census.txt): TWO diagram groups stacked below the table, each with a centered title in a gray rounded box ('Confounding'; 'Effect modiﬁcation' — ﬁ ligature), bold horizontal left labels 'Crude analysis' and 'Stratified analysis' (the latter printing between the crude row and the first stratified row but extracting after the stratum rows in the text layer — a reading-order quirk), tan/orange exposure boxes ('Drinking coffee'; 'OCP use'), light-blue outcome boxes ('Lung cancer'; 'DVT'), light-gray stratum boxes ('Smokers'; 'Nonsmokers') at the left of each stratified row, and dark-gray right-pointing arrows in three styles: crude row = THIN SOLID (~1.0pt), Smokers row = THICK SOLID (~2.2pt), Nonsmokers row = THIN DASHED (~13px dashes) — the identical grammar in BOTH groups. Below group 2's note prints the SHARED ARROW LEGEND once (sample arrow + label per entry, NO leader lines): thick solid = 'Strong association'; thin solid = 'Signiﬁcant association' (ﬁ ligature); thin dashed = 'Weak/no association'; a small ▶ multimedia marker prints near the right margin at this level. The two notes print at the left margin directly below their group's last row: 'Note: Association disappeared after stratiﬁcation.' and 'Note: Association was strong in one subgroup with weak/no association in the other subgroup.'",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "confounding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A (the two parallel vertical lanes) + Zone B (the arrow legend + KYP rule strip) of the registry visual (ConfoundingMap in visuals/pubhealth-p12.tsx): the book's two stacked groups re-arranged as TWO PARALLEL LANES — Lane 1 Confounding (Drinking coffee -> Lung cancer; the smoking stratification; the verdict strip 'No association after stratification' + 'Note: Association disappeared after stratiﬁcation.' + the three printed reduction strategies) and Lane 2 Effect modification (OCP use -> DVT; the smoking stratification splitting it; the verdict strip 'True association exists' + the printed Note + the stratified-analysis handling) — every printed label preserved, the three arrow styles drawn exactly as the print's legend decodes them (thick solid / thin solid / thin dashed, with KYP style tags under each arrow), then the legend drawn once exactly as it prints below the second group, plus the KYP rule strip (COLLAPSE = CONFOUND · SPLIT = MODIFY) and the smoking double-role line; the figure's semantics are also carried in mechanisms[0] confounding-collapse-map, mechanisms[1] effect-modification-split-map, blocks[4] the compare block, and recall[6-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confounding-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "confounding-effect-modification",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the Confounding vs effect modification table (sv1: TWO rows, columns TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS, with the bold verdict sub-lines 'No association after stratification' / 'True association exists' and both printed worked examples) and the two crude-vs-stratified diagram groups + their shared arrow legend (sv2: group 1 'Confounding' and group 2 'Effect modification', each with a Crude analysis row, two Stratified analysis rows, and its printed Note; then the three-entry legend decoding the arrow grammar) — both accounted for in ONE registry visual (confounding-map, ConfoundingMap in visuals/pubhealth-p12.tsx, viewBox 0 0 1102 1194): the table as an ORIGINAL KYP ADAPTATION (two-row digest band + verdict strips carrying the table's verdict sub-lines and strategy cells) and the diagrams + legend as an ORIGINAL_KYP_REDRAW (the book's two stacked groups re-arranged as TWO PARALLEL VERTICAL LANES, each ending in its printed verdict strip — confounding: coffee -> lung cancer collapsing on smoking stratification; effect modification: OCP use -> DVT splitting on smoking stratification — every printed label preserved); nothing is reproduced, and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — glm-4.6v full-page 120dpi + 300dpi zoom + a targeted 300dpi confirmation pass PLUS an objective pixel census of the 300dpi bitmap (vlm-census.txt) confirmed the two printed rows in order, the bold verdict sub-lines, the absence of red text and margin mnemonics, the diagram groups' geometry (gray rounded titles, tan exposure boxes, light-blue outcome boxes, gray stratum boxes, left 'Crude analysis'/'Stratified analysis' labels, dark-gray arrows), and the CRITICAL layout fact: the three association labels print ONCE as a STANDALONE LEGEND below group 2's note (no leader lines), decoding the arrow grammar used in BOTH groups (thick solid = Strong; thin solid = Significant; thin dashed = Weak/no). ADJUDICATIONS: (A) the task brief had the strong/weak labels as in-diagram subgroup annotations — print governs (shared legend); (B) both groups print the identical three-style grammar (crude thin solid, Smokers thick solid, Nonsmokers dashed), so the confounding group's stratified rows print the strong/dashed pattern even though its own note says the association disappeared — the printed NOTE governs the verdict, and the tension is documented; (C) the diagrams extract entirely after the table in the raw layer; the reading-order interleaving (each 'Stratified analysis' label extracting after the stratum rows; the legend after group 2's note) is documented as a quirk. FULL single page (pdf 286 / book 264, between 'Bias and study errors' pdf 285 and 'Statistical distribution' pdf 287). STAGED under .usmle-pipeline-cache/staging-pubh12/ — promotion into content/ is owned downstream."
+}

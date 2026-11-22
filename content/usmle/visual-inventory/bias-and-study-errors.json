@@ -1,0 +1,73 @@
+{
+  "topicId": "bias-and-study-errors",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "bias-and-study-errors",
+      "requiredInKYP": true,
+      "visualId": "bias-and-study-errors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Bias and study errors table (book 263): the seven bias traps — columns TYPE / DEFINITION / EXAMPLES / STRATEGIES TO REDUCE BIAS, rows Selection bias through Length-time bias — the Epidemiology and Biostatistics subsection's validity core, including the ONE merged STRATEGIES cell spanning the Procedure bias and Observer-expectancy bias rows",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi + PyMuPDF span colors + 300dpi pixel reads, staging-pubh11/vlm-census.txt — VLM available this session): the running header (book page 263, SEC TION II, PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printed ONCE — running header only), the dark navy table title 'Bias and study errors', column headers TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS (small caps, navy), then SEVEN rows in printed order with teal TYPE names, black body text, and RED reserved for First Aid's letter-link hooks: Selection bias → Nonrandom sampling or treatment allocation of subjects such that study population is not representative of target population + 'Most commonly a sampling bias' (black sub-line) + 'Convenience sampling—patients are enrolled on basis of ease of contact' (both in the DEFINITION cell) → Berkson bias—cases and/or controls selected from hospitals (bedside bias) are less healthy and have different exposures (red letter-link 'be…bias') + Attrition bias—participants lost to follow up have a different prognosis than those who complete the study → Randomization (creates groups with similar distributions of known and unknown variables) + Ensure the choice of the right comparison/reference group; Recall bias → Awareness of disorder alters recall by subjects; common in retrospective studies → Patients with disease recall exposure after learning of similar cases → Decrease time from exposure to follow-up; use medical records as sources; Measurement bias → Information is gathered in a systemically distorted manner → Using a faulty automatic sphygmomanometer + Hawthorne effect—participants change behavior upon awareness of being observed (Hawthorne watches you like a hawk). (red mnemonic) → Use objective, standardized, and previously tested methods of data collection that are planned ahead of time + Use placebo group; Procedure bias → Subjects in different groups are not treated the same → Patients in treatment group spend more time in highly specialized hospital units → [ONE merged cell with row 5]; Observer-expectancy bias → Researcher's belief in the efficacy of a treatment changes the outcome of that treatment (also called Pygmalion effect) → An observer expecting treatment group to show signs of recovery is more likely to document positive outcomes → the ONE merged STRATEGIES cell spanning BOTH rows 4-5: 'Blinding (masking) and use of placebo reduce influence of participants and researchers on procedures and interpretation of outcomes as neither are aware of group assignments'; Lead-time bias → Early detection interpreted as ↑ survival, but the disease course has not changed (the E of Early and the d of detection print RED — the letter-link L(e)a(d)-time = (E)arly (d)etection) → Breast cancer diagnosed early by mammography may appear to exaggerate survival time because patients are known to have the cancer for longer → Measure 'back-end' survival (adjust survival according to the severity of disease at the time of diagnosis); a caveat of adjusting for severity is the potential masking of causality; Length-time bias → Screening test detects diseases with long latency period, while those with shorter latency period become symptomatic earlier → A slowly progressive cancer is more likely detected by a screening test than a rapidly progressive cancer → A randomized controlled trial assigning subjects to the screening program or to no screening.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bias-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the seven-card grid in the registry visual (BiasMap in visuals/pubhealth-p11.tsx): one card per printed row in PRINTED order, each carrying the definition line(s), the example line(s) (with First Aid's red hooks attributed: the '(bedside bias)' nickname and the '(Hawthorne watches you like a hawk).' mnemonic in emergency red), and the FIX chip (RANDOMIZATION + RIGHT COMPARISON/REFERENCE GROUP / RECORDS + SHORTER WINDOW / PRETESTED METHODS + PLACEBO GROUP / [the merged box] / BACK-END SURVIVAL + CAVEAT / SCREENING RCT), with the Procedure + Observer-expectancy cards sharing ONE merged fix box exactly as the print merges their STRATEGIES cell; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[2]), and recall[0-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "bias-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "bias-and-study-errors",
+      "requiredInKYP": true,
+      "visualId": "bias-and-study-errors-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          285
+        ],
+        "bookPages": "263"
+      },
+      "visualType": "FLOWCHART",
+      "visualPurpose": "The study-stage rail (book 263): the three life-cycle bands printing inside the bias table — Recruiting participants / Performing study / Interpreting results — grouping the seven traps 1-4-2 by the stage at which each bias enters; the page's organizing grammar and the KYP stage-rule's backbone",
+      "sourceFigureDescription": "THREE FULL-WIDTH SHADED BANDS printing INSIDE the table between its row groups, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + pdftotext -layout + the VLM passes at 120dpi including a dedicated band-zoom pass, staging-pubh11/vlm-census.txt — VLM available this session): light teal/blue shaded horizontal bands spanning all four table columns, each with its label left-aligned at the TYPE column in dark navy, horizontal text, no arrows or brackets — 'Recruiting participants' above the Selection bias row (governs 1 row); 'Performing study' above the Recall bias row (governs 4 rows: Recall, Measurement, Procedure, Observer-expectancy); 'Interpreting results' above the Lead-time bias row (governs 2 rows: Lead-time, Length-time). Reading-order quirk: the band labels extract interleaved with the row-1 and row-6 TYPE cells (raw lines 108-114); positions pinned by bbox.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bias-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the docked left rail of the registry visual (BiasMap in visuals/pubhealth-p11.tsx): three stage boxes (RECRUITING PARTICIPANTS · 1 trap · who gets in — and who stays · SELECTION BIAS chip; PERFORMING STUDY · 4 traps · what is remembered, measured, done, and expected · four trap chips + the fix-family note; INTERPRETING RESULTS · 2 traps · how screening results are read · the two trap chips + the fix note), connected down the study life cycle with band arrows and dashed band-to-card connectors, plus the KYP stage rule strip below the cards (RANDOMIZE THE RECRUITING · BLIND AND STANDARDIZE THE PERFORMING · ADJUST THE CLOCK OR RANDOMIZE THE SCREEN FOR THE INTERPRETING); the rail's semantics are also carried in mechanisms[0] stage-trap-map, blocks[3] the steps block, the memory callout (the ONE RECRUITS, FOUR PERFORM, TWO INTERPRET census), and recall[7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "bias-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "bias-and-study-errors",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the Bias and study errors table (sv1: SEVEN rows, columns TYPE / DEFINITION / EXAmPLES / STRATEGIES TO REDUCE BIAS, from Selection bias through Length-time bias, including the ONE merged STRATEGIES cell spanning the Procedure + Observer-expectancy rows) and the study-stage rail (sv2: the three full-width bands Recruiting participants / Performing study / Interpreting results printing inside the table, grouping the rows 1-4-2) — both accounted for in ONE registry visual (bias-map, BiasMap in visuals/pubhealth-p11.tsx, viewBox 0 0 1102 1360), both as ORIGINAL KYP ADAPTATIONS (the table as seven cards in printed order with First Aid's red hooks attributed — '(Hawthorne watches you like a hawk).' and '(bedside bias)' — and the merged blinding-and-placebo cell drawn as ONE fix box spanning the Procedure + Observer-expectancy cards; the rail as a docked left rail with the 1-4-2 census, band arrows, and the KYP stage rule strip); nothing is reproduced, and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page pass plus TWO zoom passes (vlm-census.txt), colors pinned by PyMuPDF span reads + 300dpi pixel sampling: exactly seven rows in printed order; ONE merged strategies cell spanning rows 4-5 (bbox + layout + the zoom pass agree); navy title/headers, teal TYPE names + band labels, black body; red reserved for FA's letter-link hooks ('(bedside bias)', the Hawthorne watch-words + 'observed', the E+d of Lead-time = Early detection); 'Most commonly a sampling bias' prints BLACK (the VLM's first red call was pixel-corrected). ADJUDICATIONS (print governs): ONE merged STRATEGIES cell spans rows 4-5 — the task brief described two separate cells; 'Convenience sampling—patients are enrolled on basis of ease of contact' prints in the DEFINITION cell (the brief listed it among the examples); the stage bands are full-width rows inside the table mapping 1-4-2. FULL single page (pdf 285 / book 263), the page after Incidence vs prevalence and before Confounding vs effect modification. STAGED under .usmle-pipeline-cache/staging-pubh11/ — promotion into content/ is owned downstream."
+}

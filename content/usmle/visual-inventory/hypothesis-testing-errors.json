@@ -1,0 +1,100 @@
+{
+  "topicId": "hypothesis-testing-errors",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "hypothesis-testing-errors",
+      "requiredInKYP": true,
+      "visualId": "hypothesis-testing-errors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The study-vs-reality 2×2 grid (book 266, 'Outcomes of statistical hypothesis testing'): the printed cross of the study's verdict (reject / do not reject H0) with reality (H1 / H0) yielding Power (1 – β), Type I error (α), Type II error (β), and the unlabeled correct cell — the page's centerpiece and the chapter's error taxonomy",
+      "sourceFigureDescription": "PURE VECTOR 2×2 GRID, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + two VLM passes, staging-pubh14/vlm-census.txt — VLM available this session): the 'Correct result' label and its two definition sentences printed at the LEFT of the block; at the RIGHT, a grid with a spanning 'Reality' column header over two columns — H1 (LEFT) / H0 (RIGHT) — and two row headers at the left — 'Study rejects H0' (TOP) / 'Study does not reject H0' (BOTTOM). Cells, each printing its symbol stacked over its name: reject × H1 = 'Power' over '(1 – β)' [BLUE-SHADED]; reject × H0 = 'α' over 'Type I error'; not-reject × H1 = 'β' over 'Type II error'; not-reject × H0 = EMPTY of text [BLUE-SHADED]. The legend 'Blue shading = correct result.' prints below the grid's bottom-left edge. The grid's labels extract INTERLEAVED in the raw text layer (Reality / Study rejects H0 / Study does not reject H0 / H1 / H0 / Power / α / ( 1 – β) / Type I error / β / Type II error / Blue shading = correct result.) — the cell assignment pinned by bbox + the two VLM passes; the first full-page pass mis-read the column headers and was overruled (see adjudication).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "hypothesis-errors-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (HypothesisErrorsMap in visuals/pubhealth-p14.tsx): the grid redrawn with KYP geometry — spanning 'Reality' header, H1 (left) / H0 (right) column headers with KYP glosses, the two row headers, and the four cells (the Power cell and the EMPTY bottom-right cell blue-shaded with the legend 'Blue shading = correct result.' carried verbatim), beside the printed 'Correct result' sentences in a left panel with the KYP pairing chips (each sentence → its blue cell) and the read-any-question-off-the-grid rule strip; the grid's labels are ALSO carried verbatim in the note's table block (blocks[1]), core.what, mechanisms[0] reality-by-decision, the decoder list, and recall[0]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "hypothesis-errors-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "hypothesis-testing-errors",
+      "requiredInKYP": true,
+      "visualId": "hypothesis-testing-errors-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Testing errors block (book 266): the Type I error (α) and Type II error (β) rows — definitions, the α-probability sentence with the P < α rejection logic, the β/power sentence, the four-lever '↑ power and ↓ β by:' list, the 'Also called' lines, First Aid's cry-wolf pair, 'You can never “prove” H1...', 'There is power in numbers.', and the α–β see-saw sentence",
+      "sourceFigureDescription": "THREE-COLUMN TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi + a 200dpi focused crop pass, staging-pubh14/vlm-census.txt — VLM available this session): a left label column ('Type I error (α)' / 'Type II error (β)', dark blue with RED Roman numerals I/II per the focused pass), a wide main text column (the definitions, the α/P-value logic, the 'Statistical significance ≠ clinical significance.' line, the β/power sentence, the '↑ power and ↓ β by:' lever list with ▘ square bullets and ↑ arrows), and a right column ('Also called false-positive error.' / 'Also called false-negative error.', the cry-wolf pair in ROMAN with RED lead numerals '1st'/'2nd', 'You can never “prove” H1, but you can reject the H0 as being very unlikely.', 'If you ↑ sample size, you ↑ power. There is power in numbers.' with 'power in numbers' in RED, and 'Generally, when type I error increases, type II error decreases.'), rows separated by hairline rules.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "hypothesis-errors-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zones B and C of the registry visual (HypothesisErrorsMap in visuals/pubhealth-p14.tsx): the two error rows as KYP cards — Type I (α) and Type II (β) — each carrying the printed definition, the α/P-value or β/power sentences, an 'Also called false-positive/negative error.' chip, the ≠ or see-saw chip, First Aid's cry-wolf line attributed in KYP emergency red, and a pointer to the row's grid cell; plus the four-lever power panel (Zone C) with the printed '↑ power and ↓ β by:' levers as chips and 'There is power in numbers.' attributed; the rows' text is ALSO carried verbatim in the note's core.what, the decoder list block, the compare block, and recall[1-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "hypothesis-errors-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "hypothesis-testing-errors",
+      "requiredInKYP": true,
+      "visualId": "hypothesis-testing-errors-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          288
+        ],
+        "bookPages": "266"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Statistical vs clinical significance block (book 266): the two definitions side by side — statistical significance defined by the likelihood of results being due to chance vs clinical significance as a measure of effect on treatment outcomes — sealed by the printed 1 mg/dL blood-sugar example of high statistical significance with limited clinical impact",
+      "sourceFigureDescription": "TEXT BLOCK WITH LABEL COLUMN, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh14/vlm-census.txt): the block title 'Statistical vs clinical significance' wraps across two lines in its left label column (a documented quirk); the body prints three sentences at the right: 'Statistical significance—defined by the likelihood of study results being due to chance. If there is a high statistical significance, then there is a low probability that the results are due to chance.' (lead-in in blue); 'Clinical significance—measure of effect on treatment outcomes. An intervention with high clinical significance is likely to have a large impact on patient outcomes/measures.' (lead-in in blue); and the example sentence 'Some studies have a very high statistical significance, but the proposed intervention may have limited clinical impact/significance, eg, a study might show a statistical significance of lowered blood sugar levels by 1 mg/dL correlated with better outcomes, but this may not be clinically as important.' The indd footer slug extracts between the title and the body in the raw layer (reading-order artifact; it prints at the page foot).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "hypothesis-errors-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone D of the registry visual (HypothesisErrorsMap in visuals/pubhealth-p14.tsx): the two definitions as side-by-side half-cards (statistical significance — the chance language; clinical significance — the patients language) over the printed-example strip carrying the 1 mg/dL blood-sugar sentence verbatim; the block's text is ALSO carried verbatim in the note's core.what, the clinical block, usmle.patterns[3], and recall[8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "hypothesis-errors-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "hypothesis-testing-errors",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries THREE visual assets — the study-vs-reality 2×2 grid (sv1: rows 'Study rejects H0' / 'Study does not reject H0', columns under the spanning 'Reality' header H1 (LEFT) / H0 (RIGHT), cells Power (1 – β) [blue], α Type I error, β Type II error, and the EMPTY blue cell, legend 'Blue shading = correct result.'), the Testing errors block (sv2: the Type I and Type II rows with the α/P-value logic, the four power levers, the 'Also called' lines, and First Aid's cry-wolf pair + 'There is power in numbers.' + the see-saw), and the Statistical vs clinical significance block (sv3: the two definitions and the 1 mg/dL blood-sugar example) — all accounted for in ONE registry visual (hypothesis-errors-map, HypothesisErrorsMap in visuals/pubhealth-p14.tsx, viewBox 0 0 1102 1290): the grid as an ORIGINAL_KYP_REDRAW (Zone A — KYP geometry, every printed label preserved, the two correct cells blue-shaded) and the two text blocks as ORIGINAL KYP ADAPTATIONS (Zones B–D — cards, lever chips, strip, the cry-wolf pair and 'power in numbers' attributed in KYP emergency red); nothing is reproduced, and the grid's labels and the error rows are additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — TWO glm-4.6v passes (vlm-census.txt: 120dpi full page + 200dpi focused grid/Testing-errors crops) confirmed the grid geometry (blue cells = Power + the EMPTY not-reject × H0 cell), the cry-wolf pair's roman type with red lead numerals, 'power in numbers' in red, the red I/II row-label numerals, and the absence of margin mnemonics and images. ADJUDICATION: the first full-page VLM pass mis-read the grid's column headers (claimed H0 left / H1 right, contradicting its own cell description) — overruled by pdftotext -bbox coordinates (H1 x≈485 left of H0 x≈535) + the 200dpi focused pass + the print's internal logic; the grid is drawn H1-left/H0-right with the blue diagonal (Power + empty cell) exactly as pinned. FULL single page, the third of the Epidemiology and Biostatistics subsection (book 266). STAGED under .usmle-pipeline-cache/staging-pubh14/ — promotion into content/ is owned downstream."
+}
