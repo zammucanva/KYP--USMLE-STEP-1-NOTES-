@@ -1,0 +1,46 @@
+{
+  "topicId": "survival-analysis",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "survival-analysis",
+      "requiredInKYP": true,
+      "visualId": "survival-analysis-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Kaplan-Meier stepped-curve figure (book 259, bottom): a two-arm time-to-event plot — survival probability (y-axis, ticks 1.0–0.2) vs length of time (x-axis, letters X/Y/Z at the two event times and the end of follow-up) — with the Drug and Control curves stepping down at events X and Y and ending flat at Z; the page's graphic representation of 'time-to-event' data and the visual anchor the hazard-ratio block's relative-slopes derivation points back to",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images on the page; geometry pinned by PyMuPDF vector paths + the VLM pass at 120dpi, staging-pubh7/vlm-census.txt — VLM available this session): a tan/brown L-shaped axis — vertical y-axis with NINE tick marks labeled 1.0, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2 top to bottom (no 0.1/0.0) and a rotated y-axis label 'Survival probability' (reading bottom-to-top), horizontal x-axis with FOUR unlabeled tick marks and the label 'Time' printed below-right of center; below the axis the letters X, Y, Z mark the last three ticks (X and Y = the two event/drop times, Z = the end of follow-up). TWO stepped curves: 'Drug' (label blue #729ac4, printed just above the curve's final flat segment; curve strokes blue with a GREEN initial segment and green start dot) and 'Control' (label yellow #fcc00d, same placement; curve yellow/gold). Both curves start at 1.0 sharing the opening flat segment; at X the Drug curve steps down ONE tick to 0.9 (green landing dot) while Control steps down THREE ticks to 0.7 (yellow landing dot) — the shared vertical drop at X is drawn TWO-TONE (green above 0.9, yellow below to 0.7); at Y Drug steps a HALF-TICK to ≈0.85 (blue dot) and Control TWO ticks to ≈0.5 (yellow dot); both then run flat to the end of follow-up at Z with endpoint dots and no further drop (Drug ends ≈0.85, Control ≈0.5). Small gray Rx logo at the figure's lower right. The raw text layer interleaves the labels (indd slug after the heading; the nine y-axis numbers AFTER the two likelihood-ratio rule sentences of raw lines 140-141, which print ABOVE the KM heading and belong to the likelihood-ratios topic; then Drug / Control / X / Y / Time / Z) — documented, never quoted across the boundary.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "survival-analysis-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (SurvivalAnalysisMap in visuals/pubhealth-p7.tsx): the figure redrawn on KYP axes — horizontal 'Survival probability' label, nine y-ticks 1.0–0.2, x-axis 'Time' with X/Y/Z letters below the event and end-of-follow-up ticks, the Drug staircase (blue: 1.0 → 0.9 at X → ≈0.85 at Y → flat to Z, endpoint dot) and Control staircase (yellow: 1.0 → 0.7 at X → ≈0.5 at Y → flat to Z, endpoint dot) with landing dots at every drop, the two-tone shared X-drop preserved semantically as two landings on one dashed event line, both curve names placed as printed, level tags at each drop, and the KYP annotation rail (start at 1.0 · step = event · flat = no events · dot = end of follow-up · log rank / Cox) + the rule strip; the visual's Zone B (the HR = 1 / > 1 / < 1 trio cards with curve-slope glyphs, every printed bullet quoted verbatim) and Zone C (the steeper-curve and separation-of-curves panels + the two printed formulas) are KYP-original layouts of the printed Hazard ratio TEXT of book 260 top (that block prints NO figure — VLM-confirmed), not source reproductions; the figure's semantics are also carried in mechanisms[0] km-curve-grammar, blocks[2] the decoder, blocks[3] the steps block, and recall[4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "survival-analysis-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "survival-analysis",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The owned span carries ONE printed visual asset — the Kaplan-Meier stepped-curve figure (book 259, bottom: Drug vs Control survival curves over Time, ticks 1.0–0.2, event letters X/Y/Z) — accounted for in ONE registry visual (survival-analysis-map, SurvivalAnalysisMap in visuals/pubhealth-p7.tsx, viewBox 0 0 1102 1250) as an ORIGINAL_KYP_REDRAW: the layout, horizontal y-axis label, and KYP theme colors are KYP's, every printed label preserved and the PyMuPDF-pinned geometry reproduced (shared 1.0 opening; Drug 0.9 at X and ≈0.85 at Y — a HALF-TICK step, carried as ≈0.85, not rounded; Control 0.7 at X and ≈0.5 at Y; both arms flat to Z with endpoint dots). The Hazard ratio block (book 260, top) prints NO figure (VLM-confirmed pure text), so it contributes no textbook visual record; the registry visual's Zone B trio cards and Zone C slope/separation panels are KYP-original layouts of that printed text (every quoted sentence verbatim), and both blocks' full text is additionally carried verbatim in the note's table block. Census: zero raster images on both pages (pdfimages); VLM available this session — THREE 120dpi glm-4.6v passes (full page 281, a 2x KM-figure crop, full page 282 — vlm-census.txt) confirmed the nine y-axis ticks, both curve names and their placement, the X/Y/Z positions (X and Y under the drop times, Z under the end of follow-up), the landing levels, the two-tone shared drop at X, the pure-text Hazard ratio block, the boundaries on both sides, and the absence of mnemonics/margin notes/red text. CROSS-PAGE topic: pdf 281 (book 259, bottom) + pdf 282 (book 260, top), boundaries pinned — the Likelihood ratio block above and the Evaluation-of-diagnostic-tests block below belong to likelihood-ratios and diagnostic-test-performance respectively (both produced in this same batch). STAGED under .usmle-pipeline-cache/staging-pubh7/ — promotion into content/ is owned downstream."
+}

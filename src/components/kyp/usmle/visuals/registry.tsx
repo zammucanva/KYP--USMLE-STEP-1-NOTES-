@@ -64,6 +64,11 @@ import { ClinicalTrialsMap } from "./pubhealth-p2";
 import { BradfordHillMap } from "./pubhealth-p3";
 import { QuantifyingRiskMap } from "./pubhealth-p4";
 import { VitalStatisticsMap } from "./pubhealth-p5";
+import { LikelihoodRatioMap } from "./pubhealth-p6";
+import { SurvivalAnalysisMap } from "./pubhealth-p7";
+import { DiagnosticTestMap } from "./pubhealth-p8";
+import { RocPrecisionMap } from "./pubhealth-p9";
+import { IncidencePrevalenceMap } from "./pubhealth-p10";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -219,6 +224,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "bradford-hill-map": BradfordHillMap,
   "quantifying-risk-map": QuantifyingRiskMap,
   "vital-statistics-map": VitalStatisticsMap,
+  "likelihood-ratios-map": LikelihoodRatioMap,
+  "survival-analysis-map": SurvivalAnalysisMap,
+  "diagnostic-test-map": DiagnosticTestMap,
+  "roc-precision-map": RocPrecisionMap,
+  "incidence-prevalence-map": IncidencePrevalenceMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

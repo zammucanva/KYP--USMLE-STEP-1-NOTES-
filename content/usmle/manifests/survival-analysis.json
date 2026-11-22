@@ -1,0 +1,257 @@
+{
+  "topicId": "survival-analysis",
+  "title": "Kaplan-Meier Curves and Hazard Ratios: Time-to-Event Analysis",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      281,
+      282
+    ],
+    "bookPages": "259 (bottom)–260 (top)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "BLOCK 1 heading + the indd footer slug — the 'Kaplan-Meier curve' navy row label (the pinned upper boundary of this topic; the Likelihood ratio block above belongs to likelihood-ratios) with the page's indd slug extracting IMMEDIATELY after it in the raw layer (reading-order jumble, documented)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Kaplan-Meier curve\n\nFAS1_2026_06-PubHealth.indd 259",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Kaplan-Meier definition — 'Used to estimate probability of survival over time. Graphic representation shows the survival probabilities (y-axis) vs length of time (x-axis). Useful for displaying \"time-to-event\" data.' (curly quotes as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Used to estimate probability of survival over\ntime. Graphic representation shows the\nsurvival probabilities (y-axis) vs length of time\n(x-axis). Useful for displaying “time-to-event”\ndata.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The outcome menu + the step arithmetic — 'Outcomes examined may include any event, but frequently include mortality. Survival probability = 1 – (event probability).' (spaced en-dash as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Outcomes examined may include any event, but\nfrequently include mortality.\nSurvival probability = 1 – (event probability).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The test sentence — 'P value for the survival difference can be calculated using log rank test or Cox regression.' (the P prints in a cursive/italic face)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "P value for the survival difference can be\ncalculated using log rank test or Cox\nregression.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's y-axis label — 'Survival probability' (rotated 90° in the print, reading bottom-to-top, left of the tick column)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Survival probability",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's nine y-axis tick labels — 1.0 0.9 0.8 0.7 0.6 0.5 0.4 0.3 0.2 in printed top-to-bottom order (no 0.1 or 0.0; the raw layer extracts them AFTER the two likelihood-ratio rule sentences of raw lines 140-141 — printed ABOVE the Kaplan-Meier heading as the LR block's last lines, bbox-pinned, belonging to likelihood-ratios and deliberately not quoted by this topic: the interleave is documented, never quoted across)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's remaining printed labels in raw extraction order — the two curve names 'Drug' and 'Control', the letters 'X' and 'Y' (the two event/drop times), the x-axis label 'Time', and the letter 'Z' (the end of follow-up, beneath the endpoint dots)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Drug\n\nControl\n\nX\n\nY\n\nTime\n\nZ",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 259, the bottom of this topic's upper page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 page identity — book 260 running header: page number, the 'SEC TION II' header-space extraction artifact (carried as-is, known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' (small-caps 'm' artifact as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "260\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Hazard ratio' heading + the definition — 'Measure of how often a particular event (eg, death, relapse) occurs in one group compared with another, over time.' (navy #004b6c MyriadPro-Bold row label, the same convention as 'Kaplan-Meier curve')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Hazard ratio\n\nMeasure of how often a particular event (eg, death, relapse) occurs in one group compared with\nanother, over time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The HR direction trio — the three printed bullets 'HR = 1—no difference between groups.' / 'HR > 1—event occurs more frequently in the treatment/exposure group.' / 'HR < 1—event occurs less frequently in the treatment/exposure group (protective effect).' (each prefixed in the raw layer by a \\x83 C1 control byte before the ▘ square bullet — the known C1 artifact family; clauses joined by em-dashes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "▘ HR = 1—no difference between groups.\n▘ HR > 1—event occurs more frequently in the treatment/exposure group.\n▘ HR < 1—event occurs less frequently in the treatment/exposure group (protective effect).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The relative-slopes bridge + its two bullets — 'Kaplan-Meier curves: HR is derived from the relative slopes (hazards) of the survival curves.' / 'A steeper curve = higher hazard (faster occurrence of event).' / 'Separation of curves over time reflects magnitude of HR.' (this is the pinned LOWER boundary of the topic: the 'Evaluation of diagnostic tests' heading follows at raw lines 20-21 and belongs to diagnostic-test-performance, produced in parallel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "259 (bottom)–260 (top)"
+      },
+      "quote": "Kaplan-Meier curves: HR is derived from the relative slopes (hazards) of the survival curves.\n▘ A steeper curve = higher hazard (faster occurrence of event).\n▘ Separation of curves over time reflects magnitude of HR.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "survival-analysis-map"
+  ],
+  "mechanismIds": [
+    "km-curve-grammar",
+    "hazard-ratio-slopes"
+  ],
+  "kypExtensions": [
+    {
+      "id": "km-curve-grammar-decoder",
+      "summary": "The staircase grammar of the Kaplan-Meier figure: every curve starts at 1.0 (all enrollees event-free — both printed arms share the opening flat segment); each event time is a vertical step down sized by the printed arithmetic 'Survival probability = 1 – (event probability)'; flats between events mean no events; endpoint dots at the end of follow-up (the printed Z) mean the curve stops without a further drop; and the two-arm reading keeps HEIGHT (survivors so far) and SLOPE (hazard) as separate questions — the higher curve is the better arm, the steeper curve the sicker one.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definition sentences and the unlabeled figure; the element-by-element grammar, the censoring/end-of-follow-up gloss of the endpoint dots (the print gives no legend for X, Y, Z or the dots), and the height-vs-slope distinction are KYP's synthesis.",
+      "location": "core.keyIdea MOVES 1–2 + mechanisms[0] km-curve-grammar + blocks[2] the decoder list + blocks[3] the steps block + the registry visual's Zone A annotation rail"
+    },
+    {
+      "id": "hazard-ratio-attack-layer",
+      "summary": "The hazard-ratio direction apparatus: HR as a ratio of the named group's hazard to the comparator's, anchored at the null HR = 1; HR > 1 — the event (eg, death, relapse) occurs more frequently in the treatment/exposure group (the steeper arm — a HARM signal for adverse events); HR < 1 — less frequently (protective effect — the flatter, higher arm, the printed Drug curve's geometry); the harm/help framing for adverse-event outcomes, the named-group-is-the-index rule, and the desirable-event caveat are the KYP wrapper around the three printed bullets.",
+      "origin": "outside-first-aid",
+      "rationale": "The three bullets are printed; the index-group rule, the harm/benefit gloss, the see-saw organization, and the desirable-event caveat are KYP's.",
+      "location": "core.keyIdea MOVE 3 + mechanisms[1] hazard-ratio-slopes + blocks[4] the compare block + the registry visual's Zone B trio cards"
+    },
+    {
+      "id": "slopes-not-heights-bridge",
+      "summary": "The printed bridge sentence developed into the figure-reading rule: HR is derived from the relative slopes (hazards) of the survival curves — judge hazard by STEEPNESS (a steeper curve = higher hazard, faster occurrence of event), never by height; the separation of curves over time reflects the magnitude of HR (curves hugging = HR near 1; curves prying apart = HR far from 1), with the P value for the survival difference from log rank test or Cox regression.",
+      "origin": "outside-first-aid",
+      "rationale": "The bridge sentence and its two bullets are printed; the slopes-not-heights naming, the hug/pry geometry reading, and the log-rank-vs-Cox division of labor (curves compared whole vs hazards fitted) are KYP's development.",
+      "location": "core.why + core.keyIdea MOVES 3–4 + blocks[3] MOVE 5 + the registry visual's Zone C slope/separation panels"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed blocks — 4 patterns (the figure-reading stem, the HR-interpretation stem, the test-selection stem, the slope-identification stem), 4 traps (height vs slope; HR vs RR; HR > 1 vs < 1 direction with the named index group; survival vs event probability via the printed complement), 3 pivots (HR < 1 = protective not 'less effective'; unequal follow-up/censoring routes to KM; the survival-difference test family), and 8 recall cards covering both blocks plus the figure.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions only; the attack structure, distractor logic, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: the VLM census of both pages found NO mnemonic of First Aid's own in the owned span (no margin notes, no red text — staging-pubh7/vlm-census.txt), so all four mnemonics are KYP ORIGINALS, marked as such: 'START AT 1.0, STEP AT EVENTS, FLAT BETWEEN, DOT AT THE END' (the curve grammar), 'ONE MINUS THE EVENT' (the printed formula compressed), 'SLOPES, NOT HEIGHTS' (the relative-slopes rule), and 'OVER ONE = MORE EVENTS, UNDER ONE = PROTECTIVE' (the HR trio with its anchor).",
+      "origin": "outside-first-aid",
+      "rationale": "No FA-own mnemonic prints on pdf 281 bottom or pdf 282 top (VLM census + pdfimages); the four ALL-CAPS codes are KYP's design, and the adjacent pages' own hooks (SN-N-OUT / SP-P-IN, 'Control the case in the OR.', 'Cohort = relative risk.') are referenced only with attribution.",
+      "location": "mnemonics + blocks[6] the memory callout + the registry visual's Zone A rule strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "CROSS-PAGE topic (the chapter census's own pairing: the KM figure on book 259 bottom + the HR block on book 260 top), boundaries PINNED on both sides: on pdf 281 / book 259 the topic owns from the 'Kaplan-Meier curve' navy heading (raw line 122) to the page end — the 'Likelihood ratio' block above (raw lines 100-120 + its two rule sentences at raw lines 140-141) belongs to likelihood-ratios (pubh6, same batch); on pdf 282 / book 260 it owns from the page top through the END of the 'Hazard ratio' block (raw lines 1-18) — the 'Evaluation of diagnostic tests' heading (raw lines 20-21) and below belongs to diagnostic-test-performance (pubh8, same batch). NO evidence quote crosses either boundary (the two LR rule sentences of raw lines 140-141 are printed ABOVE the KM heading as the LR block's last lines — bbox-pinned — and are deliberately NOT quoted here; the interleave is documented in evidence item 6). The owned span carries TWO blocks, both carried VERBATIM in the note's table block (blocks[1]): the Kaplan-Meier curve block (4 sentences + the figure) and the Hazard ratio block (definition + 3 bullets + bridge sentence + 2 bullets). CENSUS (pdfimages): ZERO raster images on both pages; VLM WAS AVAILABLE this session (glm-4.6v at 120dpi, THREE passes — full page 281, a 2x crop of the KM figure, full page 282 — staging-pubh7/vlm-census.txt): every body sentence read back verbatim; the figure's nine y-axis ticks 1.0-0.2 confirmed (no 0.1/0.0); both curve names confirmed with their placement (just above each curve's final flat segment — 'Drug' blue #729ac4, 'Control' yellow #fcc00d); X and Y confirmed as the letters under the two DROP times and Z under the end of follow-up with endpoint dots; the staircase landings confirmed (Drug 0.9 then ~0.85; Control 0.7 then ~0.5) as was the two-tone shared drop at X (green above Drug's landing, yellow below to Control's); the Hazard ratio block confirmed PURE TEXT (square bullets, navy heading, no figure); NO mnemonics, margin notes, red text, or asterisk footnotes anywhere in the owned span. FIGURE GEOMETRY additionally pinned by PyMuPDF vector paths (mediabox coordinates): y-axis line + nine ticks aligned to the nine labels; x-axis with FOUR ticks (study start, X, Y, Z); Drug path M(461.3,601.8) flat to X(478.8) drop to 613.8, flat to Y(499.0) drop to 619.2, flat to end(563.6); Control path drop at X to 634.4 (the 0.7 tick) and at Y to 654.9 (~0.5), flat to 563.9; landing dots at every drop and at both endpoints. ADJUDICATIONS (documented in the note header too): (A) Drug's second landing is a HALF-TICK step (~0.85 — landing y 619.2 vs the 0.9 tick 612.8 and the 0.8 tick 623.4) — carried as ~0.85, NOT rounded to 0.8; Control's second landing (~0.5) sits at the 0.5 gridline; (B) the brief's 'event/drop points X, Y, Z' matched the print (X, Y = event times; Z = end of follow-up); (C) the two-tone shared drop at X is the print's device for two arms dropping at one event time — preserved semantically in the KYP redraw as two landings on one dashed event line. Quirks carried + documented: 'SEC TION II' header-space artifact; small-caps 'EPIDEmIOLOGY AND BIOSTATISTICS'; the raw-layer interleave (indd slug at raw line 124 immediately after the heading; the nine y-axis numbers extracting AFTER the LR rule sentences at 140-141; Drug/Control/X/Y/Time/Z in that raw order at 153-163); the \\x83 C1 control byte before each HR bullet's square glyph (stripped by normalization, documented); em-dashes joining the HR bullets to their clauses; the spaced en-dash in '1 – (event probability)'; curly quotes around 'time-to-event'; the cursive/italic 'P' of 'P value'. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (km-curve-grammar, hazard-ratio-slopes), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (oncology trials / any-event menu / why-not-percentages / reading the abstract), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (likelihood-ratios and diagnostic-test-performance — the two SIBLING blocks of the pinned boundaries, both produced in this same batch, referenced by design; hypothesis-testing-errors; quantifying-risk — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (all KYP originals — the pages print none of First Aid's own, per the VLM census), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the pages print statistics, not drugs — the figure's 'Drug'/'Control' are trial arm names, not drug monographs; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete'; the per-record INVENTORY productionStatus is 'complete'; (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh7/ — nothing is written into content/ (the promotion step owns chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry; the note's visualId 'survival-analysis-map' is therefore not yet in visuals/registry.tsx by design); (5) the topic's ONE printed visual asset — the Kaplan-Meier stepped-curve figure — is implemented in ONE registry visual (survival-analysis-map, SurvivalAnalysisMap in visuals/pubhealth-p7.tsx, viewBox 0 0 1102 1250) as an ORIGINAL_KYP_REDRAW: the layout, horizontal y-axis label, and KYP theme colors are KYP's, every printed label preserved (Survival probability, 1.0-0.2, Drug, Control, X, Y, Z, Time) and the pinned geometry reproduced (shared 1.0 opening; Drug 0.9 at X, ~0.85 at Y; Control 0.7 at X, ~0.5 at Y; endpoint dots at Z) — the visual's Zone B (HR = 1 / > 1 / < 1 trio with curve-slope glyphs) and Zone C (steeper-curve and separation-of-curves panels + the two printed formulas) are KYP-original layouts of the printed Hazard ratio TEXT (that block prints no figure), with every quoted sentence verbatim; both blocks' full text is ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

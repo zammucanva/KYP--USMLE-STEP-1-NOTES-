@@ -1,0 +1,73 @@
+{
+  "topicId": "incidence-prevalence",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "incidence-prevalence",
+      "requiredInKYP": true,
+      "visualId": "incidence-prevalence-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          284
+        ],
+        "bookPages": "262"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The SITUATION table (book 262): three columns SITUATION / INCIDENCE / PREVALENCE and EIGHT rows — ↑ survival time, ↑ mortality rate, Faster recovery time, Extensive vaccine administration, ↓ risk factors, ↑ diagnostic sensitivity, New effective treatment started, ↓ contact between infected and noninfected patients with airborne infectious disease — each with its printed effect glyphs; the page's applied core and one of the exam's favorite lookup tables",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh10/vlm-census.txt — VLM available this session): the running header (book page 262, SEC TION II, PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' — printed ONCE on this page, running header only), then the plain UPPERCASE column headers SITUATION / INCIDENCE / PREVALENCE with a rule above and below and thin horizontal rules between rows — NO shading, NO zebra striping — and EIGHT data rows in printed order, each cell carrying a single glyph: ↑ (up arrow), ↓ (down arrow), or the EM DASH '—' (U+2014) meaning NO EFFECT. Printed rows: ↑ survival time | — | ↑; ↑ mortality rate | — | ↓; Faster recovery time | — | ↓; Extensive vaccine administration | — | ↓; ↓ risk factors | ↓ | ↓; ↑ diagnostic sensitivity | ↑ | ↑; New effective treatment started | — | ↓; ↓ contact between infected and noninfected patients with airborne infectious disease | ↓ | ↓. Raw-layer quirks: the arrows carry C1 control bytes ( before ↑,  before ↓); each row extracts as SITUATION label → INCIDENCE cell → PREVALENCE cell with each glyph on its own line; the headers extract SPLIT ('SITUATION' at raw line 42, 'INCIDENCE'/'PREVALENCE' at raw lines 53–55, around the indd slug + banner + margin block); 'Extensive vaccine administration' wraps across two lines and the row-8 situation cell across three lines in print. VLM-confirmed: exactly eight rows, none missing or extra.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "incidence-prevalence-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (IncidencePrevalenceMap in visuals/pubhealth-p10.tsx): a full-width glyph band — the three printed column headers, all EIGHT rows in PRINTED order, every printed ↑/↓/— glyph (↑ success-green, ↓ warning-amber, '—' muted — color = direction only, a KYP coding), a one-line KYP 'why' under each situation, and a KYP lever tag per row (FLOW / STAY / COUNT — marked as KYP annotations in the band's subtitle); the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), decoded row-by-row in blocks[2], and drilled in recall[7] and rapidReview.s30[6-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "incidence-prevalence-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "incidence-prevalence",
+      "requiredInKYP": true,
+      "visualId": "incidence-prevalence-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          284
+        ],
+        "bookPages": "262"
+      },
+      "visualType": "FLOWCHART",
+      "visualPurpose": "The pool/bathtub figure (book 262): the page's centerpiece schematic — a pool of existing cases labeled Prevalence, fed by the Incidence stream (and the Recurrence loop re-entering from the cure side) and drained by Mortality and Cure; the visual grammar for why prevalence = incidence × duration and how the situation table's levers work",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + TWO VLM passes — full-page 120dpi and zoomed 300dpi crops, staging-pubh10/vlm-census.txt — VLM available this session): a CLAWFOOT BATHTUB with a dark blue/purple stippled water fill, the word 'Prevalence' printed IN WHITE inside the water, a small faucet at the upper left, a small blue key icon at the lower right (high-yield marker), and FOUR labeled flows: INCIDENCE (upper left) — a faucet stream of blue droplets falling DOWN INTO the water, filling; RECURRENCE (upper right, directly above the Cure drain) — a broad light-teal curved band rising from the cure side, arching over, and re-entering the pool with its arrowhead pointing DOWN INTO the water (a second INFLOW — cured patients who relapse return to the prevalence pool); MORTALITY (bottom left) — droplets draining OUT downward from the tub floor; CURE (bottom right) — droplets draining OUT downward. VLM verdict: 'Incidence and Recurrence fill the pool; Mortality and Cure drain it; Cure's outflow loops back in as Recurrence.' The figure's five labels extract INTERLEAVED with the formulas in the raw text layer ('Recurrence' at raw line 11 between 'Incidence =' and its fraction; 'Incidence / Prevalence / Mortality / Cure' at raw lines 18–22 right after 'Prevalence =') — jumbled reading order; the geometry is bbox + VLM pinned. The page's three formulas print to the RIGHT of the figure as typographic text with drawn fraction rules (their words extract fully in the text layer — evidence items 2, 4, 5, 6, 7 — and are rendered as the registry visual's formula cards and relationship band, not counted as separate assets).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "incidence-prevalence-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (IncidencePrevalenceMap in visuals/pubhealth-p10.tsx): the bathtub re-drawn as an ORIGINAL KYP pool — a rounded pool with wave lines, 'Prevalence' + both formula lines inside the water; the INCIDENCE faucet with a droplet stream pouring in (upper left, brand blue); the RECURRENCE curved loop re-entering the water from the cure side (arrowhead down into the pool — drawn exactly as adjudicated); the MORTALITY and CURE drain pipes with outflow arrows and droplets (warning amber); KYP color coding (blue = streams IN, amber = drains OUT) stated in the strip; a balance card carrying the printed identity stacked as printed — Prevalence over 1 – prevalence = Incidence rate × average duration of disease — plus the simplified sentence; the relationship band (Zone B) additionally carries both formulas, both margin sentences attributed, the chronic/short-duration anchor chips (diabetes; common cold), and the pretest-probability bridge (↑ prevalence → ↑ PPV and ↓ NPV); the figure's semantics are also carried in mechanisms[0] pool-balance-map, mechanisms[1] situation-router-map, and recall[4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "incidence-prevalence-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "incidence-prevalence",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the pool/bathtub figure (sv2: pure vector, Prevalence in the water, Incidence and Recurrence flowing IN, Mortality and Cure draining OUT) and the SITUATION table (sv1: three columns, EIGHT rows with their printed ↑/↓/— glyphs) — both accounted for in ONE registry visual (incidence-prevalence-map, IncidencePrevalenceMap in visuals/pubhealth-p10.tsx, viewBox 0 0 1102 1380): the figure as an ORIGINAL_KYP_REDRAW (Zone A — KYP pool + stream glyphs, every printed label preserved, KYP color coding blue-in/amber-out) and the table as an ORIGINAL_KYP_ADAPTATION (Zone C — a full-width glyph band in printed order with KYP lever tags FLOW/STAY/COUNT marked as KYP); the two formulas, the relationship identity, the margin sentences, the diabetes/common-cold anchors, and the pretest-probability bridge render as the formula cards + relationship band (Zone B) of the same visual — the formulas print as typographic text with drawn fraction rules (their words extract fully in the text layer and are quoted as evidence items 2, 4–7), and are NOT counted as separate textbook visual assets. Nothing is reproduced, and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — TWO passes (full-page 120dpi + zoomed 300dpi crops, vlm-census.txt) confirmed the eight printed rows in order, the red wordplay in the margin sentences, the plain no-zebra table furniture, and the figure's flow directions. ADJUDICATIONS (print governs): (A) RECURRENCE is a second INFLOW — the curved band re-enters the pool from the cure side with its arrowhead down into the water (both VLM passes agree; the batch brief had it as an outflow — corrected to print; consistent with the bbox label placement above the Cure drain and with the semantics of relapse); (B) the big relationship formula prints its stacked fraction LEFT of the equals sign — Prevalence / (1 – prevalence) = Incidence rate × average duration of disease (zoomed VLM pass + bbox '=' centering; algebraically identical to the brief's 'Prevalence = Incidence rate × average duration of disease / (1 – prevalence)' — the note carries the printed arrangement and documents the equivalence). FULL single page (pdf 284 / book 262). STAGED under .usmle-pipeline-cache/staging-pubh10/ — promotion into content/ is owned downstream."
+}

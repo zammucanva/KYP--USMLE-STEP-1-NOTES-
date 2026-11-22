@@ -1,0 +1,269 @@
+{
+  "topicId": "likelihood-ratios",
+  "title": "Likelihood Ratios: From Pretest to Posttest Odds",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      281
+    ],
+    "bookPages": "259 (mid)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "BOUNDARY + the block heading — 'Likelihood ratio' (bold navy row label, the same convention as 'Demographic transition' above and 'Kaplan-Meier curve' below; PyMuPDF: #004b6c MyriadPro-Bold). The pinned MID split of book 259: the Demographic transition block ends at raw line 98 (vital-statistics-populations), the Kaplan-Meier curve block opens at raw line 122 (survival-analysis) — no evidence quote in this topic crosses either boundary",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Likelihood ratio",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR+ equation row COMPLETE, in raw extraction order — 'LR+ =' then the three stacked fractions' interleave: the three NUMERATORS extract first (fraction 1's 'probability of positive result in patient with disorder', then fraction 2's 'sensitivity', then fraction 3's 'TP rate'), then the two '=' signs, then fraction 1's DENOMINATOR ('probability of positive result in patient without disorder'), and finally fraction 2's and 3's denominators MERGED onto ONE raw line ('1 – specificity FP rate') — a DENOMINATOR-side merge, the block's signature text-layer quirk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "LR+ =\n\nprobability of positive result in patient with disorder\nsensitivity\nTP rate\n=\n=\nprobability of positive result in patient without disorder\n1 – specificity FP rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR+ definition form's numerator — 'probability of positive result in patient with disorder' (the WITH-disorder probability that heads every likelihood-ratio definition)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "probability of positive result in patient with disorder",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR+ alternate forms' numerators as they extract consecutively — 'sensitivity' (the sens/spec form) and 'TP rate' (the 2×2 rate form), the two computation shortcuts for the same ratio",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "sensitivity\nTP rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR+ definition form's denominator — 'probability of positive result in patient without disorder' (the WITHOUT-disorder probability)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "probability of positive result in patient without disorder",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR+ MERGED denominator line, quoted as the raw layer prints it — '1 – specificity FP rate' is ONE text-layer line carrying TWO stacked fractions' denominators ('1 – specificity' and 'FP rate'), which print as separate cells flanking their own fraction bars (bbox-pinned; the en-dash minus is U+2013, carried verbatim)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "1 – specificity FP rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR– equation row COMPLETE, in raw extraction order — 'LR– =' then the MIRROR interleave: fraction 1's numerator ('probability of negative result in patient with disorder'), then fraction 2's and 3's NUMERATORS MERGED onto ONE raw line ('1 – sensitivity FN rate' — a NUMERATOR-side merge, mirroring LR+'s denominator-side merge), then the two '=' signs, then fraction 1's denominator ('probability of negative result in patient without disorder'), then fraction 2's denominator 'specificity', then fraction 3's denominator 'TN rate'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "LR– =\n\nprobability of negative result in patient with disorder\n1 – sensitivity FN rate\n=\n=\nprobability of negative result in patient without disorder\nspecificity\nTN rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR– definition form's numerator — 'probability of negative result in patient with disorder'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "probability of negative result in patient with disorder",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR– MERGED numerator line, quoted as the raw layer prints it — '1 – sensitivity FN rate' is ONE text-layer line carrying TWO stacked fractions' numerators ('1 – sensitivity' and 'FN rate'), which print as separate cells (bbox-pinned)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "1 – sensitivity FN rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LR– alternate forms' denominators as they extract consecutively — 'specificity' (the sens/spec form's denominator) and 'TN rate' (the 2×2 rate form's denominator)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "specificity\nTN rate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RULE SENTENCE 1, the thresholds — 'LR+ > 10 indicates a highly specific test, while LR– < 0.1 indicates a highly sensitive test.' READING-ORDER JUMBLE, documented: the sentence PRINTS in black body text directly beneath the LR– row, between it and the 'Kaplan-Meier curve' heading (pdftotext -bbox y ≈ 537), but the raw text layer extracts it at line 140, AFTER the Kaplan-Meier body text and figure labels — quoted at its raw position; print position pinned by bbox + the VLM pass. The LR– minus is U+2013, carried verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "LR+ > 10 indicates a highly specific test, while LR– < 0.1 indicates a highly sensitive test.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "RULE SENTENCE 2, the odds chain — 'Pretest odds × LR = posttest odds. Posttest probability = posttest odds / (posttest odds + 1).' The multiplication sign is a true × (U+00D7, a Symbol-font span); extracts at raw line 141, after the Kaplan-Meier text (same documented jumble), printing beneath the equations at y ≈ 550",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Pretest odds × LR = posttest odds. Posttest probability = posttest odds / (posttest odds + 1).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BOTH rule sentences as they print together beneath the equations (and as they extract consecutively in the raw layer) — the threshold rule and the odds chain, the block's two closing sentences",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "LR+ > 10 indicates a highly specific test, while LR– < 0.1 indicates a highly sensitive test.\nPretest odds × LR = posttest odds. Posttest probability = posttest odds / (posttest odds + 1).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "likelihood-ratios-map"
+  ],
+  "mechanismIds": [
+    "lr-fraction-map",
+    "pretest-to-posttest-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "column-decoder-layer",
+      "summary": "The 2×2 column decoder and the three-faces reading: LR+ divides the test-POSITIVE column (TP rate ÷ FP rate) and LR– the test-NEGATIVE column (FN rate ÷ TN rate) — the sign of the ratio selects the column, the disease rows supply numerator (with disorder) and denominator (without disorder); each printed equation's three fractions are three faces of one number (definition form = what it MEANS, sensitivity/specificity form = how to COMPUTE from the classic pair, 2×2 rate form = how to COMPUTE from the grid); plus the mirror rule (the '1 –' sits in the DENOMINATOR for LR+ and the NUMERATOR for LR– — the intact statistic names the quality an extreme value certifies) and the LR = 1 no-shift midpoint.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three equivalent forms but never states the column rule, the face-to-purpose mapping, the mirror rule, or the LR = 1 reading; the decoder is KYP's synthesis.",
+      "location": "core.keyIdea MOVES 1-2 + mechanisms[0] lr-fraction-map + blocks[2] the decoder list block + the registry visual's fraction cards and number line"
+    },
+    {
+      "id": "odds-chain-layer",
+      "summary": "The odds-chain machinery around the two printed clauses: the UNPRINTED probability-to-odds hinge (pretest odds = p/(1–p)) and its mirror the printed back-conversion (odds/(odds + 1)); the five-move protocol (fix the prior → convert to odds → select the LR matching the observed result → multiply → convert back); the worked example carried everywhere (20% prior → odds 0.25 → × LR+ 10 → odds 2.5 → ≈ 71% · × LR– 0.1 → odds 0.025 → ≈ 2.4%); sequential-test chaining (pretest odds × LR₁ × LR₂ = posttest odds) and the Fagan nomogram (named, not drawn) — every worked number and unprinted conversion flagged as KYP.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints 'Pretest odds × LR = posttest odds' and the back-conversion only; the p/(1–p) hinge, the protocol order, all worked numbers, the chaining rule, and the nomogram are KYP's.",
+      "location": "core.keyIdea MOVE 3 + mechanisms[1] pretest-to-posttest-map + blocks[3] the steps block + the registry visual's Zone C calculation rail + recall[4-6]"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed block — 4 patterns (LR from sens/spec with the complementary flip; LR from the 2×2 rates; the full chain computation; the threshold attribution), 4 traps (the LR+/LR– formula mirror; odds vs probability; the counterintuitive LR+ > 10 = highly SPECIFIC pairing; LR+ = TP rate/FP rate vs PPV = TP/(TP+FP) column-vs-row), 3 pivots (the two-question direction router; the threshold attribution test; the which-column sign router), and the PE miniCase (5 options, exactly 1 correct: pretest 20% + D-dimer LR– 0.1 → posttest ≈ 2.4% and stop; distractors = the swapped specificity/sensitivity attribution, the halve-the-percentage error, the no-update/prevalence error, and the demands-the-components error, each with why-wrong).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the formulas and rules only; every vignette, distractor design, and question shape is KYP's design.",
+      "location": "usmle section + recall + rapidReview"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (POSITIVE DIVIDES POSITIVES, NEGATIVE DIVIDES NEGATIVES · ONE-MINUS MIGRATES OPPOSITE THE SIGN · TEN RULES IN, A TENTH RULES OUT · PROBABILITY IN, ODDS THROUGH, PROBABILITY OUT). NO mnemonic of First Aid's own prints anywhere in the block (VLM census: no margin notes, no mnemonic letters, no red text) — so all four ALL-CAPS codes are KYP originals, unlike the observational-studies page's two in-cell hooks; SP-P-IN and SN-N-OUT are First Aid's OWN hooks from the facing page (book 260, the diagnostic-test-performance topic) and are carried as ATTRIBUTED cross-references only, never counted among this topic's mnemonics. The rule-in/rule-out phrasing attached to the printed thresholds is KYP's translation of the printed 'indicates a highly specific/sensitive test.'",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints on pdf 281 mid (pdfimages + VLM census, staging-pubh6/vlm-census.txt); the four codes and the threshold translation are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the registry visual's threshold bands and rule strips"
+    },
+    {
+      "id": "context-and-bridge-layer",
+      "summary": "The KYP-context generalizations, every one flagged as such: the prevalence-independence of LRs vs the prevalence-dependence of PPV/NPV (the facing page's material — the design reason the block exists); the rule-in/rule-out reading of the printed thresholds; the treatment-threshold framing of when testing is worth it; sequential-test chaining; the Bayes-odds identity (the printed chain IS the odds form of Bayes' theorem); the D-dimer/PE and screening-program clinical bridges; and the pinned page-split boundaries (Demographic transition above → vital-statistics-populations; Kaplan-Meier curve below → survival-analysis).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the formulas and the two rule sentences only; every clinical generalization, the Bayes framing, and the boundary documentation is KYP context, explicitly marked in the note and never presented as printed text.",
+      "location": "clinical block + core.why + blocks[4] the compare block + crossLinks + the registry visual's footer"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "PINNED PAGE-SPLIT (mid portion only): pdf 281 / book 259 mid, from the 'Likelihood ratio' heading (raw line 100) through the two stacked-fraction equation rows (LR+ raw lines 102-110, LR– raw lines 112-120) and the two rule sentences (raw lines 140-141) — asserted by the gen script's five boundary checks (the upper neighbor's Demographic transition block ends at raw line 98; the lower neighbor's Kaplan-Meier curve heading sits at raw line 122; the two rule sentences sit at their raw jumbled position). The page header/banner (raw lines 1-9) was claimed by the upper-split topic (vital-statistics-populations) and is deliberately NOT quoted here; the indd footer slug (raw line 124) and the Kaplan-Meier body/figure text (raw lines 122-139, 143+) belong to the neighbors and are NOT quoted. BLOCKS OWNED: the whole printed LR block — heading + two equation rows (each THREE equal stacked fractions joined by '=' signs, all six numerator/denominator pairs carried VERBATIM in the note's table block) + the two rule sentences (carried VERBATIM). CENSUS (pdfimages): ZERO raster images; the block is pure text with vector fraction bars -> ORIGINAL KYP ADAPTATION (SUMMARY_FIGURE) in ONE registry visual (likelihood-ratios-map, LikelihoodRatioMap in visuals/pubhealth-p6.tsx, viewBox 0 0 1102 1128): the two equation rows as stacked-fraction cards with all three forms each and drawn fraction bars, the LR+ > 10 / LR– < 0.1 thresholds on one number line with the LR = 1 midpoint, and the pretest-odds × LR -> posttest-odds -> posttest-probability calculation rail worked with a 20% prior through LR+ 10 (odds 2.5 -> ≈ 71%) and LR– 0.1 (odds 0.025 -> ≈ 2.4%). VISUAL QA (KYP, pre-promotion): server-rendered standalone with the light-theme tokens and audited in-browser with the ph26-ph28 getBBox method — 110 text elements, 0 overlaps (>1-unit bbox intersection), 0 texts outside the viewBox; a VLM review of the themed render returned CLEAN (all three zones readable, no clipping). VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh6/vlm-census.txt): both equation rows confirmed with exactly THREE stacked fractions each (all pairs read back verbatim, none missing or extra); the two rule sentences print in BLACK body text directly below the LR– row (NOT red — corroborated programmatically via PyMuPDF span colors: heading #004b6c MyriadPro-Bold, body #231f20); the LR labels print with SUPERSCRIPT +/– (6.5pt spans vs the 10pt body — flattened to 'LR+'/'LR–' by the text layer); the fraction bars are thin horizontal rules; NO margin notes, NO mnemonics, NO red text, NO asterisk footnotes, NO raster images in the block; nothing else prints inside the block besides the heading, the two equation rows, and the two sentences. QUIRKS carried + documented: (1) the STACKED-FRACTION INTERLEAVE — LR+ merges its 2nd+3rd DENOMINATORS onto one raw line ('1 – specificity FP rate'); LR– mirrors with its 2nd+3rd NUMERATORS merged ('1 – sensitivity FN rate'); both rows extract numerators before the '=' signs and denominators after; (2) the READING-ORDER JUMBLE — the two rule sentences PRINT between the LR– row and the Kaplan-Meier heading (bbox y ≈ 537/550 vs KM title y ≈ 589) but EXTRACT at raw lines 140-141 AFTER the Kaplan-Meier body and figure text; evidence ranges 11-13 quote them at their raw position, print position bbox+VLM-pinned; (3) the en-dash minus (U+2013) in '1 – specificity', '1 – sensitivity', 'LR–' and the multiplication sign (U+00D7) in 'Pretest odds × LR' are carried verbatim; (4) 'LR+'/'LR–' flatten the printed superscripts. ADJUDICATIONS: (A) none needed on content — the batch brief's block description and the print agree exactly (both formulas, the threshold sentence, the odds chain); (B) the heading sits in the left label column with the equations indented right (the page's row-label convention — bbox x: heading ≈ 87, equations ≈ 199+), carried in the visual as labeled cards; (C) the note's title follows the batch task directive 'Likelihood Ratios: From Pretest to Posttest Odds' (the chapter census carries the short label 'Likelihood Ratios: Pretest to Posttest Odds' — the note title extends it, the pubh1 precedent). CONVENTIONS, documented: (1) the batch convention targets are met — 2 mechanisms (lr-fraction-map, pretest-to-posttest-map), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the bedside layer), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (quantifying-risk, diagnostic-test-performance, survival-analysis, roc-precision-accuracy — all census topicIds), 4 crossLinks, 4 KYP mnemonics (First Aid prints none in this block — documented), and a miniCase with 5 options (exactly 1 correct, why/why-wrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the block prints formulas, not drug rows — nothing to trace into the DrugCard shape; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-pubh1 through staging-pubh5; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh6/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'likelihood-ratios-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's ONE visual asset (the formula block) is implemented in ONE registry visual as an ORIGINAL KYP ADAPTATION — every printed label preserved (heading, both equation rows in all three forms, both rule sentences), with the block's full text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

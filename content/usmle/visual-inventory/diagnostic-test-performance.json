@@ -1,0 +1,73 @@
+{
+  "topicId": "diagnostic-test-performance",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "diagnostic-test-performance",
+      "requiredInKYP": true,
+      "visualId": "diagnostic-test-performance-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Test x Disease 2x2 grid with its formula strip (book 260 lower): rows Test + / Test - and columns Disease + / Disease - with the cells TP / FP / FN / TN, the PPV and NPV formula boxes at the grid's right, and the strip beneath (Sensitivity = TP/(TP + FN), Specificity = TN/(TN + FP), Prevalence as a stacked fraction) — the arithmetic backbone of every diagnostic-test quantity",
+      "sourceFigureDescription": "COLOR-SHADED TABLE GRID, no raster (pdfimages: zero raster images; VLM-read in two passes — 120dpi full page + 200dpi grid crop, staging-pubh8/vlm-census.txt — VLM available this session): the rotated 'Test' row-axis label at left and the 'Disease' column header on top, BOTH axes carrying circled pole glyphs (circled-plus over the Disease + column and beside the Test + row; circled-minus over the Disease - column and beside the Test - row); four shaded cells — TP (top-left) and FP (top-right) pink/salmon, FN (bottom-left) and TN (bottom-right) light blue; to the grid's right, the formula boxes 'PPV' / '= TP/(TP + FP)' and 'NPV' / '= TN/(TN + FN)'; beneath, the formula strip 'Sensitivity = TP/(TP + FN)', 'Specificity = TN/(TN + FP)', and 'Prevalence' printed as a STACKED FRACTION with 'TP + FN' above the bar and '(TP + FN + FP + TN)' below; two tiny red superscript footnote-style markers (VLM-read as '2') at the Prevalence box (and at the Raising rule box — see sv2) with no footnote text printed in this portion. TEXT-LAYER QUIRKS: the two circled-PLUS glyphs do not extract while the two circled-MINUS glyphs extract as en-dashes (raw grid lines read 'Test / Disease / - / - / TP / FP / FN / TN'); the three bottom formulas merge onto one raw line with the Prevalence numerator on its own line above; orientation pinned by pdftotext -bbox + the VLM grid crop.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "diagnostic-test-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (DiagnosticTestMap in visuals/pubhealth-p8.tsx): the 2x2 re-laid-out with DRAWN circled pole glyphs on both axes (matching the print's circled symbols), color-coded cells (pink Test + row, blue Test - row), the row/column headers, and SIX formula spokes keyed by border color — blue = reads a disease COLUMN (Sensitivity, Specificity: the FIXED pair, each with its '= 1 - FN/FP rate' complement), amber = reads a TEST ROW (PPV, NPV: the FLOATING pair with the printed variation lines), dashed = whole-grid reads (Prevalence stacked fraction, Test efficiency) — plus the stage-setter strip carrying the block's opening sentences verbatim; the grid and formulas are ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list (blocks[3]), and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "diagnostic-test-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "diagnostic-test-performance",
+      "requiredInKYP": true,
+      "visualId": "diagnostic-test-performance-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The cutoff-value figure (book 260 lower): two overlapping distributions — Disease absent (left) vs Disease present (right) — with y-axis 'Number of people', x-axis 'Test results', the three cutoffs A / B / C (A = 100% sensitivity, B = practical compromise, C = 100% specificity), the four quadrant labels TN / FN / FP / TP, the two lowering/raising rule lines with their fourteen arrows, and the printed anemia Note; the page's visual grammar for the sensitivity-specificity trade-off",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + pdftotext -layout + TWO VLM passes — 120dpi full page + 200dpi crops of the rule boxes, legend, curves plot, and Note line, staging-pubh8/vlm-census.txt — VLM available this session): a plot with the rotated y-axis label 'Number of people' at left, the x-axis title 'Test results' at bottom, and TWO OVERLAPPING DISTRIBUTIONS — the Disease absent curve (blue, shaded) on the LEFT with its label at top-left and a diagonal callout arrow down-right to its peak, the Disease present curve (red/pink, shaded) on the RIGHT with its label at top-right and a diagonal callout arrow down-left to its peak; three vertical dashed lines at the cutoff letters A (left, under the absent curve's right shoulder), B (middle, at the curves' crossing), C (right, under the present curve's left shoulder) printed along the baseline; quadrant labels TN (large, blue, inside the left curve) and TP (large, red, inside the right curve), with FN (small, red, in the A-B stretch) and FP (small, blue, in the B-C stretch) low in the overlap; at the right, the legend block titled 'Possible cutoff values for (circled plus) vs (circled minus) test result' with the lines 'A = 100% sensitivity cutoff value', 'B = practical compromise between specificity and sensitivity', 'C = 100% specificity cutoff value'; below it TWO RULE LINES, each printed on TWO lines — 'Lowering the cutoff value: up-Sensitivity up-NPV / B -> A (up-FP down-FN) down-Specificity down-PPV' and 'Raising the cutoff value: up-Specificity up-PPV / B -> C (up-FN down-FP) down-Sensitivity down-NPV' — with FOURTEEN single-headed arrows: six true up-arrows (inline before Sensitivity/NPV, FP, Specificity/PPV, FN), six true down-arrows (before FN), Specificity, PPV; before FP), Sensitivity, NPV), and two HORIZONTAL B->A / B->C letter-pair arrows; and the bottom Note line 'Note: In diseases where diagnosis is based on lower values (eg, anemia), the TP and TN are switched in the graph, ie, down sensitivity and down NPV, and vice-versa.' (both down-arrows print, each preceded by an x90 C1 control byte in the text layer). TEXT-LAYER QUIRKS: the figure's text extracts HEAVILY interleaved — the four rule lines first (six true up-arrows merged inline), then EIGHT standalone arrow glyphs (the six true down-arrows AND the two horizontal letter-pair arrows ALL mapping to the 'up-arrow' codepoint — a font/ToUnicode quirk) interleaved with the axis letters A/B/C, the quadrant labels FP/FN/TP/TN, 'Test results', the legend, the curve labels, and 'Number of people'; the legend title's circled-plus DROPS from the raw layer and its circled-minus extracts as an en-dash; the Sensitivity row header extracts late after the whole figure. Direction and layout pinned by bbox coordinates + the 200dpi VLM crop pass.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "diagnostic-test-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (DiagnosticTestMap in visuals/pubhealth-p8.tsx): the two distributions rebuilt as KYP vector bell curves (absent LEFT in blue, present RIGHT in red, shaded fills, diagonal callout arrows to the peaks), the y/x axes with 'Number of people' and 'Test results', dashed verticals at A/B/C with the letters on the baseline, TN/TP large inside their curves and FN/FP small and low in the A-B / B-C stretches (all as pinned), the legend block with DRAWN circled pole glyphs and the three A/B/C lines verbatim, the two rule bands carrying the printed two-line rules with all fourteen arrows (the horizontal B -> A / B -> C letter pairs drawn as printed) plus KYP posture tags, the anemia note box with the printed Note verbatim and the KYP mirror reading, and a marked KYP axis-polarity annotation; the figure's semantics are also carried in mechanisms[1] cutoff-tradeoff-map, blocks[4] the worked steps block, usmle.pivots, and recall; Zone C completes the story with the SN-N-OUT / SP-P-IN screening-vs-confirmation cards (First Aid's mnemonics attributed)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "diagnostic-test-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "diagnostic-test-performance",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pinned lower portion of book 260 carries TWO visual assets — the Test x Disease 2x2 grid with its formula strip (sv1: rows Test +/-, columns Disease +/-, cells TP/FP/FN/TN, the PPV/NPV boxes at the grid's right, Sensitivity/Specificity formulas and the stacked-fraction Prevalence beneath) and the cutoff-value figure (sv2: two overlapping distributions with cutoffs A/B/C, the four quadrant labels, the legend, the two lowering/raising rule lines, and the anemia Note) — both accounted for in ONE registry visual (diagnostic-test-map, DiagnosticTestMap in visuals/pubhealth-p8.tsx, viewBox 0 0 1102 1384): the grid + formula strip as an ORIGINAL KYP ADAPTATION (Zone A — drawn circled pole glyphs, color-coded cells, six formula spokes keyed fixed-column / floating-row / whole-grid, the stage-setter strip) and the cutoff figure as an ORIGINAL_KYP_REDRAW (Zone B — KYP vector bell curves, dashed cutoffs, the legend with drawn pole glyphs, the two rule bands with all fourteen printed arrows including the horizontal B -> A / B -> C letter pairs, and the anemia note box; Zone C adds the SN-N-OUT / SP-P-IN screening-vs-confirmation cards with First Aid's two red mnemonics attributed); nothing is reproduced, and the four property rows' full text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — TWO passes (120dpi full page + five 200dpi crops, vlm-census.txt) pinned the grid orientation and shading, the figure's geometry, the rule lines' fourteen arrow directions (six up inline, six down, two horizontal letter-pair arrows — the raw layer maps all eight off-baseline arrows to the 'up-arrow' codepoint), the circled pole glyphs of the legend title ('Possible cutoff values for (circled plus) vs (circled minus) test result' — raw drops the plus, reads the minus as an en-dash), and the anemia Note's two down-arrows (text layer + 2 of 3 reads; one early misread adjudicated to the text layer). PINNED PAGE-SPLIT: the upper 'Hazard ratio' block of the same pdf page belongs to survival-analysis (pubh7) — every quote here stays inside raw lines 20-168. STAGED under .usmle-pipeline-cache/staging-pubh8/ — promotion into content/ is owned downstream."
+}

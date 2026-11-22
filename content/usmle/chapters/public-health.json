@@ -13,7 +13,7 @@
  ],
  "bookPages": "255–278",
  "extractionStatus": "extracted",
- "pendingTopicCount": 22,
+ "pendingTopicCount": 17,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -203,7 +203,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "MID portion of book 259: LR+ = sensitivity/(1−specificity) and LR− = (1−sensitivity)/specificity with their TP-rate/FP-rate forms, the LR+ > 10 and LR− < 0.1 rules, and the pretest odds × LR = posttest odds / posttest probability machinery. Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -228,7 +228,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "CROSS-PAGE topic (boundaries pinned on both sides): the Kaplan-Meier curve block at the bottom of book 259 (survival probability vs time, time-to-event data, log-rank/Cox p-values, the Drug vs Control stepped curve figure) plus the hazard-ratio block at the top of book 260 (HR = 1 / >1 / <1, relative slopes of survival curves, steeper curve = higher hazard, separation reflects HR magnitude). KM curve is pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -251,7 +251,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "LOWER portion of book 260: the test-vs-disease 2×2 (TP/FP/FN/TN), sensitivity = TP/(TP+FN), specificity = TN/(TN+FP), PPV, NPV, test efficiency, prevalence = (TP+FN)/all, the SN-N-OUT / SP-P-IN rules with screening-vs-confirmation positioning, PPV varying directly and NPV inversely with prevalence, and the cutoff-value figure (two overlapping distributions with cutoffs A/B/C — A 100% sensitivity, B compromise, C 100% specificity — plus the anemia-switch note). The cutoff curves are pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -275,7 +275,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The ROC curve (TP rate vs FP rate, AUC comparison, ideal test AUC = 1, curve closer to upper-left = better) and precision-vs-accuracy (reliability = consistency/reproducibility, absence of random error, ↓SD, ↑power; validity = closeness to truth, absence of systematic error) with the four-quadrant high/low precision × high/low accuracy panel. Both figures pure-vector art → ORIGINAL_KYP_REDRAW pair."
   },
   {
@@ -298,7 +298,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "Incidence = new cases/at risk, prevalence = existing cases/total, prevalence ≈ incidence × duration (÷ (1−prevalence)), prevalence > incidence for chronic disease, ≈ for short-duration disease, prevalence ∼ pretest probability (↑prevalence → ↑PPV ↓NPV), and the 8-row situation table (↑survival, ↑mortality, faster recovery, vaccine administration, ↓risk factors, ↑diagnostic sensitivity, new effective treatment, ↓contact — each vs incidence and prevalence). Pure text/table → ORIGINAL KYP ADAPTATION."
   },
   {

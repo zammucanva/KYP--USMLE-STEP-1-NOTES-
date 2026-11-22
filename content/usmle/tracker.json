@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T06:12:54Z",
+  "generatedAt": "2026-11-22T07:00:24Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 10,
     "chaptersExtracted": 6,
-    "topicsProduced": 178,
+    "topicsProduced": 183,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 123,
+      "pilot-complete": 128,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -340,8 +340,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 27,
-      "topicsProduced": 5,
-      "topicsRemaining": 22,
+      "topicsProduced": 10,
+      "topicsRemaining": 17,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1235,6 +1235,21 @@
       "updatedAt": "2026-10-07"
     },
     {
+      "topicId": "diagnostic-test-performance",
+      "title": "Sensitivity, Specificity, and Predictive Values",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 282 (book 260 (lower))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "dna-mutations",
       "title": "Mutations in DNA",
       "chapterId": "biochemistry",
@@ -1895,6 +1910,21 @@
       "updatedAt": "2026-10-09"
     },
     {
+      "topicId": "incidence-prevalence",
+      "title": "Incidence vs Prevalence: The Pool and Its Streams",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 284 (book 262–262)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "innate-vs-adaptive-immunity",
       "title": "Innate vs Adaptive Immunity",
       "chapterId": "immunology",
@@ -1998,6 +2028,21 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-28"
+    },
+    {
+      "topicId": "likelihood-ratios",
+      "title": "Likelihood Ratios: From Pretest to Posttest Odds",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 281 (book 259 (mid))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "lipid-transport",
@@ -2615,6 +2660,21 @@
       "updatedAt": "2026-10-21"
     },
     {
+      "topicId": "roc-precision-accuracy",
+      "title": "ROC Curves, Precision, and Accuracy: The Discrimination Plane and the Four Targets",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 283 (book 261–261)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "seafood-plant-toxins",
       "title": "Ingested Seafood & Plant Toxins",
       "chapterId": "pharmacology",
@@ -2703,6 +2763,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "survival-analysis",
+      "title": "Kaplan-Meier Curves and Hazard Ratios: Time-to-Event Analysis",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 281, 282 (book 259 (bottom)–260 (top))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "sympatholytics-alpha-blockers",

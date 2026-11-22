@@ -1,0 +1,308 @@
+{
+  "topicId": "roc-precision-accuracy",
+  "title": "ROC Curves, Precision, and Accuracy: The Discrimination Plane and the Four Targets",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      283
+    ],
+    "bookPages": "261–261"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Block 1 body, paragraph 1 — the ROC definition: how well a diagnostic test can distinguish between 2 groups (eg, disease vs healthy); plots the true-positive rate (sensitivity) against the false-positive rate (1 – specificity) — en dash as printed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "ROC curve demonstrates how well a diagnostic\ntest can distinguish between 2 groups (eg,\ndisease vs healthy). Plots the true-positive rate\n(sensitivity) against the false-positive rate\n(1 – specificity).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Block 1 body, paragraph 2 — the printed comparison rule: the better performing test has a higher area under the curve (AUC), with the curve closer to the upper left corner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "The better performing test will have a higher\narea under the curve (AUC), with the curve\ncloser to the upper left corner.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ROC figure's ideal-test label (pink #c978a1 in the print, horizontal at the top of the plot) plus the '1' that marks the top of the y-axis — one of only TWO axis numbers the figure prints",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Ideal test (AUC = 1)\n\n1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The actual-test label's leading fragments in RAW extraction order — 'Act'/'ua'/'l te'/'s': the print typesets 'Actual test (0.5 < AUC < 1)' on a CURVED baseline along the gray curve (per-character rotation, ~74° to ~32°), which shatters the label into fragments; identity pinned by the PyMuPDF span read + both VLM figure passes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Act\nua\nl te\ns",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Block 1's title — 'Receiver operating characteristic curve' (navy MyriadPro-Bold #004b6c, PyMuPDF span color)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Receiver operating\ncharacteristic curve",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity + the rotated y-axis label — book page 261, the 'SEC TION II' header-space artifact (known, carried as-is), the running-header banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' with its small-caps 'm' artifact (printed ONCE on this mid-subsection page — running header only, no in-body ribbon), the y-axis label 'TP rate (sensitivity)' (printed rotated 90°, reading bottom-to-top — extracts here in jumbled order), and the left running-header word PUBLIC HEALTH SCIENCES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "261\n\nSEC TION II\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS\n\nTP rate (sensitivity)\n\nPUBLIC HEALTH SCIENCES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The rotated labels' fragments, part 1 (raw order) — '.5'/'t (0'/'<'/'UC'/'<A'/'1)' reassemble to '(0.5 < AUC < 1)' (the actual-test label's tail, ascending along the curve) and '.5)'/'0'/'C=' complete '(AUC = 0.5)' — pinned by bbox + PyMuPDF + the VLM crop pass",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": ".5\nt (0\n\n<\nUC\n<A\n\n1)\n.5)\n\n0\nC=",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The rotated labels' fragments, part 2 (raw order, reading upward) — 'lue'/'va'/'e'/'tiv'/'(AU'/'ic'/'red'/'p'/'No' reassemble to 'No predictive value (AUC = 0.5)', the chance diagonal's label (blue #4d7cbe in the print, rotated ~42°, parallel above the diagonal — PyMuPDF reads it as ONE span, direction (0.741, −0.671))",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "lue\nva\ne\ntiv\n\n(AU\n\nic\n\nred\n\np\nNo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The x-axis label 'FP rate (1 – speciﬁcity)' — with the fi LIGATURE (U+FB01) as printed in the figure (the body text spells 'specificity' plain) — plus the '1' marking the right end of the x-axis, the figure's only other axis number (no origin '0', no '.5' ticks: text layer + vector tick marks + the 200dpi VLM crop agree)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "FP rate (1 – speciﬁcity)\n\n1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Block 2's title and the precision sub-block — 'Precision vs accuracy' (navy heading), the sub-block title 'Precision (reliability)' (with First Aid's OWN red letters: 're' of Precision, 're' of reliability — PyMuPDF span #c04d49), and both definition lines ('The consistency and reproducibility of a test.' with the red-bold 're' of reproducibility; 'The absence of random variation in a test.')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Precision vs accuracy\nPrecision (reliability)\n\nThe consistency and reproducibility of a test.\nThe absence of random variation in a test.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The precision sub-block's three consequence lines, verbatim with the printed arrows (C1 control bytes stripped, arrows carried) — 'Random error ↓ precision in a test.' / '↑ precision → ↓ standard deviation.' / '↑ precision → ↑ statistical power (1 − β).' (true minus U+2212 and Symbol-font β as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Random error ↓ precision in a test.\n↑ precision → ↓ standard deviation.\n↑ precision → ↑ statistical power (1 − β).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The accuracy sub-block, verbatim — 'Accuracy (validity)' (with First Aid's OWN red 'A' of Accuracy and red 'a' of validity), 'The closeness of test results to the true values.', 'The absence of systematic error or bias in a test.', 'Systematic error ↓ accuracy in a test.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Accuracy (validity)\n\nThe closeness of test results to the true values.\nThe absence of systematic error or bias in a test.\n\nSystematic error ↓ accuracy in a test.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four-target figure's labels, part 1 (raw interleave) — 'Accuracy'/'High'/'High'/'Precision': the raw layer interleaves the two label groups; the print places 'Accuracy' TWICE above (one per target pair) with a High/Low word over each target, and 'Precision' twice below — per-target assignment pinned by bbox + PyMuPDF word coordinates + the VLM crop pass",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Accuracy\nHigh\n\nHigh\nPrecision",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer slug — 'FAS1_2026_06-PubHealth.indd 261' — interleaved MID-FIGURE between the two label groups (the known reading-order jumble; page identity, book 261)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 261",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four-target figure's labels, part 2 (raw interleave) — 'Accuracy'/'Low'/'High'/'High'/'Low'/'Low'/'Low'/'Precision': the print's arrangement is ONE row of four targets in TWO pairs — accuracy High over the left target and Low over the right within EACH pair; precision High under both targets of the LEFT pair and Low under both of the RIGHT pair — all four combinations present (tight+centered, tight+off-center, scattered+centered, scattered+off-center)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "Accuracy\nLow\n\nHigh\n\nHigh\n\nLow\n\nLow\n\nLow\nPrecision",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 261)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          283
+        ],
+        "bookPages": "261"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "roc-precision-map"
+  ],
+  "mechanismIds": [
+    "auc-geometry",
+    "error-type-split"
+  ],
+  "kypExtensions": [
+    {
+      "id": "roc-landmarks-decoder",
+      "summary": "The three-landmark reading of the ROC plane: the chance diagonal as the FLOOR ('No predictive value (AUC = 0.5)' — a test on it distinguishes the 2 groups no better than chance), the upper-left corner path as the CEILING ('Ideal test (AUC = 1)' — TP rate 1 at FP rate 0), and every real test's curve bowing up-left between them ('Actual test (0.5 < AUC < 1)'); plus the KYP readings 'every cutoff is one point on the curve' (sweeping the cutoff walks the point from bottom right toward the upper left) and 'AUC as ranking' (the probability the test ranks a random diseased person above a random healthy one — not printed).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two body sentences, the three labeled traces, and the comparison rule; the floor/ceiling/curve landmark grammar, the cutoff-to-point mapping, and the ranking interpretation of AUC are KYP's synthesis.",
+      "location": "core.keyIdea MOVE 1 + mechanisms[0] auc-geometry + blocks[3] the decoder list block (LANDMARKS 1–5) + blocks[4] the steps block + the registry visual's Zone A (how-to-read panel + the one-cutoff dot + the AUC-gap arrow)"
+    },
+    {
+      "id": "error-family-split",
+      "summary": "The two-error-family taxonomy wiring and the target grammar: RANDOM error degrades PRECISION (reliability — consistency and reproducibility), with the printed statistical shadows (↑ precision → ↓ standard deviation; ↑ precision → ↑ statistical power (1 − β)); SYSTEMATIC error/bias degrades ACCURACY (validity — closeness to the true values); on the printed targets, TIGHTNESS of the dart cluster = precision and CENTEREDNESS on the bullseye = accuracy, graded independently across all four combinations (tight+centered, tight+off-center, scattered+centered, scattered+off-center).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definitions, the four arrow lines, and the four targets; the scatters-vs-shifts grammar, the tight/centered grading rule, and the independence framing are KYP's organization.",
+      "location": "core.why + core.keyIdea MOVE 2 + mechanisms[1] error-type-split + blocks[3] (ERROR FAMILIES 1–2) + blocks[5] the compare block + the registry visual's Zone B (2×2 grid, per-cell error chips, printed-lines strip)"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the two-curve AUC comparison stem, the on-the-diagonal AUC 0.5 stem, the consistent-but-miscalibrated device stem, the scattered-but-centered analyzer stem with the ↓SD/↑power follow-up), 4 traps (precision vs accuracy themselves; upper-LEFT vs upper-right corner; AUC vs single-cutoff sensitivity; the printed ↓SD/↑power consequences vs the never-printed 'precision improves accuracy'), 3 pivots (curve-description landmark routing; reliability/validity synonym swaps; the consistent-device praise-or-fault pivot), and 8 recall cards covering both blocks and both figures.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions and the figure only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN red-letter hooks — the red 're' of 'Precision', 'reliability', and 'reproducibility' (pREcision = REliability = REproducibility) and the red 'A'/'a' of 'Accuracy'/'validity' (Accuracy = vAlidity), printed in the block (#c04d49 titles, #b82837 body) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the note header; plus THREE KYP originals, marked as such: 'TRUE UP, FALSE FLAT' (the ROC axes), 'TIGHT = PRECISE, CENTERED = ACCURATE' (the target reading), and 'RANDOM SCATTERS, SYSTEMATIC SHIFTS' (the error families).",
+      "origin": "outside-first-aid",
+      "rationale": "The red-letter highlighting is the source's own (PyMuPDF span colors + VLM-confirmed, attributed, not counted as KYP's); no margin mnemonic prints anywhere on pdf 283 (pdfimages + VLM census, staging-pubh9/vlm-census.txt); the three ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + blocks[2] the verbatim table block's intro + the visual's KYP-hook note"
+    },
+    {
+      "id": "clinical-and-boundary-layer",
+      "summary": "The clinical anchor layer: where the page's two geometries appear on the wards — biomarker head-to-head comparison by ROC/AUC (the printed comparison rule as the vignette sentence), assay reproducibility as precision in the lab (repeat-measurement stems with the ↓SD/↑power consequences), and device calibration/bias as accuracy (the consistently-wrong cuff) — plus the boundary framing (single-cutoff sensitivity/specificity/PPV/NPV and the cutoff distributions are book 260 — diagnostic-test-performance; LR+ = TP rate/FP rate is book 259 — the ROC axes as one number) and the miniCase (the microRNA panel vs CA 19-9 ROC vignette routed to the higher-AUC/closer-corner rule against AUC-as-sensitivity, diagonal-as-specificity, swapped-axis, and AUC-as-proportion distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "The clinical settings, the repeat-measurement vignettes, the boundary framing, and the miniCase with its distractors are KYP's design, flagged as such; the printed page itself is method-level.",
+      "location": "clinical block + usmle.miniCase + usmle.patterns + related"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 283 / book 261, carrying TWO blocks — 'Receiver operating characteristic curve' (two verbatim body paragraphs + the pure-vector ROC figure) and 'Precision vs accuracy' (two sub-blocks + the pure-vector four-target figure), all carried in the note (blocks[1] text block verbatim; blocks[2] table block verbatim; the figure labels quoted throughout). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (glm-4.6v, THREE passes: full page at 120dpi + TWO 200dpi figure crops, staging-pubh9/vlm-census.txt) + a PyMuPDF vector trace as programmatic ground truth (get_drawings stroke colors/dash patterns/bezier control points; get_text('dict') span colors and per-character rotation vectors). ADJUDICATIONS (all reads agree): (A) the diagonal's label prints 'No predictive value (AUC = 0.5)' — the batch brief's paraphrase 'No better than chance (AUC = 0.5)' is corrected to print (raw fragments 'No/p/red/ic/tiv/e/va/lue/(AU/C=/0/.5)' + the PyMuPDF single-span read + both VLM figure passes agree character-for-character); (B) the four-target panel prints ONE row of four targets in two pairs ('Accuracy' above each pair with a High/Low word over each target, 'Precision' below with High/High under the left pair and Low/Low under the right) — the KYP visual re-arranges the same four combinations as a TRUE 2×2 (accuracy columns × precision rows; layout KYP's, every printed label preserved, the print's arrangement documented in the visual footer); (C) the printed axes number only two '1's (top of the y-axis, right end of the x-axis — no origin '0', no '.5' ticks); the 120dpi VLM pass over-read an origin '0' and is outvoted by the text layer, the vector tick marks, and the 200dpi crop pass; the KYP redraw adds 0/.5/1 ticks for readability, documented on the visual; (D) the print's rotated/curved figure labels ('TP rate (sensitivity)' rotated 90°; 'No predictive value (AUC = 0.5)' rotated ~42°; 'Actual test (0.5 < AUC < 1)' on a curved baseline) are redrawn as HORIZONTAL text with leader lines per the KYP visual system, and the print's double-headed ideal-vs-actual arrow is redrawn as KYP's labeled 'AUC gap' arrow. Quirks carried + documented: 'SEC TION II' header-space artifact (known, as-is); small-caps artifact 'EPIDEmIOLOGY AND BIOSTATISTICS' in the running-header banner (printed ONCE — running header only; no in-body ribbon on this mid-subsection page); the ROC figure's rotated/curved labels extract as jumbled fragments in jumbled order with the indd footer slug interleaved mid-figure (evidence ranges 3-4, 7-8 quote the raw order; label identities pinned by the PyMuPDF span read + the VLM passes); the quadrant labels interleave across the two label groups in the raw layer (evidence ranges 13 and 15); en-dash (U+2013) in '(1 – specificity)' (body + x-axis label) vs true minus (U+2212) in '(1 − β)'; the fi ligature 'speciﬁcity' in the x-axis label only; C1 control bytes (Wingdings3 spans) around every ↑↓→ arrow (stripped for display, arrows carried). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (auc-geometry, error-type-split), a visual block + verbatim text block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (biomarker comparison, assay reproducibility, device calibration, the boundary), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (diagnostic-test-performance, likelihood-ratios, hypothesis-testing-errors, statistical-distributions — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own red-letter hooks carried attributed + three KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints statistics, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical anchors are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-pubh1 and staging-pubh6; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh9/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'roc-precision-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are both pure-vector figures and are implemented in ONE registry visual (roc-precision-map, RocPrecisionMap in visuals/pubhealth-p9.tsx, viewBox 0 0 1102 1180): the ROC plane as an ORIGINAL_KYP_REDRAW (Zone A — axes with the two printed '1's plus documented 0/.5 ticks, the dashed chance diagonal, the dashed ideal corner trace, the solid actual-test curve bowing toward the upper left corner, all three printed trace labels as horizontal text with leader lines, the shaded AUC, the one-cutoff dot, the labeled AUC-gap arrow, the how-to-read panel, the printed comparison rule) and the four-target panel as an ORIGINAL_KYP_REDRAW (Zone B — the print's one-row-of-two-pairs re-arranged as a 2×2 of accuracy columns × precision rows, three-ring targets with five darts each in the printed patterns, per-cell error chips, the KYP tight/centered hook, and the printed definition + arrow lines strip) — with both text blocks ALSO carried verbatim in the note.",
+  "updatedAt": "2026-11-22"
+}

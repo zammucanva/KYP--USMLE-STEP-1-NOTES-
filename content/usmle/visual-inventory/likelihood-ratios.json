@@ -1,0 +1,46 @@
+{
+  "topicId": "likelihood-ratios",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "likelihood-ratios",
+      "requiredInKYP": true,
+      "visualId": "likelihood-ratios-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (mid)"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Likelihood ratio block (book 259 mid): the two stacked-fraction equation rows — LR+ (probability of positive result in patient with disorder ÷ probability of positive result in patient without disorder = sensitivity/(1 – specificity) = TP rate/FP rate) and LR– (probability of negative result in patient with disorder ÷ probability of negative result in patient without disorder = (1 – sensitivity)/specificity = FN rate/TN rate) — plus the two rule sentences (the LR+ > 10 / LR– < 0.1 thresholds and the pretest-odds × LR = posttest-odds chain): the diagnostic-testing hinge that turns test characteristics into probability updates",
+      "sourceFigureDescription": "PURE TEXT WITH VECTOR FRACTION BARS, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh6/vlm-census.txt — VLM available this session): the bold navy row-label heading 'Likelihood ratio' (#004b6c MyriadPro-Bold, PyMuPDF-pinned — the same convention as 'Demographic transition' above and 'Kaplan-Meier curve' below), the equations indented right of the label, then TWO equation rows each printing THREE equal stacked fractions (numerator above a thin horizontal rule, denominator below) joined by two '=' signs vertically centered between numerator and denominator: LR+ = [probability of positive result in patient with disorder / probability of positive result in patient without disorder] = [sensitivity / 1 – specificity] = [TP rate / FP rate]; LR– = [probability of negative result in patient with disorder / probability of negative result in patient without disorder] = [1 – sensitivity / specificity] = [FN rate / TN rate]; the LR labels print with SUPERSCRIPT +/– (6.5pt spans vs the 10pt body); the minus prints as a spaced en-dash (U+2013). Beneath the LR– row, TWO rule sentences in BLACK body text (#231f20 — not red; PyMuPDF-corroborated), printing between the equations and the 'Kaplan-Meier curve' heading (bbox y ≈ 537/550 vs KM title ≈ 589) but EXTRACTING in the raw text layer after the Kaplan-Meier body and figure text (reading-order jumble, documented): 'LR+ > 10 indicates a highly specific test, while LR– < 0.1 indicates a highly sensitive test.' and 'Pretest odds × LR = posttest odds. Posttest probability = posttest odds / (posttest odds + 1).' (× = U+00D7). Raw-layer stacked-fraction interleave: LR+ merges its 2nd+3rd DENOMINATORS onto one line ('1 – specificity FP rate'); LR– mirrors with its 2nd+3rd NUMERATORS merged ('1 – sensitivity FN rate'). No margin notes, mnemonics, red text, asterisk footnotes, or raster images anywhere in the block (VLM-confirmed).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "likelihood-ratios-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole registry visual (LikelihoodRatioMap in visuals/pubhealth-p6.tsx, viewBox 0 0 1102 1128), three zones: Zone A the two equation rows as stacked-fraction cards (LR+ and LR–, each with its definition form, sensitivity/specificity form, and 2×2 rate form drawn with true horizontal fraction bars, the form labels, the printed threshold chips, the mirror rule, and the documented raw-merge quirks) + the verbatim rule strip carrying both printed sentences; Zone B the LR+ > 10 / LR– < 0.1 thresholds on one number line with the LR = 1 no-shift midpoint (KYP) and the RULES IN/OUT bands with SP-P-IN/SN-N-OUT attributed to the facing page; Zone C the pretest-odds × LR calculation rail (shared 20% prior → odds 0.25 card, positive lane × LR+ 10 → odds 2.5 → ≈ 71%, negative lane × LR– 0.1 → odds 0.025 → ≈ 2.4%, with the unprinted p/(1–p) hinge flagged KYP); the block's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[2]), and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "likelihood-ratios-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "likelihood-ratios",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The topic's mid portion carries ONE visual asset — the Likelihood ratio block itself (sv1: the two stacked-fraction equation rows with all three equivalent forms each, plus the two rule sentences) — accounted for as ONE ORIGINAL KYP ADAPTATION (SUMMARY_FIGURE) in ONE registry visual (likelihood-ratios-map, LikelihoodRatioMap in visuals/pubhealth-p6.tsx, viewBox 0 0 1102 1128): nothing is reproduced; Zone A re-lays the two equation rows out as stacked-fraction cards with drawn fraction bars (every printed word preserved, both threshold chips, the mirror rule, the documented raw-merge quirks), Zone B draws the printed thresholds on one number line with the KYP LR = 1 midpoint and the RULES IN/OUT bands (SP-P-IN / SN-N-OUT attributed to First Aid's facing page), and Zone C works the printed odds chain as a horizontal calculation rail (20% prior → odds 0.25 → × LR+ 10 → 2.5 → ≈ 71% · × LR– 0.1 → 0.025 → ≈ 2.4%, the unprinted p/(1–p) hinge flagged KYP); the block's full text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v full-page pass (staging-pubh6/vlm-census.txt) confirmed both equation rows with exactly three stacked fractions each (all pairs verbatim), the two rule sentences in BLACK body text beneath the equations (not red), the superscript +/– LR labels, the en-dash minus and true × multiplication sign, the absence of margin notes/mnemonics/footnotes/rasters, and both page-split boundaries (Demographic transition above, Kaplan-Meier curve below). STACKED-FRACTION INTERLEAVE documented: LR+ merges its 2nd+3rd denominators onto one raw line, LR– its 2nd+3rd numerators; the two rule sentences extract after the Kaplan-Meier text though they print beneath the equations (bbox-pinned). Visual QA pre-promotion: standalone light-theme render audited with the getBBox method — 110 text elements, 0 overlaps, 0 outside the viewBox; VLM review of the render CLEAN. PINNED PAGE-SPLIT: the topic owns pdf 281 / book 259 MID only (upper → vital-statistics-populations; lower → survival-analysis). STAGED under .usmle-pipeline-cache/staging-pubh6/ — promotion into content/ is owned downstream."
+}

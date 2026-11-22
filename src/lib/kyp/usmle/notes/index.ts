@@ -55,6 +55,11 @@ import { clinicalTherapeuticTrials } from "./clinical-therapeutic-trials";
 import { bradfordHillCriteria } from "./bradford-hill-criteria";
 import { quantifyingRisk } from "./quantifying-risk";
 import { vitalStatisticsPopulations } from "./vital-statistics-populations";
+import { likelihoodRatios } from "./likelihood-ratios";
+import { survivalAnalysis } from "./survival-analysis";
+import { diagnosticTestPerformance } from "./diagnostic-test-performance";
+import { rocPrecisionAccuracy } from "./roc-precision-accuracy";
+import { incidencePrevalence } from "./incidence-prevalence";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -280,6 +285,11 @@ export const usmleNotes: KypUsMLENote[] = [
   bradfordHillCriteria,
   quantifyingRisk,
   vitalStatisticsPopulations,
+  likelihoodRatios,
+  survivalAnalysis,
+  diagnosticTestPerformance,
+  rocPrecisionAccuracy,
+  incidencePrevalence,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

@@ -1,0 +1,282 @@
+{
+  "topicId": "diagnostic-test-performance",
+  "title": "Sensitivity, Specificity, and Predictive Values",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      282
+    ],
+    "bookPages": "260 (lower)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "BOUNDARY + BLOCK 1, the stage-setter — the 'Evaluation of diagnostic tests' navy heading (the pinned page-split's start; the 'Hazard ratio' block above belongs to survival-analysis) and the block's opening sentences: sensitivity and specificity are fixed properties of a test, PPV and NPV vary depending on disease prevalence in population being tested, and Test efficiency = (TP + TN)/(TP + FN + FP + TN)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Evaluation of\ndiagnostic tests\n\nSensitivity and specificity are fixed properties\nof a test. PPV and NPV vary depending on\ndisease prevalence in population being tested.\nTest efficiency =\n(TP + TN)/(TP + FN + FP + TN)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2a, the Test x Disease 2x2 GRID in raw extraction order — the rotated 'Test' row-axis label, the 'Disease' column header, the two circled-MINUS glyphs (extracting as en-dashes), and the four cells TP / FP / FN / TN. QUIRK: the print's two circled-PLUS glyphs (Disease +, Test +) DO NOT extract — orientation pinned by pdftotext -bbox (rows Test +/-, columns Disease +/-; TP top-left, FP top-right, FN bottom-left, TN bottom-right) + the VLM crop pass",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Test\n\nDisease\n\n–\n\n–\n\nTP\n\nFP\n\nFN\n\nTN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2b, the formula strip in raw extraction order — the Sensitivity and Specificity strip labels, the PPV and NPV boxes printed at the grid's right (= TP/(TP + FP), = TN/(TN + FN)), the Prevalence label with its stacked-fraction numerator 'TP + FN' extracting on its own line, and the three bottom formulas MERGED onto one raw line ('= TP/(TP + FN) = TN/(TN + FP) (TP + FN + FP + TN)') — the print lays them side by side with Prevalence as the stacked fraction (TP + FN) over (TP + FN + FP + TN)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Sensitivity\n\nSpecificity\n\nPPV\n= TP/(TP + FP)\n\nNPV\n= TN/(TN + FN)\nPrevalence\nTP + FN\n\n= TP/(TP + FN) = TN/(TN + FP) (TP + FN + FP + TN)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3, row 1 — SENSITIVITY (true-positive rate): proportion of all people with disease who test positive, or the ability of a test to correctly identify those with the disease; value approaching 100% desirable for ruling out disease, low false-negative rate; = TP / (TP + FN) = 1 - FN rate; First Aid's OWN red mnemonic 'SN-N-OUT = highly SeNsitive test, when Negative, rules OUT disease'; High sensitivity test used for screening. QUIRK: this row's header hyphenates across a line wrap in print and extracts LATE (raw line 162, after the whole figure) merged as '(truepositive rate)'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Proportion of all people with disease who test\npositive, or the ability of a test to correctly\nidentify those with the disease.\nValue approaching 100% is desirable for ruling\nout disease and indicates a low false-negative\nrate.\n\n= TP / (TP + FN)\n= 1 – FN rate\nSN-N-OUT = highly SeNsitive test, when\nNegative, rules OUT disease\nHigh sensitivity test used for screening",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3, row 2 — SPECIFICITY (true-negative rate; the header hyphenates across a line wrap in print, merging to '(truenegative rate)' in the raw layer): proportion of all people without disease who test negative, or the ability of a test to correctly identify those without the disease; value approaching 100% desirable for ruling in disease, low false-positive rate; = TN / (TN + FP) = 1 - FP rate; First Aid's OWN red mnemonic 'SP-P-IN = highly SPecific test, when Positive, rules IN disease'; High specificity test used for confirmation after a positive screening test",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Specificity (truenegative rate)\n\nProportion of all people without disease who\ntest negative, or the ability of a test to correctly\nidentify those without the disease.\nValue approaching 100% is desirable for ruling\nin disease and indicates a low false-positive\nrate.\n\n= TN / (TN + FP)\n= 1 – FP rate\nSP-P-IN = highly SPecific test, when Positive,\nrules IN disease\nHigh specificity test used for confirmation after a\npositive screening test",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3, row 3 — POSITIVE PREDICTIVE VALUE: probability that a person who has a positive test result actually has the disease; PPV = TP / (TP + FP); PPV varies directly with pretest probability (baseline risk, such as prevalence of disease): high pretest probability -> high PPV (the arrow extracts preceded by an \\x8e C1 control byte)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Positive predictive\nvalue\n\nProbability that a person who has a positive test\nresult actually has the disease.\n\nPPV = TP / (TP + FP)\nPPV varies directly with pretest probability\n(baseline risk, such as prevalence of disease):\nhigh pretest probability → high PPV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3, row 4 — NEGATIVE PREDICTIVE VALUE: probability that a person with a negative test result actually does not have the disease; NPV = TN / (TN + FN); NPV varies inversely with prevalence or pretest probability",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Negative predictive\nvalue\n\nProbability that a person with a negative test\nresult actually does not have the disease.\n\nNPV = TN / (TN + FN)\nNPV varies inversely with prevalence or pretest\nprobability",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCKS 4-5, the rule lines part 1 of 3 (raw extraction order) — 'Lowering the cutoff value: ↑ Sensitivity ↑ NPV' with its two true up-arrows merged inline; the second printed line's text 'B A (↑ FP FN)' + 'Speciﬁcity PPV' (the B->A letter pair with its HORIZONTAL arrow and the three DOWN arrows extract as standalone glyphs — see part 2); 'Raising the cutoff value:' + 'B C ( ↑ FN FP)'. The print reads: 'Lowering the cutoff value: ↑ Sensitivity ↑ NPV / B -> A (↑ FP ↓ FN) ↓ Speciﬁcity ↓ PPV' — pinned by bbox + the VLM crop pass",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Lowering the cutoff value: ↑ Sensitivity ↑ NPV\nB A (↑ FP FN)\nSpeciﬁcity PPV\nRaising the cutoff value:\nB C ( ↑ FN FP)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCKS 4-5, the rule lines part 2 of 3 — '↑ Speciﬁcity ↑ PPV' (Raising line 1, both true up-arrows merged inline) and 'Sensitivity NPV' (Raising line 2's closing words). The print reads: 'Raising the cutoff value: ↑ Speciﬁcity ↑ PPV / B -> C (↑ FN ↓ FP) ↓ Sensitivity ↓ NPV'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "↑ Speciﬁcity ↑ PPV\nSensitivity NPV",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCKS 4-5, the cutoff FIGURE part 3 of 3 (raw extraction order, heavily interleaved) — EIGHT standalone '↑' glyphs (the six true DOWN arrows of the rule lines AND the two HORIZONTAL B->A / B->C letter-pair arrows — ALL mapping to the '↑' codepoint in the text layer, a font/ToUnicode quirk; directions pinned by the 200dpi VLM crop pass) interleaved with the axis letters C / B / A, the quadrant labels FP / FN / TP / TN, and the x-axis title 'Test results'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "↑\n\n↑\n\nC\n\n↑\n\nFP\nB\nTest results\n\n↑\n\nFN\n\nA\n\n↑\n\nTP\n\n↑\n\nTN",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure LEGEND (raw order) — the title line 'Possible cutoff values for' / 'vs – test result' (the print shows CIRCLED pole glyphs: 'Possible cutoff values for (circled plus) vs (circled minus) test result' — the raw layer DROPS the circled plus and renders the circled minus as an en-dash; VLM crop pass) and the three legend lines A = 100% sensitivity cutoff value, B = practical compromise between speciﬁcity and sensitivity, C = 100% speciﬁcity cutoff value",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Possible cutoff values for\nvs – test result\nA = 100% sensitivity cutoff value\nB = practical compromise between speciﬁcity and sensitivity\nC = 100% speciﬁcity cutoff value",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The figure's remaining labels (raw order) — two more standalone '↑' glyphs, the curve labels 'Disease present' (the RIGHT curve) and 'Disease absent' (the LEFT curve), and the rotated y-axis label 'Number of people'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "↑\n\nDisease\npresent\n\nDisease\nabsent\n\n↑\n\nNumber of people",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LATE-extracted Sensitivity row header 'Sensitivity (truepositive rate)' (a content-stream order quirk — this row label extracts AFTER the entire cutoff figure; the print hyphenates it across a line wrap) and the printed anemia Note: 'In diseases where diagnosis is based on lower values (eg, anemia), the TP and TN are switched in the graph, ie, ↓ sensitivity and ↓ NPV, and vice-versa.' (both down-arrows print for real, each preceded by an \\x90 C1 control byte — text layer + 2 of 3 VLM reads; an early full-page read misrendering the second arrow as up was adjudicated to the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "Sensitivity (truepositive rate)\n\nNote: In diseases where diagnosis is based on lower values (eg, anemia), the TP and TN are switched in the graph, ie, ↓ sensitivity and ↓ NPV, and vice-versa.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page identity — the indd footer slug and print timestamp (book 260, the pinned lower-portion boundary runs to the page footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          282
+        ],
+        "bookPages": "260 (lower)"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 260\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "diagnostic-test-map"
+  ],
+  "mechanismIds": [
+    "fixed-vs-prevalence-map",
+    "cutoff-tradeoff-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "fixed-vs-floating-architecture",
+      "summary": "The two-tier reading of the printed page: the six grid quantities split into a FIXED pair (sensitivity = TP/(TP+FN) = 1 - FN rate and specificity = TN/(TN+FP) = 1 - FP rate, each reading DOWN a disease column — properties of the test alone) and a FLOATING pair (PPV = TP/(TP+FP) and NPV = TN/(TN+FN), each reading ACROSS a test row — PPV varying directly with pretest probability, NPV inversely), plus the prevalence dial (prevalence = the Disease + column over everyone; test efficiency = TP+TN over everyone, itself prevalence-sensitive) and the denominator-axis rule 'DISEASE COLUMNS, TEST ROWS'.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the fixed/floating sentence, the six formulas, and the two variation lines, but never organizes them by grid axis (which formula reads which row/column) nor frames prevalence as the dial that re-mixes the rows while the columns hold; the two-tier architecture and the axis rule are KYP's synthesis.",
+      "location": "core (what/why/keyIdea MOVE 2) + mechanisms[0] fixed-vs-prevalence-map + blocks[3] the decoder list + blocks[5] the fixed-vs-floating compare block + the registry visual's Zone A spokes and stage-setter strip"
+    },
+    {
+      "id": "cutoff-tradeoff-decoder",
+      "summary": "The A/B/C geography decoder for the printed cutoff figure: A = 100% sensitivity cutoff value (everything right of A called positive — no diseased person missed, the absent curve's right side swept in as FP), B = the practical compromise at the curves' crossing (FN in the A-B stretch under the present curve's left tail, FP in the B-C stretch under the absent curve's right tail), C = 100% specificity cutoff value (the present curve's left tail abandoned as FN); the printed two-line price list for each move (lowering B -> A: up-Sensitivity up-NPV (up-FP down-FN) down-Specificity down-PPV; raising B -> C: up-Specificity up-PPV (up-FN down-FP) down-Sensitivity down-NPV); and the KYP mirror reading of the printed anemia Note (diseases diagnosed by LOWER values flip the axis geography — ask which direction is positive before applying cutoff logic).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the figure, the legend, the two rule lines, and the anemia Note; the region-by-region decoding (what each cutoff does to each cell of the 2x2), the screening/confirmation posture framing of the two moves, and the step-by-step mirror explanation of the Note are KYP's.",
+      "location": "mechanisms[1] cutoff-tradeoff-map + core.keyIdea MOVES 3-4 + blocks[4] the worked five-step protocol + usmle.pivots[2] + the registry visual's Zone B rule bands and anemia box"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the low-prevalence PPV computation; the fixed-vs-floating population move; the SN-N-OUT negative-result stem; the lowered-cutoff stem), 4 traps (sensitivity vs PPV denominators; fixed vs floating families; SN-N-OUT vs SP-P-IN swapped grammar; specificity vs NPV), 3 pivots (the which-value-does-not-change router; the complement-formula blank '= 1 - FN rate'; the lowering-vs-raising arrow sets with the anemia mirror), and an 8-card recall set; the miniCase is the 0.5%-prevalence national screening program with five options (PPV falls while Se/Sp hold — correct; sensitivity falls with rare disease; NPV-varies-directly swap; one-step confirmation misuse; test-efficiency-is-fixed), each with why-wrong.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions and rules only; the attack structure, the worked vignettes, the distractor designs, and the five-option miniCase are KYP's.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN two mnemonics — 'SN-N-OUT = highly SeNsitive test, when Negative, rules OUT disease' (Sensitivity row) and 'SP-P-IN = highly SPecific test, when Positive, rules IN disease' (Specificity row), both printed in RED (VLM-confirmed in both passes) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's Zone C cards; plus TWO KYP originals, marked as such: 'DISEASE COLUMNS, TEST ROWS' (the denominator-axis rule) and 'LOWER THE BAR, WIDER THE NET' (the cutoff trade-off's screening posture).",
+      "origin": "outside-first-aid",
+      "rationale": "The two red mnemonics are the source's own (attributed, not counted as KYP's); no margin mnemonic prints anywhere on the lower portion (pdfimages + VLM census, staging-pubh8/vlm-census.txt); the two ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's Zone C cards"
+    },
+    {
+      "id": "worked-numbers-and-pipeline-layer",
+      "summary": "The clinical anchor layer: the screening -> confirmation pipeline (high-Se screen per 'High sensitivity test used for screening' with negatives ruling out via SN-N-OUT; positives sent to the high-Sp confirm per 'High specificity test used for confirmation after a positive screening test' with SP-P-IN licensing the diagnosis — the two-step serology example flagged as KYP context, not printed), the bedside prevalence dial (same positive result, different meaning in screening vs referral settings), the worked 2%/20% prevalence computation pair (all numbers KYP: at Se 90%/Sp 95%, PPV 18/67 ~ 27% vs 180/220 ~ 82%, NPV ~ 99.8% vs ~ 97.4%), and the boundary framing (the next page opens the ROC curve — every cutoff at once).",
+      "origin": "outside-first-aid",
+      "rationale": "The deployment lines and variation rules are printed (FA-own); the pipeline choreography, the bedside framing, every worked number, and the boundary framing are KYP's design, flagged as such.",
+      "location": "clinical block + blocks[4] the worked steps block + usmle.patterns[0-1] + the registry visual's Zone C pipelines"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "PINNED PAGE-SPLIT (the p252 pharmacology convention): pdf 282 / book 260 is split between two topics — the LOWER portion (raw lines 20-168, from the 'Evaluation of diagnostic tests' navy heading to the footer slug) is THIS topic; the upper portion (raw lines 9-18, the 'Hazard ratio' block with its Kaplan-Meier slope rules) belongs to survival-analysis (pubh7, same batch). EVERY evidence quote in this manifest is a contiguous span of raw lines 20-168 — none crosses the boundary. The lower portion carries FIVE blocks, all owned: (1) the stage-setter ('Sensitivity and specificity are fixed properties of a test. PPV and NPV vary depending on disease prevalence in population being tested. Test efficiency = (TP + TN)/(TP + FN + FP + TN)'); (2) the Test x Disease 2x2 grid with its PPV/NPV boxes and formula strip (Sensitivity = TP/(TP + FN), Specificity = TN/(TN + FP), Prevalence as the stacked fraction (TP + FN) over (TP + FN + FP + TN)); (3) the four property rows — Sensitivity (true-positive rate), Specificity (true-negative rate), Positive predictive value, Negative predictive value — carried VERBATIM in the note's table blocks (blocks[1] the grid, blocks[2] the four rows); (4) the cutoff-value figure (two overlapping distributions, cutoffs A/B/C, the legend, and the two rule lines); (5) the printed anemia Note. CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (glm-4.6v, TWO passes — full page at 120dpi + five 200dpi crops of the rule boxes, legend, grid, curves plot, and Note line, staging-pubh8/vlm-census.txt), confirming the verbatim content of all five blocks and pinning: the 2x2 orientation (Disease = COLUMNS, Test = ROWS, circled +/- glyphs on BOTH axes; TP top-left, FP top-right, FN bottom-left, TN bottom-right; pink TP/FP cells, light-blue FN/TN cells); the figure's geometry (Disease absent curve LEFT, Disease present RIGHT; TN and TP large inside their curves; FN in the A-B stretch, FP in the B-C stretch, both low in the overlap; dashed verticals at A/B/C; diagonal callout arrows from the curve labels to the peaks); the rule lines' fourteen arrows (six true up-arrows inline; six true down-arrows; the two HORIZONTAL B->A / B->C letter-pair arrows; all single-headed); and the absence of margin mnemonics, asterisk footnotes, and images (two tiny red superscript footnote-style markers at the Prevalence box and the Raising rule box carry no footnote text in this portion — citation furniture, documented, not reproduced). First Aid's OWN mnemonics print in RED in the right column — 'SN-N-OUT = highly SeNsitive test, when Negative, rules OUT disease' (Sensitivity row) and 'SP-P-IN = highly SPecific test, when Positive, rules IN disease' (Specificity row) — carried VERBATIM and ATTRIBUTED (not counted among the KYP mnemonics). ADJUDICATIONS (all documented in the note header + census file): (A) the two rule lines print on TWO lines each, the second opening with the letter pair 'B -> A' / 'B -> C' with HORIZONTAL arrows — the batch brief's single-line arrow content was correct in substance but the print's two-line layout and letter-pair prefixes are pinned by bbox (two wide 10.4-pt arrow glyphs at x 404.6-415.0, y 661.5/687.7) + the VLM crop pass, and are drawn as printed; (B) the figure's x-axis/legend title prints 'Possible cutoff values for (circled plus) vs (circled minus) test result' — the raw text layer DROPS the circled plus and renders the circled minus as an en-dash (raw: 'Possible cutoff values for / vs - test result'); the brief described the raw form; carried as printed with the drop documented; (C) the anemia Note's two arrows both print DOWN (each with an \\x90 C1 byte in the raw layer; two of three VLM reads agree; one early full-page read misrendered the second as up) — text layer governs: 'down sensitivity and down NPV'; (D) the stage-setter and the four property rows matched the brief's expectation exactly — no correction. QUIRKS carried + documented: the grid's two circled-PLUS glyphs do not extract (its two circled-MINUS glyphs extract as en-dashes — the raw grid reads 'Test / Disease / - / - / TP / FP / FN / TN'); the row headers hyphenate across line wraps ('Sensitivity (true-positive rate)', 'Specificity (true-negative rate)') and merge in the raw layer to '(truepositive rate)'/'(truenegative rate)'; the Sensitivity row header extracts LATE (raw line 162, after the whole figure — a content-stream order quirk; the Specificity row header extracts in place); the formula strip's three bottom formulas merge onto one raw line with the Prevalence numerator 'TP + FN' on its own line above (stacked fraction); the cutoff figure's text extracts HEAVILY interleaved — the four rule lines first (six true up-arrows merged inline), then EIGHT standalone arrow glyphs (the six true down-arrows AND the two horizontal letter-pair arrows ALL mapping to the 'up-arrow' codepoint — a font/ToUnicode quirk) interleaved with the axis letters, the quadrant labels, 'Test results', the legend, the curve labels, 'Number of people', and the late row header; C1 control bytes around the arrows ('\\x8e ->' in the PPV row, '\\x90 down' x2 in the Note — the Note's arrows are the only ones extracting with their true direction); the en-dash prints as the minus in '= 1 - FN rate'/'= 1 - FP rate'; the fi-ligature in 'Specificity'/'specificity' as extracted. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (fixed-vs-prevalence-map, cutoff-tradeoff-map), a visual block + TWO verbatim table blocks (the grid + formula strip; the four property rows) + decoder list + worked steps block + compare block + exam callout + memory callout, a clinical block (the screening->confirmation pipeline, the bedside prevalence dial, cutoff-A posture, the anemia mirror), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (likelihood-ratios, quantifying-risk, roc-precision-accuracy, incidence-prevalence — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own two carried attributed + two KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints test properties, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical layer carries the pipeline and dial framing instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete'; the per-record INVENTORY productionStatus is 'complete'; (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh8/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'diagnostic-test-map' is therefore not yet in visuals/registry.tsx by design); (5) the portion's TWO visual assets are implemented in ONE registry visual (diagnostic-test-map, DiagnosticTestMap in visuals/pubhealth-p8.tsx, viewBox 0 0 1102 1384): the grid + formula strip as an ORIGINAL KYP ADAPTATION (Zone A — the 2x2 with drawn circled pole glyphs and color-coded cells, six formula spokes keyed blue=fixed-column / amber=floating-row / dashed=whole-grid, and the stage-setter strip) and the cutoff figure as an ORIGINAL_KYP_REDRAW (Zone B — KYP vector bell curves, dashed cutoffs A/B/C, the four quadrant labels, the legend with drawn pole glyphs, the two rule bands with all fourteen arrows as printed, and the anemia note box; Zone C adds the SN-N-OUT / SP-P-IN screening-vs-confirmation cards with the pipelines) — with the four property rows' full text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

@@ -1,0 +1,112 @@
+=== pubh6 (likelihood-ratios) — light — REVIEW ===
+**1) Fully rendered blocks?** Yes — all panels (two equation panels, threshold-on-one-line row, calculation-rail flow diagram, sources footer) appear complete. Minor caveat: the search pill ("Search") at right edge (~y=815) is a UI overlay, not part of the SVG; it clips slightly at the crop edge but isn't diagram content. Dashed connector from pretest-probability card to the LR+ flow is partially hidden behind that search pill, but the arrow itself is present.
+
+**2) Overlap/spill?** No text overlap or container spill observed. Fractions in the two equation panels sit cleanly in their rows; pill boxes (green/orange) contain their text; the calculation-rail cards contain their labels/values.
+
+**3) Connectors/arrows?** Render correctly — horizontal flow arrows between the four rail cards (teal top row, orange bottom row) and the entry arrows from the probability card are intact, with proper arrowheads. No tofu boxes or missing glyphs anywhere.
+
+**4) Text readability?** Overall readable with good contrast. Near the legibility floor: the tiny caption text under the "LR+" threshold labels (e.g., "mild LR+", "rule-in zone" microcopy at ~y=536–546) and the fine-print caveat lines under the equation panels (~y=330–345) and footer (~y=1050–1100) are very small and low-contrast gray — legible at zoom, borderline at native size.
+
+**5) Verdict:** **CLEAN** (functional). No blocking defects. Optional polish: (a) the floating "Search" overlay obscures the dashed line between the pretest card and the top flow row — consider repositioning; (b) bump the smallest gray annotation text by ~1px or increase contrast slightly.
+
+=== pubh6 (likelihood-ratios) — dark — REVIEW ===
+1) **Panels/blocks:** All blocks appear fully rendered — the two LR+ / LR− panels, the threshold timeline, and the calculation-rail flowchart (2 rows of 4 blocks) are complete, no clipped edges.
+
+2) **Text overlap/spill:** No overlap or spilling detected. Text stays within its containers; dense footnote paragraphs at panel bottoms fit fine.
+
+3) **Connectors/arrows:** Timeline arrow renders correctly with arrowhead intact; green/orange arrows in the calculation rail all render with proper arrowheads. No tofu boxes or broken glyphs.
+
+4) **Readability:** All readable in dark theme. Tiny footnotes (body-text under each LR panel, ~9–10px gray text near the bottom of panels and bottom-of-crop source lines) sit near the legibility floor but are legible. Good contrast on highlighted values (green/orange).
+
+5) **Verdict: CLEAN** — no functional defects; only minor note that the smallest gray footnote text is at the lower bound of comfortable legibility.
+
+=== pubh7 (survival-analysis) — light — REVIEW ===
+**1) Fully rendered blocks:** Yes — all three sections (Kaplan–Meier curve, HR glyphs, Slopes/Separation) and all side panels render complete; nothing clipped at crop edges.
+
+**2) Text overlap/spill:** No overlaps detected. Right-side info cards fit their text. Very small body text in cards is tight but contained.
+
+**3) Connectors/arrows:** Correct. Step-curve drop lines, axis arrow, dotted guides, red annotation arrows all render. No tofu boxes or broken glyphs.
+
+**4) Readability:** Headings and curves are clear. The fine print is near the legibility floor — the small gray body text in the right-hand cards, the caption under the main chart, and the "SLOPES/HAZARD SEPARATION" bullets are very small (~7–8px) with low contrast. Axis labels ("Time", y-axis values) are also tiny but readable.
+
+**5) Verdict: CLEAN** — no structural defects; only minor concern is very small low-contrast caption/body text, which is legible on full-resolution view.
+
+=== pubh7 (survival-analysis) — dark — REVIEW ===
+1) **Fully rendered?** Yes — all panels (Kaplan-Meier chart, "How to read it" side cards, three HR=1 trio panels, slopes/hazard panels, footer card) are complete with no clipped or missing blocks.
+
+2) **Overlap/spill?** No text overlap or spilling observed. Step labels on the KM curve ("1, 13", "1, 21" etc.) sit close to the lines but don't collide. Bottom-right "Search" button floats over panel edge but doesn't obscure text.
+
+3) **Connectors/arrows?** Yes — KM axes with arrowhead, dashed drop lines, and red arrows in the bottom panels all render correctly. No tofu boxes or broken glyphs.
+
+4) **Readability?** Most body text is small (rendered at a scaled-down size) and low-contrast gray on dark navy — near the legibility floor, especially the fine-print captions under each chart ("KAPLAN–MEIER..." boxes) and footer references. Curve labels "Drug"/"Control" and axis ticks are legible. Accent text (teal, orange) reads fine.
+
+5) **Verdict:** CLEAN structurally. Minor (non-blocking): body/caption text is very small and low contrast, approaching the legibility floor in the KAPLAN–MEIER note boxes and footer.
+
+=== pubh8 (diagnostic-test-performance) — light — REVIEW ===
+**1) Fully rendered panels?** Yes — all blocks (2×2 grid, sensitivity/specificity/PPV/NPV cards, three cutoff cards, screening panels, references footer) appear complete with no clipping.
+
+**2) Text overlap/spill?** No visible overlap. Many body-text lines are extremely compressed/blurry at this render scale, but nothing spills outside its card.
+
+**3) Connectors/arrows?** Yes — the two red annotation arrows on the bell curves render cleanly with visible arrowheads; the horizontal flow arrows in the SN-N-OUT / SP-P-IN panels render fine. No tofu boxes or broken glyphs.
+
+**4) Readability?** Two concerns:
+- Tiny annotation text on the curves ("TN", "TP", labels A/B/C, small red/grey micro-labels near the cutoff line) is near the legibility floor.
+- Dense body paragraphs in the cards render very small/low-contrast — readable only at zoom. The axis label "Number of people" and fine print in the references footer are similarly borderline.
+- A floating "Search" UI element overlaps the right edge mid-curve area — that's app chrome, not the diagram itself, but it does obscure part of the viewport.
+
+**5) Verdict: CLEAN** — no defects in the SVG itself. Minor caveats: micro-labels near the curve intersection (FN/FN tick labels, A/B/C axis text) are at the legibility floor, and the app's Search pill overlaps the diagram area (app-level, not a rendering defect).
+
+=== pubh8 (diagnostic-test-performance) — dark — REVIEW ===
+**1) Full rendering:** Yes — all panels (2×2 matrix, PPV/NPV boxes, rule-out/rule-in flow panels, distributions chart) appear fully drawn, nothing clipped.
+
+**2) Text overlap/spill:** None visible. Text stays within its boxes; the "Search" pill on the right edge is app chrome, not part of the diagram.
+
+**3) Connectors/glyphs:** Arrows render correctly (rule-out → high CS rule, rule-in → high sens rule, chart arrows, axis). Circle-plus/minus icons render fine; no tofu boxes.
+
+**4) Readability:** Overall good contrast. Near the legibility floor: the fine-print caption under the chart ("As we slide right...") and the footnote-style lines at the bottom of the dark quote box and rules boxes are very small/low-contrast, though still technically readable.
+
+**5) Verdict:** **CLEAN** — only minor caveat is very small caption/footnote text at the bottom of several boxes (borderline but legible).
+
+=== pubh9 (roc-precision-accuracy) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels (ROC plane chart, "How to read the plane" card, four quadrant scatter panels, footnotes, sources footer) appear complete with no clipped or missing blocks.
+
+2) **Text overlap/spill?** None detected. Text stays inside its containers; card texts fit their boxes, and the pill badges ("High", "Low", "AUC 0.5 → 1.4 targets") are contained.
+
+3) **Connectors/arrows?** Render correctly — the " Perfect test (0,0→1,1) ↑" label with arrow, dashed diagonal reference line, dashed drop lines, and callout arrows on the scatter clusters all show properly. No tofu boxes or broken glyphs.
+
+4) **Text readability?** Mostly readable. Caveat: very small annotation text near the legibility floor — axis micro-labels on the ROC chart (y-axis "FP count ↓" / x-axis "TP count →" tick labels), tiny axis-value text under the quadrant scatters ("FALLS-BASED/NEAR MISS…" type lines), and the fine-print caption lines under each card. These are small and low-contrast by design but borderline at this scale. Also the "Search" floating widget (bottom right) is an app UI overlay, not a diagram defect.
+
+5) **Verdict: CLEAN.** No defects blocking use; optional improvement would be slightly larger axis/annotation micro-text in the ROC chart and scatter quadrants.
+
+=== pubh9 (roc-precision-accuracy) — dark — REVIEW ===
+1) **Panels/blocks:** All fully rendered — ROC plot panel, "How to read the plane" panel, four 2×2 precision/accuracy panels, footer notes, and bottom takeaway card are intact. Nothing clipped at edges.
+
+2) **Text overlap/spill:** No overlaps or spills observed. The footer legend text ("TP counted as positive…") sits slightly close to the plot edge but stays inside its container.
+
+3) **Connectors/arrows:** Dashed diagonal (chance line), dotted guide arrows, and curved ROC line all render correctly. No tofu boxes or broken glyphs; arrowheads on the annotation arrows are visible.
+
+4) **Readability:** Generally good contrast. Near the legibility floor: the small muted-gray secondary text in the right "HOW TO READ" panel, the tiny axis tick labels ("FP count" / "TP count"), and the caption lines under each quadrant card — all quite small and low-contrast, though still technically readable. Header/heading text is fine.
+
+5) **Verdict: CLEAN** (with a minor note only: very small, low-contrast caption/annotation text as described in #4 — a polish issue, not a defect).
+
+=== pubh10 (incidence-prevalence) — light — REVIEW ===
+1) **Full rendering:** Yes — all panels (pool diagram, incidence/prevalence formula cards, relationship panel, situation table, bottom summary) appear complete; nothing is clipped at the crop edges.
+
+2) **Overlap/spill:** No text overlap or spillover. Bottom-right "Search" pill appears to be app UI overlaying the crop edge (partially cropped), but it's outside the diagram content.
+
+3) **Connectors/arrows:** Render fine — the recurrence loop curve, orange outflow arrows with arrowheads, and dots all draw correctly. No tofu boxes or broken glyphs.
+
+4) **Readability:** Body/annotation text is very small (near the legibility floor), especially the fine-print captions in the formula cards, the "balance entry" card lines, and bottom footnotes — but contrast is adequate. Table body text is smallest but legible at zoom.
+
+5) **Verdict: CLEAN**, with two minor notes: (a) smallest annotation text (~fine print) is at the legibility floor; (b) the app "Search" button is cropped at the right edge — app chrome, not a diagram defect.
+
+=== pubh10 (incidence-prevalence) — dark — REVIEW ===
+1) **Panels/blocks:** All major blocks appear fully rendered — faucet icon, bathtub/pool, two outlet arrows (Mortality, Care), recurrence loop, two formula cards, relationship strip, situation table, and source footnote. No clipped or missing blocks.
+
+2) **Overlap/spill:** No overlapping elements. Text stays within containers. Note: a "Search" UI element from the app overlays the bottom-right corner of the diagram (relationship strip's green badge area) — app chrome, not an SVG defect.
+
+3) **Connectors/glyphs:** Arrows render correctly (orange outlet arrows with arrowheads, teal recurrence arrow, small teal droplets/dots). Arrow glyphs (↑/↓/—) in the table render properly — no tofu boxes.
+
+4) **Readability:** Main labels (Prevalence, Incidence, Recurrence, Mortality, Care) and table headers are readable. However, many of the fine-print body texts (faucet caption, balance-sheet bullets, formula footnotes, table sub-captions, source paragraph) are very small and low-contrast against the dark background — at or near the legibility floor, likely hard to read at this zoom level.
+
+5) **Verdict:** CLEAN structurally — no clipping, overlap, or broken glyphs. Minor concerns only: very small/low-contrast fine-print text near legibility floor, and app Search overlay touching the diagram's bottom-right (not an SVG rendering defect).
