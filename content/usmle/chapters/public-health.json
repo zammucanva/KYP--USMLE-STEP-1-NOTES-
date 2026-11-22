@@ -13,7 +13,7 @@
  ],
  "bookPages": "255–278",
  "extractionStatus": "extracted",
- "pendingTopicCount": 12,
+ "pendingTopicCount": 7,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -439,7 +439,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "LOWER portion of book 267: t-test (2 means, 'Tea is meant for 2'), ANOVA (≥3 means), chi-square (≥2 percentages/proportions, 'chi-tegorical'), Fisher exact test (small samples), and the test-selection algorithm (numerical means: 2 groups → t-test, ≥3 → ANOVA; categorical proportions: small sample → Fisher, large → chi-square). The algorithm is a vector flow figure → ORIGINAL_KYP_REDRAW; the test rows carried verbatim."
   },
   {
@@ -462,7 +462,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "TOP portion of book 268 (boundary pinned at the ETHICS banner): the Pearson correlation coefficient (r between −1 and +1, positive/negative direction, strength by |r|, the coefficient of determination r², correlation ≠ causation) with the five-panel scatter gallery (r = −0.8 strong negative, −0.4 weak negative, 0 none, +0.4 weak positive, +0.8 strong positive). The scatter gallery is pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -486,7 +486,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Ethics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "LOWER portion of book 268 — the ETHICS banner opens: autonomy (truth-telling, confidentiality, informed consent), beneficence (fiduciary duty, the mandatory-TB conflict, principle of double effect with end-of-life opioids), nonmaleficence (do no harm, risk-benefit balance), justice (fair and equitable, triage), plus decision-making capacity vs competency (physician for a specific decision vs judge; intellectual disability and mental illness not exclusion criteria; decisions with capacity not revoked by later incapacity) and the four components (understanding, appreciation, reasoning, expressing a choice). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -511,7 +511,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Ethics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The informed-consent process (disclosure, understanding, capacity, voluntariness; right to revoke), the WIPE exceptions (Waiver, legally Incompetent, therapeutic Privilege, Emergency), consent for minors (emancipation, the Sex/Drugs/Rock-and-roll exceptions, assent vs consent, encourage minor-guardian communication), and advance directives (oral, written/living will, medical power of attorney, DNR — what each prohibits and its flexibility ranking). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -537,7 +537,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Ethics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "Ventilator-assisted life support (withhold/withdraw per patient wishes regardless of surrogate preference; palliative care involvement), the surrogate decision-maker hierarchy (spouse → adult children → parents → adult siblings → other relatives, 'the spouse chips in'), confidentiality and its general exception principles (serious and imminent harm, no alternative, preventable) plus the SAVED exceptions (Suicidal/homicidal, Abuse, duty to protect Victims, Epilepsy/impaired drivers, reportable Diseases), and accepting gifts from patients (harm-benefit assessment, the decline rules). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {

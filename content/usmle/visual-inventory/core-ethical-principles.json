@@ -1,0 +1,73 @@
+{
+  "topicId": "core-ethical-principles",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "core-ethical-principles",
+      "requiredInKYP": true,
+      "visualId": "core-ethical-principles-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Core ethical principles table (book 268 lower): the ETHICS subsection's opening table — four principle rows (Autonomy, Beneficence, Nonmaleficence, Justice) with their printed definitions, conflicts, and the principle of double effect; the four principles every clinical-ethics vignette is built from",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages -list on pdf 290: zero raster images; VLM-read at 120dpi, staging-pubh18/vlm-census.txt — VLM available this session): the block prints under the in-body '▶ PUBLIC HEALTH SCIENCES—ETHICS' ribbon (solid teal/navy band; the banner text also prints in the running header) with the blue bold table title 'Core ethical principles', then FOUR rows in printed order — bold blue/navy principle names in the left column, thin hairline rules between rows, no shading, curly-quoted mottos: Autonomy → Obligation to respect patients as individuals (truth-telling, confidentiality), to create conditions necessary for autonomous choice (informed consent), and to honor their preference in accepting or not accepting medical care; Beneficence → 'Do good.' Physicians have a special ethical (fiduciary) duty to act in the patient's best interest. May conflict with autonomy (an informed patient has the right to decide) or what is best for society (eg, mandatory TB treatment). Traditionally, patient interest supersedes. Principle of double effect—facilitating comfort is prioritized over potential side effects (eg, respiratory depression with opioid use) for patients receiving end-of-life care. ('Principle of double effect' prints bold); Nonmaleficence → 'Do no harm.' Must be balanced against beneficence; if the benefits outweigh the risks, a patient may make an informed decision to proceed (most surgeries and medications fall into this category); Justice → To treat persons fairly and equitably. This does not always imply equally (eg, triage).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "ethics-principles-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (EthicsPrinciplesMap in visuals/pubhealth-p18.tsx): the table re-drawn as FOUR PILLARS in PRINTED order, each with a capital band (principle name + motto), the printed definition verbatim, KYP conflict chips (Autonomy's three verbs RESPECT/CREATE/HONOR; Beneficence's COLLIDES WITH AUTONOMY / COLLIDES WITH SOCIETY chips; Nonmaleficence's BALANCED / RISK vs BENEFIT / THE CATEGORY chips; Justice's FAIR + EQUITABLE / NOT ALWAYS EQUAL chips), the PRINCIPLE OF DOUBLE EFFECT callout on the Beneficence pillar, and a plinth band; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[3]), and recall[0-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ethics-principles-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "core-ethical-principles",
+      "requiredInKYP": true,
+      "visualId": "core-ethical-principles-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Decision-making capacity block and the Four major components panel (book 268 lower): the capacity table's five paragraphs (physician-must-determine definition, irrevocability, not-exclusion-criteria, capacity-vs-competency pair) with the four-components side panel (Understanding, Appreciation, Reasoning, Expressing a choice) — the gateway test that guards all four principles",
+      "sourceFigureDescription": "TWO-COLUMN TABLE + BULLETED SIDE PANEL, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + the VLM pass at 120dpi, staging-pubh18/vlm-census.txt): the 'Decision-making capacity' table prints with the title cell left (blue bold, wrapping across two lines) and five paragraphs right — Physician must determine whether the patient is psychologically and legally capable of making a particular healthcare decision; Note that decisions made with capacity cannot be revoked simply if the patient later loses capacity; Intellectual disabilities and mental illnesses are not exclusion criteria unless the patient's condition presently impairs their ability to make healthcare decisions ('not' italic); Capacity is determined by a physician for a specific healthcare-related decision (eg, to refuse medical care); Competency is determined by a judge (eg, legally unable to make any healthcare-related decision). The 'Four major components of decision-making:' panel prints BESIDE the capacity table (capacity text x≈181-375, panel x≈388-590, both starting y≈574 — NOT below it), with small BLUE SQUARE bullets (extracting as a control byte + the ▘ quadrant glyph) and bold lead words: Understanding (what do you know about your condition/proposed procedure/treatment?); Appreciation (what does your condition mean to you? why do you think your doctor is recommending this course of treatment?); Reasoning (how are you weighing your options?); Expressing a choice (what would you like to do?). The indd footer slug extracts between the two blocks in the raw order though it prints bottom-left (documented quirk).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "ethics-principles-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zones B and C of the registry visual (EthicsPrinciplesMap in visuals/pubhealth-p18.tsx): Zone B re-composes the capacity table as the CAPACITY-vs-COMPETENCY SEE-SAW (capacity card: physician, psychologically and legally capable, specific decision eg to refuse medical care, DECISION-SPECIFIC and NOT-REVOKED chips; competency card: judge, legally unable to make any healthcare-related decision, the forum/scope tell) plus the GUARDRAIL strip (diagnosis is not destiny — the not-exclusion-criteria sentence); Zone C re-arranges the printed side panel as the four-components strip (numbered cards carrying each component's printed question with the ▘ bullet glyph) plus the KYP U-ARE rule line; both blocks' full text is ALSO carried verbatim in the note's table block (blocks[2]), core.what, the compare block (blocks[4]), the steps block (blocks[5]), and recall[6-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "ethics-principles-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "core-ethical-principles",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The lower portion of book 268 carries TWO visual assets — the Core ethical principles table (sv1: FOUR rows in printed order, Autonomy through Justice, with the mottos, the two beneficence collisions, and the principle of double effect) and the Decision-making capacity table with the Four major components side panel (sv2: five capacity paragraphs + the four blue-square-bulleted components, printed SIDE BY SIDE per pdftotext -bbox) — both accounted for in ONE registry visual (ethics-principles-map, EthicsPrinciplesMap in visuals/pubhealth-p18.tsx, viewBox 0 0 1102 1290): the principles table as an ORIGINAL KYP ADAPTATION (Zone A, four pillars in printed order — capital band, printed definition verbatim, conflict chips, the double-effect callout on Beneficence, plinth) and the capacity block + components panel as an ORIGINAL KYP ADAPTATION (Zone B see-saw + guardrail strip; Zone C four-components strip — KYP's re-arrangement of the printed side panel, labeled as such); nothing is reproduced, and both tables' full text is additionally carried verbatim in the note's two table blocks. Census: zero raster images (pdfimages -list on pdf 290); VLM available this session — ONE 120dpi full-page glm-4.6v pass (staging-pubh18/vlm-census.txt) confirmed the split boundary (the ETHICS ribbon below the Pearson correlation figure, banner printing twice), the four principle rows and their blue bold names with hairline rules, the bold 'Principle of double effect', the italic 'not', the side-by-side capacity/components geometry, the blue square bullets, and the absence of mnemonics, red text, margin notes, and images. ADJUDICATION: the VLM's 'what would you like to do to do?' duplication in the last component — the text layer reads 'what would you like to do?' and GOVERNS. PINNED PAGE-SPLIT: the upper portion of book 268 (the Pearson correlation coefficient block) belongs to correlation-coefficient, produced in parallel — every quote here stays inside raw lines 43-101. STAGED under .usmle-pipeline-cache/staging-pubh18/ — promotion into content/ is owned downstream."
+}

@@ -1,0 +1,127 @@
+{
+  "topicId": "surrogates-confidentiality",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "surrogates-confidentiality",
+      "requiredInKYP": true,
+      "visualId": "surrogates-confidentiality-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Surrogate decision-maker block (book 270): the two preconditions (decision-making capacity lost; no advance directive prepared), the surrogates' task (determine what the patient would have done), and the printed priority chain spouse → adult children → parents → adult siblings → other relatives anchored by First Aid's own red mnemonic '(the spouse chips in)' — the Ethics subsection's surrogate hierarchy",
+      "sourceFigureDescription": "LABEL-COLUMN TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh20/vlm-census.txt — VLM available this session): the blue bold heading 'Surrogate decision-maker' (hyphenates across its line wrap 'Surrogate decision- / maker' — the raw text layer merges it to 'Surrogate decisionmaker', documented), the body sentence ('If a patient loses decision-making capacity and has not prepared an advance directive, individuals (surrogates) who know the patient must determine what the patient would have done. Priority of surrogates: spouse → adult children → parents → adult siblings → other relatives (the spouse chips in).') with the words spouse/children/siblings/'spouse chips' printed in RED bold (First Aid's OWN mnemonic), black arrows between the five rungs, C1 control bytes around the arrows in the raw layer, and thin horizontal rules separating the page's four blocks.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "confidentiality-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (ConfidentialityMap in visuals/pubhealth-p20.tsx): the two TRIGGER chips (capacity lost; no advance directive) → the surrogates' task box (substituted judgment, flagged KYP) → the five-rung priority ladder (1 Spouse, 2 Adult children, 3 Parents, 4 Adult siblings, 5 Other relatives, down-arrows between rungs) → the red-attributed mnemonic panel ('the spouse chips in' — First Aid's own, printed in red) and the KYP routing panel (capacity present → patient; directive → directive; neither → ladder); the block's full text is ALSO carried verbatim in the note's table block (blocks[1] rows 6-7), core.what, blocks[2] BLOCK 2, and recall[2]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confidentiality-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "surrogates-confidentiality",
+      "requiredInKYP": true,
+      "visualId": "surrogates-confidentiality-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "visualType": "CLINICAL_ALGORITHM",
+      "visualPurpose": "The Ventilator-assisted life support block (book 270): the preference gap (discussions ideally before; preferences may be absent when needed to survive) → the surrogate (patient identified or legally appointed) weighing the prognosis of the condition and the believed wishes of the patient → the override rule (withhold or withdraw regardless of what the surrogate prefers) → the support wrap (palliative care, chaplain services, primary care physician, emotional support) — the page's end-of-life decision algorithm",
+      "sourceFigureDescription": "LABEL-COLUMN TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh20/vlm-census.txt — VLM available this session): the blue bold heading 'Ventilator-assisted life support' (wraps across two lines, no hyphen) and three body paragraphs — the ideal-and-gap paragraph, the override rule sentence ('If surrogates indicate patient would not have wanted to receive life support with ventilation → withhold or withdraw life support regardless of what the surrogate prefers.') printed in PLAIN ROMAN TEXT with a black arrow (VLM: not italicized, not bold, not boxed), and the support-wrap sentence (palliative care, chaplain services, and the primary care physician in medical discussions with the family; provide emotional support). The raw layer carries a C1 control byte before the arrow (known artifact).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "confidentiality-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (ConfidentialityMap in visuals/pubhealth-p20.tsx): a four-box decision strip — THE PREFERENCE GAP (surrogate decision-makers, patient identified or legally appointed) → THE TWO INPUTS (the prognosis of the condition + the believed wishes of the patient) → THE OVERRIDE RULE (the printed sentence with the arrow, emergency-colored, with the KYP hook 'WISHES, NOT WANTS' labeled) → THE SUPPORT WRAP (palliative care · chaplain services · primary care physician · emotional support) — plus the KYP rule strip; the block's full text is ALSO carried verbatim in the note's table block (blocks[1] rows 1-5), mechanisms[0] ventilator-surrogate-pathway, and recall[0-1]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confidentiality-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "surrogates-confidentiality",
+      "requiredInKYP": true,
+      "visualId": "surrogates-confidentiality-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Confidentiality block (book 270): the default (privacy and autonomy), the incapacitated/emergent disclosure rule, the voluntary waiver (eg, insurance company request), the three general principles for exceptions (serious and imminent; no alternative means; preventable), First Aid's own red mnemonic 'The physician's good judgment SAVED the day' with the five exceptions (Suicidal/homicidal ideation, Abuse, duty to protect Victims, Epilepsy/impaired drivers, reportable Diseases), and the warn mechanics (public officials notify people at risk; TB or Ebola may require involuntary treatment)",
+      "sourceFigureDescription": "LABEL-COLUMN TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh20/vlm-census.txt — VLM available this session): the blue bold heading 'Confidentiality' and its body — the first paragraph (privacy/autonomy; professional judgment of patient's best interest; insurance company waiver), the three-principle bullet group and the five-example bullet group (small solid square bullets; the raw layer prefixes each with a C1 byte before the ▘ glyph), the lead-in 'Examples of exceptions to patient confidentiality (many are state specific) include the following ('The physician's good judgment SAVED the day'):' with SAVED in RED capitals and the initial capitals S-A-V-E-D of the five bullets picked out in red (First Aid's OWN mnemonic — VLM-confirmed), the em-dash in 'Duty to protect—state-specific laws', and the warn-mechanics sentences (duty to warn public officials who notify people at risk; dangerous communicable diseases such as TB or Ebola may require involuntary treatment).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "confidentiality-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (ConfidentialityMap in visuals/pubhealth-p20.tsx): the DEFAULT row (three green chips — the default; the waiver, eg insurance company request; the incapacitated/emergent professional-judgment rule) → the three GATE chips (SERIOUS — harm serious and imminent; STUCK — no alternative means to warn or protect; STOPPABLE — steps can prevent harm; the compression labeled KYP) → the five SAVED letter cards (S Suicidal/homicidal, A Abuse, V duty to protect a potential Victim, E Epilepsy/impaired automobile drivers, D Reportable Diseases eg STIs, hepatitis, food poisoning) under the attributed red mnemonic header → the dashed WARN MECHANICS strip (physicians warn public officials, who notify people at risk; TB or Ebola may require involuntary treatment); the block's full text is ALSO carried verbatim in the note's table block (blocks[1] rows 8-12), mechanisms[1] saved-exceptions-gate, blocks[4] the compare block, and recall[3-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confidentiality-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "surrogates-confidentiality",
+      "requiredInKYP": true,
+      "visualId": "surrogates-confidentiality-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "visualType": "CLINICAL_ALGORITHM",
+      "visualPurpose": "The Accepting gifts from patients block (book 270): the printed debate (relationship strengthened vs negative consequences), the practice norm (cards, baked goods, inexpensive gifts), the single assessment (does the risk of harm outweigh the potential benefit), the three decline rules (inappropriately large or valuable; could detrimentally affect patient care; may cause emotional or financial stress for the patient), and the decline script (thank, politely decline, emphasize the relationship is unchanged)",
+      "sourceFigureDescription": "LABEL-COLUMN TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh20/vlm-census.txt — VLM available this session): the blue bold heading 'Accepting gifts from patients' (wraps across two lines, no hyphen) and its body — the debate paragraph ('A complex subject without definitive regulations...'), the practice-and-assessment paragraph (cards, baked goods, and inexpensive gifts; individual assessment of whether or not the risk of harm outweighs the potential benefit), the three decline-rule bullets (small solid square bullets, C1 byte + ▘ in the raw layer), and the decline-script paragraph (thank the patient for offering a kind gift; politely indicate that it must be declined; emphasize that the incident does not influence the physician-patient relationship in any way). No red text prints in this block.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "confidentiality-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone D of the registry visual (ConfidentialityMap in visuals/pubhealth-p20.tsx): the IN PRACTICE box (the printed debate + cards, baked goods, and inexpensive gifts) → THE ONE ASSESSMENT box (risk of harm vs potential benefit — small/inexpensive → usually accept; any decline rule met → decline) → the three DECLINE chips (TOO BIG — inappropriately large or valuable; CARE-AFFECTING — could detrimentally affect patient care; PATIENT-STRESSING — emotional or financial stress for the patient) → the green DECLINE SCRIPT strip (thank the patient for offering a kind gift · politely indicate it must be declined · emphasize the incident does not influence the physician-patient relationship in any way); the block's full text is ALSO carried verbatim in the note's table block (blocks[1] rows 13-17), blocks[3] QUESTION 4, and recall[7-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "confidentiality-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "surrogates-confidentiality",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries FOUR visual assets — the four label-column text blocks, censused as one record each: sv1 the Surrogate decision-maker block (the priority chain with First Aid's red mnemonic 'the spouse chips in'), sv2 the Ventilator-assisted life support block (the override rule and the support wrap), sv3 the Confidentiality block (the default, the three general principles, and the five SAVED exceptions with First Aid's red mnemonic 'The physician's good judgment SAVED the day' and the warn mechanics), and sv4 the Accepting gifts from patients block (the assessment, the three decline rules, and the decline script) — all four accounted for in ONE registry visual (confidentiality-map, ConfidentialityMap in visuals/pubhealth-p20.tsx, viewBox 0 0 1102 1300), each as an ORIGINAL KYP ADAPTATION: Zone A the surrogate ladder (with the FA mnemonic attributed in red + the KYP routing panel), Zone B the ventilator decision rule strip (with the KYP 'WISHES, NOT WANTS' hook labeled), Zone C the confidentiality column (default row, three gate chips compressed as the KYP 'SERIOUS, STUCK, STOPPABLE', five SAVED letter cards, warn-mechanics strip), Zone D the gifts decision panel; nothing is reproduced, and all four blocks' full text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the four headings and wraps, both red FA mnemonics, the plain-text override rule with its black arrow, the square bullets, the once-printed ETHICS banner, and the absence of margin mnemonics and images. ADJUDICATION: the block-2 heading prints 'Surrogate decision-maker' (hyphen at the wrap; the raw text layer merges it to 'Surrogate decisionmaker' — the hyphenated print is carried in the note; the evidence range preserves the raw merge). FULL single page, the LAST of the ETHICS subsection (pdf 293 opens COMMUNICATION SKILLS). STAGED under .usmle-pipeline-cache/staging-pubh20/ — promotion into content/ is owned downstream."
+}

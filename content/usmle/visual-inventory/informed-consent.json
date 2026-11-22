@@ -1,0 +1,46 @@
+{
+  "topicId": "informed-consent",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Ethics",
+      "topicId": "informed-consent",
+      "requiredInKYP": true,
+      "visualId": "informed-consent-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          291
+        ],
+        "bookPages": "269"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The book-269 term/definition table — the Ethics subsection's consent page: three printed blocks (Informed consent with its four-part process and WIPE exceptions; Consent for minors with its gates and the Sex/Drugs/Rock-and-roll set; Advance directives with its four instrument rows) — the page's only printed asset and the operational core of patient autonomy",
+      "sourceFigureDescription": "TWO-COLUMN TERM/DEFINITION TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh19/vlm-census.txt — VLM available this session): the running-header ribbon (PUBLIC HEALTH SCIENCES → PUBLIC HEALTH SCIENCES—ETHICS, printed ONCE; SECTION II block with page number 269), then the table — bold dark-navy term names on pale light-blue/gray shaded cells in the left column (Informed consent, Consent for minors, Advance directives as the three main, larger terms; Oral advance directive, Written advance directive, Medical power of attorney, Do not resuscitate order as four smaller bold medium-blue sub-rows), definitions in the right column with small square bullet glyphs, thin black horizontal rules, no vertical borders, no zebra striping. RED TEXT (First Aid's own): the heading 'Exceptions to informed consent (WIPE it away):' prints 'WIPE' in red with the four exception bullets led by bold red initial letters — Waiver—patient explicitly relinquishes the right of informed consent; Legally Incompetent—patient lacks decision-making capacity (obtain consent from legal surrogate); Therapeutic Privilege—withholding information when disclosure would severely harm the patient or undermine informed decision-making capacity; Emergency situation—implied consent may apply — and the minors box's 'Sex', 'Drugs', 'Rock and roll' lead words print in bold red: Sex (contraception, STIs, prenatal care—usually not abortion); Drugs (substance use disorder treatment); Rock and roll (emergency/trauma). Also printed: the four process requirements (Disclosure, Understanding, Capacity [distinct from competence, a legal determination], Voluntariness), the comprehensive-understanding sentence (alternative options including no treatment), the revocation clause (revoke written consent at any time, even orally), the minors default (<18 years old; parental consent laws vary by state; emergency treatment eg blood transfusions; legally emancipated eg married, self-supporting, or in the military), the communication and assent closers, the directives lead (instructions given in anticipation; details vary per state law), and the four instrument rows with the POA's 'More flexible than a living will' and the DNR's CPR-only scope. Line-wrap hyphenations in print: 'decision-making' (twice), 'life-sustaining', and 'prenatal care—usually'.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "consent-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole registry visual (ConsentMap in visuals/pubhealth-p19.tsx, viewBox 0 0 1102 1290), four zones: Zone A the four process pillars in printed order (Disclosure / Understanding / Capacity-with-the-competence-parenthetical / Voluntariness, each with its printed definition) plus the disclosure-set strip (INCLUDING NO TREATMENT) and the revocation strip; Zone B the four WIPE exception cards with red initial letters and First Aid attribution; Zone C the minors panel (the <18 default card, the EMERGENCY TREATMENT and LEGALLY EMANCIPATED gate chips, the attributed red Sex/Drugs/Rock-and-roll row, and the communication + assent closers); Zone D the four advance-directive instruments — Oral / Written / Medical power of attorney as staircase cards on the KYP flexibility ladder (flagged: the print ranks only implicitly, 'More flexible than a living will') with the DNR drawn beside as the scoped CPR-only order; the full page's text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[2]), and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "consent-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "informed-consent",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries ONE printed visual asset — the book-269 two-column term/definition table with its three blocks (Informed consent: the four-part process + the WIPE exceptions; Consent for minors: the <18 default, the emergency/emancipation gates, the Sex/Drugs/Rock-and-roll set, the assent and communication closers; Advance directives: the four instrument rows) — accounted for in ONE registry visual (consent-map, ConsentMap in visuals/pubhealth-p19.tsx, viewBox 0 0 1102 1290) as an ORIGINAL KYP ADAPTATION: four zones (process pillars / WIPE valve cards / minors panel / directive ladder with the scoped DNR strip), every printed label, definition, and both of First Aid's red mnemonic devices ('WIPE it away' with its W·I·P·E initials; the Sex / Drugs / Rock and roll row) carried verbatim and attributed; nothing is reproduced, and the full page's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v full-page pass (vlm-census.txt) confirmed the three blocks and four directive rows, the red WIPE heading and initials, the bold-red Sex/Drugs/Rock-and-roll lead words, the two-tier term styling, and the absence of margin mnemonics and images. ADJUDICATION: the flexibility ladder (words → paper → person) is the KYP synthesis of the printed cues (the Oral row's interpretation problems; the POA row's 'More flexible than a living will') and the DNR is drawn as a scoped order beside it (the print never ranks the DNR); the ETHICS ribbon prints ONCE (running header only). FULL single page, the SECOND of the Ethics thread. STAGED under .usmle-pipeline-cache/staging-pubh19/ — promotion into content/ is owned downstream."
+}

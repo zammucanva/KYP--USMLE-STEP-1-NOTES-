@@ -1,0 +1,73 @@
+{
+  "topicId": "statistical-tests",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "statistical-tests",
+      "requiredInKYP": true,
+      "visualId": "statistical-tests-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Common statistical tests table (book 267 lower): the four tests — t-test (2 means), ANOVA (3-or-more means), Chi-square (χ²) (2-or-more percentages/proportions of categorical outcomes, not mean values), Fisher's exact test (2 percentages/proportions of categorical, nominal outcomes, used instead of chi-square with small samples) — each with its Checks cell, First Aid's red mnemonic (three of the four rows), and its worked blood-pressure example; the chapter's test-selection core",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read in TWO passes — 120dpi full page + 300dpi lower crop, staging-pubh16/vlm-census.txt): below the bold dark-navy heading 'Common statistical tests' (bbox y≈336, below a thin horizontal rule) a four-row table with NO column-header row — left row labels in DARK RED/maroon (t-test / ANOVA / Chi-square (χ²) / Fisher's exact test), middle Checks cells in plain black with the print's own bolded key words ('means', '2', '3', 'categorical'), and right mnemonic + Example cells in which THREE mnemonics print in RED with key words bolded: t-test → 'Checks differences between means of 2 groups.' / 'Tea is meant for 2.' / 'Example: comparing the mean blood pressure between men and women.'; ANOVA → 'Checks differences between means of 3 or more groups.' / '3 words: ANalysis Of VAriance.' (capitals as printed) / 'Example: comparing the mean blood pressure between members of 3 different ethnic groups.'; Chi-square (χ²) → 'Checks differences between 2 or more percentages or proportions of categorical outcomes (not mean values).' / 'Pronounce chi-tegorical.' / 'Example: comparing the proportion of members of 3 age groups who have essential hypertension.'; Fisher's exact test → 'Checks differences between 2 percentages or proportions of categorical, nominal outcomes. Use instead of chi-square test with small samples.' / NO mnemonic / 'Example: comparing the percentage of 20 men and 20 women with hypertension.' Rows separated by thin light-gray rules; no zebra striping, no vertical borders; the in-cell line wraps are print artifacts.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "stat-tests-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (StatTestsMap in visuals/pubhealth-p16.tsx): four cards in PRINTED order, each carrying the test name (in the print's dark-red label color), a ROUTE chip naming the tree path (KYP), the printed Checks sentence, First Aid's red mnemonic attributed verbatim (t-test / ANOVA / Chi-square cards) or the documented NO-mnemonic chip (Fisher card), and the printed worked Example; plus the KYP clinical-thread strip noting all four examples are blood-pressure comparisons; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list (blocks[2]), and recall[0-3]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "stat-tests-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "statistical-tests",
+      "requiredInKYP": true,
+      "visualId": "statistical-tests-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "visualType": "FLOWCHART",
+      "visualPurpose": "The test-selection algorithm figure (book 267 lower): a decision tree routing any comparison to its test — the root 'Variables to be compared' branching into Numerical (means) (2 groups → t-test; ≥ 3 groups → ANOVA) and Categorical (proportions) (Small sample size → Fisher's exact test; Large sample size → Chi-square test); the page's visual grammar for choosing the statistical test",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + TWO VLM passes at 120dpi full page and 300dpi lower crop, staging-pubh16/vlm-census.txt): a top-to-bottom decision tree below the four-row table. LEVEL 1: one TAN/beige rounded rectangle, page-centered (bbox x≈360–434, y≈559), labeled 'Variables to be compared'. LEVEL 2: two rounded rectangles branching by gray elbow connectors with small solid arrowheads — LEFT 'Numerical (means)' (light blue fill; bbox x≈302–356, y≈599), RIGHT 'Categorical (proportions)' (light pink fill; bbox x≈435–508). LEVEL 3: FOUR PLAIN-TEXT labels, no boxes (VLM-confirmed; bbox y≈632): '2 groups' and '≥ 3 groups' (≥ glyph as printed) beneath Numerical, 'Small sample size' and 'Large sample size' beneath Categorical. LEVEL 4: four rounded leaf boxes (bbox y≈655), each directly below its criterion with a short vertical arrow from the label: 't-test' and 'ANOVA' in light blue beneath 2 groups and ≥ 3 groups; 'Fisher's exact test' and 'Chi-square test' in light pink beneath Small sample size and Large sample size. No background bands — white page. The figure's text objects extract at the very bottom of the raw stream in jumbled reading order with the indd footer slug interleaved MID-FIGURE between 'Numerical (means)' and 'Categorical (proportions)' (documented quirk; the tree's shape is bbox+VLM-pinned). A small FA page-reference cross-ref glyph at the diagram's right edge is marginal furniture, not carried (documented).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "stat-tests-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (StatTestsMap in visuals/pubhealth-p16.tsx): the tree redrawn as KYP vector art with the print's own color scheme carried (tan root, blue Numerical branch and t-test/ANOVA leaves, pink Categorical branch and Fisher/Chi-square leaves, gray elbow connectors with arrowheads, plain-text criteria at level three) and every printed label preserved; the KYP additions are marked — the two route chips (MEANS? count the groups / PROPORTIONS? gauge the sample), the family tags under the leaves, and the rule strip (the two-question protocol); the tree's semantics are also carried in mechanisms[0] test-selection-tree, blocks[3] the steps block, and recall[4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "stat-tests-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "statistical-tests",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pinned lower portion of book 267 (from the navy 'Common statistical tests' heading, raw line 39 / bbox y≈336, through the page end; the Confidence interval + significance-rules + Meta-analysis blocks above the split belong to confidence-intervals-meta-analysis, pubh15) carries TWO visual assets — the Common statistical tests table (sv1: FOUR rows in printed order — t-test, ANOVA, Chi-square (χ²), Fisher's exact test — with three red First Aid mnemonics and four worked blood-pressure examples) and the test-selection algorithm figure (sv2: the decision tree routing Variables to be compared → Numerical (means) [2 groups → t-test; ≥ 3 groups → ANOVA] and Categorical (proportions) [Small sample size → Fisher's exact test; Large sample size → Chi-square test]) — both accounted for in ONE registry visual (stat-tests-map, StatTestsMap in visuals/pubhealth-p16.tsx, viewBox 0 0 1102 1252): the table as an ORIGINAL KYP ADAPTATION (Zone B, four cards in printed order with First Aid's three red mnemonics attributed and the Fisher row's mnemonic ABSENCE documented — no mnemonic invented) and the algorithm as an ORIGINAL_KYP_REDRAW (Zone A, the tree re-laid-out as KYP vector art in the print's own tan/blue/pink scheme, every printed label preserved, KYP route chips and family tags marked as such); nothing is reproduced, and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — TWO passes (120dpi full page + 300dpi lower crop, vlm-census.txt) confirmed the four printed rows in order, the three red mnemonics, the Fisher row's mnemonic absence, the dark-red row labels, the print's bolded key words ('means', '2', '3', 'categorical'), the no-header-row / thin-gray-rules table styling, the tree's geometry (tan root; blue Numerical LEFT; pink Categorical RIGHT; plain-text criteria at level three; each leaf directly below its criterion), and the absence of margin mnemonics and images. ADJUDICATIONS: (A) Fisher mnemonic absence — raw layer + both VLM passes; mnemonic count THREE, all First Aid's own; (B) the tree's shape matched the brief exactly (bbox + VLM) — no correction; (C) no numeric threshold for 'small samples' prints — 20+20 is the print's own illustration; expected-count machinery is flagged KYP context only. Quirks documented: the print's OWN capitalization '3 words: ANalysis Of VAriance.'; '≥ 3 groups' with the ≥ glyph; 'Chi-square (χ²)' and the curly apostrophe in 'Fisher's exact test'; the reading-order jumble of the figure labels with the indd slug interleaved mid-figure (bbox+VLM-pinned); in-cell wraps as print artifacts. STAGED under .usmle-pipeline-cache/staging-pubh16/ — promotion into content/ is owned downstream."
+}

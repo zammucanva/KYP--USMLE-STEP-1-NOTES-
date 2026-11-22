@@ -1,0 +1,243 @@
+{
+  "topicId": "core-ethical-principles",
+  "title": "Core Ethical Principles and Decision-Making Capacity",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Ethics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      290
+    ],
+    "bookPages": "268 (lower)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "BOUNDARY + BLOCK 1 opener — the in-body subsection ribbon '▶ PUBLIC HEALTH SCIENCES—ETHICS' (the pinned page-split's start; the Pearson correlation coefficient block above, raw lines 1-41, belongs to correlation-coefficient) and the block title 'Core ethical principles'. QUIRK: the banner text also prints in the running header (raw line 10, the shared header band) — the banner prints TWICE; the in-body ribbon is this topic's opener and the running-header instance is NOT quoted (quotes stay inside the boundary)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "▶ PUBLIC HEALTH SCIENCES—ETHICS\nCore ethical principles",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1, ROW 1 — Autonomy: obligation to respect patients as individuals (truth-telling, confidentiality), to create conditions necessary for autonomous choice (informed consent), and to honor their preference in accepting or not accepting medical care",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Autonomy\n\nObligation to respect patients as individuals (truth-telling, confidentiality), to create conditions\nnecessary for autonomous choice (informed consent), and to honor their preference in accepting\nor not accepting medical care.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1, ROW 2 — Beneficence: 'Do good.'; the special ethical (fiduciary) duty to act in the patient's best interest; the two collisions (autonomy — an informed patient has the right to decide; society — eg, mandatory TB treatment, traditionally patient interest supersedes) and the PRINCIPLE OF DOUBLE EFFECT — facilitating comfort is prioritized over potential side effects (eg, respiratory depression with opioid use) for patients receiving end-of-life care (em-dash as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Beneficence\n\n“Do good.” Physicians have a special ethical (fiduciary) duty to act in the patient’s best interest.\nMay conflict with autonomy (an informed patient has the right to decide) or what is best for\nsociety (eg, mandatory TB treatment). Traditionally, patient interest supersedes.\nPrinciple of double effect—facilitating comfort is prioritized over potential side effects (eg,\nrespiratory depression with opioid use) for patients receiving end-of-life care.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1, ROW 3 — Nonmaleficence: 'Do no harm.'; must be balanced against beneficence; if the benefits outweigh the risks, a patient may make an informed decision to proceed (most surgeries and medications fall into this category)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Nonmaleficence\n\n“Do no harm.” Must be balanced against beneficence; if the benefits outweigh the risks, a patient\nmay make an informed decision to proceed (most surgeries and medications fall into this category).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1, ROW 4 — Justice: to treat persons fairly and equitably; this does not always imply equally (eg, triage)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Justice\n\nTo treat persons fairly and equitably. This does not always imply equally (eg, triage).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 opener — the 'Decision-making capacity' table title (wrapping across two raw lines, a printed line-wrap carried) and the definition paragraph: the physician must determine whether the patient is psychologically and legally capable of making a particular healthcare decision",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Decision-making\ncapacity\n\nPhysician must determine whether the patient is\npsychologically and legally capable of making\na particular healthcare decision.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, the two guardrail paragraphs — decisions made with capacity cannot be revoked simply if the patient later loses capacity; intellectual disabilities and mental illnesses are not exclusion criteria unless the patient's condition presently impairs their ability to make healthcare decisions (the print's italic 'not'; curly apostrophe in patient's as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Note that decisions made with capacity cannot be\nrevoked simply if the patient later loses capacity.\nIntellectual disabilities and mental illnesses\nare not exclusion criteria unless the patient’s\ncondition presently impairs their ability to\nmake healthcare decisions.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, the capacity-vs-competency pair — capacity is determined by a physician for a specific healthcare-related decision (eg, to refuse medical care); competency is determined by a judge (eg, legally unable to make any healthcare-related decision)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Capacity is determined by a physician for a\nspecific healthcare-related decision (eg, to\nrefuse medical care).\nCompetency is determined by a judge (eg,\nlegally unable to make any healthcare-related\ndecision).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer slug 'FAS1_2026_06-PubHealth.indd 268' — QUIRK: it extracts MID-BLOCK in the raw order (between the capacity table and the four-components panel, raw line 87) although it prints at the bottom-left corner (pdftotext -bbox y≈836); the evidence range preserves the raw extraction position and the printed position is bbox-pinned",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 268",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 — the 'Four major components of decision-making:' panel (printed BESIDE the capacity table, bbox-pinned x≈388-590 vs the capacity text x≈181-375, both starting y≈574): Understanding, Appreciation, Reasoning, Expressing a choice, each with its printed parenthetical question. QUIRK: the bullets extract as a \\x83 control byte + the ▘ quadrant glyph (the print's small blue square bullets; the control byte is a text-layer artifact stripped by normalization)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "Four major components of decision-making:\n▘ Understanding (what do you know about\nyour condition/proposed procedure/\ntreatment?)\n▘ Appreciation (what does your condition\nmean to you? why do you think your doctor\nis recommending this course of treatment?)\n▘ Reasoning (how are you weighing your\noptions?)\n▘ Expressing a choice (what would you like\nto do?)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 268; the page end of the pinned lower portion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (lower)"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on the pinned page's lower portion (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "ethics-principles-map"
+  ],
+  "mechanismIds": [
+    "principle-conflict-map",
+    "capacity-assessment-flow"
+  ],
+  "kypExtensions": [
+    {
+      "id": "principle-conflict-grammar",
+      "summary": "The four-pillar grammar of the printed Core ethical principles table: AUTONOMY read through its three printed verbs (respect — truth-telling, confidentiality; create — informed consent; honor — accepting or NOT accepting care) as the HINGE principle, plus the collision resolution ladder — beneficence vs autonomy resolves 'an informed patient has the right to decide'; beneficence vs society (eg, mandatory TB treatment) resolves 'traditionally, patient interest supersedes'; risk vs benefit resolves through the informed patient proceeding ('most surgeries and medications fall into this category'); comfort vs side effects at end of life resolves through the principle of double effect; justice overlays distribution ('does not always imply equally (eg, triage)').",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four definitions in parallel; the hinge reading, the three-verb decomposition of autonomy, the conflict-ladder organization, and the 'name the collision, apply the printed rule' protocol are KYP's synthesis.",
+      "location": "core.keyIdea MOVE 1 + mechanisms[0] principle-conflict-map + blocks[3] the decoder list block + the registry visual's Zone A pillars"
+    },
+    {
+      "id": "capacity-competency-frame",
+      "summary": "The capacity-vs-competency see-saw: capacity = CLINICAL (a physician, at the bedside, for ONE specific healthcare-related decision, eg, to refuse medical care) vs competency = LEGAL (a judge, a GLOBAL ruling — legally unable to make any healthcare-related decision), plus the two guardrails read as wrong-answer killers — decisions made with capacity cannot be revoked simply if the patient later loses capacity (durability runs forward only), and diagnoses (intellectual disabilities, mental illnesses) are not exclusion criteria unless the condition presently impairs (test the patient, not the chart).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the five paragraphs; the clinical-vs-legal framing, the decision-specificity emphasis, the 'guardrail' naming, and the forum/scope discriminator are KYP's organization.",
+      "location": "core.keyIdea MOVE 2 + mechanisms[1] capacity-assessment-flow + blocks[4] the compare block + the registry visual's Zone B see-saw and guardrail strip"
+    },
+    {
+      "id": "four-question-protocol",
+      "summary": "The U-ARE bedside protocol: the printed four components (Understanding, Appreciation, Reasoning, Expressing a choice) sequenced as an ordered assessment — facts first, personalization second, comparison third, output last — with the rule that all four present → capacity for THIS decision and any one absent → impaired for that decision; the funnel framing (a patient can fail at any level while passing earlier ones) is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four components and their questions as a side panel; the ordered protocol, the pass/fail rule, and the funnel framing are KYP's design.",
+      "location": "mechanisms[1] gate-components node + blocks[5] the steps block + the registry visual's Zone C strip + mnemonics[1] U-ARE"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the informed-refusal beneficence-vs-autonomy stem, the mandatory-TB beneficence-vs-society stem, the end-of-life opioid double-effect stem, the schizophrenia-refusal capacity-vs-competency stem), 4 traps (capacity vs competency; autonomy vs beneficence; diagnosis vs incapacity; nonmaleficence vs a risk veto), 3 pivots (chart-to-bedside on a psychiatric diagnosis; the yesterday-capable/today-confused irrevocability pivot; the judge/legally scope pivot), and 9 recall cards covering all three blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the principles and capacity rules only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: the page prints NO mnemonics of its own (VLM-confirmed — no red text, margin notes, or hooks in the lower portion; the mottos 'Do good.' and 'Do no harm.' are the Beneficence and Nonmaleficence openers, not mnemonics), so all FOUR codes are KYP originals, marked as such: 'A BRIGHT NEW JUDGE' (the four principles in printed order — Autonomy, Beneficence, Nonmaleficence, Justice), 'U-ARE' (Understanding, Appreciation, Reasoning, Expressing a choice), 'CAPACITY IS CLINICAL, COMPETENCY IS COURT' (physician/one decision vs judge/any decision), and 'COMFORT FIRST, PATIENT FIRST' (the double effect + the supersede rule).",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints anywhere on the lower portion of pdf 290 (pdfimages + VLM census, staging-pubh18/vlm-census.txt); all four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the visual's Zone C KYP-rule line"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "PINNED PAGE-SPLIT (the pubh8 '260 (lower)' convention): pdf 290 / book 268 is split between two topics — the LOWER portion (raw lines 43-101, from the in-body '▶ PUBLIC HEALTH SCIENCES—ETHICS' ribbon to the footer timestamp) is THIS topic; the upper portion (raw lines 1-41: the running header band + the 'Pearson correlation coefficient' block with its r-value scatter panels) belongs to correlation-coefficient (same batch, produced in parallel). EVERY evidence quote in this manifest is a contiguous span of raw lines 43-101 — none crosses the boundary; the running-header banner instance (raw line 10) is deliberately NOT quoted. The lower portion carries THREE blocks, all owned: (1) the 'Core ethical principles' table — FOUR rows in printed order (Autonomy, Beneficence, Nonmaleficence, Justice), every cell carried VERBATIM in the note's table block (blocks[1]); (2) the 'Decision-making capacity' table — five paragraphs carried VERBATIM in blocks[2]; (3) the 'Four major components of decision-making:' panel — four items with their printed questions, carried VERBATIM in blocks[2]. PRINTED GEOMETRY (pdftotext -bbox + the VLM pass): the four-components panel prints SIDE BY SIDE with the capacity table (capacity text x≈181-375, panel x≈388-590, both starting y≈574), NOT below it — the registry visual's Zone C strip is KYP's re-arrangement of that side panel and is labeled as such. CENSUS (pdfimages -list on pdf 290): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh18/vlm-census.txt): the ETHICS ribbon prints on a solid teal/navy band BELOW the Pearson correlation figure (split boundary confirmed) and the banner text also prints in the running header (twice on the page); 'Core ethical principles' is a blue bold table title with bold blue/navy principle names, hairline rules, no shading; 'Principle of double effect' prints bold; the 'not' in 'are not exclusion criteria' prints italic; the components' bullets are small BLUE SQUARES; NO red text, mnemonics, margin notes, asterisk footnotes, or images in the lower portion — so the note's four mnemonic codes are all KYP originals, marked as such. ADJUDICATIONS: (A) boundary — the split starts at the IN-BODY ribbon; the running-header banner instance belongs to the shared header band and is not quoted; (B) the brief's block description matched the print exactly — no correction; (C) the VLM transcribed the last component's question as 'what would you like to do to do?' — a duplication error; the text layer reads 'what would you like to do?' (raw lines 98-99) — TEXT LAYER GOVERNS; (D) 'Traditionally, patient interest supersedes.' is read in context — the autonomy conflict is resolved by its own parenthesis ('an informed patient has the right to decide') and the supersede rule most directly resolves the SOCIETY conflict. Quirks carried + documented: the banner's ▶ glyph and em-dash; 'Decision-making capacity' wraps across two lines in its title cell; curly quotes/apostrophes as printed; the em-dash in 'Principle of double effect—facilitating'; the indd slug extracts MID-BLOCK in the raw order (raw line 87, between the capacity table and the components panel) though it prints bottom-left (bbox y≈836) — the evidence range preserves the raw position; the components' bullets extract as a \\x83 control byte + the ▘ quadrant glyph (text-layer artifact stripped by normalization; the square bullet is the print's own). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (principle-conflict-map, capacity-assessment-flow), a visual block + TWO verbatim table blocks + decoder list + compare block + steps block + exam callout + memory callout, a clinical block (the double effect, mandatory TB treatment, the standing refusal, diagnosis ≠ incapacity), 4 patterns, 4 traps, 3 pivots, 9 recall, 4 related (informed-consent, surrogates-confidentiality, challenging-scenarios, correlation-coefficient — all four public-health census topicIds; correlation-coefficient is the pinned split's sibling, produced in parallel), 4 crossLinks (psychiatry, pharmacology/opioids, infectious disease/TB, emergency medicine/triage), 4 mnemonics (all KYP originals, marked — the page prints none of its own), and a miniCase with 5 options (exactly 1 correct + 4 distractors, why/why-wrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints principles and capacity rules, not drug rows — the opioid mention is an example inside beneficence's double-effect sentence and is carried in the clinical block; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete'; the per-record INVENTORY productionStatus is 'complete'; (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh18/ — nothing is written into content/ (the chapter census, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'ethics-principles-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (ethics-principles-map, EthicsPrinciplesMap in visuals/pubhealth-p18.tsx, viewBox 0 0 1102 1290): the Core ethical principles table as an ORIGINAL KYP ADAPTATION (four pillars in printed order — capital band, printed definition, conflict chips, the double-effect callout on Beneficence, plinth) and the Decision-making capacity block + Four major components panel as an ORIGINAL KYP ADAPTATION (the capacity-vs-competency see-saw with the two guardrails + the four-components strip) — with both tables' full text ALSO carried verbatim in the note's two table blocks; (6) sourceRef discipline: the note's sourceRef 'First Aid 2026, Part 1 pp. 268 (lower) (Ethics: Core ethical principles; Decision-making capacity)' carries {bookPages} = '268 (lower)' character-for-character identical to this manifest's sourcePages.bookPages.",
+  "updatedAt": "2026-11-22"
+}

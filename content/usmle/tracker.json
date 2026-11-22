@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T07:59:22Z",
+  "generatedAt": "2026-11-22T08:53:47Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 10,
     "chaptersExtracted": 6,
-    "topicsProduced": 188,
+    "topicsProduced": 193,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 133,
+      "pilot-complete": 138,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -340,8 +340,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 27,
-      "topicsProduced": 15,
-      "topicsRemaining": 12,
+      "topicsProduced": 20,
+      "topicsRemaining": 7,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1190,6 +1190,36 @@
       "updatedAt": "2026-10-08"
     },
     {
+      "topicId": "core-ethical-principles",
+      "title": "Core Ethical Principles and Decision-Making Capacity",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Ethics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 290 (book 268 (lower))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "correlation-coefficient",
+      "title": "Correlation and the Pearson Coefficient",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 290 (book 268 (top))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "cranial-nerves",
       "title": "Cranial Nerves",
       "chapterId": "neurology",
@@ -1981,6 +2011,21 @@
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "informed-consent",
+      "title": "Informed Consent, Minors, and Advance Directives",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Ethics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 291 (book 269–269)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 6,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-22"
     },
@@ -2825,6 +2870,21 @@
       "updatedAt": "2026-11-22"
     },
     {
+      "topicId": "statistical-tests",
+      "title": "Choosing the Statistical Test",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 289 (book 267 (lower))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "stroke-syndromes",
       "title": "Stroke Syndromes",
       "chapterId": "neurology",
@@ -2838,6 +2898,21 @@
       "kypExtensionCount": 1,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-07"
+    },
+    {
+      "topicId": "surrogates-confidentiality",
+      "title": "Surrogate Decision-Makers, Confidentiality, and Gifts",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Ethics",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 292 (book 270–270)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "survival-analysis",

@@ -74,6 +74,11 @@ import { ConfoundingMap } from "./pubhealth-p12";
 import { DistributionsMap } from "./pubhealth-p13";
 import { HypothesisErrorsMap } from "./pubhealth-p14";
 import { CiMetaMap } from "./pubhealth-p15";
+import { StatTestsMap } from "./pubhealth-p16";
+import { CorrelationMap } from "./pubhealth-p17";
+import { EthicsPrinciplesMap } from "./pubhealth-p18";
+import { ConsentMap } from "./pubhealth-p19";
+import { ConfidentialityMap } from "./pubhealth-p20";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -239,6 +244,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "distributions-map": DistributionsMap,
   "hypothesis-errors-map": HypothesisErrorsMap,
   "ci-meta-map": CiMetaMap,
+  "stat-tests-map": StatTestsMap,
+  "correlation-map": CorrelationMap,
+  "ethics-principles-map": EthicsPrinciplesMap,
+  "consent-map": ConsentMap,
+  "confidentiality-map": ConfidentialityMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

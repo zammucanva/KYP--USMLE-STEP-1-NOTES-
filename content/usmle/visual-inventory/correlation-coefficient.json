@@ -1,0 +1,73 @@
+{
+  "topicId": "correlation-coefficient",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "correlation-coefficient",
+      "requiredInKYP": true,
+      "visualId": "correlation-coefficient-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (top)"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Pearson correlation coefficient text block (book 268 top): the definition (a measure of the linear correlation between two variables; r always between −1 and +1), the strength rule (the closer |r| is to 1 the stronger the linear correlation), the inline variance definition, the positive/negative r direction lines, the coefficient of determination r² (proportion of variance in one variable explained by variance in the other), and the closing verdict sentence — the subsection's last biostatistics block",
+      "sourceFigureDescription": "PURE TEXT, no raster (pdfimages: zero raster images; VLM-read in TWO passes — 120dpi full page + 300dpi upper crop, staging-pubh17/vlm-census.txt): the bold dark-navy heading 'Pearson correlation coefficient' wrapping across two lines in the left label column, with the body printing to its right in black roman — the r characters in ITALIC throughout; 'Correlation does not necessarily imply causation.' prints in REGULAR roman (not bolded, italicized, or colored) inline at the end of the coefficient-of-determination sentence; NO red text, mnemonics, margin notes, or asterisk footnotes in the top portion; the block ends at a thin horizontal rule, then white space, then the ETHICS ribbon banner.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "correlation-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B (the r/r² interpretation rail: the SIGN card with the two printed direction lines and ↑↑/↑↓ chips, the SIZE card with the printed range + strength rule and the −1→+1 scale plotting the five gallery values, the SQUARE card with the printed coefficient-of-determination sentence, the r = +0.8 → r² = 0.64 worked chip, and the inline variance definition) + Zone C (the verdict band: the printed sentence 'Correlation does not necessarily imply causation.' carried verbatim and attributed, with the three KYP rival chips — confounder, reverse direction, design decides) of the registry visual (CorrelationMap in visuals/pubhealth-p17.tsx); the full block text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, mechanisms[1], blocks[3] the steps block, and recall[0-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "correlation-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "correlation-coefficient",
+      "requiredInKYP": true,
+      "visualId": "correlation-coefficient-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268 (top)"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The five-panel scatter gallery (book 268 top): five scatter plots comparing r = −0.8 (strong negative correlation), r = −0.4 (weak negative correlation), r = 0 (no correlation), r = +0.4 (weak positive correlation), and r = +0.8 (strong positive correlation) — the page's visual calibration of how a dot cloud's direction and tightness encode the sign and strength of the linear correlation",
+      "sourceFigureDescription": "PURE VECTOR SCATTER ART, no raster (pdfimages: zero raster images; panel order + geometry pinned by pdftotext -bbox x-coordinates + the VLM pass at 120dpi and 300dpi, staging-pubh17/vlm-census.txt): a horizontal row of FIVE small scatter panels, printed order left→right — 1st 'r = –0.8' / caption 'Strong negative correlation': ~11-12 navy filled-circle dots in a TIGHT downhill trend hugging a steep descending line, with a faint gray diagonal fit-line arrow through the cloud; 2nd 'r = –0.4' / 'Weak negative correlation': loose downhill drift with wide vertical scatter; 3rd 'r = 0' / 'No correlation' (caption on one line): a shapeless cloud with no trend; 4th 'r = +0.4' / 'Weak positive correlation': loose uphill drift; 5th 'r = +0.8' / 'Strong positive correlation': ~13-14 dots TIGHT along a steep ascending gray fit-line arrow — the two positive panels mirror images of the two negative panels. Each panel: a light tan/gold gridline frame with x/y axis lines meeting at the lower-left corner and small arrowheads, NO axis labels, tick numbers, or axis titles; r labels above (italic r; en-dash minus in the two negative labels), captions below in plain black (two-line wraps except 'No correlation'). A small FA review-question icon (square/checkmark 'Rx' glyph) at the far right edge beside the captions is page furniture. RAW-LAYER QUIRKS: the captions extract in a jumbled order ('No correlation' after 'r = +0.4'; 'Weak positive correlation' after 'r = +0.8') and the middle label merges to 'r=0' — printed order pinned by bbox + VLM.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "correlation-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (CorrelationMap in visuals/pubhealth-p17.tsx): the five panels redrawn as KYP vector art in the printed order — each with its verbatim r label (italic, en-dash in the two negative labels), a gridline frame with unlabeled lower-left axes and arrowheads, a KYP dot field matching the printed direction × tightness (tight steep downhill for −0.8 and uphill for +0.8 with fit-line arrows as printed; loose drifts for ±0.4; a shapeless cloud for 0), the verbatim caption below, and a small r² chip (0.64 / 0.16 / 0) — plus the KYP rule strip; the gallery's semantics are also carried in mechanisms[0] scatter-to-r-map, blocks[2] the gallery decoder, and recall[6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "correlation-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "correlation-coefficient",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The pinned top portion of book 268 (through the end of the Pearson correlation coefficient block; the in-body ribbon banner '▶ PUBLIC HEALTH SCIENCES—ETHICS' below it belongs to core-ethical-principles, produced in parallel) carries TWO visual assets — the Pearson correlation coefficient text block (sv1: definition, range, strength rule, inline variance definition, the positive/negative r direction lines, r² + the closing verdict sentence) and the five-panel scatter gallery (sv2: r = −0.8 strong negative · r = −0.4 weak negative · r = 0 no correlation · r = +0.4 weak positive · r = +0.8 strong positive) — both accounted for in ONE registry visual (correlation-map, CorrelationMap in visuals/pubhealth-p17.tsx, viewBox 0 0 1102 1050): the text block as an ORIGINAL KYP ADAPTATION (Zone B interpretation rail — SIGN/SIZE/SQUARE cards — and Zone C the correlation-does-not-necessarily-imply-causation verdict band) and the gallery as an ORIGINAL_KYP_REDRAW (Zone A: five KYP dot fields rebuilt as vector art matching each r's direction and tightness, fit-line arrows in the two strong panels as printed, every label and caption preserved verbatim); nothing is reproduced, and the full block text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — TWO passes (120dpi full page + 300dpi upper crop, vlm-census.txt) confirmed the five-panel printed order (bbox x-coordinates agree), the dot-field geometry (navy filled circles, tan gridline frames, unlabeled lower-left axes with arrowheads, fit-line arrows only in the two strong panels, shapeless cloud at r = 0), the italic r, the regular-roman verdict sentence, and the absence of red text, mnemonics, and margin notes. ADJUDICATIONS: the VLM pass 1 arrow misread on the Negative r line ('↓, ↓') is overruled by the text layer ('↑, ↓' — raw line 16, the internally consistent reading); the negative labels' en-dash vs the body's true minus is carried as extracted (text layer governs); the middle label's raw-layer merge to 'r=0' is documented (the print spaces it). TOP-portion split page — the chapter's LAST Epidemiology and Biostatistics block before the ETHICS subsection begins. STAGED under .usmle-pipeline-cache/staging-pubh17/ — promotion into content/ is owned downstream."
+}

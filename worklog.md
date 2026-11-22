@@ -928,3 +928,23 @@ Stage Summary:
 - MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · Public Health 15/27 — 188/3029 topics · evidence 4419/4419 · 181 registry visuals · contract GREEN · 0 depth failures.
 - REMAINING IN PUBLIC HEALTH (12): statistical-tests (289 lower) · correlation-coefficient (290 top) · core-ethical-principles (290 lower) · informed-consent (291) · surrogates-confidentiality (292) · patient-centered-interviewing (293) · cultural-competence-interviewing (294) · interpreters-bad-news (295) · challenging-scenarios (296-297) · disease-prevention-prophylaxis (298) · insurance-payment-models (299) · patient-safety-quality (300).
 - NEXT: pubh16-pubh20 batch — statistical-tests, correlation-coefficient, core-ethical-principles, informed-consent, surrogates-confidentiality (the Epi/Biostat tail + the Ethics block) → pubh21-pubh25 (Communication 4 + Healthcare Delivery opener) → pubh26-27 + §6.2 CHAPTER CLOSE. Do not stop.
+
+---
+Task ID: pubh16-pubh20-batch-2026-11-22
+Agent: Super Z (main agent + 5 parallel production subagents)
+Task: The pubh16-pubh20 batch (5 topics) — Public Health 20/27; the EPIDEMIOLOGY AND BIOSTATISTICS BLOCK COMPLETE 17/17 + the ETHICS BLOCK COMPLETE 3/3.
+
+Work Log:
+- pubh16 statistical-tests (289 lower/267) 731-line note, StatTestsMap (73 texts), 14 evidence — Fisher row prints NO mnemonic (documented, none invented); the selection tree census-pinned; 3 FA mnemonics attributed.
+- pubh17 correlation-coefficient (290 top/268) 766-line note, CorrelationMap (81 texts), 12 evidence — gallery order −0.8→−0.4→0→+0.4→+0.8 confirmed; VLM arrow misread adjudicated to text layer.
+- pubh18 core-ethical-principles (290 lower/268) 749-line note, EthicsPrinciplesMap (124 texts), 11 evidence — the ETHICS banner boundary clean; four-components panel position bbox-pinned.
+- pubh19 informed-consent (291/269) 777-line note, ConsentMap (130 texts), 16 evidence — WIPE + Sex/Drugs/Rock-and-roll both print in RED (VLM), carried attributed.
+- pubh20 surrogates-confidentiality (292/270) 760-line note, ConfidentialityMap (152 texts), 18 evidence — "the spouse chips in" + SAVED red lettering VLM-confirmed, carried attributed.
+- INTEGRATION: registered, promoted, chapter 20/27 (pending 7), tracker 193 topics. CONTRACT GREEN FIRST RUN (third consecutive zero-violation batch).
+- QA: browser 4-pass ×5 — 20/20 at 0px; getBBox 0 overlaps / 0 outside ×5 FIRST PASS; VLM ×10 — 10/10 CLEAN (house-style notes only). ZERO fix rounds.
+- Gates: evidence 4490/4490 EXIT 0 (+71) · CONTRACT GREEN · audit 193 topics 0 depth failures · tsc 1 baseline.
+
+Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · Public Health 20/27 (Epi/Biostat 17/17 COMPLETE · Ethics 3/3 COMPLETE) — 193/3029 topics · evidence 4490/4490 · 186 registry visuals · contract GREEN · 0 depth failures.
+- REMAINING (7): patient-centered-interviewing (293) · cultural-competence-interviewing (294) · interpreters-bad-news (295) · challenging-scenarios (296-297) · disease-prevention-prophylaxis (298) · insurance-payment-models (299) · patient-safety-quality (300) → then the §6.2 CHAPTER CLOSE GATE.
+- NEXT: pubh21-pubh25 (the Communication block + disease-prevention-prophylaxis) → pubh26-pubh27 + chapter close. Do not stop.

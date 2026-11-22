@@ -1,0 +1,142 @@
+=== pubh16 (statistical-tests) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels/blocks (algorithm tree, four test cards, footnote band, example box) are present and complete, nothing clipped or missing.
+
+2) **Text overlap/spillage?** None observed. All labels sit inside their nodes/cards; dashed groupings ("SAME INDIVIDUAL"?-type captions) sit under the correct node groups.
+
+3) **Connectors/arrows?** Yes — the tree's branch lines and arrowheads render correctly, including the 2-group / >2-group and small/large-sample splits. No tofu boxes or broken glyphs.
+
+4) **Readability?** Mostly fine. The very small annotation text under the boxes and inside the t-test/ANOVA/Chi-square/Fisher cards is near the legibility floor — readable but tiny; the pink "question the test asks" text is small yet legible with adequate contrast.
+
+5) **Verdict: CLEAN** — no defects blocking comprehension; only minor caveat is the very small font size of the dense caption/footnote text.
+
+=== pubh16 (statistical-tests) — dark — REVIEW ===
+**1) Fully rendered blocks?**
+Yes. All flowchart nodes, the two dashed grouping zones, both comparison boxes, the four test panels (t-test, ANOVA, Chi-square, Fisher's exact), and the bottom summary/footer block are complete and unclipped.
+
+**2) Overlap/spill?**
+No text overlap or spilling detected. All node labels sit inside their boxes; the dashed grouping brackets and arrows don't intersect any text.
+
+**3) Connectors/arrow glyphs?**
+Arrows and lines render correctly (flowchart branches, downward arrows with arrowheads, dashed group boundaries). No tofu boxes or missing glyphs.
+
+**4) Readability?**
+Minor concerns only:
+- The descriptive body text in the four test panels ("Statistically comparing the means of..." and the MCW/ATSM bullet lines) is quite small and low-contrast against the dark background — near the legibility floor.
+- The light-gray footer paragraph lines at the very bottom are small but still legible.
+- Node labels and panel headers are fine.
+
+**5) Verdict: CLEAN.**
+No functional defects. Optional improvement: increase font size / contrast of the small gray explanatory text in the four test panels and footer for readability.
+
+=== pubh17 (correlation-coefficient) — light — REVIEW ===
+1) All panels fully rendered — five scatter panels, three interpretation cards, warning box, footer all intact; no clipping.
+
+2) No overlap. Small text (e.g., r values under panels, footnote lines) sits tight but within bounds. The "Search" pill (bottom right) is an app UI overlay, not part of the SVG — it overlaps the crop but not diagram content.
+
+3) Connectors render fine: trend-line arrows on r = −0.8 and r = +0.8 panels show arrowheads; the strength slider line with dots/diamond markers is intact. No tofu boxes or broken glyphs.
+
+4) Readability: teal headings and body text are legible. The smallest items — the tiny r value labels under each scatter panel (e.g., "r = −0.8" in ~6–7px teal), and the dense footnote text in the bottom reference box — are at/near the legibility floor when viewed at full-page zoom, though sharp at 100%.
+
+5) Verdict: CLEAN, with two minor notes: (a) smallest r-value captions and footnote text sit near the legibility floor; (b) app "Search" button overlaps the crop's right edge (UI element, not a diagram defect).
+
+=== pubh17 (correlation-coefficient) — dark — REVIEW ===
+**1) Fully rendered panels?** Yes — all five scatter panels render completely with axes, arrows, and dots. The three interpretation-rail cards and the orange "correlation ≠ causation" banner are all intact. No clipped or missing blocks.
+
+**2) Text overlap/spillage?** None observed. Small caption text sits cleanly under each scatter; labels inside the green/orange strength boxes fit within their borders. No overlapping elements.
+
+**3) Connectors/arrows/glyphs?** All five trend arrows render correctly (negative slope arrow in panel 1, positive in panel 5, none implied in r≈0 panel — appropriate). The ±0.8 scale on the r-line in "THE DIAL" card renders fine. No tofu boxes or broken characters.
+
+**4) Readability?** Dark theme with good contrast. Most body text is legible, but many of the smallest captions (e.g., panel sub-captions like "scatter symmetric / one tail …", the tiny gray footnote lines under the r-dial, and the fine print in the source/notes block at bottom) are near the legibility floor — small and low-contrast gray on dark. Acceptable for secondary notes, but borderline.
+
+**5) Verdict: CLEAN.** No functional defects; only minor concern is very small low-contrast caption text in several places (panel sub-captions, dial footnotes, bottom source block).
+
+=== pubh18 (core-ethical-principles) — light — REVIEW ===
+**1) Fully rendered panels?** Yes — all blocks (four pillars, capacity vs consistency, four components) appear complete with no clipping.
+
+**2) Text overlap/spill?** None visible. Headers, sub-boxes, and footnote text stay within their containers. The floating "Search" widget (right edge, ~y 840) overlaps the diagram area, but it's a UI overlay, not an SVG defect.
+
+**3) Connectors/glyphs?** Arrows/links between panels render fine (e.g., the "vs" connector circle between CAPACITY and CONSISTENCY panels). No tofu boxes or broken characters.
+
+**4) Text readability?** Most text is legible, but several items are near the floor at this zoom: sub-caption under the title ("principal circle: Beauchamp..."), small labels inside sub-boxes (e.g., "1 INFORM", "MR. SPECTOR" details), the tiny pill badges ("no standing Lennant?", "Tasgressi", "early and variabili"), and the fine-print disclaimer lines at the bottom. Contrast is adequate; size is the limiting factor.
+
+**5) Verdict: CLEAN** (with minor caveats — smallest annotations/footnotes sit at the legibility floor when zoomed out, and the app's Search overlay covers part of the right-side CONSISTENCY panel; both are presentation/UI issues, not rendering defects).
+
+=== pubh18 (core-ethical-principles) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?**
+Yes — all major panels (AUTONOMY, BENEFICENCE, NONMALEFICENCE, JUSTICE, CAPACITY vs CONSENT, the four "components" cards, and the source/reference footer block) appear present and structurally complete. No visibly clipped or missing boxes.
+
+**2) Text overlap / spill / overlapping elements?**
+- No internal text-on-text overlap or container overflow detected within the panels.
+- One external overlap: the app's floating **"Search" pill (right edge, ~mid-page, ~y=810)** overlaps/abuts the right margin of the CAPACITY/CONSENT section area. If it's part of the app chrome rather than the SVG, it's not a diagram defect, but it visually intrudes into the crop.
+
+**3) Connectors/arrows/glyphs?**
+No arrows or connector lines are used in this diagram (layout is box-based). No tofu boxes or broken glyphs observed; bullet and quote characters render fine.
+
+**4) Text readability?**
+This is the main concern. At this crop's scale:
+- **Body text in the four pillar panels, the capacity/consent boxes, and the footer "Sources & Answers" block is very small (~6–8px equivalent) and low-contrast** (dim gray/teal on near-black). Several paragraphs are at or below the legibility floor — content is only guessable.
+- **Panel titles** (teal headers) and the **white top banner text** are clearly readable.
+- Small amber/red callout text ("PRIMACY OF GOD..." etc.) is borderline.
+
+**5) Verdict:**
+**Not fully CLEAN** — defects:
+1. **Global micro-text**: dense body copy across all panels and the footer is near/below legibility threshold in dark theme (contrast too low, font too small).
+2. **"Search" app widget overlaps the diagram's right edge** (~y=795–830) — reposition or exclude from crop.
+
+Structure/geometry otherwise sound; fix is primarily typographic (larger body font or brighter text color), not layout.
+
+=== pubh19 (informed-consent) — light — REVIEW ===
+1) **All panels rendered?** Yes — all blocks appear complete. The four-part process (Disclose → Understanding → Capacity → Voluntariness), W.I.P.E exceptions row, minors/consent section, advance directives cards, and footer panels are all fully drawn, nothing clipped or missing.
+
+2) **Overlap/spill?** No text overlaps containers or other elements. Spacing within the four top cards is adequate; the amber "exception" callout in Capacity ("NPC — check — check/sign STOP") fits its box cleanly. Footer fine-print is dense but contained.
+
+3) **Connectors/glyphs?** The three black arrows between the top four cards render correctly (solid, properly pointed). The dashed diagonal arrow in the advance-directives section renders with a correct arrowhead. No tofu boxes or broken characters observed.
+
+4) **Readability?** Overall good contrast. Minor concerns:
+- Very small italic footnotes/citations (e.g., "Real-world example…", footer source lines, small gray captions under cards) sit near the legibility floor in light theme — small font size, light gray text. Not broken, just dense.
+- The search pill at right ("Search") overlays the white margin — this appears to be app chrome, not a diagram defect.
+
+5) **Verdict:** **CLEAN.** Only minor caveat: tiny gray footnote/citation text is at the lower bound of comfortable legibility, but no rendering defects, clipping, overlap, or broken glyphs.
+
+=== pubh19 (informed-consent) — dark — REVIEW ===
+**1) Fully rendered panels?**
+Yes — all four "pillars" panels, all four WIPE exception panels, consent-for-minors panels, and the four advance-directive cards are complete and inside their containers. No clipped or missing blocks.
+
+**2) Text overlap / spillage?**
+No overlap detected. All pill badges (e.g., "MDED evidenced in the swap," "two witnesses," "HIDE — oral hoile") fit within their outlined containers. Footer fine print stays within its block. The floating "Search" pill overlaps page content at right edge (~y=815), but that's a web-app UI overlay, not a diagram defect.
+
+**3) Connectors/arrows?**
+Arrows between the four pillar panels render as proper chevron/arrow glyphs (→ between Disclosure/Understanding/Capacity/Volunteering). The dashed rising arrow at the bottom of the advance-directives section terminates in a solid arrowhead correctly. No tofu boxes or broken glyphs visible.
+
+**4) Text readability?**
+Dark theme with teal/amber/pink accent text. Most text is legible, but the smallest body text — particularly the fine-print caveat lines inside the exception panels (e.g., under "Wise! / Wafer," "Emergency situation") and the multi-line footer source notes — sits near the legibility floor: small size and low contrast (dim gray/dark teal on near-black). Still technically readable at full zoom; flagged as borderline.
+
+**5) Verdict: CLEAN**
+No rendering defects. Minor non-blocking notes: smallest annotation text is near the legibility floor, and the app's Search overlay overlaps the diagram's right edge (app chrome, not the SVG itself).
+
+=== pubh20 (surrogates-confidentiality) — light — REVIEW ===
+**Review of crop (light theme, 4-block USMLE diagram):**
+
+1) **Fully rendered?** Yes. All four sections (surrogate ladder, ventilator rule, confidentiality gates/exceptions, gifts script) and all sub-panels/boxes appear complete. One exception: the small plain white rounded rectangle at the bottom-right (next to the floating "Search" pill) has **no visible content** — possibly an empty/placeholder card or an app UI element overlapping the canvas.
+
+2) **Text overlap/spill?** No overlaps or spillover detected within the diagram itself. However, the app's floating **"Search" pill overlaps the right edge** of the diagram area — an app-level UI overlay, not an SVG defect.
+
+3) **Connectors/arrows?** All arrows render correctly (down-arrows in the surrogate ladder, right-arrows in the ventilator and gifts flows, gate arrows in confidentiality section). No tofu boxes or broken glyphs.
+
+4) **Readability?** Structurally readable, but this render is at very low resolution — most body text is tiny and blurry (e.g., the small explanatory paragraphs under each section header and the two-line red text under the "BEGIN EXCEPTIONS" label). At this zoom several items sit **at/near the legibility floor**; at full app zoom they should be fine, but colors like light-orange text on white (gifts panel headers) are lower contrast.
+
+5) **Verdict:** **CLEAN with minor notes:**
+   - Floating Search pill (app UI) overlaps the diagram's right edge near the exceptions row — not an SVG defect.
+   - One empty white card at bottom-right of the exceptions row with no content — verify whether intended.
+   - Many small-text blocks are near the legibility floor at this render size; red-on-white micro-text under "BEGIN EXCEPTIONS" is the tightest.
+
+=== pubh20 (surrogates-confidentiality) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?** Yes — all sections (surrogate ladder, ventilator decision rule, confidentiality, gifts) appear complete with no clipped or missing blocks. All five exception cards and three "SAVED" exception boxes are present.
+
+**2) Text overlap / spilling?** No overlap or spill detected. Text sits inside its containers. Some very small body text is dense but contained.
+
+**3) Connectors/arrows?** Render correctly — arrows between panels (ventilator rule chain, confidentiality flow, gifts assessment) and down-arrows in the surrogate ladder are all present and intact. No tofu boxes or broken glyphs visible.
+
+**4) Text readability?** Mixed. Headers and colored labels (red "capacity exception," orange "STEP 1/2/3," blue/teal titles) are readable. However, the small explanatory body text (e.g., the faded grey notes under each ladder rung, exception card bullet text, and the fine-print caption lines at the bottom of sections) is near the legibility floor — small size plus low contrast grey-on-dark. The bottom "Source & sources" block is also very low-contrast.
+
+**5) Verdict:** **CLEAN structurally** — no rendering defects (no clipping, overlap, missing glyphs, or broken arrows). One quality concern only: several blocks of fine-print body text fall near the legibility floor due to small font size and low-contrast grey styling, notably the surrogate ladder sub-notes, exception-card bullets, and the bottom source/footnote text.

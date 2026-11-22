@@ -1,0 +1,334 @@
+{
+  "topicId": "surrogates-confidentiality",
+  "title": "Surrogate Decision-Makers, Confidentiality, and Gifts",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Ethics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      292
+    ],
+    "bookPages": "270–270"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 270, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—ETHICS' — the banner's THIRD page and its LAST (pdf 293 opens COMMUNICATION SKILLS); unlike the subsection opener on book 256, the banner prints ONCE here (running header only; VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "270\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—ETHICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 HEADING — 'Ventilator-assisted life support' (blue bold label-column heading; wraps across two lines 'Ventilator-assisted life / support' with no hyphen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Ventilator-assisted life\nsupport",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 body, part 1 — the ideal (discussions with patients occur before ventilator support is necessary), the preference gap (information about patient preferences may be absent at the time patients require this intervention to survive), and the surrogate focus (patient identified or legally appointed; continuation or withdrawal of ventilatory support; focusing on both the prognosis of the condition and the believed wishes of the patient)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Ideally, discussions with patients occur before ventilator support is necessary. However, information\nabout patient preferences may be absent at the time patients require this intervention to survive.\nMedical decision-making frequently relies on surrogate decision-makers (patient identified or\nlegally appointed) when discussing the continuation or withdrawal of ventilatory support, focusing\non both the prognosis of the condition and the believed wishes of the patient.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 body, part 2 — the OVERRIDE RULE, printed with the arrow: if surrogates indicate patient would not have wanted to receive life support with ventilation → withhold or withdraw life support REGARDLESS OF WHAT THE SURROGATE PREFERS (the raw line carries a C1 control byte U+008E before the arrow — known extraction artifact, stripped by normalization; VLM: the sentence prints in plain roman text, not boxed or italicized)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "If surrogates indicate patient would not have wanted to receive life support with ventilation →\nwithhold or withdraw life support regardless of what the surrogate prefers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 body, part 3 — the support wrap: if the decision is made to withhold or withdraw life support, involve palliative care, chaplain services, and the primary care physician in medical discussions with the family and provide emotional support",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "If the decision is made to withhold or withdraw life support, involve palliative care, chaplain services,\nand the primary care physician in medical discussions with the family and provide emotional support.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 HEADING — the print hyphenates across the line wrap ('Surrogate decision- / maker', pdftotext -layout + VLM-confirmed); the raw text layer MERGES it to 'Surrogate decisionmaker' (the raw merge is preserved in this evidence range; the note's verbatim table carries the hyphenated print — same class as book 256's 'riskrelated' merge)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Surrogate decisionmaker",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 body — the two preconditions (loses decision-making capacity; has not prepared an advance directive), the surrogates' task (individuals who know the patient must determine what the patient would have done), and the priority chain spouse → adult children → parents → adult siblings → other relatives with First Aid's OWN mnemonic '(the spouse chips in)' printed in RED inside the parenthesis (VLM: the words spouse/children/siblings/'spouse chips' print in red bold; the arrows print black; the raw line carries C1 bytes U+008E around each arrow — known artifact)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "If a patient loses decision-making capacity and has not prepared an advance directive, individuals\n(surrogates) who know the patient must determine what the patient would have done. Priority\nof surrogates: spouse → adult children → parents → adult siblings → other relatives (the spouse\nchips in).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 HEADING — 'Confidentiality' (blue bold label-column heading)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Confidentiality",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 body, part 1 — the default (confidentiality respects patient privacy and autonomy), the incapacitated/emergent disclosure rule (disclosing information to family and friends should be guided by professional judgment of patient's best interest), and the voluntary waiver (eg, insurance company request)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Confidentiality respects patient privacy and autonomy. If the patient is incapacitated or the\nsituation is emergent, disclosing information to family and friends should be guided by\nprofessional judgment of patient’s best interest. The patient may voluntarily waive the right to\nconfidentiality (eg, insurance company request).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 body, part 2 — the three printed general principles for exceptions to confidentiality: potential physical harm to self or others is serious and imminent; alternative means to warn or protect those at risk is not possible; steps can be taken to prevent harm (three square-bullet lines; the raw layer prefixes each bullet with a C1 byte U+0083 before the ▘ glyph — known artifact)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "General principles for exceptions to confidentiality:\n▘ Potential physical harm to self or others is serious and imminent\n▘ Alternative means to warn or protect those at risk is not possible\n▘ Steps can be taken to prevent harm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 body, part 3 — the SAVED lead-in: examples of exceptions to patient confidentiality (many are state specific — printed WITHOUT a hyphen) include the following ('The physician's good judgment SAVED the day') — First Aid's OWN mnemonic, with SAVED printed in RED capitals (VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Examples of exceptions to patient confidentiality (many are state specific) include the following\n(“The physician’s good judgment SAVED the day”):",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 body, part 4 — the first three SAVED example bullets with their red initial capitals: patients with active Suicidal/homicidal ideation; Abuse (children, older adults, and/or prisoners); Duty to protect—state-specific laws that sometimes allow physician to inform or somehow protect potential Victim from harm (the em-dash in 'protect—state-specific' is as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "▘ Patients with active Suicidal/homicidal ideation\n▘ Abuse (children, older adults, and/or prisoners)\n▘ Duty to protect—state-specific laws that sometimes allow physician to inform or somehow\nprotect potential Victim from harm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 3 body, part 5 — the last two SAVED example bullets and the warn mechanics: patients with Epilepsy and other impaired automobile drivers; Reportable Diseases (eg, STIs, hepatitis, food poisoning); physicians may have a duty to warn public officials, who will then notify people at risk; dangerous communicable diseases, such as TB or Ebola, may require involuntary treatment",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "▘ Patients with Epilepsy and other impaired automobile drivers\n▘ Reportable Diseases (eg, STIs, hepatitis, food poisoning); physicians may have a duty to warn\npublic officials, who will then notify people at risk. Dangerous communicable diseases, such as\nTB or Ebola, may require involuntary treatment.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 4 HEADING — 'Accepting gifts from patients' (blue bold label-column heading; wraps across two lines 'Accepting gifts from / patients' with no hyphen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "Accepting gifts from\npatients",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 4 body, part 1 — the printed debate: a complex subject without definitive regulations; some argue the patient-physician relationship is strengthened through accepting a gift from a patient, while others argue negative consequences outweigh the benefits; and the practice + assessment: patients often present items such as cards, baked goods, and inexpensive gifts; the physician's decision to accept or decline is based on an individual assessment of whether or not the risk of harm outweighs the potential benefit",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "A complex subject without definitive regulations. Some argue that the patient-physician\nrelationship is strengthened through accepting a gift from a patient, while others argue that\nnegative consequences outweigh the benefits of accepting any gift.\nIn practice, patients often present items such as cards, baked goods, and inexpensive gifts to\nphysicians. The physician’s decision to accept or decline is based on an individual assessment of\nwhether or not the risk of harm outweighs the potential benefit.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 4 body, part 2 — the three printed decline rules (three square-bullet lines, U+0083▘ in the raw layer): physicians should not accept gifts that are inappropriately large or valuable; gifts should not be accepted if the physician identifies that the gift could detrimentally affect patient care; gifts that may cause emotional or financial stress for the patient should not be accepted",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "▘ Physicians should not accept gifts that are inappropriately large or valuable.\n▘ Gifts should not be accepted if the physician identifies that the gift could detrimentally affect\npatient care.\n▘ Gifts that may cause emotional or financial stress for the patient should not be accepted.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 4 body, part 3 — the decline script: if a gift violates any of the guidelines above, the best practice is to thank the patient for offering a kind gift, but politely indicate that it must be declined; during this conversation it should be emphasized that the incident does not influence the physician-patient relationship in any way",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "If a gift violates any of the guidelines above, the best practice is to thank the patient for offering\na kind gift, but politely indicate that it must be declined. During this conversation it should be\nemphasized that the incident does not influence the physician-patient relationship in any way.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer slug and print timestamp — 'FAS1_2026_06-PubHealth.indd 270' and '12/16/25 12:46 PM' (page identity, book 270)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          292
+        ],
+        "bookPages": "270"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 270\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "confidentiality-map"
+  ],
+  "mechanismIds": [
+    "ventilator-surrogate-pathway",
+    "saved-exceptions-gate"
+  ],
+  "kypExtensions": [
+    {
+      "id": "ventilator-substituted-judgment",
+      "summary": "The substituted-judgment reading of the printed ventilator rule: the surrogate is a conduit for the patient's values, not a decision-maker with their own vote — the believed wishes of the patient govern continuation/withdrawal of ventilatory support 'regardless of what the surrogate prefers' (KYP hook: WISHES, NOT WANTS), and the palliative wrap (palliative care, chaplain services, primary care physician, emotional support) is part of the printed answer rather than an afterthought; the two-input rule (prognosis of the condition AND believed wishes of the patient) is the synthesis of the printed sentence.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rule and the wrap as sentences but never names the principle (substituted judgment), never frames the wrap as part of the tested answer, and never labels the override direction; the framing and hooks are KYP's.",
+      "location": "core.keyIdea GATE 2 + mechanisms[0] ventilator-surrogate-pathway + blocks[2] the decoder BLOCK 1 item + blocks[3] QUESTION 2 + the registry visual's Zone B rule strip"
+    },
+    {
+      "id": "confidentiality-decision-line",
+      "summary": "The keep-vs-break decision line: the printed permitted disclosures (the patient's voluntary waiver, eg insurance company request, and the incapacitated/emergent professional judgment of the patient's best interest) are keep-side disclosures working FOR the patient, while the five SAVED exceptions are breach-side overrides of the patient that must first pass the three printed general principles — compressed as the KYP original 'SERIOUS, STUCK, STOPPABLE' (harm Serious and imminent; Stuck — no alternative means to warn or protect; Stoppable — steps can prevent harm); the warn mechanics (physicians warn public officials, who notify people at risk; TB or Ebola may require involuntary treatment) sit at the breach-side far end.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the default, the waiver, the three principles, and the examples as separate statements; the keep-vs-break line, the three-gate router, and the SERIOUS/STUCK/STOPPABLE compression are KYP's organization.",
+      "location": "core.keyIdea GATE 3 + mechanisms[1] saved-exceptions-gate + blocks[4] the compare block + blocks[3] QUESTION 3 + the registry visual's Zone C gates and default row"
+    },
+    {
+      "id": "vignette-protocol-layer",
+      "summary": "The four-question vignette protocol layered over the printed page — WHO decides (capacity → directive → ladder), WHAT would the patient have wanted (ventilator override + wrap), MAY the information leave the room (default → waiver/emergent → gates → SAVED), MAY the physician keep the gift (harm-vs-benefit + three decline rules + script) — plus the attack structure: 4 patterns (the override stem, the ladder stem, the three-SAVED-letters stem, the gifts stem), 4 traps (wishes vs surrogate preference; ladder vs advance directive; permitted disclosure vs required breach; small gift vs large gift), 3 pivots (the who-decides router, the disclosure router, the who-gets-told router), and the 5-option miniCase (the stroke-patient ventilator vignette: withdraw per believed wishes with the wrap, against continue-per-surrogate, court-order, withdraw-without-discussion, and son-decides distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rules only; the protocol, the question shapes, the distractor logic, and the miniCase are KYP's design.",
+      "location": "blocks[3] the steps block + usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN two mnemonics — 'the spouse chips in' (the surrogate priority chain's parenthesis, printed in RED) and 'The physician's good judgment SAVED the day' (SAVED in red capitals, the initial capitals S-A-V-E-D of the five example bullets picked out in red) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's Zone A panel and Zone C cards; plus TWO KYP originals, marked as such: 'SERIOUS, STUCK, STOPPABLE' (the three general principles) and 'WISHES, NOT WANTS' (the ventilator override).",
+      "origin": "outside-first-aid",
+      "rationale": "The two printed mnemonics are the source's own (attributed, not counted as KYP's); no margin mnemonic prints anywhere on pdf 292 (pdfimages + VLM census, staging-pubh20/vlm-census.txt); the two KYP codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's Zone A red panel, Zone B hook line, and Zone C gates"
+    },
+    {
+      "id": "clinical-anchor-layer",
+      "summary": "The clinical anchor layer built from the page's printed specifics: the withdrawal wrap (palliative care, chaplain services, and the primary care physician joining the family discussions with emotional support), the reportable clusters (STIs, hepatitis, food poisoning; the public-official warn route; TB or Ebola requiring possible involuntary treatment), and the protected populations + impaired drivers (children, older adults, and/or prisoners; epilepsy and other impaired automobile drivers) — plus the routing rule that the surrogate ladder is the NO-directive path (a prepared advance directive governs instead, the previous page's material).",
+      "origin": "outside-first-aid",
+      "rationale": "The specifics are printed (FA-own); the anchor grouping, the wrap-as-part-of-the-answer framing, the no-directive routing, and the boundary framing against books 268/269/271 are KYP's design, flagged as such.",
+      "location": "clinical block + blocks[2] the decoder BOUNDARY item + related[0-1] + the visual's Zone A routing panel"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 292 / book 270, the THIRD and LAST page of the ETHICS subsection (pdf 290 opens it; pdf 293 opens COMMUNICATION SKILLS — patient-centered interviewing), carrying FOUR label-column text blocks — 'Ventilator-assisted life support' (the preference gap, the surrogate's two inputs, the override rule, the support wrap), 'Surrogate decision-maker' (the two preconditions, the surrogates' task, the priority chain), 'Confidentiality' (the default, waiver, emergent judgment, three general principles, the five SAVED exceptions, the warn mechanics), and 'Accepting gifts from patients' (the debate, the assessment, the three decline rules, the decline script) — all carried VERBATIM in the note's table block (blocks[1]). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh20/vlm-census.txt): the four headings and their wraps confirmed; the two FA mnemonics print in RED — 'the spouse chips in' (the words spouse/children/siblings/'spouse chips' in red bold per the VLM read, black arrows) and 'SAVED' (red capitals in the lead-in + red initial capitals S-A-V-E-D in the five bullets) — First Aid's OWN, carried VERBATIM and ATTRIBUTED (not counted among the KYP mnemonics); the ventilator override rule prints in plain roman text with a black arrow (not boxed, not italicized); the bullets are small solid squares; the ETHICS banner prints ONCE (running header only); no margin notes, mnemonics in the margins, asterisk footnotes, or images. ADJUDICATION (raw text layer + pdftotext -layout + the VLM pass all agree): the block-2 heading prints 'Surrogate decision-maker' with the hyphen at the line wrap — the raw text layer merges it to 'Surrogate decisionmaker' (the note's verbatim table carries the hyphenated print; the evidence range preserves the raw merge — same class as book 256's 'riskrelated'); the task brief's block descriptions matched the print exactly (no corrections needed); the VLM's per-word red read of the chain is recorded as VLM detail while the mnemonic proper is the parenthetical '(the spouse chips in)'. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); C1 control bytes U+008E around the arrows in the override rule and the priority chain (known artifact, stripped by the gen script's normalization; the arrows are as printed); a C1 byte U+0083 before each square-bullet glyph in the raw layer; the headings 'Ventilator-assisted life / support' and 'Accepting gifts from / patients' wrap across two lines (no hyphens); 'many are state specific' prints unhyphenated while 'Duty to protect—state-specific laws' carries an em-dash — both as printed; the curly apostrophes in 'patient's best interest' and 'The physician's good judgment' are as printed. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (ventilator-surrogate-pathway, saved-exceptions-gate), a visual block + verbatim table block (17 rows, PRINTED ELEMENT / AS PRINTED) + decoder list (6 items) + steps block (4 questions) + compare block (keep vs break) + exam callout + memory callout, a clinical block (the withdrawal wrap, the reportable clusters, the protected populations and impaired drivers), 4 patterns, 4 traps, 3 pivots, 9 recall, 4 related (informed-consent, core-ethical-principles, challenging-scenarios, interpreters-bad-news — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own two carried attributed + two KYP originals marked: 'SERIOUS, STUCK, STOPPABLE', 'WISHES, NOT WANTS'), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints ethics rules, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical anchors are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh20/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'confidentiality-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's FOUR text blocks are implemented in ONE registry visual (confidentiality-map, ConfidentialityMap in visuals/pubhealth-p20.tsx, viewBox 0 0 1102 1300), all as ORIGINAL KYP ADAPTATIONS — Zone A the surrogate priority ladder (five rungs, the FA mnemonic attributed in red, the routing panel), Zone B the ventilator decision rule strip (preference gap → two inputs → override rule → support wrap, with the WISHES NOT WANTS KYP hook labeled), Zone C the confidentiality column (default row, three gate chips, five SAVED letter cards, warn-mechanics strip), Zone D the gifts decision panel (practice box → assessment box → three decline rules → decline script) — with the four blocks' full text ALSO carried verbatim in the note's table block; the census counts each printed text block as one visual asset (sv1-sv4), so coverageAudit: textbookVisualCount 4, accountedFor 4, kypRedraws 0, kypOriginals 4, unresolved 0, omitted 0.",
+  "updatedAt": "2026-11-22"
+}

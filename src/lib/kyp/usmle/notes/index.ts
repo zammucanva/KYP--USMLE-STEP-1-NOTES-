@@ -65,6 +65,11 @@ import { confoundingEffectModification } from "./confounding-effect-modification
 import { statisticalDistributions } from "./statistical-distributions";
 import { hypothesisTestingErrors } from "./hypothesis-testing-errors";
 import { confidenceIntervalsMetaAnalysis } from "./confidence-intervals-meta-analysis";
+import { statisticalTests } from "./statistical-tests";
+import { correlationCoefficient } from "./correlation-coefficient";
+import { coreEthicalPrinciples } from "./core-ethical-principles";
+import { informedConsent } from "./informed-consent";
+import { surrogatesConfidentiality } from "./surrogates-confidentiality";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -300,6 +305,11 @@ export const usmleNotes: KypUsMLENote[] = [
   statisticalDistributions,
   hypothesisTestingErrors,
   confidenceIntervalsMetaAnalysis,
+  statisticalTests,
+  correlationCoefficient,
+  coreEthicalPrinciples,
+  informedConsent,
+  surrogatesConfidentiality,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

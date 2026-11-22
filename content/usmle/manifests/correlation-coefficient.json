@@ -1,0 +1,256 @@
+{
+  "topicId": "correlation-coefficient",
+  "title": "Correlation and the Pearson Coefficient",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      290
+    ],
+    "bookPages": "268 (top)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity + the pinned SPLIT BOUNDARY's upper side — book page 268, the known 'SEC TION II' header-space extraction artifact, the running head PUBLIC HEALTH SCIENCES, and the running-header banner instance '▶ PUBLIC HEALTH SCIENCES—ETHICS' (this page's banner prints TWICE: the running-header instance here, raw line 10, sits INSIDE the top portion as page furniture — FA's running header carries the subsection that STARTS on this page, Ethics beginning mid-page — while the in-body ribbon instance at raw line 43 IS the pinned split boundary, never quoted; everything at or below it belongs to core-ethical-principles, produced in parallel), plus the block heading 'Pearson correlation coefficient' (wraps across two lines in its label column)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "268\n\nSEC TION II\n\nPearson correlation\ncoefficient\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—ETHICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 1 — the definition and range: a measure of the linear correlation between two variables; r is always between −1 and +1 (true minus sign, U+2212, as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "A measure of the linear correlation between two variables. r is always between −1 and +1. The",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 2 — the strength rule: the closer the absolute value of r is to 1, the stronger the linear correlation between the 2 variables",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "closer the absolute value of r is to 1, the stronger the linear correlation between the 2 variables.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 3 — the inline variance definition: variance is how much the measured values differ from the average value in a data set",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "Variance is how much the measured values differ from the average value in a data set.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 4 — the direction line, POSITIVE side: positive r value → positive correlation (as one variable ↑, the other variable ↑) — C1 control bytes ride the arrows in the raw layer (U+008E before →, U+008F before ↑), stripped by the normalizer, carried as printed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "Positive r value → positive correlation (as one variable ↑, the other variable ↑).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 5 — the direction line, NEGATIVE side: negative r value → negative correlation (as one variable ↑, the other ↓) — ADJUDICATED: VLM pass 1 misread the arrows as ↓/↓; the TEXT LAYER prints ↑/↓ (raw line 16), the internally consistent reading; text layer governs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "Negative r value → negative correlation (as one variable ↑, the other variable ↓).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 part 6 — the square and the verdict: coefficient of determination = r² (proportion of variance in one variable that can be explained by variance in the other variable). Correlation does not necessarily imply causation. (the superscript ² flattens to 'r 2' in the raw layer — the note renders r²; the verdict sentence prints in regular roman, VLM-confirmed, and is First Aid's own, carried verbatim and attributed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "Coefficient of determination = r 2 (proportion of variance in one variable that can be explained by\nvariance in the other variable). Correlation does not necessarily imply causation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, gallery panel 1 of 5 (raw extraction order) — the leftmost printed panel: label 'r = –0.8' (EN DASH U+2013, as extracted — vs the body's true minus) + caption 'Strong negative correlation' (wraps across two lines; the panel itself is pure-vector dot art, not quoted as text)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "r = –0.8\n\nStrong negative\ncorrelation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, gallery panel 2 of 5 — label 'r = –0.4' (en dash) + caption 'Weak negative correlation' (wraps across two lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "r = –0.4\n\nWeak negative\ncorrelation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, labels 3 and 4 + caption 3 (READING-ORDER JUMBLE — the caption 'No correlation' extracts AFTER the 'r = +0.4' label, raw line 33 after 31; the printed order is pinned by pdftotext -bbox x-coordinates + the VLM pass: the middle panel is 'r = 0' / 'No correlation' and the fourth is 'r = +0.4' / 'Weak positive correlation'; the middle label MERGES to 'r=0' in the raw layer — the print spaces it, VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "r=0\n\nr = +0.4\n\nNo correlation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2, label 5 + caption 4 (jumble continues — 'Weak positive correlation' extracts AFTER the 'r = +0.8' label, raw lines 37-38 after 35): label 'r = +0.8' (fifth/rightmost panel) + caption 'Weak positive correlation' (fourth panel, wraps across two lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "r = +0.8\n\nWeak positive\ncorrelation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE BOUNDARY WITNESS — the FINAL lines of the pinned top portion: the fifth panel's caption 'Strong positive correlation' (raw lines 40-41, wrapping across two lines); the next raw content line (line 43) is the in-body ribbon banner '▶ PUBLIC HEALTH SCIENCES—ETHICS' — the pinned split boundary, never quoted; the topic's every quote ends at or above this line",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          290
+        ],
+        "bookPages": "268"
+      },
+      "quote": "Strong positive\ncorrelation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "correlation-map"
+  ],
+  "mechanismIds": [
+    "scatter-to-r-map",
+    "r-squared-variance-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "two-dial-decoder",
+      "summary": "The two-dial decoder and the four-move reading protocol for any correlation: the SIGN is the slope (positive r value -> positive correlation, as one variable ↑ the other variable ↑; negative r value -> negative correlation, as one variable ↑ the other ↓) and the SIZE is the snugness (the closer |r| is to 1, the stronger the linear correlation) — two INDEPENDENT dials (the sign never adds strength: -0.8 is stronger than +0.4) — sequenced as SIGN -> SIZE -> SQUARE -> VERDICT, with the range check (r lives in [-1, +1], r² in [0, 1]) and the reverse move (given r², the correlation is ±sqrt, sign from the scatter's slope).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the sentences as parallel facts; the dial separation, the independence of sign and strength, the ordered protocol, and the reverse-squaring move are KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] scatter-to-r-map + blocks[3] the steps block + the visual's Zone B SIGN and SIZE cards and Zone A rule strip"
+    },
+    {
+      "id": "variance-pricing-layer",
+      "summary": "The variance-pricing layer for r²: the coefficient of determination read as the proportion of variance in one variable explained by variance in the other — the worked arithmetic (r = ±0.8 -> r² = 0.64 -> 64% explained, 36% not; r = ±0.4 -> 0.16 -> 16%; halving r quarters the explained variance) — plus the literature habit (papers quote r and let the reader square it) and the exam rule ('proportion of variance explained' routes to r², never r).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the formula sentence only; the worked percentages, the 2x-vs-4x asymmetry, the journal-club framing, and the routing rule are KYP's.",
+      "location": "mechanisms[1] r-squared-variance-map + blocks[2] the gallery decoder + blocks[4] the r vs r² compare block + the visual's Zone B SQUARE card and per-panel r² chips"
+    },
+    {
+      "id": "gallery-calibration-layer",
+      "summary": "The five-panel gallery read as a calibration ladder: the printed order (-0.8 strong negative -> -0.4 weak negative -> 0 no correlation -> +0.4 weak positive -> +0.8 strong positive) as a two-axis grid (direction x tightness), the geometry grammar (slope of the cloud sets the sign, spread around the line sets |r|, the fit-line arrow printed only in the two strong panels as the visual signature of strength, positives mirroring negatives), and the linear-only caveat keyed to the printed word 'linear' (r = 0 kills the straight line, not a curved relationship — a perfect U can still have r = 0).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the five panels as artwork with labels; the ladder reading, the geometry grammar, the mirror symmetry as a strength lesson, and the r = 0 curvature caveat are KYP's interpretation.",
+      "location": "mechanisms[0] scatter-to-r-map + blocks[2] the gallery decoder list + the visual's Zone A five redrawn panels + usmle.traps[3] + mnemonics 'ZERO MEANS NO LINE, NOT NO LINK'"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed block — 4 patterns (the r = +0.8 interpretation stem, the r-vs-r² '80% of the variance' correction stem, the scatter-to-r matching stem, the ice-cream-and-drownings confounder verdict stem), 4 traps (r 0.8 vs r² 0.64; strong-negative -0.8 vs weak-positive +0.4 ranked by |r|; strong correlation offered as causation; r = 0 as 'no relationship of any kind' vs no LINEAR correlation), 3 pivots (is the number r or r²; 'strong negative' must satisfy both dials; a causal conclusion following a correlation), and 8 recall cards covering every printed sentence plus the gallery order and the boundary.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions and the gallery only; the attack structure, distractor shapes, the exercise-HDL miniCase with its five options, and the clinical anchors (age/GFR, pack-years/FEV1 — flagged KYP context, the page prints no clinical example) are KYP's design.",
+      "location": "usmle section + clinical block + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: the page prints NO mnemonic of its own — its one hook is the closing verdict sentence 'Correlation does not necessarily imply causation.' (regular roman, VLM-confirmed), which is First Aid's OWN, carried VERBATIM and ATTRIBUTED in the memory callout, the table block, the visual's verdict band, and the mnemonics — not counted among the KYP codes; all four ALL-CAPS mnemonics are KYP ORIGINALS, marked as such: 'SIGN IS THE SLOPE, SIZE IS THE SNUGNESS' (the two dials), 'SQUARE THE r, PRICE THE VARIANCE' (r -> r² -> proportion explained), 'ZERO MEANS NO LINE, NOT NO LINK' (the r = 0 linear-only caveat), and 'CORRELATION DESCRIBES, DESIGN CONCLUDES' (the verdict operationalized, with the confounder/reverse-direction/design-decides rivals).",
+      "origin": "outside-first-aid",
+      "rationale": "No First Aid mnemonic prints in scope (pdfimages + VLM census, staging-pubh17/vlm-census.txt: no red text, no margin mnemonics); the four ALL-CAPS codes are KYP's design, and the printed verdict is attributed to the source wherever it appears.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's Zone C verdict band and rival chips"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "TOP-portion split page (no shared split): pdf 290 / book 268 (top), from the page top through the END of the Pearson correlation coefficient block (definition text + five-panel scatter gallery); the in-body ribbon banner '▶ PUBLIC HEALTH SCIENCES—ETHICS' (raw line 43, y~337, below a thin block-ending rule) is the pinned boundary — everything from 'Core ethical principles' down belongs to core-ethical-principles (produced in parallel in this same batch) and is never quoted. TWO blocks carried VERBATIM in the note's table block (blocks[1]): (1) the 'Pearson correlation coefficient' text block (definition + range, strength rule, inline variance definition, the positive/negative r arrow lines, the coefficient of determination r² + the closing verdict 'Correlation does not necessarily imply causation.') and (2) the five-panel gallery's five r labels + five captions in PRINTED order (left to right: r = –0.8 'Strong negative correlation' · r = –0.4 'Weak negative correlation' · r = 0 'No correlation' · r = +0.4 'Weak positive correlation' · r = +0.8 'Strong positive correlation'). CENSUS (pdfimages): ZERO raster images; the gallery is PURE VECTOR art — navy filled-circle dot fields (~11-14 dots per panel), tan gridline frames, unlabeled x/y axes meeting at lower-left with small arrowheads, faint gray fit-line arrows in the two STRONG panels only, the two positive panels mirroring the two negative panels, the r = 0 panel a shapeless cloud, NO axis labels or ticks. VLM WAS AVAILABLE this session (glm-4.6v, TWO passes — full page 120dpi + a 300dpi upper crop, staging-pubh17/vlm-census.txt): five-panel printed order confirmed exactly (none missing or extra); the r characters print in ITALIC in the body; the verdict sentence prints in REGULAR roman (not bolded/italicized/colored) at the end of the coefficient-of-determination sentence; NO red text, NO mnemonics, NO margin notes, NO asterisk footnotes in the top portion; a small FA review-question icon (square/checkmark 'Rx' glyph) at the far right edge beside the captions is page FURNITURE (documented, not redrawn); between the last caption and the ETHICS ribbon: a thin block-ending rule + white space (boundary clean); the running header reads '268 · SEC TION II · PUBLIC HEALTH SCIENCES · ▶ PUBLIC HEALTH SCIENCES—ETHICS' (the header already carries the subsection that STARTS on this page); footer slug 'FAS1_2026_06-PubHealth.indd 268' + '12/16/25 12:46 PM'. ADJUDICATIONS (documented in the census file and here): (A) VLM pass 1 misread the Negative r line's arrows as '(as one variable ↓, the other variable ↓)' — the TEXT LAYER prints '(as one variable ↑, the other ↓)' (raw line 16), the internally consistent reading (negative correlation = one variable up, the other DOWN); text layer governs, VLM corrected; (B) the negative gallery labels print an EN DASH (U+2013) while the body's '−1' uses the TRUE MINUS (U+2212) — mixed dash glyphs carried as extracted (text layer is the glyph authority; VLM pass 2 concurs the labels are en-dash style); (C) the middle label merges to 'r=0' in the raw layer; the print spaces it ('r = 0', VLM-confirmed) — the note carries the spaced form; (D) the printed gallery order matched the batch brief's expectation exactly — no correction. Quirks carried + documented: 'SEC TION II' header-space artifact (known, as-is); the banner prints TWICE (running-header instance raw line 10 INSIDE the top portion as furniture; in-body ribbon raw line 43 = the boundary, never quoted); the heading 'Pearson correlation coefficient' wraps across two lines (raw lines 5-6); the superscript ² flattens to 'r 2' (note renders r²); C1 control bytes ride the arrows (U+008E/U+008F/U+0090, stripped by the normalizer, carried as printed); READING-ORDER JUMBLE — 'No correlation' extracts after 'r = +0.4' (line 33 after 31) and 'Weak positive correlation' after 'r = +0.8' (lines 37-38 after 35); printed order pinned by bbox x-coordinates + the VLM pass, evidence ranges quote the raw extraction order. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (scatter-to-r-map, r-squared-variance-map == the note's mechanisms[].id in order), a visual block + verbatim table block + gallery-decoder list + steps block + compare block + exam callout + memory callout, a clinical block (KYP-context anchors, flagged: the page prints NO clinical example of its own — age/GFR, pack-years/FEV1, the r² literature habit, plus the boundary note), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (statistical-tests, statistical-distributions, roc-precision-accuracy, incidence-prevalence — all four public-health census topicIds), 4 crossLinks, 4 mnemonics (all KYP originals, marked; the printed verdict sentence attributed as First Aid's own in the memory callout), and a miniCase with 5 options (exactly 1 correct, why/why-wrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints a statistical measure, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical anchors are carried in the clinical block instead, flagged as KYP context; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh17/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'correlation-map' is therefore not yet in visuals/registry.tsx by design); (5) the top portion's TWO visual assets are implemented in ONE registry visual (correlation-map, CorrelationMap in visuals/pubhealth-p17.tsx, viewBox 0 0 1102 1050): the five-panel scatter gallery as an ORIGINAL_KYP_REDRAW (five KYP dot fields matching each r's direction and tightness — tight steep fields with fit-line arrows for ±0.8, loose drifts for ±0.4, a shapeless cloud for 0; every printed label and caption preserved) and the text block as an ORIGINAL KYP ADAPTATION (the SIGN/SIZE/SQUARE interpretation rail + the correlation-does-not-necessarily-imply-causation verdict band) — with the full block text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

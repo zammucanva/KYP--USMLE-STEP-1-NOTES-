@@ -1,0 +1,282 @@
+{
+  "topicId": "statistical-tests",
+  "title": "Choosing the Statistical Test",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      289
+    ],
+    "bookPages": "267 (lower)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "THE PINNED SPLIT BOUNDARY's lower side — the navy heading 'Common statistical tests' (raw line 39, bbox y≈336, below a thin rule; VLM-confirmed bold dark navy) opens this topic's scope: the topic owns from this heading through the page end; the Confidence interval + significance-rules + Meta-analysis blocks above (raw lines 1–37) belong to confidence-intervals-meta-analysis (pubh15) and are never crossed by any quote",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Common statistical tests",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 part 1 — t-test → its printed Checks cell: 'Checks differences between means of 2 groups.' (the print bolds 'means' and '2' inside the cell per the VLM pass)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "t-test\n\nChecks differences between means of 2 groups.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 part 2 — First Aid's OWN red mnemonic 'Tea is meant for 2.' + the printed worked example: 'Example: comparing the mean blood pressure between men and women.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Tea is meant for 2.\nExample: comparing the mean blood pressure\nbetween men and women.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 part 1 — ANOVA → its printed Checks cell: 'Checks differences between means of 3 or more groups.' (the print bolds '3' per the VLM pass)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "ANOVA\n\nChecks differences between means of 3 or more\ngroups.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 part 2 — First Aid's OWN red mnemonic '3 words: ANalysis Of VAriance.' (the mixed capitalization is the print's own, emphasizing AN-O-VA) + the printed worked example: 'Example: comparing the mean blood pressure between members of 3 different ethnic groups.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "3 words: ANalysis Of VAriance.\nExample: comparing the mean blood pressure\nbetween members of 3 different ethnic groups.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 part 1 — Chi-square (χ²) (Greek chi + superscript 2 as printed) → its printed Checks cell: 'Checks differences between 2 or more percentages or proportions of categorical outcomes (not mean values).' — the cell's own fence against the means family (the print bolds 'categorical' per the VLM pass)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Chi-square (χ²)\n\nChecks differences between 2 or more\npercentages or proportions of categorical\noutcomes (not mean values).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 part 2 — First Aid's OWN red mnemonic 'Pronounce chi-tegorical.' + the printed worked example: 'Example: comparing the proportion of members of 3 age groups who have essential hypertension.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Pronounce chi-tegorical.\nExample: comparing the proportion of\nmembers of 3 age groups who have essential\nhypertension.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 part 1 — Fisher's exact test (curly apostrophe U+2019 as printed) → its printed Checks cell: 'Checks differences between 2 percentages or proportions of categorical, nominal outcomes. Use instead of chi-square test with small samples.' — the row prints NO mnemonic of its own (raw layer + both VLM passes); this printed sentence is its cue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Fisher’s exact test\n\nChecks differences between 2 percentages or\nproportions of categorical, nominal outcomes.\nUse instead of chi-square test with small\nsamples.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 part 2 — the Fisher row's printed worked example (the print's own illustration of a SMALL sample): 'Example: comparing the percentage of 20 men and 20 women with hypertension.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Example: comparing the percentage of 20 men\nand 20 women with hypertension.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE TEST-SELECTION ALGORITHM FIGURE, part 1 of 4 (raw extraction order) — the root label 'Variables to be compared' and the LEFT branch box 'Numerical (means)', AND the indd footer slug 'FAS1_2026_06-PubHealth.indd 267' interleaved MID-FIGURE (the vector figure's text objects extract at the very bottom of the raw stream in jumbled reading order — documented quirk; the tree's shape is pinned by pdftotext -bbox coordinates + the VLM pass: root centered at y≈559, Numerical x≈302–356 LEFT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Variables to be compared\n\nNumerical (means)\n\nFAS1_2026_06-PubHealth.indd 267",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE TEST-SELECTION ALGORITHM FIGURE, part 2 of 4 — the RIGHT branch box 'Categorical (proportions)' (bbox x≈435–508, RIGHT of Numerical; light pink per the VLM pass, vs Numerical light blue)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "Categorical (proportions)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE TEST-SELECTION ALGORITHM FIGURE, part 3 of 4 — the four criteria labels at the tree's third level (printed as PLAIN TEXT, no boxes, per the VLM pass; bbox y≈632): '2 groups' and '≥ 3 groups' (≥ glyph as printed) under Numerical, 'Small sample size' and 'Large sample size' under Categorical",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "2 groups\n\n≥ 3 groups\n\nSmall sample size\n\nLarge sample size",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE TEST-SELECTION ALGORITHM FIGURE, part 4 of 4 — the four leaf boxes at the bottom level (bbox y≈655, each leaf DIRECTLY below its criterion per bbox x-alignment + the VLM pass): 't-test' (below 2 groups), 'ANOVA' (below ≥ 3 groups), 'Fisher's exact test' (below Small sample size), 'Chi-square test' (below Large sample size)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "t-test\n\nANOVA\n\nFisher’s exact test\n\nChi-square test",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 267; the lower portion's final raw line)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          289
+        ],
+        "bookPages": "267"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "stat-tests-map"
+  ],
+  "mechanismIds": [
+    "test-selection-tree",
+    "outcome-scale-engine"
+  ],
+  "kypExtensions": [
+    {
+      "id": "tree-router-protocol",
+      "summary": "The two-question reading of the printed test-selection algorithm: FIRST the outcome's scale (Variables to be compared → Numerical (means) vs Categorical (proportions) — means language goes left, percentage/proportion language goes right), THEN the second dial (means branch → COUNT THE GROUPS: 2 → t-test, ≥ 3 → ANOVA; proportions branch → GAUGE THE SAMPLE: Small → Fisher's exact test, Large → Chi-square test), landing on exactly one of the four leaves — plus the geometry observation that each leaf box prints DIRECTLY below its criterion, so the tree's layout itself encodes the routing.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the tree's boxes and labels but never states the ordered protocol (scale first, dial second) nor names the dials; the two-question synthesis is KYP's.",
+      "location": "core.keyIdea + mechanisms[0] test-selection-tree + blocks[3] the steps block + the registry visual's Zone A route chips and rule strip"
+    },
+    {
+      "id": "outcome-scale-engine-layer",
+      "summary": "The means-family vs proportions-family engine: why a measured, averaged outcome (mean blood pressure) belongs to t-test/ANOVA while a counted, categorical outcome (the proportion with essential hypertension) belongs to chi-square/Fisher — anchored on the printed fence '(not mean values)' in the chi-square cell, the printed pairing of the two 3-group examples (3 ethnic groups by MEANS → ANOVA vs 3 age groups by PROPORTIONS → chi-square: same group count, different branch), and the observation that chi-square handles 2 OR MORE proportions while Fisher's scope is exactly 2.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four Checks cells and the four examples but never connects them as one 2-axis design space (outcome scale × second dial); the family engine and the paired-example drill are KYP's organization.",
+      "location": "core.why + mechanisms[1] outcome-scale-engine + blocks[2] the decoder list + usmle.traps[1] and traps[3]"
+    },
+    {
+      "id": "small-sample-switch-layer",
+      "summary": "The small-sample switch: within the proportions family, the print swaps the leaf by sample size — Fisher's exact test is used 'instead of chi-square test with small samples' (its scope exactly 2 percentages or proportions of categorical, nominal outcomes; the printed example's 20 men and 20 women is the print's own illustration of small) — with the documented absence of a mnemonic in the Fisher row (no mnemonic invented), and the KYP-context note that the print names no numeric threshold for 'small' (the usual expected-cell-count worry is flagged as unprinted context, never a correction).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the substitution sentence and the 20+20 example but never frames sample size as the branch's dial nor documents the mnemonic absence; the switch layer and the threshold caveat are KYP's synthesis.",
+      "location": "core.keyIdea MOVE 2 + blocks[4] the compare block + usmle.pivots[2] + the registry visual's Fisher card cue chip"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the 2-mean t-test stem, the 3-mean ANOVA stem, the 3-age-group proportions chi-square stem, the 20-and-20 small-sample Fisher stem), 4 traps (t-test vs ANOVA group count; means family vs chi-square's '(not mean values)' fence; chi-square vs Fisher sample size; the two printed 3-group examples colliding), 3 pivots (the tree router, the compared-quantity tell, the small-sample flip), and 8 recall cards covering all four rows plus the tree.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the four definitions and the figure only; the attack structure, distractor shapes, and question drills are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-and-clinical-thread-layer",
+      "summary": "The mnemonic ledger and the clinical-thread layer: First Aid's OWN three mnemonics — 'Tea is meant for 2.' (t-test row), '3 words: ANalysis Of VAriance.' (ANOVA row, capitals as printed), 'Pronounce chi-tegorical.' (Chi-square row) — all printed in RED in the right cells (VLM-confirmed), carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's cards; the Fisher row's mnemonic ABSENCE documented (no mnemonic invented); plus ONE KYP original, marked as such: 'COUNT THE GROUPS, GAUGE THE SAMPLE' (the tree's second dial); and the observation that all four printed worked examples are blood-pressure comparisons — two means (men vs women; 3 ethnic groups) and two hypertension proportions (3 age groups; 20 men vs 20 women) — one clinical thread through all four leaves.",
+      "origin": "outside-first-aid",
+      "rationale": "The three in-cell mnemonics are the source's own (attributed, not counted as KYP's); the KYP ALL-CAPS code, the mnemonic-absence documentation, and the clinical-thread organization are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + clinical block + the registry visual's mnemonic chips and clinical-thread strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "LOWER-portion split page (the other half of the pdf 289 / book 267 split; the upper half belongs to confidence-intervals-meta-analysis, pubh15 — never quoted here): from the navy 'Common statistical tests' heading (raw line 39, bbox y≈336 below a thin rule) through the page end, carrying TWO blocks — (1) the 'Common statistical tests' table, FOUR rows in printed order (t-test, ANOVA, Chi-square (χ²), Fisher's exact test), every cell carried VERBATIM in the note's table block (blocks[1]); (2) THE TEST-SELECTION ALGORITHM FIGURE — pure vector art, redrawn as ORIGINAL KYP vector art (tan root 'Variables to be compared' → blue 'Numerical (means)' LEFT / pink 'Categorical (proportions)' RIGHT → plain-text criteria '2 groups' / '≥ 3 groups' / 'Small sample size' / 'Large sample size' → leaf boxes t-test / ANOVA / Fisher's exact test / Chi-square test, each leaf directly below its criterion). CENSUS (pdfimages): ZERO raster images on the page. VLM AVAILABLE this session (glm-4.6v, TWO passes — 120dpi full page + 300dpi lower crop, staging-pubh16/vlm-census.txt): exactly FOUR rows confirmed in printed order (none missing or extra); the THREE mnemonics print in RED in the right cells with key words bolded ('meant', 'ANalysis Of VAriance', 'chi-tegorical') — First Aid's OWN, carried VERBATIM and ATTRIBUTED; the Fisher row prints NO mnemonic of its own (both passes explicit) — documented, no mnemonic invented; the four row labels print in DARK RED/maroon; the print bolds 'means', '2', '3', 'categorical' inside the Checks cells; thin light-gray row rules, NO zebra striping, NO vertical borders; the table prints with NO column-header row (the note's table column names are KYP descriptive labels, documented); the tree's third level prints as PLAIN TEXT labels (no boxes) with only the root and six branch/leaf boxes as filled rounded rectangles (tan/blue/pink; gray elbow connectors with arrowheads); the tree's geometry (Numerical LEFT / Categorical RIGHT; each leaf directly below its criterion) confirmed by bbox coordinates + both VLM passes; a small FA page-reference cross-ref glyph at the diagram's right edge is marginal furniture, not carried (documented). ADJUDICATIONS: (A) Fisher mnemonic ABSENCE — raw layer + both VLM passes agree; mnemonic count is THREE, all First Aid's own; (B) the tree's shape matched the brief's description exactly — no correction; (C) the print names no numeric threshold for 'small samples' — the 20+20 example is the print's own illustration of small; expected-count machinery appears only as flagged KYP context, never as a correction. QUIRKS carried + documented: '3 words: ANalysis Of VAriance.' (the print's OWN mixed capitalization); '≥ 3 groups' with the ≥ glyph; 'Chi-square (χ²)' with Greek chi + superscript 2; 'Fisher's exact test' with a curly apostrophe (U+2019); in-cell line wraps are print artifacts (the verbatim table carries sentences unwrapped); the figure's labels extract at the very bottom of the raw stream in jumbled order with the indd footer slug interleaved MID-FIGURE between 'Numerical (means)' and 'Categorical (proportions)' (evidence ranges 10-13 quote the raw order; the tree's shape is bbox+VLM-pinned). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (test-selection-tree, outcome-scale-engine), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the blood-pressure clinical thread across all four worked examples), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (confidence-intervals-meta-analysis — the split page's upper-half owner, produced as pubh15; hypothesis-testing-errors; statistical-distributions; correlation-coefficient — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own three carried attributed + one KYP original marked), and a miniCase with 5 options (exactly 1 correct, why/why-wrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints statistical tests, not drugs — the clinical anchors are carried in the clinical block; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh16/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'stat-tests-map' is therefore not yet in visuals/registry.tsx by design); (5) the portion's TWO visual assets are implemented in ONE registry visual (stat-tests-map, StatTestsMap in visuals/pubhealth-p16.tsx, viewBox 0 0 1102 1252): the table as an ORIGINAL KYP ADAPTATION (four cards in printed order carrying Checks → attributed mnemonic → worked example, with the Fisher card's mnemonic-absence chip) and the algorithm as an ORIGINAL_KYP_REDRAW (the tree re-laid-out top-to-bottom as KYP vector art with the route chips and family tags marked KYP) — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}
