@@ -1,0 +1,46 @@
+{
+  "topicId": "cholinomimetic-agents",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "cholinomimetic-agents",
+      "requiredInKYP": true,
+      "visualId": "cholinomimetic-agents-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two-group DRUG / ACTION / APPLICATIONS table (the section's sole printed element — the cholinomimetic drug grid: 4 direct agonists + 4 indirect agonists/anticholinesterases, plus the intro toxicity warning)",
+      "sourceFigureDescription": "ONE TWO-GROUP TEXT TABLE (PURE TEXT — ZERO rasters on pdf 261; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Column frame: DRUG / ACTION / APPLICATIONS. Group 1 'Direct agonists': Bethanechol — 'Activates bladder smooth muscle; resistant to AChE. Acts on muscarinic receptors; no nicotinic activity. \"Bethany, call me to activate your bladder.\"' → 'Urinary retention.'; Carbachol — 'Carbon copy of acetylcholine (but resistant to AChE).' → 'Constricts pupil. Used for intraoperative miosis induction.'; Methacholine — 'Stimulates muscarinic receptors in airway when inhaled.' → 'Challenge test for diagnosis of asthma.'; Pilocarpine — 'Contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma); resistant to AChE, can cross blood-brain barrier. \"You cry, drool, and sweat on your pilow.\"' → 'Potent stimulator of sweat, tears, and saliva / Open-angle and closed-angle glaucoma, xerostomia (Sjögren syndrome).' Group 2 'Indirect agonists (anticholinesterases)': Donepezil, rivastigmine, galantamine — '↑ ACh.' → '1st line for Alzheimer disease (Dona Riva forgot the gala).'; Neostigmine — '↑ ACh. Neo = no blood-brain barrier penetration due to positive charge.' → 'Postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of neuromuscular junction blockade (postoperative).'; Pyridostigmine — '↑ ACh; ↑ muscle strength. Does not penetrate CNS. Pyridostigmine gets rid of myasthenia gravis.' → 'Myasthenia gravis (long acting). Used with glycopyrrolate or hyoscyamine to control pyridostigmine adverse effects.'; Physostigmine — '↑ ACh. Phreely (freely) crosses blood-brain barrier as not charged → CNS.' → 'Antidote for anticholinergic toxicity; physostigmine \"phyxes\" atropine overdose.' Intro warning above the table: 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.' TEXT-LAYER ARTIFACTS: group labels print below their rows in the raw layer; '↑' glyphs carry a leading control char; Pilocarpine's raw layer prints 'bloodbrain' hyphen-less (Neostigmine/Physostigmine rows print 'blood-brain' with hyphen) — raw spellings pinned. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP fork map (the direct-vs-indirect synapse fork, the eight drug cards, the charge grid, the toxicity strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cholinomimetic-agents-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (direct rows; indirect rows) + the registry visual's fork header, the four direct drug cards, the four indirect drug cards, the charge-grid strip, the toxicity strip, and the reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cholinomimetic-agents-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cholinomimetic-agents",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the section's printed visual set is ONE element — the TWO-GROUP DRUG/ACTION/APPLICATIONS TABLE, PURE TEXT (ZERO rasters on pdf 261 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The intro warning is prose (carried verbatim in the note's first table block intro, not separately inventoried). The table is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every drug name, action clause, application clause, and mnemonic is the book's own print) and conveyed as ONE original KYP fork map in the registry visual CholinomimeticAgentsMap (the DIRECT-vs-INDIRECT synapse fork header; the four DIRECT drug cards — Bethanechol the bladder agonist, Carbachol the carbon copy, Methacholine the airway challenge, Pilocarpine the 'pilow' that cries/drools/sweats; the four INDIRECT drug cards — the Alzheimer trio, Neostigmine the peripheral workhorse, Pyridostigmine the long-acting MG drug, Physostigmine the BBB-crossing antidote; the CHARGE GRID strip [three printed cells + pilocarpine's crossing; the unprinted direct-group cells flagged as KYP]; the verbatim toxicity warning strip; the reading-rule + exclusions footer). TEXT-LAYER ARTIFACTS pinned: the group labels print BELOW their drug rows in the raw layer ('Direct agonists' at line 55 after Pilocarpine; 'Indirect agonists (anticholinesterases)' at line 57 before Donepezil) while -layout prints 'Direct agonists' at the top of its group; the '↑' glyphs print with a leading control char (stripped by normalization); Pilocarpine's raw layer prints 'bloodbrain' hyphen-less while Neostigmine's and Physostigmine's rows print 'blood-brain' WITH the hyphen — both raw spellings pinned. SAME-PAGE EXCLUSION: the 'Anticholinesterase poisoning' section (organophosphates, DUMBBELSS, atropine, pralidoxime) prints on the SAME pdf 261 BELOW this table — EXCLUDED (the separate PENDING topic PH19 'anticholinesterase-poisoning', confirmed in the chapter registry with sourcePages [261]); the exclusion boundary is pinned in the evidence. PAGE-EXTENT FINDING: the section does NOT extend to pdf 262 — pdf 262 (book 240) opens the separate pending 'Muscarinic antagonists' section; sourcePages = [261] only. KYP extensions flagged wherever they appear: the FORK reading (direct binds the receptor / indirect blocks the breaker), the CHARGE GRID (completed for the unprinted cells — flagged), the END-ORGAN RECEPTOR MAP (addresses cross-referenced from books 234–238, the completed autonomic block), and the NOT-PRINTED drug layer (edrophonium and echothiophate are ABSENT from the printed page — flagged, never cited as printed). No copyrighted artwork reproduced; nothing reproduced."
+}

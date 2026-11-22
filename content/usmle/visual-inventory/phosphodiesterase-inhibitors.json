@@ -1,0 +1,46 @@
+{
+  "topicId": "phosphodiesterase-inhibitors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "phosphodiesterase-inhibitors",
+      "requiredInKYP": true,
+      "visualId": "phosphodiesterase-inhibitors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The phosphodiesterase-inhibitors block's own printed set (the section's sole visual element — the four-column TYPE OF INHIBITOR/MECHANISM OF ACTION/CLINICAL USES/ADVERSE EFFECTS class table of five rows, plus the two categorizing footnotes)",
+      "sourceFigureDescription": "ONE FOUR-COLUMN TEXT TABLE + TWO FOOTNOTES (PURE TEXT — ZERO rasters on pdf 267; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'Phosphodiesterase inhibitors' + the intro sentence 'Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for PDE isoforms and thus have different clinical uses.' Rows (TYPE / MECHANISM / USES / ADVERSE): 'Nonspecific PDE inhibitor / Theophylline': '↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation' | 'COPD/asthma (rarely used)' | 'Cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain'. 'PDE-5 inhibitors / Sildenafil, vardenafil, tadalafil, avanafil': '↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis' | 'Erectile dysfunction / Pulmonary hypertension / Benign prostatic hyperplasia (tadalafil only)' | 'Facial flushing, headache, dyspepsia, hypotension in patients taking nitrates; \"hot and sweaty,\" then headache, heartburn, hypotension' + 'Sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina'. 'PDE-4 inhibitor / Roflumilast': '↑ cAMP in neutrophils, granulocytes, and bronchial epithelium' | 'Severe COPD' | 'Abdominal pain, weight loss, depression, anxiety, insomnia'. 'PDE-3 inhibitor / Milrinone': 'In cardiomyocytes: ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy / In vascular smooth muscle: ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload' | 'Acute decompensated HF with cardiogenic shock (inotrope)' | 'Tachycardia, ventricular arrhythmias, hypotension'. '\"Platelet inhibitors\" / Cilostazol^a / Dipyridamole^b': 'In platelets: ↑ cAMP → inhibition of platelet aggregation' | 'Intermittent claudication / Stroke or TIA prevention (with aspirin) / Cardiac stress testing (dipyridamole only, due to coronary vasodilation) / Prevention of coronary stent restenosis' | 'Nausea, headache, facial flushing, hypotension, abdominal pain'. Footnotes: a 'Cilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.'; b 'Dipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation.' Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP isoform-fork map (the mechanism strip, the isoform fork cards, the nonspecific pair, the use grid, the caution strip, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "pde-inhibitor-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the five-row class table; the footnotes table) + the registry visual's mechanism strip, fork cards, nonspecific pair, use grid, caution strip, boundary strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pde-inhibitor-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "phosphodiesterase-inhibitors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the phosphodiesterase-inhibitors block's printed visual set is ONE element — the FOUR-COLUMN TYPE OF INHIBITOR/MECHANISM OF ACTION/CLINICAL USES/ADVERSE EFFECTS TABLE of five rows + its TWO categorizing footnotes, PURE TEXT (ZERO rasters on pdf 267 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The set is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every type, mechanism, use, and adverse cell is the book's own print, including the 'COPD/asthma (rarely used)' rank, the '(tadalafil only)' parenthetical, the '(dipyridamole only, due to coronary vasodilation)' clause, the 'hypotension in patients taking nitrates' token, the '\"hot and sweaty,\"' quote, the book's own 'ionotropy' spelling, and its own '(six)' parenthetical of 'PDE-6 (six) in retina') and conveyed as ONE original KYP isoform-fork map in the registry visual PdeInhibitorMap (THE MECHANISM STRIP — PDE catalyzes the hydrolysis of cAMP and/or cGMP; inhibit PDE → ↑ cAMP and/or ↑ cGMP; the currency rows print on book 237 [Gs → adenylyl cyclase → ATP → Cyclic AMP] — the camp split [cAMP vs cGMP] is KYP's; THE ISOFORM FORK CARDS — PDE-3 [milrinone: the inotrope; two addresses: cardiomyocyte ↑ Ca2+ influx, vascular smooth muscle MLCK inhibition], PDE-4 [roflumilast: the airway-inflammation lane], PDE-5 [sildenafil, vardenafil, tadalafil, avanafil: the cGMP lane]); THE NONSPECIFIC PAIR — theophylline (the rarely-used methylxanthine) and dipyridamole (the platelet row's other member, per the printed footnote b); THE USE GRID — ED / pulmonary hypertension / BPH-tadalafil-only (PDE-5), severe COPD (PDE-4), COPD/asthma rarely used (theophylline), acute decompensated HF with cardiogenic shock (milrinone), intermittent claudication / stroke-or-TIA prevention / cardiac stress testing dipyridamole-only / stent-restenosis prevention (the platelet pair); THE CAUTION STRIP — 'hypotension in patients taking nitrates' (the nitrate interaction, printed as an adverse cell; the 24-48h separation protocol is KYP-flagged), cyanopia sildenafil-only via PDE-6 (six) in retina, ventricular arrhythmias under milrinone, depression/anxiety/insomnia under roflumilast, cardiotoxicity + neurotoxicity under theophylline; THE BOUNDARY STRIP — the PH24/PH25 split pinned both ways, the AUTONOMIC-DRUGS-banner-end finding, and the verified absences [no PDE-1/PDE-2 rows, no caffeine, no amrinone; the PDE-5 roster prints FOUR members — the task's list omitted avanafil]; the reading-rule footer). ABSENCE VERIFICATION: no PDE-1 or PDE-2 row prints, no other methylxanthine prints (caffeine absent), no other PDE-3 member prints (amrinone/inamrinone absent) — documented as verified-absent, never cited as printed. BOUNDARY: pdf 266 (book 244) behind carries the COMPLETED PH24 beta-blockers block (EXCLUDED; only its selectivity subtable's final rows and footer pinned from behind); pdf 268 (book 246) ahead opens the TOXICITIES banner (Ingested seafood toxins — the PENDING next topics) — the block does NOT extend there; sourcePages = [267] only; the AUTONOMIC-DRUGS banner ends with this page. KYP extensions flagged wherever they appear: the usmle-attack-layer, the ISOFORM-FORK frame (the fork compression is KYP's; the rows, numbers, and footnotes are printed), the CYCLIC-NUCLEOTIDE-CURRENCY frame (the camp split is KYP's; the currency rows print on book 237), the NITRATE-SEPARATION protocol (NOT printed — the page prints only 'hypotension in patients taking nitrates'; flagged wherever the timing rules appear), and the boundary + absence census. No copyrighted artwork reproduced; nothing reproduced."
+}

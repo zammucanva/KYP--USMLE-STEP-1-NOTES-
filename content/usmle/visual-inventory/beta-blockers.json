@@ -1,0 +1,46 @@
+{
+  "topicId": "beta-blockers",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "beta-blockers",
+      "requiredInKYP": true,
+      "visualId": "beta-blockers-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The β-blockers block's own printed set (the section's sole visual element — the three-zone APPLICATION/ACTIONS/NOTES-EXAMPLES table: ten application rows, the ADVERSE EFFECTS row with its cocaine note, and the four-row SELECTIVITY subtable with the book's own four printed mnemonics)",
+      "sourceFigureDescription": "ONE THREE-ZONE TEXT TABLE (PURE TEXT — ZERO rasters on pdf 266; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'β-blockers' + the eleven-drug roster. Zone 1 (APPLICATION/ACTIONS/NOTES-EXAMPLES, ten rows): 'Angina pectoris' → '↓ heart rate and contractility → ↓ O2 consumption'; 'Glaucoma' → '↓ production of aqueous humor' | 'Timolol'; 'Heart failure' → 'Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality' | 'Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)'; 'Hypertension' → '↓ cardiac output, ↓ renin secretion (due to β1receptor blockade on JG cells)'; 'Hyperthyroidism/thyroid storm' → 'Symptom control (↓ heart rate, ↓ tremor)' | 'Propranolol'; 'Hypertrophic cardiomyopathy' → '↓ heart rate → ↑ filling time, relieving obstruction'; 'Migraine' → '↓ nitric oxide production' | 'Effective for prevention'; 'Myocardial infarction' → '↓ O2 demand (short-term), ↓ mortality (long-term)'; 'Supraventricular tachycardia (eg, atrial fibrillation)' → '↓ AV conduction velocity (class II antiarrhythmic)' | 'Metoprolol, esmolol'; 'Variceal bleeding' → '↓ hepatic venous pressure gradient and portal hypertension (prophylactic use)' | 'Nadolol, propranolol, carvedilol for no portal circulation'. Zone 2 (ADVERSE EFFECTS): 'Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations' + 'Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation'. Zone 3 (SELECTIVITY, four rows with printed mnemonics): 'β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol' | 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)'; 'Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol' | 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)'; 'Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol' | 'Nonselective β-adrenergic and α1-selective antagonists have modified suffixes (instead of “-olol”)'; 'Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3 -receptors (activate NO synthase in the vasculature and ↓ SVR)' | 'NebivOlol increases NO'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP selectivity/application map (the mechanism strip, the four fork cards, the ten-use grid, the caution strip, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "beta-blocker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the ten-row application matrix; the adverse-effects + selectivity subtable) + the registry visual's mechanism strip, fork cards, use grid, caution strip, boundary strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "beta-blocker-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "beta-blockers",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the β-blockers block's printed visual set is ONE element — the THREE-ZONE APPLICATION/ACTIONS/NOTES-EXAMPLES TABLE (ten application rows + the ADVERSE EFFECTS row with its cocaine note + the four-row SELECTIVITY subtable), PURE TEXT (ZERO rasters on pdf 266 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The set is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every application, action, notes cell, adverse-effect bucket, selectivity group, and all four printed mnemonic cells are the book's own print, including the 'β-blockers curb mortality' parenthetical, the '(due to β1receptor blockade on JG cells)' mechanism note, the 'for no portal circulation' carvedilol clause, and the 'NebivOlol increases NO' emphasis) and conveyed as ONE original KYP selectivity/application map in the registry visual BetaBlockerMap (THE MECHANISM STRIP — β1 = Gs at the heart/kidney addresses and β2 = Gs at the bronchiole/liver/artery addresses of books 236-237, blocked → ↓ rate, ↓ contractility, ↓ renin, bronchospasm risk, masked hypoglycemia risk; THE FOUR FORK CARDS — β1-SELECTIVE 'A to M' (atenolol, betaxolol, bisoprolol, esmolol, metoprolol), NONSELECTIVE 'N to Z' (nadolol, propranolol, timolol), COMBINED β+α1 'modified suffixes' (carvedilol, labetalol), NEBIVOLOL 'NO' (β1 + β3-NO); THE TEN-USE GRID — angina, glaucoma (timolol), heart failure (bisoprolol, carvedilol, metoprolol), hypertension, hyperthyroidism/thyroid storm (propranolol), hypertrophic cardiomyopathy, migraine prophylaxis, MI, SVT (metoprolol, esmolol), variceal bleeding (nadolol, propranolol, carvedilol); THE CAUTION STRIP — the asthmatic ('asthma/COPD exacerbations'), the brittle diabetic ('masked hypoglycemia'), the cocaine user ('unsubstantiated concern for unopposed α-adrenergic stimulation'), plus bradycardia/AV block, CNS, dyslipidemia (metoprolol), erectile dysfunction, and the KYP-flagged abrupt-withdrawal taper rule; THE BOUNDARY STRIP — the PH23/PH24 boundary pinned both ways and the verified ABSENCES (no ISA/pindolol/acebutolol row, no α2+β member, no essential-tremor row); the reading-rule footer). ABSENCE VERIFICATION: the selectivity subtable prints exactly FOUR groups; pindolol and acebutolol (partial agonists/ISA) are ABSENT, no α2+β member prints, no essential-tremor row prints — documented as verified-absent, never cited as printed. BOUNDARY: pdf 265 (book 243) behind carries the two COMPLETED book-243 blocks (only the α-blockers phenoxybenzamine row and final row pinned from behind); pdf 267 (book 245) ahead opens 'Phosphodiesterase inhibitors' (the PENDING next topic) — the block does NOT extend there; sourcePages = [266] only. KYP extensions flagged wherever they appear: the usmle-attack-layer, the FOUR-LANE SELECTIVITY frame (the four printed mnemonics compressed — the mnemonics are the book's, the compression is KYP's), the THREE CAUTION PATIENTS frame (cells printed, avoidance rules KYP-flagged), the ABRUPT-WITHDRAWAL taper rule and the PHEO α-FIRST ordering rule (both NOT printed — flagged, anchored to the phenoxybenzamine row and the cocaine note), the T4→T3 thyroid-storm conversion blockade (NOT printed — flagged), and the boundary + absence census. No copyrighted artwork reproduced; nothing reproduced."
+}

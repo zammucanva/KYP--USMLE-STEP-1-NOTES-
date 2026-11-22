@@ -1,0 +1,46 @@
+{
+  "topicId": "alpha-blockers",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "alpha-blockers",
+      "requiredInKYP": true,
+      "visualId": "alpha-blockers-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The α-blockers block's own printed set (the section's sole visual element — the three-column DRUG/APPLICATIONS/ADVERSE EFFECTS table of four rows grouped by selectivity)",
+      "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE (PURE TEXT — ZERO rasters on pdf 265; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'α-blockers'. Column headers: DRUG / APPLICATIONS / ADVERSE EFFECTS. Four rows grouped by selectivity: 'Nonselective' + 'Phenoxybenzamine' → 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.'; 'Phentolamine' → 'Reversible. Given to patients on MAO inhibitors who eat tyramine-containing foods and for severe cocaine-induced hypertension (2nd line). Also used to treat norepinephrine extravasation.' (shared adverse cell: 'Orthostatic hypotension, reflex tachycardia.'); 'α1 selective (-osin ending)' + 'Prazosin, terazosin, doxazosin, tamsulosin' → 'Urinary symptoms of BPH; PTSD (prazosin); hypertension (except tamsulosin).' | '1st-dose orthostatic hypotension, dizziness, headache.'; 'α2 selective' + 'Mirtazapine' → 'Depression.' | 'Sedation, ↑ serum cholesterol, ↑ appetite.'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP selectivity-fork map (the α1 = Gq mechanism strip, the three fork cards, the uses/toxicity strips, the epinephrine-reversal band, the α2-mirror band, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "alpha-blocker-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the four-row selectivity table; the cross-page mechanism-anchor table) + the registry visual's mechanism strip, fork cards, toxicity strip, reversal band, mirror band, boundary strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "alpha-blocker-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "alpha-blockers",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the α-blockers block's printed visual set is ONE element — the THREE-COLUMN DRUG/APPLICATIONS/ADVERSE EFFECTS TABLE of four rows grouped by selectivity, PURE TEXT (ZERO rasters on pdf 265 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The set is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every drug, group label, application, and adverse-effect cell is the book's own print, including the '(-osin ending)' suffix label, the 'PTSD (prazosin)' and 'except tamsulosin' exceptions, and the mirtazapine row) and conveyed as ONE original KYP selectivity-fork map in the registry visual AlphaBlockerMap (THE MECHANISM STRIP — the α1 = Gq vasoconstriction of book 237's row and the α1 distribution addresses of book 236, blocked → vasodilation; THE THREE FORK CARDS — NONSELECTIVE (phenoxybenzamine 'Irreversible. Pheochromocytoma (used preoperatively)...' and phentolamine 'Reversible.' with the MAOI-tyramine/cocaine-2nd-line/extravasation uses), α1-SELECTIVE (the -osin four with 'Urinary symptoms of BPH; PTSD (prazosin); hypertension (except tamsulosin).' and '1st-dose orthostatic hypotension, dizziness, headache.'), α2-SELECTIVE (mirtazapine 'Depression.' with 'Sedation, ↑ serum cholesterol, ↑ appetite.'); THE USES STRIP — the pheo/HTN/BPH/emergency lane sort; THE TOXICITY STRIP — 'Orthostatic hypotension, reflex tachycardia.' vs the first-dose rule vs the mirtazapine metabolic set; THE EPINEPHRINE-REVERSAL BAND — book 242's printed 'After α-blockade' graphs bridged to the nonselective rows (KYP bridge, flagged); THE α2-MIRROR BAND — the mirtazapine/clonidine same-page mirror against book 238's autoreceptor sentence; THE BOUNDARY STRIP — the PH22/PH23 same-page split pinned from below; the reading-rule footer). BOUNDARY pinned from below: the UPPER portion of pdf 265 (lines 9-37) is the 'Sympatholytics (α2-agonists)' block — the COMPLETED PH22 — EXCLUDED (only its header + last row pinned as boundary markers). SECTION EXTENT: the block does NOT extend to pdf 266 (book 244 opens β-blockers, the PENDING topic whose carvedilol/labetalol are the α1+β combined blockers); pdf 264 behind carries the completed sympathomimetics tail (its α-blockade graphs cited as cross-page anchors); sourcePages = [265] only. KYP extensions flagged wherever they appear: the THREE-WAY FORK frame, the PHEO-PROTOCOL frame (the α-before-β ordering rule — NOT printed, flagged), the -OSIN SUFFIX frame + the α1A subtype reading of 'except tamsulosin' (not printed), the FIRST-DOSE frame (the bedtime-dose rule — not printed, flagged), the EPINEPHRINE-REVERSAL LINK (graphs printed on book 242, attribution to the blockers is KYP's), and the PH22/PH23 boundary census. No copyrighted artwork reproduced; nothing reproduced."
+}

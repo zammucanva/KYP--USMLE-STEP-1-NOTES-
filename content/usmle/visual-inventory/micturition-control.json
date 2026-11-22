@@ -1,0 +1,73 @@
+{
+  "topicId": "micturition-control",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "micturition-control",
+      "requiredInKYP": true,
+      "visualId": "micturition-control-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The MIC turition control wiring diagram (the section's figure — the bladder/urethra anatomy with its three input nerves and four receptor plates)",
+      "sourceFigureDescription": "The section's figure: a full-color medical illustration of the bladder and urethra (COPYRIGHTED raster tissue art — pdfimages: 3 sep rasters on pdf 258, the bladder-base/trigone mask 426x336, the bladder+urethra body 383x518, and a curved wall segment 458x277 — never reproduced) with vectorized typeset labels. ANATOMY: the urinary bladder drawn in cross-section with a thick wall (the 'Detrusor muscle') tapering through the bladder neck into the urethra; the 'Internal urethral sphincter' at the bladder neck (smooth muscle), the 'External urethral sphincter' lower on the urethra. NERVES (three yellow input lanes from the left): 'Pelvic nerve (parasympathetic input)' → the detrusor muscle at the 'M₃-receptor' plate; 'Hypogastric nerve (sympathetic input)' → two branches, one to the detrusor at the 'β₃-receptor' plate and one to the internal urethral sphincter at the 'α₁-receptor' plate; 'Pudendal nerve (somatic input)' → the external urethral sphincter at the 'Nicotinic receptor' plate. NUMBERED CIRCLES: the receptor plates carry ① (M₃), ② (β₃), and ③ (α₁), keying them to the numbered rows of the drug table printed below the figure (the Nicotinic plate carries no number — no drug row targets it).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "micturition-control-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the MicturitionControlMap — the bladder/urethra glyph column with the three sphincter levels, the three nerve lanes, the four receptor plates with the ①②③ keys, the two state panels, the verbatim margin-note strip, the four-row drug strip, and the code strip) + blocks[0] the visual block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "micturition-control-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "micturition-control",
+      "requiredInKYP": true,
+      "visualId": "micturition-control-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The DRUGS / MECHANISM / APPLICATIONS table (the section's four-row drug map) + the margin note it sits beside (the pontine center sentence, the two autonomic arrows, and the printed mnemonic)",
+      "sourceFigureDescription": "The four-row drug table, verbatim: 'Muscarinic agonists (eg, bethanechol)' — '⊕ M₃ receptor → contraction of detrusor smooth muscle → ↑ bladder emptying' — 'Urinary retention'; 'Muscarinic antagonists (eg, oxybutynin)' — '⊝ M₃ receptor → relaxation of detrusor smooth muscle → ↓ detrusor overactivity' — 'Urgency incontinence'; 'Sympathomimetics (eg, mirabegron)' — '⊕ β₃ receptor → relaxation of detrusor smooth muscle → ↑ bladder capacity' — 'Urgency incontinence'; 'α1-antagonists (eg, tamsulosin)' — '⊝ α₁-receptor → relaxation of smooth muscle (eg, bladder, neck, prostate) → ↓ urinary obstruction' — 'BPH'. Beside the diagram the margin prints: 'Micturition center in pons regulates involuntary bladder function via coordination of sympathetic and parasympathetic nervous systems. ⊕ sympathetic → ↑ urinary retention. ⊕ parasympathetic → ↑ urine voiding. Some autonomic drugs act on smooth muscle receptors to treat bladder dysfunction.' and the mnemonic 'Baby one more time.' (red initials B·o·m·t = Bethanechol · Oxybutynin · Mirabegron · Tamsulosin — the source's own). TEXT-LAYER NOTE: the table's receptor subscripts print on their own lines (the ₃/₃/₃/₁ of M₃/M₃/β₃/α₁) — documented; the composed rows are carried verbatim in the note's table block.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "micturition-control-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's table blocks (blocks[1] the verbatim margin note + drug table; blocks[2] the KYP key-map pivot) + the registry visual's margin-note and drug strips",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "micturition-control-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "micturition-control",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer + VLM): the section's figure is a FULL-COLOR MEDICAL ILLUSTRATION (the bladder/urethra wiring diagram) built on 3 sep rasters (the bladder-base/trigone mask 426x336, the bladder+urethra body 383x518, a curved wall segment 458x277) with VECTORIZED typeset labels — the tissue artwork is COPYRIGHTED and is NEVER reproduced; the diagram is conveyed as ONE original KYP schematic in the registry visual MicturitionControlMap (the bladder/urethra glyph column with the three outlet levels, the three nerve lanes — Pelvic parasympathetic → M₃, Hypogastric sympathetic → β₃ + α₁, Pudendal somatic → Nicotinic — the four receptor plates with the book's own ①②③ keys to the drug rows, the STORAGE and VOIDING state panels built from the book's own two margin arrows, the verbatim margin-note strip, the four-row drug strip, and the code strip). Only short attributed labels are carried across (the nerve names, the structure names, the receptor plates, the numbered keys, the drug rows, the two arrows). The drug table + margin note are carried VERBATIM as the note's table blocks (ORIGINAL_KYP_ADAPTATION — the text layer's subscript splits documented). The printed mnemonic 'Baby one more time.' is the SOURCE'S OWN (red initials B·o·m·t = Bethanechol · Oxybutynin · Mirabegron · Tamsulosin) — carried verbatim and attributed, not a KYP design; the other three codes are KYP-original. EXCLUSIONS: the 'Tissue distribution of adrenergic receptors' section in the LOWER portion of the same page belongs to the SEPARATE pending topic 'tissue-distribution-of-adrenergic-receptors' and is NOT part of this inventory; pdf 257 carries the COMPLETED topics PH12 (upper) and PH13 (lower); pdf 259 opens the SEPARATE pending 'G-protein–linked second messengers' section (this section ENDS on pdf 258). The clinical anchors extending past the page (S2–S4/Onuf-nucleus neuroanatomy, postoperative retention, anticholinergic burden, neurogenic bladder, autonomic dysreflexia, diabetic cystopathy) are KYP clinical anchors, flagged wherever they appear. No copyrighted photographs reproduced; nothing reproduced."
+}

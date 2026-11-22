@@ -1,0 +1,3363 @@
+"use client";
+
+// Original KYP immunology visuals (E batch: lymphoid structures).
+// Theme tokens only. Redraws preserve the source's label sets, zonation
+// logic, and clinical callouts; histology/radiographs are conveyed
+// schematically (COPYRIGHTED_NO_REPUBLISH — never reproduced).
+
+// ---------------------------------------------------------------------------
+// E19 — The lymph node: B-cell cortex, T-cell paracortex, macrophage medulla
+// (source: lymph node histology + schematic, pdf 116 / book 94)
+// ---------------------------------------------------------------------------
+
+export function LymphNodeMap() {
+  const w = 980;
+  const h = 640;
+  const callout = (x: number, y: number, wd: number, title: string, lines: string[], tone = "fill-card stroke-border") => (
+    <g key={`${title}-${x}-${y}`}>
+      <rect x={x} y={y} width={wd} height={26 + lines.length * 12} rx="10" className={tone} strokeWidth="1.4" />
+      <text x={x + 14} y={y + 18} fontSize="8.4" fontWeight="800" className="fill-foreground">{title}</text>
+      {lines.map((b, i) => (
+        <text key={i} x={x + 14} y={y + 32 + i * 12} fontSize="7.1" className="fill-muted-foreground">{b}</text>
+      ))}
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The lymph node, an original KYP schematic (not a micrograph): a bean-shaped secondary lymphoid organ with many afferent lymphatics entering the convex side and one efferent lymphatic at the hilum. Under the capsule and its trabeculae, the outer cortex holds B-cell follicles — a dense quiescent primary follicle and an active secondary follicle with a pale germinal center ringed by a dark mantle zone. The paracortex between follicles and medulla contains T cells and high endothelial venules through which T and B cells enter from the blood; it is underdeveloped in DiGeorge syndrome and enlarges (paracortical hyperplasia, lymphadenopathy) in EBV and other viral infections. The medulla consists of medullary cords (lymphocytes and plasma cells) and medullary sinuses (reticular cells and macrophages) communicating with the efferent lymphatic. Functions: nonspecific filtration by macrophages, circulation of B and T cells, and immune response activation" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The lymph node — B-cell cortex · T-cell paracortex · macrophage medulla (original KYP redraw)</text>
+        <rect x="742" y="24" width="190" height="18" rx="9" className="fill-brand-soft" />
+        <text x="837" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">many afferents in · 1+ efferent out</text>
+      </g>
+
+      {/* node body */}
+      <g>
+        {/* capsule + trabeculae */}
+        <path d="M 150 250 C 150 120, 340 86, 470 100 C 610 114, 700 170, 700 260 C 700 380, 590 452, 450 456 C 310 460, 150 420, 150 250 Z"
+          className="fill-secondary stroke-border" strokeWidth="3" />
+        <path d="M 236 112 C 240 210, 238 330, 252 448" fill="none" stroke="currentColor" className="text-border" strokeWidth="2.4" />
+        <path d="M 322 100 C 322 210, 320 330, 330 452" fill="none" stroke="currentColor" className="text-border" strokeWidth="2.4" />
+        <text x="196" y="98" fontSize="7.6" fontWeight="800" className="fill-muted-foreground">Capsule</text>
+        <text x="346" y="94" fontSize="7.6" fontWeight="800" className="fill-muted-foreground">Trabeculae</text>
+
+        {/* cortex band label */}
+        <text x="180" y="146" fontSize="8" fontWeight="800" className="fill-brand">Cortex (outer)</text>
+
+        {/* 1° follicle — dense, quiescent */}
+        <g>
+          <circle cx="230" cy="196" r="34" className="fill-brand-soft stroke-brand" strokeWidth="1.6" />
+          <text x="230" y="192" textAnchor="middle" fontSize="8.2" fontWeight="800" className="fill-brand">1° follicle</text>
+          <text x="230" y="204" textAnchor="middle" fontSize="6.8" className="fill-foreground">dense · quiescent</text>
+          <text x="230" y="214" textAnchor="middle" fontSize="6.8" className="fill-foreground">B cells</text>
+        </g>
+
+        {/* 2° follicle — germinal center + mantle zone */}
+        <g>
+          <circle cx="350" cy="180" r="46" className="fill-primary/15 stroke-primary" strokeWidth="1.8" />
+          <circle cx="350" cy="180" r="30" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="350" y="176" textAnchor="middle" fontSize="7.8" fontWeight="800" className="fill-foreground">Germinal</text>
+          <text x="350" y="186" textAnchor="middle" fontSize="7.8" fontWeight="800" className="fill-foreground">center</text>
+          <text x="350" y="126" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-brand">2° follicle (active)</text>
+          <text x="350" y="238" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">Mantle zone (dark rim of small B lymphocytes)</text>
+        </g>
+        <text x="288" y="268" fontSize="6.8" className="fill-muted-foreground">Follicles = outer cortex, B-cell localization and proliferation</text>
+
+        {/* paracortex */}
+        <g>
+          <path d="M 182 300 C 280 278, 420 276, 560 292 C 600 298, 640 312, 648 338 C 620 366, 540 378, 440 378 C 330 378, 220 366, 182 344 Z"
+            className="fill-warning-soft stroke-warning" strokeWidth="1.6" />
+          <text x="410" y="318" textAnchor="middle" fontSize="9.4" fontWeight="800" className="fill-foreground">Paracortex — T cells</text>
+          <text x="410" y="332" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">between follicles and medulla · high endothelial venules (HEV):</text>
+          <text x="410" y="343" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">T and B cells enter the node from the blood here</text>
+          {/* HEV — vessel with a clear separate label below-right */}
+          <g>
+            <path d="M 556 288 C 560 306, 558 322, 550 336" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="4.6" strokeLinecap="round" />
+            <path d="M 566 340 L 596 356" stroke="currentColor" className="text-border" strokeWidth="1" />
+            <text x="600" y="356" fontSize="6.8" fontWeight="700" className="fill-emergency">HEV</text>
+            <text x="600" y="366" fontSize="6.4" className="fill-emergency">(postcapillary</text>
+            <text x="600" y="375" fontSize="6.4" className="fill-emergency">venule) — T/B</text>
+            <text x="600" y="384" fontSize="6.4" className="fill-emergency">cells enter from</text>
+            <text x="600" y="393" fontSize="6.4" className="fill-emergency">the blood here</text>
+          </g>
+        </g>
+
+        {/* medulla */}
+        <g>
+          <path d="M 200 396 C 300 408, 480 410, 620 396 C 600 430, 520 446, 420 448 C 320 450, 230 434, 200 396 Z"
+            className="fill-card stroke-border" strokeWidth="1.6" />
+          <text x="410" y="416" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">Medulla</text>
+          <text x="410" y="428" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">medullary cords (lymphocytes + plasma cells) · medullary sinuses</text>
+          <text x="410" y="438" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">(reticular cells + macrophages) → efferent lymphatics</text>
+        </g>
+
+        {/* afferent lymphatics — convex side (left) */}
+        {[170, 210, 250].map((y, i) => (
+          <g key={`aff-${i}`}>
+            <path d={`M 96 ${y} C 120 ${y - 6}, 136 ${y - 10}, 152 ${y - 12}`} fill="none" strokeWidth="2" stroke="currentColor" className="text-muted-foreground" />
+            <path d={`M 152 ${y - 12} l -8 -1 4 7 z`} className="fill-muted-foreground" />
+          </g>
+        ))}
+        <text x="86" y="156" fontSize="7.4" fontWeight="800" className="fill-muted-foreground">Afferent</text>
+        <text x="86" y="166" fontSize="7.4" fontWeight="800" className="fill-muted-foreground">lymphatics (many)</text>
+
+        {/* efferent + hilum vessels */}
+        <g>
+          <path d="M 620 420 C 660 428, 692 432, 726 434" fill="none" strokeWidth="2.2" stroke="currentColor" className="text-muted-foreground" />
+          <path d="M 729 434 l -8 -3 2 8 z" className="fill-muted-foreground" />
+          <text x="736" y="430" fontSize="7.4" fontWeight="800" className="fill-muted-foreground">Efferent lymphatic</text>
+          <path d="M 618 448 C 656 452, 690 450, 726 446" fill="none" strokeWidth="2.6" stroke="currentColor" className="text-emergency" />
+          <text x="736" y="448" fontSize="7" fontWeight="700" className="fill-emergency">Artery (red) · Vein</text>
+          <text x="736" y="458" fontSize="6.6" className="fill-muted-foreground">enter/exit at the hilum</text>
+        </g>
+
+        {/* filtration macrophage dots in sinuses */}
+        {[[268, 404], [318, 402], [368, 401], [418, 401], [468, 402], [518, 404], [568, 407]].map(([x, y], i) => (
+          <circle key={`m${i}`} cx={x} cy={y} r="4" className="fill-emergency/70" />
+        ))}
+        <text x="256" y="466" fontSize="6.4" className="fill-muted-foreground">macrophages (nonspecific filtration)</text>
+      </g>
+
+      {/* right-side clinical callouts */}
+      {callout(724, 84, 232, "DiGeorge syndrome", ["Paracortex underdeveloped — no thymus,", "few T cells in the node"])}
+      {callout(724, 132, 232, "EBV / viral infection", ["Extreme cellular immune response →", "paracortical hyperplasia →", "lymphadenopathy"], "fill-warning-soft stroke-warning")}
+      {callout(724, 194, 232, "Node functions", ["Nonspecific filtration by macrophages ·", "circulation of B and T cells ·", "immune response activation"])}
+      {callout(724, 256, 232, "1° vs 2° organs", ["1° = bone marrow (B cells) + thymus (T cells)", "2° = spleen, nodes, tonsils, adenoids,", "appendix, Peyer patches — where immune", "cells meet antigen"])}
+      {callout(724, 332, 232, "Encapsulated, with trabeculae", ["A 2° lymphoid organ: many afferents in,", "1 or more efferents out"], "fill-secondary stroke-border")}
+
+      {/* footer */}
+      <g>
+        <text x="24" y="520" fontSize="8.2" fontWeight="800" className="fill-foreground">Reading order of an immune response: antigen arrives in afferent lymph → macrophages filter →</text>
+        <text x="24" y="534" fontSize="8.2" fontWeight="800" className="fill-foreground">dendritic cells present to T cells in the paracortex → B cells activate in follicle germinal centers</text>
+        <text x="24" y="548" fontSize="8.2" fontWeight="800" className="fill-foreground">→ plasma cells exit via medulla and efferent lymph.</text>
+        <text x="24" y="566" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's lymph node histology + schematic (pdf 116 / book 94). The micrograph is conveyed schematically — never reproduced or faked.</text>
+      </g>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E19 — Lymphatic drainage: the two ducts and the node clusters
+// (source: lymphatic drainage associations figure + table, pdf 117 / book 95)
+// ---------------------------------------------------------------------------
+
+export function LymphaticDrainageMap() {
+  const w = 980;
+  const h = 660;
+  const node = (cx: number, cy: number, label: string, palpable: boolean, lx: number, ly: number) => (
+    <g key={label}>
+      {palpable ? (
+        <circle cx={cx} cy={cy} r="6.5" className="fill-emergency stroke-emergency" strokeWidth="1" />
+      ) : (
+        <circle cx={cx} cy={cy} r="6.5" className="fill-card stroke-emergency" strokeWidth="1.6" />
+      )}
+      <line x1={cx} y1={cy} x2={lx} y2={ly} stroke="currentColor" className="text-border" strokeWidth="1" />
+      <text x={lx} y={ly + 3} fontSize="6.9" fontWeight="700" textAnchor={lx < cx ? "end" : "start"} className={palpable ? "fill-emergency" : "fill-muted-foreground"}>{label}</text>
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Lymphatic drainage associations, an original KYP redraw: a body map of lymph node clusters (filled dots = palpable nodes, hollow circles = nonpalpable nodes) beside the two great ducts — the right lymphatic duct draining the right side of the body above the diaphragm into the junction of the right subclavian and internal jugular veins, and the thoracic duct draining everything below the diaphragm plus the left thorax and upper limb into the junction of the left subclavian and internal jugular veins (thoracic duct rupture causes chylothorax). High-yield clusters marked: left supraclavicular Virchow node (left hemithorax, abdomen, pelvis — gastric cancer), periumbilical Sister Mary Joseph node (gastric cancer), hilar nodes (unilateral = pulmonary TB, bilateral = sarcoidosis), axillary (breast), epitrochlear (hand/forearm — secondary syphilis), popliteal pop-lateral (dorsolateral foot)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Lymphatic drainage — the two ducts and the node clusters (original KYP redraw)</text>
+        <circle cx="758" cy="33" r="6" className="fill-emergency stroke-emergency" />
+        <text x="770" y="36" fontSize="7.2" fontWeight="700" className="fill-foreground">palpable</text>
+        <circle cx="838" cy="33" r="6" className="fill-card stroke-emergency" strokeWidth="1.6" />
+        <text x="850" y="36" fontSize="7.2" fontWeight="700" className="fill-muted-foreground">nonpalpable</text>
+      </g>
+
+      {/* body silhouette (simple schematic) */}
+      <g>
+        <path d="M 200 96 C 216 74, 244 74, 258 96 C 266 108, 266 124, 258 138 L 252 150 L 206 150 L 200 138 C 194 124, 194 108, 200 96 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 226 150 C 172 158, 148 176, 146 214 L 150 300 C 152 342, 158 366, 168 384 L 312 384 C 322 366, 328 342, 330 300 L 334 214 C 332 176, 308 158, 254 150 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 150 214 C 120 224, 100 244, 92 268 L 86 292 C 84 302, 90 310, 100 308 L 118 302"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 334 214 C 364 224, 384 244, 392 268 L 398 292 C 400 302, 394 310, 384 308 L 366 302"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 172 384 L 164 452 C 162 470, 166 482, 176 490 L 212 506 L 238 470 L 238 384 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 308 384 L 316 452 C 318 470, 314 482, 304 490 L 268 506 L 242 470 L 242 384 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 176 490 L 172 546 C 170 566, 178 578, 194 580 L 226 580 L 230 506 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <path d="M 304 490 L 308 546 C 310 566, 302 578, 286 580 L 254 580 L 250 506 Z"
+          className="fill-secondary stroke-border" strokeWidth="1.6" />
+        <text x="239" y="120" textAnchor="middle" fontSize="7" className="fill-muted-foreground">head / neck</text>
+        <text x="240" y="256" textAnchor="middle" fontSize="7" className="fill-muted-foreground">thorax / abdomen</text>
+      </g>
+
+      {/* node clusters on the body */}
+      {node(214, 100, "submandibular / submental", true, 150, 88)}
+      {node(236, 118, "deep cervical", true, 320, 92)}
+      {node(208, 152, "supraclavicular (L = Virchow)", true, 60, 176)}
+      {node(196, 216, "mediastinal", false, 112, 206)}
+      {node(272, 216, "hilar", false, 340, 206)}
+      {node(128, 232, "axillary", true, 84, 226)}
+      {node(112, 286, "epitrochlear", true, 66, 296)}
+      {node(212, 300, "celiac / SMA / IMA", false, 128, 312)}
+      {node(240, 330, "periumbilical (Sister Mary Joseph)", true, 348, 322)}
+      {node(262, 352, "para-aortic", false, 340, 356)}
+      {node(212, 396, "external iliac", false, 132, 404)}
+      {node(258, 396, "internal iliac", false, 336, 400)}
+      {node(206, 492, "superficial inguinal", true, 122, 500)}
+      {node(288, 536, "popliteal (pop-lateral)", true, 348, 540)}
+
+      {/* right panel: the two ducts */}
+      <g>
+        <rect x="470" y="76" width="486" height="180" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="488" y="100" fontSize="9.6" fontWeight="800" className="fill-brand">The two ducts</text>
+        <rect x="488" y="112" width="216" height="126" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="596" y="132" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">Right lymphatic duct</text>
+        <text x="596" y="150" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">drains the RIGHT side of the body</text>
+        <text x="596" y="162" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">ABOVE the diaphragm</text>
+        <path d="M 596 172 L 596 200" stroke="currentColor" className="text-muted-foreground" strokeWidth="2" />
+        <path d="M 596 204 l -4 -8 h 8 z" className="fill-muted-foreground" />
+        <text x="604" y="192" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">drains into</text>
+        <text x="596" y="218" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">junction of right subclavian</text>
+        <text x="596" y="228" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">+ internal jugular veins</text>
+        <rect x="722" y="112" width="216" height="126" rx="10" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="830" y="132" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-brand">Thoracic duct</text>
+        <text x="830" y="150" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">drains BELOW the diaphragm</text>
+        <text x="830" y="162" textAnchor="middle" fontSize="7.2" className="fill-muted-foreground">+ LEFT thorax and upper limb</text>
+        <path d="M 830 172 L 830 200" stroke="currentColor" className="text-muted-foreground" strokeWidth="2" />
+        <path d="M 830 204 l -4 -8 h 8 z" className="fill-muted-foreground" />
+        <text x="838" y="192" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">drains into</text>
+        <text x="830" y="218" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">junction of LEFT subclavian</text>
+        <text x="830" y="228" textAnchor="middle" fontSize="7" fontWeight="700" className="fill-foreground">+ internal jugular veins</text>
+      </g>
+
+      {/* right panel: highest-yield associations (full table is the note's table block) */}
+      <g>
+        <rect x="470" y="270" width="486" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="488" y="294" fontSize="9.6" fontWeight="800" className="fill-brand">Highest-yield cluster associations (full table in the note)</text>
+        {[
+          ["Left supraclavicular (Virchow node)", "left hemithorax, abdomen, pelvis — think gastric / abdominal malignancy"],
+          ["Periumbilical (Sister Mary Joseph)", "abdomen, pelvis — gastric cancer"],
+          ["Hilar, unilateral", "pulmonary TB · lung cancer"],
+          ["Hilar, bilateral", "sarcoidosis · granulomatous disease"],
+          ["Axillary", "upper limb, breast, skin above umbilicus — mastitis, breast cancer metastasis"],
+          ["Epitrochlear", "hand, forearm — secondary syphilis"],
+          ["Supraclavicular, right", "right hemithorax"],
+          ["Popliteal (pop-lateral)", "dorsolateral foot, posterior calf — lateral foot/leg cellulitis"],
+          ["Superficial inguinal", "skin below umbilicus, external genitalia, lower anal canal (below pectinate line)"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <text x="488" y={316 + i * 30} fontSize="7.6" fontWeight="800" className="fill-foreground">{k}</text>
+            <text x="500" y={327 + i * 30} fontSize="6.9" className="fill-muted-foreground">{v}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* chylothorax strip */}
+      <g>
+        <rect x="24" y="608" width="932" height="40" rx="10" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="42" y="626" fontSize="8" fontWeight="800" className="fill-foreground">Rupture of the thoracic duct can cause chylothorax.</text>
+        <text x="42" y="640" fontSize="7.2" className="fill-muted-foreground">The full 16-cluster table (cluster → area drained → associated pathology) is reproduced verbatim as the note's table block.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="600" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's lymphatic drainage body map + associations table (pdf 117 / book 95).</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E19 — Spleen and thymus: the filtration organ and the T-cell school
+// (source: spleen cross-section + neonatal sail-shaped thymus CXR, pdf 118 / book 96)
+// ---------------------------------------------------------------------------
+
+export function SpleenThymusMap() {
+  const w = 980;
+  const h = 660;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Spleen and thymus, an original KYP schematic (not a micrograph or radiograph). Left, the spleen: LUQ, anterolateral to the left kidney, deep to ribs 9–11, commonly injured in blunt abdominal trauma; a cross-section shows the central artery wrapped by the periarteriolar lymphoid sheath (T cells), the B-cell follicle with germinal center and mantle zone, the marginal zone (macrophages and specialized B cells where APCs capture blood-borne antigens) between white pulp and red pulp, and red pulp cords and sinusoids with open and closed circulation. Splenic dysfunction (postsplenectomy, sickle cell autosplenectomy): less IgM, less complement activation, less C3b opsonization, susceptibility to encapsulated organisms — vaccinate against pneumococci, meningococci, Hib; postsplenectomy findings: Howell-Jolly bodies, target cells, thrombocytosis, lymphocytosis. Right, the thymus: anterosuperior mediastinum, site of T-cell differentiation and maturation, epithelium from the third pharyngeal pouch (endoderm) with mesodermal lymphocytes, dense immature-T-cell cortex and pale mature-T-cell medulla with Hassall corpuscles; sail-shaped on neonatal CXR, involutes by age 3; absent thymic shadow in SCID and DiGeorge; thymoma associates with myasthenia gravis, SVC syndrome, pure red cell aplasia, Good syndrome; involution = fatty replacement with age-related atrophy" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Spleen and thymus — filtration organ · T-cell school (original KYP redraw)</text>
+        <rect x="726" y="24" width="206" height="18" rx="9" className="fill-brand-soft" />
+        <text x="829" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">T cells = Thymus · B cells = Bone marrow</text>
+      </g>
+
+      {/* ============ SPLEEN PANEL ============ */}
+      <g>
+        <rect x="36" y="76" width="460" height="392" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="98" fontSize="9.6" fontWeight="800" className="fill-brand">Spleen — LUQ, ribs 9–11, blunt-trauma organ</text>
+
+        {/* spleen body */}
+        <g>
+          <path d="M 96 220 C 120 160, 250 140, 340 168 C 420 194, 444 260, 420 330 C 396 396, 280 420, 196 392 C 120 366, 78 292, 96 220 Z"
+            className="fill-secondary stroke-border" strokeWidth="2.6" />
+          <text x="252" y="158" fontSize="7.2" fontWeight="800" className="fill-muted-foreground"> </text>
+          <path d="M 100 190 L 122 210" stroke="currentColor" className="text-border" strokeWidth="1" />
+          <text x="52" y="184" fontSize="7.2" fontWeight="800" className="fill-muted-foreground">Capsule + trabecula</text>
+
+          {/* central artery + PALS */}
+          <path d="M 300 176 C 292 240, 286 300, 268 372" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="3.4" />
+          <path d="M 300 176 C 340 200, 360 232, 364 268 C 366 300, 350 330, 322 348" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" strokeDasharray="4 3" />
+          <text x="252" y="170" fontSize="6.8" fontWeight="800" className="fill-emergency">central artery</text>
+          <path d="M 296 172 L 302 178" stroke="currentColor" className="text-border" strokeWidth="0.8" />
+
+          {/* white pulp: PALS — label above the organ with leader to the sheath */}
+          <path d="M 276 220 C 252 268, 244 316, 254 364 C 276 356, 296 328, 300 284 C 302 252, 296 228, 276 220 Z"
+            className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <path d="M 118 144 L 270 232" stroke="currentColor" className="text-border" strokeWidth="1" />
+          <text x="64" y="118" fontSize="7" fontWeight="800" className="fill-foreground">Periarteriolar</text>
+          <text x="64" y="128" fontSize="7" fontWeight="800" className="fill-foreground">lymphoid sheath</text>
+          <text x="64" y="138" fontSize="6.6" className="fill-muted-foreground">(PALS) — T cells</text>
+
+          {/* follicle with germinal center */}
+          <circle cx="344" cy="246" r="30" className="fill-primary/15 stroke-primary" strokeWidth="1.6" />
+          <circle cx="344" cy="246" r="17" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+          <text x="382" y="252" fontSize="6.8" fontWeight="800" className="fill-brand">Follicle — B cells</text>
+          <text x="344" y="244" textAnchor="middle" fontSize="6.2" className="fill-foreground">germinal</text>
+          <text x="344" y="252" textAnchor="middle" fontSize="6.2" className="fill-foreground">center</text>
+
+          {/* marginal zone — dashed boundary with label outside at top, leader to boundary */}
+          <path d="M 250 214 C 300 200, 356 208, 396 240 C 400 276, 384 312, 348 334 C 320 346, 286 344, 262 330"
+            fill="none" stroke="currentColor" className="text-brand" strokeWidth="2" strokeDasharray="5 4" />
+          <path d="M 340 212 L 350 154" stroke="currentColor" className="text-border" strokeWidth="1" />
+          <text x="240" y="128" fontSize="6.8" fontWeight="800" className="fill-brand">Marginal zone — macrophages + specialized B cells;</text>
+          <text x="240" y="138" fontSize="6.8" fontWeight="800" className="fill-brand">APCs capture blood-borne antigens here</text>
+          <text x="240" y="148" fontSize="6.4" className="fill-muted-foreground">(between red pulp and white pulp — the dashed boundary)</text>
+
+          {/* red pulp */}
+          <path d="M 130 250 C 118 292, 128 340, 162 372 C 196 396, 236 396, 258 378 C 236 348, 216 306, 214 262 C 186 246, 152 244, 130 250 Z"
+            className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+          <text x="146" y="300" fontSize="7" fontWeight="800" className="fill-emergency">Red pulp (RBCs)</text>
+          <text x="146" y="311" fontSize="6.2" className="fill-muted-foreground">cords + sinusoids ·</text>
+          <text x="146" y="320" fontSize="6.2" className="fill-muted-foreground">reticular fibrous framework</text>
+
+          {/* circulation labels */}
+          <text x="76" y="408" fontSize="6.6" className="fill-muted-foreground">Open circulation (ends in cords) · Closed circulation (via sinusoids) → pulp vein → vein; artery in at the hilum</text>
+        </g>
+
+        {/* asplenia strip */}
+        <g>
+          <rect x="50" y="424" width="432" height="36" rx="9" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+          <text x="62" y="440" fontSize="7.2" fontWeight="800" className="fill-foreground">Splenic dysfunction → ↓IgM → ↓complement activation → ↓C3b opsonization →</text>
+          <text x="62" y="452" fontSize="7.2" fontWeight="800" className="fill-foreground">encapsulated organisms: vaccinate (pneumococci &gt; meningococci &gt; Hib)</text>
+        </g>
+        <text x="52" y="486" fontSize="7" fontWeight="800" className="fill-foreground">Postsplenectomy blood findings: Howell-Jolly bodies (nuclear remnants) · target cells · thrombocytosis · lymphocytosis</text>
+        <text x="52" y="500" fontSize="6.6" className="fill-muted-foreground">Sickle cell autosplenectomy behaves the same way — same vaccines, same risk.</text>
+      </g>
+
+      {/* ============ THYMUS PANEL ============ */}
+      <g>
+        <rect x="512" y="76" width="444" height="392" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="528" y="98" fontSize="9.6" fontWeight="800" className="fill-brand">Thymus — anterosuperior mediastinum</text>
+
+        {/* bilobed thymus schematic with cortex/medulla */}
+        <g>
+          <path d="M 556 140 C 600 118, 668 118, 700 142 C 712 156, 712 218, 700 238 C 664 258, 596 258, 556 238 C 544 218, 544 156, 556 140 Z"
+            className="fill-secondary stroke-border" strokeWidth="2.2" />
+          <path d="M 628 130 C 636 168, 636 210, 628 248 C 620 210, 620 168, 628 130 Z"
+            className="fill-card stroke-border" strokeWidth="1.4" />
+          {/* cortex = left lobe — label above-left with leader */}
+          <text x="524" y="110" fontSize="7" fontWeight="800" className="fill-foreground">Cortex — dense,</text>
+          <text x="524" y="120" fontSize="7" fontWeight="800" className="fill-foreground">immature T cells</text>
+          <path d="M 556 124 L 580 146" stroke="currentColor" className="text-border" strokeWidth="1" />
+          {/* medulla = central pale strip — label to the right with leader */}
+          <text x="722" y="170" fontSize="7" fontWeight="800" className="fill-brand">Medulla — pale,</text>
+          <text x="722" y="180" fontSize="7" fontWeight="800" className="fill-brand">mature T cells</text>
+          <path d="M 720 177 L 644 184" stroke="currentColor" className="text-border" strokeWidth="1" />
+          {/* Hassall corpuscles */}
+          {[[600, 216], [622, 226], [652, 216]].map(([x, y], i) => (
+            <g key={`h${i}`}>
+              <circle cx={x} cy={y} r="8" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+              <circle cx={x} cy={y} r="3.5" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+            </g>
+          ))}
+          <text x="588" y="248" fontSize="6.4" className="fill-muted-foreground">Hassall corpuscles (concentric epithelial reticular cells)</text>
+        </g>
+
+        {/* derivation */}
+        <text x="528" y="282" fontSize="7.2" fontWeight="700" className="fill-foreground">Thymus epithelium: third pharyngeal pouch (endoderm) · thymic lymphocytes: mesoderm.</text>
+        <text x="528" y="296" fontSize="7.2" className="fill-muted-foreground">Encapsulated. Site of T-cell differentiation and maturation. Neonatal thymus is sail-shaped on CXR and</text>
+        <text x="528" y="307" fontSize="7.2" className="fill-muted-foreground">involutes by age 3 years.</text>
+
+        {/* sail-shaped schematic (original, conveys the CXR finding) */}
+        <g>
+          <rect x="528" y="318" width="140" height="104" rx="8" className="fill-secondary stroke-border" strokeWidth="1.4" />
+          <path d="M 596 344 C 620 348, 638 362, 642 386 L 640 408 L 570 408 C 566 386, 572 356, 596 344 Z"
+            className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="606" y="364" fontSize="6.6" fontWeight="800" className="fill-foreground">sail-shaped</text>
+          <text x="606" y="374" fontSize="6.6" fontWeight="800" className="fill-foreground">neonatal thymus</text>
+          <text x="598" y="424" fontSize="6.2" textAnchor="middle" className="fill-muted-foreground">schematic of the CXR finding (A)</text>
+        </g>
+
+        {/* clinical box */}
+        <g>
+          <rect x="684" y="318" width="256" height="104" rx="9" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+          <text x="698" y="336" fontSize="7.4" fontWeight="800" className="fill-foreground">Absent thymic shadow / hypoplastic thymus:</text>
+          <text x="698" y="348" fontSize="7" className="fill-muted-foreground">immunodeficiencies — SCID, DiGeorge syndrome</text>
+          <text x="698" y="364" fontSize="7.4" fontWeight="800" className="fill-foreground">Thymoma associations:</text>
+          <text x="698" y="376" fontSize="7" className="fill-muted-foreground">myasthenia gravis · superior vena cava syndrome</text>
+          <text x="698" y="386" fontSize="7" className="fill-muted-foreground">· pure red cell aplasia · Good syndrome</text>
+          <text x="698" y="402" fontSize="7" fontWeight="700" className="fill-foreground">Thymus involution: fatty replacement with age-related</text>
+          <text x="698" y="412" fontSize="7" fontWeight="700" className="fill-foreground">atrophy — the thymus FADES (see note)</text>
+        </g>
+
+        {/* FADES strip */}
+        <g>
+          <rect x="528" y="432" width="412" height="30" rx="9" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+          <text x="542" y="450" fontSize="7.6" fontWeight="800" className="fill-brand">Thymus FADES: Fatty replacement · Atrophy · Decline in naïve T cells (↓IL-7, thymopoietin)</text>
+          <text x="542" y="459" fontSize="6.8" fontWeight="700" className="fill-brand">· Elderly immunosenescence (↓ vaccine response) · Size/cellularity/function ↓ — accelerated after puberty</text>
+        </g>
+        <text x="528" y="486" fontSize="6.8" className="fill-muted-foreground">Cortisol shrinks the thymus (stress involution) — partly reversible when cortisol falls.</text>
+      </g>
+
+      {/* footer */}
+      <g>
+        <rect x="24" y="490" width="932" height="44" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="42" y="508" fontSize="7.8" fontWeight="700" className="fill-foreground">Read the two organs together: the spleen filters BLOOD (encapsulated bacteria die without its IgM–complement–C3b axis), the thymus builds T cells (and disappears from the CXR when it fails).</text>
+        <text x="42" y="522" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's spleen cross-section and neonatal thymus CXR (pdf 118 / book 96) — the radiograph is conveyed as a schematic, never reproduced.</text>
+      </g>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E20 — Innate vs adaptive: the two arms (source: comparison table,
+// pdf 119 / book 97 — no printed artwork; pdfimages clean. This is an
+// original KYP teaching visual, not a figure replacement.)
+// ---------------------------------------------------------------------------
+
+export function InnateVsAdaptiveArms() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Innate vs adaptive immunity, an original KYP diagram: the innate arm (left) is germline-encoded, nonspecific, active within minutes to hours with no memory — neutrophils, macrophages, monocytes, dendritic cells, NK cells, complement, epithelial barriers, secreted enzymes (lysozyme, CRP, defensins), and Toll-like receptors recognizing PAMPs and DAMPs to activate NF-κB and release pro-inflammatory cytokines. The adaptive arm (right) is highly specific through V(D)J recombination, develops over long periods, and mounts faster, more robust memory responses — T cells, B cells, circulating antibodies, immunoglobulins, with immunosenescence late in life. A response-vs-time strip at the bottom contrasts the immediate innate curve with the lagging primary and the brisk secondary adaptive response" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Innate vs adaptive immunity — the two arms (original KYP diagram)</text>
+        <rect x="726" y="24" width="206" height="18" rx="9" className="fill-brand-soft" />
+        <text x="829" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">fast &amp; general vs slow &amp; specific</text>
+      </g>
+
+      {/* INNATE panel */}
+      <g>
+        <rect x="36" y="76" width="444" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="444" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="258" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">INNATE — first line</text>
+        {[
+          ["Components", "Neutrophils, macrophages, monocytes, dendritic cells, NK cells (lymphoid origin), complement, physical epithelial barriers, secreted enzymes"],
+          ["Mechanism", "Germline encoded — no gene rearrangement"],
+          ["Response", "Nonspecific · occurs rapidly (minutes to hours) · no memory response"],
+          ["Secreted proteins", "Lysozyme, complement, C-reactive protein (CRP), defensins, cytokines"],
+          ["Recognition", "Toll-like receptors (TLRs) read PAMPs (LPS, flagellin, viral nucleic acids) and DAMPs (mitochondrial DNA, histones, heat shock proteins) → NF-κB → pro-inflammatory cytokines"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <text x="54" y={136 + i * 54} fontSize="8" fontWeight="800" className="fill-brand">{k}</text>
+            {v.split(" · ").length > 1 && i === 2 ? (
+              v.split(" · ").map((part, j) => (
+                <text key={j} x="54" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">· {part}</text>
+              ))
+            ) : (
+              v.match(/.{1,62}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+                <text key={j} x="54" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+              ))
+            )}
+          </g>
+        ))}
+      </g>
+
+      {/* ADAPTIVE panel */}
+      <g>
+        <rect x="500" y="76" width="444" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="500" y="76" width="444" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="722" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">ADAPTIVE — the specialist</text>
+        {[
+          ["Components", "T cells, B cells, circulating antibodies"],
+          ["Mechanism", "Variation through V(D)J recombination during lymphocyte development"],
+          ["Response", "Highly specific, refined over time · develops over long periods · memory response is faster and more robust"],
+          ["Secreted proteins", "Immunoglobulins, cytokines"],
+          ["Recognition", "Memory cells (activated B and T cells): subsequent exposure to a previously encountered antigen → stronger, quicker response. Immunosenescence: adaptive responses decrease with age"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <text x="518" y={136 + i * 54} fontSize="8" fontWeight="800" className="fill-brand">{k}</text>
+            {i === 2 ? (
+              v.split(" · ").map((part, j) => (
+                <text key={j} x="518" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">· {part}</text>
+              ))
+            ) : (
+              v.match(/.{1,62}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+                <text key={j} x="518" y={148 + i * 54 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+              ))
+            )}
+          </g>
+        ))}
+      </g>
+
+      {/* response vs time strip */}
+      <g>
+        <rect x="36" y="422" width="908" height="94" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="444" fontSize="8.6" fontWeight="800" className="fill-foreground">Response magnitude vs time</text>
+        <line x1="54" y1="502" x2="920" y2="502" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        <line x1="54" y1="502" x2="54" y2="448" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        <text x="58" y="458" fontSize="6.4" className="fill-muted-foreground">magnitude</text>
+        <text x="900" y="512" fontSize="6.4" className="fill-muted-foreground">time →</text>
+        {/* innate: immediate, flat (no memory) */}
+        <path d="M 54 478 L 380 478 L 920 478" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2.4" />
+        <text x="80" y="466" fontSize="6.8" fontWeight="700" className="fill-emergency">innate: minutes–hours, same every time (no memory)</text>
+        {/* adaptive primary: lag then rise */}
+        <path d="M 54 502 C 200 502, 260 500, 300 496 C 380 486, 430 470, 470 462" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2.2" strokeDasharray="6 3" />
+        <path d="M 405 488 L 400 478" stroke="currentColor" className="text-border" strokeWidth="0.9" />
+        <text x="360" y="494" fontSize="6.8" fontWeight="700" className="fill-brand">primary: develops over long periods</text>
+        {/* adaptive secondary: brisk and higher */}
+        <path d="M 470 462 C 500 480, 520 498, 545 502 C 560 500, 575 492, 590 476 C 610 456, 640 448, 920 444" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2.6" />
+        <text x="640" y="440" fontSize="6.8" fontWeight="700" className="fill-brand">secondary (memory): faster and more robust</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="540" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram (the source page carries a comparison table only — pdf 119 / book 97; no textbook artwork exists to redraw). The verbatim 5-row table is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E21 — MHC I vs MHC II: the two display scaffolds
+// (source: two molecular structure diagrams + 7-row table, pdf 120 / book 98)
+// ---------------------------------------------------------------------------
+
+export function MhcStructureComparison() {
+  const w = 980;
+  const h = 620;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="MHC I vs MHC II structure, an original KYP redraw of the source's two molecular diagrams. MHC I (left): one long chain with three extracellular domains (alpha 1, alpha 2, alpha 3) plus one short chain, beta-2 microglobulin; the alpha 1 and alpha 2 domains form the endogenous antigen-binding groove, which displays viral and cytosolic peptides loaded in the RER after TAP delivery; expressed on all nucleated cells, APCs, and platelets (except RBCs); binds TCR and CD8 on cytotoxic T cells. MHC II (right): two equal-length chains (alpha 1-alpha 2 and beta 1-beta 2); the alpha 1 and beta 1 domains form the exogenous antigen-binding groove, loaded after invariant-chain release in a lysosome; expressed on APCs; binds TCR and CD4 on helper T cells. The mnemonic bar: CD8 times MHC 1 equals 8, and CD4 times MHC 2 equals 8" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">MHC I vs MHC II — the two antigen-display scaffolds (original KYP redraw)</text>
+        <rect x="734" y="24" width="198" height="18" rx="9" className="fill-brand-soft" />
+        <text x="833" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD8 × MHC 1 = 8 · CD4 × MHC 2 = 8</text>
+      </g>
+
+      {/* ===== MHC I panel ===== */}
+      <g>
+        <rect x="36" y="76" width="444" height="420" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="52" y="100" fontSize="10" fontWeight="800" className="fill-foreground">MHC I — 1 long chain (3 α) + 1 short chain</text>
+
+        {/* membrane + cytoplasm bands */}
+        <rect x="76" y="404" width="360" height="12" rx="3" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="452" y="414" fontSize="6.6" className="fill-muted-foreground">cell membrane</text>
+        <rect x="76" y="416" width="360" height="18" rx="3" className="fill-secondary/60" />
+        <text x="452" y="429" fontSize="6.6" className="fill-muted-foreground">cytoplasm</text>
+
+        {/* long chain: α1 α2 (groove) + α3 + transmembrane tail */}
+        <g>
+          {/* binding groove: α1 + α2 domains with peptide */}
+          <rect x="136" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="166" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α1</text>
+          <rect x="200" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="230" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α2</text>
+          {/* endogenous peptide in groove */}
+          <rect x="146" y="146" width="140" height="14" rx="7" className="fill-emergency/80" />
+          <text x="216" y="156" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-background">endogenous antigen (viral, cytosolic)</text>
+          {/* α3 domain */}
+          <rect x="168" y="244" width="60" height="70" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+          <text x="198" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">α3</text>
+          {/* transmembrane tail */}
+          <path d="M 198 314 L 198 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="120" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">long chain (α)</text>
+          <path d="M 176 334 L 192 340" stroke="currentColor" className="text-border" strokeWidth="0.9" />
+        </g>
+
+        {/* short chain: β2-microglobulin */}
+        <g>
+          <rect x="248" y="244" width="60" height="70" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+          <text x="278" y="272" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">β2-</text>
+          <text x="278" y="282" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">micro-</text>
+          <text x="278" y="292" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">globulin</text>
+          <text x="322" y="262" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">short chain —</text>
+          <text x="322" y="272" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">associated protein</text>
+        </g>
+
+        {/* CD8 binding */}
+        <g>
+          <path d="M 136 200 C 96 200, 78 212, 72 232" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+          <circle cx="66" cy="240" r="17" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+          <text x="66" y="243" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">CD8</text>
+          <text x="40" y="272" fontSize="6.6" className="fill-muted-foreground">cytotoxic</text>
+          <text x="40" y="281" fontSize="6.6" className="fill-muted-foreground">T cell</text>
+        </g>
+
+        {/* RER/TAP annotation */}
+        <g>
+          <rect x="330" y="318" width="132" height="78" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="340" y="336" fontSize="7.2" fontWeight="800" className="fill-foreground">Antigen loading</text>
+          <text x="340" y="348" fontSize="6.6" className="fill-muted-foreground">Peptides loaded onto</text>
+          <text x="340" y="357" fontSize="6.6" className="fill-muted-foreground">MHC I in the RER after</text>
+          <text x="340" y="366" fontSize="6.6" className="fill-muted-foreground">delivery via TAP</text>
+          <text x="340" y="379" fontSize="6.4" className="fill-muted-foreground">(transporter associated</text>
+          <text x="340" y="388" fontSize="6.4" className="fill-muted-foreground">with antigen processing)</text>
+        </g>
+
+        {/* expression strip */}
+        <rect x="52" y="448" width="412" height="34" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="64" y="462" fontSize="7.2" fontWeight="800" className="fill-foreground">Expression: all nucleated cells, APCs, platelets (except RBCs)</text>
+        <text x="64" y="474" fontSize="6.8" className="fill-muted-foreground">Function: endogenous antigens (viral, cytosolic proteins) → CD8+ cytotoxic T cells</text>
+      </g>
+
+      {/* ===== MHC II panel ===== */}
+      <g>
+        <rect x="500" y="76" width="444" height="420" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="516" y="100" fontSize="10" fontWeight="800" className="fill-foreground">MHC II — 2 equal-length chains (2 α, 2 β)</text>
+
+        {/* membrane + cytoplasm bands */}
+        <rect x="540" y="404" width="360" height="12" rx="3" className="fill-secondary stroke-border" strokeWidth="1" />
+        <text x="916" y="414" fontSize="6.6" className="fill-muted-foreground">cell membrane</text>
+        <rect x="540" y="416" width="360" height="18" rx="3" className="fill-secondary/60" />
+        <text x="916" y="429" fontSize="6.6" className="fill-muted-foreground">cytoplasm</text>
+
+        {/* equal-length chains: α1 α2 / β1 β2 */}
+        <g>
+          {/* α chain: α1 (groove) + α2 */}
+          <rect x="600" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="630" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">α1</text>
+          <rect x="600" y="244" width="60" height="70" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+          <text x="630" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">α2</text>
+          <path d="M 630 314 L 630 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="580" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">α chain</text>
+          {/* β chain: β1 (groove) + β2 */}
+          <rect x="668" y="164" width="60" height="76" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+          <text x="698" y="206" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">β1</text>
+          <rect x="668" y="244" width="60" height="70" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+          <text x="698" y="283" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">β2</text>
+          <path d="M 698 314 L 698 404" stroke="currentColor" className="text-border" strokeWidth="5" />
+          <text x="722" y="340" fontSize="7" fontWeight="800" className="fill-muted-foreground">β chain</text>
+          {/* exogenous peptide in groove */}
+          <rect x="610" y="146" width="140" height="14" rx="7" className="fill-emergency/80" />
+          <text x="680" y="156" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-background">exogenous antigen (bacterial)</text>
+        </g>
+
+        {/* CD4 binding */}
+        <g>
+          <path d="M 600 200 C 560 200, 542 212, 536 232" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+          <circle cx="530" cy="240" r="17" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+          <text x="530" y="243" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">CD4</text>
+          <text x="504" y="272" fontSize="6.6" className="fill-muted-foreground">helper</text>
+          <text x="504" y="281" fontSize="6.6" className="fill-muted-foreground">T cell</text>
+        </g>
+
+        {/* lysosome/invariant chain annotation */}
+        <g>
+          <rect x="770" y="318" width="152" height="78" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="780" y="336" fontSize="7.2" fontWeight="800" className="fill-foreground">Antigen loading</text>
+          <text x="780" y="348" fontSize="6.6" className="fill-muted-foreground">Loaded following release of</text>
+          <text x="780" y="357" fontSize="6.6" className="fill-muted-foreground">the invariant chain in a</text>
+          <text x="780" y="366" fontSize="6.6" className="fill-muted-foreground">lysosome</text>
+          <text x="780" y="379" fontSize="6.4" className="fill-muted-foreground">(associated protein:</text>
+          <text x="780" y="388" fontSize="6.4" className="fill-muted-foreground">invariant chain)</text>
+        </g>
+
+        {/* expression strip */}
+        <rect x="516" y="448" width="412" height="34" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="528" y="462" fontSize="7.2" fontWeight="800" className="fill-foreground">Expression: APCs (the professional presenters)</text>
+        <text x="528" y="474" fontSize="6.8" className="fill-muted-foreground">Function: exogenous antigens (bacterial proteins) → CD4+ helper T cells</text>
+      </g>
+
+      {/* loci strip */}
+      <g>
+        <rect x="36" y="510" width="908" height="42" rx="10" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="52" y="528" fontSize="7.8" fontWeight="800" className="fill-foreground">LOCI: MHC I = HLA-A, HLA-B, HLA-C (loci have 1 letter) · MHC II = HLA-DP, HLA-DQ, HLA-DR (loci have 2 letters)</text>
+        <text x="52" y="541" fontSize="7.2" className="fill-muted-foreground">MHC molecules are encoded by HLA genes and present antigen fragments to T cells, binding T-cell receptors (TCRs).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="576" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's MHC I and MHC II structure diagrams (pdf 120 / book 98); the verbatim 7-row comparison table is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E23 — NK cell kill model: activating signal + missing self + ADCC
+// (source: "Major functions of natural killer cells", pdf 121 / book 99)
+// ---------------------------------------------------------------------------
+
+export function NkKillModel() {
+  const w = 980;
+  const h = 648;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The NK cell kill decision, an original KYP diagram. A target cell (virally infected or tumor, with surface MHC I downregulated) presents a stress ligand — the nonspecific activation signal — and no MHC I inhibitory signal. The NK cell integrates its activating receptor (go) and inhibitory receptor (brake off, because MHC I is missing), then kills with perforin and granzymes, inducing apoptosis. Side rails show activity enhanced by IL-2, IL-12, IFN-alpha, and IFN-beta, and the NK cell's own IFN-gamma output activating macrophages. A bottom strip shows the ADCC route: IgG antibody coats a target cell, CD16 on the NK cell binds the Fc region of the bound IgG, activating the NK cell to kill the antibody-coated target" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The NK kill decision — two inputs, one granule payload (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">missing self → kill</text>
+      </g>
+
+      {/* ===== main scene: target cell (left) vs NK cell (right) ===== */}
+      {/* TARGET CELL panel */}
+      <g>
+        <rect x="36" y="76" width="264" height="296" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="264" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="168" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">TARGET CELL</text>
+        <text x="168" y="126" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-muted-foreground">virally infected or tumor cell</text>
+
+        {/* cell body */}
+        <rect x="64" y="140" width="208" height="150" rx="16" className="fill-secondary/50 stroke-border" strokeWidth="1.3" />
+        {/* stress ligands on surface (right edge, facing NK) */}
+        <circle cx="272" cy="168" r="6" className="fill-emergency stroke-emergency" strokeWidth="1" />
+        <circle cx="272" cy="210" r="6" className="fill-emergency stroke-emergency" strokeWidth="1" />
+        {/* MHC I: one, faded (downregulated) */}
+        <rect x="262" y="250" width="20" height="14" rx="3" className="fill-warning-soft/40 stroke-warning/40" strokeWidth="1" />
+        <line x1="256" y1="244" x2="288" y2="270" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <line x1="288" y1="244" x2="256" y2="270" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+
+        {/* labels */}
+        <text x="252" y="160" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">stress ligand —</text>
+        <text x="252" y="169" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">nonspecific</text>
+        <text x="252" y="178" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-emergency">activation signal</text>
+        <text x="252" y="244" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-warning">MHC I ↓ (escape</text>
+        <text x="252" y="253" textAnchor="end" fontSize="6.8" fontWeight="700" className="fill-warning">from CD8+ T cells)</text>
+
+        {/* inside text */}
+        <text x="168" y="182" textAnchor="middle" fontSize="7" className="fill-muted-foreground">viral replication,</text>
+        <text x="168" y="192" textAnchor="middle" fontSize="7" className="fill-muted-foreground">tumor stress —</text>
+        <text x="168" y="202" textAnchor="middle" fontSize="7" className="fill-muted-foreground">fewer MHC I on surface</text>
+
+        {/* fate */}
+        <rect x="56" y="304" width="224" height="52" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="168" y="322" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-emergency">→ apoptosis</text>
+        <text x="168" y="334" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">perforin pores + granzymes enter</text>
+        <text x="168" y="344" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">the virally infected / tumor cell</text>
+      </g>
+
+      {/* receptor arrows between cells */}
+      <g>
+        {/* activating receptor arrow: stress ligand → NK (label above, arrow below) */}
+        <text x="336" y="157" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">activating</text>
+        <text x="336" y="166" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-emergency">signal ✓</text>
+        <path d="M 280 178 C 310 180, 340 182, 378 183" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+        <path d="M 376 178 L 388 183 L 375 188 Z" className="fill-emergency" />
+        {/* inhibitory receptor: no MHC I → dashed broken */}
+        <path d="M 302 254 L 370 254" stroke="currentColor" className="text-warning" strokeWidth="1.6" strokeDasharray="4 3" />
+        <line x1="330" y1="248" x2="342" y2="260" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <line x1="342" y1="248" x2="330" y2="260" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <text x="336" y="243" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">no ligand</text>
+        <text x="336" y="270" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">brake OFF</text>
+        <text x="336" y="280" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">(missing self)</text>
+      </g>
+
+      {/* NK CELL panel */}
+      <g>
+        <rect x="372" y="76" width="264" height="296" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="372" y="76" width="264" height="34" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="504" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">NK CELL</text>
+        <text x="504" y="126" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-muted-foreground">lymphocyte member of the INNATE immune system</text>
+
+        {/* cell body */}
+        <rect x="400" y="140" width="208" height="150" rx="16" className="fill-brand-soft/30 stroke-border" strokeWidth="1.3" />
+        {/* activating receptor (left edge) */}
+        <path d="M 392 176 L 410 176 L 402 168 L 410 184 L 392 184 Z" className="fill-emergency/70 stroke-emergency" strokeWidth="1" />
+        <text x="424" y="172" fontSize="6.8" fontWeight="700" className="fill-emergency">activating receptor</text>
+        <text x="424" y="181" fontSize="6.8" fontWeight="700" className="fill-emergency">reads the stress signal</text>
+        {/* inhibitory receptor (left edge, blocked) */}
+        <path d="M 392 252 L 410 246 L 410 260 Z" className="fill-warning/60 stroke-warning" strokeWidth="1" />
+        <line x1="392" y1="240" x2="408" y2="266" stroke="currentColor" className="text-warning" strokeWidth="1.4" />
+        <text x="424" y="248" fontSize="6.8" fontWeight="700" className="fill-warning">inhibitory receptor</text>
+        <text x="424" y="257" fontSize="6.8" fontWeight="700" className="fill-warning">binds MHC I if present</text>
+        <text x="424" y="266" fontSize="6.8" fontWeight="700" className="fill-warning">— here: nothing to bind</text>
+
+        {/* granules */}
+        <circle cx="448" cy="212" r="11" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="448" y="216" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">gran.</text>
+        <circle cx="482" cy="216" r="11" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="482" y="220" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-foreground">gran.</text>
+        <text x="520" y="208" fontSize="6.6" className="fill-muted-foreground">perforin +</text>
+        <text x="520" y="217" fontSize="6.6" className="fill-muted-foreground">granzymes</text>
+        <text x="520" y="226" fontSize="6.6" className="fill-muted-foreground">(cytotoxic</text>
+        <text x="520" y="235" fontSize="6.6" className="fill-muted-foreground">granules)</text>
+
+        {/* decision strip */}
+        <rect x="392" y="304" width="224" height="52" rx="9" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="504" y="322" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-foreground">KILL decision: GO + no brake</text>
+        <text x="504" y="334" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">induced by an activation signal</text>
+        <text x="504" y="344" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">and/or absent MHC I inhibitory signal</text>
+      </g>
+
+      {/* right rail: amplifiers + output */}
+      <g>
+        <rect x="660" y="76" width="284" height="140" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="676" y="100" fontSize="8.4" fontWeight="800" className="fill-foreground">Activity enhanced by</text>
+        {[
+          ["IL-2", "growth/activation signal"],
+          ["IL-12", "from APCs — arms NK response"],
+          ["IFN-α, IFN-β", "antival alarm cytokines"],
+        ].map(([k, v], i) => (
+          <g key={k}>
+            <rect x="676" y={112 + i * 32} width="252" height="26" rx="8" className="fill-brand-soft" />
+            <text x="688" y={129 + i * 32} fontSize="7.4" fontWeight="800" className="fill-brand">↑ {k}</text>
+            <text x="920" y={129 + i * 32} textAnchor="end" fontSize="6.6" className="fill-muted-foreground">{v}</text>
+          </g>
+        ))}
+        <rect x="660" y="232" width="284" height="140" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="676" y="256" fontSize="8.4" fontWeight="800" className="fill-foreground">NK cells produce</text>
+        <rect x="676" y="268" width="252" height="52" rx="8" className="fill-warning-soft" />
+        <text x="688" y="288" fontSize="7.8" fontWeight="800" className="fill-foreground">IFN-γ → macrophage activation</text>
+        <text x="688" y="300" fontSize="6.6" className="fill-muted-foreground">the innate bridge: killed-cell cleanup,</text>
+        <text x="688" y="309" fontSize="6.6" className="fill-muted-foreground">intracellular microbe killing</text>
+        <text x="676" y="340" fontSize="6.8" className="fill-muted-foreground">Same payload as CD8+ T cells —</text>
+        <text x="676" y="350" fontSize="6.8" className="fill-muted-foreground">opposite MHC I logic: CD8+ requires</text>
+        <text x="676" y="360" fontSize="6.8" className="fill-muted-foreground">MHC I; NK kills when it is missing.</text>
+      </g>
+
+      {/* ===== ADCC strip ===== */}
+      <g>
+        <rect x="36" y="392" width="908" height="196" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="416" fontSize="8.6" fontWeight="800" className="fill-foreground">ADCC — the antibody-guided route (antibody-dependent cell-mediated cytotoxicity)</text>
+
+        {/* step 1: antibody-coated target */}
+        <rect x="60" y="432" width="240" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="180" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">1 · IgG coats the target</text>
+        <rect x="100" y="466" width="160" height="66" rx="10" className="fill-secondary/50 stroke-border" strokeWidth="1.1" />
+        {/* IgG Y shapes, Fc up */}
+        <g className="stroke-primary" strokeWidth="1.6" fill="none">
+          <path d="M 130 486 L 130 472 L 122 460 M 130 472 L 138 460" />
+          <path d="M 180 486 L 180 472 L 172 460 M 180 472 L 188 460" />
+          <path d="M 230 486 L 230 472 L 222 460 M 230 472 L 238 460" />
+        </g>
+        <text x="180" y="500" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">antigen-specific IgG bound to</text>
+        <text x="180" y="509" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">surface antigen — Fc regions</text>
+        <text x="180" y="518" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">protrude</text>
+        <text x="180" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">(specificity supplied by antibody)</text>
+
+        {/* arrow 1→2 */}
+        <path d="M 306 498 L 340 498" stroke="currentColor" className="text-border" strokeWidth="2" />
+        <path d="M 340 492 L 352 498 L 340 504 Z" className="fill-border" />
+
+        {/* step 2: CD16 binds Fc */}
+        <rect x="360" y="432" width="252" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="486" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">2 · CD16 binds the Fc region</text>
+        <rect x="396" y="466" width="120" height="66" rx="10" className="fill-brand-soft/30 stroke-border" strokeWidth="1.1" />
+        <text x="456" y="492" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-brand">CD16</text>
+        <text x="456" y="503" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">(Fc receptor, on the</text>
+        <text x="456" y="512" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">NK cell surface)</text>
+        <g>
+          <path d="M 516 486 L 516 472 L 508 460 M 516 472 L 524 460" className="stroke-primary" strokeWidth="1.6" fill="none" />
+          <path d="M 528 484 C 522 490, 514 490, 510 486" stroke="currentColor" className="text-brand" strokeWidth="1.6" fill="none" />
+          <text x="530" y="502" fontSize="6.4" fontWeight="700" className="fill-brand">binds the Fc</text>
+          <text x="530" y="511" fontSize="6.4" fontWeight="700" className="fill-brand">region of the</text>
+          <text x="530" y="520" fontSize="6.4" fontWeight="700" className="fill-brand">bound IgG</text>
+        </g>
+        <text x="486" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Fc binding = an NK activating signal</text>
+
+        {/* arrow 2→3 */}
+        <path d="M 618 498 L 652 498" stroke="currentColor" className="text-border" strokeWidth="2" />
+        <path d="M 652 492 L 664 498 L 652 504 Z" className="fill-border" />
+
+        {/* step 3: kill */}
+        <rect x="672" y="432" width="252" height="132" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="798" y="452" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">3 · NK kills the coated target</text>
+        <rect x="708" y="466" width="180" height="66" rx="10" className="fill-emergency/10 stroke-emergency" strokeWidth="1.1" />
+        <text x="798" y="488" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">perforin + granzymes</text>
+        <text x="798" y="500" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">same cytotoxic granules as the</text>
+        <text x="798" y="509" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">missing-self pathway → apoptosis</text>
+        <text x="798" y="556" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">innate killer + adaptive guidance</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="618" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source sentences (pdf 121 / book 99 — the page carries prose only; no textbook artwork exists). Key: stress ligand + ↓MHC I → activating receptor GO, inhibitory receptor OFF → kill.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E23 — B vs T division of labor: humoral vs cell-mediated functions
+// (source: "Major functions of B and T cells", pdf 121 / book 99)
+// ---------------------------------------------------------------------------
+
+export function BtDivisionOfLabor() {
+  const w = 980;
+  const h = 620;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="B and T cells, the division of labor — an original KYP diagram. Left panel, B cells, humoral immunity: recognize and present antigen with somatic hypermutation optimizing antigen specificity; produce antibody by differentiating into plasma cells that secrete specific immunoglobulins; maintain immunologic memory with persistent memory B cells that accelerate future response to antigen — the RPM mnemonic: Recognize, Produce, Memory. Right panel, T cells, cell-mediated immunity: CD4+ helper T cells help B cells make antibodies and produce cytokines to recruit phagocytes and activate other leukocytes; CD8+ cytotoxic T cells directly kill virus-infected and tumor cells via perforin and granzymes, similar to NK cells; and T cells mediate type IV hypersensitivity reactions and acute and chronic cellular organ rejection. A CD4-help arrow crosses from the T panel to the B panel. Bottom strip: the exam sorter — antibodies in serum means humoral B-cell function; positive delayed-type hypersensitivity skin test and cellular organ rejection mean T-cell function" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">B and T cells — the division of labor (original KYP diagram)</text>
+        <rect x="742" y="24" width="190" height="18" rx="9" className="fill-brand-soft" />
+        <text x="837" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">humoral vs cell-mediated</text>
+      </g>
+
+      {/* ===== B CELL panel ===== */}
+      <g>
+        <rect x="36" y="76" width="444" height="336" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="444" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="258" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">B CELLS — humoral immunity</text>
+        {[
+          ["R — Recognize", "Recognize and present antigen; undergo somatic hypermutation to optimize antigen specificity.", "surface Ig receptor → APC role; mutations tune the binding site"],
+          ["P — Produce", "Produce antibody — differentiate into plasma cells to secrete specific immunoglobulins.", "the antibody factory: IgM, IgG, IgA, IgE, IgD"],
+          ["M — Maintain memory", "Maintain immunologic memory — memory B cells persist and accelerate future response to antigen.", "the reason vaccines work: faster, stronger on re-exposure"],
+        ].map(([k, v, sub], i) => (
+          <g key={k as string}>
+            <text x="54" y={138 + i * 78} fontSize="8.2" fontWeight="800" className="fill-brand">{k}</text>
+            {(v as string).match(/.{1,58}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x="54" y={150 + i * 78 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x="54" y={150 + i * 78 + 22} fontSize="6.4" className="fill-muted-foreground/80">{sub}</text>
+          </g>
+        ))}
+        <rect x="54" y="330" width="408" height="64" rx="9" className="fill-brand-soft" />
+        <text x="258" y="352" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-brand">B cells run on RPM: Recognize → Produce → Remember</text>
+        <text x="258" y="366" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">somatic hypermutation refines the receptor; plasma cells secrete;</text>
+        <text x="258" y="376" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">memory B cells persist and accelerate the future response to antigen</text>
+      </g>
+
+      {/* ===== T CELL panel ===== */}
+      <g>
+        <rect x="500" y="76" width="444" height="336" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="500" y="76" width="444" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="722" y="98" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">T CELLS — cell-mediated immunity</text>
+        {[
+          ["CD4+ — the helper", "Help B cells make antibodies; produce cytokines to recruit phagocytes and activate other leukocytes.", "the coordinator: cytokines are its tools"],
+          ["CD8+ — the killer", "Directly kill virus-infected and tumor cells via perforin and granzymes (similar to NK cells).", "MHC I-restricted — requires antigen display"],
+          ["T-cell contexts", "Type IV hypersensitivity reaction. Acute and chronic cellular organ rejection.", "both are cell-mediated (T-cell) phenomena"],
+        ].map(([k, v, sub], i) => (
+          <g key={k as string}>
+            <text x="518" y={138 + i * 78} fontSize="8.2" fontWeight="800" className="fill-warning">{k}</text>
+            {(v as string).match(/.{1,58}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x="518" y={150 + i * 78 + j * 11} fontSize="7" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x="518" y={150 + i * 78 + 22} fontSize="6.4" className="fill-muted-foreground/80">{sub}</text>
+          </g>
+        ))}
+        <rect x="518" y="330" width="408" height="64" rx="9" className="fill-warning-soft" />
+        <text x="722" y="352" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CD4+ helps (antibodies, phagocyte recruitment) · CD8+ kills (perforin/granzymes)</text>
+        <text x="722" y="366" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">the kill payload matches NK cells — but CD8+ requires MHC I presentation,</text>
+        <text x="722" y="376" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">while NK cells kill preferentially when MHC I is absent (missing self)</text>
+      </g>
+
+      {/* CD4 → B help arrow (elbow through the empty inter-row band, y 174-206) */}
+      <g>
+        <path d="M 640 177 L 640 190 L 492 190" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" strokeDasharray="6 3" />
+        <path d="M 494 185 L 482 190 L 494 195 Z" className="fill-warning" />
+        <text x="560" y="182" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-warning">CD4+ helps B cells make antibodies</text>
+      </g>
+
+      {/* ===== exam sorter strip ===== */}
+      <g>
+        <rect x="36" y="428" width="908" height="140" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="452" fontSize="8.6" fontWeight="800" className="fill-foreground">The exam sorter — which arm answered the question?</text>
+        {[
+          [60, "Antibodies in serum · opsonization of encapsulated bacteria · vaccine antibody response", "B cells (humoral)", "fill-brand-soft", "fill-brand"],
+          [360, "Positive PPD / contact dermatitis (type IV) · acute or chronic cellular organ rejection", "T cells (cell-mediated)", "fill-warning-soft", "fill-foreground"],
+          [660, "Perforin/granzyme killing of virus-infected or tumor cells · MHC I-restricted cytotoxicity", "CD8+ T cells", "fill-emergency/10", "fill-emergency"],
+        ].map(([x, desc, tag, bg, fg]) => (
+          <g key={desc as string}>
+            <rect x={x as number} y="466" width="284" height="86" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+            <text x={(x as number) + 14} y="486" fontSize="7" fontWeight="700" className="fill-muted-foreground">{(desc as string).match(/.{1,44}(\s|$)/g)!.slice(0, 2).map((l, j) => (
+              <tspan key={j} x={(x as number) + 14} dy={j === 0 ? 0 : 10}>{l.trim()}</tspan>
+            ))}</text>
+            <rect x={(x as number) + 14} y="514" width="150" height="24" rx="8" className={bg as string} />
+            <text x={(x as number) + 89} y="530" textAnchor="middle" fontSize="7.2" fontWeight="800" className={fg as string}>{tag}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="596" fontSize="7.2" className="fill-muted-foreground">Original KYP synthesis diagram (pdf 121 / book 99 — function roster presented as a list in the source; no textbook artwork exists). The verbatim function table is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E24 — T-cell development: thymic selection + helper lineage switchboard
+// (source: "Differentiation of T cells" diagram + selection text, pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function TCellSelectionMap() {
+  const w = 980;
+  const h = 590;
+  const cards = [
+    { x: 196, name: "Th1", plus: "IFN-γ, IL-12", minus: "IL-4, IL-10", fn: ["activates macrophages", "+ cytotoxic T cells"] },
+    { x: 378, name: "Th2", plus: "IL-2, IL-4", minus: "IFN-γ", fn: ["activates eosinophils,", "↑IgE"] },
+    { x: 560, name: "Th17", plus: "TGF-β, IL-1, IL-6", minus: "IFN-γ, IL-4", fn: ["induce neutrophilic", "infiltration"] },
+    { x: 742, name: "Treg", plus: "TGF-β, IL-2", minus: "IL-6", fn: ["prevent autoimmunity", "(maintain tolerance)"] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="T-cell development, an original KYP redraw of the source's differentiation diagram. Top row, the thymic school: a T-cell precursor leaves the bone marrow, enters the thymus as a double-positive CD4+ CD8+ thymocyte; positive selection in the cortex keeps T cells that recognize self-peptide MHC complexes (survival signal); negative selection in the medulla removes T cells that bind self too strongly (apoptosis or become regulatory T cells), driven by the AIRE protein. Output: single-positive CD8+ cytotoxic and CD4+ helper T cells to the peripheral blood and lymph node. Bottom row, the helper lineage switchboard: a naive CD4+ (Th0) cell differentiates into Th1 (promoted by IFN-gamma and IL-12, inhibited by IL-4 and IL-10; activates macrophages and cytotoxic T cells), Th2 (promoted by IL-2 and IL-4, inhibited by IFN-gamma; activates eosinophils and raises IgE), Th17 (promoted by TGF-beta, IL-1 and IL-6, inhibited by IFN-gamma and IL-4; induces neutrophilic infiltration), and Treg (promoted by TGF-beta and IL-2, inhibited by IL-6; prevents autoimmunity and maintains tolerance). The verbatim secretes-and-function table is the note's table block" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">T-cell development — the thymic school and the helper lineages (original KYP redraw)</text>
+        <rect x="704" y="24" width="228" height="18" rx="9" className="fill-brand-soft" />
+        <text x="818" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">cortex keeps self-MHC · medulla culls self-reactive</text>
+      </g>
+
+      {/* ===== section 1: the thymic school ===== */}
+      <text x="36" y="96" fontSize="8.4" fontWeight="800" className="fill-foreground">THE THYMIC SCHOOL</text>
+
+      {/* bone marrow panel */}
+      <g>
+        <rect x="36" y="106" width="140" height="186" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="106" width="140" height="30" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="106" y="126" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">BONE MARROW</text>
+        <circle cx="106" cy="196" r="24" className="fill-secondary stroke-border" strokeWidth="1.3" />
+        <text x="106" y="190" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">T-cell</text>
+        <text x="106" y="199" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">precursor</text>
+        <text x="106" y="228" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">leaves for the thymus</text>
+        <text x="106" y="238" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">(does NOT mature here —</text>
+        <text x="106" y="248" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">contrast B cells)</text>
+      </g>
+
+      {/* arrow BM -> thymus */}
+      <path d="M 180 196 L 244 196" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 242 191 L 254 196 L 242 201 Z" className="fill-border" />
+
+      {/* thymus panel */}
+      <g>
+        <rect x="216" y="76" width="392" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="216" y="76" width="392" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="412" y="96" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">THYMUS — the selection school</text>
+
+        {/* original lobed thymus schematic: outer cortex band + inner medulla */}
+        <g>
+          <path d="M 258 122 q 22 -12 44 0 q 22 -12 44 0 q 22 -12 44 0 q 10 26 0 52 q -10 26 -20 44 l -92 0 q -14 -18 -20 -44 q -6 -26 0 -52 Z" className="fill-warning-soft/60 stroke-warning" strokeWidth="1.4" />
+          <rect x="278" y="158" width="112" height="44" rx="14" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+          <text x="334" y="150" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-warning">CORTEX (outer)</text>
+          <text x="334" y="184" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-brand">MEDULLA (inner)</text>
+
+          {/* double-positive thymocyte entering the cortex */}
+          <circle cx="248" cy="132" r="16" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="248" y="129" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">CD4+</text>
+          <text x="248" y="138" textAnchor="middle" fontSize="5.6" fontWeight="800" className="fill-foreground">CD8+</text>
+          <path d="M 262 140 C 280 152, 292 160, 300 166" fill="none" stroke="currentColor" className="text-border" strokeWidth="1.2" />
+        </g>
+
+        {/* selection annotations (below the lobe, inside the panel) */}
+        <g>
+          <rect x="232" y="196" width="360" height="40" rx="8" className="fill-secondary" />
+          <text x="242" y="210" fontSize="6.8" fontWeight="800" className="fill-foreground">POSITIVE SELECTION — cortex</text>
+          <text x="242" y="220" fontSize="6.2" className="fill-muted-foreground">keeps T cells that recognize self-peptide MHC complexes —</text>
+          <text x="242" y="229" fontSize="6.2" className="fill-muted-foreground">double-positive thymocytes receive a survival signal</text>
+
+          <rect x="232" y="242" width="360" height="40" rx="8" className="fill-secondary" />
+          <text x="242" y="256" fontSize="6.8" fontWeight="800" className="fill-foreground">NEGATIVE SELECTION — medulla</text>
+          <text x="242" y="266" fontSize="6.2" className="fill-muted-foreground">removes T cells that bind too strongly to self-peptides — apoptosis</text>
+          <text x="242" y="275" fontSize="6.2" className="fill-muted-foreground">or become Tregs; the AIRE protein drives negative selection</text>
+        </g>
+
+        {/* single-positive output arrows */}
+        <path d="M 430 146 C 500 146, 560 150, 622 152" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+        <path d="M 620 147 L 632 152 L 620 157 Z" className="fill-emergency" />
+        <path d="M 430 178 C 500 178, 560 210, 622 214" fill="none" stroke="currentColor" className="text-brand" strokeWidth="1.8" />
+        <path d="M 620 209 L 632 214 L 620 219 Z" className="fill-brand" />
+      </g>
+
+      {/* outcomes panel */}
+      <g>
+        <rect x="636" y="106" width="308" height="186" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="636" y="106" width="308" height="30" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="790" y="126" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">SINGLE-POSITIVE OUTPUT</text>
+        <rect x="652" y="146" width="276" height="36" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="664" y="160" fontSize="7.2" fontWeight="800" className="fill-emergency">CD8+ → cytotoxic T cell</text>
+        <text x="664" y="172" fontSize="6.2" className="fill-muted-foreground">kills virus-infected, neoplastic, donor graft cells (MHC I–restricted)</text>
+        <rect x="652" y="196" width="276" height="36" rx="8" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="664" y="210" fontSize="7.2" fontWeight="800" className="fill-brand">CD4+ → helper T cell</text>
+        <text x="664" y="222" fontSize="6.2" className="fill-muted-foreground">the lineage switchboard below: Th1 / Th2 / Th17 / Treg</text>
+        <text x="790" y="252" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">→ peripheral blood → lymph node → antigen encounter</text>
+        <text x="790" y="264" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">(no thymus after involution — the repertoire is set for life)</text>
+      </g>
+
+      {/* ===== section 2: the helper lineage switchboard ===== */}
+      <text x="36" y="330" fontSize="8.4" fontWeight="800" className="fill-foreground">THE HELPER LINEAGE SWITCHBOARD — differentiation signals (+) and cross-inhibition (−)</text>
+
+      {/* Th0 node */}
+      <g>
+        <rect x="36" y="348" width="140" height="176" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="348" width="140" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="106" y="368" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">NAIVE CD4+ (Th0)</text>
+        <circle cx="106" cy="414" r="22" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.2" />
+        <text x="106" y="418" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">Th0</text>
+        <text x="106" y="452" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">in the lymph node:</text>
+        <text x="106" y="462" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">antigen + co-stimulation</text>
+        <text x="106" y="472" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">→ IL-2-driven</text>
+        <text x="106" y="482" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">clonal proliferation,</text>
+        <text x="106" y="492" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">then the cytokine</text>
+        <text x="106" y="502" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">milieu picks the lineage</text>
+      </g>
+
+      {/* fan arrows Th0 -> cards */}
+      {cards.map((c, i) => (
+        <g key={c.name}>
+          <path d={`M 180 ${436 - i * 4} C ${188} ${436}, ${c.x - 14} ${434 + i * 6}, ${c.x - 4} ${436 + i * 6}`} fill="none" stroke="currentColor" className="text-border" strokeWidth="1.4" />
+        </g>
+      ))}
+
+      {/* lineage cards */}
+      {cards.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="348" width="166" height="176" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+          <rect x={c.x} y="348" width="166" height="26" rx="12" className={c.name === "Treg" ? "fill-warning-soft" : "fill-secondary"} />
+          <text x={c.x + 83} y="366" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">{c.name}</text>
+          <text x={c.x + 14} y="390" fontSize="6.6" fontWeight="800" className="fill-brand">(+) differentiate</text>
+          <text x={c.x + 14} y="401" fontSize="7" fontWeight="700" className="fill-foreground">{c.plus}</text>
+          <text x={c.x + 14} y="421" fontSize="6.6" fontWeight="800" className="fill-emergency">(−) inhibited by</text>
+          <text x={c.x + 14} y="432" fontSize="7" fontWeight="700" className="fill-foreground">{c.minus}</text>
+          <line x1={c.x + 14} y1="446" x2={c.x + 152} y2="446" stroke="currentColor" className="text-border" strokeWidth="1" />
+          <text x={c.x + 14} y="460" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">function (see table):</text>
+          {c.fn.map((line, j) => (
+            <text key={j} x={c.x + 14} y={472 + j * 11} fontSize="6.8" className="fill-muted-foreground">{line}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* footer */}
+      <text x="24" y="566" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's differentiation diagram (pdf 122 / book 100 — the printed page's thymus illustration is copyrighted and is conveyed here as an original schematic). Verbatim selection text and the Secretes/Function table are the note's table and mechanism blocks.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E25 — CD8+ cytotoxic kill cycle (source: "Cytotoxic T cells", pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function CtlKillCycle() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The CD8+ cytotoxic T-cell kill cycle, an original KYP diagram. Left: a cytotoxic T cell carrying CD8 and a T-cell receptor faces a virus-infected target cell displaying peptide on MHC I; the TCR recognizes the peptide-MHC I complex and CD8 binds MHC I, forming the immunological synapse; the cytotoxic T cell releases preformed cytotoxic granules containing perforin and granzyme B; perforin forms pores and granzyme B induces apoptosis. Right rail, the target spectrum: virus-infected cells, neoplastic (tumor) cells, and donor graft cells — all killed by inducing apoptosis" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The CD8+ cytotoxic kill cycle (original KYP diagram)</text>
+        <rect x="716" y="24" width="216" height="18" rx="9" className="fill-brand-soft" />
+        <text x="824" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">MHC I-guided perforin / granzyme B</text>
+      </g>
+
+      {/* ===== CTL panel ===== */}
+      <g>
+        <rect x="36" y="76" width="300" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="300" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="186" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">CYTOTOXIC T CELL (CD8+)</text>
+
+        {/* cell body */}
+        <rect x="60" y="128" width="252" height="150" rx="18" className="fill-secondary/40 stroke-border" strokeWidth="1.3" />
+        {/* granules */}
+        <circle cx="112" cy="180" r="13" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="112" y="177" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">perforin</text>
+        <text x="112" y="185" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">granzyme B</text>
+        <circle cx="160" cy="212" r="13" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <text x="160" y="209" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">perforin</text>
+        <text x="160" y="217" textAnchor="middle" fontSize="5.4" fontWeight="800" className="fill-foreground">granzyme B</text>
+        <text x="230" y="180" fontSize="6.6" className="fill-muted-foreground">cytotoxic granules:</text>
+        <text x="230" y="190" fontSize="6.6" className="fill-muted-foreground">preformed proteins,</text>
+        <text x="230" y="200" fontSize="6.6" className="fill-muted-foreground">ready for release —</text>
+        <text x="230" y="210" fontSize="6.6" className="fill-muted-foreground">no new synthesis</text>
+        <text x="230" y="220" fontSize="6.6" className="fill-muted-foreground">needed at the synapse</text>
+
+        {/* CD8 + TCR on right edge */}
+        <circle cx="316" cy="160" r="14" className="fill-emergency/15 stroke-emergency" strokeWidth="1.4" />
+        <text x="316" y="163" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-emergency">CD8</text>
+        <rect x="302" y="204" width="28" height="20" rx="6" className="fill-brand-soft stroke-brand" strokeWidth="1.3" />
+        <text x="316" y="217" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-brand">TCR</text>
+        <text x="186" y="300" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">TCR reads the foreign peptide; CD8 clamps onto MHC I —</text>
+        <text x="186" y="310" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">dual recognition makes the kill antigen-specific and MHC I-restricted</text>
+      </g>
+
+      {/* synapse zone */}
+      <g>
+        <rect x="356" y="130" width="90" height="150" rx="10" className="fill-warning-soft/40 stroke-warning" strokeWidth="1.2" />
+        <text x="401" y="150" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">immunological</text>
+        <text x="401" y="160" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-foreground">synapse</text>
+        <path d="M 332 160 L 356 160" stroke="currentColor" className="text-emergency" strokeWidth="1.6" />
+        <path d="M 334 214 L 356 214" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+        <text x="401" y="180" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">CD8 ↔ MHC I</text>
+        <text x="401" y="192" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">TCR ↔ peptide</text>
+        <path d="M 401 200 L 401 214" stroke="currentColor" className="text-warning" strokeWidth="1.2" />
+        <text x="401" y="226" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-warning">granule</text>
+        <text x="401" y="236" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-warning">release →</text>
+      </g>
+
+      {/* target panel */}
+      <g>
+        <rect x="466" y="76" width="290" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="466" y="76" width="290" height="34" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.4" />
+        <text x="611" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">TARGET CELL (MHC I+)</text>
+        <rect x="490" y="128" width="242" height="150" rx="18" className="fill-emergency/5 stroke-border" strokeWidth="1.3" />
+        {/* MHC I with peptide on left edge */}
+        <rect x="486" y="152" width="26" height="18" rx="4" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <rect x="488" y="146" width="22" height="8" rx="4" className="fill-emergency/80" />
+        <text x="499" y="152" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-background">peptide</text>
+        <text x="499" y="181" textAnchor="middle" fontSize="5.6" fontWeight="700" className="fill-muted-foreground">MHC I</text>
+        <text x="611" y="196" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">viral peptides displayed on MHC I —</text>
+        <text x="611" y="206" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">every nucleated cell reports its contents</text>
+        <text x="611" y="216" textAnchor="middle" fontSize="6.6" className="fill-muted-foreground">this way; the CTL reads the report</text>
+        {/* pores + granzyme entry */}
+        <circle cx="556" cy="248" r="4" className="fill-emergency" />
+        <circle cx="574" cy="248" r="4" className="fill-emergency" />
+        <circle cx="592" cy="248" r="4" className="fill-emergency" />
+        <text x="668" y="251" fontSize="6" fontWeight="700" className="fill-emergency">perforin pores</text>
+        <text x="611" y="286" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-emergency">→ apoptosis</text>
+        <text x="611" y="300" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">granzyme B enters through the pores</text>
+        <text x="611" y="310" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">and induces programmed cell death</text>
+      </g>
+
+      {/* right rail: target spectrum */}
+      <g>
+        <rect x="776" y="76" width="168" height="290" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="860" y="100" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">TARGET SPECTRUM</text>
+        {[
+          ["Virus-infected cells", "viral peptides on MHC I"],
+          ["Neoplastic cells", "tumor antigens on MHC I"],
+          ["Donor graft cells", "allo-MHC I = foreign peptide"],
+        ].map(([t, s], i) => (
+          <g key={t}>
+            <rect x="790" y={116 + i * 78} width="140" height="66" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+            <text x="860" y={138 + i * 78} textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">{t}</text>
+            <text x="860" y={152 + i * 78} textAnchor="middle" fontSize="6">{s.split(" ").slice(0, 3).join(" ")}</text>
+            <text x="860" y={162 + i * 78} textAnchor="middle" fontSize="6">{s.split(" ").slice(3).join(" ")}</text>
+            <text x="860" y={174 + i * 78} textAnchor="middle" fontSize="6" fontWeight="700" className="fill-emergency">killed by apoptosis</text>
+          </g>
+        ))}
+      </g>
+
+      {/* bottom strip: shared ammunition note */}
+      <g>
+        <rect x="36" y="386" width="908" height="120" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="410" fontSize="8.4" fontWeight="800" className="fill-foreground">Same ammunition as NK cells — different guidance system</text>
+        <text x="54" y="428" fontSize="7" className="fill-muted-foreground">CD8+ cytotoxic T cells kill via perforin and granzymes (similar to NK cells), but the kill is TCR-guided and MHC I-RESTRICTED:</text>
+        <text x="54" y="440" fontSize="7" className="fill-muted-foreground">only cells displaying the specific foreign peptide on MHC I die. NK cells kill preferentially when MHC I is absent</text>
+        <text x="54" y="452" fontSize="7" className="fill-muted-foreground">(missing self) or via CD16-bound IgG (ADCC). A target cell cannot escape both: downregulating MHC I hides from CD8+</text>
+        <text x="54" y="464" fontSize="7" className="fill-muted-foreground">but exposes it to NK. Cytotoxic T cells have CD8, which binds to MHC I on virus-infected cells — the printed anchor sentence.</text>
+        <text x="54" y="486" fontSize="7" fontWeight="800" className="fill-brand">Exam bridge: acute and chronic cellular organ rejection = this same CD8+ machinery attacking donor graft cells.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="534" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's Cytotoxic T cells section (pdf 122 / book 100 — prose in the source; no textbook artwork exists). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E25 — Treg suppression model (source: "Regulatory T cells", pdf 122 / book 100)
+// ---------------------------------------------------------------------------
+
+export function TregSuppressionModel() {
+  const w = 980;
+  const h = 560;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The regulatory T-cell brake, an original KYP diagram. Center: a regulatory T cell identified by surface CD3, CD4, and CD25 with the FOXP3 transcription factor in its nucleus — FOXP3 is the master switch that makes the Treg. Left: what it suppresses — CD4+ helper and CD8+ cytotoxic T-cell effector functions — maintaining specific immune tolerance. Right: how it suppresses — activated Tregs produce the anti-inflammatory cytokines IL-10 and TGF-beta. Bottom strip: FOXP3 deficiency causes IPEX (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked) syndrome — enteropathy, endocrinopathy, nail dystrophy, dermatitis, and diabetes in male infants" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The Treg brake — tolerance's active suppressor (original KYP diagram)</text>
+        <rect x="742" y="24" width="190" height="18" rx="9" className="fill-brand-soft" />
+        <text x="837" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD3 · CD4 · CD25 · FOXP3</text>
+      </g>
+
+      {/* left: suppressed targets */}
+      <g>
+        <rect x="36" y="76" width="260" height="280" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="260" height="34" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="166" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">WHAT IT SUPPRESSES</text>
+        <rect x="52" y="126" width="228" height="86" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="166" y="148" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">CD4+ helper T-cell effectors</text>
+        <text x="166" y="164" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">cytokine-driven recruitment and</text>
+        <text x="166" y="174" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">B-cell help — muted when Tregs engage</text>
+        <rect x="52" y="228" width="228" height="86" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="166" y="250" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-emergency">CD8+ cytotoxic effectors</text>
+        <text x="166" y="266" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">perforin/granzyme killing —</text>
+        <text x="166" y="276" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">held in check to protect self tissue</text>
+        <text x="166" y="330" textAnchor="middle" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">= maintaining specific immune tolerance</text>
+      </g>
+
+      {/* suppression arrows */}
+      <g>
+        <path d="M 356 168 C 386 168, 396 176, 414 184" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2" strokeDasharray="6 3" />
+        <path d="M 412 178 L 424 186 L 410 191 Z" className="fill-brand" />
+        <path d="M 356 272 C 386 272, 396 264, 414 256" fill="none" stroke="currentColor" className="text-brand" strokeWidth="2" strokeDasharray="6 3" />
+        <path d="M 412 262 L 424 254 L 410 249 Z" className="fill-brand" />
+        <text x="388" y="154" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-brand">suppress</text>
+        <text x="388" y="292" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-brand">suppress</text>
+      </g>
+
+      {/* center: the Treg */}
+      <g>
+        <rect x="424" y="76" width="270" height="280" rx="12" className="fill-card stroke-brand" strokeWidth="1.6" />
+        <rect x="424" y="76" width="270" height="34" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="559" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">REGULATORY T CELL (Treg)</text>
+
+        {/* cell body */}
+        <rect x="446" y="126" width="226" height="160" rx="20" className="fill-brand-soft/25 stroke-border" strokeWidth="1.2" />
+        {/* nucleus with FOXP3 */}
+        <circle cx="559" cy="206" r="34" className="fill-card stroke-primary" strokeWidth="1.4" />
+        <text x="559" y="203" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">FOXP3</text>
+        <text x="559" y="213" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">master transcription</text>
+        <text x="559" y="221" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">factor — the Treg switch</text>
+
+        {/* surface markers */}
+        <circle cx="474" cy="146" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="474" y="149" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD3</text>
+        <circle cx="518" cy="138" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="518" y="141" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD4</text>
+        <circle cx="562" cy="146" r="11" className="fill-card stroke-brand" strokeWidth="1.2" />
+        <text x="562" y="149" textAnchor="middle" fontSize="6" fontWeight="800" className="fill-brand">CD25</text>
+        <text x="559" y="172" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">identified by expression of CD3, CD4, CD25, and FOXP3</text>
+
+        {/* identity strip */}
+        <rect x="440" y="300" width="238" height="42" rx="8" className="fill-secondary" />
+        <text x="559" y="318" textAnchor="middle" fontSize="6.8" fontWeight="800" className="fill-foreground">Treg identity panel</text>
+        <text x="559" y="330" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">surface: CD3 + CD4 + CD25 (IL-2 receptor α)</text>
+        <text x="559" y="340" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">nuclear: FOXP3 — deficiency = IPEX (below)</text>
+      </g>
+
+      {/* right: the how — anti-inflammatory cytokines */}
+      <g>
+        <rect x="722" y="76" width="222" height="280" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="722" y="76" width="222" height="34" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="833" y="98" textAnchor="middle" fontSize="10" fontWeight="800" className="fill-foreground">HOW IT SUPPRESSES</text>
+        <rect x="738" y="126" width="190" height="70" rx="10" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.1" />
+        <text x="833" y="150" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">IL-10</text>
+        <text x="833" y="166" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">anti-inflammatory cytokine —</text>
+        <text x="833" y="176" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">dampens APC activation and</text>
+        <text x="833" y="186" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">effector cytokine output</text>
+        <rect x="738" y="210" width="190" height="70" rx="10" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.1" />
+        <text x="833" y="234" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">TGF-β</text>
+        <text x="833" y="250" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">anti-inflammatory cytokine —</text>
+        <text x="833" y="260" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">suppresses proliferation and</text>
+        <text x="833" y="270" textAnchor="middle" fontSize="6.2" className="fill-muted-foreground">tips the Th17/Treg toggle toward Treg</text>
+        <text x="833" y="302" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">activated Tregs produce these —</text>
+        <text x="833" y="312" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">the brake is active suppression,</text>
+        <text x="833" y="322" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">not mere absence of activation</text>
+        {/* secretion arrows */}
+        <path d="M 700 160 C 710 160, 716 162, 722 160" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+        <path d="M 700 245 C 710 245, 716 243, 722 245" fill="none" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+      </g>
+
+      {/* bottom strip: IPEX */}
+      <g>
+        <rect x="36" y="376" width="908" height="130" rx="12" className="fill-emergency/5 stroke-emergency" strokeWidth="1.2" />
+        <text x="54" y="400" fontSize="8.4" fontWeight="800" className="fill-foreground">FOXP3 deficiency → IPEX — the brake removed at the transcriptional level</text>
+        <text x="54" y="418" fontSize="7" className="fill-muted-foreground">IPEX (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked) syndrome — genetic deficiency of FOXP3 → autoimmunity.</text>
+        {[
+          ["Enteropathy", "chronic diarrhea, failure to thrive"],
+          ["Endocrinopathy", "diabetes in male infants (X-linked)"],
+          ["Dermatologic", "dermatitis, nail dystrophy, other autoimmune skin conditions"],
+        ].map(([t, s], i) => (
+          <g key={t}>
+            <rect x={54 + i * 292} y="432" width="276" height="58" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={66 + i * 292} y="452" fontSize="7.2" fontWeight="800" className="fill-emergency">{t}</text>
+            <text x={66 + i * 292} y={466} fontSize="6.4">{s.match(/.{1,40}(\s|$)/g)![0].trim()}</text>
+            <text x={66 + i * 292} y={476} fontSize="6.4" className="fill-muted-foreground">{(s.match(/.{1,40}(\s|$)/g)!)[1] ? (s.match(/.{1,40}(\s|$)/g)!)[1].trim() : ""}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="534" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's Regulatory T cells section (pdf 122 / book 100 — prose in the source; no textbook artwork exists). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E26 — Lymphocyte activation: the two-signal model + anergy
+// (source: "T- and B-cell activation" diagrams + Peripheral tolerance + Anergy,
+//  pdf 123 / book 101 — diagrams are pure vector, no rasters)
+// ---------------------------------------------------------------------------
+
+export function ActivationSignalModel() {
+  const w = 980;
+  const h = 644;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Lymphocyte activation and anergy, an original KYP diagram of the source's two activation diagrams. A rule strip states that APCs are B cells, dendritic cells, Langerhans cells, and macrophages, and that two signals are required for T-cell activation, B-cell activation, and class switching. Left panel, T-cell activation: an antigen-presenting cell displays antigen on MHC II (or MHC I for cross-presented endogenous antigen) which the T-cell receptor with CD4 or CD8 recognizes — signal 1; B7 protein (CD80/86) on the APC binds CD28 on the naive T cell — signal 2, the costimulatory signal; the activated Th cell produces cytokines and the Tc cell can recognize and kill virus-infected cells. Right panel, B-cell activation and class switching: the activated CD4+ T cell's TCR recognizes antigen that the B cell has endocytosed via its B-cell receptor and displayed on MHC II — signal 1; CD40L on the T cell binds CD40 on the B cell — signal 2; Th-cell cytokines determine Ig class switching; the activated B cell produces IgM and undergoes class switching and affinity maturation. Bottom strip: without signal 2, T and B cells become ANERGic — unable to activate on exposure to their antigen; peripheral tolerance suppresses or inactivates self-reactive T and B cells outside the thymus and bone marrow via anergy, regulatory T-cell suppression, and Fas-FasL apoptosis; its loss causes autoimmunity" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Lymphocyte activation — the two-signal model (original KYP redraw)</text>
+        <rect x="760" y="24" width="172" height="18" rx="9" className="fill-brand-soft" />
+        <text x="846" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">signal 1 + signal 2, or anergy</text>
+      </g>
+
+      {/* rule strip */}
+      <g>
+        <rect x="36" y="72" width="908" height="30" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="490" y="91" textAnchor="middle" fontSize="7.4" fontWeight="700" className="fill-foreground">APCs: B cells, dendritic cells, Langerhans cells, macrophages · Two signals are required for T-cell activation, B-cell activation, and class switching</text>
+      </g>
+
+      {/* ===== T-cell activation panel ===== */}
+      <g>
+        <rect x="36" y="114" width="460" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="114" width="460" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="266" y="134" textAnchor="middle" fontSize="9.4" fontWeight="800" className="fill-foreground">T-CELL ACTIVATION</text>
+
+        {/* APC */}
+        <g>
+          <rect x="52" y="162" width="150" height="140" rx="14" className="fill-secondary/50 stroke-border" strokeWidth="1.2" />
+          <text x="127" y="184" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">ANTIGEN-</text>
+          <text x="127" y="194" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">PRESENTING CELL</text>
+          <text x="127" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">ingests and processes</text>
+          <text x="127" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">antigen, migrates to the</text>
+          <text x="127" y="230" textAnchor="middle" fontSize="6" className="fill-muted-foreground">draining lymph node</text>
+          <text x="127" y="250" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(dendritic cell, macrophage,</text>
+          <text x="127" y="260" textAnchor="middle" fontSize="6" className="fill-muted-foreground">B cell, Langerhans cell)</text>
+          {/* markers on right edge */}
+          <rect x="196" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="196" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* signal arrows */}
+        <g>
+          <path d="M 214 202 L 334 202" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+          <path d="M 332 197 L 344 202 L 332 207 Z" className="fill-warning" />
+          <text x="274" y="192" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-warning">SIGNAL 1 — antigen</text>
+          <path d="M 214 258 L 334 258" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+          <path d="M 332 253 L 344 258 L 332 263 Z" className="fill-emergency" />
+          <text x="274" y="248" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">SIGNAL 2 — costimulation</text>
+          <text x="274" y="270" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">B7 (CD80/86) ↔ CD28</text>
+        </g>
+
+        {/* naive T cell */}
+        <g>
+          <rect x="346" y="162" width="134" height="140" rx="14" className="fill-brand-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="413" y="184" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">NAÏVE T CELL</text>
+          <text x="413" y="200" textAnchor="middle" fontSize="6" className="fill-muted-foreground">CD4+ Th (reads MHC II)</text>
+          <text x="413" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">or CD8+ Tc (reads MHC I,</text>
+          <text x="413" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">cross-presented)</text>
+          <text x="413" y="238" textAnchor="middle" fontSize="6" className="fill-muted-foreground">no signal 2 here</text>
+          <text x="413" y="248" textAnchor="middle" fontSize="6" className="fill-muted-foreground">= anergy (below)</text>
+          {/* markers on left edge */}
+          <rect x="332" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="332" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* outcome */}
+        <rect x="52" y="318" width="428" height="112" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="66" y="338" fontSize="7.6" fontWeight="800" className="fill-foreground">ACTIVATED T-CELL ACTIONS</text>
+        <text x="66" y="354" fontSize="6.6" className="fill-muted-foreground">· Activated Th cell produces cytokines</text>
+        <text x="66" y="366" fontSize="6.6" className="fill-muted-foreground">· Tc cell becomes able to recognize and kill virus-infected cells</text>
+        <text x="66" y="384" fontSize="6.6" className="fill-muted-foreground">Signal 1 spec: exogenous antigen on MHC II → TCR on Th (CD4+);</text>
+        <text x="66" y="395" fontSize="6.6" className="fill-muted-foreground">endogenous or cross-presented antigen on MHC I → Tc (CD8+)</text>
+        <text x="66" y="407" fontSize="6.6" className="fill-muted-foreground">Signal 2 spec: B7 protein (CD80/86) on dendritic cell ↔ CD28 on naïve T cell</text>
+      </g>
+
+      {/* ===== B-cell activation panel ===== */}
+      <g>
+        <rect x="516" y="114" width="428" height="330" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="516" y="114" width="428" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="730" y="134" textAnchor="middle" fontSize="9.4" fontWeight="800" className="fill-foreground">B-CELL ACTIVATION &amp; CLASS SWITCHING</text>
+
+        {/* activated CD4+ T cell */}
+        <g>
+          <rect x="532" y="162" width="156" height="140" rx="14" className="fill-brand-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="610" y="184" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">ACTIVATED</text>
+          <text x="610" y="194" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">CD4+ T CELL</text>
+          <text x="610" y="210" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(activated as in the</text>
+          <text x="610" y="220" textAnchor="middle" fontSize="6" className="fill-muted-foreground">left panel — Th-cell</text>
+          <text x="610" y="230" textAnchor="middle" fontSize="6" className="fill-muted-foreground">activation comes first)</text>
+          <rect x="680" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="680" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* signal arrows */}
+        <g>
+          <path d="M 698 202 L 806 202" stroke="currentColor" className="text-warning" strokeWidth="1.8" />
+          <path d="M 804 197 L 816 202 L 804 207 Z" className="fill-warning" />
+          <text x="752" y="192" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-warning">SIGNAL 1</text>
+          <path d="M 698 258 L 806 258" stroke="currentColor" className="text-emergency" strokeWidth="1.8" />
+          <path d="M 804 253 L 816 258 L 804 263 Z" className="fill-emergency" />
+          <text x="752" y="248" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">SIGNAL 2</text>
+          <text x="752" y="270" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">CD40L ↔ CD40</text>
+        </g>
+
+        {/* B cell */}
+        <g>
+          <rect x="818" y="162" width="112" height="140" rx="14" className="fill-warning-soft/30 stroke-border" strokeWidth="1.2" />
+          <text x="874" y="184" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">B CELL</text>
+          <text x="874" y="200" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">BCR-mediated</text>
+          <text x="874" y="210" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">endocytosis feeds</text>
+          <text x="874" y="220" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">signal 1: antigen</text>
+          <text x="874" y="230" textAnchor="middle" fontSize="5.8" className="fill-muted-foreground">out on MHC II</text>
+          <rect x="804" y="196" width="14" height="12" rx="3" className="fill-warning-soft stroke-warning" strokeWidth="1.1" />
+          <rect x="804" y="252" width="14" height="12" rx="3" className="fill-emergency/20 stroke-emergency" strokeWidth="1.1" />
+        </g>
+
+        {/* cytokine arrow (flat curve; label clear below it) */}
+        <g>
+          <path d="M 610 306 C 660 314, 780 314, 852 306" fill="none" stroke="currentColor" className="text-primary" strokeWidth="1.6" strokeDasharray="5 3" />
+          <path d="M 848 310 L 861 304 L 847 300 Z" className="fill-primary" />
+          <text x="730" y="330" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-primary">Th cytokines determine Ig class switching</text>
+        </g>
+
+        {/* outcome */}
+        <rect x="532" y="340" width="396" height="90" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="546" y="360" fontSize="7.6" fontWeight="800" className="fill-foreground">ACTIVATED B-CELL ACTIONS</text>
+        <text x="546" y="376" fontSize="6.6" className="fill-muted-foreground">· B cells are activated and produce IgM</text>
+        <text x="546" y="388" fontSize="6.6" className="fill-muted-foreground">· They undergo class switching and affinity maturation</text>
+        <text x="546" y="406" fontSize="6.6" className="fill-muted-foreground">Signal 1: antigen (endocytosed by BCR) on MHC II → TCR on Th cell</text>
+        <text x="546" y="417" fontSize="6.6" className="fill-muted-foreground">Signal 2: CD40 on B cell binds CD40L on Th cell</text>
+      </g>
+
+      {/* ===== anergy + peripheral tolerance strip ===== */}
+      <g>
+        <rect x="36" y="458" width="908" height="154" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="482" fontSize="8.4" fontWeight="800" className="fill-foreground">No signal 2 → ANERGY · Peripheral tolerance — the outside-the-school brake</text>
+
+        {/* anergy card */}
+        <g>
+          <rect x="54" y="496" width="430" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="68" y="516" fontSize="7.6" fontWeight="800" className="fill-emergency">ANERGY</text>
+          <text x="68" y="532" fontSize="6.6" className="fill-muted-foreground">State during which a cell cannot become activated by exposure</text>
+          <text x="68" y="543" fontSize="6.6" className="fill-muted-foreground">to its antigen. T and B cells become anergic when exposed to</text>
+          <text x="68" y="554" fontSize="6.6" className="fill-muted-foreground">their antigen without costimulatory signal (signal 2) — another</text>
+          <text x="68" y="565" fontSize="6.6" className="fill-muted-foreground">example of a peripheral tolerance mechanism.</text>
+          <text x="68" y="584" fontSize="6.6" fontWeight="700" className="fill-emergency">signal 1 alone = OFF switch (not a weak on-switch)</text>
+        </g>
+
+        {/* peripheral tolerance card */}
+        <g>
+          <rect x="500" y="496" width="426" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="514" y="516" fontSize="7.6" fontWeight="800" className="fill-brand">PERIPHERAL TOLERANCE</text>
+          <text x="514" y="532" fontSize="6.6" className="fill-muted-foreground">Suppression/inactivation of self-reactive T/B cells (outside</text>
+          <text x="514" y="543" fontSize="6.6" className="fill-muted-foreground">thymus/bone marrow) → preserves self-tolerance; loss →</text>
+          <text x="514" y="554" fontSize="6.6" className="fill-muted-foreground">autoimmunity. Three mechanisms:</text>
+          <text x="514" y="572" fontSize="6.6" fontWeight="700" className="fill-foreground">1 anergy · 2 regulatory T-cell suppression · 3 apoptosis (Fas-FasL)</text>
+        </g>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="634" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's T- and B-cell activation diagrams (pdf 123 / book 101 — pure vector in the source; no rasters). Verbatim activation, tolerance, and anergy text in the note's table and callout blocks.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E27 — Antibody anatomy: the IgG Y, region jobs, and the function trio
+// (source: "Antibody structure and function", pdf 124 / book 102)
+// ---------------------------------------------------------------------------
+
+export function AntibodyAnatomy() {
+  const w = 980;
+  const h = 630;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Antibody structure and function, an original KYP diagram. Left: an expanded Y-shaped IgG schematic — two Fab arms, each built from a light chain half (VL and CL domains) and a heavy chain half (VH and CH1 domains), with hypervariable regions at the tips forming the two antigen-binding sites that recognize epitopes; a hinge region with disulfide bonds providing flexibility between the Fab arms for simultaneous binding to multiple epitopes; and an Fc stem of heavy-chain-only CH2 and CH3 domains, with complement binding at CH2 and macrophage binding below. A legend defines C = Constant, V = Variable, L = Light, H = Heavy, SS = Disulfide bond. Right rail: region jobs — Fab (Fragment, antigen binding; determines the idiotype antigen binding site), Hinge (flexibility between Fab arms), and Fc with the five C's (Constant, Carboxy terminal, Complement binding, Carbohydrate side chains, Confers isotype such as IgM or IgD); plus chain contributions — the heavy chain contributes to Fc and Fab regions, the light chain contributes only to Fab, the Fc region of IgM and IgG fixes complement, and the Fab fragment of light and heavy chains recognizes antigens. Bottom strip: the three antibody functions — neutralization (prevents bacterial adherence), opsonization (marks pathogens for phagocytic destruction via C3b), and complement activation (enhancing opsonization and lysis via the membrane attack complex)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Antibody anatomy — the IgG Y (original KYP diagram)</text>
+        <rect x="726" y="24" width="202" height="18" rx="9" className="fill-brand-soft" />
+        <text x="827" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">Fab binds · Fc effects · hinge flexes</text>
+      </g>
+
+      {/* ===== the Y (left zone) ===== */}
+      {/* legend */}
+      <g>
+        <rect x="36" y="76" width="86" height="128" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="44" y="92" fontSize="6.6" fontWeight="800" className="fill-foreground">KEY</text>
+        {[
+          "C = Constant",
+          "V = Variable",
+          "L = Light",
+          "H = Heavy",
+          "SS = Disulfide",
+          "      bond",
+        ].map((t, i) => (
+          <text key={i} x="44" y={106 + i * 13} fontSize="6.2" className="fill-muted-foreground">{t}</text>
+        ))}
+      </g>
+
+      {/* hypervariable bracket */}
+      <text x="280" y="102" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">hypervariable regions → antigen-binding sites (idiotype)</text>
+      <path d="M 130 110 L 130 120 M 430 110 L 430 120 M 130 115 L 430 115" stroke="currentColor" className="text-emergency" strokeWidth="1" fill="none" />
+
+      {/* left arm */}
+      <g>
+        {/* light chain half (outer) */}
+        <rect x="130" y="130" width="60" height="55" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="160" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VL</text>
+        <rect x="130" y="192" width="60" height="58" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="160" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CL</text>
+        {/* heavy chain half (inner) */}
+        <rect x="192" y="130" width="60" height="55" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="222" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VH</text>
+        <rect x="192" y="192" width="60" height="58" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="222" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH1</text>
+        {/* epitope + binding site */}
+        <ellipse cx="160" cy="118" rx="14" ry="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="160" y="121" textAnchor="middle" fontSize="5" fontWeight="700" className="fill-muted-foreground">epitope</text>
+      </g>
+
+      {/* right arm */}
+      <g>
+        {/* heavy chain half (inner) */}
+        <rect x="308" y="130" width="60" height="55" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="338" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VH</text>
+        <rect x="308" y="192" width="60" height="58" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="338" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH1</text>
+        {/* light chain half (outer) */}
+        <rect x="370" y="130" width="60" height="55" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="400" y="162" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">VL</text>
+        <rect x="370" y="192" width="60" height="58" rx="6" className="fill-primary/15 stroke-primary" strokeWidth="1.2" />
+        <text x="400" y="225" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CL</text>
+        <ellipse cx="400" cy="118" rx="14" ry="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="400" y="121" textAnchor="middle" fontSize="5" fontWeight="700" className="fill-muted-foreground">epitope</text>
+      </g>
+
+      {/* Fab brackets */}
+      <g>
+        <path d="M 118 130 L 110 130 L 110 250 L 118 250" stroke="currentColor" className="text-brand" strokeWidth="1.4" fill="none" />
+        <text x="104" y="195" textAnchor="end" fontSize="8" fontWeight="800" className="fill-brand">Fab</text>
+        <path d="M 442 130 L 450 130 L 450 250 L 442 250" stroke="currentColor" className="text-brand" strokeWidth="1.4" fill="none" />
+        <text x="456" y="195" fontSize="8" fontWeight="800" className="fill-brand">Fab</text>
+      </g>
+
+      {/* hinge: SS bonds + convergence to stem */}
+      <g>
+        <path d="M 192 252 L 250 278 L 250 282 L 310 282 L 310 278 L 368 252 Z" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.2" />
+        <line x1="256" y1="262" x2="304" y2="262" stroke="currentColor" className="text-foreground" strokeWidth="1.4" />
+        <text x="280" y="259" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">SS</text>
+        <line x1="256" y1="274" x2="304" y2="274" stroke="currentColor" className="text-foreground" strokeWidth="1.4" />
+        <text x="280" y="271" textAnchor="middle" fontSize="4.6" fontWeight="800" className="fill-foreground">SS</text>
+        <text x="280" y="296" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-warning">Hinge — flexibility between Fab arms</text>
+        <text x="280" y="305" textAnchor="middle" fontSize="6" className="fill-muted-foreground">(simultaneous binding to multiple epitopes)</text>
+      </g>
+
+      {/* Fc stem */}
+      <g>
+        <rect x="250" y="312" width="80" height="70" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="290" y="351" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH2</text>
+        <rect x="250" y="386" width="80" height="70" rx="6" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="290" y="425" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">CH3</text>
+        <path d="M 338 312 L 346 312 L 346 456 L 338 456" stroke="currentColor" className="fill-brand text-brand" strokeWidth="1.4" fill="none" />
+        <text x="352" y="388" fontSize="8" fontWeight="800" className="fill-brand">Fc</text>
+        {/* function pointers */}
+        <line x1="334" y1="347" x2="420" y2="347" stroke="currentColor" className="text-border" strokeWidth="1.1" />
+        <text x="425" y="350" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Complement</text>
+        <text x="425" y="359" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">binding (CH2)</text>
+        <line x1="334" y1="421" x2="420" y2="421" stroke="currentColor" className="text-border" strokeWidth="1.1" />
+        <text x="425" y="424" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Macrophage</text>
+        <text x="425" y="433" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">binding</text>
+      </g>
+
+      {/* chain color key under the Y */}
+      <g>
+        <rect x="130" y="466" width="338" height="24" rx="7" className="fill-secondary" />
+        <rect x="140" y="473" width="10" height="10" rx="2" className="fill-primary/15 stroke-primary" strokeWidth="1" />
+        <text x="156" y="482" fontSize="6.2" className="fill-muted-foreground">Light chain (L) → Fab ONLY</text>
+        <rect x="300" y="473" width="10" height="10" rx="2" className="fill-warning-soft stroke-warning" strokeWidth="1" />
+        <text x="316" y="482" fontSize="6.2" className="fill-muted-foreground">Heavy chain (H) → Fc + Fab</text>
+      </g>
+
+      {/* ===== right rail ===== */}
+      <g>
+        <rect x="524" y="76" width="420" height="182" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="540" y="98" fontSize="8.4" fontWeight="800" className="fill-foreground">REGION JOBS</text>
+        <text x="540" y="116" fontSize="7" fontWeight="800" className="fill-brand">Fab</text>
+        <text x="576" y="116" fontSize="6.6" className="fill-muted-foreground">Fragment, antigen binding — determines idiotype (the antigen binding site)</text>
+        <text x="540" y="134" fontSize="7" fontWeight="800" className="fill-warning">Hinge</text>
+        <text x="580" y="134" fontSize="6.6" className="fill-muted-foreground">Flexibility between Fab arms → simultaneous binding to</text>
+        <text x="580" y="144" fontSize="6.6" className="fill-muted-foreground">multiple epitopes</text>
+        <text x="540" y="164" fontSize="7" fontWeight="800" className="fill-foreground">Fc</text>
+        <text x="568" y="164" fontSize="6.6" fontWeight="700" className="fill-foreground">the 5 C&apos;s:</text>
+        {["Constant", "Carboxy terminal", "Complement binding", "Carbohydrate side chains", "Confers (determines) isotype (IgM, IgD, etc)"].map((t, i) => (
+          <text key={t} x="576" y={178 + i * 12} fontSize="6.4" className="fill-muted-foreground">· {t}</text>
+        ))}
+      </g>
+      <g>
+        <rect x="524" y="274" width="420" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="540" y="296" fontSize="8.4" fontWeight="800" className="fill-foreground">CHAIN CONTRIBUTIONS — the printed anchors</text>
+        <text x="540" y="316" fontSize="6.8" className="fill-muted-foreground">· Heavy chain contributes to Fc AND Fab regions</text>
+        <text x="540" y="330" fontSize="6.8" className="fill-muted-foreground">· Light chain contributes ONLY to the Fab region</text>
+        <text x="540" y="344" fontSize="6.8" className="fill-muted-foreground">· Fab fragment consisting of light (L) and heavy (H) chains</text>
+        <text x="552" y="354" fontSize="6.8" className="fill-muted-foreground">recognizes antigens</text>
+        <text x="540" y="368" fontSize="6.8" className="fill-muted-foreground">· Fc region of IgM and IgG fixes complement</text>
+        <rect x="540" y="382" width="388" height="92" rx="9" className="fill-secondary" />
+        <text x="554" y="402" fontSize="7" fontWeight="800" className="fill-foreground">Generation of antibody DIVERSITY (antigen independent)</text>
+        <text x="554" y="416" fontSize="6.4" className="fill-muted-foreground">1 · RAG1/RAG2 random recombination of VJ (light) / V(D)J (heavy)</text>
+        <text x="554" y="428" fontSize="6.4" className="fill-muted-foreground">2 · TdT random nucleotide addition</text>
+        <text x="554" y="440" fontSize="6.4" className="fill-muted-foreground">3 · Random combination of heavy with light chains</text>
+        <text x="554" y="458" fontSize="7" fontWeight="800" className="fill-foreground">Generation of SPECIFICITY (antigen dependent): 4 somatic</text>
+        <text x="554" y="468" fontSize="6.4" className="fill-muted-foreground">hypermutation + affinity maturation (variable region) · 5 isotype</text>
+        <text x="554" y="478" fontSize="6.4" className="fill-muted-foreground">switching (constant region)</text>
+      </g>
+
+      {/* ===== bottom strip: function trio ===== */}
+      <g>
+        <rect x="36" y="502" width="908" height="86" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="522" fontSize="8" fontWeight="800" className="fill-foreground">THE FUNCTION TRIO — what antibodies DO</text>
+        {[
+          [54, "NEUTRALIZATION", "Antibody prevents bacterial adherence", "blocks docking sites on host cells"],
+          [358, "OPSONIZATION", "Antibody promotes phagocytosis by marking pathogens for destruction", "C3b coats the pathogen for phagocytes"],
+          [662, "COMPLEMENT ACTIVATION", "Antibody activates complement, enhancing opsonization and lysis", "MAC pores lyse the target"],
+        ].map(([x, t, s, k]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="532" width="280" height="48" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 14} y="548" fontSize="7" fontWeight="800" className="fill-brand">{t}</text>
+            {(s as string).match(/.{1,44}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+              <text key={j} x={(x as number) + 14} y={560 + j * 10} fontSize="6.2" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x={(x as number) + 14} y="578" fontSize="5.8" fontWeight="700" className="fill-muted-foreground/80">{k}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="614" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram of the source's antibody structure figure and function panels (pdf 124 / book 102 — the printed artwork is conveyed schematically, never reproduced). Verbatim region jobs and diversity steps are the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E28 — Immunoglobulin isotypes: the five-isotype comparison grid
+// (source: "Immunoglobulin isotypes" + antigen type/memory, pdf 125 / book 103)
+// ---------------------------------------------------------------------------
+
+export function IsotypeComparisonTable() {
+  const w = 980;
+  const h = 660;
+  const cols = [
+    { x: 92, name: "IgG", color: "fill-brand-soft", stroke: "stroke-brand" },
+    { x: 264, name: "IgA", color: "fill-warning-soft", stroke: "stroke-warning" },
+    { x: 436, name: "IgM", color: "fill-emergency/10", stroke: "stroke-emergency" },
+    { x: 608, name: "IgD", color: "fill-secondary", stroke: "stroke-border" },
+    { x: 780, name: "IgE", color: "fill-primary/15", stroke: "stroke-primary" },
+  ];
+  const cw = 172;
+  // mini Y-shaped monomer at (cx, cy), scale s
+  const Monomer = ({ cx, cy }: { cx: number; cy: number }) => (
+    <g stroke="currentColor" className="text-foreground" strokeWidth="2" fill="none">
+      <path d={`M ${cx} ${cy - 2} L ${cx} ${cy + 10}`} />
+      <path d={`M ${cx} ${cy - 2} L ${cx - 7} ${cy - 12}`} />
+      <path d={`M ${cx} ${cy - 2} L ${cx + 7} ${cy - 12}`} />
+    </g>
+  );
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Immunoglobulin isotypes, an original KYP comparison grid. Five columns for IgG, IgA, IgM, IgD, and IgE. Structure row: IgG, IgD, and IgE are monomers (single Y units); IgA is a dimer joined by a J chain when secreted; IgM is a pentamer with a J chain when secreted (monomer on the B-cell surface). IgG: main antibody in the secondary response, most abundant in serum, fixes complement, opsonizes bacteria, neutralizes toxins and viruses, the only isotype that crosses the placenta; associated with warm autoimmune hemolytic anemia. IgA: prevents attachment of bacteria and viruses to mucous membranes, does not fix complement, crosses epithelium by transcytosis, produced in the GI tract by Peyer patches, protects against gut infections like Giardia, most produced overall with low serum levels, secreted into tears, saliva, mucus and breast milk, picking up secretory component that protects its Fc from proteases. IgM: first antibody produced in an immune response, fixes complement, antigen receptor on the B-cell surface, pentamer enables avid binding while the response evolves; associated with cold autoimmune hemolytic anemia. IgD: expressed on mature naive B cells with IgM, low serum levels. IgE: binds mast cells and basophils, cross-links on allergen exposure mediating type I hypersensitivity via histamine, and contributes to parasite immunity by activating eosinophils. Bottom: affinity is the strength of a single antibody-antigen interaction while avidity is the overall binding strength of multiple interactions in a multivalent molecule; thymus-independent antigens lack peptide, cannot be presented by MHC, are weakly immunogenic and need boosters and adjuvants (eg, PPSV23), while thymus-dependent antigens contain protein and produce class switching and immunologic memory through direct B-Th cell contact" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Immunoglobulin isotypes — the five-column roster (original KYP diagram)</text>
+        <rect x="722" y="24" width="206" height="18" rx="9" className="fill-brand-soft" />
+        <text x="825" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">naïve B cell: IgM + IgD on board</text>
+      </g>
+
+      {/* column headers */}
+      {cols.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="76" width={cw - 4} height="30" rx="8" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + (cw - 4) / 2} y="96" textAnchor="middle" fontSize="10.5" fontWeight="800" className="fill-foreground">{c.name}</text>
+        </g>
+      ))}
+
+      {/* row label column + rows */}
+      <text x="40" y="126" fontSize="7" fontWeight="800" className="fill-muted-foreground">STRUCTURE</text>
+      <text x="40" y="136" fontSize="6" className="fill-muted-foreground">(secreted</text>
+      <text x="40" y="146" fontSize="6" className="fill-muted-foreground">form)</text>
+
+      <text x="40" y="238" fontSize="7" fontWeight="800" className="fill-muted-foreground">TIMING &amp;</text>
+      <text x="40" y="248" fontSize="7" fontWeight="800" className="fill-muted-foreground">ABUNDANCE</text>
+
+      <text x="40" y="316" fontSize="7" fontWeight="800" className="fill-muted-foreground">COMPLEMENT</text>
+      <text x="40" y="326" fontSize="7" fontWeight="800" className="fill-muted-foreground">&amp; EFFECTS</text>
+
+      <text x="40" y="396" fontSize="7" fontWeight="800" className="fill-muted-foreground">SIGNATURE</text>
+      <text x="40" y="406" fontSize="7" fontWeight="800" className="fill-muted-foreground">ROLE</text>
+
+      <text x="40" y="476" fontSize="7" fontWeight="800" className="fill-muted-foreground">DISEASE</text>
+      <text x="40" y="486" fontSize="7" fontWeight="800" className="fill-muted-foreground">ASSOCIATION</text>
+
+      {/* structure row: drawn mini-schematics */}
+      {cols.map((c) => (
+        <g key={`${c.name}-struct`}>
+          <rect x={c.x} y="114" width={cw - 4} height="104" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+          {c.name === "IgG" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">(all isotypes</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">can exist as</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">monomers)</text>
+            </g>
+          )}
+          {c.name === "IgA" && (
+            <g>
+              <Monomer cx={c.x + 30} cy={166} />
+              <Monomer cx={c.x + 58} cy={166} />
+              <line x1={c.x + 30} y1={178} x2={c.x + 58} y2={178} stroke="currentColor" className="text-emergency" strokeWidth="2" />
+              <text x={c.x + 64} y={181} fontSize="5.4" fontWeight="800" className="fill-emergency">J</text>
+              <text x={c.x + 96} y={158} fontSize="6.2" className="fill-muted-foreground">monomer (in</text>
+              <text x={c.x + 96} y={168} fontSize="6.2" className="fill-muted-foreground">circulation) or</text>
+              <text x={c.x + 96} y={178} fontSize="6.2" className="fill-muted-foreground">dimer with J</text>
+              <text x={c.x + 96} y={188} fontSize="6.2" className="fill-muted-foreground">chain (secreted)</text>
+            </g>
+          )}
+          {c.name === "IgM" && (
+            <g>
+              {[0, 1, 2, 3, 4].map((i) => {
+                const ang = (i / 5) * Math.PI * 2 - Math.PI / 2;
+                const cx = c.x + 42 + Math.cos(ang) * 16;
+                const cy = 162 + Math.sin(ang) * 14;
+                return <Monomer key={i} cx={cx} cy={cy} />;
+              })}
+              <circle cx={c.x + 42} cy={162} r="5" className="fill-emergency/20 stroke-emergency" strokeWidth="1" />
+              <text x={c.x + 42} y={165} textAnchor="middle" fontSize="5.2" fontWeight="800" className="fill-emergency">J</text>
+              <text x={c.x + 72} y={152} fontSize="6.2" className="fill-muted-foreground">monomer on</text>
+              <text x={c.x + 72} y={162} fontSize="6.2" className="fill-muted-foreground">B cell; pentamer</text>
+              <text x={c.x + 72} y={172} fontSize="6.2" className="fill-muted-foreground">+ J chain when</text>
+              <text x={c.x + 72} y={182} fontSize="6.2" className="fill-muted-foreground">secreted — avid</text>
+              <text x={c.x + 72} y={192} fontSize="6.2" className="fill-muted-foreground">binding</text>
+            </g>
+          )}
+          {c.name === "IgD" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer;</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">low serum</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">levels are</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">normal</text>
+            </g>
+          )}
+          {c.name === "IgE" && (
+            <g>
+              <Monomer cx={c.x + 40} cy={168} />
+              <text x={c.x + 92} y={158} fontSize="6.2" className="fill-muted-foreground">monomer;</text>
+              <text x={c.x + 92} y={168} fontSize="6.2" className="fill-muted-foreground">FcεRI binds it</text>
+              <text x={c.x + 92} y={178} fontSize="6.2" className="fill-muted-foreground">to mast cells</text>
+              <text x={c.x + 92} y={188} fontSize="6.2" className="fill-muted-foreground">&amp; basophils</text>
+            </g>
+          )}
+        </g>
+      ))}
+
+      {/* timing & abundance row */}
+      {[
+        { name: "IgG", lines: ["Main antibody in 2°", "response; most abundant", "isotype in serum"] },
+        { name: "IgA", lines: ["Most produced antibody", "overall, but lower serum", "concentrations"] },
+        { name: "IgM", lines: ["First antibody produced", "during an immune", "response (1° response)"] },
+        { name: "IgD", lines: ["Naïve B-cell receptor", "(with IgM) prior to", "activation"] },
+        { name: "IgE", lines: ["Produced on allergen /", "parasite encounter;", "least abundant"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-timing`}>
+            <rect x={c.x} y="226" width={cw - 4} height="72" rx="10" className="fill-secondary" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={250 + j * 12} fontSize="6.4" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* complement & effects row */}
+      {[
+        { name: "IgG", lines: ["Fixes complement ·", "opsonizes bacteria ·", "neutralizes bacterial", "toxins and viruses"] },
+        { name: "IgA", lines: ["Does NOT fix", "complement · prevents", "attachment of bacteria", "and viruses to mucosa"] },
+        { name: "IgM", lines: ["Fixes complement", "(the strongest fixer —", "pentamer presents five", "Fc regions)"] },
+        { name: "IgD", lines: ["Antigen receptor on", "the surface of B cells;", "signals with IgM"] },
+        { name: "IgE", lines: ["Cross-links on allergen", "→ type I hypersensitivity", "via histamine; activates", "eosinophils vs parasites"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-fx`}>
+            <rect x={c.x} y="306" width={cw - 4} height="80" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={326 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* signature role row */}
+      {[
+        { name: "IgG", lines: ["ONLY isotype that", "crosses the placenta —", "infant passive immunity", "that wanes after birth"] },
+        { name: "IgA", lines: ["Crosses epithelium by", "transcytosis; secretions,", "breast milk; secretory", "component protects Fc"] },
+        { name: "IgM", lines: ["Pentamer avidity holds", "the fort while the", "humoral response", "evolves; cold AIHA"] },
+        { name: "IgD", lines: ["Expressed on mature,", "naïve B cells;", "normally low serum", "levels detectable"] },
+        { name: "IgE", lines: ["Binds mast cells and", "basophils; immunity", "to parasites via", "eosinophil activation"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-role`}>
+            <rect x={c.x} y="394" width={cw - 4} height="80" rx="10" className="fill-secondary" />
+            {r.lines.map((line, j) => (
+              <text key={j} x={c.x + 12} y={414 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* disease association row */}
+      {[
+        { name: "IgG", lines: ["Warm autoimmune", "hemolytic anemia", "(warm weather)", "", "GI: Giardia protection", "is IgA's, not IgG's"] },
+        { name: "IgA", lines: ["Giardia gut infections", "when deficient;", "secretions: tears,", "saliva, mucus, milk", "(Peyer patches produce)"] },
+        { name: "IgM", lines: ["Cold autoimmune", "hemolytic anemia;", "anti-IgM detects", "recent/acute infection", "(IgG = past exposure)"] },
+        { name: "IgD", lines: ["Marker of mature", "naïve B cells —", "no classic deficiency", "syndrome of its own"] },
+        { name: "IgE", lines: ["Immediate (type I)", "hypersensitivity,", "anaphylaxis,", "allergic disease,", "helminth immunity"] },
+      ].map((r) => {
+        const c = cols.find((k) => k.name === r.name)!;
+        return (
+          <g key={`${r.name}-dx`}>
+            <rect x={c.x} y="482" width={cw - 4} height="78" rx="10" className="fill-card stroke-border" strokeWidth="1.1" />
+            {r.lines.filter(Boolean).map((line, j) => (
+              <text key={j} x={c.x + 12} y={500 + j * 12} fontSize="6.3" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* bottom strip: affinity vs avidity + TI/TD */}
+      <g>
+        <rect x="36" y="572" width="444" height="62" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="50" y="590" fontSize="7.4" fontWeight="800" className="fill-foreground">Affinity vs avidity</text>
+        <text x="50" y="604" fontSize="6.3" className="fill-muted-foreground">Affinity: strength of a single antibody–antigen interaction. Avidity: overall binding</text>
+        <text x="50" y="614" fontSize="6.3" className="fill-muted-foreground">strength from multiple interactions in a multivalent molecule — enhanced by the hinge</text>
+        <text x="50" y="624" fontSize="6.3" className="fill-muted-foreground">region and heavy chain domains (why the IgM pentamer grips antigen avidly).</text>
+      </g>
+      <g>
+        <rect x="492" y="572" width="452" height="62" rx="10" className="fill-secondary stroke-border" strokeWidth="1.1" />
+        <text x="506" y="590" fontSize="7.4" fontWeight="800" className="fill-foreground">Antigen type and memory</text>
+        <text x="506" y="604" fontSize="6.3" className="fill-muted-foreground">Thymus-INdependent: no peptide (LPS, capsular polysaccharides) — cannot be presented by</text>
+        <text x="506" y="614" fontSize="6.3" className="fill-muted-foreground">MHC; weakly immunogenic; vaccines need boosters and adjuvants (eg, PPSV23). No class</text>
+        <text x="506" y="624" fontSize="6.3" className="fill-muted-foreground">switching, no memory. Thymus-DEpendent: protein component (eg, diphtheria toxoid) —</text>
+        <text x="506" y="634" fontSize="6.3" className="fill-muted-foreground">B-Th cell contact → class switching AND immunologic memory.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="652" fontSize="7.2" className="fill-muted-foreground">Original KYP comparison grid (pdf 125 / book 103 — the printed page's structure icons and roster are conveyed schematically; FA's printed mnemonic phrases are NOT reproduced). Verbatim isotype text is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E29 — The complement cascade: three doors → C3 → C5 → MAC
+// (source: "Complement" + Opsonins + Inhibitors, pdf 126 / book 104 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function ComplementCascadeMap() {
+  const w = 980;
+  const h = 670;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="The complement cascade, an original KYP redraw of the source's pathway diagram. Three activation doors converge on C3: the CLASSICAL pathway (IgG or IgM mediated — antigen-antibody complexes engaging the C1 complex), the LECTIN pathway (mannose or other sugars on the microbe surface engaging the MBL-MASP complex), and the ALTERNATIVE pathway (bacterial products on microbial surfaces: spontaneous C3b with Factor B/Bb, stabilized by properdin or factor D, feeding a C3b amplification loop). All three build C3 convertases (classical and lectin: C4b2a; alternative: C3bBb) that cleave C3 into C3b — opsonization, binding lipopolysaccharides on bacteria, clearing immune complexes — and C3a, an anaphylatoxin. C3 convertases plus C3b form C5 convertases that cleave C5 into C5b and C5a — an anaphylatoxin and the neutrophil chemotaxis signal. C5b assembles with C6, C7, C8, and polymerized C9 into the membrane attack complex (MAC, C5b-9), which mediates cytolysis — defending against gram-negative bacteria and Neisseria species, whose deficiency causes recurrent infection. Side panels: the anaphylatoxins C3a, C4a, and C5a stimulate mast-cell degranulation, releasing histamine that increases endothelial permeability and inflammation; and C3b-mediated opsonization, where C3b on the microbe engages the complement receptor on a phagocyte — C3b and IgG being the two primary opsonins in bacterial defense. Bottom: inhibitors — decay-accelerating factor (DAF, also called CD55) and C1 inhibitor (formerly C1 esterase inhibitor) prevent complement activation on self cells such as RBCs; the CH50 test screens classical pathway activation" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The complement cascade — three doors, one engine (original KYP redraw)</text>
+        <rect x="762" y="24" width="170" height="18" rx="9" className="fill-brand-soft" />
+        <text x="847" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">hepatic proteins, innate arm</text>
+      </g>
+
+      {/* ===== main cascade (left) ===== */}
+      {/* three activation rows */}
+      <g>
+        <rect x="36" y="76" width="584" height="46" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="76" width="120" height="46" rx="9" className="fill-brand-soft stroke-brand" strokeWidth="1.2" />
+        <text x="96" y="97" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">CLASSICAL</text>
+        <text x="96" y="108" textAnchor="middle" fontSize="6" className="fill-muted-foreground">IgG or IgM</text>
+        <text x="170" y="95" fontSize="6.6" className="fill-muted-foreground">Antigen-antibody (Ag-Ab) complex —</text>
+        <text x="170" y="105" fontSize="6.6" className="fill-muted-foreground">IgG or IgM mediated — engages the</text>
+        <text x="170" y="115" fontSize="6.6" fontWeight="700" className="fill-foreground">C1 complex (C1qrs)</text>
+      </g>
+      <g>
+        <rect x="36" y="128" width="584" height="46" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="128" width="120" height="46" rx="9" className="fill-warning-soft stroke-warning" strokeWidth="1.2" />
+        <text x="96" y="149" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">LECTIN</text>
+        <text x="96" y="160" textAnchor="middle" fontSize="6" className="fill-muted-foreground">sugar-sensing</text>
+        <text x="170" y="147" fontSize="6.6" className="fill-muted-foreground">Mannose or other sugars on the microbe</text>
+        <text x="170" y="157" fontSize="6.6" className="fill-muted-foreground">surface engage the</text>
+        <text x="170" y="167" fontSize="6.6" fontWeight="700" className="fill-foreground">MBL-MASP complex</text>
+      </g>
+      <g>
+        <rect x="36" y="180" width="584" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <rect x="36" y="180" width="120" height="52" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+        <text x="96" y="203" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">ALTERNATIVE</text>
+        <text x="96" y="214" textAnchor="middle" fontSize="6" className="fill-muted-foreground">tickover</text>
+        <text x="170" y="199" fontSize="6.6" className="fill-muted-foreground">Bacterial products on microbial surfaces:</text>
+        <text x="170" y="209" fontSize="6.6" className="fill-muted-foreground">spontaneous C3b + Factor B (Bb), stabilized by</text>
+        <text x="170" y="219" fontSize="6.6" fontWeight="700" className="fill-foreground">properdin or factor D → C3b amplification loop</text>
+      </g>
+
+      {/* convergence arrows */}
+      <path d="M 328 122 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 328 174 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 328 232 L 328 244" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 322 240 L 328 250 L 334 240 Z" className="fill-border" />
+
+      {/* C3 convertase bar */}
+      <g>
+        <rect x="36" y="252" width="584" height="34" rx="8" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="328" y="273" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">C3 CONVERTASE — classical/lectin: C4b2a · alternative: C3bBb</text>
+      </g>
+
+      {/* C3 outputs */}
+      <path d="M 150 286 L 150 300" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 506 286 L 506 300" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="304" width="276" height="64" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="50" y="324" fontSize="7.6" fontWeight="800" className="fill-brand">C3 → C3b — OPSONIZATION</text>
+        <text x="50" y="338" fontSize="6.4" className="fill-muted-foreground">Binds LPS on bacteria; enhances phagocytosis;</text>
+        <text x="50" y="348" fontSize="6.4" className="fill-muted-foreground">clears immune complexes; feeds the</text>
+        <text x="50" y="358" fontSize="6.4" className="fill-muted-foreground">amplification loop back into the convertase</text>
+      </g>
+      <g>
+        <rect x="344" y="304" width="276" height="64" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="358" y="324" fontSize="7.6" fontWeight="800" className="fill-emergency">C3 → C3a — ANAPHYLATOXIN</text>
+        <text x="358" y="338" fontSize="6.4" className="fill-muted-foreground">One of the three anaphylatoxins (C3a, C4a,</text>
+        <text x="358" y="348" fontSize="6.4" className="fill-muted-foreground">C5a) — mast-cell degranulation → histamine</text>
+        <text x="358" y="358" fontSize="6.4" className="fill-muted-foreground">(see the anaphylaxis rail, right)</text>
+      </g>
+
+      {/* C5 convertase */}
+      <path d="M 328 368 L 328 382" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="386" width="584" height="30" rx="8" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="328" y="406" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-foreground">C5 CONVERTASE (C4b2a3b / C3bBb3b) → cleaves C5</text>
+      </g>
+
+      {/* C5 outputs */}
+      <path d="M 150 416 L 150 430" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <path d="M 506 416 L 506 430" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="434" width="276" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="50" y="454" fontSize="7.6" fontWeight="800" className="fill-foreground">C5 → C5b — MAC seed</text>
+        <text x="50" y="468" fontSize="6.4" className="fill-muted-foreground">C5b recruits C6 → C7 → C8 → polymerized C9</text>
+        <text x="50" y="478" fontSize="6.4" className="fill-muted-foreground">to punch the pore (below)</text>
+      </g>
+      <g>
+        <rect x="344" y="434" width="276" height="52" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="358" y="454" fontSize="7.6" fontWeight="800" className="fill-emergency">C5 → C5a — alarm + recruiter</text>
+        <text x="358" y="468" fontSize="6.4" className="fill-muted-foreground">Anaphylatoxin AND neutrophil chemotaxis —</text>
+        <text x="358" y="478" fontSize="6.4" className="fill-muted-foreground">the fetch signal that draws granulocytes in</text>
+      </g>
+
+      {/* MAC bar */}
+      <path d="M 328 486 L 328 500" stroke="currentColor" className="text-border" strokeWidth="2" />
+      <g>
+        <rect x="36" y="504" width="584" height="62" rx="10" className="fill-emergency/5 stroke-emergency" strokeWidth="1.3" />
+        <text x="328" y="526" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">MEMBRANE ATTACK COMPLEX — C5b-9 (C5b + C6 + C7 + C8 + polymerized C9)</text>
+        <text x="328" y="542" textAnchor="middle" fontSize="6.8" className="fill-muted-foreground">Pore-forming cylinder → CYTOLYSIS / cell lysis of the target</text>
+        <text x="328" y="554" textAnchor="middle" fontSize="6.8" fontWeight="700" className="fill-emergency">Defends against gram ⊝ bacteria — key for Neisseria; deficiency → recurrent infection</text>
+      </g>
+
+      {/* ===== right rail ===== */}
+      {/* anaphylaxis panel */}
+      <g>
+        <rect x="640" y="76" width="304" height="156" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="98" fontSize="8.2" fontWeight="800" className="fill-foreground">ANAPHYLATOXINS — C3a, C4a, C5a</text>
+        <text x="656" y="116" fontSize="6.6" className="fill-muted-foreground">C3a and C5a stimulate mast-cell degranulation</text>
+        <text x="656" y="128" fontSize="6.6" className="fill-muted-foreground">→ histamine release → ↑ endothelial permeability</text>
+        <text x="656" y="140" fontSize="6.6" className="fill-muted-foreground">→ inflammation (the vascular alarm)</text>
+        <rect x="656" y="150" width="272" height="66" rx="8" className="fill-secondary" />
+        <text x="670" y="168" fontSize="6.8" fontWeight="800" className="fill-foreground">Function list (verbatim):</text>
+        <text x="670" y="182" fontSize="6.4" className="fill-muted-foreground">C3b — opsonization · C3a, C4a, C5a — anaphylaxis</text>
+        <text x="670" y="194" fontSize="6.4" className="fill-muted-foreground">C5a — neutrophil chemotaxis</text>
+        <text x="670" y="206" fontSize="6.4" className="fill-muted-foreground">C5b-9 (MAC) — cytolysis</text>
+      </g>
+
+      {/* opsonization panel */}
+      <g>
+        <rect x="640" y="246" width="304" height="150" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="268" fontSize="8.2" fontWeight="800" className="fill-foreground">OPSONIZATION — prepare for eating</text>
+        {/* microbe + C3b */}
+        <ellipse cx="706" cy="316" rx="30" ry="24" className="fill-warning-soft/50 stroke-warning" strokeWidth="1.2" />
+        <circle cx="694" cy="306" r="3.5" className="fill-brand" />
+        <circle cx="712" cy="300" r="3.5" className="fill-brand" />
+        <circle cx="720" cy="314" r="3.5" className="fill-brand" />
+        <text x="706" y="352" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">microbe + C3b</text>
+        {/* phagocyte */}
+        <path d="M 776 296 q 24 -16 48 0 q 14 30 0 44 q -24 12 -48 0 q -10 -26 0 -44 Z" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.2" />
+        <text x="800" y="322" textAnchor="middle" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">phagocyte</text>
+        <text x="800" y="332" textAnchor="middle" fontSize="5.4" className="fill-muted-foreground">(complement receptor)</text>
+        <path d="M 742 314 L 770 314" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+        <path d="M 768 309 L 778 314 L 768 319 Z" className="fill-brand" />
+        <text x="656" y="372" fontSize="6.4" className="fill-muted-foreground">C3b and IgG are the two 1° opsonins in bacterial</text>
+        <text x="656" y="382" fontSize="6.4" className="fill-muted-foreground">defense; C3b also helps clear immune complexes.</text>
+        <text x="656" y="392" fontSize="6.2" fontWeight="700" className="fill-muted-foreground/80">Opsonin (Greek) = to prepare for eating</text>
+      </g>
+
+      {/* clinical panel */}
+      <g>
+        <rect x="640" y="410" width="304" height="156" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="656" y="432" fontSize="8.2" fontWeight="800" className="fill-foreground">TESTING &amp; CLINICAL ANCHORS</text>
+        <text x="656" y="450" fontSize="6.6" className="fill-muted-foreground">· CH50 test — screens activation of the</text>
+        <text x="668" y="460" fontSize="6.6" className="fill-muted-foreground">CLASSICAL pathway</text>
+        <text x="656" y="476" fontSize="6.6" className="fill-muted-foreground">· MAC defends against gram ⊝ bacteria;</text>
+        <text x="668" y="486" fontSize="6.6" className="fill-muted-foreground">important for neutralizing Neisseria</text>
+        <text x="656" y="502" fontSize="6.6" className="fill-muted-foreground">· C3b binds lipopolysaccharides on bacteria</text>
+        <text x="656" y="518" fontSize="6.6" className="fill-muted-foreground">· System of hepatically synthesized plasma</text>
+        <text x="668" y="528" fontSize="6.6" className="fill-muted-foreground">proteins — innate immunity + inflammation</text>
+        <text x="656" y="544" fontSize="6.6" fontWeight="700" className="fill-emergency">Terminal (C5-C9) deficiency → recurrent Neisseria</text>
+      </g>
+
+      {/* ===== bottom strip: inhibitors ===== */}
+      <g>
+        <rect x="36" y="580" width="908" height="56" rx="10" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="600" fontSize="8" fontWeight="800" className="fill-foreground">INHIBITORS — keeping complement off self cells (eg, RBCs)</text>
+        <text x="54" y="616" fontSize="6.6" className="fill-muted-foreground">Decay-accelerating factor (DAF, also called CD55) and C1 inhibitor (formerly called C1 esterase inhibitor) help prevent complement activation on self cells.</text>
+        <text x="54" y="628" fontSize="6.6" fontWeight="700" className="fill-emergency">Failure (KYP bridge): C1-INH loss → hereditary angioedema (bradykinin); DAF/CD55 loss → complement lysis of RBCs (paroxysmal nocturnal hemoglobinuria).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="656" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's complement cascade diagram (pdf 126 / book 104 — pure vector in the source; FA's printed mnemonic phrases not reproduced). Verbatim activation, functions, opsonin, and inhibitor text in the note's table and callout blocks.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E30 — Complement disorders: deficiency map + pathway testing + PNH
+// (source: "Complement disorders", pdf 127 / book 105 — one 194x185 urine-photo raster)
+// ---------------------------------------------------------------------------
+
+export function ComplementDeficiencyMap() {
+  const w = 980;
+  const h = 650;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Complement disorders, an original KYP map. Top row of three deficiency cards. Early complement deficiencies C1-C4: increased risk of severe, recurrent pyogenic sinus and respiratory tract infections, and increased SLE risk because C3b is used in the clearance of antigen-antibody complexes. Terminal complement deficiencies C5-C9: increased susceptibility to recurrent Neisseria bacteremia. C1 inhibitor deficiency: hereditary angioedema from unregulated kallikrein activation raising bradykinin, low C4, ACE inhibitors contraindicated, treated with ecallantide (kallikrein inhibitor) or icatibant (bradykinin-B2 receptor antagonist). Middle row: complement pathway testing — CH50 tests the classical pathway (C1, C2, C4), low in SLE, immune complex diseases, and C2/C4 deficiency; AH50 tests the alternative pathway (factor D, B, properdin), low in properdin and factor D/B deficiency and Neisseria infections; CH50 plus AH50 together test the common and terminal pathways (C3, C5-C9), low in terminal pathway defect or complement consumption such as sepsis or autoimmune disease. Bottom panel: paroxysmal nocturnal hemoglobinuria — an acquired PIGA gene mutation reduces GPI anchors, losing CD55 (DAF) and CD59 (MIRL), causing complement-mediated intravascular hemolysis with or without extravascular hemolysis; loss of CD59 removes the MAC brake (intravascular hemolysis, the major route), loss of CD55 increases C3b opsonization (extravascular hemolysis, minor, reticuloendothelial clearance); labs show low haptoglobin, hemoglobinuria, and hemosiderinuria with dark urine often in the morning; the triad is hemolytic anemia, pancytopenia, and atypical venous thrombosis such as Budd-Chiari, portal, cerebral, or dermal; treatment is eculizumab (anti-C5, blocks terminal complement, prevents intravascular hemolysis only) with proximal complement inhibitors (anti-C3, investigational) possibly reducing extravascular hemolysis" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Complement disorders — the deficiency map (original KYP diagram)</text>
+        <rect x="750" y="24" width="182" height="18" rx="9" className="fill-brand-soft" />
+        <text x="841" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">which fragment failed?</text>
+      </g>
+
+      {/* ===== row 1: three deficiency cards ===== */}
+      {[
+        {
+          x: 36, name: "EARLY (C1-C4)", color: "fill-brand-soft", stroke: "stroke-brand",
+          lines: [
+            "↑ risk of severe, recurrent pyogenic",
+            "sinus and respiratory tract infections.",
+            "C3b is used in clearance of antigen-",
+            "antibody complexes → ↑ risk of SLE",
+            "(the immune-complex price of early loss).",
+          ],
+        },
+        {
+          x: 356, name: "TERMINAL (C5-C9)", color: "fill-emergency/10", stroke: "stroke-emergency",
+          lines: [
+            "↑ susceptibility to recurrent",
+            "Neisseria bacteremia.",
+            "Opsonization intact — the pore is the",
+            "only loss, so Neisseria is the sentinel",
+            "organism (its clearance needs MAC).",
+          ],
+        },
+        {
+          x: 676, name: "C1 INHIBITOR", color: "fill-warning-soft", stroke: "stroke-warning",
+          lines: [
+            "Hereditary angioedema: unregulated",
+            "kallikrein activation → ↑ bradykinin.",
+            "Characterized by ↓ C4 levels.",
+            "ACE inhibitors contraindicated",
+            "(they also ↑ bradykinin).",
+          ],
+        },
+      ].map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="76" width="268" height="124" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x={c.x} y="76" width="268" height="28" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + 134} y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">{c.name}</text>
+          {c.lines.map((line, j) => (
+            <text key={j} x={c.x + 14} y={120 + j * 13} fontSize="6.5" className="fill-muted-foreground">{line}</text>
+          ))}
+        </g>
+      ))}
+      {/* C1-INH treatment strip */}
+      <g>
+        <rect x="676" y="204" width="268" height="24" rx="8" className="fill-secondary" />
+        <text x="810" y="220" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-foreground">Rx: ecallantide (kallikrein inhibitor) · icatibant (B2 antagonist)</text>
+      </g>
+
+      {/* ===== row 2: pathway testing ===== */}
+      <g>
+        <rect x="36" y="244" width="908" height="110" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+        <text x="54" y="268" fontSize="8.6" fontWeight="800" className="fill-foreground">COMPLEMENT PATHWAY TESTING — which assay, which pathway, what a low value means</text>
+        {[
+          [54, "CH50 — CLASSICAL", "reads C1, C2, C4", "↓ in SLE, immune complex diseases,", "C2/C4 deficiency"],
+          [360, "AH50 — ALTERNATIVE", "reads factor D, B, properdin", "↓ in properdin, factor D/B deficiency,", "Neisseria infections"],
+          [662, "CH50 + AH50 — TOGETHER", "read C3, C5-C9 (common/terminal)", "↓ in terminal pathway defect (C5-C9) or", "complement consumption (sepsis, autoimmune)"],
+        ].map(([x, t, r, l1, l2]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="282" width="286" height="60" rx="9" className="fill-secondary" />
+            <text x={(x as number) + 14} y="300" fontSize="7.4" fontWeight="800" className="fill-brand">{t}</text>
+            <text x={(x as number) + 14} y="313" fontSize="6.4" className="fill-muted-foreground">{r}</text>
+            <text x={(x as number) + 14} y="326" fontSize="6.4" className="fill-muted-foreground">{l1}</text>
+            <text x={(x as number) + 14} y="336" fontSize="6.4" className="fill-muted-foreground">{l2}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* ===== row 3: PNH panel ===== */}
+      <g>
+        <rect x="36" y="370" width="908" height="216" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="370" width="908" height="30" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.3" />
+        <text x="490" y="390" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">PAROXYSMAL NOCTURNAL HEMOGLOBINURIA — the regulatory failure on RBCs</text>
+
+        {/* mechanism chain */}
+        <g>
+          {[
+            [54, "Acquired PIGA", "gene mutation"],
+            [186, "↓ GPI anchors", "(the membrane hook)"],
+            [318, "Loss of CD55 (DAF)", "and CD59 (MIRL)"],
+            [464, "Complement-mediated", "hemolysis of RBCs"],
+          ].map(([x, t, s], i, arr) => (
+            <g key={t as string}>
+              <rect x={x as number} y="412" width="118" height="42" rx="8" className="fill-secondary stroke-border" strokeWidth="1.1" />
+              <text x={(x as number) + 59} y="430" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">{t}</text>
+              <text x={(x as number) + 59} y="441" textAnchor="middle" fontSize="6" className="fill-muted-foreground">{s}</text>
+              {i < arr.length - 1 && (
+                <path d={`M ${(x as number) + 119} 433 L ${(x as number) + 131} 433`} stroke="currentColor" className="text-border" strokeWidth="1.6" />
+              )}
+            </g>
+          ))}
+          {/* two hemolysis routes (origins at the last chain box's right edge, x=584) */}
+          <path d="M 584 442 C 596 448, 602 451, 606 452" fill="none" stroke="currentColor" className="text-emergency" strokeWidth="1.6" />
+          <path d="M 602 447 L 612 452 L 603 458 Z" className="fill-emergency" />
+          <path d="M 584 424 C 596 418, 602 414, 606 412" fill="none" stroke="currentColor" className="text-brand" strokeWidth="1.6" />
+          <path d="M 603 407 L 612 412 L 603 417 Z" className="fill-brand" />
+          <g>
+            <rect x="610" y="392" width="320" height="34" rx="8" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.1" />
+            <text x="622" y="406" fontSize="6.4" fontWeight="800" className="fill-brand">EXTRAVASCULAR (minor) — CD55 loss:</text>
+            <text x="622" y="417" fontSize="6.2" className="fill-muted-foreground">↑ C3b opsonization → RES (reticuloendothelial) RBC clearance</text>
+          </g>
+          <g>
+            <rect x="610" y="436" width="320" height="34" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.1" />
+            <text x="622" y="450" fontSize="6.4" fontWeight="800" className="fill-emergency">INTRAVASCULAR (major) — CD59 loss:</text>
+            <text x="622" y="461" fontSize="6.2" className="fill-muted-foreground">uninhibited MAC formation → intravascular hemolysis</text>
+          </g>
+        </g>
+
+        {/* labs + triad + treatment */}
+        <g>
+          <rect x="54" y="470" width="280" height="104" rx="9" className="fill-secondary" />
+          <text x="68" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">LABS</text>
+          <text x="68" y="506" fontSize="6.4" className="fill-muted-foreground">Complement-mediated hemolysis →</text>
+          <text x="68" y="517" fontSize="6.4" className="fill-muted-foreground">↓ haptoglobin · hemoglobinuria ·</text>
+          <text x="68" y="528" fontSize="6.4" className="fill-muted-foreground">hemosiderinuria — dark urine, often</text>
+          <text x="68" y="539" fontSize="6.4" className="fill-muted-foreground">in the morning (concentrated overnight)</text>
+          <text x="68" y="560" fontSize="6.4" fontWeight="700" className="fill-muted-foreground/80">Flow cytometry (CD55/CD59 absence) is</text>
+          <text x="68" y="570" fontSize="6.4" fontWeight="700" className="fill-muted-foreground/80">the modern confirmatory test (KYP bridge)</text>
+        </g>
+        <g>
+          <rect x="348" y="470" width="280" height="104" rx="9" className="fill-secondary" />
+          <text x="362" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">THE TRIAD</text>
+          {[
+            "1 · Hemolytic anemia",
+            "2 · Pancytopenia",
+            "3 · Atypical venous thrombosis",
+          ].map((t, i) => (
+            <text key={t} x="362" y={508 + i * 16} fontSize="6.6" fontWeight="700" className="fill-foreground">{t}</text>
+          ))}
+          <text x="362" y="560" fontSize="6.2" className="fill-muted-foreground">eg, Budd-Chiari, portal, cerebral,</text>
+          <text x="362" y="570" fontSize="6.2" className="fill-muted-foreground">dermal thromboses</text>
+        </g>
+        <g>
+          <rect x="642" y="470" width="288" height="104" rx="9" className="fill-secondary" />
+          <text x="656" y="490" fontSize="7.2" fontWeight="800" className="fill-foreground">TREATMENT</text>
+          <text x="656" y="508" fontSize="6.4" fontWeight="700" className="fill-foreground">Eculizumab (anti-C5 antibody)</text>
+          <text x="656" y="519" fontSize="6.2" className="fill-muted-foreground">blocks terminal complement — prevents</text>
+          <text x="656" y="529" fontSize="6.2" className="fill-muted-foreground">INTRAVASCULAR hemolysis only</text>
+          <text x="656" y="546" fontSize="6.4" fontWeight="700" className="fill-foreground">Proximal complement inhibitors</text>
+          <text x="656" y="557" fontSize="6.2" className="fill-muted-foreground">(eg, anti-C3, investigational) — may</text>
+          <text x="656" y="567" fontSize="6.2" className="fill-muted-foreground">reduce EXTRAVASCULAR hemolysis</text>
+        </g>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="636" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 127 / book 105 — the printed page's urine photograph is copyrighted and is described, never reproduced; FA's printed 'CAT' testing mnemonic is not reproduced). Verbatim deficiency, testing, and PNH text in the note's table and mechanisms.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E31 — Important cytokines: the macrophage/T-cell/Th1/Th2 signaling map
+// (source: "Important cytokines", pdf 128 / book 106 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function CytokineNetworkMap() {
+  const w = 980;
+  const h = 690;
+  const macroCytokines = [
+    { name: "IL-1", lines: ["Fever, acute inflammation. Activates", "endothelium → adhesion molecules. Induces", "chemokine secretion to recruit WBCs.", "Also called osteoclast-activating factor."] },
+    { name: "IL-6", lines: ["Causes fever and stimulates production", "of acute-phase proteins (the CRP/ESR", "engine of the lab panel)."] },
+    { name: "TNF-α", lines: ["Activates endothelium. WBC recruitment,", "vascular leak. Cachexia in malignancy.", "Maintains granulomas in TB."] },
+    { name: "IL-8", lines: ["Major chemotactic factor for neutrophils —", "the homing beacon that draws the pus."] },
+    { name: "IL-12", lines: ["Induces differentiation of T cells into", "Th1 cells. Activates NK cells. Facilitates", "granuloma formation in TB."] },
+  ];
+  const th2 = [
+    { name: "IL-4", lines: ["Induces differentiation of T cells into", "Th2 cells. Promotes growth of B cells.", "Enhances class switching to IgE and IgG."] },
+    { name: "IL-5", lines: ["Promotes growth and differentiation of B", "cells. Enhances class switching to IgA.", "Stimulates growth and differentiation", "of eosinophils."] },
+    { name: "IL-10", lines: ["Attenuates inflammatory response. Decreases", "MHC class II and Th1 cytokines. Inhibits", "activated macrophages and dendritic cells.", "Also secreted by regulatory T cells."] },
+    { name: "IL-13", lines: ["Promotes IgE production by B cells.", "Induces alternative macrophage activation."] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Important cytokines, an original KYP network map organized by secreting cell. Secreted by macrophages: IL-1 (fever, acute inflammation, endothelial adhesion-molecule activation, chemokine secretion to recruit WBCs, also called osteoclast-activating factor); IL-6 (fever and acute-phase protein production); TNF-alpha (endothelial activation, WBC recruitment, vascular leak, cachexia in malignancy, maintains granulomas in TB); IL-8 (major chemotactic factor for neutrophils); IL-12 (Th1 differentiation, NK-cell activation, granuloma formation in TB) — with the banner that IL-1, IL-6, and TNF-alpha mediate fever and sepsis and the intro rule: acute (IL-1, IL-6, TNF-alpha), then recruit (IL-8, IL-12). Secreted by T cells: IL-2 (stimulates growth of helper, cytotoxic, and regulatory T cells and NK cells); IL-3 (supports growth and differentiation of bone marrow stem cells, functioning like GM-CSF). From Th1 cells: interferon-gamma — secreted by NK cells and T cells in response to antigen or IL-12 from macrophages; stimulates macrophages to kill phagocytosed pathogens; inhibits Th2 differentiation; induces IgG isotype switching; increases MHC expression and antigen presentation by all cells; activates macrophages to induce granuloma formation. From Th2 cells: IL-4 (Th2 differentiation, B-cell growth, class switching to IgE and IgG); IL-5 (B-cell growth and differentiation, class switching to IgA, eosinophil growth and differentiation); IL-10 (attenuates inflammation, decreases MHC II and Th1 cytokines, inhibits activated macrophages and dendritic cells, also from regulatory T cells); IL-13 (IgE production, alternative macrophage activation) — with the banner that TGF-beta and IL-10 both attenuate the immune response" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Important cytokines — the signaling map by secreting cell (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">acute first, then recruit</text>
+      </g>
+
+      {/* ===== macrophage panel ===== */}
+      <g>
+        <rect x="36" y="76" width="456" height="368" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="456" height="30" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.4" />
+        <text x="264" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">SECRETED BY MACROPHAGES</text>
+        <text x="52" y="120" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">The acute phase (fever + sepsis trio), then the recruiters:</text>
+        {macroCytokines.map((c, i) => (
+          <g key={c.name}>
+            <rect x="52" y={130 + i * 62} width="424" height="56" rx="9" className={i < 3 ? "fill-emergency/5 stroke-emergency/60" : "fill-secondary stroke-border"} strokeWidth="1.1" />
+            <rect x="60" y={137 + i * 62} width="44" height="20" rx="6" className="fill-foreground" />
+            <text x="82" y={151 + i * 62} textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">{c.name}</text>
+            {c.lines.map((line, j) => (
+              <text key={j} x="114" y={145 + j * 10 + i * 62} fontSize="6.2" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        ))}
+        <rect x="52" y="418" width="424" height="18" rx="6" className="fill-emergency/10" />
+        <text x="264" y="431" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-emergency">IL-1, IL-6, TNF-α can mediate fever and sepsis</text>
+      </g>
+
+      {/* ===== T-cell panel ===== */}
+      <g>
+        <rect x="508" y="76" width="436" height="160" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="508" y="76" width="436" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="726" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">SECRETED BY T CELLS</text>
+        <g>
+          <rect x="524" y="118" width="404" height="50" rx="9" className="fill-secondary" />
+          <rect x="532" y="128" width="44" height="20" rx="6" className="fill-foreground" />
+          <text x="554" y="142" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">IL-2</text>
+          <text x="590" y="136" fontSize="6.2" className="fill-muted-foreground">Stimulates growth of helper, cytotoxic, and regulatory T</text>
+          <text x="590" y="146" fontSize="6.2" className="fill-muted-foreground">cells, and NK cells — the T-cell growth hormone (and the</text>
+          <text x="590" y="156" fontSize="6.2" className="fill-muted-foreground">transplant-drug target, KYP bridge).</text>
+        </g>
+        <g>
+          <rect x="524" y="174" width="404" height="50" rx="9" className="fill-secondary" />
+          <rect x="532" y="184" width="44" height="20" rx="6" className="fill-foreground" />
+          <text x="554" y="198" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">IL-3</text>
+          <text x="590" y="192" fontSize="6.2" className="fill-muted-foreground">Supports growth and differentiation of bone marrow stem</text>
+          <text x="590" y="202" fontSize="6.2" className="fill-muted-foreground">cells. Functions like GM-CSF (the multilineage</text>
+          <text x="590" y="212" fontSize="6.2" className="fill-muted-foreground">colony stimulator).</text>
+        </g>
+      </g>
+
+      {/* ===== IFN-γ (Th1) panel ===== */}
+      <g>
+        <rect x="508" y="252" width="436" height="192" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="508" y="252" width="436" height="30" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.4" />
+        <text x="726" y="272" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">FROM Th1 CELLS — INTERFERON-γ</text>
+        {[
+          "Secreted by NK cells and T cells in response to antigen or IL-12 from macrophages",
+          "Stimulates macrophages to kill phagocytosed pathogens",
+          "Inhibits differentiation of Th2 cells (the Th1 half of cross-regulation)",
+          "Induces IgG isotype switching in B cells",
+          "Increases MHC expression and antigen presentation by all cells",
+          "Activates macrophages to induce granuloma formation",
+        ].map((line, i) => (
+          <text key={i} x="524" y={300 + i * 14} fontSize="6.6" className="fill-muted-foreground">· {line}</text>
+        ))}
+        <rect x="524" y="390" width="404" height="44" rx="8" className="fill-secondary" />
+        <text x="726" y="406" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">The macrophage activator of E25's loop, the granuloma driver</text>
+        <text x="726" y="418" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">of TB, the MHC amplifier — and IL-12 (macrophage) induces it.</text>
+      </g>
+
+      {/* ===== Th2 panel ===== */}
+      <g>
+        <rect x="36" y="460" width="908" height="170" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="460" width="908" height="30" rx="12" className="fill-primary/15 stroke-primary" strokeWidth="1.4" />
+        <text x="490" y="480" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">FROM Th2 CELLS (plus the Treg brake)</text>
+        {th2.map((c, i) => (
+          <g key={c.name}>
+            <rect x={52 + i * 220} y="498" width="204" height="100" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+            <rect x={60 + i * 220} y="506" width="44" height="20" rx="6" className="fill-foreground" />
+            <text x={82 + i * 220} y="520" textAnchor="middle" fontSize="8" fontWeight="800" className="fill-background">{c.name}</text>
+            {c.lines.map((line, j) => (
+              <text key={j} x={60 + i * 220} y={538 + j * 10} fontSize="5.9" className="fill-muted-foreground">{line.length > 34 ? line.slice(0, 34) : line}</text>
+            ))}
+          </g>
+        ))}
+        <rect x="52" y="604" width="876" height="18" rx="6" className="fill-brand-soft" />
+        <text x="490" y="617" textAnchor="middle" fontSize="6.6" fontWeight="800" className="fill-brand">TGF-β and IL-10 both attenuate the immune response (IL-10 also from regulatory T cells)</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="648" fontSize="7.2" className="fill-muted-foreground">Original KYP network map (pdf 128 / book 106 — pure vector source page; FA's printed mnemonics 'Hot T-bone stEAK', 'Clean up on aisle 8', 'Ain't too proud 2 BEG 4 help', 'I have 5 BAEs' are NOT reproduced). Verbatim cytokine functions are the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E32 — Respiratory burst & type I interferons
+// (source: pdf 129 / book 107 — pure vector cascade diagram)
+// ---------------------------------------------------------------------------
+
+export function RespiratoryBurstEnzymes() {
+  const w = 980;
+  const h = 680;
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Respiratory burst and type I interferons, an original KYP diagram. Left: the phagolysosome enzyme cascade in six numbered steps. Step 1: NADPH oxidase on the neutrophil membrane uses O2 with NADPH to make superoxide O2-minus — NADPH oxidase deficiency equals chronic granulomatous disease. Step 2: superoxide dismutase converts superoxide to hydrogen peroxide. Step 3: myeloperoxidase combines hydrogen peroxide with chloride to make HOCl, hypochlorite bleach — myeloperoxidase contains the blue-green heme pigment that gives sputum its color. Step 4: catalase and glutathione peroxidase neutralize hydrogen peroxide to water and oxygen (bacterial catalase also degrades hydrogen peroxide). Step 5: glutathione reductase recycles GSSG to reduced GSH. Step 6: G6PD in the HMP shunt regenerates NADPH from glucose-6-phosphate — the fuel line. NADPH plays a role in both the creation and the neutralization of reactive oxygen species. Right panel, the CGD logic: patients are at risk for infection by catalase-positive species (eg, S aureus, Aspergillus) that neutralize their own hydrogen peroxide, leaving phagocytes without ROS; CGD phagocytes can instead utilize H2O2 generated by invading organisms and convert it to ROS — so catalase-NEGATIVE organisms remain vulnerable. Pyocyanin of P aeruginosa generates ROS to kill competing pathogens. Oxidative burst leads to release of lysosomal enzymes. Bottom panel: type I interferons IFN-alpha and IFN-beta — cells infected with a virus synthesize these glycoproteins, which act on local cells, priming them for viral defense by downregulating protein synthesis to resist viral replication and upregulating MHC expression to facilitate recognition of infected cells; they interfere with both RNA and DNA viruses, are part of innate host defense, and play a major role in activating antitumor immunity. Clinical uses: chronic HBV, Kaposi sarcoma, hairy cell leukemia, condyloma acuminatum, renal cell carcinoma, malignant melanoma, multiple sclerosis. Adverse: flulike symptoms, depression, neutropenia, myopathy, interferon-induced autoimmunity" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Respiratory burst — the phagocyte killing chemistry (original KYP redraw)</text>
+        <rect x="756" y="24" width="176" height="18" rx="9" className="fill-brand-soft" />
+        <text x="844" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">NADPH oxidase → O2⁻ → HOCl</text>
+      </g>
+
+      {/* ===== phagolysosome cascade ===== */}
+      <g>
+        <rect x="36" y="76" width="560" height="360" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="76" width="560" height="30" rx="12" className="fill-secondary stroke-border" strokeWidth="1.4" />
+        <text x="316" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">PHAGOLYSOSOME — six numbered steps</text>
+
+        {/* bacteria */}
+        <ellipse cx="316" cy="180" rx="46" ry="30" className="fill-warning-soft/40 stroke-warning" strokeWidth="1.3" />
+        <text x="316" y="178" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">Bacteria</text>
+        <text x="316" y="189" textAnchor="middle" fontSize="5.6" className="fill-muted-foreground">(ingested target)</text>
+
+        {/* step 1: NADPH oxidase (membrane) */}
+        <g>
+          <rect x="60" y="126" width="180" height="48" rx="9" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+          <text x="70" y="142" fontSize="6.8" fontWeight="800" className="fill-emergency">1 · NADPH oxidase</text>
+          <text x="70" y="154" fontSize="6.2" className="fill-muted-foreground">O2 + NADPH → O2⁻ (superoxide)</text>
+          <text x="70" y="164" fontSize="5.8" fontWeight="700" className="fill-emergency">deficiency = chronic granulomatous disease</text>
+        </g>
+
+        {/* step 2: SOD */}
+        <g>
+          <rect x="60" y="222" width="180" height="40" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+          <text x="70" y="238" fontSize="6.8" fontWeight="800" className="fill-foreground">2 · Superoxide dismutase</text>
+          <text x="70" y="250" fontSize="6.2" className="fill-muted-foreground">O2⁻ → H2O2</text>
+        </g>
+
+        {/* step 3: MPO */}
+        <g>
+          <rect x="60" y="278" width="180" height="54" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+          <text x="70" y="294" fontSize="6.8" fontWeight="800" className="fill-foreground">3 · Myeloperoxidase</text>
+          <text x="70" y="306" fontSize="6.2" className="fill-muted-foreground">H2O2 + Cl⁻ → HOCl</text>
+          <text x="70" y="316" fontSize="5.8" className="fill-muted-foreground">(hypochlorite bleach) — blue-green</text>
+          <text x="70" y="326" fontSize="5.8" className="fill-muted-foreground">heme pigment gives sputum its color</text>
+        </g>
+
+        {/* step 4: catalase/GPx */}
+        <g>
+          <rect x="330" y="278" width="246" height="54" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+          <text x="340" y="294" fontSize="6.8" fontWeight="800" className="fill-foreground">4 · Catalase / glutathione peroxidase</text>
+          <text x="340" y="306" fontSize="6.2" className="fill-muted-foreground">H2O2 → H2O + O2 (neutralization —</text>
+          <text x="340" y="316" fontSize="6.2" className="fill-muted-foreground">bacterial catalase degrades H2O2 too)</text>
+        </g>
+
+        {/* step 5: glutathione reductase */}
+        <g>
+          <rect x="330" y="222" width="246" height="44" rx="9" className="fill-secondary stroke-border" strokeWidth="1.1" />
+          <text x="340" y="238" fontSize="6.8" fontWeight="800" className="fill-foreground">5 · Glutathione reductase</text>
+          <text x="340" y="250" fontSize="6.2" className="fill-muted-foreground">GSSG → GSH (restores the reducing shield)</text>
+        </g>
+
+        {/* step 6: G6PD */}
+        <g>
+          <rect x="330" y="126" width="246" height="80" rx="9" className="fill-brand-soft/40 stroke-brand" strokeWidth="1.2" />
+          <text x="340" y="144" fontSize="6.8" fontWeight="800" className="fill-brand">6 · G6PD — the fuel line</text>
+          <text x="340" y="156" fontSize="6.2" className="fill-muted-foreground">Glucose-6-P → 6-phosphogluconolactone</text>
+          <text x="340" y="166" fontSize="6.2" className="fill-muted-foreground">(HMP shunt) → regenerates NADPH</text>
+          <text x="340" y="182" fontSize="6" fontWeight="700" className="fill-foreground">NADPH plays a role in BOTH the creation</text>
+          <text x="340" y="192" fontSize="6" fontWeight="700" className="fill-foreground">and the neutralization of ROS</text>
+        </g>
+
+        {/* arrows: 1→2→3 and 4→5→6 loop hints */}
+        <path d="M 150 176 L 150 218" stroke="currentColor" className="text-border" strokeWidth="1.8" />
+        <path d="M 146 216 L 150 226 L 154 216 Z" className="fill-border" />
+        <path d="M 150 264 L 150 274" stroke="currentColor" className="text-border" strokeWidth="1.8" />
+        <path d="M 146 272 L 150 282 L 154 272 Z" className="fill-border" />
+        <path d="M 246 305 C 280 305, 300 305, 326 305" stroke="currentColor" className="text-border" strokeWidth="1.8" />
+        <path d="M 324 300 L 334 305 L 324 310 Z" className="fill-border" />
+        <path d="M 453 274 L 453 270" stroke="currentColor" className="text-border" strokeWidth="1.8" />
+        <path d="M 453 172 L 453 218" stroke="currentColor" className="text-border" strokeWidth="1.8" strokeDasharray="4 3" />
+        <text x="470" y="206" fontSize="5.8" fontWeight="700" className="fill-muted-foreground">NADPH feeds step 1</text>
+
+        {/* membrane + note */}
+        <rect x="60" y="344" width="516" height="76" rx="9" className="fill-secondary" />
+        <text x="76" y="362" fontSize="6.6" fontWeight="800" className="fill-foreground">Also called oxidative burst — rapid release of reactive oxygen species (ROS)</text>
+        <text x="76" y="376" fontSize="6.2" className="fill-muted-foreground">· Activation of the phagocyte NADPH oxidase complex (neutrophils, monocytes) uses O2 as substrate</text>
+        <text x="76" y="388" fontSize="6.2" className="fill-muted-foreground">· Oxidative burst leads to release of lysosomal enzymes</text>
+        <text x="76" y="400" fontSize="6.2" className="fill-muted-foreground">· Neutrophil cell membrane carries the oxidase; the phagolysosome is the reaction chamber</text>
+        <text x="76" y="412" fontSize="6.2" fontWeight="700" className="fill-brand">GSH = reduced / GSSG = oxidized glutathione · HOCl = hypochlorite bleach</text>
+      </g>
+
+      {/* ===== CGD panel ===== */}
+      <g>
+        <rect x="612" y="76" width="332" height="360" rx="12" className="fill-card stroke-emergency" strokeWidth="1.4" />
+        <rect x="612" y="76" width="332" height="30" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.4" />
+        <text x="778" y="96" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">THE CGD LOGIC — who survives the phagocyte</text>
+        <text x="628" y="122" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">CGD phagocytes lack their own ROS (no NADPH</text>
+        <text x="628" y="132" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">oxidase) — but CAN utilize H2O2 generated by</text>
+        <text x="628" y="142" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">invading organisms and convert it to ROS.</text>
+        <rect x="628" y="154" width="300" height="88" rx="9" className="fill-emergency/5 stroke-emergency/50" strokeWidth="1.1" />
+        <text x="642" y="174" fontSize="7.2" fontWeight="800" className="fill-emergency">CATALASE-POSITIVE species = DANGEROUS</text>
+        <text x="642" y="190" fontSize="6.4" className="fill-muted-foreground">eg, S aureus, Aspergillus — they neutralize their</text>
+        <text x="642" y="201" fontSize="6.4" className="fill-muted-foreground">own H2O2 with catalase, leaving phagocytes</text>
+        <text x="642" y="212" fontSize="6.4" className="fill-muted-foreground">without ROS for fighting infections.</text>
+        <text x="642" y="230" fontSize="6.4" fontWeight="700" className="fill-foreground">Recurrent abscesses, granulomas, pneumonia.</text>
+        <rect x="628" y="252" width="300" height="66" rx="9" className="fill-brand-soft/30 stroke-brand/50" strokeWidth="1.1" />
+        <text x="642" y="272" fontSize="7.2" fontWeight="800" className="fill-brand">CATALASE-NEGATIVE species = still killed</text>
+        <text x="642" y="288" fontSize="6.4" className="fill-muted-foreground">They leave their H2O2 on the table (no catalase) —</text>
+        <text x="642" y="299" fontSize="6.4" className="fill-muted-foreground">the CGD phagocyte borrows it and converts</text>
+        <text x="642" y="310" fontSize="6.4" className="fill-muted-foreground">it to ROS (the streptococci stay vulnerable).</text>
+        <text x="628" y="336" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">· Pyocyanin of P aeruginosa GENERATES ROS to</text>
+        <text x="640" y="347" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">kill competing pathogens (blue pigment).</text>
+        <text x="628" y="368" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">· X-linked carriers (KYP bridge): skewed</text>
+        <text x="640" y="379" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">X-inactivation → lupus-like discoid rash.</text>
+        <text x="628" y="402" fontSize="6.2" className="fill-muted-foreground/80">Screening: nitroblue tetrazolium / DHR flow</text>
+        <text x="628" y="412" fontSize="6.2" className="fill-muted-foreground/80">assay fail to reduce dye (no burst) — KYP bridge.</text>
+      </g>
+
+      {/* ===== type I interferons ===== */}
+      <g>
+        <rect x="36" y="452" width="908" height="180" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <rect x="36" y="452" width="908" height="30" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.4" />
+        <text x="490" y="472" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">TYPE I INTERFERONS — IFN-α, IFN-β (the innate antiviral state)</text>
+
+        {/* mechanism card */}
+        <g>
+          <rect x="52" y="494" width="360" height="126" rx="9" className="fill-secondary" />
+          <text x="66" y="512" fontSize="7.2" fontWeight="800" className="fill-foreground">MECHANISM</text>
+          <text x="66" y="528" fontSize="6.3" className="fill-muted-foreground">· Part of innate host defense; interfere with</text>
+          <text x="78" y="539" fontSize="6.3" className="fill-muted-foreground">both RNA and DNA viruses</text>
+          <text x="66" y="554" fontSize="6.3" className="fill-muted-foreground">· Virus-infected cells synthesize these</text>
+          <text x="78" y="565" fontSize="6.3" className="fill-muted-foreground">glycoproteins, acting on LOCAL cells</text>
+          <text x="66" y="580" fontSize="6.3" className="fill-muted-foreground">· Prime neighbors: ↓ protein synthesis</text>
+          <text x="78" y="591" fontSize="6.3" className="fill-muted-foreground">(resist viral replication) + ↑ MHC expression</text>
+          <text x="78" y="602" fontSize="6.3" className="fill-muted-foreground">(facilitate recognition of infected cells)</text>
+          <text x="66" y="616" fontSize="6.3" fontWeight="700" className="fill-brand">· Major role in activating antitumor immunity</text>
+        </g>
+
+        {/* clinical uses card */}
+        <g>
+          <rect x="424" y="494" width="252" height="126" rx="9" className="fill-secondary" />
+          <text x="438" y="512" fontSize="7.2" fontWeight="800" className="fill-foreground">CLINICAL USES</text>
+          {[
+            "Chronic HBV", "Kaposi sarcoma", "Hairy cell leukemia",
+            "Condyloma acuminatum", "Renal cell carcinoma", "Malignant melanoma", "Multiple sclerosis",
+          ].map((t, i) => (
+            <text key={t} x={438 + (i % 2) * 122} y={530 + Math.floor(i / 2) * 16} fontSize="6.3" className="fill-muted-foreground">· {t}</text>
+          ))}
+        </g>
+
+        {/* adverse effects card */}
+        <g>
+          <rect x="688" y="494" width="240" height="126" rx="9" className="fill-secondary" />
+          <text x="702" y="512" fontSize="7.2" fontWeight="800" className="fill-foreground">ADVERSE EFFECTS</text>
+          {[
+            "Flulike symptoms", "Depression", "Neutropenia", "Myopathy",
+            "Interferon-induced autoimmunity",
+          ].map((t, i) => (
+            <text key={t} x="702" y={532 + i * 17} fontSize="6.3" className="fill-muted-foreground">· {t}</text>
+          ))}
+        </g>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="656" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's phagolysosome cascade diagram (pdf 129 / book 107 — pure vector in the source; FA's printed 'NO Safe Microbe' mnemonic is NOT reproduced). Verbatim respiratory-burst, CGD, and interferon text in the note's table and mechanisms.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E33 — Cell surface proteins: the CD marker map
+// (source: "Cell surface proteins", pdf 130 / book 108 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function CdMarkerMap() {
+  const w = 980;
+  const h = 640;
+  const rows = [
+    { cell: "T CELLS (all)", markers: [["TCR", "binds antigen-MHC complex"], ["CD3", "associated with TCR for signal transduction"], ["CD28", "binds B7 on APC"]] },
+    { cell: "HELPER T", markers: [["CD4", "MHC II clamp"], ["CD40L", "engages CD40 on B cells/macrophages"], ["CXCR4/CCR5", "coreceptors for HIV"]] },
+    { cell: "CYTOTOXIC T", markers: [["CD8", "MHC I clamp"]] },
+    { cell: "REGULATORY T", markers: [["CD4", "helper chassis"], ["CD25", "IL-2 receptor α — the Treg badge"]] },
+    { cell: "B CELLS", markers: [["Ig", "binds antigen"], ["CD19, CD20", "the B-cell ID pair"], ["CD21", "receptor for Epstein-Barr virus"], ["CD40, MHC II, B7", "APC machinery"]] },
+    { cell: "NK CELLS", markers: [["CD16", "binds Fc of IgG (ADCC)"], ["CD56", "suggestive marker for NK cells"]] },
+    { cell: "MACROPHAGES", markers: [["CD14", "receptor for PAMPs (eg, LPS)"], ["CD40, CCR5, MHC II, B7", "activation + APC machinery"], ["Fc, C3b receptors", "enhanced phagocytosis"]] },
+    { cell: "HEMATOPOIETIC STEM", markers: [["CD34", "the stem-cell harvest marker"]] },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Cell surface proteins, an original KYP marker map. Eight cell rows with their CD markers and functions. T cells: TCR binds antigen-MHC complex; CD3 is associated with TCR for signal transduction; CD28 binds B7 on APC. Helper T cells: CD4, CD40L, CXCR4/CCR5 coreceptors for HIV. Cytotoxic T cells: CD8. Regulatory T cells: CD4, CD25. B cells: Ig binds antigen; CD19; CD20; CD21 the receptor for Epstein-Barr virus; CD40, MHC II, B7 (CD80/86). NK cells: CD16 binds Fc of IgG; CD56 a suggestive marker. Macrophages: CD14 receptor for PAMPs such as LPS; CD40; CCR5; MHC II; B7; Fc and C3b receptors for enhanced phagocytosis. Hematopoietic stem cells: CD34. Bottom strip: the drug-target bridge — anti-CD3 for transplant rejection, rituximab anti-CD20 for B-cell lymphoma, basiliximab anti-CD25 for transplant (KYP extension) — and the flow-cytometry reading skill this map enables" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Cell surface proteins — the CD marker map (original KYP diagram)</text>
+        <rect x="776" y="24" width="156" height="18" rx="9" className="fill-brand-soft" />
+        <text x="854" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the identification codes</text>
+      </g>
+
+      {/* rows */}
+      {rows.map((r, i) => (
+        <g key={r.cell}>
+          <rect x="36" y={76 + i * 52} width="908" height="46" rx="9" className={i % 2 === 0 ? "fill-card" : "fill-secondary"} stroke="currentColor" strokeWidth="0.8" />
+          <rect x="42" y={82 + i * 52} width="150" height="34" rx="7" className="fill-brand-soft stroke-brand" strokeWidth="1.1" />
+          <text x="117" y={100 + i * 52} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.cell}</text>
+          {r.markers.map((m, j) => {
+            const total = r.markers.length;
+            const zoneW = 720 / total;
+            const x = 202 + j * zoneW;
+            return (
+              <g key={m[0]}>
+                <rect x={x} y={83 + i * 52} width={zoneW - 8} height="32" rx="6" className="fill-card stroke-border" strokeWidth="0.9" />
+                <text x={x + 8} y={96 + i * 52} fontSize="7" fontWeight="800" className="fill-foreground">{m[0]}</text>
+                <text x={x + 8} y={107 + i * 52} fontSize="5.9" className="fill-muted-foreground">{m[1].length > 44 ? m[1].slice(0, 44) : m[1]}</text>
+              </g>
+            );
+          })}
+        </g>
+      ))}
+
+      {/* bottom strip: drug targets + flow reading */}
+      <g>
+        <rect x="36" y="500" width="908" height="92" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="522" fontSize="8.2" fontWeight="800" className="fill-foreground">WHY THE MAP MATTERS — drug targets and flow-cytometry reading (KYP bridge)</text>
+        <text x="54" y="540" fontSize="6.5" className="fill-muted-foreground">· Anti-CD3 (muromonab) depletes ALL T cells in transplant rejection · Rituximab (anti-CD20) depletes</text>
+        <text x="54" y="551" fontSize="6.5" className="fill-muted-foreground">  B cells in CD20+ lymphoma and autoimmunity · Basiliximab (anti-CD25, the IL-2R α chain) blocks</text>
+        <text x="54" y="562" fontSize="6.5" className="fill-muted-foreground">  T-cell proliferation in transplant · Alemtuzumab (anti-CD52) depletes broad lymphocytes (MS).</text>
+        <text x="54" y="582" fontSize="6.5" className="fill-muted-foreground">· Flow reading: CD3+CD4+ = helper T · CD3+CD8+ = cytotoxic T · CD3+CD4+CD25+FOXP3+ = Treg ·</text>
+        <text x="54" y="593" fontSize="6.5" className="fill-muted-foreground">  CD19/CD20+ = B cell · CD56+/CD16+ (CD3−) = NK · CD34+ = stem cell. HIV enters via CXCR4/CCR5 on CD4+ cells.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="624" fontSize="7.2" className="fill-muted-foreground">Original KYP marker map (pdf 130 / book 108 — pure vector source table; FA's printed 'Must be 21 to drink at a Barr' mnemonic NOT reproduced). Verbatim marker text is the note's table block; drug names are labeled KYP extension.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E34 — Active vs passive immunity & the vaccine-type spectrum
+// (source: pdf 130-131 / book 108-109 — pure vector tables; 3 rasters on p131
+//  are decorative spotlights, not content)
+// ---------------------------------------------------------------------------
+
+export function VaccineTypeSpectrum() {
+  const w = 980;
+  const h = 700;
+  const cards = [
+    {
+      name: "LIVE ATTENUATED", color: "fill-emergency/10", stroke: "stroke-emergency",
+      desc: "Microorganism rendered nonpathogenic but retains capacity for transient growth within inoculated host.",
+      pros: ["Cellular AND humoral responses;", "strong, often lifelong immunity"],
+      cons: ["May revert to virulent form;", "contraindicated in pregnancy and", "immunodeficiency (HIV CD4 ≥200:", "MMR/varicella allowed, consult)"],
+      ex: ["Adenovirus (nonattenuated,", "military), typhoid (Ty21a oral),", "polio (Sabin), varicella, smallpox,", "BCG, yellow fever, influenza", "(intranasal), MMR, rotavirus"],
+    },
+    {
+      name: "KILLED / INACTIVATED", color: "fill-warning-soft", stroke: "stroke-warning",
+      desc: "Pathogen inactivated by heat or chemicals; maintaining epitope structure on surface antigens is important.",
+      pros: ["Safer than live vaccines"],
+      cons: ["Weaker cell-mediated response;", "mainly humoral; booster shots", "usually needed"],
+      ex: ["Hepatitis A, typhoid (Vi", "polysaccharide IM), rabies,", "influenza (IM), polio (SalK)"],
+    },
+    {
+      name: "SUBUNIT / CONJUGATE", color: "fill-brand-soft", stroke: "stroke-brand",
+      desc: "Specific antigens that best stimulate the immune system (recombinant, polysaccharide, conjugate).",
+      pros: ["Targets specific epitopes →", "↓ adverse reactions"],
+      cons: ["Expensive; weaker immune", "response"],
+      ex: ["HBV (HBsAg), HPV, acellular", "pertussis (aP), N meningitidis,", "S pneumoniae (PPSV23 vs", "conjugate), Hib, herpes zoster"],
+    },
+    {
+      name: "TOXOID", color: "fill-primary/15", stroke: "stroke-primary",
+      desc: "Denatured bacterial toxin with an intact receptor binding site — antibodies without disease.",
+      pros: ["Protects against the", "bacterial toxins"],
+      cons: ["Antitoxin levels decrease", "with time — booster shots", "may be needed"],
+      ex: ["Clostridium tetani", "Corynebacterium diphtheriae"],
+    },
+    {
+      name: "mRNA", color: "fill-secondary", stroke: "stroke-foreground",
+      desc: "Lipid nanoparticle delivers mRNA, causing cells to synthesize foreign protein (eg, SARS-CoV-2 spike).",
+      pros: ["High efficacy; cellular AND", "humoral immunity.", "Safe in pregnancy"],
+      cons: ["Local and transient systemic", "reactions common (fatigue,", "headache, myalgia); rare", "myocarditis/pericarditis in", "young males"],
+      ex: ["SARS-CoV-2, adult RSV LRT", "disease, CMV (congenital and", "immunocompromised),", "melanoma (therapeutic)"],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Active vs passive immunity and the vaccine-type spectrum, an original KYP diagram. Top strip: passive immunity means receiving preformed antibodies with rapid onset and short duration (antibody half-life about 3 weeks; examples IgA in breast milk, maternal IgG crossing the placenta, antitoxin, humanized monoclonal antibody; IVIG provides temporary but specific passive immunity), while active immunity means exposure to exogenous antigens with slow onset and long-lasting memory protection (natural infection, vaccines, toxoid). Five vaccine-type cards: live attenuated (nonpathogenic organism with transient growth; cellular and humoral responses, strong often lifelong immunity; may revert, contraindicated in pregnancy and immunodeficiency with the HIV CD4 200 exception; adenovirus, oral typhoid Ty21a, Sabin polio, varicella, smallpox, BCG, yellow fever, intranasal influenza, MMR, rotavirus); killed or inactivated (heat or chemical inactivation, epitope structure maintained, mainly humoral, safer, boosters needed; hepatitis A, Vi typhoid intramuscular, rabies, intramuscular influenza, Salk polio); subunit recombinant polysaccharide conjugate (specific antigens, fewer adverse reactions, expensive and weaker; HBV HBsAg, HPV, acellular pertussis, meningococcus, PPSV23 versus conjugate pneumococcal, Hib, herpes zoster); toxoid (denatured toxin with intact receptor binding site; tetanus and diphtheria; antitoxin wanes, boosters needed); mRNA (lipid nanoparticle delivers mRNA for cells to synthesize foreign protein; high efficacy, cellular and humoral, safe in pregnancy; common transient reactions, rare myocarditis in young males; SARS-CoV-2, adult RSV, CMV, melanoma therapeutic). Bottom strip: the conjugate trick — polysaccharides are T-cell-independent (PPSV23), but conjugating to a carrier protein produces a T-cell-dependent response with class switching and memory; and combined passive plus active immunization for hepatitis B or rabies exposure" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Active vs passive immunity — and the vaccine-type spectrum (original KYP diagram)</text>
+        <rect x="772" y="24" width="160" height="18" rx="9" className="fill-brand-soft" />
+        <text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">vaccines = active, trained</text>
+      </g>
+
+      {/* ===== active vs passive strip ===== */}
+      <g>
+        <rect x="36" y="76" width="442" height="120" rx="12" className="fill-card stroke-brand" strokeWidth="1.3" />
+        <rect x="36" y="76" width="442" height="28" rx="12" className="fill-brand-soft stroke-brand" strokeWidth="1.3" />
+        <text x="257" y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">ACTIVE</text>
+        <text x="52" y="118" fontSize="6.5" className="fill-muted-foreground">Means: exposure to exogenous antigens</text>
+        <text x="52" y="131" fontSize="6.5" className="fill-muted-foreground">Onset: slow · Duration: long-lasting protection (memory)</text>
+        <text x="52" y="144" fontSize="6.5" className="fill-muted-foreground">Examples: natural infection, vaccines, toxoid</text>
+        <text x="52" y="162" fontSize="6.4" fontWeight="700" className="fill-brand">Vaccination induces an active immune response</text>
+        <text x="52" y="173" fontSize="6.4" fontWeight="700" className="fill-brand">(humoral and/or cellular) to specific pathogens</text>
+        <text x="52" y="188" fontSize="6.2" className="fill-muted-foreground">Memory is the payoff: boosters train the response.</text>
+      </g>
+      <g>
+        <rect x="502" y="76" width="442" height="120" rx="12" className="fill-card stroke-emergency" strokeWidth="1.3" />
+        <rect x="502" y="76" width="442" height="28" rx="12" className="fill-emergency/10 stroke-emergency" strokeWidth="1.3" />
+        <text x="723" y="95" textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">PASSIVE</text>
+        <text x="518" y="118" fontSize="6.5" className="fill-muted-foreground">Means: receiving preformed antibodies</text>
+        <text x="518" y="131" fontSize="6.5" className="fill-muted-foreground">Onset: rapid · Duration: short (half-life = 3 weeks)</text>
+        <text x="518" y="144" fontSize="6.5" className="fill-muted-foreground">Examples: IgA in breast milk, maternal IgG crossing placenta,</text>
+        <text x="518" y="155" fontSize="6.5" className="fill-muted-foreground">antitoxin, humanized monoclonal antibody</text>
+        <text x="518" y="172" fontSize="6.4" fontWeight="700" className="fill-emergency">IVIG and immune globulin preparations give temporary</text>
+        <text x="518" y="183" fontSize="6.4" fontWeight="700" className="fill-emergency">but specific passive immunity to a target pathogen</text>
+      </g>
+
+      {/* ===== five vaccine cards ===== */}
+      {cards.map((c, i) => {
+        const x = 36 + (i % 3) * 310;
+        const y = 212 + Math.floor(i / 3) * 250;
+        return (
+          <g key={c.name}>
+            <rect x={x} y={y} width="294" height="238" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+            <rect x={x} y={y} width="294" height="26" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+            <text x={x + 147} y={y + 18} textAnchor="middle" fontSize="8.2" fontWeight="800" className="fill-foreground">{c.name}</text>
+            <text x={x + 12} y={y + 40} fontSize="5.9" fontWeight="700" className="fill-muted-foreground">WHAT</text>
+            {c.desc.match(/.{1,46}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+              <text key={j} x={x + 12} y={y + 51 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+            <text x={x + 12} y={y + 86} fontSize="5.9" fontWeight="700" className="fill-brand">PROS</text>
+            {c.pros.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 96 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 12} y={y + 122} fontSize="5.9" fontWeight="700" className="fill-emergency">CONS</text>
+            {c.cons.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 132 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 12} y={y + 178} fontSize="5.9" fontWeight="700" className="fill-foreground">EXAMPLES</text>
+            {c.ex.map((line, j) => (
+              <text key={j} x={x + 12} y={y + 188 + j * 9} fontSize="5.6" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* conjugate / combined strip (right of the 4th-5th cards zone) */}
+      <g>
+        <rect x="666" y="462" width="278" height="238" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="682" y="486" fontSize="8" fontWeight="800" className="fill-foreground">THE CONJUGATE TRICK</text>
+        <text x="682" y="504" fontSize="6.2" className="fill-muted-foreground">A pure polysaccharide (PPSV23) is</text>
+        <text x="682" y="514" fontSize="6.2" className="fill-muted-foreground">primarily a T-cell-INdependent</text>
+        <text x="682" y="524" fontSize="6.2" className="fill-muted-foreground">response — weak, IgM-leaning, no</text>
+        <text x="682" y="534" fontSize="6.2" className="fill-muted-foreground">class switching, no memory (E28).</text>
+        <text x="682" y="552" fontSize="6.2" className="fill-muted-foreground">Conjugate the polysaccharide to a</text>
+        <text x="682" y="562" fontSize="6.2" className="fill-muted-foreground">carrier protein and it gains a</text>
+        <text x="682" y="572" fontSize="6.2" className="fill-muted-foreground">T-cell-DEPENDENT response:</text>
+        <text x="682" y="582" fontSize="6.2" className="fill-muted-foreground">class switching + memory — the</text>
+        <text x="682" y="592" fontSize="6.2" className="fill-muted-foreground">design logic of PCV13, Hib, and</text>
+        <text x="682" y="602" fontSize="6.2" className="fill-muted-foreground">meningococcal conjugates.</text>
+        <rect x="678" y="616" width="254" height="70" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+        <text x="692" y="634" fontSize="6.6" fontWeight="800" className="fill-foreground">COMBINED PROTOCOL</text>
+        <text x="692" y="650" fontSize="6.2" className="fill-muted-foreground">Combined passive AND active</text>
+        <text x="692" y="660" fontSize="6.2" className="fill-muted-foreground">immunizations for hepatitis B or</text>
+        <text x="692" y="670" fontSize="6.2" className="fill-muted-foreground">rabies exposure: antibodies now</text>
+        <text x="692" y="680" fontSize="6.2" className="fill-muted-foreground">(passive) + vaccine memory later.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="718" fontSize="7.2" className="fill-muted-foreground">Original KYP diagram (pdf 130-131 / book 108-109 — pure vector tables in the source; the p131 rasters are decorative spotlights, not content; FA's printed mnemonics NOT reproduced). Verbatim tables are the note's table blocks.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E36 — B-cell immunodeficiencies: Bruton, IgA deficiency, CVID
+// (source: "Immunodeficiencies / B-cell disorders", pdf 136 / book 114)
+// ---------------------------------------------------------------------------
+
+export function BCellDeficiencyMap() {
+  const w = 980;
+  const h = 640;
+  const cards = [
+    {
+      name: "X-LINKED (BRUTON) AGAMMAGLOBULINEMIA", tag: "X-linked recessive (↑ in Boys)",
+      color: "fill-emergency/10", stroke: "stroke-emergency",
+      defect: ["Defect in BTK, a tyrosine kinase gene", "→ NO B-cell maturation"],
+      pres: ["Recurrent bacterial and enteroviral", "infections after 6 months", "(↓ maternal IgG)"],
+      find: ["Absent B cells in peripheral blood;", "↓ Ig of ALL classes; absent/scanty lymph", "nodes and tonsils (1° follicles and", "germinal centers absent) → live", "vaccines contraindicated"],
+      stage: "EARLY arrest: pre-B cell cannot mature — the lineage never leaves the marrow station.",
+    },
+    {
+      name: "SELECTIVE IgA DEFICIENCY", tag: "Most common 1° immunodeficiency",
+      color: "fill-warning-soft", stroke: "stroke-warning",
+      defect: ["May be familial or sporadic; may", "arise 2° to viral infections or", "medications (a switch-specific failure)"],
+      pres: ["Majority asymptomatic; airway and", "GI infections; autoimmune disease", "(eg, celiac); atopy; anaphylaxis", "to IgA in blood products"],
+      find: ["↓ IgA with NORMAL IgG and IgM;", "↑ susceptibility to giardiasis;", "false-negative celiac test and", "false-positive serum pregnancy test"],
+      stage: "CLASS-SPECIFIC: one isotype missing — the B-cell and plasma-cell lines are intact.",
+    },
+    {
+      name: "COMMON VARIABLE IMMUNODEFICIENCY", tag: "Diagnosed usually after puberty",
+      color: "fill-brand-soft", stroke: "stroke-brand",
+      defect: ["Defect in B-CELL DIFFERENTIATION;", "cause unknown in most cases"],
+      pres: ["May present in childhood but usually", "diagnosed after puberty; ↑ risk of", "autoimmune disease, bronchiectasis,", "lymphoma, sinopulmonary infections"],
+      find: ["↓ plasma cells, ↓ immunoglobulins", "(B cells PRESENT — the terminal", "differentiation step fails)"],
+      stage: "LATE arrest: B cells exist but cannot finish becoming plasma cells.",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="B-cell immunodeficiencies, an original KYP map of the three B-cell disorders by maturation stage. X-linked Bruton agammaglobulinemia: defect in BTK, a tyrosine kinase gene, causing no B-cell maturation; X-linked recessive, increased in boys; recurrent bacterial and enteroviral infections after 6 months as maternal IgG wanes; absent B cells in peripheral blood with low immunoglobulins of all classes; absent or scanty lymph nodes and tonsils with absent primary follicles and germinal centers; live vaccines contraindicated — the EARLY arrest. Selective IgA deficiency: the most common primary immunodeficiency, familial or sporadic or secondary to viral infections or medications; majority asymptomatic, with airway and GI infections, autoimmune disease like celiac, atopy, and anaphylaxis to IgA in blood products; low IgA with normal IgG and IgM, increased susceptibility to giardiasis, false-negative celiac testing and false-positive serum pregnancy tests — the CLASS-SPECIFIC failure. Common variable immunodeficiency: defect in B-cell differentiation with unknown cause in most cases; may present in childhood but usually diagnosed after puberty; increased risk of autoimmune disease, bronchiectasis, lymphoma, and sinopulmonary infections; low plasma cells and low immunoglobulins with B cells present — the LATE arrest. Bottom strip: the maturation-stage logic" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">B-cell immunodeficiencies — three diseases, three maturation stages (original KYP diagram)</text>
+        <rect x="772" y="24" width="160" height="18" rx="9" className="fill-brand-soft" />
+        <text x="852" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">where the lineage stops</text>
+      </g>
+
+      {/* three disease cards */}
+      {cards.map((c, i) => {
+        const x = 36 + i * 308;
+        return (
+          <g key={c.name}>
+            <rect x={x} y="76" width="292" height="360" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+            <rect x={x} y="76" width="292" height="44" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+            <text x={x + 146} y="93" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-foreground">{c.name.split(" ").slice(0, 3).join(" ")}</text>
+            <text x={x + 146} y="104" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{c.name.split(" ").slice(3).join(" ")}</text>
+            <rect x={x + 10} y="128" width="272" height="16" rx="6" className="fill-secondary" />
+            <text x={x + 146} y="139" textAnchor="middle" fontSize="6.2" fontWeight="700" className="fill-muted-foreground">{c.tag}</text>
+            <text x={x + 14} y="162" fontSize="6.6" fontWeight="800" className="fill-emergency">DEFECT</text>
+            {c.defect.map((line, j) => (
+              <text key={j} x={x + 14} y={172 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 14} y={210} fontSize="6.6" fontWeight="800" className="fill-warning">PRESENTATION</text>
+            {c.pres.map((line, j) => (
+              <text key={j} x={x + 14} y={220 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <text x={x + 14} y={262} fontSize="6.6" fontWeight="800" className="fill-brand">FINDINGS</text>
+            {c.find.map((line, j) => (
+              <text key={j} x={x + 14} y={272 + j * 9} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+            <rect x={x + 10} y="330" width="272" height="94" rx="9" className="fill-secondary" />
+            <text x={x + 24} y="350" fontSize="6.6" fontWeight="800" className="fill-foreground">STAGE LOGIC</text>
+            {c.stage.match(/.{1,42}(\s|$)/g)!.slice(0, 5).map((line, j) => (
+              <text key={j} x={x + 24} y={363 + j * 11} fontSize="6.2" className="fill-muted-foreground">{line.trim()}</text>
+            ))}
+          </g>
+        );
+      })}
+
+      {/* bottom strip: the maturation-stage ladder */}
+      <g>
+        <rect x="36" y="452" width="908" height="134" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="476" fontSize="8.2" fontWeight="800" className="fill-foreground">THE MATURATION LADDER — one lineage, three cut points</text>
+        {/* stations */}
+        {[
+          [70, "Stem cell", "→ pre-B", "(BTK needed)"],
+          [270, "Mature B cell", "surface IgM/IgD", "(Bruton: arrest HERE —", "no B cells at all)"],
+          [500, "Class switching", "IgA / IgG / IgE", "(IgA deficiency:", "the IgA switch fails)"],
+          [740, "Plasma cell", "antibody factory", "(CVID: arrest HERE —", "B cells present, ↓ plasma cells)"],
+        ].map(([x, t, l1, l2, l3], i, arr) => (
+          <g key={t as string}>
+            <rect x={x as number} y="492" width="180" height="72" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 90} y="510" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">{t}</text>
+            <text x={(x as number) + 90} y="524" textAnchor="middle" fontSize="6" className="fill-muted-foreground">{l1}</text>
+            <text x={(x as number) + 90} y="536" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">{l2}</text>
+            <text x={(x as number) + 90} y="548" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-muted-foreground">{l3}</text>
+            {i < arr.length - 1 && (
+              <path d={`M ${(x as number) + 182} 528 L ${(x as number) + 206} 528`} stroke="currentColor" className="text-border" strokeWidth="1.8" />
+            )}
+          </g>
+        ))}
+        <text x="54" y="580" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Bruton cuts early (no B cells — absent nodes and tonsils); IgA deficiency cuts one class switch; CVID cuts the last step (B cells present, plasma cells and immunoglobulins low).</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="614" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 136 / book 114 — the printed immunodeficiency table is pure vector; verbatim text in the note's table block). The T-cell, combined, and phagocyte sections of the same table belong to the effector-T-cells/phagocyte note (E37).</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E37 — T-cell, combined, and phagocyte immunodeficiencies: the spectrum map
+// (source: "Immunodeficiencies (continued)", pdf 136-137 / book 114-115)
+// ---------------------------------------------------------------------------
+
+export function ImmunodeficiencySpectrumMap() {
+  const w = 980;
+  const h = 720;
+  const zones = [
+    {
+      name: "T-CELL DISORDERS — cellular immunity fails", color: "fill-warning-soft", stroke: "stroke-warning", y: 76, hgt: 140,
+      cards: [
+        { n: "Thymic aplasia (DiGeorge)", d: "22q11 deletion; 3rd/4th pouches fail → absent thymus + parathyroids", p: "Conotruncal cardiac defects, cleft palate, tetany (↓Ca²⁺); recurrent viral/fungal", f: "↓ T cells, ↓ PTH, ↓ Ca²⁺; absent thymic shadow" },
+        { n: "IL-12 receptor deficiency", d: "↓ Th1 response (AR) — the MSMD archetype", p: "Disseminated mycobacterial + fungal infections; may follow BCG", f: "↓ IFN-γ" },
+        { n: "Hyper-IgE (Job) syndrome", d: "STAT3 mutation → Th17 deficiency → poor neutrophil recruitment (AD)", p: "COLD staphylococcal abscesses, coarse facies, retained baby teeth, eczema, fractures", f: "↑ IgE, ↑ eosinophils" },
+        { n: "Chronic mucocutaneous candidiasis", d: "T-cell dysfunction vs Candida; classic form = AIRE defects", p: "Persistent NONinvasive Candida of skin + mucous membranes", f: "Absent T-cell response to Candida antigens" },
+      ],
+    },
+    {
+      name: "B- AND T-CELL DISORDERS — combined failure", color: "fill-emergency/10", stroke: "stroke-emergency", y: 232, hgt: 160,
+      cards: [
+        { n: "Severe combined immunodeficiency (SCID)", d: "IL-2R γ chain (most common, XLR) · ADA deficiency (AR) · RAG → VDJ defect", p: "Failure to thrive, chronic diarrhea, thrush; recurrent viral, bacterial, fungal, protozoal", f: "↓ TRECs (newborn screen); absent thymic shadow, germinal centers, T cells" },
+        { n: "Ataxia-telangiectasia", d: "ATM defect → DNA damage undetected → mutations accumulate (AR)", p: "Ataxia, ocular/facial telangiectasias, IgA deficiency; radiation sensitivity", f: "↑ AFP, ↑ IgM; ↓ IgA/IgG/IgE; ↑ lymphoma/leukemia" },
+        { n: "Hyper-IgM syndrome", d: "Defective CD40L on Th cells → class switching fails (XLR)", p: "Severe pyogenic infections early; Pneumocystis, Cryptosporidium, CMV", f: "Normal/↑ IgM with ↓↓ IgG, IgA, IgE; no germinal centers" },
+        { n: "Wiskott-Aldrich syndrome", d: "WAS → actin cytoskeleton fails in leukocytes + platelets (XLR)", p: "Thrombocytopenia, eczema, recurrent pyogenic infections; autoimmunity, malignancy", f: "↓-normal IgG/IgM; ↑ IgE, IgA; FEWER, SMALLER platelets" },
+      ],
+    },
+    {
+      name: "PHAGOCYTE DYSFUNCTION — delivery or killing fails", color: "fill-brand-soft", stroke: "stroke-brand", y: 408, hgt: 152,
+      cards: [
+        { n: "Leukocyte adhesion deficiency (type 1)", d: "AR defect in LFA-1 integrin (CD18) → impaired migration/chemotaxis (C5a, IL-8, LTB4)", p: "Late cord separation (>30 days), ABSENT PUS, recurrent skin/mucosal bacterial infections", f: "↑ neutrophils in blood; NONE at infection sites; impaired wound healing" },
+        { n: "Chédiak-Higashi syndrome", d: "LYST defect → phagosome-lysosome fusion fails (AR)", p: "Partial albinism, progressive neurodegeneration, peripheral neuropathy, lymphohistiocytosis, pyogenic infections", f: "GIANT GRANULES in granulocytes + platelets; pancytopenia; coagulation defects" },
+        { n: "Chronic granulomatous disease", d: "NADPH oxidase defect → ↓ ROS/respiratory burst (X-linked most common)", p: "Catalase-POSITIVE organisms (S aureus, Aspergillus — E32); recurrent infections + granulomas", f: "Abnormal dihydrorhodamine (↓ green fluorescence); NBT fails to turn blue" },
+      ],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="T-cell, combined, and phagocyte immunodeficiencies, an original KYP spectrum map in three zones. T-cell disorders: thymic aplasia DiGeorge (22q11 deletion with absent thymus and parathyroids, conotruncal defects, cleft palate, hypocalcemia tetany, low T cells and PTH and calcium, absent thymic shadow); IL-12 receptor deficiency (low Th1, disseminated mycobacterial and fungal infections including after BCG, low IFN-gamma, the most common cause of Mendelian susceptibility to mycobacterial diseases); autosomal dominant hyper-IgE Job syndrome (STAT3 mutation, Th17 deficiency, impaired neutrophil recruitment, cold noninflamed staphylococcal abscesses, retained baby teeth, coarse facies, eczema, bone fractures, high IgE and eosinophils); chronic mucocutaneous candidiasis (T-cell dysfunction against Candida, classic form from AIRE defects, persistent noninvasive Candida of skin and mucous membranes). B- and T-cell disorders: severe combined immunodeficiency (IL-2R gamma chain most common X-linked, adenosine deaminase deficiency autosomal recessive, RAG VDJ recombination defect; failure to thrive, chronic diarrhea, thrush, recurrent viral bacterial fungal protozoal infections; low TRECs on newborn screening, absent thymic shadow, germinal centers, and T cells); ataxia-telangiectasia (ATM defect failing to detect DNA damage, ataxia, telangiectasias, IgA deficiency, radiation sensitivity, high AFP and IgM with low IgA IgG IgE, lymphoma and leukemia risk); hyper-IgM syndrome (defective CD40L, class switching defect, severe pyogenic and opportunistic infections, normal or high IgM with very low IgG IgA IgE, failure to make germinal centers); Wiskott-Aldrich syndrome (WAS mutation, actin cytoskeleton failure, thrombocytopenia, eczema, recurrent pyogenic infections, autoimmunity and malignancy risk, fewer and smaller platelets). Phagocyte dysfunction: leukocyte adhesion deficiency type 1 (LFA-1 integrin CD18 defect, impaired migration by C5a IL-8 leukotriene B4, late cord separation beyond 30 days, absent pus, high blood neutrophils absent at sites); Chediak-Higashi syndrome (LYST defect, phagosome-lysosome fusion failure, partial albinism, neurodegeneration, neuropathy, lymphohistiocytosis, giant granules in granulocytes and platelets, pancytopenia); chronic granulomatous disease (NADPH oxidase defect, catalase-positive organisms, granulomas, abnormal dihydrorhodamine test, nitroblue tetrazolium fails to turn blue)" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">The immunodeficiency spectrum — T, combined, and phagocyte zones (original KYP map)</text>
+        <rect x="784" y="24" width="148" height="18" rx="9" className="fill-brand-soft" />
+        <text x="858" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">which layer failed?</text>
+      </g>
+
+      {/* zones */}
+      {zones.map((z) => (
+        <g key={z.name}>
+          <rect x="36" y={z.y} width="908" height={z.hgt} rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x="36" y={z.y} width="908" height="26" rx="12" className={`${z.color} ${z.stroke}`} strokeWidth="1.3" />
+          <text x="490" y={z.y + 18} textAnchor="middle" fontSize="8.6" fontWeight="800" className="fill-foreground">{z.name}</text>
+          {z.cards.map((c, i) => {
+            const cw = z.cards.length === 4 ? 218 : 292;
+            const x = 48 + i * (cw + 10);
+            return (
+              <g key={c.n}>
+                <rect x={x} y={z.y + 34} width={cw} height={z.hgt - 44} rx="9" className="fill-secondary" />
+                <text x={x + 10} y={z.y + 48} fontSize="6.6" fontWeight="800" className="fill-foreground">{c.n}</text>
+                {[
+                  ["DEFECT", c.d],
+                  ["PRES", c.p],
+                  ["FIND", c.f],
+                ].map(([k, v], j) => (
+                  <g key={k as string}>
+                    <text x={x + 10} y={z.y + 60 + j * ((z.hgt - 76) / 3)} fontSize="5.6" fontWeight="800" className="fill-muted-foreground">{k}</text>
+                    {(v as string).match(/.{1,34}(\s|$)/g)!.slice(0, z.hgt > 150 ? 3 : 2).map((line, k2) => (
+                      <text key={k2} x={x + 10} y={z.y + 69 + j * ((z.hgt - 76) / 3) + k2 * 8} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+                    ))}
+                  </g>
+                ))}
+              </g>
+            );
+          })}
+        </g>
+      ))}
+
+      {/* bottom strip: exam signpost signatures */}
+      <g>
+        <rect x="36" y="576" width="908" height="94" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="598" fontSize="8.2" fontWeight="800" className="fill-foreground">SIGNPOST SIGNATURES — the one-liner that names the zone (KYP bridge)</text>
+        {[
+          [54, "Absent pus + late cord + neutrophilia", "= LAD-1 (delivery fails)"],
+          [286, "Cold abscesses + coarse facies + baby teeth", "= Job/STAT3 (recruitment fails)"],
+          [518, "Tetany + conotruncal + absent thymic shadow", "= DiGeorge (the school is absent)"],
+        ].map(([x, t, s]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="610" width="222" height="48" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+            <text x={(x as number) + 12} y="628" fontSize="6.2" fontWeight="700" className="fill-foreground">{t}</text>
+            <text x={(x as number) + 12} y="642" fontSize="6.4" fontWeight="800" className="fill-brand">{s}</text>
+          </g>
+        ))}
+        <text x="54" y="666" fontSize="6.4" className="fill-muted-foreground">Catalase-positive infections + granulomas = CGD (killing fails) · Thrush + diarrhea + failure to thrive + ↓TREC = SCID (both adaptive arms fail) · Small platelets + eczema = WAS.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="694" fontSize="7.2" className="fill-muted-foreground">Original KYP map (pdf 136-137 / book 114-115 — the printed table is pure vector; its two clinical micrographs [telangiectasias, giant granules] are copyrighted and described, never reproduced; FA's printed CATCH-22/ABCDEF/WATER/PLAIN mnemonics NOT reproduced). Verbatim text in the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E38 — Infections in immunodeficiency: the bug-pattern matrix
+// (source: "Infections in immunodeficiency", pdf 138 / book 116 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function BugPatternMatrix() {
+  const w = 980;
+  const h = 660;
+  const cols = [
+    { name: "↓ T CELLS", x: 156, w: 196, color: "fill-warning-soft", logic: "CTLs + macrophage activation are the intracellular arm" },
+    { name: "↓ B CELLS", x: 356, w: 196, color: "fill-brand-soft", logic: "Opsonizing IgG vs capsules" },
+    { name: "↓ GRANULOCYTES", x: 556, w: 196, color: "fill-emergency/10", logic: "Phagocytes eat granule-negative/catalase-positive set" },
+    { name: "↓ COMPLEMENT", x: 756, w: 196, color: "fill-primary/15", logic: "MAC + C3b opsonin" },
+  ];
+  const rows = [
+    {
+      name: "BACTERIA", y: 130, h: 230,
+      cells: [
+        ["Sepsis"],
+        ["Encapsulated organisms:", "Pseudomonas aeruginosa,", "S pneumoniae, H influenzae", "type b, N meningitidis,", "E coli, Salmonella,", "Klebsiella pneumoniae,", "group B Streptococcus"],
+        ["Staphylococcus,", "Burkholderia cepacia,", "Pseudomonas aeruginosa,", "Nocardia, Serratia —", "the catalase-positive set", "of E32's CGD logic"],
+        ["Encapsulated species with", "EARLY complement", "deficiencies;", "Neisseria with LATE", "(C5-C9) deficiencies"],
+      ],
+    },
+    {
+      name: "VIRUSES", y: 364, h: 90,
+      cells: [
+        ["CMV, EBV, JC virus, VZV,", "chronic infection with", "respiratory/GI viruses"],
+        ["Enteroviral encephalitis,", "poliovirus (live vaccine", "contraindicated)"],
+        ["N/A"],
+        ["N/A"],
+      ],
+    },
+    {
+      name: "FUNGI/", y: 458, h: 90,
+      cells2: true,
+      cells: [
+        ["Candida (local), PCP,", "Cryptococcus"],
+        ["GI giardiasis (no IgA)"],
+        ["Candida (systemic),", "Aspergillus, Mucor"],
+        ["N/A"],
+      ],
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Infections in immunodeficiency, an original KYP matrix of pathogen rows (Bacteria, Viruses, Fungi and parasites) against four deficient components (low T cells, low B cells, low granulocytes, low complement). Bacteria: low T cells — sepsis; low B cells — encapsulated organisms (Pseudomonas aeruginosa, Streptococcus pneumoniae, Haemophilus influenzae type b, Neisseria meningitidis, Escherichia coli, Salmonella, Klebsiella pneumoniae, group B Streptococcus); low granulocytes — Staphylococcus, Burkholderia cepacia, Pseudomonas aeruginosa, Nocardia, Serratia; low complement — encapsulated species with early complement deficiencies, Neisseria with late C5-C9 deficiencies. Viruses: low T cells — CMV, EBV, JC virus, VZV, chronic respiratory and GI viruses; low B cells — enteroviral encephalitis and poliovirus (live vaccine contraindicated); granulocytes and complement — not applicable. Fungi and parasites: low T cells — Candida local, PCP, Cryptococcus; low B cells — GI giardiasis (no IgA); low granulocytes — Candida systemic, Aspergillus, Mucor; complement — not applicable. Bottom: B-cell deficiencies tend to produce recurrent bacterial infections whereas T-cell deficiencies produce more fungal and viral infections; and the column logic — T cells run the intracellular arm, B cells opsonize capsules, granulocytes phagocytose, complement fixes and lyses" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Infections in immunodeficiency — the bug-pattern matrix (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">the layer names the bugs</text>
+      </g>
+
+      {/* column headers */}
+      <g>
+        <rect x="36" y="76" width="112" height="42" rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+        <text x="92" y="101" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">PATHOGEN</text>
+        {cols.map((c) => (
+          <g key={c.name}>
+            <rect x={c.x} y="76" width={c.w} height="42" rx="9" className={`${c.color} stroke-border`} strokeWidth="1.2" />
+            <text x={c.x + c.w / 2} y="101" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">{c.name}</text>
+          </g>
+        ))}
+      </g>
+
+      {/* rows */}
+      {rows.map((r) => (
+        <g key={r.name}>
+          <rect x="36" y={r.y} width="112" height={r.h} rx="9" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="92" y={r.y + r.h / 2 - (r.cells2 ? 6 : 12)} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.name.split(" ")[0]}</text>
+          <text x="92" y={r.y + r.h / 2 + 2} textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">{r.name.split(" ").slice(1).join(" ")}</text>
+          {r.cells.map((cell, i) => (
+            <g key={i}>
+              <rect x={cols[i].x} y={r.y} width={cols[i].w} height={r.h} rx="9" className={cell[0] === "N/A" ? "fill-secondary/40" : "fill-card"} stroke="currentColor" strokeWidth="0.8" />
+              {cell[0] === "N/A" ? (
+                <text x={cols[i].x + cols[i].w / 2} y={r.y + r.h / 2 + 3} textAnchor="middle" fontSize="8" fontWeight="700" className="fill-muted-foreground/60">N/A</text>
+              ) : (
+                cell.map((line, j) => (
+                  <text key={j} x={cols[i].x + 12} y={r.y + 18 + j * 12} fontSize="6.2" className="fill-muted-foreground">{line}</text>
+                ))
+              )}
+            </g>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom strip: the printed note + column logic */}
+      <g>
+        <rect x="36" y="558" width="908" height="68" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="580" fontSize="7.8" fontWeight="800" className="fill-foreground">THE PRINTED RULE + THE COLUMN LOGIC (why each layer opens its own door)</text>
+        <text x="54" y="596" fontSize="6.8" fontWeight="700" className="fill-muted-foreground">B-cell deficiencies → recurrent BACTERIAL infections; T-cell deficiencies → more FUNGAL and VIRAL infections (the printed note).</text>
+        {cols.map((c, i) => (
+          <text key={c.name} x={54 + i * 226} y="614" fontSize="5.8" className="fill-muted-foreground">{c.name}: {c.logic.slice(0, 34)}</text>
+        ))}
+      </g>
+
+      {/* footer */}
+      <text x="24" y="648" fontSize="7.2" className="fill-muted-foreground">Original KYP matrix (pdf 138 / book 116 — the printed table is pure vector; FA's printed mnemonics 'Please SHINE my SKiS' and the granule-set phrase are NOT reproduced here — see the note's verbatim table). Verbatim cell text is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E39 — Transplant rejection: the four-station timeline
+// (source: "Transplant rejection", pdf 139 / book 117 — pure vector table;
+//  the A/B/C histopathology rasters are copyrighted and are described, not redrawn)
+// ---------------------------------------------------------------------------
+
+export function RejectionTimelineMap() {
+  const w = 980;
+  const h = 690;
+  const cards = [
+    {
+      name: "HYPERACUTE", time: "Within minutes", x: 36, color: "fill-emergency/10", stroke: "stroke-emergency",
+      patho: ["Pre-existing recipient antibodies", "react to donor antigen (type II", "hypersensitivity reaction),", "activate complement"],
+      feat: ["Widespread thrombosis of graft", "vessels → ischemia and", "fibrinoid necrosis.", "Graft must be removed."],
+      tx: "No salvage — the antibody was already there",
+    },
+    {
+      name: "ACUTE", time: "Weeks to months", x: 280, color: "fill-warning-soft", stroke: "stroke-warning",
+      patho: ["Cellular: CD8+ and/or CD4+ T cells", "activated against donor MHCs", "(type IV hypersensitivity).", "Humoral: like hyperacute but", "antibodies develop after", "transplant (C4d deposition)."],
+      feat: ["Vasculitis of graft vessels with", "dense interstitial lymphocytic", "infiltrate. Prevent/reverse", "with immunosuppressants."],
+      tx: "The treatable window — respond to immunosuppression",
+    },
+    {
+      name: "CHRONIC", time: "Months to years", x: 524, color: "fill-brand-soft", stroke: "stroke-brand",
+      patho: ["CD4+ T cells respond to recipient", "APCs presenting donor peptides,", "including allogeneic MHC. Both", "cellular and humoral (type II", "and IV hypersensitivity)."],
+      feat: ["Cytokines → vascular smooth muscle", "proliferation, parenchymal atrophy,", "interstitial fibrosis — dominated", "by arteriosclerosis. Examples:", "allograft nephropathy, bronchiolitis", "obliterans, accelerated", "atherosclerosis (heart), vanishing", "bile duct syndrome."],
+      tx: "Remodeling — the slow fibrotic endgame",
+    },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Transplant rejection, an original KYP timeline map of the four rejection types. The timeline runs from within minutes to weeks-to-months to months-to-years, with graft-versus-host disease off the clock (varies). Hyperacute (within minutes): pre-existing recipient antibodies react to donor antigen — a type II hypersensitivity reaction activating complement — causing widespread thrombosis of graft vessels with ischemia and fibrinoid necrosis; the graft must be removed. Acute (weeks to months): cellular rejection with CD8+ and/or CD4+ T cells activated against donor MHCs (type IV), or humoral rejection like hyperacute except antibodies develop after transplant with C4d deposition; features are vasculitis of graft vessels with a dense interstitial lymphocytic infiltrate, preventable or reversible with immunosuppressants. Chronic (months to years): CD4+ T cells respond to recipient APCs presenting donor peptides including allogeneic MHC, with both cellular and humoral components (types II and IV); recipient T cells secrete cytokines driving vascular smooth muscle proliferation, parenchymal atrophy, and interstitial fibrosis — dominated by arteriosclerosis, with organ-specific examples chronic allograft nephropathy, bronchiolitis obliterans, accelerated atherosclerosis of the heart, and vanishing bile duct syndrome. Graft-versus-host disease (varies): grafted immunocompetent T cells proliferate in the immunocompromised host and reject host cells with foreign proteins — severe organ dysfunction, risk rising with HLA mismatch, a type IV reaction; features are maculopapular rash, jaundice, diarrhea, and hepatosplenomegaly, usually in bone marrow and liver transplants (rich in lymphocytes), potentially beneficial in leukemia (graft-versus-tumor effect); immunocompromised patients receive irradiated blood products to prevent GVHD" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Transplant rejection — the four-station clock (original KYP diagram)</text>
+        <rect x="770" y="24" width="162" height="18" rx="9" className="fill-brand-soft" />
+        <text x="851" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">minutes → months → years</text>
+      </g>
+
+      {/* timeline bar */}
+      <g>
+        <line x1="60" y1="105" x2="700" y2="105" stroke="currentColor" className="text-border" strokeWidth="3" />
+        {[
+          [80, "Within minutes"],
+          [380, "Weeks to months"],
+          [660, "Months to years"],
+        ].map(([x, t]) => (
+          <g key={t as string}>
+            <circle cx={x as number} cy="105" r="8" className="fill-brand stroke-background" strokeWidth="2" />
+            <text x={x as number} y="90" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">{t}</text>
+          </g>
+        ))}
+        {/* GVHD off-clock marker */}
+        <line x1="700" y1="105" x2="740" y2="105" stroke="currentColor" className="text-border" strokeWidth="3" strokeDasharray="5 4" />
+        <circle cx="770" cy="105" r="8" className="fill-warning-soft stroke-warning" strokeWidth="2" />
+        <text x="770" y="90" textAnchor="middle" fontSize="7.4" fontWeight="800" className="fill-foreground">Varies (off the clock)</text>
+      </g>
+
+      {/* three timeline cards */}
+      {cards.map((c) => (
+        <g key={c.name}>
+          <rect x={c.x} y="132" width="228" height="308" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+          <rect x={c.x} y="132" width="228" height="30" rx="12" className={`${c.color} ${c.stroke}`} strokeWidth="1.3" />
+          <text x={c.x + 114} y="152" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">{c.name}</text>
+          <text x={c.x + 14} y="180" fontSize="6.6" fontWeight="800" className="fill-emergency">PATHOGENESIS</text>
+          {c.patho.map((line, j) => (
+            <text key={j} x={c.x + 14} y={190 + j * 9.5} fontSize="5.9" className="fill-muted-foreground">{line}</text>
+          ))}
+          <text x={c.x + 14} y={258} fontSize="6.6" fontWeight="800" className="fill-brand">FEATURES</text>
+          {c.feat.map((line, j) => (
+            <text key={j} x={c.x + 14} y={268 + j * 9.5} fontSize="5.9" className="fill-muted-foreground">{line}</text>
+          ))}
+          <rect x={c.x + 10} y={356} width="208" height="70" rx="8" className="fill-secondary" />
+          <text x={c.x + 22} y={376} fontSize="6.2" fontWeight="800" className="fill-foreground">WHAT IT MEANS</text>
+          {c.tx.match(/.{1,32}(\s|$)/g)!.map((line, j) => (
+            <text key={j} x={c.x + 22} y={388 + j * 10} fontSize="6" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* GVHD panel (full width, right of timeline cards zone) */}
+      <g>
+        <rect x="776" y="132" width="168" height="308" rx="12" className="fill-card stroke-warning" strokeWidth="1.4" />
+        <rect x="776" y="132" width="168" height="44" rx="12" className="fill-warning-soft stroke-warning" strokeWidth="1.3" />
+        <text x="860" y="150" textAnchor="middle" fontSize="8.4" fontWeight="800" className="fill-foreground">GRAFT-VS-HOST</text>
+        <text x="860" y="164" textAnchor="middle" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">DISEASE (GVHD)</text>
+        {[
+          "Grafted immunocompetent T", "cells proliferate in the", "immunocompromised host and", "reject HOST cells with", "“foreign” proteins → severe", "organ dysfunction (type IV).", "", "HLA mismatches ↑ risk.", "", "Maculopapular rash, jaundice,", "diarrhea, hepatosplenomegaly.", "Usually marrow + liver", "transplants (lymphocyte-rich).", "Graft-vs-TUMOR effect can", "benefit leukemia patients.", "Irradiate blood products in the", "immunocompromised to prevent.",
+        ].map((line, j) => (
+          <text key={j} x="788" y={188 + j * 10} fontSize="5.9" className={line === "" ? "fill-muted-foreground" : "fill-muted-foreground"}>{line}</text>
+        ))}
+      </g>
+
+      {/* bottom strip: direction + hypersensitivity mapping */}
+      <g>
+        <rect x="36" y="456" width="908" height="166" rx="12" className="fill-secondary stroke-border" strokeWidth="1.2" />
+        <text x="54" y="480" fontSize="8.2" fontWeight="800" className="fill-foreground">TWO ORGANIZING AXES — direction and hypersensitivity type</text>
+        {[
+          [54, "DIRECTION", ["Rejection: host immune system", "attacks the graft (the four", "stations at left, first three).", "GVHD: the GRAFT'S immune cells", "attack the HOST — the only", "direction-reversed entry."]],
+          [366, "HYPERSENSITIVITY MAP", ["Hyperacute = type II (preformed", "antibody + complement).", "Acute cellular = type IV (T cells", "vs donor MHC); acute humoral =", "II, after transplant, C4d+.", "Chronic = II AND IV both."]],
+          [678, "BIOPSY FIGURES (described)", ["A — hyperacute: thrombosed", "glomerular vessels (the printed", "micrograph). B — acute: dense", "interstitial lymphocytic infiltrate.", "C — chronic: graft arteriosclerosis.", "Copyrighted; conveyed as text."]],
+        ].map(([x, t, lines]) => (
+          <g key={t as string}>
+            <rect x={x as number} y="494" width="296" height="114" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+            <text x={(x as number) + 14} y="512" fontSize="6.8" fontWeight="800" className="fill-foreground">{t}</text>
+            {(lines as string[]).map((line, j) => (
+              <text key={j} x={(x as number) + 14} y={526 + j * 11} fontSize="6" className="fill-muted-foreground">{line}</text>
+            ))}
+          </g>
+        ))}
+        <text x="54" y="616" fontSize="6.4" fontWeight="700" className="fill-muted-foreground">Rule of thumb: the clock position predicts the mechanism — minutes means the antibody pre-existed; weeks-months means the adaptive response is new and treatable; years means remodeling.</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="646" fontSize="7.2" className="fill-muted-foreground">Original KYP timeline map (pdf 139 / book 117 — the printed table is pure vector; its three histopathology micrographs A/B/C are copyrighted and are described, never reproduced). Verbatim table text is the note's table block.</text>
+    </svg>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// E40 — Immunosuppressants: the T-helper-cell target map
+// (source: "Immununosuppressants", pdf 140-141 / book 118-119 — pure vector)
+// ---------------------------------------------------------------------------
+
+export function ImmunosuppressantTargetMap() {
+  const w = 980;
+  const h = 700;
+  const drugs = [
+    { n: "Cyclosporine", t: "Calcineurin inhibitor (binds cyclophilin)", tox: "Nephrotoxicity, hypertension, hyperlipidemia, neurotoxicity, gingival hyperplasia, hirsutism", ind: "Psoriasis, RA" },
+    { n: "Tacrolimus (FK506)", t: "Calcineurin inhibitor (binds FKBP)", tox: "Like cyclosporine + ↑ diabetes and neurotoxicity; NO gingival hyperplasia or hirsutism", ind: "Solid organ transplant" },
+    { n: "Sirolimus (rapamycin)", t: "mTOR inhibitor (binds FKBP)", tox: "Pancytopenia, insulin resistance, hyperlipidemia; NOT nephrotoxic", ind: "Kidney transplant prophylaxis; drug-eluting stents" },
+    { n: "Basiliximab", t: "Monoclonal antibody — blocks IL-2R", tox: "Edema, hypertension, tremor", ind: "Transplant induction (anti-CD25)" },
+    { n: "Azathioprine", t: "6-MP precursor — blocks nucleotide synthesis", tox: "Pancytopenia (↑ with allopurinol)", ind: "RA, Crohn, glomerulonephritis" },
+    { n: "Mycophenolate mofetil", t: "Inhibits IMP dehydrogenase (purine synthesis)", tox: "GI upset, pancytopenia, hypertension; less nephro/neurotoxic; CMV association", ind: "Glucocorticoid-sparing (rheumatic)" },
+    { n: "Glucocorticoids", t: "Inhibit NF-κB; ↓ cytokine transcription; induce T-cell apoptosis", tox: "Cushing, osteoporosis, hyperglycemia, psychosis, cataracts, AVN; adrenal insufficiency if stopped abruptly", ind: "Autoimmune/inflammatory, asthma, CLL/NHL" },
+  ];
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="Immunosuppressants, an original KYP target map of the T helper cell with each drug's blockade point. The T helper cell carries TCR-CD3 with CD4 and the IL-2 receptor (blocked at the surface by basiliximab). Inside: the calcineurin pathway — cyclosporine binds cyclophilin and tacrolimus binds FK506-binding protein, either complex blocking calcineurin so NFAT is not dephosphorylated and IL-2 transcription stops; the mTOR pathway — sirolimus binds FKBP and blocks mTOR, preventing the response to IL-2 (T-cell activation and B-cell differentiation); the NF-kappaB pathway — glucocorticoids inhibit NF-kappaB, suppressing both B- and T-cell function by decreasing transcription of many cytokines and inducing T-cell apoptosis; and the de novo purine synthesis arm — azathioprine (a 6-mercaptopurine precursor) and mycophenolate (an IMP dehydrogenase inhibitor) starve purine nucleotide synthesis and DNA replication. Bottom strip: the seven-drug roster with mechanism, toxicity, and indications, and the printed rules — combination for greater efficacy with less toxicity, and chronic suppression increasing the risk of infection and malignancy" className="min-w-[940px]">
+      {/* header */}
+      <g>
+        <rect x="24" y="14" width="932" height="46" rx="12" className="fill-card stroke-border" strokeWidth="1.4" />
+        <text x="42" y="42" fontSize="11" fontWeight="800" className="fill-foreground">Immunosuppressants — the T-helper-cell target map (original KYP redraw)</text>
+        <rect x="762" y="24" width="170" height="18" rx="9" className="fill-brand-soft" />
+        <text x="847" y="37" textAnchor="middle" fontSize="7.6" fontWeight="800" className="fill-brand">block activation → proliferation</text>
+      </g>
+
+      {/* ===== T helper cell ===== */}
+      <g>
+        <rect x="36" y="76" width="560" height="330" rx="20" className="fill-secondary/40 stroke-brand" strokeWidth="1.5" />
+        <text x="316" y="98" textAnchor="middle" fontSize="9" fontWeight="800" className="fill-foreground">T HELPER CELL</text>
+
+        {/* surface: TCR/CD3 + CD4 */}
+        <g>
+          <rect x="52" y="112" width="64" height="40" rx="8" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="84" y="130" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">TCR</text>
+          <text x="84" y="141" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">CD3</text>
+          <text x="84" y="164" textAnchor="middle" fontSize="6.4" className="fill-muted-foreground">CD4</text>
+        </g>
+        {/* IL-2R */}
+        <g>
+          <rect x="52" y="216" width="64" height="36" rx="8" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x="84" y="238" textAnchor="middle" fontSize="7" fontWeight="800" className="fill-foreground">IL-2R</text>
+        </g>
+        {/* Basiliximab blocker */}
+        <g>
+          <rect x="30" y="210" width="0" height="0" />
+          <rect x="8" y="212" width="94" height="44" rx="8" className="fill-emergency/10 stroke-emergency" strokeWidth="1.2" />
+          <text x="55" y="228" textAnchor="middle" fontSize="6.2" fontWeight="800" className="fill-emergency">Basiliximab</text>
+          <text x="55" y="238" textAnchor="middle" fontSize="5.6" className="fill-emergency">monoclonal antibody</text>
+          <text x="55" y="247" textAnchor="middle" fontSize="5.6" className="fill-emergency">BLOCKS IL-2R</text>
+          <path d="M 102 234 L 112 234" stroke="currentColor" className="text-emergency" strokeWidth="2" />
+        </g>
+
+        {/* Calcineurin → NFAT → IL-2 transcription */}
+        <g>
+          <rect x="150" y="106" width="200" height="100" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="124" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">CALCINEURIN PATHWAY</text>
+          <text x="162" y="140" fontSize="6" className="fill-muted-foreground">Cyclosporine + cyclophilin ·</text>
+          <text x="162" y="150" fontSize="6" className="fill-muted-foreground">Tacrolimus + FKBP → both</text>
+          <text x="162" y="160" fontSize="6" className="fill-muted-foreground">complexes BLOCK calcineurin</text>
+          <text x="162" y="174" fontSize="6" fontWeight="700" className="fill-foreground">→ NFAT not dephosphorylated →</text>
+          <text x="162" y="184" fontSize="6" fontWeight="700" className="fill-foreground">IL-2 TRANSCRIPTION blocked</text>
+          <text x="162" y="198" fontSize="5.6" className="fill-muted-foreground">(prevents T-cell activation)</text>
+        </g>
+
+        {/* mTOR */}
+        <g>
+          <rect x="150" y="218" width="200" height="86" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="236" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">mTOR PATHWAY</text>
+          <text x="162" y="252" fontSize="6" className="fill-muted-foreground">Sirolimus + FKBP → blocks mTOR</text>
+          <text x="162" y="264" fontSize="6" fontWeight="700" className="fill-foreground">→ no response to IL-2:</text>
+          <text x="162" y="274" fontSize="6" fontWeight="700" className="fill-foreground">T-cell activation + B-cell</text>
+          <text x="162" y="284" fontSize="6" fontWeight="700" className="fill-foreground">differentiation blocked</text>
+          <text x="162" y="298" fontSize="5.6" className="fill-muted-foreground">same FKBP, different target than tacrolimus</text>
+        </g>
+
+        {/* NF-κB */}
+        <g>
+          <rect x="150" y="316" width="200" height="76" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="250" y="334" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">NF-κB PATHWAY</text>
+          <text x="162" y="350" fontSize="6" className="fill-muted-foreground">Glucocorticoids inhibit NF-κB:</text>
+          <text x="162" y="361" fontSize="6" fontWeight="700" className="fill-foreground">↓ transcription of many cytokines</text>
+          <text x="162" y="371" fontSize="6" fontWeight="700" className="fill-foreground">(suppress B- and T-cell function)</text>
+          <text x="162" y="384" fontSize="5.8" className="fill-muted-foreground">+ induce T-cell apoptosis</text>
+        </g>
+
+        {/* purine synthesis arm */}
+        <g>
+          <rect x="366" y="106" width="216" height="286" rx="9" className="fill-brand-soft/20 stroke-brand" strokeWidth="1.2" />
+          <text x="474" y="126" textAnchor="middle" fontSize="7.2" fontWeight="800" className="fill-foreground">DE NOVO PURINE SYNTHESIS</text>
+          <text x="378" y="146" fontSize="6" className="fill-muted-foreground">Azathioprine → 6-MP (antimetabolite</text>
+          <text x="378" y="156" fontSize="6" className="fill-muted-foreground">precursor) → blocks nucleotide synthesis</text>
+          <text x="378" y="176" fontSize="6" className="fill-muted-foreground">Mycophenolate → reversibly inhibits</text>
+          <text x="378" y="186" fontSize="6" className="fill-muted-foreground">IMP dehydrogenase → no purines</text>
+          <text x="378" y="196" fontSize="6" className="fill-muted-foreground">for B and T cells</text>
+          <rect x="382" y="210" width="184" height="58" rx="8" className="fill-card stroke-border" strokeWidth="1" />
+          <text x="474" y="228" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">Purine nucleotides ↓ →</text>
+          <text x="474" y="240" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">DNA replication blocked →</text>
+          <text x="474" y="252" textAnchor="middle" fontSize="6.4" fontWeight="800" className="fill-foreground">lymphocyte proliferation fails</text>
+          <text x="378" y="292" fontSize="5.8" className="fill-muted-foreground">PRPP amidotransferase and IMP</text>
+          <text x="378" y="302" fontSize="5.8" className="fill-muted-foreground">dehydrogenase: the enzymes of the</text>
+          <text x="378" y="312" fontSize="5.8" className="fill-muted-foreground">printed diagram's synthesis arm.</text>
+          <rect x="382" y="330" width="184" height="52" rx="8" className="fill-emergency/5 stroke-emergency/60" strokeWidth="1" />
+          <text x="474" y="348" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">Both arms of the adaptive response</text>
+          <text x="474" y="360" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">feed one mission: block lymphocyte</text>
+          <text x="474" y="372" textAnchor="middle" fontSize="6" fontWeight="700" className="fill-foreground">activation and proliferation.</text>
+        </g>
+      </g>
+
+      {/* intro rules panel */}
+      <g>
+        <rect x="612" y="76" width="332" height="120" rx="12" className="fill-card stroke-border" strokeWidth="1.3" />
+        <text x="628" y="98" fontSize="8" fontWeight="800" className="fill-foreground">THE PRINTED RULES</text>
+        <text x="628" y="116" fontSize="6.4" className="fill-muted-foreground">· Agents that block lymphocyte activation and proliferation</text>
+        <text x="628" y="128" fontSize="6.4" className="fill-muted-foreground">· Reduce acute transplant rejection by suppressing cellular</text>
+        <text x="640" y="138" fontSize="6.4" className="fill-muted-foreground">immunity (used as prophylaxis)</text>
+        <text x="628" y="152" fontSize="6.4" className="fill-muted-foreground">· Frequently combined: greater efficacy with ↓ toxicity</text>
+        <text x="628" y="166" fontSize="6.4" className="fill-muted-foreground">· Chronic suppression ↑ risk of infection and malignancy</text>
+        <text x="628" y="184" fontSize="6.2" fontWeight="700" className="fill-emergency">Both calcineurin inhibitors are highly nephrotoxic — especially</text>
+        <text x="628" y="192" fontSize="6.2" fontWeight="700" className="fill-emergency">in higher doses or with ↓ renal function.</text>
+      </g>
+
+      {/* drug roster chips (right, continuing) */}
+      {drugs.slice(0, 3).map((d, i) => (
+        <g key={d.n}>
+          <rect x="612" y={208 + i * 68} width="332" height="62" rx="9" className="fill-card stroke-border" strokeWidth="1.1" />
+          <text x="626" y={224 + i * 68} fontSize="6.8" fontWeight="800" className="fill-foreground">{d.n}</text>
+          <text x="626" y={234 + i * 68} fontSize="5.6" className="fill-brand">{d.t}</text>
+          {d.tox.match(/.{1,52}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+            <text key={j} x="626" y={244 + j * 9 + i * 68} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom drug roster */}
+      {drugs.slice(3).map((d, i) => (
+        <g key={d.n}>
+          <rect x={36 + i * 232} y="424" width="222" height="180" rx="10" className="fill-card stroke-border" strokeWidth="1.2" />
+          <text x={50 + i * 232} y="444" fontSize="7" fontWeight="800" className="fill-foreground">{d.n}</text>
+          {d.t.match(/.{1,36}(\s|$)/g)!.slice(0, 2).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={456 + j * 9} fontSize="5.6" className="fill-brand">{line.trim()}</text>
+          ))}
+          <text x={50 + i * 232} y={480} fontSize="5.6" fontWeight="800" className="fill-emergency">TOXICITY</text>
+          {d.tox.match(/.{1,36}(\s|$)/g)!.slice(0, 5).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={490 + j * 8.5} fontSize="5.3" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+          <text x={50 + i * 232} y={540} fontSize="5.6" fontWeight="800" className="fill-foreground">INDICATIONS</text>
+          {d.ind.match(/.{1,36}(\s|$)/g)!.slice(0, 3).map((line, j) => (
+            <text key={j} x={50 + i * 232} y={550 + j * 8.5} fontSize="5.4" className="fill-muted-foreground">{line.trim()}</text>
+          ))}
+        </g>
+      ))}
+
+      {/* bottom note strip */}
+      <g>
+        <rect x="36" y="616" width="908" height="44" rx="9" className="fill-secondary" />
+        <text x="490" y="634" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Anchors: azathioprine + allopurinol = pancytopenia (6-MP is degraded by xanthine oxidase) · sirolimus NOT nephrotoxic (synergistic with cyclosporine; drug-eluting stents)</text>
+        <text x="490" y="648" textAnchor="middle" fontSize="6.6" fontWeight="700" className="fill-muted-foreground">Glucocorticoids: demargination causes artificial leukocytosis; abrupt withdrawal after chronic use → adrenal insufficiency · mycophenolate: invasive CMV association</text>
+      </g>
+
+      {/* footer */}
+      <text x="24" y="678" fontSize="7.2" className="fill-muted-foreground">Original KYP redraw of the source's T-helper-cell signaling diagram (pdf 140-141 / book 118-119 — pure vector; FA's printed mnemonics 'Sir Basil's kidney transplant' / 'Kidney sir-vives' NOT reproduced). Verbatim drug-table text is the note's table block.</text>
+    </svg>
+  );
+}

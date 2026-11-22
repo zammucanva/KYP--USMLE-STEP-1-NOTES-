@@ -1,0 +1,127 @@
+{
+  "topicId": "receptor-binding",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Panel 1 — the competitive-antagonist dose-response panel",
+      "sourceFigureDescription": "The page's first curve panel, vector line art (no raster): y-axis 100/50/0 gridlines, x-axis 'Agonist dose'; two parallel sigmoid curves both reaching the same 100 ceiling — the left curve labeled 'Agonist', the right curve labeled 'Agonist + competitive antagonist' — with a circled letter 'A' between the curves at the 50% level and the annotation 'Reduced potency' marking the rightward (parallel) shift.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (panel A of the ReceptorBindingMap — redrawn as vector sigmoids: agonist and a right-shifted agonist + competitive antagonist curve at the same 100% ceiling, the A marker, the 'Reduced potency' annotation and a horizontal shift arrow at the 50% level)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Panel 2 — the noncompetitive-antagonist dose-response panel",
+      "sourceFigureDescription": "The page's second curve panel, vector line art (no raster): same 100/50/0 axes and 'Agonist dose' x-axis; two sigmoid curves at the SAME left-right position — the full curve labeled 'Agonist' reaching 100 and the depressed curve labeled 'Agonist + noncompetitive antagonist' plateauing near 50 — with a circled letter 'B' and the annotation 'Reduced efficacy' marking the vertical drop of the ceiling.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (panel B of the ReceptorBindingMap — redrawn as vector sigmoids: agonist to 100% and agonist + noncompetitive antagonist to ~50% at the same EC50, the B marker, the 'Reduced efficacy' annotation and a vertical ceiling arrow)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "Panel 3 — the partial-agonist dose-response panel",
+      "sourceFigureDescription": "The page's third curve panel, vector line art (no raster): same axes; THREE sigmoid curves — the full curve labeled 'Agonist' reaching 100, an upper curve labeled 'Partial agonist' plateauing lower at the agonist's own EC50 (annotation 'Reduced efficacy' with a vertical arrow), and a lower curve labeled 'Partial C agonist' (the circled letter C marks table row C) plateauing lower still AND shifted right (annotation 'Independent potency' with a horizontal double arrow).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (panel C of the ReceptorBindingMap — redrawn as vector sigmoids: agonist to 100%, partial agonist to ~70% at the same EC50 with the 'Reduced efficacy' vertical arrow, and partial C agonist to ~40% shifted right with the 'Independent potency' horizontal arrow)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "receptor-binding",
+      "requiredInKYP": true,
+      "visualId": "receptor-binding-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The AGONIST WITH table — four rows verbatim",
+      "sourceFigureDescription": "The typeset table under the three panels, header 'AGONIST WITH | POTENCY | EFFICACY | REMARKS | EXAMPLE', rows: 'A Competitive antagonist | ↓ | No change | Can be overcome by ↑ agonist concentration | Diazepam (agonist) + flumazenil (competitive antagonist) on GABA A receptor.'; 'B Noncompetitive antagonist | No change | ↓ | Cannot be overcome by ↑ agonist concentration | Norepinephrine (agonist) + phenoxybenzamine (noncompetitive antagonist) on α-receptors.'; 'C Partial agonist (alone) | Independent | ↓ | Acts at same site as full agonist | Morphine (full agonist) vs buprenorphine (partial agonist) at opioid μ-receptors.'; 'Inverse agonist (alone) | Independent | Negative | Binds to a constitutively active receptor, thereby reducing its activity; has the opposite effect of an agonist | H1 antihistamines (eg, diphenhydramine)'. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "receptor-binding-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the AGONIST WITH grid of the ReceptorBindingMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "receptor-binding-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "receptor-binding",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 3,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 255). The Receptor binding section is typeset text plus three vector curve panels. The AGONIST WITH table prints in the text layer and is carried verbatim in the note's table blocks and re-typeset in the registry visual's table grid (ORIGINAL_KYP_ADAPTATION) — short attributed rows, not artwork reproductions. The three dose-response panels are vector line-art curves in the PDF and are redrawn as ORIGINAL_KYP_REDRAW vector sigmoids in the registry visual — the curve shapes are the standard Hill sigmoids of pharmacodynamics, re-drawn from scratch; no copyrighted artwork is reproduced. The Receptor binding section prints NO margin mnemonic (the page's only printed mnemonic, 'TITE', lives in the EXCLUDED Therapeutic index section); the KYP memory layer adds four original codes. No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the Therapeutic index section on the same page (header, Measurement of drug safety, TD50/ED50, therapeutic window, TITE, the low-TI monitoring list, LD50, and the Efficacy/Toxicity quantal-curve panel) belongs to the separate pending topic PH9 (therapeutic-index) and is NOT part of this topic's inventory."
+}

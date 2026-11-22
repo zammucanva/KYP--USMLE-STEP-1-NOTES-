@@ -1,0 +1,127 @@
+{
+  "topicId": "urine-ph-and-drug-elimination",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-and-drug-elimination",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-and-drug-elimination-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Ionized species formation (%) vs pH graph",
+      "sourceFigureDescription": "The graph printed in the pKa row: y-axis 'Ionized species formation (%)' with gridlines 100, 50, and 0 (the 50% line is where pKa is read — 50% ionized / 50% nonionized); x-axis 'pH' with ticks 4, 8, 12, 14. TWO sigmoid curves: the 'Weak acid' curve rises with pH (a weak acid ionizes as pH climbs above its pKa — deprotonation RCOOH → RCOO– + H+) and the 'Weak base' curve falls with pH (a weak base ionizes as pH drops below its pKa — protonation RNH2 + H+ → RNH3+), the weak-base curve's 50% crossing labeled 'pKa: 9.2'. Below the x-axis the graph annotates the pKa axis: 'pKa = more acidic' (left) and 'pKa = more basic' (right). A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "urine-ph-elimination-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the graph panel of the UrinePhEliminationMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-elimination-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-and-drug-elimination",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-and-drug-elimination-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Weak acids row with its ionization strip",
+      "sourceFigureDescription": "The row printed under the section header: 'Weak acids — Examples: phenobarbital, methotrexate, aspirin (salicylates). Treat overdose with sodium bicarbonate to alkalinize urine.' with the inline ionization strip 'RCOOH (lipid soluble) → RCOO – + H+ (trapped)' — the neutral protonated acid crosses membranes (lipid soluble, reabsorbed) while the deprotonated anion is ion-trapped in the tubule (trapped, cleared quickly). The chemical species print in the text layer; the strip is text + arrow line art.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "urine-ph-elimination-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the weak-acids panel of the UrinePhEliminationMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-elimination-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-and-drug-elimination",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-and-drug-elimination-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Weak bases row with its ionization strip and the TCA-toxicity margin note",
+      "sourceFigureDescription": "The row printed under the weak-acid row: 'Weak bases — Examples: tricyclic antidepressants (TCAs), amphetamines. Trapped in acidic environments. For severe alkalosis, treat with ammonium chloride to acidify urine.' with the inline ionization strip 'RNH3+ (trapped) → RNH2 + H+ (lipid soluble)' — the protonated cation is ion-trapped in the acidic tubule while the neutral base crosses membranes. The margin note beneath: 'TCA toxicity is initially treated with sodium bicarbonate to overcome the sodium channel-blocking activity of TCAs. This treats cardiac toxicity, but does not accelerate drug elimination.' The chemical species print in the text layer; the strip is text + arrow line art.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "urine-ph-elimination-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the weak-bases panel and the TCA caveat callout of the UrinePhEliminationMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-elimination-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "urine-ph-and-drug-elimination",
+      "requiredInKYP": true,
+      "visualId": "urine-ph-and-drug-elimination-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The pKa row and the section header rule",
+      "sourceFigureDescription": "The section's governing rule printed beside the header: 'Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.' and the pKa row: 'pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized. The pKa represents the strength of the weak acid or base.' Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "urine-ph-elimination-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the governing-rule strip and the pKa definition panel of the UrinePhEliminationMap) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "urine-ph-elimination-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "urine-ph-and-drug-elimination",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 253). The Urine pH and drug elimination section has ONE vector graph (the Ionized species formation (%) vs pH plot with the Weak acid and Weak base curves, the 50% gridline, 'pKa: 9.2', 'pKa = more acidic' / 'pKa = more basic') — redrawn as an ORIGINAL_KYP_REDRAW vector graphic in the registry visual (no photographs, no copyrighted artwork reproduced). The two ionization reaction strips (RCOOH (lipid soluble) ⇌ RCOO– + H+ (trapped); RNH3+ (trapped) ⇌ RNH2 + H+ (lipid soluble)) print in the text layer as short chemical species phrases and are carried verbatim in the note's table blocks and the visual's species panels (ORIGINAL_KYP_ADAPTATION) — short attributed phrases, not artwork reproductions. The page prints NO margin mnemonic for this section; the KYP memory layer adds four original codes. No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 253 (book 231) ALSO contains the Dosage calculations section, covered by the separate pending dosage-calculations topic and NOT covered here."
+}

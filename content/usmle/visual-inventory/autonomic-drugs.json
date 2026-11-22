@@ -1,0 +1,46 @@
+{
+  "topicId": "autonomic-drugs",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "autonomic-drugs",
+      "requiredInKYP": true,
+      "visualId": "autonomic-drugs-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The four-lane autonomic neurotransmission flowchart (the page's single large figure: CHOLINERGIC vs NORADRENERGIC synthesis-to-receptor lanes, with the DOPAMINERGIC and SEROTONERGIC lanes beneath)",
+      "sourceFigureDescription": "ONE LARGE FOUR-LANE VECTOR FLOWCHART, labels in the text layer (ZERO rasters on the page — pdfimages returns no rows; vector line art, COPYRIGHTED, never reproduced). CHOLINERGIC lane: 'Choline' + 'Acetyl-CoA' →(ChAT)→ 'ACh' (vesicle, Ca2+-triggered release) → synapse → 'Cholinoreceptors' 'M1 M2 M3' on the 'POSTSYNAPTIC NEURON' → 'AChE' → 'Choline' + 'Acetate', with the drug anchors 'Cholinergic inhibitor' = 'Botulinum toxin' (at release) and 'Cholinergic stimulant' = 'AChE inhibitors eg, Donepezil' (at the breaker). NORADRENERGIC lane: 'Tyrosine' → 'DOPA' → 'Dopamine' → 'NE' (VMAT-packed vesicle; 'Vesicular monoamine transporter (VMAT) inhibitor' = 'Tetrabenazine'; 'Noradrenergic stimulant' = 'Amphetamine, Ephedrine' displacing vesicular NE), presynaptic 'Releasemodulating receptors' = 'α2' (the autoreceptor with the 'Negative feedback' arrow) + 'AT II', Ca2+-triggered release → synapse → 'Adrenoreceptors' 'α' 'β' on the 'POSTSYNAPTIC NEURON', clearance by 'NET' 'Reuptake' (with 'Noradrenergic stimulant' = 'Amphetamine, SNRIs, Cocaine, TCAs, MDMA' at the pump) or 'Diffusion, metabolism'. Bottom lanes: DOPAMINERGIC ('Tyrosine' → 'L-DOPA' → 'Dopamine' → 'DAT' 'Reuptake'; 'Dopaminergic stimulant' = 'Amphetamine, Methylphenidate, Cocaine'; 'Dopamine receptor') and SEROTONERGIC ('Tryptophan' → '5-Hydroxytryptophan' → '5-HT' → 'SERT' 'Reuptake'; 'Serotonergic stimulant' = 'Amphetamine, SNRIs, Cocaine, SSRIs'; '5-HT receptor'), under the 'AXONAL TERMINAL'/'TERMINAL AXON' captions. VLM render check: NO enzyme labels on the noradrenergic arrows (ChAT is the only printed enzyme) and NO epinephrine/adrenal branch — the noradrenergic lane ends at NE. Conveyed as ONE original KYP two-lane synthesis map — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "autonomic-drugs-synthesis-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's two main lane panels (cholinergic + noradrenergic), the dopaminergic/serotonergic axonal strip, the five-slots drug digest, the codes strip, and the reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "autonomic-drugs-synthesis-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autonomic-drugs",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer + VLM render check): the section's printed visual set is ONE element — the LARGE FOUR-LANE VECTOR FLOWCHART (CHOLINERGIC / NORADRENERGIC / DOPAMINERGIC / SEROTONERGIC), labels in the text layer, ZERO rasters on the page (vector line art, COPYRIGHTED, never reproduced). The two intro rules are prose, not a visual (carried verbatim as the note's first table block, not inventoried). The flowchart is conveyed as ONE original KYP two-lane synthesis map in the registry visual AutonomicDrugsSynthesisMap (the CHOLINERGIC lane panel — Choline + Acetyl-CoA →(ChAT)→ ACh → Ca2+-triggered release → M1 M2 M3 → AChE → Choline + Acetate, with the Botulinum toxin and AChE-inhibitors/Donepezil anchors; the NORADRENERGIC lane panel — Tyrosine → DOPA → Dopamine → NE → VMAT vesicle → α2/AT II-modulated release → α β → NET reuptake, with the Tetrabenazine, Amphetamine/Ephedrine, and Amphetamine/SNRIs/Cocaine/TCAs/MDMA anchors; the DOPAMINERGIC + SEROTONERGIC axonal strip with DAT and SERT; the five-slots drug digest; the codes strip; the reading-rule footer; ORIGINAL_KYP_REDRAW — the chains, labels, and drug lists are the book's own, the layout and glyphs are KYP's, no artwork reproduced). TEXT-LAYER ARTIFACTS pinned: two-layer artwork prints many labels twice (ACh, Tyrosine, Dopamine, 5-HT, Reuptake, 'Noradrenergic stimulant'); the rotated 'TERMINAL AXON'/'AXONAL TERMINAL' captions scatter as fragments; 'Releasemodulating receptors' prints hyphen-less and 'POSTSYNAPTIC N EURO' splits mid-word — all labels quoted in physical order as contiguous line ranges. VLM RENDER CHECK (150 dpi): NO enzyme labels on the Tyrosine→DOPA / Dopamine→NE arrows (ChAT is the ONLY printed enzyme) and NO epinephrine/PNMT/adrenal branch — the noradrenergic lane ends at NE (the adrenal Epi limb is the book's own print on book 234, the completed PH11 topic — cross-referenced on the visual as a flagged KYP extension, not drawn as this page's content). PAGE-EXTENT FINDING: the figure does NOT extend to pdf 261 — pdf 261 (book 239) opens the SEPARATE pending 'Cholinomimetic agents' section; sourcePages = [260] only. EXCLUSIONS: pdf 259 (book 237) carries the COMPLETED PH16 'g-protein-linked-second-messengers' — NOT part of this inventory (its next-page boundary marker named this section; the reciprocal anchor is pinned). KYP extensions flagged wherever they appear: the five-slots reading (MAKE, PACK, RELEASE, LISTEN, TAKE BACK), the Trojan-horse frame, the enzyme-name layer (tyrosine hydroxylase rate-limiting, dopa decarboxylase, dopamine β-hydroxylase, PNMT — none printed), the adrenal Epi branch (book 234's own limb, cross-referenced), the α2-agonist/antagonist + AT II drug layer, the NET/DAT/SERT family frame, and the clearance-asymmetry frame (ACh has a breaker, NE has a pump). No copyrighted artwork reproduced; nothing reproduced."
+}

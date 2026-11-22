@@ -1,0 +1,308 @@
+{
+  "topicId": "phosphodiesterase-inhibitors",
+  "title": "Phosphodiesterase Inhibitors",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      267
+    ],
+    "bookPages": "245"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 245): the printed page number, the Section II marker, the Pharmacology marker, and the standing Autonomic Drugs banner (the page this topic's WHOLE phosphodiesterase-inhibitors block prints on — the LAST page of the banner: every autonomic-drugs topic from drug-effect-modifications to the beta-blockers on book 244 behind shares it; the page ahead, book 246, opens the NEW Toxicities banner)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PHARMACOLOGY\n\nPhosphodiesterase\ninhibitors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n245",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header + the intro sentence, verbatim — 'Phosphodiesterase inhibitors' + 'Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for PDE isoforms and thus have different clinical uses.' (the whole block in two sentences: the enzyme, the hydrolysis, the currency, and the isoform-specificity principle that sorts the five rows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or\ncGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for\nPDE isoforms and thus have different clinical uses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table frame, verbatim — the four column headers 'TYPE OF INHIBITOR' / 'MECHANISM OF ACTION' / 'CLINICAL USES' / 'ADVERSE EFFECTS' (the frame of the block's class table — a four-column architecture, one column more than the three-column application tables of the autonomic pages behind; five drug-class rows follow)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "TYPE OF INHIBITOR\n\nMECHANISM OF ACTION\n\nCLINICAL USES\n\nADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 1, verbatim — 'Nonspecific PDE inhibitor / Theophylline': '↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation' | 'COPD/asthma (rarely used)' | 'Cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain' (the nonspecific row: the one drug with NO isoform number — the methylxanthine, the rarely-used lane; its bronchodilation is the SAME cAMP currency the β2 row of book 237 prints, raised downstream of the receptor instead of at it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "Nonspecific PDE\ninhibitor\nTheophylline\n\n↓ cAMP hydrolysis → ↑ cAMP\n→ bronchial smooth muscle\nrelaxation → bronchodilation\n\nCOPD/asthma (rarely used)\n\nCardiotoxicity (eg, tachycardia,\narrhythmia), neurotoxicity\n(eg, seizures, headache),\nabdominal pain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 2, verbatim — 'PDE-5 inhibitors / Sildenafil, vardenafil, tadalafil, avanafil': '↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis' | 'Erectile dysfunction / Pulmonary hypertension / Benign prostatic hyperplasia (tadalafil only)' | 'Facial flushing, headache, dyspepsia, hypotension in patients taking nitrates; \"hot and sweaty,\" then headache, heartburn, hypotension' + 'Sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina' (the cGMP row: FOUR printed members — the task's three-name list omitted avanafil, the 2026 page prints it; the book's own '(six)' parenthetical is its printed memory hook for the PDE-6 cross-inhibition; the nitrate cell is the exam's contraindication token, printed as an adverse effect, never as a rule)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-5 inhibitors\nSildenafil, vardenafil,\ntadalafil, avanafil\n\n↓ hydrolysis of cGMP\n→ ↑ cGMP → ↑ smooth\nmuscle relaxation by\nenhancing NO activity\n→ pulmonary vasodilation\nand ↑ blood flow in corpus\ncavernosum fills the penis\n\nErectile dysfunction\nPulmonary hypertension\nBenign prostatic hyperplasia\n(tadalafil only)\n\nFacial flushing, headache,\ndyspepsia, hypotension in\npatients taking nitrates; “hot\nand sweaty,” then headache,\nheartburn, hypotension\nSildenafil only: cyanopia (bluetinted vision) via inhibition of\nPDE-6 (six) in retina",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 3, verbatim — 'PDE-4 inhibitor / Roflumilast': '↑ cAMP in neutrophils, granulocytes, and bronchial epithelium' | 'Severe COPD' | 'Abdominal pain, weight loss, depression, anxiety, insomnia' (the PDE-4 row: the anti-inflammatory lane — the cAMP rise in the immune cells of the airway, not the smooth muscle; the neuropsychiatric bucket is the row's caution set)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-4 inhibitor\nRoflumilast\n\n↑ cAMP in neutrophils,\ngranulocytes, and bronchial\nepithelium\n\nSevere COPD\n\nAbdominal pain, weight loss,\ndepression, anxiety, insomnia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, verbatim — 'PDE-3 inhibitor / Milrinone': 'In cardiomyocytes: ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy' + 'In vascular smooth muscle: ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload' | 'Acute decompensated HF with cardiogenic shock (inotrope)' | 'Tachycardia, ventricular arrhythmias, hypotension' (the PDE-3 row: ONE drug, TWO addresses — the same isoform at the cardiomyocyte (↑ Ca2+ influx, the inotrope) and at the vascular smooth muscle (MLCK inhibition, ↓ preload and afterload); the book's own 'ionotropy' spelling (inotropy) prints in the cell — an artifact carried verbatim, like the 'β3 -receptors' kerning of book 244)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PDE-3 inhibitor\nMilrinone\n\nIn cardiomyocytes:\n↑ cAMP → ↑ Ca2+ influx\n→ ↑ ionotropy and\nchronotropy\nIn vascular smooth muscle:\n↑ cAMP → MLCK inhibition\n→ vasodilation → ↓ preload\nand afterload\n\nAcute decompensated HF with\ncardiogenic shock (inotrope)\n\nTachycardia, ventricular\narrhythmias, hypotension",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 5, verbatim — '\"Platelet inhibitors\" / Cilostazol^a / Dipyridamole^b': 'In platelets: ↑ cAMP → inhibition of platelet aggregation' | 'Intermittent claudication / Stroke or TIA prevention (with aspirin) / Cardiac stress testing (dipyridamole only, due to coronary vasodilation) / Prevention of coronary stent restenosis' | 'Nausea, headache, facial flushing, hypotension, abdominal pain' (the fifth row: TWO drugs filed under a QUOTED category name — the quotes around \"Platelet inhibitors\" are the book's own; the mechanism cell is the antiplatelet half of the cAMP currency, and the stress-testing use carries the dipyridamole-only parenthetical with its printed rationale 'due to coronary vasodilation')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "“Platelet inhibitors”\nCilostazola\nDipyridamoleb\n\nIn platelets: ↑ cAMP\n→ inhibition of platelet\naggregation\n\nIntermittent claudication\nStroke or TIA prevention (with\naspirin)\nCardiac stress testing\n(dipyridamole only, due to\ncoronary vasodilation)\nPrevention of coronary stent\nrestenosis\n\nNausea, headache, facial\nflushing, hypotension,\nabdominal pain",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two printed footnotes, verbatim — a: 'Cilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.' + b: 'Dipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation.' (the footnotes resolve the row's taxonomy: cilostazol IS a PDE-3 member filed by indication, and dipyridamole is the NONSPECIFIC member whose second mechanism — adenosine reuptake blockade → ↑ extracellular adenosine → ↑ vasodilation — is the printed basis of its stress-testing use)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "a\n\nCilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.\nDipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake\nby platelets → ↑ extracellular adenosine → ↑ vasodilation.\n\nb",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line (book 245; the page carries the WHOLE phosphodiesterase-inhibitors block — header, intro sentence, five-row four-column class table, and both footnotes — under the one footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 245\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #1, verbatim — the β1 row of the second-messenger table: 'β1 | s | ↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis' (pdf 259 / book 237, the COMPLETED PH16 g-protein-linked-second-messengers, lines 31-35: β1 = the Gs couple — the receptor side of the SAME cAMP currency this page's inhibitors defend at the hydrolysis step; β-blockade lowers cAMP at the receptor, PDE inhibition raises it at the enzyme — the two pages are the two levers on one second messenger)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β1\n\ns\n\n↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #2, verbatim — the β2 row of the second-messenger table: 'β2 | s | Vasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone (tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake' (pdf 259 / book 237, lines 37-42: the bronchodilation the theophylline row manufactures WITHOUT touching the receptor — the nonspecific PDE inhibitor raises the same cAMP the β2 agonist raises, one step downstream; the reason theophylline and albuterol are functional teammates and the reason both are asthma drugs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β2\n\ns\n\nVasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone\n(tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #3, verbatim — the Gs diagram labels of the second-messenger page: 'Adenylyl cyclase ... GS protein ... ATP ... Cyclic AMP ... Protein kinase A' (pdf 259 / book 237, lines 180-202: the printed receptor→effector→second-messenger chain — ligand, GS protein, adenylyl cyclase, ATP, Cyclic AMP, Protein kinase A; the chain this page's enzyme terminates: PDE hydrolyzes the Cyclic AMP the chain mints, and the inhibitors block the hydrolysis — the two pages print the same currency from its mint to its sink)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "Adenylyl\ncyclase\n\nCytoplasm\nCell\nmembrane\nCytoplasm\n\nAdenylyl\ncyclase\n\nGS protein\nATP\n\nCyclic\nAMP\n\nATP\n\nCyclic\nAMP\n\nGS protein",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BEHIND-PAGE BOUNDARY, verbatim — the beta-blockers selectivity subtable's final rows: 'Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol' | 'modified suffixes (instead of \"-olol\")' | 'Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3-receptors (activate NO synthase in the vasculature and ↓ SVR)' | 'NebivOlol increases NO' + the book-244 footer (pdf 266 / book 244, the COMPLETED PH24 beta-blockers, lines 107-119: the page behind — its table EXCLUDED here, only its selectivity subtable's last rows and mnemonic pinned from behind; the β-blockers and the PDE inhibitors are the two levers on the same cAMP currency, on facing pages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Nonselective β-adrenergic, α1-selective\nantagonists—carvedilol, labetalol\n\nNonselective β-adrenergic and α1-selective\nantagonists have modified suffixes (instead of\n“-olol”)\n\nNebivolol combines cardiac-selective\nβ1-adrenergic blockade with stimulation of\nβ3 -receptors (activate NO synthase in the\nvasculature and ↓ SVR)\n\nNebivOlol increases NO",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BEHIND-PAGE footer marker, verbatim — the book-244 signature file line and the trailing NOTES/EXAMPLES cells (pdf 266 / book 244, lines 121-127: 'FAS1_2026_05-Pharmacology.indd 244' + 'Propranolol' + 'Effective for prevention' — the beta-blockers page's end; the phosphodiesterase-inhibitors block does NOT extend backward into it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 244\n\nPropranolol\n\nEffective for prevention\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AHEAD-PAGE BOUNDARY, verbatim — the NEW banner: '246 / SEC TION II / PHARMACOLOGY / ▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS / Ingested seafood toxins / Toxin actions include histamine release, total block of Na+ channels, or opening of Na+ channels to cause depolarization. / TOXIN / SOURCE / ACTION / SYMPTOMS' (pdf 268 / book 246, lines 1-22: the page ahead opens the Toxicities banner with the seafood-toxin table (scombroid, tetrodotoxin, ciguatoxin) — the PENDING next topics; THIS block does NOT extend there: the whole block (header + intro + five-row table + footnotes + footer) is on pdf 267 alone, sourcePages = [267] only — and the AUTONOMIC-DRUGS banner, which has stood since drug-effect-modifications, ENDS with this page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "246\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\nIngested seafood\ntoxins\n\nToxin actions include histamine release, total block of Na+ channels, or opening of Na+ channels to\ncause depolarization.\n\nTOXIN\n\nSOURCE\n\nACTION\n\nSYMPTOMS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pde-inhibitor-map"
+  ],
+  "mechanismIds": [
+    "pde-hydrolysis-block-isoform-fork",
+    "pde-isoform-clinical-use-sort"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the block's header + intro + five-row four-column class table + footnotes.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "isoform-fork-frame",
+      "summary": "The ISOFORM-FORK frame — the five printed rows compressed into one fork question: WHICH PDE does the drug inhibit? The numbered lanes PDE-3 (milrinone — the inotrope; and cilostazol, a PDE-3 member filed by indication under the platelet pair per the printed footnote a), PDE-4 (roflumilast — the airway-inflammation lane), PDE-5 (sildenafil, vardenafil, tadalafil, avanafil — the cGMP lane) — plus the NONSPECIFIC pair (theophylline, the rarely-used methylxanthine; dipyridamole, the platelet row's other member per the printed footnote b). The rows, the isoform numbers, and both footnotes are printed; the fork compression is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The five rows, the isoform numbers, and the categorizing footnotes are printed; the unified fork reading is KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + the visual's fork cards"
+    },
+    {
+      "id": "cyclic-nucleotide-currency-frame",
+      "summary": "The CYCLIC-NUCLEOTIDE-CURRENCY frame — the cAMP camp (PDE-3, PDE-4, and both nonspecifics: milrinone, roflumilast, theophylline, cilostazol, dipyridamole — ↑ cAMP at one of four addresses: cardiomyocyte, neutrophil/bronchial epithelium, bronchial smooth muscle, platelet) vs the cGMP camp (PDE-5 alone: sildenafil, vardenafil, tadalafil, avanafil — ↓ hydrolysis of cGMP → ↑ cGMP, the NO-enhancing lane). The currency rows print on book 237 ('β1 | s', 'β2 | s' — Gs; 'Adenylyl cyclase', 'GS protein', 'ATP', 'Cyclic AMP'); the camp split that turns one enzyme family into two clinical universes is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The currency rows are printed on the completed PH16 page; the camp split is KYP's synthesis.",
+      "location": "core.why + mechanisms[0] + the visual's mechanism strip + the mnemonic 'cAMP acts, cGMP relaxes'"
+    },
+    {
+      "id": "nitrate-separation-protocol",
+      "summary": "The NITRATE-SEPARATION protocol (NOT printed on this page — flagged wherever used): the page prints only the adverse-effect cell 'hypotension in patients taking nitrates' — the contraindication as a toxicity token, never as a rule; the classic protocol (do not combine; when both are needed, separate the doses — 24+ hours for sildenafil and vardenafil, 48+ hours for tadalafil, given the half-lives; treat the interaction with pressure support, not vasopressors first) is KYP's clinical overlay, attached to the printed cell and flagged.",
+      "origin": "outside-first-aid",
+      "rationale": "The printed cell names the interaction; the timing rules and the management are clinical-pharmacology standards attached as a flagged overlay.",
+      "location": "usmle traps[1] + the miniCase + the visual's caution strip"
+    },
+    {
+      "id": "boundary-and-absence-census",
+      "summary": "The boundary + absence census itself: (1) the PH24/PH25 boundary — pdf 267 (book 245) carries the WHOLE phosphodiesterase-inhibitors block (header, intro, five-row table, footnotes, footer) and is the LAST page of the AUTONOMIC-DRUGS banner; pdf 266 behind carries the COMPLETED PH24 (only its selectivity subtable's final rows and footer pinned from behind); pdf 268 ahead opens the NEW TOXICITIES banner (Ingested seafood toxins) — sourcePages = [267] only. (2) The absence verification: the task's PDE-5 list (sildenafil, tadalafil, vardenafil) missed AVANAFIL — the 2026 page prints FOUR members (documented); NO PDE-1 or PDE-2 row prints; NO other methylxanthine prints (caffeine absent — theophylline alone); NO other PDE-3 member prints (amrinone/inamrinone absent); and the book's own 'ionotropy' spelling and '(six)' parenthetical are carried verbatim, never corrected or cited as standard.",
+      "origin": "outside-first-aid",
+      "rationale": "The boundary split, the absence census, and the verified-absent documentation are pipeline curation, not book print.",
+      "location": "manifest notes + the visual's boundary strip + recall[4]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the phosphodiesterase-inhibitors block occupies the WHOLE of pdf 267 (book 245), the LAST page under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner (the banner ends here: pdf 268 opens 'PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS'), and prints: the section header 'Phosphodiesterase inhibitors' + the intro sentence 'Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for PDE isoforms and thus have different clinical uses.'; ONE FOUR-COLUMN TABLE (TYPE OF INHIBITOR / MECHANISM OF ACTION / CLINICAL USES / ADVERSE EFFECTS) of FIVE rows — 'Nonspecific PDE inhibitor / Theophylline': '↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation' | 'COPD/asthma (rarely used)' | 'Cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain'; 'PDE-5 inhibitors / Sildenafil, vardenafil, tadalafil, avanafil': '↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis' | 'Erectile dysfunction / Pulmonary hypertension / Benign prostatic hyperplasia (tadalafil only)' | 'Facial flushing, headache, dyspepsia, hypotension in patients taking nitrates; \"hot and sweaty,\" then headache, heartburn, hypotension' + 'Sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina'; 'PDE-4 inhibitor / Roflumilast': '↑ cAMP in neutrophils, granulocytes, and bronchial epithelium' | 'Severe COPD' | 'Abdominal pain, weight loss, depression, anxiety, insomnia'; 'PDE-3 inhibitor / Milrinone': 'In cardiomyocytes: ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy / In vascular smooth muscle: ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload' | 'Acute decompensated HF with cardiogenic shock (inotrope)' | 'Tachycardia, ventricular arrhythmias, hypotension'; '\"Platelet inhibitors\" / Cilostazol^a / Dipyridamole^b': 'In platelets: ↑ cAMP → inhibition of platelet aggregation' | 'Intermittent claudication / Stroke or TIA prevention (with aspirin) / Cardiac stress testing (dipyridamole only, due to coronary vasodilation) / Prevention of coronary stent restenosis' | 'Nausea, headache, facial flushing, hypotension, abdominal pain' — followed by the TWO footnotes: a 'Cilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.'; b 'Dipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation.' RASTER CENSUS: ZERO raster images on pdf 267 (pdfimages -list returns no rows) — the block is PURE TEXT, COPYRIGHTED, never reproduced as artwork; carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP isoform-fork map (PdeInhibitorMap). ABSENCE VERIFICATION (resolved): the PDE-5 roster prints FOUR members (sildenafil, vardenafil, tadalafil, avanafil — the task's list omitted avanafil, documented); NO PDE-1 or PDE-2 row prints; NO other methylxanthine prints (caffeine absent); NO other PDE-3 member prints (amrinone/inamrinone absent); the book's own 'ionotropy' spelling and its own '(six)' parenthetical carry verbatim — documented, never cited as corrected. BOUNDARY, pinned both ways: pdf 266 (book 244) behind carries the COMPLETED PH24 beta-blockers block (EXCLUDED here; only its selectivity subtable's final rows — the carvedilol/labetalol row, the nebivolol row, the 'NebivOlol increases NO' mnemonic — and its footer pinned from behind); pdf 268 (book 246) ahead opens the NEW 'PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS' banner (Ingested seafood toxins — the PENDING next topics) — THIS block does NOT extend there; sourcePages = [267] only; the AUTONOMIC-DRUGS banner, standing since drug-effect-modifications, ENDS with this page. CROSS-PAGE ANCHORS (all printed, all verified): pdf 259/book 237 (COMPLETED g-protein-linked-second-messengers, PH16) — the β1 row 'β1 | s | ↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis' and the β2 row 'β2 | s | Vasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis...' (the Gs couple — the receptor-side levers on the same cAMP currency), AND the Gs diagram labels 'Adenylyl cyclase / GS protein / ATP / Cyclic AMP / Protein kinase A' (the printed mint of the currency this page's enzyme is the sink of). KYP extensions flagged wherever they appear: the usmle-attack-layer; the ISOFORM-FORK frame (the fork compression is KYP's; the rows, numbers, and footnotes are printed); the CYCLIC-NUCLEOTIDE-CURRENCY frame (the camp split is KYP's; the currency rows print on book 237); the NITRATE-SEPARATION protocol (NOT printed — the page prints only 'hypotension in patients taking nitrates'; flagged wherever the timing rules appear); and the boundary + absence census. No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-09"
+}

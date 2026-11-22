@@ -1,0 +1,127 @@
+{
+  "topicId": "elimination-of-drugs",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The zero-order elimination graph",
+      "sourceFigureDescription": "The zero-order elimination plot: y-axis 'Drug plasma concentration' (with ↑), x-axis 'Time (h)'. Cp falls in a straight LINE — the elimination rate (=slope) is constant at 2 U/h regardless of Cp (the graph labels 2 U/h twice along the line). Horizontal dashed guides mark the successive halvings (4 → 2 → 1 → 0.5) and the three half-life intervals are bracketed beneath the x-axis: 'First t1/2 >', 'Second t1/2 >', 'Third t1/2' — each successive interval is SHORTER. The graph's rule annotation reads 'Time of t1/2 ↑ as concentration ↑' (half-life is NOT constant in zero-order elimination; it lengthens as concentration rises). A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "elimination-of-drugs-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the zero-order panel of the EliminationOfDrugsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-of-drugs-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The first-order elimination graph",
+      "sourceFigureDescription": "The first-order elimination plot: y-axis 'Drug plasma concentration' (with ↑), x-axis 'Time (h)'. Cp falls on an exponential CURVE — the elimination rate (=slope) is labeled at four successive positions (4 U/h, 2 U/h, 1 U/h, 0.5 U/h) and FALLS in proportion to the concentration. The three half-life intervals are bracketed beneath the x-axis: 'First t1/2 =', 'Second t1/2 =', 'Third t1/2' — every interval is EQUAL. The graph's rule annotation reads 'Time of t1/2 is constant as concentration ↑' (half-life is constant in first-order elimination). A vector figure (no raster).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "elimination-of-drugs-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the first-order panel of the EliminationOfDrugsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-of-drugs-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The zero-order vs first-order comparison rows",
+      "sourceFigureDescription": "The two comparison rows printed under the 'Elimination of drugs' header. Zero-order row: 'Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time). Cp ↓ linearly with time. Examples of drugs—Phenytoin, Ethanol, and Aspirin (at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination).' with the side note 'Capacity-limited elimination.' First-order row: 'Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time). Cp ↓ exponentially with time. Applies to most drugs.' with the side note 'Flow-dependent elimination.' Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "elimination-of-drugs-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the comparison table strip inside the EliminationOfDrugsMap) + blocks[1] and blocks[2] the table blocks carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-of-drugs-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "elimination-of-drugs",
+      "requiredInKYP": true,
+      "visualId": "elimination-of-drugs-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The PEA margin mnemonic (the page's own zero-order drug mnemonic)",
+      "sourceFigureDescription": "The mnemonic printed beside the zero-order row: 'A PEA is round, shaped like the “0” in zero-order.' — coding the three zero-order example drugs Phenytoin, Ethanol, Aspirin (a pea is round like the numeral 0). A short attributed phrase carried in the evidence layer and the KYP mnemonic layer; the KYP visual renders its OWN original callout design around the phrase (the three additional codes — AMOUNT vs FRACTION, LINE vs CURVE, CAPACITY vs FLOW — are KYP-original).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "elimination-of-drugs-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the PEA mnemonic callout and the four-code strip inside the EliminationOfDrugsMap) + mnemonics[0]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "elimination-of-drugs-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "elimination-of-drugs",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 252). The Elimination of Drugs section has TWO vector graphs (the zero-order plot with constant 2 U/h slope and shrinking t1/2 intervals; the first-order plot with falling 4 → 2 → 1 → 0.5 U/h slopes and equal t1/2 intervals) — each redrawn as ORIGINAL_KYP_REDRAW vector graphics in the registry visual (no photographs, no copyrighted artwork reproduced). The zero-order vs first-order comparison rows are pure text and are carried verbatim in the note's table blocks (ORIGINAL_KYP_ADAPTATION). The PEA mnemonic prints verbatim on the page — a short attributed phrase carried in the evidence and mnemonic layers, not an artwork reproduction; the KYP memory layer ADDS three original codes (AMOUNT vs FRACTION, LINE vs CURVE, CAPACITY vs FLOW). No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 252 (book 230) ALSO contains the Drug Metabolism section (Phase I/Phase II flow diagram), covered by the separate PH3 drug-metabolism topic and NOT covered here."
+}

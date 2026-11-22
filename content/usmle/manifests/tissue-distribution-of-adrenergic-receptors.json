@@ -1,0 +1,587 @@
+{
+  "topicId": "tissue-distribution-of-adrenergic-receptors",
+  "title": "Tissue Distribution of Adrenergic Receptors",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      258
+    ],
+    "bookPages": "236"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 236): the printed page number, the Section II marker, the Pharmacology marker, and the standing section banner — the same running head the completed PH14 sits under",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "236\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The standing section banner — '▶ PHARMACOLOGY—AUTONOMIC DRUGS' (the same banner PH10–PH14 sit under; this topic continues the Autonomic Drugs subsection)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — 'Tissue distribution of adrenergic receptors' (this topic's section, the LOWER portion of the page, opening directly below the completed PH14 Micturition control section)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Tissue distribution of adrenergic receptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SAME-PAGE EXCLUSION BOUNDARY (upper portion) — the 'Micturition control' section in the UPPER portion of this page is the COMPLETED topic PH14 'micturition-control' and is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Micturition control",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The same-page beta3 boundary note — the UPPER portion's wiring diagram prints the composed label 'β₃-receptor' (the PH14 detrusor plate): the beta3 receptor appears TWICE on this book page — as the detrusor plate (upper, PH14, EXCLUDED) and as the Adipose row (lower, THIS table) — the same-page cross-link, pinned",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β₃-receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's column header block — 'RECEPTOR … TISSUE … EFFECT(S)' (the three column heads of the section's sole printed element)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "RECEPTOR\n\nTISSUE\n\nEFFECT(S)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The alpha1 block, whole, verbatim — receptor 'α1', tissues 'Vascular smooth muscle' + 'Visceral smooth muscle', effects 'Vasoconstriction' + 'Smooth muscle contraction' (the two-row alpha1 group as the text layer prints it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "α1\n\nVascular smooth muscle\nVisceral smooth muscle\n\nVasoconstriction\nSmooth muscle contraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha1 row 1 — the tissue, verbatim — 'Vascular smooth muscle' (the vasoconstriction row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Vascular smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha1 row 1 — the effect, verbatim — 'Vasoconstriction' (the vascular tone row: alpha1 stimulation constricts the vessels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Vasoconstriction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha1 row 2 — the tissue, verbatim — 'Visceral smooth muscle' (the contraction row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Visceral smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha1 row 2 — the effect, verbatim — 'Smooth muscle contraction' (the visceral smooth-muscle row: the same contraction sign as the vascular row, different bed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Smooth muscle contraction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The alpha2 block, whole, verbatim — receptor 'α2', tissues 'Pancreas' + 'Presynaptic terminals' + 'Salivary glands', effects 'Inhibition of insulin secretion' + 'Inhibition of neurotransmitter release' + 'Inhibition of salivary secretion' (the three-row alpha2 group as the text layer prints it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "α2\n\nPancreas\nPresynaptic terminals\nSalivary glands\n\nInhibition of insulin secretion\nInhibition of neurotransmitter release\nInhibition of salivary secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 1 — the tissue, verbatim — 'Pancreas' (the islet row; the ONLY organ with TWO rows in this table under TWO different receptors — its beta2 row prints 'Stimulation of insulin secretion')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Pancreas",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 1 — the effect, verbatim — 'Inhibition of insulin secretion' (the alpha2 arm of the pancreas seesaw)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Inhibition of insulin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 2 — the tissue, verbatim — 'Presynaptic terminals' (the autoreceptor row — the only row of the table that lives on a NEURON rather than an effector tissue)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Presynaptic terminals",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 2 — the effect, verbatim — 'Inhibition of neurotransmitter release' (the presynaptic autoreceptor story: alpha2 stimulation brakes NE release itself)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Inhibition of neurotransmitter release",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 3 — the tissue, verbatim — 'Salivary glands' (the exocrine row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Salivary glands",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Alpha2 row 3 — the effect, verbatim — 'Inhibition of salivary secretion' (the dry-mouth row — the clonidine-shaped effect, KYP clinical anchor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Inhibition of salivary secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The beta1 block, whole, verbatim — receptor 'β1', tissues 'Heart' + 'Kidney', effects '↑ heart rate, contractility' + '↑ renin secretion' (the two-row beta1 group as the text layer prints it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β1\n\nHeart\nKidney\n\n↑ heart rate, contractility\n↑ renin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta1 row 1 — the tissue, verbatim — 'Heart' (the cardiac row of the table)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Heart",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta1 row 1 — the effect, verbatim — '↑ heart rate, contractility' (prints TWICE in the table: under β1 'Heart' AND under β2 'Cardiac muscle' — the doubled row, both occurrences pinned by this containment)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "↑ heart rate, contractility",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta1 row 2 — the tissue, verbatim — 'Kidney' (the renal row — the juxtaglomerular apparatus, KYP anchor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Kidney",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta1 row 2 — the effect, verbatim — '↑ renin secretion' (the RAAS row: beta1 stimulation of the kidney releases renin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "↑ renin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The beta2 block, whole, verbatim — receptor 'β2', tissues 'Bronchioles' + 'Cardiac muscle' + 'Liver' + 'Arterial smooth muscle' + 'Pancreas', effects 'Bronchodilation' + '↑ heart rate, contractility' + 'Glycogenolysis, glucose release' + 'Vasodilation' + 'Stimulation of insulin secretion' (the five-row beta2 group as the text layer prints it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β2\n\nBronchioles\nCardiac muscle\nLiver\nArterial smooth muscle\nPancreas\n\nBronchodilation\n↑ heart rate, contractility\nGlycogenolysis, glucose release\nVasodilation\nStimulation of insulin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 1 — the tissue, verbatim — 'Bronchioles' (the airway row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Bronchioles",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 1 — the effect, verbatim — 'Bronchodilation' (the airway row: the albuterol-shaped effect, KYP clinical anchor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Bronchodilation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 2 — the tissue, verbatim — 'Cardiac muscle' (the second cardiac row of the table — printed under β2, distinct from the β1 'Heart' row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Cardiac muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 3 — the tissue, verbatim — 'Liver' (the hepatic row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Liver",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 3 — the effect, verbatim — 'Glycogenolysis, glucose release' (the hepatic row: the fight-or-flight fuel row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Glycogenolysis, glucose release",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 4 — the tissue, verbatim — 'Arterial smooth muscle' (the arterial row — printed under β2, DISTINCT from the α1 'Vascular smooth muscle' row: the tone seesaw's two arms)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Arterial smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 4 — the effect, verbatim — 'Vasodilation' (the arterial row: beta2 stimulation dilates the arteries — the opposite sign of the α1 vascular row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Vasodilation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta2 row 5 — the effect, verbatim — 'Stimulation of insulin secretion' (the beta2 arm of the pancreas seesaw — the same organ's second row, opposite sign)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Stimulation of insulin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The beta3 block, whole, verbatim — receptor 'β3', tissue 'Adipose', effect '↑ lipolysis' (the one-row beta3 group as the text layer prints it)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β3\n\nAdipose\n\n↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta3 row — the tissue, verbatim — 'Adipose' (the fat row: the only beta3 tissue in THIS table — the bladder's β₃ plate lives in the UPPER portion's diagram, the same-page cross-link)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Adipose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Beta3 row — the effect, verbatim — '↑ lipolysis' (the adipose row: the fat-mobilization row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the book's signature file line + print-date footer (book 236)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 236\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE BOUNDARY — pdf 257 (book 235) carries the COMPLETED topics PH12 'acetylcholine-receptors' (upper) and PH13 'pain-transmission' (lower): the Tissue distribution section starts fresh on the LOWER pdf 258 and inherits nothing from 257",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Pain transmission",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 259 (book 237) opens the SEPARATE pending section 'G-protein–linked second messengers': the Tissue distribution section ENDS on pdf 258 at the table's last row and does not extend to 259 (verified: the 259 text layer opens with the new section header — sourcePages = [258] only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "G-protein–linked second messengers",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "adrenergic-receptor-distribution-map"
+  ],
+  "mechanismIds": [
+    "alpha-distribution-wiring",
+    "beta-distribution-wiring"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the section's table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the 13-row tissue-distribution table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "grid-reading-protocol",
+      "summary": "The two-anchor reading of any adrenergic stem (ANCHOR 1 — NAME THE TISSUE: the stem's organ names the row — heart, bronchioles, pancreas, vessels...; ANCHOR 2 — READ THE RECEPTOR COLUMN, THEN THE EFFECT CELL: the table's own cell supplies the direction). The GRID VIEW itself (tissues down x receptors across — the cross-tabulation of the book's own 13 rows into a 12-tissue x 5-receptor matrix) is KYP's pivot: every cell is the book's own printed element; the matrix view is KYP's. THE EMPTY-CELL CAVEAT (KYP, flagged on the visual and in the note): the table prints positives only — a blank cell means 'no row in the book's table pairs this receptor with this tissue', NOT 'the receptor is absent from the tissue' (real vessels carry alpha2, real airways carry alpha1 — none of that is printed here; do not read absence into silence).",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints a 13-row list grouped by receptor; the cross-tabulated grid, the reading order (tissue → receptor → effect), and the empty-cell caveat are KYP's design — every filled cell is the book's own.",
+      "location": "core.keyIdea + blocks[2] the grid pivot + the visual's grid panel"
+    },
+    {
+      "id": "seesaw-and-brake-frames",
+      "summary": "The three KYP compressions of the table's own cells: (1) THE PANCREAS SEESAW — the table's two pancreas rows (α2 'Inhibition of insulin secretion' vs β2 'Stimulation of insulin secretion'), the only organ with two rows under two receptors — same organ, opposite signs; (2) THE TONE SEESAW — the α1 'Vascular smooth muscle / Vasoconstriction' row vs the β2 'Arterial smooth muscle / Vasodilation' row, two DIFFERENT printed labels carrying the two arms of vascular tone; (3) THE α2 TRIPLE BRAKE — all three printed α2 rows are inhibitions (insulin, neurotransmitter release, salivary secretion): in this table α2 is the brake-pedal receptor, the contraction receptor being α1. The Heart-vs-Cardiac-muscle doubling note (the table prints '↑ heart rate, contractility' under BOTH β1 'Heart' and β2 'Cardiac muscle') is likewise a KYP reading of two printed rows the book never comments on.",
+      "origin": "outside-first-aid",
+      "rationale": "The frames are built entirely from the table's own printed cells (the two pancreas rows, the vascular/arterial labels, the three inhibition rows, the doubled heart-rate row); the seesaw/brake naming and the doubling note are KYP's synthesis.",
+      "location": "blocks[1] captions + usmle.traps + the visual's seesaw cards"
+    },
+    {
+      "id": "anchor-and-mnemonic-layer",
+      "summary": "The clinical/drug anchor layer (NONE of it printed on this page, flagged wherever it appears): albuterol/epinephrine on β2 (bronchodilation, vasodilation), dobutamine on β1 (heart + renin), phenylephrine on α1 (vasoconstriction), clonidine on α2 presynaptic terminals (the autoreceptor story the table's 'Inhibition of neurotransmitter release' row implies), mirabegron on β3 (the adipose row here; its bladder story lives on the SAME page's upper portion, PH14 — the same-page cross-link), the epinephrine-anaphylaxis composite (α1 + β2 together), and the juxtaglomerular-apparatus anchor for the Kidney/renin row. The four-code memory layer: '1 HEART, 2 LUNGS, 3 FAT' is the CLASSIC counting code — the book itself prints '(one heart)' and '(two lungs)' in the β1/β2 rows of the G-protein table on the FACING page (book 237, the separate pending topic; carried as the classic code, attributed); the other three codes (α2 IS THE BRAKE PEDAL; THE PANCREAS SEESAW; TWO SMOOTH MUSCLES, TWO SIGNS) are KYP-original compressions of this page's own rows.",
+      "origin": "outside-first-aid",
+      "rationale": "The drug and clinical anchors extend past the page (the table prints no drug names); the classic counting code is attributed to its facing-page source; the remaining three codes are KYP-original designs built on the section's own rows.",
+      "location": "mnemonics + usmle + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the Tissue distribution of adrenergic receptors section occupies the LOWER portion of pdf 258 (book 236), directly below the COMPLETED PH14 Micturition control section (same-page boundary pinned). The section's ENTIRE printed content is ONE 13-row table (5 receptor groups: α1 x2, α2 x3, β1 x2, β2 x5, β3 x1) under the three column heads RECEPTOR / TISSUE / EFFECT(S) — no diagram, no margin note, no printed mnemonic. RASTER CENSUS: pdf 258 carries exactly 3 sep rasters, ALL belonging to the UPPER portion's bladder illustration (the PH14 wiring diagram — COPYRIGHTED tissue artwork, never reproduced, NOT part of this topic); the LOWER table is PURE TEXT — nothing reproduced, nothing redrawn from imagery; the table is carried VERBATIM as the note's table block and conveyed as ONE original KYP grid (the AdrenergicReceptorDistributionMap: the 12-tissue x 5-receptor matrix with the 13 verbatim effect cells, the three seesaw cards, the four-code strip, the reading-rule footer). SECTION EXTENT verified: the section ENDS on pdf 258 at the table's last row; pdf 259 opens the SEPARATE pending 'G-protein–linked second messengers' section — sourcePages = [258] only. KYP extensions flagged wherever they appear: the grid view, the empty-cell caveat, the pancreas/tone seesaws, the α2 triple-brake reading, the Heart-vs-Cardiac-muscle doubling note, the drug/clinical anchors (albuterol, epinephrine, dobutamine, phenylephrine, clonidine, mirabegron, the JG apparatus), and the classic 'one heart, two lungs' counting code (printed on the FACING page's G-protein table, book 237 — a separate pending topic; attributed). The same-page cross-link (the upper portion's β₃ detrusor plate vs this table's β3 Adipose row) is pinned as boundary evidence. No copyrighted photographs reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

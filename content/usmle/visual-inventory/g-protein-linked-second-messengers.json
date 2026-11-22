@@ -1,0 +1,73 @@
+{
+  "topicId": "g-protein-linked-second-messengers",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "g-protein-linked-second-messengers",
+      "requiredInKYP": true,
+      "visualId": "g-protein-linked-second-messengers-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table (the page's first printed element — the 14-row receptor-to-class map)",
+      "sourceFigureDescription": "The page's table, verbatim, 14 receptor rows under 5 family groups: Adrenergic — α1 'q', α2 'i', β1 's', β2 's', β3 's'; Cholinergic — M1 'q', M2 'i', M3 'q'; Dopamine — D1 's', D2 'i'; Histamine — H1 'q', H2 's'; Vasopressin — V1 'q', V2 's' — each with its MAJOR FUNCTIONS string (α1 vascular/pupillary/sphincter contraction; α2 ↓ sympathetic outflow/insulin/lipolysis, ↑ platelet aggregation, ↓ aqueous humor; β1 '(one heart)' + renin; β2 '(two lungs)' vasodilation/bronchodilation/tocolysis/K+ uptake; β3 lipolysis/thermogenesis/bladder relaxation; M1 cognitive/enteric/exocrine; M2 ↓ heart rate, AV node conduction, atrial contractility; M3 exocrine/peristalsis/bladder/broncho/vasodilation/miosis/accommodation; D1 renal vascular + direct pathway; D2 transmitter + indirect pathway; H1 bronchoconstriction/mucus/permeability/pruritus; H2 gastric acid; V1 vascular contraction; V2 aquaporin-2 + vWF, printing the book's own red-ink erratum overlay 'twobules (tubules)'). Pure text — no rasters.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "g-protein-second-messenger-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's table block (blocks[1] the verbatim table) + the registry visual's class-digest strip and cascade panels",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "g-protein-second-messenger-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "g-protein-linked-second-messengers",
+      "requiredInKYP": true,
+      "visualId": "g-protein-linked-second-messengers-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The three cascade diagrams — Gq, Gs, Gi (the page's second printed element: ligand + receptor chip → G protein → enzyme → second messenger → effector, one panel per class)",
+      "sourceFigureDescription": "THREE VECTOR cascade panels, labels in the text layer (ZERO rasters on the page — pdfimages returns no rows; vector typeset artwork, COPYRIGHTED, never reproduced): the Gq panel — 'H1, α1, V1, M1, or M3 receptor' → 'Gq protein' → 'Phospholipase C' → 'PIP2' → 'IP3' + 'DAG' → 'Ca2+' → 'Protein kinase C' → 'Smooth muscle contraction' (with 'Myosin light-chain kinase (smooth muscle contraction)'); the Gs panel — 'B1, B2, B3, D1, H2, or V2 receptor' → 'GS protein' → 'Adenylyl cyclase' → 'ATP' → 'Cyclic AMP' → 'Protein kinase A' (+ 'Ca2+'); the Gi panel — 'M2, α2, or D2 receptor' → 'Gi protein' → 'Adenylyl cyclase' (inhibited) → ↓ 'Cyclic AMP'. The diagram text layer duplicates every label (two-layer artwork) and prints 'B1, B2, B3' where the table prints β glyphs. Conveyed as ONE original KYP schematic (the three cascade panels with the receptor-example chips per class) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "g-protein-second-messenger-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's three cascade panels (receptor chips → G protein → enzyme → second messenger → effector, per class)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "g-protein-second-messenger-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "g-protein-linked-second-messengers",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer + VLM render check): the section's two printed elements are (1) ONE TABLE (RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS — 14 rows under 5 family groups, PURE TEXT) and (2) THREE VECTOR CASCADE DIAGRAMS (Gq, Gs, Gi — labels in the text layer, ZERO rasters on the page; vector typeset artwork, COPYRIGHTED, never reproduced). The table is carried VERBATIM as the note's table block (ORIGINAL_KYP_ADAPTATION); the three diagrams are conveyed as ONE original KYP schematic in the registry visual GProteinSecondMessengerMap (the three cascade panels — receptor chips → G protein → enzyme → second messenger → effector, with the receptor-example chips per class, the class digest strip, the codes strip, and the reading-rule footer; ORIGINAL_KYP_REDRAW — the cascade structure and labels are the book's own, the layout and glyphs are KYP's, no artwork reproduced). TEXT-LAYER ARTIFACTS pinned: the V2 row prints the book's own red-ink erratum overlay 'collecting twobules (tubules)' (VLM render check on the 150-dpi page confirms the printed page); the diagram text layer duplicates every label and prints 'B1, B2, B3' where the table prints β glyphs. EXCLUSIONS: pdf 258 (book 236) carries the COMPLETED topics PH14 'Micturition control' (upper) and PH15 'Tissue distribution of adrenergic receptors' (lower) — NOT part of this inventory; pdf 260 (book 238) opens the SEPARATE pending 'Autonomic drugs' section (this section ENDS on pdf 259 — verified, sourcePages = [259] only). PH12 'acetylcholine-receptors' anchored its M1/M2/M3 G-protein layer to this page (the reciprocal cross-link pinned as evidence). KYP extensions flagged wherever they appear: the three-lanes reading (gas pedal / brake / squeeze), the subscript-rule membership frames (the i class is all 2s; not all 2s are Gi; the q class is the odd ones), the drug/toxin anchor layer (albuterol, dobutamine, clonidine, phenylephrine, atropine, cimetidine, desmopressin, antipsychotics, pertussis toxin, cholera toxin — none printed on this page), the kinase fork (PKA vs PKC), the PIP2-splitter frame, and the M2 βγ K+ -channel story. The classic 'one heart, two lungs' counting code is THIS page's own print — carried verbatim, attributed. No copyrighted artwork reproduced; nothing reproduced."
+}

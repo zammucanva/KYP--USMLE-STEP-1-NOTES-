@@ -1,0 +1,424 @@
+{
+  "topicId": "efficacy-vs-potency",
+  "title": "Efficacy vs Potency",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      254
+    ],
+    "bookPages": "232"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 232)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "232\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS (this page carries ONLY the Efficacy vs potency section; the next page pdf 255 / book 233 carries Receptor binding, a separate pending topic, so no exclusion is needed here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — Efficacy vs potency (this topic, the page's only section)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Efficacy vs potency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The efficacy definition — Maximal effect a drug can produce (intrinsic activity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Maximal effect a drug can produce (intrinsic activity).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The efficacy axis rule — Represented by the y-value (Emax)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Represented by the y-value (Emax).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The efficacy arrow chain — ↑ y-value = ↑ Emax = ↑ efficacy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "↑ y-value = ↑ Emax = ↑ efficacy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The efficacy-potency independence clause — Unrelated to potency (ie, efficacious drugs can have high or low potency)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Unrelated to potency (ie, efficacious drugs can have high or low potency).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The partial agonist rule — Partial agonists have less efficacy than full agonists",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Partial agonists have less efficacy than full agonists.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The RELATIVE EFFICACY panel label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "RELATIVE EFFICACY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The shared y-axis label of both panels — % Maximal effect (with the printed 100/50/0 gridlines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "% Maximal effect",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Emax Drug A label — the upper plateau of the RELATIVE EFFICACY panel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Emax Drug A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Δ Efficacy label — the vertical gap between the two plateaus",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Δ Efficacy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Emax Drug B label — the lower plateau of the RELATIVE EFFICACY panel (the partial agonist)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Emax Drug B",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The shared x-axis label of both panels — Log (drug dose)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Log (drug dose)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The potency definition — Amount of drug needed for a given effect",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Amount of drug needed for a given effect.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The potency axis rule — Represented by the x-value (EC50)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Represented by the x-value (EC50).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The left-shift chain — Left shifting = ↓ EC50 = ↑ potency = ↓ drug needed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Left shifting = ↓ EC50 = ↑ potency = ↓ drug needed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The potency-efficacy independence clause — Unrelated to efficacy (ie, potent drugs can have high or low efficacy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Unrelated to efficacy (ie, potent drugs can have high or low efficacy).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The RELATIVE POTENCY panel label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "RELATIVE POTENCY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Drug A label — the left-shifted, more potent curve of the RELATIVE POTENCY panel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Drug A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Drug B label — the right-shifted, less potent curve of the RELATIVE POTENCY panel",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Drug B",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Δ Potency label — the horizontal gap between the two EC50s",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "Δ Potency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EC legend — EC = Effective concentration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "EC = Effective concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EC50 labels — the two x-axis crossings of the RELATIVE POTENCY panel (EC50 prints twice on the page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "EC50",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 232)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 232",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 232)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "efficacy-potency-map"
+  ],
+  "mechanismIds": [
+    "efficacy-reads-the-y-axis",
+    "potency-reads-the-x-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source definitions and panels.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two definitions, the two dose-response panels, and the partial-agonist sentence; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axis-reading-protocol",
+      "summary": "The two-axis reading (CEILING: efficacy 'Maximal effect a drug can produce (intrinsic activity). Represented by the y-value (Emax)' — partial agonists lower it, and it is 'unrelated to potency'; POSITION: potency 'Amount of drug needed for a given effect. Represented by the x-value (EC50)' — left shift = ↓ EC50 = ↑ potency = ↓ drug needed, and it is 'unrelated to efficacy'; with the geometric rule that Δ Efficacy is a VERTICAL gap between plateaus while Δ Potency is a HORIZONTAL gap between EC50s) — KYP's synthesis of the page's two definitions and two panels into one decision protocol (which axis does the stem describe, and which delta is drawn).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two definitions and the two panels as parallel blocks without a unified reading protocol; the ceiling-vs-position framing and the vertical-delta / horizontal-delta geometry are KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (1 — EFFICACY IS THE CEILING, READ THE y-AXIS: the Emax rule; 2 — POTENCY IS THE POSITION, READ THE x-AXIS: the EC50 left-shift rule; 3 — PARTIALS PULL THE CEILING DOWN: the partial-agonist rule; 4 — CEILING ≠ POSITION, THE AXES DON'T TALK: the independence clauses). The page prints NO mnemonic in this section — all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 232's Efficacy vs potency section prints NO margin mnemonic; all four codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 254). The section is typeset text plus two vector curve panels: the Efficacy row and Potency row definitions (text layer) and the RELATIVE EFFICACY / RELATIVE POTENCY dose-response panels (vector line-art curves with text labels — drawn curves, not photographs). The two definitions print in the text layer and are carried verbatim in the note's table blocks and re-typeset in the registry visual's definition cards (ORIGINAL_KYP_ADAPTATION) — short attributed definition sentences, not artwork reproductions. The two dose-response curves are redrawn as ORIGINAL_KYP_REDRAW vector line-art sigmoids in the registry visual (full agonist vs partial agonist with different Emax and the same curve position; two full agonists with the same Emax and different EC50) — the curve shapes are the standard Hill sigmoids of pharmacodynamics, re-drawn from scratch; no copyrighted artwork is reproduced. The page prints NO margin mnemonic for this section; the KYP memory layer adds four original codes (EFFICACY IS THE CEILING, POTENCY IS THE POSITION, PARTIALS PULL THE CEILING DOWN, CEILING ≠ POSITION). No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 254 (book 232) contains NO 'Receptor binding' (PH8) and NO 'Therapeutic index' (PH9) content — those sections live on later pages (Receptor binding begins on pdf 255 / book 233) and are separate pending topics, so no exclusion was needed for this topic. NO dosage-calculations (PH6) content appears either — that is pdf 253 / book 231, already produced.",
+  "updatedAt": "2026-11-08"
+}

@@ -1,0 +1,46 @@
+{
+  "topicId": "sympatholytics-alpha-2-agonists",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "sympatholytics-alpha-2-agonists",
+      "requiredInKYP": true,
+      "visualId": "sympatholytics-alpha-2-agonists-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Sympatholytics (α2-agonists) block's own printed set (the section's sole visual element — the three-column DRUG/APPLICATIONS/ADVERSE EFFECTS table of three rows)",
+      "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE (PURE TEXT — ZERO rasters on pdf 265; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'Sympatholytics (α2-agonists)'. Column headers: DRUG / APPLICATIONS / ADVERSE EFFECTS. Three rows: 'Clonidine, guanfacine' → 'Hypertensive urgency (limited situations), ADHD, Tourette syndrome, symptom control in opioid withdrawal' | 'CNS depression, bradycardia, hypotension, respiratory depression, miosis, rebound hypertension with abrupt cessation'; 'α-methyldopa' → 'Hypertension in pregnancy' | 'Direct Coombs ⊕ hemolysis, drug-induced lupus, hyperprolactinemia'; 'Tizanidine' → 'Relief of spasticity' | 'Hypotension, weakness, xerostomia'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP mechanism map (the presynaptic-autoreceptor mechanism strip, the three drug cards, the toxicity/rebound strip, the α2 = Gi link band, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "alpha2-agonist-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the three-row DRUG/APPLICATIONS/ADVERSE EFFECTS table; the cross-page mechanism-anchor table) + the registry visual's mechanism strip, drug cards, toxicity strip, Gi-link band, boundary strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "alpha2-agonist-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "sympatholytics-alpha-2-agonists",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the Sympatholytics (α2-agonists) block's printed visual set is ONE element — the THREE-COLUMN DRUG/APPLICATIONS/ADVERSE EFFECTS TABLE of three rows, PURE TEXT (ZERO rasters on pdf 265 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The set is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every drug, application, and adverse-effect cell is the book's own print) and conveyed as ONE original KYP mechanism map in the registry visual Alpha2AgonistMap (THE MECHANISM STRIP — the presynaptic α2-autoreceptor brake with its printed anchors from book 238 'presynaptic α2-autoreceptors → negative feedback.' and book 237 '↓ sympathetic (adrenergic) outflow' via Gi; THE THREE DRUG CARDS — clonidine/guanfacine (the four printed applications + the six-finding toxicity cell incl. rebound hypertension with abrupt cessation), α-methyldopa ('Hypertension in pregnancy' + 'Direct Coombs ⊕ hemolysis, drug-induced lupus, hyperprolactinemia'), tizanidine ('Relief of spasticity' + 'Hypotension, weakness, xerostomia'); THE TOXICITY/REBOUND STRIP — the printed never-stop-abruptly rule; THE α2 = Gi LINK BAND — the book's own 'M2, α2, or D2 receptor' → 'Gi protein' figure labels of book 237; THE BOUNDARY STRIP — the PH22/alpha-blockers same-page split pinned from above; the reading-rule footer). BOUNDARY pinned from above: the LOWER portion of pdf 265 (lines 39-78) is the α-blockers class table — the SEPARATE PENDING alpha-blockers topic — EXCLUDED (only its header pair + first/last drug rows pinned as boundary markers; mirtazapine the α2 antagonist is the receptor-mirror citation, never this block's print). SECTION EXTENT: the block does NOT extend to pdf 266 (book 244 opens β-blockers); pdf 264 behind carries only the sympathomimetics tail; sourcePages = [265] only. KYP extensions flagged wherever they appear: the SYMPATHETIC-DIMMER frame (the central/medullary location is NOT printed — flagged), the PATIENT-SORT frame, the MOM-AND-COOMBS frame, the PRODRUG flag (α-methyldopa → α-methylnorepinephrine — NOT printed, flagged), and the PH22/alpha-blockers boundary census. No copyrighted artwork reproduced; nothing reproduced."
+}

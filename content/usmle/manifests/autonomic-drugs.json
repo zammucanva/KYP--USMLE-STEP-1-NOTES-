@@ -1,0 +1,822 @@
+{
+  "topicId": "autonomic-drugs",
+  "title": "Autonomic Drugs",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      260
+    ],
+    "bookPages": "238"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 238): the printed page number, the Section II marker, the section header, the Pharmacology marker, and the standing section banner",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "238\n\nSEC TION II\n\nAutonomic drugs\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — 'Autonomic drugs' (this topic's section; the ONLY section header on the page — the whole page belongs to this topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Autonomic drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The standing section banner — '▶ PHARMACOLOGY—AUTONOMIC DRUGS' (the same banner PH10–PH16 sit under; this topic is the banner's synthesis-map page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intro rule 1, whole, verbatim — the presynaptic α2-autoreceptor negative-feedback rule: 'Release of norepinephrine from a sympathetic nerve ending is modulated by NE itself, acting on presynaptic α2-autoreceptors → negative feedback.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Release of norepinephrine from a sympathetic nerve ending is modulated by NE itself, acting on\npresynaptic α2-autoreceptors → negative feedback.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intro rule 2, whole, verbatim — the amphetamine rule (the page's second paragraph, carried complete)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamines use the NE transporter (NET) to enter the presynaptic terminal, where they utilize\nthe vesicular monoamine transporter (VMAT) to enter neurosecretory vesicles. This displaces NE\nfrom the vesicles. Once NE reaches a concentration threshold within the presynaptic terminal,\nthe action of NET is reversed, and NE is expelled into the synaptic cleft, contributing to the\ncharacteristics and effects of ↑ NE observed in patients taking amphetamines.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intro rule 2, entry clauses — 'Amphetamines use the NE transporter (NET) to enter the presynaptic terminal, where they utilize the vesicular monoamine transporter (VMAT) to enter neurosecretory vesicles.' (the Trojan-horse entry: gate, then store)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamines use the NE transporter (NET) to enter the presynaptic terminal, where they utilize\nthe vesicular monoamine transporter (VMAT) to enter neurosecretory vesicles. This displaces NE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intro rule 2, displacement clause — 'This displaces NE from the vesicles. Once NE reaches a concentration threshold within the presynaptic terminal,'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "the vesicular monoamine transporter (VMAT) to enter neurosecretory vesicles. This displaces NE\nfrom the vesicles. Once NE reaches a concentration threshold within the presynaptic terminal,",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intro rule 2, NET-reversal clause — 'the action of NET is reversed, and NE is expelled into the synaptic cleft, contributing to the characteristics and effects of ↑ NE observed in patients taking amphetamines.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "from the vesicles. Once NE reaches a concentration threshold within the presynaptic terminal,\nthe action of NET is reversed, and NE is expelled into the synaptic cleft, contributing to the\ncharacteristics and effects of ↑ NE observed in patients taking amphetamines.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The diagram's two main lane headers — 'CHOLINERGIC' and 'NORADRENERGIC' (the flowchart's left and right halves; the page's biggest printed element opens here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "CHOLINERGIC\n\nNORADRENERGIC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic lane's top block as the text layer prints it, physical order — the interleaved 'TERMINAL AXON' vertical fragments ('TE' 'L' 'AX' 'ON'), the synthesis enzyme 'ChAT', its product 'ACh' (printed twice — two-layer artwork), 'Botulinum toxin', and the noradrenergic lane's 'DOPA' scattered through (the two lanes' labels interleave in one block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "TE\n\nL\n\nChAT\nACh\n\nAX\n\nON\n\nBotulinum toxin\n\nIN A\n\nDOPA\n\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic synthesis enzyme, verbatim — 'ChAT' on the Choline + Acetyl-CoA → ACh arrow (the ONLY enzyme name printed anywhere on the page — VLM render check on the 150-dpi page confirms ChAT prints on the arrow and that NO enzyme labels print on the noradrenergic arrows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "ChAT\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic inhibitor anchor, verbatim — 'Botulinum toxin' (the diagram's own drug label on the release step of the cholinergic lane)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Botulinum toxin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic lane's first intermediate, verbatim — 'DOPA' (Tyrosine → DOPA; no enzyme label prints on this arrow — VLM-verified)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "DOPA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The release trigger, verbatim — 'Ca2+' (the diagram's own label at the presynaptic terminal: Ca2+ influx drives exocytosis in both main lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Ca2+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The release-modulating receptors label, verbatim — 'Releasemodulating receptors' (the raw layer prints it hyphen-less where -layout prints 'Release-modulating receptors'; the presynaptic bracket that carries α2 and AT II)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Releasemodulating\nreceptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The VMAT inhibitor anchor, whole, verbatim — 'Vesicular monoamine transporter (VMAT) inhibitor' (the diagram's own drug-class label at the noradrenergic vesicle)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Vesicular\nmonoamine\ntransporter\n(VMAT) inhibitor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The VMAT inhibitor's drug, verbatim — 'Tetrabenazine' (printed in the footer zone of the text layer, the anchor list's own member)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Tetrabenazine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic stimulant anchor at the vesicle, verbatim — 'Amphetamine, Ephedrine' (the diagram's own drug list at the displacement step)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamine,\nEphedrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic lane's third intermediate, verbatim — 'Dopamine' (DOPA → Dopamine → NE; no enzyme label prints on either arrow — VLM-verified)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Dopamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic mid-block as the text layer prints it, physical order — the interleaved 'TERMINAL AXON'/'AXONAL TERMINAL' fragments ('RM' 'TE' … 'ON' 'RM' … 'AX' 'IN A' 'L') around 'Amphetamine, Ephedrine', 'Dopamine', 'Cholinergic inhibitor', and 'Noradrenergic stimulant'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "RM\nTE\n\nAmphetamine,\nEphedrine\n\nDopamine\n\nON\n\nRM\n\nCholinergic inhibitor\n\nNoradrenergic stimulant\n\nAX\n\nIN A\n\nL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic inhibitor label, verbatim — 'Cholinergic inhibitor' (the anchor-class label whose member is Botulinum toxin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Cholinergic inhibitor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic stimulant label, first print — 'Noradrenergic stimulant' (the anchor-class label at the vesicle)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Noradrenergic stimulant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The two lanes' substrates as one interleaved block, physical order — 'Tyrosine' + 'Choline' + '+' + 'Acetyl-CoA' (the noradrenergic and cholinergic synthesis inputs print side by side)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Tyrosine\nCholine\n+\nAcetyl-CoA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic presynaptic cluster, physical order — 'VMAT' … 'AT II' … 'NE' … 'α2' (the vesicular transporter, the angiotensin II heteroreceptor, the transmitter, and the autoreceptor in one contiguous range)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "VMAT\n\nAT II\nNE\n\nα2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic stimulant label, second print + the feedback label, physical order — 'Noradrenergic stimulant' … 'Negative feedback' (the α2 autoreceptor's own arrow label, the diagram's printed name for intro rule 1's loop)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Noradrenergic\nstimulant\n\nNegative\nfeedback",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic degradation step, physical order — 'Choline' 'Acetate' … 'AChE' (the cleft breaker and its two products; the second 'Choline' print closes the substrate loop)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Choline\nAcetate\n\nAChE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinoreceptor plate, verbatim — 'M1' 'M2' 'M3' (the diagram's own postsynaptic plate of the cholinergic lane)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "M1\n\nM2\n\nM3",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic stimulant anchor, whole, verbatim — 'AChE inhibitors eg, Donepezil' (the diagram's own drug list at the cleft breaker of the cholinergic lane)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AChE inhibitors\neg, Donepezil",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinergic stimulant label, verbatim — 'Cholinergic stimulant' (the anchor-class label, printed in the footer zone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Cholinergic stimulant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The postsynaptic plate of the noradrenergic lane, physical order — 'POSTSYNAPTIC NEURON' … 'β' … 'α' … 'Adrenoreceptors' (the plate, its two receptor families, and its name)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "POSTSYNAPTIC NEURON\n\nβ\n\nα\n\nAdrenoreceptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serotonergic lane header + its substrate, physical order — 'SEROTONERGIC' 'Tryptophan' (the fourth lane opens; the serotonergic synthesis chain prints beneath the two main lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "SEROTONERGIC\nTryptophan",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic lane's second step, verbatim — 'L-DOPA' (Tyrosine → L-DOPA in the dopaminergic lane; note the main noradrenergic lane prints 'DOPA' while this lane prints 'L-DOPA')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "L-DOPA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serotonergic lane's second step, verbatim — '5-Hydroxytryptophan' (Tryptophan → 5-Hydroxytryptophan → 5-HT)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "5-Hydroxytryptophan",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic lane's transmitter, verbatim — 'Dopamine' (its third print on the page — the dopaminergic lane's own chain)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Dopamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serotonergic lane's transmitter, verbatim — '5-HT' (its first print — the lane's product)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "5-HT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic lane's substrate, verbatim — 'Tyrosine' (its second print — Tyrosine opens both catecholamine lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Tyrosine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'AXONAL TERMINAL' verticals, physical order — the interleaved fragments 'AXO' 'NT' 'ER' 'M' … 'AXO' 'NT' 'ER' 'MI' … 'AL' (the two bottom lanes' shared caption, printed as rotated art and scattered by extraction)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "AXO\nNT\nER\nM\n\nAXO\nNT\nER\nMI\n\nAL",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The noradrenergic clearance labels, verbatim — 'Reuptake' and 'Diffusion, metabolism' (the two routes out of the cleft: NET reuptake vs drift-and-metabolism)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Reuptake\n\nDiffusion,\nmetabolism",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The postsynaptic label, second print — 'POSTSYNAPTIC NEURON' (the bottom lanes' own postsynaptic caption)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "POSTSYNAPTIC NEURON",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic lane header, verbatim — 'DOPAMINERGIC' (the third lane's header)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "DOPAMINERGIC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NET-blocker anchor list, whole, verbatim — 'Amphetamine, SNRIs, Cocaine, TCAs, MDMA' (the diagram's own drug list at the norepinephrine transporter — the reuptake-block class)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamine,\nSNRIs, Cocaine,\nTCAs, MDMA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The norepinephrine transporter, verbatim — 'NET' (the reuptake pump amphetamines enter by and cocaine/TCAs/SNRIs block)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "NET",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The cholinoreceptors label, verbatim — 'Cholinoreceptors' (the plate's own name, printed beside M1 M2 M3)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Cholinoreceptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic + serotonergic terminal transmitters, physical order — '5-HT' … 'Dopamine' (the vesicle contents of the two bottom lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "5-HT\n\nDopamine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The bottom lanes' stimulant labels, physical order — 'Dopaminergic stimulant' … 'Serotonergic stimulant'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Dopaminergic stimulant\n\nSerotonergic stimulant",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The DAT-blocker anchor list, whole, verbatim — 'Amphetamine, Methylphenidate, Cocaine' (the diagram's own drug list at the dopamine transporter)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamine,\nMethylphenidate,\nCocaine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopamine transporter, verbatim — 'DAT' (the dopaminergic lane's reuptake pump)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "DAT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopaminergic postsynaptic plate, physical order — 'POSTSYNAPTIC N EURO' … '5-HT receptor' … (the split word is the raw layer's own print) with 'Dopamine receptor' at line 200",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "POSTSYNAPTIC N\nEURO\n\n5-HT receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The dopamine receptor label, verbatim — 'Dopamine receptor' (the dopaminergic lane's postsynaptic plate)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Dopamine receptor",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SERT-blocker anchor list, whole, verbatim — 'Amphetamine, SNRIs, Cocaine, SSRIs' (the diagram's own drug list at the serotonin transporter)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Amphetamine, SNRIs,\nCocaine, SSRIs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The serotonin transporter, verbatim — 'SERT' (the serotonergic lane's reuptake pump)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "SERT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The three Reuptake prints, physical order — 'Reuptake' at the NET (142), the DAT (177), and the SERT (198): every monoamine lane clears by a pump (the cache prints them at lines 142, 177, 198 — quoted as the contiguous final print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Reuptake",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line + the print-date footer (book 238; the section ENDS here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 238\n\nAmphetamine, SNRIs,\nCocaine, SSRIs\n\nSERT\n\nReuptake\n\nDopamine receptor\n\nTetrabenazine\nCa2+\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE BOUNDARY — pdf 259 (book 237) carries the COMPLETED topic PH16 'g-protein-linked-second-messengers' (the receptor × G-protein-class table and the three cascade diagrams): the Autonomic drugs section starts fresh on pdf 260 and inherits nothing from 259 (EXCLUDED)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "G-protein–linked second messengers",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PH16 RECIPROCAL ANCHOR — the completed topic PH16 pinned THIS section as its next-page boundary marker ('the 260 text layer opens with the new section header — sourcePages = [259] only'): the marker resolves HERE, and this page's postsynaptic plates (M1 M2 M3, α β) are the receptors whose class letters that page printed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Autonomic drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 261 (book 239) opens the SEPARATE pending 'Cholinomimetic agents' section (verified: the 261 text layer opens 'Cholinomimetic agents' + its DRUG/ACTION/APPLICATIONS table): the diagram does NOT extend to 261 — the whole section, both rules and the four-lane figure, is on pdf 260 alone (sourcePages = [260] only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Cholinomimetic agents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "autonomic-drugs-synthesis-map"
+  ],
+  "mechanismIds": [
+    "amphetamine-net-vmat-reversal",
+    "alpha2-autoreceptor-negative-feedback",
+    "two-lane-transmitter-life-cycle"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the section's two rules and four-lane flowchart.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the rules and the diagram; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "five-slots-reading-protocol",
+      "summary": "The FIVE SLOTS compression of the two main lanes into one drug-target grid — MAKE (ChAT in the cholinergic lane; the tyrosine→DOPA→dopamine→NE chain in the noradrenergic lane), PACK (VMAT into the vesicle), RELEASE (Ca2+-triggered exocytosis, modulated by the α2 autoreceptor and AT II), LISTEN (Cholinoreceptors M1 M2 M3 vs Adrenoreceptors α β on the POSTSYNAPTIC NEURON), TAKE BACK (NET reuptake vs 'Diffusion, metabolism'; ACh instead is BROKEN by AChE). Every slot, step, drug list, and label is the page's own print; the slot names, the grid view, and the clearance-asymmetry frame (ACh has a BREAKER, NE has a PUMP) are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints the two lanes as art with scattered labels; the five-slot drug-target grid and the asymmetry frame are KYP's synthesis of the page's own elements.",
+      "location": "core.keyIdea + mechanisms + the visual's five-slots digest strip"
+    },
+    {
+      "id": "trojan-horse-and-enzyme-layer",
+      "summary": "The TROJAN HORSE frame for intro rule 2 (amphetamine ENTERS BY the gate [NET], RAIDS the store [VMAT], then OPENS THE GATE BACKWARDS [NET reversal] — NE expelled into the cleft) plus the enzyme-name layer the page does NOT print (VLM-verified: no enzyme labels on the Tyrosine→DOPA or Dopamine→NE arrows; ChAT is the only printed enzyme): tyrosine hydroxylase as the RATE-LIMITING step, dopa decarboxylase, dopamine β-hydroxylase (vesicular), and PNMT — and the adrenal Epi branch (NE → epinephrine in the adrenal medulla), which is the book's OWN print on book 234's overview diagram (the completed PH11 topic), cross-referenced here and flagged as NOT this page.",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints the rule and the chain without the enzyme names and without any adrenal branch; the Trojan-horse compression, the enzyme layer, and the cross-referenced adrenal limb are KYP's (the limb itself is the book's own, on a different page).",
+      "location": "mechanisms + traps + the visual's flagged enzyme chips and adrenal note"
+    },
+    {
+      "id": "autoreceptor-and-transporter-drug-layer",
+      "summary": "The clinical/drug anchor layer (NONE of these names print on this page): the α2-agonist story (clonidine, guanfacine — ride the printed autoreceptor loop to ↓ sympathetic outflow) and its inverse (α2 blockade, yohimbine — removes the brake); the AT II heteroreceptor reading (angiotensin II facilitates NE release — the printed 'AT II' beside α2); and the monoamine-transporter family frame (NET, DAT, SERT as one system — the page's own three pumps and its four stimulant lists, with methylphenidate at DAT, SSRIs at SERT, cocaine/TCAs/SNRIs/MDMA at NET, and amphetamine on ALL FOUR lists).",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints the pumps, the lists, the autoreceptor, and AT II, but no agonist/antagonist drug names and no family commentary; the anchor layer and the transporter-family frame are KYP's design.",
+      "location": "usmle + crossLinks + mnemonics clinical + the visual's anchor cards"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer + VLM render check): the Autonomic drugs section occupies the WHOLE of pdf 260 (book 238) under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner — the only section header on the page. The section prints TWO elements: (1) TWO INTRO RULES (prose) — the α2-autoreceptor negative-feedback rule and the amphetamine NET→VMAT→displacement→threshold→NET-reversal→expulsion rule (both carried VERBATIM in the note's first table block); (2) ONE LARGE FOUR-LANE VECTOR FLOWCHART (CHOLINERGIC / NORADRENERGIC / DOPAMINERGIC / SEROTONERGIC) whose labels print in the text layer — cholinergic chain Choline + Acetyl-CoA →(ChAT)→ ACh with Ca2+-triggered release, Cholinoreceptors M1 M2 M3 on the POSTSYNAPTIC NEURON, AChE → Choline + Acetate, and the anchors 'Botulinum toxin' + 'AChE inhibitors eg, Donepezil'; noradrenergic chain Tyrosine → DOPA → Dopamine → NE with VMAT, 'Vesicular monoamine transporter (VMAT) inhibitor' / 'Tetrabenazine', 'Amphetamine, Ephedrine' at the vesicle, 'Release-modulating receptors' α2 + AT II with the 'Negative feedback' arrow, NET 'Reuptake', 'Amphetamine, SNRIs, Cocaine, TCAs, MDMA' at the pump, Adrenoreceptors α β, and 'Diffusion, metabolism'; the DOPAMINERGIC lane (Tyrosine → L-DOPA → Dopamine, DAT, 'Amphetamine, Methylphenidate, Cocaine', 'Dopamine receptor') and the SEROTONERGIC lane (Tryptophan → 5-Hydroxytryptophan → 5-HT, SERT, 'Amphetamine, SNRIs, Cocaine, SSRIs', '5-HT receptor') under the 'AXONAL TERMINAL' captions. RASTER CENSUS: ZERO raster images on pdf 260 (pdfimages -list returns no rows) — the flowchart is VECTOR LINE ART, COPYRIGHTED, never reproduced; conveyed as ONE original KYP two-lane synthesis map (AutonomicDrugsSynthesisMap). TEXT-LAYER ARTIFACTS pinned: two-layer artwork prints ACh, Tyrosine, Dopamine, 5-HT, Reuptake, and 'Noradrenergic stimulant' multiple times; the vertical 'TERMINAL AXON'/'AXONAL TERMINAL' captions scatter as fragments ('TE' 'L' 'AX' 'ON'; 'AXO' 'NT' 'ER' 'M'/'MI' 'AL'); 'Release-modulating receptors' prints hyphen-less ('Releasemodulating receptors') and 'POSTSYNAPTIC N EURO' splits mid-word — every diagram label quoted in physical order as contiguous line ranges, raw-layer spellings pinned. VLM RENDER CHECK (150-dpi): NO enzyme labels on the Tyrosine→DOPA / Dopamine→NE arrows (no 'tyrosine hydroxylase', no 'dopamine β-hydroxylase' anywhere on the page — ChAT is the ONLY printed enzyme) and NO epinephrine/PNMT/adrenal branch — the noradrenergic lane ENDS at NE; the adrenal Epi limb is the book's own print on book 234 (PH11), cross-referenced and flagged. PAGE-EXTENT FINDING (checked per task): the diagram does NOT extend to pdf 261 — pdf 261 (book 239) opens the SEPARATE pending 'Cholinomimetic agents' section; sourcePages = [260] only. BOUNDARIES: pdf 259 carries the COMPLETED PH16 (EXCLUDED, but its next-page boundary marker named THIS section — the reciprocal anchor is pinned, and this page's M1/M2/M3 + α/β plates resolve into PH16's class letters); pdf 261 opens the PENDING 'Cholinomimetic agents' (EXCLUDED). KYP extensions flagged wherever they appear: the five-slots reading (MAKE, PACK, RELEASE, LISTEN, TAKE BACK), the Trojan-horse frame, the enzyme-name layer (tyrosine hydroxylase rate-limiting, dopa decarboxylase, dopamine β-hydroxylase, PNMT — none printed), the adrenal Epi branch (book 234's own limb), the α2-agonist/antagonist + AT II drug layer, the NET/DAT/SERT family frame, and the clearance-asymmetry frame (ACh has a breaker, NE has a pump). No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

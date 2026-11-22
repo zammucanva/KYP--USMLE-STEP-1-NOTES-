@@ -1,0 +1,127 @@
+{
+  "topicId": "efficacy-vs-potency",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-vs-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-vs-potency-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The RELATIVE EFFICACY dose-response panel",
+      "sourceFigureDescription": "The page's first curve panel, vector line art (no raster): y-axis '% Maximal effect' with printed 100/50/0 gridlines, x-axis 'Log (drug dose)'; two sigmoid curves with the same left-right position but different ceilings — the upper plateau labeled 'Emax Drug A', the lower plateau labeled 'Emax Drug B' (the partial agonist), and the vertical gap between the plateaus labeled 'Δ Efficacy'.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "efficacy-potency-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the RELATIVE EFFICACY panel of the EfficacyPotencyMap — redrawn as vector sigmoids: full agonist to 100%, partial agonist to 60%, dashed plateau lines, and the vertical Δ Efficacy bracket)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "efficacy-potency-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-vs-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-vs-potency-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The RELATIVE POTENCY dose-response panel",
+      "sourceFigureDescription": "The page's second curve panel, vector line art (no raster): same '% Maximal effect' / 'Log (drug dose)' axes; two sigmoid curves with the SAME ceiling (both reach 100% maximal effect) but different left-right positions — the left curve labeled 'Drug A', the right curve labeled 'Drug B', two EC50 x-axis crossings at the 50% height, the horizontal gap labeled 'Δ Potency', and the legend 'EC = Effective concentration'.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "efficacy-potency-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the RELATIVE POTENCY panel of the EfficacyPotencyMap — redrawn as vector sigmoids: two full agonists with the same Emax, Drug A left-shifted with a lower EC50, dashed 50% crossings dropped to the x-axis, and the horizontal Δ Potency bracket)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "efficacy-potency-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-vs-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-vs-potency-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two definition rows — Efficacy and Potency",
+      "sourceFigureDescription": "The two text rows printed beside the panels: 'Maximal effect a drug can produce (intrinsic activity). Represented by the y-value (Emax). ↑ y-value = ↑ Emax = ↑ efficacy. Unrelated to potency (ie, efficacious drugs can have high or low potency). Partial agonists have less efficacy than full agonists.' and 'Amount of drug needed for a given effect. Represented by the x-value (EC50). Left shifting = ↓ EC50 = ↑ potency = ↓ drug needed. Unrelated to efficacy (ie, potent drugs can have high or low efficacy).' Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "efficacy-potency-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the two definition cards of the EfficacyPotencyMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "efficacy-potency-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "efficacy-vs-potency",
+      "requiredInKYP": true,
+      "visualId": "efficacy-vs-potency-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The partial agonist sentence and the EC legend",
+      "sourceFigureDescription": "The partial-agonist sentence closing the Efficacy row — 'Partial agonists have less efficacy than full agonists.' — and the RELATIVE POTENCY panel's printed legend 'EC = Effective concentration' with its two EC50 labels. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "efficacy-potency-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the partial-agonist callout and the EC50 legend of the EfficacyPotencyMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "efficacy-potency-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "efficacy-vs-potency",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 2,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 254). The section is typeset text plus two vector curve panels. The two definitions (Efficacy row, Potency row) print in the text layer and are carried verbatim in the note's table blocks and re-typeset in the registry visual's definition cards (ORIGINAL_KYP_ADAPTATION) — short attributed definition sentences, not artwork reproductions. The two dose-response panels are vector line-art curves in the PDF and are redrawn as ORIGINAL_KYP_REDRAW vector sigmoids in the registry visual — the curve shapes are the standard Hill sigmoids of pharmacodynamics, re-drawn from scratch; no copyrighted artwork is reproduced. The page prints NO margin mnemonic for this section; the KYP memory layer adds four original codes. No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 254 (book 232) contains NO Receptor binding (PH8) and NO Therapeutic index (PH9) content — Receptor binding begins on pdf 255 (book 233); those are separate pending topics, so no exclusion was needed here. NO dosage-calculations (PH6) content appears either — that is pdf 253 (book 231), already produced."
+}

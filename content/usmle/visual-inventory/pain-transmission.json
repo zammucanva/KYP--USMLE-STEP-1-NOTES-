@@ -1,0 +1,46 @@
+{
+  "topicId": "pain-transmission",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "pain-transmission",
+      "requiredInKYP": true,
+      "visualId": "pain-transmission-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The section's two subsections and the four-process blocker list (the whole section — there is no figure on the page)",
+      "sourceFigureDescription": "The section's entire printed content, verbatim: the NOCICEPTIVE PAIN subsection — 'Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli.'; 'Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation. Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).'; 'Processes involved in pain transmission:' with its four lines (Transduction — local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids; Transmission — local anesthetics, α2-agonists, opioids; Modulation — TCAs, SSRIs, SNRIs, gabapentinoids; Perception — α2-agonists, opioids, TCAs, SSRIs, SNRIs) — and the NEUROPATHIC PAIN subsection — 'Caused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent activation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.' PAGE-STRUCTURE FINDING: NO pathway diagram exists on the page (the section is typeset text; pdfimages returned zero raster rows). The dorsal-horn/spinothalamic/thalamus/cortex station chain, substance P/glutamate, and gate-control theory are NOT printed on this page — the anatomical station labels that seat the four processes in the KYP visual are flagged extensions.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "pain-transmission-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the PainTransmissionMap — the stimulus band; the TRANSDUCTION node with the TRPV → Ca2+ influx → Na+ channel glyph and its six blocker chips; the Aδ/C fiber-split card with the transmission blockers; the MODULATION node with its four blocker chips; the PERCEPTION node with its five; the NEUROPATHIC contrast panel; the step × class blocker matrix; the four-code mnemonic strip) + blocks[0] the visual block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "pain-transmission-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "pain-transmission",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): NO raster images on the page (pdfimages -list returned zero rows for pdf 257) — the Pain transmission section is TYPESET TEXT ONLY (no figure exists to reproduce). The section is carried verbatim in the note's first table block and re-typeset as an ORIGINAL_KYP_ADAPTATION in the registry visual PainTransmissionMap: an original KYP pain-process map (the stimulus band; the TRANSDUCTION node with its TRPV → Ca2+ influx → Na+ channel glyph; the Aδ/C fiber-split card; the MODULATION and PERCEPTION nodes; the NEUROPATHIC contrast panel; the step × class blocker matrix; the four-code strip) built from the section's own sentences — only short attributed terms (TRPV, Aδ, C, the four process names, the blocker class names) are carried across. PAGE-STRUCTURE FINDING: the page prints NO pathway diagram and NO neurotransmitter account — the dorsal-horn → spinothalamic-tract → thalamus → cortex chain, substance P / glutamate, and gate-control theory are NOT printed on this page; the anatomical station labels used to seat the book's four processes (dorsal-horn synapse, spinothalamic tract, thalamus/cortex, descending modulation) are KYP extensions, flagged on the visual itself. The blocker matrix is KYP's pivot of the book's own four printed lines (every cell is the book's own assignment). EXCLUSIONS: the 'Acetylcholine receptors' section in the UPPER portion of the same page belongs to the COMPLETED topic PH12 'acetylcholine-receptors' and is NOT part of this inventory; pdf 256's lower portion belongs to the COMPLETED topic PH11 'autonomic-receptors'; pdf 258 opens the SEPARATE pending 'Micturition control' section (this section ENDS on pdf 257). The clinical anchors extending past the source page (clonidine/dexmedetomidine, lidocaine-type local anesthetics, gabapentin/pregabalin, amitriptyline/duloxetine, capsaicin, the diabetic workup) are KYP clinical anchors, flagged wherever they appear. The section prints NO margin mnemonic; the four codes are KYP-original."
+}

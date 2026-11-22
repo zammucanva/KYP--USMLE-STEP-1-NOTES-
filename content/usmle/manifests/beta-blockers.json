@@ -1,0 +1,529 @@
+{
+  "topicId": "beta-blockers",
+  "title": "Beta-Blockers",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      266
+    ],
+    "bookPages": "244"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 244): the printed page number, the Section II marker, the Pharmacology marker, and the standing Autonomic Drugs banner (the page this topic's WHOLE β-blockers block prints on — the banner it shares with every autonomic-drugs topic from drug-effect-modifications to the α-blockers table on book 243 behind)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "244\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header + the ELEVEN-DRUG ROSTER, verbatim — 'β-blockers' + 'Atenolol, betaxolol, bisoprolol, carvedilol, esmolol, labetalol, metoprolol, nadolol, nebivolol, propranolol, timolol.' (the whole class in alphabetical order — the roster the selectivity subtable below sorts into its four lanes; ten plain '-olol' names plus the two modified-suffix members carvedilol and labetalol already visible in the roster)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "β-blockers\n\nAtenolol, betaxolol, bisoprolol, carvedilol, esmolol, labetalol, metoprolol, nadolol, nebivolol,\npropranolol, timolol.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table frame, verbatim — the three column headers 'APPLICATION' / 'ACTIONS' / 'NOTES/EXAMPLES' (the frame of the block's application matrix — the same three-column architecture as the α2-agonists and α-blockers tables on book 243 behind, now carrying ten application rows, an ADVERSE EFFECTS row, and a SELECTIVITY subtable)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "APPLICATION\n\nACTIONS\n\nNOTES/EXAMPLES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 1, verbatim — 'Angina pectoris' → '↓ heart rate and contractility → ↓ O2 consumption' (the supply-demand arithmetic of the antianginal use: slower, weaker heart = less oxygen spent — the same arithmetic the MI row and the HCM row reuse)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Angina pectoris\n\n↓ heart rate and contractility → ↓ O2\nconsumption",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 2, verbatim — 'Glaucoma' → '↓ production of aqueous humor' | 'Timolol' (the one ophthalmology row: the nonselective N-to-Z member as the topical drop; the mechanism anchors to book 237's β2 row, which prints '↑ aqueous humor production' — the secretion the blocker takes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Glaucoma\n\n↓ production of aqueous humor\n\nTimolol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 3, verbatim — 'Heart failure' → 'Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality' | 'Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)' (the mortality lane: THREE named drugs — the β1-selective pair bisoprolol and metoprolol plus the combined α1+β carvedilol — with the book's own parenthetical 'β-blockers curb mortality' as the printed rationale)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Heart failure\n\nBlockade of neurohormonal stress → prevention\nof deleterious cardiac remodeling\n→ ↓ mortality\n\nBisoprolol, carvedilol, metoprolol (β-blockers\ncurb mortality)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 4, verbatim — 'Hypertension' → '↓ cardiac output, ↓ renin secretion (due to β1receptor blockade on JG cells)' (the two-hit antihypertensive action: less pump AND less renin — the β1 address on the JG cells is the book's own parenthetical, the renal half of the heart-plus-kidney distribution row of book 236)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Hypertension\n\n↓ cardiac output, ↓ renin secretion (due to β1receptor blockade on JG cells)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 5, verbatim — 'Hyperthyroidism/ thyroid storm' → 'Symptom control (↓ heart rate, ↓ tremor)' (the thyrotoxicosis row: the β-blocker as the symptom bridge while the antithyroid drugs work — the printed actions are rate and tremor control only; the blockade of peripheral T4→T3 conversion is NOT printed on this page — KYP-flagged wherever used)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Hyperthyroidism/\nthyroid storm\n\nSymptom control (↓ heart rate, ↓ tremor)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The hyperthyroidism/thyroid-storm NOTES/EXAMPLES cell, verbatim — 'Propranolol' (the named drug of the thyrotoxicosis row: the nonselective N-to-Z member, the classic thyroid-storm agent; in the text layer this cell prints after the table body — its column position is the NOTES/EXAMPLES lane of the row above)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Propranolol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 6, verbatim — 'Hypertrophic cardiomyopathy' → '↓ heart rate → ↑ filling time, relieving obstruction' (the obstruction arithmetic: slower heart = longer diastole = better filling = less gradient — the same ↓ heart rate token the angina row spends on O2 consumption)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Hypertrophic\ncardiomyopathy\n\n↓ heart rate → ↑ filling time, relieving\nobstruction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 7, verbatim — 'Migraine' → '↓ nitric oxide production' (the prophylaxis row — the printed mechanism is the NO line; the printed NOTES/EXAMPLES cell 'Effective for prevention' pins that this is the prophylactic use, not the abortive one)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Migraine\n\n↓ nitric oxide production",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The migraine NOTES/EXAMPLES cell, verbatim — 'Effective for prevention' (the printed rank of the migraine use: PROPHYLAXIS — the β-blocker prevents the attacks, it does not abort them; in the text layer this cell prints after the table body — its column position is the NOTES/EXAMPLES lane of the migraine row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Effective for prevention",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 8, verbatim — 'Myocardial infarction' → '↓ O2 demand (short-term), ↓ mortality (long-term)' (the two-clock row: the same ↓ O2 demand as the angina row short-term, the same ↓ mortality as the heart-failure row long-term — the printed temporal split)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Myocardial infarction\n\n↓ O2 demand (short-term), ↓ mortality (longterm)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 9, verbatim — 'Supraventricular tachycardia (eg, atrial fibrillation)' → '↓ AV conduction velocity (class II antiarrhythmic)' | 'Metoprolol, esmolol' (the arrhythmia row: the AV node slowed — the class II antiarrhythmic label is the book's own — with TWO named drugs, the β1-selective metoprolol and the ultra-short-acting esmolol)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Supraventricular\ntachycardia (eg,\natrial fibrillation)\n\n↓ AV conduction velocity (class II\nantiarrhythmic)\n\nMetoprolol, esmolol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Application row 10, verbatim — 'Variceal bleeding' → '↓ hepatic venous pressure gradient and portal hypertension (prophylactic use)' | 'Nadolol, propranolol, carvedilol for no portal circulation' (the gastroenterology lane: prophylaxis of the first bleed and rebleed; the NOTES cell carries the book's own parenthetical 'for no portal circulation' — the carvedilol clause whose absence-of-β2-selectivity reading is the exam's fine print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Variceal bleeding\n\n↓ hepatic venous pressure gradient and portal\nhypertension (prophylactic use)\n\nNadolol, propranolol, carvedilol for no portal\ncirculation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ADVERSE-EFFECTS row, whole, verbatim — 'ADVERSE EFFECTS' + 'Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations' (the block's one toxicity set: five system buckets — sexual, cardiovascular, CNS, metabolic, pulmonary — with TWO drug-specific parentheticals: dyslipidemia belongs to metoprolol and the masking to the diabetic patient's warning signs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "ADVERSE EFFECTS\n\nErectile dysfunction, cardiovascular\n(bradycardia, AV block, HF), CNS (seizures,\nsleep alterations), dyslipidemia (metoprolol),\nmasked hypoglycemia, asthma/COPD\nexacerbations",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed cocaine note, whole, verbatim — 'Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation' (the caution cell the exam builds stems on: the unopposed-α concern with the book's own hedge 'unsubstantiated concern' and 'remains controversial' — the SAME unopposed-α logic that orders α-blockade before β-blockade in pheochromocytoma, printed here for cocaine, never printed for pheo on either book-243 or book-244 pages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Use of β-blockers for acute cocaine-associated\nchest pain remains controversial due to\nunsubstantiated concern for unopposed\nα-adrenergic stimulation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SELECTIVITY subtable header + row 1, verbatim — 'SELECTIVITY' + 'β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol' (the first of the four selectivity lanes: FIVE drugs, the cardioselective set — the raw '>' prints in the cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "SELECTIVITY\n\nβ1-selective antagonists (β1 > β2)—atenolol,\nbetaxolol, bisoprolol, esmolol, metoprolol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The A-TO-M mnemonic cell, verbatim — 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)' (the book's OWN printed mnemonic: the β1-selective drugs run A(tenolol) through M(etoprolol) — the memory hook the publisher itself prints in the NOTES/EXAMPLES column; KYP adds only the reading that the two nonselective 'A–M-sounding' exceptions — carvedilol, labetalol — announce themselves by their modified suffixes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Selective antagonists mostly go from A to M (β1\nwith 1st half of alphabet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SELECTIVITY subtable row 2, verbatim — 'Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol' (the nonselective lane: THREE drugs, the set that takes both receptors — the lane that owns the asthma caution, the glaucoma drop (timolol), the thyrotoxicosis drug (propranolol), and two of the three variceal prophylaxis drugs)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Nonselective antagonists (β1 = β2)—nadolol,\npropranolol, timolol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The N-TO-Z mnemonic cell, verbatim — 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)' (the book's OWN printed mnemonic, capital-Z emphasis and all: the nonselective drugs run N(adolol) through Z — the second half of the alphabet; the pairing with the A-to-M cell IS the whole selectivity sort in two printed lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "NonZelective antagonists mostly go from N to Z\n(β2 with 2nd half of alphabet)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SELECTIVITY subtable row 3, verbatim — 'Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol' (the combined lane: TWO drugs that add α1 blockade to nonselective β blockade — the two modified-suffix names already visible in the page's opening roster; the hypertension-with-BPH and the pheo-adjacent lane)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Nonselective β-adrenergic, α1-selective\nantagonists—carvedilol, labetalol",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MODIFIED-SUFFIXES mnemonic cell, verbatim — 'Nonselective β-adrenergic and α1-selective antagonists have modified suffixes (instead of “-olol”)' (the book's OWN printed naming rule: carvedilol and labetalol break the '-olol' pattern because their receptor pattern is broken — the suffix IS the selectivity; the '-dilol'/'-talol' reading is KYP's, flagged)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Nonselective β-adrenergic and α1-selective\nantagonists have modified suffixes (instead of\n“-olol”)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SELECTIVITY subtable row 4, verbatim — 'Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3 -receptors (activate NO synthase in the vasculature and ↓ SVR)' (the nebivolol lane: β1 blockade PLUS β3 stimulation → NO synthase → vasodilation → ↓ SVR — the one β-blocker that lowers afterload by a second mechanism; the text layer prints 'β3 -receptors' with the split spacing, an artifact of the PDF's beta-greek numeral kerning)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "Nebivolol combines cardiac-selective\nβ1-adrenergic blockade with stimulation of\nβ3 -receptors (activate NO synthase in the\nvasculature and ↓ SVR)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEBIVOLOL mnemonic cell, verbatim — 'NebivOlol increases NO' (the book's OWN printed mnemonic with the capital-O emphasis: NebivolOl → NO — the fourth printed memory hook of the selectivity subtable; two alphabet-span mnemonics, one suffix rule, one NO line — the publisher prints the whole selectivity sort as four memory hooks)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "NebivOlol increases NO",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line (book 244; the page carries the WHOLE β-blockers block — header, roster, ten-row application matrix, adverse-effects row, and four-row selectivity subtable — under the one footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 244",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #1, verbatim — the β1 row of the second-messenger table: 'β1' | 's' | '↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis' (pdf 259 / book 237, the COMPLETED PH16 g-protein-linked-second-messengers, lines 31-35: β1 = the Gs couple — the ↑ heart rate, ↑ contractility the angina row's '↓ heart rate and contractility' blocks, and the ↑ renin release the hypertension row's '↓ renin secretion (due to β1receptor blockade on JG cells)' blocks; the book's own '(one heart)' token is the distribution mnemonic the blocker reverses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β1\n\ns\n\n↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #2, verbatim — the β2 row of the second-messenger table: 'β2' | 's' | 'Vasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone (tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake' (pdf 259 / book 237, lines 37-42: β2 = the Gs couple too — and ONE printed row carries THREE of this block's cells: 'bronchodilation (two lungs)' IS the mechanism of the printed 'asthma/COPD exacerbations' adverse effect (block it and the bronchioles constrict), '↑ glycogenolysis' IS the substrate of the printed 'masked hypoglycemia' (block it and the liver's emergency glucose mobilization blunts), and '↑ aqueous humor production' IS the mechanism of the glaucoma row's '↓ production of aqueous humor' under timolol)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "quote": "β2\n\ns\n\nVasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone\n(tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #3, verbatim — the β1 row of the tissue-distribution table: 'β1' | 'Heart / Kidney' → '↑ heart rate, contractility / ↑ renin secretion' (pdf 258 / book 236, the COMPLETED PH15 tissue-distribution-of-adrenergic-receptors, lines 121-127: the β1 addresses in distribution form — the heart is the chronotropy/inotropy address (the bradycardia of the adverse row), the kidney is the JG-cell renin address the hypertension row names itself; the two-organ row explains why a heart drug lowers blood pressure twice)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β1\n\nHeart\nKidney\n\n↑ heart rate, contractility\n↑ renin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE MECHANISM ANCHOR #4, verbatim — the β2 row of the tissue-distribution table: 'β2' | 'Bronchioles / Cardiac muscle / Liver / Arterial smooth muscle / Pancreas' → 'Bronchodilation / ↑ heart rate, contractility / Glycogenolysis, glucose release / Vasodilation / Stimulation of insulin secretion' (pdf 258 / book 236, lines 129-141: the β2 addresses in distribution form — the BRONCHIOLE line is the asthma caution's address (blockade → bronchospasm, the reason nonselective agents are contraindicated in asthma — the management rule is KYP's, flagged), the LIVER line 'Glycogenolysis, glucose release' is the masked-hypoglycemia address (blockade → the counter-regulatory glucose surge blunted), and the ARTERIAL line 'Vasodilation' is the vascular address whose loss under nonselective blockade explains the cold extremities and the unopposed-α pressor concern)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "β2\n\nBronchioles\nCardiac muscle\nLiver\nArterial smooth muscle\nPancreas\n\nBronchodilation\n↑ heart rate, contractility\nGlycogenolysis, glucose release\nVasodilation\nStimulation of insulin secretion",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BEHIND-PAGE BOUNDARY #1, verbatim — the α-blockers table's phenoxybenzamine row: 'Nonselective / Phenoxybenzamine / Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.' (pdf 265 / book 243, the COMPLETED PH23 alpha-blockers, lines 46-51: the page behind — the α-blockade that must come FIRST in pheochromocytoma before any β-blocker is added; the ordering rule itself prints on NEITHER page (KYP-flagged) — book 243 prints the α pretreatment, book 244 prints only the unopposed-α concern in its cocaine note)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Nonselective\nPhenoxybenzamine\n\nIrreversible. Pheochromocytoma (used\npreoperatively) to prevent catecholamine\n(hypertensive) crisis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The BEHIND-PAGE BOUNDARY #2, verbatim — the α-blockers table's final row: 'α2 selective' + 'Mirtazapine' → 'Depression.' (pdf 265 / book 243, lines 73-78: the last row of the COMPLETED PH23's table, pinned from behind — the α2-ANTAGONIST mirror row; THIS block's selectivity subtable has NO α2 lane (verified absent — the task's 'α2+β: none' verification resolved: the 2026 β-blockers table prints exactly FOUR selectivity groups, no α2+β member, no partial-agonist/ISA member [pindolol, acebutolol absent] — never cited as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "quote": "Depression.\n\nSedation, ↑ serum cholesterol, ↑ appetite.\n\nα2 selective\nMirtazapine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The AHEAD-PAGE BOUNDARY, verbatim — 'Phosphodiesterase inhibitors' + 'Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP.' (pdf 267 / book 245, lines 1-14: the section header that OPENS the next page — the PENDING PDE-inhibitors topic; the β-blockers block does NOT extend to pdf 267: the whole block (header + roster + ten-row application matrix + adverse row + four-row selectivity subtable) is on pdf 266 alone, sourcePages = [266] only — and the cAMP/cGMP language of that page ahead is the same second-messenger currency this block's Gs couple mints, the pharmacologic bridge the next topic crosses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "quote": "PHARMACOLOGY\n\nPhosphodiesterase\ninhibitors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n245\n\nPhosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or\ncGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for\nPDE isoforms and thus have different clinical uses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "beta-blocker-map"
+  ],
+  "mechanismIds": [
+    "beta-gs-blockade-four-lane-selectivity",
+    "beta-blocker-application-sort-caution-set"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the block's header + roster + ten-row application matrix + adverse-effects row + four-row selectivity subtable.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "four-lane-selectivity-frame",
+      "summary": "The FOUR-LANE SELECTIVITY frame — the printed selectivity subtable read as one question asked of every -olol: WHICH RECEPTORS does it block? β1-SELECTIVE (atenolol, betaxolol, bisoprolol, esmolol, metoprolol — the book's own 'A to M (β1 with 1st half of alphabet)' mnemonic) vs NONSELECTIVE (nadolol, propranolol, timolol — 'N to Z (β2 with 2nd half of alphabet)') vs COMBINED β+α1 (carvedilol, labetalol — the book's own 'modified suffixes (instead of \"-olol\")' rule) vs NEBIVOLOL (β1 + β3-NO — 'NebivOlol increases NO'). All four mnemonics are the BOOK'S OWN print; the four-lane compression that turns four printed memory hooks into one sorting question is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The selectivity rows and all four mnemonic cells are printed; the unified four-lane reading frame is KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + the visual's four fork cards"
+    },
+    {
+      "id": "three-caution-patients-frame",
+      "summary": "The THREE CAUTION PATIENTS frame — the printed adverse-effects row read as three patients the β-blocker endangers: THE ASTHMATIC ('asthma/COPD exacerbations' — nonselective β2 blockade unopposes bronchoconstriction; the 'avoid nonselective agents in asthma' management rule is KYP's, flagged — the printed cell names the exacerbation, not the avoidance rule), THE BRITTLE DIABETIC ('masked hypoglycemia' — β2 blockade blunts the liver's glycogenolysis and hides the tachycardia warning sign; the tachycardia-masking reading is KYP's, flagged), and THE COCAINE USER (the printed 'unsubstantiated concern for unopposed α-adrenergic stimulation' note — the controversy the book itself hedges). The cells are printed; the three-patient sort and the management rules are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The adverse-effect cells and the cocaine note are printed; the three-patient framing and the avoidance rules are KYP's clinical overlay.",
+      "location": "usmle patterns[0] + traps[0-2] + the miniCase + the visual's toxicity strip"
+    },
+    {
+      "id": "abrupt-withdrawal-and-pheo-frames",
+      "summary": "Two protocol frames (both NOT printed on this page — flagged wherever used): (1) the ABRUPT-WITHDRAWAL frame — never stop a β-blocker cold (rebound tachycardia, angina, hypertension, arrhythmia; taper over days to weeks) — the block's printed cells carry no withdrawal token; (2) the PHEO α-FIRST frame — in pheochromocytoma, α-blockade before β-blockade (book 243's phenoxybenzamine row is the printed anchor; THIS page prints only the unopposed-α concern in its cocaine note) — a β-blocker first leaves the catecholamine surge on unopposed α1 receptors. Both rules are classic exam material, both absent from the printed cells, both KYP-flagged and anchored to printed lines (phenoxybenzamine row + cocaine note) rather than cited as print.",
+      "origin": "outside-first-aid",
+      "rationale": "Neither the taper rule nor the pheo ordering rule prints on book 244; both are clinical-pharmacology standards attached as flagged overlays.",
+      "location": "usmle traps[3] + pivots[0] + the visual's caution strip"
+    },
+    {
+      "id": "boundary-and-absence-census",
+      "summary": "The boundary + absence census itself: (1) the PH23/PH24 boundary — pdf 266 (book 244) carries the WHOLE β-blockers block (header, roster, ten-row application matrix, adverse row, four-row selectivity subtable, footer); pdf 265 behind carries the two COMPLETED book-243 blocks (only the α-blockers table's phenoxybenzamine row and final row pinned from behind as markers); pdf 267 ahead opens 'Phosphodiesterase inhibitors' (the PENDING next topic) — sourcePages = [266] only. (2) The ABSENCE verification: the task's 'partial agonist/ISA: pindolol, acebutolol' and 'α2+β: none' expectations were verified against the 2026 print — the selectivity subtable carries exactly FOUR groups (β1-selective, nonselective β1=β2, combined β+α1, nebivolol-β3/NO); NO partial-agonist/ISA row (pindolol and acebutolol are ABSENT from the page) and NO α2+β member — documented as verified-absent, never cited as printed. (3) The essential-tremor use the task expected is likewise NOT printed on this page (the printed neurology lane is migraine prophylaxis only) — documented absent, KYP-flagged wherever the classic propranolol-for-tremor teaching appears.",
+      "origin": "outside-first-aid",
+      "rationale": "The boundary split, the absence census, and the verified-absent documentation are pipeline curation, not book print.",
+      "location": "manifest notes + the visual's boundary strip + recall[5]"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the β-blockers block occupies the WHOLE of pdf 266 (book 244) under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner, and prints: the section header 'β-blockers' with the eleven-drug roster 'Atenolol, betaxolol, bisoprolol, carvedilol, esmolol, labetalol, metoprolol, nadolol, nebivolol, propranolol, timolol.'; ONE THREE-COLUMN TABLE (APPLICATION / ACTIONS / NOTES-EXAMPLES) of TEN application rows — 'Angina pectoris' → '↓ heart rate and contractility → ↓ O2 consumption'; 'Glaucoma' → '↓ production of aqueous humor' | 'Timolol'; 'Heart failure' → 'Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality' | 'Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)'; 'Hypertension' → '↓ cardiac output, ↓ renin secretion (due to β1receptor blockade on JG cells)'; 'Hyperthyroidism/thyroid storm' → 'Symptom control (↓ heart rate, ↓ tremor)' | 'Propranolol'; 'Hypertrophic cardiomyopathy' → '↓ heart rate → ↑ filling time, relieving obstruction'; 'Migraine' → '↓ nitric oxide production' | 'Effective for prevention'; 'Myocardial infarction' → '↓ O2 demand (short-term), ↓ mortality (long-term)'; 'Supraventricular tachycardia (eg, atrial fibrillation)' → '↓ AV conduction velocity (class II antiarrhythmic)' | 'Metoprolol, esmolol'; 'Variceal bleeding' → '↓ hepatic venous pressure gradient and portal hypertension (prophylactic use)' | 'Nadolol, propranolol, carvedilol for no portal circulation' — followed by the ADVERSE-EFFECTS row 'Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations' with the printed cocaine note 'Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation', and the SELECTIVITY subtable of FOUR rows — 'β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol' | 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)'; 'Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol' | 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)'; 'Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol' | 'Nonselective β-adrenergic and α1-selective antagonists have modified suffixes (instead of “-olol”)'; 'Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3 -receptors (activate NO synthase in the vasculature and ↓ SVR)' | 'NebivOlol increases NO'. RASTER CENSUS: ZERO raster images on pdf 266 (pdfimages -list returns no rows) — the block is PURE TEXT, COPYRIGHTED, never reproduced as artwork; carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP selectivity/application map (BetaBlockerMap). ABSENCE VERIFICATION (resolved): the selectivity subtable prints exactly FOUR groups; the partial-agonist/ISA members pindolol and acebutolol are ABSENT from the page, no α2+β member prints, and no essential-tremor row prints (the neurology lane is migraine prophylaxis alone) — all three absentees documented, never cited as printed. BOUNDARY, pinned both ways: pdf 265 (book 243) behind carries the two COMPLETED same-page blocks (PH22 sympatholytics-alpha-2-agonists ABOVE — excluded entirely; PH23 alpha-blockers BELOW — only its phenoxybenzamine row [the α-first pheo anchor] and its final α2-selective mirtazapine row [the no-α2-lane marker] pinned from behind); pdf 267 (book 245) ahead opens 'Phosphodiesterase inhibitors' (the PENDING next topic) — THIS block does NOT extend there; sourcePages = [266] only. CROSS-PAGE ANCHORS (all printed, all verified): pdf 259/book 237 (COMPLETED g-protein-linked-second-messengers, PH16) — the β1 row 'β1 | s | ↑ heart rate, ↑ contractility (one heart), ↑ renin release, ↑ lipolysis' and the β2 row 'β2 | s | Vasodilation, bronchodilation (two lungs), ↑ lipolysis, ↑ insulin release, ↑ glycogenolysis, ↓ uterine tone (tocolysis), ↑ aqueous humor production, ↑ cellular K+ uptake' (β1 AND β2 ride Gs; the β2 row alone carries the mechanisms of the asthma exacerbation [bronchodilation blocked], the masked hypoglycemia [glycogenolysis blocked], and the timolol glaucoma effect [aqueous humor production blocked]); pdf 258/book 236 (COMPLETED tissue-distribution-of-adrenergic-receptors, PH15) — the β1 row 'β1 | Heart / Kidney → ↑ heart rate, contractility / ↑ renin secretion' (the JG-cell address) and the β2 row 'β2 | Bronchioles / Cardiac muscle / Liver / Arterial smooth muscle / Pancreas → Bronchodilation / ↑ heart rate, contractility / Glycogenolysis, glucose release / Vasodilation / Stimulation of insulin secretion' (the bronchiole and liver addresses of the two caution patients); pdf 265/book 243 (COMPLETED alpha-blockers, PH23) — the phenoxybenzamine row 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.' (the α-first anchor) and the final mirtazapine row (the α2-antagonist mirror this table's subtable has no lane for). KYP extensions flagged wherever they appear: the usmle-attack-layer; the FOUR-LANE SELECTIVITY frame (the four printed mnemonics compressed into one sorting question — the mnemonics are the book's, the compression is KYP's); the THREE CAUTION PATIENTS frame (the asthmatic, the brittle diabetic, the cocaine user — cells printed, avoidance/management rules KYP-flagged); the ABRUPT-WITHDRAWAL taper rule (NOT printed — KYP-flagged); the PHEO α-FIRST ordering rule (NOT printed on either book-243 or book-244 — anchored to the phenoxybenzamine row and the cocaine note, KYP-flagged); the T4→T3 conversion blockade in thyroid storm (NOT printed — the page prints rate and tremor control only, KYP-flagged); the essential-tremor use (NOT printed on this page — KYP-flagged wherever taught); and the boundary + absence census. No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-09"
+}

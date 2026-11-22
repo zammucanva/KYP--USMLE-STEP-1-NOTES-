@@ -1,0 +1,46 @@
+{
+  "topicId": "acetylcholine-receptors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "acetylcholine-receptors",
+      "requiredInKYP": true,
+      "visualId": "acetylcholine-receptors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "visualType": "RECEPTOR_DIAGRAM",
+      "visualPurpose": "The section's two definitional paragraphs (the whole section — there is no figure on the page)",
+      "sourceFigureDescription": "The section's entire printed content, verbatim: the nicotinic paragraph — 'Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in some cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found in neuromuscular junction of skeletal muscle).' — and the muscarinic paragraph — 'Muscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd messengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat glands (cholinergic sympathetic).' PAGE-STRUCTURE FINDING: NO muscarinic subtype table exists on the page (the section is two prose paragraphs; pdfimages returned zero raster rows — typeset text only). The M1–M5 per-subtype G-protein/second-messenger assignments are NOT on this page: the book's own M1 q / M2 i / M3 q rows live in the G-protein–linked second messengers table on pdf 259 (book 237), the SEPARATE pending topic 'g-protein-linked-second-messengers'.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "acetylcholine-receptors-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the AcetylcholineReceptorsMap — the ACh origin band; the NICOTINIC panel with its ligand-gated-channel glyph and the NN/NM station cards; the MUSCARINIC panel with its GPCR split and the odd/even G-protein lanes; the book-235 location strip; the nicotinic-vs-muscarinic sorting row; the four-code mnemonic strip) + blocks[0] the visual block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "acetylcholine-receptors-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "acetylcholine-receptors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): NO raster images on the page (pdfimages -list returned zero rows for pdf 257) — the Acetylcholine receptors section is TWO TYPESET PARAGRAPHS (typeset text only; no figure exists to reproduce). The section is carried verbatim in the note's first table block and re-typeset as an ORIGINAL_KYP_ADAPTATION in the registry visual AcetylcholineReceptorsMap: an original KYP receptor-family map (the ACh origin band, the nicotinic panel with its channel glyph and NN/NM station cards, the muscarinic panel with its GPCR split and odd/even lanes, the location strip, the sorting row, the four-code strip) built from the section's own sentences — only short attributed terms (ACh, NN, NM, M1–M5, the ion species, the location list) are carried across. PAGE-STRUCTURE FINDING: the page prints NO muscarinic subtype table; the M1–M5 G-protein/second-messenger layer in the note and visual is a KYP extension with a provenance split — M1/M2/M3 anchored to the book's own book-237 table (the separate g-protein-linked-second-messengers topic, pinned as one provenance-pointer evidence item), M4/M5 and the odd/even rule beyond the book's printed set. EXCLUSIONS: the 'Pain transmission' section in the LOWER portion of the same page belongs to the SEPARATE pending topic 'pain-transmission' and is NOT part of this inventory; pdf 256's lower portion belongs to the COMPLETED topic PH11 'autonomic-receptors'; pdf 258 opens the SEPARATE pending 'Micturition control' section. The clinical anchors extending past the source page (ganglionic blockers, NMBAs, bethanechol/pilocarpine, atropine-type antagonists, myasthenia/Lambert-Eaton, M1–Alzheimer, M3–overactive-bladder) are KYP clinical anchors, flagged wherever they appear. The section prints NO margin mnemonic; the four codes are KYP-original."
+}

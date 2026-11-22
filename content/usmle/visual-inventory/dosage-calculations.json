@@ -1,0 +1,127 @@
+{
+  "topicId": "dosage-calculations",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "dosage-calculations",
+      "requiredInKYP": true,
+      "visualId": "dosage-calculations-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The two fraction formulas — Loading dose and Maintenance dose",
+      "sourceFigureDescription": "The section's two displayed formulas, typeset as fractions: 'Loading dose =' with the numerator 'Cp × Vd' over the denominator 'F', and 'Maintenance dose =' with the numerator 'Cp × CL × τ' over the denominator 'F'. Pure text + divide rules (no raster, no curves) — the two equations that define the section.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "dosage-calculations-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the two formula panels of the DosageCalculationsMap) + blocks[1] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dosage-calculations-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "dosage-calculations",
+      "requiredInKYP": true,
+      "visualId": "dosage-calculations-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The variable definitions — Cp and τ",
+      "sourceFigureDescription": "The definition block printed beneath the formulas: 'Cp = target plasma concentration' and 'τ = dosage interval (time between doses); does not apply for continuous infusions'. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "dosage-calculations-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the variable dictionary strip of the DosageCalculationsMap) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dosage-calculations-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "dosage-calculations",
+      "requiredInKYP": true,
+      "visualId": "dosage-calculations-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The two margin rules — organ disease and time to steady state",
+      "sourceFigureDescription": "The margin note printed beside the formulas, two rules: 'In renal or liver disease, maintenance dose ↓ and loading dose is usually unchanged.' and 'Time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency.' Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "dosage-calculations-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the organ-disease callout and the steady-state clock panel of the DosageCalculationsMap) + blocks[2] the table block carried verbatim",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dosage-calculations-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "dosage-calculations",
+      "requiredInKYP": true,
+      "visualId": "dosage-calculations-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The first-order accumulation curve (KYP redraw — not printed on the page)",
+      "sourceFigureDescription": "NOT PRINTED ON THE SOURCE PAGE. The registry visual adds an original KYP redraw of the standard first-order accumulation identity — the approach to steady state after 1/2/3/4/5 half-lives (50% / 75% / 87.5% / 93.75% / ~97% of Css) — to make the margin rule 'Time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency' visible. Drawn as an ORIGINAL_KYP_REDRAW vector curve; no copyrighted artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "dosage-calculations-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the steady-state clock panel's accumulation curve of the DosageCalculationsMap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "dosage-calculations-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "dosage-calculations",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 253). The Dosage calculations section is pure typeset text — the two fraction formulas (Loading dose = Cp × Vd over F; Maintenance dose = Cp × CL × τ over F), the two definitions (Cp = target plasma concentration; τ = dosage interval (time between doses); does not apply for continuous infusions), and the two margin rules (In renal or liver disease, maintenance dose ↓ and loading dose is usually unchanged; Time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency). The formulas print in the text layer and are carried verbatim in the note's table blocks and re-typeset in the registry visual's formula panels (ORIGINAL_KYP_ADAPTATION) — short attributed formula phrases, not artwork reproductions. The steady-state accumulation curve in the registry visual (50/75/87.5/93.75/96.9% at 1-5 half-lives) is an ORIGINAL_KYP_REDRAW of the standard first-order accumulation identity — NO curve is printed on the source page. The page prints NO margin mnemonic for this section; the KYP memory layer adds four original codes. No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 253 (book 231) ALSO contains the Urine pH and drug elimination section (PH5), already produced and NOT covered here. NO Drug Metabolism (PH3) or Elimination kinetics (PH4) content appears on this page — those live on pdf 252 (book 230)."
+}

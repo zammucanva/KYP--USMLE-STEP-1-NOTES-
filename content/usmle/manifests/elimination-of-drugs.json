@@ -1,0 +1,489 @@
+{
+  "topicId": "elimination-of-drugs",
+  "title": "Elimination of Drugs",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      252
+    ],
+    "bookPages": "230"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "230\n\nSEC TION II\n\nDrug metabolism\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Elimination of drugs section header (book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Elimination of drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Zero-order elimination row header (split across two printed lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Zero-order elimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order definition — Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order Cp curve — Cp ↓ linearly with time",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Cp ↓ linearly with time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order drug list — Examples of drugs—Phenytoin, Ethanol, and Aspirin",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Examples of drugs—Phenytoin, Ethanol, and Aspirin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The aspirin saturation mechanism — at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "(at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order synonym — Capacity-limited elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Capacity-limited elimination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PEA mnemonic — A PEA is round, shaped like the “0” in zero-order (the text layer prints the compound as 'zeroorder' without the hyphen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "A PEA is round, shaped like the “0” in zeroorder.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The First-order elimination row header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "First-order elimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order definition — Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order Cp curve and scope — Cp ↓ exponentially with time. Applies to most drugs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Cp ↓ exponentially with time. Applies to most drugs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order synonym — Flow-dependent elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Flow-dependent elimination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graphs' y-axis label — Drug plasma concentration",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Drug plasma concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graphs' x-axis label — Time (h)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Time (h)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graphs' slope label — Elimination rate (=slope)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Elimination rate (=slope)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order graph constant slope — 2 U/h",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "2 U/h",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order graph annotation — First t1/2 >",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "First t1/2 >",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order graph annotation — Second t1/2 >",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Second t1/2 >",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order graph annotation — Third t1/2",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Third t1/2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The zero-order graph t1/2 rule — Time of t1/2 ↑ as concentration ↑ (the text layer orders the glyphs 'Time of t1/2 as concentration ↑')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Time of t1/2 as concentration ↑",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph initial slope — 4 U/h",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "4 U/h",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph falling slopes — 1 U/h",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "1 U/h",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph falling slopes — 0.5 U/h",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "0.5 U/h",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph annotation — First t1/2 =",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "First t1/2 =",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph annotation — Second t1/2 =",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Second t1/2 =",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph annotation — Third t1/2 (completing First t1/2 = Second t1/2 = Third t1/2)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Third t1/2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The first-order graph t1/2 rule — Time of t1/2 is constant as concentration ↑",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "Time of t1/2 is constant as concentration ↑",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 230\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 230)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "elimination-of-drugs-map"
+  ],
+  "mechanismIds": [
+    "elimination-kinetics-axis",
+    "elimination-saturation-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two comparison rows, the two graphs, and the PEA mnemonic; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-axis-reading",
+      "summary": "The two-axis reading (the kinetics axis: zero-order = constant AMOUNT eliminated per unit time, Cp ↓ linearly, slope constant at 2 U/h, First t1/2 > Second t1/2 > Third t1/2 with 'Time of t1/2 ↑ as concentration ↑'; first-order = constant FRACTION eliminated per unit time, Cp ↓ exponentially, slope falling 4 U/h → 2 U/h → 1 U/h → 0.5 U/h, First t1/2 = Second t1/2 = Third t1/2 with 'Time of t1/2 is constant as concentration ↑'; and the saturation axis: 'Capacity-limited elimination' [enzymes saturated, Michaelis-Menten at [S] >> Km] vs 'Flow-dependent elimination' [enzymes unsaturated, delivery limits elimination], with the PEA drug set Phenytoin/Ethanol/Aspirin and the aspirin qualifier 'at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination') — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the two rows and the two graphs sequentially without a unified protocol; the two-axis framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (1 — A PEA IS ROUND, SHAPED LIKE THE '0' IN ZERO-ORDER [Phenytoin, Ethanol, Aspirin]: the ONE mnemonic that prints verbatim on the page, carried with attribution; 2 — AMOUNT vs FRACTION; 3 — LINE vs CURVE; 4 — CAPACITY vs FLOW: three KYP-original codes that organize the page's own comparison rows and synonyms) — the memory layer adds three original codes over the page's single printed mnemonic.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 230's Elimination of Drugs section prints exactly ONE mnemonic (the PEA round-pea mnemonic); the other three codes are KYP-original designs.",
+      "location": "mnemonics + the visual's rule panels"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 252). The Elimination of Drugs section has TWO vector graphs — the zero-order elimination plot (constant 2 U/h slope; First t1/2 > Second t1/2 > Third t1/2; 'Time of t1/2 ↑ as concentration ↑') and the first-order elimination plot (falling slopes 4 U/h → 2 U/h → 1 U/h → 0.5 U/h; First t1/2 = Second t1/2 = Third t1/2; 'Time of t1/2 is constant as concentration ↑') — each redrawn as ORIGINAL_KYP_REDRAW vector graphics in the registry visual (no photographs, no copyrighted artwork reproduced). The zero-order vs first-order comparison rows are pure text and are carried verbatim in the note's table blocks (ORIGINAL_KYP_ADAPTATION). The PEA mnemonic ('A PEA is round, shaped like the “0” in zero-order') prints verbatim on the page — a short attributed phrase carried in the evidence layer and the mnemonic layer, NOT an artwork reproduction; the KYP memory layer ADDS three original codes (AMOUNT vs FRACTION; LINE vs CURVE; CAPACITY vs FLOW). No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 252 (book 230) ALSO contains the Drug Metabolism section (Phase I/Phase II flow diagram), which is covered by the separate PH3 drug-metabolism topic and is NOT covered by this topic's evidence or visual.",
+  "updatedAt": "2026-11-08"
+}

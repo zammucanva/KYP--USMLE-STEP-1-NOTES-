@@ -1,0 +1,346 @@
+{
+  "topicId": "therapeutic-index",
+  "title": "Therapeutic Index",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      255
+    ],
+    "bookPages": "233"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n233\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS (the LOWER portion of this page carries the Therapeutic index section, this topic; the UPPER portion is the Receptor binding section, which is EXCLUDED — see the boundary item below)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — Therapeutic index (this topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Therapeutic index",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUSION BOUNDARY — the previous section header 'Receptor binding' (PH8, a separate completed topic) occupies the UPPER portion of this same page; ALL of its content (the three dose-response panels and the AGONIST WITH table) is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Receptor binding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section definition line, verbatim — 'Measurement of drug safety.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Measurement of drug safety.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TD50/ED50 equation block, verbatim — numerator 'TD50 median toxic dose' over denominator 'ED50 median effective dose'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "TD50\nmedian toxic dose\n=\nED50 median effective dose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The therapeutic window definition, verbatim — 'Therapeutic window—range of drug concentrations that can safely and effectively treat disease.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Therapeutic window—range of drug\nconcentrations that can safely and effectively\ntreat disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the 'Efficacy' curve label, verbatim (the left quantal curve)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Efficacy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the y-axis label, verbatim — '% of patients responding' (the quantal axis: the y-value counts PATIENTS, not magnitude of effect)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "% of patients responding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the y-axis gridlines — 100 / 50 (the 50% line is where both ED50 and TD50 are read off the two curves)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "100\n\n50",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the 'Toxicity' curve label, verbatim (the right quantal curve)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Toxicity",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the annotation 'Therapeutic index' printed between the two curves (the horizontal ED50-to-TD50 separation IS the safety margin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Therapeutic index",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the ED50 and TD50 drop markers, verbatim (the x-axis positions where each curve crosses 50% of patients)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "ED50\n\nTD50",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the legend, verbatim — 'ED = Effective dose / TD = Toxic dose'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "ED = Effective dose\nTD = Toxic dose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL — the x-axis baseline '0' with the x-axis label 'Log (drug concentration)', verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "0\nLog (drug concentration)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The margin mnemonic, verbatim — 'TITE: Therapeutic Index = TD50 / ED50.' (THE SOURCE'S OWN PRINTED MNEMONIC — attributed as such, not a KYP design)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "TITE: Therapeutic Index = TD50 / ED50.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The margin note, verbatim — 'Safer drugs have ↑ TI; drugs with ↓ TI require frequent monitoring (eg, warfarin, theophylline, digoxin, antiepileptic drugs, lithium; Warning! These drugs are lethal!).'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Safer drugs have ↑ TI; drugs with ↓ TI\nrequire frequent monitoring (eg, warfarin,\ntheophylline, digoxin, antiepileptic drugs,\nlithium; Warning! These drugs are lethal!).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LD50 note, verbatim — 'LD50 (lethal median dose) often replaces TD50 in animal studies.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "LD50 (lethal median dose) often replaces TD50\nin animal studies.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 233",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "therapeutic-index-map"
+  ],
+  "mechanismIds": [
+    "quantal-curve-ed50-td50-ratio",
+    "therapeutic-window-drug-monitoring"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source's equation, quantal panel, window definition, and margin note.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the definition, the equation, the two-curve panel, and the margin warning; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-curve-reading-protocol",
+      "summary": "The three-question reading of the quantal panel (WHAT DOES THE y-AXIS COUNT? '% of patients responding' — a QUANTAL plot, not a graded one: ED50 and TD50 are the doses at which each curve crosses 50% OF PATIENTS, not 50% of maximal effect. WHICH CURVE IS WHICH? 'Efficacy' left, 'Toxicity' right — TD50 must sit right of ED50 or the drug is unusable. WHAT SEPARATES THEM? the ED50→TD50 gap IS the therapeutic index — a wide gap (↑ TI) is safe, a narrow gap (↓ TI) is the monitoring list: warfarin, theophylline, digoxin, antiepileptic drugs, lithium) — KYP's synthesis of the page's equation, panel, and margin note into a single reading order (axis → curve identity → gap → monitoring decision).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the equation, the panel, and the margin note as parallel blocks without a unified reading protocol; the count-patients-not-effect framing and the gap-is-the-index reading are KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The three KYP-original mnemonics (1 — NUMERATOR TOXIC, DENOMINATOR THERAPEUTIC: TD50 on top is the dose that harms, ED50 on the bottom is the dose that heals, so push the ratio UP for safety. 2 — QUANTAL = COUNT HEADS, NOT EFFECT: the y-axis is '% of patients responding', so ED50/TD50 are read at the 50-PATIENT line, never the 50-EFFECT line. 3 — THE LETHAL FIVE: Warfarin, Theophylline, Digoxin, Antiepileptic drugs, Lithium — the ↓ TI drugs that require frequent monitoring, named by the source's own exclamation 'Warning! These drugs are lethal!'). The page's own printed margin mnemonic 'TITE: Therapeutic Index = TD50 / ED50.' is carried VERBATIM and ATTRIBUTED to the source everywhere it appears and is NOT a KYP design.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 233's Therapeutic index section prints exactly one mnemonic ('TITE'), which is the source's own and is attributed as such; the other three codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 255). The Therapeutic index section is typeset text plus one vector curve panel. The equation block ('Measurement of drug safety.' + TD50/ED50) and the margin mnemonic/note ('TITE' + the safer-drugs warning with the low-TI drug list + the LD50 note) print in the text layer and are carried verbatim in the note's table block and re-typeset in the registry visual's panels (ORIGINAL_KYP_ADAPTATION) — short attributed sentences, not artwork reproductions. The Efficacy/Toxicity quantal-curve panel is vector line-art in the PDF and is redrawn as an ORIGINAL_KYP_REDRAW pair of sigmoid cumulative-frequency curves in the registry visual (the standard quantal dose-response geometry of pharmacodynamics, re-drawn from scratch: '% of patients responding' vs 'Log (drug concentration)', the 50% line, ED50 and TD50 drops, and the 'Therapeutic index' gap annotation); no copyrighted artwork is reproduced. The 'TITE' mnemonic IS the source's own printed margin mnemonic (book 233) and is attributed as such in the note, the manifest, and the visual; the KYP memory layer adds three original codes (NUMERATOR TOXIC, DENOMINATOR THERAPEUTIC; QUANTAL = COUNT HEADS, NOT EFFECT; THE LETHAL FIVE). No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the 'Receptor binding' section occupies the UPPER half of this SAME page — its header, three dose-response panels (competitive, noncompetitive, partial agonists), and AGONIST WITH table are the COMPLETED topic PH8 (receptor-binding) and are EXCLUDED from this topic: PH9 pins the same source page (pdf 255 / book 233) for its LOWER half only.",
+  "updatedAt": "2026-11-08"
+}

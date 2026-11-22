@@ -1,0 +1,46 @@
+{
+  "topicId": "anticholinesterase-poisoning",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "anticholinesterase-poisoning",
+      "requiredInKYP": true,
+      "visualId": "anticholinesterase-poisoning-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The three-row effect-tier table (the section's sole printed element — the anticholinesterase-poisoning grid: intro pair + Muscarinic/Nicotinic/CNS effect rows with their findings and high-yield antidote cells)",
+      "sourceFigureDescription": "ONE THREE-ROW TEXT TABLE (PURE TEXT — ZERO rasters on pdf 261; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). No column headers printed; the frame is row label / findings / high-yield. Intro pair (prose) above the rows: 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.' + 'Organophosphates commonly used as insecticides; poisoning usually seen in farmers.' Row 1 'Muscarinic effects': 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' → 'DUMBBELSS.' + 'Reversed by atropine, a competitive inhibitor. Atropine can cross BBB to relieve CNS symptoms.' Row 2 'Nicotinic effects': 'Neuromuscular blockade (mechanism similar to succinylcholine).' → 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early. Must be coadministered with atropine to prevent transient worsening of symptoms. Pralidoxime does not readily cross BBB.' Row 3 'CNS effects': 'Respiratory depression, lethargy, seizures, coma.' (no reversal line printed). Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP poison map (the organophosphate mechanism strip with the aging flag, the three tier cards, the treatment duo with the timing window, the not-printed strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "anticholinesterase-poisoning-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the intro pair; the three effect-tier rows) + the registry visual's mechanism strip, the three tier cards, the treatment-duo cards, the not-printed strip, and the reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "anticholinesterase-poisoning-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "anticholinesterase-poisoning",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the section's printed visual set is ONE element — the THREE-ROW EFFECT-TIER TABLE, PURE TEXT (ZERO rasters on pdf 261 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The intro pair is prose (carried verbatim in the note's first table block intro, not separately inventoried). The table is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every row label, findings clause, antidote clause, and the book's own DUMBBELSS mnemonic are the book's own print) and conveyed as ONE original KYP poison map in the registry visual AnticholinesterasePoisoningMap (the ORGANOPHOSPHATE mechanism strip — the three '-thion' insecticides, the farmer, the irreversible AChE phosphorylation, the ACh-accumulation overflow, with the AGING window flagged as KYP; the THREE TIER CARDS — muscarinic DUMBBELSS with atropine the competitive inhibitor, nicotinic NMJ blockade succinylcholine-similar with pralidoxime the regenerator, CNS respiratory-depression/lethargy/seizures/coma; the TREATMENT DUO — atropine the muscarinic blocker that crosses the BBB, pralidoxime the AChE reactivator with the aging-time window, the coadministration rule, and the two printed BBB clauses; the NOT-PRINTED strip — carbamates, SLUDGE, nerve agents, ganglionic signs flagged as absent; the reading-rule + exclusions footer). TIMING-RULE FINDING pinned: the source's timing rule is the printed 'if given early' — the aging mechanism behind it is NOT printed ('aging' appears nowhere in part 1), flagged as KYP wherever used. SAME-PAGE EXCLUSION: the 'Cholinomimetic agents' section prints on the SAME pdf 261 ABOVE this section (the completed PH18) — EXCLUDED; the printed adjacency is the page's own mirror (the upper table ends with physostigmine the anticholinergic antidote; this section is the cholinergic-antidote story). PAGE-EXTENT FINDING: the section is the LAST element on pdf 261 — pdf 262 (book 240) opens the separate PENDING 'Muscarinic antagonists' section; sourcePages = [261] only. KYP extensions flagged wherever they appear: the TIER-TRIAD reading, the AGING-TIME WINDOW (not printed — flagged), the DUAL-ANTIDOTE COVERAGE MAP (all clauses printed, the map KYP's), the MIRROR-TOXIDROME frame, and the NOT-PRINTED drug layer (carbamates, SLUDGE, nerve agents, ganglionic signs — absent, flagged, never cited as printed). No copyrighted artwork reproduced; nothing reproduced."
+}

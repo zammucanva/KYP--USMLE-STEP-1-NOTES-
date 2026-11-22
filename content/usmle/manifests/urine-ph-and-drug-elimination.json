@@ -1,0 +1,450 @@
+{
+  "topicId": "urine-ph-and-drug-elimination",
+  "title": "Urine pH and Drug Elimination",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      253
+    ],
+    "bookPages": "231"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the section banner and header (book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n231\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Urine pH and drug elimination section header (split across two printed lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Urine pH and drug elimination",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The governing rule of the section — ionized species are trapped in urine and cleared quickly; neutral forms can be reabsorbed",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Weak acids row header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak acids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid examples and treatment — phenobarbital, methotrexate, aspirin (salicylates); sodium bicarbonate to alkalinize urine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Examples: phenobarbital, methotrexate, aspirin (salicylates). Treat overdose with sodium bicarbonate to alkalinize urine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid strip — the neutral form RCOOH",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "RCOOH",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid strip — the neutral form tag (lipid soluble)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "(lipid soluble)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid strip — the ionized form RCOO – + H+ (the text layer prints the anion with an en dash and a leading space)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "RCOO – + H+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-acid strip — the ionized form tag (trapped)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "(trapped)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Weak bases row header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak bases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-base examples and treatment — TCAs, amphetamines; trapped in acidic environments; ammonium chloride to acidify urine for severe alkalosis",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Examples: tricyclic antidepressants (TCAs), amphetamines. Trapped in acidic environments. For severe alkalosis, treat with ammonium chloride to acidify urine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-base strip — the ionized form RNH3+",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "RNH3+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The weak-base strip — the neutral form RNH2 + H+",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "RNH2 + H+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TCA-toxicity margin note — sodium bicarbonate for the sodium channel-blocking activity; treats cardiac toxicity, does not accelerate drug elimination",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "TCA toxicity is initially treated with sodium bicarbonate to overcome the sodium channel-blocking activity of TCAs. This treats cardiac toxicity, but does not accelerate drug elimination.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pKa row header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pKa",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pKa definition — pH at which drugs are 50% ionized and 50% nonionized; the pKa represents the strength of the weak acid or base",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized. The pKa represents the strength of the weak acid or base.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's y-axis label — Ionized species formation (%)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Ionized species formation (%)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's y-axis gridlines — 100 and 0 (printed on adjacent lines in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "100 0",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's 50% gridline — the 50% ionized / 50% nonionized split that defines pKa (printed in the pKa row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "50% ionized and 50% nonionized",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's Weak acid curve label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak acid",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's Weak base curve label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "Weak base",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's x-axis ticks — 4, 8, 12, and 14 pH (printed as separate tick labels)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "4 8 12 14 pH",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's pKa annotation — pKa: 9.2 (labeling the weak-base curve's 50% crossing)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pKa: 9.2",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's pKa axis annotation — pKa = more acidic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pKa = more acidic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The graph's pKa axis annotation — pKa = more basic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "pKa = more basic",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 231",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 231)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "urine-ph-elimination-map"
+  ],
+  "mechanismIds": [
+    "ion-trapping-equilibrium",
+    "urine-ph-treatment-axis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source facts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two species rows, the two ionization strips, the TCA margin note, the pKa row, and the ionized-species graph; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "ion-trapping-two-reading",
+      "summary": "The two-axis reading (the equilibrium axis: 'Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.' — the weak-acid strip RCOOH (lipid soluble) ⇌ RCOO– + H+ (trapped) trapped by ALKALINE urine, the weak-base strip RNH3+ (trapped) ⇌ RNH2 + H+ (lipid soluble) trapped by ACIDIC urine; and the treatment axis: alkalinize the urine with sodium bicarbonate for weak-acid overdoses [phenobarbital, methotrexate, aspirin/salicylates], acidify the urine with ammonium chloride for severe alkalosis with weak bases [TCAs, amphetamines], with the TCA caveat — bicarbonate initially treats the sodium-channel-blocking CARDIAC toxicity and does NOT accelerate drug elimination — plus the pKa graph reading: 50% ionized at pH = pKa, weak acids ionize as pH rises above pKa, weak bases ionize as pH falls below pKa, 'pKa = more acidic' / 'pKa = more basic') — KYP's synthesis of the page into one reading protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rows, strips, note, and graph sequentially without a unified protocol; the two-axis framing is KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (1 — ACID-in-ALKALI / BASE-in-ACID: the direction rule; 2 — PMA gets the BICARB: Phenobarbital · Methotrexate · Aspirin, the weak-acid overdose set, with sodium bicarbonate; 3 — AA ACIDifies: Amphetamines And TCAs, the weak-base set, trapped in acidic environments, ammonium chloride for severe alkalosis; 4 — 50/50 AT pKa: the pKa rule with the graph reading). The page prints NO mnemonic in this section — all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 231's Urine pH and drug elimination section prints NO margin mnemonic (unlike the PEA mnemonic on book 230); all four codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 253). The Urine pH and drug elimination section has ONE vector graph (the Ionized species formation (%) vs pH plot with the Weak acid and Weak base curves, 100/50/0 gridlines, 4/8/12/14 pH x-axis, 'pKa: 9.2', 'pKa = more acidic', 'pKa = more basic') — redrawn as an ORIGINAL_KYP_REDRAW vector graphic in the registry visual (no photographs, no copyrighted artwork reproduced). The two ionization reaction strips (RCOOH (lipid soluble) ⇌ RCOO– + H+ (trapped); RNH3+ (trapped) ⇌ RNH2 + H+ (lipid soluble)) print in the text layer as short chemical species phrases and are carried verbatim in the note's table blocks and the visual's species panels (ORIGINAL_KYP_ADAPTATION) — short attributed phrases, not artwork reproductions. The page prints NO margin mnemonic for this section; the KYP memory layer adds four original codes (ACID-in-ALKALI/BASE-in-ACID, PMA gets the BICARB, AA ACIDifies, 50/50 AT pKa). No copyrighted photographs exist on the page; nothing reproduced. NOTE: page 253 (book 231) ALSO contains the Dosage calculations section (Loading dose = Cp × Vd / F; Maintenance dose = Cp × CL × τ / F), which is covered by the separate pending dosage-calculations topic and is NOT covered by this topic's evidence or visual. NO Drug Metabolism (PH3) or Elimination kinetics (PH4) content appears on this page — those live on pdf 252 (book 230) and are already produced.",
+  "updatedAt": "2026-11-08"
+}

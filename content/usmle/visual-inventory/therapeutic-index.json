@@ -1,0 +1,100 @@
+{
+  "topicId": "therapeutic-index",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "therapeutic-index",
+      "requiredInKYP": true,
+      "visualId": "therapeutic-index-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "PHARMACOLOGY_DIAGRAM",
+      "visualPurpose": "The Efficacy/Toxicity quantal-curve panel",
+      "sourceFigureDescription": "The page's curve panel (vector line art, no raster): y-axis '% of patients responding' with 100/50/0 gridlines, x-axis 'Log (drug concentration)'; TWO overlapping sigmoid cumulative curves — the left 'Efficacy' curve and the right 'Toxicity' curve — with dashed drop lines at 'ED50' and 'TD50' where each curve crosses the 50% line, the annotation 'Therapeutic index' printed between the curves, and the legend 'ED = Effective dose / TD = Toxic dose'.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "therapeutic-index-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the quantal panel of the TherapeuticIndexMap — redrawn as vector sigmoids: the Efficacy curve crossing 50% of patients at ED50, the Toxicity curve crossing at TD50, the 50% gridline, the dashed drops, and the 'Therapeutic index' double-arrow spanning the ED50→TD50 gap)",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "therapeutic-index-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "therapeutic-index",
+      "requiredInKYP": true,
+      "visualId": "therapeutic-index-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The TD50/ED50 equation block",
+      "sourceFigureDescription": "The typeset block under the section header, verbatim: the definition line 'Measurement of drug safety.' followed by the fraction TD50 over ED50 (with '=' at the left) and its two labels — numerator 'TD50 median toxic dose', denominator 'ED50 median effective dose'. Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "therapeutic-index-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the equation panel of the TherapeuticIndexMap) + blocks[1] the verbatim table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "therapeutic-index-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "topicId": "therapeutic-index",
+      "requiredInKYP": true,
+      "visualId": "therapeutic-index-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The margin mnemonic and margin note — TITE, the low-TI monitoring list, and the LD50 note",
+      "sourceFigureDescription": "The margin box beside the panel, verbatim: 'TITE: Therapeutic Index = TD50 / ED50.' (the source's own printed mnemonic); 'Safer drugs have ↑ TI; drugs with ↓ TI require frequent monitoring (eg, warfarin, theophylline, digoxin, antiepileptic drugs, lithium; Warning! These drugs are lethal!).'; 'LD50 (lethal median dose) often replaces TD50 in animal studies.' Pure text, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "therapeutic-index-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the margin-note strip, the five-drug monitoring grid, and the LD50 line of the TherapeuticIndexMap) + blocks[1] the verbatim table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "therapeutic-index-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "therapeutic-index",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 255). The Therapeutic index section is typeset text plus one vector curve panel. The equation block and the margin mnemonic/note print in the text layer and are carried verbatim in the note's table block and re-typeset in the registry visual's panels (ORIGINAL_KYP_ADAPTATION) — short attributed sentences, not artwork reproductions. The Efficacy/Toxicity quantal panel is vector line-art in the PDF and is redrawn as an ORIGINAL_KYP_REDRAW pair of sigmoid cumulative curves in the registry visual — the curve shapes are the standard quantal dose-response geometry of pharmacodynamics, re-drawn from scratch; no copyrighted artwork is reproduced. The 'TITE' mnemonic is the source's own printed margin mnemonic (attributed, not KYP-original); the KYP memory layer adds three original codes. No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the Receptor binding section on the same page (upper half — the three dose-response panels and the AGONIST WITH table) belongs to the COMPLETED topic PH8 (receptor-binding) and is NOT part of this topic's inventory."
+}

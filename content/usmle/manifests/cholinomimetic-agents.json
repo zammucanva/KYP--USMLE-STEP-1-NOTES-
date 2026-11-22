@@ -1,0 +1,438 @@
+{
+  "topicId": "cholinomimetic-agents",
+  "title": "Cholinomimetic Agents",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      261
+    ],
+    "bookPages": "239"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 239): the Pharmacology marker, the standing section banner, the Section II marker, and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n239",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — 'Cholinomimetic agents' (this topic's section; opens the page directly under the running header)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Cholinomimetic\nagents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro warning, whole, verbatim — the section's only prose line, the toxicity caution the whole direct/indirect table answers to: 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's three column headers, physical order — 'DRUG' 'ACTION' 'APPLICATIONS' (the two-group cholinomimetic grid's own frame)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "DRUG\n\nACTION\n\nAPPLICATIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bethanechol row's ACTION cell, whole, verbatim — 'Activates bladder smooth muscle; resistant to AChE. Acts on muscarinic receptors; no nicotinic activity. \"Bethany, call me to activate your bladder.\"' (the book's own mnemonic included)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Activates bladder smooth muscle; resistant\nto AChE. Acts on muscarinic receptors; no\nnicotinic activity. “Bethany, call me to activate\nyour bladder.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bethanechol row's selectivity clause, verbatim — 'Acts on muscarinic receptors; no nicotinic activity.' (the direct agonists' receptor-selectivity rule: muscarinic only, no nicotinic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "to AChE. Acts on muscarinic receptors; no",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Bethanechol row's APPLICATIONS cell, verbatim — 'Urinary retention.' (the bladder indication; the detrusor wiring lives on book 235, the micturition-control topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Urinary retention.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Carbachol row's ACTION cell, whole, verbatim — 'Carbon copy of acetylcholine (but resistant to AChE).' (the book's own 'carbon copy' etymology — carbachol = carbamyl + choline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Carbon copy of acetylcholine (but resistant to\nAChE).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Carbachol row's APPLICATIONS cell, verbatim — 'Constricts pupil. Used for intraoperative miosis induction.' (the ophthalmic indication)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Constricts pupil. Used for intraoperative miosis\ninduction.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Methacholine row's ACTION cell, whole, verbatim — 'Stimulates muscarinic receptors in airway when inhaled.' (the airway route the challenge test rides)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Stimulates muscarinic receptors in airway when\ninhaled.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Methacholine row's APPLICATIONS cell, verbatim — 'Challenge test for diagnosis of asthma.' (the diagnostic indication)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Challenge test for diagnosis of asthma.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pilocarpine row's ACTION cell, whole, verbatim — the two glaucoma addresses, the AChE resistance, the BBB crossing, and the book's own mnemonic (NOTE the raw layer prints 'bloodbrain' hyphen-less; the -layout view prints 'blood-brain' split across lines — the raw spelling is pinned)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Contracts ciliary muscle of eye (open-angle\nglaucoma), pupillary sphincter (closed-angle\nglaucoma); resistant to AChE, can cross bloodbrain barrier. “You cry, drool, and sweat on\nyour ‘pilow.’ ”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pilocarpine row's APPLICATIONS cell, whole, verbatim — 'Potent stimulator of sweat, tears, and saliva' + the two glaucoma angles + 'xerostomia (Sjögren syndrome)' (the exocrine indication set)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Potent stimulator of sweat, tears, and saliva\nOpen-angle and closed-angle glaucoma,\nxerostomia (Sjögren syndrome).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The DIRECT group label, verbatim — 'Direct agonists' (NOTE the raw layer prints it at line 55, BELOW the Pilocarpine row; the -layout view prints it at the TOP of the direct group — the raw physical order is pinned)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Direct agonists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The INDIRECT group label, verbatim — 'Indirect agonists (anticholinesterases)' (the second group's own name: indirect = anticholinesterase)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Indirect agonists (anticholinesterases)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Donepezil trio's row, whole, verbatim — 'Donepezil, rivastigmine, galantamine' + '↑ ACh.' + '1st line for Alzheimer disease (Dona Riva forgot the gala).' (the book's own mnemonic for the dementia trio)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Donepezil,\nrivastigmine,\ngalantamine\n\n↑ ACh.\n\n1st line for Alzheimer disease (Dona Riva forgot\nthe gala).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Neostigmine row's ACTION cell, whole, verbatim — '↑ ACh. Neo = no blood-brain barrier penetration due to positive charge.' (the book's own charge rule: the positive charge keeps neostigmine OUT of the CNS)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "↑ ACh.\nNeo = no blood-brain barrier penetration due to\npositive charge.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Neostigmine row's APPLICATIONS cell, whole, verbatim — 'Postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of neuromuscular junction blockade (postoperative).' (the peripheral use set: gut, bladder, NMJ)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Postoperative and neurogenic ileus and\nurinary retention, myasthenia gravis,\nreversal of neuromuscular junction blockade\n(postoperative).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pyridostigmine row's ACTION cell, whole, verbatim — '↑ ACh; ↑ muscle strength. Does not penetrate CNS. Pyridostigmine gets rid of myasthenia gravis.' (the book's own mnemonic + the second printed charge rule)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "↑ ACh; ↑ muscle strength. Does not penetrate\nCNS. Pyridostigmine gets rid of myasthenia\ngravis.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Pyridostigmine row's APPLICATIONS cell, whole, verbatim — 'Myasthenia gravis (long acting). Used with glycopyrrolate or hyoscyamine to control pyridostigmine adverse effects.' (the long-acting MG use + the antimuscarinic co-therapy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Myasthenia gravis (long acting). Used with\nglycopyrrolate or hyoscyamine to control\npyridostigmine adverse effects.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Physostigmine row's ACTION cell, whole, verbatim — '↑ ACh. Phreely (freely) crosses blood-brain barrier as not charged → CNS.' (the book's own charge rule inverted: uncharged = crosses; NOTE this row prints 'blood-brain' WITH the hyphen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "↑ ACh. Phreely (freely) crosses blood-brain\nbarrier as not charged → CNS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Physostigmine row's APPLICATIONS cell, whole, verbatim — 'Antidote for anticholinergic toxicity; physostigmine \"phyxes\" atropine overdose.' (the antidote use + the book's own 'phyxes' mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Antidote for anticholinergic toxicity;\nphysostigmine “phyxes” atropine overdose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line (book 239; the Cholinomimetic agents section ENDS above it, at the Anticholinesterase poisoning boundary)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 239",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SAME-PAGE EXCLUSION — the 'Anticholinesterase poisoning' section prints on THIS pdf 261, BELOW the Cholinomimetic agents table (organophosphates, farmers, DUMBBELLS territory): EXCLUDED — the separate PENDING topic PH19 'anticholinesterase-poisoning' (confirmed in the chapter registry, sourcePages [261]); its DUMBBELSS/atropine/pralidoxime content is NOT part of this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Anticholinesterase\npoisoning\n\nOften due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.\nOrganophosphates commonly used as insecticides; poisoning usually seen in farmers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 262 (book 240) opens the SEPARATE pending 'Muscarinic antagonists' section: the Cholinomimetic agents section does NOT extend to pdf 262 — the whole section (intro warning + both table groups) is on pdf 261 alone (sourcePages = [261] only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Muscarinic antagonists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE BOUNDARY — pdf 260 (book 238) carries the COMPLETED topic PH17 'autonomic-drugs' (the two intro rules + the four-lane flowchart): EXCLUDED, but PH17 pinned THIS section as its next-page boundary marker — the reciprocal anchor resolves HERE, and PH17's 'Cholinergic stimulant' anchor list ('AChE inhibitors eg, Donepezil') is THIS page's indirect-agonist group",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "quote": "Autonomic drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cholinomimetic-agents-map"
+  ],
+  "mechanismIds": [
+    "direct-agonist-muscarinic-fork",
+    "indirect-ache-inhibitor-charge-fork"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the section's intro warning and two-group drug table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "direct-vs-indirect-fork-protocol",
+      "summary": "The FORK reading of the page's own two group labels — DIRECT agonists BIND the muscarinic receptor themselves (each with built-in AChE resistance, so the drug's signal survives the cleft's breaker; muscarinic-selective, no nicotinic activity except carbachol's 'carbon copy' frame), while INDIRECT agonists (anticholinesterases) BLOCK the breaker (AChE) and let ENDOGENOUS ACh accumulate — which is why only the indirect side reaches the NMJ (nicotinic) and why it needs an intact synapse. Both group labels are the book's own print; the synapse-view compression, the 'bind vs block' phrasing, and the endogenous-vs-exogenous signal distinction are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints the two group labels as table headers; the fork-as-mechanism reading (where each class acts on the synapse drawn on book 238) is KYP's synthesis across the two facing pages.",
+      "location": "core.keyIdea + mechanisms + the visual's fork header"
+    },
+    {
+      "id": "charge-grid-bbb-layer",
+      "summary": "The CHARGE GRID completion of the page's own three printed charge rules — 'Neo = no blood-brain barrier penetration due to positive charge', 'Does not penetrate CNS' (pyridostigmine), and 'Phreely (freely) crosses blood-brain barrier as not charged → CNS' (physostigmine) — into one quaternary/charged = peripheral-only vs tertiary/uncharged = CNS-entry grid, extended (KYP) to the direct agonists (pilocarpine prints 'can cross blood-brain barrier'; bethanechol/carbachol/methacholine charges are NOT printed — flagged). The grid's three indirect cells and pilocarpine's crossing are the book's own; the grid itself and the unprinted cells are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints the three charge rules piecemeal inside ACTION cells; the unified grid (and its extension to the direct group) is KYP's.",
+      "location": "mechanisms[1] + traps + the visual's charge-grid strip"
+    },
+    {
+      "id": "end-organ-receptor-map",
+      "summary": "The END-ORGAN RECEPTOR MAP behind each printed use — bethanechol's 'Urinary retention' rides the M3-detrusor wiring (book 235, the micturition-control topic), pilocarpine's pupil/gland effects ride the M3 addresses (books 234–236), methacholine's airway challenge rides bronchial smooth-muscle M3, the indirect group's NMJ reversal and myasthenia uses ride the NICOTINIC receptor the direct agonists do not touch (book 235, the acetylcholine-receptors topic), and physostigmine's antidote use rides CNS entry. Every use and drug name is the page's own print; the receptor addresses are the book's own from the facing pages; the map connecting them is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints uses without receptor addresses; the address layer is the completed autonomic block's own content, cross-referenced; the map is KYP's.",
+      "location": "usmle + crossLinks + the visual's end-organ chips"
+    },
+    {
+      "id": "not-printed-drug-layer",
+      "summary": "The NOT-PRINTED drug layer the topic brief anticipated but the page does NOT carry: edrophonium (the short-acting myasthenia-diagnostic AChE inhibitor) and echothiophate (the irreversible glaucoma organophosphate) are ABSENT from the printed table — flagged wherever they would otherwise appear, routed instead to the myasthenia workup and toxicology layers. Also not printed: any reversibility distinction for the indirect group (the reversible/irreversible split belongs to the EXCLUDED anticholinesterase-poisoning section ahead, PH19).",
+      "origin": "outside-first-aid",
+      "rationale": "Task-brief anticipation vs the actual print — the census must record that these names do not print, so they are never cited as this page's content.",
+      "location": "manifest notes + the note's sourceRef + traps"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the Cholinomimetic agents section occupies the UPPER portion of pdf 261 (book 239) under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner. The section prints TWO elements: (1) ONE INTRO WARNING (prose) — 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.' (the toxicity caution: cholinomimetic excess worsens bronchial tone, gastric acid, and smooth-muscle cramping); (2) ONE TWO-GROUP TABLE (DRUG / ACTION / APPLICATIONS). DIRECT AGONISTS: Bethanechol (bladder smooth muscle, AChE-resistant, muscarinic-only, 'Bethany, call me to activate your bladder' → urinary retention), Carbachol ('carbon copy of acetylcholine (but resistant to AChE)' → constricts pupil, intraoperative miosis induction), Methacholine (airway muscarinic stimulation when inhaled → asthma challenge test), Pilocarpine (ciliary muscle for open-angle + pupillary sphincter for closed-angle glaucoma, AChE-resistant, crosses BBB, 'You cry, drool, and sweat on your pilow' → sweat/tears/saliva stimulation, both glaucomas, xerostomia [Sjögren]). INDIRECT AGONISTS (ANTICHOLINESTERASES): Donepezil/rivastigmine/galantamine (↑ ACh → 1st line Alzheimer, 'Dona Riva forgot the gala'), Neostigmine (↑ ACh, no BBB penetration due to positive charge → postoperative/neurogenic ileus + urinary retention, myasthenia gravis, NMJ-blockade reversal), Pyridostigmine (↑ ACh + ↑ muscle strength, no CNS penetration → MG long-acting, with glycopyrrolate/hyoscyamine to control adverse effects), Physostigmine (↑ ACh, uncharged → crosses BBB → anticholinergic-toxicity antidote, 'phyxes' atropine overdose). RASTER CENSUS: ZERO raster images on pdf 261 (pdfimages -list returns no rows) — the table is PURE TEXT, COPYRIGHTED, never reproduced as artwork; carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP fork map (CholinomimeticAgentsMap). TEXT-LAYER ARTIFACTS pinned: the group labels print BELOW their drug rows in the raw layer ('Direct agonists' at line 55 after the Pilocarpine row; 'Indirect agonists (anticholinesterases)' at line 57 before the Donepezil row) while -layout prints 'Direct agonists' at the top of its group; the ↑ glyphs print with a leading control char (stripped by normalization); Pilocarpine's raw layer prints 'bloodbrain' hyphen-less while the Neostigmine/Physostigmine rows print 'blood-brain' with the hyphen — both raw spellings pinned. SAME-PAGE EXCLUSION: the 'Anticholinesterase poisoning' section (organophosphates, DUMBBELSS, atropine, pralidoxime) prints on the SAME pdf 261 BELOW this section — EXCLUDED (the separate PENDING topic PH19, confirmed in the chapter registry with sourcePages [261]); the boundary is pinned. SECTION EXTENT: the section does NOT extend to pdf 262 — pdf 262 (book 240) opens the separate pending 'Muscarinic antagonists' section; sourcePages = [261] only. BOUNDARIES: pdf 260 carries the COMPLETED PH17 'autonomic-drugs' (EXCLUDED, but PH17 pinned THIS section as its next-page boundary marker — the reciprocal anchor is pinned, and PH17's 'Cholinergic stimulant' anchor 'AChE inhibitors eg, Donepezil' resolves into this page's indirect group); pdf 262 opens the PENDING 'Muscarinic antagonists' (EXCLUDED). KYP extensions flagged wherever they appear: the FORK reading (direct binds / indirect blocks the breaker), the CHARGE GRID (three printed cells + pilocarpine's crossing; bethanechol/carbachol/methacholine cells unprinted — flagged), the END-ORGAN RECEPTOR MAP (addresses cross-referenced from books 234–238), and the NOT-PRINTED drug layer (edrophonium and echothiophate are ABSENT from this page — flagged, never cited as printed). No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

@@ -1,0 +1,46 @@
+{
+  "topicId": "drug-effect-modifications",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "drug-effect-modifications",
+      "requiredInKYP": true,
+      "visualId": "drug-effect-modifications-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The six-row TERM / DEFINITION / EXAMPLE table (the whole section)",
+      "sourceFigureDescription": "The section's entire printed content, verbatim: header row 'TERM | DEFINITION | EXAMPLE' and six rows — Additive ('Effect of substances A and B together is equal to the sum of their individual effects' / 'Aspirin and acetaminophen “2 + 2 = 4”'), Permissive ('Presence of substance A is required for the full effects of substance B' / 'Cortisol on catecholamine responsiveness'), Synergistic ('Effect of substances A and B together is greater than the sum of their individual effects' / 'Clopidogrel with aspirin “2 + 2 > 4”'), Potentiation ('Similar to synergism, but drug B (with no therapeutic action alone) enhances the therapeutic action of drug A' / 'Carbidopa only blocks enzyme to prevent peripheral conversion of levodopa “2 + 0 > 2”'), Antagonistic ('Effect of substances A and B together is less than the sum of their individual effects' / 'Morphine with naloxone “2 + 2 < 4”'), Tachyphylactic ('Acute decrease in response to a drug after initial/repeated administration' / 'Repeat use of intranasal decongestant (eg, oxymetazoline) → ↓ therapeutic response (with rebound congestion)'). Pure typeset table, no figures.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-effect-modifications-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the sign ladder, the permissive and tachyphylactic panels, and the verbatim examples strip of the DrugEffectModificationsMap) + blocks[1] the verbatim table",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-effect-modifications-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-effect-modifications",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 256). The Drug effect modifications section is one typeset table in the PDF text layer — no figures. The table is carried verbatim (ORIGINAL_KYP_ADAPTATION) in the note's table block and re-typeset in the registry visual's panels; short attributed definition sentences and drug pairs, not artwork reproductions. The section prints NO margin mnemonic; the KYP memory layer adds four original codes. The clinical anchors extending past the source page (adrenal-crisis pressor refractoriness, dual antiplatelet therapy, ED naloxone, rhinitis medicamentosa, tachyphylaxis-vs-tolerance) are KYP clinical anchors, flagged wherever they appear. No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the 'Autonomic receptors' section on the same page (lower portion — its second banner, its header, and the AUTONOMIC/SOMATIC overview diagram) belongs to the SEPARATE PENDING topic 'autonomic-receptors' and is NOT part of this topic's inventory."
+}

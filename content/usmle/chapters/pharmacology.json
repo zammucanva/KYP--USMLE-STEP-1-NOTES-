@@ -1,0 +1,2197 @@
+{
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "number": 5,
+  "part": 1,
+  "section": "II",
+  "pdfRanges": [
+    {
+      "part": 1,
+      "from": 249,
+      "to": 276
+    }
+  ],
+  "bookPages": "227–254",
+  "extractionStatus": "extracted",
+  "topics": [
+    {
+      "topicId": "enzyme-kinetics",
+      "title": "Enzyme Kinetics",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          250
+        ],
+        "bookPages": "228"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Michaelis-Menten kinetics plot (V vs [S])",
+          "sourceFigureDescription": "The Michaelis-Menten kinetics plot: velocity (V) on the Y-axis against substrate concentration [S] on the X-axis, a hyperbolic curve rising from origin and saturating at Vmax; the Km marked at the substrate concentration where V = 1/2 Vmax; the 'Saturation' label at the plateau. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-left panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Lineweaver-Burk plot (1/V vs 1/[S])",
+          "sourceFigureDescription": "The Lineweaver-Burk double-reciprocal plot: 1/V on the Y-axis against 1/[S] on the X-axis, a straight line with negative x-intercept at -1/Km and y-intercept at 1/Vmax; slope = m labeled; the three lines (uninhibited, competitive reversible, noncompetitive) demonstrating that reversible competitive inhibitors cross the uninhibited line whereas noncompetitive inhibitors do not. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-right panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "COMPARISON_FIGURE",
+          "visualPurpose": "The Effects of enzyme inhibition comparison panels",
+          "sourceFigureDescription": "The Effects of enzyme inhibition panels: the Michaelis-Menten (V vs [S]) and Lineweaver-Burk (1/V vs 1/[S]) overlays showing uninhibited, competitive inhibitor (reversible), and noncompetitive inhibitor curves, demonstrating that competitive inhibition raises Km while Vmax is unchanged (curves cross on Lineweaver-Burk) and noncompetitive inhibition lowers Vmax while Km is unchanged (curves do not cross). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the bottom panel of the EnzymeKineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "enzyme-kinetics",
+          "requiredInKYP": true,
+          "visualId": "enzyme-kinetics-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              250
+            ],
+            "bookPages": "228"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The 5-row inhibition comparison table",
+          "sourceFigureDescription": "The inhibition comparison table: rows = Resemble substrate, Overcome by ↑ [S], Bind site, Effect on Vmax, Effect on Km, Pharmacodynamics; columns = Competitive inhibitors reversible, Competitive inhibitors irreversible, Noncompetitive inhibitors. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "enzyme-kinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the inhibition comparison table inside the EnzymeKineticsMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "enzyme-kinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "pharmacokinetics",
+      "title": "Pharmacokinetics",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          251
+        ],
+        "bookPages": "229"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The AUC (plasma concentration vs time) plot",
+          "sourceFigureDescription": "The AUC plot: plasma concentration on the Y-axis against time on the X-axis, two curves drawn — the IV curve (higher, peaking immediately) labeled AUCIV, and the oral curve (lower, peaking later) labeled AUCOral — illustrating the bioavailability concept; the bioavailability formula F = [AUCoral × DoseIV] / [Doseoral × AUCIV] × 100 printed beside the plot. A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the top-left panel of the PharmacokineticsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Vd compartment / drug-types table",
+          "sourceFigureDescription": "The Vd compartment / drug-types table: rows = Low, Medium, High Vd; columns = Compartment (Intravascular, ECF, All tissues including fat), Drug types (Large/charged molecules; plasma protein bound, Small hydrophilic molecules, Small lipophilic molecules especially if bound to tissue protein). Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the Vd compartment table inside the PharmacokineticsMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The half-life remaining table",
+          "sourceFigureDescription": "The half-life remaining table: header row '# of half-lives' / '% remaining'; data row 1 → 50%, 2 → 25%, 3 → 12.5%, 4 → 6.25%. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the half-life remaining strip inside the PharmacokineticsMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "pharmacokinetics",
+          "requiredInKYP": true,
+          "visualId": "pharmacokinetics-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              251
+            ],
+            "bookPages": "229"
+          },
+          "visualType": "COMPARISON_FIGURE",
+          "visualPurpose": "The age-related PK changes (Absorption / Distribution / Metabolism / Excretion)",
+          "sourceFigureDescription": "The age-related PK changes: a four-row bulleted list comparing elderly vs young — Absorption (mostly unaffected), Distribution (↓ total body water → ↓ Vd of hydrophilic drugs; ↑ total body fat → ↑ Vd of lipophilic drugs), Metabolism (↓ hepatic mass and blood flow → ↓ first-pass metabolism; Phase I decreased, Phase II preserved), Excretion (↓ renal mass and blood flow → ↓ GFR → ↓ renal clearance). Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pharmacokinetics-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the age-related PK strip inside the PharmacokineticsMap) + the rapid-review section in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pharmacokinetics-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "drug-metabolism",
+      "title": "Drug Metabolism",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Phase I → Phase II → Excretion flow diagram",
+          "sourceFigureDescription": "The Drug Metabolism flow diagram: two input rails (Lipophilic drugs at top-left; Polar drugs (water-soluble) at top-right) feeding into Phase I (predominantly CYP450-dependent) and Phase II boxes; Phase I contains the four reaction types (Reduction, Oxidation, Hydrolysis, Methylation) and outputs Slightly polar metabolite (active or inactive) plus Reactive oxygen metabolites; Phase II contains the three conjugation reactions (Glucuronidation, Acetylation, Sulfation) and outputs Very polar, hydrophilic metabolite (except acetylated metabolite); the final Excretion box shows Serum (urine, sweat) and bile (stool) routes. The Phase I output flows into Phase II (sequential) but the page notes the reactions 'do not have to take place sequentially' (eg, phase I can follow phase II, or take place as a single reaction). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "drug-metabolism-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the flow-diagram panel of the DrugMetabolismMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "drug-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Phase I reaction list (Reduction, Oxidation, Hydrolysis, Methylation)",
+          "sourceFigureDescription": "The Phase I reaction list: the four Phase I reaction types printed under the Phase I header — Reduction, Oxidation, Hydrolysis, Methylation — labeled as predominantly CYP450-dependent, producing a slightly polar metabolite (active or inactive) plus reactive oxygen metabolites. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "drug-metabolism-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the Phase I reaction strip inside the DrugMetabolismMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "drug-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Phase II reaction list (Glucuronidation, Acetylation, Sulfation)",
+          "sourceFigureDescription": "The Phase II reaction list: the three Phase II conjugation reaction types printed under the Phase II header — Glucuronidation, Acetylation, Sulfation — producing a very polar, hydrophilic metabolite (except the acetylated metabolite, which is less polar). Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "drug-metabolism-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the Phase II reaction strip inside the DrugMetabolismMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "drug-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "drug-metabolism",
+          "requiredInKYP": true,
+          "visualId": "drug-metabolism-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "COMPARISON_FIGURE",
+          "visualPurpose": "The Lipophilic-vs-Polar input comparison and the geriatric/slow-acetylator modifier strip",
+          "sourceFigureDescription": "The Drug Metabolism page's two input rails (Lipophilic drugs → Phase I → Phase II; Polar drugs → Phase II directly) and the two modifier sentences ('Geriatric patients lose phase I first'; 'Patients who are slow acetylators have ↑ adverse effects from certain drugs because of ↓ rate of metabolism (eg, isoniazid)'). The input comparison shows that lipophilic drugs need both phases while polar drugs can skip Phase I and go straight to Phase II conjugation. Pure text + the two modifier callouts.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "drug-metabolism-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the input-comparison strip and the geriatric/slow-acetylator callout inside the DrugMetabolismMap) + the rapid-review section in the note",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "drug-metabolism-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "elimination-of-drugs",
+      "title": "Elimination of Drugs",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          252
+        ],
+        "bookPages": "230"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The zero-order elimination graph",
+          "sourceFigureDescription": "The zero-order elimination plot: y-axis 'Drug plasma concentration' (with ↑), x-axis 'Time (h)'. Cp falls in a straight LINE — the elimination rate (=slope) is constant at 2 U/h regardless of Cp (the graph labels 2 U/h twice along the line). Horizontal dashed guides mark the successive halvings (4 → 2 → 1 → 0.5) and the three half-life intervals are bracketed beneath the x-axis: 'First t1/2 >', 'Second t1/2 >', 'Third t1/2' — each successive interval is SHORTER. The graph's rule annotation reads 'Time of t1/2 ↑ as concentration ↑' (half-life is NOT constant in zero-order elimination; it lengthens as concentration rises). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "elimination-of-drugs-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the zero-order panel of the EliminationOfDrugsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-of-drugs-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The first-order elimination graph",
+          "sourceFigureDescription": "The first-order elimination plot: y-axis 'Drug plasma concentration' (with ↑), x-axis 'Time (h)'. Cp falls on an exponential CURVE — the elimination rate (=slope) is labeled at four successive positions (4 U/h, 2 U/h, 1 U/h, 0.5 U/h) and FALLS in proportion to the concentration. The three half-life intervals are bracketed beneath the x-axis: 'First t1/2 =', 'Second t1/2 =', 'Third t1/2' — every interval is EQUAL. The graph's rule annotation reads 'Time of t1/2 is constant as concentration ↑' (half-life is constant in first-order elimination). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "elimination-of-drugs-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the first-order panel of the EliminationOfDrugsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-of-drugs-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The zero-order vs first-order comparison rows",
+          "sourceFigureDescription": "The two comparison rows printed under the 'Elimination of drugs' header. Zero-order row: 'Rate of elimination is constant regardless of Cp (ie, constant amount of drug eliminated per unit time). Cp ↓ linearly with time. Examples of drugs—Phenytoin, Ethanol, and Aspirin (at high or toxic concentrations → ↑ salicylate saturation → zero-order elimination).' with the side note 'Capacity-limited elimination.' First-order row: 'Rate of first-order elimination is directly proportional to the drug concentration (ie, constant fraction of drug eliminated per unit time). Cp ↓ exponentially with time. Applies to most drugs.' with the side note 'Flow-dependent elimination.' Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "elimination-of-drugs-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the comparison table strip inside the EliminationOfDrugsMap) + blocks[1] and blocks[2] the table blocks carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-of-drugs-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "elimination-of-drugs",
+          "requiredInKYP": true,
+          "visualId": "elimination-of-drugs-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              252
+            ],
+            "bookPages": "230"
+          },
+          "visualType": "SUMMARY_FIGURE",
+          "visualPurpose": "The PEA margin mnemonic (the page's own zero-order drug mnemonic)",
+          "sourceFigureDescription": "The mnemonic printed beside the zero-order row: 'A PEA is round, shaped like the “0” in zero-order.' — coding the three zero-order example drugs Phenytoin, Ethanol, Aspirin (a pea is round like the numeral 0). A short attributed phrase carried in the evidence layer and the KYP mnemonic layer; the KYP visual renders its OWN original callout design around the phrase (the three additional codes — AMOUNT vs FRACTION, LINE vs CURVE, CAPACITY vs FLOW — are KYP-original).",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "elimination-of-drugs-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the PEA mnemonic callout and the four-code strip inside the EliminationOfDrugsMap) + mnemonics[0]",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "elimination-of-drugs-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "urine-ph-and-drug-elimination",
+      "title": "Urine pH and Drug Elimination",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-and-drug-elimination",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-and-drug-elimination-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Ionized species formation (%) vs pH graph",
+          "sourceFigureDescription": "The graph printed in the pKa row: y-axis 'Ionized species formation (%)' with gridlines 100, 50, and 0 (the 50% line is where pKa is read — 50% ionized / 50% nonionized); x-axis 'pH' with ticks 4, 8, 12, 14. TWO sigmoid curves: the 'Weak acid' curve rises with pH (a weak acid ionizes as pH climbs above its pKa — deprotonation RCOOH → RCOO– + H+) and the 'Weak base' curve falls with pH (a weak base ionizes as pH drops below its pKa — protonation RNH2 + H+ → RNH3+), the weak-base curve's 50% crossing labeled 'pKa: 9.2'. Below the x-axis the graph annotates the pKa axis: 'pKa = more acidic' (left) and 'pKa = more basic' (right). A vector figure (no raster).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "urine-ph-elimination-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the graph panel of the UrinePhEliminationMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-elimination-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-and-drug-elimination",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-and-drug-elimination-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Weak acids row with its ionization strip",
+          "sourceFigureDescription": "The row printed under the section header: 'Weak acids — Examples: phenobarbital, methotrexate, aspirin (salicylates). Treat overdose with sodium bicarbonate to alkalinize urine.' with the inline ionization strip 'RCOOH (lipid soluble) → RCOO – + H+ (trapped)' — the neutral protonated acid crosses membranes (lipid soluble, reabsorbed) while the deprotonated anion is ion-trapped in the tubule (trapped, cleared quickly). The chemical species print in the text layer; the strip is text + arrow line art.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "urine-ph-elimination-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the weak-acids panel of the UrinePhEliminationMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-elimination-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-and-drug-elimination",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-and-drug-elimination-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Weak bases row with its ionization strip and the TCA-toxicity margin note",
+          "sourceFigureDescription": "The row printed under the weak-acid row: 'Weak bases — Examples: tricyclic antidepressants (TCAs), amphetamines. Trapped in acidic environments. For severe alkalosis, treat with ammonium chloride to acidify urine.' with the inline ionization strip 'RNH3+ (trapped) → RNH2 + H+ (lipid soluble)' — the protonated cation is ion-trapped in the acidic tubule while the neutral base crosses membranes. The margin note beneath: 'TCA toxicity is initially treated with sodium bicarbonate to overcome the sodium channel-blocking activity of TCAs. This treats cardiac toxicity, but does not accelerate drug elimination.' The chemical species print in the text layer; the strip is text + arrow line art.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "urine-ph-elimination-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the weak-bases panel and the TCA caveat callout of the UrinePhEliminationMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-elimination-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "urine-ph-and-drug-elimination",
+          "requiredInKYP": true,
+          "visualId": "urine-ph-and-drug-elimination-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The pKa row and the section header rule",
+          "sourceFigureDescription": "The section's governing rule printed beside the header: 'Ionized species are trapped in urine and cleared quickly. Neutral forms can be reabsorbed.' and the pKa row: 'pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized. The pKa represents the strength of the weak acid or base.' Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "urine-ph-elimination-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the governing-rule strip and the pKa definition panel of the UrinePhEliminationMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "urine-ph-elimination-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "dosage-calculations",
+      "title": "Dosage Calculations",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          253
+        ],
+        "bookPages": "231"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "dosage-calculations",
+          "requiredInKYP": true,
+          "visualId": "dosage-calculations-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The two fraction formulas — Loading dose and Maintenance dose",
+          "sourceFigureDescription": "The section's two displayed formulas, typeset as fractions: 'Loading dose =' with the numerator 'Cp × Vd' over the denominator 'F', and 'Maintenance dose =' with the numerator 'Cp × CL × τ' over the denominator 'F'. Pure text + divide rules (no raster, no curves) — the two equations that define the section.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "dosage-calculations-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the two formula panels of the DosageCalculationsMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dosage-calculations-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "dosage-calculations",
+          "requiredInKYP": true,
+          "visualId": "dosage-calculations-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The variable definitions — Cp and τ",
+          "sourceFigureDescription": "The definition block printed beneath the formulas: 'Cp = target plasma concentration' and 'τ = dosage interval (time between doses); does not apply for continuous infusions'. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "dosage-calculations-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the variable dictionary strip of the DosageCalculationsMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dosage-calculations-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "dosage-calculations",
+          "requiredInKYP": true,
+          "visualId": "dosage-calculations-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two margin rules — organ disease and time to steady state",
+          "sourceFigureDescription": "The margin note printed beside the formulas, two rules: 'In renal or liver disease, maintenance dose ↓ and loading dose is usually unchanged.' and 'Time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency.' Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "dosage-calculations-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the organ-disease callout and the steady-state clock panel of the DosageCalculationsMap) + blocks[2] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dosage-calculations-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "dosage-calculations",
+          "requiredInKYP": true,
+          "visualId": "dosage-calculations-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              253
+            ],
+            "bookPages": "231"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The first-order accumulation curve (KYP redraw — not printed on the page)",
+          "sourceFigureDescription": "NOT PRINTED ON THE SOURCE PAGE. The registry visual adds an original KYP redraw of the standard first-order accumulation identity — the approach to steady state after 1/2/3/4/5 half-lives (50% / 75% / 87.5% / 93.75% / ~97% of Css) — to make the margin rule 'Time to steady state depends primarily on t1/2 and is independent of dose and dosing frequency' visible. Drawn as an ORIGINAL_KYP_REDRAW vector curve; no copyrighted artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "dosage-calculations-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the steady-state clock panel's accumulation curve of the DosageCalculationsMap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "dosage-calculations-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "efficacy-vs-potency",
+      "title": "Efficacy vs Potency",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          254
+        ],
+        "bookPages": "232"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-vs-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-vs-potency-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The RELATIVE EFFICACY dose-response panel",
+          "sourceFigureDescription": "The page's first curve panel, vector line art (no raster): y-axis '% Maximal effect' with printed 100/50/0 gridlines, x-axis 'Log (drug dose)'; two sigmoid curves with the same left-right position but different ceilings — the upper plateau labeled 'Emax Drug A', the lower plateau labeled 'Emax Drug B' (the partial agonist), and the vertical gap between the plateaus labeled 'Δ Efficacy'.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "efficacy-potency-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the RELATIVE EFFICACY panel of the EfficacyPotencyMap — redrawn as vector sigmoids: full agonist to 100%, partial agonist to 60%, dashed plateau lines, and the vertical Δ Efficacy bracket)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "efficacy-potency-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-vs-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-vs-potency-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The RELATIVE POTENCY dose-response panel",
+          "sourceFigureDescription": "The page's second curve panel, vector line art (no raster): same '% Maximal effect' / 'Log (drug dose)' axes; two sigmoid curves with the SAME ceiling (both reach 100% maximal effect) but different left-right positions — the left curve labeled 'Drug A', the right curve labeled 'Drug B', two EC50 x-axis crossings at the 50% height, the horizontal gap labeled 'Δ Potency', and the legend 'EC = Effective concentration'.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "efficacy-potency-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the RELATIVE POTENCY panel of the EfficacyPotencyMap — redrawn as vector sigmoids: two full agonists with the same Emax, Drug A left-shifted with a lower EC50, dashed 50% crossings dropped to the x-axis, and the horizontal Δ Potency bracket)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "efficacy-potency-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-vs-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-vs-potency-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two definition rows — Efficacy and Potency",
+          "sourceFigureDescription": "The two text rows printed beside the panels: 'Maximal effect a drug can produce (intrinsic activity). Represented by the y-value (Emax). ↑ y-value = ↑ Emax = ↑ efficacy. Unrelated to potency (ie, efficacious drugs can have high or low potency). Partial agonists have less efficacy than full agonists.' and 'Amount of drug needed for a given effect. Represented by the x-value (EC50). Left shifting = ↓ EC50 = ↑ potency = ↓ drug needed. Unrelated to efficacy (ie, potent drugs can have high or low efficacy).' Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "efficacy-potency-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the two definition cards of the EfficacyPotencyMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "efficacy-potency-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "efficacy-vs-potency",
+          "requiredInKYP": true,
+          "visualId": "efficacy-vs-potency-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              254
+            ],
+            "bookPages": "232"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The partial agonist sentence and the EC legend",
+          "sourceFigureDescription": "The partial-agonist sentence closing the Efficacy row — 'Partial agonists have less efficacy than full agonists.' — and the RELATIVE POTENCY panel's printed legend 'EC = Effective concentration' with its two EC50 labels. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "efficacy-potency-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the partial-agonist callout and the EC50 legend of the EfficacyPotencyMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "efficacy-potency-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "receptor-binding",
+      "title": "Receptor Binding",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Panel 1 — the competitive-antagonist dose-response panel",
+          "sourceFigureDescription": "The page's first curve panel, vector line art (no raster): y-axis 100/50/0 gridlines, x-axis 'Agonist dose'; two parallel sigmoid curves both reaching the same 100 ceiling — the left curve labeled 'Agonist', the right curve labeled 'Agonist + competitive antagonist' — with a circled letter 'A' between the curves at the 50% level and the annotation 'Reduced potency' marking the rightward (parallel) shift.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (panel A of the ReceptorBindingMap — redrawn as vector sigmoids: agonist and a right-shifted agonist + competitive antagonist curve at the same 100% ceiling, the A marker, the 'Reduced potency' annotation and a horizontal shift arrow at the 50% level)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Panel 2 — the noncompetitive-antagonist dose-response panel",
+          "sourceFigureDescription": "The page's second curve panel, vector line art (no raster): same 100/50/0 axes and 'Agonist dose' x-axis; two sigmoid curves at the SAME left-right position — the full curve labeled 'Agonist' reaching 100 and the depressed curve labeled 'Agonist + noncompetitive antagonist' plateauing near 50 — with a circled letter 'B' and the annotation 'Reduced efficacy' marking the vertical drop of the ceiling.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (panel B of the ReceptorBindingMap — redrawn as vector sigmoids: agonist to 100% and agonist + noncompetitive antagonist to ~50% at the same EC50, the B marker, the 'Reduced efficacy' annotation and a vertical ceiling arrow)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "Panel 3 — the partial-agonist dose-response panel",
+          "sourceFigureDescription": "The page's third curve panel, vector line art (no raster): same axes; THREE sigmoid curves — the full curve labeled 'Agonist' reaching 100, an upper curve labeled 'Partial agonist' plateauing lower at the agonist's own EC50 (annotation 'Reduced efficacy' with a vertical arrow), and a lower curve labeled 'Partial C agonist' (the circled letter C marks table row C) plateauing lower still AND shifted right (annotation 'Independent potency' with a horizontal double arrow).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (panel C of the ReceptorBindingMap — redrawn as vector sigmoids: agonist to 100%, partial agonist to ~70% at the same EC50 with the 'Reduced efficacy' vertical arrow, and partial C agonist to ~40% shifted right with the 'Independent potency' horizontal arrow)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "receptor-binding",
+          "requiredInKYP": true,
+          "visualId": "receptor-binding-sv4",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The AGONIST WITH table — four rows verbatim",
+          "sourceFigureDescription": "The typeset table under the three panels, header 'AGONIST WITH | POTENCY | EFFICACY | REMARKS | EXAMPLE', rows: 'A Competitive antagonist | ↓ | No change | Can be overcome by ↑ agonist concentration | Diazepam (agonist) + flumazenil (competitive antagonist) on GABA A receptor.'; 'B Noncompetitive antagonist | No change | ↓ | Cannot be overcome by ↑ agonist concentration | Norepinephrine (agonist) + phenoxybenzamine (noncompetitive antagonist) on α-receptors.'; 'C Partial agonist (alone) | Independent | ↓ | Acts at same site as full agonist | Morphine (full agonist) vs buprenorphine (partial agonist) at opioid μ-receptors.'; 'Inverse agonist (alone) | Independent | Negative | Binds to a constitutively active receptor, thereby reducing its activity; has the opposite effect of an agonist | H1 antihistamines (eg, diphenhydramine)'. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "receptor-binding-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the AGONIST WITH grid of the ReceptorBindingMap) + blocks[1] the table block carried verbatim",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "receptor-binding-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "therapeutic-index",
+      "title": "Therapeutic Index",
+      "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "therapeutic-index",
+          "requiredInKYP": true,
+          "visualId": "therapeutic-index-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The Efficacy/Toxicity quantal-curve panel",
+          "sourceFigureDescription": "The page's curve panel (vector line art, no raster): y-axis '% of patients responding' with 100/50/0 gridlines, x-axis 'Log (drug concentration)'; TWO overlapping sigmoid cumulative curves — the left 'Efficacy' curve and the right 'Toxicity' curve — with dashed drop lines at 'ED50' and 'TD50' where each curve crosses the 50% line, the annotation 'Therapeutic index' printed between the curves, and the legend 'ED = Effective dose / TD = Toxic dose'.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "therapeutic-index-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the quantal panel of the TherapeuticIndexMap — redrawn as vector sigmoids: the Efficacy curve crossing 50% of patients at ED50, the Toxicity curve crossing at TD50, the 50% gridline, the dashed drops, and the 'Therapeutic index' double-arrow spanning the ED50→TD50 gap)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "therapeutic-index-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "therapeutic-index",
+          "requiredInKYP": true,
+          "visualId": "therapeutic-index-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The TD50/ED50 equation block",
+          "sourceFigureDescription": "The typeset block under the section header, verbatim: the definition line 'Measurement of drug safety.' followed by the fraction TD50 over ED50 (with '=' at the left) and its two labels — numerator 'TD50 median toxic dose', denominator 'ED50 median effective dose'. Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "therapeutic-index-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the equation panel of the TherapeuticIndexMap) + blocks[1] the verbatim table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "therapeutic-index-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+          "topicId": "therapeutic-index",
+          "requiredInKYP": true,
+          "visualId": "therapeutic-index-sv3",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              255
+            ],
+            "bookPages": "233"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The margin mnemonic and margin note — TITE, the low-TI monitoring list, and the LD50 note",
+          "sourceFigureDescription": "The margin box beside the panel, verbatim: 'TITE: Therapeutic Index = TD50 / ED50.' (the source's own printed mnemonic); 'Safer drugs have ↑ TI; drugs with ↓ TI require frequent monitoring (eg, warfarin, theophylline, digoxin, antiepileptic drugs, lithium; Warning! These drugs are lethal!).'; 'LD50 (lethal median dose) often replaces TD50 in animal studies.' Pure text, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "therapeutic-index-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the margin-note strip, the five-drug monitoring grid, and the LD50 line of the TherapeuticIndexMap) + blocks[1] the verbatim table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "therapeutic-index-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "drug-effect-modifications",
+      "title": "Drug Effect Modifications",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "drug-effect-modifications",
+          "requiredInKYP": true,
+          "visualId": "drug-effect-modifications-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              256
+            ],
+            "bookPages": "234"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The six-row TERM / DEFINITION / EXAMPLE table (the whole section)",
+          "sourceFigureDescription": "The section's entire printed content, verbatim: header row 'TERM | DEFINITION | EXAMPLE' and six rows — Additive ('Effect of substances A and B together is equal to the sum of their individual effects' / 'Aspirin and acetaminophen “2 + 2 = 4”'), Permissive ('Presence of substance A is required for the full effects of substance B' / 'Cortisol on catecholamine responsiveness'), Synergistic ('Effect of substances A and B together is greater than the sum of their individual effects' / 'Clopidogrel with aspirin “2 + 2 > 4”'), Potentiation ('Similar to synergism, but drug B (with no therapeutic action alone) enhances the therapeutic action of drug A' / 'Carbidopa only blocks enzyme to prevent peripheral conversion of levodopa “2 + 0 > 2”'), Antagonistic ('Effect of substances A and B together is less than the sum of their individual effects' / 'Morphine with naloxone “2 + 2 < 4”'), Tachyphylactic ('Acute decrease in response to a drug after initial/repeated administration' / 'Repeat use of intranasal decongestant (eg, oxymetazoline) → ↓ therapeutic response (with rebound congestion)'). Pure typeset table, no figures.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "drug-effect-modifications-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the sign ladder, the permissive and tachyphylactic panels, and the verbatim examples strip of the DrugEffectModificationsMap) + blocks[1] the verbatim table",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "drug-effect-modifications-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "autonomic-receptors",
+      "title": "Autonomic Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "autonomic-receptors",
+          "requiredInKYP": true,
+          "visualId": "autonomic-receptors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              256
+            ],
+            "bookPages": "234"
+          },
+          "visualType": "RECEPTOR_DIAGRAM",
+          "visualPurpose": "The AUTONOMIC/SOMATIC overview schematic (the section's single figure — the classic autonomic nervous system receptor map)",
+          "sourceFigureDescription": "The section's entire figure: a left-to-right schematic of the AUTONOMIC division (subdivided Parasympathetic and Sympathetic) and the SOMATIC division. The CNS column at the left (Brainstem above, Spinal cord below) gives off three pathways. PARASYMPATHETIC: 'Preganglionic neuron (long)' → ganglion near the organ (ACh on Nn) → 'Postganglionic neuron (short)' → ACh on 'M₁, M₂, M₃' → 'Smooth muscle, gland cells, nerve terminals, cardiac muscle'. SYMPATHETIC: 'Preganglionic neuron (short)' → the 'Sympathetic chain' (ACh on Nn) → 'Postganglionic neuron (long)' → NE on 'α1, α2, β1, β2' → 'Smooth muscle, gland cells, nerve terminals, cardiac muscle'; a cholinergic sympathetic fiber → ACh on 'M₃' → 'Sweat glands'; a dopaminergic branch → D on 'D1' → 'Renal vasculature smooth muscle'; and the 'Adrenal gland (medulla)' limb — directly innervated by the preganglionic fiber (ACh on Nn), secreting Epi + NE into the 'Blood (catecholamine transmission)' onto 'α1, α2, β1, β2' at 'Cardiac muscle, vessels'. SOMATIC: the 'Voluntary motor nerve' (single neuron) → ACh on 'Nm' at the 'Neuromuscular junction' → 'Skeletal muscle'. Three footnote lines below the figure: 'Pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous system.'; 'Adrenal medulla is directly innervated by preganglionic sympathetic fibers.'; 'Sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers (sympathetic nervous system results in a “chold” sweat).' VECTOR LINE ART (pdfimages: zero raster rows) — path-drawn nerves/organs with typeset labels.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "autonomic-receptors-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the AutonomicReceptorsMap — the CNS band, the parasympathetic/sympathetic/somatic pathway columns with their neuron boxes, synapse chips, receptor plates and organ plates, the three-footnotes strip, and the reading-rule strip) + blocks[0] the visual block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "autonomic-receptors-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "acetylcholine-receptors",
+      "title": "Acetylcholine Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "acetylcholine-receptors",
+          "requiredInKYP": true,
+          "visualId": "acetylcholine-receptors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              257
+            ],
+            "bookPages": "235"
+          },
+          "visualType": "RECEPTOR_DIAGRAM",
+          "visualPurpose": "The section's two definitional paragraphs (the whole section — there is no figure on the page)",
+          "sourceFigureDescription": "The section's entire printed content, verbatim: the nicotinic paragraph — 'Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in some cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found in neuromuscular junction of skeletal muscle).' — and the muscarinic paragraph — 'Muscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd messengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat glands (cholinergic sympathetic).' PAGE-STRUCTURE FINDING: NO muscarinic subtype table exists on the page (the section is two prose paragraphs; pdfimages returned zero raster rows — typeset text only). The M1–M5 per-subtype G-protein/second-messenger assignments are NOT on this page: the book's own M1 q / M2 i / M3 q rows live in the G-protein–linked second messengers table on pdf 259 (book 237), the SEPARATE pending topic 'g-protein-linked-second-messengers'.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "acetylcholine-receptors-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the AcetylcholineReceptorsMap — the ACh origin band; the NICOTINIC panel with its ligand-gated-channel glyph and the NN/NM station cards; the MUSCARINIC panel with its GPCR split and the odd/even G-protein lanes; the book-235 location strip; the nicotinic-vs-muscarinic sorting row; the four-code mnemonic strip) + blocks[0] the visual block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "acetylcholine-receptors-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "pain-transmission",
+      "title": "Pain Transmission",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "pain-transmission",
+          "requiredInKYP": true,
+          "visualId": "pain-transmission-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              257
+            ],
+            "bookPages": "235"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The section's two subsections and the four-process blocker list (the whole section — there is no figure on the page)",
+          "sourceFigureDescription": "The section's entire printed content, verbatim: the NOCICEPTIVE PAIN subsection — 'Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli.'; 'Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation. Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).'; 'Processes involved in pain transmission:' with its four lines (Transduction — local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids; Transmission — local anesthetics, α2-agonists, opioids; Modulation — TCAs, SSRIs, SNRIs, gabapentinoids; Perception — α2-agonists, opioids, TCAs, SSRIs, SNRIs) — and the NEUROPATHIC PAIN subsection — 'Caused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent activation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.' PAGE-STRUCTURE FINDING: NO pathway diagram exists on the page (the section is typeset text; pdfimages returned zero raster rows). The dorsal-horn/spinothalamic/thalamus/cortex station chain, substance P/glutamate, and gate-control theory are NOT printed on this page — the anatomical station labels that seat the four processes in the KYP visual are flagged extensions.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pain-transmission-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the PainTransmissionMap — the stimulus band; the TRANSDUCTION node with the TRPV → Ca2+ influx → Na+ channel glyph and its six blocker chips; the Aδ/C fiber-split card with the transmission blockers; the MODULATION node with its four blocker chips; the PERCEPTION node with its five; the NEUROPATHIC contrast panel; the step × class blocker matrix; the four-code mnemonic strip) + blocks[0] the visual block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pain-transmission-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "micturition-control",
+      "title": "Micturition Control",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "micturition-control",
+          "requiredInKYP": true,
+          "visualId": "micturition-control-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The MIC turition control wiring diagram (the section's figure — the bladder/urethra anatomy with its three input nerves and four receptor plates)",
+          "sourceFigureDescription": "The section's figure: a full-color medical illustration of the bladder and urethra (COPYRIGHTED raster tissue art — pdfimages: 3 sep rasters on pdf 258, the bladder-base/trigone mask 426x336, the bladder+urethra body 383x518, and a curved wall segment 458x277 — never reproduced) with vectorized typeset labels. ANATOMY: the urinary bladder drawn in cross-section with a thick wall (the 'Detrusor muscle') tapering through the bladder neck into the urethra; the 'Internal urethral sphincter' at the bladder neck (smooth muscle), the 'External urethral sphincter' lower on the urethra. NERVES (three yellow input lanes from the left): 'Pelvic nerve (parasympathetic input)' → the detrusor muscle at the 'M₃-receptor' plate; 'Hypogastric nerve (sympathetic input)' → two branches, one to the detrusor at the 'β₃-receptor' plate and one to the internal urethral sphincter at the 'α₁-receptor' plate; 'Pudendal nerve (somatic input)' → the external urethral sphincter at the 'Nicotinic receptor' plate. NUMBERED CIRCLES: the receptor plates carry ① (M₃), ② (β₃), and ③ (α₁), keying them to the numbered rows of the drug table printed below the figure (the Nicotinic plate carries no number — no drug row targets it).",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "micturition-control-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual (the MicturitionControlMap — the bladder/urethra glyph column with the three sphincter levels, the three nerve lanes, the four receptor plates with the ①②③ keys, the two state panels, the verbatim margin-note strip, the four-row drug strip, and the code strip) + blocks[0] the visual block",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "micturition-control-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "micturition-control",
+          "requiredInKYP": true,
+          "visualId": "micturition-control-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The DRUGS / MECHANISM / APPLICATIONS table (the section's four-row drug map) + the margin note it sits beside (the pontine center sentence, the two autonomic arrows, and the printed mnemonic)",
+          "sourceFigureDescription": "The four-row drug table, verbatim: 'Muscarinic agonists (eg, bethanechol)' — '⊕ M₃ receptor → contraction of detrusor smooth muscle → ↑ bladder emptying' — 'Urinary retention'; 'Muscarinic antagonists (eg, oxybutynin)' — '⊝ M₃ receptor → relaxation of detrusor smooth muscle → ↓ detrusor overactivity' — 'Urgency incontinence'; 'Sympathomimetics (eg, mirabegron)' — '⊕ β₃ receptor → relaxation of detrusor smooth muscle → ↑ bladder capacity' — 'Urgency incontinence'; 'α1-antagonists (eg, tamsulosin)' — '⊝ α₁-receptor → relaxation of smooth muscle (eg, bladder, neck, prostate) → ↓ urinary obstruction' — 'BPH'. Beside the diagram the margin prints: 'Micturition center in pons regulates involuntary bladder function via coordination of sympathetic and parasympathetic nervous systems. ⊕ sympathetic → ↑ urinary retention. ⊕ parasympathetic → ↑ urine voiding. Some autonomic drugs act on smooth muscle receptors to treat bladder dysfunction.' and the mnemonic 'Baby one more time.' (red initials B·o·m·t = Bethanechol · Oxybutynin · Mirabegron · Tamsulosin — the source's own). TEXT-LAYER NOTE: the table's receptor subscripts print on their own lines (the ₃/₃/₃/₁ of M₃/M₃/β₃/α₁) — documented; the composed rows are carried verbatim in the note's table block.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "micturition-control-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's table blocks (blocks[1] the verbatim margin note + drug table; blocks[2] the KYP key-map pivot) + the registry visual's margin-note and drug strips",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "micturition-control-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "tissue-distribution-of-adrenergic-receptors",
+      "title": "Tissue Distribution of Adrenergic Receptors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "tissue-distribution-of-adrenergic-receptors",
+          "requiredInKYP": true,
+          "visualId": "tissue-distribution-of-adrenergic-receptors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              258
+            ],
+            "bookPages": "236"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The RECEPTOR / TISSUE / EFFECT(S) table (the section's sole printed element — the adrenergic tissue-distribution map)",
+          "sourceFigureDescription": "The section's one table, verbatim, 13 tissue rows under 5 receptors: α1 — 'Vascular smooth muscle / Vasoconstriction', 'Visceral smooth muscle / Smooth muscle contraction'; α2 — 'Pancreas / Inhibition of insulin secretion', 'Presynaptic terminals / Inhibition of neurotransmitter release', 'Salivary glands / Inhibition of salivary secretion'; β1 — 'Heart / ↑ heart rate, contractility', 'Kidney / ↑ renin secretion'; β2 — 'Bronchioles / Bronchodilation', 'Cardiac muscle / ↑ heart rate, contractility', 'Liver / Glycogenolysis, glucose release', 'Arterial smooth muscle / Vasodilation', 'Pancreas / Stimulation of insulin secretion'; β3 — 'Adipose / ↑ lipolysis'. Pure text (no rasters — the page's 3 images all belong to the UPPER portion's PH14 illustration); no figure, no margin note, no printed mnemonic.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "adrenergic-receptor-distribution-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's table blocks (blocks[1] the verbatim table; blocks[2] the KYP grid pivot) + the registry visual's grid panel, seesaw cards, code strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "adrenergic-receptor-distribution-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "g-protein-linked-second-messengers",
+      "title": "G-Protein–Linked Second Messengers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          259
+        ],
+        "bookPages": "237"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "g-protein-linked-second-messengers",
+          "requiredInKYP": true,
+          "visualId": "g-protein-linked-second-messengers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              259
+            ],
+            "bookPages": "237"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The RECEPTOR / G-PROTEIN CLASS / MAJOR FUNCTIONS table (the page's first printed element — the 14-row receptor-to-class map)",
+          "sourceFigureDescription": "The page's table, verbatim, 14 receptor rows under 5 family groups: Adrenergic — α1 'q', α2 'i', β1 's', β2 's', β3 's'; Cholinergic — M1 'q', M2 'i', M3 'q'; Dopamine — D1 's', D2 'i'; Histamine — H1 'q', H2 's'; Vasopressin — V1 'q', V2 's' — each with its MAJOR FUNCTIONS string (α1 vascular/pupillary/sphincter contraction; α2 ↓ sympathetic outflow/insulin/lipolysis, ↑ platelet aggregation, ↓ aqueous humor; β1 '(one heart)' + renin; β2 '(two lungs)' vasodilation/bronchodilation/tocolysis/K+ uptake; β3 lipolysis/thermogenesis/bladder relaxation; M1 cognitive/enteric/exocrine; M2 ↓ heart rate, AV node conduction, atrial contractility; M3 exocrine/peristalsis/bladder/broncho/vasodilation/miosis/accommodation; D1 renal vascular + direct pathway; D2 transmitter + indirect pathway; H1 bronchoconstriction/mucus/permeability/pruritus; H2 gastric acid; V1 vascular contraction; V2 aquaporin-2 + vWF, printing the book's own red-ink erratum overlay 'twobules (tubules)'). Pure text — no rasters.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "g-protein-second-messenger-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's table block (blocks[1] the verbatim table) + the registry visual's class-digest strip and cascade panels",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "g-protein-second-messenger-map",
+          "plannedImplementation": "registry-visual"
+        },
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "g-protein-linked-second-messengers",
+          "requiredInKYP": true,
+          "visualId": "g-protein-linked-second-messengers-sv2",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              259
+            ],
+            "bookPages": "237"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The three cascade diagrams — Gq, Gs, Gi (the page's second printed element: ligand + receptor chip → G protein → enzyme → second messenger → effector, one panel per class)",
+          "sourceFigureDescription": "THREE VECTOR cascade panels, labels in the text layer (ZERO rasters on the page — pdfimages returns no rows; vector typeset artwork, COPYRIGHTED, never reproduced): the Gq panel — 'H1, α1, V1, M1, or M3 receptor' → 'Gq protein' → 'Phospholipase C' → 'PIP2' → 'IP3' + 'DAG' → 'Ca2+' → 'Protein kinase C' → 'Smooth muscle contraction' (with 'Myosin light-chain kinase (smooth muscle contraction)'); the Gs panel — 'B1, B2, B3, D1, H2, or V2 receptor' → 'GS protein' → 'Adenylyl cyclase' → 'ATP' → 'Cyclic AMP' → 'Protein kinase A' (+ 'Ca2+'); the Gi panel — 'M2, α2, or D2 receptor' → 'Gi protein' → 'Adenylyl cyclase' (inhibited) → ↓ 'Cyclic AMP'. The diagram text layer duplicates every label (two-layer artwork) and prints 'B1, B2, B3' where the table prints β glyphs. Conveyed as ONE original KYP schematic (the three cascade panels with the receptor-example chips per class) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "g-protein-second-messenger-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's three cascade panels (receptor chips → G protein → enzyme → second messenger → effector, per class)",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "g-protein-second-messenger-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "autonomic-drugs",
+      "title": "Autonomic Drugs Synapse Map",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          260
+        ],
+        "bookPages": "238"
+      },
+      "difficulty": 3,
+      "requiresVisual": true,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "autonomic-drugs",
+          "requiredInKYP": true,
+          "visualId": "autonomic-drugs-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              260
+            ],
+            "bookPages": "238"
+          },
+          "visualType": "PHARMACOLOGY_DIAGRAM",
+          "visualPurpose": "The four-lane autonomic neurotransmission flowchart (the page's single large figure: CHOLINERGIC vs NORADRENERGIC synthesis-to-receptor lanes, with the DOPAMINERGIC and SEROTONERGIC lanes beneath)",
+          "sourceFigureDescription": "ONE LARGE FOUR-LANE VECTOR FLOWCHART, labels in the text layer (ZERO rasters on the page — pdfimages returns no rows; vector line art, COPYRIGHTED, never reproduced). CHOLINERGIC lane: 'Choline' + 'Acetyl-CoA' →(ChAT)→ 'ACh' (vesicle, Ca2+-triggered release) → synapse → 'Cholinoreceptors' 'M1 M2 M3' on the 'POSTSYNAPTIC NEURON' → 'AChE' → 'Choline' + 'Acetate', with the drug anchors 'Cholinergic inhibitor' = 'Botulinum toxin' (at release) and 'Cholinergic stimulant' = 'AChE inhibitors eg, Donepezil' (at the breaker). NORADRENERGIC lane: 'Tyrosine' → 'DOPA' → 'Dopamine' → 'NE' (VMAT-packed vesicle; 'Vesicular monoamine transporter (VMAT) inhibitor' = 'Tetrabenazine'; 'Noradrenergic stimulant' = 'Amphetamine, Ephedrine' displacing vesicular NE), presynaptic 'Releasemodulating receptors' = 'α2' (the autoreceptor with the 'Negative feedback' arrow) + 'AT II', Ca2+-triggered release → synapse → 'Adrenoreceptors' 'α' 'β' on the 'POSTSYNAPTIC NEURON', clearance by 'NET' 'Reuptake' (with 'Noradrenergic stimulant' = 'Amphetamine, SNRIs, Cocaine, TCAs, MDMA' at the pump) or 'Diffusion, metabolism'. Bottom lanes: DOPAMINERGIC ('Tyrosine' → 'L-DOPA' → 'Dopamine' → 'DAT' 'Reuptake'; 'Dopaminergic stimulant' = 'Amphetamine, Methylphenidate, Cocaine'; 'Dopamine receptor') and SEROTONERGIC ('Tryptophan' → '5-Hydroxytryptophan' → '5-HT' → 'SERT' 'Reuptake'; 'Serotonergic stimulant' = 'Amphetamine, SNRIs, Cocaine, SSRIs'; '5-HT receptor'), under the 'AXONAL TERMINAL'/'TERMINAL AXON' captions. VLM render check: NO enzyme labels on the noradrenergic arrows (ChAT is the only printed enzyme) and NO epinephrine/adrenal branch — the noradrenergic lane ends at NE. Conveyed as ONE original KYP two-lane synthesis map — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_REDRAW",
+          "kypVisualId": "autonomic-drugs-synthesis-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the registry visual's two main lane panels (cholinergic + noradrenergic), the dopaminergic/serotonergic axonal strip, the five-slots drug digest, the codes strip, and the reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "autonomic-drugs-synthesis-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "cholinomimetic-agents",
+      "title": "Cholinomimetic Agents",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "cholinomimetic-agents",
+          "requiredInKYP": true,
+          "visualId": "cholinomimetic-agents-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              261
+            ],
+            "bookPages": "239"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The two-group DRUG / ACTION / APPLICATIONS table (the section's sole printed element — the cholinomimetic drug grid: 4 direct agonists + 4 indirect agonists/anticholinesterases, plus the intro toxicity warning)",
+          "sourceFigureDescription": "ONE TWO-GROUP TEXT TABLE (PURE TEXT — ZERO rasters on pdf 261; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Column frame: DRUG / ACTION / APPLICATIONS. Group 1 'Direct agonists': Bethanechol — 'Activates bladder smooth muscle; resistant to AChE. Acts on muscarinic receptors; no nicotinic activity. \"Bethany, call me to activate your bladder.\"' → 'Urinary retention.'; Carbachol — 'Carbon copy of acetylcholine (but resistant to AChE).' → 'Constricts pupil. Used for intraoperative miosis induction.'; Methacholine — 'Stimulates muscarinic receptors in airway when inhaled.' → 'Challenge test for diagnosis of asthma.'; Pilocarpine — 'Contracts ciliary muscle of eye (open-angle glaucoma), pupillary sphincter (closed-angle glaucoma); resistant to AChE, can cross blood-brain barrier. \"You cry, drool, and sweat on your pilow.\"' → 'Potent stimulator of sweat, tears, and saliva / Open-angle and closed-angle glaucoma, xerostomia (Sjögren syndrome).' Group 2 'Indirect agonists (anticholinesterases)': Donepezil, rivastigmine, galantamine — '↑ ACh.' → '1st line for Alzheimer disease (Dona Riva forgot the gala).'; Neostigmine — '↑ ACh. Neo = no blood-brain barrier penetration due to positive charge.' → 'Postoperative and neurogenic ileus and urinary retention, myasthenia gravis, reversal of neuromuscular junction blockade (postoperative).'; Pyridostigmine — '↑ ACh; ↑ muscle strength. Does not penetrate CNS. Pyridostigmine gets rid of myasthenia gravis.' → 'Myasthenia gravis (long acting). Used with glycopyrrolate or hyoscyamine to control pyridostigmine adverse effects.'; Physostigmine — '↑ ACh. Phreely (freely) crosses blood-brain barrier as not charged → CNS.' → 'Antidote for anticholinergic toxicity; physostigmine \"phyxes\" atropine overdose.' Intro warning above the table: 'Watch for exacerbation of COPD, asthma, and peptic ulcers in susceptible patients.' TEXT-LAYER ARTIFACTS: group labels print below their rows in the raw layer; '↑' glyphs carry a leading control char; Pilocarpine's raw layer prints 'bloodbrain' hyphen-less (Neostigmine/Physostigmine rows print 'blood-brain' with hyphen) — raw spellings pinned. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP fork map (the direct-vs-indirect synapse fork, the eight drug cards, the charge grid, the toxicity strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "cholinomimetic-agents-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (direct rows; indirect rows) + the registry visual's fork header, the four direct drug cards, the four indirect drug cards, the charge-grid strip, the toxicity strip, and the reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "cholinomimetic-agents-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "anticholinesterase-poisoning",
+      "title": "Anticholinesterase Poisoning",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "anticholinesterase-poisoning",
+          "requiredInKYP": true,
+          "visualId": "anticholinesterase-poisoning-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              261
+            ],
+            "bookPages": "239"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The three-row effect-tier table (the section's sole printed element — the anticholinesterase-poisoning grid: intro pair + Muscarinic/Nicotinic/CNS effect rows with their findings and high-yield antidote cells)",
+          "sourceFigureDescription": "ONE THREE-ROW TEXT TABLE (PURE TEXT — ZERO rasters on pdf 261; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). No column headers printed; the frame is row label / findings / high-yield. Intro pair (prose) above the rows: 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.' + 'Organophosphates commonly used as insecticides; poisoning usually seen in farmers.' Row 1 'Muscarinic effects': 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' → 'DUMBBELSS.' + 'Reversed by atropine, a competitive inhibitor. Atropine can cross BBB to relieve CNS symptoms.' Row 2 'Nicotinic effects': 'Neuromuscular blockade (mechanism similar to succinylcholine).' → 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early. Must be coadministered with atropine to prevent transient worsening of symptoms. Pralidoxime does not readily cross BBB.' Row 3 'CNS effects': 'Respiratory depression, lethargy, seizures, coma.' (no reversal line printed). Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP poison map (the organophosphate mechanism strip with the aging flag, the three tier cards, the treatment duo with the timing window, the not-printed strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "anticholinesterase-poisoning-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the intro pair; the three effect-tier rows) + the registry visual's mechanism strip, the three tier cards, the treatment-duo cards, the not-printed strip, and the reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "anticholinesterase-poisoning-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "muscarinic-antagonists",
+      "title": "Muscarinic Antagonists",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "muscarinic-antagonists",
+          "requiredInKYP": true,
+          "visualId": "muscarinic-antagonists-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              262
+            ],
+            "bookPages": "240"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The seven-row drug class table (the section's sole printed element — the DRUGS × ORGAN SYSTEMS × APPLICATIONS grid of the muscarinic-antagonist class)",
+          "sourceFigureDescription": "ONE SEVEN-ROW TEXT TABLE (PURE TEXT — ZERO rasters on pdf 262-263; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Three printed column headers: DRUGS / ORGAN SYSTEMS / APPLICATIONS. Seven rows: 'Atropine, homatropine, tropicamide' | Eye | 'Produce mydriasis and cycloplegia'; 'Benztropine, trihexyphenidyl' | CNS | 'Parkinson disease (“park my Benz”)' + 'Acute dystonia'; 'Glycopyrrolate' | GI, respiratory | 'Parenteral: preoperative use to reduce airway secretions' + 'Oral: reduces drooling, peptic ulcer'; 'Hyoscyamine, dicyclomine' | GI | 'Antispasmodics for irritable bowel syndrome'; 'Ipratropium, tiotropium' | Respiratory | 'COPD, asthma' + 'Duration: tiotropium > ipratropium'; 'Solifenacin, Oxybutynin, Flavoxate, Tolterodine' | Genitourinary | 'Reduce bladder spasms and urge urinary incontinence (overactive bladder)' + 'Make bladder SOFT'; 'Scopolamine' | CNS | 'Motion sickness'. The book's OWN mnemonics print inside the cells ('park my Benz', 'Make bladder SOFT'). Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP class map (the lock strip, the five organ-lane cards, the dry-mirror band, the antidote-mirror strip, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "muscarinic-antagonists-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the seven-row class table; the book's-own-mnemonics hinge table) + the registry visual's lock strip, the five lane cards, the dry-mirror band, the antidote-mirror strip, the boundary strip, and the reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "muscarinic-antagonists-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "atropine",
+      "title": "Atropine",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "atropine",
+          "requiredInKYP": true,
+          "visualId": "atropine-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              262
+            ],
+            "bookPages": "240"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The dedicated Atropine block's own printed set (the section's sole visual element — the ORGAN SYSTEM/ACTION/NOTES grid with its NOTES cell, plus the ADVERSE EFFECTS tier: findings cell, cautions line, the seven-line mnemonic, and the Jimson weed line)",
+          "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE + ADVERSE-EFFECTS TIER (PURE TEXT — ZERO rasters on pdf 262-263; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Intro: 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' Column headers: ORGAN SYSTEM / ACTION / NOTES. Six rows: 'Eye' → '↑ pupil dilation, cycloplegia'; 'Airway' → 'Bronchodilation, ↓ secretions'; 'Heart' → '↑ heart rate'; 'Stomach' → '↓ acid secretion'; 'Gut' → '↓ motility'; 'Bladder' → '↓ urgency in cystitis'; printed NOTES cell: 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects'. ADVERSE EFFECTS tier: '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation' + 'Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants' + the book's OWN seven-line mnemonic under its printed label 'Adverse effects:' ('Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask') + 'Jimson weed (Datura) → gardener's pupil (mydriasis)'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP toxicity map (the six-lane action grid, the simile-to-arrow mapping band, the antidote-mirror strip, the Jimson weed card, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "atropine-toxicity-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the six-row action grid with the NOTES cell; the adverse-effects + mnemonic table) + the registry visual's six-lane grid, simile-mapping band, antidote-mirror strip, Jimson weed card, boundary strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "atropine-toxicity-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "sympathomimetics",
+      "title": "Sympathomimetics",
+      "subsection": "Autonomic Pharmacology — Sympathomimetics",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262,
+          263,
+          264,
+          265
+        ],
+        "bookPages": "240–243"
+      },
+      "difficulty": 2,
+      "requiresVisual": true,
+      "visualHints": [
+        "sympath-receptor-grid",
+        "epi-reversal"
+      ],
+      "mechanismHeavy": true,
+      "status": "complete"
+    },
+    {
+      "topicId": "sympatholytics-alpha-2-agonists",
+      "title": "Sympatholytics (α2-Agonists)",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "sympatholytics-alpha-2-agonists",
+          "requiredInKYP": true,
+          "visualId": "sympatholytics-alpha-2-agonists-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              265
+            ],
+            "bookPages": "243"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The Sympatholytics (α2-agonists) block's own printed set (the section's sole visual element — the three-column DRUG/APPLICATIONS/ADVERSE EFFECTS table of three rows)",
+          "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE (PURE TEXT — ZERO rasters on pdf 265; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'Sympatholytics (α2-agonists)'. Column headers: DRUG / APPLICATIONS / ADVERSE EFFECTS. Three rows: 'Clonidine, guanfacine' → 'Hypertensive urgency (limited situations), ADHD, Tourette syndrome, symptom control in opioid withdrawal' | 'CNS depression, bradycardia, hypotension, respiratory depression, miosis, rebound hypertension with abrupt cessation'; 'α-methyldopa' → 'Hypertension in pregnancy' | 'Direct Coombs ⊕ hemolysis, drug-induced lupus, hyperprolactinemia'; 'Tizanidine' → 'Relief of spasticity' | 'Hypotension, weakness, xerostomia'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP mechanism map (the presynaptic-autoreceptor mechanism strip, the three drug cards, the toxicity/rebound strip, the α2 = Gi link band, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "alpha2-agonist-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the three-row DRUG/APPLICATIONS/ADVERSE EFFECTS table; the cross-page mechanism-anchor table) + the registry visual's mechanism strip, drug cards, toxicity strip, Gi-link band, boundary strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "alpha2-agonist-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "alpha-blockers",
+      "title": "α-Blockers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          265
+        ],
+        "bookPages": "243"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "alpha-blockers",
+          "requiredInKYP": true,
+          "visualId": "alpha-blockers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              265
+            ],
+            "bookPages": "243"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The α-blockers block's own printed set (the section's sole visual element — the three-column DRUG/APPLICATIONS/ADVERSE EFFECTS table of four rows grouped by selectivity)",
+          "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE (PURE TEXT — ZERO rasters on pdf 265; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'α-blockers'. Column headers: DRUG / APPLICATIONS / ADVERSE EFFECTS. Four rows grouped by selectivity: 'Nonselective' + 'Phenoxybenzamine' → 'Irreversible. Pheochromocytoma (used preoperatively) to prevent catecholamine (hypertensive) crisis.'; 'Phentolamine' → 'Reversible. Given to patients on MAO inhibitors who eat tyramine-containing foods and for severe cocaine-induced hypertension (2nd line). Also used to treat norepinephrine extravasation.' (shared adverse cell: 'Orthostatic hypotension, reflex tachycardia.'); 'α1 selective (-osin ending)' + 'Prazosin, terazosin, doxazosin, tamsulosin' → 'Urinary symptoms of BPH; PTSD (prazosin); hypertension (except tamsulosin).' | '1st-dose orthostatic hypotension, dizziness, headache.'; 'α2 selective' + 'Mirtazapine' → 'Depression.' | 'Sedation, ↑ serum cholesterol, ↑ appetite.'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP selectivity-fork map (the α1 = Gq mechanism strip, the three fork cards, the uses/toxicity strips, the epinephrine-reversal band, the α2-mirror band, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "alpha-blocker-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the four-row selectivity table; the cross-page mechanism-anchor table) + the registry visual's mechanism strip, fork cards, toxicity strip, reversal band, mirror band, boundary strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "alpha-blocker-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "beta-blockers",
+      "title": "β-Blockers",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          266
+        ],
+        "bookPages": "244"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "beta-blockers",
+          "requiredInKYP": true,
+          "visualId": "beta-blockers-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              266
+            ],
+            "bookPages": "244"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The β-blockers block's own printed set (the section's sole visual element — the three-zone APPLICATION/ACTIONS/NOTES-EXAMPLES table: ten application rows, the ADVERSE EFFECTS row with its cocaine note, and the four-row SELECTIVITY subtable with the book's own four printed mnemonics)",
+          "sourceFigureDescription": "ONE THREE-ZONE TEXT TABLE (PURE TEXT — ZERO rasters on pdf 266; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'β-blockers' + the eleven-drug roster. Zone 1 (APPLICATION/ACTIONS/NOTES-EXAMPLES, ten rows): 'Angina pectoris' → '↓ heart rate and contractility → ↓ O2 consumption'; 'Glaucoma' → '↓ production of aqueous humor' | 'Timolol'; 'Heart failure' → 'Blockade of neurohormonal stress → prevention of deleterious cardiac remodeling → ↓ mortality' | 'Bisoprolol, carvedilol, metoprolol (β-blockers curb mortality)'; 'Hypertension' → '↓ cardiac output, ↓ renin secretion (due to β1receptor blockade on JG cells)'; 'Hyperthyroidism/thyroid storm' → 'Symptom control (↓ heart rate, ↓ tremor)' | 'Propranolol'; 'Hypertrophic cardiomyopathy' → '↓ heart rate → ↑ filling time, relieving obstruction'; 'Migraine' → '↓ nitric oxide production' | 'Effective for prevention'; 'Myocardial infarction' → '↓ O2 demand (short-term), ↓ mortality (long-term)'; 'Supraventricular tachycardia (eg, atrial fibrillation)' → '↓ AV conduction velocity (class II antiarrhythmic)' | 'Metoprolol, esmolol'; 'Variceal bleeding' → '↓ hepatic venous pressure gradient and portal hypertension (prophylactic use)' | 'Nadolol, propranolol, carvedilol for no portal circulation'. Zone 2 (ADVERSE EFFECTS): 'Erectile dysfunction, cardiovascular (bradycardia, AV block, HF), CNS (seizures, sleep alterations), dyslipidemia (metoprolol), masked hypoglycemia, asthma/COPD exacerbations' + 'Use of β-blockers for acute cocaine-associated chest pain remains controversial due to unsubstantiated concern for unopposed α-adrenergic stimulation'. Zone 3 (SELECTIVITY, four rows with printed mnemonics): 'β1-selective antagonists (β1 > β2)—atenolol, betaxolol, bisoprolol, esmolol, metoprolol' | 'Selective antagonists mostly go from A to M (β1 with 1st half of alphabet)'; 'Nonselective antagonists (β1 = β2)—nadolol, propranolol, timolol' | 'NonZelective antagonists mostly go from N to Z (β2 with 2nd half of alphabet)'; 'Nonselective β-adrenergic, α1-selective antagonists—carvedilol, labetalol' | 'Nonselective β-adrenergic and α1-selective antagonists have modified suffixes (instead of “-olol”)'; 'Nebivolol combines cardiac-selective β1-adrenergic blockade with stimulation of β3 -receptors (activate NO synthase in the vasculature and ↓ SVR)' | 'NebivOlol increases NO'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP selectivity/application map (the mechanism strip, the four fork cards, the ten-use grid, the caution strip, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "beta-blocker-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the ten-row application matrix; the adverse-effects + selectivity subtable) + the registry visual's mechanism strip, fork cards, use grid, caution strip, boundary strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "beta-blocker-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "phosphodiesterase-inhibitors",
+      "title": "Phosphodiesterase Inhibitors",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          267
+        ],
+        "bookPages": "245"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "complete",
+      "textbookVisuals": [
+        {
+          "sourceBook": "First Aid for the USMLE Step 1 2026",
+          "chapterId": "pharmacology",
+          "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+          "subsection": "Pharmacology — Autonomic Drugs",
+          "topicId": "phosphodiesterase-inhibitors",
+          "requiredInKYP": true,
+          "visualId": "phosphodiesterase-inhibitors-sv1",
+          "sourcePages": {
+            "part": 1,
+            "pdfPages": [
+              267
+            ],
+            "bookPages": "245"
+          },
+          "visualType": "VISUAL_TABLE",
+          "visualPurpose": "The phosphodiesterase-inhibitors block's own printed set (the section's sole visual element — the four-column TYPE OF INHIBITOR/MECHANISM OF ACTION/CLINICAL USES/ADVERSE EFFECTS class table of five rows, plus the two categorizing footnotes)",
+          "sourceFigureDescription": "ONE FOUR-COLUMN TEXT TABLE + TWO FOOTNOTES (PURE TEXT — ZERO rasters on pdf 267; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Header: 'Phosphodiesterase inhibitors' + the intro sentence 'Phosphodiesterase (PDE) inhibitors inhibit PDE, which catalyzes the hydrolysis of cAMP and/or cGMP, and thereby increase cAMP and/or cGMP. These inhibitors have varying specificity for PDE isoforms and thus have different clinical uses.' Rows (TYPE / MECHANISM / USES / ADVERSE): 'Nonspecific PDE inhibitor / Theophylline': '↓ cAMP hydrolysis → ↑ cAMP → bronchial smooth muscle relaxation → bronchodilation' | 'COPD/asthma (rarely used)' | 'Cardiotoxicity (eg, tachycardia, arrhythmia), neurotoxicity (eg, seizures, headache), abdominal pain'. 'PDE-5 inhibitors / Sildenafil, vardenafil, tadalafil, avanafil': '↓ hydrolysis of cGMP → ↑ cGMP → ↑ smooth muscle relaxation by enhancing NO activity → pulmonary vasodilation and ↑ blood flow in corpus cavernosum fills the penis' | 'Erectile dysfunction / Pulmonary hypertension / Benign prostatic hyperplasia (tadalafil only)' | 'Facial flushing, headache, dyspepsia, hypotension in patients taking nitrates; \"hot and sweaty,\" then headache, heartburn, hypotension' + 'Sildenafil only: cyanopia (blue-tinted vision) via inhibition of PDE-6 (six) in retina'. 'PDE-4 inhibitor / Roflumilast': '↑ cAMP in neutrophils, granulocytes, and bronchial epithelium' | 'Severe COPD' | 'Abdominal pain, weight loss, depression, anxiety, insomnia'. 'PDE-3 inhibitor / Milrinone': 'In cardiomyocytes: ↑ cAMP → ↑ Ca2+ influx → ↑ ionotropy and chronotropy / In vascular smooth muscle: ↑ cAMP → MLCK inhibition → vasodilation → ↓ preload and afterload' | 'Acute decompensated HF with cardiogenic shock (inotrope)' | 'Tachycardia, ventricular arrhythmias, hypotension'. '\"Platelet inhibitors\" / Cilostazol^a / Dipyridamole^b': 'In platelets: ↑ cAMP → inhibition of platelet aggregation' | 'Intermittent claudication / Stroke or TIA prevention (with aspirin) / Cardiac stress testing (dipyridamole only, due to coronary vasodilation) / Prevention of coronary stent restenosis' | 'Nausea, headache, facial flushing, hypotension, abdominal pain'. Footnotes: a 'Cilostazol is a PDE-3 inhibitor, but due to its indications is categorized as a platelet inhibitor together with dipyridamole.'; b 'Dipyridamole is a nonspecific PDE inhibitor, leading to inhibition of platelet aggregation. It also prevents adenosine reuptake by platelets → ↑ extracellular adenosine → ↑ vasodilation.' Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP isoform-fork map (the mechanism strip, the isoform fork cards, the nonspecific pair, the use grid, the caution strip, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+          "implementationType": "ORIGINAL_KYP_ADAPTATION",
+          "kypVisualId": "pde-inhibitor-map",
+          "kypImplementation": "registry-visual",
+          "qaStatus": "passed",
+          "kypLocation": "the note's two verbatim table blocks (the five-row class table; the footnotes table) + the registry visual's mechanism strip, fork cards, nonspecific pair, use grid, caution strip, boundary strip, and reading-rule footer",
+          "productionStatus": "complete",
+          "plannedKypVisualId": "pde-inhibitor-map",
+          "plannedImplementation": "registry-visual"
+        }
+      ]
+    },
+    {
+      "topicId": "ingested-seafood-toxins",
+      "title": "Ingested Seafood Toxins",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "plant-toxins",
+      "title": "Plant Toxins",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "specific-toxicity-treatments",
+      "title": "Specific Toxicity Treatments",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-cardiovascular",
+      "title": "Drug Reactions—Cardiovascular",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-endocrine-reproductive",
+      "title": "Drug Reactions—Endocrine/Reproductive",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          270
+        ],
+        "bookPages": "248"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-gastrointestinal",
+      "title": "Drug Reactions—Gastrointestinal",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          270
+        ],
+        "bookPages": "248"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-hematologic",
+      "title": "Drug Reactions—Hematologic",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-musculoskeletal-skin-connective-tissue",
+      "title": "Drug Reactions—Musculoskeletal/Skin/Connective Tissue",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-neurologic",
+      "title": "Drug Reactions—Neurologic",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-renal-genitourinary",
+      "title": "Drug Reactions—Renal/Genitourinary",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-respiratory",
+      "title": "Drug Reactions—Respiratory",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-reactions-multiorgan",
+      "title": "Drug Reactions—Multiorgan",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drugs-affecting-pupil-size",
+      "title": "Drugs Affecting Pupil Size",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "difficulty": 1,
+      "requiresVisual": true,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "cytochrome-p-450-interactions",
+      "title": "Cytochrome P-450 Interactions (Selected)",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "difficulty": 2,
+      "requiresVisual": false,
+      "mechanismHeavy": true,
+      "status": "pending"
+    },
+    {
+      "topicId": "sulfa-drugs",
+      "title": "Sulfa Drugs",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "drug-names",
+      "title": "Drug Names",
+      "subsection": "Pharmacology — Miscellaneous",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          274,
+          275
+        ],
+        "bookPages": "252–253"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    },
+    {
+      "topicId": "biologic-agents",
+      "title": "Biologic Agents",
+      "subsection": "Pharmacology — Miscellaneous",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "difficulty": 1,
+      "requiresVisual": false,
+      "mechanismHeavy": false,
+      "status": "pending"
+    }
+  ],
+  "pendingTopicCount": 17,
+  "notes": "Chapter registered from the calibrated FA 2026 chapter map. Phase I-C extraction: 43 topics identified across the four pharmacology subsections (Pharmacokinetics/Pharmacodynamics, Autonomic Drugs, Toxicities and Adverse Effects, Miscellaneous). Sympathomimetics is the pilot-complete topic with shipped note + manifest + visual inventory; remaining 42 topics are pending authoring. Topics are authored deliberately, never mass-generated."
+}

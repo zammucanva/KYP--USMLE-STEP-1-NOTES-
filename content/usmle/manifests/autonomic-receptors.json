@@ -1,0 +1,406 @@
+{
+  "topicId": "autonomic-receptors",
+  "title": "Autonomic Receptors",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      256
+    ],
+    "bookPages": "234"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "234\n\nSEC TIoN II\n\nPHARMACoLoGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUSION BOUNDARY — the page's UPPER portion (the 'Drug effect modifications' section header and its TERM/DEFINITION/EXAMPLE table) is the SEPARATE COMPLETED topic 'drug-effect-modifications' (PH10) and is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Drug effect modifications\nTERM\n\nDEFINITION\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The LOWER-portion section banner — PHARMACOLOGY—AUTONOMIC DRUGS (the page's second banner, printed between the PH10 table and this section's header; the Autonomic Drugs banner continues over the following pages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — Autonomic receptors (this topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Autonomic receptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The diagram's frame — the AUTONOMIC and SOMATIC divisions, Parasympathetic and Sympathetic, the CNS origins Brainstem and Spinal cord, the parasympathetic 'Preganglionic neuron (long)', and the 'Voluntary motor nerve'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "AUTONOMIC\nParasympathetic\nBrainstem\n\nPreganglionic\nneuron (long)\n\nSOMATIC\nSympathetic\n\nSpinal cord\n\nVoluntary\nmotor nerve",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sympathetic 'Preganglionic neuron (short)' label (the neuron-length mirror of the parasympathetic row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Preganglionic\nneuron (short)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ganglionic synapses — ACh on Nn (the diagram's four ACh labels with the Nn labels at the sympathetic chain and the adrenal medulla: every autonomic ganglion is cholinergic-nicotinic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Nn\n\nACh\n\nACh\n\nACh\n\nNn\n\nACh",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Adrenal gland (medulla)' with the 'Sympathetic chain' and the 'Blood (catecholamine transmission)' label — the adrenal limb of the diagram",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Adrenal\ngland\n(medulla)\n\nSympathetic\nchain\n\nNn\n\nBlood\n(catecholamine\ntransmission)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The postganglionic neurons — parasympathetic 'Postganglionic neuron (short)' and sympathetic 'Postganglionic neuron (long)', with the first postganglionic NE label",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "ACh\n\nPostganglionic\nneuron (short)\n\nPostganglionic\nneuron (long)\nNE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The postganglionic transmitters — the two postganglionic ACh labels (parasympathetic organ synapse + sweat gland fiber), D, NE, and Epi (the adrenal output)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "ACh\n\nACh\n\nM₁, M₂, M₃\n\nM₃\n\nSmooth muscle,\ngland cells, nerve\nterminals,\ncardiac muscle\n\nSweat glands\n\nD\n\nNE\n\nEpi\n\nNE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The muscarinic receptor sets — 'M₁, M₂, M₃' at the parasympathetic organ synapse and 'M₃' at the sweat glands",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "M₁, M₂, M₃\n\nM₃",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The parasympathetic target tissues — 'Smooth muscle, gland cells, nerve terminals, cardiac muscle' — and the 'Sweat glands' target of the cholinergic sympathetic fiber",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Smooth muscle,\ngland cells, nerve\nterminals,\ncardiac muscle\n\nSweat glands",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The adrenergic receptor sets — 'α1, α2, β1, β2' at the NE organ synapse and 'α1, α2, β1, D1' at the renal vasculature",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "α1, α2, β1, β2\n\nα1, α2, β1, D1",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The D1 branch target — 'Renal vasculature' 'smooth muscle' (printed interleaved with the NE targets' tissues in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Smooth muscle, Renal vasculature\ngland cells, nerve smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The somatic synapse — 'Neuromuscular' 'ACh junction' (the ACh label of the somatic limb, interleaved in the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Neuromuscular\nACh junction",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The catecholamine endocrine receptor set and its targets — 'α1, α2, β1, β2' on 'Cardiac muscle, vessels' (the adrenal medulla's blood-borne output)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "α1, α2, β1, β2\n\nNm\n\nCardiac muscle,\nvessels",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The somatic receptor — Nm (printed in the text layer directly beneath the catecholamine-target receptor set 'α1, α2, β1, β2')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "α1, α2, β1, β2\n\nNm",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The somatic target — Skeletal muscle",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Skeletal muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Footnote 1 — the parasympathetic outflow anatomy, verbatim: 'Pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous system.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous\nsystem.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Footnote 2 — the adrenal medulla's direct innervation, verbatim: 'Adrenal medulla is directly innervated by preganglionic sympathetic fibers.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Adrenal medulla is directly innervated by preganglionic sympathetic fibers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Footnote 3 — the sweat gland exception, verbatim: 'Sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers (sympathetic nervous system results in a “chold” sweat).' (the 'chold' spelling is the book's own print, carried verbatim)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers\n(sympathetic nervous system results in a “chold” sweat).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 234",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 257 (book 235) opens the SEPARATE section 'Acetylcholine receptors' (its own pending topic) under the same banner: the Autonomic receptors section and its diagram END on pdf 256 and do NOT continue onto 257",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "PHARMACOLOGY\n\nAcetylcholine\nreceptors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n235",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "autonomic-receptors-map"
+  ],
+  "mechanismIds": [
+    "autonomic-two-neuron-chain",
+    "postganglionic-transmitter-sets-the-receptor",
+    "somatic-single-neuron-nmj"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source's AUTONOMIC/SOMATIC diagram.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the diagram and its labels; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "wiring-reading-protocol",
+      "summary": "The three-anchor reading of the diagram (ANCHOR 1 — COUNT THE NEURONS: two neurons (preganglionic + postganglionic, meeting at a ganglion) is AUTONOMIC — smooth muscle, gland cells, nerve terminals, cardiac muscle; one neuron (the voluntary motor nerve) is SOMATIC — skeletal muscle. ANCHOR 2 — NAME THE GANGLIONIC SYNAPSE: it is ALWAYS ACh on Nn, in BOTH divisions and at the adrenal medulla — the diagram prints ACh at every ganglion and Nn beside it; this is why a ganglionic (Nn) blocker silences both divisions at once while sparing the neuromuscular junction. ANCHOR 3 — READ THE POSTGANGLIONIC TRANSMITTER: it names the receptor alphabet at the organ — ACh → M₁, M₂, M₃ (parasympathetic targets) or M₃ (sweat glands); NE → α1, α2, β1, β2; D → D1 (renal vasculature); and the adrenal medulla, the axon-less endocrine limb, pours Epi + NE into the 'Blood (catecholamine transmission)' onto α1, α2, β1, β2 at cardiac muscle and vessels) — KYP's synthesis of the scattered diagram labels into one reading order (count neurons → name the ganglionic synapse → read the postganglionic transmitter).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the diagram labels spatially without a reading protocol; the three-anchor order, the neuron-count test, and the transmitter-names-the-receptor-alphabet rule are KYP's design.",
+      "location": "core.keyIdea + mechanisms + the visual's reading-rule strip"
+    },
+    {
+      "id": "sympathetic-exceptions-panel",
+      "summary": "The three sympathetic exceptions grouped into one panel (1 — SWEAT GLANDS: sympathetic pathway, cholinergic fiber, M₃ receptor — the source's own footnote 3 ('Sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers') and its diagram labels (ACh → M₃ → Sweat glands); 2 — RENAL VASCULATURE: a dopaminergic sympathetic branch, D → D1 (the diagram's own labels); 3 — ADRENAL MEDULLA: no postganglionic neuron at all — directly innervated by preganglionic sympathetic fibers (the source's own footnote 2), secreting Epi + NE into blood). The facts are the source's own; the grouping into a three-exceptions panel and its exam exploitation (which drug blocks sweat, which vasodilates the kidney, which endocrine organ answers preganglionic ACh) are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three exceptions as scattered labels and footnotes; the grouping and the selective-therapy angle are KYP's synthesis.",
+      "location": "mechanisms[1] + usmle patterns + the visual's exceptions panel"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP-original mnemonics (1 — THE GANGLION IS ALWAYS NICOTINIC: every autonomic ganglion and the adrenal medulla sit behind ACh on Nn; only the organ synapse changes. 2 — PARA = LONG P, SHORT POST; SYM = SHORT P, LONG POST: the parasympathetic ganglion sits ON the organ, the sympathetic chain NEAR the cord. 3 — THE SYMPATHETIC EXCEPTIONS: SWEAT IS M₃, KIDNEY IS D1, ADRENAL HAS NO AXON. 4 — TWO NEURONS TO THE ORGANS, ONE TO THE BONES: autonomic pathways are two-neuron chains ending on M/α/β/D receptors; the somatic voluntary motor nerve is a single neuron ending on Nm at the neuromuscular junction). The Autonomic receptors section prints NO margin mnemonic — all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 234's Autonomic receptors section prints NO mnemonic; all four codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 256). The Autonomic receptors section is a VECTOR LINE-ART diagram — path-drawn nerves, ganglia, and organs with typeset labels in the PDF text layer — plus three typeset footnote lines. The diagram is redrawn as an ORIGINAL_KYP_REDRAW (an original KYP SVG with original KYP glyphs: the CNS band, the three pathway columns, the synapse chips, the organ plates) — no source artwork is reproduced; the labels carried across are short attributed anatomical/neurotransmitter terms (ACh, NE, Epi, D, Nn, Nm, M₁-M₃, α1/α2/β1/β2, D1, organ names). PAGE-RANGE FINDING: the section does NOT continue onto pdf 257 — pdf 257 (book 235) opens the SEPARATE section 'Acetylcholine receptors' (the next pending topic) under the same banner, so sourcePages stay [256] (book 234); the boundary is pinned as a 257-side evidence item. The book's printed 'chold' sweat (sic — ie, a 'cold' sweat) is carried verbatim and flagged [sic] wherever quoted. The clinical anchors that extend past the source page (ganglionic blockers trimetaphan/mecamylamine; glycopyrrolate-neostigmine reversal pairing; pheochromocytoma and α-before-β blockade; renal-dose dopamine and fenoldopam; β3/mirabegron as the adrenergic receptor beyond this diagram's printed set; the Nn-vs-Nm selectivity of hexamethonium-type vs rocuronium-type blockers) are flagged as KYP clinical anchors wherever they appear. No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the 'Drug effect modifications' section in the UPPER portion of this SAME page is the COMPLETED topic PH10 ('drug-effect-modifications') and is EXCLUDED from this topic: PH11 pins the same source page (pdf 256 / book 234) for its LOWER portion only.",
+  "updatedAt": "2026-11-08"
+}

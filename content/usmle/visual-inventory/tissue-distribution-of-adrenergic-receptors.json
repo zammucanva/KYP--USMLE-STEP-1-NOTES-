@@ -1,0 +1,46 @@
+{
+  "topicId": "tissue-distribution-of-adrenergic-receptors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "tissue-distribution-of-adrenergic-receptors",
+      "requiredInKYP": true,
+      "visualId": "tissue-distribution-of-adrenergic-receptors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The RECEPTOR / TISSUE / EFFECT(S) table (the section's sole printed element — the adrenergic tissue-distribution map)",
+      "sourceFigureDescription": "The section's one table, verbatim, 13 tissue rows under 5 receptors: α1 — 'Vascular smooth muscle / Vasoconstriction', 'Visceral smooth muscle / Smooth muscle contraction'; α2 — 'Pancreas / Inhibition of insulin secretion', 'Presynaptic terminals / Inhibition of neurotransmitter release', 'Salivary glands / Inhibition of salivary secretion'; β1 — 'Heart / ↑ heart rate, contractility', 'Kidney / ↑ renin secretion'; β2 — 'Bronchioles / Bronchodilation', 'Cardiac muscle / ↑ heart rate, contractility', 'Liver / Glycogenolysis, glucose release', 'Arterial smooth muscle / Vasodilation', 'Pancreas / Stimulation of insulin secretion'; β3 — 'Adipose / ↑ lipolysis'. Pure text (no rasters — the page's 3 images all belong to the UPPER portion's PH14 illustration); no figure, no margin note, no printed mnemonic.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "adrenergic-receptor-distribution-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's table blocks (blocks[1] the verbatim table; blocks[2] the KYP grid pivot) + the registry visual's grid panel, seesaw cards, code strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "adrenergic-receptor-distribution-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "tissue-distribution-of-adrenergic-receptors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the section's sole printed element is ONE TABLE (RECEPTOR / TISSUE / EFFECTS — 13 rows under 5 receptors), PURE TEXT — the page's 3 sep rasters all belong to the UPPER portion's PH14 bladder illustration (COPYRIGHTED tissue artwork, never reproduced, NOT part of this topic). The table is carried VERBATIM as the note's table block (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP grid in the registry visual AdrenergicReceptorDistributionMap (the 12-tissue x 5-receptor matrix with the 13 verbatim effect cells and the empty-cell caveat strip, the three seesaw cards — pancreas, tone, the α2 triple brake — the four-code strip, and the reading-rule footer). Only the table's own short strings are carried across. EXCLUSIONS: the 'Micturition control' section in the UPPER portion of the same page is the COMPLETED topic PH14 and is NOT part of this inventory (same-page boundary pinned; its 'β₃-receptor' detrusor plate is noted only as the same-page cross-link); pdf 259 opens the SEPARATE pending 'G-protein–linked second messengers' section (this section ENDS on pdf 258 — verified, sourcePages = [258] only); pdf 257 carries the COMPLETED topics PH12 (upper) and PH13 (lower). KYP extensions flagged wherever they appear: the grid view, the empty-cell caveat, the seesaw/brake frames, the Heart-vs-Cardiac-muscle doubling note, the drug/clinical anchors (none printed on this page), and the classic 'one heart, two lungs' counting code (the FACING page's G-protein table prints it — book 237, a separate pending topic; attributed). No copyrighted photographs reproduced; nothing reproduced."
+}

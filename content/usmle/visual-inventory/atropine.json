@@ -1,0 +1,46 @@
+{
+  "topicId": "atropine",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "atropine",
+      "requiredInKYP": true,
+      "visualId": "atropine-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The dedicated Atropine block's own printed set (the section's sole visual element — the ORGAN SYSTEM/ACTION/NOTES grid with its NOTES cell, plus the ADVERSE EFFECTS tier: findings cell, cautions line, the seven-line mnemonic, and the Jimson weed line)",
+      "sourceFigureDescription": "ONE THREE-COLUMN TEXT TABLE + ADVERSE-EFFECTS TIER (PURE TEXT — ZERO rasters on pdf 262-263; pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). Intro: 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' Column headers: ORGAN SYSTEM / ACTION / NOTES. Six rows: 'Eye' → '↑ pupil dilation, cycloplegia'; 'Airway' → 'Bronchodilation, ↓ secretions'; 'Heart' → '↑ heart rate'; 'Stomach' → '↓ acid secretion'; 'Gut' → '↓ motility'; 'Bladder' → '↓ urgency in cystitis'; printed NOTES cell: 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects'. ADVERSE EFFECTS tier: '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation' + 'Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants' + the book's OWN seven-line mnemonic under its printed label 'Adverse effects:' ('Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask') + 'Jimson weed (Datura) → gardener's pupil (mydriasis)'. Carried VERBATIM as the note's two table blocks and conveyed as ONE original KYP toxicity map (the six-lane action grid, the simile-to-arrow mapping band, the antidote-mirror strip, the Jimson weed card, the boundary strip, the reading-rule footer) — no artwork reproduced.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "atropine-toxicity-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the note's two verbatim table blocks (the six-row action grid with the NOTES cell; the adverse-effects + mnemonic table) + the registry visual's six-lane grid, simile-mapping band, antidote-mirror strip, Jimson weed card, boundary strip, and reading-rule footer",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "atropine-toxicity-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "atropine",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + text layer): the dedicated Atropine block's printed visual set is ONE element — the THREE-COLUMN GRID (ORGAN SYSTEM / ACTION / NOTES) plus its ADVERSE EFFECTS tier, PURE TEXT (ZERO rasters on pdf 262-263 — pdfimages returns no rows; COPYRIGHTED, never reproduced as artwork). The set is carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION — every organ row, action arrow, the NOTES cell, the findings cell, the cautions line, the seven-line mnemonic, and the Jimson weed line are the book's own print) and conveyed as ONE original KYP toxicity map in the registry visual AtropineToxicityMap (the SIX-LANE ACTION GRID — the six organ rows with their printed arrows, top of the head to the pelvis; the SIMILE-TO-ARROW MAPPING BAND — the book's own seven 'Hot as a hare' family lines pinned to the grid's own arrows, both sets printed, the pinning KYP's; the ANTIDOTE-MIRROR STRIP — the two printed clauses of book 239 ('Reversed by atropine, a competitive inhibitor. Atropine can cross BBB to relieve CNS symptoms.' + 'physostigmine \"phyxes\" atropine overdose.') with the NOTES cell's M-vs-N coverage split; the JIMSON WEED CARD — the printed line with the gardener's-pupil exposure frame (the tropane-alkaloid family reading flagged as KYP); the CAUTIONS STRIP — the three-population contraindication line; the BOUNDARY STRIP — the PH20/PH21 split pinned from below; the reading-rule footer). PH20/PH21 BOUNDARY pinned from both sides: pdf 262 prints TWO separable sections — the class table above (the COMPLETED muscarinic-antagonists topic, PH20 — EXCLUDED here; only its header pair pinned as the boundary marker) and THIS dedicated Atropine block below (lines 72-131). SECTION EXTENT: the block does NOT extend to pdf 263 (book 241 opens Sympathomimetics); sourcePages = [262] only. The seven-line 'Hot as a hare' mnemonic is the SOURCE'S OWN, printed under its own label 'Adverse effects:' — attributed as the book's own in every use, never as KYP's. KYP extensions flagged wherever they appear: the SIX-ORGAN DRY TOUR with the simile-to-arrow mapping, the ANTIDOTE-MIRROR frame, the GARDENER'S-PUPIL frame, and the PH20/PH21 boundary census. No copyrighted artwork reproduced; nothing reproduced."
+}

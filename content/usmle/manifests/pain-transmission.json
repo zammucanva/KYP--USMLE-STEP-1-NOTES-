@@ -1,0 +1,379 @@
+{
+  "topicId": "pain-transmission",
+  "title": "Pain Transmission",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      257
+    ],
+    "bookPages": "235"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 235): the standing section banner, the Section II marker, and the printed page number",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "PHARMACOLOGY\n\nAcetylcholine\nreceptors\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n235",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — 'Pain transmission' with its first subsection header 'Nociceptive pain' (this topic's section, printed in the LOWER portion of the page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Pain transmission\nNociceptive pain\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—AUTONOMIC DRUGS (the same banner PH10–PH12 sit under; this topic continues the Autonomic Drugs subsection)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NOCICEPTIVE PAIN definition, verbatim — 'Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli.' (the subsection's opening sentence: pain is a TRANSMITTED signal answering three stimulus modalities)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Pain signals transmitted to the CNS in response to mechanical, thermal, or chemical stimuli.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The STIMULUS MODALITY list, verbatim — 'in response to mechanical, thermal, or chemical stimuli' (the three energies that start a nociceptive signal: force, heat, chemistry)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "in response to mechanical, thermal, or chemical stimuli",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TRPV MECHANISM sentence, verbatim — 'Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation.' (the transducer: the vanilloid receptor's Ca2+ influx is what switches the nociceptor's Na+ channels on — the book's own molecular account of transduction)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The FIBER-TYPE sentence, verbatim — 'Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).' (the entire Aδ-vs-C split in one printed line — the peripheral highway's two lanes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Signals transmitted by Aδ fibers (sharp, acute pain) or C fibers (dull, throbbing, chronic pain).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Aδ FIBER definition, verbatim — 'Aδ fibers (sharp, acute pain)': the fast thin myelinated lane carries the first sharp jab (KYP anchor: myelination is the speed clue, not printed on this page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Aδ fibers (sharp, acute pain)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The C FIBER definition, verbatim — 'C fibers (dull, throbbing, chronic pain)': the slow thin unmyelinated lane carries the slow burn that follows and lingers (KYP anchor: unmyelinated is the slowness clue)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "C fibers (dull, throbbing, chronic pain)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The FOUR-PROCESS LIST, verbatim — the whole printed block: 'Processes involved in pain transmission:' followed by all four process lines with their blocker classes (the section's spine — the step-to-drug map the entire topic is built on)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Processes involved in pain transmission:\n▘ Transduction—blocked by local anesthetics, α2-agonists, gabapentinoids, NSAIDs,\nacetaminophen, glucocorticoids\n▘ Transmission—blocked by local anesthetics, α2-agonists, opioids\n▘ Modulation—blocked by TCAs, SSRIs, SNRIs, gabapentinoids\n▘ Perception—blocked by α2-agonists, opioids, TCAs, SSRIs, SNRIs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TRANSDUCTION line, verbatim — 'Transduction—blocked by local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids' (the longest blocker list of the four — six classes act at the stimulus-to-signal conversion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Transduction—blocked by local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The TRANSMISSION line, verbatim — 'Transmission—blocked by local anesthetics, α2-agonists, opioids' (the road: only three classes stop the signal's travel — and opioids make their first appearance here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Transmission—blocked by local anesthetics, α2-agonists, opioids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MODULATION line, verbatim — 'Modulation—blocked by TCAs, SSRIs, SNRIs, gabapentinoids' (the tuning stage — the antidepressant classes appear here and nowhere earlier in the chain)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Modulation—blocked by TCAs, SSRIs, SNRIs, gabapentinoids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PERCEPTION line, verbatim — 'Perception—blocked by α2-agonists, opioids, TCAs, SSRIs, SNRIs' (the conscious endpoint — five classes; local anesthetics and NSAIDs drop out, the antidepressants carry through)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Perception—blocked by α2-agonists, opioids, TCAs, SSRIs, SNRIs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEUROPATHIC PAIN subsection, verbatim — the whole printed block: 'Caused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent activation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Neuropathic pain\n\nCaused by neuronal dysfunction of the CNS or PNS. Transmitted via upregulation and persistent\nactivation of voltage-gated Na+ channels. Example: diabetic peripheral neuropathy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEUROPATHIC MECHANISM sentence, verbatim — 'Transmitted via upregulation and persistent activation of voltage-gated Na+ channels.' (neuropathic pain is a CHANNEL disease: the nerve's own Na+ channels are upregulated and stuck open — no stimulus required)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Transmitted via upregulation and persistent activation of voltage-gated Na+ channels.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEUROPATHIC EXAMPLE, verbatim — 'Example: diabetic peripheral neuropathy.' (the book's own worked example: the burning feet of longstanding diabetes)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Example: diabetic peripheral neuropathy.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer — the book's signature file line (book 235)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 235",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 235)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUSION BOUNDARY (upper portion) — the 'Acetylcholine receptors' section on this SAME page (both its printed paragraphs) is the COMPLETED topic PH12 'acetylcholine-receptors' and is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          257
+        ],
+        "bookPages": "235"
+      },
+      "quote": "Nicotinic ACh receptors are ligand-gated channels allowing efflux of K+ and influx of Na+ and in\nsome cases Ca2+. Two subtypes: NN (found in autonomic ganglia, adrenal medulla) and NM (found\nin neuromuscular junction of skeletal muscle).\nMuscarinic ACh receptors are G-protein–coupled receptors that usually act through 2nd\nmessengers. 5 subtypes: M1–5 found in heart, smooth muscle, brain, exocrine glands, and on sweat\nglands (cholinergic sympathetic).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE BOUNDARY — pdf 256 (book 234) LOWER portion is the COMPLETED topic PH11 'autonomic-receptors' (its section header 'Autonomic receptors' + the AUTONOMIC/SOMATIC diagram), EXCLUDED here: this topic's section STARTS fresh on pdf 257 with its own header",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Autonomic receptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 258 (book 236) opens the SEPARATE pending section 'Micturition control' (its own pending topic): the Pain transmission section ENDS on pdf 257 and does not continue",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "236\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nMicturition control",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pain-transmission-map"
+  ],
+  "mechanismIds": [
+    "nociceptive-pain-four-process-cascade",
+    "neuropathic-voltage-gated-na-channel-upregulation"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source's two subsections.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two definitional subsections and the four-process blocker list; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "four-step-reading-protocol",
+      "summary": "The three-anchor reading of any pain stem (ANCHOR 1 — SORT THE PAIN: nociceptive = a TRANSMITTED signal 'in response to mechanical, thermal, or chemical stimuli' (the stimulus is the start of the story); neuropathic = 'neuronal dysfunction of the CNS or PNS' with 'upregulation and persistent activation of voltage-gated Na+ channels' (the nerve is the story — no stimulus needed). ANCHOR 2 — IF NOCICEPTIVE, FIND THE FIBER: Aδ = sharp, acute; C = dull, throbbing, chronic (first jab vs slow burn). ANCHOR 3 — LOCATE THE STEP, THEN READ THE BLOCKER LIST: Transduction → local anesthetics, α2-agonists, gabapentinoids, NSAIDs, acetaminophen, glucocorticoids; Transmission → local anesthetics, α2-agonists, opioids; Modulation → TCAs, SSRIs, SNRIs, gabapentinoids; Perception → α2-agonists, opioids, TCAs, SSRIs, SNRIs) — KYP's synthesis of the section's own list into one reading order (pain type → fiber → step → drug).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four process lines as a flat list without a reading protocol; the pain-type-first, then-fiber, then-step order is KYP's design (every drug name and process assignment is the book's own).",
+      "location": "core.keyIdea + mechanisms[0] + the visual's reading-rule strip"
+    },
+    {
+      "id": "station-labels-and-blocker-matrix",
+      "summary": "The anatomical station labels that SEAT the four processes — transduction at the nociceptor terminal (TRPV → Ca2+ influx → Na+ channel activation), transmission along Aδ/C fibers and up the ascending pathway, modulation at the dorsal-horn synapse and the descending control system, perception at the thalamus/cortex — are KYP extensions beyond the book's printed set: the page prints NO pathway diagram, NO dorsal-horn/spinothalamic/thalamus/cortex chain, NO substance P/glutamate, NO gate-control theory (verified against the text layer; pinned as this manifest's PAGE-STRUCTURE FINDING). The BLOCKER MATRIX (which class blocks which step: local anesthetics = transduction + transmission; α2-agonists = transduction + transmission + perception — three of four; opioids = transmission + perception; gabapentinoids = transduction + modulation; TCAs/SSRIs/SNRIs = modulation + perception; NSAIDs, acetaminophen, glucocorticoids = transduction only) is KYP's pivot of the book's own four printed lines — every cell is the book's own drug-class assignment; the matrix view itself is KYP.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints the four process lines separately; the step × class matrix (and the 'α2-agonists block three of the four' pattern it exposes) and the anatomical seating of each process are KYP's synthesis. Substance P, glutamate, and gate-control theory are deliberately NOT used — they are not printed on the page.",
+      "location": "blocks[2] the blocker matrix + mechanisms + the visual's station flow and matrix strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP-original mnemonics (1 — TWO TICKETS, THEN TWO MORE: Transduction → Transmission → Modulation → Perception — the four T-M-T-P stations of every pain signal (stimulus becomes signal; signal travels; signal is tuned; signal is felt). 2 — DELTA IS THE DASH, C IS THE CRAWL: Aδ fibers = sharp, acute (first jab); C fibers = dull, throbbing, chronic (slow burn). 3 — α2 BLOCKS THREE OF FOUR: α2-agonists sit on transduction, transmission, AND perception — every station but modulation; OPIOIDS OWN THE ROAD AND THE ROOM (transmission + perception); NSAIDs ONLY THE STARTING LINE (transduction). 4 — NO STIMULUS, STILL PAIN: neuropathic pain is the upregulated, persistently active voltage-gated Na+ channel's fault — 'Example: diabetic peripheral neuropathy.' The Pain transmission section prints NO margin mnemonic — all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 235's Pain transmission section prints NO mnemonic; all four codes are KYP-original designs built on the section's own printed lines.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): NO raster images on the page (pdfimages -list returned zero rows for pdf 257) — the Pain transmission section is TYPESET TEXT ONLY in the LOWER portion of pdf 257 (book 235): the Nociceptive pain subsection (the definition sentence with its three stimulus modalities; the TRPV sentence — 'Transient receptor potential vanilloid ligand receptors cause Ca2+ influx–induced Na+ channel activation.'; the fiber sentence — Aδ = sharp, acute; C = dull, throbbing, chronic; and the four-process list with a blocker class set per process) and the Neuropathic pain subsection (CNS/PNS neuronal dysfunction; voltage-gated Na+ channel upregulation + persistent activation; diabetic peripheral neuropathy as the worked example), carried verbatim in the note's first table block. SECTION EXTENT: the section ENDS on pdf 257 — pdf 258 (book 236) opens the SEPARATE pending 'Micturition control' section (258-side boundary pinned). PAGE-STRUCTURE FINDING: the page prints NO pathway diagram and NO neurotransmitter account — the anticipated dorsal-horn → spinothalamic-tract → thalamus → cortex chain, substance P / glutamate, and the gate-control theory are NOT printed on this page; the book's own pathway frame is the FOUR-PROCESS LIST (Transduction/Transmission/Modulation/Perception), and the only anatomy printed is peripheral (nociceptor + TRPV; Aδ vs C fibers) plus the neuropathic Na+ channel. The ascending-station labels used to seat the four processes in the note and visual (dorsal-horn synapse, spinothalamic tract, thalamus/cortex, descending modulation) are KYP extensions beyond the book's printed set, flagged wherever they appear; substance P/glutamate and gate-control theory are NOT used. The blocker matrix (step × class) is KYP's pivot of the book's own four printed lines — every cell is the book's own assignment. The registry visual (PainTransmissionMap) is an ORIGINAL_KYP_ADAPTATION — an original KYP pain-process map synthesized from the section's own sentences (the stimulus band; the TRANSDUCTION node with the TRPV → Ca2+ → Na+ glyph; the Aδ/C fiber-split card; the MODULATION and PERCEPTION nodes; the NEUROPATHIC contrast panel; the blocker matrix; the four-code strip) — no source artwork exists to reproduce (no figure on the page). EXCLUSIONS: the 'Acetylcholine receptors' section in the UPPER portion of this SAME page is the COMPLETED topic PH12 'acetylcholine-receptors' (EXCLUDED; boundary pinned); pdf 256's lower portion is the COMPLETED topic PH11 'autonomic-receptors' (EXCLUDED; 256-side boundary pinned); pdf 258 opens the SEPARATE pending 'Micturition control' section (258-side boundary pinned). The clinical anchors that extend past the source page (clonidine/dexmedetomidine as the α2-agonists; lidocaine/bupivacaine as the local anesthetics; gabapentin/pregabalin as the gabapentinoids; amitriptyline/duloxetine as the TCA/SNRI; capsaicin as the TRPV agonist; the diabetic workup behind the neuropathy example) are flagged as KYP clinical anchors wherever they appear. The section prints NO margin mnemonic — all four mnemonic codes are KYP-original. No copyrighted photographs exist on the page; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

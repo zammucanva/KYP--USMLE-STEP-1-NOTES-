@@ -1,0 +1,354 @@
+{
+  "topicId": "anticholinesterase-poisoning",
+  "title": "Anticholinesterase Poisoning",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      261
+    ],
+    "bookPages": "239"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 239): the Pharmacology marker, the standing section banner, the Section II marker, and the printed page number (the SAME page PH18's upper portion prints on — this topic is the LOWER portion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS\n\nSEC TION II\n\n239",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — 'Anticholinesterase poisoning' (this topic's section; opens the LOWER portion of pdf 261, directly below the Cholinomimetic agents table of the EXCLUDED upper portion)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Anticholinesterase\npoisoning",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro cause line, whole, verbatim — the section's first prose line: 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.' (the three printed organophosphates — all three end in '-thion' — and the irreversibility rule that separates this poison from the therapeutic reversible inhibitors of the upper table)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The intro setting line, whole, verbatim — 'Organophosphates commonly used as insecticides; poisoning usually seen in farmers.' (the printed exposure epidemiology: the insecticide route and the farmer — the stem the exam recycles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Organophosphates commonly used as insecticides; poisoning usually seen in farmers.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The muscarinic row label, verbatim — 'Muscarinic effects' (the first of the three effect-tier rows)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Muscarinic effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The muscarinic findings cell, whole, verbatim — 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' (the nine findings, printed in DUMBBELSS letter order — the mnemonic spells its own list)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Diarrhea, Urination, Miosis, Bronchospasm,\nBradycardia, Emesis, Lacrimation, Sweating,\nSalivation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The muscarinic mnemonic line, whole, verbatim — 'DUMBBELSS.' (the SOURCE's own acronym for the nine muscarinic findings — attributed as the book's own wherever used; NOTE the double-S spelling: Sweating + Salivation, not the single-S 'DUMBBELLS')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "DUMBBELSS.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine reversal clause, whole, verbatim — 'Reversed by atropine, a competitive inhibitor.' (the muscarinic-tier antidote and its printed mechanism: receptor-level competition, NOT enzyme regeneration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Reversed by atropine, a competitive inhibitor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine BBB clause, whole, verbatim — 'Atropine can cross BBB to relieve CNS symptoms.' (why the muscarinic antidote also covers the CNS tier — the printed fact that ties the third row to the first row's antidote)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Atropine can cross BBB to relieve CNS\nsymptoms.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nicotinic row label, verbatim — 'Nicotinic effects' (the second effect-tier row)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Nicotinic effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nicotinic findings cell, whole, verbatim — 'Neuromuscular blockade (mechanism similar to succinylcholine).' (the printed nicotinic finding: the NMJ, with the book's own comparator — the depolarizing-blockade mechanism the exam cross-references)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Neuromuscular blockade (mechanism similar to\nsuccinylcholine).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pralidoxime reversal clause, whole, verbatim — 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early.' (the nicotinic-tier antidote + its mechanism + the SOURCE's own timing rule: 'if given early' — the aging mechanism behind it is NOT printed, flagged as KYP)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Reversed by pralidoxime, regenerates AChE\nvia dephosphorylation if given early. Must",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The coadministration clause, whole, verbatim — 'Must be coadministered with atropine to prevent transient worsening of symptoms.' (the duo rule: pralidoxime alone transiently WORSENS — the printed reason the antidotes travel as a pair)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "be coadministered with atropine to prevent\ntransient worsening of symptoms.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pralidoxime BBB clause, whole, verbatim — 'Pralidoxime does not readily cross BBB.' (the reach limit of the nicotinic-tier antidote — the printed mirror of atropine's crossing two rows above)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Pralidoxime does not readily cross BBB.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CNS row, whole, verbatim — the label 'CNS effects' + the findings 'Respiratory depression, lethargy, seizures, coma.' (the third tier, printed WITHOUT its own reversal line — atropine's printed BBB crossing is its cover)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "CNS effects\n\nRespiratory depression, lethargy, seizures, coma.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line (book 239; the Anticholinesterase poisoning section is the LAST element on pdf 261 — the section ENDS above the footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 239",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SECTION-START BOUNDARY, verbatim — the EXCLUDED upper table's LAST row ends with 'Antidote for anticholinergic toxicity; physostigmine \"phyxes\" atropine overdose.' immediately before this section's header — the printed adjacency that makes book 239 one mirror page: the upper table ends with the ANTICHOLINERGIC-toxicity antidote, this lower section is the CHOLINERGIC-toxicity antidote story (the two opposite toxidromes, one page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Antidote for anticholinergic toxicity;\nphysostigmine “phyxes” atropine overdose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SAME-PAGE EXCLUSION — the 'Cholinomimetic agents' section prints on THIS pdf 261, ABOVE the Anticholinesterase poisoning section (the completed topic PH18: the intro warning + the two-group DRUG/ACTION/APPLICATIONS table): EXCLUDED — only its boundary is pinned; its cholinomimetic rows are NOT part of this topic (the reciprocal anchor PH18 pinned to this section resolves here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Cholinomimetic\nagents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY — pdf 262 (book 240) opens the SEPARATE pending 'Muscarinic antagonists' section (atropine's own drug page — the antidote of this section's muscarinic tier, arriving one page later): the Anticholinesterase poisoning section does NOT extend to pdf 262 — the whole section (intro pair + three tiers) is on pdf 261 alone (sourcePages = [261] only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Muscarinic antagonists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "anticholinesterase-poisoning-map"
+  ],
+  "mechanismIds": [
+    "organophosphate-irreversible-ache-block",
+    "atropine-pralidoxime-duo"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the section's intro pair and three-row effect-tier table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the rows; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "tier-triad-reading",
+      "summary": "The TIER-TRIAD reading of the section's own three printed row labels — MUSCARINIC effects (the glands-and-smooth-muscle tier: everything secretes and cramps, DUMBBELSS), NICOTINIC effects (the striated-muscle tier: the NMJ fails, 'mechanism similar to succinylcholine'), and CNS effects (the brain tier: 'Respiratory depression, lethargy, seizures, coma.') — read as one overflow story: the poison spares no cholinergic address, so the tiers stack in the order the receptor families are distributed (PH12's own M/N map). All three labels and findings cells are the book's own print; the tier compression and the 'which organ tier fails next' ordering are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints three parallel rows; the overflow-story reading (glands first, then the NMJ, then the brain) is KYP's synthesis with the acetylcholine-receptors topic.",
+      "location": "core.keyIdea + mechanisms[0] + the visual's tier band"
+    },
+    {
+      "id": "aging-time-window",
+      "summary": "The AGING-TIME WINDOW behind the printed timing rule — the source's own words are 'regenerates AChE via dephosphorylation if given early'; the mechanism behind 'early' is NOT printed ('aging' appears nowhere in part 1): the phosphorylated AChE–organophosphate bond 'ages' over hours as the alkyl group is lost, after which the bond is permanent and pralidoxime's dephosphorylation can no longer regenerate the enzyme — pralidoxime must be given BEFORE aging. The printed rule and the 'early' clause are the book's own; the aging explanation is KYP's, flagged wherever it appears.",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints the timing rule ('if given early') without its mechanism; the aging explanation is standard pharmacology not printed on this page — flagged, never cited as printed.",
+      "location": "mechanisms[1] + traps + the visual's pralidoxime card"
+    },
+    {
+      "id": "dual-antidote-coverage-map",
+      "summary": "The DUAL-ANTIDOTE COVERAGE MAP over the section's four printed antidote clauses — ATROPINE: 'Reversed by atropine, a competitive inhibitor.' + 'Atropine can cross BBB to relieve CNS symptoms.' → covers the MUSCARINIC tier AND the CNS tier (receptor-level competition, BBB-crossing); PRALIDOXIME: 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early.' + 'Must be coadministered with atropine to prevent transient worsening of symptoms.' + 'Pralidoxime does not readily cross BBB.' → covers the NICOTINIC/NMJ tier (enzyme-level regeneration, no BBB entry), and only as the junior partner of the pair. Every clause is the page's own print; the 'who covers which tier' map is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints the four antidote clauses inside the two rows' high-yield cells; the tier-coverage map (and the plate-vs-breaker framing: atropine shields the plate, pralidoxime spares the breaker) is KYP's.",
+      "location": "mechanisms[1] + traps + pivots + the visual's treatment duo"
+    },
+    {
+      "id": "mirror-toxidrome-layer",
+      "summary": "The MIRROR-TOXIDROME frame of the printed page — book 239's upper table ENDS with physostigmine, the ANTICHOLINERGIC-toxicity antidote ('physostigmine \"phyxes\" atropine overdose.'), and its LOWER section (this topic) is the CHOLINERGIC-toxicity story whose antidotes are atropine + pralidoxime: the wet toxidrome (DUMBBELSS: everything flows — miosis, bradycardia, bronchorrhea, sweat, saliva, tears, stool, urine) versus the dry one (anticholinergic: hot as a hare, blind as a bat, dry as a bone). Both endpoints are printed on the same page; the wet/dry mirror frame and the 'one page, two opposite toxidromes' reading are KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The two printed sections are each other's antidote story; the mirror frame connecting them (and the exam's wet-vs-dry sort) is KYP's.",
+      "location": "core.why + traps + crossLinks + the visual's footer"
+    },
+    {
+      "id": "not-printed-drug-layer",
+      "summary": "The NOT-PRINTED layer the exam expects but the page does NOT carry: 'carbamate' appears NOWHERE in part 1 (the reversible, non-aging organophosphate cousins — insecticide class whose poisoning pralidoxime cannot rescue because there is nothing to regenerate... and nothing to age — flagged as absent, never cited as printed); the alternative mnemonic SLUDGE (Salivation, Lacrimation, Urination, GI upset, Diaphoresis, Emesis) is absent; nerve agents (sarin, VX) are absent; and the nicotinic-GANGLIONIC signs (mydriasis, tachycardia, hypertension — the sympathetic overdrive that can OVERRIDE the muscarinic picture and fool the exam) are absent — the printed nicotinic row is the NMJ blockade alone.",
+      "origin": "outside-first-aid",
+      "rationale": "Task-brief anticipation vs the actual print — the census must record that these names do not print, so they are never cited as this page's content.",
+      "location": "manifest notes + the note's sourceRef + traps + the visual's not-printed strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the Anticholinesterase poisoning section occupies the LOWER portion of pdf 261 (book 239) under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner, BELOW the Cholinomimetic agents table of the EXCLUDED upper portion (the completed PH18). The section prints TWO elements: (1) ONE INTRO PAIR (prose) — 'Often due to organophosphates (eg, fenthion, parathion, malathion) that irreversibly inhibit AChE.' + 'Organophosphates commonly used as insecticides; poisoning usually seen in farmers.'; (2) ONE THREE-ROW EFFECT-TIER TABLE (row label / findings / high-yield, NO column headers printed): MUSCARINIC EFFECTS — 'Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.' → 'DUMBBELSS.' (the book's OWN mnemonic — double-S: Sweating + Salivation) + 'Reversed by atropine, a competitive inhibitor.' + 'Atropine can cross BBB to relieve CNS symptoms.'; NICOTINIC EFFECTS — 'Neuromuscular blockade (mechanism similar to succinylcholine).' → 'Reversed by pralidoxime, regenerates AChE via dephosphorylation if given early. Must be coadministered with atropine to prevent transient worsening of symptoms. Pralidoxime does not readily cross BBB.'; CNS EFFECTS — 'Respiratory depression, lethargy, seizures, coma.' (printed WITHOUT its own reversal line — atropine's printed BBB crossing is its cover). RASTER CENSUS: ZERO raster images on pdf 261 (pdfimages -list returns no rows) — the section is PURE TEXT, COPYRIGHTED, never reproduced as artwork; carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP poison map (AnticholinesterasePoisoningMap). TIMING-RULE FINDING: the source's timing rule is the printed 'if given early'; the AGING mechanism behind it is NOT printed ('aging' appears nowhere in part 1) — flagged as KYP wherever used. NOT-PRINTED LAYER: 'carbamate' appears NOWHERE in part 1; SLUDGE, nerve agents (sarin, VX), and the nicotinic-ganglionic signs (mydriasis, tachycardia) are absent — all flagged, never cited as printed. SAME-PAGE EXCLUSION: the 'Cholinomimetic agents' section prints on the SAME pdf 261 ABOVE this section (the completed PH18 — the reciprocal anchor PH18 pinned here resolves) — EXCLUDED; the printed adjacency is the page's own mirror (the upper table ends with physostigmine the anticholinergic antidote; this lower section is the cholinergic-antidote story). SECTION EXTENT: the section is the LAST element on pdf 261 — it ends above the page footer, and pdf 262 (book 240) opens the separate PENDING 'Muscarinic antagonists' section (atropine's own drug page); sourcePages = [261] only. BOUNDARIES: pdf 260 carries the COMPLETED PH17 'autonomic-drugs' (the synapse map whose breaker this poison blocks — EXCLUDED, cross-linked); pdf 261 upper = COMPLETED PH18 (EXCLUDED, cross-linked); pdf 262 = PENDING 'Muscarinic antagonists' (EXCLUDED). PH12 'acetylcholine-receptors' (book 235) carries the M/N receptor families the three tiers ride — cross-linked. KYP extensions flagged wherever they appear: the TIER-TRIAD reading, the AGING-TIME WINDOW (mechanism not printed — flagged), the DUAL-ANTIDOTE COVERAGE MAP (all clauses printed, the map KYP's), the MIRROR-TOXIDROME frame, and the NOT-PRINTED drug layer (carbamates, SLUDGE, nerve agents, ganglionic signs — absent from the page, flagged, never cited as printed). No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

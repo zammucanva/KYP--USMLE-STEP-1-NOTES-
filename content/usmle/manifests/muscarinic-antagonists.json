@@ -1,0 +1,367 @@
+{
+  "topicId": "muscarinic-antagonists",
+  "title": "Muscarinic Antagonists",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      262
+    ],
+    "bookPages": "240"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 240): the printed page number, the Section II marker, the Pharmacology marker, and the standing section banner (the page whose UPPER portion is this topic's class table and whose LOWER portion is the EXCLUDED atropine block — PH21)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "240\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header, verbatim — 'Muscarinic antagonists' (this topic's section; opens the UPPER portion of pdf 262, directly below the running header — the class-name banner the whole table hangs from; the previous page's poison section named atropine, this class's headliner, as its printed first antidote)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Muscarinic antagonists",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The column headers, verbatim — 'DRUGS' / 'ORGAN SYSTEMS' / 'APPLICATIONS' (the table's own three-column frame: the drug set, the body lane it aims at, and the printed use — the frame the KYP body-lane ladder compresses)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "DRUGS\n\nORGAN SYSTEMS\n\nAPPLICATIONS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 1 — the EYE lane, whole, verbatim — 'Atropine, homatropine, tropicamide' | 'Eye' | 'Produce mydriasis and cycloplegia' (atropine's ONLY appearance in this table is as a member of the ophthalmic trio — its own full drug entry is the EXCLUDED block below, PH21)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Atropine,\nhomatropine,\ntropicamide\n\nEye\n\nProduce mydriasis and cycloplegia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 2 — the CNS lane (movement), whole, verbatim — 'Benztropine, trihexyphenidyl' | 'CNS' | 'Parkinson disease (“park my Benz”)' + 'Acute dystonia' (the book's OWN mnemonic 'park my Benz' prints inside the applications cell — benztropine's parking spot)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Benztropine,\ntrihexyphenidyl\n\nCNS\n\nParkinson disease (“park my Benz”)\nAcute dystonia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 3 — the GI/respiratory lane (secretions), whole, verbatim — 'Glycopyrrolate' | 'GI, respiratory' | 'Parenteral: preoperative use to reduce airway secretions' + 'Oral: reduces drooling, peptic ulcer' (the only row that splits its applications by ROUTE — the printed route pair that aims one drug at two lanes; glycopyrrolate also prints one page back as pyridostigmine's co-therapy)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Glycopyrrolate\n\nGI, respiratory\n\nParenteral: preoperative use to reduce airway\nsecretions\nOral: reduces drooling, peptic ulcer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4 — the GI lane (spasm), whole, verbatim — 'Hyoscyamine, dicyclomine' | 'GI' | 'Antispasmodics for irritable bowel syndrome' (hyoscyamine is the second printed co-therapy of pyridostigmine's row one page back — the same drug re-aimed here as the therapeutic antispasmodic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Hyoscyamine,\ndicyclomine\n\nGI\n\nAntispasmodics for irritable bowel syndrome",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 5 — the RESPIRATORY lane, whole, verbatim — 'Ipratropium, tiotropium' | 'Respiratory' | 'COPD, asthma' + 'Duration: tiotropium > ipratropium' (the table's own duration comparator — the printed line the exam turns into the once-daily vs shorter-acting sort)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Ipratropium,\ntiotropium\n\nRespiratory\n\nCOPD, asthma\nDuration: tiotropium > ipratropium",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 6 — the GENITOURINARY lane, whole, verbatim — 'Solifenacin, Oxybutynin, Flavoxate, Tolterodine' | 'Genitourinary' | 'Reduce bladder spasms and urge urinary incontinence (overactive bladder)' + 'Make bladder SOFT' (the book's OWN mnemonic 'Make bladder SOFT' spells the four drug initials — S-O-F-T — the GU row's own anchor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Solifenacin,\nOxybutynin,\nFlavoxate,\nTolterodine\n\nGenitourinary\n\nReduce bladder spasms and urge urinary\nincontinence (overactive bladder)\nMake bladder SOFT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 7 — the CNS lane (vestibular), whole, verbatim — 'Scopolamine' | 'CNS' | 'Motion sickness' (the table's shortest row — the second CNS entry, the printed use every cruise-ship stem recycles)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Scopolamine\n\nCNS\n\nMotion sickness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PH20/PH21 SECTION BOUNDARY, verbatim — the 'Atropine' header + its intro line, the FIRST element BELOW this topic's table: 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' (the dedicated atropine block — the separate PENDING 'atropine' topic, PH21 — opens here and runs to the page's last line; EXCLUDED from this topic, only its boundary pinned)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "Atropine\n\nMuscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine block's own table frame + NOTES cell, verbatim (PH21's portion — the excluded lower block's grid): 'ORGAN SYSTEM / ACTION / NOTES' headers and the printed NOTES cell 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects' (the clause that ties the excluded block to the COMPLETED PH19 one page back — the muscarinic-vs-nicotinic coverage split of the class's headliner)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "ORGAN SYSTEM\n\nACTION\n\nNOTES\n\nEye\n\n↑ pupil dilation, cycloplegia\n\nAirway\n\nBronchodilation, ↓ secretions\n\nHeart\n\n↑ heart rate\n\nBlocks muscarinic effects (DUMBBELSS)\nof anticholinesterases, but not the nicotinic\neffects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine block's ADVERSE EFFECTS row label, verbatim (PH21's portion — the excluded lower block): the label alone, pinned as the boundary marker of the atropine-specific toxicity content this topic does NOT carry",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "ADVERSE EFFECTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The atropine block's adverse-effects cell + the seven-line anticholinergic mnemonic + the Jimson weed line, whole, verbatim (PH21's portion — the excluded lower block): '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation' + 'Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants' + 'Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask' + 'Jimson weed (Datura) → gardener’s pupil (mydriasis)' (the printed dry-toxidrome set RESERVED for PH21 — never cited as this topic's own print; this topic's class table prints USES only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "↑ body temperature (due to ↓ sweating); ↑ HR;\ndry mouth; dry, flushed skin; cycloplegia;\nconstipation; disorientation\nCan cause acute angle-closure glaucoma\nin older adults (due to mydriasis), urinary\nretention in men with prostatic hyperplasia,\nand hyperthermia in infants\n\nAdverse effects:\nHot as a hare\nFast as a fiddle\nDry as a bone\nRed as a beet\nBlind as a bat\nMad as a hatter\nFull as a flask\nJimson weed (Datura) → gardener’s pupil\n(mydriasis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page footer, verbatim — the book's signature file line (book 240; the page carries BOTH sections — the class table above and the atropine block below — under the one footer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          262
+        ],
+        "bookPages": "240"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 240",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE MIRROR ANCHOR, verbatim — 'Reversed by atropine, a competitive inhibitor.' (book 239, the COMPLETED PH19 anticholinesterase-poisoning section one page back: the wet tier's printed antidote is THIS class's headliner — the class table on this page is atropine's own family page; the mechanism word 'competitive' is the printed bridge between the two pages)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Reversed by atropine, a competitive inhibitor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The PREVIOUS-PAGE MIRROR ANCHOR #2, verbatim — 'Antidote for anticholinergic toxicity; physostigmine “phyxes” atropine overdose.' (book 239, the COMPLETED PH18 cholinomimetic-agents table's LAST row: the printed antidote of THIS class's own overdose — the mirror clause that makes the two pages one antidote pair: the wet toxidrome gets atropine, the atropine toxidrome gets physostigmine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          261
+        ],
+        "bookPages": "239"
+      },
+      "quote": "Antidote for anticholinergic toxicity;\nphysostigmine “phyxes” atropine overdose.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The NEXT-PAGE BOUNDARY, verbatim — 'Sympathomimetics' (pdf 263 / book 241, line 9: the section header that OPENS the next page) — the Muscarinic antagonists section does NOT extend to pdf 263; the whole class table (seven rows, five lanes) is on pdf 262 alone (sourcePages = [262] only)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          263
+        ],
+        "bookPages": "241"
+      },
+      "quote": "Sympathomimetics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The SYMPATHOMIMETICS OVERLAP CENSUS, verbatim — 'Albuterol, salmeterol, terbutaline' (pdf 263 / book 241, lines 18-19: the sympathomimetics table's FIRST drug row) — the pre-existing pilot note 'sympathomimetics' carries sourceRef 'pp. 240–243' and its manifest pins pdfPages [262-265], an endpoint that OVER-CLAIMS book 240/pdf 262: the sympathomimetics table content prints ENTIRELY on pdf 263-265 (book 241-243), and pdf 262 carries only THIS class table + the atropine block (PH21) — NO CONTENT OVERLAP with PH20; boundary pinned so no double coverage arises",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          263
+        ],
+        "bookPages": "241"
+      },
+      "quote": "Albuterol, salmeterol,\nterbutaline",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CROSS-PAGE GU-LANE ANCHOR, verbatim — 'Muscarinic antagonists (eg, oxybutynin)' + '⊝ M receptor → relaxation of detrusor smooth muscle' (pdf 258 / book 236, the COMPLETED PH14 micturition-control drug table): the physiology page already names this class and its headliner oxybutynin for urgency incontinence — THIS page's GU row ('Solifenacin, Oxybutynin, Flavoxate, Tolterodine' → 'Reduce bladder spasms and urge urinary incontinence (overactive bladder)') is that printed row expanded fourfold — the two tables are each other's physiology and pharmacology",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          258
+        ],
+        "bookPages": "236"
+      },
+      "quote": "Muscarinic\nantagonists\n(eg, oxybutynin)\n\n⊝ M receptor → relaxation of detrusor smooth muscle",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "muscarinic-antagonists-map"
+  ],
+  "mechanismIds": [
+    "muscarinic-receptor-competitive-block",
+    "organ-lane-selectivity-dry-leak"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the section's one seven-row class table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "body-lane-ladder",
+      "summary": "The BODY-LANE LADDER reading of the table's own ORGAN SYSTEMS column — FIVE lanes: EYE (atropine, homatropine, tropicamide → 'Produce mydriasis and cycloplegia'), CNS (benztropine/trihexyphenidyl for 'Parkinson disease (“park my Benz”)' + 'Acute dystonia'; scopolamine for 'Motion sickness'), GI (glycopyrrolate's route-split secretions row; hyoscyamine/dicyclomine the IBS antispasmodics), RESPIRATORY (ipratropium/tiotropium → 'COPD, asthma'), GENITOURINARY (the SOFT four → overactive bladder). Every lane name, drug set, and application is the book's own print; the five-lane body-tour compression (eye → brain → gut → airway → bladder) is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The book prints seven parallel rows over five organ systems; the ladder that sorts any 'which antimuscarinic for which organ' stem by body lane is KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[1] + mnemonics[2] + the visual's five lane cards"
+    },
+    {
+      "id": "lock-and-lane-reading",
+      "summary": "The LOCK-AND-LANE reading — ONE RECEPTOR LOCK (the muscarinic receptor, competitive blockade without activation; the class-name banner 'Muscarinic antagonists' is the page's own header) aimed SEVEN ways: the therapeutic difference between the rows is the LANE, not the mechanism. The printed lane-aimers: glycopyrrolate's route pair ('Parenteral: preoperative use to reduce airway secretions' / 'Oral: reduces drooling, peptic ulcer'), the inhaled respiratory pair (ipratropium/tiotropium, 'Respiratory'), the two CNS entries (benztropine/trihexyphenidyl, scopolamine). The CHEMISTRY behind the aiming (quaternary amines that cannot cross the BBB — glycopyrrolate, ipratropium, tiotropium; the tertiary amine that can — scopolamine; the inhaled route's topical delivery) is NOT printed on this page — flagged as KYP wherever used, never cited as printed.",
+      "origin": "outside-first-aid",
+      "rationale": "The page prints the rows and the route pair but not the structure-property logic behind lane selectivity; the lock-and-lane frame and the chemistry flags are KYP's.",
+      "location": "mechanisms[0] + mechanisms[1] + traps + the visual's lock strip"
+    },
+    {
+      "id": "dry-mirror-frame",
+      "summary": "The DRY-MIRROR frame — what the class does when blockade LEAKS beyond its lane: the ANTI-DUMBBELSS direction (the printed wet list of book 239, one page back, reversed: miosis → mydriasis, bronchospasm → bronchodilation, bradycardia → tachycardia, secretions pouring → dry mouth/skin, gut cramping → constipation, bladder letting go → retention). BOUNDARY RULE: the PRINTED adverse-effects cell ('↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation' + the angle-closure/prostatic-hyperplasia/infant-hyperthermia line) and the seven-line anticholinergic mnemonic ('Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask') + 'Jimson weed (Datura) → gardener’s pupil (mydriasis)' print in the ATROPINE BLOCK BELOW on this same page — the separate pending 'atropine' topic (PH21) — flagged as the adjacent same-page block wherever this topic needs a printed dry-toxidrome anchor, never cited as this topic's own print (this class table prints USES only, no toxicity column).",
+      "origin": "outside-first-aid",
+      "rationale": "The wet list is printed one page back (PH19) and the dry list prints one section below (PH21); the mirror frame connecting them across this page's position is KYP's.",
+      "location": "mechanisms[1] + traps + mnemonics[3] + the visual's dry-mirror band"
+    },
+    {
+      "id": "antidote-mirror-frame",
+      "summary": "The ANTIDOTE-MIRROR frame over the two printed clauses of the facing page (book 239): 'Reversed by atropine, a competitive inhibitor.' (PH19's muscarinic tier — the WET toxidrome's printed antidote is THIS class's headliner: this page is atropine's family page) and 'Antidote for anticholinergic toxicity; physostigmine “phyxes” atropine overdose.' (PH18's last row — THIS class's own overdose has its printed antidote one page back). Both clauses are the book's own print; the two-page antidote-mirror frame (the wet pole gets this class, this class's overdose gets the cholinomimetic page's last row) is KYP's.",
+      "origin": "outside-first-aid",
+      "rationale": "The clauses print on the previous page; the mirror frame tying this class table to both is KYP's.",
+      "location": "core.why + pivots + crossLinks + the visual's antidote-mirror strip"
+    },
+    {
+      "id": "ph20-ph21-boundary-census",
+      "summary": "The PH20/PH21 BOUNDARY CENSUS itself — pdf 262 (book 240) prints TWO sections under the one banner, and the inventory's two book-240 topics ARE separable on inspection: THIS topic (muscarinic-antagonists) = the UPPER class table (seven rows, five lanes, lines 9-70); the PENDING 'atropine' topic (PH21) = the LOWER dedicated block (the 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' intro, the ORGAN SYSTEM/ACTION/NOTES grid with its 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects' NOTES cell, the ADVERSE EFFECTS cell, the seven-line mnemonic, and the Jimson weed line — lines 72-131). Includes the SYMPATHOMIMETICS OVER-CLAIM documentation: the pilot note's 'pp. 240–243' / pdfPages [262-265] endpoint over-claims book 240 — its table content prints entirely on pdf 263-265 (book 241-243); no content overlap with PH20.",
+      "origin": "outside-first-aid",
+      "rationale": "The split, the boundary pins, and the over-claim documentation are pipeline curation, not book print.",
+      "location": "manifest notes + the note's sourceRef + the visual's boundary strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + text layer): the Muscarinic antagonists section occupies the UPPER portion of pdf 262 (book 240) under the standing 'PHARMACOLOGY—AUTONOMIC DRUGS' banner, and prints ONE element: the SEVEN-ROW DRUG CLASS TABLE (DRUGS × ORGAN SYSTEMS × APPLICATIONS) — Row 1 'Atropine, homatropine, tropicamide' | 'Eye' | 'Produce mydriasis and cycloplegia'; Row 2 'Benztropine, trihexyphenidyl' | 'CNS' | 'Parkinson disease (“park my Benz”)' + 'Acute dystonia'; Row 3 'Glycopyrrolate' | 'GI, respiratory' | 'Parenteral: preoperative use to reduce airway secretions' + 'Oral: reduces drooling, peptic ulcer'; Row 4 'Hyoscyamine, dicyclomine' | 'GI' | 'Antispasmodics for irritable bowel syndrome'; Row 5 'Ipratropium, tiotropium' | 'Respiratory' | 'COPD, asthma' + 'Duration: tiotropium > ipratropium'; Row 6 'Solifenacin, Oxybutynin, Flavoxate, Tolterodine' | 'Genitourinary' | 'Reduce bladder spasms and urge urinary incontinence (overactive bladder)' + 'Make bladder SOFT'; Row 7 'Scopolamine' | 'CNS' | 'Motion sickness'. The book's OWN mnemonics print inside the cells: 'park my Benz' and 'Make bladder SOFT' (the GU four's initials). RASTER CENSUS: ZERO raster images on pdf 262-263 (pdfimages -list returns no rows) — the section is PURE TEXT, COPYRIGHTED, never reproduced as artwork; carried VERBATIM as the note's two table blocks (ORIGINAL_KYP_ADAPTATION) and conveyed as ONE original KYP class map (MuscarinicAntagonistsMap). PH20/PH21 BOUNDARY FINDING: the inventory's two book-240 topics ARE separable — the class table above (THIS topic) and the dedicated 'Atropine' block below (lines 72-131: the 'Muscarinic antagonist. Used to treat bradycardia and for ophthalmic applications.' intro; the ORGAN SYSTEM/ACTION/NOTES grid — Eye '↑ pupil dilation, cycloplegia' / Airway 'Bronchodilation, ↓ secretions' / Heart '↑ heart rate' / Stomach '↓ acid secretion' / Gut '↓ motility' / Bladder '↓ urgency in cystitis' with the NOTES cell 'Blocks muscarinic effects (DUMBBELSS) of anticholinesterases, but not the nicotinic effects'; the ADVERSE EFFECTS cell '↑ body temperature (due to ↓ sweating); ↑ HR; dry mouth; dry, flushed skin; cycloplegia; constipation; disorientation' + 'Can cause acute angle-closure glaucoma in older adults (due to mydriasis), urinary retention in men with prostatic hyperplasia, and hyperthermia in infants'; the seven-line mnemonic 'Hot as a hare / Fast as a fiddle / Dry as a bone / Red as a beet / Blind as a bat / Mad as a hatter / Full as a flask'; 'Jimson weed (Datura) → gardener’s pupil (mydriasis)') — the WHOLE atropine block is RESERVED for PH21 and EXCLUDED here (its toxicity lines are never cited as this topic's own print). SECTION EXTENT: the section does NOT extend to pdf 263 — pdf 263 (book 241) opens 'Sympathomimetics' (its first drug row 'Albuterol, salmeterol, terbutaline' prints at pdf 263 lines 18-19); sourcePages = [262] only. SYMPATHOMIMETICS OVERLAP CENSUS: the pre-existing pilot note 'sympathomimetics' carries sourceRef 'First Aid 2026, Part 1 pp. 240–243' and manifest pdfPages [262, 263, 264, 265] — the book-240/pdf-262 endpoint OVER-CLAIMS this page; its table content prints entirely on pdf 263-265 (book 241-243); NO CONTENT OVERLAP with PH20 (pdf 262 carries only this class table + the atropine block) — boundary pinned. BOUNDARIES: pdf 261 behind carries the COMPLETED PH18 (upper) and PH19 (lower) — their printed antidote clauses are this class's mirror anchors ('Reversed by atropine, a competitive inhibitor.' + 'physostigmine “phyxes” atropine overdose.'); pdf 258 (book 236) carries the COMPLETED PH14 micturition-control whose drug table prints 'Muscarinic antagonists (eg, oxybutynin)' for urgency incontinence — the physiology of this table's GU lane; pdf 263 ahead opens the COMPLETED pilot sympathomimetics (EXCLUDED, over-claim documented); the atropine topic (PH21) is the pending same-page block below. KYP extensions flagged wherever they appear: the BODY-LANE LADDER, the LOCK-AND-LANE reading (the chemistry behind lane-aiming — quaternary/tertiary amines, BBB, inhaled delivery — NOT printed, flagged), the DRY-MIRROR frame (the printed dry list lives in the atropine block below, PH21's own — flagged as adjacent), the ANTIDOTE-MIRROR frame (both clauses printed one page back), and the PH20/PH21 boundary census. No copyrighted artwork reproduced; nothing reproduced.",
+  "updatedAt": "2026-11-08"
+}

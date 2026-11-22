@@ -1,0 +1,46 @@
+{
+  "topicId": "autonomic-receptors",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Autonomic Drugs",
+      "topicId": "autonomic-receptors",
+      "requiredInKYP": true,
+      "visualId": "autonomic-receptors-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "visualType": "RECEPTOR_DIAGRAM",
+      "visualPurpose": "The AUTONOMIC/SOMATIC overview schematic (the section's single figure — the classic autonomic nervous system receptor map)",
+      "sourceFigureDescription": "The section's entire figure: a left-to-right schematic of the AUTONOMIC division (subdivided Parasympathetic and Sympathetic) and the SOMATIC division. The CNS column at the left (Brainstem above, Spinal cord below) gives off three pathways. PARASYMPATHETIC: 'Preganglionic neuron (long)' → ganglion near the organ (ACh on Nn) → 'Postganglionic neuron (short)' → ACh on 'M₁, M₂, M₃' → 'Smooth muscle, gland cells, nerve terminals, cardiac muscle'. SYMPATHETIC: 'Preganglionic neuron (short)' → the 'Sympathetic chain' (ACh on Nn) → 'Postganglionic neuron (long)' → NE on 'α1, α2, β1, β2' → 'Smooth muscle, gland cells, nerve terminals, cardiac muscle'; a cholinergic sympathetic fiber → ACh on 'M₃' → 'Sweat glands'; a dopaminergic branch → D on 'D1' → 'Renal vasculature smooth muscle'; and the 'Adrenal gland (medulla)' limb — directly innervated by the preganglionic fiber (ACh on Nn), secreting Epi + NE into the 'Blood (catecholamine transmission)' onto 'α1, α2, β1, β2' at 'Cardiac muscle, vessels'. SOMATIC: the 'Voluntary motor nerve' (single neuron) → ACh on 'Nm' at the 'Neuromuscular junction' → 'Skeletal muscle'. Three footnote lines below the figure: 'Pelvic splanchnic nerves and CNs III, VII, IX, and X are part of the parasympathetic nervous system.'; 'Adrenal medulla is directly innervated by preganglionic sympathetic fibers.'; 'Sweat glands are part of the sympathetic pathway but are innervated by cholinergic fibers (sympathetic nervous system results in a “chold” sweat).' VECTOR LINE ART (pdfimages: zero raster rows) — path-drawn nerves/organs with typeset labels.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "autonomic-receptors-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (the AutonomicReceptorsMap — the CNS band, the parasympathetic/sympathetic/somatic pathway columns with their neuron boxes, synapse chips, receptor plates and organ plates, the three-footnotes strip, and the reading-rule strip) + blocks[0] the visual block",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "autonomic-receptors-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "autonomic-receptors",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 256). The section's single figure is VECTOR LINE ART (path-drawn nerves, ganglia, and organs with typeset labels) — redrawn as an ORIGINAL_KYP_REDRAW in the registry visual AutonomicReceptorsMap: an original KYP SVG with original KYP glyphs (the CNS band, the three pathway columns, the synapse chips, the receptor and organ plates), carrying across only short attributed labels (neurotransmitters, receptor names, neuron names, organ names) — no source artwork reproduced, no photographs on the page. The three typeset footnote lines are carried verbatim in the note's second table block and in the visual's footnotes strip (including the book's own printed 'chold' sweat [sic]). The clinical anchors extending past the source page (ganglionic blockers, glycopyrrolate-neostigmine reversal, pheochromocytoma, renal-dose dopamine/fenoldopam, β3/mirabegron beyond the printed receptor set) are KYP clinical anchors, flagged wherever they appear. PAGE-RANGE FINDING: the diagram does NOT continue onto pdf 257 — that page opens the SEPARATE 'Acetylcholine receptors' section (next pending topic). EXCLUSION: the 'Drug effect modifications' section in the UPPER portion of the same page belongs to the COMPLETED topic PH10 and is NOT part of this inventory."
+}

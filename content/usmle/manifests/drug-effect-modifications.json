@@ -1,0 +1,346 @@
+{
+  "topicId": "drug-effect-modifications",
+  "title": "Drug Effect Modifications",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Autonomic Drugs",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      256
+    ],
+    "bookPages": "234"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "234\n\nSEC TIoN II\n\nPHARMACoLoGY\n\n▶ PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—AUTONOMIC DRUGS (this page OPENS the Autonomic Drugs banner; the UPPER portion of the page carries the Drug effect modifications section, this topic; the LOWER portion carries the Autonomic receptors section, which is EXCLUDED — see the boundary item below)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "PHARMACOLOGY—AUTONOMIC DRUGS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — Drug effect modifications (this topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Drug effect modifications",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table column headers — TERM / DEFINITION / EXAMPLE, verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "TERM\n\nDEFINITION\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 1 — Additive, DEFINITION verbatim ('Effect of substances A and B together is equal to the sum of their individual effects')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Additive\n\nEffect of substances A and B together is equal to\nthe sum of their individual effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 1 — Additive, EXAMPLE verbatim (the math metaphor '2 + 2 = 4': Aspirin and acetaminophen)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Aspirin and acetaminophen\n“2 + 2 = 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 2 — Permissive, DEFINITION verbatim ('Presence of substance A is required for the full effects of substance B')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Permissive\n\nPresence of substance A is required for the full\neffects of substance B",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 2 — Permissive, EXAMPLE verbatim (Cortisol on catecholamine responsiveness — the row with no math metaphor)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Cortisol on catecholamine responsiveness",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 3 — Synergistic, DEFINITION verbatim ('Effect of substances A and B together is greater than the sum of their individual effects')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Synergistic\n\nEffect of substances A and B together is greater\nthan the sum of their individual effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 3 — Synergistic, EXAMPLE verbatim (the math metaphor '2 + 2 > 4': Clopidogrel with aspirin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Clopidogrel with aspirin\n“2 + 2 > 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4 — Potentiation, DEFINITION verbatim ('Similar to synergism, but drug B (with no therapeutic action alone) enhances the therapeutic action of drug A')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Potentiation\n\nSimilar to synergism, but drug B (with no\ntherapeutic action alone) enhances the\ntherapeutic action of drug A",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4 — Potentiation, EXAMPLE verbatim (the math metaphor '2 + 0 > 2': Carbidopa only blocks enzyme to prevent peripheral conversion of levodopa)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Carbidopa only blocks enzyme to prevent\nperipheral conversion of levodopa\n“2 + 0 > 2”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 5 — Antagonistic, DEFINITION verbatim ('Effect of substances A and B together is less than the sum of their individual effects')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Antagonistic\n\nEffect of substances A and B together is less\nthan the sum of their individual effects",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 5 — Antagonistic, EXAMPLE verbatim (the math metaphor '2 + 2 < 4': Morphine with naloxone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Morphine with naloxone\n“2 + 2 < 4”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 6 — Tachyphylactic, DEFINITION verbatim ('Acute decrease in response to a drug after initial/repeated administration')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Tachyphylactic\n\nAcute decrease in response to a drug after\ninitial/repeated administration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 6 — Tachyphylactic, EXAMPLE verbatim (Repeat use of intranasal decongestant (eg, oxymetazoline) → ↓ therapeutic response (with rebound congestion))",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "Repeat use of intranasal decongestant (eg,\noxymetazoline) → ↓ therapeutic response (with\nrebound congestion)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUSION BOUNDARY — the page's second banner and the 'Autonomic receptors' header (the LOWER portion of this same page) open the SEPARATE PENDING topic 'autonomic-receptors'; ALL of that content (the header and the AUTONOMIC/SOMATIC overview diagram) is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "▶ PHARMACOLOGY—AUTONOMIC DRUGS\nAutonomic receptors",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUDED diagram — the Autonomic receptors AUTONOMIC/SOMATIC overview (parasympathetic/sympathetic chains, adrenal medulla, voluntary motor nerve) printed below the boundary — excluded together with its section",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "AUTONOMIC\nParasympathetic\nBrainstem\n\nPreganglionic\nneuron (long)\n\nSOMATIC\nSympathetic\n\nSpinal cord\n\nVoluntary\nmotor nerve",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 234",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 234)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          256
+        ],
+        "bookPages": "234"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "drug-effect-modifications-map"
+  ],
+  "mechanismIds": [
+    "combination-arithmetic-sum-reference",
+    "permissive-gating-and-tachyphylaxis"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source's six-row table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the six TERM/DEFINITION/EXAMPLE rows; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "sum-reference-reading-protocol",
+      "summary": "The three-question reading of the table (QUESTION 1 — IS THE STEM MAKING A MAGNITUDE CLAIM? Four rows compare the observed combination to THE SUM of the individual effects and print it as arithmetic: '2 + 2 < 4' antagonistic, '2 + 2 = 4' additive, '2 + 2 > 4' synergistic, '2 + 0 > 2' potentiation. QUESTION 2 — DOES THE PARTNER DO ANYTHING ALONE? the zero-partner case is potentiation by the source's own definition ('Similar to synergism, but drug B (with no therapeutic action alone) enhances the therapeutic action of drug A') — both partners active and beating the sum is synergism. QUESTION 3 — IS THE SECOND SUBSTANCE A DRUG AT ALL, OR THE SAME DRUG RE-DOSED? a falling response with a second drug is antagonistic (morphine with naloxone); the same drug re-dosed is tachyphylactic (oxymetazoline). The permissive row answers none of the three — it makes a REQUIREMENT claim ('Presence of substance A is required for the full effects of substance B'), which is why it carries no math metaphor) — KYP's synthesis of the six rows into one reading order (magnitude? → who acts alone? → one drug or two?).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the six rows as parallel table entries without a unified reading protocol; the sum-reference framing, the zero-partner test, and the count-the-drugs-then-check-the-clock rule are KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP-original mnemonics (1 — READ THE SIGN, NAME THE TERM: < is Antagonistic (morphine with naloxone), = is Additive (aspirin and acetaminophen), > is Synergistic (clopidogrel with aspirin), 0> is Potentiation (carbidopa + levodopa). 2 — THE ZERO RULES POTENTIATION: a partner that is a ZERO alone and still beats the solitary drug is potentiation ('2 + 0 > 2'), not synergism ('2 + 2 > 4'). 3 — PERMISSIVE = PERMISSION, NOT POWER: cortisol does not add pressor force; it permits catecholamines their full effect. 4 — TACHYPHYLAXIS = THE DRUG TIRES OF ITSELF: same drug, repeat dosing, response falls — no partner, no sum). The Drug effect modifications section prints NO margin mnemonic — all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 234's Drug effect modifications section prints NO mnemonic; all four codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 256). The Drug effect modifications section is typeset text only — one six-row TERM/DEFINITION/EXAMPLE table in the PDF text layer. The table is carried verbatim (ORIGINAL_KYP_ADAPTATION) in the note's table block and re-typeset in the registry visual (the sign ladder for the four math-metaphor rows, dedicated panels for the permissive and tachyphylactic rows, and the verbatim examples strip) — short attributed definition sentences and drug pairs, not artwork reproductions; no copyrighted artwork exists on this section of the page and nothing is reproduced. The section prints NO margin mnemonic; the KYP memory layer adds four original codes (READ THE SIGN, NAME THE TERM; THE ZERO RULES POTENTIATION; PERMISSIVE = PERMISSION, NOT POWER; TACHYPHYLAXIS = THE DRUG TIRES OF ITSELF). The clinical anchors that extend past the source page (adrenal-crisis pressor refractoriness for the permissive row; dual antiplatelet therapy and ED naloxone for the synergistic/antagonistic rows; rhinitis medicamentosa for the tachyphylactic row; and the tachyphylaxis-vs-tolerance time-course distinction) are flagged as KYP clinical anchors wherever they appear. No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the 'Autonomic receptors' section occupies the LOWER portion of this SAME page — its second banner, its header, and the AUTONOMIC/SOMATIC overview diagram are the SEPARATE PENDING topic 'autonomic-receptors' and are EXCLUDED from this topic: PH10 pins the same source page (pdf 256 / book 234) for its UPPER portion only.",
+  "updatedAt": "2026-11-08"
+}

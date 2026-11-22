@@ -1,0 +1,502 @@
+{
+  "topicId": "receptor-binding",
+  "title": "Receptor Binding",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Pharmacokinetics and Pharmacodynamics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      255
+    ],
+    "bookPages": "233"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS\n\n233\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section banner — PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS (the upper portion of this page carries the Receptor binding section; the lower portion opens the Therapeutic index section, which is EXCLUDED — see the boundary item below)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "PHARMACOLOGY—PHARMACOKINETICS AND PHARMACODYNAMICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The section header — Receptor binding (this topic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Receptor binding",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The three panels' shared y-axis gridlines — 100 / 50 / 0 (three '100' ticks, one per panel; three '0' baselines, one per panel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "100\n\n100\n\n100",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The three panels' shared x-axis label — Agonist dose (prints three times, once per panel)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Agonist dose\n\nAgonist dose\n\nIndependent\npotency\n\nAgonist dose",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 1 — the competitive antagonist curve label, verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Agonist +\ncompetitive\nantagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 1 — the effect annotation 'Reduced potency' (the parallel right shift)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Reduced\npotency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 2 — the noncompetitive antagonist curve label, verbatim",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Agonist +\nnoncompetitive\nantagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANELS 2 and 3 — the shared effect annotation 'Reduced efficacy' (prints twice: the noncompetitive antagonist's lower Emax and the partial agonist's lower Emax)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Reduced\nefficacy",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 3 — the upper partial agonist curve label, verbatim (same EC50 as the full agonist; 'Reduced efficacy')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Partial\nagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 3 — the lower partial agonist curve label, verbatim ('Partial C agonist' — the circled C marks table row C; right-shifted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Partial C\nagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PANEL 3 — the effect annotation 'Independent potency' (the lower partial agonist's shifted position)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Independent\npotency",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table header, verbatim — AGONIST WITH | POTENCY | EFFICACY | REMARKS | EXAMPLE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "AGONIST WITH\n\nPOTENCY\n\nEFFICACY\n\nREMARKS\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row A, the row label, verbatim — A Competitive antagonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "A Competitive\nantagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row A, the POTENCY and EFFICACY columns, verbatim — ↓ potency, No change efficacy (right shift, ceiling intact)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "A Competitive\nantagonist\n\n↓\n\nNo change",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row A, the REMARKS column, verbatim — surmountability of the competitive antagonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Can be overcome by\n↑ agonist concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row A, the EXAMPLE column, verbatim — diazepam + flumazenil on the GABA A receptor",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Diazepam (agonist) + flumazenil\n(competitive antagonist) on GABA A\nreceptor.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row B, the row label, verbatim — B Noncompetitive antagonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "B Noncompetitive\nantagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row B, the POTENCY and EFFICACY columns, verbatim — No change potency, ↓ efficacy (ceiling drop, position intact)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "B Noncompetitive\nantagonist\n\nNo change\n\n↓",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row B, the REMARKS column, verbatim — insurmountability of the noncompetitive antagonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Cannot be overcome by\n↑ agonist concentration",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row B, the EXAMPLE column, verbatim — norepinephrine + phenoxybenzamine on α-receptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Norepinephrine (agonist) +\nphenoxybenzamine (noncompetitive\nantagonist) on α-receptors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row C, the row label, verbatim — C Partial agonist (alone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "C Partial agonist\n(alone)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row C, the POTENCY and EFFICACY columns, verbatim — Independent potency, ↓ efficacy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "C Partial agonist\n(alone)\n\nIndependent\n\n↓",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row C, the REMARKS column, verbatim — the partial agonist acts at the same site as the full agonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Acts at same site as full\nagonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row C, the EXAMPLE column, verbatim — morphine vs buprenorphine at opioid μ-receptors",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Morphine (full agonist) vs buprenorphine\n(partial agonist) at opioid μ-receptors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, the row label, verbatim — Inverse agonist (alone)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Inverse agonist\n(alone)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, the POTENCY and EFFICACY columns, verbatim — Independent potency, Negative efficacy",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Inverse agonist\n(alone)\n\nIndependent\n\nNegative",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, the REMARKS column, verbatim — the inverse agonist binds a constitutively active receptor, reducing its activity; opposite effect of an agonist",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Binds to a constitutively\nactive receptor, thereby\nreducing its activity;\nhas the opposite effect\nof an agonist",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Row 4, the EXAMPLE column, verbatim — H1 antihistamines (eg, diphenhydramine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "H1 antihistamines (eg, diphenhydramine)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The EXCLUSION BOUNDARY — the next section header 'Therapeutic index' (PH9, a separate pending topic) opens on this same page; ALL of its content (Measurement of drug safety, TD50/ED50, the therapeutic window, TITE, the low-TI monitoring list, LD50, the Efficacy/Toxicity quantal-curve panel) is EXCLUDED from this topic",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "Therapeutic index",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page timestamp footer (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 233",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page print-date footer (book 233)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          255
+        ],
+        "bookPages": "233"
+      },
+      "quote": "12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "receptor-binding-map"
+  ],
+  "mechanismIds": [
+    "antagonist-geometry-competitive-vs-noncompetitive",
+    "partial-and-inverse-agonist-signaling"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the source panels and the AGONIST WITH table.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the three curve panels and the four-row table; the attack structure is a KYP design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-question-reading-protocol",
+      "summary": "The two-question reading (WHICH COLUMN MOVED? potency ↓ = right shift = competitive; efficacy ↓ = ceiling drop = noncompetitive OR partial agonist; efficacy NEGATIVE = below baseline = inverse agonist — and potency 'Independent' marks the partial agonist's EC50 as free to sit anywhere. IS IT SURMOUNTABLE? the REMARKS column's single test — 'Can be overcome by ↑ agonist concentration' = competitive; 'Cannot be overcome by ↑ agonist concentration' = noncompetitive — turning the table's POTENCY/EFFICACY/REMARKS columns into one decision protocol for any drug-pair stem) — KYP's synthesis of the page's three panels and four table rows into a single reading order (parameter moved → surmountability → row identity).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints three panels and a four-row table as parallel blocks without a unified reading protocol; the which-column/which-parameter framing and the surmountability-first test are KYP's design.",
+      "location": "core.keyIdea + pivots + the visual's structure"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (1 — COMPETITIVE SLIDES RIGHT, SAME CEILING: surmountable, potency ↓, efficacy unchanged; 2 — NONCOMPETITIVE CLIPS THE CEILING, SAME SPOT: insurmountable, efficacy ↓, potency unchanged; 3 — PARTIALS SHARE THE SITE, DROP THE CEILING: same site as the full agonist, efficacy ↓, potency independent; 4 — INVERSE GOES NEGATIVE: needs a constitutively active receptor, efficacy below the neutral-antagonist baseline). The Receptor binding section prints NO margin mnemonic — the page's only printed mnemonic ('TITE') belongs to the EXCLUDED Therapeutic index section — so all four codes are KYP-original designs.",
+      "origin": "outside-first-aid",
+      "rationale": "Book 233's Receptor binding section prints NO mnemonic; all four codes are KYP-original designs.",
+      "location": "mnemonics + the visual's code strip"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "Census (pdfimages + VLM): NO raster images on the page (pdfimages -list returned zero rows for pdf 255). The Receptor binding section is typeset text plus three vector curve panels: the AGONIST WITH table (text layer) and the three dose-response panels (vector line-art curves with text labels — drawn curves, not photographs). The table prints in the text layer and is carried verbatim in the note's table blocks and re-typeset in the registry visual's table grid (ORIGINAL_KYP_ADAPTATION) — short attributed definition sentences and drug pairs, not artwork reproductions. The three curve panels are redrawn as ORIGINAL_KYP_REDRAW vector line-art sigmoids in the registry visual (competitive right shift; noncompetitive Emax reduction; two partial agonists — one at the agonist's EC50 with reduced efficacy, one shifted with independent potency) — the curve shapes are the standard Hill sigmoids of pharmacodynamics, re-drawn from scratch; no copyrighted artwork is reproduced. The Receptor binding section prints NO margin mnemonic (the page's only printed mnemonic, 'TITE', lives in the EXCLUDED Therapeutic index section); the KYP memory layer adds four original codes (COMPETITIVE SLIDES RIGHT, NONCOMPETITIVE CLIPS THE CEILING, PARTIALS SHARE THE SITE, INVERSE GOES NEGATIVE). No copyrighted photographs exist on the page; nothing reproduced. EXCLUSION: the 'Therapeutic index' section opens on this SAME page (lower half) — its header, 'Measurement of drug safety.', the TD50/ED50 equation, the therapeutic-window definition, the 'TITE' mnemonic, the low-TI drug list (warfarin, theophylline, digoxin, antiepileptic drugs, lithium), the LD50 note, and the Efficacy/Toxicity quantal-curve panel are ALL excluded from this topic: they belong to the separate pending topic PH9 (therapeutic-index), which pins the same source page (pdf 255 / book 233).",
+  "updatedAt": "2026-11-08"
+}
