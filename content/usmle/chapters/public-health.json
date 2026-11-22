@@ -1,0 +1,718 @@
+{
+ "chapterId": "public-health",
+ "chapterTitle": "Public Health",
+ "number": 6,
+ "part": 1,
+ "section": "II",
+ "pdfRanges": [
+  {
+   "part": 1,
+   "from": 277,
+   "to": 300
+  }
+ ],
+ "bookPages": "255–278",
+ "extractionStatus": "extracted",
+ "pendingTopicCount": 27,
+ "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
+ "extraction": {
+  "extractedOn": "2026-11-22",
+  "method": "Text-layer banner census (pdftotext cache + page-by-page banner mapping, the pharmacology convention) + pdfimages raster census per page (zero rasters across all 23 content pages) + full source read of every page.",
+  "frontMatter": "pdf 277 (book 255) = chapter title/opener page (Osler, Angelou, Palahniuk quotes + chapter map)",
+  "contentPages": "pdf 278-300 (book 256-278)",
+  "backMatter": "none — pdf 300 (book 278) closes both the subsection and the chapter; pdf 301 opens Cardiovascular",
+  "faGroups": [
+   {
+    "group": "Epidemiology and Biostatistics",
+    "pdfPages": [
+     278,
+     290
+    ],
+    "bookPages": "256–268",
+    "topics": 17
+   },
+   {
+    "group": "Ethics",
+    "pdfPages": [
+     290,
+     292
+    ],
+    "bookPages": "268–270",
+    "topics": 3
+   },
+   {
+    "group": "Communication Skills",
+    "pdfPages": [
+     293,
+     297
+    ],
+    "bookPages": "271–275",
+    "topics": 4
+   },
+   {
+    "group": "Healthcare Delivery",
+    "pdfPages": [
+     298,
+     300
+    ],
+    "bookPages": "276–278",
+    "topics": 3
+   }
+  ]
+ },
+ "visualPlan": {
+  "textbookVisualsIdentified": null,
+  "rightsPosture": "All First Aid 2026 artwork is COPYRIGHTED_NO_REPUBLISH — no republication; the chapter's zero raster images mean every figure is vector line art redrawn as ORIGINAL_KYP_REDRAW and every table adapted as ORIGINAL KYP ADAPTATION, or a documented omission.",
+  "method": "per-topic visual inventory authored at production time (gen_pubhN_json.py pattern, the pharmacology convention)"
+ },
+ "topics": [
+  {
+   "topicId": "observational-studies",
+   "title": "Observational Study Designs",
+   "faSubsections": [
+    "Observational studies"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     278
+    ],
+    "bookPages": "256"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "observational-studies-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The 7-row observational studies table (case series, cross-sectional, case-control, cohort, twin concordance, adoption, ecological — design / measures / example columns, each with its high-yield example) plus the study-design timeline figure (cross-sectional / case-control / retrospective cohort / prospective cohort drawn on the Past-Present-Future axis with the compare-what labels). Zero rasters — table is an ORIGINAL KYP ADAPTATION, timeline is an ORIGINAL_KYP_REDRAW of pure-vector art."
+  },
+  {
+   "topicId": "clinical-therapeutic-trials",
+   "title": "Clinical Therapeutic Trials and the Drug Development Pipeline",
+   "faSubsections": [
+    "Clinical therapeutic trial"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     279
+    ],
+    "bookPages": "257 (upper)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "clinical-trials-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "UPPER portion of book 257 (boundary pinned at the Off-label heading): randomized/controlled/double-/triple-blinded design, crossover with washout, intention-to-treat vs as-treated vs per-protocol analysis, the five clinical trial phases 0-4 with the 'Can I SWIM?' acronym (preclinical → phase 0 microdosing → phase 1 safety → phase 2 efficacy → phase 3 effectiveness → FDA approval → phase 4 postmarketing), and the sample-size/anonymization table per phase. The phase pipeline is pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "bradford-hill-criteria",
+   "title": "Bradford Hill Criteria: Judging Causation",
+   "faSubsections": [
+    "Off-label drug use",
+    "Bradford Hill criteria"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     279
+    ],
+    "bookPages": "257 (lower)"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "bradford-hill-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "LOWER portion of book 257: off-label drug use (definition, reasons, the TCA-for-neuropathic-pain example) and the nine Bradford Hill criteria (strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment, analogy) — necessary-but-not-sufficient principles for causal inference. Pure text → ORIGINAL_KYP_ADAPTATION."
+  },
+  {
+   "topicId": "quantifying-risk",
+   "title": "Quantifying Risk: The 2×2 Table and Its Measures",
+   "faSubsections": [
+    "Quantifying risk"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     280
+    ],
+    "bookPages": "258"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "quantifying-risk-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The classic 2×2 contingency table (exposure × disease, cells a/b/c/d) and the quantifying-risk table: odds ratio, relative risk, relative risk reduction, attributable risk, absolute risk reduction, number needed to treat, number needed to harm, case fatality rate — each with definition, worked example, and formula (OR = ad/bc, RR = a/(a+b) ÷ c/(c+d), RRR = 1−RR, AR, ARR, NNT = 1/ARR, NNH = 1/AR, CFR). Includes the in-cell FA mnemonics ('You take a case to the OR', 'Cohort = relative risk') carried attributed. Zero rasters → ORIGINAL KYP ADAPTATION with the 2×2 as a rotating decoder."
+  },
+  {
+   "topicId": "vital-statistics-populations",
+   "title": "Mortality, Attack Rates, and Demographic Transition",
+   "faSubsections": [
+    "Quantifying risk (continued)",
+    "Demographic transition"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     281
+    ],
+    "bookPages": "259 (upper)"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "vital-statistics-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "UPPER portion of book 259: the mortality-rate and attack-rate rows closing the quantifying-risk table, then demographic transition — the three population pyramids (growing / stable / declining) with the birth-rate, mortality-rate, life-expectancy, and population-structure rows across development stages. Pyramids are pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "likelihood-ratios",
+   "title": "Likelihood Ratios: Pretest to Posttest Odds",
+   "faSubsections": [
+    "Likelihood ratio"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     281
+    ],
+    "bookPages": "259 (mid)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "likelihood-ratio-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "MID portion of book 259: LR+ = sensitivity/(1−specificity) and LR− = (1−sensitivity)/specificity with their TP-rate/FP-rate forms, the LR+ > 10 and LR− < 0.1 rules, and the pretest odds × LR = posttest odds / posttest probability machinery. Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "survival-analysis",
+   "title": "Kaplan-Meier Curves and Hazard Ratios",
+   "faSubsections": [
+    "Kaplan-Meier curve",
+    "Hazard ratio"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     281,
+     282
+    ],
+    "bookPages": "259 (bottom)–260 (top)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "survival-analysis-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "CROSS-PAGE topic (boundaries pinned on both sides): the Kaplan-Meier curve block at the bottom of book 259 (survival probability vs time, time-to-event data, log-rank/Cox p-values, the Drug vs Control stepped curve figure) plus the hazard-ratio block at the top of book 260 (HR = 1 / >1 / <1, relative slopes of survival curves, steeper curve = higher hazard, separation reflects HR magnitude). KM curve is pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "diagnostic-test-performance",
+   "title": "Sensitivity, Specificity, and Predictive Values",
+   "faSubsections": [
+    "Evaluation of diagnostic tests"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     282
+    ],
+    "bookPages": "260 (lower)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "diagnostic-test-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "LOWER portion of book 260: the test-vs-disease 2×2 (TP/FP/FN/TN), sensitivity = TP/(TP+FN), specificity = TN/(TN+FP), PPV, NPV, test efficiency, prevalence = (TP+FN)/all, the SN-N-OUT / SP-P-IN rules with screening-vs-confirmation positioning, PPV varying directly and NPV inversely with prevalence, and the cutoff-value figure (two overlapping distributions with cutoffs A/B/C — A 100% sensitivity, B compromise, C 100% specificity — plus the anemia-switch note). The cutoff curves are pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "roc-precision-accuracy",
+   "title": "ROC Curves, Precision, and Accuracy",
+   "faSubsections": [
+    "Receiver operating characteristic curve",
+    "Precision vs accuracy"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     283
+    ],
+    "bookPages": "261"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "roc-precision-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The ROC curve (TP rate vs FP rate, AUC comparison, ideal test AUC = 1, curve closer to upper-left = better) and precision-vs-accuracy (reliability = consistency/reproducibility, absence of random error, ↓SD, ↑power; validity = closeness to truth, absence of systematic error) with the four-quadrant high/low precision × high/low accuracy panel. Both figures pure-vector art → ORIGINAL_KYP_REDRAW pair."
+  },
+  {
+   "topicId": "incidence-prevalence",
+   "title": "Incidence vs Prevalence",
+   "faSubsections": [
+    "Incidence vs prevalence"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     284
+    ],
+    "bookPages": "262"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "incidence-prevalence-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "Incidence = new cases/at risk, prevalence = existing cases/total, prevalence ≈ incidence × duration (÷ (1−prevalence)), prevalence > incidence for chronic disease, ≈ for short-duration disease, prevalence ∼ pretest probability (↑prevalence → ↑PPV ↓NPV), and the 8-row situation table (↑survival, ↑mortality, faster recovery, vaccine administration, ↓risk factors, ↑diagnostic sensitivity, new effective treatment, ↓contact — each vs incidence and prevalence). Pure text/table → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "bias-and-study-errors",
+   "title": "Bias and Study Errors",
+   "faSubsections": [
+    "Bias and study errors"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     285
+    ],
+    "bookPages": "263"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "bias-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The bias table: selection bias (nonrandom sampling, convenience, Berkson, attrition), recall bias, measurement bias (faulty sphygmomanometer, Hawthorne effect), procedure bias, observer-expectancy (Pygmalion) bias, lead-time bias, length-time bias — each with definition, examples, and reduction strategies (randomization, blinding + placebo, objective methods, back-end survival, RCT screening assignment), plus the recruiting/performing/interpreting stage rail. In-cell FA mnemonics ('Hawthorne watches you like a hawk') carried attributed. Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "confounding-effect-modification",
+   "title": "Confounding vs Effect Modification",
+   "faSubsections": [
+    "Confounding vs effect modification"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     286
+    ],
+    "bookPages": "264"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "confounding-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The confounding vs effect-modification table (factor related to both exposure and outcome, not on causal pathway; no association after stratification vs different outcomes in subgroups, true association exists), the coffee→lung cancer and OCP→DVT worked examples, reduction strategies (crossover, matching, regression, stratified analysis), and the crude-vs-stratified-analysis vector diagrams (association disappears = confounding; strong in one subgroup only = effect modification). Diagrams pure-vector → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "statistical-distributions",
+   "title": "Statistical Distributions: Center, Spread, and Skew",
+   "faSubsections": [
+    "Statistical distribution"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     287
+    ],
+    "bookPages": "265"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "distributions-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "Measures of central tendency (mean / median / mode, outlier sensitivity), measures of dispersion (SD, SE = σ/√n, variance = SD²), the normal distribution with the 68-95-99.7 rule, bimodal distribution (two populations — fast vs slow acetylators, Hodgkin age, suicide by age), positive skew (mean > median > mode, tail right) and negative skew (mean < median < mode, tail left), plus the statistical hypothesis testing opener (H0, H1, P value). The distribution curves are pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "hypothesis-testing-errors",
+   "title": "Hypothesis Testing Errors: Type I, Type II, and Power",
+   "faSubsections": [
+    "Outcomes of statistical hypothesis testing",
+    "Testing errors",
+    "Statistical vs clinical significance"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     288
+    ],
+    "bookPages": "266"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "hypothesis-errors-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "The study-vs-reality 2×2 (power = 1−β, α, β with blue-shaded correct cells), type I error (α, false positive, the boy who cried wolf, P < α rejects H0, statistical ≠ clinical significance) and type II error (β, false negative, power = 1−β, ↑power by ↑sample size / ↑effect size / ↑precision / ↑α), and the statistical-vs-clinical-significance distinction (the 1 mg/dL blood-sugar example). Pure text → ORIGINAL KYP ADAPTATION with the error grid as the centerpiece."
+  },
+  {
+   "topicId": "confidence-intervals-meta-analysis",
+   "title": "Confidence Intervals and Meta-Analysis",
+   "faSubsections": [
+    "Confidence interval",
+    "Meta-analysis"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     289
+    ],
+    "bookPages": "267 (upper)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "ci-meta-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "UPPER portion of book 267: confidence intervals (CI = 1−α, 95% CI Z = 1.96, 99% CI Z = 2.58, narrowing with ↑sample size, CI = x ± Z(SE)) with the significance rules (mean-difference CI excludes 0, OR/RR CI excludes 1, non-overlapping CIs between groups), and meta-analysis (pooling summary data, heterogeneity, improved power/generalizability, limited by study quality and selection bias). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "statistical-tests",
+   "title": "Choosing the Statistical Test",
+   "faSubsections": [
+    "Common statistical tests"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     289
+    ],
+    "bookPages": "267 (lower)"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "stat-tests-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "LOWER portion of book 267: t-test (2 means, 'Tea is meant for 2'), ANOVA (≥3 means), chi-square (≥2 percentages/proportions, 'chi-tegorical'), Fisher exact test (small samples), and the test-selection algorithm (numerical means: 2 groups → t-test, ≥3 → ANOVA; categorical proportions: small sample → Fisher, large → chi-square). The algorithm is a vector flow figure → ORIGINAL_KYP_REDRAW; the test rows carried verbatim."
+  },
+  {
+   "topicId": "correlation-coefficient",
+   "title": "Correlation and the Pearson Coefficient",
+   "faSubsections": [
+    "Pearson correlation coefficient"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     290
+    ],
+    "bookPages": "268 (top)"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "correlation-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+   "status": "pending",
+   "productionRationale": "TOP portion of book 268 (boundary pinned at the ETHICS banner): the Pearson correlation coefficient (r between −1 and +1, positive/negative direction, strength by |r|, the coefficient of determination r², correlation ≠ causation) with the five-panel scatter gallery (r = −0.8 strong negative, −0.4 weak negative, 0 none, +0.4 weak positive, +0.8 strong positive). The scatter gallery is pure-vector art → ORIGINAL_KYP_REDRAW."
+  },
+  {
+   "topicId": "core-ethical-principles",
+   "title": "Core Ethical Principles and Decision-Making Capacity",
+   "faSubsections": [
+    "Core ethical principles",
+    "Decision-making capacity"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     290
+    ],
+    "bookPages": "268 (lower)"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "ethics-principles-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Ethics",
+   "status": "pending",
+   "productionRationale": "LOWER portion of book 268 — the ETHICS banner opens: autonomy (truth-telling, confidentiality, informed consent), beneficence (fiduciary duty, the mandatory-TB conflict, principle of double effect with end-of-life opioids), nonmaleficence (do no harm, risk-benefit balance), justice (fair and equitable, triage), plus decision-making capacity vs competency (physician for a specific decision vs judge; intellectual disability and mental illness not exclusion criteria; decisions with capacity not revoked by later incapacity) and the four components (understanding, appreciation, reasoning, expressing a choice). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "informed-consent",
+   "title": "Informed Consent, Minors, and Advance Directives",
+   "faSubsections": [
+    "Informed consent",
+    "Consent for minors",
+    "Advance directives"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     291
+    ],
+    "bookPages": "269"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "consent-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Ethics",
+   "status": "pending",
+   "productionRationale": "The informed-consent process (disclosure, understanding, capacity, voluntariness; right to revoke), the WIPE exceptions (Waiver, legally Incompetent, therapeutic Privilege, Emergency), consent for minors (emancipation, the Sex/Drugs/Rock-and-roll exceptions, assent vs consent, encourage minor-guardian communication), and advance directives (oral, written/living will, medical power of attorney, DNR — what each prohibits and its flexibility ranking). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "surrogates-confidentiality",
+   "title": "Surrogate Decision-Makers, Confidentiality, and Gifts",
+   "faSubsections": [
+    "Ventilator-assisted life support",
+    "Surrogate decision-maker",
+    "Confidentiality",
+    "Accepting gifts from patients"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     292
+    ],
+    "bookPages": "270"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "confidentiality-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Ethics",
+   "status": "pending",
+   "productionRationale": "Ventilator-assisted life support (withhold/withdraw per patient wishes regardless of surrogate preference; palliative care involvement), the surrogate decision-maker hierarchy (spouse → adult children → parents → adult siblings → other relatives, 'the spouse chips in'), confidentiality and its general exception principles (serious and imminent harm, no alternative, preventable) plus the SAVED exceptions (Suicidal/homicidal, Abuse, duty to protect Victims, Epilepsy/impaired drivers, reportable Diseases), and accepting gifts from patients (harm-benefit assessment, the decline rules). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "patient-centered-interviewing",
+   "title": "Patient-Centered Interviewing and Rapport",
+   "faSubsections": [
+    "Patient-centered interviewing techniques",
+    "Establishing rapport",
+    "Communicating with patients with disabilities"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     293
+    ],
+    "bookPages": "271"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "interviewing-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Communication Skills",
+   "status": "pending",
+   "productionRationale": "The patient-centered interviewing techniques (introduction with name/pronouns/eye level, agenda setting, reflection, validation, recapitulation, facilitation), the PEARLS rapport framework (Partnership, Empathy, Apology, Respect, Legitimization, Support), and communicating with patients with disabilities (person-first vs identity-first language, talk to the patient, ask before assisting, extra time for speech difficulties, concrete language for cognitive impairment, deaf/hard-of-hearing communication and interpreter positioning, do not skip exam parts). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "cultural-competence-interviewing",
+   "title": "Cultural Formulation, Trauma-Informed Care, and Motivational Interviewing",
+   "faSubsections": [
+    "Cultural formulation interview",
+    "Trauma-informed care",
+    "Motivational interviewing",
+    "Gender- and sexuality-inclusive history taking"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     294
+    ],
+    "bookPages": "272"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "cultural-interviewing-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Communication Skills",
+   "status": "pending",
+   "productionRationale": "The cultural formulation interview (patient's own words, cultural perceptions of cause, background influences, impact on interventions, barriers to care), trauma-informed care (behavioral health screenings, no invasive detail, permission before discussion, signal-to-end reassurance during exams, the 4 R's — Realize, Recognize, Respond, Resist re-traumatization), motivational interviewing (resolving ambivalence, readiness for change, SMART goals), and gender- and sexuality-inclusive history taking (no assumptions, gender-neutral terms, pronoun sharing, EMR inclusivity, confidentiality reassurance). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "interpreters-bad-news",
+   "title": "Interpreters and Delivering Bad News: SPIKES",
+   "faSubsections": [
+    "Use of interpreters",
+    "Delivering bad news"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     295
+    ],
+    "bookPages": "273"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "bad-news-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Communication Skills",
+   "status": "pending",
+   "productionRationale": "Use of interpreters (professional medical interpreters unless conversationally fluent, phone/video fallback, family-member preference documented, ask preferred language — never assume from name or accent, speak directly to the patient, one question at a time, interpreter positioning for spoken vs sign language, emergency tools), and delivering bad news with SPIKES (Setting, Perception, Invitation, Knowledge, Emotions, Strategy). Pure text → ORIGINAL KYP ADAPTATION with the SPIKES protocol as a six-station visual."
+  },
+  {
+   "topicId": "challenging-scenarios",
+   "title": "Challenging Patient and Ethical Scenarios",
+   "faSubsections": [
+    "Challenging patient and ethical scenarios"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     296,
+     297
+    ],
+    "bookPages": "274–275"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "challenging-scenarios-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Communication Skills",
+   "status": "pending",
+   "productionRationale": "TWO-PAGE topic (the drug-names precedent): the complete situation → appropriate-response table across book 274-275 — 24 rows: nonadherence, unnecessary procedure request, medication difficulty, family asking prognosis, family requesting nondisclosure, 17-year-old requesting abortion, 15-year-old pregnancy, physician-assisted dying, suicidal patient, romantic interest from patient, post-mastectomy body image, waiting-room anger, complaint about another physician, wrong-patient procedure, uncovered treatment, bereaved 7-year-old, intimate partner violence, alternative medicine, impaired colleague, family insisting on life support after brain death, pharmaceutical sponsorship, procedure against physician beliefs, Jehovah's Witness transfusion (mother vs daughter), suspected abuse, vaccine refusal. The response principles (patient-centered, open-ended, empathetic, acknowledge obstacles, validate emotions) lead. Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "disease-prevention-prophylaxis",
+   "title": "Disease Prevention Levels and Prophylaxis",
+   "faSubsections": [
+    "Disease prevention",
+    "Chemoprophylaxis and post-exposure prophylaxis"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     298
+    ],
+    "bookPages": "276"
+   },
+   "difficulty": 2,
+   "requiresVisual": true,
+   "visualHints": [
+    "prevention-prophylaxis-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Healthcare Delivery",
+   "status": "pending",
+   "productionRationale": "The prevention-level pyramid (primary — susceptible population, prevent onset, diet/exercise; secondary — subclinical, screen for early detection, glucose screening; tertiary — clinical/symptomatic, treat and prevent progression, A1c monitoring; quaternary — overmedicalized, discontinue unnecessary interventions, stopping sulfonylurea after hypoglycemia) and the chemoprophylaxis/PEP table (HIV exposure — tenofovir+emtricitabine+raltegravir/dolutegravir × 28 days ≤72 hr; N. meningitidis close contact — rifampin/ciprofloxacin/ceftriaxone; rabies bite — wound cleaning + vaccine + immune globulin on 0/3/7/14; HBV exposure — vaccine ± HBIG; malaria travel — atovaquone-proguanil/doxycycline/mefloquine; sexual exposure — doxycycline ≤72 hr with effectiveness data). Pure text/table → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "insurance-payment-models",
+   "title": "Insurance Plans, Payment Models, and Medicare vs Medicaid",
+   "faSubsections": [
+    "Major medical insurance plans",
+    "Healthcare payment models",
+    "Medicare and Medicaid"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     299
+    ],
+    "bookPages": "277"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "insurance-models-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Healthcare Delivery",
+   "status": "pending",
+   "productionRationale": "The insurance plan table (EPO, HMO, PoS, PPO, ACO, HDHP with HSA — network rules, referral requirements, premium/out-of-pocket tradeoffs), the payment models (bundled payment, capitation, discounted fee-for-service, fee-for-service, global payment with the elective-surgery example), and Medicare vs Medicaid (federal social programs from Social Security Act amendments; Medicare ≥65 / <65 disabilities / ESRD, parts A hospital Admissions, B Basic bills, C Combo via private, D prescription Drugs; MedicarE = Elderly, MedicaiD = Disadvantaged; Medicaid joint federal-state for limited income). Pure text → ORIGINAL KYP ADAPTATION."
+  },
+  {
+   "topicId": "patient-safety-quality",
+   "title": "Patient Safety: Medical Errors and Quality Improvement",
+   "faSubsections": [
+    "Palliative care",
+    "Types of medical errors",
+    "Medical error analysis",
+    "Causes of medical errors"
+   ],
+   "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+     300
+    ],
+    "bookPages": "278"
+   },
+   "difficulty": 1,
+   "requiresVisual": true,
+   "visualHints": [
+    "patient-safety-map"
+   ],
+   "mechanismHeavy": false,
+   "subsection": "Public Health Sciences — Healthcare Delivery",
+   "status": "pending",
+   "productionRationale": "The chapter's final page: palliative care vs hospice (comfort and quality of life, interdisciplinary team, concurrent with curative treatment, hospice ≤6-month prognosis), types of medical errors (active — frontline operator, wrong IV pump dose, immediate impact; latent — system-level, different IV pumps, accident waiting to happen; never event — identifiable, serious, usually preventable, retained scalpel, with sentinel event; near miss — pharmacist cancels interaction), error disclosure regardless of harm, root cause analysis (retrospective, 5 whys, fishbone, process maps) vs failure mode and effects analysis (forward-looking, inductive, prioritized by probability and impact), and the causes (burnout, fatigue). Pure text → ORIGINAL KYP ADAPTATION."
+  }
+ ]
+}

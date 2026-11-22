@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T05:16:44Z",
+  "generatedAt": "2026-11-22T05:43:31Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -265,8 +265,8 @@
   },
   "estimatedTotalTopics": 3029,
   "counts": {
-    "chaptersRegistered": 9,
-    "chaptersExtracted": 5,
+    "chaptersRegistered": 10,
+    "chaptersExtracted": 6,
     "topicsProduced": 173,
     "topicsByStatus": {
       "planned": 0,
@@ -333,6 +333,17 @@
       "topicsRemaining": 0,
       "qaStatus": "pass",
       "completedAt": "2026-11-22"
+    },
+    {
+      "chapterId": "public-health",
+      "chapterTitle": "Public Health",
+      "part": 1,
+      "extractionStatus": "extracted",
+      "topicsRegistered": 27,
+      "topicsProduced": 0,
+      "topicsRemaining": 27,
+      "qaStatus": "pending",
+      "completedAt": null
     },
     {
       "chapterId": "cardiovascular",
