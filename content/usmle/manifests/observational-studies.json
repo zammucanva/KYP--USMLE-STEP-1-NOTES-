@@ -1,0 +1,269 @@
+{
+  "topicId": "observational-studies",
+  "title": "Observational Study Designs: The Seven Designs and the Time Axis",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      278
+    ],
+    "bookPages": "256–256"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 256, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printed TWICE (running header + in-body ribbon — the subsection opener; small-caps 'm' artifact as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "256\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's title and three column headers — 'Observational studies', STUDY TYPE / DESIGN / mEASURES/EXAmPLE (the MEASURES/EXAMPLE header extracts with lowercase 'm's — a small-caps extraction artifact, carried as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Observational studies\nSTUDY TYPE\n\nDESIGN\n\nmEASURES/EXAmPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 — Case series → Describes several individual patients with the same diagnosis, treatment, or outcome → Description of clinical findings and symptoms; has no comparison group, thus cannot show risk factor association with disease",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Case series\n\nDescribes several individual patients with the\nsame diagnosis, treatment, or outcome.\n\nDescription of clinical findings and symptoms.\nHas no comparison group, thus cannot show\nrisk factor association with disease.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 — Cross-sectional study → Frequency of disease and frequency of risk-related factors are assessed in the present → Disease prevalence; can show risk factor association with disease, but does not establish causality (the DESIGN cell's 'risk-related' hyphenates across a line wrap in print — the raw layer merges it to 'riskrelated', documented)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Cross-sectional study\n\nFrequency of disease and frequency of riskrelated factors are assessed in the present.\n\nDisease prevalence.\nCan show risk factor association with disease,\nbut does not establish causality.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 — Case-control study → Retrospectively compares a group of people with disease to a group without disease; looks to see if odds of prior exposure or risk factor differ by disease state → Odds ratio (OR) + First Aid's OWN red in-cell mnemonic 'Control the case in the OR.' + the printed example: patients with COPD had higher odds of a smoking history than those without COPD",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Case-control study\n\nRetrospectively compares a group of people with\ndisease to a group without disease.\nLooks to see if odds of prior exposure or risk\nfactor differ by disease state.\n\nOdds ratio (OR).\nControl the case in the OR.\nPatients with COPD had higher odds of a\nsmoking history than those without COPD.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 — Cohort study → Compares a group with a given exposure or risk factor to a group without such exposure; looks to see if exposure or risk factor is associated with later development of disease; can be prospective or retrospective → Disease incidence; Relative risk (RR) + First Aid's OWN red in-cell mnemonic 'Cohort = relative risk.' + the printed example: people who smoke had a higher risk of developing COPD than people who do not",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Cohort study\n\nCompares a group with a given exposure or risk\nfactor to a group without such exposure.\nLooks to see if exposure or risk factor is\nassociated with later development of disease.\nCan be prospective or retrospective.\n\nDisease incidence.\nRelative risk (RR).\nPeople who smoke had a higher risk of\ndeveloping COPD than people who do not.\nCohort = relative risk.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 5 — Twin concordance study (the name wraps across two lines in its STUDY TYPE cell) → Compares the frequency with which both monozygotic twins vs both dizygotic twins develop the same disease → Measures heritability and influence of environmental factors ('nature vs nurture'); the schizophrenia example: the MZ co-twin has a much higher concordance rate than dizygotic twins, showing a strong genetic component",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Twin concordance\nstudy\n\nCompares the frequency with which both\nmonozygotic twins vs both dizygotic twins\ndevelop the same disease.\n\nMeasures heritability and influence of\nenvironmental factors (“nature vs nurture”).\nIf one monozygotic twin develops schizophrenia,\nthe other twin has a much higher concordance\nrate than dizygotic twins, showing a strong\ngenetic component.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 6 — Adoption study → Compares behavioral traits/genetics in siblings raised by biological vs adoptive parents → Measures heritability and influence of environmental factors; the printed example: an adopted child has a higher risk of developing schizophrenia if their biological parent had schizophrenia, regardless of the adoptive parents' health",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Adoption study\n\nCompares behavioral traits/genetics in siblings\nraised by biological vs adoptive parents.\n\nMeasures heritability and influence of\nenvironmental factors.\nAn adopted child has a higher risk of developing\nschizophrenia if their biological parent had\nschizophrenia, regardless of the adoptive\nparents’ health.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 7 — Ecological study → Compares frequency of disease and frequency of risk-related factors across populations; measures population data not necessarily applicable to individuals (ecological fallacy) → Used to monitor population health; the printed example: COPD prevalence was higher in more polluted cities",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Ecological study\n\nCompares frequency of disease and frequency\nof risk-related factors across populations.\nMeasures population data not necessarily\napplicable to individuals (ecological fallacy).\n\nUsed to monitor population health.\nCOPD prevalence was higher in more polluted\ncities.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline FIGURE, part 1 of 3 (raw extraction order) — the Cross-sectional study panel title, the vertical time axis labels Past / Future / Present, the case-control panel's Past-level compare-label 'Compare risk factor frequency', a 'Risk factor' box label, AND the indd footer slug 'FAS1_2026_06-PubHealth.indd 256' interleaved MID-FIGURE (the vector figure's text objects extract after the table in jumbled reading order — documented quirk; the panel assignment is pinned by pdftotext -bbox + the VLM pass)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Cross-sectional study\n\nPast\n\nCompare risk factor\nfrequency\n\nFuture\n\nPresent\n\nRisk factor\n\nFAS1_2026_06-PubHealth.indd 256",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline FIGURE, part 2 of 3 — the Case-control study panel: its title, a 'Risk factor' label, the Cross-sectional panel's compare-label 'Compare disease prevalence' (below the Present line per the VLM pass), and the case-control Present-level group boxes 'Controls without disease' + 'Diseased cases'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Case-control study\n\nRisk factor\n\nCompare disease\nprevalence\n\nControls\nwithout\ndisease\n\nDiseased\ncases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The timeline FIGURE, part 3 of 3 — both cohort panels: 'Retrospective cohort study' title + its Past-level 'Risk factor' boxes; 'Prospective cohort study' title + its Present-level 'Risk factor' boxes; the compare-label 'Compare disease incidence' (printed for BOTH cohort panels); the retrospective method tag 'Review previous records'; and a second 'Compare disease incidence' at the Future level",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "Retrospective cohort study\n\nRisk factor\n\nProspective cohort study\n\nRisk factor\n\nCompare disease\nincidence\n\nRisk factor\n\nRisk factor\n\nReview previous\nrecords\nCompare disease\nincidence",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer timestamp — 12/16/25 12:46 PM (page identity, book 256)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "observational-studies-map"
+  ],
+  "mechanismIds": [
+    "time-axis-map",
+    "comparison-axis-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "time-axis-decoder",
+      "summary": "The Past–Present–Future grammar of the printed timeline figure: every observational design is anchored at the Present, and the direction of inquiry generates the design and fixes its measure — ONE SLICE of the present (cross-sectional → disease prevalence), a LOOK-BACK from disease (case-control → odds of prior exposure → OR), a FORWARD MARCH from exposure (prospective cohort → disease incidence → RR), and the records variant (retrospective cohort — the same exposure-forward arrow run on previous records, 'Review previous records'); the claim 'the direction fixes the measure' is the KYP synthesis of the printed labels.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four panels and their labels but never states the generating grammar (stand at the present, choose a direction) nor the direction→measure rule; the synthesis is KYP's.",
+      "location": "core.keyIdea MOVE 1 + mechanisms[0] time-axis-map + blocks[3] the steps block + the registry visual's Zone A lanes and rule strip"
+    },
+    {
+      "id": "two-doors-and-unit-ladder",
+      "summary": "The 2×2 'two doors' reading (enter by the DISEASE door → case-control → odds ratio; enter by the EXPOSURE door → cohort → incidence + relative risk; freeze the grid at one moment → cross-sectional → prevalence; no grid at all → case series → description only) plus the unit-of-analysis ladder (individual description → individual comparison → twin pairs → adoptive families → whole populations, with the ecological fallacy as the printed toll of the last step and the genetics pair as the only rung that separates genes from environment).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the seven rows as parallel facts; the two-doors frame, the grid-freeze reading of cross-sectional, and the unit ladder are KYP's organization.",
+      "location": "core.why + core.keyIdea MOVES 2–3 + mechanisms[1] comparison-axis-map + blocks[2] the decoder list block"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the case-control COPD odds stem, the cohort smoking-risk stem, the ecological polluted-cities fallacy stem, the twin+adoption schizophrenia heritability stem), 4 traps (case-control vs cohort doors; cross-sectional vs case-control time structure; twin concordance vs adoption; ecological vs individual-level unit), 3 pivots (the measure-router, the two meanings of 'retrospective', the case-series comparison-group tell), and 8 recall cards covering all seven rows plus the figure.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the design definitions only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN two mnemonics — 'Control the case in the OR.' (Case-control row) and 'Cohort = relative risk.' (Cohort row), both printed in RED inside the MEASURES/EXAMPLE cells (VLM-confirmed) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's cards; plus TWO KYP originals, marked as such: 'FOUR Cs, THEN GENES, THEN POPULATIONS' (the seven-row architecture in printed order) and 'ONE SLICE, TWO DIRECTIONS' (the time-axis grammar).",
+      "origin": "outside-first-aid",
+      "rationale": "The two in-cell mnemonics are the source's own (attributed, not counted as KYP's); no margin mnemonic prints anywhere on pdf 278 (pdfimages + VLM census, staging-pubh1/vlm-census.txt); the two ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's card mnemonic lines"
+    },
+    {
+      "id": "example-threads-and-boundary-layer",
+      "summary": "The clinical anchor layer: the page's two printed example threads — COPD through three designs (case-control: higher odds of a smoking history; cohort: higher risk of developing COPD; ecological: prevalence higher in more polluted cities) and schizophrenia through the two heritability designs (twin concordance: MZ ≫ DZ; adoption: risk follows the biological parent) — plus the observational-vs-experimental boundary framing (every design on this page only observes; book 257 opens Clinical therapeutic trial, where the investigator intervenes) and the miniCase (the 150+150 COPD records-and-interview vignette routed to case-control/OR against cross-sectional, cohort, and ecological distractors).",
+      "origin": "outside-first-aid",
+      "rationale": "The examples themselves are printed (FA-own); the thread organization, the boundary framing, the MZ/DZ ~half-genes logic, and the miniCase vignette with its distractors are KYP's design, flagged as such.",
+      "location": "clinical block + usmle.miniCase + usmle.patterns + the visual's Card 8"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 278 / book 256, the FIRST content page of the Public Health Sciences chapter (pdf 277 = the chapter opener, unclaimed — the p249 convention) and the FIRST page of the EPIDEMIOLOGY AND BIOSTATISTICS subsection, carrying TWO blocks — the 'Observational studies' table (columns STUDY TYPE / DESIGN / mEASURES/EXAmPLE, SEVEN rows in printed order: Case series, Cross-sectional study, Case-control study, Cohort study, Twin concordance study, Adoption study, Ecological study — carried VERBATIM in the note's table block, blocks[1]) and the study-design TIMELINE FIGURE (four study types on a vertical Past–Present–Future axis with their risk-factor boxes and compare-labels, redrawn as ORIGINAL KYP vector art). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh1/vlm-census.txt): exactly SEVEN rows confirmed in printed order (none missing or extra); the two in-cell mnemonics print in RED inside the MEASURES/EXAMPLE cells — 'Control the case in the OR.' (Case-control row) and 'Cohort = relative risk.' (Cohort row) — First Aid's OWN, carried VERBATIM and ATTRIBUTED (not counted among the KYP mnemonics); the figure's panels carry circle icons on the Risk factor boxes (with vs without the exposure), solid black arrows (the case-control arrows point back in time), and pink/green/blue time bands; the table title is dark navy with blue STUDY TYPE names and dotted hairlines (no zebra); no margin notes, mnemonics, asterisk footnotes, or images. ADJUDICATION (all three reads agree — raw text layer + pdftotext -bbox/-layout + the VLM pass): the batch brief's figure description assigned 'compare risk factor frequency' to the Cross-sectional panel and 'compare disease prevalence' to the Case-control panel — the PRINT says the OPPOSITE (Cross-sectional → 'Compare disease prevalence'; Case-control → 'Compare risk factor frequency'), internally consistent with the printed table (Cross-sectional measures 'Disease prevalence.'; Case-control 'Looks to see if odds of prior exposure or risk factor differ by disease state') — brief corrected to print; the visual and the note draw the labels exactly as printed. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); small-caps extraction artifacts 'EPIDEmIOLOGY AND BIOSTATISTICS' (the banner prints TWICE — running header + in-body subsection ribbon) and the column header 'mEASURES/EXAmPLE'; the Cross-sectional DESIGN cell's 'risk-related' hyphenates across a line wrap (raw layer merges to 'riskrelated' — the hyphenated print is carried in the note's verbatim table; the evidence range preserves the raw merge); 'Twin concordance study' wraps across two lines in its STUDY TYPE cell; the figure's text extracts after the table in jumbled order with the indd footer slug interleaved mid-figure (evidence ranges 10-12 quote the raw order; the panel assignment is bbox+VLM-pinned); the 'nature vs nurture' curly quotes are as printed. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (time-axis-map, comparison-axis-map), a visual block + verbatim table block + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the COPD ×3 and schizophrenia ×2 example threads), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (clinical-therapeutic-trials — produced in parallel in this same batch, referenced by design; quantifying-risk; bias-and-study-errors; incidence-prevalence — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own two carried attributed + two KYP originals marked), and a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints study designs, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical examples (COPD, schizophrenia) are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention shared with staging-ph28 and staging-pubh5; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh1/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'observational-studies-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (observational-studies-map, ObservationalStudiesMap in visuals/pubhealth-p1.tsx, viewBox 0 0 1102 1170): the table as an ORIGINAL KYP ADAPTATION (seven cards in printed order carrying design → measure → example, both red mnemonics attributed, plus the two-example-threads card) and the timeline figure as an ORIGINAL_KYP_REDRAW (the book's vertical Past-top axis re-arranged as a horizontal KYP axis with four lanes — cross-sectional, case-control, retrospective cohort, prospective cohort — every printed label preserved) — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

@@ -50,6 +50,11 @@ import { drugReactionsNeurologic } from "./drug-reactions-neurologic";
 import { pupilSizeCyp450 } from "./pupil-size-cyp450";
 import { drugNames } from "./drug-names";
 import { biologicAgents } from "./biologic-agents";
+import { observationalStudies } from "./observational-studies";
+import { clinicalTherapeuticTrials } from "./clinical-therapeutic-trials";
+import { bradfordHillCriteria } from "./bradford-hill-criteria";
+import { quantifyingRisk } from "./quantifying-risk";
+import { vitalStatisticsPopulations } from "./vital-statistics-populations";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -270,6 +275,11 @@ export const usmleNotes: KypUsMLENote[] = [
   pupilSizeCyp450,
   drugNames,
   biologicAgents,
+  observationalStudies,
+  clinicalTherapeuticTrials,
+  bradfordHillCriteria,
+  quantifyingRisk,
+  vitalStatisticsPopulations,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

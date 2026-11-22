@@ -1,0 +1,46 @@
+{
+  "topicId": "bradford-hill-criteria",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "bradford-hill-criteria",
+      "requiredInKYP": true,
+      "visualId": "bradford-hill-criteria-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257 (lower)"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The printed lower-portion definition-list of book 257 (pdf 279 lower): the Off-label drug use block (navy heading + definition paragraph + example line) and the Bradford Hill criteria block (navy heading + lead-in + nine term/definition rows) — the topic's entire printed scope",
+      "sourceFigureDescription": "TWO-COLUMN DEFINITION LIST, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh3/vlm-census.txt — VLM available this session): the lower portion of book 257 prints as navy/dark-blue bold term headings on the left with one-line definitions on the right, thin light rules separating the rows. BLOCK 1 'Off-label drug use' (navy heading): 'Use of a drug to treat a disease in a form, population group, or dosage that is not specifically approved by the FDA. Reasons for off-label use include treatment of an illness with no approved pharmacologic treatment or exploring alternative treatments after failure of approved options. Example: use of tricyclic antidepressants for treating neuropathic/chronic pain.' BLOCK 2 'Bradford Hill criteria' (navy heading): lead-in 'A group of principles that provide limited support (ie, necessary but not sufficient criteria) for establishing evidence of a causal relationship between presumed cause and effect.' then NINE term/definition rows in printed order — Strength: 'Association does not necessarily imply causation, but the stronger the association, the more evidence for causation.'; Consistency: 'Repeated observations of the findings in multiple distinct samples.'; Specificity: 'The more specific the presumed cause is to the effect, the stronger the evidence for causation.'; Temporality: 'The presumed cause precedes the effect by an expected amount of time.'; Biological gradient: 'Greater effect observed with greater exposure to the presumed cause (dose-response relationship).'; Plausibility: 'A conceivable mechanism exists by which the cause may lead to the effect.'; Coherence: 'The presumed cause and effect do not conflict with existing scientific consensus.'; Experiment: 'Empirical evidence supporting the presumed cause and effect (eg, animal studies, in vitro studies).'; Analogy: 'The presumed cause and effect are comparable to a similar, established cause and effect.' NO red text in the lower portion (unlike the upper figure's red 'Work?'/'Market?'); no boxes or shading around the criteria; no margin notes, mnemonics, asterisk footnotes, or images.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bradford-hill-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole registry visual (BradfordHillMap in visuals/pubhealth-p3.tsx, viewBox 0 0 1102 1120): the OFF-LABEL DRUG USE panel (the printed definition verbatim with the three FDA-approval axis chips FORM / POPULATION GROUP / DOSAGE, the two printed reason chips, and the printed tricyclic-antidepressant example chip); the NECESSARY BUT NOT SUFFICIENT verdict band (the printed lead-in verbatim, the association-to-causation bridge glyph); and the 3x3 criteria grid with every criterion name and printed definition verbatim, a vector glyph per criterion, the ASKS question, and the MEASURE/THINK/GATE color tags; the full printed text is ALSO carried verbatim in the note's table blocks (blocks[1], blocks[2]), core.what, the decoder list block (blocks[3]), and recall[0-9]",
+      "productionStatus": "pilot-complete",
+      "plannedKypVisualId": "bradford-hill-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "bradford-hill-criteria",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The topic's printed scope — the LOWER portion of pdf 279 / book 257 (pinned split; the upper portion belongs to clinical-therapeutic-trials) — is ONE visual asset: the two-block definition-list (sv1: the Off-label drug use heading+paragraph+example and the Bradford Hill criteria lead-in + nine term/definition rows), accounted for as an ORIGINAL KYP ADAPTATION: nothing is reproduced; ONE registry visual (bradford-hill-map, BradfordHillMap in visuals/pubhealth-p3.tsx, viewBox 0 0 1102 1120) rebuilds every printed word as original KYP vector art (the off-label panel with the three FDA-approval axis chips, the necessary-but-not-sufficient verdict band on the printed lead-in, and the 3x3 criteria grid with a glyph per criterion and the KYP MEASURE/THINK/GATE grouping), and the full printed text is additionally carried verbatim in the note's two table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the printed row order of all nine criteria (exactly NINE — none missing, none extra), the color furniture (navy bold term headings, thin rules, no red text below the split), and the absence of margin mnemonics and images; the pinned boundary (phase figure ends at 'Open label.', then the 'Off-label drug use' heading) is clean. getBBox self-audit PASSED: 137 texts, 0 overlaps, 0 outside the viewBox. STAGED under .usmle-pipeline-cache/staging-pubh3/ — promotion into content/ is owned downstream."
+}

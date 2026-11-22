@@ -1,0 +1,373 @@
+{
+  "topicId": "quantifying-risk",
+  "title": "Quantifying Risk: The 2×2 Table and Its Measures",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      280
+    ],
+    "bookPages": "258–258"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header (book 258, the 'SEC TION II' header-space extraction artifact, carried as-is), the PUBLIC HEALTH SCIENCES banner with the subsection banner fragment 'c/(c + d)AND BIOSTATISTICS' interleaving the margin fraction in the text layer, and the THREE TOP-MARGIN FORMULA LABELS stacked above the 2×2 ('Odds ratio =', 'Relative risk =', 'Attributable risk =' — present in the text layer but visually obscured by the teal running-header band in the digital render, adjudication B; content identical to the table's FORMULA column)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Odds ratio =\n\n258\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\nRelative risk =\n\na/(a + b)\n\nc/(c + d)AND BIOSTATISTICS\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY\nAttributable risk =",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed lead-in sentence and the classic 2×2's axes — 'Definitions and formulas are based on the classic 2 × 2 or contingency table.' with the stacked row-risk fractions a/(a+b) and c/(c+d), the COLUMN label 'Disease or outcome' and the ROW label 'Exposure or intervention' (the row label prints vertically in the book, VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Definitions and formulas are based on the classic\n2 × 2 or contingency table.\n\na\na+b\n\nc\nc+d\n\nDisease or outcome\nExposure\nor intervention",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table title 'Quantifying risk', the margin OR formula stack (a/c over b/d = ad over bc), and the 2×2's four cell letters a b / c d",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Quantifying risk\n\na/c\nad\n=\nb/d\nbc\n\na\n\nb\n\nc\n\nd",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's column headers as printed — TERm / DEFINITION / EXAmPLE (small-caps 'm' artifacts, carried as printed; the fourth header FORmULA prints later in the text stream, quoted below)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "TERm\n\nDEFINITION\n\nEXAmPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (Odds ratio) — term + definition: 'Typically used in case-control studies. Represents the odds of exposure among cases (a/c) vs odds of exposure among controls (b/d).' with the three printed interpretation lines (OR = 1 → equal; OR > 1 → greater in cases; OR < 1 → greater in controls; each arrow preceded by an invisible \\x8e byte in the raw layer, stripped by norm())",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Odds ratio\n\nTypically used in case-control\nstudies. Represents the odds of\nexposure among cases (a/c) vs odds\nof exposure among controls (b/d).\nOR = 1 → odds of exposure are\nequal in cases and controls.\nOR > 1 → odds of exposure are\ngreater in cases.\nOR < 1 → odds of exposure are\ngreater in controls.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (Odds ratio) — the worked example (20/30 lung-cancer patients and 5/25 healthy individuals report smoking → OR is 8; 8 times more likely to have a history of smoking) plus First Aid's OWN red in-cell mnemonic 'You take a case to the OR.' (printed in red in the EXAMPLE cell, VLM-confirmed, carried ATTRIBUTED)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "If in a case-control study, 20/30 patients\nwith lung cancer and 5/25 healthy\nindividuals report smoking, the OR is\n8; so the patients with lung cancer are\n8 times more likely to have a history of\nsmoking.\nYou take a case to the OR.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (Relative risk) — definition: 'Typically used in cohort studies. Risk of developing disease in the exposed group divided by risk in the unexposed group.' with the three printed interpretation lines (RR = 1 → no association; RR > 1 → ↑ disease occurrence; RR < 1 → ↓ disease occurrence)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Typically used in cohort studies.\nRisk of developing disease in the\nexposed group divided by risk in\nthe unexposed group.\nRR = 1 → no association between\nexposure and disease.\nRR > 1 → exposure associated with\n↑ disease occurrence.\nRR < 1 → exposure associated with\n↓ disease occurrence.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (Relative risk) — the worked example (5/10 radiation-exposed vs 1/10 unexposed diagnosed with cancer → RR is 5; 5 times greater risk) plus the printed rare-disease bridge 'For rare diseases (low prevalence), OR approximates RR.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "If 5/10 people exposed to radiation are\ndiagnosed with cancer, and 1/10 people\nnot exposed to radiation are diagnosed\nwith cancer, the RR is 5; so people\nexposed to radiation have a 5 times\ngreater risk of developing cancer.\nFor rare diseases (low prevalence), OR\napproximates RR.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 (Relative risk reduction) — term + definition: 'The proportion of risk reduction attributable to the intervention/treatment (ART) as compared to a control (ARC).' (the printed ART/ARC abbreviations)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Relative risk\nreduction\n\nThe proportion of risk reduction\nattributable to the intervention/\ntreatment (ART) as compared to a\ncontrol (ARC).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 (Relative risk reduction) — the worked example (2% flu-shot recipients vs 8% unvaccinated develop the flu → RR = 2/8 = 0.25, and RRR = 0.75) plus the stacked formula 'RRR = 1 – RR' and 'RRR = (ARC – ART)/ARC' (en dashes as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "If 2% of patients who receive a flu\nshot develop the flu, while 8% of\nunvaccinated patients develop the flu,\nthen RR = 2/8 = 0.25, and RRR = 0.75.\n\nRRR = 1 – RR\n(ARC – ART)\nRRR =\nARC",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 (Attributable risk) — term + definition ('The difference in risk between exposed and unexposed groups.') + the worked example (lung-cancer risk 21% in people who smoke vs 1% in people who don't → the attributable risk is 20%; right single quote in don't as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Attributable\nrisk\n\nThe difference in risk between\nexposed and unexposed groups.\n\nIf risk of lung cancer in people who\nsmoke is 21% and risk in people who\ndon’t smoke is 1%, then the attributable\nrisk is 20%.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 (Attributable risk) — the stacked formulas: AR = a/(a+b) − c/(c+d) (true minus signs as printed) and AR% = (RR − 1)/RR × 100",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "a\nc\n−\na+b c+d\nRR − 1\n× 100\nAR% =\nRR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 5 (Absolute risk reduction) — term + definition ('The difference in risk (not the proportion) attributable to the intervention as compared to a control.' — the printed proportion-vs-difference contrast with RRR) + the worked example (8% placebo vs 2% flu vaccine → ARR = 8%–2% = 6% = 0.06; en dash as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Absolute\nrisk\nreduction\n\nThe difference in risk (not the\nproportion) attributable to the\nintervention as compared to a\ncontrol.\n\nIf 8% of people who receive a placebo\nvaccine develop the flu vs 2% of people\nwho receive a flu vaccine, then ARR =\n8%–2% = 6% = 0.06.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 6 (Number needed to treat) — term + definition ('Number of patients who need to be treated for 1 patient to benefit. Lower number = better treatment.') + formula NNT = 1/ARR (the row prints NO example cell — VLM-confirmed, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Number\nneeded to\ntreat\n\nNumber of patients who need to\nbe treated for 1 patient to benefit.\nLower number = better treatment.\n\nNNT = 1/ARR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 7 (Number needed to harm) — term + definition ('Number of patients who need to be exposed to a risk factor for 1 patient to be harmed. Higher number = safer exposure.') + formula NNH = 1/AR (the 'AR' prints in red, VLM-read; the row prints NO example cell — VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Number\nneeded to\nharm\n\nNumber of patients who need to\nbe exposed to a risk factor for 1\npatient to be harmed. Higher\nnumber = safer exposure.\n\nNNH = 1/AR",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 8 (Case fatality rate) — term + definition ('Percentage of deaths occurring among those with disease.') and, interleaved by the text layer, the Relative-risk TERM label of row 2 (emitted out of order), the indd footer slug 'FAS1_2026_06-PubHealth.indd 258', and the CFR worked example (4 patients die among 10 cases of meningitis → case fatality rate is 40%)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "Case fatality\nrate\n\nPercentage of deaths occurring\namong those with disease.\n\nRelative risk\n\nFAS1_2026_06-PubHealth.indd 258\n\nIf 4 patients die among 10 cases of\nmeningitis, case fatality rate is 40%.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The FORMULA column header as printed (FORmULA, small-caps artifact) and the Odds ratio formula stack — OR = a/c over b/d = ad over bc (linearized in the note as OR = a/c ÷ b/d = ad/bc)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "FORmULA\n\nOR =\n\na/c ad\n=\nb/d bc",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The OR row's worked grid printing inside the FORMULA column — cell letters a b / c d with values 20 5 / 10 20 (a = 20, b = 5, c = 10, d = 20; the final d-value '20' is emitted after the 'RR =' label in the raw text stream — a pdftotext ordering quirk, documented), the grid that yields ad/bc = (20×20)/(5×10) = 8",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "a\n\nb\n20\n\n5\n\nc\n\nd\n10\n\nRR =\n\n20",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The RR row's formula stack — RR = a/(a + b) over c/(c + d) — and the RR worked grid printing inside the FORMULA column: cell letters a b / c d with values 5 5 / 1 9 (a = 5, b = 5, c = 1, d = 9; RR = (5/10) ÷ (1/10) = 5)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "a/(a + b)\nc/(c + d)\n\na\n\nb\n5\n\n5\n\nc\n\nd\n1\n\n9",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The remaining stacked formulas of the FORMULA column — AR =, ARR = with the printed reversal ARR = c/(c+d) − a/(a+b) (control minus treated, adjudication C — the mirror image of AR's exposed minus unexposed), and CFR% = deaths/cases × 100",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "AR =\n\nARR =\n\nc\na\n−\nc+d a+b\n\nCFR% =\n\ndeaths\n× 100\ncases",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print timestamp footer — 12/16/25 12:46 PM (page identity, book 258)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "quote": "12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "quantifying-risk-map"
+  ],
+  "mechanismIds": [
+    "two-by-two-engine",
+    "trial-to-bedside-cascade"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed table — 4 patterns (the case-control OR stem computed by ad/bc, the cohort RR stem, the flu-shot NNT cascade stem, the meningitis CFR stem), 4 traps (OR vs RR design router, RR 0.25 vs RRR 0.75 complement, AR vs ARR subtraction orientation, NNT vs NNH reciprocal direction), 3 pivots (the transposed-grid move-zero router, the answer-grammar router, the rare-disease OR≈RR router), and 9 recall cards covering all eight printed rows.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions, examples, and formulas only; the attack structure, the distractor designs, and the one-trial-every-number question shape are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "reading-direction-grammar",
+      "summary": "The two-reading-directions engine and the RATIO · DIFFERENCE · RECIPROCAL grammar — read the 2×2 BY ROWS for the two risks a/(a+b) and c/(c+d) (the cohort/trial direction: divide → RR, subtract → AR down / ARR up, invert → NNT/NNH) and BY COLUMNS for the two exposure odds a/c and b/d (the case-control direction: OR = a/c ÷ b/d = ad/bc), with the question's units (times / points / patients) picking the measure family — plus the AR-READS-DOWN / ARR-READS-UP sign rule explaining the printed reversed orientation of the ARR formula.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the formulas and the ⊕/⊖ grid but never states the reading-direction logic, the three-verb grammar, or why ARR's subtraction is reversed relative to AR's; the synthesis is KYP's.",
+      "location": "core.keyIdea + mechanisms[0] two-by-two-engine + mechanisms[1] trial-to-bedside-cascade + blocks[2] the decoder list block + blocks[3] the steps block + the registry visual's Zone A reading cards and Zone C grammar strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "Four mnemonic entries: First Aid's OWN 'You take a case to the OR.' carried ATTRIBUTED (printed in red in the OR row's EXAMPLE cell on THIS page, book 258); First Aid's OWN 'Cohort = relative risk.' carried ATTRIBUTED with its printed location cited (book 256 / pdf 278 — it does NOT print on pdf 280, adjudication A); and two KYP originals marked as such (RATIO · DIFFERENCE · RECIPROCAL — the three verbs of the 2×2; AR READS DOWN, ARR READS UP — the sign rule).",
+      "origin": "outside-first-aid",
+      "rationale": "Only one mnemonic prints on pdf 280 (the red 'You take a case to the OR.'); 'Cohort = relative risk.' is First Aid's own from the study-designs page, attributed with its location; the two ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's Zone C attribution lines"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The nursing-home flu-vaccine miniCase — how many residents must be vaccinated to prevent one case — with the correct answer completing the cascade (ARR = 8% − 2% = 0.06 → NNT = 1/0.06 ≈ 17, rounded up) and distractors parking at the cascade's other levels (0.06 the ARR itself, 6 the percentage points, 0.75 the RRR).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the flu-shot example through ARR (0.06) and the NNT row without an example; the vignette, the four options, the rounding rule, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase + clinical[0] the bedside re-derivations list block"
+    },
+    {
+      "id": "arithmetic-continuation-layer",
+      "summary": "The KYP arithmetic continuations of the printed examples, every one marked as such: NNT = 1/0.06 ≈ 16.7 → 17 for the flu-shot trial (the NNT row prints no example), NNH = 1/0.20 = 5 for the smoking example (the NNH row prints no example), AR% = (21−1)/21 ≈ 95% of a smoker's lung-cancer risk, the OR cross-product check ad/bc = (20×20)/(5×10) = 8, and the worked-grid fills for the printed 20/30-vs-5/25 and 5/10-vs-1/10 examples.",
+      "origin": "outside-first-aid",
+      "rationale": "The source computes OR 8, RR 5, RR 0.25, RRR 0.75, AR 20%, ARR 0.06, and CFR 40% but never carries any example through the NNT/NNH/AR% reciprocals; those steps and the grid fills are KYP's teaching, explicitly marked.",
+      "location": "clinical[0] + mechanisms[1] + blocks[3] the steps block + usmle.patterns + the registry visual's cards 4/6/7"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 280 / book 258, entirely the PUBLIC HEALTH SCIENCES—EPIDEMIOLOGY AND BIOSTATISTICS subsection, carrying the classic 2×2 contingency table (the printed lead-in 'Definitions and formulas are based on the classic 2 × 2 or contingency table.'; columns 'Disease or outcome' ⊕/⊖, rows 'Exposure or intervention' ⊕/⊖ — the row label prints vertically in the book, VLM-confirmed, carried horizontal in the KYP visual as a documented adaptation; cells a b / c d), the three top-margin formula labels stacked above it, the 'Quantifying risk' table (columns TERm / DEFINITION / EXAmPLE / FORmULA, 8 rows in printed order: Odds ratio, Relative risk, Relative risk reduction, Attributable risk, Absolute risk reduction, Number needed to treat, Number needed to harm, Case fatality rate — carried VERBATIM in the note's table block, blocks[1]), and the two worked grids inside the FORMULA column (OR row a b = 20 5 / c d = 10 20; RR row a b = 5 5 / c d = 1 9). CENSUS (pdfimages + VLM): ZERO raster images — pure vector text and rules; the only printed graphic elements are the two worked grids, the ⊕/⊖ symbols, and the table rules; the NNT and NNH rows print EMPTY example cells (VLM-confirmed, carried as printed). VLM WAS AVAILABLE this session (glm-4.6v at 120dpi, ONE full-page pass + supplementary passes, staging-pubh4/vlm-census.txt): confirmed the 2×2 orientation (Disease or outcome = columns, Exposure or intervention = rows, a top-left), the eight rows in printed order with every definition/example/formula, both worked grids (OR 20 5 / 10 20; RR 5 5 / 1 9), the red furniture ('You take a case to the OR.' in red in the OR EXAMPLE cell with 'case' and 'OR' red; the 'AR' of 'NNH = 1/AR' in red), the teal header band, bold dark-blue TERM names, and no photos/margin notes/asterisk footnotes. ADJUDICATIONS (documented in the note header + here): (A) the batch brief anticipated TWO in-cell FA mnemonics; only ONE prints on pdf 280 — 'You take a case to the OR.' (red, OR row EXAMPLE cell); 'Cohort = relative risk.' does NOT print on this page (text layer + pdftotext -layout + VLM agree: 'No cohort/relative-risk mnemonic anywhere on this page'); it prints on pdf 278 / book 256 (observational studies) and is carried ATTRIBUTED with that location cited. (B) The three top-margin formula labels ('Odds ratio =', 'Relative risk =', 'Attributable risk =') are present and complete in the text layer but VISUALLY OBSCURED in the digital edition's render — pixel-level forensics (pdftoppm + pdftocairo, agreeing) show the teal running-header band drawn over the top two labels and the third printing white-on-white; the VLM could not read them as a visual block; carried from the text layer, whose content is identical to the OR/RR/AR rows' FORMULA cells (which render legibly). (C) The ARR formula prints as c/(c + d) − a/(a + b) — control minus treated — the reverse orientation of AR's a/(a + b) − c/(c + d); both carried exactly as printed, with the sign logic taught (each subtraction oriented to be positive for its own question: harm attributed downward onto the exposed, benefit measured upward from the treated). (D) Stacked fraction formulas are linearized in the note's table block (numerator ÷ denominator / numerator − denominator); the raw stacked text-layer order is quoted verbatim in sourceEvidence. QUIRKS carried + documented: 'SEC TION II' header-space artifact (known, as-is); the banner interleaves with the margin fraction ('c/(c + d)AND BIOSTATISTICS'); small-caps artifacts (TERm / EXAmPLE / FORmULA / EPIDEmIOLOGY); dash variance as printed (RRR row en dashes 'RRR = 1 – RR', '(ARC – ART)', '8%–2%' vs AR/ARR true minus signs); right single quote in don't; invisible \\x8e bytes before each → arrow (pdftotext artifact, stripped by norm()); the ⊕/⊖ printed furniture; the Relative-risk TERM label emitted late in the raw text stream (quoted with the CFR row); the pdftotext ordering quirk of the OR grid's d-value '20' emitted after the 'RR =' label. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (two-by-two-engine, trial-to-bedside-cascade), 4 patterns, 4 traps, 3 pivots, 9 recall, 4 related (likelihood-ratios, diagnostic-test-performance, observational-studies, incidence-prevalence — all Public Health census topicIds), 4 crossLinks, 4 mnemonics (2 First Aid's own carried attributed with locations + 2 KYP originals marked), a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option), a clinical block (the five printed worked examples re-derived at the bedside, with the NNT/NNH/AR% continuations marked as KYP arithmetic), and NO DrugCards — the DrugCard layer is NOT APPLICABLE to a biostatistics page (no drug rows print; nothing folded, the shape simply does not apply); (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-pubh4/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'quantifying-risk-map' is therefore not yet in visuals/registry.tsx by design); (4) the page's two visual assets are implemented as ORIGINAL KYP ART in ONE registry visual (quantifying-risk-map, QuantifyingRiskMap in visuals/pubhealth-p4.tsx, viewBox 0 0 1102 1398, in-browser getBBox audit: 138 texts, 0 overlaps, 0 outside viewBox): Zone A the classic 2×2 as the centerpiece engine (cells a b / c d with ⊕/⊖ furniture, the two reading-direction cards — rows → the risks, columns → the odds — and the three top-margin formulas strip), Zone B the eight measure rows as spokes in two columns (each card: family chip, formula, printed worked example, interpretation strip; the OR and RR cards carry the two printed worked grids), and Zone C the RATIO · DIFFERENCE · RECIPROCAL grammar strip with the two attributed First Aid mnemonics — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

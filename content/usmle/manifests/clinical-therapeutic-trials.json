@@ -1,0 +1,308 @@
+{
+  "topicId": "clinical-therapeutic-trials",
+  "title": "Clinical Therapeutic Trials and the Drug Development Pipeline",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      279
+    ],
+    "bookPages": "257 (upper)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity + the pinned SPLIT BOUNDARY's upper side — the running head PUBLIC HEALTH SCIENCES, the navy heading line-wrapped as “Clinical therapeutic / trial”, the subsection banner with its small-caps extraction artifact “▶ PUBLIC HEALTH SCIENCES—EPIdEmIoLogy ANd BIoSTATISTICS”, book page 257, and the known “SEC TION II” header-space artifact — the topic owns from here down to the rule above “Off-label drug use” (line 86 of the raw page, never crossed by any quote)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\nClinical therapeutic\ntrial\n\n▶ PUBLIC HEALTH SCIENCES—EPIdEmIoLogy ANd BIoSTATISTICS\n\n257\n\nSEC TION II\n",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The printed intro — experimental study involving humans; compares therapeutic benefits of ≥2 interventions (eg, treatment vs placebo, treatment vs treatment); study quality improves when randomized, controlled, and double-blinded (neither subject nor researcher knows whether the subject is in the treatment or control group); triple-blind = additional blinding of the researchers analyzing the data",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Experimental study involving humans. Compares therapeutic benefits of ≥2 interventions (eg,\ntreatment vs placebo, treatment vs treatment). Study quality improves when clinical trial is\nrandomized, controlled, and double-blinded (ie, neither subject nor researcher knows whether\nthe subject is in the treatment or control group). Triple-blind refers to additional blinding of the\nresearchers analyzing the data.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Crossover clinical trial — a series of ≥2 treatments on a subject; order randomized; washout period between treatments; subjects serve as their own controls",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Crossover clinical trial—compares the effect of a series of ≥2 treatments on a subject. Order in\nwhich subjects receive treatments is randomized. Washout period occurs between treatments.\nAllows subjects to serve as their own controls.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Intention-to-treat analysis — all subjects analyzed by original, randomly assigned treatment; no one excluded, “once randomized, always analyzed”; attempts to avoid bias from attrition, crossover, and nonrandom noncompliance, but may dilute the true effects of intervention",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Intention-to-treat analysis—all subjects are analyzed according to their original, randomly assigned\ntreatment. No one is excluded, ie, once randomized, always analyzed. Attempts to avoid bias from\nattrition, crossover, and nonrandom noncompliance, but may dilute the true effects of intervention.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "As-treated analysis — all subjects analyzed according to the treatment they actually received; ↑ risk of bias (the ↑ extracts at the line end, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "As-treated analysis—all subjects are analyzed according to the treatment they actually received. ↑\nrisk of bias.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Per-protocol analysis — subjects who fail to complete treatment as originally, randomly assigned are excluded; ↑ risk of bias",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Per-protocol analysis—subjects who fail to complete treatment as originally, randomly assigned are\nexcluded. ↑ risk of bias.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pipeline sentence — “Clinical trials occur after preclinical studies and consist of five phases (“Can I SWIM?”).” — plus the figure's FDA approval label, which prints ABOVE the arrow between the Phase 3 and Phase 4 boxes (VLM-confirmed position)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Clinical trials occur after preclinical studies and consist of five phases (“Can I SWIM?”).\nFDA approval",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure stations 1-2 as they extract from the rail — Phase 0 (initial pharmacokinetic and pharmacodynamic assessment via microdosing; often skipped) and Preclinical (test drug in lab animals and in vitro experiments)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Phase 0\nInitial pharmacokinetic and\npharmacodynamic assessment via\nmicrodosing. Often skipped.\n\nPreclinical\nTest drug in lab animals\nand in vitro experiments",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure stations 3-4 — Phase 1 (safety assessment via dose escalation; determine maximum tolerable dose) and Phase 2 (efficacy assessment — “does it Work?” — plus additional data on short-term adverse effects)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Phase 1\nSafety assessment via dose\nescalation. Determine\nmaximum tolerable dose.\n\nPhase 2\nEfficacy assessment (does it\nWork?) Provides additional\ndata on short-term\nadverse effects.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure station 5 + the first standalone “?” glyph + the Sample row header — Phase 3 (effectiveness assessment via comparison with current standard of care/placebo, “any Improvement?”); the “?” is one of the figure's two large question marks beside the phase 2/3 sample groups (VLM)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Phase 3\nEffectiveness assessment via\ncomparison with current standard of\ncare/placebo (any Improvement?)\n\n?\nSample",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE ADJUDICATED PIN, side A — the Sample row's FIRST column text, which the PRINT places under PHASE 0 (microdosing): “Very small number of healthy volunteers or patients with disease of interest. Open label.” (pdftotext -layout column position + VLM both put it under Phase 0, correcting the batch brief's Phase 1 pin — printed rows govern)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Very small number of healthy\nvolunteers or patients\nwith disease of interest.\nOpen label.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE ADJUDICATED PIN, side B — the Sample row's SECOND column text, which the PRINT places under PHASE 1 (dose-escalation safety): “Small number of healthy volunteers or patients with disease of interest. Open label.”",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Small number of healthy\nvolunteers or patients\nwith disease of interest.\nOpen label.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Phase 2 sample text — moderate number of patients with disease of interest; randomized, controlled, anonymized (the anonymized phase, beside which the figure prints one of its two large “?” marks)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Moderate number of patients with\ndisease of interest. Randomized,\ncontrolled, anonymized.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Figure station 6 + the second standalone “?” glyph — Phase 4 (provides data on long-term or rare adverse effects, “can it stay on the Market?”), reached only AFTER the FDA approval gate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Phase 4\nProvides data on long-term or\nrare adverse effects (can it\nstay on the Market?)\n\n?",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Phase 3 sample text — large number of patients with disease of interest; randomized, controlled, anonymized (the second anonymized phase with its large “?” mark)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Large number of patients with\ndisease of interest. Randomized,\ncontrolled, anonymized.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Phase 4 sample text — postmarketing surveillance of patients with disease of interest; open label (the last cell of the upper portion before the pinned Off-label boundary)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257"
+      },
+      "quote": "Postmarketing surveillance of\npatients with disease of interest.\nOpen label.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "clinical-trials-map"
+  ],
+  "mechanismIds": [
+    "rct-quality-ladder",
+    "analysis-population-fork"
+  ],
+  "kypExtensions": [
+    {
+      "id": "exam-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the dropout-still-counted intention-to-treat recognition, the two-regimens-with-drug-free-interval crossover recognition, the microdose-PK/PD phase 0 profile, the post-approval rare-adverse-effect phase 4 profile), 4 traps (double- vs triple-blind party counts, the three analysis populations, phase 2 efficacy vs phase 3 effectiveness, phase 0 vs phase 1), 3 pivots (the design-vs-blinding router, the analysis-population router, the SWIM phase router), and 8 recall cards covering every printed block.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions and the figure; the attack structure, the distractor designs, and the reverse-direction question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "three-pass-decode-protocol",
+      "summary": "The three-pass reading protocol (PASS 1 the design ladder: assigned-in-humans, randomized/controlled/double-/triple-blinded, crossover with washout; PASS 2 the analysis population: original assignment vs actually received vs completers only; PASS 3 the phase, via First Aid's own SWIM letters) plus the bias-direction synthesis — ITT preserves the randomization into the statistics and dilutes toward the null while as-treated and per-protocol break it chasing the cleaner comparison.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three vocabularies side by side but never states the reading order, the party-counting rule for blinding, or the direction each analysis pushes the measured effect; the synthesis is KYP's.",
+      "location": "core.keyIdea + mechanisms[0] and [1] + blocks[3] the steps block + the visual's ladder/fork/rail zones"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic layer: First Aid's OWN two hooks carried VERBATIM and ATTRIBUTED — “Can I SWIM?” (the pipeline sentence's own acronym, printed with “I SWIM” in red; S = Safety, W = Work, I = Improvement, M = Market, the source's red caption words) and “once randomized, always analyzed” (printed inside the ITT paragraph) — plus TWO KYP originals, marked: “THREE BLINDS: SUBJECT, SCIENTIST, STATISTICIAN” and “ALL IN · AS GIVEN · AS PLANNED”. No mnemonic prints in the page's margins (VLM-confirmed); the SWIM letter-pinning on the rail is KYP's overlay of the attributed phrase.",
+      "origin": "outside-first-aid",
+      "rationale": "The two formulas print in the source's own body text (attributed, not counted among KYP's codes); the two ALL-CAPS codes and the pinning overlay are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's rail badges"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The intention-to-treat mini-case — a randomized double-blind anticoagulant trial whose nausea-driven noncomplier returns to warfarin yet is counted in her original arm, with the commentator's “understates the benefit” complaint — routing to ITT (the printed dilution trade) against three distractors: as-treated and per-protocol (the two ↑-bias rules that WOULD produce the larger number) and triple-blinding (the blinding layer misread as an analysis-population rule).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the three rules as definitions only; the vignette, the four options, and the design-layer-vs-analysis-layer distinction are KYP's design.",
+      "location": "usmle.miniCase + blocks[4] the compare block"
+    },
+    {
+      "id": "generalization-and-bridge-layer",
+      "summary": "The KYP-context generalizations, every one flagged as such: the bias channels each design rung closes (confounding, placebo effects, observer bias, analytic bias), why ITT estimates real-world effectiveness and why regulators favor it, why washout prevents first-treatment contamination and why self-control halves the needed sample, why rare adverse effects surface only in open-label postmarketing surveillance, the preclinical→market regulatory reading of a package insert's history, and the bridges to the sibling topics (observational designs assign nothing; the trial's 2×2 feeds RR/ARR/NNT; the bias vocabulary of bias-and-study-errors).",
+      "origin": "outside-first-aid",
+      "rationale": "The source is a definitions-and-figure page; every mechanism, regulatory, and statistical-logic statement beyond the printed words is KYP context, explicitly marked in the note and never presented as printed text.",
+      "location": "core.why + mechanisms + blocks[2] the list block + blocks[5] the exam callout + clinical block + related + crossLinks"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "SPLIT PAGE (the p252 pharmacology convention, boundaries pinned): pdf 279 / book 257 UPPER — the topic owns everything from the navy “Clinical therapeutic trial” heading (line-wrapped in print) down to the rule immediately above “Off-label drug use” (raw line 86); the lower portion (Off-label drug use + Bradford Hill criteria) belongs to bradford-hill-criteria (pubh3). Every evidence quote is pinned to raw lines 1-84; the indd footer slug (FAS1_2026_06-PubHealth.indd 257 / 12/16/25 12:46 PM) extracts BELOW the boundary and is documented, not quoted. Blocks: intro (experimental study involving humans, ≥2 interventions, randomized/controlled/double-blinded, triple-blind), Crossover clinical trial, Intention-to-treat / As-treated / Per-protocol, the five-phases sentence, and the PHASE PIPELINE FIGURE — six vector boxes left to right with FDA approval printed above the Phase 3→4 connector and the Sample row beneath — carried VERBATIM in the note's table block (blocks[1], the FDA gate carried as a row in its printed position). CENSUS (pdfimages -list): ZERO raster images — the figure is pure vector line art, despite the VLM's raster impression (pdfimages is the authority) → ORIGINAL_KYP_REDRAW. VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v full-page pass (staging-pubh2/vlm-census.txt) confirmed the six-box rail order, the FDA label position, the Sample row alignment, the color furniture (navy heading; teal bold lead-ins; red “I SWIM”/“Work?”/“Improvement?”/“Market?”; per-phase icon colors green/blue/pink/purple/tan; italicized “Randomized” in the phase 2/3 sample captions), the two large “?” glyphs beside the phase 2/3 sample groups, and the absence of margin notes/mnemonics/footnotes. ADJUDICATIONS (text layer + pdftotext -layout + VLM agree): (1) PRINTED ROWS GOVERN — the batch brief pinned “very small number of healthy volunteers or patients” to Phase 1, but the print puts “Very small number…” under PHASE 0 (microdosing) and “Small number…” under PHASE 1 (“the columns do not shift” — VLM); carried per the print in the table block, the visual's Sample row, and the recall/m10 lines; (2) “Can I SWIM?” prints in the body sentence (Can bold navy, I SWIM bold red) and its capitals land as the red caption words Safety/Work/Improvement/Market of phases 1-4 — attributed; the letter-pinning on the rail is KYP's overlay (no large letters print over the boxes), and “Can I…” is the lead-in question, not pinned to a phase (KYP reading, flagged); (3) the two standalone “?” glyphs are the figure's large pink/purple marks beside the phase 2/3 sample groups — read as anonymization markers (KYP reading, flagged); (4) VLM caption misreads adjudicated to the text layer (“Initial pharmacokinetics” → “Initial pharmacokinetic and…”; “(placebo if no Improvement?)” → “care/placebo (any Improvement?)”). QUIRKS carried + documented: “SEC TION II” header-space artifact; the small-caps mixed-case banner “EPIdEmIoLogy ANd BIoSTATISTICS”; the line-wrapped navy heading (“Clinical therapeutic / trial”); the ↑ arrows of “↑ risk of bias” extracting at line ends; “Randomized, controlled, anonymized” italicized in print. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (rct-quality-ladder, analysis-population-fork), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (observational-studies, bradford-hill-criteria, bias-and-study-errors, quantifying-risk — all Public Health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own “Can I SWIM?” and “once randomized, always analyzed” carried ATTRIBUTED + two KYP originals marked), a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option), and NO DrugCards — the DrugCard layer is FOLDED (documented): the page is a design-and-phases page with no drug rows to trace; (2) outputs are STAGED under .usmle-pipeline-cache/staging-pubh2/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId “clinical-trials-map” is therefore not yet in visuals/registry.tsx by design); (3) the page's single visual asset (the phase pipeline figure) is implemented as ORIGINAL KYP VECTOR ART in ONE registry visual (clinical-trials-map, ClinicalTrialsMap in visuals/pubhealth-p2.tsx, viewBox 0 0 1102 1124): the design-quality ladder (experimental in humans → randomized → controlled → double-blinded → triple-blind), the six-station rail with First Aid's own SWIM letters pinned to phases 1-4 and the FDA gate above the Phase 3→4 connector, the printed Sample row (headcount figures, open-label vs randomized/controlled/anonymized chips, the two “?” anonymization badges), the analysis-population fork with the printed bias ratings, and the crossover timeline — with every printed label and caption ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

@@ -13,7 +13,7 @@
  ],
  "bookPages": "255–278",
  "extractionStatus": "extracted",
- "pendingTopicCount": 27,
+ "pendingTopicCount": 22,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -86,7 +86,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The 7-row observational studies table (case series, cross-sectional, case-control, cohort, twin concordance, adoption, ecological — design / measures / example columns, each with its high-yield example) plus the study-design timeline figure (cross-sectional / case-control / retrospective cohort / prospective cohort drawn on the Past-Present-Future axis with the compare-what labels). Zero rasters — table is an ORIGINAL KYP ADAPTATION, timeline is an ORIGINAL_KYP_REDRAW of pure-vector art."
   },
   {
@@ -109,7 +109,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "UPPER portion of book 257 (boundary pinned at the Off-label heading): randomized/controlled/double-/triple-blinded design, crossover with washout, intention-to-treat vs as-treated vs per-protocol analysis, the five clinical trial phases 0-4 with the 'Can I SWIM?' acronym (preclinical → phase 0 microdosing → phase 1 safety → phase 2 efficacy → phase 3 effectiveness → FDA approval → phase 4 postmarketing), and the sample-size/anonymization table per phase. The phase pipeline is pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {
@@ -133,7 +133,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "LOWER portion of book 257: off-label drug use (definition, reasons, the TCA-for-neuropathic-pain example) and the nine Bradford Hill criteria (strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment, analogy) — necessary-but-not-sufficient principles for causal inference. Pure text → ORIGINAL_KYP_ADAPTATION."
   },
   {
@@ -156,7 +156,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The classic 2×2 contingency table (exposure × disease, cells a/b/c/d) and the quantifying-risk table: odds ratio, relative risk, relative risk reduction, attributable risk, absolute risk reduction, number needed to treat, number needed to harm, case fatality rate — each with definition, worked example, and formula (OR = ad/bc, RR = a/(a+b) ÷ c/(c+d), RRR = 1−RR, AR, ARR, NNT = 1/ARR, NNH = 1/AR, CFR). Includes the in-cell FA mnemonics ('You take a case to the OR', 'Cohort = relative risk') carried attributed. Zero rasters → ORIGINAL KYP ADAPTATION with the 2×2 as a rotating decoder."
   },
   {
@@ -180,7 +180,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "UPPER portion of book 259: the mortality-rate and attack-rate rows closing the quantifying-risk table, then demographic transition — the three population pyramids (growing / stable / declining) with the birth-rate, mortality-rate, life-expectancy, and population-structure rows across development stages. Pyramids are pure-vector art → ORIGINAL_KYP_REDRAW."
   },
   {

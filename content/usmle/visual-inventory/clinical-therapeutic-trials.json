@@ -1,0 +1,46 @@
+{
+  "topicId": "clinical-therapeutic-trials",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "clinical-therapeutic-trials",
+      "requiredInKYP": true,
+      "visualId": "clinical-therapeutic-trials-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          279
+        ],
+        "bookPages": "257 (upper)"
+      },
+      "visualType": "TIMELINE",
+      "visualPurpose": "The Clinical therapeutic trial phase pipeline figure (book 257 upper): the drug development rail — Preclinical → Phase 0 (microdosing, often skipped) → Phase 1 (Safety, dose escalation, maximum tolerable dose) → Phase 2 (does it Work? efficacy, short-term adverse effects) → Phase 3 (any Improvement? effectiveness vs current standard of care/placebo) → FDA approval → Phase 4 (can it stay on the Market? postmarketing surveillance) — with the printed Sample row (very small / small / moderate / large / surveillance; open label vs randomized, controlled, anonymized) beneath",
+      "sourceFigureDescription": "PURE-VECTOR FLOW FIGURE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh2/vlm-census.txt — VLM available this session): six illustrated station boxes in a horizontal row left to right — Preclinical (microscope icon, 'Test drug in lab animals and in vitro experiments'), Phase 0 (green distribution-curve icon, 'Initial pharmacokinetic and pharmacodynamic assessment via microdosing. Often skipped.'), Phase 1 (syringe icon, 'Safety assessment via dose escalation. Determine maximum tolerable dose.'), Phase 2 (heart/stethoscope icon, 'Efficacy assessment (does it Work?) Provides additional data on short-term adverse effects.' — 'Work?' in red), Phase 3 (scales icon, 'Effectiveness assessment via comparison with current standard of care/placebo (any Improvement?)' — 'Improvement?' in red), Phase 4 (pill-bottle icon, 'Provides data on long-term or rare adverse effects (can it stay on the Market?)' — 'Market?' in red) — joined by left-to-right gray arrows, with the 'FDA approval' label ABOVE the connector between Phase 3 and Phase 4; beneath, a 'Sample' row with per-phase person-group icons (green under Phase 0, light blue under Phase 1, pink under Phase 2 + a large pink '?', purple under Phase 3 + a large purple '?', tan under Phase 4) and the printed sample texts 'Very small number of healthy volunteers or patients with disease of interest. Open label.' (Phase 0) / 'Small number…' (Phase 1) / 'Moderate number of patients with disease of interest. Randomized, controlled, anonymized.' (Phase 2) / 'Large number…' (Phase 3) / 'Postmarketing surveillance of patients with disease of interest. Open label.' (Phase 4); 'Randomized' italicized in the phase 2/3 captions. The mnemonic 'Can I SWIM?' prints in the body sentence above the figure ('Can' bold navy, 'I SWIM' bold red), not as letters over the boxes.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "clinical-trials-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole registry visual (ClinicalTrialsMap in visuals/pubhealth-p2.tsx): the design-quality ladder strip (experimental in humans → randomized → controlled → double-blinded → triple-blind, each rung with its bias channel); the six-station pipeline rail with First Aid's own SWIM letter badges pinned to phases 1-4 (S Safety, W Work, I Improvement, M Market — attributed) and the FDA approval gate above the Phase 3→4 connector; the printed Sample row rebuilt with headcount figures (1/3/5/8/9), open-label vs randomized-controlled-anonymized chips, and the two large '?' anonymization badges beside phases 2-3; the analysis-population fork (intention-to-treat vs as-treated vs per-protocol with the printed bias ratings and the dilution trade); the crossover timeline (subject → treatment A → washout → treatment B → subject = own control). Every printed label and caption is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the list block (blocks[2]), and recall[0-7]",
+      "productionStatus": "pilot-complete",
+      "plannedKypVisualId": "clinical-trials-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "clinical-therapeutic-trials",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 0,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The upper portion of book 257 (the pinned page-split) carries ONE visual asset — the Clinical therapeutic trial phase pipeline figure (sv1: six stations Preclinical→Phase 4 with the FDA approval gate and the Sample row) — accounted for as an ORIGINAL KYP_REDRAW: nothing is reproduced (the source's illustrated icons — microscope, distribution curve, syringe, heart/stethoscope, scales, pill bottle — are NOT copied); ONE registry visual (clinical-trials-map, ClinicalTrialsMap in visuals/pubhealth-p2.tsx, viewBox 0 0 1102 1124) rebuilds the pipeline as original KYP vector art (design-quality ladder, six-station rail with the attributed SWIM letter pins and FDA gate, the Sample row with headcount figures and '?' anonymization badges, the analysis-population fork, the crossover timeline), and every printed label and caption is additionally carried verbatim in the note's table block. Census: ZERO raster images (pdfimages — the figure is pure vector line art; the VLM's raster impression is adjudicated to pdfimages). VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the rail order, the FDA label position, the Sample row alignment, the two large '?' glyphs, the red emphasis words, and the pinned split boundary (Off-label drug use is the first content below the figure). ADJUDICATION (print governs): 'Very small number…' prints under Phase 0 and 'Small number…' under Phase 1 (layout + VLM agree — the brief's reverse pin corrected). SPLIT PAGE: the lower portion (Off-label + Bradford Hill) belongs to bradford-hill-criteria. STAGED under .usmle-pipeline-cache/staging-pubh2/ — promotion into content/ is owned downstream."
+}

@@ -1,0 +1,73 @@
+{
+  "topicId": "observational-studies",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "observational-studies",
+      "requiredInKYP": true,
+      "visualId": "observational-studies-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Observational studies table (book 256): the seven study designs — columns STUDY TYPE / DESIGN / MEASURES/EXAMPLE, rows Case series through Ecological study — the Epidemiology and Biostatistics subsection's opening table and the chapter's design-identification core",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh1/vlm-census.txt — VLM available this session): the running header (book page 256, SEC TION II, PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' printed twice — running header + in-body subsection ribbon), the dark navy table title 'Observational studies', column headers STUDY TYPE / DESIGN / MEASURES/EXAMPLE (small caps), then SEVEN rows in printed order with blue/navy STUDY TYPE names, dotted hairline row separators (no zebra striping), and TWO mnemonics printed in RED bold inside the MEASURES/EXAMPLE cells: Case series → Describes several individual patients with the same diagnosis, treatment, or outcome → Description of clinical findings and symptoms; has no comparison group, thus cannot show risk factor association with disease; Cross-sectional study → Frequency of disease and frequency of risk-related factors are assessed in the present → Disease prevalence; can show risk factor association with disease, but does not establish causality; Case-control study → Retrospectively compares a group of people with disease to a group without disease; looks to see if odds of prior exposure or risk factor differ by disease state → Odds ratio (OR); 'Control the case in the OR.' (red); patients with COPD had higher odds of a smoking history than those without COPD; Cohort study → Compares a group with a given exposure or risk factor to a group without such exposure; looks to see if exposure or risk factor is associated with later development of disease; can be prospective or retrospective → Disease incidence; Relative risk (RR); people who smoke had a higher risk of developing COPD than people who do not; 'Cohort = relative risk.' (red); Twin concordance study → Compares the frequency with which both monozygotic twins vs both dizygotic twins develop the same disease → Measures heritability and influence of environmental factors ('nature vs nurture'); the MZ-twin schizophrenia concordance example showing a strong genetic component; Adoption study → Compares behavioral traits/genetics in siblings raised by biological vs adoptive parents → Measures heritability and influence of environmental factors; the adopted-child schizophrenia example (risk follows the biological parent); Ecological study → Compares frequency of disease and frequency of risk-related factors across populations; measures population data not necessarily applicable to individuals (ecological fallacy) → Used to monitor population health; COPD prevalence was higher in more polluted cities.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "observational-studies-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the seven-card grid in the registry visual (ObservationalStudiesMap in visuals/pubhealth-p1.tsx, Zone B): one card per printed row in PRINTED order, each carrying the design sentence, the measure chip (NO COMPARISON GROUP / DISEASE PREVALENCE / ODDS RATIO (OR) / DISEASE INCIDENCE · RELATIVE RISK (RR) / HERITABILITY 'NATURE VS NURTURE' / HERITABILITY + ENVIRONMENT / ECOLOGICAL FALLACY), First Aid's two red mnemonics attributed in the Case-control and Cohort cards, the printed examples, and the eighth KYP card (the COPD ×3 and schizophrenia ×2 example threads); the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[2]), and recall[0-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "observational-studies-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "observational-studies",
+      "requiredInKYP": true,
+      "visualId": "observational-studies-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          278
+        ],
+        "bookPages": "256"
+      },
+      "visualType": "TIMELINE",
+      "visualPurpose": "The study-designs timeline figure (book 256): four study types — Cross-sectional, Case-control, Retrospective cohort, Prospective cohort — plotted on a vertical Past–Present–Future axis with their risk-factor boxes, arrows, and compare-labels; the page's visual grammar for how the direction of inquiry fixes each design's measure",
+      "sourceFigureDescription": "PURE VECTOR LINE ART, no raster (pdfimages: zero raster images; geometry pinned by pdftotext -bbox coordinates + pdftotext -layout + the VLM pass at 120dpi, staging-pubh1/vlm-census.txt — VLM available this session): four panel titles in a top row (Cross-sectional study | Case-control study | Retrospective cohort study | Prospective cohort study), a vertical time axis at left reading Past (top) / Present (middle) / Future (bottom), pink/red Past and green Present and blue Future background bands, rounded label boxes with circle icons on the Risk factor boxes (⊕ with the exposure / ⊖ without), and solid black arrows. Panel geometry: Cross-sectional — two 'Risk factor' boxes (⊕/⊖) at the Present level with thin connector lines down to 'Compare disease prevalence' below the Present line; Case-control — 'Controls without disease' + 'Diseased cases' at the Present level with solid arrows pointing UP (back in time) to 'Compare risk factor frequency' at the Past level; Retrospective cohort — two 'Risk factor' boxes (⊕/⊖) at the Past level with arrows pointing down (forward) to 'Compare disease incidence' at the Present level, 'Review previous records' below, and a dashed path looping back to the Past boxes; Prospective cohort — two 'Risk factor' boxes (⊕/⊖) at the Present level with arrows pointing down to 'Compare disease incidence' at the Future level. The figure's text objects extract after the table in jumbled reading order with the indd footer slug interleaved mid-figure (documented quirk); panel assignment pinned by bbox x-coordinates.",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "observational-studies-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (ObservationalStudiesMap in visuals/pubhealth-p1.tsx): the book's vertical axis re-drawn as a horizontal KYP time axis (Past · Present · Future ticks with dashed gridlines) and four lanes — Cross-sectional (two risk-factor chips at Present → 'Compare disease prevalence'), Case-control (Diseased cases + Controls without disease at Present, two back-arrows to 'Compare risk factor frequency' at Past), Retrospective cohort (risk-factor chips at Past, forward arrows to 'Compare disease incidence' at Present, the dashed 'Review previous records' loop), Prospective cohort (risk-factor chips at Present, forward arrows to 'Compare disease incidence' at Future) — every printed label preserved, the with/without circle icons redrawn as KYP vector glyphs, plus the KYP rule strip (direction → measure); the figure's semantics are also carried in mechanisms[0] time-axis-map, blocks[4] the compare block, and recall[7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "observational-studies-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "observational-studies",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the Observational studies table (sv1: SEVEN rows, columns STUDY TYPE / DESIGN / MEASURES/EXAMPLE, from Case series through Ecological study) and the study-designs timeline figure (sv2: four study types on a Past–Present–Future axis with their risk-factor boxes, arrows, and compare-labels) — both accounted for in ONE registry visual (observational-studies-map, ObservationalStudiesMap in visuals/pubhealth-p1.tsx, viewBox 0 0 1102 1170): the table as an ORIGINAL KYP ADAPTATION (Zone B, seven cards in printed order with both of First Aid's red in-cell mnemonics attributed — 'Control the case in the OR.' and 'Cohort = relative risk.' — plus the two-example-threads KYP card) and the figure as an ORIGINAL_KYP_REDRAW (Zone A, the book's vertical time axis re-arranged horizontal, four lanes, every printed label preserved); nothing is reproduced, and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the seven printed rows in order, the two red in-cell mnemonics, the figure's panel geometry (circle icons, solid arrows, the case-control arrows pointing back in time), and the absence of margin mnemonics and images. ADJUDICATION: the print places 'Compare disease prevalence' in the Cross-sectional panel and 'Compare risk factor frequency' in the Case-control panel (bbox + layout + VLM agree — the batch brief had the two labels swapped; brief corrected to print, internally consistent with the printed table's measures). FULL single page, the FIRST of Public Health Sciences (pdf 277 is the chapter opener). STAGED under .usmle-pipeline-cache/staging-pubh1/ — promotion into content/ is owned downstream."
+}

@@ -1,0 +1,73 @@
+{
+  "topicId": "vital-statistics-populations",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "vital-statistics-populations",
+      "requiredInKYP": true,
+      "visualId": "vital-statistics-populations-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (upper)"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 'Quantifying risk (continued)' table's final two rows (book 259 upper): Mortality rate and Attack rate — the two population-level vital statistics that close the risk table, each with definition, worked example, and formula",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh5/vlm-census.txt — VLM available this session): under the section header band (book page 259, 'SEC TION II', PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS'), the bold blue table title 'Quantifying risk (continued)', four column headers (TERm / DEFINITION / EXAmPLE / FORmULA — the small-caps 'm' extraction artifact), then the table's final two rows in printed order: 'Mortality rate → Number of deaths (in general or due to specific cause) within a population over a defined period. → If 80 people in a town of 10,000 die over 2 years, mortality rate is 4 per 1000 per year. → Deaths/1000 people per year.' and 'Attack rate → Proportion of exposed people who become ill. → If 80 people in a town are exposed and 60 people become ill, attack rate is 75%. → People who become ill / Total people exposed (printed as a stacked fraction)'. Bold blue row labels; no margin notes, mnemonics, asterisk footnotes, or images (VLM-confirmed). The rows above these two (odds ratio through case fatality rate) print on book 258 and belong to the quantifying-risk topic.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "vital-statistics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone A (VitalStatisticsMap in visuals/pubhealth-p5.tsx): the two formula cards — Mortality rate (definition verbatim, formula chip 'Deaths/1000 people per year.', the printed worked example, and the KYP arithmetic strip ×1000 → 8 per 1000 across the window → ÷2 years → 4 per 1000 per year) and Attack rate (definition verbatim, the stacked-fraction formula, the printed worked example, and the 60/80 = 75% strip with the 10,000 decoy flagged) — plus the denominator-family decoder strip; the full rows are ALSO carried verbatim in the note's first table block (blocks[1]), core.what, the list block (blocks[3]), and recall[0-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "vital-statistics-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "vital-statistics-populations",
+      "requiredInKYP": true,
+      "visualId": "vital-statistics-populations-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259 (upper)"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Demographic transition block (book 259 upper): the one-sentence definition, the THREE population pyramids (growing / stable / declining), and the four transition rows — birth rate, mortality rate, life expectancy, population — across the three development stages",
+      "sourceFigureDescription": "PURE VECTOR FIGURE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh5/vlm-census.txt — VLM available this session): the bold blue row label 'Demographic transition' with the definition 'As a country proceeds to higher levels of development, birth and mortality rates decline to varying degrees, changing the age composition of the population.'; then the shaded row label 'Population pyramid' and THREE pyramids drawn left to right — (1) WIDE-BASED classic triangle = growing, (2) roughly RECTANGULAR/columnar = stable, (3) NARROW-BASED with a bulging middle = declining — each pyramid built of stacked horizontal bars with the Male half shaded blue and the Female half pink; axis furniture per the text layer (Age ×3, Male ×3, Female ×3, Population % ×3 — one set per pyramid, extracting INTERLEAVED in the text layer: Male, Age, Age, Age, Population pyramid, FemaleMale, Female, Male Female, Population % Population, Population, %, %); the VLM saw the vertical Age axis + Male (blue) / Female (pink) legend most clearly on the leftmost pyramid and a '← Population % →' axis under the middle one. Beneath the pyramids, four rows across the three unlabeled stage columns: Birth rate ↑↑/↓/↓↓ · Mortality rate ↑/↓/↓ · Life expectancy Short/Long/Long · Population Growing/Stable/Declining (bold blue row labels, light-blue shading on the birth/mortality rows). The 'Likelihood ratio' heading immediately follows the transition table (the pinned lower boundary of this topic).",
+      "implementationType": "ORIGINAL_KYP_REDRAW",
+      "kypVisualId": "vital-statistics-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zones B+C (VitalStatisticsMap in visuals/pubhealth-p5.tsx): the printed definition sentence as a banner; the three pyramids redrawn side by side as original KYP vector art (Male left in blue / Female right in pink, horizontal bars by Age with a horizontal 'Age' axis label and arrow, 'Population %' double-headed axis beneath, stage chips GROWING/STABLE/DECLINING with the VLM-pinned shapes — wide-based triangle, even rectangle, narrow base with bulging middle); and the four transition rows as a banded table beneath with vector arrow glyphs (birth rate's double arrows vs mortality rate's singles); the full rows are ALSO carried verbatim in the note's second table block (blocks[2]), core.what, mechanisms[1], the steps block (blocks[4]), and recall[5-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "vital-statistics-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "vital-statistics-populations",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 1,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The topic's upper portion carries TWO visual assets — sv1 the continued Quantifying-risk table's final two rows (Mortality rate, Attack rate — accounted for as an ORIGINAL KYP ADAPTATION) and sv2 the Demographic transition block (the definition sentence, the three population pyramids, and the four transition rows — accounted for as an ORIGINAL_KYP_REDRAW of pure-vector art) — both implemented in ONE registry visual (vital-statistics-map, VitalStatisticsMap in visuals/pubhealth-p5.tsx, viewBox 0 0 1102 1232): nothing is reproduced; Zone A rebuilds the two rows as formula cards with the printed worked examples dissected and the denominator-family decoder, Zones B+C redraw the three pyramids (Male left blue / Female right pink, bars by Age, Population % axes, VLM-pinned shapes wide-based/rectangular/narrow-based) with the four transition rows as a band beneath, and both tables' full text is additionally carried verbatim in the note's two table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (staging-pubh5/vlm-census.txt) confirmed the printed rows verbatim, the three pyramid shapes and left→right Growing → Stable → Declining stage order, the printed arrows (birth rate the only double-arrow row), the unlabeled stage columns, and the immediately-following 'Likelihood ratio' heading (the pinned page-split boundary). The figure's axis labels extract INTERLEAVED in the text layer (Age ×3, Male ×3, Female ×3, Population % ×3) — documented; the KYP redraw gives each pyramid the complete axis set. PINNED PAGE-SPLIT: the topic owns pdf 281 / book 259 UPPER only, ending before the 'Likelihood ratio' heading (LR → likelihood-ratios; Kaplan-Meier → survival-analysis). STAGED under .usmle-pipeline-cache/staging-pubh5/ — promotion into content/ is owned downstream."
+}

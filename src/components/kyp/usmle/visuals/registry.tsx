@@ -59,6 +59,11 @@ import { DrugReactionNeurologicMap } from "./pharm-p25";
 import { PupilCypMap } from "./pharm-p26";
 import { DrugNameMap } from "./pharm-p27";
 import { BiologicAgentsMap } from "./pharm-p28";
+import { ObservationalStudiesMap } from "./pubhealth-p1";
+import { ClinicalTrialsMap } from "./pubhealth-p2";
+import { BradfordHillMap } from "./pubhealth-p3";
+import { QuantifyingRiskMap } from "./pubhealth-p4";
+import { VitalStatisticsMap } from "./pubhealth-p5";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -209,6 +214,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "pupil-cyp-map": PupilCypMap,
   "drug-name-map": DrugNameMap,
   "biologic-agents-map": BiologicAgentsMap,
+  "observational-studies-map": ObservationalStudiesMap,
+  "clinical-trials-map": ClinicalTrialsMap,
+  "bradford-hill-map": BradfordHillMap,
+  "quantifying-risk-map": QuantifyingRiskMap,
+  "vital-statistics-map": VitalStatisticsMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

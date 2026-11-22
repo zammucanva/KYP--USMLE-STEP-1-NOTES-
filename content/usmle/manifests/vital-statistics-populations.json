@@ -1,0 +1,237 @@
+{
+  "topicId": "vital-statistics-populations",
+  "title": "Mortality, Attack Rates, and Demographic Transition",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      281
+    ],
+    "bookPages": "259 (upper)"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 259 upper, the 'SEC TION II' header-space extraction artifact (known, carried as-is), the 'PUBLIC HEALTH SCIENCES' section band, the subsection banner '▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS' (small-caps 'm' artifact), and the topic's opening heading 'Quantifying risk (continued)' — the pinned start of this topic's upper-portion scope",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\nSEC TION II\n\n▶ PUBLIC HEALTH SCIENCES—EPIDEmIOLOGY AND BIOSTATISTICS\n\n259\n\nQuantifying risk (continued)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The continued table's four column headers — TERm / DEFINITION / EXAmPLE / FORmULA (the small-caps 'm' extraction quirk, carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "TERm\n\nDEFINITION\n\nEXAmPLE\n\nFORmULA",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (term + definition) — 'Mortality rate': 'Number of deaths (in general or due to specific cause) within a population over a defined period.' — the definition's own parenthetical makes the numerator all-cause OR cause-specific, and the phrase 'over a defined period' plants the clock",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Mortality\nrate\n\nNumber of deaths (in general or\ndue to specific cause) within a\npopulation over a defined period.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (example + formula) — the printed worked example 'If 80 people in a town of 10,000 die over 2 years, mortality rate is 4 per 1000 per year.' (no comma in 1000, carried verbatim) and the formula 'Deaths/1000 people per year.' — the per-year unit is the annualization instruction (the dissection ×1000 then ÷2 years is KYP's, not printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "If 80 people in a town of 10,000 die over\n2 years, mortality rate is 4 per 1000 per\nyear.\n\nDeaths/1000 people per\nyear.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (term + definition + example) — 'Attack rate': 'Proportion of exposed people who become ill.' with the printed worked example 'If 80 people in a town are exposed and 60 people become ill, attack rate is 75%.' — the town is in the sentence but never in the fraction",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Attack rate\n\nProportion of exposed people who\nbecome ill.\n\nIf 80 people in a town are exposed and\n60 people become ill, attack rate is 75%.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (formula) — the attack-rate formula prints as a stacked fraction: 'People who become ill' over 'Total people exposed' — a proportion with no time unit, despite the name 'rate'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "People who become ill\nTotal people exposed",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 — the 'Demographic transition' heading and its one-sentence definition, verbatim: 'As a country proceeds to higher levels of development, birth and mortality rates decline to varying degrees, changing the age composition of the population.' — 'to varying degrees' is the birth-vs-mortality asymmetry the arrows print below",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Demographic\ntransition\n\nAs a country proceeds to higher levels of development, birth and mortality rates decline to varying\ndegrees, changing the age composition of the population.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The three population pyramids' axis furniture as it extracts INTERLEAVED across the three figures in the text layer — 'Male', 'Age' ×3, 'Population pyramid' (the shaded row label), 'FemaleMale', 'Female', 'Male Female', 'Population % Population', 'Population', '%', '%' — the interleave quirk is documented; the shapes themselves (wide-based / rectangular / narrow-based with bulging middle) do not exist in the text layer and are VLM-pinned (staging-pubh5/vlm-census.txt)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Male\n\nAge\n\nAge\n\nAge\n\nPopulation pyramid\n\nFemaleMale\n\nFemale\nMale Female\nPopulation % Population\nPopulation\n%\n%",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transition rows 1-2 with the printed arrows (raw layer carries C1 control bytes around the arrow glyphs, stripped by the norm() verification layer) — Birth rate ↑↑ / ↓ / ↓↓ (the only row with double arrows) and Mortality rate ↑ / ↓ / ↓ (never more than one arrow)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Birth rate\n\n↑↑\n\n↓\n\n↓↓\n\nMortality rate\n\n↑\n\n↓\n\n↓",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Transition rows 3-4 — Life expectancy Short / Long / Long (Long in BOTH the stable and declining stages) and Population Growing / Stable / Declining (the row that names the three stage columns and closes this topic's scope — the 'Likelihood ratio' heading immediately follows, the pinned boundary)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          281
+        ],
+        "bookPages": "259"
+      },
+      "quote": "Life expectancy\n\nShort\n\nLong\n\nLong\n\nPopulation\n\nGrowing\n\nStable\n\nDeclining",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "vital-statistics-map"
+  ],
+  "mechanismIds": [
+    "vital-rate-denominators-map",
+    "development-pyramid-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "denominator-decoder-layer",
+      "summary": "The denominator family and the clock rule — the two-question decoder that sorts every 'rate' on the facing pages: WHAT is being divided (population -> mortality rate; exposed -> attack rate; cases -> case fatality rate, book 258) and IS there a time unit in the formula (per year -> a true rate, annualize the window; no unit -> a proportion, never annualize). Answers the exam's two planted errors: dividing 60 by the town's 10,000 (wrong denominator) and reporting 8 per 1000 as a per-year rate (wrong clock).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the two rows' definitions, examples, and formulas but never states the denominator family, the rate-vs-proportion distinction, or the two-question decode order; the synthesis is KYP's.",
+      "location": "core.keyIdea + mechanisms[0] vital-rate-denominators-map + blocks[3] the list block + blocks[5] the compare block + the registry visual's Zone A decoder strip"
+    },
+    {
+      "id": "arithmetic-dissection-layer",
+      "summary": "The step-by-step dissection of both printed worked examples: the mortality example's two hidden operations (80 deaths ÷ 10,000 people × 1000 = 8 per 1000 ACROSS the 2-year window; ÷ 2 years = 4 per 1000 PER YEAR) and the attack example's one-step fraction (60 ill ÷ 80 exposed = 75%, with the town's 10,000 documented as the never-entering decoy).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the worked examples' results only ('mortality rate is 4 per 1000 per year', 'attack rate is 75%'); the intermediate arithmetic and the decoy analysis are KYP's.",
+      "location": "core.why + mechanisms[0] + blocks[3] the list block + blocks[5] the compare block + the registry visual's Zone A arithmetic strips"
+    },
+    {
+      "id": "pyramid-reading-protocol",
+      "summary": "The four-move population-pyramid reading protocol (MOVE 1 read the BASE — wide = growing, narrow = declining; MOVE 2 compare the sides — triangle / rectangle / bulging barrel; MOVE 3 attach the arrows — birth rate swings twice, mortality once; MOVE 4 name the trajectory — Growing / Stable / Declining) plus the shape-to-stage mapping itself, with the shapes VLM-pinned from the source figure (wide-based classic triangle, even rectangle, narrow base with a bulging middle) since they do not exist in the text layer.",
+      "origin": "outside-first-aid",
+      "rationale": "The source draws the three pyramids and prints the four rows but never states a reading order, never captions the shapes with their stages (VLM: the stage columns are not separately labeled), and never notes the arrow-count asymmetry; the protocol is KYP's.",
+      "location": "core.keyIdea + mechanisms[1] development-pyramid-map + blocks[4] the steps block + blocks[1] the transition table block + the registry visual's Zone B pyramids and Zone C rows"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed rows — 4 patterns (the un-annualized mortality rate critique, the outbreak attack-rate computation, the wide-base silhouette match, the narrow-base bulging-barrel match), 4 traps (mortality rate vs case fatality rate denominators, attack-rate denominator decoys, window rate vs annualized rate, declining vs growing silhouettes), 3 pivots (rate vs proportion clock, base-vs-middle silhouette, any-two-given-find-the-third), and the banquet miniCase (5 options: 40/100 = 40% correct; the attendee, county-population, person-year, and mortality-rate distractors each with wrong-because explanations).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rows only; every vignette, distractor design, and reverse-direction question shape is KYP's design.",
+      "location": "usmle section + recall + rapidReview"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (PER THOUSAND, PER YEAR / ATTACK THE EXPOSED / BASE READS THE FUTURE / BIRTH SWINGS TWICE). No mnemonic prints anywhere on the page's upper portion — VLM census: no margin notes, no mnemonic letters, no asterisk footnotes — so all four ALL-CAPS codes are KYP originals, and the page's own furniture (blue/pink pyramid halves, blue Male/Female legend letters, bold blue headings) is carried as attributed description, not counted as mnemonics.",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints on pdf 281 upper (pdfimages + VLM census, staging-pubh5/vlm-census.txt); the four codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's footer attribution text"
+    },
+    {
+      "id": "context-and-bridge-layer",
+      "summary": "The KYP-context generalizations, every one flagged as such: the epidemiologic-transition narrative (development drops mortality first — life expectancy Short -> Long — then fertility falls hardest, the 'varying degrees'), the attack rate's outbreak-table habitat (attack rate per exposure among the exposed vs the unexposed, the point-source investigation), cause-specific mortality as the cause-of-death-ranking statistic, and the aging-pyramid health-system projections (dependency burden) — plus the crossLinks to outbreak microbiology, the 2×2 measures, healthcare delivery, and behavioral science.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the definition sentence, the rows, and the formulas only; every driver, habitat, and projection beyond the printed words is KYP context, explicitly marked in the note and never presented as printed text.",
+      "location": "blocks[6] the exam callout + clinical[0] + mechanisms[1] + mnemonics' clinical fields + crossLinks"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "PINNED PAGE-SPLIT (upper portion only): pdf 281 / book 259 upper, from the 'Quantifying risk (continued)' heading (raw line 9) through the entire Demographic transition block (ending raw line 98), immediately BEFORE the 'Likelihood ratio' heading (raw line 100 — asserted by the gen script's boundary check); the LR and Kaplan-Meier blocks below belong to likelihood-ratios and survival-analysis (parallel tasks), and the footer slug (raw line 124) sits below the boundary and is deliberately NOT quoted. BLOCKS OWNED: (1) the final two rows of the Quantifying risk table (Mortality rate, Attack rate — all four cells each, carried VERBATIM in the note's first table block); (2) the Demographic transition block (definition sentence + three pyramids + four transition rows, carried VERBATIM in the note's second table block with the stage columns reconstructed from the Population row + VLM-pinned shapes, marked as such). CENSUS (pdfimages): ZERO raster images; the three pyramids are pure vector art -> ORIGINAL_KYP_REDRAW (Male/Female horizontal bars by Age; shapes VLM-pinned: wide-based triangle = Growing, rectangle = Stable, narrow base with bulging middle = Declining, left->right Growing -> Stable -> Declining); the two tables -> ORIGINAL KYP ADAPTATION. VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v full-page pass (staging-pubh5/vlm-census.txt) confirmed both continued rows verbatim, the definition sentence verbatim, the three shapes and stage order, the printed arrows, the unlabeled stage columns, the immediately-following 'Likelihood ratio' heading (boundary), and the absence of margin notes, mnemonics, asterisk footnotes, and raster images; color furniture = blue/pink pyramid bars, blue Male/Female legend letters, bold blue headings, light-blue cell shading. QUIRKS carried + documented: 'SEC TION II' header-space artifact (known, as-is); the small-caps 'm' artifact in 'EPIDEmIOLOGY' and the column headers 'TERm / DEFINITION / EXAmPLE / FORmULA'; the transition arrows carry C1 control bytes in the raw layer (\\x8f↑\\x8f↑ etc.) stripped by the norm() verification layer; the pyramid figure labels extract INTERLEAVED (Male, Age ×3, Population pyramid, FemaleMale, Female, Male Female, Population % Population, Population, %, % — raw lines 49-66); the mortality example prints '4 per 1000 per year' with no comma (verbatim). ADJUDICATIONS: (1) pyramid interleave — text-layer label inventory (Age ×3, Male ×3, Female ×3, Population % ×3) governs: EACH pyramid carries the full axis furniture; the KYP redraw gives all three pyramids the complete Male/Female/Age/Population % set (VLM saw them most clearly on the leftmost pyramid); (2) the three shapes and the left->right stage order are VLM-pinned (they do not exist in the text layer); (3) the VLM misread the footer slug as 'FA21_2026_06-PubHealth.indd' — the text layer prints 'FAS1_2026_06-PubHealth.indd 259' and governs; (4) the VLM's 'graphic placeholder icon' at the third pyramid's lower right is a source-artwork glyph, NOT reproduced; (5) case fatality rate (book 258) appears only as clearly-marked KYP context for the denominator family. CONVENTIONS, documented: (1) the batch convention targets are met — 2 mechanisms (vital-rate-denominators-map, development-pyramid-map), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (quantifying-risk, incidence-prevalence, survival-analysis, observational-studies — all census topicIds), 4 crossLinks, 4 KYP mnemonics, a miniCase with 5 options (exactly 1 correct, why/why-wrong on every option), 3+ blocks including the two verbatim table blocks, a clinical callout block, and NO DrugCards — the DrugCard layer is FOLDED (documented): the page prints no drug rows, there is nothing to trace into the DrugCard shape; (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the manifest convention documented in the biologic-agents exemplar; the brief's 'complete' maps to this vocabulary — 'complete' is not a schema-valid manifest status — and the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-pubh5/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'vital-statistics-map' is therefore not yet in visuals/registry.tsx by design); (4) the page's two visual assets are implemented as ORIGINAL KYP ART in ONE registry visual (vital-statistics-map, VitalStatisticsMap in visuals/pubhealth-p5.tsx, viewBox 0 0 1102 1232): Zone A the two vital-statistic formula cards with the printed worked examples dissected (mortality: ×1000 -> 8 per 1000 across the window -> ÷2 years -> 4 per 1000 per year; attack: 60/80 = 75% with the 10,000 decoy flagged) and the denominator-family decoder strip; Zone B the three population pyramids redrawn side by side (Male left blue / Female right pink, horizontal bars by Age, Population % axis, stage chips Growing/Stable/Declining); Zone C the four printed transition rows as a band beneath with vector arrow glyphs; with both tables' full text ALSO carried verbatim in the note's two table blocks. VISUAL QA (KYP, pre-promotion): the registry visual was server-rendered standalone with the light-theme tokens and audited in-browser with the ph26-ph28 getBBox method — 95 text elements, 0 overlaps (>1-unit bbox intersection), 0 texts outside the viewBox 0 0 1102 1232; a VLM review of the render confirmed the three pyramid shapes, the four transition rows, and the three-step mortality arithmetic strip.",
+  "updatedAt": "2026-11-22"
+}

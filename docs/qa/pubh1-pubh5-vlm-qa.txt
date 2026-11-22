@@ -1,0 +1,135 @@
+=== pubh1 (observational-studies) — light — REVIEW ===
+Review of the crop:
+
+1) **Full rendering:** Yes — all four timeline diagram rows (cross-sectional, case-control, retrospective, prospective) and all seven design cards plus the "two examples" note panel are fully visible; nothing is clipped or missing.
+
+2) **Overlap/spill:** No overlaps or overflow detected. The floating "Search" pill (bottom right) overlays page whitespace, not diagram content — not a defect of the SVG itself.
+
+3) **Connectors/arrows:** Render correctly. Timeline axis arrows, case-control double arrows, retrospective dashed "recruitment after" arrow, and prospective double arrows all draw properly with arrowheads intact. Icons (⊕/⊖ circles) render as proper glyphs — no tofu boxes.
+
+4) **Readability:** All body and label text is legible. The smallest text — diagram sub-labels ("not liable of exposure", "reverse causal is excluded"), the retrospective box caption, and footer citation lines — sits near the legibility floor but is still readable at zoom; contrast is adequate in both themes.
+
+5) **Verdict:** **CLEAN.** No defects. Minor optional improvement: slightly enlarge the smallest diagram annotation text.
+
+=== pubh1 (observational-studies) — dark — REVIEW ===
+# Review
+
+**1) Fully rendered panels?**
+Yes. All seven design cards, the timeline axis panel, and the sources footnote are fully visible and complete. Nothing clipped at edges.
+
+**2) Text overlap / spill?**
+No overlaps or overflow detected. Small caption text sits within its containers; card labels fit their boxes.
+
+**3) Connectors/arrows?**
+Render correctly. Timeline arrow (Past→Present→Future) has a proper arrowhead; bidirectional arrows (case-control, retrospective, prospective) render with arrowheads on both/one ends as designed; dashed feedback line present. No tofu boxes or broken glyphs.
+
+**4) Text readability?**
+Mostly readable. Several items are near the legibility floor:
+- Tiny caption lines under each card title (e.g., "Defines an allocated exposure..." ~ under Case series) and the axis footnotes ("THE 2x2 TABLE...", "PAST≠FUTURE...") are very small, low-contrast gray-on-dark.
+- Row labels on far left ("Cross-sectional study", "Case-control study", etc.) with sub-captions are small but acceptable.
+- Footer/sources block lines are quite faint.
+
+**5) Verdict: CLEAN** (functionally). Minor polish suggestion: bump the smallest gray caption text (card subtitles and 2x2-table footnotes) up 1–2px or increase contrast slightly, but no rendering defects.
+
+=== pubh2 (clinical-therapeutic-trials) — light — REVIEW ===
+**1) Full rendering:** Yes — all panels/blocks are fully rendered. The design ladder (5 blocks), SWIM pipeline (6 phase cards), sample-size row, population fork (4 blocks), and crossover trial row all fit within their containers. Nothing clipped at crop edges except expected page margins.
+
+**2) Overlaps:** None. Text stays inside its boxes; the "FDA approved" badge sits cleanly above Phase 4 without colliding with the M badge or card.
+
+**3) Connectors/glyphs:** Arrows render correctly throughout (ladder chevrons, pipeline arrows, dashed FDA line, fork arrows, crossover arrows). No tofu boxes or broken glyphs. The S/W/I/M badges, red "?" markers, and person icons all render properly.
+
+**4) Readability:** Most text is readable. Two near-floor areas:
+- The tiny gray explanatory captions (e.g., "participants are randomized…", "Some believe boxes appear too clean…") are very small, ~8–9px equivalent, low contrast — borderline.
+- Footer source citations at bottom are fine-print (~7px), legible only when zoomed.
+
+**5) Verdict: CLEAN** — no functional defects. Minor cosmetic note only: several helper captions sit at the legibility floor due to very small size/low contrast, but they don't overlap or clip.
+
+=== pubh2 (clinical-therapeutic-trials) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?**
+Yes. All four sections (design ladder with 5 cards, SWIMF pipeline with 6 phase blocks + badges S/W/I/M, analysis-population with 3 arms, crossover trial with 4 nodes, plus footer notes) appear complete — no clipped or missing containers. The dashed "WASHOUT PERIOD" box renders fully.
+
+**2) Text overlap / spillover?**
+None observed. Text stays inside its boxes; the phase badges (S, W, I, M) sit cleanly at the top-right corners of their cards; the "Fit tissue?" pill sits above Phase 4 without collision. The small "?" glyphs near the Phase 2 crowd rows are intentional annotations, not artifacts.
+
+**3) Connectors/arrows?**
+Render correctly. Arrows between the ladder cards, between pipeline phases (including the dashed connector between Phase 2/3 and Phase 4), the fan-out arrows from "THE COMPLETED TRIAL" to the three analysis arms, and the crossover chain all display cleanly with proper arrowheads. No tofu boxes or broken glyphs.
+
+**4) Text readability?**
+Main labels, headings, and colored badges are readable with good contrast. **Near the legibility floor:** the fine-print footnote lines (descriptions under each design-ladder card, tiny body text inside phase cards, the multi-line footer references at bottom-left, and italic caption lines like the ones under the pipeline and crossover sections) are very small (~7–8px equivalent) and low-contrast gray-on-dark — zooming is needed to read them.
+
+**5) Verdict: CLEAN** — no rendering defects. Minor UX note only: ultra-small gray body/footnote text in the ladder cards, phase cards, and footer references is at the legibility floor; consider bumping font size or contrast slightly.
+
+=== pubh3 (bradford-hill-criteria) — light — REVIEW ===
+1) **All panels fully rendered?** Yes — all three sections (OFF-LABEL DRUG USE, NECESSARY BUT NOT SUFFICIENT, and the 9 Bradford Hill criteria cards in a 3×3 grid) appear complete, including the footer references block. Nothing is clipped at crop edges.
+
+2) **Text overlap/spillage?** No overlaps detected. Text stays within card boundaries; the badges (REQUIRED/HELPFUL) sit cleanly in card corners. Some very small caption text is tightly spaced but not overlapping.
+
+3) **Connectors/arrows?** Render correctly — the arrow between "susceptible" and "disease" boxes, the cause→effect arrow in Specificity, arrows in Plausibility and Analogy panels all render. No tofu boxes or missing glyphs observed.
+
+4) **Text readability?** Most text is legible, but fine-print text is near the legibility floor:
+   - Card footnotes ("…KYP card" lines under each card)
+   - Small labels in illustrations ("none/strong", "sick/illness", "before/after")
+   - Footer source/references lines are quite small/low-contrast
+   
+   Contrast is good in headers and body text; the tiny gray annotations are the weakest.
+
+5) **Verdict: CLEAN** — no functional rendering defects. Only minor note: very small gray fine-print text (card footnotes and footer references) is at the edge of legibility, but that appears to be intentional design.
+
+=== pubh3 (bradford-hill-criteria) — dark — REVIEW ===
+**1) Fully rendered panels?** Yes — all 9 Bradford Hill cards (Strength, Consistency, Specificity, Temporality, Biological gradient, Plausibility, Coherence, Experiment, Analogy) plus the top OFF-LABEL DRUG USE and NECESSARY BUT NOT SUFFICIENT blocks render completely with no clipping.
+
+**2) Text overlap/spill?** None observed. Body text stays within card boundaries; captions and "TEST" columns are properly separated.
+
+**3) Connectors/characters?** Render correctly — the arrow in the NECESSARY BUT NOT SUFFICIENT panel, the Specificity timeline arrow, Plausibility pathway arrow, Temporality dose-response flow, and dashed dashed-boxes in Analogy all draw cleanly. No tofu boxes or missing glyphs.
+
+**4) Readability?** Mostly good — headers, card titles, and TEST column text are legible with strong contrast. However, the fine-print caption lines (bottom of each card, e.g. italic gray footnotes) and the metadata line under the panel headers are very small and low-contrast — near the legibility floor but still technically readable.
+
+**5) Verdict: CLEAN.** Minor nit only: bottom-of-card footnote captions are tiny/low-contrast — consider bumping font size ~1px or increasing contrast slightly.
+
+=== pubh4 (quantifying-risk) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels (2×2 contingency grid, top two callout boxes, all eight measure cards, bottom grammar strip, footer) appear complete with no clipped or missing blocks.
+
+2) **Text overlap/spill?** No overlaps detected. All text sits within its card/container bounds; small-print lines under each card fit their footprint.
+
+3) **Connectors/arrows/glyphs?** Fine. Arrows (→, ←) in the worked-example text lines render correctly; no tofu boxes or broken characters. The 2×2 grid's axis labels and inner cell letters (a, b, c, d) render properly.
+
+4) **Readability?** Acceptable overall, but much of the body text is very small (roughly 6–8 px equivalent in the crop), especially the detailed formula/interpretation lines inside each measure card and the footer source text. Those are near the legibility floor — readable when zoomed, but strained at 100%. Contrast is fine (dark gray on light backgrounds, colored accents all legible).
+
+5) **Verdict: CLEAN**, with one caveat — body text within the eight measure cards and the footer is at/near the legibility floor due to small size, not overlap or rendering defects.
+
+=== pubh4 (quantifying-risk) — dark — REVIEW ===
+**1) Fully rendered?** Yes — all panels (2×2 matrix, the eight "eight measure" cards, grammar strip, footer) appear complete with no clipped or missing blocks. The 2×2 quadrant diagram (a/b/c/d) is fully visible.
+
+**2) Overlap/spill?** One issue: a floating **"Search" pill** (right edge, ~y=815–825) overlaps the right border of panels **6 (Number needed to treat)** and **7 (Number needed to harm)**. This looks like an app UI overlay rather than an SVG defect, but it visually collides with the crop. Otherwise no text overlap or container spill.
+
+**3) Connectors/glyphs?** The 2×2 diagram's axis labels ("Disease or infection", "exposed", etc.) and quadrant labels render fine; no tofu boxes or broken characters detected. No arrows/connector glyphs appear malformed.
+
+**4) Readability?** Weak point. Body text inside the eight measure panels and the footer/notes text is extremely small (~6–7px effective at this scale) with low contrast (muted teal/orange on dark navy). Footer lines at the bottom are near the legibility floor. Panel headers, badges (e.g., "ODDS RATIO", "HARMFUL", "HELPFUL"), and formula lines are readable.
+
+**5) Verdict:** **CLEAN with minor notes** — not chart defects per se:
+- Search overlay overlapping panels 6/7 (app UI, not SVG)
+- Footer/annotation text near legibility floor (small size + low contrast)
+
+If the Search pill is considered part of the crop, list it as the only true overlap defect.
+
+=== pubh5 (vital-statistics-populations) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels present: two vital-statistics boxes, three population pyramids, and the four-transition-rows table. No clipped or missing blocks.
+
+2) **Overlap/spill?** No overlaps. Text sits within containers throughout. The search pill overlays the right edge but that's an app UI element, not the diagram — it slightly overlaps the third pyramid panel's right edge (minor, external).
+
+3) **Connectors/arrows?** Yes — flow arrows between mortality stages, pyramid axis arrows, double-headed population arrows, and the ↑/↓ demographic-transition arrows all render. No tofu boxes or broken glyphs.
+
+4) **Legibility?** Mostly readable. Several small captions are near the floor: the tiny footnote text under "THE TWO VITAL STATISTICS" panels, the pyramid corner notes (e.g., "In the 'young' stage…"), and the "Sources & extras" block — small and low-contrast, but still legible at zoom.
+
+5) **Verdict: CLEAN** (with one trivial note: the app's search pill overlaps the diagram's right edge near the third pyramid — an app-layer artifact, not a diagram defect).
+
+=== pubh5 (vital-statistics-populations) — dark — REVIEW ===
+**1) Full rendering:** All panels/blocks appear fully rendered — no clipped or missing blocks. The three pyramid panels, mortality/attack-rate cards, and transition table are all complete within their borders.
+
+**2) Overlap/spill:** No text overlap or overflow detected. The only intrusion is the app's **"Search" floating widget overlapping the right edge of the third (green-header) pyramid panel** — that's UI chrome, not a diagram defect.
+
+**3) Connectors/arrows:** Arrows render correctly — flow arrows between the mortality boxes, double arrows in the transition table (orange up-up, teal/green down pairs), and the horizontal population-axis arrows under each pyramid. No tofu boxes or broken glyphs visible.
+
+**4) Readability:** Body text is small and low-contrast (dim gray on dark navy) throughout — the caption lines under each pyramid and the fine-print paragraphs inside the mortality/attack-rate cards are near the legibility floor, though they appear to be intentionally secondary text. Headers, badges, and labels (Male/Female legends, stage pills) are clearly readable.
+
+**5) Verdict:** **CLEAN**, with one note: the app's Search button overlays the right pyramid panel (UI element, not a rendering defect). Minor concern: very small low-contrast caption text sits at the legibility floor.

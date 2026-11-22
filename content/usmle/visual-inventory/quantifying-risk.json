@@ -1,0 +1,73 @@
+{
+  "topicId": "quantifying-risk",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "quantifying-risk",
+      "requiredInKYP": true,
+      "visualId": "quantifying-risk-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The classic 2×2 or contingency table (book 258, upper page): the engine figure every quantifying-risk formula is built on — disease or outcome down the columns (⊕/⊖), exposure or intervention across the rows (⊕/⊖, the row label printing vertically), cells a b / c d — with the three formula labels (Odds ratio =, Relative risk =, Attributable risk =) stacked in the top margin above it",
+      "sourceFigureDescription": "PURE-VECTOR FIGURE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh4/vlm-census.txt — VLM available this session): the lead-in sentence 'Definitions and formulas are based on the classic 2 × 2 or contingency table.', then the bordered 2×2 grid — column header 'Disease or outcome' with ⊕ over the disease column and ⊖ over the no-disease column; row label 'Exposure or intervention' printing VERTICALLY down the left side with ⊕ beside the exposed row and ⊖ beside the unexposed row; cells a (top-left, exposed + diseased), b (top-right), c (bottom-left), d (bottom-right). Above/around it, three stacked formula labels: 'Odds ratio = a/c ÷ b/d = ad/bc', 'Relative risk = a/(a + b) ÷ c/(c + d)', 'Attributable risk = a/(a + b) − c/(c + d)' — present in the text layer but visually obscured in the digital render (the teal running-header band is drawn over the top two; the third prints white-on-white; pdftoppm + pdftocairo agree) with the banner fragment 'AND BIOSTATISTICS' interleaving the c/(c + d) fraction in the text layer.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "quantifying-risk-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (QuantifyingRiskMap in visuals/pubhealth-p4.tsx): the 2×2 rebuilt as the centerpiece with the four cells a b / c d and their identities, the printed ⊕/⊖ furniture (attributed), the two reading-direction cards (READ BY ROWS → the risks a/(a+b) and c/(c+d); READ BY COLUMNS → the odds a/c and b/d), and the three top-margin formulas in a strip (with the render-obscuration note); the axis labels and lead-in sentence are carried verbatim, the horizontal row label is a documented adaptation of the printed vertical label",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "quantifying-risk-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Epidemiology and Biostatistics",
+      "topicId": "quantifying-risk",
+      "requiredInKYP": true,
+      "visualId": "quantifying-risk-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          280
+        ],
+        "bookPages": "258"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Quantifying risk table (book 258): the eight-measure reference — columns TERm / DEFINITION / EXAmPLE / FORmULA, from Odds ratio (case-control, ad/bc, the red 'You take a case to the OR.') through Case fatality rate (deaths/cases × 100), each row with definition, worked example, and formula — the arithmetic core of epidemiology and biostatistics",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh4/vlm-census.txt — VLM available this session): the table title 'Quantifying risk', four column headers (TERm / DEFINITION / EXAmPLE / FORmULA — small-caps artifacts as printed), then EIGHT rows in printed order, each carried verbatim in the note's table block: (1) Odds ratio — case-control studies, odds of exposure among cases (a/c) vs controls (b/d), OR=1/>1/<1 interpretation lines, the 20/30-vs-5/25 smoking example → OR 8, the RED mnemonic 'You take a case to the OR.' (last line of the EXAMPLE cell), formula OR = a/c ÷ b/d = ad/bc with the worked grid a b = 20 5 / c d = 10 20 printed inside the FORMULA column; (2) Relative risk — cohort studies, risk in exposed ÷ unexposed, RR=1/>1/↓↑ lines, the 5/10-vs-1/10 radiation example → RR 5, 'For rare diseases (low prevalence), OR approximates RR.', formula RR = a/(a+b) ÷ c/(c+d) with the worked grid a b = 5 5 / c d = 1 9; (3) Relative risk reduction — proportion of risk reduction, ART vs ARC, flu-shot example RR = 2/8 = 0.25 and RRR = 0.75, formulas RRR = 1 – RR and (ARC – ART)/ARC; (4) Attributable risk — difference in risk between exposed and unexposed, smoking 21% vs 1% → 20%, formulas AR = a/(a+b) − c/(c+d) and AR% = (RR − 1)/RR × 100; (5) Absolute risk reduction — 'the difference in risk (not the proportion)', placebo 8% vs vaccine 2% → ARR = 8%–2% = 6% = 0.06, formula ARR = c/(c+d) − a/(a+b) (control minus treated, as printed); (6) Number needed to treat — 'Number of patients who need to be treated for 1 patient to benefit. Lower number = better treatment.', NNT = 1/ARR, NO example cell; (7) Number needed to harm — 'Number of patients who need to be exposed to a risk factor for 1 patient to be harmed. Higher number = safer exposure.', NNH = 1/AR with 'AR' in red, NO example cell; (8) Case fatality rate — 'Percentage of deaths occurring among those with disease.', 4 deaths among 10 meningitis cases = 40%, CFR% = deaths/cases × 100. TERM names print in bold dark blue; the header band is a shaded strip; no photos, margin notes, or asterisk footnotes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "quantifying-risk-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (QuantifyingRiskMap in visuals/pubhealth-p4.tsx): the eight rows as measure cards in two columns (family chips RATIO / DIFFERENCE / RECIPROCAL / OUTCOME ONLY, each card carrying its printed formula, worked example, and interpretation strip, the OR and RR cards embedding the two printed worked grids), plus Zone C's RATIO · DIFFERENCE · RECIPROCAL grammar strip with the two attributed First Aid mnemonics; the full table's text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block, and recall[0-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "quantifying-risk-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "quantifying-risk",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — sv1 the classic 2×2 contingency-table figure with its three top-margin formula labels, and sv2 the eight-row Quantifying risk table (with the two worked grids printed inside its FORMULA column) — both accounted for as ORIGINAL KYP ADAPTATIONS: nothing is reproduced; ONE registry visual (quantifying-risk-map, QuantifyingRiskMap in visuals/pubhealth-p4.tsx, viewBox 0 0 1102 1398; in-browser getBBox audit: 138 texts, 0 overlaps, 0 outside viewBox) rebuilds every axis label, cell letter, term, definition, example, formula, worked grid, and mnemonic as original KYP vector art (the 2×2 as the centerpiece engine with the two reading-direction cards and the margin-formula strip; the eight measures as cards in two columns; the RATIO · DIFFERENCE · RECIPROCAL grammar strip), and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — a 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the 2×2 orientation, the eight rows in printed order, both worked grids (OR 20 5 / 10 20; RR 5 5 / 1 9), the red furniture, and the empty NNT/NNH example cells; the three top-margin formulas are text-layer content visually obscured by the running-header band in the digital render (adjudication B, carried). ADJUDICATION A: only one FA mnemonic prints on pdf 280 ('You take a case to the OR.', red, OR row); 'Cohort = relative risk.' prints on pdf 278 / book 256 and is carried attributed with its location. FULL single page (no split). STAGED under .usmle-pipeline-cache/staging-pubh4/ — promotion into content/ is owned downstream."
+}
