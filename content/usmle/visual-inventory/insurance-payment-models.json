@@ -1,0 +1,100 @@
+{
+  "topicId": "insurance-payment-models",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "insurance-payment-models",
+      "requiredInKYP": true,
+      "visualId": "insurance-payment-models-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          299
+        ],
+        "bookPages": "277"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Major medical insurance plans table (book 277): the six US insurance plans — EPO, HMO, PoS, PPO, ACO, HDHP — with each plan's printed network, referral, and cost rules; the Healthcare Delivery subsection's member-facing coverage core",
+      "sourceFigureDescription": "TWO-COLUMN TABLE (plan name | printed description), no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh26/vlm-census.txt — VLM available this session): the running header (book page 277, SEC TION II, PUBLIC HEALTH SCIENCES, the banner '▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY' printed ONCE — running header only), the table title 'Major medical insurance plans' in bold dark teal/green, then SIX rows in printed order with bold plan names, dotted hairline row separators, and no zebra striping: Exclusive provider organization (EPO) → Requires in-network care; out-of-network coverage available for emergencies; Health maintenance organization (HMO) → Lower premiums, limited to in-network providers, requires primary care referral for specialists, lower out-of-pocket cost; Point of service (PoS) → Combination of HMO and PPO, allows out-of-network care at higher cost, and requires primary care referrals; Preferred provider organization (PPO) → Flexibility with in-network and out-of-network care, higher cost for out-of-network services, no referral requirement; Accountable care organization (ACO) → Group of providers who voluntarily coordinate care for Medicare patients; High deductible health plan (HDHP) → Low premiums, high out-of-pocket cost, compatible with health savings account (HSA). Every plan-name cell except 'Point of service (PoS)' wraps across two lines in print (documented).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "insurance-models-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (InsuranceModelsMap in visuals/pubhealth-p26.tsx): a network-rules grid — one row per plan in PRINTED order, with columns PLAN / NETWORK RULE / REFERRAL RULE / COST SEE-SAW, a status chip per printed verdict (IN-NETWORK ONLY · REFERRAL REQUIRED · NO REFERRAL NEEDED · BOTH ENDS LOW · OUT-OF-NETWORK COSTS MORE · PROVIDER GROUP · MEDICARE · LOW PREMIUM · HIGH OUT-OF-POCKET), and '— not printed' cells marking the page's documented silences (EPO referral/cost; ACO referral/cost; HDHP network/referral), plus the grid-rule strip; the full table text is ALSO carried verbatim in the note's first table block (blocks[1]), core.what, the plan decoder (blocks[4]), and recall[0-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "insurance-models-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "insurance-payment-models",
+      "requiredInKYP": true,
+      "visualId": "insurance-payment-models-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          299
+        ],
+        "bookPages": "277"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Healthcare payment models table (book 277): the five payment models — bundled payment, capitation, discounted fee-for-service, fee-for-service, global payment — each with its printed definition; the payer-facing core of the Healthcare Delivery subsection and the risk-shift ladder the exam tests",
+      "sourceFigureDescription": "TWO-COLUMN TABLE (model name | printed definition), no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh26/vlm-census.txt — VLM available this session): the table title 'Healthcare payment models' in bold dark teal/green, then FIVE rows in printed (alphabetical) order with dotted hairline separators: Bundled payment → Healthcare organization receives a set amount per service, regardless of ultimate cost, to be divided among all providers and facilities involved; Capitation → Physicians receive a set amount per patient assigned to them per period of time, regardless of how much the patient uses the healthcare system. Used by some HMOs; Discounted fee-for-service → Insurer and/or patient pays for each individual service at a discounted rate predetermined by providers and payers (eg, PPOs) — the row name wraps in print as 'Discounted fee-for-' / 'service' (hyphen retained; the raw text layer merges it to 'fee-forservice', documented); Fee-for-service → Insurer and/or patient pays for each individual service; Global payment → Insurer and/or patient pays for all expenses associated with a single incident of care with a single payment. Most commonly used during elective surgeries, as it covers the cost of surgery as well as the necessary pre- and postoperative visits.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "insurance-models-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (InsuranceModelsMap in visuals/pubhealth-p26.tsx): the five models as flow cards on the KYP RISK LADDER, arranged by unit of payment (Fee-for-service PER SERVICE → Discounted fee-for-service PER SERVICE AT A DISCOUNT → Bundled payment PER SERVICE DIVIDED → Global payment PER INCIDENT → Capitation PER PATIENT · PER PERIOD), each card carrying the printed definition plus a who-bears-the-risk chip (PAYER RISK / SHARED RISK / PROVIDER EPISODE RISK / PHYSICIAN PANEL RISK), a right-side payer-to-provider risk column, and the ladder-rule strip; the printed alphabetical order is documented and the full table text is carried verbatim in the note's second table block (blocks[2]), the payment decoder (blocks[5]), and recall[5-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "insurance-models-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "insurance-payment-models",
+      "requiredInKYP": true,
+      "visualId": "insurance-payment-models-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          299
+        ],
+        "bookPages": "277"
+      },
+      "visualType": "COMPARISON_FIGURE",
+      "visualPurpose": "The Medicare and Medicaid block (book 277): a two-column row — LEFT the paragraph (federal social healthcare programs from Social Security Act amendments; Medicare ≥65 / <65 with certain disabilities / ESRD; Medicaid joint federal and state for limited income and/or resources), RIGHT First Aid's own mnemonic panel ('MedicarE is for Elderly.' / 'MedicaiD is for Disadvantaged.' / the 4 parts A-B-C-D) — the government-programs comparison of the Healthcare Delivery subsection",
+      "sourceFigureDescription": "TEXT-ONLY TWO-COLUMN BLOCK, no raster and no artwork (pdfimages: zero raster images; VLM-read in three passes — one 120dpi full page + two 240dpi zooms on this block, staging-pubh26/vlm-census.txt): the row label 'Medicare and Medicaid', LEFT column the paragraph (verbatim: 'Medicare and Medicaid—federal social healthcare programs that originated from amendments to the Social Security Act. Medicare is available to patients ≥65 years old, <65 with certain disabilities, and those with end-stage renal disease. Medicaid is joint federal and state health assistance for people with limited income and/or resources.' — the 'and/or' wraps in print as 'and/' + 'or resources.'), RIGHT column First Aid's OWN mnemonic panel with the keyword letters in RED and black connecting words (VLM-ADJUDICATED: the 120dpi full-page pass had called the panel plain black; both 240dpi zoom passes read the E of MedicarE/Elderly, the D of MedicaiD/Disadvantaged, and the A/B/C/D keyword letters in red — zoom governs), square light-blue/teal bullets before the Part lines (extracting as a C1 control byte + the U+2598 quarter-block glyph), and NO box, border, or shading around the panel: 'MedicarE is for Elderly.' / 'MedicaiD is for Disadvantaged.' / 'The 4 parts of Medicare:' / Part A: hospital Admissions, including hospice, skilled nursing / Part B: Basic medical bills (eg, physician fees, diagnostic testing) / Part C: (parts A + B = Combo) delivered by approved private companies / Part D: prescription Drugs.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "insurance-models-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (InsuranceModelsMap in visuals/pubhealth-p26.tsx): a Medicare/Medicaid SPLIT PANEL — Medicare side (eligibility lines ≥65 / <65 with certain disabilities / ESRD, the four A-B-C-D part rows with emergency-tone keyword letters and the attributed 'MedicarE is for Elderly.' line, the door strip age·disability·disease) beside the Medicaid side (joint federal + state chip, limited income and/or resources lines, the attributed 'MedicaiD is for Disadvantaged.' line, the E/D contrast note marked KYP), over the shared-origin strip quoting the Social Security Act sentence; the paragraph and mnemonics are ALSO carried verbatim in the note's text block (blocks[3]), core.what, the steps block (blocks[6]), recall[9-10], and both FA mnemonics",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "insurance-models-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "insurance-payment-models",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries THREE visual assets — the Major medical insurance plans table (sv1: SIX rows, EPO through HDHP), the Healthcare payment models table (sv2: FIVE rows, bundled payment through global payment), and the Medicare and Medicaid two-column block (sv3: the Social Security Act paragraph + First Aid's own E/D and A-B-C-D mnemonic panel) — all three accounted for in ONE registry visual (insurance-models-map, InsuranceModelsMap in visuals/pubhealth-p26.tsx, viewBox 0 0 1102 1350), each as an ORIGINAL KYP ADAPTATION: the plans table as a network-rules grid (Zone A — NETWORK / REFERRAL / COST columns with status chips and '— not printed' cells for the page's documented silences), the payment models as risk-ladder flow cards (Zone B — arranged by unit of payment with a payer-to-provider risk column; the printed alphabetical order documented and carried verbatim in the note's table block), and the Medicare/Medicaid block as a split panel (Zone C — the four A-B-C-D part rows and both of First Aid's mnemonics attributed, keyword letters in the emergency tone); nothing is reproduced, and the full text of all eleven rows + the paragraph + both mnemonics is additionally carried verbatim in the note's blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page pass + TWO 240dpi zoom passes on the Medicare/Medicaid block (vlm-census.txt) confirmed the six plan rows and five payment rows in printed order (none missing or extra), the text-only Medicare/Medicaid block, and the mnemonic panel's placement as the block's RIGHT column. ADJUDICATION (color): both 240dpi zoom passes read the mnemonic keyword letters in RED with black connecting words; the 120dpi full-page pass had called the panel plain black — the zoom passes govern, and the visual draws the keyword letters in the emergency tone with attribution tags. Rendered-SVG QA: getBBox clean (146/146 texts inside the viewBox, zero chip/column overflows) + a VLM layout pass returned CLEAN. FULL single page, the SECOND of Healthcare Delivery (pdf 298 / book 276, disease prevention and prophylaxis, is the subsection opener; pdf 300 / book 278 opens Palliative care — the patient-safety-quality topic, produced in parallel). STAGED under .usmle-pipeline-cache/staging-pubh26/ — promotion into content/ is owned downstream."
+}

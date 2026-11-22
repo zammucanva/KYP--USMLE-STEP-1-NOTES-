@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T09:26:22Z",
+  "generatedAt": "2026-11-22T09:54:36Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 10,
     "chaptersExtracted": 6,
-    "topicsProduced": 198,
+    "topicsProduced": 200,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 143,
+      "pilot-complete": 145,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -338,12 +338,12 @@
       "chapterId": "public-health",
       "chapterTitle": "Public Health",
       "part": 1,
-      "extractionStatus": "extracted",
+      "extractionStatus": "verified",
       "topicsRegistered": 27,
-      "topicsProduced": 25,
-      "topicsRemaining": 2,
+      "topicsProduced": 27,
+      "topicsRemaining": 0,
       "qaStatus": "pass",
-      "completedAt": null
+      "completedAt": "2026-11-22"
     },
     {
       "chapterId": "cardiovascular",
@@ -2090,6 +2090,21 @@
       "updatedAt": "2026-10-15"
     },
     {
+      "topicId": "insurance-payment-models",
+      "title": "Insurance Plans, Payment Models, and Medicare vs Medicaid",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 299 (book 277–277)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "interpreters-bad-news",
       "title": "Interpreters and Delivering Bad News: SPIKES",
       "chapterId": "public-health",
@@ -2638,6 +2653,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 293 (book 271–271)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "patient-safety-quality",
+      "title": "Patient Safety: Medical Errors and Quality Improvement",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 300 (book 278–278)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 5,

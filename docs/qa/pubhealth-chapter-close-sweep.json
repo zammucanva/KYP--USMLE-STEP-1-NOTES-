@@ -1,0 +1,380 @@
+{
+ "observational-studies": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "clinical-therapeutic-trials": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "bradford-hill-criteria": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 43,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "quantifying-risk": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "vital-statistics-populations": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "likelihood-ratios": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "survival-analysis": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "diagnostic-test-performance": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "roc-precision-accuracy": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "incidence-prevalence": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "bias-and-study-errors": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "confounding-effect-modification": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "statistical-distributions": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "hypothesis-testing-errors": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "confidence-intervals-meta-analysis": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "statistical-tests": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "correlation-coefficient": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "core-ethical-principles": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "informed-consent": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "surrogates-confidentiality": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "patient-centered-interviewing": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 44,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "cultural-competence-interviewing": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "interpreters-bad-news": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "challenging-scenarios": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "disease-prevention-prophylaxis": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 46,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "insurance-payment-models": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 43,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "patient-safety-quality": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ }
+}

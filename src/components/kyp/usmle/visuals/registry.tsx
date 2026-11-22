@@ -84,6 +84,8 @@ import { CulturalInterviewingMap } from "./pubhealth-p22";
 import { BadNewsMap } from "./pubhealth-p23";
 import { ChallengingScenariosMap } from "./pubhealth-p24";
 import { PreventionProphylaxisMap } from "./pubhealth-p25";
+import { InsuranceModelsMap } from "./pubhealth-p26";
+import { PatientSafetyMap } from "./pubhealth-p27";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -259,6 +261,8 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "bad-news-map": BadNewsMap,
   "challenging-scenarios-map": ChallengingScenariosMap,
   "prevention-prophylaxis-map": PreventionProphylaxisMap,
+  "insurance-models-map": InsuranceModelsMap,
+  "patient-safety-map": PatientSafetyMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

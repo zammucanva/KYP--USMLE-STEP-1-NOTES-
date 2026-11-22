@@ -75,6 +75,8 @@ import { culturalCompetenceInterviewing } from "./cultural-competence-interviewi
 import { interpretersBadNews } from "./interpreters-bad-news";
 import { challengingScenarios } from "./challenging-scenarios";
 import { diseasePreventionProphylaxis } from "./disease-prevention-prophylaxis";
+import { insurancePaymentModels } from "./insurance-payment-models";
+import { patientSafetyQuality } from "./patient-safety-quality";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -320,6 +322,8 @@ export const usmleNotes: KypUsMLENote[] = [
   interpretersBadNews,
   challengingScenarios,
   diseasePreventionProphylaxis,
+  insurancePaymentModels,
+  patientSafetyQuality,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

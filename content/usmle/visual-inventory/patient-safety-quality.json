@@ -1,0 +1,100 @@
+{
+  "topicId": "patient-safety-quality",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "patient-safety-quality",
+      "requiredInKYP": true,
+      "visualId": "patient-safety-quality-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          300
+        ],
+        "bookPages": "278"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Types of medical errors table (book 278): FOUR rows — Active error, Latent error, Never event (with the Sentinel event definition), Near miss — each with its description cell and consequence cell; the page's core error taxonomy, under the printed error-domain list and the outcome-independent disclosure rule",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh27/vlm-census.txt — VLM available this session): the running header (book page 278, SEC TION II, PUBLIC HEALTH SCIENCES, the subsection banner '▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY' printing once visually with a doubled text layer — two overlapping copies ~2.6pt apart, NOT two banner instances), the navy 'Types of medical errors' heading (wraps across two lines), the intro paragraph (errors may involve patient identification, diagnosis, monitoring, healthcare-associated infection, medications, procedures, devices, documentation, handoffs; medical errors should be disclosed to patients, independent of immediate outcome (harmful or not)), then FOUR rows in printed order with navy row labels, NO printed column headers (nothing between the intro and the Active error row but a hairline rule — VLM-confirmed) and hairline row separators (no zebra striping): Active error → Occurs at level of frontline operator (eg, wrong IV pump dose programmed) → Immediate impact; Latent error → Occurs in processes indirect from operator but impacts patient care (eg, different types of IV pumps used within same hospital) → Accident waiting to happen; Never event → Adverse event that is identifiable, serious, and usually preventable (eg, scalpel retained in a surgical patient's abdomen) → Major error that should never occur. Sentinel event—a never event that leads to death, permanent harm, or severe temporary harm (the inline 'Sentinel event' lead-in prints navy); Near miss → Unplanned event that does not result in harm but has the potential to do so (eg, pharmacist recognizes a medication interaction and cancels the order) → Narrow prevention of harm that exposes dangers.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "patient-safety-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (PatientSafetyMap in visuals/pubhealth-p27.tsx): the error quartet as four numbered cards in PRINTED order, each carrying the printed definition, its printed example, and the consequence chip (IMMEDIATE IMPACT / ACCIDENT WAITING TO HAPPEN / MAJOR ERROR THAT SHOULD NEVER OCCUR / NARROW PREVENTION OF HARM THAT EXPOSES DANGERS), with the Never-event card's Sentinel-event sub-panel (death, permanent harm, or severe temporary harm + the subset rule), the harm-ladder line, and the domain/disclosure strip beneath; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, mechanisms[0], the steps block (blocks[5]), and recall[4-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "patient-safety-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "patient-safety-quality",
+      "requiredInKYP": true,
+      "visualId": "patient-safety-quality-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          300
+        ],
+        "bookPages": "278"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Medical error analysis table (book 278): column headers DESIGN / METHODS with TWO rows — Root cause analysis (retrospective, after the failure event) vs Failure mode and effects analysis (forward-looking, before implementation); the page's quality-improvement core and the exam's favorite tool-identification pair",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh27/vlm-census.txt — VLM available this session): the navy 'Medical error analysis' heading prints ABOVE the DESIGN/METHODS header row (bbox yMin 466.9 vs 482.8) though the raw text layer extracts the heading AFTER the table body (a jumbled-extraction-order quirk); the header row prints DESIGN / METHODS in small caps (the raw layer's lowercase 'm' in 'mETHODS' is the small-caps extraction artifact, the same class as p278's 'mEASURES/EXAmPLE'); then TWO rows with navy row labels whose leading capitals print in RED (the R of Root and of Retrospective, the F of Failure and of Forward-looking — pixel-probed to the exact glyph extents, the ONLY red on the page; FA-own styling): Root cause analysis → Retrospective approach. Applied after failure event to prevent recurrence. → Uses records and participant interviews (eg, 5 whys approach, fishbone/cause-and-effect diagrams — hyphenated across a line wrap in print; the raw layer merges it to 'cause-andeffect' — process maps) to identify all the underlying problems (eg, process, people, environment, equipment, materials, management) that led to an error; Failure mode and effects analysis (the label wraps across two lines) → Forward-looking approach. Applied before process implementation to prevent failure occurrence. → Uses inductive reasoning to identify all the ways a process might fail and prioritizes them by their probability of occurrence and impact on patients. Hairline rules only; no zebra striping; no margin notes or icons.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "patient-safety-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (PatientSafetyMap in visuals/pubhealth-p27.tsx): the two rows re-laid on a shared BEFORE IMPLEMENTATION → LIVE PROCESS → FAILURE EVENT time axis — the green forward arrow (FMEA forecasts — applied BEFORE implementation) vs the emergency rewind arrow (RCA rewinds — applied AFTER the failure event) — with both rows' DESIGN and METHODS text carried verbatim in the two cards (FORWARD-LOOKING APPROACH / RETROSPECTIVE APPROACH chips, the 5 whys / fishbone/cause-and-effect diagrams / process maps inventory, the probability × impact prioritization) and the 2P-2E-2M strip for RCA's six underlying problems; the table's full text is ALSO carried verbatim in the note's table block (blocks[3]), the compare block (blocks[6]), mechanisms[1], and recall[7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "patient-safety-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "patient-safety-quality",
+      "requiredInKYP": true,
+      "visualId": "patient-safety-quality-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          300
+        ],
+        "bookPages": "278"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Causes of medical errors table (book 278): TWO rows — Burnout and Fatigue — the page's final block, printing the two human causes that keep the analysis tools busy",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh27/vlm-census.txt — VLM available this session): the navy 'Causes of medical errors' heading, then TWO rows with navy row labels and NO printed column headers (VLM-confirmed), hairline rules only: Burnout → Prolonged, excessive stress leading to emotional exhaustion, depersonalization, leading to reduced professional efficacy; Fatigue → Sleep/rest deprivation resulting in cognitive impairment and decreased attention to detail. The print places this block LAST — after the analysis tools — so the page's arc is errors → analysis → causes; the bottom third of the page below it is white space above the footer (the chapter's final page).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "patient-safety-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone D of the registry visual (PatientSafetyMap in visuals/pubhealth-p27.tsx): the burnout and fatigue cards with their printed chains (stress → exhaustion + depersonalization → lost efficacy; deprivation → impaired cognition + lost detail — KYP chain tags) under the causes-strip title, plus the KYP synthesis line (wellness is a patient-safety intervention — the impaired operator is how latent conditions become active errors); the table's full text is ALSO carried verbatim in the note's table block (blocks[4]), core.what, mechanisms[1]'s causes node, the clinical block, and recall[8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "patient-safety-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "patient-safety-quality",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries THREE visual assets, all tables — the Types of medical errors table (sv1: FOUR rows, Active error / Latent error / Never event with Sentinel event / Near miss, printed WITHOUT column headers), the Medical error analysis table (sv2: printed column headers DESIGN / METHODS, TWO rows — Root cause analysis vs Failure mode and effects analysis), and the Causes of medical errors table (sv3: TWO rows, Burnout and Fatigue, printed WITHOUT column headers) — all accounted for in ONE registry visual (patient-safety-map, PatientSafetyMap in visuals/pubhealth-p27.tsx, viewBox 0 0 1102 1224) as ORIGINAL KYP ADAPTATIONS: Zone B the error quartet + the domain/disclosure strip, Zone C the RCA-vs-FMEA time axis with the 2P-2E-2M strip, Zone D the burnout/fatigue causes strip; nothing is reproduced, and every table's full text is additionally carried verbatim in the note's table blocks. The Palliative care block is a label + TEXT block, not a textbook visual asset (no rules, no rows — it takes no inventory record); its sentences are carried verbatim in the note (blocks[2], core.what) and adapted as the registry visual's Zone A panel. Census: zero raster images and NO vector figure (pdfimages — the page is pure text + three hairline tables); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the four blocks and their order, the two header-less tables vs the DESIGN/METHODS headers, the navy labels with inline navy 'Hospice care' and 'Sentinel event', the RED leading capitals on Root/Retrospective/Failure/Forward-looking (pixel-probed — the only red on the page; FA styling, not a mnemonic), hairline rules only, and the absence of margin mnemonics, footnotes, images, and icons. ADJUDICATIONS: the VLM's 'concurent' misread corrected to the text layer's 'concurrent' (print governs); the note's table blocks for the two header-less tables use KYP-descriptive column labels over verbatim cells (documented). FULL single page, the LAST of Public Health Sciences (pdf 301 opens Section III). STAGED under .usmle-pipeline-cache/staging-pubh27/ — promotion into content/ is owned downstream."
+}

@@ -968,3 +968,20 @@ Stage Summary:
 - MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · Public Health 25/27 (Epi/Biostat 17/17 · Ethics 3/3 · Communication 4/4 COMPLETE; Delivery 1/3) — 198/3029 topics · evidence 4589/4589 · 191 registry visuals · contract GREEN · 0 depth failures.
 - REMAINING (2): insurance-payment-models (299/277) · patient-safety-quality (300/278) → then the §6.2 CHAPTER CLOSE GATE (the sixth chapter).
 - NEXT: pubh26-pubh27 + chapter close. Do not stop.
+
+---
+Task ID: pubh26-pubh27-chapter-close-2026-11-22
+Agent: Super Z (main agent + 2 parallel production subagents)
+Task: The pubh26-pubh27 final batch (2 topics) + THE PUBLIC HEALTH CHAPTER CLOSE — 27/27, the sixth chapter verified.
+
+Work Log:
+- pubh26 insurance-payment-models (299/277) 843-line note, InsuranceModelsMap (1102x1350, 146 texts), 16 evidence — ADJUDICATIONS: the mnemonic keyword letters (E/D, A/B/C/D) print RED (zoom passes overrule the full-page pass); EPO/ACO/HDHP rule silences marked "— not printed" rather than invented; TWO self-caught risk-chip overflows fixed pre-report. pubh27 patient-safety-quality (300/278, the chapter's final page) 803-line note, PatientSafetyMap (1102x1224, 99 texts), 12 evidence — errors/causes tables print NO column headers (KYP-descriptive labels adjudicated); the doubled ▶ banner text-layer artifact documented.
+- THE §6.2 CHAPTER CLOSE GATE PASSED: (1) full 27-topic browser sweep (fresh session per topic, desktop 1440x900) — 27/27 PASS: zero page errors, zero console errors (favicon noise excluded), no 'Visual unavailable' anywhere, mechanisms render on every topic, zero horizontal overflow. Run in two chunks (1-14, 15-27) with .next wiped between — a disk-management measure only; every topic probed identically. A latent null-safety bug in the sweep script ({"data": null} from the errors endpoint crashes .get) was found and fixed in BOTH the public-health and pharmacology sweep scripts. (2) machine check: every public-health manifest visualId resolves in the registry. (3) chapter manifest: extractionStatus verified, completedAt 2026-11-22, qaStatus pass. (4) tracker synchronized: public-health 27/27 produced, 0 remaining.
+- pubh26-27 per-topic QA: browser 4-pass ×2 — 8/8 at 0px; getBBox 0 overlaps / 0 outside ×2 FIRST PASS; VLM ×4 — 4/4 CLEAN (house-style notes only).
+- Gates at chapter close: evidence 4617/4617 EXIT 0 · CONTRACT GREEN (2 baseline warnings) · audit 200 topics 0 depth failures · tsc 1 baseline.
+
+Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · PUBLIC HEALTH 27/27 (all VERIFIED — SIX chapters complete) · 200/3029 topics · evidence 4617/4617 · 193 registry visuals · contract GREEN · 0 depth failures.
+- SESSION TOTAL (public health): census (27 topics) + 27 topics produced in 6 batches (pubh1-5, pubh6-10, pubh11-15 [1 subagent relaunch], pubh16-20, pubh21-25, pubh26-27) + chapter close. 414 new evidence items (4203→4617). ZERO visual fix rounds in the final four batches; 12 first-batch contract violations fixed at generator level and never repeated (four consecutive CONTRACT-GREEN-first-run batches).
+- DISK: the tight-window discipline held all session (worst 0 free, recovered each time; nothing unrecoverable deleted — all removals were verified-redundant or regenerable, documented in the batch entries and the download README).
+- NEXT (first action of the next session): CARDIOVASCULAR chapter (pdf 301-350 / book 279-328, the largest chapter yet) — banner census first, then production in >=5-topic batches following the pubh pattern. Do not stop.

@@ -12,8 +12,8 @@
   }
  ],
  "bookPages": "255–278",
- "extractionStatus": "extracted",
- "pendingTopicCount": 2,
+ "extractionStatus": "verified",
+ "pendingTopicCount": 0,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -685,7 +685,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Healthcare Delivery",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The insurance plan table (EPO, HMO, PoS, PPO, ACO, HDHP with HSA — network rules, referral requirements, premium/out-of-pocket tradeoffs), the payment models (bundled payment, capitation, discounted fee-for-service, fee-for-service, global payment with the elective-surgery example), and Medicare vs Medicaid (federal social programs from Social Security Act amendments; Medicare ≥65 / <65 disabilities / ESRD, parts A hospital Admissions, B Basic bills, C Combo via private, D prescription Drugs; MedicarE = Elderly, MedicaiD = Disadvantaged; Medicaid joint federal-state for limited income). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -711,8 +711,11 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Healthcare Delivery",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The chapter's final page: palliative care vs hospice (comfort and quality of life, interdisciplinary team, concurrent with curative treatment, hospice ≤6-month prognosis), types of medical errors (active — frontline operator, wrong IV pump dose, immediate impact; latent — system-level, different IV pumps, accident waiting to happen; never event — identifiable, serious, usually preventable, retained scalpel, with sentinel event; near miss — pharmacist cancels interaction), error disclosure regardless of harm, root cause analysis (retrospective, 5 whys, fishbone, process maps) vs failure mode and effects analysis (forward-looking, inductive, prioritized by probability and impact), and the causes (burnout, fatigue). Pure text → ORIGINAL KYP ADAPTATION."
   }
- ]
+ ],
+ "completedAt": "2026-11-22",
+ "qaStatus": "pass",
+ "compliance": "all 27 topics produced; §6.2 chapter gate run 2026-11-22 (27/27 browser sweep + gates)"
 }

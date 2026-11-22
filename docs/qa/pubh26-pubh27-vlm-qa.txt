@@ -1,0 +1,59 @@
+=== pubh26 (insurance-payment-models) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels/blocks appear complete: the six-plan referral grid, the payment-models panel with its risk spectrum sidebar, and the Medicare vs Medicaid comparison cards are all present with no clipped edges.
+
+2) **Text overlap/spill?** No visible overlap. Text stays within its pill badges and cards. One caution: the "Part A / B / C / D" letter labels in the Medicare card sit very close to their description text, but they don't collide.
+
+3) **Connectors/arrows?** The risk-spectrum arrow (left panel, FFS → PREVENT, i.e., "SAFER → RISKIER") renders as a clean solid black arrow with a proper arrowhead. No tofu boxes or broken glyphs anywhere.
+
+4) **Readability?** Overall good contrast in light theme. Some text is near the legibility floor: the small parenthetical captions (e.g., under plan names, the fine-print explanation lines under each column header like "REFERRAL: ...who controls the specialist?", and footnote lines at the bottom of panels) are quite small/light gray — borderline but likely legible at full resolution.
+
+5) **Verdict: CLEAN.** Only minor notes: very small fine-print text is at the legibility floor, and a floating "Search" widget partially overlays the right edge of the FFS→PREVENT risk spectrum card (appears to be an app UI overlay, not a defect of the diagram itself).
+
+=== pubh26 (insurance-payment-models) — dark — REVIEW ===
+**1) Fully rendered panels?** Yes — all three sections (insurance plans grid, payment models, Medicare/Medicaid) appear complete; no visibly clipped or missing blocks.
+
+**2) Text overlap/spill?** No obvious overlap. Many cells show muted "— repeated" placeholder-style lines and faint rule lines that are legible but low-contrast; they stay inside their containers.
+
+**3) Connectors/arrows?** The Medicare→Medicaid vertical arrow on the right sidebar renders correctly (line + solid arrowhead). No tofu boxes or broken glyphs observed.
+
+**4) Text readability?** Overall readable in dark theme, but several items sit near the legibility floor:
+- Column headers in the plans grid ("FEE…", "PRIVATE…", "SPECIAL…", "NOTHERS…" row labels) are very small and dim.
+- Footnote/summary lines under each section (e.g., "THE BIG RULE — CMS pays the hospital…") are small, low-contrast gray.
+- The small "recall hints" lines (faint dashed text) under pills are borderline.
+- The floating "Search" pill overlaps the right sidebar area (app UI, not the diagram itself).
+
+**5) Verdict: CLEAN with minor caveats** — no structural defects; the only issues are low-contrast, very small footnote/diagnostic text (near legibility floor) in the plans grid header row, section footers, and recall-hint lines. The Search overlay covering part of the "PROFIT → PROCESS" sidebar is an app-level overlay, not a rendering defect of the SVG.
+
+=== pubh27 (patient-safety-quality) — light — REVIEW ===
+1) **Fully rendered?** Yes — all panels/blocks (palliative/hospice, four error cards, sentinel-event bar, FMEA/RCA timeline panel, burnout/fatigue blocks, source row) appear complete with no clipping or missing containers.
+
+2) **Overlap/spill?** None observed. All chips, badges, and text stay within their boxes; no overlapping elements.
+
+3) **Connectors/glyphs?** Yes, correct. The bidirectional timeline (green arrow leftward, red arrow rightward from LIFE/PROCESS node) renders cleanly with proper arrowheads and axis ticks. The "→" glyphs in body text render correctly — no tofu boxes.
+
+4) **Readability?** Generally good contrast. The smallest supporting lines (e.g., "mnemonic" caption lines under cards, source-row citations at bottom) are near the legibility floor — quite small, though they appear intentional as tertiary detail. Green text on light-green chip ("PREVENTION OF IDENTIFY NEAR MISS" area) is slightly lower contrast but still readable.
+
+5) **Verdict: CLEAN** — no functional defects; only minor note: smallest caption/citation text sits near the legibility floor (locations: card footnotes, sentinel bar right-side note, bottom source block).
+
+=== pubh27 (patient-safety-quality) — dark — REVIEW ===
+**1) Panels/blocks fully rendered?**
+Yes. All cards (Active error, Latent error, Near miss, Never event, Palliative care, Hospice, System analysis panels, Direct/Fatigue blocks, footer sources) are complete with no clipping. The left edge of the top teal banner ("4 blocks – 4 core topics – 2 cards") is slightly cropped at the container edge but intentional-looking.
+
+**2) Text overlap / spilling?**
+One overlap: the floating **"🔍 Search" pill** (app UI, right side, ~mid-lower area) overlaps the diagram region between the LCS/Proxes timeline label area and the Root-cause analysis panel. Within the SVG itself, no text overlap or container spill detected.
+
+**3) Connectors/arrows?**
+Timeline renders correctly: green arrow → LCS crossing, red arrow → Proxes endpoint, white segment, tick marks and arrowheads all present. No tofu boxes or broken glyphs in badges or labels.
+
+**4) Text readability?**
+- Headings, badge text (green/red/orange pills), and timeline endpoint labels: readable.
+- **Body/footnote text is at the legibility floor**: small (~7–8px equivalent) dark-gray text on near-black background, e.g., card body lines ("Reduce losses..., Leg..., yes—yes"), the memory-hook line, and the footer source block (last panel) are very low contrast and barely legible.
+- Timeline mid-labels ("LCS error – smallest/Mistakesresenter", "3Y error – a updated 12/19/see error") are small but legible.
+
+**5) Verdict:**
+**Minor defects:**
+1. Floating Search overlay encroaching on diagram area (app chrome, right side ~y=815) — if cropping diagram content, it obscures/overlaps the region.
+2. Footer "Sources" paragraph and all card body text: too small/low-contrast — near legibility floor.
+3. Top-right teal banner text slightly tight against its left edge.
+
+SVG content itself: structurally CLEAN; fix typography contrast/size and the overlay collision.

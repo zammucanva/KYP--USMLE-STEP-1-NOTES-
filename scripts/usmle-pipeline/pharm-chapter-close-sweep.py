@@ -64,11 +64,11 @@ for i, (slug, vids) in enumerate(TOPICS, 1):
     ab(sess, "open", f"http://localhost:3000/usmle/{slug}")
     time.sleep(6)  # allow compile-on-demand for first visits
     errors = parse_json(ab(sess, "errors", "--json")) or {}
-    err_lines = errors.get("data", {}).get("errors", []) if isinstance(errors, dict) else (errors if isinstance(errors, list) else [])
+    err_lines = (errors.get("data") or {}).get("errors", []) if isinstance(errors, dict) else (errors if isinstance(errors, list) else [])
     console = parse_json(ab(sess, "console", "--json")) or {}
     cons_errors = []
     if isinstance(console, dict):
-        msgs = console.get("data", {}).get("messages", [])
+        msgs = (console.get("data") or {}).get("messages", [])
         cons_errors = [c for c in msgs if isinstance(c, dict) and c.get("type") == "error"]
     JS = 'JSON.stringify({unavail: document.body.innerText.includes("Visual unavailable"), roleSvgs: document.querySelectorAll("svg[role=img]").length, anySvgs: document.querySelectorAll("svg").length, mech: !!document.getElementById("mechanisms"), mechH3: document.getElementById("mechanisms") ? document.getElementById("mechanisms").querySelectorAll("h3").length : 0, overflow: Math.max(0, document.documentElement.scrollWidth - document.documentElement.clientWidth)})'
     probe = parse_json(ab(sess, "eval", JS))
