@@ -47,6 +47,9 @@ import { toxicityTreatments } from "./toxicity-treatments";
 import { drugReactionsEndocrine } from "./drug-reactions-endocrine";
 import { drugReactionsHematologic } from "./drug-reactions-hematologic";
 import { drugReactionsNeurologic } from "./drug-reactions-neurologic";
+import { pupilSizeCyp450 } from "./pupil-size-cyp450";
+import { drugNames } from "./drug-names";
+import { biologicAgents } from "./biologic-agents";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -264,6 +267,9 @@ export const usmleNotes: KypUsMLENote[] = [
   drugReactionsEndocrine,
   drugReactionsHematologic,
   drugReactionsNeurologic,
+  pupilSizeCyp450,
+  drugNames,
+  biologicAgents,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

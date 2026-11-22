@@ -1,0 +1,243 @@
+{
+  "topicId": "biologic-agents",
+  "title": "Biologic Agents: The Naming Table",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Miscellaneous",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      276
+    ],
+    "bookPages": "254–254"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 254, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PHARMACOLOGY, the subsection banner '▶ PHARMACOLOGY—MISCELLANEOUS', and the table title 'Biologic agents' — the LAST page of the Pharmacology chapter (pdf 277 opens Public Health Sciences)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "254\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—MISCELLANEOUS\n\nBiologic agents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's three column headers — ENDING / CATEGORY / EXAMPLE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "ENDING\n\nCATEGORY\n\nEXAMPLE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GROUP BANNER 1 + ROW 1 — 'Monoclonal antibodies (-mab)—target overexpressed cell surface receptors' (the banner spans all three columns in print, em dash as printed) then -ximab → Chimeric human-mouse monoclonal antibody → Rituximab",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "Monoclonal antibodies (-mab)—target overexpressed cell surface receptors\n-ximab\n\nChimeric human-mouse monoclonal antibody\n\nRituximab",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 2-3 of the -mab group — -zumab → Humanized monoclonal antibody → Bevacizumab · -umab → Human monoclonal antibody → Denosumab (the humanization ladder: -xi- chimeric, -zu- humanized, -u- human)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "-zumab\n\nHumanized monoclonal antibody\n\nBevacizumab\n\n-umab\n\nHuman monoclonal antibody\n\nDenosumab",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GROUP BANNER 2 + ROW 4 — 'Small molecule inhibitors (-ib)—target intracellular molecules' then -ciclib → Cyclin-dependent kinase inhibitor → Palbociclib",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "Small molecule inhibitors (-ib)—target intracellular molecules\n-ciclib\n\nCyclin-dependent kinase inhibitor\n\nPalbociclib",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 5-6 of the -ib group — -coxib → COX-2 inhibitor → Celecoxib · -parib → Poly(ADP-ribose) polymerase inhibitor → Olaparib (subscripts/superscripts carry as plain text per the cache layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "-coxib\n\nCOX-2 inhibitor\n\nCelecoxib\n\n-parib\n\nPoly(ADP-ribose) polymerase inhibitor\n\nOlaparib",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 7-8 of the -ib group — -rafenib → BRAF inhibitor → Vemurafenib · -tinib → Tyrosine kinase inhibitor → Imatinib",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "-rafenib\n\nBRAF inhibitor\n\nVemurafenib\n\n-tinib\n\nTyrosine kinase inhibitor\n\nImatinib",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 9 of the -ib group — -zomib → Proteasome inhibitor → Bortezomib (the sixth intracellular machine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "-zomib\n\nProteasome inhibitor\n\nBortezomib",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "GROUP BANNER 3 + ROW 10 — 'Interleukin receptor modulators (-kin)—agonists and antagonists of interleukin receptors' then -leukin → Interleukin-2 agonist/analog → Aldesleukin (the cytokine-mimic arm that STIMULATES)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "Interleukin receptor modulators (-kin)—agonists and antagonists of interleukin receptors\n-leukin\n\nInterleukin-2 agonist/analog\n\nAldesleukin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 11 — -kinra → Interleukin receptor antagonist → Anakinra (the cytokine-mimic arm that BLOCKS — the -kin see-saw's antagonist side)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "-kinra\n\nInterleukin receptor antagonist\n\nAnakinra",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 254 / 12/19/25 8:07 AM (page identity, book 254)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 254\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "biologic-agents-map"
+  ],
+  "mechanismIds": [
+    "mab-grammar-map",
+    "cytokine-mimic-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed naming table — 4 patterns (the chimeric -ximab infusion-reaction stem, the -tinib intracellular-tyrosine-kinase stem, the -leukin interleukin-2 agonist/analog stem, the -umab fully-human formulary question), 4 traps (-ximab/-zumab/-umab source ladder, -tinib vs -zomib infix machines, -leukin vs -kinra directions, -mab vs -ib target addresses), 3 pivots (the source-infix router, the stem/format router, the cytokine-direction router), and 8 recall cards covering all 11 printed rows.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the ending→category→example associations only; the attack structure, the distractor designs, and the reverse-direction question shapes are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "decode-grammar-protocol",
+      "summary": "The stem→infix→direction grammar and the four-move decode protocol (READ THE STEM -mab/-ib/-kin → IF -mab READ THE SOURCE INFIX -xi-/-zu-/-u- → IF -ib/-kin READ THE TARGET INFIX OR DIRECTION → RECALL THE PRINTED EXAMPLE, THEN GENERALIZE), including the format-follows-the-target rule (cell-surface receptor → antibody; intracellular molecule → small molecule; interleukin receptor → recombinant modulator) — the claim that this three-row -mab grammar decodes every monoclonal on the exam.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the three source infixes and their categories as table rows but never states the grammar (read the name right-to-left), the delivery logic, or the protocol; the synthesis is KYP's.",
+      "location": "core.keyIdea + mechanisms[0] + blocks[2] the list block + blocks[3] the steps block + the registry visual's Zone A ladder, Zone B panel, and Zone D protocol strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (XI MIXES, ZU GRAFTS, U IS HUMAN / MAB OUTSIDE, IB INSIDE, KIN IN-BETWEEN / SIX MACHINES, ONE SUFFIX / LEUKIN LIFTS, KINRA KNOCKS). No mnemonic prints in the page's margins; First Aid's own red mnemonic letters INSIDE the CATEGORY cells (Chi-meric, Humanized, Human, Cyclin-, COX-2, Poly, BRAF, Tyrosine kinase, Proteasome, Interleukin-2, interleukin receptor antagonist) are carried ATTRIBUTED inside the verbatim table, the memory callout, and the visual, and are NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin mnemonic prints anywhere on pdf 276 (pdfimages + VLM census, staging-ph28/vlm-census.txt); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's footer attribution text"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The rituximab first-infusion-reaction miniCase — which ending marks the monoclonal class — with the correct answer routing the structural description (murine variable regions + human constant regions = the printed 'Chimeric human-mouse monoclonal antibody' category verbatim) to -ximab, and distractors climbing the wrong rung (-zumab humanized, -umab human) or leaving the antibody family entirely (-kinra, the interleukin receptor antagonist).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the pairing as one table row and never dissects it against the ladder's other rungs as distractors; the vignette, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase + blocks[4] the -kin compare block"
+    },
+    {
+      "id": "generalization-and-bridge-layer",
+      "summary": "The KYP-context generalizations, every one flagged as such: the -mab grammar applied to monoclonals the page never prints (infliximab -xi- chimeric, trastuzumab -zu- humanized, adalimumab -u- human), the immunogenicity shadow of the humanization ladder (chimeric > humanized > human), the specific receptor context for the -kin rows (aldesleukin at the IL-2 receptor driving T-cell expansion; anakinra as the recombinant IL-1 receptor antagonist), and the -ib indication families — the immunology bridge to the cytokine physiology.",
+      "origin": "outside-first-aid",
+      "rationale": "The source is a naming table with category words only; every mechanism, receptor, indication, and immunogenicity statement beyond the printed categories is KYP context, explicitly marked in the note and never presented as printed text.",
+      "location": "blocks[2] the list block + mechanisms[1] cytokine-mimic-map + blocks[4] the compare block + blocks[5] the exam callout + mnemonics' clinical fields"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 276 / book 254 is the LAST page of the Pharmacology chapter (pdf 277 opens Public Health Sciences), entirely the PHARMACOLOGY—MISCELLANEOUS subsection, carrying ONE table — 'Biologic agents' (columns ENDING / CATEGORY / EXAMPLE, 3 shaded group banner rows + 11 data rows, printed order -ximab/rituximab through -kinra/anakinra) — carried VERBATIM in the note's table block (blocks[1], banner rows carried as rows in their printed positions, documented). CENSUS (pdfimages): ZERO raster images; the table occupies the top ~40% of a short final page (VLM). VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v full-page pass (staging-ph28/vlm-census.txt) confirmed the printed row order of all 11 rows, the color furniture (red mnemonic letters INSIDE the CATEGORY cells — Chi-meric, Humanized, Human, Cyclin-, COX-2, Poly, BRAF, Tyrosine kinase, Proteasome, Interleukin-2, interleukin 'r'eceptor 'a'ntagonist — plus red banner fragments, light blue-gray shaded group banner rows spanning all three columns, dark navy title), and the absence of margin notes, mnemonics, asterisk footnotes, and images. ADJUDICATION (all three reads agree — raw text layer, pdftotext -layout, and the VLM pass): the batch brief anticipated '-cept fusion proteins' and 'the other recombinant cytokines/enzymes' rows — they DO NOT PRINT on pdf 276; the page carries exactly the three stem groups (-mab, -ib, -kin), and the -leukin/-kinra interleukin modulators are its only cytokine family (brief corrected to print; the note's cytokine-mimic mechanism and the -kin see-saw are built on the printed rows, and the immunology bridge is flagged KYP context). Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); em dashes in the three group banners ('(-mab)—target overexpressed cell surface receptors', '(-ib)—target intracellular molecules', '(-kin)—agonists and antagonists of interleukin receptors'); banners span all three columns in print; subscripts as plain digits per the cache text layer (COX-2, Poly(ADP-ribose)); First Aid's red CATEGORY letters carried ATTRIBUTED (not counted among the four KYP mnemonics). Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (mab-grammar-map, cytokine-mimic-map), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (drug-names — produced in parallel in this same batch, referenced by design; cancer-immunotherapy-epidemiology; recombinant-cytokines; cytokines), 4 crossLinks, 4 KYP mnemonics, a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option), and NO DrugCards — the DrugCard layer is FOLDED (documented): the page is a NAMING table that prints category words only, with no mechanisms/uses/adverse effects to trace to the page, so the exemplar's DrugCard shape does not fit; the naming content is carried in blocks/recall/mnemonics instead; (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-ph28/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'biologic-agents-map' is therefore not yet in visuals/registry.tsx by design); (4) the page's single visual asset (the color-coded naming table) is implemented as ORIGINAL KYP ART in ONE registry visual (biologic-agents-map, BiologicAgentsMap in visuals/pharm-p28.tsx, viewBox 0 0 1102 1116): the -mab humanization ladder drawn as three color-coded Y-shaped antibodies (-ximab with mouse arms, -zumab with grafted loop tips, -umab fully human, against the printed examples rituximab/bevacizumab/denosumab), the format-follows-the-target cell-crossing panel (the -mab antibody locked outside the plasma membrane at overexpressed surface receptors; the six -ib machines inside the cell, each chip with its printed ending and example), the -kin see-saw at the interleukin receptor (aldesleukin mimicking-and-stimulating vs anakinra occupying-and-blocking), and the four-move decode protocol strip — with the full table's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

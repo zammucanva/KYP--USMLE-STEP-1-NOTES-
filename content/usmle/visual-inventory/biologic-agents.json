@@ -1,0 +1,46 @@
+{
+  "topicId": "biologic-agents",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Miscellaneous",
+      "topicId": "biologic-agents",
+      "requiredInKYP": true,
+      "visualId": "biologic-agents-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          276
+        ],
+        "bookPages": "254"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Biologic agents naming table (book 254): the drug-stem decoder for the biologics — 3 group banners and 11 rows, columns ENDING / CATEGORY / EXAMPLE, from -ximab/rituximab through -kinra/anakinra — the Pharmacology chapter's closing table",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph28/vlm-census.txt — VLM available this session): the section header band (book page 254, SEC TION II, PHARMACOLOGY, '▶ PHARMACOLOGY—MISCELLANEOUS'), the dark navy table title 'Biologic agents', three column headers ENDING / CATEGORY / EXAMPLE, then three shaded group banner rows spanning all columns — 'Monoclonal antibodies (-mab)—target overexpressed cell surface receptors'; 'Small molecule inhibitors (-ib)—target intracellular molecules'; 'Interleukin receptor modulators (-kin)—agonists and antagonists of interleukin receptors' — and 11 data rows in printed order: -ximab → Chimeric human-mouse monoclonal antibody → Rituximab; -zumab → Humanized monoclonal antibody → Bevacizumab; -umab → Human monoclonal antibody → Denosumab; -ciclib → Cyclin-dependent kinase inhibitor → Palbociclib; -coxib → COX-2 inhibitor → Celecoxib; -parib → Poly(ADP-ribose) polymerase inhibitor → Olaparib; -rafenib → BRAF inhibitor → Vemurafenib; -tinib → Tyrosine kinase inhibitor → Imatinib; -zomib → Proteasome inhibitor → Bortezomib; -leukin → Interleukin-2 agonist/analog → Aldesleukin; -kinra → Interleukin receptor antagonist → Anakinra. Red mnemonic letters print INSIDE the CATEGORY cells (Chi-meric, Humanized, Human, Cyclin-, COX-2, Poly, BRAF, Tyrosine kinase, Proteasome, Interleukin-2, interleukin 'r'eceptor 'a'ntagonist) plus red banner fragments; the table occupies the top ~40% of the short final page; no figures, icons, margin notes, or asterisk footnotes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "biologic-agents-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the whole registry visual (BiologicAgentsMap in visuals/pharm-p28.tsx): Zone A the -mab humanization ladder as three color-coded Y-shaped antibodies with the three printed rows (-ximab/Chimeric human-mouse/Rituximab, -zumab/Humanized/Bevacizumab, -umab/Human/Denosumab); Zone B the format-follows-the-target cell-crossing panel with the -mab antibody outside the plasma membrane at overexpressed surface receptors and the six -ib machines inside the cell (-ciclib/-coxib/-parib/-rafenib/-tinib/-zomib with their printed categories and examples); Zone C the -kin see-saw (-leukin/Interleukin-2 agonist-analog/Aldesleukin vs -kinra/Interleukin receptor antagonist/Anakinra); Zone D the four-move decode protocol strip; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, list block (blocks[2]), and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "biologic-agents-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "biologic-agents",
+    "textbookVisualCount": 1,
+    "accountedFor": 1,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 1,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries ONE visual asset — the Biologic agents naming table (sv1: 3 group banners + 11 data rows, columns ENDING / CATEGORY / EXAMPLE) — accounted for as an ORIGINAL KYP ADAPTATION: nothing is reproduced; ONE registry visual (biologic-agents-map, BiologicAgentsMap in visuals/pharm-p28.tsx, viewBox 0 0 1102 1116) rebuilds every ending, category, and example as original KYP vector art (the -mab humanization ladder as three color-coded Y-shaped antibodies; the format-follows-the-target cell-crossing panel with the six -ib machines inside the cell; the -kin see-saw at the interleukin receptor; the four-move decode protocol strip), and the full table's text is additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed the printed row order of all 11 rows, the color furniture (red CATEGORY letters, shaded banner rows), and the absence of margin mnemonics and images; the brief's anticipated -cept fusion proteins / recombinant-enzyme rows were adjudicated NOT PRESENT on pdf 276 (text layer + layout + VLM agree — brief corrected to print). FULL single page, the LAST of Pharmacology (pdf 277 opens Public Health Sciences). STAGED under .usmle-pipeline-cache/staging-ph28/ — promotion into content/ is owned downstream."
+}

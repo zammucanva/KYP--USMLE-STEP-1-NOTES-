@@ -1,0 +1,282 @@
+{
+  "topicId": "pupil-size-cyp450",
+  "title": "Drugs Affecting Pupil Size, CYP-450 Interactions, and the Sulfa Family",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Toxicities and Adverse Effects",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      273
+    ],
+    "bookPages": "251–251"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the PHARMACOLOGY side label, the 'Drugs affecting pupil size' block heading (wrapping 'Drugs affecting pupil / size'), the ▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS banner, and BOTH pupil column headers — '↑ pupil size (mydriasis)' and '↓ pupil size (miosis)' (the two headers carry \\x8f/\\x90 control-char prefixes in the text layer, stripped by norm(); both print in red per the VLM census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "PHARMACOLOGY\n\nDrugs affecting pupil\nsize\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\n\n↑ pupil size (mydriasis)\n\n↓ pupil size (miosis)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The mydriasis column, verbatim (all three entries, printed order): Anticholinergics (eg, atropine, TCAs, tropicamide, scopolamine, antihistamines) · Indirect sympathomimetics (eg, amphetamines, cocaine, LSD), meperidine · Direct sympathomimetics — meperidine prints JOINED BY COMMA to the indirect-sympathomimetics entry, NOT as its own bullet (adjudicated: text layer + layout + VLM agree; the batch brief's separate-item description is corrected to the print)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Anticholinergics (eg, atropine, TCAs,\ntropicamide, scopolamine, antihistamines)\nIndirect sympathomimetics (eg, amphetamines,\ncocaine, LSD), meperidine\nDirect sympathomimetics",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The miosis column, verbatim (all three entries, printed order): Sympatholytics (eg, α2-agonists) · Opioids (except meperidine) · Parasympathomimetics (eg, pilocarpine), organophosphates — the third entry was not named in the batch brief's list; it prints and is carried (the topic owns the whole page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Sympatholytics (eg, α2-agonists)\nOpioids (except meperidine)\nParasympathomimetics (eg, pilocarpine),\norganophosphates",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The iris figure's dilator caption, as embedded in the text layer — 'Radial muscle contraction (α1 receptor mediated)' appearing TWICE as interleaved duplicate spans (an extraction artifact; the print shows the caption ONCE beneath the dilated iris with radial fibers, per the VLM census — carried once in the note, duplication documented)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Radial muscleRadial\ncontraction\nmuscle contraction\n(α1 receptor mediated)\n(α1 receptor mediated)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The iris figure's constrictor caption, as embedded in the text layer — 'Sphincter muscle contraction (M3 receptor mediated)' appearing TWICE as interleaved duplicate spans (same adjudication: the print shows it once, beneath the constricted iris with concentric sphincter rings)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Sphincter muscle\ncontraction\nSphincter\nmuscle contraction\n(M3 receptor mediated)\n(M3 receptor mediated)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The middle and bottom block headings — 'Cytochrome P-450 / interactions (selected)' and 'Sulfa drugs' (both print as blue sidebar labels per the VLM census)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Cytochrome P-450\ninteractions (selected)\n\nSulfa drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CYP table's three column headers, verbatim: Inducers (+) · Substrates · Inhibitors (–) (printing in red above thin rules per the VLM census; the (–) prints with an en dash)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Inducers (+)\n\nSubstrates\n\nInhibitors (–)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The nine CYP-450 inducers, verbatim in printed order: St. John's wort, Phenytoin, Phenobarbital, Modafinil, Nevirapine, Rifampin, Griseofulvin, Carbamazepine, Chronic alcohol overuse (mnemonic-relevant letters printing red inside the names)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "St. John’s wort\nPhenytoin\nPhenobarbital\nModafinil\nNevirapine\nRifampin\nGriseofulvin\nCarbamazepine\nChronic alcohol overuse",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The four CYP-450 substrates, verbatim in printed order: Theophylline, OCPs, Anti-epileptics, Warfarin (the four gauges whose levels swing — INR, theophylline level, contraceptive efficacy, seizure control)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Theophylline\nOCPs\nAnti-epileptics\nWarfarin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The fourteen CYP-450 inhibitors, verbatim in printed order: Sodium valproate, Isoniazid, Cimetidine, Ketoconazole, Fluconazole, Acute alcohol overuse, Chloramphenicol, Erythromycin/clarithromycin, Sulfonamides, Ciprofloxacin, Omeprazole, Amiodarone, Ritonavir, Grapefruit juice (alcohol prints in BOTH columns — chronic overuse induces, acute overuse inhibits)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Sodium valproate\nIsoniazid\nCimetidine\nKetoconazole\nFluconazole\nAcute alcohol overuse\nChloramphenicol\nErythromycin/clarithromycin\nSulfonamides\nCiprofloxacin\nOmeprazole\nAmiodarone\nRitonavir\nGrapefruit juice",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The CYP table's three mnemonics, verbatim, printing INSIDE the table in a red bottom row (First Aid's own, carried ATTRIBUTED, not counted among the four KYP codes): 'St. John's funny funny (phenphen) mom never refuses greasy carbs and chronic alcohol' (the print wraps as '(phen-' / 'phen)' — the printed form is '(phen-phen)'; the cache layer merges it as '(phenphen)', quoted here as-is) · 'The OCPs are anti-war' · 'SICK FACES come when I am really drinking grapefruit juice'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "St. John’s funny funny (phenphen) mom never refuses\ngreasy carbs and chronic\nalcohol\n\nThe OCPs are anti-war\n\nSICK FACES come when I\nam really drinking grapefruit\njuice",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The sulfa block's drug list and adverse-reaction sentence, verbatim: Sulfonamide antibiotics, Sulfasalazine, Probenecid, Furosemide, Acetazolamide, Celecoxib, Thiazides, Sulfonylureas. Patients with sulfa allergies may develop fever, UTI, SJS, hemolytic anemia, thrombocytopenia, agranulocytosis, acute interstitial nephritis, urticaria (hives), and photosensitivity. (eight drugs with red initial capitals S-S-P-F-A-C-T-S in list order; the VLM's 'Sulfonureas' read is adjudicated to the text layer's 'Sulfonylureas' — raw + layout layers agree)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Sulfonamide antibiotics, Sulfasalazine,\nProbenecid, Furosemide, Acetazolamide,\nCelecoxib, Thiazides, Sulfonylureas.\nPatients with sulfa allergies may develop\nfever, UTI, SJS, hemolytic anemia,\nthrombocytopenia, agranulocytosis, acute\ninterstitial nephritis, urticaria (hives), and\nphotosensitivity.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "First Aid's own sulfa margin mnemonic, verbatim — 'Scary Sulfa Pharm FACTS', printing IN RED IN THE RIGHT MARGIN (the page's only margin printing, per the VLM census) — plus the page's PDF-export timestamp line '12/19/25 8:07 AM'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "Scary Sulfa Pharm FACTS\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and book page number — FAS1_2026_05-Pharmacology.indd 251, the 'SEC TION II' header-space extraction artifact (known, carried as-is), and the page number 251 (page identity)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          273
+        ],
+        "bookPages": "251"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 251\n\nSEC TION II\n\n251",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "pupil-cyp-map"
+  ],
+  "mechanismIds": [
+    "pupil-autonomic-pull-map",
+    "cyp450-induction-inhibition-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the three printed blocks — 4 patterns (the opioid pinpoint-pupil stem, the anticholinergic dilated-pupil toxidrome, the inducer-causes-therapeutic-failure stem on warfarin/OCP/theophylline/anti-epileptics, the inhibitor-causes-toxicity stem), 4 traps (meperidine vs every other opioid, chronic vs acute alcohol direction, grapefruit juice vs St. John's wort as the two non-drug agents, sulfonamide antibiotics vs the non-antibiotic sulfa family), 3 pivots (the two-muscle pupil router, the CYP direction-first rule, the sulfa-family check), and 8 recall cards covering all three blocks verbatim.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the three blocks' lists only; the attack structure, the distractor designs, and the reading protocols are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "two-pull-and-amplitude-protocols",
+      "summary": "The two KYP reading protocols: (1) the IRIS TWO-PULL rule — RADIAL OPENS (α1 driven by direct/indirect sympathomimetics, or unopposed when anticholinergics block M3) vs SPHINCTER CLOSES (M3 driven by parasympathomimetics/organophosphates, or won by default when sympatholytics withdraw the α1 pull or opioids act centrally), with meperidine as the printed exception on both sides; (2) the CYP ENZYME-AMPLITUDE rule — induce = more enzyme = less drug = therapeutic failure, inhibit = less enzyme = more drug = toxicity, with the four substrate gauges (INR, theophylline, OCP efficacy, seizure control) and the chronic-vs-acute alcohol two-direction quirk.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the pupil block as two flat drug columns and the CYP block as three flat name lists; it never asks the learner to route each drug through the muscle it moves or to file each interaction by direction before naming the consequence. Both protocols, the two mechanism flows, and the four-moves CYP steps are KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + mechanisms[1] + blocks[2] the two-pull compare + blocks[4] the four-moves steps + the registry visual's Zones A/B and protocol strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (RADIAL OPENS, SPHINCTER CLOSES / EVERY OPIOID PINPOINTS — EXCEPT MEPERIDINE / MORE ENZYME, LESS DRUG / SULFA IS A FAMILY, NOT A DRUG). First Aid's own mnemonics — 'St. John's funny funny (phen-phen) mom never refuses greasy carbs and chronic alcohol' (inducers), 'The OCPs are anti-war' (substrates), 'SICK FACES come when I am really drinking grapefruit juice' (inhibitors), all three printing INSIDE the CYP table in a red bottom row, and 'Scary Sulfa Pharm FACTS' printing in red in the right margin — are carried ATTRIBUTED inside the verbatim carries, the memory callout, and the visual, and are NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "The source's own mnemonics are preserved and attributed; the four ALL-CAPS codes that organize the page's logic (two-pull, opioid exception, CYP direction, sulfa family) are KYP's design.",
+      "location": "mnemonics + blocks[8] the memory callout + the visual's mnemonic bands"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The warfarin + trimethoprim-sulfamethoxazole miniCase — a stable-INR patient whose INR climbs to 9.4 five days after starting TMP-SMX — with the correct answer routing two printed rows (warfarin substrate + sulfonamides inhibitor = less enzyme, more drug) and distractors inverting the direction (induction), borrowing the wrong block (the IgE sulfa-allergy story from the page's third block), and reaching for the non-printed gut-flora/vitamin-K mechanism; the vignette, the four options, and the reasoning are KYP's design.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the substrate and inhibitor lists separately and never intersects them in a clinical vignette; the case is KYP's synthesis and dissection.",
+      "location": "usmle.miniCase"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The four DrugCards (meperidine — the pupil-dilating opioid exception; rifampin — the prototype inducer; cimetidine — the prototype inhibitor; sulfonamide antibiotics — the sulfa-family anchor), one per testable individual spanning all three blocks; each card's fields are explicitly marked where they are KYP context rather than printed text (the page prints only the pupil lists, the CYP name lists, and the sulfa block — no mechanisms, no uses, no adverse effects for these drugs).",
+      "origin": "outside-first-aid",
+      "rationale": "The source organizes its pharmacology as class lists and interaction tables, not as drug cards; the card layer is a KYP presentation, and every non-printed statement on the cards is flagged as KYP context.",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 273 / book 251 is entirely the PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS subsection, carrying THREE blocks — 'Drugs affecting pupil size' (two-column mydriasis/miosis layout + the iris figure), 'Cytochrome P-450 interactions (selected)' (three-column table), and 'Sulfa drugs' (eight drugs + the nine-reaction sentence + the margin mnemonic); ALL THREE blocks are carried verbatim in the note's blocks (blocks[1] the pupil table, blocks[3] the CYP list, blocks[6] the sulfa list). CENSUS (pdfimages): ZERO raster images — the two iris illustrations are vector art (the page's only figure), plus two small gray multimedia ebook icons beside the iris captions (digital-resource markers, not content). VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v full-page pass (staging-ph26/vlm-census.txt) confirmed all three blocks' printed structure and order, the iris artwork (left: dilated pupil, radial muscle fibers; right: constricted pupil, concentric sphincter rings; one caption each), and the color furniture (blue sidebar block labels; red column headers; red mnemonic letters inside the CYP drug names; red sulfa drug initials S-S-P-F-A-C-T-S; the three CYP mnemonics printing INSIDE the table in a red bottom row; 'Scary Sulfa Pharm FACTS' printing IN RED IN THE RIGHT MARGIN — the page's only margin printing). ADJUDICATIONS (raw text layer + pdftotext -layout + VLM agree unless noted): (1) meperidine is NOT a separate bullet — it prints JOINED BY COMMA to the indirect-sympathomimetics entry ('Indirect sympathomimetics (eg, amphetamines, cocaine, LSD), meperidine'); the batch brief's separate-item description is corrected to the print; (2) the batch brief's miosis list named only sympatholytics and opioids — the print carries a THIRD entry, 'Parasympathomimetics (eg, pilocarpine), organophosphates', carried; (3) the iris captions are embedded TWICE in the cache text layer as interleaved duplicate spans (extraction artifact; the print shows each once — carried once, duplication documented); (4) the inducers mnemonic prints wrapping as '(phen-' / 'phen)' (printed form '(phen-phen)'); the cache layer merges it as '(phenphen)' — the note restores the printed hyphen, the evidence quotes quote the cache lines as-is; (5) the VLM's 'Sulfonureas' read is adjudicated to the text layer's 'Sulfonylureas' (raw + layout layers agree). Quirks carried + documented: \\x8f/\\x90 control-char prefixes on the two pupil column headers (stripped by norm()); 'SEC TION II' header-space artifact; subscripts as plain digits (α2-agonists, α1, M3); the inhibitors' (–) en dash. First Aid's own mnemonics are carried ATTRIBUTED (not counted among the four KYP mnemonics). Batch convention targets are met — 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (muscarinic-antagonists, sympathomimetics, cholinomimetics, drug-metabolism — all verified to exist in notes/), 4 crossLinks, 4 KYP mnemonics, 4 DrugCards, and a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option). productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'). Outputs are STAGED under .usmle-pipeline-cache/staging-ph26/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'pupil-cyp-map' is therefore not yet in visuals/registry.tsx by design). All three of the page's visual assets are implemented as ORIGINAL KYP ART in ONE registry visual (pupil-cyp-map, PupilCypMap in visuals/pharm-p26.tsx, viewBox 0 0 1102 1300): the pupil block becomes the two-pull iris panel (the dilated iris with radial spokes docked by the mydriasis chips, the constricted iris with concentric rings docked by the miosis chips, the printed α1/M3 captions, the meperidine exception band), the CYP table becomes the enzyme-amplitude panel (four substrate gauges in the middle, nine inducer chips + the MORE ENZYME = LESS DRUG = FAILURE band, fourteen inhibitor chips + the LESS ENZYME = MORE DRUG = TOXICITY band, the chronic-vs-acute alcohol chip, and First Aid's own three mnemonics carried attributed in red bands), and the sulfa block becomes the family panel (eight drug chips with their S-S-P-F-A-C-T-S initials, the nine-reaction cluster, and First Aid's own red margin mnemonic carried attributed) — with all three blocks' text ALSO carried verbatim in the note's blocks.",
+  "updatedAt": "2026-11-22"
+}

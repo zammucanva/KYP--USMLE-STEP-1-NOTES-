@@ -56,6 +56,9 @@ import { AntidoteMap } from "./pharm-p22";
 import { DrugReactionEndocrineMap } from "./pharm-p23";
 import { DrugReactionHematologicMap } from "./pharm-p24";
 import { DrugReactionNeurologicMap } from "./pharm-p25";
+import { PupilCypMap } from "./pharm-p26";
+import { DrugNameMap } from "./pharm-p27";
+import { BiologicAgentsMap } from "./pharm-p28";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -203,6 +206,9 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "drug-reaction-endocrine-map": DrugReactionEndocrineMap,
   "drug-reaction-hematologic-map": DrugReactionHematologicMap,
   "drug-reaction-neurologic-map": DrugReactionNeurologicMap,
+  "pupil-cyp-map": PupilCypMap,
+  "drug-name-map": DrugNameMap,
+  "biologic-agents-map": BiologicAgentsMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

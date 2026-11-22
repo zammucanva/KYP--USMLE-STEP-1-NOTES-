@@ -12,8 +12,8 @@
     }
   ],
   "bookPages": "227–254",
-  "extractionStatus": "extracted",
-  "pendingTopicCount": 3,
+  "extractionStatus": "verified",
+  "pendingTopicCount": 0,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -1740,7 +1740,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The mydriasis/miosis drug lists (the classic pin-point-opioids vs blown-out-atropine/amphetamine/CO pairing) + the CYP-450 table of selected inducers (the chronic alcohol/phenytoin/rifampin family) and inhibitors (the cimetidine/erythromycin/ketoconazole/GFJ family)."
     },
     {
@@ -1765,7 +1765,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Miscellaneous",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The drug-name tables across both pages — the -prazole PPIs, -sartan ARBs, -olol β-blockers, -afil PDE-5s, -statin/-vastatin, gli- antidiabetics, -caine anesthetics, -pril ACEs, the dofa-/gab- families, and the suffix-to-class decoding rules."
     },
     {
@@ -1788,8 +1788,11 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Miscellaneous",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The biologic agents table — the -mab monoclonal antibody families (the -xi-/-zu- humanization codes), the -cept fusion proteins, recombinant cytokines and enzymes, with their targets and indications."
     }
-  ]
+  ],
+  "completedAt": "2026-11-22",
+  "qaStatus": "pass",
+  "compliance": "all 29 topics produced; §6.2 chapter gate passed 2026-11-22 (29/29 browser sweep + gates)"
 }

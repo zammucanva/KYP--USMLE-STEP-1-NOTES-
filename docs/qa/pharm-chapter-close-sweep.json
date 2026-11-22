@@ -1,0 +1,408 @@
+{
+ "enzyme-kinetics": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "pharmacokinetics-aging": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 43,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-metabolism": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "elimination-of-drugs": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "urine-ph-dosage": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "efficacy-potency": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "receptor-binding-ti": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 43,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-effect-modifications": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 39,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "autonomic-receptors": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "acetylcholine-receptors": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "pain-transmission": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "micturition-control": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 44,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "adrenergic-receptor-distribution": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 42,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "g-protein-second-messengers": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 45,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "autonomic-drugs-synapse": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 45,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "cholinomimetics": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "muscarinic-antagonists": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 49,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "sympathomimetics": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 0,
+   "anySvgs": 35,
+   "mech": true,
+   "mechH3": 3,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "sympatholytics-alpha-blockers": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 47,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "beta-blockers": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 48,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "phosphodiesterase-inhibitors": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 46,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "seafood-plant-toxins": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 45,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "toxicity-treatments": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 45,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-reactions-endocrine": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 45,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-reactions-hematologic": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-reactions-neurologic": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "pupil-size-cyp450": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 41,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "drug-names": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 39,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ },
+ "biologic-agents": {
+  "ok": true,
+  "notes": [],
+  "probe": {
+   "unavail": false,
+   "roleSvgs": 1,
+   "anySvgs": 40,
+   "mech": true,
+   "mechH3": 2,
+   "overflow": 0
+  },
+  "pageErrors": 0,
+  "consoleErrors": 0
+ }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T04:34:09Z",
+  "generatedAt": "2026-11-22T05:16:44Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 170,
+    "topicsProduced": 173,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 115,
+      "pilot-complete": 118,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -327,12 +327,12 @@
       "chapterId": "pharmacology",
       "chapterTitle": "Pharmacology",
       "part": 1,
-      "extractionStatus": "extracted",
+      "extractionStatus": "verified",
       "topicsRegistered": 29,
-      "topicsProduced": 26,
-      "topicsRemaining": 3,
+      "topicsProduced": 29,
+      "topicsRemaining": 0,
       "qaStatus": "pass",
-      "completedAt": null
+      "completedAt": "2026-11-22"
     },
     {
       "chapterId": "cardiovascular",
@@ -769,6 +769,21 @@
       "kypExtensionCount": 5,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-20"
+    },
+    {
+      "topicId": "biologic-agents",
+      "title": "Biologic Agents: The Naming Table",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Miscellaneous",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 276 (book 254–254)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "blood-tissue-protozoa",
@@ -1282,6 +1297,21 @@
       "kypExtensionCount": 4,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "drug-names",
+      "title": "Drug Names: Prefixes, Suffixes & Stem Families",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Miscellaneous",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 274, 275 (book 252–253)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "drug-reactions-endocrine",
@@ -2407,6 +2437,21 @@
       "kypExtensionCount": 2,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-24"
+    },
+    {
+      "topicId": "pupil-size-cyp450",
+      "title": "Drugs Affecting Pupil Size, CYP-450 Interactions, and the Sulfa Family",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 273 (book 251–251)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "purine-salvage-disorders",

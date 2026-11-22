@@ -1,0 +1,78 @@
+===== ph26 LIGHT-V2 (pupil-size-cyp450) =====
+**1) Fully rendered blocks?**
+Yes. All three sections (pupil system, CYP-450, sulfa drugs) plus the rules strip and sources footer are present. No clipped or missing panels.
+
+**2) Text overlap / spillover?**
+None. Long fine-print lines (e.g., the "AMINO-PENICILLINS" caution line under the red exception banner, and the clopidogrel/omeprazole note) run as full-width text blocks but stay within their containers. The floating "Search" pill at the right edge is app UI chrome, not diagram content.
+
+**3) Connectors/arrows/glyphs?**
+Correct. Radial-contraction rays and concentric-circle glyphs render cleanly; no tofu boxes, no broken characters in ↔, →, or +1/−1 markers.
+
+**4) Readability?**
+All legible, but the smallest text is near the floor:
+- Fine-print drug descriptions inside the small red/teal bordered cards (e.g., "3rd-gen agents, chronic angle closure, on apprenticeship") — ~7–8 px equivalent.
+- Gray caption lines under the two pupil glyphs and the footer/source paragraph — low contrast gray on pale background.
+These are acceptable as secondary annotations but would be hard to read at zoom-out or in print.
+
+**5) Verdict: CLEAN.**
+No defects requiring fixes. Optional polish: bump the ~8 px fine-print in the mechanism cards and darken the gray caption color slightly for accessibility.
+
+===== ph26 DARK (pupil-size-cyp450) =====
+1) **Fully rendered?** Yes — all panels/blocks appear complete: both pupil drug columns (red/mydriasis, cyan/miosis), CYP450 three-column section, sulfa grid, and footer strips. No visibly clipped or missing blocks.
+
+2) **Overlap/spill?** No overlaps. A floating "Search" pill overlays the right edge near the "MAJOR ACTIVE DRUGS" panel — that's app chrome, not a diagram defect; it slightly covers panel background but no text appears obscured. Some very small sub-label text (e.g., panel footnotes) is dense but contained.
+
+3) **Connectors/glyphs?** Fine — concentric-circle miosis glyph and radiating mydriasis glyph render correctly. No tofu boxes or broken characters; arrows/symbols (→, ⊕, inhibit/induce marks) display properly.
+
+4) **Readability?** Body text legible. Near the floor: tiny footnote/sub-caption lines (e.g., under the mnemonic strips, "less potent weaker" row in the miosis panel, and the sulfa footnote text) are quite small and low-contrast gray-on-dark — borderline but still readable.
+
+5) **Verdict: CLEAN** (minor cosmetic notes: ultra-small footnote text near legibility floor; app "Search" button overlaps the diagram's right edge but is UI chrome, not an SVG defect).
+
+===== ph27 LIGHT-V2 (drug-names) =====
+**1) Fully rendered blocks?** Yes — all panels (protocol row, 7 family-cluster boxes, suffix/infix panels, collision strip, sources footer) appear complete; no visibly clipped or missing blocks. The "OTHER" panel and right-side pink panel extend close to the crop edge but their content boxes appear intact.
+
+**2) Text overlap/spill?** No overlaps detected. The search pill ("Search") at top-right is an app overlay, not diagram content. Small text within dense boxes (e.g., OTHER panel footnote lines) fits its container.
+
+**3) Connectors/arrows?** The four flow boxes at top render correctly with solid arrow glyphs (▶) between them — no tofu boxes or broken characters anywhere.
+
+**4) Readability?** Body text at ~8–9px equivalent is legible. Two items near the legibility floor:
+- The small annotation text above "THE BIG PAGE: SEVEN FAMILY BANDS" (right-aligned, "left: ACEI 'pril' name…") is very small and faint.
+- Second-line explanatory captions under each flow-box header (e.g., "the KFP stem describes a drug by cream/PO…") and footnote lines in the OTHER panel are tiny, though still readable at full zoom.
+
+**5) Verdict: CLEAN** — no rendering defects. Minor nit only: the faint right-aligned intro annotation near the top of the family-bands section sits close to minimum contrast/size.
+
+===== ph27 DARK (drug-names) =====
+**1) Panels/blocks fully rendered?** Mostly yes — all major panels (protocol row, 4 drug-family columns, three bottom panels, collision strip, source note) appear complete with intact borders. The "OTHERS" panel extends slightly below the row baseline of its neighbors, but nothing appears clipped.
+
+**2) Text overlap/spill?** No visible overlap or spill. Small footnote text inside "OTHERS" and "MCC" panels is dense but contained. The floating "Search" pill overlaps the page's right edge visually, but that's app UI, not the diagram content.
+
+**3) Connectors/arrows?** The three arrows in the top protocol row render correctly. No tofu boxes or broken glyphs observed.
+
+**4) Text readability?** Small print is near the floor: the caption lines in OTHERS ("Note first H3 blocks...") and MCC footnote text are very low contrast (dark gray on near-black) and quite small. Most list text (teal/red pill labels + drug names) is legible at this zoom but would be tight on mobile.
+
+**5) Verdict: CLEAN with minor notes**
+- Very low contrast on the small footnote paragraphs in the OTHERS panel (bottom of left-right column) and the MCC bottom-right panel — borderline legibility.
+- Bottom rows of several panels (e.g., CETZOLAMIDE lines in the left column) appear dimmer/lower contrast than upper rows — likely intentional fading, but worth verifying against the original SVG.
+- No clipping, overlap, or broken glyphs.
+
+===== ph28 LIGHT-V2 (biologic-agents) =====
+**1) Fully rendered?** Yes — all blocks (3 antibody panels, the target→format diagram, 6 drug-class cards, the two "kab/zu" receptor panels, and the 4-step decode strip) appear complete with no clipped or missing blocks.
+
+**2) Text overlap/spill?** No overlaps within the diagram itself. The Y-shaped antibody shapes, callout boxes, and pill labels ("PLAIN MEMBRANE…", "agonist") all fit inside their containers. Note: the app's "Search" floating pill (top right, ~y=815) overlaps the crop's right margin area, but that's app UI chrome, not part of the SVG.
+
+**3) Connectors/arrows?** Render correctly. The top gradient bar's arrowhead is a solid triangle (intentional style, not a broken glyph). The SOS→EGFR arrow, the crossed inhibition line (L1/L2 × EGFR dashed arrow), and the ◀✕▶ arrowheads between the four decoding steps all draw cleanly. No tofu boxes or missing glyphs observed.
+
+**4) Text readability?** Mostly fine — headers, panel titles, and "-mab/-zu-" labels are clear. **Near the legibility floor:** the fine-print explanatory paragraphs (under "THE mab SOURCE LADDER," "READ THE NAME FIRST…," "mab usually includes the kind of surface cancer," and especially the multi-line footnote paragraphs at the bottom of the section) are extremely small (~5–7px effective) and low-contrast gray — effectively illegible at this zoom. Small labels inside the 6 drug cards ("lipid-lowering…", "immunosuppressive…") are also borderline.
+
+**5) Verdict:** **CLEAN structurally** — no rendering defects (no clipping, overlap, or broken glyphs). One usability flag: footnote/body micro-text at the very top (~y=290) and bottom (~y=1060–1080) falls below comfortable legibility; consider a min font size. The "Search" pill overlap is app chrome, not an SVG defect.
+
+===== ph28 DARK (biologic-agents) =====
+1) **All blocks rendered?** Yes — all panels (source ladder with 3 Y-shaped panels, format-follows-target section, 6 "insists the cell" cards, EGFR/HER2 panels, 4-step decoding flow, sources footer) appear fully present with no clipped blocks. Only the very bottom edge of the page is slightly cut at the crop boundary, which is a crop artifact, not a rendering defect.
+
+2) **Text overlap/spill?** No overlaps or spills observed. Text sits inside its containers; small annotation lines under the Y-antibodies and beside the tiny "GRA NYSET" figure fit within bounds.
+
+3) **Connectors/arrows/glyphs?** Rendered correctly — the gradient ladder bar, the arrow between "GRA NYSET" pill and the black pill, the green arrows in the EGFR/ErbB panel, and the dashed X connector in the HER2 panel all render. No tofu boxes or broken characters. The 🚫 (prohibited) icons in the 6 cards render as proper glyphs, not missing-character boxes.
+
+4) **Readability?** Mostly good for headings and labels. However, several very small caption/annotation lines (e.g., faint gray captions under the Y-shaped antibodies, the tiny footnote text in the EGFR/HER2 panels, and the dense fine print in the sources block at the bottom) are near the legibility floor — small size plus low-contrast gray-on-dark. They are technically readable but borderline, especially in dark theme.
+
+5) **Verdict:** CLEAN, with a minor caveat: several fine-print/caption texts (Y-antibody annotations, EGFR/HER2 panel footnotes, bottom sources paragraph) are at the edge of legibility — consider bumping their size/contrast slightly. No blocking defects.

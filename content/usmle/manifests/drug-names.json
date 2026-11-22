@@ -1,0 +1,335 @@
+{
+  "topicId": "drug-names",
+  "title": "Drug Names: Prefixes, Suffixes & Stem Families",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Miscellaneous",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      274,
+      275
+    ],
+    "bookPages": "252–253"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the book page number 252, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the running header + the standalone '▶ PHARMACOLOGY—MISCELLANEOUS' sub-banner (the banner prints TWICE on this page), and the table title 'Drug names'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "252\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—MISCELLANEOUS\n\n▶ PHARMACOLOGY—MISCELLANEOUS\nDrug names",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's three column headers — ENDING / CATEGORY / EXAMPLE — plus the first two ANTIMICROBIAL rows: -asvir → NS5A inhibitor (Ledipasvir) · -bendazole → Antiparasitic/antihelminthic (Mebendazole)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "ENDING\n\nCATEGORY\n\nEXAMPLE\n\n-asvir\n\nNS5A inhibitor\n\nLedipasvir\n\n-bendazole\n\nAntiparasitic/antihelminthic\n\nMebendazole",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ANTIMICROBIAL rows 3-6 — -buvir → NS5B inhibitor (Sofosbuvir) · -cillin → Transpeptidase inhibitor (Ampicillin) · -conazole → Ergosterol synthesis inhibitor (Ketoconazole) · -cycline → Protein synthesis inhibitor (Tetracycline)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "-buvir\n\nNS5B inhibitor\n\nSofosbuvir\n\n-cillin\n\nTranspeptidase inhibitor\n\nAmpicillin\n\n-conazole\n\nErgosterol synthesis inhibitor\n\nKetoconazole\n\n-cycline\n\nProtein synthesis inhibitor\n\nTetracycline",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ANTIMICROBIAL rows 7-13 — -floxacin → Fluoroquinolone (Ciprofloxacin) · -mivir → Neuraminidase inhibitor (Oseltamivir) · -navir → Protease inhibitor (Ritonavir) · -ovir → Viral DNA polymerase inhibitor (Acyclovir) · -previr → NS3/4A inhibitor (Grazoprevir) · -tegravir → Integrase inhibitor (Dolutegravir) · -thromycin → Macrolide (Azithromycin) — completing the seven -vir antiviral endings",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "-floxacin\n\nFluoroquinolone\n\nCiprofloxacin\n\n-mivir\n\nNeuraminidase inhibitor\n\nOseltamivir\n\n-navir\n\nProtease inhibitor\n\nRitonavir\n\n-ovir\n\nViral DNA polymerase inhibitor\n\nAcyclovir\n\n-previr\n\nNS3/4A inhibitor\n\nGrazoprevir\n\n-tegravir\n\nIntegrase inhibitor\n\nDolutegravir\n\n-thromycin\n\nMacrolide\n\nAzithromycin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The ANTINEOPLASTIC cluster — all 7 rows: -case → Recombinant uricase (Rasburicase) · -mustine → Nitrosourea (Carmustine) · -platin → Platinum compound (Cisplatin) · -poside → Topoisomerase II inhibitor (Etoposide) · -rubicin → Anthracycline (Doxorubicin) · -taxel → Taxane (Paclitaxel) · -tecan → Topoisomerase I inhibitor (Irinotecan)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "-case\n\nRecombinant uricase\n\nRasburicase\n\n-mustine\n\nNitrosourea\n\nCarmustine\n\n-platin\n\nPlatinum compound\n\nCisplatin\n\n-poside\n\nTopoisomerase II inhibitor\n\nEtoposide\n\n-rubicin\n\nAnthracycline\n\nDoxorubicin\n\n-taxel\n\nTaxane\n\nPaclitaxel\n\n-tecan\n\nTopoisomerase I inhibitor\n\nIrinotecan",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CNS rows 1-6 — -flurane → Inhaled anesthetic (Sevoflurane) · -apine, -idone → Atypical antipsychotic (Quetiapine, risperidone) (the first paired-ending row) · -azine → Typical antipsychotic (Thioridazine) · -barbital → Barbiturate (Phenobarbital) · -benazine → VMAT inhibitor (Tetrabenazine) · -caine → Local anesthetic (Lidocaine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "-flurane\n\nInhaled anesthetic\n\nSevoflurane\n\n-apine, -idone\n\nAtypical antipsychotic\n\nQuetiapine, risperidone\n\n-azine\n\nTypical antipsychotic\n\nThioridazine\n\n-barbital\n\nBarbiturate\n\nPhenobarbital\n\n-benazine\n\nVMAT inhibitor\n\nTetrabenazine\n\n-caine\n\nLocal anesthetic\n\nLidocaine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CNS rows 7-12 — -capone → COMT inhibitor (Entacapone) · -curium, -curonium → Nondepolarizing neuromuscular blocker (Atracurium, pancuronium) (the printed pair — the VLM's '-uronium' adjudicated to the text layer's '-curium, -curonium') · -giline → MAO-B inhibitor (Selegiline) · -ipramine, -triptyline → TCA (Imipramine, amitriptyline) · -triptan → 5-HT1B/1D agonist (Sumatriptan) (prints on ONE line — the brief's split-row worry adjudicated no split) · -zepam, -zolam → Benzodiazepine (Diazepam, alprazolam)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "-capone\n\nCOMT inhibitor\n\nEntacapone\n\n-curium, -curonium\n\nNondepolarizing neuromuscular blocker\n\nAtracurium, pancuronium\n\n-giline\n\nMAO-B inhibitor\n\nSelegiline\n\n-ipramine, -triptyline\n\nTCA\n\nImipramine, amitriptyline\n\n-triptan\n\n5-HT1B/1D agonist\n\nSumatriptan\n\n-zepam, -zolam\n\nBenzodiazepine\n\nDiazepam, alprazolam",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page's three group-band labels — Antimicrobial · Antineoplastic · CNS — which print as full-width shaded band rows inside the table but extract at the END of the page's text layer (documented out-of-order extraction quirk; carried in printed position in the note)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "Antimicrobial\n\nAntineoplastic\n\nCNS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 252 / 12/19/25 8:07 AM (page identity, book 252)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 252\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page-275 identity — the running header (PHARMACOLOGY · ▶ PHARMACOLOGY—MISCELLANEOUS · SEC TION II · 253) and the continuation title 'Drug names (continued)'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—MISCELLANEOUS\n\nSEC TION II\n\n253\n\nDrug names (continued)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The continuation table's column headers — ENDING / CATEGORY / EXAMPLE — plus the AUTONOMIC cluster, all 5 rows: -chol → Cholinergic agonist (Bethanechol) · -olol → β-blocker (Propranolol) · -stigmine → AChE inhibitor (Neostigmine) · -terol → β2-agonist (Albuterol) · -zosin → α1-blocker (Prazosin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "ENDING\n\nCATEGORY\n\nEXAMPLE\n\n-chol\n\nCholinergic agonist\n\nBethanechol\n\n-olol\n\nβ-blocker\n\nPropranolol\n\n-stigmine\n\nAChE inhibitor\n\nNeostigmine\n\n-terol\n\nβ2-agonist\n\nAlbuterol\n\n-zosin\n\nα1-blocker\n\nPrazosin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The Autonomic and Cardiovascular group-band labels (extracting mid-page in the raw text layer — documented quirk) plus the first two CARDIOVASCULAR rows: -afil → PDE-5 inhibitor (Sildenafil) · -dipine → Dihydropyridine Ca channel blocker (Amlodipine) — with the floating '2+' superscript extract: the printed cell is 'Dihydropyridine Ca2+ channel blocker' with a SUPERSCRIPT 2+ that the text layer extracts out of order after 'Sildenafil' (VLM confirmed the superscript; joined as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "Autonomic\n\nCardiovascular\n-afil\n\nPDE-5 inhibitor\n\nSildenafil\n2+\n\n-dipine\n\nDihydropyridine Ca channel blocker\n\nAmlodipine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARDIOVASCULAR rows 3-7 — -parin → Low-molecular-weight heparin (Enoxaparin) · -plase → Thrombolytic (Alteplase) · -pril → ACE inhibitor (Captopril) · -sartan → Angiotensin-II receptor blocker (Losartan) · -xaban → Direct factor Xa inhibitor (Apixaban)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "-parin\n\nLow-molecular-weight heparin\n\nEnoxaparin\n\n-plase\n\nThrombolytic\n\nAlteplase\n\n-pril\n\nACE inhibitor\n\nCaptopril\n\n-sartan\n\nAngiotensin-II receptor blocker\n\nLosartan\n\n-xaban\n\nDirect factor Xa inhibitor\n\nApixaban",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The METABOLIC cluster — the gli- five plus the lipid neighbor, all 6 rows: -gliflozin → SGLT-2 inhibitor (Dapagliflozin) · -glinide → Meglitinide (Repaglinide) · -gliptin → DPP-4 inhibitor (Sitagliptin) · -glitazone → PPAR-γ activator (Pioglitazone) · -glutide → GLP-1 analog (Liraglutide) · -statin → HMG-CoA reductase inhibitor (Atorvastatin)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "-gliflozin\n\nSGLT-2 inhibitor\n\nDapagliflozin\n\n-glinide\n\nMeglitinide\n\nRepaglinide\n\n-gliptin\n\nDPP-4 inhibitor\n\nSitagliptin\n\n-glitazone\n\nPPAR-γ activator\n\nPioglitazone\n\n-glutide\n\nGLP-1 analog\n\nLiraglutide\n\n-statin\n\nHMG-CoA reductase inhibitor\n\nAtorvastatin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OTHER rows 1-7 — -caftor → CFTR modulator (Lumacaftor) · -dronate → Bisphosphonate (Alendronate) · -lukast → CysLT1 receptor blocker (Montelukast) · -lutamide → Androgen receptor inhibitor (Flutamide) · -pitant → NK1 blocker (Aprepitant) · -prazole → Proton pump inhibitor (Omeprazole) · -prost → Prostaglandin analog (Latanoprost)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "-caftor\n\nCFTR modulator\n\nLumacaftor\n\n-dronate\n\nBisphosphonate\n\nAlendronate\n\n-lukast\n\nCysLT1 receptor blocker\n\nMontelukast\n\n-lutamide\n\nAndrogen receptor inhibitor\n\nFlutamide\n\n-pitant\n\nNK1 blocker\n\nAprepitant\n\n-prazole\n\nProton pump inhibitor\n\nOmeprazole\n\n-prost\n\nProstaglandin analog\n\nLatanoprost",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "OTHER rows 8-14 — the table's final rows: -sentan → Endothelin receptor antagonist (Bosentan) · -setron → 5-HT3 blocker (Ondansetron) · -steride → 5α-reductase inhibitor (Finasteride) · -tadine → H1-antagonist (Loratadine) · -tidine → H2-antagonist (Cimetidine) · -trozole → Aromatase inhibitor (Anastrozole) · -vaptan → ADH antagonist (Tolvaptan) — the table ENDS at -vaptan with the closing rule (VLM-confirmed; no -mab/-cept rows anywhere)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "-sentan\n\nEndothelin receptor antagonist\n\nBosentan\n\n-setron\n\n5-HT3 blocker\n\nOndansetron\n\n-steride\n\n5α-reductase inhibitor\n\nFinasteride\n\n-tadine\n\nH1-antagonist\n\nLoratadine\n\n-tidine\n\nH2-antagonist\n\nCimetidine\n\n-trozole\n\nAromatase inhibitor\n\nAnastrozole\n\n-vaptan\n\nADH antagonist\n\nTolvaptan",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The page's last two group-band labels — Metabolic · Other — extracting at the END of the page's text layer (documented out-of-order extraction quirk; carried in printed position in the note)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "Metabolic\n\nOther",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 253 / 12/19/25 8:07 AM (page identity, book 253)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 253\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "drug-name-map"
+  ],
+  "mechanismIds": [
+    "suffix-decode-map",
+    "prefix-infix-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two-page stem table — 4 patterns (the unfamiliar -sartan decoded by ending, the -pril dry-cough stem with the -sartan replacement, the -olol hazard in asthma/cocaine, the -afil-plus-nitrate hypotension contraindication), 4 traps (-terol vs -olol, -tadine vs -tidine, the three -ozoles, -setron vs -triptan), 3 pivots (ending-first decoding, the gli- infix arbitration, the -mab/-cept biologics routing), and 8 recall cards covering all 64 printed rows cluster by cluster plus the decode protocol.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the ending→category→example pairings only; the attack structure, the distractor designs, and the reading protocols are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "three-scan-decode-protocol",
+      "summary": "The three-scan decode protocol (SCAN 1 THE ENDING — the suffix names the class, 64 rows to 7 clusters; SCAN 2 THE PREFIX — the gli- infix family, the -vir targets, the three -ozoles, and beyond this page dofa-/gab-; SCAN 3 THE INFIX — the -mab humanization codes -xi-/-zu-/-u- and the -cept receptor-fusion stem, the bridge to the biologics page), plus the seven family-cluster re-sorting (Antimicrobial 13, Antineoplastic 7, CNS 12, Autonomic 5, Cardiovascular 7, Metabolic 6, Other 14) and the sound-alike collision set (-olol/-terol, -tadine/-tidine, -prazole/-conazole/-trozole, -setron/-triptan, -statin/-stigmine, -pril/-sartan).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints 64 flat rows in two alphabetical-ish bands and never asks the learner to decode an unfamiliar name or resolve collisions; the protocol, the cluster reading, and the collision set are KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + mechanisms[1] + blocks[3] the list block + blocks[4] the steps block + blocks[5] the compare block + the registry visual's Zone A protocol, Zone C panel, and Zone D collision strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (VIR MEANS VIRUS — A→5A, B→5B, PRE & NAV PROTEASE, TEG INTEGRATES, MI MEETS SIALIC ACID, O POLYMERASE / THE GLI-FIVE: FLOZIN FLUSHES, NIDE NOODGES, TIN TRIMS, TAZONE TUNES, TIDE IS THE PEPTIDE / OLOL BLOCKS, TEROL OPENS, ZOSIN UNLOADS, CHOL FLOWS, STIGMINE SUSTAINS / MAB MEANS MONOCLONAL; THE INFIX IS THE DONOR). NO mnemonic prints anywhere on either page (pdfimages + VLM census, staging-ph27/vlm-census.txt — no margin notes, no in-cell mnemonic capitals, no red text), so nothing is carried attributed and all four codes are KYP originals designed as decode hooks.",
+      "origin": "outside-first-aid",
+      "rationale": "Unlike the toxicology tables, these two pages carry zero printed mnemonics (VLM-confirmed); the four decode chants are KYP's design.",
+      "location": "mnemonics + rapidReview.m3 + the visual's Zone C panel texts"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The dapagliflozin miniCase — an unfamiliar antidiabetic decoded by suffix within the printed gli- family — with the correct answer routing the -gliflozin ending to SGLT-2 inhibition (glycosuria, UTIs, genital mycotic infections, weight loss) and the three distractors occupying the family's other printed endings (-gliptin DPP-4, -glitazone PPAR-γ, -glutide GLP-1), each failing on a mechanism-specific detail the ending alone predicts.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the five gli- rows as an association table and never sets them against each other in a vignette; the clinical stem, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase + blocks[4] the steps block's fourth step"
+    },
+    {
+      "id": "family-band-visual-layer",
+      "summary": "The two-page table rebuilt as ONE registry visual (drug-name-map, DrugNameMap in visuals/pharm-p27.tsx): the seven family bands with all 64 rows in printed order (page 252's three clusters on the left, page 253's four on the right, the 14-row Other band two chips wide), the three-scan protocol strip, the gli-/-vir prefix & infix panel with the -mab/-cept humanization-code bridge (marked beyond this page), and the sound-alike collision strip. DrugCards are FOLDED: the source is a table of endings, not drug monographs, so no DrugCards are authored (shape-fit decision, documented).",
+      "origin": "outside-first-aid",
+      "rationale": "The source's only visual asset is the two-page color-coded table; the band layout, the protocol, the panel, and the strip are KYP original art preserving every printed row, and the DrugCard layer is a deliberate fold because the page prints endings rather than drug monographs.",
+      "location": "blocks[0] the visual block + the registry visual + the DrugCard fold documented here and in the manifest notes"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL two-page scope (no shared split): pdf 274-275 / books 252-253 are entirely the PHARMACOLOGY-MISCELLANEOUS 'Drug names' stem table — 'Drug names' on 274 (Antimicrobial 13 + Antineoplastic 7 + CNS 12 = 32 rows) and 'Drug names (continued)' on 275 (Autonomic 5 + Cardiovascular 7 + Metabolic 6 + Other 14 = 32 rows); columns ENDING / CATEGORY / EXAMPLE; both pages carried verbatim in the note's table blocks (blocks[1] 32 rows + 3 band rows, blocks[2] 32 rows + 4 band rows) and compressed into core.what, the cluster list (blocks[3]), rapidReview, and 8 recall cards. CENSUS (pdfimages): ZERO raster images on both pages. VLM WAS AVAILABLE this session: TWO 120dpi glm-4.6v full-page passes (staging-ph27/vlm-census.txt, first attempt each) confirmed the printed row order of BOTH pages, the seven full-width shaded group-band rows, the bold-blue ENDING column (NOT red — unlike the toxicology tables), and the absence of margin notes, mnemonics, -mab/monoclonal-antibody pointers, asterisk footnotes, and images. ADJUDICATIONS (raw text layer + pdftotext -layout + VLM agree unless noted): (1) '5-HT1B/1D agonist' prints on ONE line — the brief's '5-HT agonist 1B/1D' split-row worry is adjudicated NO split; the VLM's '5-IIT' reading is a 120dpi serif misread adjudicated to the text layer; (2) '-curium, -curonium' is the printed pair — the VLM's '-uronium' (dropped 'cu') adjudicated to the text layer; (3) the CNS band covers 12 rows — the VLM's '14 rows' is a miscount (13+7+12 = 32 per page); (4) the -dipine category prints 'Dihydropyridine Ca2+ channel blocker' with a SUPERSCRIPT 2+ that the raw text layer extracts out of order (floating after 'Sildenafil', before '-dipine') — VLM confirmed the superscript; joined as printed; (5) the group-band labels extract OUT OF ORDER in the raw text layer (all three at the END of page 274; Autonomic/Cardiovascular mid-page and Metabolic/Other at the END of page 275) but print as full-width shaded band rows inside the table — carried in printed position; (6) NO -mab/-cept rows and NO monoclonal-antibody pointers print anywhere on either page (VLM-explicit) — the monoclonal infix system (-u-/-xi-/-zu-, -cept) is carried as a clearly-marked KYP BRIDGE to the parallel-produced biologic-agents note (referenced by design), as are the dofa-/gab- prefix families (KYP context, not printed on 252-253; the book's own pain-transmission line names the gabapentinoids); (7) subscripts/superscripts carry as plain digits per the cache text layer (5-HT1B/1D, β2, α1, Ca2+, PPAR-γ, CysLT1, 5-HT3, 5α); (8) 'SEC TION II' is the header-space extraction artifact (known, carried as-is); page 274 prints the subsection banner TWICE (running header + standalone sub-banner above the title); (9) the table ENDS at -vaptan with the closing rule (VLM-confirmed) — no third page. Quirks carried + documented: four rows print PAIRED endings with paired examples (-apine, -idone / -curium, -curonium / -ipramine, -triptyline / -zepam, -zolam); the ENDING column prints bold blue, not red; no mnemonics print, so all four KYP mnemonic codes are originals with nothing to attribute. Batch-convention targets met: 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (biologic-agents — parallel production, referenced by design; beta-blockers; phosphodiesterase-inhibitors; cholinomimetics — all but the parallel note exist in notes/index.ts), 4 crossLinks, 4 KYP mnemonics, and a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option). DRUG CARDS FOLDED — the page is a table of ENDINGS, not drug monographs; no DrugCards authored (documented). productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'). Outputs are STAGED under .usmle-pipeline-cache/staging-ph27/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'drug-name-map' is therefore not yet in visuals/registry.tsx by design). The pages' single visual asset (the two-page color-coded table) is implemented as ORIGINAL KYP ART in ONE registry visual (drug-name-map, DrugNameMap in visuals/pharm-p27.tsx, viewBox 0 0 1102 1216): the seven family bands with all 64 rows in printed order, the three-scan protocol strip, the gli-/-vir prefix & infix panel with the -mab/-cept bridge, and the sound-alike collision strip — with both pages' text ALSO carried verbatim in the note's table blocks.",
+  "updatedAt": "2026-11-22"
+}

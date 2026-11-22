@@ -1,0 +1,73 @@
+{
+  "topicId": "drug-names",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Miscellaneous",
+      "topicId": "drug-names",
+      "requiredInKYP": true,
+      "visualId": "drug-names-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          274
+        ],
+        "bookPages": "252"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 'Drug names' table, page one (book 252): 32 stem rows in three group clusters (Antimicrobial, Antineoplastic, CNS), columns ENDING / CATEGORY / EXAMPLE — the suffix-to-class dictionary for the antimicrobial, oncology, and CNS shelves",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph27/vlm-census.txt — VLM available this session): page banner (252 / SECTION II / PHARMACOLOGY / PHARMACOLOGY-MISCELLANEOUS printed twice: running header + standalone sub-banner), the table title 'Drug names' in bold blue, column headers ENDING / CATEGORY / EXAMPLE, and 32 rows under three full-width shaded group-band rows — ANTIMICROBIAL (13): -asvir NS5A inhibitor Ledipasvir; -bendazole Antiparasitic/antihelminthic Mebendazole; -buvir NS5B inhibitor Sofosbuvir; -cillin Transpeptidase inhibitor Ampicillin; -conazole Ergosterol synthesis inhibitor Ketoconazole; -cycline Protein synthesis inhibitor Tetracycline; -floxacin Fluoroquinolone Ciprofloxacin; -mivir Neuraminidase inhibitor Oseltamivir; -navir Protease inhibitor Ritonavir; -ovir Viral DNA polymerase inhibitor Acyclovir; -previr NS3/4A inhibitor Grazoprevir; -tegravir Integrase inhibitor Dolutegravir; -thromycin Macrolide Azithromycin. ANTINEOPLASTIC (7): -case Recombinant uricase Rasburicase; -mustine Nitrosourea Carmustine; -platin Platinum compound Cisplatin; -poside Topoisomerase II inhibitor Etoposide; -rubicin Anthracycline Doxorubicin; -taxel Taxane Paclitaxel; -tecan Topoisomerase I inhibitor Irinotecan. CNS (12): -flurane Inhaled anesthetic Sevoflurane; -apine, -idone Atypical antipsychotic Quetiapine, risperidone; -azine Typical antipsychotic Thioridazine; -barbital Barbiturate Phenobarbital; -benazine VMAT inhibitor Tetrabenazine; -caine Local anesthetic Lidocaine; -capone COMT inhibitor Entacapone; -curium, -curonium Nondepolarizing neuromuscular blocker Atracurium, pancuronium; -giline MAO-B inhibitor Selegiline; -ipramine, -triptyline TCA Imipramine, amitriptyline; -triptan 5-HT1B/1D agonist Sumatriptan; -zepam, -zolam Benzodiazepine Diazepam, alprazolam. The ENDING column prints bold blue (not red); four rows carry paired endings with paired examples. No figures, icons, margin notes, or mnemonics.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-name-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone B LEFT column (DrugNameMap in visuals/pharm-p27.tsx — the Antimicrobial, Antineoplastic, and CNS family bands with all 32 rows in printed order, each row reading ending → category · example) and Zone C card 2 (the -vir seven panel); the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the cluster list (blocks[3]), rapidReview.s30, and recall[0-2]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-name-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Miscellaneous",
+      "topicId": "drug-names",
+      "requiredInKYP": true,
+      "visualId": "drug-names-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          275
+        ],
+        "bookPages": "253"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 'Drug names (continued)' table, page two (book 253): 32 stem rows in four group clusters (Autonomic, Cardiovascular, Metabolic, Other) — the autonomic mirror, the cardiovascular set, the gli- antidiabetic family, and the fourteen-row Other band ending at -vaptan",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph27/vlm-census.txt — VLM available this session): running header (PHARMACOLOGY / PHARMACOLOGY-MISCELLANEOUS / SECTION II / 253), the continuation title 'Drug names (continued)', column headers ENDING / CATEGORY / EXAMPLE, and 32 rows under four full-width shaded group-band rows — AUTONOMIC (5): -chol Cholinergic agonist Bethanechol; -olol β-blocker Propranolol; -stigmine AChE inhibitor Neostigmine; -terol β2-agonist Albuterol; -zosin α1-blocker Prazosin. CARDIOVASCULAR (7): -afil PDE-5 inhibitor Sildenafil; -dipine Dihydropyridine Ca2+ channel blocker Amlodipine (the 2+ prints as a SUPERSCRIPT; the raw text layer extracts it out of order after 'Sildenafil'); -parin Low-molecular-weight heparin Enoxaparin; -plase Thrombolytic Alteplase; -pril ACE inhibitor Captopril; -sartan Angiotensin-II receptor blocker Losartan; -xaban Direct factor Xa inhibitor Apixaban. METABOLIC (6): -gliflozin SGLT-2 inhibitor Dapagliflozin; -glinide Meglitinide Repaglinide; -gliptin DPP-4 inhibitor Sitagliptin; -glitazone PPAR-γ activator Pioglitazone; -glutide GLP-1 analog Liraglutide; -statin HMG-CoA reductase inhibitor Atorvastatin. OTHER (14): -caftor CFTR modulator Lumacaftor; -dronate Bisphosphonate Alendronate; -lukast CysLT1 receptor blocker Montelukast; -lutamide Androgen receptor inhibitor Flutamide; -pitant NK1 blocker Aprepitant; -prazole Proton pump inhibitor Omeprazole; -prost Prostaglandin analog Latanoprost; -sentan Endothelin receptor antagonist Bosentan; -setron 5-HT3 blocker Ondansetron; -steride 5α-reductase inhibitor Finasteride; -tadine H1-antagonist Loratadine; -tidine H2-antagonist Cimetidine; -trozole Aromatase inhibitor Anastrozole; -vaptan ADH antagonist Tolvaptan. The table ENDS at -vaptan with the closing rule. The ENDING column prints bold blue (not red). NO -mab/-cept rows, no monoclonal-antibody pointers, no figures, icons, margin notes, or mnemonics (VLM-explicit).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-name-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone B RIGHT column (DrugNameMap in visuals/pharm-p27.tsx — the Autonomic, Cardiovascular, Metabolic, and Other family bands with all 32 rows in printed order, the 14-row Other band rendered two chips wide) and Zone C card 1 (the gli- five panel); the table's full text is ALSO carried verbatim in the note's table block (blocks[2]), core.what, the cluster list (blocks[3]), rapidReview.s30, and recall[3-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-name-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-names",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The topic carries TWO visual assets — the book-252 'Drug names' table (sv1, 32 rows in 3 clusters) and the book-253 'Drug names (continued)' table (sv2, 32 rows in 4 clusters) — both accounted for as ORIGINAL KYP ADAPTATIONS: nothing is reproduced; ONE registry visual (drug-name-map, DrugNameMap in visuals/pharm-p27.tsx, viewBox 0 0 1102 1216) rebuilds the two-page table's every row as original KYP vector art (sv1 → the Zone B left column's Antimicrobial/Antineoplastic/CNS bands + the Zone C -vir panel; sv2 → the Zone B right column's Autonomic/Cardiovascular/Metabolic/Other bands + the Zone C gli- panel), with the three-scan decode protocol (Zone A), the -mab/-cept humanization-code bridge marked beyond this page (Zone C card 3), and the sound-alike collision strip (Zone D); both pages' text is additionally carried verbatim in the note's table blocks. Census: zero raster images on both pages (pdfimages); VLM available this session — TWO 120dpi full-page glm-4.6v passes (vlm-census.txt) confirmed the printed row order of both pages, the seven shaded group bands, the bold-blue ENDING column, and the absence of -mab rows, monoclonal-antibody pointers, mnemonics, margin notes, and images; the brief's flagged worries were adjudicated (all reads agree): '5-HT1B/1D agonist' prints on ONE line (no split; the VLM's '5-IIT' is a serif misread adjudicated to the text layer), '-curium, -curonium' is the printed pair (the VLM's '-uronium' adjudicated), the CNS band covers 12 rows (the VLM's '14' is a miscount), and the -dipine Ca2+ superscript extracts out of order in the raw text layer (joined as printed). FULL two-page scope (no shared split). STAGED under .usmle-pipeline-cache/staging-ph27/ — promotion into content/ is owned downstream."
+}
