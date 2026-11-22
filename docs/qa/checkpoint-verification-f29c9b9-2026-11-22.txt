@@ -1,0 +1,124 @@
+===================================================================
+ CHECKPOINT VERIFICATION v2 (bare-clone protocol) — f29c9b9
+ Pharmacology 29/29 complete — fifth chapter verified
+ 2026-11-22 05:35:46 UTC · git 2.47.3
+===================================================================
+ disk at start: 1.7G free
+ full bundle:      958M  sha256 447f6f0359210e5c…
+ incremental:      100M  sha256 34343f0f114f3a5a…
+
+=== SECTION 1 — ORIGINAL REPOSITORY ===
+  [PASS] 1.1 worktree clean (porcelain empty; checked before any repo writes)
+  [PASS] 1.2 HEAD == f29c9b9 (got f29c9b9)
+  [PASS] 1.3 HEAD tree == 56b4df2 (got 56b4df2)
+  [PASS] 1.4 tracked files == 2718 (got 2718)
+  [PASS] 1.5 zero tracked PDFs (copyright policy)
+  --- git fsck --full (original repo) ---
+    fsck exit=0, error/missing/broken/corrupt lines=0
+  [PASS] 1.6 original repo fsck --full exit 0
+  [PASS] 1.6b original repo fsck: zero error/missing/broken/corrupt lines
+  [PASS] 1.7 GitHub origin/main == f29c9b9 (ls-remote, got f29c9b9)
+  [PASS] 1.8 zero unpushed commits (got 0)
+
+=== SECTION 2 — BUNDLE HEADS ===
+  [PASS] 2.1 full bundle main == d3de54d (got d3de54d)
+  [PASS] 2.2 incremental bundle main == f29c9b9 EXACT (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+
+=== SECTION 3 — BARE-CLONE RESTORATION TEST (bundles only, no worktree) ===
+  --- 3.1 git clone --bare FULL bundle ---
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+  [PASS] 3.1 bare clone from full bundle
+    bare repo on disk: 958M
+  [PASS] 3.2 restored base HEAD == d3de54d (got d3de54d)
+  [PASS] 3.3 restored base tree == 0c05c85 (got 0c05c85)
+  [PASS] 3.4 restored base file count == 2609 (got 2609)
+  --- 3.5 git bundle verify (incremental; prerequisites must resolve) ---
+    /home/z/my-project/download/kyp-usmle-notes-incremental-d3de54d-to-f29c9b9.bundle is okay
+    The bundle contains this ref:
+    f29c9b9c7d1aa4ff5d20039cf11627929a8f446a refs/heads/main
+    The bundle requires this ref:
+    d3de54d1bce866675fe29f9f77afc8626ca18440 
+    The bundle uses this hash algorithm: sha1
+  [PASS] 3.5a incremental bundle verify exit 0
+  [PASS] 3.5b bundle verify lists f29c9b9
+  [PASS] 3.5c bundle verify prerequisite == d3de54d
+  --- 3.6 apply incremental: fetch main:main ---
+  [PASS] 3.6a fetch incremental main:main exit 0
+  [PASS] 3.6b restored main == f29c9b9 EXACT (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+  [PASS] 3.7 bare HEAD follows main -> f29c9b9 (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+  [PASS] 3.8 *** RESTORED TREE == ORIGINAL TREE 56b4df2 *** (got 56b4df2f56ec41fac2edfea0ec88382af629a5e1)
+  [PASS] 3.9 restored file count == 2718 (got 2718)
+  [PASS] 3.10 complete ls-tree SHA manifest identical (every path+blob SHA)
+  [PASS] 3.11 HEAD subject == PH26-PH28 batch + PHARMACOLOGY CHAPTER COMPLETE 29/29
+    f29c9b9 feat(usmle): PH26-PH28 batch + PHARMACOLOGY CHAPTER COMPLETE 29/29 — fifth chapter verified
+  --- 3.12 streaming materialization proof (git archive | tar, zero disk) ---
+    archive file entries (dirs excluded): original=2718 restored=2718 (tracked files: 2718)
+  [PASS] 3.12a archive file-entry count == 2718 (got 2718)
+  [PASS] 3.12b restored archive file entries == original
+    full-content stream sha256 original  = 862b186a77a4005a5a89e51d13f2ad738a340bf2708e92b5d0769c516af0e522
+    full-content stream sha256 restored  = 862b186a77a4005a5a89e51d13f2ad738a340bf2708e92b5d0769c516af0e522
+  [PASS] 3.12c FULL CONTENT STREAM identical (every byte of all 2718 files)
+  --- 3.13 git fsck --full (restored bare repo) ---
+    fsck exit=0, error/missing/broken/corrupt lines=0
+  [PASS] 3.13a restored repo fsck --full exit 0
+  [PASS] 3.13b restored repo fsck: zero error/missing/broken/corrupt lines
+  [PASS] 3.14 zero PDFs in restored tree (copyright policy holds under restore)
+
+=== SECTION 4 — CLEANUP ===
+  test dir size: 1.1G	/tmp/restore-test
+  [PASS] 4.1 test dir removed
+  disk after cleanup: 1.7G free
+
+===================================================================
+ VERIFICATION SUMMARY
+===================================================================
+PASS | 1.1 worktree clean (porcelain empty; checked before any repo writes)
+PASS | 1.2 HEAD == f29c9b9 (got f29c9b9)
+PASS | 1.3 HEAD tree == 56b4df2 (got 56b4df2)
+PASS | 1.4 tracked files == 2718 (got 2718)
+PASS | 1.5 zero tracked PDFs (copyright policy)
+PASS | 1.6 original repo fsck --full exit 0
+PASS | 1.6b original repo fsck: zero error/missing/broken/corrupt lines
+PASS | 1.7 GitHub origin/main == f29c9b9 (ls-remote, got f29c9b9)
+PASS | 1.8 zero unpushed commits (got 0)
+PASS | 2.1 full bundle main == d3de54d (got d3de54d)
+PASS | 2.2 incremental bundle main == f29c9b9 EXACT (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+PASS | 3.1 bare clone from full bundle
+PASS | 3.2 restored base HEAD == d3de54d (got d3de54d)
+PASS | 3.3 restored base tree == 0c05c85 (got 0c05c85)
+PASS | 3.4 restored base file count == 2609 (got 2609)
+PASS | 3.5a incremental bundle verify exit 0
+PASS | 3.5b bundle verify lists f29c9b9
+PASS | 3.5c bundle verify prerequisite == d3de54d
+PASS | 3.6a fetch incremental main:main exit 0
+PASS | 3.6b restored main == f29c9b9 EXACT (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+PASS | 3.7 bare HEAD follows main -> f29c9b9 (got f29c9b9c7d1aa4ff5d20039cf11627929a8f446a)
+PASS | 3.8 *** RESTORED TREE == ORIGINAL TREE 56b4df2 *** (got 56b4df2f56ec41fac2edfea0ec88382af629a5e1)
+PASS | 3.9 restored file count == 2718 (got 2718)
+PASS | 3.10 complete ls-tree SHA manifest identical (every path+blob SHA)
+PASS | 3.11 HEAD subject == PH26-PH28 batch + PHARMACOLOGY CHAPTER COMPLETE 29/29
+PASS | 3.12a archive file-entry count == 2718 (got 2718)
+PASS | 3.12b restored archive file entries == original
+PASS | 3.12c FULL CONTENT STREAM identical (every byte of all 2718 files)
+PASS | 3.13a restored repo fsck --full exit 0
+PASS | 3.13b restored repo fsck: zero error/missing/broken/corrupt lines
+PASS | 3.14 zero PDFs in restored tree (copyright policy holds under restore)
+PASS | 4.1 test dir removed
+-------------------------------------------------------------------
+ PASS: 32   FAIL: 0
+ VERDICT: ALL CHECKS PASSED — bare-clone restoration test SUCCEEDED.
+ full d3de54d bundle + incremental d3de54d->f29c9b9 bundle restore main
+ to f29c9b9 (tree 56b4df2, 2718 files, byte-identical content stream,
+ fsck-clean, no PDFs); GitHub origin/main == local main == f29c9b9;
+ worktree clean. NOTE: worktree-materializing restore on THIS sandbox
+ requires ~1.9G free (v1 run documented the 1.7G shortfall); use bare
+ clone or a machine with >=2.5G free for full worktree restores.
