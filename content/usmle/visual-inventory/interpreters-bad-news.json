@@ -1,0 +1,73 @@
+{
+  "topicId": "interpreters-bad-news",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "interpreters-bad-news",
+      "requiredInKYP": true,
+      "visualId": "interpreters-bad-news-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The 'Use of interpreters' block (book 273): the six printed rules of the interpreted visit — the professional-interpreter default with the conversational-fluency exception, the telephone/video-call fallback, the charted family-member preference, the never-assume language-ask rule (name/skin tone/accent), the direct-speech rule ('tell him' forbidden) with the pace rules (extra time, one question at a time), the spoken-vs-sign positioning mirror, and the emergency any-tools override",
+      "sourceFigureDescription": "PURE TEXT in a side-head layout, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh23/vlm-census.txt — VLM available this session): the running header (book page 273, SEC TION II, PUBLIC HEALTH SCIENCES, the banner '▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS' printed ONCE — running header only, this page is not the subsection opener), then the bold navy block heading 'Use of interpreters' with SIX paragraphs of body text: (1) 'Visits with a patient who speaks little English should utilize a professionally trained medical interpreter unless the physician is conversationally fluent in the patient's preferred language. If an interpreter is unavailable in person, interpretation services may be provided by telephone or video call. If the patient prefers to utilize a family member, this should be recorded in the chart.'; (2) 'Do not assume that a patient is a poor English speaker because of name, skin tone, or accent. Ask the patient what language is preferred.'; (3) 'The physician should make eye contact with the patient and speak to them directly, without use of third-person statements such as \"tell him.\"'; (4) 'Allow extra time for the interview, and ask one question at a time.'; (5) 'For in-person spoken language interpretation, the interpreter should ideally be next to or slightly behind the patient. For sign language interpretation, the interpreter should be next to or slightly behind the physician.'; (6) 'In cases of emergency, facilitate communication by any tools available (eg, friends, family, sketches, interpreter apps) even though they do not comprise standard procedure otherwise.' No colored body text, no boxes, no icons, no margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bad-news-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (BadNewsMap in visuals/pubhealth-p23.tsx): the fallback-ladder chips (PROFESSIONALLY TRAINED MEDICAL INTERPRETER — IN PERSON → TELEPHONE OR VIDEO CALL → FAMILY MEMBER, charted → EMERGENCY: ANY TOOLS), the LANGUAGE-ASK RULE warning card ('Do not assume… name, skin tone, or accent' + the ASK chip), the DIRECT-SPEECH RULE card (eye contact, speak directly, no third-person 'tell him' + the EXTRA-time and ONE-question-at-a-time chips), the two positioning diagrams (spoken-language: physician and patient glyphs with a direct-speech arrow and the dashed interpreter next to or slightly behind the PATIENT; sign-language: the dashed interpreter next to or slightly behind the PHYSICIAN with the patient-watches-the-physician sightline arrow), and the printed-mirror strip; the block's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[3]), the steps block (blocks[4]), and recall[0-5]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "bad-news-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "interpreters-bad-news",
+      "requiredInKYP": true,
+      "visualId": "interpreters-bad-news-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "visualType": "CLINICAL_ALGORITHM",
+      "visualPurpose": "The 'Delivering bad news' block (book 273): SPIKES — First Aid's OWN acronym for the six-station bad-news protocol (Setting, Perception, Invitation, Knowledge, Emotions, Strategy), each station with its printed moves; the Communication Skills subsection's flagship clinical protocol",
+      "sourceFigureDescription": "PURE TEXT in a side-head layout, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh23/vlm-census.txt — VLM available this session): the bold navy block heading 'Delivering bad news' with 'SPIKES' printed in BOLD RED plain text beside it (not boxed), followed by SIX stations whose labels each print an enlarged RED initial letter with a bold navy remainder (red 'S' + 'etting', red 'P' + 'erception', red 'I' + 'nvitation', red 'K' + 'nowledge', red 'E' + 'motions', red 'S' + 'trategy'), each with a body paragraph: Setting — 'Offer in advance for the patient to bring support. Eliminate distractions, ensure privacy, and sit down with the patient to talk.'; Perception — 'Determine the patient's understanding and expectations of the situation.'; Invitation — 'Obtain the patient's permission to disclose the news and what level of detail is desired.'; Knowledge — 'Share the information in small pieces without medical jargon, allowing time to process. Assess the patient's understanding.'; Emotions — 'Acknowledge the patient's emotions, and provide opportunity to express them. Listen and offer empathetic responses.'; Strategy — 'If the patient feels ready, discuss treatment options and goals of care. Offer an agenda for the next appointment. Giving control to the patient may be empowering. Ask how they feel a problem might be solved and what they would like to do about the plan of action.' The acronym SPIKES and the red-initial label device are First Aid's own.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "bad-news-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (BadNewsMap in visuals/pubhealth-p23.tsx): the SPIKES six-station rail — six station cards in printed order, each with an enlarged red initial letter (S, P, I, K, E, S), the station name, its printed key moves, a role chip (stage before speech / calibrate before content / permission before disclosure / chunk, then check / clear emotion before plan / gated: 'if the patient feels ready'), and the KYP order strip (stage → calibrate → permit → disclose in small pieces → clear the emotion → return control); the block's full text is ALSO carried verbatim in the note's SPIKES table block (blocks[2]), core.what, mechanisms[1] spikes-flow, and recall[6-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "bad-news-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "interpreters-bad-news",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets, both pure text in a side-head layout (census: zero raster images) — the 'Use of interpreters' block (sv1: SIX printed paragraphs, the professional-interpreter default with the fluency exception, the telephone/video fallback, the charted family-member preference, the never-assume language-ask rule, the direct-speech rule, the pace rule, the spoken-vs-sign positioning mirror, the emergency override) and the 'Delivering bad news' block (sv2: SPIKES, First Aid's OWN acronym printed in bold red with red-initial station labels, six stations with their printed moves) — both accounted for in ONE registry visual (bad-news-map, BadNewsMap in visuals/pubhealth-p23.tsx, viewBox 0 0 1102 1280), each as an ORIGINAL KYP ADAPTATION: the interpreter protocol as the fallback ladder + rule cards + positioning diagrams with sightline arrows (Zone A), and SPIKES as the six-station rail with red initial letters plus the KYP order strip (Zone B); nothing is reproduced, and both blocks' full text is additionally carried VERBATIM in the note's two table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v full-page pass (vlm-census.txt) confirmed the bold-red SPIKES, the red-initial station labels, the two bold navy block headings, the banner printing ONCE (running header only — pdf 295 is not the subsection opener), and the absence of margin mnemonics, boxes, footnotes, and images. ADJUDICATION: the batch brief matched the print exactly (both blocks, every sentence, both interpreter positions, all six stations) — no corrections. STAGED under .usmle-pipeline-cache/staging-pubh23/ — promotion into content/ is owned downstream."
+}

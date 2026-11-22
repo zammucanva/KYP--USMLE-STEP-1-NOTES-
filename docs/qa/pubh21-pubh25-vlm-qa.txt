@@ -1,0 +1,135 @@
+=== pubh21 (patient-centered-interviewing) — light — REVIEW ===
+**1) Full rendering:** Yes — all three sections (six-station arc, PEARLS wheel, disabilities panel) are fully rendered with no clipped blocks.
+
+**2) Overlap:** One defect — a floating "Search" pill (with magnifier icon) overlaps the right side of the canvas at roughly mid-page (~y=815), sitting over the disabilities panel area. Otherwise no text overlap or spill.
+
+**3) Connectors:** Yes — arrows between the six station cards render correctly, and the PEARLS wheel's six radial spokes with arrowheads render fine. No tofu boxes or broken glyphs visible.
+
+**4) Readability:** Mostly fine. Body text inside cards is quite small and light-gray; in the disabilities panel and station cards it's near the legibility floor (would be marginal in dark theme / at print scale). Headers and labels are clearly legible.
+
+**5) Verdict:** Not fully clean — defects:
+- UI "Search" widget overlapping the diagram content on the right edge (~middle of the image) — appears to be an app overlay, not part of the SVG, but it obscures content.
+- Minor: very small, low-contrast body text in card bullet lists (borderline legibility), especially in the disabilities panels.
+
+=== pubh21 (patient-centered-interviewing) — dark — REVIEW ===
+**1) Panels/blocks fully rendered:** Yes — all six station cards, the five PEARLS hub cards, the technique/assist/discharge/dismiss quadrants, and three bottom colored cards appear complete with no clipping.
+
+**2) Text overlap/spill:** None observed. Search pill overlays the right edge but is app UI, not diagram content.
+
+**3) Connectors/glyphs:** The top timeline arrows between the six cards render fine. The PEARLS radial spokes render as arrows to all five cards. No tofu boxes or broken glyphs.
+
+**4) Readability:** Body text in the station cards, PEARLS cards, and bottom notes is very small and low-contrast (dim gray on near-black) — near/at the legibility floor, especially the fine-print paragraphs under each section header and the bottom source block. Small caption text inside cards (e.g., bracketed source lines) is borderline.
+
+**5) Verdict:** **CLEAN structurally** — no clipping, overlap, or broken glyphs. Minor quality concern only: body/caption text in dark theme is quite small and low-contrast (station card bullets, PEARLS card lines, bottom paragraph blocks) — near the legibility floor but not unreadable at zoom.
+
+=== pubh22 (cultural-competence-interviewing) — light — REVIEW ===
+1) **Fully rendered?** Yes — all five staircase "Move" panels, the CFI Balance sidebar, the Trauma-Informed (screen/focus/protect) block, the Motivational Interviewing flow, the gender/sexuality checklist cards, and the sources footer are all fully visible. No clipped or missing blocks.
+
+2) **Text overlap/spill?** No overlaps. Text sits within its containers. The only occlusion is from the app's floating **Search bar** (bottom-right, over the SMART-ESTEEM block's right edge) — that's a UI overlay, not an SVG defect.
+
+3) **Connectors/arrows?** Render correctly. All five downward arrows between Move panels are present and aligned. Downward arrows in the MI column also render. No tofu boxes or broken glyphs; italic quotes and bold/colored inline text display fine.
+
+4) **Readability?** Generally good contrast in light theme. Caveats:
+- Fine-print body text in the Move panels and the italic example quotes are very small — near the legibility floor at this zoom level.
+- Purple footnote links (e.g., "SECTION REFERENCE" lines) are small but legible.
+- Light teal "SCORE scenario" pill text (top right) is small but readable.
+
+5) **Verdict: CLEAN.** No SVG rendering defects. Only note: the floating Search widget partially overlaps the green SMART-ESTEEM block's right side — app UI, not a diagram bug.
+
+=== pubh22 (cultural-competence-interviewing) — dark — REVIEW ===
+**1) Fully rendered blocks?** Yes — all panels (cultural formulation staircase, THE PITFALLS box, trauma-informed care, MI/SMART panel, checklist panel, sources footer) appear complete with no clipped edges.
+
+**2) Text overlap/spill?** None observed. Text fits within its boxes; the staircase cards are well spaced. Note: the floating "Search" pill at bottom-right overlays the app UI (not diagram content) — an app artifact, not a rendering defect of the SVG itself.
+
+**3) Connectors/arrows?** All down-arrows between staircase steps render cleanly; no tofu boxes or missing glyphs. Checkbox glyphs (green circles with checks) render correctly.
+
+**4) Readability?** Mostly good contrast on dark theme. Concerns: the small footnote/caption lines inside panels (e.g., under each MI/TRAUMA item) are very low-contrast gray and quite small — near the legibility floor. The blue label text (e.g., "STEP 1/…", "TRAUMA-FORMULATED") is legible but small. Source-footer fine print is also small.
+
+**5) Verdict:** CLEAN, with one minor note — smallest gray caption/footnote text is borderline low-contrast at its size (legibility floor), and the "Search" overlay pill is an app artifact, not a diagram defect.
+
+=== pubh23 (interpreters-bad-news) — light — REVIEW ===
+**1) Fully rendered panels?** Yes — all blocks (protocol pipeline, language-barrier/direct panels, the two interpreter-diagram panels, SPIKES six-station grid, summary box, sources footer) appear complete with no clipping.
+
+**2) Text overlap/spill?** None observed. The floating "Search" pill (right side, ~y=815) overlaps the app UI, not the diagram — it's a UI element, not a rendering defect.
+
+**3) Connectors/arrows?** Yes — solid black arrows between the four top boxes, dashed bidirectional arrow in the right interpreter panel, and the long solid arrow in the left panel all render correctly. No tofu/broken glyphs; person icons render properly.
+
+**4) Readability?** Good overall. Smallest body text (fine-print captions under panels and the footer source text, ~8–9px equivalent) is near the legibility floor — readable but tight. Contrast is adequate everywhere.
+
+**5) Verdict: CLEAN.** No defects in the diagram itself; only note is the very small caption/footer text at the legibility floor and the app-level Search pill unrelated to the SVG.
+
+=== pubh23 (interpreters-bad-news) — dark — REVIEW ===
+**1) Fully rendered?** Yes — all panels/blocks (protocol cards, LANGUAGE BARS, two diagram panels, SPIKES S/P/I/K/E/S cards, SUMMARY bar) are complete with no clipping.
+
+**2) Text overlap/spill?** None. Text stays within card bounds; the small caption lines under each diagram sit clear of the panels.
+
+**3) Connectors/arrows?** Yes — solid white arrows in the in-person panel, dashed arrow in the remote panel, and the 4-stage protocol arrows all render with proper arrowheads. No tofu boxes or broken glyphs.
+
+**4) Readability?** Good overall, with strong accent color contrast (teal/red/orange on dark). The tiniest text — body bullet lines inside the protocol cards and the small gray footnote captions (e.g., "the SPIKES lines", footer paragraph) — is very small and low-contrast gray; near the legibility floor but still discernible at full resolution.
+
+**5) Verdict: CLEAN.** No functional defects; only minor note is the small, low-contrast gray caption text.
+
+=== pubh24 (challenging-scenarios) — light — REVIEW ===
+1) **Panel rendering:** All blocks appear fully rendered — top triad boxes, chip rows, six cluster panels, and the red "over-rides" panel all have complete borders and content. Nothing is clipped at any edge.
+
+2) **Text overlap:** No text overlap or spill detected within the diagram itself. The only intrusion is the app's floating **Search pill** (right side, ~y=843), which overlaps the right edge of the "SAFETY & FAITH" panel — that's a web-app overlay, not part of the SVG, but it does occlude the panel's right border area.
+
+3) **Connectors/arrows:** All list items use circled-number badges (1–5) rendering correctly. No arrows, tofu boxes, or broken glyphs visible. Em-dashes and en-dashes render fine.
+
+4) **Readability:** Good overall — bold teal headers, dark body text, adequate contrast on white. Floor items: the small gray/green citation lines (e.g., "Silver febrile/emotional language...", the orange "worry opener" lines at ~9px) and the tiny keyword chips ("presence, touch...", "patient/body/silence") sit near the legibility floor but are still resolvable. The "THIS LED-ON TRIAD" intro text is also very small.
+
+5) **Verdict:** **CLEAN** for the SVG content itself. Only cosmetic note: the app's Search widget overlaps the SAFETY & FAITH panel's right edge (overlay, not a diagram defect); and a few micro-captions are near the size floor.
+
+=== pubh24 (challenging-scenarios) — dark — REVIEW ===
+**1) Fully rendered blocks?**
+Yes. All panels (LEAD-IN THUDO, the five attitude chips + four career-priority chips, the seven cluster panels, red THE CORNERED panel, and footer sources box) are complete with no clipping or missing blocks.
+
+**2) Text overlap / spill?**
+No overlaps detected. Text stays within its containers; the connector band (EMPATHY → REDIRECT → VALIDATE → options) and the career-priority row are cleanly spaced. The floating "Search" pill at right overlaps the panel border slightly, but that's app chrome, not the diagram.
+
+**3) Connectors/glyphs?**
+Render correctly. The pill-style connector chain (empathy → redirect → validate → refer) and the career row render as proper rounded chips with arrows/labels intact. No tofu boxes or broken characters anywhere.
+
+**4) Readability?**
+Mostly readable, but several items sit at or near the legibility floor:
+- The fine print under THE LEAD-IN ("The five avoidable errors..." and "The expertise..."), the TO-DO line, and the small body text in each cluster item (~8–9px equivalent).
+- The footer sources block is very small and low-contrast grey-on-dark.
+- Chips in the connector/career rows: labels like "validate", "confidentiality" are quite small.
+- Orange/red emphasis lines (e.g., "Cornering breaks rapport...", "Do NOT mention...") are legible but small.
+
+**5) Verdict: CLEAN** (no defects blocking use). Optional improvements: increase font size for cluster body text, TO-DO line, and footer sources; raise contrast of grey metadata text.
+
+=== pubh25 (disease-prevention-prophylaxis) — light — REVIEW ===
+# Element Crop Review: Prevention Pyramid + Post-Exposure Protocols
+
+**1) Fully rendered panels?**
+Yes — all blocks render: pyramid (Quaternary→Primary tiers), 4 right-side detail cards, 6 protocol cards, footer/notes sections. Nothing clipped or missing.
+
+**2) Text overlap/spillage?**
+No overlaps or overflow detected. Text stays within its cards and pyramid tiers. Footnote lines under the pyramid are long but contained.
+
+**3) Connectors/arrows?**
+Yes — 4 horizontal teal arrows from pyramid tiers to the right-side cards all render correctly with solid arrowheads. No tofu boxes or broken glyphs anywhere.
+
+**4) Text readability?**
+Mostly readable. Near the legibility floor:
+- Card body text (e.g., "PEP+" dosing details, MEME lines) is quite small/thin at this zoom.
+- Pyramid tier sub-labels ("Vaccination/awareness…") and left-side stat labels (Exponential potential / Incubation period) are small and low-contrast teal-on-teal.
+- Fine-print footnotes at the bottom are very small.
+- Contrast between pyramid tier labels and tier fill is modest but acceptable.
+
+**5) Verdict: CLEAN**
+No rendering defects. Only minor legibility concerns in the smallest text (card bodies, footnotes, pyramid sub-labels) — sizing/contrast tweaks recommended if these must be readable at 100% zoom, but no functional issues.
+
+=== pubh25 (disease-prevention-prophylaxis) — dark — REVIEW ===
+**1) Full rendering:** Yes — all blocks present: header bar, pyramid panel with 4 tiers, 4 side info cards, 6 prophylaxis cards (2×3 grid), footnote/footer blocks. Nothing clipped.
+
+**2) Text overlap/spill:** No overlaps or spills detected. The "Search" pill (right edge, ~y=815) is a UI overlay from the app, not a defect of the SVG itself.
+
+**3) Connectors/characters:** All 4 teal arrows from pyramid tiers to the right-side cards render correctly with arrowheads. No tofu boxes or broken glyphs.
+
+**4) Readability:** Dark theme with adequate contrast on most text. Concerns:
+- Small body text inside the 6 cards (STEPS/regimen lines) and the right-hand info-card descriptions are quite small — near the legibility floor but technically readable.
+- Low-contrast gray secondary text (e.g., footer fine print at bottom, tiny caption under pyramid ~y=560) is dim.
+
+**5) Verdict: CLEAN** — no structural defects. Minor polish notes only: smallest body text sits near the legibility floor, and the app's floating "Search" button overlaps the right margin visually (app UI, not the diagram).

@@ -1,0 +1,127 @@
+{
+  "topicId": "cultural-competence-interviewing",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "cultural-competence-interviewing",
+      "requiredInKYP": true,
+      "visualId": "cultural-competence-interviewing-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "visualType": "CLINICAL_ALGORITHM",
+      "visualPurpose": "The Cultural formulation interview block (book 272): the FIVE sequential interviewing moves — the problem through the patient's perspective (own words; family-and-friends wording), cultural perceptions of factors leading to a problem, background influences (better/worse; family, community, spirituality), impact on current and future interventions (the combine-their-plans-with-the-standard-regimen rule), and possible barriers to care based on culture (the patient-physician-relationship probe) — the Communication Skills subsection's core cultural-competence protocol",
+      "sourceFigureDescription": "PURE-TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh22/vlm-census.txt — VLM available this session): a blue bold left-column heading 'Cultural formulation interview' (wrapping across two lines: 'Cultural formulation' / 'interview') over a right-column block of FIVE sentence-clusters, each opening with the word 'Identify' in bold black — (1) 'Identify the problem through the patient's perspective. Ask the patient to describe the problem in their own words, or how the patient would describe the problem to their family and friends.'; (2) 'Identify cultural perceptions of factors leading to a problem. Ask the patient to explain why they think they are experiencing their problem.'; (3) 'Identify how the patient's background influences their problem. Ask the patient about what makes their problem better or worse. Investigate roles of family, community, and spirituality.'; (4) 'Identify how culture may impact current and future interventions. Ask the patient if they have any concerns or suggestions about the current plan of treatment. If they do not want to follow medical advice, investigate if there is a way to combine their plans with the standard medical regimen.'; (5) 'Identify possible barriers to care based on culture. Ask the patient if there is anything that would prevent them from seeking care in a standard medical institution. Probe for explanations and what may increase the chance of maintaining a good patient-physician relationship.' No bullet glyphs, no margin notes, no images.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cultural-interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (CulturalInterviewingMap in visuals/pubhealth-p22.tsx): the five moves as a DESCENDING STAIRCASE of five step cards in printed order, each carrying its number, its printed 'Identify' lead-in as the card title, its printed prompts as quoted lines, and a KYP decoder tag (PROBLEM / PERCEPTION / BACKGROUND / PLAN / BARRIERS), with inter-step arrows and the KYP-reading card; the block's full text is ALSO carried verbatim in the note's table block (blocks[1] row 1), mechanisms[0] cultural-formulation-flow, blocks[2] the steps block, and recall[0-1]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cultural-interviewing-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "cultural-competence-interviewing",
+      "requiredInKYP": true,
+      "visualId": "cultural-competence-interviewing-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "visualType": "SUMMARY_FIGURE",
+      "visualPurpose": "The Trauma-informed care block (book 272): the care framework for patients with histories of psychological trauma — thorough behavioral health screenings (mood, substance use, social supports, suicide risk), the functional-focus rule, the empathy/permission/no-invasive-detail rules, the pre-exam signal-to-end reassurance, additional staff for support, counseling offered or advised, and First Aid's own red-initialed 4 R's: Realize, Recognize, Respond, Resist retraumatization",
+      "sourceFigureDescription": "PURE-TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh22/vlm-census.txt — VLM available this session): a blue bold left-column heading 'Trauma-informed care' (single line) over a right-column block of three sentence-cluster paragraphs — 'Patients with history of psychological trauma should receive thorough behavioral health screenings. Regularly assess mood, substance use, social supports, and suicide risk.'; 'Focus assessments on trauma-related symptoms that interfere with social and occupational function. Always be empathetic. Do not ask invasive questions requiring the patient to describe trauma in detail. Ask permission prior to discussion.'; 'Before the physical exam, reassure patients that they may signal to end it immediately if they experience too much physical or emotional discomfort. Offer the presence of additional staff for support. Psychological counseling may be indicated. Follow-up counseling is offered (or advised) as appropriate. Remember 4 R's: Realize, Recognize, Respond, Resist retraumatization.' — the closing mnemonic prints with '4 R's' in bold black and the R initials of Realize/Recognize/Respond/Resist in RED bold (First Aid's own). No bullet glyphs, no margin notes, no images.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cultural-interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (CulturalInterviewingMap in visuals/pubhealth-p22.tsx): the panel organized SCREEN / FOCUS / PERMISSION / SIGNAL / SUPPORT with every printed rule, plus the 4 R's strip (Realize · Recognize · Respond · Resist retraumatization) drawn in the emergency color with First Aid attribution and the KYP rule line; the block's full text is ALSO carried verbatim in the note's table block (blocks[1] row 2), blocks[3] the trauma rules list, mnemonics[0] (the 4 R's, attributed) and mnemonics[3], and recall[2-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cultural-interviewing-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "cultural-competence-interviewing",
+      "requiredInKYP": true,
+      "visualId": "cultural-competence-interviewing-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "visualType": "FLOWCHART",
+      "visualPurpose": "The Motivational interviewing block (book 272): the counseling arc — resolve ambivalence about change (some desire required, commitment not; eg, nicotine dependence, obesity), examine how the behavior interferes with life, assess barriers (eg, food access, untreated trauma), let readiness for change guide physician-suggested goals, and land on SMART goals (Specific, Measurable, Achievable, Relevant, Time bound — First Aid's own, red-initialed)",
+      "sourceFigureDescription": "PURE-TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh22/vlm-census.txt — VLM available this session): a blue bold left-column heading 'Motivational interviewing' (wrapping across two lines: 'Motivational' / 'interviewing') over a right-column block of two paragraphs — 'Counseling technique to facilitate behavior modification by helping patients resolve ambivalence about change. Useful for many conditions (eg, nicotine dependence, obesity). Helpful when patient has some desire to change, but it does not require that the patient be committed to making the change. May involve asking patients to examine how their behavior interferes with their life or why they might want to change it. Assess barriers (eg, food access, untreated trauma) that may make behavior change difficult.'; 'Assessing a patient's readiness for change is also important for guiding physician-suggested goals. These goals should be Specific, Measurable, Achievable, Relevant, and Time bound (SMART).' — the SMART sentence prints with the S/M/A/R/T initials in RED bold and '(SMART)' in bold black (First Aid's own). No bullet glyphs, no margin notes, no images.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cultural-interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone C of the registry visual (CulturalInterviewingMap in visuals/pubhealth-p22.tsx): the arc as a flow — RESOLVE AMBIVALENCE (with the printed examples nicotine dependence / obesity) → EXAMINE the behavior + ASSESS BARRIERS (parallel nodes: food access, untreated trauma) → READINESS guides physician-suggested goals → the SMART bar (Specific · Measurable · Achievable · Relevant · Time bound) drawn in the success color with First Aid attribution, plus the KYP rule line; the block's full text is ALSO carried verbatim in the note's table block (blocks[1] row 3), mechanisms[1] ambivalence-to-smart-arc, blocks[4] the MI decoder list, blocks[6] the compare block, mnemonics[1] (SMART, attributed), and recall[5-6]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cultural-interviewing-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "cultural-competence-interviewing",
+      "requiredInKYP": true,
+      "visualId": "cultural-competence-interviewing-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Gender- and sexuality-inclusive history taking block (book 272): the inclusive-interviewing checklist — no assumptions about sexual orientation, gender identity, gender expression, or behavior; gender-neutral terms ('partner' rather than 'husband' or 'wife') until the patient instructs otherwise; assigned sex at birth and gender identity may differ; do not bring up gender or sexuality if not relevant (the gender-nonconforming hand-laceration example); the pronoun exchange ('I'm Dr. Smith, and I use she/her pronouns') and the correct EMR; confidentiality reassurance; trust built over time",
+      "sourceFigureDescription": "PURE-TEXT BLOCK, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh22/vlm-census.txt — VLM available this session): a blue bold left-column heading 'Gender- and sexuality-inclusive history taking' (wrapping across three lines in the left column, breaking after the compound's own hyphen: 'Gender- and sexuality-' / 'inclusive history' / 'taking' — the raw text layer merges the hyphenated compound to 'sexualityinclusive', a documented quirk) over a right-column block of four paragraphs — the no-assumptions paragraph with the printed example 'a patient who identifies as heterosexual may engage in same-sex sexual activity'; the gender-neutral-terms paragraph ('partner' rather than 'husband' or 'wife') with the assigned-sex-at-birth vs gender-identity sentence and the relevance gate ('eg, a gender-nonconforming patient seeking care for a hand laceration'); the pronoun paragraph ('I'm Dr. Smith, and I use she/her pronouns' — the example wraps 'she/' / 'her' across raw lines — and ensuring correct name and pronouns are in the electronic medical record); and the confidentiality + trust paragraph ('Remember: trust is built over time, and listening to and learning from patients about how they would like to approach the topics discussed above is key.'). No bullet glyphs, no margin notes, no images.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "cultural-interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone D of the registry visual (CulturalInterviewingMap in visuals/pubhealth-p22.tsx): the checklist strip — six vector-checkbox cells in two columns (NO ASSUMPTIONS / NEUTRAL TERMS / SEX AT BIRTH ≠ GENDER IDENTITY / ONLY IF RELEVANT — the hand-laceration rule / PRONOUNS + EMR / CONFIDENTIALITY + TRUST — built over time); the block's full text is ALSO carried verbatim in the note's table block (blocks[1] row 4), blocks[5] the checklist table with decoding, and recall[7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "cultural-interviewing-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "cultural-competence-interviewing",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries FOUR pure-text visual assets — the Cultural formulation interview block (sv1: the five Identify moves), the Trauma-informed care block (sv2: screenings, focus/permission/signal/support rules, First Aid's red-initialed 4 R's), the Motivational interviewing block (sv3: the ambivalence-to-SMART arc, SMART red-initialed), and the Gender- and sexuality-inclusive history taking block (sv4: the inclusive checklist) — all accounted for in ONE registry visual (cultural-interviewing-map, CulturalInterviewingMap in visuals/pubhealth-p22.tsx, viewBox 0 0 1102 1150): a descending five-step staircase (Zone A), the trauma-informed panel with the attributed 4 R's strip (Zone B), the MI arc with the attributed SMART bar (Zone C), and the six-cell inclusive-history checklist strip (Zone D) — every printed prompt preserved, nothing reproduced, and the full page's text additionally carried verbatim in the note's table block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) confirmed all four headings and sentences, the five bold 'Identify' openers, the RED bold initials of the 4 R's and SMART (both First Aid's own, carried attributed), the absence of bullet glyphs/margin mnemonics/asterisk footnotes/images, and the once-printed banner (running header only). ADJUDICATION: the task brief's block descriptions matched the print exactly — no correction needed; the page furniture is a 'four-row table-style layout' (VLM) with thin rules, NOT a printed table, so all four records are ORIGINAL_KYP_ADAPTATION text-block adaptations. QUIRK documented: the block D heading prints 'Gender- and sexuality-inclusive history taking', breaking after the compound's own hyphen; the raw text layer merges it to 'sexualityinclusive' (the hyphenated print form is carried in the note; evidence range 13 preserves the raw merged form). FULL single page, the THIRD of the Communication Skills subsection. STAGED under .usmle-pipeline-cache/staging-pubh22/ — promotion into content/ is owned downstream."
+}

@@ -13,7 +13,7 @@
  ],
  "bookPages": "255–278",
  "extractionStatus": "extracted",
- "pendingTopicCount": 7,
+ "pendingTopicCount": 2,
  "notes": "Chapter inventory built from the banner + heading census (text-layer banner method, the pharmacology 29-topic-census convention). Banner structure: PUBLIC HEALTH SCIENCES banner on pdf 277-300 (book 255-278) with subsections EPIDEMIOLOGY AND BIOSTATISTICS pdf 278-290-top (book 256-268-top, 17 topics), ETHICS pdf 290-lower-292 (book 268-lower-270, 3 topics), COMMUNICATION SKILLS pdf 293-297 (book 271-275, 4 topics), HEALTHCARE DELIVERY pdf 298-300 (book 276-278, 3 topics). p277 = chapter opener (book 255, unclaimed — the p249 convention). SHARED PAGES with distinct subsections (the p252/p256 pharmacology convention, boundaries pinned): p279 (Clinical therapeutic trial + phases / Off-label use + Bradford Hill criteria), p281 (Quantifying risk continued + Demographic transition / Likelihood ratio / Kaplan-Meier curve — three blocks), p282 (Hazard ratio / Evaluation of diagnostic tests), p289 (Confidence interval + Meta-analysis / Common statistical tests), p290 (Pearson correlation coefficient / ETHICS core principles — the subsection banner falls mid-page). CROSS-PAGE TOPIC: survival-analysis (p281 bottom + p282 top, Kaplan-Meier + hazard ratio — the book pairs them itself); challenging-scenarios owns the two-page situation/response table p296-297 (the p274-275 drug-names precedent). RASTER CENSUS: ZERO raster images on all 23 content pages (pdfimages -list, every page 277-300 checked) — the chapter is pure text, tables, and VECTOR line art; every figure is an ORIGINAL_KYP_REDRAW candidate (the P2/P3 pure-vector convention), every table an ORIGINAL KYP ADAPTATION. Every content page 278-300 claimed by exactly one topic; every content block mapped in the topic productionRationales.",
  "extraction": {
   "extractedOn": "2026-11-22",
@@ -562,7 +562,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Communication Skills",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The patient-centered interviewing techniques (introduction with name/pronouns/eye level, agenda setting, reflection, validation, recapitulation, facilitation), the PEARLS rapport framework (Partnership, Empathy, Apology, Respect, Legitimization, Support), and communicating with patients with disabilities (person-first vs identity-first language, talk to the patient, ask before assisting, extra time for speech difficulties, concrete language for cognitive impairment, deaf/hard-of-hearing communication and interpreter positioning, do not skip exam parts). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -588,7 +588,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Communication Skills",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The cultural formulation interview (patient's own words, cultural perceptions of cause, background influences, impact on interventions, barriers to care), trauma-informed care (behavioral health screenings, no invasive detail, permission before discussion, signal-to-end reassurance during exams, the 4 R's — Realize, Recognize, Respond, Resist re-traumatization), motivational interviewing (resolving ambivalence, readiness for change, SMART goals), and gender- and sexuality-inclusive history taking (no assumptions, gender-neutral terms, pronoun sharing, EMR inclusivity, confidentiality reassurance). Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -612,7 +612,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Communication Skills",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "Use of interpreters (professional medical interpreters unless conversationally fluent, phone/video fallback, family-member preference documented, ask preferred language — never assume from name or accent, speak directly to the patient, one question at a time, interpreter positioning for spoken vs sign language, emergency tools), and delivering bad news with SPIKES (Setting, Perception, Invitation, Knowledge, Emotions, Strategy). Pure text → ORIGINAL KYP ADAPTATION with the SPIKES protocol as a six-station visual."
   },
   {
@@ -636,7 +636,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Communication Skills",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "TWO-PAGE topic (the drug-names precedent): the complete situation → appropriate-response table across book 274-275 — 24 rows: nonadherence, unnecessary procedure request, medication difficulty, family asking prognosis, family requesting nondisclosure, 17-year-old requesting abortion, 15-year-old pregnancy, physician-assisted dying, suicidal patient, romantic interest from patient, post-mastectomy body image, waiting-room anger, complaint about another physician, wrong-patient procedure, uncovered treatment, bereaved 7-year-old, intimate partner violence, alternative medicine, impaired colleague, family insisting on life support after brain death, pharmaceutical sponsorship, procedure against physician beliefs, Jehovah's Witness transfusion (mother vs daughter), suspected abuse, vaccine refusal. The response principles (patient-centered, open-ended, empathetic, acknowledge obstacles, validate emotions) lead. Pure text → ORIGINAL KYP ADAPTATION."
   },
   {
@@ -660,7 +660,7 @@
    ],
    "mechanismHeavy": false,
    "subsection": "Public Health Sciences — Healthcare Delivery",
-   "status": "pending",
+   "status": "complete",
    "productionRationale": "The prevention-level pyramid (primary — susceptible population, prevent onset, diet/exercise; secondary — subclinical, screen for early detection, glucose screening; tertiary — clinical/symptomatic, treat and prevent progression, A1c monitoring; quaternary — overmedicalized, discontinue unnecessary interventions, stopping sulfonylurea after hypoglycemia) and the chemoprophylaxis/PEP table (HIV exposure — tenofovir+emtricitabine+raltegravir/dolutegravir × 28 days ≤72 hr; N. meningitidis close contact — rifampin/ciprofloxacin/ceftriaxone; rabies bite — wound cleaning + vaccine + immune globulin on 0/3/7/14; HBV exposure — vaccine ± HBIG; malaria travel — atovaquone-proguanil/doxycycline/mefloquine; sexual exposure — doxycycline ≤72 hr with effectiveness data). Pure text/table → ORIGINAL KYP ADAPTATION."
   },
   {

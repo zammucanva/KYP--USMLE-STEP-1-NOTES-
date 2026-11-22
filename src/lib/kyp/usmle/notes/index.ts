@@ -70,6 +70,11 @@ import { correlationCoefficient } from "./correlation-coefficient";
 import { coreEthicalPrinciples } from "./core-ethical-principles";
 import { informedConsent } from "./informed-consent";
 import { surrogatesConfidentiality } from "./surrogates-confidentiality";
+import { patientCenteredInterviewing } from "./patient-centered-interviewing";
+import { culturalCompetenceInterviewing } from "./cultural-competence-interviewing";
+import { interpretersBadNews } from "./interpreters-bad-news";
+import { challengingScenarios } from "./challenging-scenarios";
+import { diseasePreventionProphylaxis } from "./disease-prevention-prophylaxis";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -310,6 +315,11 @@ export const usmleNotes: KypUsMLENote[] = [
   coreEthicalPrinciples,
   informedConsent,
   surrogatesConfidentiality,
+  patientCenteredInterviewing,
+  culturalCompetenceInterviewing,
+  interpretersBadNews,
+  challengingScenarios,
+  diseasePreventionProphylaxis,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

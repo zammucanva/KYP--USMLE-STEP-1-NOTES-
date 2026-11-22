@@ -1,0 +1,73 @@
+{
+  "topicId": "disease-prevention-prophylaxis",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "disease-prevention-prophylaxis",
+      "requiredInKYP": true,
+      "visualId": "disease-prevention-prophylaxis-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Disease prevention pyramid table (book 276): the four prevention levels — Primary, Secondary, Tertiary, Quaternary — as stacked bands on the natural-history funnel, with the Target population column (left flank, one person icon per level), the Goals column (right callouts: a 'Prevent …' phrase + an italic gray 'eg,' example), and the level names + in-band action lines inside the bands; the Healthcare Delivery subsection's opening table",
+      "sourceFigureDescription": "PYRAMID TABLE rendered as VECTOR ART, no raster (pdfimages: zero raster images; VLM-read at 120dpi with a second 2x-zoom adjudication pass, staging-pubh25/vlm-census.txt — VLM available this session): the running header (book page 276, SEC TION II, PUBLIC HEALTH SCIENCES, '▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY' printed twice — running header + in-body subsection ribbon), the block title 'Disease prevention', and TWO boxed column headers — 'Target population' (over the left flank) and 'Goals' (over the right callout blocks). A triangle of four stacked horizontal bands, APEX = Quaternary (top, narrowest, dark teal, white text, first letter Q in red), then Tertiary (medium slate teal, white text, T in red), Secondary (light gray-green, dark text, S in red), and Primary (base, widest, very pale mint, dark text, P in red), separated by thin white borders. Each band carries its level name + an IN-BAND action line; OUTSIDE LEFT of each band: one standing person figure icon (shading graduated to match the band) + the target population text; OUTSIDE RIGHT: a block arrow (shading graduated to match the band) pointing to the Goals callout — a 'Prevent …' phrase in dark text + an 'eg,' example line in smaller italic gray. Printed apex-to-base: Quaternary — Symptomatic patients, but overmedicalized or not treatable; Quit unnecessary medical interventions; Prevent overtreatment and iatrogenic harm; eg, discontinuing sulfonylurea after multiple hypoglycemic events. Tertiary — Clinical (symptomatic); Treat symptomatic disease; Prevent clinical disease progression and sequelae associated morbidity, mortality, and disability; eg, hemoglobin A1c monitoring to guide treatment and prevent complications. Secondary — Subclinical (asymptomatic); Screen for early detection and treatment of presymptomatic disease + 'Prevent symptom onset' printed INSIDE the band as a second line; Prevent symptom onset (callout); eg, glucose screening for type 2 diabetes mellitus. Primary — Susceptible/general population; Prevent disease onset by reducing risks or increasing immunity; Prevent disease onset; eg, healthy diet and exercise to prevent diabetes. The Rx publisher mark prints at bottom right. The pyramid's cells extract in jumbled apex-to-base order in the raw text layer (documented quirk); the band/callout assignment is pinned by pdftotext -bbox coordinates + both VLM passes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "prevention-prophylaxis-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone A of the registry visual (PreventionProphylaxisMap in visuals/pubhealth-p25.tsx): the pyramid re-laid as a KYP stacked funnel of four trapezoid bands (apex = Quaternary up, as printed, graduated brand fills), each band carrying its level name (red initial tspans, as the print's red first letters) + in-band action; the left flank carrying the two boxed headers as printed ('Target population' / 'Goals'), one KYP person glyph per level (shading graduated down) + the target population; and the right flank carrying shaded block arrows + the 'Prevent …' goal callouts with italic 'eg,' examples — the Secondary band drawing 'Prevent symptom onset' BOTH in-band and in the callout exactly as printed — plus the KYP rule strip (PRIMARY PREVENTS · SECONDARY SCREENS · TERTIARY TREATS · QUATERNARY QUITS); the full table is ALSO carried verbatim in the note's table block (blocks[1]), core.what, the decoder list block (blocks[3]), and recall[0-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "prevention-prophylaxis-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "topicId": "disease-prevention-prophylaxis",
+      "requiredInKYP": true,
+      "visualId": "disease-prevention-prophylaxis-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Chemoprophylaxis and post-exposure prophylaxis table (book 276): six exposure → regimen protocols with their timing and follow-up rules — HIV exposure (sexual, occupational), Neisseria meningitidis (close contact), Rabies exposure (animal bite), Hepatitis B virus exposure, Malaria (travel prophylaxis), and Sexual exposure—sexually transmitted infection prevention with its printed effectiveness data",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh25/vlm-census.txt — VLM available this session): the table title 'Chemoprophylaxis and post-exposure prophylaxis' (blue text, hairline rule beneath), column headers PROPHYLAXIS / NOTES in small caps on a lightly shaded header row, left-column cells shaded pale blue with the condition names in blue (Neisseria meningitidis in italics), and thin light hairline row separators (no zebra). SIX rows in printed order, both cells of each: HIV exposure (sexual, occupational) → Tenofovir disoproxil fumarate + emtricitabine + (raltegravir or dolutegravir) × 28 days. Start ≤72 hr after exposure; test HIV at baseline and 6 wk, 3 mo, 6 mo. Neisseria meningitidis (close contact) → Rifampin, ciprofloxacin, or ceftriaxone. Household or close exposure. Rabies exposure (animal bite) → Wound cleaning + rabies vaccine + rabies immune globulin (if not previously immunized). 0, 3, 7, 14 day schedule. Hepatitis B virus exposure → HBV vaccine ± Hepatitis B immune globulin (if source positive and unvaccinated). Follow HBV serology. Malaria (travel prophylaxis) → Atovaquone-proguanil, doxycycline, or mefloquine. Start before travel; continue post-return. Sexual exposure—sexually transmitted infection prevention (em-dash as printed) → Doxycycline. Give ≤72 hr after sex to prevent syphilis, chlamydia, and gonorrhea in patients with recent bacterial STI. Use with regular STI/HIV testing, pre-exposure prophylaxis, vaccines (HPV, Hepatitis A/B), and counseling. Effectiveness: ↓ syphilis/chlamydia >70%, ↓ gonorrhea ~50%. Monitor q3-6 mo. (the ↓ arrows carry stray C1 control bytes in the raw text layer — stripped by the normalizer, carried as ↓; this row alone carries the page's only effectiveness data).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "prevention-prophylaxis-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "Zone B of the registry visual (PreventionProphylaxisMap in visuals/pubhealth-p25.tsx): the six rows as numbered protocol cards in PRINTED order (2 columns × 3 rows), each carrying the exposure title (the species name italicized as printed), the REGIMEN lines, a KYP timing band (amber = ≤72-hr window: HIV PEP and doxycycline STI PEP; blue = scheduled/serology series: rabies 0 · 3 · 7 · 14 days and HBV source-steered serology; red = close-contact exposure: N. meningitidis; green = travel bracket: malaria), and the NOTES lines — the doxycycline card carrying the printed effectiveness chips (↓ syphilis/chlamydia >70% · ↓ gonorrhea ~50%) and the legend strip naming the timing-band coding; the full table is ALSO carried verbatim in the note's second table block (blocks[2]), core.what, the mechanisms[1] flow nodes, the steps block, and recall[5-8]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "prevention-prophylaxis-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "disease-prevention-prophylaxis",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the Disease prevention pyramid table (sv1: four levels as stacked bands on the natural-history funnel, apex = Quaternary, base = Primary, with the Target population left flank, the Goals right callouts, the in-band action lines, and the four diabetes examples) and the Chemoprophylaxis and post-exposure prophylaxis table (sv2: six exposure → regimen rows with their timing and follow-up rules, including the doxycycline effectiveness data) — both accounted for in ONE registry visual (prevention-prophylaxis-map, PreventionProphylaxisMap in visuals/pubhealth-p25.tsx, viewBox 0 0 1102 1440), BOTH as ORIGINAL KYP ADAPTATIONS (the chapter census itself calls the page 'Pure text/table → ORIGINAL KYP ADAPTATION'; the pyramid's vector furniture — graduated bands, person icons, block arrows — is rebuilt as original KYP vector geometry with every printed word preserved, and the prophylaxis table is re-laid as timing-banded protocol cards); nothing is reproduced, and both tables' text is additionally carried verbatim in the note's two table blocks. Census: zero raster images (pdfimages); VLM available this session — TWO 120dpi glm-4.6v passes (ONE full-page + ONE 2x-zoom pyramid adjudication, vlm-census.txt) confirmed the pyramid's apex/base orientation, the two boxed headers' positions ('Target population' left flank, 'Goals' right callouts), the graduated band shading with red level-name initials, ONE person figure per level, the italic gray eg-lines, exactly SIX prophylaxis rows in printed order, and the absence of margin mnemonics and images (so all four note mnemonics are KYP originals). ADJUDICATIONS: the print gives Primary the right-side goal 'Prevent disease onset' and prints 'Prevent symptom onset' TWICE, both times in the Secondary row (in-band + callout) — bbox + both VLM passes agree (the batch brief had Primary carrying 'prevent symptom onset'; brief corrected to print); the printed row order is apex-to-base (Quaternary first) — the note's verbatim table carries the printed order and the logical ladder lives in the decoder block. FULL single page, the FIRST of the HEALTHCARE DELIVERY subsection. STAGED under .usmle-pipeline-cache/staging-pubh25/ — promotion into content/ is owned downstream."
+}

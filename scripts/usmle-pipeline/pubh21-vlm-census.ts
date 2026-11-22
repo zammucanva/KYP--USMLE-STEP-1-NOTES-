@@ -1,0 +1,16 @@
+import ZAI from 'z-ai-web-dev-sdk';
+import { readFileSync } from 'fs';
+async function main() {
+  const zai = await (ZAI as any).create();
+  const b64 = readFileSync('/tmp/pubh21-page-293.png').toString('base64');
+  const r = await zai.chat.completions.createVision({
+    model: 'glm-4.6v',
+    messages: [{ role: 'user', content: [
+      { type: 'text', text: 'This is First Aid USMLE 2026 Part 1, pdf page 293 / printed book page 271, the FIRST page of the banner "PUBLIC HEALTH SCIENCES—COMMUNICATION SKILLS" (the Communication Skills subsection opener). The page carries THREE blocks, all pure text/tables (no figures expected): (A) "Patient-centered interviewing techniques" — a term/definition structure with SIX technique rows: Introduction, Agenda setting, Reflection, Validation, Recapitulation, Facilitation; (B) "Establishing rapport" — the PEARLS block with SIX rows: Partnership, Empathy, Apology, Respect, Legitimization, Support; (C) "Communicating with patients with disabilities" — a header plus SEVEN prose paragraphs. Describe the page precisely and completely: (1) BLOCK A — list every technique row in PRINTED order with the term and its definition verbatim (report exact printed text, capitalization, parentheses); is it laid out as a two-column term|definition table (term on the left, definition on the right) or stacked paragraphs?; (2) BLOCK B — quote the "PEARLS" heading itself and say whether PEARLS prints in a special color or style (is it red? bold? larger?), and whether the six P-E-A-R-L-S letters are highlighted inside the row terms (eg, the P of Partnership, E of Empathy, A of Apology, R of Respect, L of Legitimization, S of Support — are those first letters printed in a different color/bold?); list each rapport row verbatim; (3) BLOCK C — does the header "Communicating with patients with disabilities" wrap across multiple lines on the left side, with the paragraphs to its right?; quote the first and last sentences of each of the seven paragraphs verbatim (person-first/identity-first language; talk directly to the patient/caregivers; ask if assistance is desired/independence; speech difficulties; cognitive impairment; deaf or hard of hearing; do not bring up a disability/do not skip the exam); (4) COLOR FURNITURE — the colors of: the subsection ribbon/banner, the three block titles (Patient-centered interviewing techniques / Establishing rapport / Communicating with patients with disabilities), the term labels (Introduction, Agenda setting, ... Partnership, Empathy, ...), any red text anywhere on the page (which words?), any table borders, shading, or dotted/solid rules between rows; (5) any margin notes, mnemonics printed in the margins, asterisk footnotes, images, icons, or figures anywhere on the page; (6) the header/banner lines at the top (does the banner print TWICE — once in the running header and once as an in-body ribbon?), the "SECTION II" header text, the page number, and the footer slug with timestamp. Preserve exact printed spellings and state any words that look truncated, hyphenated across line wraps, or oddly cased (eg, small-caps artifacts).' },
+      { type: 'image_url', image_url: { url: `data:image/png;base64,${b64}` } },
+    ]}],
+    thinking: { type: 'disabled' },
+  });
+  console.log(String(r.choices?.[0]?.message?.content));
+}
+main();

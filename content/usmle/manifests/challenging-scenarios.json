@@ -1,0 +1,530 @@
+{
+  "topicId": "challenging-scenarios",
+  "title": "Challenging Patient and Ethical Scenarios: The Response Table",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Communication Skills",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      296,
+      297
+    ],
+    "bookPages": "274–275"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page number 274, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the running header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS' (small-caps extraction artifact as extracted; VLM-confirmed the banner prints ONCE on this page — running header only, no in-body sub-banner)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "274\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The block heading — 'Challenging patient and ethical scenarios' (bold dark navy, VLM-read)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Challenging patient and ethical\nscenarios",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "THE LEAD-IN — the topic's whole framing device, carried verbatim: 'Appropriate responses are patient-centered, open-ended, and empathetic. Acknowledge obstacles (“I understand this plan may be difficult...”), validate emotions (“It’s understandable to feel frustrated...”), and create open-ended dialogue (“What concerns you most about...?”). Responses should reflect ethical principles (autonomy, beneficence, nonmaleficence, justice) and consider multiple points of view—patient, family, culture, and healthcare team.' (curly quotes, terminal ellipses, and the em-dash as printed; the lead-in prints First Aid's signature first-letter red styling on key terms — styling, not a mnemonic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Appropriate responses are patient-centered, open-ended, and empathetic. Acknowledge\nobstacles (“I understand this plan may be difficult...”), validate emotions (“It’s\nunderstandable to feel frustrated...”), and create open-ended dialogue (“What\nconcerns you most about...?”). Responses should reflect ethical principles (autonomy,\nbeneficence, nonmaleficence, justice) and consider multiple points of view—patient,\nfamily, culture, and healthcare team.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The table's two column headers — SITUATION / APPROPRIATE RESPONSE",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "SITUATION\n\nAPPROPRIATE RESPONSE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 1 (adherence barriers) — 'Patient does not follow the medical plan.' → 'Determine whether there are financial, logistical, or other obstacles preventing the patient’s adherence. Do not coerce the patient into adhering or refer the patient to another physician. Schedule regular follow-up visits to track patient progress.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient does not follow the medical\nplan.\n\nDetermine whether there are financial, logistical, or other obstacles preventing the\npatient’s adherence. Do not coerce the patient into adhering or refer the patient to\nanother physician. Schedule regular follow-up visits to track patient progress.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 (requests & disclosure) — 'Patient desires an unnecessary procedure.' → 'Attempt to understand why the patient wants the procedure and address underlying concerns. Do not refuse to see the patient or refer to another physician. Avoid performing unnecessary procedures.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient desires an unnecessary\nprocedure.\n\nAttempt to understand why the patient wants the procedure and address underlying\nconcerns. Do not refuse to see the patient or refer to another physician. Avoid\nperforming unnecessary procedures.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 (adherence barriers) — 'Patient has difficulty taking medications.' → 'Determine what factors are involved in the patient’s difficulties. If comprehension or memory are issues, use techniques such as providing written instructions, using the teach-back method, or simplifying treatment regimens.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient has difficulty taking\nmedications.\n\nDetermine what factors are involved in the patient’s difficulties. If comprehension or\nmemory are issues, use techniques such as providing written instructions, using the\nteach-back method, or simplifying treatment regimens.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 4 (consent & disclosure) — 'Family members ask for information about patient’s prognosis.' → 'Avoid discussing issues with relatives without the patient’s permission.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Family members ask for information\nabout patient’s prognosis.\n\nAvoid discussing issues with relatives without the patient’s permission.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 5 (consent & disclosure — the therapeutic-privilege row) — 'A patient’s family member asks you not to disclose the results of a test if the prognosis is poor because the patient will be “unable to handle it.”' → 'Explore why the family member believes this would be detrimental, including possible cultural factors. Explain that if the patient would like to know information concerning care, it will not be withheld. However, if you believe the patient might seriously harm self or others if informed, you may invoke therapeutic privilege and withhold the information.' (curly quotes as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A patient’s family member asks you\nnot to disclose the results of a test\nif the prognosis is poor because\nthe patient will be “unable to\nhandle it.”\n\nExplore why the family member believes this would be detrimental, including\npossible cultural factors. Explain that if the patient would like to know information\nconcerning care, it will not be withheld. However, if you believe the patient might\nseriously harm self or others if informed, you may invoke therapeutic privilege and\nwithhold the information.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 6 (minors) — 'A 17-year-old is pregnant and requests an abortion.' → 'Many states require parental notification or consent for minors for an abortion. Unless there are specific medical risks associated with pregnancy, a physician should not sway the patient’s decision for, or against, an elective abortion (regardless of patient’s age or fetal condition). Discuss options for terminating the pregnancy and refer to abortion care, if needed.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A 17-year-old is pregnant and\nrequests an abortion.\n\nMany states require parental notification or consent for minors for an abortion. Unless\nthere are specific medical risks associated with pregnancy, a physician should not\nsway the patient’s decision for, or against, an elective abortion (regardless of patient’s\nage or fetal condition). Discuss options for terminating the pregnancy and refer to\nabortion care, if needed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 7 (minors) — 'A 15-year-old is pregnant and wants to raise the child. The patient’s parents want you to tell the patient to give the child up for adoption.' → 'The patient retains the right to make decisions regarding the child, even if the patient’s parents disagree. Provide information to the teenager about the practical aspects of caring for a baby. Discuss options for terminating the pregnancy, if requested. Encourage discussion between the patient and parents to reach the best decision.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A 15-year-old is pregnant and wants\nto raise the child. The patient’s\nparents want you to tell the patient\nto give the child up for adoption.\n\nThe patient retains the right to make decisions regarding the child, even if the patient’s\nparents disagree. Provide information to the teenager about the practical aspects\nof caring for a baby. Discuss options for terminating the pregnancy, if requested.\nEncourage discussion between the patient and parents to reach the best decision.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 8 (end-of-life) — 'A terminally ill patient requests physician-assisted dying.' → 'The overwhelming majority of states prohibit most forms of physician-assisted dying. Physicians may, however, prescribe medically appropriate analgesics even if they potentially shorten the patient’s life.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A terminally ill patient requests\nphysician-assisted dying.\n\nThe overwhelming majority of states prohibit most forms of physician-assisted dying.\nPhysicians may, however, prescribe medically appropriate analgesics even if they\npotentially shorten the patient’s life.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 9 (safety) — 'Patient is suicidal.' → 'Assess the seriousness of the threat. If patient is actively suicidal with a plan, suggest remaining in the hospital voluntarily; patient may be hospitalized involuntarily if needed.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient is suicidal.\n\nAssess the seriousness of the threat. If patient is actively suicidal with a plan, suggest\nremaining in the hospital voluntarily; patient may be hospitalized involuntarily if needed.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 10 (boundaries) — 'Patient states that you are attractive and asks if you would go on a date.' → 'Use a chaperone if necessary. Romantic relationships with patients are never appropriate. Set firm professional boundaries with direct communication. Transition care to another physician if necessary.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient states that you are attractive\nand asks if you would go on a date.\n\nUse a chaperone if necessary. Romantic relationships with patients are never\nappropriate. Set firm professional boundaries with direct communication. Transition\ncare to another physician if necessary.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 11 (boundaries/empathy) — 'A woman who had a mastectomy says she now feels “ugly.”' → 'Find out why the patient feels this way. Do not offer falsely reassuring statements (eg, “You still look good”).' (curly quotes as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A woman who had a mastectomy\nsays she now feels “ugly.”\n\nFind out why the patient feels this way. Do not offer falsely reassuring statements (eg,\n“You still look good”).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 12 (boundaries/anger) — 'Patient is angry about the long time spent in the waiting room.' → 'Acknowledge the patient’s anger, but do not take a patient’s anger personally. Thank the patient for being patient and apologize for any inconvenience. Stay away from efforts to explain the delay.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient is angry about the long time\nspent in the waiting room.\n\nAcknowledge the patient’s anger, but do not take a patient’s anger personally. Thank\nthe patient for being patient and apologize for any inconvenience. Stay away from\nefforts to explain the delay.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 13 (professionalism) — 'Patient is upset with treatment received from another physician.' → 'Suggest that the patient speak directly to that physician regarding the concern. If the problem is with a member of the office staff, reassure the patient you will speak to that person.' — the last row of book 274 (13 rows on this page; the table continues on 275)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient is upset with treatment\nreceived from another physician.\n\nSuggest that the patient speak directly to that physician regarding the concern. If the\nproblem is with a member of the office staff, reassure the patient you will speak to\nthat person.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_06-PubHealth.indd 274 / 12/16/25 12:46 PM (page identity, book 274)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          296
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 274\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Page-297 identity — the running header PUBLIC HEALTH SCIENCES, the subsection banner '▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS' (small-caps artifact as extracted), the 'SEC TION II' header-space artifact (known, carried as-is), and the book page number 275",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS\n\nSEC TION II\n\n275",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The continuation title + the repeated column headers — 'Challenging patient and ethical scenarios (continued)' with SITUATION / APPROPRIATE RESPONSE (the continuation title prints bold dark blue, '(continued)' bold italic — VLM-read)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Challenging patient and ethical scenarios (continued)\nSITUATION\n\nAPPROPRIATE RESPONSE",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 14 (error disclosure) — 'An invasive test is performed on the wrong patient.' → 'Regardless of the outcome, a physician is ethically obligated to inform a patient that a mistake has been made.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "An invasive test is performed on the\nwrong patient.\n\nRegardless of the outcome, a physician is ethically obligated to inform a patient that a\nmistake has been made.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 15 (disclosure/coverage) — 'A patient requires a treatment not covered by insurance.' → 'Discuss all treatment options with patients, even if some are not covered by their insurance companies. Inform patient of financial assistance programs.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A patient requires a treatment not\ncovered by insurance.\n\nDiscuss all treatment options with patients, even if some are not covered by their\ninsurance companies. Inform patient of financial assistance programs.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 16 (loss/child development) — 'A 7-year-old boy loses a sister to cancer and now feels responsible.' → 'At ages 5-7, children begin to understand that death is permanent, all life functions end completely at death, and everything that is alive eventually dies. Provide a direct, concrete description of his sister’s death. Avoid clichés and euphemisms. Reassure the boy that he is not responsible. Identify and normalize fears and feelings. Encourage play and healthy coping behaviors (eg, remembering her in his own way).' ('5-7' with a plain hyphen as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A 7-year-old boy loses a sister to\ncancer and now feels responsible.\n\nAt ages 5-7, children begin to understand that death is permanent, all life functions\nend completely at death, and everything that is alive eventually dies. Provide a direct,\nconcrete description of his sister’s death. Avoid clichés and euphemisms. Reassure the\nboy that he is not responsible. Identify and normalize fears and feelings. Encourage\nplay and healthy coping behaviors (eg, remembering her in his own way).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 17 (safety — intimate partner violence) — 'Patient is victim of intimate partner violence.' → 'Ask if patient is safe and help devise an emergency plan if there isn’t one. Ask patient direct, open-ended questions about exam findings and summarize patient’s answers back to them. Ask if patient has any questions. Do not necessarily pressure patient to leave a partner or disclose the incident to the authorities (unless required by state law).' (curly apostrophe in isn’t as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient is victim of intimate partner\nviolence.\n\nAsk if patient is safe and help devise an emergency plan if there isn’t one. Ask patient\ndirect, open-ended questions about exam findings and summarize patient’s answers\nback to them. Ask if patient has any questions. Do not necessarily pressure patient to\nleave a partner or disclose the incident to the authorities (unless required by state law).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 18 (adherence/health beliefs) — 'Patient wants to try alternative or holistic medicine.' → 'Explore any underlying reasons with the patient in a supportive, nonjudgmental manner. Advise the patient of known benefits and risks of treatment, including adverse effects, contraindications, and medication interactions. Consider referral to an appropriate complementary or alternative medicine provider.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient wants to try alternative or\nholistic medicine.\n\nExplore any underlying reasons with the patient in a supportive, nonjudgmental manner.\nAdvise the patient of known benefits and risks of treatment, including adverse effects,\ncontraindications, and medication interactions. Consider referral to an appropriate\ncomplementary or alternative medicine provider.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 19 (reporting — impaired colleague) — 'Physician colleague presents to work impaired.' → 'This presents a potential risk to patient safety. You have an ethical and usually a legal obligation to report impaired colleagues so they can cease patient care and receive appropriate assistance in a timely manner. Seek guidance in reporting as procedures and applicable law vary by institution and state.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Physician colleague presents to\nwork impaired.\n\nThis presents a potential risk to patient safety. You have an ethical and usually a legal\nobligation to report impaired colleagues so they can cease patient care and receive\nappropriate assistance in a timely manner. Seek guidance in reporting as procedures\nand applicable law vary by institution and state.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 20 (end-of-life — brain death) — 'Patient’s family insists on maintaining life support after brain death has occurred, citing patient’s movements when touched.' → 'Gently explain to family that there is no chance of recovery, and that brain death is equivalent to death. Movement is due to spinal arc reflex and is not voluntary. Bring case to appropriate ethics board regarding futility of care and withdrawal of life support.' (the VLM's 'spinal are reflex' is a 120dpi misread — the text layer prints 'arc', adjudicated to the text layer)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient’s family insists on\nmaintaining life support after brain\ndeath has occurred, citing patient’s\nmovements when touched.\n\nGently explain to family that there is no chance of recovery, and that brain death is\nequivalent to death. Movement is due to spinal arc reflex and is not voluntary. Bring\ncase to appropriate ethics board regarding futility of care and withdrawal of life\nsupport.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 21 (conflicts of interest) — 'A pharmaceutical company offers you a sponsorship in exchange for advertising its new drug.' → 'Reject this offer. Generally, decline gifts and sponsorships to avoid any conflict of interest. The AMA Code of Ethics does make exceptions for gifts directly benefitting patients; special funding for medical education of students, residents, fellows; grants whose recipients are chosen by independent institutional criteria; and funds that are distributed without attribution to sponsors.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A pharmaceutical company offers\nyou a sponsorship in exchange for\nadvertising its new drug.\n\nReject this offer. Generally, decline gifts and sponsorships to avoid any conflict of\ninterest. The AMA Code of Ethics does make exceptions for gifts directly benefitting\npatients; special funding for medical education of students, residents, fellows; grants\nwhose recipients are chosen by independent institutional criteria; and funds that are\ndistributed without attribution to sponsors.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 22 (conscience) — 'Patient requests a nonemergent procedure that is against your personal or religious beliefs.' → 'Provide accurate and unbiased information so patients can make an informed decision. In a neutral, nonjudgmental manner, explain to the patient that you do not perform the procedure but offer to refer to another physician.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Patient requests a nonemergent\nprocedure that is against your\npersonal or religious beliefs.\n\nProvide accurate and unbiased information so patients can make an informed decision.\nIn a neutral, nonjudgmental manner, explain to the patient that you do not perform\nthe procedure but offer to refer to another physician.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 23 (minors/emergencies — the Jehovah's Witnesses row) — 'Mother and 15-year-old daughter are unresponsive and bleeding heavily, but father refuses transfusion because they are Jehovah’s Witnesses.' → 'Transfuse daughter, but do not transfuse mother. Emergent care can be refused by the healthcare proxy for an adult, particularly when patient preferences are known or reasonably inferred, but not for a minor based solely on faith.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "Mother and 15-year-old daughter\nare unresponsive and bleeding\nheavily, but father refuses\ntransfusion because they are\nJehovah’s Witnesses.\n\nTransfuse daughter, but do not transfuse mother. Emergent care can be refused by the\nhealthcare proxy for an adult, particularly when patient preferences are known or\nreasonably inferred, but not for a minor based solely on faith.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 24 (reporting — suspected abuse) — 'A dependent patient presents with injuries inconsistent with caretaker’s story.' → 'Document detailed history and physical. If possible and appropriate, interview the patient alone. Provide any necessary medical care. If suspicion remains, contact the appropriate agencies or authorities (eg, child or adult protective services) for an evaluation. Inform the caretaker of your obligation to report. Physicians are required by law to report any reasonable suspicion of abuse, neglect, or endangerment.'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A dependent patient presents\nwith injuries inconsistent with\ncaretaker’s story.\n\nDocument detailed history and physical. If possible and appropriate, interview the\npatient alone. Provide any necessary medical care. If suspicion remains, contact\nthe appropriate agencies or authorities (eg, child or adult protective services) for an\nevaluation. Inform the caretaker of your obligation to report. Physicians are required\nby law to report any reasonable suspicion of abuse, neglect, or endangerment.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 25 (minors/vaccines — the table's FINAL row) — 'A pediatrician recommends standard vaccinations for a patient, but the child’s parent refuses.' → 'Address any concerns the parent has. Explain the risks and benefits of vaccinations and why they are recommended. Do not administer routine vaccinations without the parent’s consent.' — quoted as the CONTIGUOUS RAW span in which the two cells interleave LINE BY LINE in the text layer (situation fragment + response fragment alternating — documented quirk); the note's table block carries the DE-INTERLEAVED reading (VLM-confirmed). The table ENDS here with a closing rule (VLM-confirmed — no third page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "A pediatrician recommends standard Address any concerns the parent has. Explain the risks and benefits of vaccinations\nvaccinations for a patient, but the\nand why they are recommended. Do not administer routine vaccinations without the\nchild’s parent refuses.\nparent’s consent.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_06-PubHealth.indd 275 / 12/16/25 12:46 PM (page identity, book 275, the table's final page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          297
+        ],
+        "bookPages": "274–275"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 275\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "challenging-scenarios-map"
+  ],
+  "mechanismIds": [
+    "response-grammar-map",
+    "autonomy-threshold-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "response-grammar-decoder",
+      "summary": "The response grammar distilled from the printed lead-in: every appropriate response in the 25-row table is patient-centered, open-ended, and empathetic — built from the three printed moves ACKNOWLEDGE OBSTACLES ('I understand this plan may be difficult...'), VALIDATE EMOTIONS ('It's understandable to feel frustrated...'), and CREATE OPEN-ENDED DIALOGUE ('What concerns you most about...?'), then checked against the four ethical principles (autonomy, beneficence, nonmaleficence, justice) through four lenses (patient, family, culture, healthcare team) — the decoder that separates the correct 'most appropriate response' from the directive, coercive, or dismissive distractors the exam plants.",
+      "origin": "outside-first-aid",
+      "rationale": "The lead-in sentences and the 25 situation/response pairs are printed; the grammar — reading each response as three moves plus a principle/lens check — and its use as a distractor-elimination tool are KYP's synthesis.",
+      "location": "core.keyIdea MOVES 1–2 + mechanisms[0] response-grammar-map + blocks[4] the steps block + the registry visual's Zone A triad band"
+    },
+    {
+      "id": "seven-cluster-taxonomy",
+      "summary": "The 25 printed rows re-sorted into seven teaching clusters — ADHERENCE BARRIERS (rows 1, 3, 18: nonadherence, medication difficulty, alternative medicine — EXPLORE, DON'T COERCE), CONSENT & DISCLOSURE (2, 4, 5, 15: unnecessary procedure, family-asks-prognosis, family-asks-nondisclosure, uninsured treatment — THE PATIENT HOLDS THE INFORMATION), MINORS (6, 7, 23, 25: 17-year-old abortion, 15-year-old pregnancy, Jehovah's Witness transfusion, vaccine refusal — THE MINOR'S BODY, THE PARENT'S CONSENT), END-OF-LIFE & LOSS (8, 16, 20: physician-assisted dying, the bereaved 7-year-old, brain death — NEITHER HASTEN NOR PROLONG), BOUNDARIES & PROFESSIONALISM (10, 11, 12, 13: the date request, post-mastectomy 'ugly', waiting-room anger, complaint about another physician — ACKNOWLEDGE, DON'T ABSORB), SAFETY & REPORTING (9, 14, 17, 19, 24: suicidal patient, wrong-patient error, intimate partner violence, impaired colleague, suspected abuse — SAFETY TRUMPS PREFERENCE), and CONFLICTS OF INTEREST & CONSCIENCE (21, 22: pharmaceutical sponsorship, procedure against beliefs — DISCLOSE, DECLINE, REFER).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rows in narrative order with no grouping; the seven-cluster taxonomy, the per-cluster principles, and the row-to-cluster assignment are KYP's synthesis (the printed row order is preserved in the two verbatim table blocks).",
+      "location": "core.what + core.keyIdea MOVE 3 + blocks[3] the cluster list + the registry visual's Zone B cards"
+    },
+    {
+      "id": "autonomy-threshold-layer",
+      "summary": "The override map the exam actually tests: autonomy and family preference govern by default (the 15-year-old retains the right to decide about her child; a proxy may refuse emergent care for a KNOWN-PREFERENCE adult), but the table names the thresholds where preference yields — SAFETY (the actively suicidal patient 'may be hospitalized involuntarily if needed'), THE MINOR LINE ('Emergent care can be refused by the healthcare proxy for an adult... but not for a minor based solely on faith' — Transfuse daughter, but do not transfuse mother; routine vaccinations need the parent's consent), REPORTING DUTIES (impaired colleagues 'ethical and usually a legal obligation to report'; abuse 'required by law to report any reasonable suspicion'), and ERROR DISCLOSURE ('Regardless of the outcome, a physician is ethically obligated to inform a patient that a mistake has been made') — plus the near-miss boundaries (therapeutic privilege only when the patient 'might seriously harm self or others'; IPV disclosure to authorities NOT pressed 'unless required by state law').",
+      "origin": "outside-first-aid",
+      "rationale": "The threshold rows are printed individually; the synthesis that reads them as four named override categories against the autonomy default — and the near-miss contrasts (therapeutic privilege's narrow trigger, IPV's non-mandatory reporting) — are KYP's.",
+      "location": "mechanisms[1] autonomy-threshold-map + blocks[4] the steps block QUESTIONS 3–4 + the clinical block + the registry visual's rule strip"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two-page table — 4 patterns (the nonadherence stem routed to obstacles-not-lecture, the family-nondisclosure request routed to explore-plus-therapeutic-privilege, the Jehovah's Witness emergency routed to transfuse-the-minor-only, the impaired-colleague/abuse stems routed to the reporting duties), 4 traps (explore vs refer — the table says 'Do not... refer' for nonadherence and the unnecessary procedure but 'offer to refer' when the procedure violates YOUR beliefs; the 17-year-old vs 15-year-old pregnancy rows; therapeutic privilege vs ordinary disclosure; IPV — do NOT pressure to leave or disclose vs abuse/impairment — MUST report), 3 pivots (empathetic-open-ended beats directive on 'most appropriate response' lists; the patient's wishes control information, not the family's; the reporting cluster vs confidentiality), and 8 recall cards covering the clusters row by row.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the situations and responses only; the attack structure, the distractor logic, and the question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-visual-layer",
+      "summary": "The mnemonic ledger and the visual rebuild: NO mnemonic of First Aid's own prints anywhere on either page (VLM census, staging-pubh24/vlm-census.txt — no margin notes, no red in-cell mnemonic lines; the lead-in's first-letter red styling is a styling convention, not a mnemonic), so all four mnemonics are KYP ORIGINALS, marked as such: 'ACKNOWLEDGE, VALIDATE, ASK' (the lead-in triad), 'EXPLORE, DON'T COERCE' (the adherence/requests cluster), 'SAFETY, MINORS, REPORTS' (the three override thresholds), and 'FOUR PRINCIPLES, FOUR LENSES' (autonomy-beneficence-nonmaleficence-justice × patient-family-culture-team). The two-page table is rebuilt as ONE registry visual (challenging-scenarios-map, ChallengingScenariosMap in visuals/pubhealth-p24.tsx): the lead-in triad band with the three printed example phrases, seven themed cluster cards carrying all 25 situations with verbatim response-principle key phrases, and the override-threshold rule strip — NOT a 25-row wall.",
+      "origin": "outside-first-aid",
+      "rationale": "No FA-own mnemonic prints on pdf 296-297 (VLM-confirmed), so nothing is carried attributed and all four codes are KYP originals; the cluster-card layout, the triad band, and the rule strip are KYP original art preserving every printed situation and the verbatim key phrases of every response.",
+      "location": "mnemonics + blocks[7] the memory callout + blocks[0] the visual block + the registry visual"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL two-page scope (the drug-names precedent, no shared split): pdf 296-297 / books 274-275 are entirely the COMMUNICATION SKILLS 'Challenging patient and ethical scenarios' situation/response table — the lead-in + 13 rows on book 274 and 12 rows on book 275, where the table ENDS at the vaccine-refusal row with a closing rule (VLM-confirmed, no third page). ROW-COUNT ADJUDICATION: the batch brief called this 'the 24-row situation/response table (book 274 carries ~12 rows, book 275 ~12 rows)' — the PRINT carries TWENTY-FIVE rows (13 on 274 + 12 on 275; the chapter census's own productionRationale also enumerates 25 situations, nonadherence through vaccine refusal); printed rows govern, all 25 are carried verbatim in the note's two table blocks (blocks[1] 13 rows, blocks[2] 12 rows), and the brief's count is corrected to print here and in the note header. Both pages carried verbatim and compressed into core.what, the seven-cluster list (blocks[3]), rapidReview, and 8 recall cards. CENSUS (pdfimages): ZERO raster images on both pages. VLM WAS AVAILABLE this session: TWO 120dpi glm-4.6v full-page passes (staging-pubh24/vlm-census.txt, first attempt each) confirming the printed row order and counts of BOTH pages (13 + 12 = 25, none missing or extra), every response cell verbatim, the lead-in with its three quoted example phrases and its closing lists (autonomy, beneficence, nonmaleficence, justice / patient, family, culture, and healthcare team), the dotted-hairline separators with no zebra striping, the regular-black SITUATION column, the bold-navy titles, and the ABSENCE of margin notes, mnemonics, asterisk footnotes, images, and icons on both pages; the table's END on 275 (closing rule) is VLM-confirmed. ADJUDICATIONS (raw text layer + pdftotext -layout + VLM agree unless noted): (1) ROW COUNT — brief said 24, print says 25 (13 + 12); print governs; (2) the VLM's 'spinal are reflex' in the brain-death row is a 120dpi misread — the text layer prints 'spinal arc reflex' (adjudicated to the text layer, like the ph27 '5-IIT' precedent); (3) the FINAL row (vaccines) interleaves its two cells LINE BY LINE in the raw text layer ('A pediatrician recommends standard Address any concerns the parent has...' on one raw line) — the evidence item quotes the contiguous raw span as extracted and the note's table block carries the DE-INTERLEAVED reading (VLM-confirmed); (4) the lead-in's first-letter red styling (patient-centered, obstacles, validate, points of view) is First Aid's signature styling, not a mnemonic — NO FA-own mnemonic prints anywhere on either page (VLM-explicit), so all four KYP mnemonic codes are originals with nothing to attribute; (5) 'SEC TION II' (both pages) and 'COmmUNICATION SkILLS' (both banner instances) are the known header-space and small-caps extraction artifacts, carried as-is; the banner prints ONCE on 296 (running header only — VLM-confirmed; no in-body sub-banner unlike the pharmacology pages); (6) curly quotes and apostrophes carry as printed ('unable to handle it.', 'ugly.', 'You still look good', isn't, patient's) with the em-dash in 'view—patient' and the plain hyphen in 'At ages 5-7'; (7) the lead-in's three quoted example phrases print with terminal ellipses — carried as printed; (8) the block boundary is clean on both sides: book 273 (pdf 295) belongs to interpreters-bad-news (the SPIKES/interpreters topic, produced in parallel) and book 276 (pdf 298) opens disease-prevention-prophylaxis — no evidence quote crosses either boundary. Quirks carried + documented: the 13-row/12-row two-page split; the interleaved final row; the VLM 'are'/'arc' adjudication; the once-only banner on 296. Batch-convention targets met: 2 mechanisms (response-grammar-map, autonomy-threshold-map), a visual block + TWO verbatim table blocks + cluster list + steps block + compare block + exam callout + memory callout, a clinical block (the safety/law anchors), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (core-ethical-principles, informed-consent, surrogates-confidentiality — all existing public-health notes — plus interpreters-bad-news, the Communication Skills sibling produced in parallel, referenced by design), 4 crossLinks, 4 mnemonics (all KYP originals — the pages print none of First Aid's own, per the VLM census), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option). DRUG CARDS FOLDED BY ABSENCE — the pages print communication responses, not drug monographs (the analgesic clause in the physician-assisted-dying row and the sponsorship row's 'new drug' are not monograph rows; documented). productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'). Outputs are STAGED under .usmle-pipeline-cache/staging-pubh24/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'challenging-scenarios-map' is therefore not yet in visuals/registry.tsx by design). The pages' two visual assets (the book-274 table part and the book-275 continuation table part) are implemented as ORIGINAL KYP ART in ONE registry visual (challenging-scenarios-map, ChallengingScenariosMap in visuals/pubhealth-p24.tsx, viewBox 0 0 1102 1380): the lead-in triad band (patient-centered · open-ended · empathetic with the three printed example phrases), seven themed cluster cards carrying all 25 situations with the verbatim key phrases of their responses, and the override-threshold rule strip — with both pages' text ALSO carried verbatim in the note's two table blocks.",
+  "updatedAt": "2026-11-22"
+}

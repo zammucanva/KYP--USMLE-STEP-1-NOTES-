@@ -1,0 +1,282 @@
+{
+  "topicId": "disease-prevention-prophylaxis",
+  "title": "Disease Prevention Levels and Prophylaxis",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Healthcare Delivery",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      298
+    ],
+    "bookPages": "276–276"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 276, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY' printed TWICE (running header + in-body ribbon — the HEALTHCARE DELIVERY subsection opener; this is the banner's first page)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "276\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY\n\n▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prevention block's title and its TWO boxed column headers — 'Disease prevention', 'Target population' (over the left flank, next to one person figure icon per level) and 'Goals' (over the right callouts); the level names and in-band action lines sit INSIDE the pyramid bands with no header of their own",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Disease prevention\nTarget population\n\nGoals",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PYRAMID ROW 1 (apex, printed first) — Quaternary → Symptomatic patients, but overmedicalized or not treatable → Quit unnecessary medical interventions (in-band) → Prevent overtreatment and iatrogenic harm (Goals callout) → eg, discontinuing sulfonylurea after multiple hypoglycemic events",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Quaternary\nSymptomatic patients,\nbut overmedicalized\nor not treatable\n\nQuit unnecessary\nmedical\ninterventions\n\nPrevent overtreatment\nand iatrogenic harm\neg, discontinuing sulfonylurea\nafter multiple hypoglycemic events",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PYRAMID ROW 2 — Tertiary → the right-callout text extracts BEFORE the band name in the raw layer (jumbled pyramid geometry, documented): Prevent clinical disease progression and sequelae associated morbidity, mortality, and disability → eg, hemoglobin A1c monitoring to guide treatment and prevent complications → Tertiary → Clinical (symptomatic) → Treat symptomatic disease (in-band)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Prevent clinical disease progression\nand sequelae associated morbidity,\nmortality, and disability\neg, hemoglobin A1c monitoring to\nguide treatment and prevent\ncomplications\n\nTertiary\nClinical (symptomatic)\n\nTreat symptomatic disease",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PYRAMID ROW 3 — Secondary → 'Prevent symptom onset' prints TWICE, BOTH times in this row (once in the right callout above the example, once INSIDE the band under the goals line — bbox + both VLM passes pin both positions): Secondary → Prevent symptom onset (callout) → eg, glucose screening for type 2 diabetes mellitus → Screen for early detection and treatment of presymptomatic disease (in-band) → Prevent symptom onset (in-band second line) → Subclinical (asymptomatic)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Secondary\n\nPrevent symptom onset\neg, glucose screening for\ntype 2 diabetes mellitus\n\nScreen for early detection and\ntreatment of presymptomatic disease\nPrevent symptom onset\n\nSubclinical\n(asymptomatic)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PYRAMID ROW 4 (base, printed last) — Primary → Susceptible/general population → Prevent disease onset by reducing risks or increasing immunity (in-band) → Prevent disease onset (Goals callout — NOT 'prevent symptom onset' as the brief had it; print governs) → eg, healthy diet and exercise to prevent diabetes",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Primary\nSusceptible/general\npopulation\n\nPrevent disease onset by reducing risks or increasing immunity\n\nPrevent disease onset\neg, healthy diet and exercise\nto prevent diabetes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The prophylaxis block's title and two column headers — 'Chemoprophylaxis and post-exposure prophylaxis', PROPHYLAXIS / NOTES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Chemoprophylaxis and post-exposure prophylaxis\nPROPHYLAXIS\n\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 1 — HIV exposure (sexual, occupational) → Tenofovir disoproxil fumarate + emtricitabine + (raltegravir or dolutegravir) × 28 days. Start ≤72 hr after exposure; test HIV at baseline and 6 wk, 3 mo, 6 mo.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "HIV exposure (sexual,\noccupational)\n\nTenofovir disoproxil fumarate + emtricitabine +\n(raltegravir or dolutegravir) × 28 days.\n\nStart ≤72 hr after exposure; test HIV at baseline\nand 6 wk, 3 mo, 6 mo.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 2 — Neisseria meningitidis (close contact) (italic species name in the print) → Rifampin, ciprofloxacin, or ceftriaxone. Household or close exposure.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Neisseria meningitidis\n(close contact)\n\nRifampin, ciprofloxacin, or ceftriaxone.\n\nHousehold or close exposure.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 3 — Rabies exposure (animal bite) → Wound cleaning + rabies vaccine + rabies immune globulin (if not previously immunized). 0, 3, 7, 14 day schedule.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Rabies exposure\n(animal bite)\n\nWound cleaning + rabies vaccine + rabies\nimmune globulin (if not previously\nimmunized).\n\n0, 3, 7, 14 day schedule.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 4 — Hepatitis B virus exposure → HBV vaccine ± Hepatitis B immune globulin (if source positive and unvaccinated). Follow HBV serology.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Hepatitis B virus\nexposure\n\nHBV vaccine ± Hepatitis B immune globulin (if\nsource positive and unvaccinated).\n\nFollow HBV serology.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 5 — Malaria (travel prophylaxis) → Atovaquone-proguanil, doxycycline, or mefloquine. Start before travel; continue post-return.",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Malaria (travel\nprophylaxis)\n\nAtovaquone-proguanil, doxycycline, or\nmefloquine.\n\nStart before travel; continue post-return.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PROPHYLAXIS ROW 6 — Sexual exposure—sexually transmitted infection prevention (em-dash as printed) → Doxycycline. Give ≤72 hr after sex to prevent syphilis, chlamydia, and gonorrhea in patients with recent bacterial STI. Use with regular STI/HIV testing, pre-exposure prophylaxis, vaccines (HPV, Hepatitis A/B), and counseling. Effectiveness: ↓ syphilis/chlamydia >70%, ↓ gonorrhea ~50%. Monitor q3-6 mo. (the ↓ arrows carry stray C1 control bytes in the raw layer — stripped by the normalizer, carried as ↓; the page's only effectiveness data)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "Sexual exposure—\nsexually transmitted\ninfection prevention\n\nDoxycycline.\n\nGive ≤72 hr after sex to prevent syphilis,\nchlamydia, and gonorrhea in patients with\nrecent bacterial STI.\nUse with regular STI/HIV testing, pre-exposure\nprophylaxis, vaccines (HPV, Hepatitis A/B), and\ncounseling.\nEffectiveness: ↓ syphilis/chlamydia >70%,\n↓ gonorrhea ~50%. Monitor q3-6 mo.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_06-PubHealth.indd 276 / 12/16/25 12:46 PM (page identity, book 276)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          298
+        ],
+        "bookPages": "276"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 276\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "prevention-prophylaxis-map"
+  ],
+  "mechanismIds": [
+    "prevention-level-ladder",
+    "prophylaxis-protocol-logic"
+  ],
+  "kypExtensions": [
+    {
+      "id": "prevention-level-ladder",
+      "summary": "The natural-history FUNNEL reading of the printed pyramid: the geometry is the epidemiology — the base is the widest band because the Susceptible/general population is everyone, and the population narrows as disease advances (subclinical → clinical → overmedicalized), with each band naming one prevention level's catchment; the P-S-T-Q action-verb ladder (Primary PREVENTS onset, Secondary SCREENS the silent, Tertiary TREATS the symptomatic, Quaternary QUITS the unnecessary — the four in-band action lines' first verbs) and the one-disease thread (all four printed example cells are diabetes actions: diet/exercise → glucose screening → A1c monitoring → stopping the sulfonylurea).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the four bands with their populations, actions, goals, and examples; the funnel reading, the action-verb ladder, and the diabetes-thread organization are KYP's synthesis.",
+      "location": "core.why + core.keyIdea MOVES 1–2 + mechanisms[0] prevention-level-ladder + blocks[3] the decoder list + the registry visual's Zone A (funnel annotation + rule strip)"
+    },
+    {
+      "id": "prophylaxis-timing-grammar",
+      "summary": "The three-timing-pattern grammar overlaid on the six printed protocols: (1) THE ≤72-HOUR WINDOW (HIV PEP start + doxycycline STI PEP — the exam's favorite timing collision), (2) THE SCHEDULED/SEROLOGY SERIES (rabies days 0, 3, 7, 14; HBV 'follow HBV serology'; HIV testing at baseline, 6 wk, 3 mo, 6 mo; doxycycline monitoring q3-6 mo), (3) THE TRAVEL BRACKET (malaria — start before travel, continue post-return); plus the vaccine ± immune-globulin grammar that rabies and HBV share with different conditionals ('if not previously immunized' vs 'if source positive and unvaccinated').",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints each row's timing as row-local facts; the three-pattern organization, the timing-collision framing, and the shared vaccine ± globulin grammar are KYP's synthesis.",
+      "location": "core.keyIdea MOVES 3–4 + mechanisms[1] prophylaxis-protocol-logic + blocks[4] the steps block + blocks[5] the compare block (HIV PEP vs doxycycline STI PEP) + the registry visual's Zone B timing bands"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the primary diet/exercise stem, the secondary glucose-screening stem, the quaternary sulfonylurea-discontinuation stem, the occupational-needlestick HIV PEP stem), 4 traps (primary vs secondary; tertiary vs quaternary; the two 72-hour regimens; the two immune-globulin conditionals), 3 pivots (Prevent disease onset vs Prevent symptom onset; right drug at the wrong time; treating disease vs treating the treatment), and 8 recall cards covering all four levels and all six regimens.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the definitions and regimens only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger — the VLM census (two passes) found NO mnemonic sentence printed anywhere on pdf 298 (no red in-cell hooks, no margin notes), so ALL FOUR mnemonics are KYP originals, marked as such: 'PRIMARY PREVENTS, SECONDARY SCREENS, TERTIARY TREATS, QUATERNARY QUITS' (the in-band action verbs), 'THE FUNNEL: SUSCEPTIBLE → SUBCLINICAL → CLINICAL → OVERMEDICALIZED' (the pyramid base-to-apex), '72 BEFORE 28' (the HIV PEP window + duration + four-point testing), and '0-3-7-14 — CLEAN, VACCINATE, IMMUNIZE' (the rabies components and schedule).",
+      "origin": "outside-first-aid",
+      "rationale": "No mnemonic prints on the page (pdfimages + VLM ×2 census, staging-pubh25/vlm-census.txt); all four codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's Zone A rule strip and card tags"
+    },
+    {
+      "id": "drugcard-layer",
+      "summary": "The DrugCard layer: the page PRINTS drug regimens, so FIVE DrugCards are included — tenofovir disoproxil fumarate + emtricitabine + (raltegravir or dolutegravir); rifampin, ciprofloxacin, or ceftriaxone; rabies vaccine + rabies immune globulin; atovaquone-proguanil; doxycycline. The printed regimen/timing lines are the source for each card's USES (and for doxycycline's EFFECT, the printed effectiveness data); the mechanism/target/adverse fields beyond the printed lines are KYP pharmacology context, flagged as such in the note header.",
+      "origin": "outside-first-aid",
+      "rationale": "The regimens, windows, schedules, and effectiveness percentages are printed (FA-own); the pharmacology mechanism/adverse context and the card organization are KYP's.",
+      "location": "drugs[] + the note header comment (provenance split)"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 298 / book 276, the FIRST page of the HEALTHCARE DELIVERY subsection (the banner's first page; '▶ PUBLIC HEALTH SCIENCES—HEALTHCARE DELIVERY' prints TWICE — running header + in-body ribbon), carrying TWO blocks — the 'Disease prevention' PYRAMID TABLE (a triangle of four stacked bands, apex = Quaternary, base = Primary, with two boxed column headers — 'Target population' over the left flank, one person icon per level; 'Goals' over the right callouts, reached by block arrows shaded to match the bands; every cell carried VERBATIM in the note's first table block, blocks[1]) and the 'Chemoprophylaxis and post-exposure prophylaxis' table (columns PROPHYLAXIS / NOTES, SIX rows in printed order — HIV exposure, Neisseria meningitidis close contact, Rabies exposure, Hepatitis B virus exposure, Malaria travel, Sexual exposure—STI prevention — carried VERBATIM in blocks[2]). CENSUS (pdfimages): ZERO raster images — both blocks are vector + text furniture (the pyramid's graduated bands, person icons, and block arrows are vector art); VLM WAS AVAILABLE this session (glm-4.6v at 120dpi, TWO passes — ONE full-page pass + ONE 2x-zoom pyramid adjudication pass, staging-pubh25/vlm-census.txt): apex = Quaternary / base = Primary confirmed; the two boxed headers' positions confirmed ('Target population' over the left flank, 'Goals' over the right callout blocks); the bands graduate dark teal (apex) to pale mint (base) with white text on the top two bands; the level-name first letters print in RED; ONE person figure per level on the left; the 'eg,' examples print in smaller italic gray; the Rx publisher mark sits at bottom right; exactly SIX prophylaxis rows confirmed in printed order (none missing or extra); NO margin mnemonics, asterisk footnotes, images, or red mnemonic sentences anywhere (so all four mnemonics are KYP originals, marked as such). ADJUDICATIONS (raw text layer + pdftotext -bbox + both VLM passes agree): (A) the batch brief assigned the stage descriptor 'prevent symptom onset' to the PRIMARY row — the PRINT gives Primary the right-side goal callout 'Prevent disease onset', while 'Prevent symptom onset' prints TWICE, BOTH times in the SECONDARY row (once INSIDE the band as the second line under 'Screen for early detection and treatment of presymptomatic disease', once in the right callout above 'eg, glucose screening for type 2 diabetes mellitus') — brief corrected to print; the visual and the note draw both instances exactly as printed; (B) the brief described the columns as 'Target population / Goals / (stage descriptors) / examples' — the PRINT has exactly TWO headed columns ('Target population' left flank, 'Goals' right callouts); the level names + in-band action lines sit INSIDE the bands unheaded, and the 'eg,' examples print INSIDE the Goals callouts — the note's verbatim table block splits in-band action vs right callout into separate columns as a documented KYP normalization, preserving every printed word; (C) the brief listed the rows Primary → Quaternary (logical base-to-apex); the PRINTED order is apex-to-base (Quaternary first) — the verbatim table block carries the PRINTED order and the logical ladder is carried in the decoder list block (blocks[3]); (D) the brief's six prophylaxis rows matched the print exactly — no correction. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); the banner prints TWICE; the pyramid's cells extract in JUMBLED order (Quaternary first, Primary last — apex-to-base geometry; within the Tertiary row the right-callout text extracts BEFORE the band name — evidence ranges quote the raw order, the band/callout assignment pinned by bbox + VLM ×2); the ↓ arrows in the Sexual exposure NOTES cell carry stray C1 control bytes (\\x90) in the raw layer (stripped by the normalizer; carried as ↓); 'A1c' extracts with '1c' as a separate subscript word in the bbox layer; printed symbols carried verbatim — '× 28 days' (multiplication sign), '≤72 hr', '±' ('HBV vaccine ± Hepatitis B immune globulin', capitalized as printed), the em-dash in 'Sexual exposure—sexually transmitted infection prevention', 'q3-6 mo', '>70%' / '~50%'; Neisseria meningitidis prints with an italic species name. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (prevention-level-ladder, prophylaxis-protocol-logic), a visual block + TWO verbatim table blocks + decoder list + steps block + compare block + exam callout + memory callout, a clinical block (the diabetes thread, the 72-hour club, the vaccine ± globulin grammar, the close-contact/travel triggers), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (patient-safety-quality, insurance-payment-models, challenging-scenarios, clinical-therapeutic-trials — all four public-health census topicIds), 4 crossLinks, 4 mnemonics (ALL KYP originals — the page prints none of its own; documented), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are INCLUDED (5) because the page prints drug regimens — the printed regimen/timing/effectiveness lines are the source for USES/EFFECT; the mechanism/target/adverse fields are KYP pharmacology context, flagged in the note header comment; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh25/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'prevention-prophylaxis-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO visual assets are implemented in ONE registry visual (prevention-prophylaxis-map, PreventionProphylaxisMap in visuals/pubhealth-p25.tsx, viewBox 0 0 1102 1440): the pyramid as an ORIGINAL KYP ADAPTATION (Zone A — a KYP stacked funnel with flanking person-icon/target-population column and shaded-arrow Goals callouts, the Secondary row drawing 'Prevent symptom onset' BOTH in-band and in the callout exactly as printed, the red level-name initials preserved as red tspans) and the chemoprophylaxis table as an ORIGINAL KYP ADAPTATION (Zone B — six protocol cards with KYP timing bands: amber ≤72-hr windows, blue scheduled/serology series, red close-contact, green travel bracket, the printed effectiveness chips on the doxycycline card) — with both tables' text ALSO carried verbatim in the note's table blocks.",
+  "updatedAt": "2026-11-22"
+}

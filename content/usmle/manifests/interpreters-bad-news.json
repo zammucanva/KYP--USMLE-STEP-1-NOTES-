@@ -1,0 +1,308 @@
+{
+  "topicId": "interpreters-bad-news",
+  "title": "Interpreters and Delivering Bad News: SPIKES",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Communication Skills",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      295
+    ],
+    "bookPages": "273–273"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header: PUBLIC HEALTH SCIENCES, the banner '▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS' printed ONCE (running header only — pdf 295 is the third page of the subsection, NOT the opener; small-caps 'm'/'k' artifact carried as extracted), the 'SEC TION II' header-space extraction artifact (known, as-is), and book page 273",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "PUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS\n\nSEC TION II\n\n273",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 1 HEADING — 'Use of interpreters' (bold navy side-head, VLM-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Use of interpreters",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 1 — the professional default, the fluency exception, the remote fallback, and the charted family-member substitution: visits with a patient who speaks little English should utilize a professionally trained medical interpreter unless the physician is conversationally fluent in the patient's preferred language; if an interpreter is unavailable in person, interpretation services may be provided by telephone or video call; if the patient prefers to utilize a family member, this should be recorded in the chart",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Visits with a patient who speaks little English should utilize a professionally trained medical\ninterpreter unless the physician is conversationally fluent in the patient’s preferred language. If an\ninterpreter is unavailable in person, interpretation services may be provided by telephone or video\ncall. If the patient prefers to utilize a family member, this should be recorded in the chart.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 2 — the LANGUAGE-ASK RULE: do not assume that a patient is a poor English speaker because of name, skin tone, or accent; ask the patient what language is preferred",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Do not assume that a patient is a poor English speaker because of name, skin tone, or accent. Ask\nthe patient what language is preferred.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 3 — the DIRECT-SPEECH RULE: the physician should make eye contact with the patient and speak to them directly, without use of third-person statements such as 'tell him' (typographic quotes as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "The physician should make eye contact with the patient and speak to them directly, without use of\nthird-person statements such as “tell him.”",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 4 — the PACE RULE: allow extra time for the interview, and ask one question at a time",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Allow extra time for the interview, and ask one question at a time.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 5 — the POSITIONING MIRROR: for in-person spoken language interpretation the interpreter should ideally be next to or slightly behind the patient; for sign language interpretation the interpreter should be next to or slightly behind the physician",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "For in-person spoken language interpretation, the interpreter should ideally be next to or slightly\nbehind the patient. For sign language interpretation, the interpreter should be next to or slightly\nbehind the physician.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Interpreter paragraph 6 — the EMERGENCY OVERRIDE: in cases of emergency, facilitate communication by any tools available (eg, friends, family, sketches, interpreter apps) even though they do not comprise standard procedure otherwise",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "In cases of emergency, facilitate communication by any tools available (eg, friends, family, sketches,\ninterpreter apps) even though they do not comprise standard procedure otherwise.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK 2 HEADING + First Aid's OWN acronym — 'Delivering bad news' (bold navy side-head) with 'SPIKES' printed in BOLD RED beside it (VLM-confirmed; not boxed); the six station labels each print an enlarged RED initial letter",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Delivering bad news\n\nSPIKES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 1 of 6 — SETTING: offer in advance for the patient to bring support; eliminate distractions, ensure privacy, and sit down with the patient to talk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Setting\n\nOffer in advance for the patient to bring support. Eliminate distractions, ensure privacy, and sit\ndown with the patient to talk.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 2 of 6 — PERCEPTION: determine the patient's understanding and expectations of the situation",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Perception\n\nDetermine the patient’s understanding and expectations of the situation.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 3 of 6 — INVITATION: obtain the patient's permission to disclose the news and what level of detail is desired",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Invitation\n\nObtain the patient’s permission to disclose the news and what level of detail is desired.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 4 of 6 — KNOWLEDGE: share the information in small pieces without medical jargon, allowing time to process; assess the patient's understanding",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Knowledge\n\nShare the information in small pieces without medical jargon, allowing time to process. Assess the\npatient’s understanding.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 5 of 6 — EMOTIONS: acknowledge the patient's emotions, and provide opportunity to express them; listen and offer empathetic responses",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Emotions\n\nAcknowledge the patient’s emotions, and provide opportunity to express them. Listen and offer\nempathetic responses.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SPIKES station 6 of 6 — STRATEGY, gated on readiness: if the patient feels ready, discuss treatment options and goals of care; offer an agenda for the next appointment; giving control to the patient may be empowering; ask how they feel a problem might be solved and what they would like to do about the plan of action",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "Strategy\n\nIf the patient feels ready, discuss treatment options and goals of care. Offer an agenda for the next\nappointment. Giving control to the patient may be empowering. Ask how they feel a problem\nmight be solved and what they would like to do about the plan of action.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The indd footer slug 'FAS1_2026_06-PubHealth.indd 273' and the print footer timestamp 12/16/25 12:46 PM (page identity, book 273)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          295
+        ],
+        "bookPages": "273"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 273\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "bad-news-map"
+  ],
+  "mechanismIds": [
+    "interpreter-visit-flow",
+    "spikes-flow"
+  ],
+  "kypExtensions": [
+    {
+      "id": "interpreter-visit-protocol",
+      "summary": "The interpreter-visit grammar: STATION 0 identify the language by ASKING (never assuming from name, skin tone, or accent) → STATION 1 the fallback ladder (professionally trained medical interpreter in person — unless the physician is conversationally fluent — → telephone or video call → family member if the patient prefers, recorded in the chart) → STATION 2 the conduct rules (eye contact, direct second-person speech with no third-person 'tell him,' extra time, one question at a time) → STATION 3 the positioning mirror (spoken: interpreter next to or slightly behind the PATIENT; sign: next to or slightly behind the PHYSICIAN) → STATION 4 the emergency override (any tools available — friends, family, sketches, interpreter apps — even though not standard procedure otherwise) → the yield: a visit that stays doctor-patient. The station organization, the ladder framing, the two-person-conversation reading, and the sightline logic behind the positioning mirror are KYP's synthesis; every rule and position is printed.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints six parallel paragraphs of rules; the staged-protocol organization (stations 0-4), the fallback-ladder framing, the conduct grammar, and the sightline reasoning (why the sign interpreter sits at the physician's side) are KYP's design — the print gives the positions without the why.",
+      "location": "core.keyIdea + mechanisms[0] interpreter-visit-flow + blocks[3] the decoder list + blocks[4] the steps block + blocks[5] the compare block (the positioning mirror) + the registry visual's Zone A"
+    },
+    {
+      "id": "spikes-order-logic",
+      "summary": "The order reading of First Aid's own SPIKES acronym: stage before speech (Setting), calibrate before content (Perception), permission before disclosure (Invitation), chunk before check (Knowledge — with its own comprehension check), clear the emotion before the plan (Emotions), and return control (Strategy — gated on the patient feeling ready, closing with the print's own control-return questions). The unskippable-order claim and the failure-mode mapping (hallway disclosure = skipped Setting; ambushing = skipped Invitation; planning over tears = skipped Emotions) are KYP's synthesis.",
+      "origin": "outside-first-aid",
+      "rationale": "SPIKES and every station move are the source's own (attributed, not counted as KYP's); the ordering logic — WHY the stations cannot swap — is nowhere printed; the KYP reading is the note's and the visual's order strip.",
+      "location": "core.why + mechanisms[1] spikes-flow + blocks[1] the SPIKES table block caption + the registry visual's Zone B order strip + usmle.traps[3]"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the assume/ask stem, the spoken-positioning stem, the sign-positioning stem, the pre-disclosure SPIKES stem), 4 traps (spoken vs sign positioning anchors; direct speech vs third-person 'tell him'; professional default vs charted family preference; Emotions before Strategy), 3 pivots (the station router, the interpreter-availability ladder, the conversational-fluency bar), and 8 recall cards covering both blocks — plus the miniCase (the 62-year-old Mandarin-speaking patient with the two-semester physician, the volunteering daughter, and the five-option set routed to the professional interpreter, patient-side positioning, and direct speech).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rules and stations only; the attack structure, the distractor designs (including the two-college-semesters fluency trap and the daughter-as-default-convenience trap), and the question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN acronym — SPIKES (Setting, Perception, Invitation, Knowledge, Emotions, Strategy), printed in BOLD RED beside the 'Delivering bad news' heading with enlarged red initial letters on the station labels (VLM-confirmed) — carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the SPIKES table block, and the visual's Zone B; plus THREE KYP originals, marked as such: 'PRO, PHONE, FAMILY — CHARTED' (the interpreter fallback ladder), 'SPOKEN to the PATIENT, SIGNED to the PHYSICIAN' (the positioning mirror), and 'ASK · EYE · ONE · EXTRA' (the four conduct rules).",
+      "origin": "outside-first-aid",
+      "rationale": "SPIKES is the source's own hook (attributed, not counted among the KYP mnemonics); no margin mnemonic prints anywhere on pdf 295 (pdfimages + VLM census, staging-pubh23/vlm-census.txt); the three structured codes are KYP's design.",
+      "location": "mnemonics + blocks[7] the memory callout + the registry visual's ladder and mirror strips"
+    },
+    {
+      "id": "clinical-anchor-layer",
+      "summary": "The clinical anchor layer: the five encounters the printed rules govern — the limited-English visit (the whole ladder in one breath), the deaf or hard-of-hearing patient (the sign-language mirror, cross-referenced to the patient-centered interviewing page's disability rules), the family member at the bedside (preference, not default — documented), the emergency (any tools, with the emergency-exception parallel to the ethics pages), and the bad-news encounter (SPIKES at the bedside, cross-referenced to the challenging-scenarios table's prognosis and nondisclosure rows) — plus the two cross-protocol habits (ASK before assuming; SLOW DOWN) uniting both blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "The rules themselves are printed (FA-own); the encounter framing, the cross-references to the neighboring Communication Skills and Ethics pages, the emergency-exception parallel, and the two-habit synthesis are KYP's design, flagged as such.",
+      "location": "clinical block + blocks[3] item 8 (the two cross-protocol habits) + related"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 295 / book 273, the THIRD page under the COMMUNICATION SKILLS banner (pdf 293 = the subsection opener — the banner prints TWICE there; on pdf 295 it prints ONCE, in the running header only, pinned by the raw text layer + the VLM pass), carrying TWO side-head blocks — 'Use of interpreters' (SIX printed paragraphs: the professionally-trained-interpreter default with the conversational-fluency exception; the telephone-or-video-call fallback; the family-member preference recorded in the chart; the never-assume language-ask rule (name / skin tone / accent); the direct-speech rule with the typographic 'tell him' quotes; the pace rule (extra time, one question at a time); the spoken-vs-sign positioning mirror; the emergency any-tools override) and 'Delivering bad news' (First Aid's OWN acronym SPIKES, printed in BOLD RED beside the heading, with enlarged red initial letters on the six station labels — Setting, Perception, Invitation, Knowledge, Emotions, Strategy — every station body carried VERBATIM in the note's SPIKES table block, blocks[2]). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh23/vlm-census.txt): the banner prints ONCE (running header only); both block headings are bold navy; 'SPIKES' is bold red plain text, not boxed; the six station labels carry enlarged red initial letters; no margin notes or mnemonics beyond SPIKES itself, no asterisk footnotes, no images, no boxes or shading; NO line-wrap hyphenation anywhere (whole-word wraps only — the printed compounds 'third-person' and 'in-person' are intentional hyphens, not wraps). ADJUDICATION: the batch brief's block descriptions matched the print EXACTLY — both blocks, every sentence, both interpreter positions, all six SPIKES stations — no corrections needed (documented; contrast the pubh1 compare-label swap); the banner count (once vs twice) is pinned by the raw layer + VLM and documented against the subsection-opener convention. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); small-caps extraction artifact 'COmmUNICATION SkILLS' in the banner; the typographic quotes around 'tell him.' are as printed; the indd footer slug 'FAS1_2026_06-PubHealth.indd 273' + timestamp '12/16/25 12:46 PM'. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (interpreter-visit-flow, spikes-flow), a visual block + TWO verbatim table blocks (one per printed block, KYP-labeled left columns flagged) + decoder list + steps block + compare block (the positioning mirror) + exam callout + memory callout, a clinical block (five encounter anchors), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (patient-centered-interviewing, cultural-competence-interviewing, challenging-scenarios, surrogates-confidentiality — all four are public-health census topicIds), 4 crossLinks, 4 mnemonics (First Aid's own SPIKES carried attributed + three KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints communication protocols, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the encounter anchors are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh23/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'bad-news-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's TWO blocks are implemented in ONE registry visual (bad-news-map, BadNewsMap in visuals/pubhealth-p23.tsx, viewBox 0 0 1102 1280), both as ORIGINAL KYP ADAPTATION: the interpreter protocol as the fallback-ladder chips + language-ask rule card + direct-speech rule card with pace chips + two positioning diagrams (physician/patient/interpreter glyphs with direct-speech and sightline arrows — spoken: interpreter at the patient's side; sign: interpreter at the physician's side), and SPIKES as the six-station rail with red initial letters and each station's printed moves plus the KYP order strip — with BOTH blocks' full text additionally carried VERBATIM in the note's two table blocks.",
+  "updatedAt": "2026-11-22"
+}

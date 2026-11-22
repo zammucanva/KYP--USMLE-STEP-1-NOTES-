@@ -1,0 +1,315 @@
+{
+  "topicId": "cultural-competence-interviewing",
+  "title": "Cultural Formulation, Trauma-Informed Care, and Motivational Interviewing",
+  "chapterId": "public-health",
+  "chapterTitle": "Public Health",
+  "subsection": "Public Health Sciences — Communication Skills",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      294
+    ],
+    "bookPages": "272–272"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — book page 272, the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk), the section header PUBLIC HEALTH SCIENCES, and the subsection banner '▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS' printing ONCE (running header only — this is a continuation page; the small-caps 'm'/'k' artifacts carried as extracted)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "272\n\nSEC TION II\n\nPUBLIC HEALTH SCIENCES\n\n▶ PUBLIC HEALTH SCIENCES—COmmUNICATION SkILLS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK A heading (wraps across two lines in the left column) + MOVE 1 — Identify the problem through the patient's perspective; ask the patient to describe the problem in their own words, or how the patient would describe the problem to their family and friends",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Cultural formulation\ninterview\n\nIdentify the problem through the patient’s perspective. Ask the patient to describe the problem in\ntheir own words, or how the patient would describe the problem to their family and friends.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MOVE 2 — Identify cultural perceptions of factors leading to a problem; ask the patient to explain why they think they are experiencing their problem",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Identify cultural perceptions of factors leading to a problem. Ask the patient to explain why they\nthink they are experiencing their problem.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MOVE 3 — Identify how the patient's background influences their problem; ask what makes the problem better or worse; investigate roles of family, community, and spirituality",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Identify how the patient’s background influences their problem. Ask the patient about what makes\ntheir problem better or worse. Investigate roles of family, community, and spirituality.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MOVE 4 — Identify how culture may impact current and future interventions; concerns or suggestions about the current plan of treatment; if they do not want to follow medical advice, investigate if there is a way to combine their plans with the standard medical regimen",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Identify how culture may impact current and future interventions. Ask the patient if they have any\nconcerns or suggestions about the current plan of treatment. If they do not want to follow medical\nadvice, investigate if there is a way to combine their plans with the standard medical regimen.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "MOVE 5 — Identify possible barriers to care based on culture; anything that would prevent them from seeking care in a standard medical institution; probe for explanations and what may increase the chance of maintaining a good patient-physician relationship",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Identify possible barriers to care based on culture. Ask the patient if there is anything that would\nprevent them from seeking care in a standard medical institution. Probe for explanations and\nwhat may increase the chance of maintaining a good patient-physician relationship.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK B heading + the screening rule — Patients with history of psychological trauma should receive thorough behavioral health screenings; regularly assess mood, substance use, social supports, and suicide risk",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Trauma-informed care\n\nPatients with history of psychological trauma should receive thorough behavioral health screenings.\nRegularly assess mood, substance use, social supports, and suicide risk.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The assessment-focus and interaction rules — focus assessments on trauma-related symptoms that interfere with social and occupational function; always be empathetic; do not ask invasive questions requiring the patient to describe trauma in detail; ask permission prior to discussion",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Focus assessments on trauma-related symptoms that interfere with social and occupational\nfunction. Always be empathetic. Do not ask invasive questions requiring the patient to describe\ntrauma in detail. Ask permission prior to discussion.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The exam-signal and support rules + First Aid's OWN mnemonic — before the physical exam, reassure patients that they may signal to end it immediately if they experience too much physical or emotional discomfort; offer the presence of additional staff for support; psychological counseling may be indicated; follow-up counseling is offered (or advised) as appropriate; Remember 4 R's: Realize, Recognize, Respond, Resist retraumatization (the R initials print in RED bold per the VLM pass — carried attributed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Before the physical exam, reassure patients that they may signal to end it immediately if they\nexperience too much physical or emotional discomfort. Offer the presence of additional staff for\nsupport. Psychological counseling may be indicated. Follow-up counseling is offered (or advised)\nas appropriate. Remember 4 R’s: Realize, Recognize, Respond, Resist retraumatization.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK C heading (wraps across two lines) + the definition and candidacy rule — counseling technique to facilitate behavior modification by helping patients resolve ambivalence about change; useful for many conditions (eg, nicotine dependence, obesity); helpful when patient has some desire to change, but it does not require that the patient be committed to making the change",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Motivational\ninterviewing\n\nCounseling technique to facilitate behavior modification by helping patients resolve ambivalence\nabout change. Useful for many conditions (eg, nicotine dependence, obesity). Helpful when\npatient has some desire to change, but it does not require that the patient be committed to making",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The MI moves — ask patients to examine how their behavior interferes with their life or why they might want to change it; assess barriers (eg, food access, untreated trauma) that may make behavior change difficult",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "the change. May involve asking patients to examine how their behavior interferes with their life\nor why they might want to change it. Assess barriers (eg, food access, untreated trauma) that may\nmake behavior change difficult.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "Readiness + First Aid's OWN mnemonic — assessing a patient's readiness for change is also important for guiding physician-suggested goals; these goals should be Specific, Measurable, Achievable, Relevant, and Time bound (SMART) (the S/M/A/R/T initials print in RED bold per the VLM pass — carried attributed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Assessing a patient’s readiness for change is also important for guiding physician-suggested goals.\nThese goals should be Specific, Measurable, Achievable, Relevant, and Time bound (SMART).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "BLOCK D heading (RAW merged form 'Gender- and sexualityinclusive history / taking' — the print breaks after the compound's own hyphen, 'Gender- and sexuality-' / 'inclusive history' / 'taking'; the hyphenated print form 'sexuality-inclusive' is carried in the note and the merge is documented) + the no-assumptions rule with the printed example, the gender-neutral-terms rule ('partner' rather than 'husband' or 'wife'), the assigned-sex-at-birth vs gender-identity rule, and the relevance gate (a gender-nonconforming patient seeking care for a hand laceration)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Gender- and sexualityinclusive history\ntaking\n\nAvoid making assumptions about sexual orientation, gender identity, gender expression, and\nbehavior (eg, a patient who identifies as heterosexual may engage in same-sex sexual activity).\nUse gender-neutral terms when referring to the patient or the patient’s family (eg, “partner” rather\nthan “husband” or “wife”) upon first meeting the patient until the patient instructs otherwise or\nuses specific pronouns. A patient’s assigned sex at birth and gender identity may differ. Do not\nbring up gender or sexuality if it is not relevant to the visit (eg, a gender-nonconforming patient\nseeking care for a hand laceration).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The pronoun exchange and EMR rule — consider stating what pronouns you use when you introduce yourself (eg, 'I'm Dr. Smith, and I use she/her pronouns' — 'she/her' wraps across raw lines, the slash survives) and asking patients how they would like to be addressed; ensuring correct name and pronouns are in the electronic medical record",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Consider stating what pronouns you use when you introduce yourself (eg, “I’m Dr. Smith, and I use she/\nher pronouns”) and asking patients how they would like to be addressed. Also consider ways of being\ninclusive (eg, ensuring correct name and pronouns are in the electronic medical record).",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The confidentiality and trust rules — reassure them about the confidentiality of their visits and be sensitive to the fact that patients may not be open about their sexual orientation or gender identity to others in their life; Remember: trust is built over time, and listening to and learning from patients about how they would like to approach the topics discussed above is key",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "Reassure them about the confidentiality of their visits and be sensitive to the fact that patients may\nnot be open about their sexual orientation or gender identity to others in their life.\nRemember: trust is built over time, and listening to and learning from patients about how they\nwould like to approach the topics discussed above is key.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_06-PubHealth.indd 272, 12/16/25 12:46 PM (page identity, book 272)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          294
+        ],
+        "bookPages": "272"
+      },
+      "quote": "FAS1_2026_06-PubHealth.indd 272\n\n12/16/25 12:46 PM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "cultural-interviewing-map"
+  ],
+  "mechanismIds": [
+    "cultural-formulation-flow",
+    "ambivalence-to-smart-arc"
+  ],
+  "kypExtensions": [
+    {
+      "id": "five-moves-staircase",
+      "summary": "The staircase grammar of the cultural formulation interview: the five printed Identify moves read as one descent — PROBLEM (the problem through the patient's perspective, in their own words or the words they would use with family and friends) → PERCEPTION (why they think they are experiencing the problem — the perceived cause) → BACKGROUND (what makes it better or worse; family, community, spirituality) → PLAN (concerns or suggestions about the current plan; the COMBINE rule — if they do not want to follow medical advice, investigate combining their plans with the standard medical regimen, never overriding) → BARRIERS (anything preventing care in a standard medical institution; the closing probe for what may increase the chance of maintaining a good patient-physician relationship). The claim 'each move feeds the next; the relationship is the deliverable' is the KYP synthesis of the printed sequence.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the five moves as parallel sentences; the ordered-staircase reading, the one-word decoders (PROBLEM/PERCEPTION/BACKGROUND/PLAN/BARRIERS), and the relationship-as-output framing are KYP's organization.",
+      "location": "core.keyIdea DECODER 1 + mechanisms[0] cultural-formulation-flow + blocks[2] the steps block + the registry visual's Zone A staircase and KYP-reading card"
+    },
+    {
+      "id": "trauma-safety-architecture",
+      "summary": "The safety architecture of trauma-informed care: the printed rules re-organized by function — SCREEN (thorough behavioral health screenings; regularly assess mood, substance use, social supports, and suicide risk), FOCUS (trauma-related symptoms that interfere with social and occupational function, not the narrative), PROTECT (PERMISSION — ask permission prior to discussion, never invasive questions requiring the patient to describe trauma in detail; SIGNAL — before the physical exam, the patient may signal to end it immediately; SUPPORT — additional staff, counseling offered or advised) — with the 4 R's (Realize, Recognize, Respond, Resist retraumatization) as First Aid's own compression, and the KYP rule 'PERMISSION governs the conversation, SIGNAL governs the exam, SUPPORT governs the room'.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rules as a paragraph; the screen/focus/protect grouping, the PERMISSION·SIGNAL·SUPPORT triad, and the control-transfer reading are KYP's organization. The 4 R's mnemonic itself is FA's own (red-initialed in print, attributed, not counted as a KYP mnemonic).",
+      "location": "core.keyIdea DECODER 2 + blocks[3] the trauma rules list + the registry visual's Zone B panel and 4 R's strip + mnemonics[3] PERMISSION, SIGNAL, SUPPORT"
+    },
+    {
+      "id": "ambivalence-to-smart-decoder",
+      "summary": "The motivational-interviewing arc: RESOLVE AMBIVALENCE (a counseling technique to facilitate behavior modification; useful for many conditions, eg, nicotine dependence, obesity; some desire to change required, commitment explicitly NOT) → EXAMINE the behavior (how it interferes with their life or why they might want to change it — the patient voices the argument) → ASSESS BARRIERS (eg, food access — structural; untreated trauma — psychological) → READINESS guides physician-suggested goals → SMART (Specific, Measurable, Achievable, Relevant, Time bound — FA's own, red-initialed); plus the KYP rule 'readiness SIZES the goal; SMART FORMATS it' and the MI-vs-directive-advice contrast (who supplies the argument for change).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the sentences; the arc organization, the candidacy formula's two-sided reading (some desire = required; commitment = not), the structural/psychological barrier pairing, and the MI-vs-directive contrast are KYP's design. SMART itself is FA's own (attributed).",
+      "location": "mechanisms[1] ambivalence-to-smart-arc + blocks[4] the MI decoder list + blocks[6] the compare block + the registry visual's Zone C arc"
+    },
+    {
+      "id": "inclusive-history-protocol",
+      "summary": "The checklist organization of gender- and sexuality-inclusive history taking: NO ASSUMPTIONS (sexual orientation, gender identity, gender expression, and behavior are independent axes — a patient who identifies as heterosexual may engage in same-sex sexual activity) · NEUTRAL TERMS ('partner' rather than 'husband' or 'wife' upon first meeting, until the patient instructs otherwise or uses specific pronouns) · SEX AT BIRTH ≠ GENDER IDENTITY · ONLY IF RELEVANT (the hand-laceration rule — do not bring up gender or sexuality if not relevant to the visit) · PRONOUNS + EMR (state yours, eg, 'I'm Dr. Smith, and I use she/her pronouns'; ask how patients would like to be addressed; correct name and pronouns in the electronic medical record) · CONFIDENTIALITY + TRUST (reassure confidentiality; patients may not be open to others in their life; trust is built over time).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the rules as flowing paragraphs; the six-item checklist shape, the four-independent-axes reading, and the relevance-gate framing shared with the disabilities rules on the previous page are KYP's organization.",
+      "location": "core.keyIdea DECODER 4 + blocks[5] the checklist table + the registry visual's Zone D strip + clinical block items"
+    },
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the printed page — 4 patterns (the five-move cultural formulation stem, the trauma-rules stem with permission/signal/support, the MI + SMART goal-format stem, the inclusive-wording stem), 4 traps (detail-account vs permission-first; commitment required vs some desire; combine vs persuade/override; universal identity questionnaire vs the relevance gate), 3 pivots (the respectful-option router, readiness-sizes vs SMART-formats, the signal promised BEFORE the exam), and 8 recall cards covering all four blocks.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the techniques only; the attack structure, distractor designs, and question shapes are KYP's design.",
+      "location": "usmle section + recall"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The mnemonic ledger: First Aid's OWN two mnemonics — 'Remember 4 R's: Realize, Recognize, Respond, Resist retraumatization.' (the R initials printed in RED bold at the end of the trauma-informed care block) and the SMART list 'Specific, Measurable, Achievable, Relevant, and Time bound (SMART)' (the S/M/A/R/T initials printed in RED bold at the end of the motivational interviewing block) — both carried VERBATIM and ATTRIBUTED in the mnemonics array, the memory callout, the verbatim table block, and the visual's 4 R's strip and SMART bar; plus TWO KYP originals, marked as such: 'PROBLEM, PERCEPTION, BACKGROUND, PLAN, BARRIERS' (the five cultural-formulation moves in printed order) and 'PERMISSION, SIGNAL, SUPPORT' (the three trauma-informed safety rules).",
+      "origin": "outside-first-aid",
+      "rationale": "The two red-initialed mnemonics are the source's own (attributed, not counted as KYP's); no margin mnemonic prints anywhere on pdf 294 (pdfimages + VLM census, staging-pubh22/vlm-census.txt); the two ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[8] the memory callout + the visual's Zone B 4 R's strip and Zone C SMART bar"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 294 / book 272, the THIRD page of the PUBLIC HEALTH SCIENCES—COMMUNICATION SKILLS subsection (pdf 293/book 271 closes patient-centered interviewing with the disabilities communication rules; pdf 295/book 273 opens 'Use of interpreters'), carrying FOUR blue-headed pure-text blocks — Cultural formulation interview (FIVE Identify moves), Trauma-informed care (screenings, focus rule, interaction rules, the 4 R's), Motivational interviewing (ambivalence resolution to SMART goals), and Gender- and sexuality-inclusive history taking (the inclusive checklist) — all carried VERBATIM in the note's table block (blocks[1]). CENSUS (pdfimages): ZERO raster images; VLM WAS AVAILABLE this session (ONE 120dpi glm-4.6v full-page pass, staging-pubh22/vlm-census.txt): the four headings and every sentence confirmed exactly as the text layer reads them (none missing or extra); the five 'Identify' openers print in BOLD; the 4 R's sentence prints with '4 R's' in bold black and the R initials of Realize/Recognize/Respond/Resist in RED bold; the SMART sentence prints with the S/M/A/R/T initials in RED bold and '(SMART)' in bold black — First Aid's OWN mnemonics, carried VERBATIM and ATTRIBUTED (not counted among the KYP mnemonics); NO bullet glyphs (the moves print as sentence-clusters/indented paragraphs, not bulleted items); NO margin notes, mnemonics, asterisk footnotes, images, figures, or tables; the Communication Skills banner prints ONCE (running header only — a continuation page, matching the raw layer). ADJUDICATIONS (documented): (A) the task brief's block descriptions matched the print exactly — no correction needed; (B) the 4 R's and SMART ARE marked in print (VLM: red bold initials) — both carried as FIRST AID'S OWN, attributed, and counted as two of the four mnemonics, with the two KYP originals marked as such; (C) the VLM pass describes the page furniture as a 'four-row table-style layout' with thin rules — the page prints NO true table or figure, so the four blocks are inventoried as four ORIGINAL_KYP_ADAPTATION text-block records (sv1-sv4), not VISUAL_TABLE reproductions of print artwork. Quirks carried + documented: 'SEC TION II' header-space extraction artifact (known, as-is); the small-caps banner artifact 'COmmUNICATION SkILLS' (carried as extracted); the block D heading 'Gender- and sexuality-inclusive history taking' wraps across lines in print breaking after the compound's own hyphen ('Gender- and sexuality-' / 'inclusive history' / 'taking' per the VLM pass) — the raw text layer merges the compound to 'sexualityinclusive' (the hyphenated print form is carried in the note's verbatim table; evidence range 13 preserves the RAW merged form so the quote stays a contiguous text-layer span); the block A and block C headings wrap across two lines; the 'she/her pronouns' example wraps 'she/' / 'her' across raw lines (the slash survives); the curly-quoted apostrophes and double-quoted examples are as printed. Conventions, documented: (1) the batch convention targets are met — 2 mechanisms (cultural-formulation-flow, ambivalence-to-smart-arc), a visual block + verbatim table block + steps block (the five moves) + trauma-rules list + MI decoder list + inclusive checklist table + compare block (MI vs directive advice) + exam callout + memory callout, a clinical block (the MI pair nicotine/obesity, the barrier pair food access/untreated trauma, the trauma screening set, the inclusive-history examples, the combined-regimen refusal scenario), 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (patient-centered-interviewing, interpreters-bad-news, challenging-scenarios, informed-consent — all four are public-health census topicIds), 4 crossLinks, and 4 mnemonics (First Aid's own two carried attributed + two KYP originals marked), and a miniCase with 5 options (exactly 1 correct, why/whyWrong on every option); (2) DrugCards are FOLDED BY ABSENCE (documented): the page prints interviewing technique, not drugs — no mechanisms/uses/adverse effects to trace, so the DrugCard shape does not fit; the clinical examples (nicotine dependence, obesity, food access, untreated trauma) are carried in the clinical block instead; (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-pubh22/ — nothing is written into content/ (chapters/public-health.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'cultural-interviewing-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's FOUR text blocks are implemented in ONE registry visual (cultural-interviewing-map, CulturalInterviewingMap in visuals/pubhealth-p22.tsx, viewBox 0 0 1102 1150): a descending five-step staircase (Zone A, every printed prompt preserved + KYP decoder tags + the KYP-reading card), the trauma-informed care panel (Zone B, screenings/focus/PERMISSION-SIGNAL-SUPPORT + the attributed 4 R's strip), the motivational-interviewing arc (Zone C, ambivalence → examine → barriers → readiness → the attributed SMART bar), and the inclusive-history checklist strip (Zone D, six vector-checkbox cells) — with the full page's text ALSO carried verbatim in the note's table block.",
+  "updatedAt": "2026-11-22"
+}

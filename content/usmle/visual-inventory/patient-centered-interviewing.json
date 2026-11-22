@@ -1,0 +1,100 @@
+{
+  "topicId": "patient-centered-interviewing",
+  "chapterId": "public-health",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "patient-centered-interviewing",
+      "requiredInKYP": true,
+      "visualId": "patient-centered-interviewing-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          293
+        ],
+        "bookPages": "271"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Patient-centered interviewing techniques block (book 271): the six techniques — Introduction, Agenda setting, Reflection, Validation, Recapitulation, Facilitation — as printed term/definition rows; the Communication Skills subsection's opening table and the exam's answer key for every identify-the-technique question",
+      "sourceFigureDescription": "TERM/DEFINITION TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh21/vlm-census.txt — VLM available this session): under the block title 'Patient-centered interviewing techniques' (bold dark teal), SIX rows in printed order, each a bold dark-teal term at left with its black definition at right, separated by thin dotted/light rules (no heavy borders): Introduction → Introduce yourself and ask the patient their name and how they would like to be addressed. Address the patient by the name and pronouns given. Avoid making gender assumptions. Sit at eye level, near the patient, while facing them directly.; Agenda setting → Identify concerns and set goals by developing joint agenda between the physician and the patient. (printed with no article before 'joint agenda'); Reflection → Actively listen and synthesize information offered by the patient, particularly with respect to primary concern(s).; Validation → Legitimize or affirm the patient's perspectives.; Recapitulation → Summarize what the patient has said so far to ensure correct interpretation.; Facilitation → Encourage the patient to speak freely without guiding responses or leading questions. Allow the patient to ask questions throughout the encounter. The block prints WITHOUT column headers (term | definition rows only).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the six-station strip in the registry visual (InterviewingMap in visuals/pubhealth-p21.tsx, Zone A): one numbered station per printed row in PRINTED order, each carrying its verbatim definition plus a KYP job tag (STRUCTURE / LISTEN / OPEN THE DOOR), connected by arrows, with the KYP 2+3+1 grouping brackets (TWO TO STRUCTURE / THREE TO LISTEN / ONE TO OPEN THE DOOR) beneath; the full table text is ALSO carried verbatim in the note's first table block (blocks[1]), core.what, the steps block (blocks[4]), and recall[0-4]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "interviewing-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "patient-centered-interviewing",
+      "requiredInKYP": true,
+      "visualId": "patient-centered-interviewing-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          293
+        ],
+        "bookPages": "271"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Establishing rapport / PEARLS block (book 271): First Aid's own rapport acronym in red — Partnership, Empathy, Apology, Respect, Legitimization, Support — with each element's printed definition; the page's answer key for every best-response-to-an-emotion question",
+      "sourceFigureDescription": "TERM/DEFINITION TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh21/vlm-census.txt — VLM available this session): under the block title 'Establishing rapport' (bold dark teal) the acronym PEARLS prints in RED bold caps (the ONLY red text on the page), then SIX rows whose term initial letters print in RED (P-artnership, E-mpathy, A-pology, R-espect, L-egitimization, S-upport) with the remainder of each term in bold dark teal: Partnership → Work together with patient to identify primary concerns and develop preferred solutions.; Empathy → Acknowledge the emotions displayed and demonstrate understanding of why the patient is feeling that way.; Apology → Take personal responsibility when appropriate.; Respect → Commend the patient for coming in to discuss a problem, pushing through challenging circumstances, keeping a positive attitude, or other constructive behaviors.; Legitimization → Assure patient that emotional responses are understandable or common.; Support → Reassure patient that you will work together through difficult times and offer appropriate resources. Thin dotted/light rules between rows; no column headers.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the PEARLS rapport wheel in the registry visual (InterviewingMap in visuals/pubhealth-p21.tsx, Zone B): a central hub carrying 'PEARLS' in red with the attribution 'First Aid's own — printed in red' (the acronym and its red printing are the source's own), six spokes to cards P/E/A/R/L/S each carrying its verbatim definition plus a KYP gloss line; the full table text is ALSO carried verbatim in the note's second table block (blocks[2]), mechanisms[1] pearls-rapport-map, the memory callout (blocks[7]), mnemonics[0], and recall[4-5]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "interviewing-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "public-health",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "topicId": "patient-centered-interviewing",
+      "requiredInKYP": true,
+      "visualId": "patient-centered-interviewing-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          293
+        ],
+        "bookPages": "271"
+      },
+      "visualPurpose": "The Communicating with patients with disabilities block (book 271): the language rule (person-first vs identity-first), direct address, assistance and independence, the three need-specific protocols (speech difficulties, cognitive impairment, deaf or hard of hearing), and the two boundary do-nots — the accessibility layer of the interview",
+      "visualType": "SUMMARY_FIGURE",
+      "sourceFigureDescription": "PROSE PANEL, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-pubh21/vlm-census.txt — VLM available this session): a bold dark-teal header 'Communicating with patients with disabilities' wrapping across three lines at left, then SEVEN unlabeled prose paragraphs: (1) Patients may identify with person-first (ie, 'a person with a disability') or identity-first (ie, 'a disabled person') language. Ask patients what terms they use.; (2) Under most circumstances, talk directly to the patient. Do not assume that nonverbal patients do not understand. Accompanying caregivers can add information to any discussion as needed.; (3) Ask if assistance is desired rather than assuming the patient cannot do something alone. Most people, including people with disabilities, value their independence.; (4) For patients with speech difficulties, provide extra time for the interview. If their speech is difficult to understand, consider asking them to write down a few words or ask them to rephrase their sentence. Repeat what they said to ensure you understood it correctly.; (5) For patients with a cognitive impairment, use concrete, specific language. Ask simple, direct questions. Eliminate background noise and distractions. Do not assume the patient can read. Adjust to how the patient understands best (eg, use hand gestures or ask them to demonstrate a task).; (6) Ask patients who are deaf or hard of hearing their preferred mode of communication. Use light touch or waving to get their attention. For patients who prefer to speak and lipread, eliminate background noise, face the patient, and do not change your mode of speaking. Consider using an interpreter when necessary.; (7) As with other parts of a medical history, do not bring up a disability if it is not relevant to a visit (eg, a patient in a wheelchair with an ear infection). Do not skip relevant parts of the physical exam even if the disability makes the exam challenging. Curly double quotes as printed in paragraph 1.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "interviewing-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the grouped-by-need panel in the registry visual (InterviewingMap in visuals/pubhealth-p21.tsx, Zone C): a universal-layer strip (LANGUAGE ¶1 / ADDRESS ¶2 / ASSISTANCE ¶3 / BOUNDARIES ¶7 columns) plus three need-specific protocol cards (SPEECH DIFFICULTIES ¶4 — the TIME protocol; COGNITIVE IMPAIRMENT ¶5 — the SIMPLE protocol; DEAF OR HARD OF HEARING ¶6 — the ATTENTION protocol; the protocol tags are KYP's) and the ASK-DON'T-ASSUME rule strip; the full paragraph text is ALSO carried verbatim in the note's list block (blocks[3]), clinical[0] the adapted interview, the compare block (blocks[5]), core.keyIdea MOVE 3, and recall[6-10]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "interviewing-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "patient-centered-interviewing",
+    "textbookVisualCount": 3,
+    "accountedFor": 3,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 3,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries THREE visual assets, all pure text (pdfimages: zero raster images) — the Patient-centered interviewing techniques table (sv1: SIX term/definition rows in printed order), the Establishing rapport / PEARLS table (sv2: First Aid's OWN acronym printed in RED beside the block title, with the six row terms' initial letters in red — Partnership, Empathy, Apology, Respect, Legitimization, Support), and the Communicating with patients with disabilities prose panel (sv3: a three-line header and SEVEN unlabeled paragraphs) — all three accounted for in ONE registry visual (interviewing-map, InterviewingMap in visuals/pubhealth-p21.tsx, viewBox 0 0 1102 1460), each as an ORIGINAL KYP ADAPTATION: sv1 as the six-station strip with the KYP 2+3+1 brackets (Zone A), sv2 as the PEARLS rapport wheel with a red attributed hub (Zone B), sv3 as the grouped-by-need panel — universal layer plus three need-specific protocol cards tagged TIME · SIMPLE · ATTENTION (Zone C); nothing is reproduced, and the full text of all three blocks is additionally carried verbatim in the note's two table blocks and list block. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v full-page pass (staging-pubh21/vlm-census.txt) confirmed the six printed technique rows in order, the two-column term/definition layout with bold dark-teal terms and thin dotted rules, PEARLS as the only red on the page (red heading + red initial letters), the three-line disabilities header wrap, the banner printing twice, and the absence of margin mnemonics and images. ADJUDICATIONS: the batch brief's block descriptions matched the print exactly (no corrections); PEARLS is the source's own and is attributed everywhere (never counted among KYP mnemonics); the term/definition blocks print without column headers (the note's verbatim table headers are KYP-supplied, documented); the seven disabilities paragraphs print unlabeled (the note's ¶1–¶7 labels are KYP's, flagged). FULL single page, the FIRST of the Communication Skills subsection (pdf 292 / book 270 ends the Ethics content; pdf 294 / book 272 opens Cultural formulation interview). STAGED under .usmle-pipeline-cache/staging-pubh21/ — promotion into content/ is owned downstream."
+}

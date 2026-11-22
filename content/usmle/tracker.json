@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-22T08:53:47Z",
+  "generatedAt": "2026-11-22T09:26:22Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 10,
     "chaptersExtracted": 6,
-    "topicsProduced": 193,
+    "topicsProduced": 198,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 138,
+      "pilot-complete": 143,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -340,8 +340,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 27,
-      "topicsProduced": 20,
-      "topicsRemaining": 7,
+      "topicsProduced": 25,
+      "topicsRemaining": 2,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1025,6 +1025,21 @@
       "updatedAt": "2026-10-21"
     },
     {
+      "topicId": "challenging-scenarios",
+      "title": "Challenging Patient and Ethical Scenarios: The Response Table",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 296, 297 (book 274–275)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "chemical-carcinogens",
       "title": "Chemical Carcinogens & Organ Cancers",
       "chapterId": "pathology",
@@ -1235,6 +1250,21 @@
       "updatedAt": "2026-10-07"
     },
     {
+      "topicId": "cultural-competence-interviewing",
+      "title": "Cultural Formulation, Trauma-Informed Care, and Motivational Interviewing",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 294 (book 272–272)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 6,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "cystic-fibrosis",
       "title": "Cystic Fibrosis Genetics",
       "chapterId": "biochemistry",
@@ -1318,6 +1348,21 @@
       "qaGatesPassed": 15,
       "qaGatesTotal": 15,
       "sourcePages": "Part 1 pdf 282 (book 260 (lower))",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "disease-prevention-prophylaxis",
+      "title": "Disease Prevention Levels and Prophylaxis",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Healthcare Delivery",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 298 (book 276–276)",
       "visualCount": 1,
       "mechanismCount": 2,
       "kypExtensionCount": 5,
@@ -2045,6 +2090,21 @@
       "updatedAt": "2026-10-15"
     },
     {
+      "topicId": "interpreters-bad-news",
+      "title": "Interpreters and Delivering Bad News: SPIKES",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 295 (book 273–273)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "intestinal-protozoa",
       "title": "Intestinal & Urogenital Protozoa",
       "chapterId": "microbiology",
@@ -2568,6 +2628,21 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "patient-centered-interviewing",
+      "title": "Patient-Centered Interviewing and Rapport",
+      "chapterId": "public-health",
+      "subsection": "Public Health Sciences — Communication Skills",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 293 (book 271–271)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "pcr-crispr",

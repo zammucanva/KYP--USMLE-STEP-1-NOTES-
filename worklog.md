@@ -948,3 +948,23 @@ Stage Summary:
 - MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · Public Health 20/27 (Epi/Biostat 17/17 COMPLETE · Ethics 3/3 COMPLETE) — 193/3029 topics · evidence 4490/4490 · 186 registry visuals · contract GREEN · 0 depth failures.
 - REMAINING (7): patient-centered-interviewing (293) · cultural-competence-interviewing (294) · interpreters-bad-news (295) · challenging-scenarios (296-297) · disease-prevention-prophylaxis (298) · insurance-payment-models (299) · patient-safety-quality (300) → then the §6.2 CHAPTER CLOSE GATE.
 - NEXT: pubh21-pubh25 (the Communication block + disease-prevention-prophylaxis) → pubh26-pubh27 + chapter close. Do not stop.
+
+---
+Task ID: pubh21-pubh25-batch-2026-11-22
+Agent: Super Z (main agent + 5 parallel production subagents)
+Task: The pubh21-pubh25 batch (5 topics) — Public Health 25/27; the COMMUNICATION SKILLS BLOCK COMPLETE 4/4 + Healthcare Delivery opened.
+
+Work Log:
+- pubh21 patient-centered-interviewing (293/271) 799-line note, InterviewingMap (161 texts), 20 evidence — PEARLS prints RED with red initials (VLM), carried attributed; tables print without column headers (KYP-supplied, documented).
+- pubh22 cultural-competence-interviewing (294/272) 844-line note, CulturalInterviewingMap (94 texts), 16 evidence — the 4 R's + SMART initials print RED bold, both carried attributed.
+- pubh23 interpreters-bad-news (295/273) 801-line note, BadNewsMap (113 texts), 16 evidence — "SPIKES" bold red + enlarged red station initials, carried attributed; both interpreter positions confirmed.
+- pubh24 challenging-scenarios (296-297/274-275, TWO-PAGE) 831-line note, ChallengingScenariosMap (149 texts), 33 evidence — ADJUDICATION: the table prints 25 ROWS (13+12), not the census's 24 — print governs, all 25 carried verbatim; row-25 interleave documented.
+- pubh25 disease-prevention-prophylaxis (298/276) 921-line note, PreventionProphylaxisMap (107 texts), 14 evidence + 5 DrugCards — ADJUDICATION: "Prevent symptom onset" prints twice in the SECONDARY row (brief had pinned one to Primary); pyramid apex=Quaternary census-pinned.
+- INTEGRATION: registered, promoted, chapter 25/27 (pending 2), tracker 198 topics. CONTRACT GREEN FIRST RUN (fourth consecutive zero-violation batch).
+- QA: browser 4-pass ×5 — 20/20 at 0px; getBBox 0 overlaps / 0 outside ×5 FIRST PASS; VLM ×10 — 10/10 CLEAN (pubh21-light's two flagged items adjudicated as the two documented house-style classes: app-UI Search-pill overlay [getBBox machine-confirmed 0 overlaps inside the SVG] + fine-print legibility floor — the ph21-ph28/pubh1-20 convention). ZERO fix rounds.
+- Gates: evidence 4589/4589 EXIT 0 (+99) · CONTRACT GREEN · audit 198 topics 0 depth failures · tsc 1 baseline.
+
+Stage Summary:
+- MISSION STATE: Biochemistry 55/55 · Immunology 24/24 · Microbiology 39/39 · Pathology 19/19 · Pharmacology 29/29 · Public Health 25/27 (Epi/Biostat 17/17 · Ethics 3/3 · Communication 4/4 COMPLETE; Delivery 1/3) — 198/3029 topics · evidence 4589/4589 · 191 registry visuals · contract GREEN · 0 depth failures.
+- REMAINING (2): insurance-payment-models (299/277) · patient-safety-quality (300/278) → then the §6.2 CHAPTER CLOSE GATE (the sixth chapter).
+- NEXT: pubh26-pubh27 + chapter close. Do not stop.

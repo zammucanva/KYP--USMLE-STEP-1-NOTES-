@@ -79,6 +79,11 @@ import { CorrelationMap } from "./pubhealth-p17";
 import { EthicsPrinciplesMap } from "./pubhealth-p18";
 import { ConsentMap } from "./pubhealth-p19";
 import { ConfidentialityMap } from "./pubhealth-p20";
+import { InterviewingMap } from "./pubhealth-p21";
+import { CulturalInterviewingMap } from "./pubhealth-p22";
+import { BadNewsMap } from "./pubhealth-p23";
+import { ChallengingScenariosMap } from "./pubhealth-p24";
+import { PreventionProphylaxisMap } from "./pubhealth-p25";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -249,6 +254,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "ethics-principles-map": EthicsPrinciplesMap,
   "consent-map": ConsentMap,
   "confidentiality-map": ConfidentialityMap,
+  "interviewing-map": InterviewingMap,
+  "cultural-interviewing-map": CulturalInterviewingMap,
+  "bad-news-map": BadNewsMap,
+  "challenging-scenarios-map": ChallengingScenariosMap,
+  "prevention-prophylaxis-map": PreventionProphylaxisMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,
