@@ -1,0 +1,127 @@
+{
+  "topicId": "drug-reactions-neurologic",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-neurologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-neurologic-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Table 1 “Drug reactions—neurologic” (book 250): the seven neurologic adverse-reaction rows (cinchonism, Parkinson-like syndrome, peripheral neuropathy, idiopathic intracranial hypertension, seizures, tardive dyskinesia, visual disturbances) with their causal agents and notes",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph25/vlm-census.txt — VLM available this session): a three-column table (DRUG REACTION / CAUSAL AGENTS / NOTES) with seven rows in printed order — [1] Cinchonism: Quinidine, quinine; can present with tinnitus, hearing/vision loss, psychosis, and cognitive impairment; [2] Parkinson-like syndrome: Antipsychotics, metoclopramide; cogwheel rigidity of arm; [3] Peripheral neuropathy: Platinum agents (eg, cisplatin), isoniazid, vincristine, paclitaxel, phenytoin; “Cis, it’s very painful peripherally” (red mnemonic); [4] Idiopathic intracranial hypertension: Corticosteroids, danazol, vitamin A, growth hormones, tetracyclines; “Crime and debt Always grow head tension”; [5] Seizures: Isoniazid, bupropion, imipenem/cilastatin, tramadol; “With seizures, I bit my tongue”; [6] Tardive dyskinesia: Antipsychotics, metoclopramide; NOTES cell EMPTY; [7] Visual disturbances: Topiramate (blurred vision/diplopia, haloes), hydroxychloroquine (↓ visual acuity, visual field defects), digoxin (yellow-tinged vision), isoniazid (optic neuritis), ivabradine (luminous phenomena), PDE-5 inhibitors (blue-tinged vision), ethambutol (color vision changes), vigabatrin (tunnel vision); “These horrible drugs iirritate Precious eyes” (the source's own double-i print — two red mnemonic i's, one each for Isoniazid and Ivabradine). Drug-reaction names print teal (0x165d7e); mnemonic initial letters print red bold (0xb82837) in both causal-agent and notes cells.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-neurologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone A (the nigrostriatal dopamine fork: shared culprits antipsychotics + metoclopramide → D2 blockade → acute down-state = Parkinson-like syndrome vs chronic up-regulation = tardive dyskinesia) + Zone B (the seven-row strip in printed order) + Zone C (the seizure-threshold gauge and the peripheral-axon panel with the INH-triple chip); the table's full text is ALSO carried verbatim in the note's blocks[1], core.what, mechanisms, and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-neurologic-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-neurologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-neurologic-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Table 2 “Drug reactions—renal/genitourinary” (book 250): the four renal/GU adverse-reaction rows (Fanconi syndrome, hemorrhagic cystitis, interstitial nephritis, nephrotoxicity)",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (census as sv1): a three-column table with four rows in printed order — [1] Fanconi syndrome: Cisplatin, ifosfamide, expired tetracyclines, tenofovir (NOTES cell empty); [2] Hemorrhagic cystitis: Cyclophosphamide, ifosfamide; prevent by coadministering with mesna; [3] Interstitial nephritis: Diuretics (Pee), NSAIDs (Pain-free), Penicillins and cephalosporins, PPIs, rifamPin, sulfa drugs; “Remember the 5 P’s” — the causal-agents cell carries the IN-CELL 5-P mnemonic with red capital P's printed inside the words (raw-span confirmed: a red-bold P glyph sits inside “rifamPin”; a red “s” heads “sulfa”); [4] Nephrotoxicity: Cisplatin, aminoglycosides, amphotericin, vancomycin (NOTES cell empty). Teal reaction names; red mnemonic initials.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-neurologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone D renal/genitourinary strip (the nephron-and-bladder descent: proximal tubule → bladder → interstitium → nephron at large, with the 5-P line, the in-cell rifamPin capital-P note, and the mesna chip); the table's full text is ALSO carried verbatim in the note's blocks[2], core.what, mechanism 2, and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-neurologic-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-neurologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-neurologic-sv3",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Table 3 “Drug reactions—respiratory” (book 250): dry cough (ACE inhibitors) and pulmonary fibrosis (the six-drug row)",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (census as sv1): a three-column table with two rows in printed order — [1] Dry cough: ACE inhibitors (NOTES cell empty); [2] Pulmonary fibrosis: Methotrexate, nitrofurantoin, carmustine, bleomycin, busulfan, amiodarone (the causal-agents cell ends exactly “bleomycin, busulfan, amiodarone”); “My nose cannot breathe bad air” (red mnemonic initials M/n/c/b/b/a). TEXT-LAYER INTERLEAVE: the extracted NOTES column header prints AFTER both data rows (a documented cache-layer artifact; the printed grid is ordinary).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-neurologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone D respiratory panel (bradykinin accumulation = dry cough vs alveolar scarring = the six-drug fibrosis row, with the mnemonic rendered red and the exact cell ending noted); the table's full text is ALSO carried verbatim in the note's blocks[3] and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-neurologic-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-neurologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-neurologic-sv4",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          272
+        ],
+        "bookPages": "250"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "Table 4 “Drug reactions—multiorgan” (book 250): antimuscarinic effects and the disulfiram-like reaction",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (census as sv1): a three-column table with two rows in printed order — [1] Antimuscarinic: Atropine, TCAs, H1-blockers (printed with a subscript 1), antipsychotics (NOTES cell empty); [2] Disulfiram-like reaction: 1st-generation sulfonylureas, procarbazine, certain cephalosporins, griseofulvin, metronidazole; “Sorry pals, can’t go mingle” (red mnemonic initials s/p/c/g/m; VLM + raw-span confirmed as the DISULFIRAM row's NOTES cell — the red 'S' prints in the NOTES column on the same line as the causal agents). TEXT-LAYER INTERLEAVE: the footer slug and timestamp extract between the causal agents and the NOTES header + mnemonic (documented cache-layer artifact).",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-neurologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone D multiorgan panel (RECEPTOR BLOCK = muscarinic receptor vs ENZYME BLOCK = aldehyde dehydrogenase, with the mnemonic rendered red and the acetaldehyde note); the table's full text is ALSO carried verbatim in the note's blocks[4] and recall",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-neurologic-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-reactions-neurologic",
+    "textbookVisualCount": 4,
+    "accountedFor": 4,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 4,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's four visual assets — the four color-coded DRUG REACTION / CAUSAL AGENTS / NOTES tables (neurologic 7 rows, renal/genitourinary 4, respiratory 2, multiorgan 2; teal reaction names, red mnemonic initials including the in-cell capital-P of rifamPin) — are each accounted for as ORIGINAL KYP ADAPTATIONS with NOTHING reproduced: all four are adapted together as ONE whole-page registry visual (drug-reaction-neurologic-map, DrugReactionNeurologicMap in visuals/pharm-p25.tsx — Zone A the nigrostriatal dopamine fork, Zone B the seven-row neuro strip, Zone C the seizure-threshold + peripheral-axon panels, Zone D the organ-system sweep strips), hence kypOriginals: 1 covering all four printed assets; each table's full text is ADDITIONALLY carried verbatim in the note's four table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v pass (staging-ph25/vlm-census.txt) confirmed the four tables' printed row order, the empty NOTES cells, the disulfiram-row ownership of “Sorry pals, can’t go mingle”, and the absence of margin notes; the double-i “iirritate” and the U+2019 apostrophes were adjudicated deterministically with PyMuPDF raw spans + pdftotext -bbox (documented in vlm-census.txt) after the 120dpi read smoothed them. FULL page, no shared split. STAGED under .usmle-pipeline-cache/staging-ph25/ — promotion into content/ is owned downstream."
+}

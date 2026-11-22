@@ -1,0 +1,321 @@
+{
+  "topicId": "drug-reactions-hematologic",
+  "title": "Drug Reactions: Hematologic",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Toxicities and Adverse Effects",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      271
+    ],
+    "bookPages": "249–249"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the running header, the subsection banner (▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS), the 'SEC TION II' header (a known extraction artifact of SECTION II), and the book page number 249",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "PHARMACOLOGY\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\n\nSEC TION II\n\n249",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 heading and its three column headers — Drug reactions—hematologic / DRUG REACTION / CAUSAL AGENTS / NOTES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Drug reactions—hematologic\nDRUG REACTION\n\nCAUSAL AGENTS\n\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 1 (printed first) — Agranulocytosis: Dapsone, clozapine, carbamazepine, propylthiouracil, methimazole, ganciclovir, colchicine; NOTES cell prints First Aid's red in-cell mnemonic 'Drugs can cause pretty major granulocytes collapse' (verbatim; the batch brief quoted it without the final word 'collapse')",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Agranulocytosis\n\nDapsone, clozapine, carbamazepine,\npropylthiouracil, methimazole, ganciclovir,\ncolchicine\n\nDrugs can cause pretty major granulocytes\ncollapse",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 2 — Aplastic anemia: Carbamazepine, methimazole, NSAIDs, benzene, chloramphenicol, propylthiouracil; NOTES mnemonic 'Can’t make New blood cells properly'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Aplastic anemia\n\nCarbamazepine, methimazole, NSAIDs,\nbenzene, chloramphenicol, propylthiouracil\n\nCan’t make New blood cells properly",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 3 — Direct Coombs ⊕ hemolytic anemia: Penicillin, cephalosporins, methyldopa; NOTES mnemonic 'Pooh classically munches on honey Coombs'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Direct Coombs ⊕\nhemolytic anemia\n\nPenicillin, cephalosporins, methyldopa\n\nPooh classically munches on honey Coombs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 4 — Drug Reaction with Eosinophilia and Systemic Symptoms: Phenytoin, carbamazepine, minocycline, sulfa drugs, allopurinol, vancomycin; printed note 'T cell-mediated hypersensitivity reaction. Also known as drug-induced hypersensitivity syndrome (DIHS)' (syndrome prints hyphenated across a wrap — the cache layer merges it) + mnemonic 'DRESSes partially cover my skin and viscera'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Drug Reaction with\nEosinophilia and\nSystemic Symptoms\n\nPhenytoin, carbamazepine, minocycline, sulfa\ndrugs, allopurinol, vancomycin\n\nT cell-mediated hypersensitivity reaction. Also\nknown as drug-induced hypersensitivity syndrome (DIHS)\nDRESSes partially cover my skin and viscera",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 5 — Hemolysis in G6PD deficiency: Sulfonamides, dapsone, primaquine, aspirin, nitrofurantoin — the printed NOTES cell is EMPTY (no mnemonic prints for this row; VLM + span-confirmed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Hemolysis in G6PD\ndeficiency\n\nSulfonamides, dapsone, primaquine, aspirin,\nnitrofurantoin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROW 6 — Megaloblastic anemia: Hydroxyurea, Phenytoin, Methotrexate, Sulfa drugs (initials capitalized in the print, keying the mnemonic); the row's NOTES mnemonic 'You’re having a mega blast with PMS' prints in the trailing notes block — see the next evidence item",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Megaloblastic anemia\n\nHydroxyurea, Phenytoin, Methotrexate, Sulfa drugs",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 1 ROWS 7-8 + THE TRAILING NOTES BLOCK (the interleaving pattern): Thrombocytopenia (Heparin, quinidine, ganciclovir, vancomycin, linezolid — NOTES cell EMPTY) and Thrombotic complications (Combined oral contraceptives, hormone replacement therapy, SERMs Testosterone supplements, epoetin alfa — printed with NO comma after 'SERMs', carried verbatim); the layer then emits the two non-empty NOTES cells of rows 6 and 8 as a trailing block: 'You’re having a mega blast with PMS' (bbox: the MEGALOBLASTIC row's cell) and 'Estrogen-mediated ↑ blood viscosity and platelet accumulation' (bbox: the THROMBOTIC row's cell, printed in black) — adjudicated by PyMuPDF span coordinates, documented in vlm-census.txt",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Thrombocytopenia\n\nHeparin, quinidine, ganciclovir, vancomycin,\nlinezolid\n\nThrombotic\ncomplications\n\nCombined oral contraceptives, hormone\nreplacement therapy, SERMs\nTestosterone supplements, epoetin alfa\n\nYou’re having a mega blast with PMS\n\nEstrogen-mediated\n↑ blood viscosity and platelet accumulation",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 heading and its three column headers — Drug reactions—musculoskeletal/skin/connective tissue / DRUG REACTION / CAUSAL AGENTS / NOTES",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Drug reactions—musculoskeletal/skin/connective tissue\nDRUG REACTION\n\nCAUSAL AGENTS\n\nNOTES",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROWS 1-2 — Drug-induced lupus: Hydralazine, procainamide, quinidine (NOTES cell EMPTY); Fat redistribution: Protease inhibitors, glucocorticoids; NOTES mnemonic 'Fat protects glutes'. The text layer's stray '2+' line between these rows is the 6.5pt SUPERSCRIPT on 'Ca' of the NEXT row's 'Ca2+ channel blockers' — adjudicated by span coordinates (a reading-order artifact, not a footnote)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Drug-induced lupus\n\nHydralazine, procainamide, quinidine\n\nFat redistribution\n\nProtease inhibitors, glucocorticoids\n2+\n\nFat protects glutes",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROWS 3-4 — Gingival hyperplasia: Cyclosporine, Ca channel blockers (prints Ca2+ with a true superscript 2+), phenytoin; mnemonic 'Can Cause puffy gums'. Hyperuricemia (gout): Pyrazinamide, thiazides, furosemide, niacin, cyclosporine; mnemonic 'Painful tophi and feet need care'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Gingival hyperplasia\n\nCyclosporine, Ca channel blockers, phenytoin\n\nCan Cause puffy gums\n\nHyperuricemia (gout)\n\nPyrazinamide, thiazides, furosemide, niacin,\ncyclosporine\n\nPainful tophi and feet need care",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROWS 5-6 — Malignant hyperthermia: Inhaled anesthetics (eg, isoflurane), succinylcholine; printed note 'Individuals with ryanodine receptor mutation; antidote is dantrolene' (black, not a mnemonic). Myopathy: Statins, fibrates, niacin, colchicine, daptomycin, hydroxychloroquine, interferon-α, penicillamine, glucocorticoids (NOTES cell EMPTY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Malignant\nhyperthermia\n\nInhaled anesthetics (eg, isoflurane),\nsuccinylcholine\n\nIndividuals with ryanodine receptor mutation;\nantidote is dantrolene\n\nMyopathy\n\nStatins, fibrates, niacin, colchicine, daptomycin,\nhydroxychloroquine, interferon-α,\npenicillamine, glucocorticoids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROWS 7-8 — Osteoporosis: Glucocorticoids, depot medroxyprogesterone acetate, GnRH agonists, aromatase inhibitors, anticonvulsants, heparin, PPIs (NOTES cell EMPTY). Photosensitivity: Sulfonamides, amiodarone, tetracyclines, fluoroquinolones; mnemonic 'Sat for photo'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Osteoporosis\n\nGlucocorticoids, depot medroxyprogesterone\nacetate, GnRH agonists, aromatase inhibitors,\nanticonvulsants, heparin, PPIs\n\nPhotosensitivity\n\nSulfonamides, amiodarone, tetracyclines,\nfluoroquinolones\n\nSat for photo",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROW 9 — Rash (Stevens-Johnson syndrome): Anti-epileptic drugs (especially lamotrigine), allopurinol, sulfa drugs, penicillin; NOTES cell prints First Aid's red in-cell mnemonic 'Steven Johnson has epileptic allergy to sulfa drugs and penicillin' — verbatim (the mnemonic wraps across two printed lines)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Rash (Stevens-Johnson\nsyndrome)\n\nAnti-epileptic drugs (especially lamotrigine),\nallopurinol, sulfa drugs, penicillin\n\nSteven Johnson has epileptic allergy to sulfa\ndrugs and penicillin",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "TABLE 2 ROWS 10-11 — Teeth discoloration: Tetracyclines; mnemonic 'Teethracyclines' (the printed pun). Tendon/cartilage damage: Fluoroquinolones (NOTES cell EMPTY)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "Teeth discoloration\n\nTetracyclines\n\nTeethracyclines\n\nTendon/cartilage\ndamage\n\nFluoroquinolones",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 249 / 12/19/25 8:07 AM (page identity, book 249; confirms no footnotes print below either table)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 249\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "drug-reaction-hematologic-map"
+  ],
+  "mechanismIds": [
+    "cell-line-targeting-map",
+    "sulfa-hypersensitivity-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed tables — 4 patterns (the methimazole agranulocytosis stem with ANC<100 and spared lines, the carbamazepine pancytopenia stem, the oxidant-drug Coombs-negative hemolysis stem with Heinz bodies/bite cells, the DRESS stem with eosinophilia + transaminitis and no mucositis), 4 traps (agranulocytosis vs aplastic anemia — the double-listed carbamazepine/methimazole/PTU; Coombs-positive immune vs G6PD oxidant hemolysis; thrombocytopenia vs thrombotic complications; DRESS vs SJS), 3 pivots, 8 recall cards.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two tables' facts only; the attack structure and the distractor designs are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "cell-line-routing-protocol",
+      "summary": "The four-move reading protocol (NAME THE CELL LINE OR TISSUE THAT REACTED → NAME THE MECHANISM CLASS → NAME THE DRUG LIST → CROSS-CHECK THE OVERLAPS) and the ROUTE TO THE LINE framing — the observation that the CBC (or the reacting tissue), never the drug name, is the answer key, implemented as the lineage-rail mechanism, the steps block, and the visual's Zone A docks.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints two parallel lookup tables and never asks the learner to route a stem through cell line → mechanism → list; the protocol is KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + blocks[3] the steps block + the registry visual's Zone A"
+    },
+    {
+      "id": "cross-table-synthesis",
+      "summary": "The SULFA STRIKES FIVE TIMES observation (sulfa drugs print in FIVE rows across the two tables: DRESS, hemolysis in G6PD deficiency, megaloblastic anemia, photosensitivity, and the Stevens-Johnson rash) plus the double-listed-drug overlap map (carbamazepine/methimazole/propylthiouracil in agranulocytosis AND aplastic anemia; ganciclovir in agranulocytosis AND thrombocytopenia; allopurinol in DRESS AND SJS; phenytoin in four rows) — the exam callout, pivot 2, and the visual's Zone C band.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rows as isolated table entries; the cross-table overlap structure is KYP's synthesis.",
+      "location": "blocks[4] the exam callout + usmle.pivots[1] + the registry visual's Zone C"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (ROUTE TO THE LINE / HIS QUEEN GETS VERY LOUD / SULFA STRIKES FIVE TIMES / DANTROLENE DOMINATES THE RYANODINE RAGE). First Aid's own eleven red in-cell mnemonic lines — including the two headline carries 'Drugs can cause pretty major granulocytes collapse' and 'Steven Johnson has epileptic allergy to sulfa drugs and penicillin' — are carried ATTRIBUTED inside the verbatim tables and are NOT counted among the four KYP codes; HIS QUEEN GETS VERY LOUD fills the one hematologic row whose printed notes cell is EMPTY (thrombocytopenia).",
+      "origin": "outside-first-aid",
+      "rationale": "No margin mnemonic prints anywhere on pdf 271 (pdfimages + VLM census, staging-ph24/vlm-census.txt); the four codes are KYP's design.",
+      "location": "mnemonics + blocks[5] the memory callout + the visual's dock attributions"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The methimazole miniCase — a Graves patient with fever, sore throat, oral ulcers, ANC 40/mm³, and SPARED hemoglobin/platelets — with the correct answer tracking the stem to the granulocyte line (agranulocytosis, 'Drugs can cause pretty major granulocytes collapse') and distractors built from the page's own overlaps: aplastic anemia (the same drug's second row, disproved by the two spared lines), DRESS (a different drug list + absent eosinophilia/rash/viscera), and G6PD hemolysis (the wrong cell line entirely).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the rows as parallel table entries and never dissects the double-listed-drug ambiguity against distractor mechanisms; the vignette, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 271 / book 249 carries TWO printed tables — Drug reactions—hematologic (EIGHT rows, alphabetical as printed) and Drug reactions—musculoskeletal/skin/connective tissue (ELEVEN rows); the topic owns the WHOLE page and both tables are carried verbatim in the note's table blocks. CENSUS (pdfimages): ZERO raster images. VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v pass (staging-ph24/vlm-census.txt, pass 1 succeeded, no retry) read both tables row-by-row, the color furniture (red mnemonic acrostic letters; red letters inside four row labels — D-R-E-S-S, 'Mega blast', 'Coombs', 'Steven Johnson'; dark-teal labels; black non-mnemonic notes), and the absence of margin mnemonics and footnotes; a SECOND VLM pass was not needed — the four disputes the read left were adjudicated deterministically with PyMuPDF raw spans + bbox coordinates (documented in vlm-census.txt): (1) the stray '2+' text-layer line is the 6.5pt superscript on 'Ca' — the gingival row prints 'Ca2+ channel blockers', not a footnote; (2) the last three hematologic rows' NOTES cells interleave as a TRAILING BLOCK in the text layer ('You're having a mega blast with PMS' + 'Estrogen-mediated ↑ blood viscosity and platelet accumulation') — bbox assigns them to the Megaloblastic anemia and Thrombotic complications rows (the Thrombocytopenia notes cell is EMPTY); the note carries them in their printed rows and the interleaving is documented; (3) the thrombotic causal cell prints NO comma between 'SERMs' and 'Testosterone supplements' — carried verbatim; (4) 'syndrome' prints hyphenated across a wrap in the DRESS note — the cache layer merges it as 'syndrome (DIHS)'; DIHS (not the VLM's smoothed 'DHIS') is the printed spelling. EMPTY printed NOTES cells carried as printed: Hemolysis in G6PD deficiency, Thrombocytopenia, Drug-induced lupus, Myopathy, Osteoporosis, Tendon/cartilage damage. BATCH-MAP HONESTY: the batch content map expected 'gray baby syndrome' and 'serotonin syndrome' rows on this page — NEITHER PRINTS on pdf 271/book 249 ('gray baby' prints at book 188/197 with the protein synthesis inhibitors); whatever rows print governs. The two mandated in-cell mnemonics carried VERBATIM + ATTRIBUTED (not among the four KYP mnemonics): 'Drugs can cause pretty major granulocytes collapse' (Agranulocytosis NOTES cell — note the batch brief quoted it without the final word 'collapse') and 'Steven Johnson has epileptic allergy to sulfa drugs and penicillin' (Rash (Stevens-Johnson syndrome) NOTES cell). Quirks, documented: (1) the batch convention targets are met — 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (all four topicIds verified to exist in src/lib/kyp/usmle/notes/: pentose-phosphate-pathway, hypersensitivity-types, dna-rna-folate-inhibitors, t-cell-phagocyte-immunodeficiencies), 4 crossLinks, 4 KYP mnemonics, and a miniCase with 4 options (exactly 1 correct, why on every option); the note is 738 lines and the visual 251, within the brief's 600-750 / 250-400 budgets; (2) NO DrugCards: the exemplar's DrugCard shape (mechanism/uses traceable to the printed page) does not fit a pure adverse-reaction table page — the page prints causal-agent LISTS only, so the drugs are folded into the verbatim table blocks, the cell-line mechanism, and the registry visual (this deviation from the DrugCard convention is deliberate and documented here); (3) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (4) outputs are STAGED under .usmle-pipeline-cache/staging-ph24/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'drug-reaction-hematologic-map' is therefore not yet in visuals/registry.tsx by design); (5) the page's two visual assets (the two printed tables) are implemented as ONE ORIGINAL KYP ADAPTATION registry visual (drug-reaction-hematologic-map, DrugReactionHematologicMap in visuals/pharm-p24.tsx) with every row, causal agent, note, mnemonic, and quirk preserved — both tables' text is ALSO carried verbatim in the note's table blocks (blocks[1] and blocks[2]).",
+  "updatedAt": "2026-11-22"
+}

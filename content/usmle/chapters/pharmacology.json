@@ -13,7 +13,7 @@
   ],
   "bookPages": "227–254",
   "extractionStatus": "extracted",
-  "pendingTopicCount": 8,
+  "pendingTopicCount": 3,
   "notes": "Phase I inventory built from the banner + heading census (the PyMuPDF #004b6c MyriadPro-Bold 10pt subsection-bar method). Banner structure: PHARMACOLOGY banner on pdf 249-276 (book 227-254) with subsections PHARMACOKINETICS AND PHARMACODYNAMICS 250-255 (228-233), AUTONOMIC DRUGS 256-267 (234-245), TOXICITIES AND ADVERSE EFFECTS 268-273 (246-251), MISCELLANEOUS 274-276 (252-254). p249 = chapter opener (book 227, unclaimed — the p223 pathology convention). Shared pages with distinct subsections (the p196 microbiology convention): p252 (Drug metabolism / Elimination of drugs), p256 (Drug effect modifications / Autonomic receptors), p257 (Acetylcholine receptors / Pain transmission), p258 (Micturition control / Tissue distribution of adrenergic receptors). REBUILD 2026-11-19: the prior lineage's 43-topic inventory was lost with the expired-PAT lineage; this census re-derived from source at 29 topics (28 new + sympathomimetics). SCOPE CORRECTION documented: the initial-build sympathomimetics topic declared pdf 262-265 but its evidence sits on 263-264 — narrowed to 263-264 (book 241-242); the p262 anticholinergic/atropine content now owns muscarinic-antagonists and the p265 alpha-blocker context owns sympatholytics-alpha-blockers. Every content page 250-276 claimed by exactly one topic.",
   "extraction": {
     "extractedOn": "2026-11-19",
@@ -1624,7 +1624,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The seafood toxin table (ciguatera, scombroid with the MAOI interaction, shellfish/saxitoxin, pufferfish/tetrodotoxin) + the plant toxins (anticholinergic plants, ricin, cyanogenic with the bitter-almond rule, convulsions water hemlock)."
     },
     {
@@ -1647,7 +1647,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "THE antidote table — acetaminophen (N-acetylcysteine), organophosphates (atropine + pralidoxime), methanol/ethylene glycol (fomepizole/dialysis), iron (deferoxamine), copper/arsenic/gold (dimercaprol), lead (EDTA/succimer), methemoglobinemia (methylene blue), cyanide (nitrite + thiosulfate), opioids, benzos, TCAs, warfarin, heparin — the highest-yield table in toxicology."
     },
     {
@@ -1670,7 +1670,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The endocrine/reproductive adverse-reaction table — from gynecomastia (spironolactone, cimetidine) to SIADH/hyponatremia (carbamazepine, SSRIs), adrenal insufficiency, hypothyroidism/hyperthyroidism, and the sexual-dysfunction families."
     },
     {
@@ -1693,7 +1693,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The hematologic adverse-reaction table — aplastic anemia (chloramphenicol, carbamazepine), agranulocytosis (methimazole, clozapine), megaloblastic (methotrexate, phenytoin), hemolysis (G6PD drugs, penicillin, methyldopa), SLE-like, thrombocytopenia, and the gray-baby/serotonin-syndrome classics."
     },
     {
@@ -1716,7 +1716,7 @@
       ],
       "mechanismHeavy": false,
       "subsection": "Pharmacology — Toxicities and Adverse Effects",
-      "status": "pending",
+      "status": "complete",
       "productionRationale": "The neurologic adverse-reaction table — seizures (bupropion, INH, the withdrawn drugs), tremor/other movement disorders (tardive dyskinesia, Parkinsonism), headache, peripheral neuropathy (INH, vincristine, metronidazole), and the cognitive effects."
     },
     {

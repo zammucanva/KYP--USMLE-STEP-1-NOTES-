@@ -42,6 +42,11 @@ import { muscarinicAntagonists } from "./muscarinic-antagonists";
 import { sympatholyticsAlphaBlockers } from "./sympatholytics-alpha-blockers";
 import { betaBlockers } from "./beta-blockers";
 import { phosphodiesteraseInhibitors } from "./phosphodiesterase-inhibitors";
+import { seafoodPlantToxins } from "./seafood-plant-toxins";
+import { toxicityTreatments } from "./toxicity-treatments";
+import { drugReactionsEndocrine } from "./drug-reactions-endocrine";
+import { drugReactionsHematologic } from "./drug-reactions-hematologic";
+import { drugReactionsNeurologic } from "./drug-reactions-neurologic";
 import { atherosclerosis } from "./atherosclerosis";
 import { urinaryCasts } from "./urinary-casts";
 import { avConductionBlocks } from "./av-conduction-blocks";
@@ -254,6 +259,11 @@ export const usmleNotes: KypUsMLENote[] = [
   sympatholyticsAlphaBlockers,
   betaBlockers,
   phosphodiesteraseInhibitors,
+  seafoodPlantToxins,
+  toxicityTreatments,
+  drugReactionsEndocrine,
+  drugReactionsHematologic,
+  drugReactionsNeurologic,
   atherosclerosis,
   urinaryCasts,
   avConductionBlocks,

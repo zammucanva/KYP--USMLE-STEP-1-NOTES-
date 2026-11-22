@@ -1,0 +1,153 @@
+===== ph21 LIGHT-V2 (seafood-plant-toxins) =====
+**1) Full rendering:** Yes — all six toxin/organism panels in the "cards" section, all three poison tables (animal row: histamine, tetrodotoxin, ciguatoxin; plant row: ciguatoxin→ wait, plant row is ciguatera, anticholinergic, cardiac glycoside), and the bottom two plant blocks (aconitine, grayanotoxin) are fully visible. The three-column panels at top (histamine/SAS, sodium-channel, calcium-channel) also render completely. No clipped or missing blocks.
+
+**2) Text overlap/spill:** No overlaps detected. Text stays within its bordered containers. The arrow glyphs (→) in the top panels and inline text fit their lines. Footnote text at the bottom of each section is small but contained.
+
+**3) Connectors/glyphs:** No arrows or connector lines between blocks (the layout is card/table-based, not flowchart). Arrow characters (→) render correctly in text like "sodium-channel blockers →" — no tofu boxes or broken characters.
+
+**4) Readability:** Body text is legible. The very small footnote/legend lines (e.g., below the top summary box and under each section header, ~7–8px equivalent) are at the legibility floor — readable but strained. The pale pink highlight box "Tachycardia, decreased AV nodal conduction..." (histamine card, SYMPTOMS row) has light red text on pink — lower contrast, borderline.
+
+**5) Verdict: CLEAN**, with two minor notes: (a) tiny footnote text at legibility floor in multiple sections; (b) low-contrast red-on-pink symptom callout in the histamine card. Neither blocks comprehension.
+
+===== ph21 DARK (seafood-plant-toxins) =====
+**Review of the crop (dark theme, USMLE toxin/seafood/plant toxicity diagram):**
+
+1) **Panels/blocks fully rendered?** Yes. All three INTRO cards, all six SEATOOL/PLANT cards (BON1–BON6), the treatment column, and the footer legend are complete. Nothing is clipped at edges; the "Search" floating widget overlaps the right edge but is app UI, not diagram content.
+
+2) **Text overlap/spill?** No overlaps observed. All text sits within its card boundaries. The only concern: the floating "Search" pill (right side, ~y=815) overlaps the Carfum glucoside card region — but it's an app overlay, not SVG content.
+
+3) **Connectors/arrows?** This is a text/box layout, no arrows. No tofu boxes or broken glyphs; special characters (→, →→, β, Ca²⁺, etc.) render correctly.
+
+4) **Text readability?** Body text is legible with adequate contrast in dark theme. However, the smallest gray caption text (e.g., intro subtitle under "THE PRINTED INTRO", footnote line under the first section, and the long caption line at the very bottom) is very small and low-contrast gray-on-dark — near the legibility floor, though it's secondary content.
+
+5) **Verdict: CLEAN.** No functional defects. Only cosmetic notes: (a) small gray captions are near the legibility minimum, (b) the app's floating Search widget overlays the right-side plant cards (not a rendering defect of the SVG itself).
+
+===== ph22 LIGHT-V2 (toxicity-treatments) =====
+1) **All panels rendered?** Yes — all four family blocks, the QT-prolongation flow row, M–F drug blocks, red banner, four drug-reaction quadrants, and the four-move protocol row are fully visible with no clipping.
+
+2) **Text overlap/spill?** None observed. All labels sit inside their pills/boxes; the red "Remember your ABCDE" banner text is centered and contained.
+
+3) **Connectors/arrows?** Render correctly. Flow arrows between METATRACE → PROLONG QT NEURAL → EARLY INTERFIBRILLATION → TORSADES are clean black arrows with proper arrowheads; the bottom MOVE 1→2→3→4 row arrows also render fine. No tofu boxes or broken glyphs.
+
+4) **Text readability?** Fine overall. Near the legibility floor: the small gray secondary captions inside each block (e.g., drug mechanism sublines, footnotes under each family panel, and the two small gray footnote lines below the red banner) are very small and low-contrast — readable but borderline.
+
+5) **Verdict: CLEAN** — no functional defects; only minor note is the low-contrast micro-caption text (cosmetic, not a defect).
+
+===== ph22 DARK (toxicity-treatments) =====
+1) **Fully rendered?** Yes — all four rescue-family panels, the bradycardia row (M–F blocks), the drug-reaction quadrants, and the "BDZ..." footer chain are complete. No clipped or missing blocks.
+
+2) **Overlap/spill?** None visible. All text sits inside its bordered containers; small caption lines under headers don't collide with the pill blocks.
+
+3) **Connectors/arrows?** Correct. The bradycardia chain arrows (→ between the 4 sequence nodes) and the bottom "MOVE" chain arrows render as proper glyphs. No tofu boxes or broken characters.
+
+4) **Readability?** Mostly good. Near the legibility floor:
+- The small red/teal sub-labels inside family-1 pills (e.g., under "Arsenic", "Lead") are tiny and low-contrast against dark backgrounds.
+- Fine-print caption lines (e.g., "Every dose on this page...", source/footnote text at the very bottom) are very small and dim gray — borderline.
+
+5) **Verdict:** CLEAN structurally; minor cosmetic concerns only — micro-caption text in the bottom footnote area and tiny sub-labels in Family 1 pills are at the legibility floor but not broken.
+
+===== ph23 LIGHT-V2 (drug-reactions-endocrine) =====
+**1) Full rendering:** Yes — all panels render completely: four hormone-axis layer boxes, withdrawal timeline chain, the 3-column drug table (10 rows), second table block, and source footer. No clipped or missing blocks.
+
+**2) Overlap/spill:** None observed. Table cell text stays within columns; the search widget overlays the page edge but is app chrome, not the diagram.
+
+**3) Connectors/glyphs:** Timeline arrows (black arrowheads between CRH/ACTH/cortisol boxes, red arrow into ADRENAL CRISIS) all render with proper heads. The small "→" between the HYPERKALEMIA and HYPONATREMIA panels in LAYER 3 renders correctly. No tofu boxes or broken characters.
+
+**4) Readability:** Body and label text readable with good contrast. The faintest elements are the italic footnote lines (e.g., "the pager-only withdrawal-slide armor..." under LAYER 1, and small table footnotes like "far-published-array" entries) — near the legibility floor in size, though still legible on zoom.
+
+**5) Verdict:** **CLEAN** — only minor caveat: footnote/annotation micro-text is very small; consider bumping it a point or two, but no functional defects.
+
+===== ph23 DARK (drug-reactions-endocrine) =====
+**1) Fully rendered blocks?**
+Yes — all major panels render: header bar, "FOUR HORMONE AXES" card (Lanes 1–4), "WITHDRAWAL TIMELINE" flow, the drug table (DRUG REACTION / CAUSE & EFFECT / NOTE columns), second table block, and sources footer. No visibly cut-off or missing blocks.
+
+**2) Text overlap / spill / overlapping elements?**
+- No obvious text-on-text overlap detected.
+- The floating **Search pill (bottom right, ~x=1050–1090)** overlaps the note card at the right edge of the drug table ("The positive setting glance" row area) — this is an app UI overlay, not diagram content, but it does occlude part of that card.
+- Some very long inline strings (e.g., Lane 3 heading "…(one drug, both directions)", lane subtitle lines) run long but stay within containers.
+
+**3) Connectors/arrows and glyphs?**
+- Timeline arrows (→) between CHRONIC EXPOSURE → HEIGHTENED REACTANCE → THE LASHING OUTWARD render fine; solid red arrows into "ADRENAL VIRULENCE" (red box) render fine.
+- No tofu boxes or broken glyphs observed.
+
+**4) Text readability?**
+- Dark theme, generally good contrast for headings/labels.
+- **Near the floor:** the fine-print lines (grey/muted text) are very small — e.g., "high-hormone states pregnancy, hyperparathyroidism…", footnote lines under Lanes 1/3, timeline caption "Lassen-particle vessel…", table footnote rows, and the Sources & Removal footer. These are ~7–8px equivalents and are the legibility floor; the footer is borderline unreadable.
+- Low-contrast pairs worth flagging: dim red text on dark red panels (Lane 2 right card, "ADRENAL VIRULENCE" pill caption) and grey "no printed note" entries in the NOTE column.
+
+**5) Verdict:**
+**CLEAN apart from two minor defects:**
+1. App Search overlay pill occludes the right edge of the drug-table NOTE card (bottom right region) — UI overlay, not SVG defect.
+2. Fine-print caption/footnote text (multiple locations) is at/below comfortable legibility size, especially the Sources footer.
+
+===== ph24 LIGHT-V2 (drug-reactions-hematologic) =====
+**1) Fully rendered panels?**
+Yes — all blocks appear complete: 7 lineage rail cards (left), 7 drug reaction detail cards (right), the Gell–Coombs hypersensitivity section (trigger band, T cell-mediated row, 3 disease cards, drug-induced lupus card), musculoskeletal/skin column, sulfa strip timing row (5 boxes), and sources footer. No clipped or missing blocks.
+
+**2) Text overlap/spill?**
+No overlaps or spill detected. The "Search" pill at bottom right is a browser/app UI overlay, not part of the diagram — not a defect. Text is dense in some cards (e.g., DRESS, SJS/TEN) but stays within container bounds.
+
+**3) Connectors/characters?**
+Arrows from the 7 lineage cards to their right-hand panels render correctly with clean arrowheads. Vertical connector from the trigger band down to the T cell-mediated band, and its three branch connectors to the disease cards, are intact. No tofu boxes or broken glyphs.
+
+**4) Readability?**
+Good overall. Bold red "Two-syllable" mnemonic lines and bold triggers stand out well. The smallest gray fine-print lines (e.g., "Text must reach …" captions, sources footer, low-potency side notes in tiny red text like "…penicillin/gent …") are near the legibility floor in this render — readable but small (~6–7px equivalent). Low contrast gray-on-white for the caption lines, but acceptable.
+
+**5) Verdict: CLEAN.**
+Minor observations only: fine-print caption/footnote text is small and low-contrast (borderline legibility), and the Search widget is an app overlay outside the SVG. No rendering defects in the diagram itself.
+
+===== ph24 DARK (drug-reactions-hematologic) =====
+# Review
+
+**1) All panels/blocks fully rendered?**
+Yes. All seven left-side drug blocks, all seven right-side detail panels, the SJS/TEN section (banner, Type IV row, three subtype cards, DRESS row), the right-side musculoskeletal panel, and the bottom sulfa drugs strip are all complete — no clipping or missing blocks.
+
+**2) Text overlap / spill / overlapping elements?**
+No overlaps between the SVG's own elements. The only occlusion is **not part of the diagram**: the app's floating "Search" pill overlaps the right edge of the musculoskeletal panel (~y≈815), partially covering the end of the "VINCRISTINE" description text. This is a UI-layer artifact, not a diagram defect.
+
+**3) Connectors/arrows and glyphs?**
+Render correctly. Straight connector arrows from each left drug block to its right panel are present and aligned. The SJS/TEN hierarchy (banner → vertical drop → T-cell mediation bar → three branches) renders cleanly. No tofu boxes or broken characters.
+
+**4) Text readability?**
+Mostly good: teal left-panel headers, white panel titles, and red/orange warning text are all legible. Near the legibility floor:
+- **Fine-print meta text** at the top of section 1 and bottom footnotes (gray-on-dark, ~7–8px) — readable at zoom, small at native size.
+- **Dim gray secondary/italic lines** inside right panels and the bottom 5 drug chips ("sulfonamide resin", etc.) are low-contrast gray at very small size.
+- Right-panel row headers (e.g., "TYPE I HYPERSENSITIVITY") in orange are small but acceptable.
+
+**5) Verdict: CLEAN** (within the SVG itself). Sole note: the app's Search floating button occludes a small sliver of the right panel's text — a UI overlay issue, not a diagram rendering defect.
+
+===== ph25 LIGHT-V2 (drug-reactions-neurologic) =====
+1) **Panel rendering:** Mostly complete, but the crop/page ends abruptly — the final "ROUTE: EVERY REACTION TO THE PATHWAY" block and the footer/source-text section are cut off at the bottom edge (footer lines clipped mid-text). Everything above is fully rendered.
+
+2) **Text overlap/spill:** No overlaps detected. Some footer text lines appear to run full-width and get clipped by the container bottom edge, but nothing overlaps another element. There is a floating "Search" pill overlapping content on the right side (~y=814) — that's app UI, not the SVG itself, but it does sit on top of the diagram area.
+
+3) **Connectors/arrows:** Good. The top diagram's branching arrows (drug class → two syndrome boxes) render cleanly with proper arrowheads. The bottom protocol row's arrow glyphs between MOVE 1–4 steps render correctly — no tofu boxes or missing glyphs.
+
+4) **Readability:** Body text is legible, but several items sit near the floor:
+- Right-column annotations in Table 1 (e.g., red italic one-liners like "Can: 4th sure ptoid is je je her (what") and footer citation lines are very small (~7–8px equivalent).
+- Small caption text in the seizure-threshold boxes and the membrane-axion box (tan/orange pill, low-contrast dark text on pale orange) is borderline.
+- Dark-orange bar in "THE SEIZURE THRESHOLD" has very low contrast between label text and fill if any text sits on it.
+
+5) **Verdict:** Not CLEAN. Defects:
+- Bottom edge clipping: footer "Sources & sexuals…" text lines cut off mid-line.
+- Floating Search button overlapping the SVG's right side near the "PERIPHERAL AXION" box.
+- Minor: sub-8px annotation text in Table 1 right column and footer — near legibility floor; recommend enlarging or ensuring no critical content lives there.
+
+===== ph25 DARK (drug-reactions-neurologic) =====
+**1) Fully rendered blocks?**
+Yes — all panels (Table 1, Tables 2–4, side-effect boxes, MC blocks, 4-step flow at bottom) are present and complete; nothing clipped or missing.
+
+**2) Overlap/spill?**
+No overlaps or spillage detected. The "Search" pill (right edge, ~y=815) is an app UI overlay, not part of the SVG — it sits over whitespace, so no content is obscured.
+
+**3) Connectors/arrows?**
+Arrows render correctly: the two arrows from the "extrapyramidal axis" panel to the two red-bordered boxes, and the three arrows in the bottom 4-step flow. No tofu boxes or broken glyphs.
+
+**4) Readability?**
+Overall good contrast and adequate sizes on headers and body text. Some very small, low-contrast items sit near the legibility floor:
+- Table 1 right-column annotations (e.g., "TTS so they extend cross the...", "Granules and Cl- channel...") — small, dim green/red text.
+- Top-right footer/source lines at the very bottom of the crop — small dim text on dark background.
+- "Mn ≤4 if right shift" note near the seizure slider — tiny.
+
+**5) Verdict: CLEAN.**
+No rendering defects. Only minor concern is a few very small low-contrast annotation texts near the legibility floor (Table 1 right-column notes, footer lines) — worth bumping font size/contrast slightly, but not defects.

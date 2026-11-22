@@ -1,0 +1,269 @@
+{
+  "topicId": "seafood-plant-toxins",
+  "title": "Ingested Seafood & Plant Toxins",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Toxicities and Adverse Effects",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      268
+    ],
+    "bookPages": "246–246"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the header banner (book page 246), the 'SEC TION II' extraction artifact, the PHARMACOLOGY header, the twice-printed subsection banner 'PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS', and the 'Ingested seafood toxins' subsection heading (the cache prints the section header as 'SEC TION II' and the banner twice — both known extraction artifacts, carried as-is)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "246\n\nSEC TION II\n\nPHARMACOLOGY\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\nIngested seafood\ntoxins",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The seafood subsection's introductory sentence, verbatim — 'Toxin actions include histamine release, total block of Na+ channels, or opening of Na+ channels to cause depolarization.' First Aid prints the initial letters h/t/c in RED — its own mnemonic for Histamine, Tetrodotoxin (total block), Ciguatoxin (causes depolarization) — carried attributed, not counted among the four KYP mnemonics",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Toxin actions include histamine release, total block of Na+ channels, or opening of Na+ channels to\ncause depolarization.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The seafood table's five column headers — TOXIN / SOURCE / ACTION / SYMPTOMS / TREATMENT",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "TOXIN\n\nSOURCE\n\nACTION\n\nSYMPTOMS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SEAFOOD ROW 1 (printed first) — Histamine (scombroid poisoning): spoiled dark-meat fish such as tuna, mahi-mahi, mackerel, and bonito; bacterial histidine decarboxylase converts histidine to histamine; 'Frequently misdiagnosed as fish allergy' prints INSIDE this ACTION cell (VLM-adjudicated); mimics anaphylaxis: oral burning sensation, facial flushing, erythema, urticaria, itching; may progress to bronchospasm, angioedema, hypotension; antihistamines; Albuterol +/– epinephrine (the printed en dash)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Histamine\n(scombroid\npoisoning)\n\nSpoiled dark-meat\nfish such as tuna,\nmahi-mahi,\nmackerel, and\nbonito\n\nBacterial histidine\ndecarboxylase converts\nhistidine to histamine\nFrequently\nmisdiagnosed as fish\nallergy\n\nMimics anaphylaxis: oral\nburning sensation, facial\nflushing, erythema,\nurticaria, itching; may\nprogress to bronchospasm,\nangioedema, hypotension\n\nAntihistamines\nAlbuterol +/–\nepinephrine",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SEAFOOD ROW 2 (printed second) — Tetrodotoxin: pufferfish; binds fast voltage-gated Na+ channels in nerve tissue, preventing depolarization; nausea, diarrhea, paresthesias, weakness, dizziness, loss of reflexes; supportive. NOTE: no shellfish/saxitoxin row prints on this page (VLM-confirmed) — the batch content map expected one; whatever rows print governs",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Tetrodotoxin\n\nPufferfish\n\nBinds fast voltage-gated\nNa+ channels in nerve\ntissue, preventing\ndepolarization\n\nNausea, diarrhea,\nparesthesias, weakness,\ndizziness, loss of reflexes\n\nSupportive",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "SEAFOOD ROW 3 (printed third) — Ciguatoxin: reef fish such as barracuda, snapper, and moray eel; opens Na+ channels, causing depolarization; nausea, vomiting, diarrhea, perioral numbness, reversal of hot and cold sensations, bradycardia, heart block, hypotension; supportive",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Ciguatoxin\n\nReef fish such as\nbarracuda, snapper,\nand moray eel\n\nOpens Na+ channels,\ncausing depolarization\n\nNausea, vomiting, diarrhea,\nperioral numbness,\nreversal of hot and cold\nsensations, bradycardia,\nheart block, hypotension\n\nSupportive",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The 'Plant toxins' subsection heading + the table's REPEATED five column headers (TOXIN / SOURCE / ACTION / SYMPTOMS / TREATMENT) — the lone '+' on cache line 92 is the displaced superscript + of the Grayanotoxin 'Na+ channels' (adjudicated below); the print carries 'Opens voltage-gated Na+ channels'",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Plant toxins\nTOXIN\n\nSOURCE\n\nACTION\n+\n\nSYMPTOMS\n\nTREATMENT",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLANT ROW 1 (printed first) — Grayanotoxin: Rhododendron nectar ('mad honey', curly quotes in print); opens voltage-gated Na+ channels → prolonged depolarization → ↑ vagal tone; nausea, vomiting, dizziness, bradycardia, hypotension; supportive care (IV fluids, atropine if severe bradycardia). CACHE INTERLEAVE: this row's SYMPTOMS + TREATMENT cells extract BEFORE its TOXIN name — the quote carries the cache lines as-is, adjudicated to the printed cells via the VLM render; the '+' of 'Na+' is displaced to cache line 92",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Nausea, vomiting,\ndizziness, bradycardia,\nhypotension\n\nSupportive care (IV\nfluids, atropine if severe\nbradycardia)\n\nGrayanotoxin\n\nRhododendron\nnectar\n(“mad honey”)\n\nOpens voltage-gated Na\nchannels → prolonged\ndepolarization → ↑\nvagal tone",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLANT ROW 2 (printed second) — Aconitine alkaloids: Aconitum (monkshood, wolfsbane); activates Na+ channels (site 2) → delayed inactivation → sustained Na+ influx → ventricular arrhythmias; paresthesias, hypotension, ventricular tachyarrhythmias, cardiac arrest; supportive, lidocaine or amiodarone for arrhythmia; avoid class IA/III agents. CACHE INTERLEAVE: the ACTION and SYMPTOMS cells interleave line-by-line in this quote — carried as-is, adjudicated via the VLM render",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Aconitine\nalkaloids\n\nAconitum\n(monkshood,\nwolfsbane)\n\nActivates Na+ channels\nParesthesias,\n(site 2) → delayed\nhypotension, ventricular\ninactivation → sustained\ntachyarrhythmias,\nNa+ influx → ventricular\ncardiac arrest\narrhythmias\n\nSupportive, lidocaine\nor amiodarone for\narrhythmia; avoid class\nIA/III agents",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLANT ROW 3 (printed third) — Cardiac glycosides: Digitalis purpurea, Nerium oleander; inhibits Na+/K+-ATPase → ↑ intracellular Na+ → ↑ Na+/Ca²+ exchanger → ↑ Ca²+ → ↑ vagal tone, ectopy; GI upset, visual disturbances (xanthopsia), AV block, arrhythmias; digoxin-specific Fab, atropine for bradycardia, correct K+/Mg²+ (superscripts merge as printed unicode in the cache)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Cardiac\nglycosides\n\nDigitalis purpurea,\nNerium oleander\n\nInhibits Na+/K+-ATPase\n→ ↑ intracellular Na+ →\n↑ Na+/Ca²+ exchanger\n→ ↑ Ca²+ → ↑ vagal\ntone, ectopy\n\nGI upset, visual\ndisturbances\n(xanthopsia), AV block,\narrhythmias\n\nDigoxin-specific Fab,\natropine for bradycardia,\ncorrect K+/Mg²+",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLANT ROW 4 (printed fourth) — Coniine (hemlock): Conium maculatum (poison hemlock); nicotinic ACh receptor agonist/antagonist → depolarizing blockade → flaccid paralysis; ascending paralysis, respiratory failure, salivation; supportive (respiratory support); activated charcoal early. CACHE INTERLEAVE: the SOURCE and ACTION cells interleave ('Conium maculatum Nicotinic ACh receptor' merges on one line) — carried as-is, adjudicated via the VLM render",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Coniine\n(hemlock)\n\nConium maculatum Nicotinic ACh receptor\n(poison hemlock)\nagonist/antagonist →\ndepolarizing blockade\n→ flaccid paralysis\n\nAscending paralysis,\nrespiratory failure,\nsalivation\n\nSupportive (respiratory\nsupport); activated\ncharcoal early",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "PLANT ROW 5 (printed fifth) — Atropine/scopolamine: Atropa belladonna, Datura stramonium ('jimsonweed', curly quotes in print); anticholinergic toxidrome: dry mouth, mydriasis, hyperthermia, delirium; physostigmine (AChE inhibitor), cooling, fluids. NOTE: no ricin / cyanogenic / water-hemlock rows print on this page (VLM-confirmed) — the batch content map expected them; whatever rows print governs. This row's ACTION cell ('Muscarinic ACh receptor antagonist') is displaced to AFTER the footer in the cache — quoted with the footer below",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "Atropine/\nscopolamine\n\nAtropa belladonna,\nDatura\nstramonium\n(“jimsonweed”)\n\nAnticholinergic\ntoxidrome: dry\nmouth, mydriasis,\nhyperthermia, delirium\n\nPhysostigmine (AChE\ninhibitor), cooling,\nfluids",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug + the displaced Atropine/scopolamine ACTION cell + the timestamp — 'FAS1_2026_05-Pharmacology.indd 246' / 'Muscarinic ACh receptor antagonist' / '12/19/25 8:07 AM' (page identity, book 246; the action cell extracts after the footer in the cache layer — carried as-is, adjudicated via the VLM render)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          268
+        ],
+        "bookPages": "246"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 246\n\nMuscarinic ACh receptor\nantagonist\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "seafood-plant-toxin-map"
+  ],
+  "mechanismIds": [
+    "seafood-toxin-target-map",
+    "plant-toxin-target-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed tables — 4 patterns (scombroid's anaphylaxis mimic, tetrodotoxin's silenced nerve, ciguatoxin's hot/cold reversal, the mad-honey-vs-jimsonweed autonomic fork), 4 traps (scombroid vs true IgE fish allergy, tetrodotoxin-block vs ciguatoxin-open, grayanotoxin vs cardiac glycosides, coniine-nicotinic vs atropine/scopolamine-muscarinic), 3 pivots, 8 recall cards — with the treatment column additionally dissected in the exam callout and the drug cards.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the tables' facts only; the attack structure, the distractor designs, and the target-routing discipline are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "target-routing-protocol",
+      "summary": "The three-move reading protocol (NAME THE TARGET → PREDICT THE SYMPTOMS FROM THE TARGET'S PHYSIOLOGY → LET THE ANTIDOTE FOLLOW THE TARGET), including the Na+ channel fork framing (total block vs opening) and the observation that the molecular target — never the fish or plant name — is the answer key for mechanism, symptom, and treatment questions alike.",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints two parallel tables and never asks the learner to route a stem through target → physiology → antidote; the protocol and the fork framing are KYP's synthesis.",
+      "location": "core.keyIdea + blocks[4] the steps block + the registry visual's fork band"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (PUFFER BLOCKS, REEF OPENS, SPOILED POURS / MAD HONEY, MAD VAGUS / SITE 2 SUSTAINS THE STORM / NICOTINIC PARALYZES, MUSCARINIC DRIES). No mnemonic prints in the page's margins; First Aid's own RED mnemonic furniture — the intro sentence's initial letters h/t/c and the red first letters H/T/C on the seafood toxin names — is carried ATTRIBUTED inside the note and is NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin mnemonic prints anywhere on pdf 268 (pdfimages + VLM census, staging-ph21/vlm-census.txt); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's panel footers"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The five DrugCards for the printed treatment agents (physostigmine, atropine-as-antidote, digoxin-specific Fab, activated charcoal, antihistamines + albuterol +/– epinephrine) — one card per antidote lane, each traced to the TREATMENT cell that prints it. Convention, documented: the page prints no adverse-effects column for these agents, so each card's adverse field is explicitly labeled 'Not printed on book 246' and states the general pharmacology (e.g., physostigmine's cholinergic excess, Fab's hypokalemia) rather than implying a printed source.",
+      "origin": "outside-first-aid",
+      "rationale": "The source organizes treatments as table cells, not as drug cards; the card layer is a KYP presentation — every mechanism/uses string quotes the printed treatment cell, and the adverse fields are flagged as outside the print.",
+      "location": "drugs"
+    },
+    {
+      "id": "maoi-scombroid-extension",
+      "summary": "The MAOI–scombroid interaction note: patients on MAO inhibitors can have exaggerated scombroid reactions because ingested amines are normally cleared by oxidative deamination. This is a KYP extension that does NOT print on book 246 — it is carried in exactly three clearly-labeled places (one trap's clue, one crossLink, and the visual's warning band, each labeled 'KYP extension (not printed on book 246)') and is never presented as printed content.",
+      "origin": "outside-first-aid",
+      "rationale": "The batch content map expected the scombroid–MAOI interaction on this page, but no MAOI text prints on pdf 268 (VLM-confirmed); the interaction is real toxicology teaching, so it is carried as clearly-labeled KYP extension knowledge rather than fabricated print.",
+      "location": "usmle.traps[0].clue + crossLinks[2] + the visual's KYP-extension warning band"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL page (both subsections): pdf 268 / book 246 carries 'Ingested seafood toxins' (top) and 'Plant toxins' (bottom) — the topic owns the WHOLE page. CENSUS (pdfimages): ZERO raster images — the page is section furniture + one intro sentence + TWO five-column tables (the header row REPEATS over the plant table) + the indd footer. VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v pass (staging-ph21/vlm-census.txt) confirmed BOTH tables' printed row order, the in-cell placement of 'Frequently misdiagnosed as fish allergy' (inside the Histamine row's ACTION cell), the color furniture (light-blue TOXIN column, teal toxin names with red first letters H/T/C, red h/t/c intro letters), and the absence of margin mnemonics; a second pass was not needed — the cache-layer interleaves were adjudicated deterministically against the VLM render (documented in vlm-census.txt and in the evidence claims). ROW-ORDER FINDINGS, documented: (1) the seafood table prints THREE rows — Histamine (scombroid poisoning) → Tetrodotoxin → Ciguatoxin; the batch content map expected a shellfish/saxitoxin row, but NO shellfish row prints on pdf 268 (VLM-confirmed); whatever rows print governs. (2) The plant table prints FIVE rows — Grayanotoxin → Aconitine alkaloids → Cardiac glycosides → Coniine (hemlock) → Atropine/scopolamine; NO ricin / cyanogenic / water-hemlock rows print (VLM-confirmed). (3) Tetrodotoxin prints BEFORE Ciguatoxin. CACHE QUIRKS, documented (evidence quotes quote the cache lines AS-IS per the pinned-layer verification convention; norm() strips 0x80-0x9f control characters before containment): the Grayanotoxin row's SYMPTOMS/TREATMENT cells extract before its TOXIN name; the Aconitine row's ACTION/SYMPTOMS cells interleave line-by-line; the Coniine row's SOURCE/ACTION cells interleave ('Conium maculatum Nicotinic ACh receptor' on one line); the Atropine/scopolamine row's ACTION cell extracts after the footer slug; a lone '+' on cache line 92 is the displaced superscript + of Grayanotoxin's 'Na+ channels' (the note's verbatim table restores the + per the print); superscripts merge as printed unicode (Na+/K+-ATPase, Na+/Ca²+, K+/Mg²+); 'Albuterol +/– epinephrine' prints with an en dash; 'mad honey' and 'jimsonweed' print with curly quotes; 'SEC TION II' is the header-space extraction artifact; the subsection banner prints twice in the cache (lines 7 and 9). First Aid's own RED mnemonic text (the h/t/c letters and the H/T/C toxin initials) is carried ATTRIBUTED and is NOT counted among the four KYP mnemonics. CONVENTIONS, documented: (1) the batch convention targets are met — 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (muscarinic-antagonists, acetylcholine-receptors, cholinomimetics, sympathomimetics — all verified to exist in notes/), 4 crossLinks, 4 KYP mnemonics, 5 DrugCards, a miniCase with 4 options (exactly 1 correct, why on every option), and BOTH tables carried verbatim as table blocks; the note is 740 lines and the visual 281, within the brief's 600-750 / 250-400 budgets; (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-ph21/ — nothing is written into content/ (chapters, content manifests, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'seafood-plant-toxin-map' is therefore not yet in visuals/registry.tsx by design); (4) the page's TWO visual assets (the two color-coded tables) are BOTH implemented as ORIGINAL KYP ART in ONE registry visual (seafood-plant-toxin-map, SeafoodPlantToxinMap in visuals/pharm-p21.tsx — the intro-sentence three-action fork, the three seafood row cards and five plant row cards in printed order each tagged with its molecular target, and the antidote column with the AVOID CLASS IA/III warning band plus the clearly-labeled MAOI KYP-extension band); both tables' text is ALSO carried verbatim in the note's table blocks (blocks[1] and blocks[2]).",
+  "updatedAt": "2026-11-22"
+}

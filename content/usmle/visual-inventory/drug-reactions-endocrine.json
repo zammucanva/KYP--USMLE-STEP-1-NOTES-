@@ -1,0 +1,73 @@
+{
+  "topicId": "drug-reactions-endocrine",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-endocrine",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-endocrine-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          270
+        ],
+        "bookPages": "248"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The endocrine/reproductive drug-reactions table (book 248): nine adverse reactions across four hormone axes (HPA, sex-steroid, thyroid, water/glucose), each with its causal agents and notes",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph23/vlm-census.txt — VLM available this session): three columns (DRUG REACTION / CAUSAL AGENTS / NOTES) with nine rows in printed order — [1] Adrenocortical insufficiency: HPA suppression secondary to chronic exogenous glucocorticoid use / abrupt withdrawal of exogenous glucocorticoids leads to adrenal crisis; [2] Diabetes insipidus: Lithium, demeclocycline (empty notes); [3] Gynecomastia: Ketoconazole, cimetidine, spironolactone, GnRH analogs/antagonists, androgen receptor inhibitors, 5α-reductase inhibitors (empty notes); [4] Hot flashes: SERMs (eg, tamoxifen, clomiphene, raloxifene) (empty notes); [5] Hyperglycemia: Tacrolimus, protease inhibitors, niacin, HCTZ, glucocorticoids + red mnemonic 'The people need High glucose'; [6] Hyperprolactinemia: typical antipsychotics (eg, haloperidol), atypical antipsychotics (eg, risperidone), metoclopramide, methyldopa, verapamil / presents with hypogonadism (eg, infertility, amenorrhea, erectile dysfunction) and galactorrhea; [7] Hyperthyroidism: Amiodarone, iodine, lithium (empty notes); [8] Hypothyroidism: Amiodarone, lithium + red mnemonic 'I am lethargic'; [9] SIADH: Carbamazepine, Cyclophosphamide, SSRIs + red mnemonic 'Can’t Concentrate Serum Sodium'. The endocrine table's text layer reads cleanly row-by-row (no interleaving); no figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-endocrine-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual (DrugReactionEndocrineMap in visuals/pharm-p23.tsx — the four hormone-axis routing lanes [HPA / sex-steroid with its three levers / thyroid with amiodarone+lithium both directions / water-glucose with the ADH direction arrow and the diabetogenic list], the glucocorticoid withdrawal timeline ending in the ADRENAL CRISIS band with the taper escape, and the endocrine table verbatim in PRINTED row order with the red in-cell mnemonics flagged); the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-endocrine-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-endocrine",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-endocrine-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          270
+        ],
+        "bookPages": "248"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The gastrointestinal drug-reactions table (book 248, the page's SECOND table — owned by this note per the whole-page assignment): eight GI adverse reactions with their causal agents, three red in-cell mnemonics, and the esophagitis/pseudomembranous notes",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero; VLM-read at 120dpi): three columns (DRUG REACTION / CAUSAL AGENTS / NOTES) with eight rows in printed order — [1] Acute cholestatic hepatitis, jaundice: Macrolides (eg, erythromycin); [2] Constipation: Antimuscarinics (eg, atropine), antipsychotics, opioids, non-dihydropyridine CCBs, ranolazine, amiodarone, aluminum hydroxide, loperamide, 5HT3 receptor antagonist (ondansetron), vincristine; [3] Diarrhea: Acamprosate, antidiabetic agents (acarbose, metformin, pramlintide), colchicine, cholinesterase inhibitors, lipid-lowering agents (eg, ezetimibe, orlistat), macrolides (eg, erythromycin), SSRIs, chemotherapy (eg, irinotecan); [4] Focal to massive hepatic necrosis: Amanita phalloides (death cap mushroom), valproate, acetaminophen; [5] Hepatitis: Isoniazid, rifampin, pyrazinamide, statins, fibrates + red mnemonic 'I referred patient serum (AST, ALT) for hepatitis' (bbox-adjudicated to this row's NOTES cell); [6] Pancreatitis: Diuretics (eg, furosemide, HCTZ), glucocorticoids, alcohol, valproate, azathioprine + red mnemonic 'Drugs generate a violent abdominal distress'; [7] Medication-induced esophagitis: Potassium chloride, NSAIDs, bisphosphonates, ferrous sulfate, tetracyclines + red mnemonic 'Pills Not beneficial for food tube' printed INSIDE the causal-agents column below the drug list (bbox x=181.5) / NOTES: usually occurs at anatomic sites of esophageal narrowing (eg, near level of aortic arch); caustic effect minimized with upright posture and adequate water ingestion; [8] Pseudomembranous colitis: Ampicillin, cephalosporins, clindamycin, fluoroquinolones, PPIs / NOTES: Antibiotics predispose to superinfection by resistant C difficile. Text-layer quirks (bbox-adjudicated, documented in vlm-census.txt): the GI 'NOTES' column header and the hepatitis mnemonic displace to AFTER the footer; the pancreatitis mnemonic interleaves between the two causal-agent lines.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-endocrine-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's GI strip (DrugReactionEndocrineMap in visuals/pharm-p23.tsx — 'The page's second table' zone: the eight rows with their causal agents, the three red mnemonics flagged, and the SSRIs-print-on-both-tables note); the table's full text is ALSO carried verbatim in the note's table block (blocks[6]), core.what, and the memory callout",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-endocrine-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-reactions-endocrine",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's TWO visual assets — the color-coded endocrine/reproductive table (nine rows, three columns, three red in-cell mnemonics, four empty notes cells) and the color-coded gastrointestinal table (eight rows, three red in-cell mnemonics, the esophagitis mnemonic printed inside the causal-agents column) — are both accounted for as ORIGINAL KYP ADAPTATIONS: nothing is reproduced; the single registry visual drug-reaction-endocrine-map (DrugReactionEndocrineMap in visuals/pharm-p23.tsx) rebuilds both tables' every label, causal-agent list, note, and in-cell mnemonic as original KYP vector art (the four hormone-axis routing lanes, the glucocorticoid withdrawal timeline with the adrenal-crisis band, the endocrine table verbatim in printed row order, and the GI strip), and both tables' text is additionally carried verbatim in the note's table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v pass (vlm-census.txt) confirmed the printed row orders, the empty notes cells, the six in-cell mnemonics and their rows, and the absence of margin mnemonics; the remaining disputes (the hepatitis mnemonic's row, the pancreatitis mnemonic's interleaving, the esophagitis mnemonic's column, 'ranolazine' vs the VLM's 'tcnolazine') were adjudicated deterministically with pdftotext -bbox word coordinates, documented in vlm-census.txt. PAGE-SHARE: the page holds both tables (the batch brief described one); both are owned by this note per the chapter plan, which assigns book 248 solely to drug-reactions-endocrine with no GI topic anywhere in the plan. STAGED under .usmle-pipeline-cache/staging-ph23/ — promotion into content/ is owned downstream."
+}

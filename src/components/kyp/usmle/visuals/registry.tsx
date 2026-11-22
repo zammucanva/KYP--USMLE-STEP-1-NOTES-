@@ -51,6 +51,11 @@ import { MuscarinicAntagonistMap } from "./pharm-p17";
 import { SympatholyticAlphaMap } from "./pharm-p18";
 import { BetaBlockerMap } from "./pharm-p19";
 import { PdeInhibitorMap } from "./pharm-p20";
+import { SeafoodPlantToxinMap } from "./pharm-p21";
+import { AntidoteMap } from "./pharm-p22";
+import { DrugReactionEndocrineMap } from "./pharm-p23";
+import { DrugReactionHematologicMap } from "./pharm-p24";
+import { DrugReactionNeurologicMap } from "./pharm-p25";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -193,6 +198,11 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "sympatholytic-alpha-map": SympatholyticAlphaMap,
   "beta-blocker-map": BetaBlockerMap,
   "pde-inhibitor-map": PdeInhibitorMap,
+  "seafood-plant-toxin-map": SeafoodPlantToxinMap,
+  "antidote-map": AntidoteMap,
+  "drug-reaction-endocrine-map": DrugReactionEndocrineMap,
+  "drug-reaction-hematologic-map": DrugReactionHematologicMap,
+  "drug-reaction-neurologic-map": DrugReactionNeurologicMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,

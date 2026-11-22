@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedAt": "2026-11-20T01:13:52Z",
+  "generatedAt": "2026-11-22T04:34:09Z",
   "sourceBook": "First Aid for the USMLE Step 1 2026",
   "book": {
     "parts": [
@@ -267,12 +267,12 @@
   "counts": {
     "chaptersRegistered": 9,
     "chaptersExtracted": 5,
-    "topicsProduced": 165,
+    "topicsProduced": 170,
     "topicsByStatus": {
       "planned": 0,
       "inventory": 0,
       "in-production": 0,
-      "pilot-complete": 110,
+      "pilot-complete": 115,
       "chapter-complete": 55,
       "blocked": 0,
       "failed": 0
@@ -329,8 +329,8 @@
       "part": 1,
       "extractionStatus": "extracted",
       "topicsRegistered": 29,
-      "topicsProduced": 21,
-      "topicsRemaining": 8,
+      "topicsProduced": 26,
+      "topicsRemaining": 3,
       "qaStatus": "pass",
       "completedAt": null
     },
@@ -1282,6 +1282,51 @@
       "kypExtensionCount": 4,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-11-19"
+    },
+    {
+      "topicId": "drug-reactions-endocrine",
+      "title": "Drug Reactions: Endocrine & Reproductive",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 270 (book 248–248)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "drug-reactions-hematologic",
+      "title": "Drug Reactions: Hematologic",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 271 (book 249–249)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
+      "topicId": "drug-reactions-neurologic",
+      "title": "Drug Reactions: Neurologic",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 272 (book 250–250)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "efficacy-potency",
@@ -2454,6 +2499,21 @@
       "updatedAt": "2026-10-21"
     },
     {
+      "topicId": "seafood-plant-toxins",
+      "title": "Ingested Seafood & Plant Toxins",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 268 (book 246–246)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
+    },
+    {
       "topicId": "sorbitol-pathway",
       "title": "Sorbitol Pathway (Polyol Route)",
       "chapterId": "biochemistry",
@@ -2632,6 +2692,21 @@
       "kypExtensionCount": 3,
       "mnemonicStatus": "authored",
       "updatedAt": "2026-10-27"
+    },
+    {
+      "topicId": "toxicity-treatments",
+      "title": "Specific Toxicity Treatments: The Antidote Table",
+      "chapterId": "pharmacology",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "productionStatus": "pilot-complete",
+      "qaGatesPassed": 15,
+      "qaGatesTotal": 15,
+      "sourcePages": "Part 1 pdf 269 (book 247–247)",
+      "visualCount": 1,
+      "mechanismCount": 2,
+      "kypExtensionCount": 5,
+      "mnemonicStatus": "authored",
+      "updatedAt": "2026-11-22"
     },
     {
       "topicId": "translation-protein-synthesis",

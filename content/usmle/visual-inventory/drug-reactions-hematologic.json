@@ -1,0 +1,73 @@
+{
+  "topicId": "drug-reactions-hematologic",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-hematologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-hematologic-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The hematologic drug-reaction table (book 249, top of page): eight rows pairing a drug reaction with its causal agents and notes/mnemonics",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph24/vlm-census.txt — VLM available this session, one pass + a deterministic PyMuPDF span adjudication): three columns (DRUG REACTION / CAUSAL AGENTS / NOTES), eight rows in printed alphabetical order — [1] Agranulocytosis | Dapsone, clozapine, carbamazepine, propylthiouracil, methimazole, ganciclovir, colchicine | red mnemonic 'Drugs can cause pretty major granulocytes collapse'; [2] Aplastic anemia | Carbamazepine, methimazole, NSAIDs, benzene, chloramphenicol, propylthiouracil | red mnemonic 'Can't make New blood cells properly'; [3] Direct Coombs ⊕ hemolytic anemia | Penicillin, cephalosporins, methyldopa | red mnemonic 'Pooh classically munches on honey Coombs'; [4] Drug Reaction with Eosinophilia and Systemic Symptoms (D-R-E-S-S in red inside the label) | Phenytoin, carbamazepine, minocycline, sulfa drugs, allopurinol, vancomycin | black note 'T cell-mediated hypersensitivity reaction. Also known as drug-induced hypersensitivity syndrome (DIHS)' + red mnemonic 'DRESSes partially cover my skin and viscera'; [5] Hemolysis in G6PD deficiency | Sulfonamides, dapsone, primaquine, aspirin, nitrofurantoin | NOTES cell EMPTY; [6] Megaloblastic anemia ('Mega blast' in red inside the label) | Hydroxyurea, Phenytoin, Methotrexate, Sulfa drugs (initials capitalized) | red mnemonic 'You're having a mega blast with PMS'; [7] Thrombocytopenia | Heparin, quinidine, ganciclovir, vancomycin, linezolid | NOTES cell EMPTY; [8] Thrombotic complications | Combined oral contraceptives, hormone replacement therapy, SERMs Testosterone supplements, epoetin alfa (no comma after 'SERMs') | black note 'Estrogen-mediated ↑ blood viscosity and platelet accumulation'. Red acrostic letters inside the causal-agent cells key each mnemonic; no figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-hematologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone A (DrugReactionHematologicMap in visuals/pharm-p24.tsx — the hematopoietic lineage rail: pluripotent stem cell / granulocyte precursors / erythroid DNA synthesis / megakaryocyte line / circulating RBC (oxidant + immune docks) / plasma-endothelium, with seven of the eight rows docked to their stage and the eighth (DRESS) docked in the sulfa-hypersensitivity axis) plus the sulfa-five-strikes band; the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-hematologic-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "drug-reactions-hematologic",
+      "requiredInKYP": true,
+      "visualId": "drug-reactions-hematologic-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          271
+        ],
+        "bookPages": "249"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The musculoskeletal/skin/connective-tissue drug-reaction table (book 249, bottom of page): eleven rows pairing a drug reaction with its causal agents and notes/mnemonics",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi + PyMuPDF span adjudication, staging-ph24/vlm-census.txt): three columns (DRUG REACTION / CAUSAL AGENTS / NOTES), eleven rows in printed order — [1] Drug-induced lupus | Hydralazine, procainamide, quinidine | NOTES cell EMPTY; [2] Fat redistribution | Protease inhibitors, glucocorticoids | red mnemonic 'Fat protects glutes'; [3] Gingival hyperplasia | Cyclosporine, Ca2+ channel blockers (true superscript 2+), phenytoin | red mnemonic 'Can Cause puffy gums'; [4] Hyperuricemia (gout) | Pyrazinamide, thiazides, furosemide, niacin, cyclosporine | red mnemonic 'Painful tophi and feet need care'; [5] Malignant hyperthermia | Inhaled anesthetics (eg, isoflurane), succinylcholine | black note 'Individuals with ryanodine receptor mutation; antidote is dantrolene'; [6] Myopathy | Statins, fibrates, niacin, colchicine, daptomycin, hydroxychloroquine, interferon-α, penicillamine, glucocorticoids | NOTES cell EMPTY; [7] Osteoporosis | Glucocorticoids, depot medroxyprogesterone acetate, GnRH agonists, aromatase inhibitors, anticonvulsants, heparin, PPIs | NOTES cell EMPTY; [8] Photosensitivity | Sulfonamides, amiodarone, tetracyclines, fluoroquinolones | red mnemonic 'Sat for photo'; [9] Rash (Stevens-Johnson syndrome) ('Steven Johnson' in red inside the label) | Anti-epileptic drugs (especially lamotrigine), allopurinol, sulfa drugs, penicillin | red mnemonic 'Steven Johnson has epileptic allergy to sulfa drugs and penicillin'; [10] Teeth discoloration | Tetracyclines | red mnemonic 'Teethracyclines'; [11] Tendon/cartilage damage | Fluoroquinolones | NOTES cell EMPTY. No figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "drug-reaction-hematologic-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone B (DrugReactionHematologicMap in visuals/pharm-p24.tsx — the sulfa-hypersensitivity axis: trigger band → T cell-mediated (type IV) → the DRESS / Stevens-Johnson rash / photosensitivity cards + the drug-induced lupus trio card; and the musculoskeletal/skin quick-dock: the malignant-hyperthermia dantrolene warning card + the seven remaining rows) with both verbatim mnemonics attributed; the table's full text is ALSO carried verbatim in the note's table block (blocks[2]) and m10/s30 rapid review",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "drug-reaction-hematologic-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "drug-reactions-hematologic",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page's TWO visual assets — the printed hematologic table (eight rows) and the printed musculoskeletal/skin/connective-tissue table (eleven rows) — are both accounted for as ORIGINAL KYP ADAPTATIONS: nothing is reproduced; the single registry visual drug-reaction-hematologic-map (DrugReactionHematologicMap in visuals/pharm-p24.tsx, viewBox 0 0 1102 1124) rebuilds both tables' every row, causal agent, note, mnemonic, and quirk as original KYP vector art (the hematopoietic lineage rail with the reaction docks, the sulfa-hypersensitivity axis, the musculoskeletal/skin quick-dock with the dantrolene warning, and the SULFA STRIKES FIVE TIMES band), and both tables' text is additionally carried verbatim in the note's table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi glm-4.6v pass (vlm-census.txt) confirmed both tables' printed row order, the color furniture, and the absence of margin mnemonics/footnotes; the four disputes were adjudicated deterministically (PyMuPDF raw spans + bbox coordinates, documented in vlm-census.txt): the '2+' is the superscript on 'Ca' ('Ca2+ channel blockers'), the trailing notes block of the last three hematologic rows belongs to the Megaloblastic anemia and Thrombotic complications rows, the thrombotic cell prints no comma after 'SERMs', and 'syndrome' prints hyphenated across a wrap in the DRESS note. BATCH-MAP HONESTY: 'gray baby syndrome' and 'serotonin syndrome' rows do NOT print on this page (gray baby lives at book 188/197). FULL single page (no shared split). STAGED under .usmle-pipeline-cache/staging-ph24/ — promotion into content/ is owned downstream."
+}

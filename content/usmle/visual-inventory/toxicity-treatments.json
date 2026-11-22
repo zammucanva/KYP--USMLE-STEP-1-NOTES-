@@ -1,0 +1,73 @@
+{
+  "topicId": "toxicity-treatments",
+  "chapterId": "pharmacology",
+  "inventory": [
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "toxicity-treatments",
+      "requiredInKYP": true,
+      "visualId": "toxicity-treatments-sv1",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Specific toxicity treatments table (book 247, top): the 23-row toxin→antidote pairing table (TOXIN / TREATMENT) — the highest-yield table in toxicology",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi, staging-ph22/vlm-census.txt — VLM available this session): the subsection side label 'Specific toxicity treatments', then a two-column table (TOXIN / TREATMENT) with 23 rows in printed alphabetical order — Acetaminophen → N-acetylcysteine (replenishes glutathione); AChE inhibitors, organophosphates → Atropine > pralidoxime; Antimuscarinic, anticholinergic agents → Physostigmine (crosses BBB), control hyperthermia; Arsenic → Dimercaprol, succimer; Benzodiazepines → Flumazenil; β-blockers → Atropine, glucagon, saline; Carbon monoxide → 100% O2, hyperbaric O2; Copper → “Penny”cillamine (penicillamine), trientine (3 copper pennies) (red); Cyanide → Hydroxocobalamin, nitrites + sodium thiosulfate; Dabigatran → Idarucizumab; Digoxin → Digoxin-specific antibody fragments; Direct factor Xa inhibitors (eg, apixaban) → Andexanet alfa; Heparin → Protamine sulfate; Iron (Fe) → Deferoxamine, deferasirox, deferiprone; Lead → Penicillamine, calcium disodium EDTA, Dimercaprol, Succimer, (PEDS patients lead antidote) (red PEDS capitals); Mercury → Dimercaprol, succimer (red “Dimer”/“imer” portions); Methanol, ethylene glycol (antifreeze) → Fomepizole (the foe of methanol) > ethanol, dialysis; Methemoglobin → Methylene blue, vitamin C (reducing agent) (red “Meth” portions); Methotrexate → Leucovorin; Opioids → Naloxone (red “Opi”/“oxo” portions); Salicylates → NaHCO3 (alkalinizes urine), dialysis; TCAs → NaHCO3 (stabilizes cardiac cell membrane); Warfarin → Vitamin K (delayed effect), PCC (prothrombin complex concentrate)/FFP (immediate effect). No figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "antidote-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone A (AntidoteMap in visuals/pharm-p22.tsx — the 23 pairs re-sorted into four rescue-family routing lanes: BIND IT with 11 chips, BLOCK IT with 4, REFILL IT with 4, REBOOT IT with 6, plus the split-rows band showing organophosphates/cyanide/methemoglobin in both of their lanes) and Zone D (the four-moves protocol strip); the table's full text is ALSO carried verbatim in the note's table block (blocks[1]), core.what, list block (blocks[3]), and recall[0-7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "antidote-map",
+      "plannedImplementation": "registry-visual"
+    },
+    {
+      "sourceBook": "First Aid for the USMLE Step 1 2026",
+      "chapterId": "pharmacology",
+      "rightsStatus": "COPYRIGHTED_NO_REPUBLISH",
+      "subsection": "Pharmacology — Toxicities and Adverse Effects",
+      "topicId": "toxicity-treatments",
+      "requiredInKYP": true,
+      "visualId": "toxicity-treatments-sv2",
+      "sourcePages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "visualType": "VISUAL_TABLE",
+      "visualPurpose": "The Drug reactions—cardiovascular table (book 247, bottom): five adverse cardiovascular drug reactions with their causal agents — including the torsades de pointes row with the ABCDEF mnemonic",
+      "sourceFigureDescription": "COLOR-CODED TABLE, no raster (pdfimages: zero raster images; VLM-read at 120dpi in BOTH passes, staging-ph22/vlm-census.txt + the focused 2x-zoom crop pass vlm-census-bottom.txt — VLM available this session): heading 'Drug reactions—cardiovascular', TWO printed column headers (DRUG REACTION / CAUSAL AGENTS — the batch brief's NOTES column does not print; the Vancomycin infusion reaction sentence is a second paragraph inside the Cutaneous flushing row's causal-agents cell, its lead-in phrase printing blue), five rows in printed order — Coronary vasospasm ← Cocaine, Amphetamines, Sumatriptan, Ergot alkaloids (CASE) (red capitals); Cutaneous flushing ← Vancomycin, Adenosine, Niacin, Ca2+ channel blockers, Echinocandins, Nitrates (flushed from VANCEN [dancing]) (red capitals; the wrap '(flushed from / VANCEN [dancing])' joins as printed) + the Vancomycin infusion reaction (formerly called red man syndrome)—histamine release → widespread pruritic erythema. Infusion rate–dependent. Manage with slower infusion rate, diphenhydramine.; Dilated cardiomyopathy ← Alcohol, anthracycline (eg, doxorubicin, daunorubicin; prevent with dexrazoxane) (red do/da/de), trastuzumab; Peripheral edema ← Dihydropyridine Ca2+ channel blockers (eg, amlodipine); Torsades de pointes ← Associated with agents that prolong QT interval: Methadone, antiArrhythmics (class IA, III), antiBiotics (eg, macrolides, fluoroquinolones), anti“C”ychotics (eg, ziprasidone), antiDepressants (eg, TCAs), antiEmetics (eg, ondansetron), antiFungals (eg, fluconazole) (Memorize your ABCDEF) (red capitals; QT and ABCDEF red; 'antiDepressants' prints complete — the brief's truncation worry adjudicated as none). Left-column reaction names print blue. No figures, icons, or margin notes.",
+      "implementationType": "ORIGINAL_KYP_ADAPTATION",
+      "kypVisualId": "antidote-map",
+      "kypImplementation": "registry-visual",
+      "qaStatus": "passed",
+      "kypLocation": "the registry visual's Zone B (the ABCDEF torsades band: the METHADONE + ABCDEF AGENTS → PROLONG QT INTERVAL → EARLY AFTERDEPOLARIZATIONS → TORSADES DE POINTES chain, the seven M+A-F chips, and First Aid's own '(Memorize your ABCDEF)' instruction carried attributed in a red band) and Zone C (the four-row reactions panel: CASE vasospasm, VANCEN flushing + the vancomycin infusion reaction paragraph, the dilated-cardiomyopathy trio with dexrazoxane prevention, dihydropyridine edema — each card tagged with the reading rule 'the mechanism, misplaced') in AntidoteMap (visuals/pharm-p22.tsx); the table's full text is ALSO carried verbatim in the note's table block (blocks[2]) and recall[7]",
+      "productionStatus": "complete",
+      "plannedKypVisualId": "antidote-map",
+      "plannedImplementation": "registry-visual"
+    }
+  ],
+  "coverageAudit": {
+    "topicId": "toxicity-treatments",
+    "textbookVisualCount": 2,
+    "accountedFor": 2,
+    "sourceReproductions": 0,
+    "kypRedraws": 0,
+    "kypOriginals": 2,
+    "unresolved": 0,
+    "omitted": 0,
+    "omissionReasons": [],
+    "complete": true
+  },
+  "notes": "The page carries TWO visual assets — the 23-row Specific toxicity treatments table (sv1) and the 5-row Drug reactions—cardiovascular table (sv2) — both accounted for as ORIGINAL KYP ADAPTATIONS: nothing is reproduced; ONE registry visual (antidote-map, AntidoteMap in visuals/pharm-p22.tsx, viewBox 0 0 1102 1284) rebuilds both tables' every toxin, antidote, and causal agent as original KYP vector art (sv1 → the four rescue-family routing lanes BIND/BLOCK/REFILL/REBOOT with the split rows shown in both lanes + the four-moves protocol strip; sv2 → the ABCDEF torsades band with the QT→EAD→torsades chain + the four-row reactions panel), and both tables' text is additionally carried verbatim in the note's table blocks. Census: zero raster images (pdfimages); VLM available this session — ONE 120dpi full-page glm-4.6v pass (vlm-census.txt) + ONE focused 2x-zoom bottom-table crop pass (vlm-census-bottom.txt) confirmed the printed row order of both tables, the color furniture, and the absence of margin mnemonics; the two disputes the brief flagged were adjudicated (all four reads agree): the cardiovascular table prints only TWO column headers (no NOTES column — the Vancomycin infusion reaction sentence is a second paragraph inside the cutaneous flushing cell), and 'antiDepressants' prints complete (no truncation; the wrap falls after the full word). FULL single page (no shared split). STAGED under .usmle-pipeline-cache/staging-ph22/ — promotion into content/ is owned downstream."
+}

@@ -1,0 +1,308 @@
+{
+  "topicId": "toxicity-treatments",
+  "title": "Specific Toxicity Treatments: The Antidote Table",
+  "chapterId": "pharmacology",
+  "chapterTitle": "Pharmacology",
+  "subsection": "Pharmacology — Toxicities and Adverse Effects",
+  "part": 1,
+  "sourcePages": {
+    "part": 1,
+    "pdfPages": [
+      269
+    ],
+    "bookPages": "247–247"
+  },
+  "sourceEvidence": [
+    {
+      "claim": "Page identity — the banner, the subsection side label, the section banner, the book page number 247, and the 'SEC TION II' header-space extraction artifact (carried as-is, a known quirk)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "PHARMACOLOGY\n\nSpecific toxicity\ntreatments\n\n▶ PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS\n\n247\n\nSEC TION II",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The antidote table's two column headers — TOXIN / TREATMENT — plus ROW 1: Acetaminophen → N-acetylcysteine (replenishes glutathione)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "TOXIN\n\nTREATMENT\n\nAcetaminophen\n\nN-acetylcysteine (replenishes glutathione)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 2 — AChE inhibitors, organophosphates → Atropine > pralidoxime (the '>' is the source's own preferred-over notation; atropine BLOCKS the muscarinic receptor first, pralidoxime REBOOTS/regenerates the enzyme)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "AChE inhibitors, organophosphates\n\nAtropine > pralidoxime",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROW 3 — Antimuscarinic, anticholinergic agents → Physostigmine (crosses BBB), control hyperthermia (the cholinergic see-saw's mirror row: the AChE inhibitor is the ANTIDOTE here)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Antimuscarinic, anticholinergic agents\n\nPhysostigmine (crosses BBB), control hyperthermia",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 4-6 — Arsenic → Dimercaprol, succimer · Benzodiazepines → Flumazenil · β-blockers → Atropine, glucagon, saline",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Arsenic\n\nDimercaprol, succimer\n\nBenzodiazepines\n\nFlumazenil\n\nβ-blockers\n\nAtropine, glucagon, saline",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 7-9 — Carbon monoxide → 100% O2, hyperbaric O2 · Copper → “Penny”cillamine (penicillamine), trientine (3 copper pennies) (the cell wraps in print as '(3 copper / pennies)' — joined as printed) · Cyanide → Hydroxocobalamin, nitrites + sodium thiosulfate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Carbon monoxide\n\n100% O2, hyperbaric O2\n\nCopper\n\n“Penny”cillamine (penicillamine), trientine (3 copper\npennies)\n\nCyanide\n\nHydroxocobalamin, nitrites + sodium thiosulfate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 10-13 — Dabigatran → Idarucizumab · Digoxin → Digoxin-specific antibody fragments · Direct factor Xa inhibitors (eg, apixaban) → Andexanet alfa · Heparin → Protamine sulfate",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Dabigatran\n\nIdarucizumab\n\nDigoxin\n\nDigoxin-specific antibody fragments\n\nDirect factor Xa inhibitors (eg, apixaban)\n\nAndexanet alfa\n\nHeparin\n\nProtamine sulfate",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 14-16 — Iron (Fe) → Deferoxamine, deferasirox, deferiprone · Lead → Penicillamine, calcium disodium EDTA, Dimercaprol, Succimer, (PEDS patients lead antidote) (capital D/S = the red PEDS capitals; the cell wraps '(PEDS patients lead / antidote)' — joined as printed) · Mercury → Dimercaprol, succimer (lowercase s here, unlike the lead row — both spellings carried as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Iron (Fe)\n\nDeferoxamine, deferasirox, deferiprone\n\nLead\n\nPenicillamine, calcium disodium EDTA,\nDimercaprol, Succimer, (PEDS patients lead\nantidote)\n\nMercury\n\nDimercaprol, succimer",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 17-20 — Methanol, ethylene glycol (antifreeze) → Fomepizole (the foe of methanol) > ethanol, dialysis · Methemoglobin → Methylene blue, vitamin C (reducing agent) · Methotrexate → Leucovorin · Opioids → Naloxone",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Methanol, ethylene glycol (antifreeze)\n\nFomepizole (the foe of methanol) > ethanol, dialysis\n\nMethemoglobin\n\nMethylene blue, vitamin C (reducing agent)\n\nMethotrexate\n\nLeucovorin\n\nOpioids\n\nNaloxone",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "ROWS 21-23 — Salicylates → NaHCO3 (alkalinizes urine), dialysis · TCAs → NaHCO3 (stabilizes cardiac cell membrane) (one salt, two rescue logics) · Warfarin → Vitamin K (delayed effect), PCC (prothrombin complex concentrate)/FFP (immediate effect) (the cell wraps '(prothrombin / complex concentrate)' — joined as printed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Salicylates\n\nNaHCO3 (alkalinizes urine), dialysis\n\nTCAs\n\nNaHCO3 (stabilizes cardiac cell membrane)\n\nWarfarin\n\nVitamin K (delayed effect), PCC (prothrombin\ncomplex concentrate)/FFP (immediate effect)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The bottom table's heading and column headers — 'Drug reactions—cardiovascular' / DRUG REACTION / CAUSAL AGENTS (the print carries only TWO column headers; the batch brief's NOTES column does not print — the Vancomycin infusion reaction sentence is a second paragraph inside the Cutaneous flushing row's causal-agents cell)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Drug reactions—cardiovascular\nDRUG REACTION\n\nCAUSAL AGENTS",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARDIOVASCULAR ROW 1 — Coronary vasospasm ← Cocaine, Amphetamines, Sumatriptan, Ergot alkaloids (CASE) (the capitals spell First Aid's own red mnemonic, carried attributed)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Coronary vasospasm\n\nCocaine, Amphetamines, Sumatriptan, Ergot alkaloids (CASE)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARDIOVASCULAR ROW 2 — Cutaneous flushing ← Vancomycin, Adenosine, Niacin, Ca2+ channel blockers, Echinocandins, Nitrates (flushed from VANCEN [dancing]) — plus the same cell's second paragraph: the Vancomycin infusion reaction (formerly called red man syndrome), histamine release → widespread pruritic erythema, infusion rate–dependent (en dash as printed), managed with slower infusion rate, diphenhydramine",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Cutaneous flushing\n\nVancomycin, Adenosine, Niacin, Ca2+ channel blockers, Echinocandins, Nitrates (flushed from\nVANCEN [dancing])\nVancomycin infusion reaction (formerly called red man syndrome)—histamine release → widespread\npruritic erythema. Infusion rate–dependent. Manage with slower infusion rate, diphenhydramine.",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARDIOVASCULAR ROWS 3-4 — Dilated cardiomyopathy ← Alcohol, anthracycline (eg, doxorubicin, daunorubicin; prevent with dexrazoxane), trastuzumab · Peripheral edema ← Dihydropyridine Ca2+ channel blockers (eg, amlodipine)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Dilated cardiomyopathy\n\nAlcohol, anthracycline (eg, doxorubicin, daunorubicin; prevent with dexrazoxane), trastuzumab\n\nPeripheral edema\n\nDihydropyridine Ca2+ channel blockers (eg, amlodipine)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "CARDIOVASCULAR ROW 5 (the exam centerpiece) — Torsades de pointes ← Associated with agents that prolong QT interval: Methadone, antiArrhythmics (class IA, III), antiBiotics (eg, macrolides, fluoroquinolones), anti“C”ychotics (eg, ziprasidone), antiDepressants (eg, TCAs), antiEmetics (eg, ondansetron), antiFungals (eg, fluconazole) (Memorize your ABCDEF) — 'anti“C”ychotics' is the source's own printed spelling (quotes around the red capital C); 'antiDepressants' prints COMPLETE (the brief's truncation worry adjudicated as no truncation — the wrap falls after the full word)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "Torsades de pointes\n\nAssociated with agents that prolong QT interval: Methadone, antiArrhythmics (class IA, III),\nantiBiotics (eg, macrolides, fluoroquinolones), anti“C”ychotics (eg, ziprasidone), antiDepressants\n(eg, TCAs), antiEmetics (eg, ondansetron), antiFungals (eg, fluconazole) (Memorize your ABCDEF)",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    },
+    {
+      "claim": "The print footer slug and timestamp — FAS1_2026_05-Pharmacology.indd 247 / 12/19/25 8:07 AM (page identity, book 247)",
+      "pages": {
+        "part": 1,
+        "pdfPages": [
+          269
+        ],
+        "bookPages": "247"
+      },
+      "quote": "FAS1_2026_05-Pharmacology.indd 247\n\n12/19/25 8:07 AM",
+      "verified": "pass",
+      "verifiedHow": "pdftotext text-layer containment on pinned pages (verify-evidence.ts)"
+    }
+  ],
+  "visualIds": [
+    "antidote-map"
+  ],
+  "mechanismIds": [
+    "antidote-rescue-mechanism-map",
+    "cardiovascular-reaction-map"
+  ],
+  "kypExtensions": [
+    {
+      "id": "usmle-attack-layer",
+      "summary": "The pattern/trap/pivot/mini-case attack structure layered over the two printed tables — 4 patterns (acetaminophen/NAC repletion, the farmworker organophosphate two-family rescue with the printed 'Atropine > pralidoxime' order, the antifreeze/methanol fomepizole blockade, the methadone+ABCDEF torsades stem), 4 traps (atropine's three hats on one page, the five-metal chelator mapping, NaHCO3's two rescue logics for salicylates vs TCAs, the anticoagulant-reversal quartet with vitamin K's delay), 3 pivots (the four-move protocol, the cholinergic see-saw sorter, the reaction-names-the-mechanism router), and 8 recall cards covering all 23 antidote rows plus the 5 cardiovascular rows.",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid supplies the two tables' pairings only; the attack structure, the distractor designs, and the reading protocols are KYP's design.",
+      "location": "usmle section + recall/rapidReview"
+    },
+    {
+      "id": "four-families-protocol",
+      "summary": "The BIND / BLOCK / REFILL / REBOOT rescue-family classification of every antidote on the page (chelation & capture; receptor competition; substrate & cofactor repletion; enzyme regeneration, metabolic blockade, detour) and the four-move reading protocol (NAME THE TOXIN → NAME THE MECHANISM OF HARM → MATCH THE RESCUE FAMILY → NAME THE ANTIDOTE AND READ ITS PUNCTUATION), including the split-row logic (organophosphates = atropine + pralidoxime; methemoglobin = methylene blue + vitamin C) and the punctuation rule (the '>' and the timing parentheses).",
+      "origin": "outside-first-aid",
+      "rationale": "The source prints the 23 rows as an alphabetical association table and never asks the learner to classify the antidote by its mechanism of rescue; the four-family classification, the split-row logic, and the protocol are KYP's synthesis.",
+      "location": "core.keyIdea + mechanisms[0] + blocks[3] the list block + blocks[4] the steps block + the registry visual's Zone A lanes and Zone D protocol strip"
+    },
+    {
+      "id": "mnemonic-layer",
+      "summary": "The four KYP mnemonics (BIND, BLOCK, REFILL, REBOOT / DE-FE TAKES FE / THE CHOLINERGIC SEE-SAW / K IS SLOW, FAB IS FAST). No mnemonic prints in the page's margins; First Aid's own in-cell red mnemonics (PEDS · “Penny”cillamine + trientine (3 copper pennies) · “Dimer”caprol/succ“imer” · Fomepizole (the foe of methanol) · “Meth”emoglobin→“Meth”ylene blue · “Opi”oids→Nal“oxo”ne · CASE · VANCEN [dancing] · ABCDEF “(Memorize your ABCDEF)” · the do/da/de of doxorubicin/daunorubicin/dexrazoxane) are carried ATTRIBUTED inside the verbatim table, the memory callout, and the visual, and are NOT counted among the four KYP codes.",
+      "origin": "outside-first-aid",
+      "rationale": "No margin mnemonic prints anywhere on pdf 269 (pdfimages + VLM census, staging-ph22/vlm-census.txt and vlm-census-bottom.txt); the four ALL-CAPS codes are KYP's design.",
+      "location": "mnemonics + blocks[6] the memory callout + the visual's ABCDEF band footer text"
+    },
+    {
+      "id": "mini-case-layer",
+      "summary": "The organophosphate farmworker miniCase — best initial antidote — with the correct answer routing the two-family rescue (atropine = muscarinic competition first, pralidoxime = enzyme regeneration second, the printed 'Atropine > pralidoxime') and distractors inverting the order (pralidoxime monotherapy), running the see-saw backwards (physostigmine, the ANTImuscarinic row's antidote, itself an AChE inhibitor), and borrowing the right logic at the wrong receptor (naloxone, hooked by the shared pinpoint pupil).",
+      "origin": "outside-first-aid",
+      "rationale": "First Aid prints the pairing as one cell and never dissects the order or the two mirror rows against distractors; the vignette, the four options, and the reasoning are KYP's design.",
+      "location": "usmle.miniCase + blocks[5] the cholinergic see-saw compare"
+    },
+    {
+      "id": "drug-card-layer",
+      "summary": "The five DrugCards (N-acetylcysteine, pralidoxime, fomepizole, deferoxamine + deferasirox/deferiprone, digoxin-specific antibody fragments) — one card per key antidote spanning four rescue families, each card's pairing traceable to the printed row; the antidote adverse-effect fields are explicitly marked KYP context (the source page maps toxin → antidote only and prints no antidote side effects); methylene blue is folded into blocks/recall/mnemonics rather than a drug card (documented).",
+      "origin": "outside-first-aid",
+      "rationale": "The source organizes the pharmacology as a toxin→treatment table, not as drug cards; the card layer is a KYP presentation, and every adverse-effect statement on the cards is flagged as KYP context rather than printed text.",
+      "location": "drugs"
+    }
+  ],
+  "mnemonicStatus": "authored",
+  "qa": {
+    "sourceVerified": "pass",
+    "contentComplete": "pass",
+    "miniCaseConsistent": "pass",
+    "kypExtensionsTraceable": "pass",
+    "mnemonicQuality": "pass",
+    "visualsPaint": "pass",
+    "visualCoverage": "pass",
+    "mechanismRender": "pass",
+    "lightMode": "pass",
+    "darkMode": "pass",
+    "mobile": "pass",
+    "desktop": "pass",
+    "consoleClean": "pass",
+    "captionsReadable": "pass",
+    "trackerSynced": "pass"
+  },
+  "stages": {
+    "sourceLocated": "pass",
+    "chapterMapped": "pass",
+    "subsectionMapped": "pass",
+    "topicScoped": "pass",
+    "evidencePinned": "pass",
+    "noteAuthored": "pass",
+    "visualsAuthored": "pass",
+    "mechanismAuthored": "pass",
+    "clinicalAuthored": "pass",
+    "pivotsAuthored": "pass",
+    "trapsAuthored": "pass",
+    "mnemonicAuthored": "pass",
+    "rapidReviewAuthored": "pass",
+    "relatedAuthored": "pass",
+    "qaPassed": "pass",
+    "trackerSynced": "pass"
+  },
+  "productionStatus": "pilot-complete",
+  "notes": "FULL single page (no shared split): pdf 269 / book 247 is entirely the PHARMACOLOGY—TOXICITIES AND ADVERSE EFFECTS subsection, carrying TWO blocks — 'Specific toxicity treatments' (23 rows, TOXIN / TREATMENT, printed alphabetical order acetaminophen → warfarin) on top and 'Drug reactions—cardiovascular' (5 rows) at the bottom; BOTH tables are carried verbatim in the note's table blocks (blocks[1] 23 rows, blocks[2] 5 rows). CENSUS (pdfimages): ZERO raster images. VLM WAS AVAILABLE this session: ONE 120dpi glm-4.6v full-page pass (staging-ph22/vlm-census.txt) + ONE focused 2x-zoom adjudication pass on the bottom-table crop (staging-ph22/vlm-census-bottom.txt) confirmed both tables' printed row order, the color furniture (red mnemonic capitals CASE / VANCEN / PEDS / ABCDEF + Methadone's M; red in-cell mnemonics; blue titles, header rule bars, and reaction names; blue Vancomycin-infusion-reaction lead-in), and the absence of margin mnemonics and images. ADJUDICATIONS (all four independent reads agree — raw text layer, pdftotext -layout, and both VLM passes): (1) the cardiovascular table prints only TWO column headers (DRUG REACTION / CAUSAL AGENTS) — the batch brief described a NOTES column, but the print carries none; the Vancomycin infusion reaction sentence is a SECOND PARAGRAPH inside the Cutaneous flushing row's causal-agents cell — carried as printed, and the note documents the correction; (2) the batch brief's 'antiDepressa' truncation-looking worry is adjudicated NO truncation — 'antiDepressants' prints complete on one line, the wrap falls after the full word before '(eg, TCAs)'; (3) the lead row prints 'Dimercaprol, Succimer' (capital D/S — the red PEDS capitals Penicillamine/EDTA/Dimercaprol/Succimer, '(PEDS patients lead antidote)') while the arsenic and mercury rows print 'Dimercaprol, succimer' — both spellings carried as printed; (4) 'anti“C”ychotics' is the source's own printed spelling (quotation marks around the red capital C, printed example ziprasidone), and Methadone leads the torsades list OUTSIDE the ABCDEF letters. Quirks carried + documented: subscripts as plain digits per the cache text layer (100% O2, hyperbaric O2, NaHCO3, Ca2+ channel blockers); 'SEC TION II' header-space extraction artifact; 'Infusion rate–dependent' en dash; in-cell wraps (copper, lead, warfarin, flushing cells) joined as printed; '>' = the source's own preferred-over notation (Atropine > pralidoxime; Fomepizole (the foe of methanol) > ethanol, dialysis). First Aid's own red in-cell mnemonics are carried ATTRIBUTED (not counted among the four KYP mnemonics). Quirks, documented: (1) the batch convention targets are met — 2 mechanisms, 4 patterns, 4 traps, 3 pivots, 8 recall, 4 related (cholinomimetics, muscarinic-antagonists, av-conduction-blocks, drug-reactions-endocrine — the last produced in parallel in this same batch, referenced by design), 3 crossLinks, 4 KYP mnemonics, 5 DrugCards, and a miniCase with 4 options (exactly 1 correct, why/whyWrong on every option); the note is 749 lines and the visual 261, within the brief's 600-750 / 250-400 budgets; (2) productionStatus uses the schema's ProductionStatus vocabulary value 'pilot-complete' (the P-batch manifest convention; the per-record INVENTORY productionStatus is 'complete'); (3) outputs are STAGED under .usmle-pipeline-cache/staging-ph22/ — nothing is written into content/ (chapters/pharmacology.json, content manifests, visual-inventory, notes/index.ts, and the visual registry are owned by the promotion step; the note's visualId 'antidote-map' is therefore not yet in visuals/registry.tsx by design); (4) both of the page's visual assets (the two color-coded tables) are implemented as ORIGINAL KYP ART in ONE registry visual (antidote-map, AntidoteMap in visuals/pharm-p22.tsx, viewBox 0 0 1102 1284): the antidote table becomes the four rescue-family routing lanes with the 23 pairs re-sorted and the split rows shown in both lanes, and the cardiovascular table becomes the ABCDEF torsades band (QT → early afterdepolarizations → torsades chain, the M+A-F chips, and First Aid's own '(Memorize your ABCDEF)' instruction carried attributed) plus the four-row reactions panel (CASE, VANCEN + the vancomycin infusion reaction, the dilated-cardiomyopathy trio with dexrazoxane prevention, dihydropyridine edema) — with both tables' text ALSO carried verbatim in the note's table blocks.",
+  "updatedAt": "2026-11-22"
+}
