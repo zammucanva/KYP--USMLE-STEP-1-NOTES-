@@ -86,6 +86,16 @@ import { ChallengingScenariosMap } from "./pubhealth-p24";
 import { PreventionProphylaxisMap } from "./pubhealth-p25";
 import { InsuranceModelsMap } from "./pubhealth-p26";
 import { PatientSafetyMap } from "./pubhealth-p27";
+import { HeartMorphogenesisMap } from "./heart-morphogenesis";
+import { EmbryologyStructuresMap } from "./heart-embryology-structures";
+import { FetalCirculationMap } from "./fetal-circulation";
+import { HeartAnatomyMap } from "./heart-anatomy";
+import { CardiacOutputMap } from "./cardiac-output-variables";
+import { AuscultationAreasMap } from "./auscultation-areas-maneuvers";
+import { HeartMurmursMap } from "./heart-murmurs";
+import { CardiacApMap } from "./cardiac-action-potentials";
+import { EcgConductionMap } from "./electrocardiogram";
+import { BaroreceptorReflexMap } from "./baroreceptors-chemoreceptors";
 import {
   DnaRepairPathways,
   MutationTypesPanel,
@@ -263,6 +273,17 @@ export const VisualRegistry: Record<string, ComponentType> = {
   "prevention-prophylaxis-map": PreventionProphylaxisMap,
   "insurance-models-map": InsuranceModelsMap,
   "patient-safety-map": PatientSafetyMap,
+  // Cardiovascular — Physiology (cv11-cv15)
+  "heart-morphogenesis-map": HeartMorphogenesisMap,
+  "embryology-structures-map": EmbryologyStructuresMap,
+  "fetal-circulation-map": FetalCirculationMap,
+  "heart-anatomy-map": HeartAnatomyMap,
+  "cardiac-output-map": CardiacOutputMap,
+  "auscultation-areas-map": AuscultationAreasMap,
+  "heart-murmurs-map": HeartMurmursMap,
+  "cardiac-ap-map": CardiacApMap,
+  "ecg-conduction-map": EcgConductionMap,
+  "baroreceptor-reflex-map": BaroreceptorReflexMap,
   "epi-reversal": EpiReversalVisual,
   // Atherosclerosis
   "atherogenesis-timeline": AtherogenesisTimeline,
